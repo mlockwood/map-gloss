@@ -52,8 +52,9 @@ class PathSetter:
 PathSetter.set_pythonpath('aggregation')
 PathSetter.set_pythonpath('map_gloss')
 # Import scripts
-import eval_tam
-import map_gloss
+from src.glossing import map_gloss
+from src.evaluation import eval_tam
+
 
 class Inference:
 

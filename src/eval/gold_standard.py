@@ -16,7 +16,6 @@ map_gloss.py for baseline and evaluation purposes.
 
 import inspect
 import re
-import sys
 import types
 
 class CLSO:
@@ -244,7 +243,7 @@ class PathSetter:
 PathSetter.set_pythonpath('aggregation')
 PathSetter.set_pythonpath('map_gloss')
 # Import scripts
-import functions
+from src.utils import functions
 
 """
 GoldStandard class------------------------------------------------------
@@ -288,53 +287,10 @@ class GS:
         writer.bulk_dump('GS')
         return True
 
-    def load_standard_glosses():
-        reader = open('standard_glosses', 'r')
-        for row in reader:
-            if row[0] == '#':
-                continue
-            line = row.rstrip('\n')
-            line = line.lower()
-            line = re.sub(' ', '', line)
-            line = line.split(',')
-            # Handle pseudo values
-            L_pseudo = False
-            G_pseudo = False
-            if len(line) > 3:
-                for value in line[3:]:
-                    if value == '!L' or value == '!l':
-                        L_pseudo = True
-                    elif value == '!G' or value == '!g':
-                        G_pseudo = True
-            # Set standard glosses
-            GS.glosses[line[0]] = L_pseudo
-            GS.glosses[line[1]] = G_pseudo
-        reader.close()
-        return True
-
     def set_lexicon():
         for obj in GS.objects:
             if GS.objects[obj]._error_type == 'word':
                 GS.lexicon[GS.objects[obj]._gloss] = True
-
-    def load_standard_values():
-        reader = open('standard_values', 'r')
-        for row in reader:
-            if row[0] == '#':
-                continue
-            line = row.rstrip('\n')
-            line = line.lower()
-            line = re.sub(' ', '', line)
-            line = line.split(',')
-            # Handle standard glosses
-            gloss_values = []
-            if len(line) > 2:
-                for value in line[2:]:
-                    gloss_values.append(value)
-            # Send standard values to StandardValue
-            GS.values[line[0]] = gloss_values
-        reader.close()
-        return True
 
     def seek_input():
         """Seek user input on gold standard values.

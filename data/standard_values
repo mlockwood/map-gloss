@@ -1,0 +1,70 @@
+# Pronouns
+i, pronoun, 1sg, sbj
+you, pronoun, 2
+he, pronoun, 3sg, sbj
+she, pronoun, 3sg, sbj
+we, pronoun, 1pl, sbj
+y'all, pronoun, 2pl, sbj
+they, pronoun, 3pl, sbj
+me, pronoun, 1sg, obj
+him, pronoun, 3sg, obj
+her, pronoun, 3sg, obj
+us, pronoun, 1pl, obj
+them, pronoun, 3pl, obj
+my, pronoun, 1sg, poss
+mine, pronoun, 1sg, poss
+your, pronoun, 2, poss
+yours, pronoun, 2, poss
+his, pronoun, 3sg, poss
+her, pronoun, 3sg, poss
+hers, pronoun, 3sg, poss
+our, pronoun, 1pl, poss
+ours, pronoun, 1pl, poss
+their, pronoun, 3pl, poss
+theirs, pronoun, 3pl, poss
+# Demonstratives
+this, demonstrative, dem, sg
+these, demonstrative, dem, pl
+that, demonstrative, dem, sg
+those, demonstrative, dem, pl
+# Part-of-Speech
+adj, pos
+adv, pos
+prep, pos
+pro, pos
+cc, pos
+cd, pos
+dt, pos
+ex, pos
+fw, pos
+in, pos
+jj, pos
+jjr, pos
+jjs, pos
+ls, pos
+md, pos
+nn, pos
+nnp, pos
+nnps, pos
+nns, pos
+pdt, pos
+pos, pos
+prp, pos
+prp$, pos
+rb, pos
+rbr, pos
+rbs, pos
+rp, pos
+sym, pos
+to, pos
+uh, pos
+vb, pos
+vdb, pos
+vbg, pos
+vbn, pos
+vbp, pos
+vbz, pos
+wdt, pos
+wp, pos
+wp$, pos
+wrb, pos

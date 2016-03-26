@@ -17,10 +17,10 @@ scripts which utilize map_gloss.
 """
 Import packages and scripts---------------------------------------------
 """
-import math
-import re
 import os
+import re
 import sys
+
 
 class PathSetter:
 
@@ -47,8 +47,7 @@ class PathSetter:
 PathSetter.set_pythonpath('aggregation')
 PathSetter.set_pythonpath('map_gloss')
 # Import scripts
-import confusion_matrix
-import functions
+from src.utils import functions
 
 """
 MapGloss evaluation-----------------------------------------------------

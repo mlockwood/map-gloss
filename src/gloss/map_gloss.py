@@ -20,7 +20,6 @@ command greater control of the system.
 
 import inspect
 import re
-import sys
 import types
 
 class CLSO:
@@ -220,44 +219,15 @@ class CLSO:
 """
 Import packages and scripts---------------------------------------------
 """
-import configparser
 import copy
-import math
 import os
-import random
 import string
 import sys
 
-class PathSetter:
 
-    def set_pythonpath(directory='', subdirectory=''):
-        if directory:
-            directory = PathSetter.find_path(directory)
-            if subdirectory:
-                if directory[-1] != '/' and subdirectory[0] != '/':
-                    directory += '/'
-                directory += subdirectory
-        else:
-            directory = os.getcwd()
-        sys.path.append(directory)
-        return True
-
-    def find_path(directory):
-        match = re.search('/' + str(directory), os.getcwd())
-        if not match:
-            raise IOError(str(directory) + 'is not in current working ' +
-                          'directory')
-        return os.getcwd()[:match.span()[0]] + '/' + directory
-
-# Add aggregation and map_gloss to PYTHONPATH
-PathSetter.set_pythonpath('aggregation')
-PathSetter.set_pythonpath('map_gloss')
 # Import scripts
-import confusion_matrix
-import evaluation
-import functions
-import gold_standard
-import machine_learning
+from src.eval import confusion_matrix, evaluation, gold_standard
+from src.utils import functions, machine_learning
 
 """
 MapGloss----------------------------------------------------------------
@@ -269,20 +239,12 @@ class MapGloss:
     individual input glosses that must have a language iso value.
     """
     cross_valid = {}
-    load_gold_standard = True
-    load_language = True
-    knn = False
-    maxent = False
-    nb = False
-    tbl = True
     standard = {}
     
     """
     Main processing functions-------------------------------------------
     """
     def process(train, test):
-        # Set configuration variables
-        MapGloss.load_configuration()
         # Define collections
         collections = train + test
         # Load data for all datasets in the collections
@@ -362,31 +324,6 @@ class MapGloss:
     """
     Data Processing Functions-------------------------------------------
     """
-    def load_configuration():
-        config = configparser.ConfigParser()
-        config.read('map_gloss.ini')
-        for value in config['DEFAULT']:
-            exec('MapGloss.' + value + '=' + config['DEFAULT'][value])
-        if 'MODEL' in config:
-            if 'id' in config['MODEL']:
-                MapGloss.model_ID = config['MODEL']['id']
-        return True
-
-    def export_configuration(ID):
-        print(ID)
-        config = configparser.ConfigParser()
-        config.read('map_gloss.ini')
-        try:
-            config.add_section('MODEL')
-            config.set('MODEL', 'id', ID)
-        except:
-            config['MODEL']['id'] = ID
-        print(config['MODEL']['id'])
-        config_file = open('map_gloss.ini', 'w')
-        config.write(config_file)
-        config_file.close()
-        return True
-    
     def auto_load(collections):
         MapGloss.load_standard_glosses()
         MapGloss.load_standard_values()
@@ -395,52 +332,7 @@ class MapGloss:
         gold_standard.GS.load()
         MapGloss.gold_standard_to_vector()
 
-    def load_standard_glosses():
-        reader = open('standard_glosses', 'r')
-        for row in reader:
-            if row[0] == '#':
-                continue
-            line = row.rstrip('\n')
-            line = line.lower()
-            line = re.sub(' ', '', line)
-            line = line.split(',')
-            # Handle pseudo values
-            L_pseudo = False
-            G_pseudo = False
-            if len(line) > 3:
-                for value in line[3:]:
-                    if value == '!L' or value == '!l':
-                        L_pseudo = True
-                    elif value == '!G' or value == '!g':
-                        G_pseudo = True
-            # Send standard glosses to StandardGloss
-            if (line[0] not in StandardGloss.objects and
-                line[1] not in StandardGloss.objects):
-                StandardGloss(line[0], line[1], line[2], L_pseudo, G_pseudo)
-            MapGloss.standard[line[0]] = L_pseudo
-            MapGloss.standard[line[1]] = G_pseudo
-        reader.close()
-        return True
 
-    def load_standard_values():
-        reader = open('standard_values', 'r')
-        for row in reader:
-            if row[0] == '#':
-                continue
-            line = row.rstrip('\n')
-            line = line.lower()
-            line = re.sub(' ', '', line)
-            line = line.split(',')
-            # Handle standard glosses
-            glosses = []
-            if len(line) > 2:
-                for value in line[2:]:
-                    glosses.append(value)
-            # Send standard values to StandardValue
-            if line[0] not in StandardValue.objects:
-                StandardValue(line[0], line[1], glosses)
-        reader.close()
-        return True
             
     def load():
         """Load a CLSO file containing all DS.
@@ -455,19 +347,7 @@ class MapGloss:
         gold_standard.GS.export()
         return True
 
-    def prepare_data(collections):
-        # Set path to the root of the AGGREGATION folder
-        agg_path = PathSetter.find_path('aggregation')
-        # Initialize and prepare objects for map_gloss.py
-        data = []
-        for collection in collections:
-            for iso in collection[0]:
-                xigt_path = (agg_path + '/data/567/' + collection[1] + '/' +
-                             iso + '/testsuite-enriched.xml')
-                data.append((collection[1], iso, xigt_path))
-        # Return prepared datasets
-        return data
-
+    @staticmethod
     def add_data(collection):
         """Function for the user to call to process a set(s) of glosses.
         Ensures that /src/xigt is in the PYTHONPATH.
@@ -477,74 +357,56 @@ class MapGloss:
                         following:
                         [(collection_name, iso_code, xigt_file), ... ]
         """
-        # Add XIGT to PYTHONPATH
-        PathSetter.set_pythonpath('aggregation', 'src/xigt')
-        # Import xigtxml from xigt.codecs to allow reading of xigt files
-        from xigt.codecs import xigtxml
-        # Check data formatting
-        if not isinstance(collection, list):
-            collection = [collection]
-        for item in collection:
-            if len(item) != 3:
-                raise ValueError('Each set must be a tuple with ' +
-                                 '(collection_name, iso_code, xigt_file)')
+
+
         # Process and convert data
         out_data = []
         for dataset in collection:
-            """
-            DEPRECATED FUNCTIONALITY
-            # If dataset already has vector values, do not process but alert
-            # the user; override this if load_vector is False
-            if ((dataset[0], dataset[1]) in Vector.datasets and
-                MapGloss.load_vector == True):
-                print('Dataset of (' + str(dataset[0]) + ') with ISO ' +
-                      str(dataset[1]) + ' has been previously processed')
-                continue
-            """
-            # Open the current xigt file
-            file = open(dataset[2])
-            xc = xigtxml.load(file)
-            file.close()
-            punctex = re.compile('[%s]' % string.punctuation)
-            # Train each IGT sentence
-            for igt in xc:
-                # Capture the morphemes
-                morphemes = {}
-                for morpheme in igt.get('m'):
-                    morphemes[morpheme.id] = morpheme.value()
-                # Determine which glosses share a morpheme
-                shared_morphemes = {}
-                for gloss in igt.get('g'):
-                    try:
-                        if morphemes[gloss.alignment] not in shared_morphemes:
-                            shared_morphemes[morphemes[gloss.alignment]] = []
-                        shared_morphemes[morphemes[gloss.alignment]] = (
-                            shared_morphemes.get(morphemes[gloss.alignment], 0) +
-                            [re.sub(' ', '', str(gloss.value()).lower())])
-                    except:
-                        pass
-                # Capture the translated words
-                words = {}
-                for line in igt.get('t'):
-                    line = str(line.value()).lower()
-                    line = line.split()
-                    for word in line:
-                        words[word] = True
-                # Create a vector for each gloss instance
-                for gloss in igt.get('g'):
-                    gloss = re.sub(punctex, '', str(gloss.value()))
-                    if gloss:
-                        word_match = False
-                        if gloss.lower() in words:
-                            word_match = True
+            for iso in collection[dataset]:
+                # Open the current xigt file
+                file = open(collection[dataset][iso])
+                xc = xigtxml.load(file)
+                file.close()
+                punctex = re.compile('[%s]' % string.punctuation)
+                # Train each IGT sentence
+                for igt in xc:
+
+                    # Capture the morphemes
+                    morphemes = {}
+                    for morpheme in igt.get('m'):
+                        morphemes[morpheme.id] = morpheme.value()
+
+                    # Determine which glosses share a morpheme
+                    shared_morphemes = {}
+                    for gloss in igt.get('g'):
                         try:
-                            Vector(dataset[0], dataset[1], gloss,
-                                shared_morphemes[morphemes[gloss.alignment]],
-                                word_match)
+                            if morphemes[gloss.alignment] not in shared_morphemes:
+                                shared_morphemes[morphemes[gloss.alignment]] = []
+                            shared_morphemes[morphemes[gloss.alignment]] = (shared_morphemes.get(
+                                morphemes[gloss.alignment], 0) + [re.sub(' ', '', str(gloss.value()).lower())])
                         except:
-                            Vector(dataset[0], dataset[1], gloss, '',
-                                   word_match)
-        return True
+                            pass
+
+                    # Capture the translated words
+                    words = {}
+                    for line in igt.get('t'):
+                        line = str(line.value()).lower()
+                        line = line.split()
+                        for word in line:
+                            words[word] = True
+
+                    # Create a vector for each gloss instance
+                    for gloss in igt.get('g'):
+                        gloss = re.sub(punctex, '', str(gloss.value()))
+                        if gloss:
+                            word_match = False
+                            if gloss.lower() in words:
+                                word_match = True
+                            try:
+                                Vector(dataset, iso, gloss, shared_morphemes[morphemes[gloss.alignment]], word_match)
+                            except:
+                                Vector(dataset, iso, gloss, '', word_match)
+            return True
 
     def gold_standard_to_vector():
         refresh = []
@@ -655,9 +517,9 @@ class MapGloss:
         # Dataset level cprf files
         for dataset in Language.std_glosses:
             confusion_matrix.CM(Language.std_glosses[dataset],
-                Language.obs_glosses[dataset], dataset + '_baseline')
+                                Language.obs_glosses[dataset], dataset + '_baseline')
             confusion_matrix.CM(Language.std_glosses[dataset],
-                Language.final_glosses[dataset], dataset + '_final')
+                                Language.final_glosses[dataset], dataset + '_final')
             c_obj = confusion_matrix.Compare(dataset + '_final',
                                              dataset + '_baseline')
             c_obj.write_cprf_file('evaluation/cprf/'+str(dataset))
@@ -683,53 +545,6 @@ class MapGloss:
         for obj in StandardGloss.objects:
             distances[obj] = functions.levenshtein(gloss, obj)
         return distances
-
-"""
-Standard Classes--------------------------------------------------------
-"""
-
-class StandardGloss:
-
-    objects = {}
-
-    def __init__(self, leipzig, gold, category, L_pseudo=False,
-                 G_pseudo=False):
-        self._leipzig = leipzig
-        self._gold = gold
-        self._category = category
-        self._L_pseudo = L_pseudo
-        self._G_pseudo = G_pseudo
-        StandardGloss.objects[leipzig] = self
-        StandardGloss.objects[gold] = self
-
-    def export():
-        """Export the standard gloss CLSO file.
-        """
-        writer = CLSO('standard_gloss', option='w')
-        writer.bulk_dump('StandardGloss')
-        return True
-
-    def delete_stardard_gloss(gloss):
-        """Delete a standard gloss pair.
-
-        Keyword arguments:
-          gloss -- a leipzig of GOLD gloss
-        """
-        leipzig_gloss = StandardGloss.objects[gloss]._leipzig
-        gold_gloss = StandardGloss.objects[gloss]._gold
-        del StandardGloss.objects[leipzig_gloss]
-        del StandardGloss.objects[gold_gloss]
-        return True
-
-class StandardValue:
-
-    objects = {}
-
-    def __init__(self, value, feature, standard_glosses):
-        self._value = value
-        self._feature = feature
-        self._standard_glosses = []
-        StandardValue.objects[value] = self
 
 """
 Data Storage and Handling Classes---------------------------------------
@@ -917,7 +732,7 @@ class UniqueVector:
 
     def set_standard(self):
         self._standard = str(gold_standard.GS.objects[(self._dataset,
-            self._iso, self._gloss)]._standard)
+                                                       self._iso, self._gloss)]._standard)
         self._language._std_glosses[self._standard] = True
         # Set dataset level value
         if self._dataset not in Language.std_glosses:
@@ -1035,28 +850,6 @@ class Language:
         file = 'evaluation/cprf/' + str(self._iso)
 
 
-"""
-567 Dataset Collections-------------------------------------------------
-"""
-def load_datasets(train_datasets=[], test_datasets=[]):
-    training = []
-    testing = []
-    config = configparser.ConfigParser()
-    config.read('datasets.ini')
-    for dataset in config:
-        temp = str(dataset).lower() + '={'
-        for value in config[dataset]:
-            temp += ('\'' + value + '\':' + str(config[dataset][value]) +  ',')
-        temp += '}'
-        exec(temp)
-        if dataset.lower() in train_datasets:
-            training.append((eval(dataset.lower()), dataset.lower()))
-        elif dataset.lower() in test_datasets:
-            testing.append((eval(dataset.lower()), dataset.lower()))
-    return training, testing
-
-train, test = load_datasets(train_datasets=['dev1', 'dev2'],
-                            test_datasets=['test'])
 
 if not os.path.exists(os.getcwd() + '/model.clso'):
     print('Existing map_gloss model not found, constructing one now.')

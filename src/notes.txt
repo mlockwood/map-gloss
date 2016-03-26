@@ -1,0 +1,23 @@
+need to be conscientious of the dataset paths
+
+needed immediate work:
+- fix up importing
+- convert configs to constants
+- convert clso files to csv/text
+
+gold_standard.clso -> lexicon, gold_standard
+gold_standard -> [dataset, iso, gloss, count, classification, standard, gold_values (- delimited)]
+    _dataset=dev1
+    _error_type=incomplete
+    _gloss=3p
+    _gold_values=['3', 'p']
+    _iso=hau
+    _observed=3
+    _standard=incomplete
+
+
+NEED TO ADD XIGT TO SRC AND THEN IMPORT TO MAP_GLOSS.PY instead of this:
+    # Add XIGT to PYTHONPATH
+    PathSetter.set_pythonpath('aggregation', 'src/xigt')
+    # Import xigtxml from xigt.codecs to allow reading of xigt files
+    from xigt.codecs import xigtxml

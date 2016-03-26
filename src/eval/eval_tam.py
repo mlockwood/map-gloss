@@ -44,8 +44,9 @@ class PathSetter:
 PathSetter.set_pythonpath('aggregation')
 PathSetter.set_pythonpath('map_gloss')
 # Import scripts
-import choices_reader
-import confusion_matrix
+from src.evaluation import confusion_matrix
+from src.utils import choices_reader
+
 
 class Evaluation:
 

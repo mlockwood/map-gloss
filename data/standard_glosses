@@ -1,0 +1,113 @@
+1, FirstPerson, per
+2, SecondPerson, per
+3, ThirdPerson, per
+SG, SingularNumber, num
+DU, DualNumber, num, !L
+PL, PluralNumber, num
+1SG, FirstPerson-SingularNumber, pernum
+2SG, SecondPerson-SingularNumber, pernum
+3SG, ThirdPerson-SingualNumber, pernum
+1DU, FirstPerson-DualNumber, pernum, !L
+2DU, SecondPerson-DualNumber, pernum, !L
+3DU, ThirdPerson-DualNumber, pernum, !L
+1PL, FirstPerson-PluralNumber, pernum
+2PL, SecondPerson-PluralNumber, pernum
+3PL, ThirdPerson-PluralNumber, pernum
+A, Agent, case
+ABL, Ablative, case
+ABS, Absolutive, case
+ACC, Accusative, case
+ALL, Allative, case
+ANIM, Animate, gender, !L
+ANTIP, Antipassive, verb
+APPL, Applicative, verb
+AUX, Auxiliary, verb
+BEN, Benefactive, case
+CAUS, Causative, verb
+COM, Comitative, case
+COMP, Complementizer, structure
+COMPL, Completive, aspect-mood
+COND, Conditional, verb
+CONJ, Conjunction, coord, !L
+CONT, Continuous, aspect-tense, !L
+COP, Copula, verb
+DAT, Dative, case
+DECL, Declarative, mood
+DEF, Definite, noun
+DEM, Demonstrative, dem
+DIR, Direct, dirinv, !L
+DIST, Distal, tense-aspect
+DISTR, Distributive, aspect-pernum
+DUB, Dubitive, mood
+DUR, Durative, aspect
+EMPH, Emphatic, info
+ERG, Ergative, case
+EXCL, Exclusive, person
+F, Feminine, gender
+FP, FocusPoint, info
+FV, FinalVowel, other
+FAM, Familiar, person
+FOC, Focus, info
+FORM, Formal, person
+FUT, Future, tense
+GEN, Genitive, case
+HAB, Habitual, aspect-tense
+IMP, Imperative, verb
+INANIM, Inanimate, gender, !L
+INCL, Inclusive, person
+IND, Indicative, mood
+INDF, Indefinite, noun
+INF, Infinitive, verb
+INS, Instrumental, case
+INTR, Intransitive, noun
+INV, Inverse, dirinv, !L
+IPFV, Imperfective, aspect
+IRR, Irrealis, mood
+LOC, Locative, case
+M, Masculine, gender
+N, Neuter, gender
+N-, Non, non
+NEG, Negation, neg
+NFUT, NonFuture, tense, !L
+NMLZ, Nominalizer, noun
+NOM, Nominative, case
+NPRS, NonPresent, tense, !L
+NPST, NonPast, tense, !L
+NRFUT, NearFuture, tense, !L
+NRPRS, NearPresent, tense, !L
+NRPST, NearPast, tense, !L
+OBJ, Object, case
+OBL, Oblique, case
+P, Patient, case
+PASS, Passive, verb
+PERS, Personal, aspect-mood, !L
+PFV, Perfective, aspect
+PL, PluralPerson, per
+POSS, Possessive, noun
+PRED, Predicative, structure
+PRET, Preterite, tense-aspect,!L, !G
+PRF, Perfect, tense-aspect
+PROG, Progressive, aspect-test
+PROH, Prohibitive, mood
+PROX, Proximal, tense-aspect, !G
+PRS, Present, tense
+PST, Past, tense
+PTCP, Participle, verb
+PURP, Purposive, mood, !G
+Q, Question, q
+QUOT, Quotative, mood, !G
+REC, Recent, tense-aspect, !L
+RECP, Reciprocal, noun
+REFL, Reflexive, noun
+REL, Relative, coord
+REM, Remote, tense-aspect, !L
+REP, Repetitive, verb
+RES, Resultative, aspect
+S, Single, case
+SBJ, Subject, case
+SBJV, Subjunctive, mood
+SG, SingularPerson, per
+STAT, Stative, verb
+TOP, Topic, info
+TR, Transitive, verb
+VOC, Vocative, case

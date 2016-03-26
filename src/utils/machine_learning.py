@@ -218,7 +218,6 @@ class CLSO:
 """
 Import packages and scripts---------------------------------------------
 """
-import copy
 import pickle
 import math
 import os
@@ -247,7 +246,7 @@ class PathSetter:
 # Add map_gloss to PYTHONPATH
 PathSetter.set_pythonpath('map_gloss')
 # Import scripts
-import functions
+from src.utils import functions
 
 """
 Machine Learning Classes------------------------------------------------

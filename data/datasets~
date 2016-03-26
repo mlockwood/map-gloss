@@ -1,0 +1,36 @@
+[DEV1]
+ang = False
+hau = False
+isl = False
+jpn = True
+jup = True
+mnk = False
+nan = False
+pbt = True
+rus = True
+sna = True
+
+[DEV2]
+bre = True
+cym = False
+fra = True
+lut = True
+mal = False
+ojg = True
+qub = False
+sci = True
+tam = True
+zul = False
+
+[TEST]
+ain = True
+ary = False
+ces = False
+hbs = True
+hix = True
+inh = True
+jaa = True
+kat = True
+tgl = False
+tha = True
+vie = True

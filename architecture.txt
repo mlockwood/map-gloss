@@ -1,0 +1,50 @@
+/src
+    /evaluation
+        __init__.py
+        confusion_matrix.py
+        constants.py
+        errors.py
+        eval_gloss.py
+        eval_infer.py
+        gold_standard.py
+
+    /gloss
+        __init__.py
+        constants.py # move load functions here and load standard grams/values
+        errors.py
+        map_gloss.py
+
+    /inference
+        __init__.py
+        constants.py
+        errors.py
+        infer.py
+
+    /utils
+        __init__.py
+        choices_reader.py
+        functions.py
+        machine_learning.py
+        tex_format_table.py
+
+    __init__.py
+    architecture.txt
+    constants.py # add path-setter find_path() and call to set agg path here
+
+
+/data
+- standard grams
+- standard values
+- gold standard grams
+- gold standard choices
+
+/out
+- models
+
+
+/report
+- cprf
+- hprf
+- frequency of choices
+- choices files
+- model acc files
