@@ -1,11 +1,11 @@
-import os
-import re
-import src.gloss.errors as GlossErrors
-
-
 __author__ = 'Michael Lockwood'
 __email__ = 'lockwm@uw.edu'
 __github__ = 'mlockwood'
+
+
+import os
+import re
+import src.gloss.errors as GlossErrors
 
 
 def find_path(directory):
@@ -15,55 +15,8 @@ def find_path(directory):
     return os.getcwd()[:match.span()[0]] + '/' + directory
 
 
-def load_standard_grams(data_path):
-    grams = {}
-    reader = open(data_path + '/standard_grams', 'r')
-    for row in reader:
-        if row[0] == '#':
-            continue
-        line = row.rstrip()
-        line = line.lower()
-        line = re.sub(' ', '', line)
-        line = line.split(',')
-        # Handle pseudo values
-        L_pseudo = False
-        G_pseudo = False
-        if len(line) > 3:
-            for value in line[3:]:
-                if value == '!L' or value == '!l':
-                    L_pseudo = True
-                elif value == '!G' or value == '!g':
-                    G_pseudo = True
-        # Standard grams set of key = Leipzig or GOLD and value = [Leipzig, GOLD, categories, L-p, G-p]
-        grams[line[0]] = line[0:3] + [L_pseudo, G_pseudo]
-        grams[line[1]] = line[0:3] + [L_pseudo, G_pseudo]
-    reader.close()
-    return grams
-
-
-def load_standard_values(data_path):
-    values = {}
-    reader = open(data_path + '/standard_values', 'r')
-    for row in reader:
-        if row[0] == '#':
-            continue
-        line = row.rstrip()
-        line = line.lower()
-        line = re.sub(' ', '', line)
-        line = line.split(',')
-        # Handle standard glosses
-        grams = []
-        if len(line) > 2:
-            for value in line[2:]:
-                grams.append(value)
-        # Standard values set of key = value and value = [value, type, grams...]
-        values[line[0]] = line
-    reader.close()
-    return values
-
-
-def load_datasets(data_path, var_paths= {}):
-    # {dataset: {iso: xigt_path}}
+def load_choices(data_path, var_paths= {}):
+    # {dataset: {iso: choices_path}}
     datasets = {}
     cur_dataset = ''
     reader = open(data_path + '/datasets', 'r')
@@ -122,10 +75,7 @@ DEV1_PATH = AGG_PATH + '/data/567/dev1'
 DEV2_PATH = AGG_PATH + '/data/567/dev2'
 TEST_PATH = AGG_PATH + '/data/567/test'
 
-GRAMS = load_standard_grams(PATH +'/data')
-VALUES = load_standard_values(PATH +'/data')
-DATASETS = load_datasets(PATH +'/data', {'agg': AGG_PATH, 'dev1': DEV1_PATH, 'dev2': DEV2_PATH, 'test': TEST_PATH})
-MODELS = load_model(PATH +'/data')
+RADIO = {'fut': 'future', 'future': 'future', 'past': 'past', 'pst': 'past', 'prs': 'present', 'present': 'present'}
+CHOICES = load_choices(PATH + '/data', {'agg': AGG_PATH, 'dev1': DEV1_PATH, 'dev2': DEV2_PATH, 'test': TEST_PATH})
 CTYPES = {'language': True, 'dataset': True, 'model': True}
-
-EVAL = True
+FTYPES = {'gold': True, 'baseline5': True, 'final': True}

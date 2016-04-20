@@ -1,0 +1,3025 @@
+dev1,ang,1du,2,standard,1du
+dev1,ang,1pl,9,standard,1pl
+dev1,ang,1sg,62,standard,1sg
+dev1,ang,2du,1,standard,2du
+dev1,ang,2pl,6,standard,2pl
+dev1,ang,2sg,37,standard,2sg
+dev1,ang,3pl,53,standard,3pl
+dev1,ang,3sg,79,standard,3sg
+dev1,ang,3sg?,1,misspelled,3sg
+dev1,ang,?,1,lexical entry,lexical entry
+dev1,ang,acc,40,standard,acc
+dev1,ang,after,2,lexical entry,lexical entry
+dev1,ang,against,1,lexical entry,lexical entry
+dev1,ang,all,1,lexical entry,lexical entry
+dev1,ang,am,2,lexical entry,lexical entry
+dev1,ang,and,3,lexical entry,lexical entry
+dev1,ang,apollonius,9,lexical entry,lexical entry
+dev1,ang,apollonius.,1,lexical entry,lexical entry
+dev1,ang,are,4,lexical entry,lexical entry
+dev1,ang,army,1,lexical entry,lexical entry
+dev1,ang,ask,1,lexical entry,lexical entry
+dev1,ang,at,1,lexical entry,lexical entry
+dev1,ang,await,9,lexical entry,lexical entry
+dev1,ang,awaits,1,lexical entry,lexical entry
+dev1,ang,be,1,lexical entry,lexical entry
+dev1,ang,began,1,lexical entry,lexical entry
+dev1,ang,believe,1,lexical entry,lexical entry
+dev1,ang,belong,1,lexical entry,lexical entry
+dev1,ang,beyond,1,lexical entry,lexical entry
+dev1,ang,brother,1,lexical entry,lexical entry
+dev1,ang,can,5,lexical entry,lexical entry
+dev1,ang,carbuncles,3,lexical entry,lexical entry
+dev1,ang,carbuncles.,1,lexical entry,lexical entry
+dev1,ang,cats,9,lexical entry,lexical entry
+dev1,ang,chase,14,lexical entry,lexical entry
+dev1,ang,child,1,lexical entry,lexical entry
+dev1,ang,come,2,lexical entry,lexical entry
+dev1,ang,conceive,1,lexical entry,lexical entry
+dev1,ang,confidence,1,lexical entry,lexical entry
+dev1,ang,continue,1,lexical entry,lexical entry
+dev1,ang,could,1,lexical entry,lexical entry
+dev1,ang,creature,1,lexical entry,lexical entry
+dev1,ang,dat,32,standard,dat
+dev1,ang,day,1,lexical entry,lexical entry
+dev1,ang,dead,1,lexical entry,lexical entry
+dev1,ang,declare,1,lexical entry,lexical entry
+dev1,ang,do,1,lexical entry,lexical entry
+dev1,ang,dog,1,lexical entry,lexical entry
+dev1,ang,dogs,17,lexical entry,lexical entry
+dev1,ang,earth,1,lexical entry,lexical entry
+dev1,ang,eat,4,lexical entry,lexical entry
+dev1,ang,every,1,lexical entry,lexical entry
+dev1,ang,fem,25,misspelled,f
+dev1,ang,field,1,lexical entry,lexical entry
+dev1,ang,gearwe,1,lexical entry,lexical entry
+dev1,ang,gearwe.,1,lexical entry,lexical entry
+dev1,ang,gen,27,standard,gen
+dev1,ang,gift,2,lexical entry,lexical entry
+dev1,ang,gifts,4,lexical entry,lexical entry
+dev1,ang,give,1,lexical entry,lexical entry
+dev1,ang,glass,1,lexical entry,lexical entry
+dev1,ang,glass.,1,lexical entry,lexical entry
+dev1,ang,gods,1,lexical entry,lexical entry
+dev1,ang,good,1,lexical entry,lexical entry
+dev1,ang,have,4,lexical entry,lexical entry
+dev1,ang,he,14,incomplete,incomplete
+dev1,ang,hear,1,lexical entry,lexical entry
+dev1,ang,hell,1,lexical entry,lexical entry
+dev1,ang,her,3,incomplete,incomplete
+dev1,ang,here,2,lexical entry,lexical entry
+dev1,ang,him,5,incomplete,incomplete
+dev1,ang,hold,1,lexical entry,lexical entry
+dev1,ang,humber,1,lexical entry,lexical entry
+dev1,ang,hunger,1,lexical entry,lexical entry
+dev1,ang,hungry,5,lexical entry,lexical entry
+dev1,ang,hurt,1,lexical entry,lexical entry
+dev1,ang,i,31,incomplete,incomplete
+dev1,ang,if,3,lexical entry,lexical entry
+dev1,ang,imp,1,standard,imp
+dev1,ang,in,1,lexical entry,lexical entry
+dev1,ang,inkpen,1,lexical entry,lexical entry
+dev1,ang,intention,1,lexical entry,lexical entry
+dev1,ang,is,6,lexical entry,lexical entry
+dev1,ang,it,5,lexical entry,lexical entry
+dev1,ang,judge,1,lexical entry,lexical entry
+dev1,ang,kings,1,lexical entry,lexical entry
+dev1,ang,know,4,lexical entry,lexical entry
+dev1,ang,land,2,lexical entry,lexical entry
+dev1,ang,live,1,lexical entry,lexical entry
+dev1,ang,long,1,lexical entry,lexical entry
+dev1,ang,love,10,lexical entry,lexical entry
+dev1,ang,loves,1,lexical entry,lexical entry
+dev1,ang,man,1,lexical entry,lexical entry
+dev1,ang,many,1,lexical entry,lexical entry
+dev1,ang,masc,57,misspelled,m
+dev1,ang,may,2,lexical entry,lexical entry
+dev1,ang,me,3,incomplete,incomplete
+dev1,ang,my,4,incomplete,incomplete
+dev1,ang,neither,1,lexical entry,lexical entry
+dev1,ang,neut,22,misspelled,n
+dev1,ang,neutr,1,misspelled,n
+dev1,ang,no,1,lexical entry,lexical entry
+dev1,ang,nom,101,standard,nom
+dev1,ang,none,1,lexical entry,lexical entry
+dev1,ang,not,15,incomplete,incomplete
+dev1,ang,one,2,lexical entry,lexical entry
+dev1,ang,our,1,incomplete,incomplete
+dev1,ang,perceived,1,lexical entry,lexical entry
+dev1,ang,pl,46,standard,pl
+dev1,ang,property,1,lexical entry,lexical entry
+dev1,ang,pst,9,standard,pst
+dev1,ang,read,2,lexical entry,lexical entry
+dev1,ang,relate,1,lexical entry,lexical entry
+dev1,ang,right,1,lexical entry,lexical entry
+dev1,ang,said,1,lexical entry,lexical entry
+dev1,ang,sailor,1,lexical entry,lexical entry
+dev1,ang,sailor?,1,lexical entry,lexical entry
+dev1,ang,save,14,lexical entry,lexical entry
+dev1,ang,saves,4,lexical entry,lexical entry
+dev1,ang,say,2,lexical entry,lexical entry
+dev1,ang,see,5,lexical entry,lexical entry
+dev1,ang,seed,1,lexical entry,lexical entry
+dev1,ang,seek,1,lexical entry,lexical entry
+dev1,ang,sg,25,standard,sg
+dev1,ang,shall,2,lexical entry,lexical entry
+dev1,ang,she,5,incomplete,incomplete
+dev1,ang,sleep,8,lexical entry,lexical entry
+dev1,ang,sow,1,lexical entry,lexical entry
+dev1,ang,star,8,lexical entry,lexical entry
+dev1,ang,stars,1,lexical entry,lexical entry
+dev1,ang,stewardship,1,lexical entry,lexical entry
+dev1,ang,stone,8,lexical entry,lexical entry
+dev1,ang,stones,4,lexical entry,lexical entry
+dev1,ang,sub,1,misspelled,sbj
+dev1,ang,subj,1,misspelled,sbj
+dev1,ang,take,1,lexical entry,lexical entry
+dev1,ang,tat,1,lexical entry,lexical entry
+dev1,ang,than,1,lexical entry,lexical entry
+dev1,ang,that,17,incomplete,incomplete
+dev1,ang,the,25,lexical entry,lexical entry
+dev1,ang,them,4,incomplete,incomplete
+dev1,ang,then,2,lexical entry,lexical entry
+dev1,ang,there,1,lexical entry,lexical entry
+dev1,ang,these,1,incomplete,incomplete
+dev1,ang,they,2,incomplete,incomplete
+dev1,ang,things,1,lexical entry,lexical entry
+dev1,ang,think,2,lexical entry,lexical entry
+dev1,ang,thirst,1,lexical entry,lexical entry
+dev1,ang,this,1,incomplete,incomplete
+dev1,ang,those,1,incomplete,incomplete
+dev1,ang,thought,1,lexical entry,lexical entry
+dev1,ang,to,3,lexical entry,lexical entry
+dev1,ang,tomorrow,2,lexical entry,lexical entry
+dev1,ang,until,1,lexical entry,lexical entry
+dev1,ang,us,3,incomplete,incomplete
+dev1,ang,we,5,incomplete,incomplete
+dev1,ang,were,2,lexical entry,lexical entry
+dev1,ang,what,1,lexical entry,lexical entry
+dev1,ang,whatsoever,1,lexical entry,lexical entry
+dev1,ang,whatsoever.,1,lexical entry,lexical entry
+dev1,ang,whether,2,lexical entry,lexical entry
+dev1,ang,which,1,lexical entry,lexical entry
+dev1,ang,who,1,lexical entry,lexical entry
+dev1,ang,will,1,lexical entry,lexical entry
+dev1,ang,wish,2,lexical entry,lexical entry
+dev1,ang,worse,1,lexical entry,lexical entry
+dev1,ang,would,1,lexical entry,lexical entry
+dev1,ang,you,25,incomplete,incomplete
+dev1,ang,your,3,incomplete,incomplete
+dev1,hau,(to),1,lexical entry,lexical entry
+dev1,hau,1pl,1,standard,1pl
+dev1,hau,1s,1,misspelled,1sg
+dev1,hau,1sg,2,standard,1sg
+dev1,hau,2m,2,incomplete,incomplete
+dev1,hau,3f,8,combined,combined
+dev1,hau,3m,11,incomplete,incomplete
+dev1,hau,3p,3,misspelled,3pl
+dev1,hau,3pl,1,standard,3pl
+dev1,hau,able,2,lexical entry,lexical entry
+dev1,hau,all,1,lexical entry,lexical entry
+dev1,hau,and,3,lexical entry,lexical entry
+dev1,hau,beg,1,lexical entry,lexical entry
+dev1,hau,boy,5,lexical entry,lexical entry
+dev1,hau,broke,1,lexical entry,lexical entry
+dev1,hau,build,1,lexical entry,lexical entry
+dev1,hau,but,1,lexical entry,lexical entry
+dev1,hau,buy,10,lexical entry,lexical entry
+dev1,hau,car,9,lexical entry,lexical entry
+dev1,hau,come,2,lexical entry,lexical entry
+dev1,hau,comp,14,standard,comp
+dev1,hau,cook,2,lexical entry,lexical entry
+dev1,hau,dobj,1,misspelled,obj
+dev1,hau,fem,4,misspelled,f
+dev1,hau,girl,2,lexical entry,lexical entry
+dev1,hau,go,1,lexical entry,lexical entry
+dev1,hau,house,4,lexical entry,lexical entry
+dev1,hau,indep,4,user-identified,user-identified
+dev1,hau,iobj,1,misspelled,obj
+dev1,hau,m,1,standard,m
+dev1,hau,man,1,lexical entry,lexical entry
+dev1,hau,market,1,lexical entry,lexical entry
+dev1,hau,masc,5,misspelled,m
+dev1,hau,neg,5,standard,neg
+dev1,hau,news,1,lexical entry,lexical entry
+dev1,hau,or,3,lexical entry,lexical entry
+dev1,hau,pret,8,standard,pret
+dev1,hau,pron,1,part-of-speech,part-of-speech
+dev1,hau,quest,2,misspelled,q
+dev1,hau,read,1,lexical entry,lexical entry
+dev1,hau,refuse,1,lexical entry,lexical entry
+dev1,hau,rel,1,standard,rel
+dev1,hau,see,1,lexical entry,lexical entry
+dev1,hau,small,3,lexical entry,lexical entry
+dev1,hau,some,1,lexical entry,lexical entry
+dev1,hau,soup,2,lexical entry,lexical entry
+dev1,hau,soup.,2,lexical entry,lexical entry
+dev1,hau,students,2,lexical entry,lexical entry
+dev1,hau,subjunct,2,misspelled,subjunctive
+dev1,hau,teacher,1,lexical entry,lexical entry
+dev1,hau,tell,2,lexical entry,lexical entry
+dev1,hau,that,1,incomplete,incomplete
+dev1,hau,the,1,lexical entry,lexical entry
+dev1,hau,to,1,lexical entry,lexical entry
+dev1,hau,waterpot,1,lexical entry,lexical entry
+dev1,hau,white,4,lexical entry,lexical entry
+dev1,isl,1pl,1,standard,1pl
+dev1,isl,1sg,3,standard,1sg
+dev1,isl,2pl,1,standard,2pl
+dev1,isl,2sg,2,standard,2sg
+dev1,isl,3sg,11,standard,3sg
+dev1,isl,acc,12,standard,acc
+dev1,isl,and,2,lexical entry,lexical entry
+dev1,isl,can,1,lexical entry,lexical entry
+dev1,isl,cat,6,lexical entry,lexical entry
+dev1,isl,dog,4,lexical entry,lexical entry
+dev1,isl,eat,2,lexical entry,lexical entry
+dev1,isl,fair,1,lexical entry,lexical entry
+dev1,isl,fam,1,standard,fam
+dev1,isl,fem,2,misspelled,f
+dev1,isl,food,2,lexical entry,lexical entry
+dev1,isl,good,2,lexical entry,lexical entry
+dev1,isl,him,2,incomplete,incomplete
+dev1,isl,i,3,incomplete,incomplete
+dev1,isl,imp,1,standard,imp
+dev1,isl,jump,2,lexical entry,lexical entry
+dev1,isl,love,11,lexical entry,lexical entry
+dev1,isl,man,4,lexical entry,lexical entry
+dev1,isl,masc,31,misspelled,m
+dev1,isl,me,4,incomplete,incomplete
+dev1,isl,meow,2,lexical entry,lexical entry
+dev1,isl,nom,22,standard,nom
+dev1,isl,not,1,incomplete,incomplete
+dev1,isl,sg,18,standard,sg
+dev1,isl,she,1,incomplete,incomplete
+dev1,isl,strong,1,lexical entry,lexical entry
+dev1,isl,the,14,lexical entry,lexical entry
+dev1,isl,we,23,incomplete,incomplete
+dev1,isl,weak,1,lexical entry,lexical entry
+dev1,isl,woman,1,lexical entry,lexical entry
+dev1,isl,yellow,1,lexical entry,lexical entry
+dev1,isl,you,3,incomplete,incomplete
+dev1,jpn,?,2,lexical entry,lexical entry
+dev1,jpn,acc,29,standard,acc
+dev1,jpn,adverb,1,part-of-speech,part-of-speech
+dev1,jpn,also,1,lexical entry,lexical entry
+dev1,jpn,and,3,lexical entry,lexical entry
+dev1,jpn,ask,1,lexical entry,lexical entry
+dev1,jpn,attr,9,user-identified,user-identified
+dev1,jpn,be,10,lexical entry,lexical entry
+dev1,jpn,blow,1,lexical entry,lexical entry
+dev1,jpn,breeze,1,lexical entry,lexical entry
+dev1,jpn,can,2,lexical entry,lexical entry
+dev1,jpn,cannot,1,incomplete,incomplete
+dev1,jpn,capital,1,lexical entry,lexical entry
+dev1,jpn,clause,1,lexical entry,lexical entry
+dev1,jpn,comp,2,standard,comp
+dev1,jpn,continuative,4,standard,continuative
+dev1,jpn,cool,1,lexical entry,lexical entry
+dev1,jpn,copula,16,standard,copula
+dev1,jpn,dat,4,standard,dat
+dev1,jpn,dem,2,standard,dem
+dev1,jpn,eat,18,lexical entry,lexical entry
+dev1,jpn,edo,1,lexical entry,lexical entry
+dev1,jpn,emb,3,lexical entry,lexical entry
+dev1,jpn,future,4,standard,future
+dev1,jpn,give,5,lexical entry,lexical entry
+dev1,jpn,glass,2,lexical entry,lexical entry
+dev1,jpn,go,2,lexical entry,lexical entry
+dev1,jpn,happy,1,lexical entry,lexical entry
+dev1,jpn,hearsay,4,standard,hearsay
+dev1,jpn,heart,9,lexical entry,lexical entry
+dev1,jpn,her,1,incomplete,incomplete
+dev1,jpn,here,1,lexical entry,lexical entry
+dev1,jpn,highness,1,lexical entry,lexical entry
+dev1,jpn,hurt,3,lexical entry,lexical entry
+dev1,jpn,i,41,incomplete,incomplete
+dev1,jpn,is,4,lexical entry,lexical entry
+dev1,jpn,it,2,lexical entry,lexical entry
+dev1,jpn,last,1,lexical entry,lexical entry
+dev1,jpn,live,1,lexical entry,lexical entry
+dev1,jpn,loc,8,standard,loc
+dev1,jpn,location,2,lexical entry,lexical entry
+dev1,jpn,long,1,lexical entry,lexical entry
+dev1,jpn,man,6,lexical entry,lexical entry
+dev1,jpn,me,1,incomplete,incomplete
+dev1,jpn,mountain,8,lexical entry,lexical entry
+dev1,jpn,neg,4,standard,neg
+dev1,jpn,nom,42,standard,nom
+dev1,jpn,not,3,incomplete,incomplete
+dev1,jpn,past,11,standard,past
+dev1,jpn,person,2,lexical entry,lexical entry
+dev1,jpn,personal,4,standard,personal
+dev1,jpn,pleasing,3,lexical entry,lexical entry
+dev1,jpn,pres,4,misspelled,prs
+dev1,jpn,present,7,standard,present
+dev1,jpn,q,1,standard,q
+dev1,jpn,quiet,9,lexical entry,lexical entry
+dev1,jpn,quietly,1,lexical entry,lexical entry
+dev1,jpn,refreshingly,1,lexical entry,lexical entry
+dev1,jpn,resultative,6,standard,resultative
+dev1,jpn,rice,16,lexical entry,lexical entry
+dev1,jpn,see,6,lexical entry,lexical entry
+dev1,jpn,student,9,lexical entry,lexical entry
+dev1,jpn,subject,10,standard,subject
+dev1,jpn,sushi,2,lexical entry,lexical entry
+dev1,jpn,temple,1,lexical entry,lexical entry
+dev1,jpn,that,3,incomplete,incomplete
+dev1,jpn,things,3,lexical entry,lexical entry
+dev1,jpn,think,5,lexical entry,lexical entry
+dev1,jpn,topic,2,lexical entry,lexical entry
+dev1,jpn,unknown,1,lexical entry,lexical entry
+dev1,jpn,you,5,incomplete,incomplete
+dev1,jup,1pl,3,standard,1pl
+dev1,jup,1sg,12,standard,1sg
+dev1,jup,2pl,3,standard,2pl
+dev1,jup,2sg,3,standard,2sg
+dev1,jup,3,1,standard,3
+dev1,jup,3pl,10,standard,3pl
+dev1,jup,3sg,28,standard,3sg
+dev1,jup,alligator,2,lexical entry,lexical entry
+dev1,jup,arrive,1,lexical entry,lexical entry
+dev1,jup,bathe,1,lexical entry,lexical entry
+dev1,jup,bench,1,lexical entry,lexical entry
+dev1,jup,big,4,lexical entry,lexical entry
+dev1,jup,carry,1,lexical entry,lexical entry
+dev1,jup,child,3,lexical entry,lexical entry
+dev1,jup,clothes,1,lexical entry,lexical entry
+dev1,jup,comp,1,standard,comp
+dev1,jup,consciouness,1,lexical entry,lexical entry
+dev1,jup,consciousness,2,lexical entry,lexical entry
+dev1,jup,cross,1,lexical entry,lexical entry
+dev1,jup,decl,23,standard,decl
+dev1,jup,deer,5,lexical entry,lexical entry
+dev1,jup,dep,1,user-identified,user-identified
+dev1,jup,dir,2,standard,dir
+dev1,jup,drink,6,lexical entry,lexical entry
+dev1,jup,dynm,16,user-identified,user-identified
+dev1,jup,eat,2,lexical entry,lexical entry
+dev1,jup,emph1,1,misspelled,emph
+dev1,jup,enter,1,lexical entry,lexical entry
+dev1,jup,evil,1,lexical entry,lexical entry
+dev1,jup,eyes,2,lexical entry,lexical entry
+dev1,jup,fall,2,lexical entry,lexical entry
+dev1,jup,fast,2,lexical entry,lexical entry
+dev1,jup,flr,1,user-identified,user-identified
+dev1,jup,foc,1,standard,foc
+dev1,jup,fut,5,standard,fut
+dev1,jup,go,5,lexical entry,lexical entry
+dev1,jup,good,1,lexical entry,lexical entry
+dev1,jup,hab,1,standard,hab
+dev1,jup,hearth,1,lexical entry,lexical entry
+dev1,jup,hit,2,lexical entry,lexical entry
+dev1,jup,house,2,lexical entry,lexical entry
+dev1,jup,inch,8,lexical entry,lexical entry
+dev1,jup,int,1,misspelled,intr
+dev1,jup,kill,2,lexical entry,lexical entry
+dev1,jup,know,1,lexical entry,lexical entry
+dev1,jup,knows,1,lexical entry,lexical entry
+dev1,jup,leaf,1,lexical entry,lexical entry
+dev1,jup,leave,3,lexical entry,lexical entry
+dev1,jup,lie,1,lexical entry,lexical entry
+dev1,jup,lose,3,lexical entry,lexical entry
+dev1,jup,love,1,lexical entry,lexical entry
+dev1,jup,margarita,1,lexical entry,lexical entry
+dev1,jup,masc,1,misspelled,m
+dev1,jup,mother,2,lexical entry,lexical entry
+dev1,jup,neg,6,standard,neg
+dev1,jup,not,1,incomplete,incomplete
+dev1,jup,obj,20,standard,obj
+dev1,jup,obl,3,standard,obl
+dev1,jup,out,4,lexical entry,lexical entry
+dev1,jup,path,2,lexical entry,lexical entry
+dev1,jup,perf,2,misspelled,prf
+dev1,jup,pl,5,standard,pl
+dev1,jup,proximal,1,standard,proximal
+dev1,jup,pull,2,lexical entry,lexical entry
+dev1,jup,rain,1,lexical entry,lexical entry
+dev1,jup,rep,3,misspelled,repetitive
+dev1,jup,roast,1,lexical entry,lexical entry
+dev1,jup,sanjose,1,lexical entry,lexical entry
+dev1,jup,saw,1,lexical entry,lexical entry
+dev1,jup,say,1,lexical entry,lexical entry
+dev1,jup,scold,1,lexical entry,lexical entry
+dev1,jup,sell,2,lexical entry,lexical entry
+dev1,jup,send,2,lexical entry,lexical entry
+dev1,jup,sing,3,lexical entry,lexical entry
+dev1,jup,sit,1,lexical entry,lexical entry
+dev1,jup,sleep,3,lexical entry,lexical entry
+dev1,jup,snake,1,lexical entry,lexical entry
+dev1,jup,someone,2,lexical entry,lexical entry
+dev1,jup,sprits,1,lexical entry,lexical entry
+dev1,jup,story,2,lexical entry,lexical entry
+dev1,jup,stream,1,lexical entry,lexical entry
+dev1,jup,subj,43,misspelled,sbj
+dev1,jup,take,2,lexical entry,lexical entry
+dev1,jup,tel,10,user-identified,user-identified
+dev1,jup,tell,2,lexical entry,lexical entry
+dev1,jup,that,1,incomplete,incomplete
+dev1,jup,this,1,incomplete,incomplete
+dev1,jup,throw,1,lexical entry,lexical entry
+dev1,jup,unborn,1,lexical entry,lexical entry
+dev1,jup,vent,1,lexical entry,lexical entry
+dev1,jup,want,1,lexical entry,lexical entry
+dev1,jup,wash,1,lexical entry,lexical entry
+dev1,jup,water,1,lexical entry,lexical entry
+dev1,jup,wood,1,lexical entry,lexical entry
+dev1,mnk,?,2,lexical entry,lexical entry
+dev1,mnk,able,2,lexical entry,lexical entry
+dev1,mnk,am,1,lexical entry,lexical entry
+dev1,mnk,and,2,lexical entry,lexical entry
+dev1,mnk,ask,3,lexical entry,lexical entry
+dev1,mnk,b'anjunu,1,lexical entry,lexical entry
+dev1,mnk,baakari,2,lexical entry,lexical entry
+dev1,mnk,banjunu,4,lexical entry,lexical entry
+dev1,mnk,be,6,lexical entry,lexical entry
+dev1,mnk,beast,1,lexical entry,lexical entry
+dev1,mnk,big,1,lexical entry,lexical entry
+dev1,mnk,bite,2,lexical entry,lexical entry
+dev1,mnk,black,7,lexical entry,lexical entry
+dev1,mnk,book,1,lexical entry,lexical entry
+dev1,mnk,boy,2,lexical entry,lexical entry
+dev1,mnk,broken,1,lexical entry,lexical entry
+dev1,mnk,buy,2,lexical entry,lexical entry
+dev1,mnk,can,3,lexical entry,lexical entry
+dev1,mnk,car,8,lexical entry,lexical entry
+dev1,mnk,cat,3,lexical entry,lexical entry
+dev1,mnk,catch,1,lexical entry,lexical entry
+dev1,mnk,chase,10,lexical entry,lexical entry
+dev1,mnk,child,1,lexical entry,lexical entry
+dev1,mnk,chop_down,1,lexical entry,lexical entry
+dev1,mnk,chopdown,1,lexical entry,lexical entry
+dev1,mnk,clothes,1,lexical entry,lexical entry
+dev1,mnk,come,8,lexical entry,lexical entry
+dev1,mnk,come_from,1,lexical entry,lexical entry
+dev1,mnk,comefrom,1,lexical entry,lexical entry
+dev1,mnk,compl,2,standard,compl
+dev1,mnk,cook,1,lexical entry,lexical entry
+dev1,mnk,depart,5,lexical entry,lexical entry
+dev1,mnk,destroy,1,lexical entry,lexical entry
+dev1,mnk,det,22,part-of-speech,part-of-speech
+dev1,mnk,dirty,1,lexical entry,lexical entry
+dev1,mnk,do,2,lexical entry,lexical entry
+dev1,mnk,doesn't,1,lexical entry,lexical entry
+dev1,mnk,doesnt,1,incomplete,incomplete
+dev1,mnk,dog,26,lexical entry,lexical entry
+dev1,mnk,don't,3,lexical entry,lexical entry
+dev1,mnk,dont,1,lexical entry,lexical entry
+dev1,mnk,eat,12,lexical entry,lexical entry
+dev1,mnk,emp,1,misspelled,emph
+dev1,mnk,emph,39,standard,emph
+dev1,mnk,far,3,lexical entry,lexical entry
+dev1,mnk,farm,4,lexical entry,lexical entry
+dev1,mnk,father,3,lexical entry,lexical entry
+dev1,mnk,find,1,lexical entry,lexical entry
+dev1,mnk,fort,1,lexical entry,lexical entry
+dev1,mnk,four,1,lexical entry,lexical entry
+dev1,mnk,from,1,lexical entry,lexical entry
+dev1,mnk,gen,3,standard,gen
+dev1,mnk,girl,1,lexical entry,lexical entry
+dev1,mnk,give,2,lexical entry,lexical entry
+dev1,mnk,glass,2,lexical entry,lexical entry
+dev1,mnk,go,5,lexical entry,lexical entry
+dev1,mnk,got_up,1,lexical entry,lexical entry
+dev1,mnk,gotup,1,lexical entry,lexical entry
+dev1,mnk,gown,2,lexical entry,lexical entry
+dev1,mnk,harm,1,lexical entry,lexical entry
+dev1,mnk,hasnot,1,lexical entry,lexical entry
+dev1,mnk,have,1,lexical entry,lexical entry
+dev1,mnk,he,15,incomplete,incomplete
+dev1,mnk,hear,1,lexical entry,lexical entry
+dev1,mnk,her,2,incomplete,incomplete
+dev1,mnk,here,3,lexical entry,lexical entry
+dev1,mnk,him,5,incomplete,incomplete
+dev1,mnk,his,1,incomplete,incomplete
+dev1,mnk,home,1,lexical entry,lexical entry
+dev1,mnk,horse,1,lexical entry,lexical entry
+dev1,mnk,house,4,lexical entry,lexical entry
+dev1,mnk,human_being,1,lexical entry,lexical entry
+dev1,mnk,humanbeing,1,lexical entry,lexical entry
+dev1,mnk,hunger,1,lexical entry,lexical entry
+dev1,mnk,hungry,5,lexical entry,lexical entry
+dev1,mnk,i,17,incomplete,incomplete
+dev1,mnk,imp,3,standard,imp
+dev1,mnk,inside,2,lexical entry,lexical entry
+dev1,mnk,intr,2,standard,intr
+dev1,mnk,is,9,lexical entry,lexical entry
+dev1,mnk,it,13,lexical entry,lexical entry
+dev1,mnk,know,8,lexical entry,lexical entry
+dev1,mnk,landing,1,lexical entry,lexical entry
+dev1,mnk,leave,1,lexical entry,lexical entry
+dev1,mnk,leopard,2,lexical entry,lexical entry
+dev1,mnk,lizard,1,lexical entry,lexical entry
+dev1,mnk,look,1,lexical entry,lexical entry
+dev1,mnk,lose,1,lexical entry,lexical entry
+dev1,mnk,man,2,lexical entry,lexical entry
+dev1,mnk,marry,1,lexical entry,lexical entry
+dev1,mnk,me,6,incomplete,incomplete
+dev1,mnk,meat,1,lexical entry,lexical entry
+dev1,mnk,money,3,lexical entry,lexical entry
+dev1,mnk,my,2,incomplete,incomplete
+dev1,mnk,name,1,lexical entry,lexical entry
+dev1,mnk,nom,1,standard,nom
+dev1,mnk,not,15,incomplete,incomplete
+dev1,mnk,one,1,lexical entry,lexical entry
+dev1,mnk,our,1,incomplete,incomplete
+dev1,mnk,overseas,1,lexical entry,lexical entry
+dev1,mnk,pay,2,lexical entry,lexical entry
+dev1,mnk,pl,32,standard,pl
+dev1,mnk,poss,1,standard,poss
+dev1,mnk,postp,2,user-identified,user-identified
+dev1,mnk,pst,17,standard,pst
+dev1,mnk,pt,4,misspelled,ptcp
+dev1,mnk,q,7,standard,q
+dev1,mnk,quickly,5,lexical entry,lexical entry
+dev1,mnk,refl,1,standard,refl
+dev1,mnk,rel,1,standard,rel
+dev1,mnk,same,1,lexical entry,lexical entry
+dev1,mnk,sentence_comp,1,user-identified,user-identified
+dev1,mnk,sentence_complement,3,user-identified,user-identified
+dev1,mnk,sentencecomp,1,misspelled,comp
+dev1,mnk,sentencecomplement,3,misspelled,complementizer
+dev1,mnk,sg,4,standard,sg
+dev1,mnk,sg_or_pl,1,user-identified,user-identified
+dev1,mnk,sgorpl,1,user-identified,user-identified
+dev1,mnk,she,10,incomplete,incomplete
+dev1,mnk,sleep,17,lexical entry,lexical entry
+dev1,mnk,stand,1,lexical entry,lexical entry
+dev1,mnk,stative,1,standard,stative
+dev1,mnk,suddenly,1,lexical entry,lexical entry
+dev1,mnk,sunday,1,lexical entry,lexical entry
+dev1,mnk,take,1,lexical entry,lexical entry
+dev1,mnk,tell,1,lexical entry,lexical entry
+dev1,mnk,that,12,incomplete,incomplete
+dev1,mnk,the_one,1,lexical entry,lexical entry
+dev1,mnk,theone,1,lexical entry,lexical entry
+dev1,mnk,there,6,lexical entry,lexical entry
+dev1,mnk,these,2,incomplete,incomplete
+dev1,mnk,they,2,incomplete,incomplete
+dev1,mnk,think,1,lexical entry,lexical entry
+dev1,mnk,tomorrow,1,lexical entry,lexical entry
+dev1,mnk,unemph,1,user-identified,user-identified
+dev1,mnk,unknown,3,lexical entry,lexical entry
+dev1,mnk,us,2,incomplete,incomplete
+dev1,mnk,v,1,part-of-speech,part-of-speech
+dev1,mnk,very,1,lexical entry,lexical entry
+dev1,mnk,wash,3,lexical entry,lexical entry
+dev1,mnk,we,6,incomplete,incomplete
+dev1,mnk,went,5,lexical entry,lexical entry
+dev1,mnk,what,2,lexical entry,lexical entry
+dev1,mnk,where,1,lexical entry,lexical entry
+dev1,mnk,white,2,lexical entry,lexical entry
+dev1,mnk,who_what,1,lexical entry,lexical entry
+dev1,mnk,whowhat,1,lexical entry,lexical entry
+dev1,mnk,will,2,lexical entry,lexical entry
+dev1,mnk,woman,2,lexical entry,lexical entry
+dev1,mnk,wound,1,lexical entry,lexical entry
+dev1,mnk,yesterday,2,lexical entry,lexical entry
+dev1,mnk,yet,2,lexical entry,lexical entry
+dev1,mnk,you,23,incomplete,incomplete
+dev1,mnk,youth,1,lexical entry,lexical entry
+dev1,nan,3sg,6,standard,3sg
+dev1,nan,able,1,lexical entry,lexical entry
+dev1,nan,all,3,lexical entry,lexical entry
+dev1,nan,american,2,lexical entry,lexical entry
+dev1,nan,and,3,lexical entry,lexical entry
+dev1,nan,animal,9,lexical entry,lexical entry
+dev1,nan,ant,1,lexical entry,lexical entry
+dev1,nan,ask,3,lexical entry,lexical entry
+dev1,nan,be,8,lexical entry,lexical entry
+dev1,nan,book,3,lexical entry,lexical entry
+dev1,nan,building,3,lexical entry,lexical entry
+dev1,nan,burned,3,lexical entry,lexical entry
+dev1,nan,can,1,lexical entry,lexical entry
+dev1,nan,car,7,lexical entry,lexical entry
+dev1,nan,case,1,lexical entry,lexical entry
+dev1,nan,cat,13,lexical entry,lexical entry
+dev1,nan,chase,16,lexical entry,lexical entry
+dev1,nan,cheap,1,lexical entry,lexical entry
+dev1,nan,come,1,lexical entry,lexical entry
+dev1,nan,comp,1,standard,comp
+dev1,nan,decide,1,lexical entry,lexical entry
+dev1,nan,delicious,2,lexical entry,lexical entry
+dev1,nan,doctor,1,lexical entry,lexical entry
+dev1,nan,dog,32,lexical entry,lexical entry
+dev1,nan,eat,9,lexical entry,lexical entry
+dev1,nan,english,2,lexical entry,lexical entry
+dev1,nan,enough,2,lexical entry,lexical entry
+dev1,nan,fast,1,lexical entry,lexical entry
+dev1,nan,father,1,lexical entry,lexical entry
+dev1,nan,fruit,1,lexical entry,lexical entry
+dev1,nan,get,1,lexical entry,lexical entry
+dev1,nan,give,2,lexical entry,lexical entry
+dev1,nan,glass,1,lexical entry,lexical entry
+dev1,nan,go,5,lexical entry,lexical entry
+dev1,nan,group,2,lexical entry,lexical entry
+dev1,nan,have,4,lexical entry,lexical entry
+dev1,nan,house,3,lexical entry,lexical entry
+dev1,nan,how,1,lexical entry,lexical entry
+dev1,nan,hungry,5,lexical entry,lexical entry
+dev1,nan,hurt,1,lexical entry,lexical entry
+dev1,nan,i,10,incomplete,incomplete
+dev1,nan,know,5,lexical entry,lexical entry
+dev1,nan,lawyer,1,lexical entry,lexical entry
+dev1,nan,lk,2,user-identified,user-identified
+dev1,nan,lnk,10,user-identified,user-identified
+dev1,nan,marriage,1,lexical entry,lexical entry
+dev1,nan,neg,2,standard,neg
+dev1,nan,not,9,incomplete,incomplete
+dev1,nan,now,2,lexical entry,lexical entry
+dev1,nan,pineapple,2,lexical entry,lexical entry
+dev1,nan,pl,1,standard,pl
+dev1,nan,prg,2,misspelled,prog
+dev1,nan,prog,2,standard,prog
+dev1,nan,return,1,lexical entry,lexical entry
+dev1,nan,say,1,lexical entry,lexical entry
+dev1,nan,see,1,lexical entry,lexical entry
+dev1,nan,sleep,10,lexical entry,lexical entry
+dev1,nan,station,2,lexical entry,lexical entry
+dev1,nan,taiwan,2,lexical entry,lexical entry
+dev1,nan,tasty,1,lexical entry,lexical entry
+dev1,nan,teacher,1,lexical entry,lexical entry
+dev1,nan,that,3,incomplete,incomplete
+dev1,nan,them,1,incomplete,incomplete
+dev1,nan,these,1,incomplete,incomplete
+dev1,nan,they,1,incomplete,incomplete
+dev1,nan,think,2,lexical entry,lexical entry
+dev1,nan,this,12,incomplete,incomplete
+dev1,nan,those,1,incomplete,incomplete
+dev1,nan,tomorrow,1,lexical entry,lexical entry
+dev1,nan,troublesome,1,lexical entry,lexical entry
+dev1,nan,up,3,lexical entry,lexical entry
+dev1,nan,very,6,lexical entry,lexical entry
+dev1,nan,want,3,lexical entry,lexical entry
+dev1,nan,we,2,incomplete,incomplete
+dev1,nan,when,1,lexical entry,lexical entry
+dev1,nan,whether,1,lexical entry,lexical entry
+dev1,nan,wine,1,lexical entry,lexical entry
+dev1,nan,with,1,lexical entry,lexical entry
+dev1,nan,writing,2,lexical entry,lexical entry
+dev1,nan,yesterday,2,lexical entry,lexical entry
+dev1,nan,yet,3,lexical entry,lexical entry
+dev1,nan,you,12,incomplete,incomplete
+dev1,pbt,+,2,lexical entry,lexical entry
+dev1,pbt,1pl,23,standard,1pl
+dev1,pbt,1sg,103,standard,1sg
+dev1,pbt,1st,1,misspelled,1sg
+dev1,pbt,2pl,24,standard,2pl
+dev1,pbt,2sg,33,standard,2sg
+dev1,pbt,3pl,120,standard,3pl
+dev1,pbt,3sg,177,standard,3sg
+dev1,pbt,?,5,lexical entry,lexical entry
+dev1,pbt,a,1,lexical entry,lexical entry
+dev1,pbt,abs,359,standard,abs
+dev1,pbt,adj,8,part-of-speech,part-of-speech
+dev1,pbt,adv,18,part-of-speech,part-of-speech
+dev1,pbt,all,1,lexical entry,lexical entry
+dev1,pbt,and,19,lexical entry,lexical entry
+dev1,pbt,appear,2,lexical entry,lexical entry
+dev1,pbt,ask,2,lexical entry,lexical entry
+dev1,pbt,aux,10,standard,aux
+dev1,pbt,bad,1,lexical entry,lexical entry
+dev1,pbt,be,36,lexical entry,lexical entry
+dev1,pbt,brother,1,lexical entry,lexical entry
+dev1,pbt,can,10,lexical entry,lexical entry
+dev1,pbt,car,6,lexical entry,lexical entry
+dev1,pbt,cat,93,lexical entry,lexical entry
+dev1,pbt,chase,108,lexical entry,lexical entry
+dev1,pbt,chased,2,lexical entry,lexical entry
+dev1,pbt,come,1,lexical entry,lexical entry
+dev1,pbt,comp,1,standard,comp
+dev1,pbt,conj,31,standard,conj
+dev1,pbt,cop,4,standard,cop
+dev1,pbt,cow,1,lexical entry,lexical entry
+dev1,pbt,dance,73,lexical entry,lexical entry
+dev1,pbt,dog,139,lexical entry,lexical entry
+dev1,pbt,each,1,lexical entry,lexical entry
+dev1,pbt,eat,11,lexical entry,lexical entry
+dev1,pbt,erg,52,standard,erg
+dev1,pbt,every,1,lexical entry,lexical entry
+dev1,pbt,f,146,standard,f
+dev1,pbt,focus,11,standard,focus
+dev1,pbt,fut,48,standard,fut
+dev1,pbt,glass,4,lexical entry,lexical entry
+dev1,pbt,good,1,lexical entry,lexical entry
+dev1,pbt,green,1,lexical entry,lexical entry
+dev1,pbt,house,2,lexical entry,lexical entry
+dev1,pbt,hungry,2,lexical entry,lexical entry
+dev1,pbt,hurt,11,lexical entry,lexical entry
+dev1,pbt,if+not,4,lexical entry,lexical entry
+dev1,pbt,ifnot,4,incomplete,incomplete
+dev1,pbt,in,1,lexical entry,lexical entry
+dev1,pbt,inf,8,standard,inf
+dev1,pbt,int,2,misspelled,intr
+dev1,pbt,into,1,lexical entry,lexical entry
+dev1,pbt,intr,55,standard,intr
+dev1,pbt,it,2,lexical entry,lexical entry
+dev1,pbt,itr,19,misspelled,intr
+dev1,pbt,itran,7,misspelled,intr
+dev1,pbt,khoshala,2,lexical entry,lexical entry
+dev1,pbt,know,2,lexical entry,lexical entry
+dev1,pbt,large,5,lexical entry,lexical entry
+dev1,pbt,laugh,4,lexical entry,lexical entry
+dev1,pbt,m,198,standard,m
+dev1,pbt,man,1,lexical entry,lexical entry
+dev1,pbt,neg,14,standard,neg
+dev1,pbt,negation,1,misspelled,neg
+dev1,pbt,not,13,incomplete,incomplete
+dev1,pbt,one,8,lexical entry,lexical entry
+dev1,pbt,ones,3,lexical entry,lexical entry
+dev1,pbt,ones+own,3,lexical entry,lexical entry
+dev1,pbt,onesown,3,lexical entry,lexical entry
+dev1,pbt,own,3,lexical entry,lexical entry
+dev1,pbt,park,1,lexical entry,lexical entry
+dev1,pbt,part,1,misspelled,ptcp
+dev1,pbt,per,3,misspelled,pfv
+dev1,pbt,pl,63,standard,pl
+dev1,pbt,pn,1,unrecovered,unrecovered
+dev1,pbt,poss,1,standard,poss
+dev1,pbt,postadpunknown,1,unrecovered,unrecovered
+dev1,pbt,pot,10,lexical entry,lexical entry
+dev1,pbt,prep,3,part-of-speech,part-of-speech
+dev1,pbt,pres,3,misspelled,prs
+dev1,pbt,pronoun,120,part-of-speech,part-of-speech
+dev1,pbt,prs,164,standard,prs
+dev1,pbt,pst,81,standard,pst
+dev1,pbt,quickly,1,lexical entry,lexical entry
+dev1,pbt,room,1,lexical entry,lexical entry
+dev1,pbt,sg,155,standard,sg
+dev1,pbt,sick,2,lexical entry,lexical entry
+dev1,pbt,sleep,3,lexical entry,lexical entry
+dev1,pbt,some,2,lexical entry,lexical entry
+dev1,pbt,spe,1,unrecovered,unrecovered
+dev1,pbt,such,1,lexical entry,lexical entry
+dev1,pbt,suddenly,2,lexical entry,lexical entry
+dev1,pbt,tag,2,lexical entry,lexical entry
+dev1,pbt,that,24,incomplete,incomplete
+dev1,pbt,think,5,lexical entry,lexical entry
+dev1,pbt,this,33,incomplete,incomplete
+dev1,pbt,topic,2,standard,topic
+dev1,pbt,tr,153,standard,tr
+dev1,pbt,tran,16,misspelled,tr
+dev1,pbt,very,5,lexical entry,lexical entry
+dev1,pbt,we,10,incomplete,incomplete
+dev1,pbt,whether,1,lexical entry,lexical entry
+dev1,pbt,will,9,lexical entry,lexical entry
+dev1,pbt,write,9,lexical entry,lexical entry
+dev1,pbt,xxx,1,lexical entry,lexical entry
+dev1,pbt,yesterday,10,lexical entry,lexical entry
+dev1,pbt,you,11,incomplete,incomplete
+dev1,rus,1,4,standard,1
+dev1,rus,1pl,6,standard,1pl
+dev1,rus,1sg,15,standard,1sg
+dev1,rus,2,1,standard,2
+dev1,rus,2pl,17,standard,2pl
+dev1,rus,2sg,8,standard,2sg
+dev1,rus,3,15,standard,3
+dev1,rus,3pl,29,standard,3pl
+dev1,rus,3sg,246,standard,3sg
+dev1,rus,acc,89,standard,acc
+dev1,rus,always,2,lexical entry,lexical entry
+dev1,rus,and,20,lexical entry,lexical entry
+dev1,rus,animate,14,standard,animate
+dev1,rus,ask,4,lexical entry,lexical entry
+dev1,rus,be,7,lexical entry,lexical entry
+dev1,rus,big,3,lexical entry,lexical entry
+dev1,rus,binding,1,lexical entry,lexical entry
+dev1,rus,book,44,lexical entry,lexical entry
+dev1,rus,boy,20,lexical entry,lexical entry
+dev1,rus,buy,47,lexical entry,lexical entry
+dev1,rus,by,1,lexical entry,lexical entry
+dev1,rus,can,2,lexical entry,lexical entry
+dev1,rus,cut,1,lexical entry,lexical entry
+dev1,rus,dat,1,standard,dat
+dev1,rus,doctor,3,lexical entry,lexical entry
+dev1,rus,dog,37,lexical entry,lexical entry
+dev1,rus,eat,1,lexical entry,lexical entry
+dev1,rus,fem,106,misspelled,f
+dev1,rus,fly,34,lexical entry,lexical entry
+dev1,rus,fm,1,misspelled,f
+dev1,rus,fp,5,standard,fp
+dev1,rus,fut,10,standard,fut
+dev1,rus,gen,1,standard,gen
+dev1,rus,girl,34,lexical entry,lexical entry
+dev1,rus,glass,1,lexical entry,lexical entry
+dev1,rus,go,2,lexical entry,lexical entry
+dev1,rus,i,1,incomplete,incomplete
+dev1,rus,imp,25,confused,ipfv
+dev1,rus,in,3,lexical entry,lexical entry
+dev1,rus,inanimate,6,standard,inanimate
+dev1,rus,inf,5,standard,inf
+dev1,rus,inst,32,misspelled,ins
+dev1,rus,interrogative,6,part-of-speech,part-of-speech
+dev1,rus,ivan,71,lexical entry,lexical entry
+dev1,rus,large,7,lexical entry,lexical entry
+dev1,rus,lighten,1,lexical entry,lexical entry
+dev1,rus,love,6,lexical entry,lexical entry
+dev1,rus,masc,45,misspelled,m
+dev1,rus,me,1,incomplete,incomplete
+dev1,rus,means,1,lexical entry,lexical entry
+dev1,rus,neut,5,misspelled,n
+dev1,rus,never,2,lexical entry,lexical entry
+dev1,rus,no,1,lexical entry,lexical entry
+dev1,rus,nom,156,standard,nom
+dev1,rus,not,5,incomplete,incomplete
+dev1,rus,on,1,lexical entry,lexical entry
+dev1,rus,perf,9,misspelled,prf
+dev1,rus,perf1sg,1,combined,combined
+dev1,rus,perf3sg,1,combined,combined
+dev1,rus,pl,5,standard,pl
+dev1,rus,plane,27,lexical entry,lexical entry
+dev1,rus,po,3,unrecovered,unrecovered
+dev1,rus,prep,2,part-of-speech,part-of-speech
+dev1,rus,pro,3,part-of-speech,part-of-speech
+dev1,rus,prs,105,standard,prs
+dev1,rus,pst,60,standard,pst
+dev1,rus,q,1,standard,q
+dev1,rus,quickly,8,lexical entry,lexical entry
+dev1,rus,quickly.,1,lexical entry,lexical entry
+dev1,rus,read,24,lexical entry,lexical entry
+dev1,rus,red,1,lexical entry,lexical entry
+dev1,rus,school,2,lexical entry,lexical entry
+dev1,rus,sg,80,standard,sg
+dev1,rus,she,2,incomplete,incomplete
+dev1,rus,sleep,52,lexical entry,lexical entry
+dev1,rus,speak,1,lexical entry,lexical entry
+dev1,rus,table,1,lexical entry,lexical entry
+dev1,rus,that,8,incomplete,incomplete
+dev1,rus,these,1,incomplete,incomplete
+dev1,rus,think,8,lexical entry,lexical entry
+dev1,rus,this,39,incomplete,incomplete
+dev1,rus,with,6,lexical entry,lexical entry
+dev1,rus,you,5,incomplete,incomplete
+dev1,sna,1pl,5,standard,1pl
+dev1,sna,1s,1,misspelled,1sg
+dev1,sna,1sg,39,standard,1sg
+dev1,sna,2pl,4,standard,2pl
+dev1,sna,2sg,10,standard,2sg
+dev1,sna,2sgpossr,1,combined,combined
+dev1,sna,3pl,1,standard,3pl
+dev1,sna,3sg,8,standard,3sg
+dev1,sna,?,2,lexical entry,lexical entry
+dev1,sna,?],2,lexical entry,lexical entry
+dev1,sna,['ru'],1,user-identified,user-identified
+dev1,sna,[?,1,lexical entry,lexical entry
+dev1,sna,[love,1,lexical entry,lexical entry
+dev1,sna,a,1,lexical entry,lexical entry
+dev1,sna,act,2,lexical entry,lexical entry
+dev1,sna,all,1,lexical entry,lexical entry
+dev1,sna,also,1,lexical entry,lexical entry
+dev1,sna,and,1,lexical entry,lexical entry
+dev1,sna,ask,2,lexical entry,lexical entry
+dev1,sna,asp,2,user-identified,user-identified
+dev1,sna,at,1,lexical entry,lexical entry
+dev1,sna,aux,8,standard,aux
+dev1,sna,be,2,lexical entry,lexical entry
+dev1,sna,big,4,lexical entry,lexical entry
+dev1,sna,but,1,lexical entry,lexical entry
+dev1,sna,buy,15,lexical entry,lexical entry
+dev1,sna,cat,1,lexical entry,lexical entry
+dev1,sna,charuveki,1,lexical entry,lexical entry
+dev1,sna,chete,1,lexical entry,lexical entry
+dev1,sna,chete.,1,lexical entry,lexical entry
+dev1,sna,chief,1,lexical entry,lexical entry
+dev1,sna,child,3,lexical entry,lexical entry
+dev1,sna,cl1,47,user-identified,user-identified
+dev1,sna,cl14,1,user-identified,user-identified
+dev1,sna,cl16,3,user-identified,user-identified
+dev1,sna,cl17,1,user-identified,user-identified
+dev1,sna,cl2,18,user-identified,user-identified
+dev1,sna,cl3,10,user-identified,user-identified
+dev1,sna,cl4,4,user-identified,user-identified
+dev1,sna,cl5,4,user-identified,user-identified
+dev1,sna,cl6,2,user-identified,user-identified
+dev1,sna,cl7,2,user-identified,user-identified
+dev1,sna,cl8,5,user-identified,user-identified
+dev1,sna,cl9,13,user-identified,user-identified
+dev1,sna,come,1,lexical entry,lexical entry
+dev1,sna,comes,1,lexical entry,lexical entry
+dev1,sna,conj,1,standard,conj
+dev1,sna,cont,7,standard,cont
+dev1,sna,cop,5,standard,cop
+dev1,sna,dance,1,lexical entry,lexical entry
+dev1,sna,do,1,lexical entry,lexical entry
+dev1,sna,dog,1,lexical entry,lexical entry
+dev1,sna,early,1,lexical entry,lexical entry
+dev1,sna,eat,1,lexical entry,lexical entry
+dev1,sna,father,4,lexical entry,lexical entry
+dev1,sna,first,1,lexical entry,lexical entry
+dev1,sna,flour,1,lexical entry,lexical entry
+dev1,sna,freq,1,standard,freq
+dev1,sna,fruit,11,lexical entry,lexical entry
+dev1,sna,fut,2,standard,fut
+dev1,sna,fv,78,standard,fv
+dev1,sna,girls,1,lexical entry,lexical entry
+dev1,sna,go,9,lexical entry,lexical entry
+dev1,sna,gutu,1,lexical entry,lexical entry
+dev1,sna,hab,18,standard,hab
+dev1,sna,happy,2,lexical entry,lexical entry
+dev1,sna,have,2,lexical entry,lexical entry
+dev1,sna,here,2,lexical entry,lexical entry
+dev1,sna,home,1,lexical entry,lexical entry
+dev1,sna,horses,1,lexical entry,lexical entry
+dev1,sna,hort,4,misspelled,hortatory
+dev1,sna,house,2,lexical entry,lexical entry
+dev1,sna,ill,1,lexical entry,lexical entry
+dev1,sna,imp,2,standard,imp
+dev1,sna,inceptive,1,lexical entry,lexical entry
+dev1,sna,inf,5,standard,inf
+dev1,sna,knife,3,lexical entry,lexical entry
+dev1,sna,know,1,lexical entry,lexical entry
+dev1,sna,like,3,lexical entry,lexical entry
+dev1,sna,loc,1,standard,loc
+dev1,sna,love,1,lexical entry,lexical entry
+dev1,sna,man,1,lexical entry,lexical entry
+dev1,sna,mood,2,lexical entry,lexical entry
+dev1,sna,name,1,lexical entry,lexical entry
+dev1,sna,neg,10,standard,neg
+dev1,sna,nga,1,lexical entry,lexical entry
+dev1,sna,o,1,unrecovered,unrecovered
+dev1,sna,obj,4,standard,obj
+dev1,sna,often,1,lexical entry,lexical entry
+dev1,sna,only,1,lexical entry,lexical entry
+dev1,sna,ox,2,lexical entry,lexical entry
+dev1,sna,pass,2,lexical entry,lexical entry
+dev1,sna,past,18,standard,past
+dev1,sna,person,9,lexical entry,lexical entry
+dev1,sna,pl,1,standard,pl
+dev1,sna,poss,2,standard,poss
+dev1,sna,possd,6,misspelled,poss
+dev1,sna,possesion,1,misspelled,poss
+dev1,sna,possessed,1,lexical entry,lexical entry
+dev1,sna,possessor,1,misspelled,poss
+dev1,sna,possr,5,misspelled,poss
+dev1,sna,pre,1,misspelled,prs
+dev1,sna,pres,10,misspelled,prs
+dev1,sna,pro,4,part-of-speech,part-of-speech
+dev1,sna,prs,17,standard,prs
+dev1,sna,q,6,standard,q
+dev1,sna,quickly,1,lexical entry,lexical entry
+dev1,sna,rec,9,standard,rec
+dev1,sna,recp,3,misspelled,rec
+dev1,sna,rem,5,standard,rem
+dev1,sna,rp,9,unrecovered,unrecovered
+dev1,sna,ru,1,unrecovered,unrecovered
+dev1,sna,sadza,2,lexical entry,lexical entry
+dev1,sna,same,3,lexical entry,lexical entry
+dev1,sna,sbj,78,standard,sbj
+dev1,sna,school,2,lexical entry,lexical entry
+dev1,sna,seattle,2,lexical entry,lexical entry
+dev1,sna,see,1,lexical entry,lexical entry
+dev1,sna,short,1,lexical entry,lexical entry
+dev1,sna,slowly,1,lexical entry,lexical entry
+dev1,sna,some,3,lexical entry,lexical entry
+dev1,sna,speak,2,lexical entry,lexical entry
+dev1,sna,stay,2,lexical entry,lexical entry
+dev1,sna,still,1,lexical entry,lexical entry
+dev1,sna,stone,1,lexical entry,lexical entry
+dev1,sna,sub,1,misspelled,sbj
+dev1,sna,take,1,lexical entry,lexical entry
+dev1,sna,tall,1,lexical entry,lexical entry
+dev1,sna,tell,2,lexical entry,lexical entry
+dev1,sna,tender,1,lexical entry,lexical entry
+dev1,sna,that,5,incomplete,incomplete
+dev1,sna,there,1,lexical entry,lexical entry
+dev1,sna,think,1,lexical entry,lexical entry
+dev1,sna,this,8,incomplete,incomplete
+dev1,sna,tns,2,part-of-speech,part-of-speech
+dev1,sna,to,6,lexical entry,lexical entry
+dev1,sna,unknown,3,lexical entry,lexical entry
+dev1,sna,up,1,lexical entry,lexical entry
+dev1,sna,wake,1,lexical entry,lexical entry
+dev1,sna,walk,29,lexical entry,lexical entry
+dev1,sna,want,1,lexical entry,lexical entry
+dev1,sna,well,1,lexical entry,lexical entry
+dev1,sna,who,1,lexical entry,lexical entry
+dev1,sna,wife,1,lexical entry,lexical entry
+dev1,sna,with,2,lexical entry,lexical entry
+dev1,sna,wives,1,lexical entry,lexical entry
+dev1,sna,woman,5,lexical entry,lexical entry
+dev1,sna,zezuru,1,lexical entry,lexical entry
+dev1,sna,{,1,lexical entry,lexical entry
+dev1,sna,},1,lexical entry,lexical entry
+dev2,bre,1pl,4,standard,1pl
+dev2,bre,1sg,23,standard,1sg
+dev2,bre,2pl,4,standard,2pl
+dev2,bre,2sg,8,standard,2sg
+dev2,bre,3pl,8,standard,3pl
+dev2,bre,3sg,31,standard,3sg
+dev2,bre,a,25,lexical entry,lexical entry
+dev2,bre,acc,14,standard,acc
+dev2,bre,agr,1,part-of-speech,part-of-speech
+dev2,bre,an,5,lexical entry,lexical entry
+dev2,bre,and,4,lexical entry,lexical entry
+dev2,bre,apple,8,lexical entry,lexical entry
+dev2,bre,ask,1,lexical entry,lexical entry
+dev2,bre,aval,1,lexical entry,lexical entry
+dev2,bre,bad,1,lexical entry,lexical entry
+dev2,bre,be,11,lexical entry,lexical entry
+dev2,bre,book,24,lexical entry,lexical entry
+dev2,bre,dim,1,lexical entry,lexical entry
+dev2,bre,do,27,lexical entry,lexical entry
+dev2,bre,drunk,5,lexical entry,lexical entry
+dev2,bre,eat,9,lexical entry,lexical entry
+dev2,bre,f,1,standard,f
+dev2,bre,father,1,lexical entry,lexical entry
+dev2,bre,fut,3,standard,fut
+dev2,bre,garden,2,lexical entry,lexical entry
+dev2,bre,gently,2,lexical entry,lexical entry
+dev2,bre,hbt,1,misspelled,hab
+dev2,bre,he,6,incomplete,incomplete
+dev2,bre,her,1,incomplete,incomplete
+dev2,bre,him,1,incomplete,incomplete
+dev2,bre,hum,1,user-identified,user-identified
+dev2,bre,i,14,incomplete,incomplete
+dev2,bre,inf,32,standard,inf
+dev2,bre,ipfv,7,standard,ipfv
+dev2,bre,know,2,lexical entry,lexical entry
+dev2,bre,laugh,6,lexical entry,lexical entry
+dev2,bre,m,41,standard,m
+dev2,bre,me,1,incomplete,incomplete
+dev2,bre,mpl,1,combined,combined
+dev2,bre,msg,3,combined,combined
+dev2,bre,neg,4,standard,neg
+dev2,bre,nom,26,standard,nom
+dev2,bre,not,2,incomplete,incomplete
+dev2,bre,or,1,lexical entry,lexical entry
+dev2,bre,past,3,standard,past
+dev2,bre,pfv,1,standard,pfv
+dev2,bre,pl,13,standard,pl
+dev2,bre,pnt,2,user-identified,user-identified
+dev2,bre,priest,32,lexical entry,lexical entry
+dev2,bre,prs,67,standard,prs
+dev2,bre,prt,75,misspelled,ptcp
+dev2,bre,pst,8,standard,pst
+dev2,bre,ptcp,3,standard,ptcp
+dev2,bre,q,4,standard,q
+dev2,bre,quickly,2,lexical entry,lexical entry
+dev2,bre,rabbit,1,lexical entry,lexical entry
+dev2,bre,see,10,lexical entry,lexical entry
+dev2,bre,seek,27,lexical entry,lexical entry
+dev2,bre,sg,10,standard,sg
+dev2,bre,she,1,incomplete,incomplete
+dev2,bre,sing,20,lexical entry,lexical entry
+dev2,bre,that,1,incomplete,incomplete
+dev2,bre,the,35,lexical entry,lexical entry
+dev2,bre,them,2,incomplete,incomplete
+dev2,bre,they,5,incomplete,incomplete
+dev2,bre,ur,1,lexical entry,lexical entry
+dev2,bre,us,1,incomplete,incomplete
+dev2,bre,we,23,incomplete,incomplete
+dev2,bre,wise,2,lexical entry,lexical entry
+dev2,bre,you,9,incomplete,incomplete
+dev2,cym,1pl,11,standard,1pl
+dev2,cym,1sing,21,misspelled,1sg
+dev2,cym,2pl,21,standard,2pl
+dev2,cym,2sing,15,misspelled,2sg
+dev2,cym,3pl,4,standard,3pl
+dev2,cym,3sing,57,misspelled,3sg
+dev2,cym,aberystwyth,1,lexical entry,lexical entry
+dev2,cym,afr,2,user-identified,user-identified
+dev2,cym,and,4,lexical entry,lexical entry
+dev2,cym,ask,1,lexical entry,lexical entry
+dev2,cym,aux,50,standard,aux
+dev2,cym,be,77,lexical entry,lexical entry
+dev2,cym,become,1,lexical entry,lexical entry
+dev2,cym,bed,1,lexical entry,lexical entry
+dev2,cym,biscuit,1,lexical entry,lexical entry
+dev2,cym,bus,1,lexical entry,lexical entry
+dev2,cym,but,1,lexical entry,lexical entry
+dev2,cym,buy,13,lexical entry,lexical entry
+dev2,cym,can,5,lexical entry,lexical entry
+dev2,cym,car,7,lexical entry,lexical entry
+dev2,cym,cat,13,lexical entry,lexical entry
+dev2,cym,cd,1,incomplete,incomplete
+dev2,cym,chase,10,lexical entry,lexical entry
+dev2,cym,child,6,lexical entry,lexical entry
+dev2,cym,chocolate,1,lexical entry,lexical entry
+dev2,cym,colour,1,lexical entry,lexical entry
+dev2,cym,cond,2,standard,cond
+dev2,cym,det,21,part-of-speech,part-of-speech
+dev2,cym,dog,15,lexical entry,lexical entry
+dev2,cym,door,1,lexical entry,lexical entry
+dev2,cym,draw,1,lexical entry,lexical entry
+dev2,cym,early,1,lexical entry,lexical entry
+dev2,cym,eat,4,lexical entry,lexical entry
+dev2,cym,fam,3,standard,fam
+dev2,cym,fem,1,misspelled,f
+dev2,cym,ffilm,1,lexical entry,lexical entry
+dev2,cym,for,1,lexical entry,lexical entry
+dev2,cym,fut,4,standard,fut
+dev2,cym,gen,2,standard,gen
+dev2,cym,geraint,1,lexical entry,lexical entry
+dev2,cym,give,1,lexical entry,lexical entry
+dev2,cym,glass,1,lexical entry,lexical entry
+dev2,cym,go,9,lexical entry,lexical entry
+dev2,cym,grow,1,lexical entry,lexical entry
+dev2,cym,have,4,lexical entry,lexical entry
+dev2,cym,he,20,incomplete,incomplete
+dev2,cym,her,2,incomplete,incomplete
+dev2,cym,here,1,lexical entry,lexical entry
+dev2,cym,his,4,incomplete,incomplete
+dev2,cym,holiday,1,lexical entry,lexical entry
+dev2,cym,home,1,lexical entry,lexical entry
+dev2,cym,hungry,2,lexical entry,lexical entry
+dev2,cym,hurt,1,lexical entry,lexical entry
+dev2,cym,i,27,incomplete,incomplete
+dev2,cym,if,1,lexical entry,lexical entry
+dev2,cym,imp,4,standard,imp
+dev2,cym,in,11,lexical entry,lexical entry
+dev2,cym,inf,63,standard,inf
+dev2,cym,is,2,lexical entry,lexical entry
+dev2,cym,it,7,lexical entry,lexical entry
+dev2,cym,john,2,lexical entry,lexical entry
+dev2,cym,jones,1,lexical entry,lexical entry
+dev2,cym,kitchen,1,lexical entry,lexical entry
+dev2,cym,know,9,lexical entry,lexical entry
+dev2,cym,late,1,lexical entry,lexical entry
+dev2,cym,learn,4,lexical entry,lexical entry
+dev2,cym,light,1,lexical entry,lexical entry
+dev2,cym,like,5,lexical entry,lexical entry
+dev2,cym,live,2,lexical entry,lexical entry
+dev2,cym,llandudno,2,lexical entry,lexical entry
+dev2,cym,london,1,lexical entry,lexical entry
+dev2,cym,mair,1,lexical entry,lexical entry
+dev2,cym,masc,1,misspelled,m
+dev2,cym,my,5,incomplete,incomplete
+dev2,cym,neg,2,standard,neg
+dev2,cym,new,1,lexical entry,lexical entry
+dev2,cym,next,1,lexical entry,lexical entry
+dev2,cym,not,6,incomplete,incomplete
+dev2,cym,now,1,lexical entry,lexical entry
+dev2,cym,of,1,lexical entry,lexical entry
+dev2,cym,on,2,lexical entry,lexical entry
+dev2,cym,or,1,lexical entry,lexical entry
+dev2,cym,our,2,incomplete,incomplete
+dev2,cym,paper,1,lexical entry,lexical entry
+dev2,cym,past,9,standard,past
+dev2,cym,picture,1,lexical entry,lexical entry
+dev2,cym,pl,33,standard,pl
+dev2,cym,place,3,lexical entry,lexical entry
+dev2,cym,pres,77,misspelled,prs
+dev2,cym,prf,4,standard,prf
+dev2,cym,q,9,standard,q
+dev2,cym,quickly,1,lexical entry,lexical entry
+dev2,cym,read,1,lexical entry,lexical entry
+dev2,cym,right,3,lexical entry,lexical entry
+dev2,cym,school,1,lexical entry,lexical entry
+dev2,cym,see,1,lexical entry,lexical entry
+dev2,cym,send,7,lexical entry,lexical entry
+dev2,cym,she,9,incomplete,incomplete
+dev2,cym,shop,3,lexical entry,lexical entry
+dev2,cym,should,1,lexical entry,lexical entry
+dev2,cym,sing,2,lexical entry,lexical entry
+dev2,cym,sioned,1,lexical entry,lexical entry
+dev2,cym,sit,10,lexical entry,lexical entry
+dev2,cym,siwan,1,lexical entry,lexical entry
+dev2,cym,sleep,5,lexical entry,lexical entry
+dev2,cym,summer,1,lexical entry,lexical entry
+dev2,cym,that,3,incomplete,incomplete
+dev2,cym,the,21,lexical entry,lexical entry
+dev2,cym,their,2,incomplete,incomplete
+dev2,cym,there,1,lexical entry,lexical entry
+dev2,cym,these,1,incomplete,incomplete
+dev2,cym,they,6,incomplete,incomplete
+dev2,cym,think,1,lexical entry,lexical entry
+dev2,cym,to,13,lexical entry,lexical entry
+dev2,cym,tomorrow,2,lexical entry,lexical entry
+dev2,cym,tonight,1,lexical entry,lexical entry
+dev2,cym,us,1,incomplete,incomplete
+dev2,cym,want,3,lexical entry,lexical entry
+dev2,cym,we,23,incomplete,incomplete
+dev2,cym,welsh,2,lexical entry,lexical entry
+dev2,cym,what,1,lexical entry,lexical entry
+dev2,cym,where,1,lexical entry,lexical entry
+dev2,cym,white,1,lexical entry,lexical entry
+dev2,cym,will,1,lexical entry,lexical entry
+dev2,cym,wonder,1,lexical entry,lexical entry
+dev2,cym,work,1,lexical entry,lexical entry
+dev2,cym,you,21,incomplete,incomplete
+dev2,cym,your,4,incomplete,incomplete
+dev2,fra,1,1,standard,1
+dev2,fra,1pl,47,standard,1pl
+dev2,fra,1sg,74,standard,1sg
+dev2,fra,2g,1,misspelled,2sg
+dev2,fra,2pl,45,standard,2pl
+dev2,fra,2sg,44,standard,2sg
+dev2,fra,3pl,179,standard,3pl
+dev2,fra,3sf,1,combined,combined
+dev2,fra,3sg,493,standard,3sg
+dev2,fra,a,23,lexical entry,lexical entry
+dev2,fra,acc,1,standard,acc
+dev2,fra,am,1,lexical entry,lexical entry
+dev2,fra,an,4,lexical entry,lexical entry
+dev2,fra,and,7,lexical entry,lexical entry
+dev2,fra,apple,43,lexical entry,lexical entry
+dev2,fra,apples,3,lexical entry,lexical entry
+dev2,fra,are,4,lexical entry,lexical entry
+dev2,fra,ask,4,lexical entry,lexical entry
+dev2,fra,be,3,lexical entry,lexical entry
+dev2,fra,big,1,lexical entry,lexical entry
+dev2,fra,boy,35,lexical entry,lexical entry
+dev2,fra,boys,7,lexical entry,lexical entry
+dev2,fra,cake,54,lexical entry,lexical entry
+dev2,fra,cake.,1,lexical entry,lexical entry
+dev2,fra,can,16,lexical entry,lexical entry
+dev2,fra,child,9,lexical entry,lexical entry
+dev2,fra,children,10,lexical entry,lexical entry
+dev2,fra,cookie,16,lexical entry,lexical entry
+dev2,fra,cookies,39,lexical entry,lexical entry
+dev2,fra,dem,2,standard,dem
+dev2,fra,did,16,lexical entry,lexical entry
+dev2,fra,eat,218,lexical entry,lexical entry
+dev2,fra,fem,160,misspelled,f
+dev2,fra,fille,1,lexical entry,lexical entry
+dev2,fra,fut,24,standard,fut
+dev2,fra,girl,34,lexical entry,lexical entry
+dev2,fra,girls,1,lexical entry,lexical entry
+dev2,fra,glass,1,lexical entry,lexical entry
+dev2,fra,harm,1,lexical entry,lexical entry
+dev2,fra,has,3,lexical entry,lexical entry
+dev2,fra,have,8,lexical entry,lexical entry
+dev2,fra,he,13,incomplete,incomplete
+dev2,fra,here,2,lexical entry,lexical entry
+dev2,fra,i,53,incomplete,incomplete
+dev2,fra,if,9,lexical entry,lexical entry
+dev2,fra,in,3,lexical entry,lexical entry
+dev2,fra,inf,16,standard,inf
+dev2,fra,ipfv,25,standard,ipfv
+dev2,fra,ipvf,1,misspelled,ipfv
+dev2,fra,is,11,lexical entry,lexical entry
+dev2,fra,it,38,lexical entry,lexical entry
+dev2,fra,les,1,lexical entry,lexical entry
+dev2,fra,little,3,lexical entry,lexical entry
+dev2,fra,masc,260,misspelled,m
+dev2,fra,me,1,incomplete,incomplete
+dev2,fra,no,1,lexical entry,lexical entry
+dev2,fra,non2sg,42,standard,non2sg
+dev2,fra,non3sg,14,standard,non3sg
+dev2,fra,not,78,incomplete,incomplete
+dev2,fra,not.,1,incomplete,incomplete
+dev2,fra,nous,2,lexical entry,lexical entry
+dev2,fra,park,3,lexical entry,lexical entry
+dev2,fra,past,2,standard,past
+dev2,fra,pfv,33,standard,pfv
+dev2,fra,pl,4,standard,pl
+dev2,fra,prep,3,part-of-speech,part-of-speech
+dev2,fra,prs,1,standard,prs
+dev2,fra,pst,32,standard,pst
+dev2,fra,pstptcp,25,combined,combined
+dev2,fra,refl,1,standard,refl
+dev2,fra,sg,5,standard,sg
+dev2,fra,she,8,incomplete,incomplete
+dev2,fra,sing,10,lexical entry,lexical entry
+dev2,fra,slow,1,lexical entry,lexical entry
+dev2,fra,slowly,6,lexical entry,lexical entry
+dev2,fra,small,7,lexical entry,lexical entry
+dev2,fra,some,4,lexical entry,lexical entry
+dev2,fra,take,2,lexical entry,lexical entry
+dev2,fra,that,11,incomplete,incomplete
+dev2,fra,the,202,lexical entry,lexical entry
+dev2,fra,them,9,incomplete,incomplete
+dev2,fra,there,3,lexical entry,lexical entry
+dev2,fra,these,8,incomplete,incomplete
+dev2,fra,they,12,incomplete,incomplete
+dev2,fra,think,12,lexical entry,lexical entry
+dev2,fra,this,13,incomplete,incomplete
+dev2,fra,tu,1,lexical entry,lexical entry
+dev2,fra,un,1,lexical entry,lexical entry
+dev2,fra,une,2,lexical entry,lexical entry
+dev2,fra,we,23,incomplete,incomplete
+dev2,fra,who,1,lexical entry,lexical entry
+dev2,fra,will,1,lexical entry,lexical entry
+dev2,fra,wonder,4,lexical entry,lexical entry
+dev2,fra,wonders,1,lexical entry,lexical entry
+dev2,fra,you,43,incomplete,incomplete
+dev2,lut,2nd,2,misspelled,2
+dev2,lut,3rd,1,misspelled,3
+dev2,lut,always,5,lexical entry,lexical entry
+dev2,lut,and,9,lexical entry,lexical entry
+dev2,lut,big,2,lexical entry,lexical entry
+dev2,lut,can,1,lexical entry,lexical entry
+dev2,lut,child,46,lexical entry,lexical entry
+dev2,lut,completive,56,standard,completive
+dev2,lut,def,65,standard,def
+dev2,lut,det,69,standard,det
+dev2,lut,dir,64,standard,dir
+dev2,lut,eat,1,lexical entry,lexical entry
+dev2,lut,father,1,lexical entry,lexical entry
+dev2,lut,fear,4,lexical entry,lexical entry
+dev2,lut,fem,8,misspelled,f
+dev2,lut,future,5,standard,future
+dev2,lut,get,57,lexical entry,lexical entry
+dev2,lut,habitual,3,standard,habitual
+dev2,lut,he,1,incomplete,incomplete
+dev2,lut,headache,2,lexical entry,lexical entry
+dev2,lut,here,1,lexical entry,lexical entry
+dev2,lut,house,16,lexical entry,lexical entry
+dev2,lut,hungry,1,lexical entry,lexical entry
+dev2,lut,hurt,1,lexical entry,lexical entry
+dev2,lut,i,26,incomplete,incomplete
+dev2,lut,ind,31,standard,ind
+dev2,lut,indef,4,misspelled,indf
+dev2,lut,indir,5,misspelled,indirectobject
+dev2,lut,it,1,lexical entry,lexical entry
+dev2,lut,lost,55,lexical entry,lexical entry
+dev2,lut,not,5,incomplete,incomplete
+dev2,lut,p,5,standard,p
+dev2,lut,pass,4,standard,pass
+dev2,lut,past,5,standard,past
+dev2,lut,pl,1,standard,pl
+dev2,lut,pred,31,standard,pred
+dev2,lut,progressive,9,standard,progressive
+dev2,lut,q,7,standard,q
+dev2,lut,salmon,7,lexical entry,lexical entry
+dev2,lut,sand,1,lexical entry,lexical entry
+dev2,lut,sg,4,standard,sg
+dev2,lut,she,1,incomplete,incomplete
+dev2,lut,stati,1,lexical entry,lexical entry
+dev2,lut,static,19,lexical entry,lexical entry
+dev2,lut,stative,4,standard,stative
+dev2,lut,sweep,21,lexical entry,lexical entry
+dev2,lut,them,1,incomplete,incomplete
+dev2,lut,there,6,lexical entry,lexical entry
+dev2,lut,true,2,lexical entry,lexical entry
+dev2,lut,very,2,lexical entry,lexical entry
+dev2,lut,we,3,incomplete,incomplete
+dev2,lut,well,1,lexical entry,lexical entry
+dev2,lut,wife,1,lexical entry,lexical entry
+dev2,lut,wonder,1,lexical entry,lexical entry
+dev2,lut,y'all,1,incomplete,incomplete
+dev2,lut,yall,1,incomplete,incomplete
+dev2,lut,you,10,incomplete,incomplete
+dev2,mal,a_little,1,lexical entry,lexical entry
+dev2,mal,acc,3,standard,acc
+dev2,mal,alittle,1,lexical entry,lexical entry
+dev2,mal,ask,1,lexical entry,lexical entry
+dev2,mal,be,2,lexical entry,lexical entry
+dev2,mal,call,1,lexical entry,lexical entry
+dev2,mal,can,1,lexical entry,lexical entry
+dev2,mal,child,4,lexical entry,lexical entry
+dev2,mal,come,4,lexical entry,lexical entry
+dev2,mal,coord,4,misspelled,conj
+dev2,mal,dat,2,standard,dat
+dev2,mal,distance,1,lexical entry,lexical entry
+dev2,mal,doctor,1,lexical entry,lexical entry
+dev2,mal,eat,1,lexical entry,lexical entry
+dev2,mal,fast,1,lexical entry,lexical entry
+dev2,mal,fut,1,standard,fut
+dev2,mal,gave,1,lexical entry,lexical entry
+dev2,mal,govindan,1,lexical entry,lexical entry
+dev2,mal,he,2,incomplete,incomplete
+dev2,mal,house,1,lexical entry,lexical entry
+dev2,mal,i,1,incomplete,incomplete
+dev2,mal,ip,2,misspelled,q
+dev2,mal,krishnan,1,lexical entry,lexical entry
+dev2,mal,kumar,2,lexical entry,lexical entry
+dev2,mal,loc,1,standard,loc
+dev2,mal,madhavan,1,lexical entry,lexical entry
+dev2,mal,milk,1,lexical entry,lexical entry
+dev2,mal,mother,2,lexical entry,lexical entry
+dev2,mal,neg,3,standard,neg
+dev2,mal,past,7,standard,past
+dev2,mal,pres,3,misspelled,prs
+dev2,mal,qp,1,misspelled,q
+dev2,mal,raghavan,1,lexical entry,lexical entry
+dev2,mal,raman,2,lexical entry,lexical entry
+dev2,mal,see,1,lexical entry,lexical entry
+dev2,mal,they,1,incomplete,incomplete
+dev2,mal,tomorrow,1,lexical entry,lexical entry
+dev2,mal,walk,1,lexical entry,lexical entry
+dev2,ojg,1,12,standard,1
+dev2,ojg,1pl,5,standard,1pl
+dev2,ojg,1sg,11,standard,1sg
+dev2,ojg,2,1,standard,2
+dev2,ojg,3,136,standard,3
+dev2,ojg,3gs,1,misspelled,3sg
+dev2,ojg,3obv,1,incomplete,incomplete
+dev2,ojg,3pl,32,standard,3pl
+dev2,ojg,3sg,67,standard,3sg
+dev2,ojg,a,3,lexical entry,lexical entry
+dev2,ojg,about,1,lexical entry,lexical entry
+dev2,ojg,ac,20,unrecovered,unrecovered
+dev2,ojg,an,37,lexical entry,lexical entry
+dev2,ojg,angry,1,lexical entry,lexical entry
+dev2,ojg,anim,11,standard,anim
+dev2,ojg,at,2,lexical entry,lexical entry
+dev2,ojg,axe,6,lexical entry,lexical entry
+dev2,ojg,be,7,lexical entry,lexical entry
+dev2,ojg,be+cold,1,lexical entry,lexical entry
+dev2,ojg,be+frightened,4,lexical entry,lexical entry
+dev2,ojg,be+good+at,2,lexical entry,lexical entry
+dev2,ojg,be+plentiful,2,lexical entry,lexical entry
+dev2,ojg,be+sharpened,7,lexical entry,lexical entry
+dev2,ojg,becold,1,lexical entry,lexical entry
+dev2,ojg,befrightened,4,lexical entry,lexical entry
+dev2,ojg,begin,2,lexical entry,lexical entry
+dev2,ojg,begoodat,2,lexical entry,lexical entry
+dev2,ojg,beplentiful,2,lexical entry,lexical entry
+dev2,ojg,besharpened,7,lexical entry,lexical entry
+dev2,ojg,big,1,lexical entry,lexical entry
+dev2,ojg,boat,22,lexical entry,lexical entry
+dev2,ojg,bread,1,lexical entry,lexical entry
+dev2,ojg,care,2,lexical entry,lexical entry
+dev2,ojg,charge,1,lexical entry,lexical entry
+dev2,ojg,child,7,lexical entry,lexical entry
+dev2,ojg,circle,3,lexical entry,lexical entry
+dev2,ojg,come,9,lexical entry,lexical entry
+dev2,ojg,coord,11,misspelled,conj
+dev2,ojg,cracker,1,lexical entry,lexical entry
+dev2,ojg,die,1,lexical entry,lexical entry
+dev2,ojg,dir,15,standard,dir
+dev2,ojg,do,1,lexical entry,lexical entry
+dev2,ojg,duck,12,lexical entry,lexical entry
+dev2,ojg,eat,1,lexical entry,lexical entry
+dev2,ojg,end,3,lexical entry,lexical entry
+dev2,ojg,for,1,lexical entry,lexical entry
+dev2,ojg,fox,4,lexical entry,lexical entry
+dev2,ojg,frightened,1,lexical entry,lexical entry
+dev2,ojg,fut,11,standard,fut
+dev2,ojg,gl,54,user-identified,user-identified
+dev2,ojg,good,2,lexical entry,lexical entry
+dev2,ojg,hab,4,standard,hab
+dev2,ojg,have+big+eyes,4,lexical entry,lexical entry
+dev2,ojg,have+many,1,lexical entry,lexical entry
+dev2,ojg,havebigeyes,4,lexical entry,lexical entry
+dev2,ojg,havemany,1,lexical entry,lexical entry
+dev2,ojg,house,1,lexical entry,lexical entry
+dev2,ojg,i,2,incomplete,incomplete
+dev2,ojg,in,22,lexical entry,lexical entry
+dev2,ojg,inam,1,misspelled,inanimate
+dev2,ojg,inan,20,misspelled,inanim
+dev2,ojg,indian,7,lexical entry,lexical entry
+dev2,ojg,inv,15,standard,inv
+dev2,ojg,leave,1,lexical entry,lexical entry
+dev2,ojg,like,1,lexical entry,lexical entry
+dev2,ojg,like+the+taste+of,11,lexical entry,lexical entry
+dev2,ojg,likethetasteof,11,lexical entry,lexical entry
+dev2,ojg,make,19,lexical entry,lexical entry
+dev2,ojg,meat,2,lexical entry,lexical entry
+dev2,ojg,milk,1,lexical entry,lexical entry
+dev2,ojg,mother,10,lexical entry,lexical entry
+dev2,ojg,my,11,incomplete,incomplete
+dev2,ojg,my+daughter+in+law,8,lexical entry,lexical entry
+dev2,ojg,my+mother,4,lexical entry,lexical entry
+dev2,ojg,mydaughterinlaw,8,lexical entry,lexical entry
+dev2,ojg,mymother,4,lexical entry,lexical entry
+dev2,ojg,neg,4,standard,neg
+dev2,ojg,nenabush,10,lexical entry,lexical entry
+dev2,ojg,not,3,incomplete,incomplete
+dev2,ojg,obv,49,standard,obv
+dev2,ojg,of,4,lexical entry,lexical entry
+dev2,ojg,one,3,lexical entry,lexical entry
+dev2,ojg,out,1,lexical entry,lexical entry
+dev2,ojg,partridge,1,lexical entry,lexical entry
+dev2,ojg,past,64,standard,past
+dev2,ojg,pl,46,standard,pl
+dev2,ojg,poorly,1,lexical entry,lexical entry
+dev2,ojg,porcupine,11,lexical entry,lexical entry
+dev2,ojg,pres,29,misspelled,prs
+dev2,ojg,prox,1,standard,prox
+dev2,ojg,ques,9,misspelled,q
+dev2,ojg,sailboat,7,lexical entry,lexical entry
+dev2,ojg,see,16,lexical entry,lexical entry
+dev2,ojg,sew,2,lexical entry,lexical entry
+dev2,ojg,sewing,2,lexical entry,lexical entry
+dev2,ojg,sg,21,standard,sg
+dev2,ojg,sharpened,2,lexical entry,lexical entry
+dev2,ojg,shirt,1,lexical entry,lexical entry
+dev2,ojg,skate,5,lexical entry,lexical entry
+dev2,ojg,sleep,1,lexical entry,lexical entry
+dev2,ojg,sweep,1,lexical entry,lexical entry
+dev2,ojg,take,3,lexical entry,lexical entry
+dev2,ojg,taste,1,lexical entry,lexical entry
+dev2,ojg,tell,1,lexical entry,lexical entry
+dev2,ojg,that,13,incomplete,incomplete
+dev2,ojg,the,1,lexical entry,lexical entry
+dev2,ojg,these,1,incomplete,incomplete
+dev2,ojg,this,14,incomplete,incomplete
+dev2,ojg,thm,30,user-identified,user-identified
+dev2,ojg,thm1,6,user-identified,user-identified
+dev2,ojg,thm2,18,user-identified,user-identified
+dev2,ojg,those,3,incomplete,incomplete
+dev2,ojg,three,1,lexical entry,lexical entry
+dev2,ojg,two,1,lexical entry,lexical entry
+dev2,ojg,visible,1,lexical entry,lexical entry
+dev2,ojg,visit,1,lexical entry,lexical entry
+dev2,ojg,vti,24,lexical entry,lexical entry
+dev2,ojg,walk,3,lexical entry,lexical entry
+dev2,ojg,walk+in+a+circle,1,lexical entry,lexical entry
+dev2,ojg,walkinacircle,1,lexical entry,lexical entry
+dev2,ojg,weed,3,lexical entry,lexical entry
+dev2,ojg,woman,9,lexical entry,lexical entry
+dev2,ojg,you,1,incomplete,incomplete
+dev2,ojg,young,1,lexical entry,lexical entry
+dev2,qub,1,25,standard,1
+dev2,qub,12,1,unrecovered,unrecovered
+dev2,qub,123,1,lexical entry,lexical entry
+dev2,qub,12>3,1,user-identified,user-identified
+dev2,qub,13,3,lexical entry,lexical entry
+dev2,qub,1>2,1,user-identified,user-identified
+dev2,qub,1>3,3,user-identified,user-identified
+dev2,qub,1sg,3,standard,1sg
+dev2,qub,2,8,standard,2
+dev2,qub,23,3,lexical entry,lexical entry
+dev2,qub,2>3,3,user-identified,user-identified
+dev2,qub,2sg,2,standard,2sg
+dev2,qub,3,32,standard,3
+dev2,qub,31,6,lexical entry,lexical entry
+dev2,qub,33,30,lexical entry,lexical entry
+dev2,qub,3>1,6,user-identified,user-identified
+dev2,qub,3>3,30,user-identified,user-identified
+dev2,qub,3sg,2,standard,3sg
+dev2,qub,[,1,lexical entry,lexical entry
+dev2,qub,],1,lexical entry,lexical entry
+dev2,qub,abl,1,standard,abl
+dev2,qub,able,3,lexical entry,lexical entry
+dev2,qub,acc,65,standard,acc
+dev2,qub,adv,1,part-of-speech,part-of-speech
+dev2,qub,afar,1,lexical entry,lexical entry
+dev2,qub,and,6,lexical entry,lexical entry
+dev2,qub,ask,1,lexical entry,lexical entry
+dev2,qub,bake,1,lexical entry,lexical entry
+dev2,qub,be,10,lexical entry,lexical entry
+dev2,qub,big,6,lexical entry,lexical entry
+dev2,qub,boy,1,lexical entry,lexical entry
+dev2,qub,bread,9,lexical entry,lexical entry
+dev2,qub,buy,2,lexical entry,lexical entry
+dev2,qub,car,7,lexical entry,lexical entry
+dev2,qub,cat,5,lexical entry,lexical entry
+dev2,qub,cats,1,lexical entry,lexical entry
+dev2,qub,charge,1,lexical entry,lexical entry
+dev2,qub,chase,13,lexical entry,lexical entry
+dev2,qub,chew,2,lexical entry,lexical entry
+dev2,qub,cigarette,2,lexical entry,lexical entry
+dev2,qub,coca,4,lexical entry,lexical entry
+dev2,qub,come,2,lexical entry,lexical entry
+dev2,qub,cond,4,standard,cond
+dev2,qub,cookie,1,lexical entry,lexical entry
+dev2,qub,do,3,lexical entry,lexical entry
+dev2,qub,dog,15,lexical entry,lexical entry
+dev2,qub,dogs,2,lexical entry,lexical entry
+dev2,qub,drink,2,lexical entry,lexical entry
+dev2,qub,dub,1,standard,dub
+dev2,qub,dur,2,standard,dur
+dev2,qub,eat,18,lexical entry,lexical entry
+dev2,qub,excl,5,standard,excl
+dev2,qub,expensive,1,lexical entry,lexical entry
+dev2,qub,fiesta,1,lexical entry,lexical entry
+dev2,qub,fire,2,lexical entry,lexical entry
+dev2,qub,first,1,lexical entry,lexical entry
+dev2,qub,fut,3,standard,fut
+dev2,qub,gen,1,standard,gen
+dev2,qub,give,1,lexical entry,lexical entry
+dev2,qub,glass,1,lexical entry,lexical entry
+dev2,qub,go,10,lexical entry,lexical entry
+dev2,qub,he,4,incomplete,incomplete
+dev2,qub,here,1,lexical entry,lexical entry
+dev2,qub,hit,8,lexical entry,lexical entry
+dev2,qub,hungry,2,lexical entry,lexical entry
+dev2,qub,hurt,1,lexical entry,lexical entry
+dev2,qub,i,6,incomplete,incomplete
+dev2,qub,imp,1,standard,imp
+dev2,qub,incl,1,standard,incl
+dev2,qub,inf,5,standard,inf
+dev2,qub,ipfv,4,standard,ipfv
+dev2,qub,iter,1,confused,rep
+dev2,qub,john,11,lexical entry,lexical entry
+dev2,qub,kiss,2,lexical entry,lexical entry
+dev2,qub,know,5,lexical entry,lexical entry
+dev2,qub,limpingly,1,lexical entry,lexical entry
+dev2,qub,list,1,lexical entry,lexical entry
+dev2,qub,loc,1,standard,loc
+dev2,qub,make,1,lexical entry,lexical entry
+dev2,qub,man,1,lexical entry,lexical entry
+dev2,qub,many,1,lexical entry,lexical entry
+dev2,qub,mariya,9,lexical entry,lexical entry
+dev2,qub,mary,4,lexical entry,lexical entry
+dev2,qub,much,1,lexical entry,lexical entry
+dev2,qub,neg,11,standard,neg
+dev2,qub,not,7,incomplete,incomplete
+dev2,qub,now,1,lexical entry,lexical entry
+dev2,qub,old,1,lexical entry,lexical entry
+dev2,qub,pfv,2,standard,pfv
+dev2,qub,pig,2,lexical entry,lexical entry
+dev2,qub,pl,36,standard,pl
+dev2,qub,potato,2,lexical entry,lexical entry
+dev2,qub,prf,4,standard,prf
+dev2,qub,pst,7,standard,pst
+dev2,qub,q,10,standard,q
+dev2,qub,quickly,1,lexical entry,lexical entry
+dev2,qub,rabbit,2,lexical entry,lexical entry
+dev2,qub,reach,1,lexical entry,lexical entry
+dev2,qub,scissor,1,lexical entry,lexical entry
+dev2,qub,see,6,lexical entry,lexical entry
+dev2,qub,self,1,lexical entry,lexical entry
+dev2,qub,sell,2,lexical entry,lexical entry
+dev2,qub,sense,1,lexical entry,lexical entry
+dev2,qub,sharp,1,lexical entry,lexical entry
+dev2,qub,sim,1,user-identified,user-identified
+dev2,qub,sleep,8,lexical entry,lexical entry
+dev2,qub,snake,1,lexical entry,lexical entry
+dev2,qub,speak,3,lexical entry,lexical entry
+dev2,qub,stone,1,lexical entry,lexical entry
+dev2,qub,sub,11,misspelled,sbj
+dev2,qub,sweep,1,lexical entry,lexical entry
+dev2,qub,that,5,incomplete,incomplete
+dev2,qub,think,2,lexical entry,lexical entry
+dev2,qub,this,1,incomplete,incomplete
+dev2,qub,tom,2,lexical entry,lexical entry
+dev2,qub,too,1,lexical entry,lexical entry
+dev2,qub,top,5,standard,top
+dev2,qub,travel,1,lexical entry,lexical entry
+dev2,qub,trip,1,lexical entry,lexical entry
+dev2,qub,very,1,lexical entry,lexical entry
+dev2,qub,visaq,1,lexical entry,lexical entry
+dev2,qub,walk,1,lexical entry,lexical entry
+dev2,qub,want,4,lexical entry,lexical entry
+dev2,qub,water,2,lexical entry,lexical entry
+dev2,qub,work,1,lexical entry,lexical entry
+dev2,qub,yesterday,1,lexical entry,lexical entry
+dev2,qub,you,4,incomplete,incomplete
+dev2,sci,1,2,standard,1
+dev2,sci,1pl,3,standard,1pl
+dev2,sci,1s,22,misspelled,1sg
+dev2,sci,1st,5,misspelled,1
+dev2,sci,2pl,5,standard,2pl
+dev2,sci,2s,3,misspelled,2sg
+dev2,sci,3pl,6,standard,3pl
+dev2,sci,3s,10,misspelled,3sg
+dev2,sci,abl,5,standard,abl
+dev2,sci,acc,6,standard,acc
+dev2,sci,addit,14,user-identified,user-identified
+dev2,sci,after,4,lexical entry,lexical entry
+dev2,sci,age,2,lexical entry,lexical entry
+dev2,sci,andare,2,lexical entry,lexical entry
+dev2,sci,army,1,lexical entry,lexical entry
+dev2,sci,ask,1,lexical entry,lexical entry
+dev2,sci,association,2,lexical entry,lexical entry
+dev2,sci,become,1,lexical entry,lexical entry
+dev2,sci,big,6,lexical entry,lexical entry
+dev2,sci,birth,1,lexical entry,lexical entry
+dev2,sci,black,3,lexical entry,lexical entry
+dev2,sci,british,1,lexical entry,lexical entry
+dev2,sci,burgher,1,lexical entry,lexical entry
+dev2,sci,bush,1,lexical entry,lexical entry
+dev2,sci,can,7,lexical entry,lexical entry
+dev2,sci,cannot,2,incomplete,incomplete
+dev2,sci,captain,1,lexical entry,lexical entry
+dev2,sci,catch,3,lexical entry,lexical entry
+dev2,sci,ceylon,2,lexical entry,lexical entry
+dev2,sci,child,5,lexical entry,lexical entry
+dev2,sci,colour,1,lexical entry,lexical entry
+dev2,sci,come,4,lexical entry,lexical entry
+dev2,sci,copula,4,standard,copula
+dev2,sci,cricket,1,lexical entry,lexical entry
+dev2,sci,dat,25,standard,dat
+dev2,sci,day,3,lexical entry,lexical entry
+dev2,sci,dead,1,lexical entry,lexical entry
+dev2,sci,die,1,lexical entry,lexical entry
+dev2,sci,different,6,lexical entry,lexical entry
+dev2,sci,dist,5,standard,dist
+dev2,sci,do,1,lexical entry,lexical entry
+dev2,sci,do!,1,lexical entry,lexical entry
+dev2,sci,drink,1,lexical entry,lexical entry
+dev2,sci,eat,4,lexical entry,lexical entry
+dev2,sci,emph,6,standard,emph
+dev2,sci,english,3,lexical entry,lexical entry
+dev2,sci,enquire,1,lexical entry,lexical entry
+dev2,sci,every,1,lexical entry,lexical entry
+dev2,sci,evid,1,lexical entry,lexical entry
+dev2,sci,exist,11,lexical entry,lexical entry
+dev2,sci,exist.,1,lexical entry,lexical entry
+dev2,sci,familiar,4,lexical entry,lexical entry
+dev2,sci,farook,1,lexical entry,lexical entry
+dev2,sci,father,3,lexical entry,lexical entry
+dev2,sci,festival,3,lexical entry,lexical entry
+dev2,sci,foot,2,lexical entry,lexical entry
+dev2,sci,give,1,lexical entry,lexical entry
+dev2,sci,glass,2,lexical entry,lexical entry
+dev2,sci,go,4,lexical entry,lexical entry
+dev2,sci,good,4,lexical entry,lexical entry
+dev2,sci,government,1,lexical entry,lexical entry
+dev2,sci,grandfather,1,lexical entry,lexical entry
+dev2,sci,group,1,lexical entry,lexical entry
+dev2,sci,hand,2,lexical entry,lexical entry
+dev2,sci,healthy,2,lexical entry,lexical entry
+dev2,sci,hear,1,lexical entry,lexical entry
+dev2,sci,help,1,lexical entry,lexical entry
+dev2,sci,here,4,lexical entry,lexical entry
+dev2,sci,hit,1,lexical entry,lexical entry
+dev2,sci,house,2,lexical entry,lexical entry
+dev2,sci,hurt,1,lexical entry,lexical entry
+dev2,sci,iceland,2,lexical entry,lexical entry
+dev2,sci,impolite,1,lexical entry,lexical entry
+dev2,sci,imran,1,lexical entry,lexical entry
+dev2,sci,indef,9,misspelled,indf
+dev2,sci,indonesia,1,lexical entry,lexical entry
+dev2,sci,inf,4,standard,inf
+dev2,sci,inspector,1,lexical entry,lexical entry
+dev2,sci,instr,1,misspelled,ins
+dev2,sci,interr,7,part-of-speech,part-of-speech
+dev2,sci,irr,2,standard,irr
+dev2,sci,jinaan,1,lexical entry,lexical entry
+dev2,sci,kiss,1,lexical entry,lexical entry
+dev2,sci,know,2,lexical entry,lexical entry
+dev2,sci,learn,2,lexical entry,lexical entry
+dev2,sci,like,1,lexical entry,lexical entry
+dev2,sci,loc,11,standard,loc
+dev2,sci,malay,4,lexical entry,lexical entry
+dev2,sci,malaysia,1,lexical entry,lexical entry
+dev2,sci,man,1,lexical entry,lexical entry
+dev2,sci,mango,2,lexical entry,lexical entry
+dev2,sci,mohomed,1,lexical entry,lexical entry
+dev2,sci,monied,1,lexical entry,lexical entry
+dev2,sci,monkey,1,lexical entry,lexical entry
+dev2,sci,moor,2,lexical entry,lexical entry
+dev2,sci,mother,4,lexical entry,lexical entry
+dev2,sci,mouth,6,lexical entry,lexical entry
+dev2,sci,much,4,lexical entry,lexical entry
+dev2,sci,must,2,lexical entry,lexical entry
+dev2,sci,name,1,lexical entry,lexical entry
+dev2,sci,neg,15,standard,neg
+dev2,sci,nmlzr,4,misspelled,nmlz
+dev2,sci,noise,1,lexical entry,lexical entry
+dev2,sci,non,17,standard,non
+dev2,sci,nonpast,2,standard,nonpast
+dev2,sci,now,2,lexical entry,lexical entry
+dev2,sci,officer,1,lexical entry,lexical entry
+dev2,sci,officer.,1,lexical entry,lexical entry
+dev2,sci,one,2,lexical entry,lexical entry
+dev2,sci,past,37,standard,past
+dev2,sci,people,1,lexical entry,lexical entry
+dev2,sci,pl,4,standard,pl
+dev2,sci,play,1,lexical entry,lexical entry
+dev2,sci,police,2,lexical entry,lexical entry
+dev2,sci,polite,9,lexical entry,lexical entry
+dev2,sci,poss,17,standard,poss
+dev2,sci,prox,4,standard,prox
+dev2,sci,quot,3,standard,quot
+dev2,sci,raw,1,lexical entry,lexical entry
+dev2,sci,read,2,lexical entry,lexical entry
+dev2,sci,rice,1,lexical entry,lexical entry
+dev2,sci,rich,1,lexical entry,lexical entry
+dev2,sci,rise,1,lexical entry,lexical entry
+dev2,sci,road,1,lexical entry,lexical entry
+dev2,sci,rose_red,1,lexical entry,lexical entry
+dev2,sci,rosered,1,lexical entry,lexical entry
+dev2,sci,saint,1,lexical entry,lexical entry
+dev2,sci,salim,1,lexical entry,lexical entry
+dev2,sci,samath,1,lexical entry,lexical entry
+dev2,sci,sand,6,lexical entry,lexical entry
+dev2,sci,say,1,lexical entry,lexical entry
+dev2,sci,send,1,lexical entry,lexical entry
+dev2,sci,ship,1,lexical entry,lexical entry
+dev2,sci,sick,1,lexical entry,lexical entry
+dev2,sci,simil,1,lexical entry,lexical entry
+dev2,sci,sing,2,lexical entry,lexical entry
+dev2,sci,singapore,2,lexical entry,lexical entry
+dev2,sci,sinhala,6,lexical entry,lexical entry
+dev2,sci,sink,1,lexical entry,lexical entry
+dev2,sci,sleep,1,lexical entry,lexical entry
+dev2,sci,slow,3,lexical entry,lexical entry
+dev2,sci,snow_white,1,lexical entry,lexical entry
+dev2,sci,snowwhite,1,lexical entry,lexical entry
+dev2,sci,so,1,lexical entry,lexical entry
+dev2,sci,some,3,lexical entry,lexical entry
+dev2,sci,speak,3,lexical entry,lexical entry
+dev2,sci,steal,1,lexical entry,lexical entry
+dev2,sci,story,1,lexical entry,lexical entry
+dev2,sci,strong,5,lexical entry,lexical entry
+dev2,sci,subject,1,standard,subject
+dev2,sci,sugar,2,lexical entry,lexical entry
+dev2,sci,take,1,lexical entry,lexical entry
+dev2,sci,tamil,5,lexical entry,lexical entry
+dev2,sci,tell,2,lexical entry,lexical entry
+dev2,sci,that,2,incomplete,incomplete
+dev2,sci,think,3,lexical entry,lexical entry
+dev2,sci,tiger,1,lexical entry,lexical entry
+dev2,sci,titanic,1,lexical entry,lexical entry
+dev2,sci,tomorrow,6,lexical entry,lexical entry
+dev2,sci,tree,1,lexical entry,lexical entry
+dev2,sci,uncle,1,lexical entry,lexical entry
+dev2,sci,understand,1,lexical entry,lexical entry
+dev2,sci,very,1,lexical entry,lexical entry
+dev2,sci,want,3,lexical entry,lexical entry
+dev2,sci,what,1,lexical entry,lexical entry
+dev2,sci,white,1,lexical entry,lexical entry
+dev2,sci,write,2,lexical entry,lexical entry
+dev2,tam,1pl,3,standard,1pl
+dev2,tam,1sg,21,standard,1sg
+dev2,tam,2pl,2,standard,2pl
+dev2,tam,2sg,1,standard,2sg
+dev2,tam,3fsg,6,combined,combined
+dev2,tam,3msg,5,combined,combined
+dev2,tam,3pl,15,standard,3pl
+dev2,tam,3sg,1,standard,3sg
+dev2,tam,3sgm,2,combined,combined
+dev2,tam,3sn,1,combined,combined
+dev2,tam,a,1,lexical entry,lexical entry
+dev2,tam,abil,1,lexical entry,lexical entry
+dev2,tam,acc,36,standard,acc
+dev2,tam,adj,2,part-of-speech,part-of-speech
+dev2,tam,adv,1,part-of-speech,part-of-speech
+dev2,tam,advl,1,part-of-speech,part-of-speech
+dev2,tam,and,9,lexical entry,lexical entry
+dev2,tam,ask,1,lexical entry,lexical entry
+dev2,tam,avp,2,user-identified,user-identified
+dev2,tam,be,2,lexical entry,lexical entry
+dev2,tam,beauty,2,lexical entry,lexical entry
+dev2,tam,big,1,lexical entry,lexical entry
+dev2,tam,but,1,lexical entry,lexical entry
+dev2,tam,buy,2,lexical entry,lexical entry
+dev2,tam,cat,2,lexical entry,lexical entry
+dev2,tam,cont,2,standard,cont
+dev2,tam,dat,2,standard,dat
+dev2,tam,doctor,2,lexical entry,lexical entry
+dev2,tam,dog,33,lexical entry,lexical entry
+dev2,tam,emb,1,lexical entry,lexical entry
+dev2,tam,excl,1,standard,excl
+dev2,tam,fall,4,lexical entry,lexical entry
+dev2,tam,fut,6,standard,fut
+dev2,tam,generally,3,lexical entry,lexical entry
+dev2,tam,good,3,lexical entry,lexical entry
+dev2,tam,hab,1,standard,hab
+dev2,tam,he,8,incomplete,incomplete
+dev2,tam,i,22,incomplete,incomplete
+dev2,tam,inanim,1,standard,inanim
+dev2,tam,incl,1,standard,incl
+dev2,tam,inf,5,standard,inf
+dev2,tam,it,1,lexical entry,lexical entry
+dev2,tam,know,1,lexical entry,lexical entry
+dev2,tam,lakshmi,1,lexical entry,lexical entry
+dev2,tam,loc,2,standard,loc
+dev2,tam,me,1,incomplete,incomplete
+dev2,tam,money,1,lexical entry,lexical entry
+dev2,tam,my,23,incomplete,incomplete
+dev2,tam,neg,8,standard,neg
+dev2,tam,neut,1,misspelled,n
+dev2,tam,nmlz,4,standard,nmlz
+dev2,tam,nom,34,standard,nom
+dev2,tam,one,1,lexical entry,lexical entry
+dev2,tam,past,27,standard,past
+dev2,tam,picture,1,lexical entry,lexical entry
+dev2,tam,pl,17,standard,pl
+dev2,tam,pol,5,user-identified,user-identified
+dev2,tam,pres,2,misspelled,prs
+dev2,tam,prs,7,standard,prs
+dev2,tam,pst,18,standard,pst
+dev2,tam,q,2,standard,q
+dev2,tam,qtv,3,user-identified,user-identified
+dev2,tam,raman,5,lexical entry,lexical entry
+dev2,tam,say,3,lexical entry,lexical entry
+dev2,tam,see,35,lexical entry,lexical entry
+dev2,tam,she,9,incomplete,incomplete
+dev2,tam,slowly,1,lexical entry,lexical entry
+dev2,tam,sm,2,combined,combined
+dev2,tam,sn,1,combined,combined
+dev2,tam,speed,1,lexical entry,lexical entry
+dev2,tam,that,1,incomplete,incomplete
+dev2,tam,they,1,incomplete,incomplete
+dev2,tam,thief,12,lexical entry,lexical entry
+dev2,tam,this,2,incomplete,incomplete
+dev2,tam,tree,6,lexical entry,lexical entry
+dev2,tam,unk,2,lexical entry,lexical entry
+dev2,tam,walk,17,lexical entry,lexical entry
+dev2,tam,we,1,incomplete,incomplete
+dev2,tam,you,3,incomplete,incomplete
+dev2,zul,1pl,5,standard,1pl
+dev2,zul,1sg,7,standard,1sg
+dev2,zul,2pl,4,standard,2pl
+dev2,zul,2sg,3,standard,2sg
+dev2,zul,7,1,lexical entry,lexical entry
+dev2,zul,at,1,lexical entry,lexical entry
+dev2,zul,boy,2,lexical entry,lexical entry
+dev2,zul,c1,28,user-identified,user-identified
+dev2,zul,c1a,6,user-identified,user-identified
+dev2,zul,c2,5,user-identified,user-identified
+dev2,zul,c2a,1,user-identified,user-identified
+dev2,zul,c5,3,user-identified,user-identified
+dev2,zul,c9,17,user-identified,user-identified
+dev2,zul,can,3,lexical entry,lexical entry
+dev2,zul,cat,1,lexical entry,lexical entry
+dev2,zul,child,21,lexical entry,lexical entry
+dev2,zul,doctor,1,lexical entry,lexical entry
+dev2,zul,dog,4,lexical entry,lexical entry
+dev2,zul,don't,1,lexical entry,lexical entry
+dev2,zul,dont,1,lexical entry,lexical entry
+dev2,zul,drink,1,lexical entry,lexical entry
+dev2,zul,fut,41,standard,fut
+dev2,zul,fv,51,standard,fv
+dev2,zul,go,4,lexical entry,lexical entry
+dev2,zul,hit,9,lexical entry,lexical entry
+dev2,zul,horse,1,lexical entry,lexical entry
+dev2,zul,imm,41,user-identified,user-identified
+dev2,zul,in,2,lexical entry,lexical entry
+dev2,zul,james,1,lexical entry,lexical entry
+dev2,zul,loc,3,standard,loc
+dev2,zul,mother,2,lexical entry,lexical entry
+dev2,zul,neg,2,standard,neg
+dev2,zul,oc1,2,user-identified,user-identified
+dev2,zul,oc2,2,user-identified,user-identified
+dev2,zul,oc9,3,user-identified,user-identified
+dev2,zul,order,1,lexical entry,lexical entry
+dev2,zul,p1,5,user-identified,user-identified
+dev2,zul,p2,3,user-identified,user-identified
+dev2,zul,p3,3,user-identified,user-identified
+dev2,zul,person,3,lexical entry,lexical entry
+dev2,zul,pl,2,standard,pl
+dev2,zul,play,20,lexical entry,lexical entry
+dev2,zul,q,1,standard,q
+dev2,zul,run,8,lexical entry,lexical entry
+dev2,zul,sbjv,4,standard,sbjv
+dev2,zul,sc1,28,user-identified,user-identified
+dev2,zul,sc15,1,user-identified,user-identified
+dev2,zul,sc2,5,user-identified,user-identified
+dev2,zul,sc5,1,user-identified,user-identified
+dev2,zul,sc9,2,user-identified,user-identified
+dev2,zul,school,1,lexical entry,lexical entry
+dev2,zul,see,5,lexical entry,lexical entry
+dev2,zul,shay,1,lexical entry,lexical entry
+dev2,zul,sipho,2,lexical entry,lexical entry
+dev2,zul,snake,8,lexical entry,lexical entry
+dev2,zul,study,3,lexical entry,lexical entry
+dev2,zul,tea,1,lexical entry,lexical entry
+dev2,zul,that,2,incomplete,incomplete
+dev2,zul,to,3,lexical entry,lexical entry
+dev2,zul,town,1,lexical entry,lexical entry
+dev2,zul,wake,1,lexical entry,lexical entry
+dev2,zul,want,2,lexical entry,lexical entry
+dev2,zul,with,3,lexical entry,lexical entry
+dev2,zul,work,1,lexical entry,lexical entry
+test,ain,1pl,6,standard,1pl
+test,ain,1sg,39,standard,1sg
+test,ain,2pl,6,standard,2pl
+test,ain,2sg,8,standard,2sg
+test,ain,and,6,lexical entry,lexical entry
+test,ain,ask,2,lexical entry,lexical entry
+test,ain,asp,2,part-of-speech,part-of-speech
+test,ain,be,9,lexical entry,lexical entry
+test,ain,beautiful,12,lexical entry,lexical entry
+test,ain,boy,21,lexical entry,lexical entry
+test,ain,can,1,lexical entry,lexical entry
+test,ain,cannot,2,lexical entry,lexical entry
+test,ain,cat,10,lexical entry,lexical entry
+test,ain,chase,4,lexical entry,lexical entry
+test,ain,child,1,lexical entry,lexical entry
+test,ain,colloc,1,lexical entry,lexical entry
+test,ain,come,10,lexical entry,lexical entry
+test,ain,cop,3,standard,cop
+test,ain,dog,10,lexical entry,lexical entry
+test,ain,dur,2,standard,dur
+test,ain,early,3,lexical entry,lexical entry
+test,ain,eat,7,lexical entry,lexical entry
+test,ain,enter,6,lexical entry,lexical entry
+test,ain,girl,5,lexical entry,lexical entry
+test,ain,give,1,lexical entry,lexical entry
+test,ain,grass,6,lexical entry,lexical entry
+test,ain,hit,2,lexical entry,lexical entry
+test,ain,house,1,lexical entry,lexical entry
+test,ain,hurt,4,lexical entry,lexical entry
+test,ain,if,2,lexical entry,lexical entry
+test,ain,in,3,lexical entry,lexical entry
+test,ain,laugh,11,lexical entry,lexical entry
+test,ain,many,1,lexical entry,lexical entry
+test,ain,money,1,lexical entry,lexical entry
+test,ain,near,2,lexical entry,lexical entry
+test,ain,neg,6,standard,neg
+test,ain,nom,33,standard,nom
+test,ain,obj,18,standard,obj
+test,ain,pl,3,standard,pl
+test,ain,pron,8,part-of-speech,part-of-speech
+test,ain,ques,1,misspelled,q
+test,ain,see,21,lexical entry,lexical entry
+test,ain,sg,4,standard,sg
+test,ain,that,4,incomplete,incomplete
+test,ain,think,2,lexical entry,lexical entry
+test,ain,this,6,incomplete,incomplete
+test,ain,to,6,lexical entry,lexical entry
+test,ain,unknown,2,lexical entry,lexical entry
+test,ain,village,3,lexical entry,lexical entry
+test,ary,1st,3,misspelled,1
+test,ary,3pl,2,standard,3pl
+test,ary,3sgm,1,combined,combined
+test,ary,a,3,standard,a
+test,ary,about,2,lexical entry,lexical entry
+test,ary,acc,8,standard,acc
+test,ary,akul,2,lexical entry,lexical entry
+test,ary,and,26,lexical entry,lexical entry
+test,ary,anton,1,lexical entry,lexical entry
+test,ary,any,1,lexical entry,lexical entry
+test,ary,association,1,lexical entry,lexical entry
+test,ary,at,4,lexical entry,lexical entry
+test,ary,ate,1,lexical entry,lexical entry
+test,ary,ball,4,lexical entry,lexical entry
+test,ary,beautiful,8,lexical entry,lexical entry
+test,ary,bed,2,lexical entry,lexical entry
+test,ary,believe,2,lexical entry,lexical entry
+test,ary,body,5,lexical entry,lexical entry
+test,ary,book,6,lexical entry,lexical entry
+test,ary,boy,5,lexical entry,lexical entry
+test,ary,brought,1,lexical entry,lexical entry
+test,ary,buy,1,lexical entry,lexical entry
+test,ary,by,3,lexical entry,lexical entry
+test,ary,called,3,lexical entry,lexical entry
+test,ary,came,2,lexical entry,lexical entry
+test,ary,car,8,lexical entry,lexical entry
+test,ary,cat,4,lexical entry,lexical entry
+test,ary,chases,1,lexical entry,lexical entry
+test,ary,come,1,lexical entry,lexical entry
+test,ary,conj,3,standard,conj
+test,ary,continued,1,lexical entry,lexical entry
+test,ary,damage,1,lexical entry,lexical entry
+test,ary,day,3,lexical entry,lexical entry
+test,ary,def,122,standard,def
+test,ary,demon,1,lexical entry,lexical entry
+test,ary,development,1,lexical entry,lexical entry
+test,ary,diarrhea,1,lexical entry,lexical entry
+test,ary,do,4,lexical entry,lexical entry
+test,ary,doctor,1,lexical entry,lexical entry
+test,ary,dog,15,lexical entry,lexical entry
+test,ary,dogs,3,lexical entry,lexical entry
+test,ary,drank,1,lexical entry,lexical entry
+test,ary,drink,5,lexical entry,lexical entry
+test,ary,eat,2,lexical entry,lexical entry
+test,ary,eats,1,lexical entry,lexical entry
+test,ary,english,1,lexical entry,lexical entry
+test,ary,enters,3,lexical entry,lexical entry
+test,ary,even,7,lexical entry,lexical entry
+test,ary,every,2,lexical entry,lexical entry
+test,ary,exactly,3,lexical entry,lexical entry
+test,ary,exists,2,lexical entry,lexical entry
+test,ary,exits,1,lexical entry,lexical entry
+test,ary,f,3,standard,f
+test,ary,famous,2,lexical entry,lexical entry
+test,ary,famous.,6,lexical entry,lexical entry
+test,ary,fatima,19,lexical entry,lexical entry
+test,ary,fem,1,misspelled,f
+test,ary,fpl,1,combined,combined
+test,ary,french,1,lexical entry,lexical entry
+test,ary,fries,1,lexical entry,lexical entry
+test,ary,fut,6,standard,fut
+test,ary,gen,1,standard,gen
+test,ary,girl,1,lexical entry,lexical entry
+test,ary,gives,2,lexical entry,lexical entry
+test,ary,glass,1,lexical entry,lexical entry
+test,ary,go,3,lexical entry,lexical entry
+test,ary,going,2,lexical entry,lexical entry
+test,ary,good,1,lexical entry,lexical entry
+test,ary,greg,1,lexical entry,lexical entry
+test,ary,hands,1,lexical entry,lexical entry
+test,ary,hassan,1,lexical entry,lexical entry
+test,ary,he,43,incomplete,incomplete
+test,ary,help,1,lexical entry,lexical entry
+test,ary,her,12,incomplete,incomplete
+test,ary,hhe,1,lexical entry,lexical entry
+test,ary,him,6,incomplete,incomplete
+test,ary,house,5,lexical entry,lexical entry
+test,ary,hunger,3,lexical entry,lexical entry
+test,ary,hygiene,1,lexical entry,lexical entry
+test,ary,i,30,incomplete,incomplete
+test,ary,importance,1,lexical entry,lexical entry
+test,ary,in,20,lexical entry,lexical entry
+test,ary,ind,56,standard,ind
+test,ary,indef,1,misspelled,indf
+test,ary,is,6,lexical entry,lexical entry
+test,ary,juha,1,lexical entry,lexical entry
+test,ary,ka,2,lexical entry,lexical entry
+test,ary,kitchen,3,lexical entry,lexical entry
+test,ary,knew,1,lexical entry,lexical entry
+test,ary,know,5,lexical entry,lexical entry
+test,ary,knows,1,lexical entry,lexical entry
+test,ary,lack,4,lexical entry,lexical entry
+test,ary,large,1,lexical entry,lexical entry
+test,ary,letter,1,lexical entry,lexical entry
+test,ary,living,3,lexical entry,lexical entry
+test,ary,lot,1,lexical entry,lexical entry
+test,ary,m,1,standard,m
+test,ary,malika,4,lexical entry,lexical entry
+test,ary,man,8,lexical entry,lexical entry
+test,ary,mark,7,lexical entry,lexical entry
+test,ary,marker,2,lexical entry,lexical entry
+test,ary,mas,1,misspelled,m
+test,ary,me,9,incomplete,incomplete
+test,ary,medicine,1,lexical entry,lexical entry
+test,ary,meknes,2,lexical entry,lexical entry
+test,ary,middle,3,lexical entry,lexical entry
+test,ary,milk,4,lexical entry,lexical entry
+test,ary,money,1,lexical entry,lexical entry
+test,ary,morning,3,lexical entry,lexical entry
+test,ary,morning.,1,lexical entry,lexical entry
+test,ary,mother,1,lexical entry,lexical entry
+test,ary,mpl,1,combined,combined
+test,ary,muhammad,2,lexical entry,lexical entry
+test,ary,my,6,incomplete,incomplete
+test,ary,name,2,lexical entry,lexical entry
+test,ary,needle,1,lexical entry,lexical entry
+test,ary,neg1,14,misspelled,neg
+test,ary,neg2,5,misspelled,neg
+test,ary,no,2,lexical entry,lexical entry
+test,ary,nom,2,standard,nom
+test,ary,nothing,1,lexical entry,lexical entry
+test,ary,of,3,lexical entry,lexical entry
+test,ary,oh,1,lexical entry,lexical entry
+test,ary,on,2,lexical entry,lexical entry
+test,ary,one,3,lexical entry,lexical entry
+test,ary,one.,2,lexical entry,lexical entry
+test,ary,part,15,lexical entry,lexical entry
+test,ary,particle,2,misspelled,participle
+test,ary,peace,5,lexical entry,lexical entry
+test,ary,penny,2,lexical entry,lexical entry
+test,ary,pl,6,standard,pl
+test,ary,play,9,lexical entry,lexical entry
+test,ary,plf,4,combined,combined
+test,ary,plm,1,combined,combined
+test,ary,plural,2,misspelled,pluralperson
+test,ary,poss,6,standard,poss
+test,ary,possible,4,lexical entry,lexical entry
+test,ary,pres,55,misspelled,prs
+test,ary,pro,1,incomplete,incomplete
+test,ary,projects,1,lexical entry,lexical entry
+test,ary,q,7,standard,q
+test,ary,ques,3,misspelled,q
+test,ary,question,2,standard,question
+test,ary,quickness,2,lexical entry,lexical entry
+test,ary,ran,1,lexical entry,lexical entry
+test,ary,read,3,lexical entry,lexical entry
+test,ary,relationship,1,lexical entry,lexical entry
+test,ary,remained,2,lexical entry,lexical entry
+test,ary,remains,1,lexical entry,lexical entry
+test,ary,roof,3,lexical entry,lexical entry
+test,ary,room,7,lexical entry,lexical entry
+test,ary,run,7,lexical entry,lexical entry
+test,ary,runs,13,lexical entry,lexical entry
+test,ary,said,1,lexical entry,lexical entry
+test,ary,sami,2,lexical entry,lexical entry
+test,ary,saw,2,lexical entry,lexical entry
+test,ary,say,2,lexical entry,lexical entry
+test,ary,seat,1,lexical entry,lexical entry
+test,ary,sees,1,lexical entry,lexical entry
+test,ary,sgf,5,combined,combined
+test,ary,sgm,2,combined,combined
+test,ary,she,37,incomplete,incomplete
+test,ary,shower,3,lexical entry,lexical entry
+test,ary,singer,3,lexical entry,lexical entry
+test,ary,singing,5,lexical entry,lexical entry
+test,ary,single,4,standard,single
+test,ary,sleep,3,lexical entry,lexical entry
+test,ary,sleeps,4,lexical entry,lexical entry
+test,ary,smoke,1,lexical entry,lexical entry
+test,ary,speak,1,lexical entry,lexical entry
+test,ary,speaks,1,lexical entry,lexical entry
+test,ary,speed,5,lexical entry,lexical entry
+test,ary,still,1,lexical entry,lexical entry
+test,ary,strikes,1,lexical entry,lexical entry
+test,ary,sun,3,lexical entry,lexical entry
+test,ary,swing,9,lexical entry,lexical entry
+test,ary,t,1,unrecovered,unrecovered
+test,ary,tamazigh,1,lexical entry,lexical entry
+test,ary,teach,1,lexical entry,lexical entry
+test,ary,that,2,incomplete,incomplete
+test,ary,them,1,incomplete,incomplete
+test,ary,they,2,incomplete,incomplete
+test,ary,thing,2,lexical entry,lexical entry
+test,ary,thing.,1,lexical entry,lexical entry
+test,ary,thinks,2,lexical entry,lexical entry
+test,ary,this,12,incomplete,incomplete
+test,ary,time,1,lexical entry,lexical entry
+test,ary,to,18,lexical entry,lexical entry
+test,ary,train,1,lexical entry,lexical entry
+test,ary,two,1,lexical entry,lexical entry
+test,ary,unknown,3,lexical entry,lexical entry
+test,ary,us,3,incomplete,incomplete
+test,ary,verb,17,lexical entry,lexical entry
+test,ary,violin,1,lexical entry,lexical entry
+test,ary,volunteer,5,lexical entry,lexical entry
+test,ary,waiter,1,lexical entry,lexical entry
+test,ary,want,5,lexical entry,lexical entry
+test,ary,wants,4,lexical entry,lexical entry
+test,ary,was,10,lexical entry,lexical entry
+test,ary,washing,1,lexical entry,lexical entry
+test,ary,water,1,lexical entry,lexical entry
+test,ary,we,2,incomplete,incomplete
+test,ary,well,1,lexical entry,lexical entry
+test,ary,well?,1,lexical entry,lexical entry
+test,ary,what,3,lexical entry,lexical entry
+test,ary,when,3,lexical entry,lexical entry
+test,ary,which,1,lexical entry,lexical entry
+test,ary,who,2,lexical entry,lexical entry
+test,ary,with,15,lexical entry,lexical entry
+test,ary,woman,1,lexical entry,lexical entry
+test,ary,wonder,3,lexical entry,lexical entry
+test,ary,work,2,lexical entry,lexical entry
+test,ary,works,1,lexical entry,lexical entry
+test,ary,writes,1,lexical entry,lexical entry
+test,ary,wrote,1,lexical entry,lexical entry
+test,ary,y,2,lexical entry,lexical entry
+test,ary,yes,2,lexical entry,lexical entry
+test,ary,you,17,incomplete,incomplete
+test,ary,you?,1,lexical entry,lexical entry
+test,ary,you_sg,3,incomplete,incomplete
+test,ary,yousg,3,incomplete,incomplete
+test,ary,youth,1,lexical entry,lexical entry
+test,ary,youths,2,lexical entry,lexical entry
+test,ces,1pl,2,standard,1pl
+test,ces,1sg,69,standard,1sg
+test,ces,2pl,2,standard,2pl
+test,ces,2sg,20,standard,2sg
+test,ces,3pl,18,standard,3pl
+test,ces,3sg,27,standard,3sg
+test,ces,acc,66,standard,acc
+test,ces,and,5,lexical entry,lexical entry
+test,ces,ask,2,lexical entry,lexical entry
+test,ces,be,8,lexical entry,lexical entry
+test,ces,bird,13,lexical entry,lexical entry
+test,ces,book,4,lexical entry,lexical entry
+test,ces,can,6,lexical entry,lexical entry
+test,ces,car,9,lexical entry,lexical entry
+test,ces,carry,7,lexical entry,lexical entry
+test,ces,cars,2,lexical entry,lexical entry
+test,ces,cat,4,lexical entry,lexical entry
+test,ces,chase,17,lexical entry,lexical entry
+test,ces,dat,5,standard,dat
+test,ces,dog,33,lexical entry,lexical entry
+test,ces,eat,6,lexical entry,lexical entry
+test,ces,f,10,standard,f
+test,ces,flies,7,lexical entry,lexical entry
+test,ces,fly,7,lexical entry,lexical entry
+test,ces,friend,4,lexical entry,lexical entry
+test,ces,fut,2,standard,fut
+test,ces,give,4,lexical entry,lexical entry
+test,ces,glass,3,lexical entry,lexical entry
+test,ces,hungry,2,lexical entry,lexical entry
+test,ces,hurt,1,lexical entry,lexical entry
+test,ces,imp,1,standard,imp
+test,ces,inf,10,standard,inf
+test,ces,know,4,lexical entry,lexical entry
+test,ces,m,71,standard,m
+test,ces,must,1,lexical entry,lexical entry
+test,ces,my,2,incomplete,incomplete
+test,ces,n,15,standard,n
+test,ces,neg,10,standard,neg
+test,ces,nom,91,standard,nom
+test,ces,nor,1,lexical entry,lexical entry
+test,ces,old,2,lexical entry,lexical entry
+test,ces,our,2,incomplete,incomplete
+test,ces,p,1,standard,p
+test,ces,pl,34,standard,pl
+test,ces,pp,7,misspelled,pl
+test,ces,pre,1,misspelled,prs
+test,ces,prf,1,standard,prf
+test,ces,prs,78,standard,prs
+test,ces,quickly,1,lexical entry,lexical entry
+test,ces,refl,2,standard,refl
+test,ces,river,24,lexical entry,lexical entry
+test,ces,see,25,lexical entry,lexical entry
+test,ces,sg,76,standard,sg
+test,ces,sleep,3,lexical entry,lexical entry
+test,ces,that,7,incomplete,incomplete
+test,ces,think,2,lexical entry,lexical entry
+test,ces,this,6,incomplete,incomplete
+test,ces,whether,2,lexical entry,lexical entry
+test,ces,which,1,lexical entry,lexical entry
+test,ces,who,2,lexical entry,lexical entry
+test,ces,woman,4,lexical entry,lexical entry
+test,hbs,1,32,standard,1
+test,hbs,1sg,3,standard,1sg
+test,hbs,2,13,standard,2
+test,hbs,2sg,2,standard,2sg
+test,hbs,3,114,standard,3
+test,hbs,?,7,lexical entry,lexical entry
+test,hbs,acc,69,standard,acc
+test,hbs,and,10,lexical entry,lexical entry
+test,hbs,ask,1,lexical entry,lexical entry
+test,hbs,at,1,lexical entry,lexical entry
+test,hbs,aux,18,standard,aux
+test,hbs,be,9,lexical entry,lexical entry
+test,hbs,book,3,lexical entry,lexical entry
+test,hbs,can,1,lexical entry,lexical entry
+test,hbs,city,1,lexical entry,lexical entry
+test,hbs,clearly,5,lexical entry,lexical entry
+test,hbs,comp,5,standard,comp
+test,hbs,concert,1,lexical entry,lexical entry
+test,hbs,da,3,lexical entry,lexical entry
+test,hbs,dat,10,standard,dat
+test,hbs,drink,2,lexical entry,lexical entry
+test,hbs,eat,1,lexical entry,lexical entry
+test,hbs,f,87,standard,f
+test,hbs,fast,1,lexical entry,lexical entry
+test,hbs,fear,1,lexical entry,lexical entry
+test,hbs,fp,4,standard,fp
+test,hbs,from,1,lexical entry,lexical entry
+test,hbs,fut,8,standard,fut
+test,hbs,gen,4,standard,gen
+test,hbs,glass,1,lexical entry,lexical entry
+test,hbs,green,1,lexical entry,lexical entry
+test,hbs,help,8,lexical entry,lexical entry
+test,hbs,house,1,lexical entry,lexical entry
+test,hbs,husband,5,lexical entry,lexical entry
+test,hbs,inf,9,standard,inf
+test,hbs,ipfv,1,standard,ipfv
+test,hbs,ivan,6,lexical entry,lexical entry
+test,hbs,know,3,lexical entry,lexical entry
+test,hbs,l,8,user-identified,user-identified
+test,hbs,li,6,lexical entry,lexical entry
+test,hbs,loc,1,standard,loc
+test,hbs,m,86,standard,m
+test,hbs,marija,3,lexical entry,lexical entry
+test,hbs,n,10,standard,n
+test,hbs,neg,2,standard,neg
+test,hbs,new,16,lexical entry,lexical entry
+test,hbs,nom,112,standard,nom
+test,hbs,olg,11,lexical entry,lexical entry
+test,hbs,olga,39,lexical entry,lexical entry
+test,hbs,pfv,1,standard,pfv
+test,hbs,pl,52,standard,pl
+test,hbs,prs,15,standard,prs
+test,hbs,pst,8,standard,pst
+test,hbs,q,11,standard,q
+test,hbs,red,1,lexical entry,lexical entry
+test,hbs,see,58,lexical entry,lexical entry
+test,hbs,sg,251,standard,sg
+test,hbs,slavk,9,lexical entry,lexical entry
+test,hbs,slavko,41,lexical entry,lexical entry
+test,hbs,slavo,1,lexical entry,lexical entry
+test,hbs,sleep,14,lexical entry,lexical entry
+test,hbs,speak,1,lexical entry,lexical entry
+test,hbs,study,1,lexical entry,lexical entry
+test,hbs,tea,1,lexical entry,lexical entry
+test,hbs,that,2,incomplete,incomplete
+test,hbs,think,1,lexical entry,lexical entry
+test,hbs,this,8,incomplete,incomplete
+test,hbs,unknown,3,lexical entry,lexical entry
+test,hbs,vine,1,lexical entry,lexical entry
+test,hbs,well,1,lexical entry,lexical entry
+test,hbs,wife,4,lexical entry,lexical entry
+test,hbs,woman,1,lexical entry,lexical entry
+test,hbs,work,1,lexical entry,lexical entry
+test,hbs,write,2,lexical entry,lexical entry
+test,hbs,zoran,2,lexical entry,lexical entry
+test,hix,1sg,7,standard,1sg
+test,hix,2g,1,misspelled,2sg
+test,hix,2sg,4,standard,2sg
+test,hix,3sg,11,standard,3sg
+test,hix,animate,3,standard,animate
+test,hix,banana,1,lexical entry,lexical entry
+test,hix,be,4,lexical entry,lexical entry
+test,hix,being,1,lexical entry,lexical entry
+test,hix,bell,1,lexical entry,lexical entry
+test,hix,bite,1,lexical entry,lexical entry
+test,hix,boy,2,lexical entry,lexical entry
+test,hix,canoe,3,lexical entry,lexical entry
+test,hix,coll,2,lexical entry,lexical entry
+test,hix,come,4,lexical entry,lexical entry
+test,hix,comp,9,standard,comp
+test,hix,cont,4,standard,cont
+test,hix,dance,1,lexical entry,lexical entry
+test,hix,deictic,6,lexical entry,lexical entry
+test,hix,denomlzr,3,user-identified,user-identified
+test,hix,die,1,lexical entry,lexical entry
+test,hix,dist,7,standard,dist
+test,hix,eat,4,lexical entry,lexical entry
+test,hix,fast,1,lexical entry,lexical entry
+test,hix,fell,4,lexical entry,lexical entry
+test,hix,for,1,lexical entry,lexical entry
+test,hix,fumaca,1,lexical entry,lexical entry
+test,hix,go,3,lexical entry,lexical entry
+test,hix,gohunting,1,lexical entry,lexical entry
+test,hix,going,2,lexical entry,lexical entry
+test,hix,he,2,incomplete,incomplete
+test,hix,his,2,incomplete,incomplete
+test,hix,hit,4,lexical entry,lexical entry
+test,hix,hungry,1,lexical entry,lexical entry
+test,hix,i+iii,2,user-identified,user-identified
+test,hix,iiii,2,user-identified,user-identified
+test,hix,iiis,2,user-identified,user-identified
+test,hix,iiisiio,1,user-identified,user-identified
+test,hix,iis,1,user-identified,user-identified
+test,hix,imm,18,user-identified,user-identified
+test,hix,in,1,lexical entry,lexical entry
+test,hix,inanimate,3,standard,inanimate
+test,hix,is,2,lexical entry,lexical entry
+test,hix,isiiio,1,user-identified,user-identified
+test,hix,isiio,1,user-identified,user-identified
+test,hix,it,2,lexical entry,lexical entry
+test,hix,jaguar,3,lexical entry,lexical entry
+test,hix,know,1,lexical entry,lexical entry
+test,hix,knowing,1,lexical entry,lexical entry
+test,hix,man,3,lexical entry,lexical entry
+test,hix,me,1,incomplete,incomplete
+test,hix,meat,1,lexical entry,lexical entry
+test,hix,medial,2,lexical entry,lexical entry
+test,hix,monkey,1,lexical entry,lexical entry
+test,hix,my,1,incomplete,incomplete
+test,hix,near,3,lexical entry,lexical entry
+test,hix,neg,1,standard,neg
+test,hix,nomlzn,2,misspelled,nmlz
+test,hix,nonpast,5,standard,nonpast
+test,hix,not,1,incomplete,incomplete
+test,hix,old,1,lexical entry,lexical entry
+test,hix,one,1,lexical entry,lexical entry
+test,hix,past,33,standard,past
+test,hix,patch,2,lexical entry,lexical entry
+test,hix,patchpl,2,user-identified,user-identified
+test,hix,person,5,lexical entry,lexical entry
+test,hix,pl,10,standard,pl
+test,hix,plaintain,1,lexical entry,lexical entry
+test,hix,potato,1,lexical entry,lexical entry
+test,hix,push,1,lexical entry,lexical entry
+test,hix,rec,6,standard,rec
+test,hix,remote,2,standard,remote
+test,hix,say,1,lexical entry,lexical entry
+test,hix,sg,1,standard,sg
+test,hix,shaman,1,lexical entry,lexical entry
+test,hix,si,5,user-identified,user-identified
+test,hix,sick,1,lexical entry,lexical entry
+test,hix,sii,1,user-identified,user-identified
+test,hix,siii,8,user-identified,user-identified
+test,hix,siiioii,1,user-identified,user-identified
+test,hix,siiioiii,8,user-identified,user-identified
+test,hix,siioiii,1,user-identified,user-identified
+test,hix,sioii,1,user-identified,user-identified
+test,hix,sioiii,1,user-identified,user-identified
+test,hix,sleep,2,lexical entry,lexical entry
+test,hix,take_bath,1,lexical entry,lexical entry
+test,hix,takebath,1,lexical entry,lexical entry
+test,hix,tell,1,lexical entry,lexical entry
+test,hix,to,3,lexical entry,lexical entry
+test,hix,took,2,lexical entry,lexical entry
+test,hix,tree,4,lexical entry,lexical entry
+test,hix,uncert,2,user-identified,user-identified
+test,hix,visitor,1,lexical entry,lexical entry
+test,hix,wait,1,lexical entry,lexical entry
+test,hix,wakara,1,lexical entry,lexical entry
+test,hix,warning,1,lexical entry,lexical entry
+test,hix,wash,1,lexical entry,lexical entry
+test,hix,weep,1,lexical entry,lexical entry
+test,hix,woman,1,lexical entry,lexical entry
+test,inh,&,28,lexical entry,lexical entry
+test,inh,1000,1,lexical entry,lexical entry
+test,inh,1pex,3,user-identified,user-identified
+test,inh,1plexcl,1,combined,combined
+test,inh,1plincl,1,combined,combined
+test,inh,1s,30,misspelled,1sg
+test,inh,1sg,1,standard,1sg
+test,inh,1srfl,1,combined,combined
+test,inh,20,1,lexical entry,lexical entry
+test,inh,2p,1,misspelled,2pl
+test,inh,2pl,1,standard,2pl
+test,inh,2s,11,misspelled,2sg
+test,inh,3p,5,misspelled,3pl
+test,inh,3pl,2,standard,3pl
+test,inh,3s,27,misspelled,3sg
+test,inh,4,1,lexical entry,lexical entry
+test,inh,a,7,standard,a
+test,inh,adv,1,part-of-speech,part-of-speech
+test,inh,ahmed,1,lexical entry,lexical entry
+test,inh,aisha,1,lexical entry,lexical entry
+test,inh,aishet,1,lexical entry,lexical entry
+test,inh,along,1,lexical entry,lexical entry
+test,inh,any,1,lexical entry,lexical entry
+test,inh,anything,1,lexical entry,lexical entry
+test,inh,apple,9,lexical entry,lexical entry
+test,inh,aside,1,lexical entry,lexical entry
+test,inh,at,1,lexical entry,lexical entry
+test,inh,b,18,user-identified,user-identified
+test,inh,back,1,lexical entry,lexical entry
+test,inh,be,30,lexical entry,lexical entry
+test,inh,be_contained,1,lexical entry,lexical entry
+test,inh,bear,2,lexical entry,lexical entry
+test,inh,becontained,1,lexical entry,lexical entry
+test,inh,bed,1,lexical entry,lexical entry
+test,inh,big,5,lexical entry,lexical entry
+test,inh,blue,1,lexical entry,lexical entry
+test,inh,book,14,lexical entry,lexical entry
+test,inh,boot,1,lexical entry,lexical entry
+test,inh,call,1,lexical entry,lexical entry
+test,inh,can,1,lexical entry,lexical entry
+test,inh,carry,7,lexical entry,lexical entry
+test,inh,cat,4,lexical entry,lexical entry
+test,inh,catch,4,lexical entry,lexical entry
+test,inh,charity,1,lexical entry,lexical entry
+test,inh,child,1,lexical entry,lexical entry
+test,inh,cmp,2,misspelled,comp
+test,inh,come,4,lexical entry,lexical entry
+test,inh,complain,1,lexical entry,lexical entry
+test,inh,conversation,1,lexical entry,lexical entry
+test,inh,corner,1,lexical entry,lexical entry
+test,inh,cow,2,lexical entry,lexical entry
+test,inh,crooked,2,lexical entry,lexical entry
+test,inh,cry,4,lexical entry,lexical entry
+test,inh,cs,2,user-identified,user-identified
+test,inh,cum,2,lexical entry,lexical entry
+test,inh,cvant,1,lexical entry,lexical entry
+test,inh,cvsim,4,lexical entry,lexical entry
+test,inh,cvtemp,1,lexical entry,lexical entry
+test,inh,d,54,user-identified,user-identified
+test,inh,dat,27,standard,dat
+test,inh,day,1,lexical entry,lexical entry
+test,inh,dem,20,standard,dem
+test,inh,difficult,1,lexical entry,lexical entry
+test,inh,dim,1,lexical entry,lexical entry
+test,inh,do,1,lexical entry,lexical entry
+test,inh,dog,4,lexical entry,lexical entry
+test,inh,down,2,lexical entry,lexical entry
+test,inh,down_sit,3,lexical entry,lexical entry
+test,inh,downsit,3,lexical entry,lexical entry
+test,inh,dream,1,lexical entry,lexical entry
+test,inh,dress,2,lexical entry,lexical entry
+test,inh,drink,3,lexical entry,lexical entry
+test,inh,dx,6,user-identified,user-identified
+test,inh,eat,4,lexical entry,lexical entry
+test,inh,emph,3,standard,emph
+test,inh,english,1,lexical entry,lexical entry
+test,inh,erg,64,standard,erg
+test,inh,especially,1,lexical entry,lexical entry
+test,inh,eye,2,lexical entry,lexical entry
+test,inh,fall,2,lexical entry,lexical entry
+test,inh,fast,1,lexical entry,lexical entry
+test,inh,fat,3,lexical entry,lexical entry
+test,inh,father,3,lexical entry,lexical entry
+test,inh,fear,1,lexical entry,lexical entry
+test,inh,fight,1,lexical entry,lexical entry
+test,inh,five,1,lexical entry,lexical entry
+test,inh,foc,3,standard,foc
+test,inh,four,1,lexical entry,lexical entry
+test,inh,friend,1,lexical entry,lexical entry
+test,inh,fut,3,standard,fut
+test,inh,gasoline,1,lexical entry,lexical entry
+test,inh,gen,10,standard,gen
+test,inh,georgian,1,lexical entry,lexical entry
+test,inh,glass,1,lexical entry,lexical entry
+test,inh,go,8,lexical entry,lexical entry
+test,inh,good,2,lexical entry,lexical entry
+test,inh,grease,1,lexical entry,lexical entry
+test,inh,green,2,lexical entry,lexical entry
+test,inh,gully,1,lexical entry,lexical entry
+test,inh,gun,2,lexical entry,lexical entry
+test,inh,he,9,incomplete,incomplete
+test,inh,hear,2,lexical entry,lexical entry
+test,inh,here,1,lexical entry,lexical entry
+test,inh,home,1,lexical entry,lexical entry
+test,inh,hour,1,lexical entry,lexical entry
+test,inh,how,1,lexical entry,lexical entry
+test,inh,hurt,1,lexical entry,lexical entry
+test,inh,i,4,incomplete,incomplete
+test,inh,impf,3,misspelled,ipfv
+test,inh,impv,2,misspelled,ipfv
+test,inh,in,3,lexical entry,lexical entry
+test,inh,incp,6,user-identified,user-identified
+test,inh,inf,4,standard,inf
+test,inh,ins,2,standard,ins
+test,inh,intelligence,1,lexical entry,lexical entry
+test,inh,it,1,lexical entry,lexical entry
+test,inh,j,34,user-identified,user-identified
+test,inh,kill,3,lexical entry,lexical entry
+test,inh,king,1,lexical entry,lexical entry
+test,inh,know,11,lexical entry,lexical entry
+test,inh,l,1,user-identified,user-identified
+test,inh,ladder,1,lexical entry,lexical entry
+test,inh,language,1,lexical entry,lexical entry
+test,inh,lat,9,lexical entry,lexical entry
+test,inh,lemon,1,lexical entry,lexical entry
+test,inh,letter,2,lexical entry,lexical entry
+test,inh,lie,3,lexical entry,lexical entry
+test,inh,like,1,lexical entry,lexical entry
+test,inh,linen,2,lexical entry,lexical entry
+test,inh,long,2,lexical entry,lexical entry
+test,inh,look,1,lexical entry,lexical entry
+test,inh,lose,3,lexical entry,lexical entry
+test,inh,m,5,standard,m
+test,inh,make,4,lexical entry,lexical entry
+test,inh,man,1,lexical entry,lexical entry
+test,inh,me,3,incomplete,incomplete
+test,inh,mir,1,lexical entry,lexical entry
+test,inh,money,5,lexical entry,lexical entry
+test,inh,more,1,lexical entry,lexical entry
+test,inh,moreover,1,lexical entry,lexical entry
+test,inh,mother,8,lexical entry,lexical entry
+test,inh,movie,1,lexical entry,lexical entry
+test,inh,musa,1,lexical entry,lexical entry
+test,inh,muslin,2,lexical entry,lexical entry
+test,inh,nearby,2,lexical entry,lexical entry
+test,inh,neg,8,standard,neg
+test,inh,night,1,lexical entry,lexical entry
+test,inh,noise,1,lexical entry,lexical entry
+test,inh,nom,31,standard,nom
+test,inh,nw,11,lexical entry,lexical entry
+test,inh,nz,8,lexical entry,lexical entry
+test,inh,obl,8,standard,obl
+test,inh,old,4,lexical entry,lexical entry
+test,inh,on,2,lexical entry,lexical entry
+test,inh,one,3,lexical entry,lexical entry
+test,inh,open,3,lexical entry,lexical entry
+test,inh,or,3,lexical entry,lexical entry
+test,inh,other,1,lexical entry,lexical entry
+test,inh,oushaneaq_aan,1,lexical entry,lexical entry
+test,inh,oushaneaqaan,1,lexical entry,lexical entry
+test,inh,out,1,lexical entry,lexical entry
+test,inh,people,1,lexical entry,lexical entry
+test,inh,person,11,lexical entry,lexical entry
+test,inh,pl,14,standard,pl
+test,inh,play,2,lexical entry,lexical entry
+test,inh,possibility,1,lexical entry,lexical entry
+test,inh,ppl,8,misspelled,pl
+test,inh,prayer,1,lexical entry,lexical entry
+test,inh,prog,2,standard,prog
+test,inh,prs,53,standard,prs
+test,inh,pst,7,standard,pst
+test,inh,q,12,standard,q
+test,inh,read,9,lexical entry,lexical entry
+test,inh,rfl,1,misspelled,refl
+test,inh,sack,2,lexical entry,lexical entry
+test,inh,say,10,lexical entry,lexical entry
+test,inh,scythe,2,lexical entry,lexical entry
+test,inh,search,4,lexical entry,lexical entry
+test,inh,see,3,lexical entry,lexical entry
+test,inh,send,2,lexical entry,lexical entry
+test,inh,sick,1,lexical entry,lexical entry
+test,inh,silk,2,lexical entry,lexical entry
+test,inh,since,1,lexical entry,lexical entry
+test,inh,sing,1,lexical entry,lexical entry
+test,inh,sky,1,lexical entry,lexical entry
+test,inh,so,1,lexical entry,lexical entry
+test,inh,sometimes,1,lexical entry,lexical entry
+test,inh,song,1,lexical entry,lexical entry
+test,inh,sour,3,lexical entry,lexical entry
+test,inh,sour_fruit,3,lexical entry,lexical entry
+test,inh,sourfruit,3,lexical entry,lexical entry
+test,inh,stand,2,lexical entry,lexical entry
+test,inh,stone,2,lexical entry,lexical entry
+test,inh,strike,2,lexical entry,lexical entry
+test,inh,sub,2,misspelled,sbj
+test,inh,summer,2,lexical entry,lexical entry
+test,inh,table,2,lexical entry,lexical entry
+test,inh,tell,6,lexical entry,lexical entry
+test,inh,then,1,lexical entry,lexical entry
+test,inh,these,1,incomplete,incomplete
+test,inh,thin,2,lexical entry,lexical entry
+test,inh,this,3,incomplete,incomplete
+test,inh,three,1,lexical entry,lexical entry
+test,inh,throw,1,lexical entry,lexical entry
+test,inh,time,1,lexical entry,lexical entry
+test,inh,too,1,lexical entry,lexical entry
+test,inh,towel,1,lexical entry,lexical entry
+test,inh,tower,1,lexical entry,lexical entry
+test,inh,town,2,lexical entry,lexical entry
+test,inh,tree,2,lexical entry,lexical entry
+test,inh,two,2,lexical entry,lexical entry
+test,inh,unknown,1,lexical entry,lexical entry
+test,inh,untie,1,lexical entry,lexical entry
+test,inh,up,1,lexical entry,lexical entry
+test,inh,v,25,part-of-speech,part-of-speech
+test,inh,vz,3,user-identified,user-identified
+test,inh,water,4,lexical entry,lexical entry
+test,inh,wear,1,lexical entry,lexical entry
+test,inh,well,3,lexical entry,lexical entry
+test,inh,what,1,lexical entry,lexical entry
+test,inh,who,3,lexical entry,lexical entry
+test,inh,window,1,lexical entry,lexical entry
+test,inh,wolf,1,lexical entry,lexical entry
+test,inh,woman,1,lexical entry,lexical entry
+test,inh,wp,30,part-of-speech,part-of-speech
+test,inh,wring,1,lexical entry,lexical entry
+test,inh,write,3,lexical entry,lexical entry
+test,inh,yellow,1,lexical entry,lexical entry
+test,jaa,1pl,18,standard,1pl
+test,jaa,1sg,70,standard,1sg
+test,jaa,2pl,21,standard,2pl
+test,jaa,2sg,34,standard,2sg
+test,jaa,3pl,52,standard,3pl
+test,jaa,3sg,1,standard,3sg
+test,jaa,acc,51,standard,acc
+test,jaa,and,1,lexical entry,lexical entry
+test,jaa,anim,52,standard,anim
+test,jaa,another,3,lexical entry,lexical entry
+test,jaa,ask,2,lexical entry,lexical entry
+test,jaa,aux,68,standard,aux
+test,jaa,aux[,2,misspelled,aux
+test,jaa,back,2,lexical entry,lexical entry
+test,jaa,banana,10,lexical entry,lexical entry
+test,jaa,be,17,lexical entry,lexical entry
+test,jaa,bit,2,lexical entry,lexical entry
+test,jaa,bite,23,lexical entry,lexical entry
+test,jaa,call,2,lexical entry,lexical entry
+test,jaa,can,7,lexical entry,lexical entry
+test,jaa,car,3,lexical entry,lexical entry
+test,jaa,cat,8,lexical entry,lexical entry
+test,jaa,ccall,1,lexical entry,lexical entry
+test,jaa,chase,11,lexical entry,lexical entry
+test,jaa,chewing,3,lexical entry,lexical entry
+test,jaa,chewing;,1,lexical entry,lexical entry
+test,jaa,coffee,4,lexical entry,lexical entry
+test,jaa,come,2,lexical entry,lexical entry
+test,jaa,comp,7,standard,comp
+test,jaa,cont,22,standard,cont
+test,jaa,dec,4,lexical entry,lexical entry
+test,jaa,decl,76,standard,decl
+test,jaa,dog,17,lexical entry,lexical entry
+test,jaa,drink,3,lexical entry,lexical entry
+test,jaa,drink;,1,lexical entry,lexical entry
+test,jaa,eat,48,lexical entry,lexical entry
+test,jaa,exc,8,misspelled,excl
+test,jaa,exl,1,misspelled,excl
+test,jaa,f,257,standard,f
+test,jaa,fast,1,lexical entry,lexical entry
+test,jaa,fpe,7,user-identified,user-identified
+test,jaa,fpn,4,combined,combined
+test,jaa,fruit,5,lexical entry,lexical entry
+test,jaa,glass,2,lexical entry,lexical entry
+test,jaa,good,2,lexical entry,lexical entry
+test,jaa,habit,3,lexical entry,lexical entry
+test,jaa,house,5,lexical entry,lexical entry
+test,jaa,hungry,2,lexical entry,lexical entry
+test,jaa,hurt,2,lexical entry,lexical entry
+test,jaa,inc,6,misspelled,incl
+test,jaa,incl,2,standard,incl
+test,jaa,ipe,28,user-identified,user-identified
+test,jaa,ipn,5,user-identified,user-identified
+test,jaa,jaguar,48,lexical entry,lexical entry
+test,jaa,know,3,lexical entry,lexical entry
+test,jaa,located,6,lexical entry,lexical entry
+test,jaa,m,193,standard,m
+test,jaa,m],2,misspelled,m
+test,jaa,man,39,lexical entry,lexical entry
+test,jaa,neg,31,standard,neg
+test,jaa,nom,118,standard,nom
+test,jaa,npst,2,standard,npst
+test,jaa,nspt,1,misspelled,npst
+test,jaa,oc,8,user-identified,user-identified
+test,jaa,okobomi,1,lexical entry,lexical entry
+test,jaa,okomobi,3,lexical entry,lexical entry
+test,jaa,old,5,lexical entry,lexical entry
+test,jaa,out,2,lexical entry,lexical entry
+test,jaa,park,1,lexical entry,lexical entry
+test,jaa,passion,5,lexical entry,lexical entry
+test,jaa,pfutint,6,lexical entry,lexical entry
+test,jaa,piece,2,lexical entry,lexical entry
+test,jaa,pint,11,lexical entry,lexical entry
+test,jaa,postp,6,user-identified,user-identified
+test,jaa,quick,1,lexical entry,lexical entry
+test,jaa,rpe,27,lexical entry,lexical entry
+test,jaa,rpn,5,user-identified,user-identified
+test,jaa,say,3,lexical entry,lexical entry
+test,jaa,see,64,lexical entry,lexical entry
+test,jaa,sleep,3,lexical entry,lexical entry
+test,jaa,sloth,20,lexical entry,lexical entry
+test,jaa,tell,1,lexical entry,lexical entry
+test,jaa,think,2,lexical entry,lexical entry
+test,jaa,this,5,incomplete,incomplete
+test,jaa,top,23,standard,top
+test,jaa,u,32,lexical entry,lexical entry
+test,jaa,unknown,3,lexical entry,lexical entry
+test,jaa,unripe,1,lexical entry,lexical entry
+test,jaa,up,4,lexical entry,lexical entry
+test,jaa,vn,1,user-identified,user-identified
+test,jaa,wake,4,lexical entry,lexical entry
+test,jaa,walk,42,lexical entry,lexical entry
+test,jaa,want,1,lexical entry,lexical entry
+test,jaa,without,4,lexical entry,lexical entry
+test,jaa,woman,39,lexical entry,lexical entry
+test,kat,1,33,standard,1
+test,kat,2,23,standard,2
+test,kat,3,96,standard,3
+test,kat,american,3,lexical entry,lexical entry
+test,kat,and,4,lexical entry,lexical entry
+test,kat,aor,10,user-identified,user-identified
+test,kat,ask,1,lexical entry,lexical entry
+test,kat,be,3,lexical entry,lexical entry
+test,kat,bear,1,lexical entry,lexical entry
+test,kat,beautiful,2,lexical entry,lexical entry
+test,kat,beer,1,lexical entry,lexical entry
+test,kat,bird,1,lexical entry,lexical entry
+test,kat,blind,2,lexical entry,lexical entry
+test,kat,boil,2,lexical entry,lexical entry
+test,kat,book,7,lexical entry,lexical entry
+test,kat,cheat,1,lexical entry,lexical entry
+test,kat,chicago,1,lexical entry,lexical entry
+test,kat,child,5,lexical entry,lexical entry
+test,kat,close,1,lexical entry,lexical entry
+test,kat,copula,3,standard,copula
+test,kat,dat,39,standard,dat
+test,kat,david,1,lexical entry,lexical entry
+test,kat,dem,3,standard,dem
+test,kat,distal,1,standard,distal
+test,kat,doctor,3,lexical entry,lexical entry
+test,kat,drink,2,lexical entry,lexical entry
+test,kat,dutch,1,lexical entry,lexical entry
+test,kat,erg,9,standard,erg
+test,kat,exercise,2,lexical entry,lexical entry
+test,kat,father,4,lexical entry,lexical entry
+test,kat,for,1,lexical entry,lexical entry
+test,kat,fut,48,standard,fut
+test,kat,gen,1,standard,gen
+test,kat,georgian,1,lexical entry,lexical entry
+test,kat,german,1,lexical entry,lexical entry
+test,kat,hide,3,lexical entry,lexical entry
+test,kat,however,1,lexical entry,lexical entry
+test,kat,imperf,5,misspelled,ipfv
+test,kat,in,1,lexical entry,lexical entry
+test,kat,kill,3,lexical entry,lexical entry
+test,kat,know,2,lexical entry,lexical entry
+test,kat,letter,15,lexical entry,lexical entry
+test,kat,listen,11,lexical entry,lexical entry
+test,kat,listener,1,lexical entry,lexical entry
+test,kat,literature,1,lexical entry,lexical entry
+test,kat,moon,1,lexical entry,lexical entry
+test,kat,newspaper,1,lexical entry,lexical entry
+test,kat,nom,61,standard,nom
+test,kat,nopre,41,misspelled,nprs
+test,kat,not,1,incomplete,incomplete
+test,kat,obj,54,standard,obj
+test,kat,on,1,lexical entry,lexical entry
+test,kat,one,2,lexical entry,lexical entry
+test,kat,passive,1,standard,passive
+test,kat,past,5,standard,past
+test,kat,pl,39,standard,pl
+test,kat,pluperf,1,misspelled,pluperfect
+test,kat,pre,20,misspelled,prs
+test,kat,prepare,1,lexical entry,lexical entry
+test,kat,pres,52,misspelled,prs
+test,kat,psf,51,misspelled,prs
+test,kat,quickly,3,lexical entry,lexical entry
+test,kat,radiobroadcast,10,lexical entry,lexical entry
+test,kat,read,7,lexical entry,lexical entry
+test,kat,send,4,lexical entry,lexical entry
+test,kat,sg,65,standard,sg
+test,kat,sing,1,lexical entry,lexical entry
+test,kat,some,1,lexical entry,lexical entry
+test,kat,subj,74,misspelled,sbj
+test,kat,tall,2,lexical entry,lexical entry
+test,kat,teach,1,lexical entry,lexical entry
+test,kat,teacher,9,lexical entry,lexical entry
+test,kat,that,1,incomplete,incomplete
+test,kat,user-identified,10,lexical entry,user-identified
+test,kat,water,2,lexical entry,lexical entry
+test,kat,whether,1,lexical entry,lexical entry
+test,kat,woman,7,lexical entry,lexical entry
+test,kat,work,5,lexical entry,lexical entry
+test,kat,write,16,lexical entry,lexical entry
+test,tgl,1dual,3,misspelled,1du
+test,tgl,1pln,3,misspelled,1pl
+test,tgl,1plx,3,combined,combined
+test,tgl,1sg,4,standard,1sg
+test,tgl,2pl,3,standard,2pl
+test,tgl,2sg,4,standard,2sg
+test,tgl,3pl,10,standard,3pl
+test,tgl,3sg,10,standard,3sg
+test,tgl,abs,33,standard,abs
+test,tgl,af,3,user-identified,user-identified
+test,tgl,all,2,lexical entry,lexical entry
+test,tgl,av,19,user-identified,user-identified
+test,tgl,book,3,lexical entry,lexical entry
+test,tgl,eat,14,lexical entry,lexical entry
+test,tgl,erg,34,standard,erg
+test,tgl,fut,1,standard,fut
+test,tgl,give,11,lexical entry,lexical entry
+test,tgl,inf,1,standard,inf
+test,tgl,inv,1,standard,inv
+test,tgl,juan,1,lexical entry,lexical entry
+test,tgl,lk,7,user-identified,user-identified
+test,tgl,man,2,lexical entry,lexical entry
+test,tgl,mango,14,lexical entry,lexical entry
+test,tgl,maria,1,lexical entry,lexical entry
+test,tgl,neg,2,standard,neg
+test,tgl,nprs,38,standard,nprs
+test,tgl,obl,20,standard,obl
+test,tgl,ov,12,user-identified,user-identified
+test,tgl,pfv,31,standard,pfv
+test,tgl,pl,12,standard,pl
+test,tgl,prog,1,standard,prog
+test,tgl,prs,2,standard,prs
+test,tgl,refuse,1,lexical entry,lexical entry
+test,tgl,see,8,lexical entry,lexical entry
+test,tgl,sg,28,standard,sg
+test,tgl,that,2,incomplete,incomplete
+test,tgl,this,3,incomplete,incomplete
+test,tgl,woman,16,lexical entry,lexical entry
+test,tgl,yon,2,lexical entry,lexical entry
+test,tha,able,2,lexical entry,lexical entry
+test,tha,all,1,standard,lexical entry
+test,tha,allow,1,lexical entry,lexical entry
+test,tha,anything,1,lexical entry,lexical entry
+test,tha,at,1,lexical entry,lexical entry
+test,tha,book,1,lexical entry,lexical entry
+test,tha,buy,1,lexical entry,lexical entry
+test,tha,call,1,lexical entry,lexical entry
+test,tha,can,3,lexical entry,lexical entry
+test,tha,cat,1,lexical entry,lexical entry
+test,tha,child,2,lexical entry,lexical entry
+test,tha,come,2,lexical entry,lexical entry
+test,tha,cross,1,lexical entry,lexical entry
+test,tha,die,1,lexical entry,lexical entry
+test,tha,eat,5,lexical entry,lexical entry
+test,tha,give,2,lexical entry,lexical entry
+test,tha,glass,1,lexical entry,lexical entry
+test,tha,go,8,lexical entry,lexical entry
+test,tha,he,3,incomplete,incomplete
+test,tha,hurry,2,lexical entry,lexical entry
+test,tha,i,2,incomplete,incomplete
+test,tha,man,5,lexical entry,lexical entry
+test,tha,market,1,lexical entry,lexical entry
+test,tha,must,2,lexical entry,lexical entry
+test,tha,not,1,incomplete,incomplete
+test,tha,return,1,lexical entry,lexical entry
+test,tha,rice,1,lexical entry,lexical entry
+test,tha,run,1,lexical entry,lexical entry
+test,tha,speak,1,lexical entry,lexical entry
+test,vie,1,2,standard,1
+test,vie,1sg,85,standard,1sg
+test,vie,2,1,standard,2
+test,vie,2sg,7,standard,2sg
+test,vie,3,2,standard,3
+test,vie,3sg,6,standard,3sg
+test,vie,able,1,lexical entry,lexical entry
+test,vie,abs,3,standard,abs
+test,vie,affirmation,2,lexical entry,lexical entry
+test,vie,all,1,standard,lexical entry
+test,vie,already,1,lexical entry,lexical entry
+test,vie,and,11,lexical entry,lexical entry
+test,vie,animal,13,lexical entry,lexical entry
+test,vie,art,1,lexical entry,lexical entry
+test,vie,ask,2,lexical entry,lexical entry
+test,vie,banana,1,lexical entry,lexical entry
+test,vie,be,4,lexical entry,lexical entry
+test,vie,black,9,lexical entry,lexical entry
+test,vie,book,14,lexical entry,lexical entry
+test,vie,bread,2,lexical entry,lexical entry
+test,vie,bulb,1,lexical entry,lexical entry
+test,vie,car,5,lexical entry,lexical entry
+test,vie,card,1,lexical entry,lexical entry
+test,vie,cat,7,lexical entry,lexical entry
+test,vie,chase,11,lexical entry,lexical entry
+test,vie,chopsticks,1,lexical entry,lexical entry
+test,vie,clf,31,part-of-speech,part-of-speech
+test,vie,cloud,1,lexical entry,lexical entry
+test,vie,comp,8,standard,comp
+test,vie,compact,1,lexical entry,lexical entry
+test,vie,cont,3,standard,cont
+test,vie,cop,3,standard,cop
+test,vie,curtain,1,lexical entry,lexical entry
+test,vie,dem,25,standard,dem
+test,vie,dist,2,standard,dist
+test,vie,dog,28,lexical entry,lexical entry
+test,vie,eat,28,lexical entry,lexical entry
+test,vie,excl,1,standard,excl
+test,vie,face,3,lexical entry,lexical entry
+test,vie,flat,1,lexical entry,lexical entry
+test,vie,foc,8,standard,foc
+test,vie,focus,1,standard,focus
+test,vie,fp,3,standard,fp
+test,vie,fruit,1,lexical entry,lexical entry
+test,vie,fut,1,standard,fut
+test,vie,girl,2,lexical entry,lexical entry
+test,vie,glass,1,lexical entry,lexical entry
+test,vie,hanoi,5,lexical entry,lexical entry
+test,vie,house,11,lexical entry,lexical entry
+test,vie,hungry,2,lexical entry,lexical entry
+test,vie,hurt,1,lexical entry,lexical entry
+test,vie,i,2,incomplete,incomplete
+test,vie,in,6,lexical entry,lexical entry
+test,vie,incl,1,standard,incl
+test,vie,indef,1,misspelled,indf
+test,vie,interaction,1,lexical entry,lexical entry
+test,vie,know,2,lexical entry,lexical entry
+test,vie,life,1,lexical entry,lexical entry
+test,vie,like,32,lexical entry,lexical entry
+test,vie,live,3,lexical entry,lexical entry
+test,vie,mai,21,lexical entry,lexical entry
+test,vie,medial,1,lexical entry,lexical entry
+test,vie,mirror,1,lexical entry,lexical entry
+test,vie,nearfut,1,lexical entry,lexical entry
+test,vie,nearpst,1,misspelled,nearpast
+test,vie,need,2,lexical entry,lexical entry
+test,vie,neg,17,standard,neg
+test,vie,noodle,3,lexical entry,lexical entry
+test,vie,noodles,19,lexical entry,lexical entry
+test,vie,onion,1,lexical entry,lexical entry
+test,vie,other,1,lexical entry,lexical entry
+test,vie,pair,1,lexical entry,lexical entry
+test,vie,paper,1,lexical entry,lexical entry
+test,vie,park,1,lexical entry,lexical entry
+test,vie,pl,6,standard,pl
+test,vie,prog,2,standard,prog
+test,vie,prox,21,standard,prox
+test,vie,pst,10,standard,pst
+test,vie,quickly,3,lexical entry,lexical entry
+test,vie,read,10,lexical entry,lexical entry
+test,vie,really,2,lexical entry,lexical entry
+test,vie,rect,1,lexical entry,lexical entry
+test,vie,set,1,lexical entry,lexical entry
+test,vie,sheet,1,lexical entry,lexical entry
+test,vie,should,7,lexical entry,lexical entry
+test,vie,sleep,41,lexical entry,lexical entry
+test,vie,tag,2,lexical entry,lexical entry
+test,vie,tall,6,lexical entry,lexical entry
+test,vie,think,5,lexical entry,lexical entry
+test,vie,this,1,incomplete,incomplete
+test,vie,top,6,standard,top
+test,vie,two,5,lexical entry,lexical entry
+test,vie,typhoon,1,lexical entry,lexical entry
+test,vie,very,2,lexical entry,lexical entry
+test,vie,violent,1,lexical entry,lexical entry
+test,vie,want,1,lexical entry,lexical entry
+test,vie,wash,3,lexical entry,lexical entry
+test,vie,yesterday,1,lexical entry,lexical entry

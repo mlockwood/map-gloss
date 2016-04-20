@@ -2,16 +2,13 @@
 # -*- coding: utf-8 -*-
 
 """
-__program__ = machine_learning.py
+__program__ = models.py
 __author__ = MichaelLockwood
 __projecttopic__ = AGGREGATION Inferrence
 __projectname__ = Mapping Input Glosses to Standard Outputs
 __date__ = September2015
 __credits__ = None
 __collaborators__ = None
-
-This module handles machine learning methods. It is intended for compatibility
-with map_gloss.py although it should work in contexts outside of map_gloss.py.
 """
 
 import inspect
@@ -19,201 +16,6 @@ import re
 import sys
 import types
 
-class CLSO:
-    """Data format created by Michael Lockwood that stores files of
-    classes and objects (hence the name CLS - class and O - ojbect).
-
-    Note the following code option was tried in previous versions but
-    was replaced:
-
-    import ast
-    ast.literal_eval() # Convert str to dict, tuple, list
-    """
-
-    objects = {}
-    evaluation = ''
-
-    def __init__(self, file, option='r'):
-        self._file = open(str(file)+'.clso', option)
-        CLSO.objects[file] = self
-
-    def type_check(value):
-        type_matches = []
-        for method in dir(types):
-            try:
-                match = isinstance(value, eval('types.'+str(method)))
-                if match:
-                    type_matches.append(method)
-            except:
-                pass
-        return type_matches
-
-    def eval_list(L):
-        S = '['
-        L = L[1:-1]
-        items = re.split(',', L)
-        for item in items:
-            item = re.sub(' ', '', item)
-            if not item:
-                continue
-            if re.search('\'.*\'', item) or re.search('\".*\"', item):
-                item = item[1:-1]
-            if re.search('\[.*\]', item):
-                S += CLSO.eval_list(L) + ','
-            elif re.search('\'', item):
-                item = re.sub('\'', '\\\'', item)
-                S += '\'' + item + '\', '
-            else:
-                S += '\'' + item + '\', '
-        if S[-2:] == ', ':
-            S = S[:-2]
-        S += ']'
-        return S
-
-    def str_list(L):
-        return '\"' + CLSO.eval_list(L) + '\"'
-
-    def load(self):
-        clsmembers = inspect.getmembers(sys.modules[__name__], inspect.isclass)
-        cls = ''
-        values = {}
-        for line in self._file:
-            line = line.rstrip()
-            # If blank, continue
-            if not line:
-                continue
-            # If ID line set class to the value between the angle brackets
-            if re.search('<[\w]*>', line):
-                cls = line[1:-1]
-            # If class variable process immediately
-            elif line[0] == '$':
-                try:
-                    exec(line[1:])
-                except:
-                    exec('\'' + line[1:] + '\'')
-            # If value delimiter process the object and reset the value DS
-            elif line == '@':
-                for member in clsmembers:
-                    if cls == member[0]:
-                        # Add __init__ arguments
-                        init_values = inspect.getargspec(eval(cls+'.__init__'))
-                        init_code = cls + '('
-                        for value in init_values.args[1:]:
-                            if value in values:
-                                if re.search('\[.*\]', values[value]):
-                                    init_code += (CLSO.str_list(values[value])
-                                                  + ', ')
-                                elif re.search('\'', values[value]):
-                                    init_code += '\"' + values[value] + '\", '
-                                else:
-                                    init_code += '\'' + values[value] + '\', '
-                                del values[value]
-                            elif ('_'+value) in values:
-                                if re.search('\[.*\]', values['_'+value]):
-                                    init_code += (CLSO.str_list(
-                                                  values['_'+value]) + ', ')
-                                elif re.search('\'', values['_'+value]):
-                                    init_code += ('\"' + values['_'+value] +
-                                                  '\", ')
-                                else:
-                                    init_code += ('\'' + values['_'+value] +
-                                                  '\', ')
-                                del values['_'+value]
-                            else:
-                                raise ValueError('Missing argument in CLSO ' +
-                                                 'object from ' + str(cls) +
-                                                 ': ' + str(value))
-                        init_code += ')'
-                        obj = eval(init_code)
-                        # Add all other values
-                        for value in values:
-                            # If not a Built-In Function or Method
-                            try:
-                                exec('CLSO.evaluation='+str(values[value]))
-                                match = CLSO.type_check(CLSO.evaluation)
-                                # If a Built-In Function or Method
-                                if (match or values[value] == 'help' or
-                                    values[value] == 'obj'):
-                                    # STRING OPTION
-                                    exec('obj.'+str(value) + '=\''+
-                                        str(values[value] + '\''))
-                                # If not a Built-In Function or Method
-                                else:
-                                    # VAR OPTION
-                                    exec('obj.'+str(value)+'=' +
-                                         str(values[value]))
-                            except:
-                                try:
-                                    # STRING OPTION
-                                    exec('obj.'+str(value) + '=\''+
-                                         str(values[value] + '\''))
-                                    
-                                except:
-                                    # TUPLE OPTION
-                                    exec('obj.'+str(value) + '=\"'+
-                                         str(values[value] + '\"'))
-                values = {}
-            # If close line process the object and reset the cls DS
-            elif re.search('</[\w]*\>', line):
-                cls = ''
-            # If it is a value, process as value
-            else:
-                line = line.split('=')
-                values[line[0]] = line[1]
-        return True
-
-    def _dump_helper(self, obj, cls_variables):
-        methods = {}
-        temp = inspect.getmembers(obj, inspect.ismethod)
-        for method in temp:
-            methods[method[0]] = True
-        for value in dir(obj):
-            if not re.search('__[\w]*__', value):
-                if value not in methods and value not in cls_variables:
-                    self._file.write(value + '=' + str(eval('obj.' + value))
-                                     + '\n')
-        self._file.write('@\n')
-        return True
-
-    def dump(self, obj):
-        cls = str(obj.__class__)[17:-2]
-        if cls[0] == '.':
-            cls = cls[1:]
-        cls_variables = []
-        for value in dir(eval(cls)):
-            if not re.search('__[\w]*__', value):
-                cls_variables.append(value)
-        self._file.write('<' + cls + '>\n')
-        self._dump_helper(obj, cls_variables)
-        self._file.write('</' + cls + '>\n\n')
-        return True
-
-    def bulk_dump(self, cls):
-        self._file.write('<' + cls + '>\n')
-        cls_variables = []
-        for value in dir(eval(cls)):
-            if not re.search('__[\w]*__', value):
-                cls_variables.append(value)
-        cls_functions = {}
-        for func in inspect.getmembers(eval(cls), inspect.isfunction):
-            cls_functions[func[0]] = True
-        for var in cls_variables:
-            if var != 'objects' and var not in cls_functions:
-                self._file.write('$' + cls + '.' + str(var) + '=' + str(
-                                 eval(cls +'.' + str(var))) + '\n')
-        for obj in eval(str(cls) + '.objects'):
-            if isinstance(obj, tuple):
-                self._dump_helper(eval(str(cls) + '.objects[' + str(obj) +
-                                       ']'), cls_variables)
-            elif isinstance(obj, str):
-                self._dump_helper(eval(str(cls) + '.objects[\'' + str(obj) +
-                                       '\']'), cls_variables)
-            else:
-                raise TypeError('Object must be string or tuple.')
-        self._file.write('</' + cls + '>\n\n')
-
-    def close(self):
-        self._file.close()
 
 """
 Import packages and scripts---------------------------------------------
@@ -222,35 +24,10 @@ import pickle
 import math
 import os
 
-class PathSetter:
-
-    def set_pythonpath(directory='', subdirectory=''):
-        if directory:
-            directory = PathSetter.find_path(directory)
-            if subdirectory:
-                if directory[-1] != '/' and subdirectory[0] != '/':
-                    directory += '/'
-                directory += subdirectory
-        else:
-            directory = os.getcwd()
-        sys.path.append(directory)
-        return True
-
-    def find_path(directory):
-        match = re.search('/' + str(directory), os.getcwd())
-        if not match:
-            raise IOError(str(directory) + 'is not in current working ' +
-                          'directory')
-        return os.getcwd()[:match.span()[0]] + '/' + directory
-
-# Add map_gloss to PYTHONPATH
-PathSetter.set_pythonpath('map_gloss')
 # Import scripts
 from src.utils import functions
 
-"""
-Machine Learning Classes------------------------------------------------
-"""
+
 class Model:
 
     objects = {}
@@ -264,7 +41,7 @@ class Model:
         self._run_MaxEnt = run_MaxEnt
         self._run_NB = run_NB
         self._run_TBL = run_TBL
-        # Manage model ID
+        # Manage models ID
         if ID:
             self._ID = ID
         if not ID:
@@ -277,16 +54,16 @@ class Model:
         """Load a CLSO file containing all DS.
         """
         try:
-            reader = CLSO('model', option='r')
+            reader = CLSO('models', option='r')
             reader.load()
             return True
         except:
-            print('Error loading model.clso')
+            print('Error loading models.clso')
             Model.objects = {}
             return False
 
     def load_standard_glosses():
-        reader = open('standard_glosses', 'r')
+        reader = open('standard_grams', 'r')
         for row in reader:
             if row[0] == '#':
                 continue
@@ -303,7 +80,7 @@ class Model:
     def export():
         """Export a CLSO file containing all relevant DS.
         """
-        writer = CLSO('model', option='w')
+        writer = CLSO('models', option='w')
         writer.bulk_dump('Model')
         writer.bulk_dump('kNN')
         writer.bulk_dump('MaxEnt')
@@ -377,11 +154,12 @@ class Model:
                          '._results[value])')
         return True
 
+
 class kNN:
 
     objects = {} # ID
     ID_generator = 1
-    
+
     def __init__(self, training, ID=''):
         self._training = training
         # Manage kNN ID
@@ -393,7 +171,7 @@ class kNN:
         self._results = {}
         kNN.objects[self._ID] = self
 
-    
+
     def model_cleanup():
         for obj in kNN.objects:
             kNN.objects[obj]._results = {}
@@ -422,7 +200,7 @@ class kNN:
     # Accuracy function
     def accuracy(self, acc, collection, method):
         if not os.path.exists(os.getcwd() + '/machine_learning'):
-            os.mkdir(os.getcwd() + '/machine_learning') 
+            os.mkdir(os.getcwd() + '/machine_learning')
         file = 'machine_learning/kNN_' + method + '_' + collection
         functions.accuracy(acc, file)
         return True
@@ -530,11 +308,12 @@ class kNN:
         self.accuracy(acc, collection, method)
         return True
 
+
 class MaxEnt:
 
     objects = {} # ID
     ID_generator = 1
-    
+
     def __init__(self, training, ID=''):
         self._training = training
         # Manage MaxEnt ID
@@ -546,7 +325,7 @@ class MaxEnt:
         self._results = {}
         MaxEnt.objects[self._ID] = self
 
-    
+
     def model_cleanup():
         for obj in MaxEnt.objects:
             MaxEnt.objects[obj]._results = {}
@@ -558,7 +337,7 @@ class MaxEnt:
     # Accuracy function
     def accuracy(self, acc, collection, number):
         if not os.path.exists(os.getcwd() + '/machine_learning'):
-            os.mkdir(os.getcwd() + '/machine_learning') 
+            os.mkdir(os.getcwd() + '/machine_learning')
         file = 'machine_learning/max_ent' + number + '_' + collection
         functions.accuracy(acc, file)
         return True
@@ -607,6 +386,7 @@ class MaxEnt:
             acc[vector._standard][result[1]] = acc[vector._standard].get(
                 result[1], 0) + 1
         return True
+
 
 class NB:
 
@@ -687,17 +467,17 @@ class NB:
     # Accuracy function
     def accuracy(self, acc, collection, number):
         if not os.path.exists(os.getcwd() + '/machine_learning'):
-            os.mkdir(os.getcwd() + '/machine_learning') 
+            os.mkdir(os.getcwd() + '/machine_learning')
         file = 'machine_learning/naive_bayes' + number + '_' + collection
         functions.accuracy(acc, file)
         return True
-        
-    # train1 and test1 apply the multivariate Bernolli model of Naive Bayes
+
+    # train1 and test1 apply the multivariate Bernolli models of Naive Bayes
     def train1(self):
         distr = {} # Store the distribution of the labels
         unknown = {} # Store the lgprob for unseen testing values
         pwk = 0.0 # Store Pi_w_k, all null/0 values of every word_k
-        mod = {} # Store the trained NB model
+        mod = {} # Store the trained NB models
         # Store the count of all features by label across all instances
         for vector in self._training:
             # Increment label count
@@ -728,7 +508,7 @@ class NB:
         self._unknown1 = unknown
         self._pwk1 = pwk
         self._mod1 = mod
-        #self.model(distr, mod, '1')
+        #self.models(distr, mod, '1')
         return self._ID
 
     def test1(self, vectors, collection):
@@ -768,12 +548,12 @@ class NB:
         self.accuracy(acc, collection, '1')
         return True
 
-    # train2 and test2 apply the multinomial non-binary model of Naive Bayes
+    # train2 and test2 apply the multinomial non-binary models of Naive Bayes
     def train2(self):
         distr = {} # Store the distribution of the labels
         unknown = {} # Store the lgprob for unseen testing values
         Vsum = {} # Count total features by label
-        mod = {} # Store the trained NB model
+        mod = {} # Store the trained NB models
         # Store the count of all features by label across all instances
         for vector in self._training:
             # Increment label count
@@ -801,7 +581,7 @@ class NB:
         self._distr2 = distr
         self._unknown2 = unknown
         self._mod2 = mod
-        #self.model(distr, mod, '2')
+        #self.models(distr, mod, '2')
         return self._ID
 
     def test2(self, vectors, collection):
@@ -841,12 +621,12 @@ class NB:
         self.accuracy(acc, collection, '2')
         return True
 
-    # train3 and test3 apply the multinomial (use-binary) model of Naive Bayes
+    # train3 and test3 apply the multinomial (use-binary) models of Naive Bayes
     def train3(self):
         distr = {} # Store the distribution of the labels
         unknown = {} # Store the lgprob for unseen testing values
         Vsum = {} # Count total words by label
-        mod = {} # Store the trained NB model
+        mod = {} # Store the trained NB models
         # Store the count of all features by label across all instances
         for vector in self._training:
             # Increment label count
@@ -872,7 +652,7 @@ class NB:
         self._distr3 = distr
         self._unknown3 = unknown
         self._mod3 = mod
-        #self.model(distr, mod, '3')
+        #self.models(distr, mod, '3')
         return self._ID
 
     def test3(self, vectors, collection):
@@ -996,7 +776,7 @@ class TBL:
     # Accuracy function
     def accuracy(self, acc, collection):
         if not os.path.exists(os.getcwd() + '/machine_learning'):
-            os.mkdir(os.getcwd() + '/machine_learning') 
+            os.mkdir(os.getcwd() + '/machine_learning')
         file = 'machine_learning/tbl_' + collection
         functions.accuracy(acc, file)
         return True

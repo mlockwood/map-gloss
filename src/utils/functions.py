@@ -5,6 +5,7 @@ def accuracy(acc, file):
     sorted_acc = {}
     # Store correct and incorrect results
     acc_total = [0, 0]
+
     # Store labels and sort them
     for label in acc.keys():
         values = []
@@ -16,12 +17,14 @@ def accuracy(acc, file):
             values.append((key, acc[label][key]))
         values = sorted(values, key=lambda x:x[1], reverse=True)
         sorted_acc[label] = values
+
     # Print out accuracy results
     try:
         accuracy = acc_total[0]/(float(acc_total[0]+acc_total[1]))
     except:
         accuracy = 0.0
     writer.write('Accuracy: ' + str(accuracy) + '\n\n')
+
     # Process for each label
     for label in sorted(sorted_acc.keys()):
         writer.write(str(label) + '\n')
@@ -31,18 +34,19 @@ def accuracy(acc, file):
     writer.close()
     return True
 
+
 # Function to combined weighted dictionaries
-def combine_weightD(D, weights):
+def combine_weight(D, weights):
     final = {}
     for method in weights:
         if method in D:
             for entry in D[method]:
-                final[entry] = final.get(entry, 0) + (D[method][entry] *
-                                                      weights[method])
+                final[entry] = final.get(entry, 0) + (D[method][entry] * weights[method])
     return final
 
+
 # Function to select maximum value in a dictionary
-def max_inD(D, tie=False):
+def max_value(D, tie=False):
     max_value = ('', 0)
     for key in D:
         if D[key] > max_value[1]:
@@ -53,8 +57,9 @@ def max_inD(D, tie=False):
                     max_value = (key, D[key])
     return max_value
 
+
 # Function to convert a dictionary's values to probabilities
-def probD_conversion(D, retotal=False):
+def prob_conversion(D, retotal=False):
     if not isinstance(D, dict):
         raise TypeError('Data structure is not a dictionary')
     probD = {}
@@ -64,7 +69,10 @@ def probD_conversion(D, retotal=False):
         total += float(D[key])
     # For each value, divide by total for the probability conversion
     for key in D:
-        probD[key] = float(D[key])/total
+        try:
+            probD[key] = float(D[key])/total
+        except ZeroDivisionError:
+            probD[key] = 0.0
     # Return only probD if retotal is False
     if retotal == False:
         return probD

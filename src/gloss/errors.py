@@ -1,17 +1,34 @@
 
 
-class MapGlossError(Exception):
+class GlossError(Exception):
 
     def __init__(self, message):
         self.message = message
 
 
-class MissingDatasetError(MapGlossError):
+class MissingDatasetError(GlossError):
     pass
 
 
-class TrainTestUnspecifiedError(MapGlossError):
+class VariablePathError(GlossError):
     pass
 
-class VariablePathError(MapGlossError):
+
+class InvalidClassifierError(GlossError):
+    pass
+
+
+class ClassifierWeightError(GlossError):
+    pass
+
+
+class InvalidClassifierWeightError(GlossError):
+    pass
+
+
+class InvalidContainerTypeError(GlossError):
+    pass
+
+
+class MissingGlossGoldStandardError(GlossError):
     pass
