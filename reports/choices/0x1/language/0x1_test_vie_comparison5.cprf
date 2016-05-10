@@ -1,0 +1,44 @@
+Absolute Change
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+Relative Change
+Precision: 1.0
+Recall: 1.0
+F-Score: 1.0
+
+
+
+--- 0x1_test_vie_FINAL ---
+
+Precision: 1.0
+Recall: 0.2222222222222222
+F-Score: 0.3636363636363636
+
+False Negatives
+	('test', 'vie', 'tenses', 'present')
+	('test', 'vie', 'aspects', 'non-asp')
+	('test', 'vie', 'aspects', 'prog')
+	('test', 'vie', 'tenses', 'nea-fut')
+	('test', 'vie', 'tenses', 'pst')
+	('test', 'vie', 'tenses', 'near-pst')
+	('test', 'vie', 'tenses', 'fut')
+
+
+
+--- 0x1_test_vie_BASELINE5 ---
+
+Precision: 1.0
+Recall: 0.2222222222222222
+F-Score: 0.3636363636363636
+
+False Negatives
+	('test', 'vie', 'tenses', 'present')
+	('test', 'vie', 'aspects', 'non-asp')
+	('test', 'vie', 'aspects', 'prog')
+	('test', 'vie', 'tenses', 'nea-fut')
+	('test', 'vie', 'tenses', 'pst')
+	('test', 'vie', 'tenses', 'near-pst')
+	('test', 'vie', 'tenses', 'fut')
+

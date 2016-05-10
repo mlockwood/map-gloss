@@ -1,0 +1,1054 @@
+0x1,test,ain,1pl,1pl
+0x1,test,ain,1sg,1sg
+0x1,test,ain,2pl,2pl
+0x1,test,ain,2sg,2sg
+0x1,test,ain,and,lexical entry
+0x1,test,ain,ask,lexical entry
+0x1,test,ain,asp,lexical entry
+0x1,test,ain,be,lexical entry
+0x1,test,ain,beautiful,lexical entry
+0x1,test,ain,boy,lexical entry
+0x1,test,ain,can,lexical entry
+0x1,test,ain,cannot,incomplete
+0x1,test,ain,cat,lexical entry
+0x1,test,ain,chase,lexical entry
+0x1,test,ain,child,lexical entry
+0x1,test,ain,colloc,lexical entry
+0x1,test,ain,come,lexical entry
+0x1,test,ain,cop,cop
+0x1,test,ain,dog,lexical entry
+0x1,test,ain,dur,dur
+0x1,test,ain,early,lexical entry
+0x1,test,ain,eat,lexical entry
+0x1,test,ain,enter,lexical entry
+0x1,test,ain,girl,lexical entry
+0x1,test,ain,give,lexical entry
+0x1,test,ain,grass,lexical entry
+0x1,test,ain,hit,lexical entry
+0x1,test,ain,house,lexical entry
+0x1,test,ain,hurt,lexical entry
+0x1,test,ain,if,lexical entry
+0x1,test,ain,in,lexical entry
+0x1,test,ain,laugh,lexical entry
+0x1,test,ain,many,lexical entry
+0x1,test,ain,money,lexical entry
+0x1,test,ain,near,lexical entry
+0x1,test,ain,neg,neg
+0x1,test,ain,nom,nom
+0x1,test,ain,obj,obj
+0x1,test,ain,pl,pl
+0x1,test,ain,pron,part-of-speech
+0x1,test,ain,ques,q
+0x1,test,ain,see,lexical entry
+0x1,test,ain,sg,sg
+0x1,test,ain,that,incomplete
+0x1,test,ain,think,lexical entry
+0x1,test,ain,this,incomplete
+0x1,test,ain,to,lexical entry
+0x1,test,ain,unknown,lexical entry
+0x1,test,ain,village,lexical entry
+0x1,test,ary,1st,1
+0x1,test,ary,3pl,3pl
+0x1,test,ary,3sgm,combined
+0x1,test,ary,a,lexical entry
+0x1,test,ary,about,lexical entry
+0x1,test,ary,acc,acc
+0x1,test,ary,akul,lexical entry
+0x1,test,ary,and,lexical entry
+0x1,test,ary,anton,lexical entry
+0x1,test,ary,any,lexical entry
+0x1,test,ary,association,lexical entry
+0x1,test,ary,at,lexical entry
+0x1,test,ary,ate,lexical entry
+0x1,test,ary,ball,lexical entry
+0x1,test,ary,beautiful,lexical entry
+0x1,test,ary,bed,lexical entry
+0x1,test,ary,believe,lexical entry
+0x1,test,ary,body,lexical entry
+0x1,test,ary,book,lexical entry
+0x1,test,ary,boy,lexical entry
+0x1,test,ary,brought,lexical entry
+0x1,test,ary,buy,lexical entry
+0x1,test,ary,by,lexical entry
+0x1,test,ary,called,lexical entry
+0x1,test,ary,came,lexical entry
+0x1,test,ary,car,lexical entry
+0x1,test,ary,cat,lexical entry
+0x1,test,ary,chases,lexical entry
+0x1,test,ary,come,lexical entry
+0x1,test,ary,conj,conj
+0x1,test,ary,continued,lexical entry
+0x1,test,ary,damage,lexical entry
+0x1,test,ary,day,lexical entry
+0x1,test,ary,def,def
+0x1,test,ary,demon,lexical entry
+0x1,test,ary,development,lexical entry
+0x1,test,ary,diarrhea,lexical entry
+0x1,test,ary,do,lexical entry
+0x1,test,ary,doctor,lexical entry
+0x1,test,ary,dog,lexical entry
+0x1,test,ary,dogs,lexical entry
+0x1,test,ary,drank,lexical entry
+0x1,test,ary,drink,lexical entry
+0x1,test,ary,eat,lexical entry
+0x1,test,ary,eats,lexical entry
+0x1,test,ary,english,lexical entry
+0x1,test,ary,enters,lexical entry
+0x1,test,ary,even,lexical entry
+0x1,test,ary,every,lexical entry
+0x1,test,ary,exactly,lexical entry
+0x1,test,ary,exists,lexical entry
+0x1,test,ary,exits,lexical entry
+0x1,test,ary,f,f
+0x1,test,ary,famous,lexical entry
+0x1,test,ary,fatima,lexical entry
+0x1,test,ary,fem,f
+0x1,test,ary,fpl,lexical entry
+0x1,test,ary,french,lexical entry
+0x1,test,ary,fries,lexical entry
+0x1,test,ary,fut,fut
+0x1,test,ary,gen,gen
+0x1,test,ary,girl,lexical entry
+0x1,test,ary,gives,lexical entry
+0x1,test,ary,glass,lexical entry
+0x1,test,ary,go,lexical entry
+0x1,test,ary,going,lexical entry
+0x1,test,ary,good,lexical entry
+0x1,test,ary,greg,lexical entry
+0x1,test,ary,hands,lexical entry
+0x1,test,ary,hassan,lexical entry
+0x1,test,ary,he,incomplete
+0x1,test,ary,help,lexical entry
+0x1,test,ary,her,incomplete
+0x1,test,ary,hhe,lexical entry
+0x1,test,ary,him,incomplete
+0x1,test,ary,house,lexical entry
+0x1,test,ary,hunger,lexical entry
+0x1,test,ary,hygiene,lexical entry
+0x1,test,ary,i,incomplete
+0x1,test,ary,importance,lexical entry
+0x1,test,ary,in,lexical entry
+0x1,test,ary,ind,ind
+0x1,test,ary,indef,indf
+0x1,test,ary,is,lexical entry
+0x1,test,ary,juha,lexical entry
+0x1,test,ary,ka,lexical entry
+0x1,test,ary,kitchen,lexical entry
+0x1,test,ary,knew,lexical entry
+0x1,test,ary,know,lexical entry
+0x1,test,ary,knows,lexical entry
+0x1,test,ary,lack,lexical entry
+0x1,test,ary,large,lexical entry
+0x1,test,ary,letter,lexical entry
+0x1,test,ary,living,lexical entry
+0x1,test,ary,lot,lexical entry
+0x1,test,ary,m,m
+0x1,test,ary,malika,lexical entry
+0x1,test,ary,man,lexical entry
+0x1,test,ary,mark,lexical entry
+0x1,test,ary,marker,lexical entry
+0x1,test,ary,mas,user-identified
+0x1,test,ary,me,incomplete
+0x1,test,ary,medicine,lexical entry
+0x1,test,ary,meknes,lexical entry
+0x1,test,ary,middle,lexical entry
+0x1,test,ary,milk,lexical entry
+0x1,test,ary,money,lexical entry
+0x1,test,ary,morning,lexical entry
+0x1,test,ary,mother,lexical entry
+0x1,test,ary,mpl,lexical entry
+0x1,test,ary,muhammad,lexical entry
+0x1,test,ary,my,incomplete
+0x1,test,ary,name,lexical entry
+0x1,test,ary,needle,lexical entry
+0x1,test,ary,neg1,1sg
+0x1,test,ary,neg2,lexical entry
+0x1,test,ary,no,lexical entry
+0x1,test,ary,nom,nom
+0x1,test,ary,nothing,lexical entry
+0x1,test,ary,of,lexical entry
+0x1,test,ary,oh,lexical entry
+0x1,test,ary,on,lexical entry
+0x1,test,ary,one,lexical entry
+0x1,test,ary,part,lexical entry
+0x1,test,ary,particle,lexical entry
+0x1,test,ary,peace,lexical entry
+0x1,test,ary,penny,lexical entry
+0x1,test,ary,pl,pl
+0x1,test,ary,play,lexical entry
+0x1,test,ary,plf,lexical entry
+0x1,test,ary,plm,lexical entry
+0x1,test,ary,plural,lexical entry
+0x1,test,ary,poss,poss
+0x1,test,ary,possible,poss
+0x1,test,ary,pres,prs
+0x1,test,ary,pro,part-of-speech
+0x1,test,ary,projects,lexical entry
+0x1,test,ary,q,q
+0x1,test,ary,ques,lexical entry
+0x1,test,ary,question,question
+0x1,test,ary,quickness,lexical entry
+0x1,test,ary,ran,lexical entry
+0x1,test,ary,read,lexical entry
+0x1,test,ary,relationship,lexical entry
+0x1,test,ary,remained,lexical entry
+0x1,test,ary,remains,lexical entry
+0x1,test,ary,roof,lexical entry
+0x1,test,ary,room,lexical entry
+0x1,test,ary,run,lexical entry
+0x1,test,ary,runs,lexical entry
+0x1,test,ary,said,lexical entry
+0x1,test,ary,sami,lexical entry
+0x1,test,ary,saw,lexical entry
+0x1,test,ary,say,lexical entry
+0x1,test,ary,seat,lexical entry
+0x1,test,ary,sees,lexical entry
+0x1,test,ary,sgf,combined
+0x1,test,ary,sgm,combined
+0x1,test,ary,she,incomplete
+0x1,test,ary,shower,lexical entry
+0x1,test,ary,singer,lexical entry
+0x1,test,ary,singing,lexical entry
+0x1,test,ary,single,single
+0x1,test,ary,sleep,lexical entry
+0x1,test,ary,sleeps,lexical entry
+0x1,test,ary,smoke,lexical entry
+0x1,test,ary,speak,lexical entry
+0x1,test,ary,speaks,lexical entry
+0x1,test,ary,speed,lexical entry
+0x1,test,ary,still,lexical entry
+0x1,test,ary,strikes,lexical entry
+0x1,test,ary,sun,lexical entry
+0x1,test,ary,swing,lexical entry
+0x1,test,ary,t,lexical entry
+0x1,test,ary,tamazigh,lexical entry
+0x1,test,ary,teach,lexical entry
+0x1,test,ary,that,incomplete
+0x1,test,ary,them,incomplete
+0x1,test,ary,they,incomplete
+0x1,test,ary,thing,lexical entry
+0x1,test,ary,thinks,lexical entry
+0x1,test,ary,this,incomplete
+0x1,test,ary,time,lexical entry
+0x1,test,ary,to,lexical entry
+0x1,test,ary,train,lexical entry
+0x1,test,ary,two,lexical entry
+0x1,test,ary,unknown,lexical entry
+0x1,test,ary,us,incomplete
+0x1,test,ary,verb,lexical entry
+0x1,test,ary,violin,lexical entry
+0x1,test,ary,volunteer,lexical entry
+0x1,test,ary,waiter,lexical entry
+0x1,test,ary,want,lexical entry
+0x1,test,ary,wants,lexical entry
+0x1,test,ary,was,lexical entry
+0x1,test,ary,washing,lexical entry
+0x1,test,ary,water,lexical entry
+0x1,test,ary,we,incomplete
+0x1,test,ary,well,lexical entry
+0x1,test,ary,what,lexical entry
+0x1,test,ary,when,lexical entry
+0x1,test,ary,which,lexical entry
+0x1,test,ary,who,lexical entry
+0x1,test,ary,with,lexical entry
+0x1,test,ary,woman,lexical entry
+0x1,test,ary,wonder,lexical entry
+0x1,test,ary,work,lexical entry
+0x1,test,ary,works,lexical entry
+0x1,test,ary,writes,lexical entry
+0x1,test,ary,wrote,lexical entry
+0x1,test,ary,y,lexical entry
+0x1,test,ary,yes,lexical entry
+0x1,test,ary,you,incomplete
+0x1,test,ary,yousg,combined
+0x1,test,ary,youth,lexical entry
+0x1,test,ary,youths,lexical entry
+0x1,test,ces,1pl,1pl
+0x1,test,ces,1sg,1sg
+0x1,test,ces,2pl,2pl
+0x1,test,ces,2sg,2sg
+0x1,test,ces,3pl,3pl
+0x1,test,ces,3sg,3sg
+0x1,test,ces,acc,acc
+0x1,test,ces,and,lexical entry
+0x1,test,ces,ask,lexical entry
+0x1,test,ces,be,lexical entry
+0x1,test,ces,bird,lexical entry
+0x1,test,ces,book,lexical entry
+0x1,test,ces,can,lexical entry
+0x1,test,ces,car,lexical entry
+0x1,test,ces,carry,lexical entry
+0x1,test,ces,cars,lexical entry
+0x1,test,ces,cat,lexical entry
+0x1,test,ces,chase,lexical entry
+0x1,test,ces,dat,dat
+0x1,test,ces,dog,lexical entry
+0x1,test,ces,eat,lexical entry
+0x1,test,ces,f,f
+0x1,test,ces,flies,lexical entry
+0x1,test,ces,fly,lexical entry
+0x1,test,ces,friend,lexical entry
+0x1,test,ces,fut,fut
+0x1,test,ces,give,lexical entry
+0x1,test,ces,glass,lexical entry
+0x1,test,ces,hungry,lexical entry
+0x1,test,ces,hurt,lexical entry
+0x1,test,ces,imp,ipfv
+0x1,test,ces,inf,inf
+0x1,test,ces,know,lexical entry
+0x1,test,ces,m,m
+0x1,test,ces,must,lexical entry
+0x1,test,ces,my,incomplete
+0x1,test,ces,n,n
+0x1,test,ces,neg,neg
+0x1,test,ces,nom,nom
+0x1,test,ces,nor,lexical entry
+0x1,test,ces,old,lexical entry
+0x1,test,ces,our,incomplete
+0x1,test,ces,p,p
+0x1,test,ces,pl,pl
+0x1,test,ces,pp,user-identified
+0x1,test,ces,pre,prs
+0x1,test,ces,prf,prf
+0x1,test,ces,prs,prs
+0x1,test,ces,quickly,lexical entry
+0x1,test,ces,refl,refl
+0x1,test,ces,river,lexical entry
+0x1,test,ces,see,lexical entry
+0x1,test,ces,sg,sg
+0x1,test,ces,sleep,lexical entry
+0x1,test,ces,that,incomplete
+0x1,test,ces,think,lexical entry
+0x1,test,ces,this,incomplete
+0x1,test,ces,whether,lexical entry
+0x1,test,ces,which,lexical entry
+0x1,test,ces,who,lexical entry
+0x1,test,ces,woman,lexical entry
+0x1,test,hbs,1,1
+0x1,test,hbs,1sg,1sg
+0x1,test,hbs,2,2
+0x1,test,hbs,2sg,2sg
+0x1,test,hbs,3,3
+0x1,test,hbs,acc,acc
+0x1,test,hbs,and,lexical entry
+0x1,test,hbs,ask,lexical entry
+0x1,test,hbs,at,lexical entry
+0x1,test,hbs,aux,aux
+0x1,test,hbs,be,lexical entry
+0x1,test,hbs,book,lexical entry
+0x1,test,hbs,can,lexical entry
+0x1,test,hbs,city,lexical entry
+0x1,test,hbs,clearly,lexical entry
+0x1,test,hbs,comp,comp
+0x1,test,hbs,concert,lexical entry
+0x1,test,hbs,da,lexical entry
+0x1,test,hbs,dat,dat
+0x1,test,hbs,drink,lexical entry
+0x1,test,hbs,eat,lexical entry
+0x1,test,hbs,f,f
+0x1,test,hbs,fast,lexical entry
+0x1,test,hbs,fear,lexical entry
+0x1,test,hbs,fp,fp
+0x1,test,hbs,from,lexical entry
+0x1,test,hbs,fut,fut
+0x1,test,hbs,gen,gen
+0x1,test,hbs,glass,lexical entry
+0x1,test,hbs,green,lexical entry
+0x1,test,hbs,help,lexical entry
+0x1,test,hbs,house,lexical entry
+0x1,test,hbs,husband,lexical entry
+0x1,test,hbs,inf,inf
+0x1,test,hbs,ipfv,ipfv
+0x1,test,hbs,ivan,lexical entry
+0x1,test,hbs,know,lexical entry
+0x1,test,hbs,l,user-identified
+0x1,test,hbs,li,lexical entry
+0x1,test,hbs,loc,loc
+0x1,test,hbs,m,m
+0x1,test,hbs,marija,lexical entry
+0x1,test,hbs,n,n
+0x1,test,hbs,neg,neg
+0x1,test,hbs,new,lexical entry
+0x1,test,hbs,nom,nom
+0x1,test,hbs,olg,lexical entry
+0x1,test,hbs,olga,lexical entry
+0x1,test,hbs,pfv,pfv
+0x1,test,hbs,pl,pl
+0x1,test,hbs,prs,prs
+0x1,test,hbs,pst,pst
+0x1,test,hbs,q,q
+0x1,test,hbs,red,lexical entry
+0x1,test,hbs,see,lexical entry
+0x1,test,hbs,sg,sg
+0x1,test,hbs,slavk,lexical entry
+0x1,test,hbs,slavko,lexical entry
+0x1,test,hbs,slavo,lexical entry
+0x1,test,hbs,sleep,lexical entry
+0x1,test,hbs,speak,lexical entry
+0x1,test,hbs,study,lexical entry
+0x1,test,hbs,tea,lexical entry
+0x1,test,hbs,that,incomplete
+0x1,test,hbs,think,lexical entry
+0x1,test,hbs,this,incomplete
+0x1,test,hbs,unknown,lexical entry
+0x1,test,hbs,vine,lexical entry
+0x1,test,hbs,well,lexical entry
+0x1,test,hbs,wife,lexical entry
+0x1,test,hbs,woman,lexical entry
+0x1,test,hbs,work,lexical entry
+0x1,test,hbs,write,lexical entry
+0x1,test,hbs,zoran,lexical entry
+0x1,test,hix,1sg,1sg
+0x1,test,hix,2g,lexical entry
+0x1,test,hix,2sg,2sg
+0x1,test,hix,3sg,3sg
+0x1,test,hix,animate,animate
+0x1,test,hix,banana,lexical entry
+0x1,test,hix,be,lexical entry
+0x1,test,hix,being,lexical entry
+0x1,test,hix,bell,lexical entry
+0x1,test,hix,bite,lexical entry
+0x1,test,hix,boy,lexical entry
+0x1,test,hix,canoe,lexical entry
+0x1,test,hix,coll,user-identified
+0x1,test,hix,come,lexical entry
+0x1,test,hix,comp,comp
+0x1,test,hix,cont,cont
+0x1,test,hix,dance,lexical entry
+0x1,test,hix,deictic,lexical entry
+0x1,test,hix,denomlzr,lexical entry
+0x1,test,hix,die,lexical entry
+0x1,test,hix,dist,dist
+0x1,test,hix,eat,lexical entry
+0x1,test,hix,fast,lexical entry
+0x1,test,hix,fell,lexical entry
+0x1,test,hix,for,lexical entry
+0x1,test,hix,fumaca,lexical entry
+0x1,test,hix,go,lexical entry
+0x1,test,hix,gohunting,lexical entry
+0x1,test,hix,going,lexical entry
+0x1,test,hix,he,incomplete
+0x1,test,hix,his,incomplete
+0x1,test,hix,hit,lexical entry
+0x1,test,hix,hungry,lexical entry
+0x1,test,hix,iiii,user-identified
+0x1,test,hix,iiis,user-identified
+0x1,test,hix,iiisiio,user-identified
+0x1,test,hix,iis,user-identified
+0x1,test,hix,imm,user-identified
+0x1,test,hix,in,lexical entry
+0x1,test,hix,inanimate,inanimate
+0x1,test,hix,is,lexical entry
+0x1,test,hix,isiiio,user-identified
+0x1,test,hix,isiio,user-identified
+0x1,test,hix,it,lexical entry
+0x1,test,hix,jaguar,lexical entry
+0x1,test,hix,know,lexical entry
+0x1,test,hix,knowing,lexical entry
+0x1,test,hix,man,lexical entry
+0x1,test,hix,me,incomplete
+0x1,test,hix,meat,lexical entry
+0x1,test,hix,medial,lexical entry
+0x1,test,hix,monkey,lexical entry
+0x1,test,hix,my,incomplete
+0x1,test,hix,near,lexical entry
+0x1,test,hix,neg,neg
+0x1,test,hix,nomlzn,lexical entry
+0x1,test,hix,nonpast,nonpast
+0x1,test,hix,not,incomplete
+0x1,test,hix,old,lexical entry
+0x1,test,hix,one,lexical entry
+0x1,test,hix,past,past
+0x1,test,hix,patch,lexical entry
+0x1,test,hix,patchpl,lexical entry
+0x1,test,hix,person,lexical entry
+0x1,test,hix,pl,pl
+0x1,test,hix,plaintain,lexical entry
+0x1,test,hix,potato,lexical entry
+0x1,test,hix,push,lexical entry
+0x1,test,hix,rec,rec
+0x1,test,hix,remote,remote
+0x1,test,hix,say,lexical entry
+0x1,test,hix,sg,sg
+0x1,test,hix,shaman,lexical entry
+0x1,test,hix,si,user-identified
+0x1,test,hix,sick,lexical entry
+0x1,test,hix,sii,user-identified
+0x1,test,hix,siii,user-identified
+0x1,test,hix,siiioii,user-identified
+0x1,test,hix,siiioiii,user-identified
+0x1,test,hix,siioiii,user-identified
+0x1,test,hix,sioii,user-identified
+0x1,test,hix,sioiii,user-identified
+0x1,test,hix,sleep,lexical entry
+0x1,test,hix,takebath,lexical entry
+0x1,test,hix,tell,lexical entry
+0x1,test,hix,to,lexical entry
+0x1,test,hix,took,lexical entry
+0x1,test,hix,tree,lexical entry
+0x1,test,hix,uncert,lexical entry
+0x1,test,hix,visitor,lexical entry
+0x1,test,hix,wait,lexical entry
+0x1,test,hix,wakara,lexical entry
+0x1,test,hix,warning,lexical entry
+0x1,test,hix,wash,lexical entry
+0x1,test,hix,weep,lexical entry
+0x1,test,hix,woman,lexical entry
+0x1,test,inh,1000,lexical entry
+0x1,test,inh,1pex,lexical entry
+0x1,test,inh,1plexcl,1sg
+0x1,test,inh,1plincl,user-identified
+0x1,test,inh,1s,1sg
+0x1,test,inh,1sg,1sg
+0x1,test,inh,1srfl,lexical entry
+0x1,test,inh,20,lexical entry
+0x1,test,inh,2p,lexical entry
+0x1,test,inh,2pl,2pl
+0x1,test,inh,2s,2sg
+0x1,test,inh,3p,3pl
+0x1,test,inh,3pl,3pl
+0x1,test,inh,3s,3sg
+0x1,test,inh,4,lexical entry
+0x1,test,inh,a,lexical entry
+0x1,test,inh,adv,part-of-speech
+0x1,test,inh,ahmed,lexical entry
+0x1,test,inh,aisha,lexical entry
+0x1,test,inh,aishet,lexical entry
+0x1,test,inh,along,lexical entry
+0x1,test,inh,any,lexical entry
+0x1,test,inh,anything,lexical entry
+0x1,test,inh,apple,lexical entry
+0x1,test,inh,aside,lexical entry
+0x1,test,inh,at,lexical entry
+0x1,test,inh,b,user-identified
+0x1,test,inh,back,lexical entry
+0x1,test,inh,be,lexical entry
+0x1,test,inh,bear,lexical entry
+0x1,test,inh,becontained,lexical entry
+0x1,test,inh,bed,lexical entry
+0x1,test,inh,big,lexical entry
+0x1,test,inh,blue,lexical entry
+0x1,test,inh,book,lexical entry
+0x1,test,inh,boot,lexical entry
+0x1,test,inh,call,lexical entry
+0x1,test,inh,can,lexical entry
+0x1,test,inh,carry,lexical entry
+0x1,test,inh,cat,lexical entry
+0x1,test,inh,catch,lexical entry
+0x1,test,inh,charity,lexical entry
+0x1,test,inh,child,lexical entry
+0x1,test,inh,cmp,user-identified
+0x1,test,inh,come,lexical entry
+0x1,test,inh,complain,lexical entry
+0x1,test,inh,conversation,lexical entry
+0x1,test,inh,corner,lexical entry
+0x1,test,inh,cow,lexical entry
+0x1,test,inh,crooked,lexical entry
+0x1,test,inh,cry,lexical entry
+0x1,test,inh,cs,user-identified
+0x1,test,inh,cum,user-identified
+0x1,test,inh,cvant,lexical entry
+0x1,test,inh,cvsim,lexical entry
+0x1,test,inh,cvtemp,lexical entry
+0x1,test,inh,d,user-identified
+0x1,test,inh,dat,dat
+0x1,test,inh,day,lexical entry
+0x1,test,inh,dem,dem
+0x1,test,inh,difficult,lexical entry
+0x1,test,inh,dim,lexical entry
+0x1,test,inh,do,lexical entry
+0x1,test,inh,dog,lexical entry
+0x1,test,inh,down,lexical entry
+0x1,test,inh,downsit,lexical entry
+0x1,test,inh,dream,lexical entry
+0x1,test,inh,dress,lexical entry
+0x1,test,inh,drink,lexical entry
+0x1,test,inh,dx,user-identified
+0x1,test,inh,eat,lexical entry
+0x1,test,inh,emph,emph
+0x1,test,inh,english,lexical entry
+0x1,test,inh,erg,erg
+0x1,test,inh,especially,lexical entry
+0x1,test,inh,eye,lexical entry
+0x1,test,inh,fall,lexical entry
+0x1,test,inh,fast,lexical entry
+0x1,test,inh,fat,lexical entry
+0x1,test,inh,father,lexical entry
+0x1,test,inh,fear,lexical entry
+0x1,test,inh,fight,lexical entry
+0x1,test,inh,five,lexical entry
+0x1,test,inh,foc,foc
+0x1,test,inh,four,lexical entry
+0x1,test,inh,friend,lexical entry
+0x1,test,inh,fut,fut
+0x1,test,inh,gasoline,lexical entry
+0x1,test,inh,gen,gen
+0x1,test,inh,georgian,lexical entry
+0x1,test,inh,glass,lexical entry
+0x1,test,inh,go,lexical entry
+0x1,test,inh,good,lexical entry
+0x1,test,inh,grease,lexical entry
+0x1,test,inh,green,lexical entry
+0x1,test,inh,gully,lexical entry
+0x1,test,inh,gun,lexical entry
+0x1,test,inh,he,incomplete
+0x1,test,inh,hear,lexical entry
+0x1,test,inh,here,lexical entry
+0x1,test,inh,home,lexical entry
+0x1,test,inh,hour,lexical entry
+0x1,test,inh,how,lexical entry
+0x1,test,inh,hurt,lexical entry
+0x1,test,inh,i,incomplete
+0x1,test,inh,impf,lexical entry
+0x1,test,inh,impv,lexical entry
+0x1,test,inh,in,lexical entry
+0x1,test,inh,incp,lexical entry
+0x1,test,inh,inf,inf
+0x1,test,inh,ins,ins
+0x1,test,inh,intelligence,lexical entry
+0x1,test,inh,it,lexical entry
+0x1,test,inh,j,user-identified
+0x1,test,inh,kill,lexical entry
+0x1,test,inh,king,lexical entry
+0x1,test,inh,know,lexical entry
+0x1,test,inh,l,user-identified
+0x1,test,inh,ladder,lexical entry
+0x1,test,inh,language,lexical entry
+0x1,test,inh,lat,user-identified
+0x1,test,inh,lemon,lexical entry
+0x1,test,inh,letter,lexical entry
+0x1,test,inh,lie,lexical entry
+0x1,test,inh,like,lexical entry
+0x1,test,inh,linen,lexical entry
+0x1,test,inh,long,lexical entry
+0x1,test,inh,look,lexical entry
+0x1,test,inh,lose,lexical entry
+0x1,test,inh,m,m
+0x1,test,inh,make,lexical entry
+0x1,test,inh,man,lexical entry
+0x1,test,inh,me,incomplete
+0x1,test,inh,mir,user-identified
+0x1,test,inh,money,lexical entry
+0x1,test,inh,more,lexical entry
+0x1,test,inh,moreover,lexical entry
+0x1,test,inh,mother,lexical entry
+0x1,test,inh,movie,lexical entry
+0x1,test,inh,musa,lexical entry
+0x1,test,inh,muslin,lexical entry
+0x1,test,inh,nearby,lexical entry
+0x1,test,inh,neg,neg
+0x1,test,inh,night,lexical entry
+0x1,test,inh,noise,lexical entry
+0x1,test,inh,nom,nom
+0x1,test,inh,nw,lexical entry
+0x1,test,inh,nz,lexical entry
+0x1,test,inh,obl,obl
+0x1,test,inh,old,lexical entry
+0x1,test,inh,on,lexical entry
+0x1,test,inh,one,lexical entry
+0x1,test,inh,open,lexical entry
+0x1,test,inh,or,lexical entry
+0x1,test,inh,other,lexical entry
+0x1,test,inh,oushaneaqaan,lexical entry
+0x1,test,inh,out,lexical entry
+0x1,test,inh,people,lexical entry
+0x1,test,inh,person,lexical entry
+0x1,test,inh,pl,pl
+0x1,test,inh,play,lexical entry
+0x1,test,inh,possibility,poss
+0x1,test,inh,ppl,user-identified
+0x1,test,inh,prayer,lexical entry
+0x1,test,inh,prog,prog
+0x1,test,inh,prs,prs
+0x1,test,inh,pst,pst
+0x1,test,inh,q,q
+0x1,test,inh,read,lexical entry
+0x1,test,inh,rfl,user-identified
+0x1,test,inh,sack,lexical entry
+0x1,test,inh,say,lexical entry
+0x1,test,inh,scythe,lexical entry
+0x1,test,inh,search,lexical entry
+0x1,test,inh,see,lexical entry
+0x1,test,inh,send,lexical entry
+0x1,test,inh,sick,lexical entry
+0x1,test,inh,silk,lexical entry
+0x1,test,inh,since,lexical entry
+0x1,test,inh,sing,lexical entry
+0x1,test,inh,sky,lexical entry
+0x1,test,inh,so,lexical entry
+0x1,test,inh,sometimes,lexical entry
+0x1,test,inh,song,lexical entry
+0x1,test,inh,sour,lexical entry
+0x1,test,inh,sourfruit,lexical entry
+0x1,test,inh,stand,lexical entry
+0x1,test,inh,stone,lexical entry
+0x1,test,inh,strike,lexical entry
+0x1,test,inh,sub,sbj
+0x1,test,inh,summer,lexical entry
+0x1,test,inh,table,lexical entry
+0x1,test,inh,tell,lexical entry
+0x1,test,inh,then,lexical entry
+0x1,test,inh,these,incomplete
+0x1,test,inh,thin,lexical entry
+0x1,test,inh,this,incomplete
+0x1,test,inh,three,lexical entry
+0x1,test,inh,throw,lexical entry
+0x1,test,inh,time,lexical entry
+0x1,test,inh,too,lexical entry
+0x1,test,inh,towel,lexical entry
+0x1,test,inh,tower,lexical entry
+0x1,test,inh,town,lexical entry
+0x1,test,inh,tree,lexical entry
+0x1,test,inh,two,lexical entry
+0x1,test,inh,unknown,lexical entry
+0x1,test,inh,untie,lexical entry
+0x1,test,inh,up,lexical entry
+0x1,test,inh,v,part-of-speech
+0x1,test,inh,vz,user-identified
+0x1,test,inh,water,lexical entry
+0x1,test,inh,wear,lexical entry
+0x1,test,inh,well,lexical entry
+0x1,test,inh,what,lexical entry
+0x1,test,inh,who,lexical entry
+0x1,test,inh,window,lexical entry
+0x1,test,inh,wolf,lexical entry
+0x1,test,inh,woman,lexical entry
+0x1,test,inh,wp,part-of-speech
+0x1,test,inh,wring,lexical entry
+0x1,test,inh,write,lexical entry
+0x1,test,inh,yellow,lexical entry
+0x1,test,jaa,1pl,1pl
+0x1,test,jaa,1sg,1sg
+0x1,test,jaa,2pl,2pl
+0x1,test,jaa,2sg,2sg
+0x1,test,jaa,3pl,3pl
+0x1,test,jaa,3sg,3sg
+0x1,test,jaa,acc,acc
+0x1,test,jaa,and,lexical entry
+0x1,test,jaa,anim,anim
+0x1,test,jaa,another,lexical entry
+0x1,test,jaa,ask,lexical entry
+0x1,test,jaa,aux,aux
+0x1,test,jaa,back,lexical entry
+0x1,test,jaa,banana,lexical entry
+0x1,test,jaa,be,lexical entry
+0x1,test,jaa,bit,lexical entry
+0x1,test,jaa,bite,lexical entry
+0x1,test,jaa,call,lexical entry
+0x1,test,jaa,can,lexical entry
+0x1,test,jaa,car,lexical entry
+0x1,test,jaa,cat,lexical entry
+0x1,test,jaa,ccall,lexical entry
+0x1,test,jaa,chase,lexical entry
+0x1,test,jaa,chewing,lexical entry
+0x1,test,jaa,coffee,lexical entry
+0x1,test,jaa,come,lexical entry
+0x1,test,jaa,comp,comp
+0x1,test,jaa,cont,cont
+0x1,test,jaa,dec,user-identified
+0x1,test,jaa,decl,decl
+0x1,test,jaa,dog,lexical entry
+0x1,test,jaa,drink,lexical entry
+0x1,test,jaa,eat,lexical entry
+0x1,test,jaa,exc,lexical entry
+0x1,test,jaa,exl,lexical entry
+0x1,test,jaa,f,f
+0x1,test,jaa,fast,lexical entry
+0x1,test,jaa,fpe,lexical entry
+0x1,test,jaa,fpn,lexical entry
+0x1,test,jaa,fruit,lexical entry
+0x1,test,jaa,glass,lexical entry
+0x1,test,jaa,good,lexical entry
+0x1,test,jaa,habit,user-identified
+0x1,test,jaa,house,lexical entry
+0x1,test,jaa,hungry,lexical entry
+0x1,test,jaa,hurt,lexical entry
+0x1,test,jaa,inc,lexical entry
+0x1,test,jaa,incl,incl
+0x1,test,jaa,ipe,lexical entry
+0x1,test,jaa,ipn,lexical entry
+0x1,test,jaa,jaguar,lexical entry
+0x1,test,jaa,know,lexical entry
+0x1,test,jaa,located,lexical entry
+0x1,test,jaa,m,m
+0x1,test,jaa,man,lexical entry
+0x1,test,jaa,neg,neg
+0x1,test,jaa,nom,nom
+0x1,test,jaa,npst,npst
+0x1,test,jaa,nspt,lexical entry
+0x1,test,jaa,oc,lexical entry
+0x1,test,jaa,okobomi,lexical entry
+0x1,test,jaa,okomobi,lexical entry
+0x1,test,jaa,old,lexical entry
+0x1,test,jaa,out,lexical entry
+0x1,test,jaa,park,lexical entry
+0x1,test,jaa,passion,lexical entry
+0x1,test,jaa,pfutint,lexical entry
+0x1,test,jaa,piece,lexical entry
+0x1,test,jaa,pint,lexical entry
+0x1,test,jaa,postp,user-identified
+0x1,test,jaa,quick,lexical entry
+0x1,test,jaa,rpe,lexical entry
+0x1,test,jaa,rpn,lexical entry
+0x1,test,jaa,say,lexical entry
+0x1,test,jaa,see,lexical entry
+0x1,test,jaa,sleep,lexical entry
+0x1,test,jaa,sloth,lexical entry
+0x1,test,jaa,tell,lexical entry
+0x1,test,jaa,think,lexical entry
+0x1,test,jaa,this,incomplete
+0x1,test,jaa,top,top
+0x1,test,jaa,u,lexical entry
+0x1,test,jaa,unknown,lexical entry
+0x1,test,jaa,unripe,lexical entry
+0x1,test,jaa,up,lexical entry
+0x1,test,jaa,vn,lexical entry
+0x1,test,jaa,wake,lexical entry
+0x1,test,jaa,walk,lexical entry
+0x1,test,jaa,want,lexical entry
+0x1,test,jaa,without,lexical entry
+0x1,test,jaa,woman,lexical entry
+0x1,test,kat,1,1
+0x1,test,kat,2,2
+0x1,test,kat,3,3
+0x1,test,kat,american,lexical entry
+0x1,test,kat,and,lexical entry
+0x1,test,kat,aor,user-identified
+0x1,test,kat,ask,lexical entry
+0x1,test,kat,be,lexical entry
+0x1,test,kat,bear,lexical entry
+0x1,test,kat,beautiful,lexical entry
+0x1,test,kat,beer,lexical entry
+0x1,test,kat,bird,lexical entry
+0x1,test,kat,blind,lexical entry
+0x1,test,kat,boil,lexical entry
+0x1,test,kat,book,lexical entry
+0x1,test,kat,cheat,lexical entry
+0x1,test,kat,chicago,lexical entry
+0x1,test,kat,child,lexical entry
+0x1,test,kat,close,lexical entry
+0x1,test,kat,copula,copula
+0x1,test,kat,dat,dat
+0x1,test,kat,david,lexical entry
+0x1,test,kat,dem,dem
+0x1,test,kat,distal,distal
+0x1,test,kat,doctor,lexical entry
+0x1,test,kat,drink,lexical entry
+0x1,test,kat,dutch,lexical entry
+0x1,test,kat,erg,erg
+0x1,test,kat,exercise,lexical entry
+0x1,test,kat,father,lexical entry
+0x1,test,kat,for,lexical entry
+0x1,test,kat,fut,fut
+0x1,test,kat,gen,gen
+0x1,test,kat,georgian,lexical entry
+0x1,test,kat,german,lexical entry
+0x1,test,kat,hide,lexical entry
+0x1,test,kat,however,lexical entry
+0x1,test,kat,imperf,prf
+0x1,test,kat,in,lexical entry
+0x1,test,kat,kill,lexical entry
+0x1,test,kat,know,lexical entry
+0x1,test,kat,letter,lexical entry
+0x1,test,kat,listen,lexical entry
+0x1,test,kat,listener,lexical entry
+0x1,test,kat,literature,lexical entry
+0x1,test,kat,moon,lexical entry
+0x1,test,kat,newspaper,lexical entry
+0x1,test,kat,nom,nom
+0x1,test,kat,nopre,prs
+0x1,test,kat,not,incomplete
+0x1,test,kat,obj,obj
+0x1,test,kat,on,lexical entry
+0x1,test,kat,one,lexical entry
+0x1,test,kat,passive,passive
+0x1,test,kat,past,past
+0x1,test,kat,pl,pl
+0x1,test,kat,pluperf,prf
+0x1,test,kat,pre,prs
+0x1,test,kat,prepare,lexical entry
+0x1,test,kat,pres,prs
+0x1,test,kat,psf,user-identified
+0x1,test,kat,quickly,lexical entry
+0x1,test,kat,radiobroadcast,lexical entry
+0x1,test,kat,read,lexical entry
+0x1,test,kat,send,lexical entry
+0x1,test,kat,sg,sg
+0x1,test,kat,sing,lexical entry
+0x1,test,kat,some,lexical entry
+0x1,test,kat,subj,sbj
+0x1,test,kat,tall,lexical entry
+0x1,test,kat,teach,lexical entry
+0x1,test,kat,teacher,lexical entry
+0x1,test,kat,that,incomplete
+0x1,test,kat,water,lexical entry
+0x1,test,kat,whether,lexical entry
+0x1,test,kat,woman,lexical entry
+0x1,test,kat,work,lexical entry
+0x1,test,kat,write,lexical entry
+0x1,test,tgl,1dual,user-identified
+0x1,test,tgl,1pln,1sg
+0x1,test,tgl,1plx,user-identified
+0x1,test,tgl,1sg,1sg
+0x1,test,tgl,2pl,2pl
+0x1,test,tgl,2sg,2sg
+0x1,test,tgl,3pl,3pl
+0x1,test,tgl,3sg,3sg
+0x1,test,tgl,abs,abs
+0x1,test,tgl,af,user-identified
+0x1,test,tgl,all,lexical entry
+0x1,test,tgl,av,user-identified
+0x1,test,tgl,book,lexical entry
+0x1,test,tgl,eat,lexical entry
+0x1,test,tgl,erg,erg
+0x1,test,tgl,fut,fut
+0x1,test,tgl,give,lexical entry
+0x1,test,tgl,inf,inf
+0x1,test,tgl,inv,inv
+0x1,test,tgl,juan,lexical entry
+0x1,test,tgl,lk,user-identified
+0x1,test,tgl,man,lexical entry
+0x1,test,tgl,mango,lexical entry
+0x1,test,tgl,maria,lexical entry
+0x1,test,tgl,neg,neg
+0x1,test,tgl,nprs,nprs
+0x1,test,tgl,obl,obl
+0x1,test,tgl,ov,user-identified
+0x1,test,tgl,pfv,pfv
+0x1,test,tgl,pl,pl
+0x1,test,tgl,prog,prog
+0x1,test,tgl,prs,prs
+0x1,test,tgl,refuse,lexical entry
+0x1,test,tgl,see,lexical entry
+0x1,test,tgl,sg,sg
+0x1,test,tgl,that,incomplete
+0x1,test,tgl,this,incomplete
+0x1,test,tgl,woman,lexical entry
+0x1,test,tgl,yon,lexical entry
+0x1,test,tha,able,lexical entry
+0x1,test,tha,all,lexical entry
+0x1,test,tha,allow,lexical entry
+0x1,test,tha,anything,lexical entry
+0x1,test,tha,at,lexical entry
+0x1,test,tha,book,lexical entry
+0x1,test,tha,buy,lexical entry
+0x1,test,tha,call,lexical entry
+0x1,test,tha,can,lexical entry
+0x1,test,tha,cat,lexical entry
+0x1,test,tha,child,lexical entry
+0x1,test,tha,come,lexical entry
+0x1,test,tha,cross,lexical entry
+0x1,test,tha,die,lexical entry
+0x1,test,tha,eat,lexical entry
+0x1,test,tha,give,lexical entry
+0x1,test,tha,glass,lexical entry
+0x1,test,tha,go,lexical entry
+0x1,test,tha,he,incomplete
+0x1,test,tha,hurry,lexical entry
+0x1,test,tha,i,incomplete
+0x1,test,tha,man,lexical entry
+0x1,test,tha,market,lexical entry
+0x1,test,tha,must,lexical entry
+0x1,test,tha,not,incomplete
+0x1,test,tha,return,lexical entry
+0x1,test,tha,rice,lexical entry
+0x1,test,tha,run,lexical entry
+0x1,test,tha,speak,lexical entry
+0x1,test,vie,1,1
+0x1,test,vie,1sg,1sg
+0x1,test,vie,2,2
+0x1,test,vie,2sg,2sg
+0x1,test,vie,3,3
+0x1,test,vie,3sg,3sg
+0x1,test,vie,able,lexical entry
+0x1,test,vie,abs,abs
+0x1,test,vie,affirmation,lexical entry
+0x1,test,vie,all,lexical entry
+0x1,test,vie,already,lexical entry
+0x1,test,vie,and,lexical entry
+0x1,test,vie,animal,lexical entry
+0x1,test,vie,art,ptcp
+0x1,test,vie,ask,lexical entry
+0x1,test,vie,banana,lexical entry
+0x1,test,vie,be,lexical entry
+0x1,test,vie,black,lexical entry
+0x1,test,vie,book,lexical entry
+0x1,test,vie,bread,lexical entry
+0x1,test,vie,bulb,lexical entry
+0x1,test,vie,car,lexical entry
+0x1,test,vie,card,lexical entry
+0x1,test,vie,cat,lexical entry
+0x1,test,vie,chase,lexical entry
+0x1,test,vie,chopsticks,lexical entry
+0x1,test,vie,clf,user-identified
+0x1,test,vie,cloud,lexical entry
+0x1,test,vie,comp,comp
+0x1,test,vie,compact,lexical entry
+0x1,test,vie,cont,cont
+0x1,test,vie,cop,cop
+0x1,test,vie,curtain,lexical entry
+0x1,test,vie,dem,dem
+0x1,test,vie,dist,dist
+0x1,test,vie,dog,lexical entry
+0x1,test,vie,eat,lexical entry
+0x1,test,vie,excl,excl
+0x1,test,vie,face,lexical entry
+0x1,test,vie,flat,lexical entry
+0x1,test,vie,foc,foc
+0x1,test,vie,focus,focus
+0x1,test,vie,fp,fp
+0x1,test,vie,fruit,lexical entry
+0x1,test,vie,fut,fut
+0x1,test,vie,girl,lexical entry
+0x1,test,vie,glass,lexical entry
+0x1,test,vie,hanoi,lexical entry
+0x1,test,vie,house,lexical entry
+0x1,test,vie,hungry,lexical entry
+0x1,test,vie,hurt,lexical entry
+0x1,test,vie,i,incomplete
+0x1,test,vie,in,lexical entry
+0x1,test,vie,incl,incl
+0x1,test,vie,indef,indf
+0x1,test,vie,interaction,lexical entry
+0x1,test,vie,know,lexical entry
+0x1,test,vie,life,lexical entry
+0x1,test,vie,like,lexical entry
+0x1,test,vie,live,lexical entry
+0x1,test,vie,mai,lexical entry
+0x1,test,vie,medial,user-identified
+0x1,test,vie,mirror,lexical entry
+0x1,test,vie,nearfut,lexical entry
+0x1,test,vie,nearpst,lexical entry
+0x1,test,vie,need,lexical entry
+0x1,test,vie,neg,neg
+0x1,test,vie,noodle,lexical entry
+0x1,test,vie,noodles,lexical entry
+0x1,test,vie,onion,lexical entry
+0x1,test,vie,other,lexical entry
+0x1,test,vie,pair,lexical entry
+0x1,test,vie,paper,lexical entry
+0x1,test,vie,park,lexical entry
+0x1,test,vie,pl,pl
+0x1,test,vie,prog,prog
+0x1,test,vie,prox,prox
+0x1,test,vie,pst,pst
+0x1,test,vie,quickly,lexical entry
+0x1,test,vie,read,lexical entry
+0x1,test,vie,really,lexical entry
+0x1,test,vie,rect,lexical entry
+0x1,test,vie,set,lexical entry
+0x1,test,vie,sheet,lexical entry
+0x1,test,vie,should,lexical entry
+0x1,test,vie,sleep,lexical entry
+0x1,test,vie,tag,lexical entry
+0x1,test,vie,tall,lexical entry
+0x1,test,vie,think,lexical entry
+0x1,test,vie,this,incomplete
+0x1,test,vie,top,top
+0x1,test,vie,two,lexical entry
+0x1,test,vie,typhoon,lexical entry
+0x1,test,vie,very,lexical entry
+0x1,test,vie,violent,lexical entry
+0x1,test,vie,want,lexical entry
+0x1,test,vie,wash,lexical entry
+0x1,test,vie,yesterday,lexical entry

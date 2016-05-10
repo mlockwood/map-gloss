@@ -1,0 +1,36 @@
+Absolute Change
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+Relative Change
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+
+
+--- 0x1_test_tgl_FINAL ---
+
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+False Positives
+	('test', 'tgl', 'tenses', 'present')
+	('test', 'tgl', 'aspects', 'pfv')
+	('test', 'tgl', 'tenses', 'future')
+
+
+
+--- 0x1_test_tgl_BASELINE5 ---
+
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+False Positives
+	('test', 'tgl', 'tenses', 'present')
+	('test', 'tgl', 'aspects', 'pfv')
+	('test', 'tgl', 'tenses', 'future')
+

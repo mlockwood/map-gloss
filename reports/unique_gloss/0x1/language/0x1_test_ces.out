@@ -1,0 +1,67 @@
+Accuracy: 0.9672131147540983
+Total: 61; Correct: 59
+
+Incorrect pairs
+test, ces, imp                                           Gold: imp                  System: ipfv                
+test, ces, pp                                            Gold: pl                   System: user-identified     
+
+Correct pairs
+test, ces, must                                          Gold: lexical entry        System: lexical entry       
+test, ces, be                                            Gold: lexical entry        System: lexical entry       
+test, ces, inf                                           Gold: inf                  System: inf                 
+test, ces, glass                                         Gold: lexical entry        System: lexical entry       
+test, ces, cat                                           Gold: lexical entry        System: lexical entry       
+test, ces, acc                                           Gold: acc                  System: acc                 
+test, ces, sleep                                         Gold: lexical entry        System: lexical entry       
+test, ces, nom                                           Gold: nom                  System: nom                 
+test, ces, friend                                        Gold: lexical entry        System: lexical entry       
+test, ces, dat                                           Gold: dat                  System: dat                 
+test, ces, hurt                                          Gold: lexical entry        System: lexical entry       
+test, ces, see                                           Gold: lexical entry        System: lexical entry       
+test, ces, woman                                         Gold: lexical entry        System: lexical entry       
+test, ces, car                                           Gold: lexical entry        System: lexical entry       
+test, ces, this                                          Gold: incomplete           System: incomplete          
+test, ces, 2sg                                           Gold: 2sg                  System: 2sg                 
+test, ces, m                                             Gold: m                    System: m                   
+test, ces, 1pl                                           Gold: 1pl                  System: 1pl                 
+test, ces, fut                                           Gold: fut                  System: fut                 
+test, ces, carry                                         Gold: lexical entry        System: lexical entry       
+test, ces, prf                                           Gold: prf                  System: prf                 
+test, ces, refl                                          Gold: refl                 System: refl                
+test, ces, eat                                           Gold: lexical entry        System: lexical entry       
+test, ces, book                                          Gold: lexical entry        System: lexical entry       
+test, ces, 2pl                                           Gold: 2pl                  System: 2pl                 
+test, ces, fly                                           Gold: lexical entry        System: lexical entry       
+test, ces, who                                           Gold: lexical entry        System: lexical entry       
+test, ces, give                                          Gold: lexical entry        System: lexical entry       
+test, ces, think                                         Gold: lexical entry        System: lexical entry       
+test, ces, quickly                                       Gold: lexical entry        System: lexical entry       
+test, ces, ask                                           Gold: lexical entry        System: lexical entry       
+test, ces, n                                             Gold: n                    System: n                   
+test, ces, which                                         Gold: lexical entry        System: lexical entry       
+test, ces, 3sg                                           Gold: 3sg                  System: 3sg                 
+test, ces, sg                                            Gold: sg                   System: sg                  
+test, ces, can                                           Gold: lexical entry        System: lexical entry       
+test, ces, cars                                          Gold: lexical entry        System: lexical entry       
+test, ces, my                                            Gold: incomplete           System: incomplete          
+test, ces, our                                           Gold: incomplete           System: incomplete          
+test, ces, that                                          Gold: incomplete           System: incomplete          
+test, ces, pre                                           Gold: prs                  System: prs                 
+test, ces, neg                                           Gold: neg                  System: neg                 
+test, ces, dog                                           Gold: lexical entry        System: lexical entry       
+test, ces, whether                                       Gold: lexical entry        System: lexical entry       
+test, ces, river                                         Gold: lexical entry        System: lexical entry       
+test, ces, pl                                            Gold: pl                   System: pl                  
+test, ces, 1sg                                           Gold: 1sg                  System: 1sg                 
+test, ces, prs                                           Gold: prs                  System: prs                 
+test, ces, p                                             Gold: p                    System: p                   
+test, ces, f                                             Gold: f                    System: f                   
+test, ces, 3pl                                           Gold: 3pl                  System: 3pl                 
+test, ces, hungry                                        Gold: lexical entry        System: lexical entry       
+test, ces, flies                                         Gold: lexical entry        System: lexical entry       
+test, ces, nor                                           Gold: lexical entry        System: lexical entry       
+test, ces, and                                           Gold: lexical entry        System: lexical entry       
+test, ces, old                                           Gold: lexical entry        System: lexical entry       
+test, ces, chase                                         Gold: lexical entry        System: lexical entry       
+test, ces, bird                                          Gold: lexical entry        System: lexical entry       
+test, ces, know                                          Gold: lexical entry        System: lexical entry       

@@ -1,0 +1,91 @@
+Accuracy: 0.9591836734693877
+
+1
+	1                   	       1
+
+1sg
+	1sg                 	       1
+
+2
+	2                   	       1
+
+2sg
+	2sg                 	       1
+
+3
+	3                   	       1
+
+3sg
+	3sg                 	       1
+
+abs
+	abs                 	       1
+
+comp
+	comp                	       1
+
+cont
+	cont                	       1
+
+cop
+	cop                 	       1
+
+dem
+	dem                 	       1
+
+dist
+	dist                	       1
+
+excl
+	excl                	       1
+
+foc
+	foc                 	       1
+
+focus
+	focus               	       1
+
+fp
+	fp                  	       1
+
+fut
+	fut                 	       1
+
+incl
+	incl                	       1
+
+incomplete
+	incomplete          	       2
+
+indf
+	indf                	       1
+
+lexical entry
+	lexical entry       	      67
+	ptcp                	       1
+	user-identified     	       1
+
+nearpast
+	lexical entry       	       1
+
+neg
+	neg                 	       1
+
+part-of-speech
+	user-identified     	       1
+
+pl
+	pl                  	       1
+
+prog
+	prog                	       1
+
+prox
+	prox                	       1
+
+pst
+	pst                 	       1
+
+top
+	top                 	       1
+

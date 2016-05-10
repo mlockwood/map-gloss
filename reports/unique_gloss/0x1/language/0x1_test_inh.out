@@ -1,0 +1,229 @@
+Accuracy: 0.9282511210762332
+Total: 223; Correct: 207
+
+Incorrect pairs
+test, inh, 1plincl                                       Gold: combined             System: user-identified     
+test, inh, mir                                           Gold: lexical entry        System: user-identified     
+test, inh, 1plexcl                                       Gold: combined             System: 1sg                 
+test, inh, a                                             Gold: a                    System: lexical entry       
+test, inh, cum                                           Gold: lexical entry        System: user-identified     
+test, inh, 1srfl                                         Gold: combined             System: lexical entry       
+test, inh, rfl                                           Gold: refl                 System: user-identified     
+test, inh, incp                                          Gold: user-identified      System: lexical entry       
+test, inh, cmp                                           Gold: comp                 System: user-identified     
+test, inh, 1pex                                          Gold: user-identified      System: lexical entry       
+test, inh, lat                                           Gold: lexical entry        System: user-identified     
+test, inh, ppl                                           Gold: pl                   System: user-identified     
+test, inh, 2p                                            Gold: 2pl                  System: lexical entry       
+test, inh, impf                                          Gold: ipfv                 System: lexical entry       
+test, inh, possibility                                   Gold: lexical entry        System: poss                
+test, inh, impv                                          Gold: ipfv                 System: lexical entry       
+
+Correct pairs
+test, inh, dim                                           Gold: lexical entry        System: lexical entry       
+test, inh, then                                          Gold: lexical entry        System: lexical entry       
+test, inh, in                                            Gold: lexical entry        System: lexical entry       
+test, inh, sick                                          Gold: lexical entry        System: lexical entry       
+test, inh, fat                                           Gold: lexical entry        System: lexical entry       
+test, inh, becontained                                   Gold: lexical entry        System: lexical entry       
+test, inh, wring                                         Gold: lexical entry        System: lexical entry       
+test, inh, english                                       Gold: lexical entry        System: lexical entry       
+test, inh, people                                        Gold: lexical entry        System: lexical entry       
+test, inh, complain                                      Gold: lexical entry        System: lexical entry       
+test, inh, kill                                          Gold: lexical entry        System: lexical entry       
+test, inh, 20                                            Gold: lexical entry        System: lexical entry       
+test, inh, these                                         Gold: incomplete           System: incomplete          
+test, inh, charity                                       Gold: lexical entry        System: lexical entry       
+test, inh, song                                          Gold: lexical entry        System: lexical entry       
+test, inh, silk                                          Gold: lexical entry        System: lexical entry       
+test, inh, lie                                           Gold: lexical entry        System: lexical entry       
+test, inh, cs                                            Gold: user-identified      System: user-identified     
+test, inh, one                                           Gold: lexical entry        System: lexical entry       
+test, inh, hour                                          Gold: lexical entry        System: lexical entry       
+test, inh, big                                           Gold: lexical entry        System: lexical entry       
+test, inh, call                                          Gold: lexical entry        System: lexical entry       
+test, inh, conversation                                  Gold: lexical entry        System: lexical entry       
+test, inh, bear                                          Gold: lexical entry        System: lexical entry       
+test, inh, m                                             Gold: m                    System: m                   
+test, inh, here                                          Gold: lexical entry        System: lexical entry       
+test, inh, sub                                           Gold: sbj                  System: sbj                 
+test, inh, child                                         Gold: lexical entry        System: lexical entry       
+test, inh, 3pl                                           Gold: 3pl                  System: 3pl                 
+test, inh, sourfruit                                     Gold: lexical entry        System: lexical entry       
+test, inh, fight                                         Gold: lexical entry        System: lexical entry       
+test, inh, go                                            Gold: lexical entry        System: lexical entry       
+test, inh, nw                                            Gold: lexical entry        System: lexical entry       
+test, inh, letter                                        Gold: lexical entry        System: lexical entry       
+test, inh, 2s                                            Gold: 2sg                  System: 2sg                 
+test, inh, be                                            Gold: lexical entry        System: lexical entry       
+test, inh, sometimes                                     Gold: lexical entry        System: lexical entry       
+test, inh, look                                          Gold: lexical entry        System: lexical entry       
+test, inh, foc                                           Gold: foc                  System: foc                 
+test, inh, cvant                                         Gold: lexical entry        System: lexical entry       
+test, inh, gen                                           Gold: gen                  System: gen                 
+test, inh, throw                                         Gold: lexical entry        System: lexical entry       
+test, inh, town                                          Gold: lexical entry        System: lexical entry       
+test, inh, well                                          Gold: lexical entry        System: lexical entry       
+test, inh, catch                                         Gold: lexical entry        System: lexical entry       
+test, inh, fear                                          Gold: lexical entry        System: lexical entry       
+test, inh, lose                                          Gold: lexical entry        System: lexical entry       
+test, inh, out                                           Gold: lexical entry        System: lexical entry       
+test, inh, come                                          Gold: lexical entry        System: lexical entry       
+test, inh, dog                                           Gold: lexical entry        System: lexical entry       
+test, inh, this                                          Gold: incomplete           System: incomplete          
+test, inh, woman                                         Gold: lexical entry        System: lexical entry       
+test, inh, tell                                          Gold: lexical entry        System: lexical entry       
+test, inh, sour                                          Gold: lexical entry        System: lexical entry       
+test, inh, like                                          Gold: lexical entry        System: lexical entry       
+test, inh, send                                          Gold: lexical entry        System: lexical entry       
+test, inh, 3s                                            Gold: 3sg                  System: 3sg                 
+test, inh, untie                                         Gold: lexical entry        System: lexical entry       
+test, inh, q                                             Gold: q                    System: q                   
+test, inh, wolf                                          Gold: lexical entry        System: lexical entry       
+test, inh, search                                        Gold: lexical entry        System: lexical entry       
+test, inh, summer                                        Gold: lexical entry        System: lexical entry       
+test, inh, b                                             Gold: user-identified      System: user-identified     
+test, inh, crooked                                       Gold: lexical entry        System: lexical entry       
+test, inh, oushaneaqaan                                  Gold: lexical entry        System: lexical entry       
+test, inh, bed                                           Gold: lexical entry        System: lexical entry       
+test, inh, fast                                          Gold: lexical entry        System: lexical entry       
+test, inh, me                                            Gold: incomplete           System: incomplete          
+test, inh, v                                             Gold: part-of-speech       System: part-of-speech      
+test, inh, two                                           Gold: lexical entry        System: lexical entry       
+test, inh, lemon                                         Gold: lexical entry        System: lexical entry       
+test, inh, mother                                        Gold: lexical entry        System: lexical entry       
+test, inh, nom                                           Gold: nom                  System: nom                 
+test, inh, see                                           Gold: lexical entry        System: lexical entry       
+test, inh, dat                                           Gold: dat                  System: dat                 
+test, inh, hurt                                          Gold: lexical entry        System: lexical entry       
+test, inh, so                                            Gold: lexical entry        System: lexical entry       
+test, inh, say                                           Gold: lexical entry        System: lexical entry       
+test, inh, nearby                                        Gold: lexical entry        System: lexical entry       
+test, inh, home                                          Gold: lexical entry        System: lexical entry       
+test, inh, obl                                           Gold: obl                  System: obl                 
+test, inh, fut                                           Gold: fut                  System: fut                 
+test, inh, carry                                         Gold: lexical entry        System: lexical entry       
+test, inh, musa                                          Gold: lexical entry        System: lexical entry       
+test, inh, j                                             Gold: user-identified      System: user-identified     
+test, inh, ahmed                                         Gold: lexical entry        System: lexical entry       
+test, inh, 3p                                            Gold: 3pl                  System: 3pl                 
+test, inh, four                                          Gold: lexical entry        System: lexical entry       
+test, inh, time                                          Gold: lexical entry        System: lexical entry       
+test, inh, money                                         Gold: lexical entry        System: lexical entry       
+test, inh, 4                                             Gold: lexical entry        System: lexical entry       
+test, inh, what                                          Gold: lexical entry        System: lexical entry       
+test, inh, strike                                        Gold: lexical entry        System: lexical entry       
+test, inh, movie                                         Gold: lexical entry        System: lexical entry       
+test, inh, noise                                         Gold: lexical entry        System: lexical entry       
+test, inh, aishet                                        Gold: lexical entry        System: lexical entry       
+test, inh, make                                          Gold: lexical entry        System: lexical entry       
+test, inh, on                                            Gold: lexical entry        System: lexical entry       
+test, inh, prayer                                        Gold: lexical entry        System: lexical entry       
+test, inh, dream                                         Gold: lexical entry        System: lexical entry       
+test, inh, cvtemp                                        Gold: lexical entry        System: lexical entry       
+test, inh, anything                                      Gold: lexical entry        System: lexical entry       
+test, inh, day                                           Gold: lexical entry        System: lexical entry       
+test, inh, pst                                           Gold: pst                  System: pst                 
+test, inh, neg                                           Gold: neg                  System: neg                 
+test, inh, pl                                            Gold: pl                   System: pl                  
+test, inh, eye                                           Gold: lexical entry        System: lexical entry       
+test, inh, at                                            Gold: lexical entry        System: lexical entry       
+test, inh, three                                         Gold: lexical entry        System: lexical entry       
+test, inh, back                                          Gold: lexical entry        System: lexical entry       
+test, inh, it                                            Gold: lexical entry        System: lexical entry       
+test, inh, cow                                           Gold: lexical entry        System: lexical entry       
+test, inh, hear                                          Gold: lexical entry        System: lexical entry       
+test, inh, wp                                            Gold: part-of-speech       System: part-of-speech      
+test, inh, too                                           Gold: lexical entry        System: lexical entry       
+test, inh, emph                                          Gold: emph                 System: emph                
+test, inh, 1000                                          Gold: lexical entry        System: lexical entry       
+test, inh, yellow                                        Gold: lexical entry        System: lexical entry       
+test, inh, l                                             Gold: user-identified      System: user-identified     
+test, inh, prog                                          Gold: prog                 System: prog                
+test, inh, tower                                         Gold: lexical entry        System: lexical entry       
+test, inh, dem                                           Gold: dem                  System: dem                 
+test, inh, king                                          Gold: lexical entry        System: lexical entry       
+test, inh, wear                                          Gold: lexical entry        System: lexical entry       
+test, inh, ins                                           Gold: ins                  System: ins                 
+test, inh, muslin                                        Gold: lexical entry        System: lexical entry       
+test, inh, five                                          Gold: lexical entry        System: lexical entry       
+test, inh, glass                                         Gold: lexical entry        System: lexical entry       
+test, inh, father                                        Gold: lexical entry        System: lexical entry       
+test, inh, cat                                           Gold: lexical entry        System: lexical entry       
+test, inh, ladder                                        Gold: lexical entry        System: lexical entry       
+test, inh, sky                                           Gold: lexical entry        System: lexical entry       
+test, inh, table                                         Gold: lexical entry        System: lexical entry       
+test, inh, window                                        Gold: lexical entry        System: lexical entry       
+test, inh, since                                         Gold: lexical entry        System: lexical entry       
+test, inh, towel                                         Gold: lexical entry        System: lexical entry       
+test, inh, aside                                         Gold: lexical entry        System: lexical entry       
+test, inh, stand                                         Gold: lexical entry        System: lexical entry       
+test, inh, aisha                                         Gold: lexical entry        System: lexical entry       
+test, inh, prs                                           Gold: prs                  System: prs                 
+test, inh, unknown                                       Gold: lexical entry        System: lexical entry       
+test, inh, person                                        Gold: lexical entry        System: lexical entry       
+test, inh, stone                                         Gold: lexical entry        System: lexical entry       
+test, inh, d                                             Gold: user-identified      System: user-identified     
+test, inh, georgian                                      Gold: lexical entry        System: lexical entry       
+test, inh, difficult                                     Gold: lexical entry        System: lexical entry       
+test, inh, who                                           Gold: lexical entry        System: lexical entry       
+test, inh, old                                           Gold: lexical entry        System: lexical entry       
+test, inh, fall                                          Gold: lexical entry        System: lexical entry       
+test, inh, up                                            Gold: lexical entry        System: lexical entry       
+test, inh, grease                                        Gold: lexical entry        System: lexical entry       
+test, inh, play                                          Gold: lexical entry        System: lexical entry       
+test, inh, scythe                                        Gold: lexical entry        System: lexical entry       
+test, inh, read                                          Gold: lexical entry        System: lexical entry       
+test, inh, friend                                        Gold: lexical entry        System: lexical entry       
+test, inh, cry                                           Gold: lexical entry        System: lexical entry       
+test, inh, sing                                          Gold: lexical entry        System: lexical entry       
+test, inh, boot                                          Gold: lexical entry        System: lexical entry       
+test, inh, linen                                         Gold: lexical entry        System: lexical entry       
+test, inh, man                                           Gold: lexical entry        System: lexical entry       
+test, inh, especially                                    Gold: lexical entry        System: lexical entry       
+test, inh, blue                                          Gold: lexical entry        System: lexical entry       
+test, inh, dx                                            Gold: user-identified      System: user-identified     
+test, inh, night                                         Gold: lexical entry        System: lexical entry       
+test, inh, 1sg                                           Gold: 1sg                  System: 1sg                 
+test, inh, gun                                           Gold: lexical entry        System: lexical entry       
+test, inh, water                                         Gold: lexical entry        System: lexical entry       
+test, inh, gasoline                                      Gold: lexical entry        System: lexical entry       
+test, inh, down                                          Gold: lexical entry        System: lexical entry       
+test, inh, gully                                         Gold: lexical entry        System: lexical entry       
+test, inh, drink                                         Gold: lexical entry        System: lexical entry       
+test, inh, tree                                          Gold: lexical entry        System: lexical entry       
+test, inh, 1s                                            Gold: 1sg                  System: 1sg                 
+test, inh, know                                          Gold: lexical entry        System: lexical entry       
+test, inh, write                                         Gold: lexical entry        System: lexical entry       
+test, inh, thin                                          Gold: lexical entry        System: lexical entry       
+test, inh, open                                          Gold: lexical entry        System: lexical entry       
+test, inh, other                                         Gold: lexical entry        System: lexical entry       
+test, inh, language                                      Gold: lexical entry        System: lexical entry       
+test, inh, along                                         Gold: lexical entry        System: lexical entry       
+test, inh, good                                          Gold: lexical entry        System: lexical entry       
+test, inh, can                                           Gold: lexical entry        System: lexical entry       
+test, inh, or                                            Gold: lexical entry        System: lexical entry       
+test, inh, downsit                                       Gold: lexical entry        System: lexical entry       
+test, inh, do                                            Gold: lexical entry        System: lexical entry       
+test, inh, eat                                           Gold: lexical entry        System: lexical entry       
+test, inh, how                                           Gold: lexical entry        System: lexical entry       
+test, inh, green                                         Gold: lexical entry        System: lexical entry       
+test, inh, sack                                          Gold: lexical entry        System: lexical entry       
+test, inh, book                                          Gold: lexical entry        System: lexical entry       
+test, inh, 2pl                                           Gold: 2pl                  System: 2pl                 
+test, inh, adv                                           Gold: part-of-speech       System: part-of-speech      
+test, inh, cvsim                                         Gold: lexical entry        System: lexical entry       
+test, inh, any                                           Gold: lexical entry        System: lexical entry       
+test, inh, i                                             Gold: incomplete           System: incomplete          
+test, inh, intelligence                                  Gold: lexical entry        System: lexical entry       
+test, inh, vz                                            Gold: user-identified      System: user-identified     
+test, inh, nz                                            Gold: lexical entry        System: lexical entry       
+test, inh, more                                          Gold: lexical entry        System: lexical entry       
+test, inh, moreover                                      Gold: lexical entry        System: lexical entry       
+test, inh, long                                          Gold: lexical entry        System: lexical entry       
+test, inh, erg                                           Gold: erg                  System: erg                 
+test, inh, inf                                           Gold: inf                  System: inf                 
+test, inh, apple                                         Gold: lexical entry        System: lexical entry       
+test, inh, he                                            Gold: incomplete           System: incomplete          
+test, inh, dress                                         Gold: lexical entry        System: lexical entry       
+test, inh, corner                                        Gold: lexical entry        System: lexical entry       

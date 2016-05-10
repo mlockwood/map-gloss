@@ -1,0 +1,13 @@
+Gold Standard Statistics for: complete
+
+complete Statistics:
+    Standard:         536 & 0.1772
+    Misspelled:       134 & 0.0443
+    Confused:           2 & 0.0007
+    Incomplete:       210 & 0.0694
+    Combined:          26 & 0.0086
+    User-Identified:  105 & 0.0347
+    Unrecovered:       10 & 0.0033
+    Part-Of-Speech:    27 & 0.0089
+    Lexical Entry:   1975 & 0.6529
+

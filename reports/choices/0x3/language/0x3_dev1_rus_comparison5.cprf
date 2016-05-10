@@ -1,0 +1,34 @@
+Absolute Change
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+Relative Change
+Precision: 1.0
+Recall: 1.0
+F-Score: 1.0
+
+
+
+--- 0x3_dev1_rus_FINAL ---
+
+Precision: 1.0
+Recall: 0.6
+F-Score: 0.7499999999999999
+
+False Negatives
+	('dev1', 'rus', 'aspects', 'perfective')
+	('dev1', 'rus', 'aspects', 'imperfective')
+
+
+
+--- 0x3_dev1_rus_BASELINE5 ---
+
+Precision: 1.0
+Recall: 0.6
+F-Score: 0.7499999999999999
+
+False Negatives
+	('dev1', 'rus', 'aspects', 'perfective')
+	('dev1', 'rus', 'aspects', 'imperfective')
+

@@ -1,0 +1,8 @@
+section=tense-aspect-mood
+tense-definition=choose
+ tense1_name=nprs
+  tense1_supertype1_name=tense
+present=on
+future=on
+ aspect1_name=pfv
+  aspect1_supertype1_name=aspect

@@ -1,0 +1,48 @@
+Absolute Change
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+Relative Change
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+
+
+--- 0x1_test_ain_FINAL ---
+
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+False Negatives
+	('test', 'ain', 'aspects', 'perfective')
+	('test', 'ain', 'tenses', 'present')
+	('test', 'ain', 'aspects', 'progressive')
+	('test', 'ain', 'tenses', 'future')
+	('test', 'ain', 'tenses', 'past')
+	('test', 'ain', 'aspects', 'durative')
+
+False Positives
+	('test', 'ain', 'aspects', 'dur')
+
+
+
+--- 0x1_test_ain_BASELINE5 ---
+
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+False Negatives
+	('test', 'ain', 'aspects', 'perfective')
+	('test', 'ain', 'tenses', 'present')
+	('test', 'ain', 'aspects', 'progressive')
+	('test', 'ain', 'tenses', 'future')
+	('test', 'ain', 'tenses', 'past')
+	('test', 'ain', 'aspects', 'durative')
+
+False Positives
+	('test', 'ain', 'aspects', 'dur')
+

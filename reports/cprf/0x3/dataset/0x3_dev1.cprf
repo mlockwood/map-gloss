@@ -1,0 +1,182 @@
+Absolute Change
+Precision: 0.6570121951219512
+Recall: 0.2058823529411764
+F-Score: 0.5125391849529779
+
+Relative Change
+Precision: 3.3423913043478257
+Recall: 1.3043478260869563
+F-Score: 2.2924901185770747
+
+False Positives Added
+	('dev1', 'rus', 'user-identified')
+
+False Negatives to True Positives
+	('dev1', 'rus', 'f')
+	('dev1', 'rus', 'incomplete')
+	('dev1', 'rus', 'n')
+	('dev1', 'rus', 'lexical entry')
+	('dev1', 'rus', 'prf')
+	('dev1', 'rus', 'm')
+	('dev1', 'rus', 'part-of-speech')
+
+False Positives Removed
+	('dev1', 'rus', 'she')
+	('dev1', 'rus', 'perf')
+	('dev1', 'rus', 'that')
+	('dev1', 'rus', 'table')
+	('dev1', 'rus', 'lighten')
+	('dev1', 'rus', 'you')
+	('dev1', 'rus', 'glass')
+	('dev1', 'rus', 'big')
+	('dev1', 'rus', 'po')
+	('dev1', 'rus', 'me')
+	('dev1', 'rus', 'be')
+	('dev1', 'rus', 'interrogative')
+	('dev1', 'rus', 'inst')
+	('dev1', 'rus', 'fm')
+	('dev1', 'rus', 'masc')
+	('dev1', 'rus', 'cut')
+	('dev1', 'rus', 'not')
+	('dev1', 'rus', 'love')
+	('dev1', 'rus', 'quickly')
+	('dev1', 'rus', 'plane')
+	('dev1', 'rus', 'boy')
+	('dev1', 'rus', 'go')
+	('dev1', 'rus', 'perf3sg')
+	('dev1', 'rus', 'on')
+	('dev1', 'rus', 'book')
+	('dev1', 'rus', 'never')
+	('dev1', 'rus', 'school')
+	('dev1', 'rus', 'dog')
+	('dev1', 'rus', 'by')
+	('dev1', 'rus', 'in')
+	('dev1', 'rus', 'no')
+	('dev1', 'rus', 'large')
+	('dev1', 'rus', 'fem')
+	('dev1', 'rus', 'doctor')
+	('dev1', 'rus', 'read')
+	('dev1', 'rus', 'ask')
+	('dev1', 'rus', 'pro')
+	('dev1', 'rus', 'means')
+	('dev1', 'rus', 'girl')
+	('dev1', 'rus', 'red')
+	('dev1', 'rus', 'binding')
+	('dev1', 'rus', 'think')
+	('dev1', 'rus', 'these')
+	('dev1', 'rus', 'can')
+	('dev1', 'rus', 'neut')
+	('dev1', 'rus', 'fly')
+	('dev1', 'rus', 'speak')
+	('dev1', 'rus', 'and')
+	('dev1', 'rus', 'prep')
+	('dev1', 'rus', 'i')
+	('dev1', 'rus', 'with')
+	('dev1', 'rus', 'perf1sg')
+	('dev1', 'rus', 'this')
+	('dev1', 'rus', 'eat')
+	('dev1', 'rus', 'sleep')
+	('dev1', 'rus', 'always')
+	('dev1', 'rus', 'buy')
+	('dev1', 'rus', 'ivan')
+
+
+
+--- 0x3_dev1_FINAL ---
+
+Precision: 0.9375
+Recall: 0.8823529411764706
+F-Score: 0.9090909090909091
+
+False Negatives
+	('dev1', 'rus', 'combined')
+	('dev1', 'rus', 'ipfv')
+	('dev1', 'rus', 'unrecovered')
+	('dev1', 'rus', 'ins')
+
+False Positives
+	('dev1', 'rus', 'user-identified')
+	('dev1', 'rus', 'imp')
+
+
+
+--- 0x3_dev1_BASELINE ---
+
+Precision: 0.2804878048780488
+Recall: 0.6764705882352942
+F-Score: 0.3965517241379311
+
+False Negatives
+	('dev1', 'rus', 'f')
+	('dev1', 'rus', 'incomplete')
+	('dev1', 'rus', 'n')
+	('dev1', 'rus', 'ipfv')
+	('dev1', 'rus', 'unrecovered')
+	('dev1', 'rus', 'prf')
+	('dev1', 'rus', 'ins')
+	('dev1', 'rus', 'lexical entry')
+	('dev1', 'rus', 'combined')
+	('dev1', 'rus', 'm')
+	('dev1', 'rus', 'part-of-speech')
+
+False Positives
+	('dev1', 'rus', 'she')
+	('dev1', 'rus', 'perf')
+	('dev1', 'rus', 'that')
+	('dev1', 'rus', 'table')
+	('dev1', 'rus', 'interrogative')
+	('dev1', 'rus', 'you')
+	('dev1', 'rus', 'glass')
+	('dev1', 'rus', 'big')
+	('dev1', 'rus', 'po')
+	('dev1', 'rus', 'me')
+	('dev1', 'rus', 'be')
+	('dev1', 'rus', 'lighten')
+	('dev1', 'rus', 'inst')
+	('dev1', 'rus', 'read')
+	('dev1', 'rus', 'cut')
+	('dev1', 'rus', 'not')
+	('dev1', 'rus', 'love')
+	('dev1', 'rus', 'quickly')
+	('dev1', 'rus', 'plane')
+	('dev1', 'rus', 'never')
+	('dev1', 'rus', 'boy')
+	('dev1', 'rus', 'go')
+	('dev1', 'rus', 'perf1sg')
+	('dev1', 'rus', 'on')
+	('dev1', 'rus', 'book')
+	('dev1', 'rus', 'ask')
+	('dev1', 'rus', 'this')
+	('dev1', 'rus', 'dog')
+	('dev1', 'rus', 'by')
+	('dev1', 'rus', 'in')
+	('dev1', 'rus', 'no')
+	('dev1', 'rus', 'large')
+	('dev1', 'rus', 'fem')
+	('dev1', 'rus', 'doctor')
+	('dev1', 'rus', 'masc')
+	('dev1', 'rus', 'fm')
+	('dev1', 'rus', 'pro')
+	('dev1', 'rus', 'means')
+	('dev1', 'rus', 'girl')
+	('dev1', 'rus', 'red')
+	('dev1', 'rus', 'binding')
+	('dev1', 'rus', 'think')
+	('dev1', 'rus', 'imp')
+	('dev1', 'rus', 'these')
+	('dev1', 'rus', 'can')
+	('dev1', 'rus', 'neut')
+	('dev1', 'rus', 'fly')
+	('dev1', 'rus', 'speak')
+	('dev1', 'rus', 'and')
+	('dev1', 'rus', 'prep')
+	('dev1', 'rus', 'i')
+	('dev1', 'rus', 'with')
+	('dev1', 'rus', 'perf3sg')
+	('dev1', 'rus', 'school')
+	('dev1', 'rus', 'eat')
+	('dev1', 'rus', 'sleep')
+	('dev1', 'rus', 'always')
+	('dev1', 'rus', 'buy')
+	('dev1', 'rus', 'ivan')
+

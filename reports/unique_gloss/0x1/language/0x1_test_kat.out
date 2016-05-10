@@ -1,0 +1,84 @@
+Accuracy: 0.9487179487179487
+Total: 78; Correct: 74
+
+Incorrect pairs
+test, kat, psf                                           Gold: prs                  System: user-identified     
+test, kat, pluperf                                       Gold: pluperfect           System: prf                 
+test, kat, nopre                                         Gold: nprs                 System: prs                 
+test, kat, imperf                                        Gold: ipfv                 System: prf                 
+
+Correct pairs
+test, kat, send                                          Gold: lexical entry        System: lexical entry       
+test, kat, that                                          Gold: incomplete           System: incomplete          
+test, kat, not                                           Gold: incomplete           System: incomplete          
+test, kat, and                                           Gold: lexical entry        System: lexical entry       
+test, kat, hide                                          Gold: lexical entry        System: lexical entry       
+test, kat, erg                                           Gold: erg                  System: erg                 
+test, kat, blind                                         Gold: lexical entry        System: lexical entry       
+test, kat, prepare                                       Gold: lexical entry        System: lexical entry       
+test, kat, ask                                           Gold: lexical entry        System: lexical entry       
+test, kat, teach                                         Gold: lexical entry        System: lexical entry       
+test, kat, drink                                         Gold: lexical entry        System: lexical entry       
+test, kat, quickly                                       Gold: lexical entry        System: lexical entry       
+test, kat, beautiful                                     Gold: lexical entry        System: lexical entry       
+test, kat, listener                                      Gold: lexical entry        System: lexical entry       
+test, kat, american                                      Gold: lexical entry        System: lexical entry       
+test, kat, beer                                          Gold: lexical entry        System: lexical entry       
+test, kat, child                                         Gold: lexical entry        System: lexical entry       
+test, kat, chicago                                       Gold: lexical entry        System: lexical entry       
+test, kat, however                                       Gold: lexical entry        System: lexical entry       
+test, kat, moon                                          Gold: lexical entry        System: lexical entry       
+test, kat, write                                         Gold: lexical entry        System: lexical entry       
+test, kat, dutch                                         Gold: lexical entry        System: lexical entry       
+test, kat, fut                                           Gold: fut                  System: fut                 
+test, kat, pres                                          Gold: prs                  System: prs                 
+test, kat, obj                                           Gold: obj                  System: obj                 
+test, kat, one                                           Gold: lexical entry        System: lexical entry       
+test, kat, father                                        Gold: lexical entry        System: lexical entry       
+test, kat, 1                                             Gold: 1                    System: 1                   
+test, kat, for                                           Gold: lexical entry        System: lexical entry       
+test, kat, german                                        Gold: lexical entry        System: lexical entry       
+test, kat, work                                          Gold: lexical entry        System: lexical entry       
+test, kat, dat                                           Gold: dat                  System: dat                 
+test, kat, boil                                          Gold: lexical entry        System: lexical entry       
+test, kat, woman                                         Gold: lexical entry        System: lexical entry       
+test, kat, listen                                        Gold: lexical entry        System: lexical entry       
+test, kat, pl                                            Gold: pl                   System: pl                  
+test, kat, bear                                          Gold: lexical entry        System: lexical entry       
+test, kat, close                                         Gold: lexical entry        System: lexical entry       
+test, kat, aor                                           Gold: user-identified      System: user-identified     
+test, kat, know                                          Gold: lexical entry        System: lexical entry       
+test, kat, literature                                    Gold: lexical entry        System: lexical entry       
+test, kat, letter                                        Gold: lexical entry        System: lexical entry       
+test, kat, david                                         Gold: lexical entry        System: lexical entry       
+test, kat, distal                                        Gold: distal               System: distal              
+test, kat, copula                                        Gold: copula               System: copula              
+test, kat, dem                                           Gold: dem                  System: dem                 
+test, kat, 3                                             Gold: 3                    System: 3                   
+test, kat, pre                                           Gold: prs                  System: prs                 
+test, kat, kill                                          Gold: lexical entry        System: lexical entry       
+test, kat, be                                            Gold: lexical entry        System: lexical entry       
+test, kat, some                                          Gold: lexical entry        System: lexical entry       
+test, kat, subj                                          Gold: sbj                  System: sbj                 
+test, kat, whether                                       Gold: lexical entry        System: lexical entry       
+test, kat, on                                            Gold: lexical entry        System: lexical entry       
+test, kat, exercise                                      Gold: lexical entry        System: lexical entry       
+test, kat, water                                         Gold: lexical entry        System: lexical entry       
+test, kat, georgian                                      Gold: lexical entry        System: lexical entry       
+test, kat, bird                                          Gold: lexical entry        System: lexical entry       
+test, kat, cheat                                         Gold: lexical entry        System: lexical entry       
+test, kat, read                                          Gold: lexical entry        System: lexical entry       
+test, kat, 2                                             Gold: 2                    System: 2                   
+test, kat, tall                                          Gold: lexical entry        System: lexical entry       
+test, kat, doctor                                        Gold: lexical entry        System: lexical entry       
+test, kat, sing                                          Gold: lexical entry        System: lexical entry       
+test, kat, past                                          Gold: past                 System: past                
+test, kat, nom                                           Gold: nom                  System: nom                 
+test, kat, radiobroadcast                                Gold: lexical entry        System: lexical entry       
+test, kat, in                                            Gold: lexical entry        System: lexical entry       
+test, kat, teacher                                       Gold: lexical entry        System: lexical entry       
+test, kat, passive                                       Gold: passive              System: passive             
+test, kat, sg                                            Gold: sg                   System: sg                  
+test, kat, book                                          Gold: lexical entry        System: lexical entry       
+test, kat, gen                                           Gold: gen                  System: gen                 
+test, kat, newspaper                                     Gold: lexical entry        System: lexical entry       

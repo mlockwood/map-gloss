@@ -1,0 +1,5 @@
+section=tense-aspect-mood
+tense-definition=choose
+ tense1_name=nonpast
+  tense1_supertype1_name=tense
+past=on

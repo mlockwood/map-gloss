@@ -1,0 +1,90 @@
+Absolute Change
+Precision: 0.5384615384615384
+Recall: 0.125
+F-Score: 0.36190476190476195
+
+Relative Change
+Precision: 2.1666666666666665
+Recall: 1.1666666666666667
+F-Score: 1.6333333333333335
+
+False Negatives to True Positives
+	('test', 'tgl', 'lexical entry')
+	('test', 'tgl', 'user-identified')
+	('test', 'tgl', 'incomplete')
+
+False Positives Removed
+	('test', 'tgl', '1dual')
+	('test', 'tgl', 'eat')
+	('test', 'tgl', 'juan')
+	('test', 'tgl', 'ov')
+	('test', 'tgl', 'woman')
+	('test', 'tgl', 'mango')
+	('test', 'tgl', 'av')
+	('test', 'tgl', 'book')
+	('test', 'tgl', 'af')
+	('test', 'tgl', '1plx')
+	('test', 'tgl', 'this')
+	('test', 'tgl', 'maria')
+	('test', 'tgl', 'all')
+	('test', 'tgl', 'see')
+	('test', 'tgl', 'man')
+	('test', 'tgl', 'yon')
+	('test', 'tgl', '1pln')
+	('test', 'tgl', 'refuse')
+	('test', 'tgl', 'that')
+	('test', 'tgl', 'lk')
+	('test', 'tgl', 'give')
+
+
+
+--- 0x1_test_tgl_FINAL ---
+
+Precision: 1.0
+Recall: 0.875
+F-Score: 0.9333333333333333
+
+False Negatives
+	('test', 'tgl', 'combined')
+	('test', 'tgl', '1pl')
+	('test', 'tgl', '1du')
+
+
+
+--- 0x1_test_tgl_BASELINE ---
+
+Precision: 0.46153846153846156
+Recall: 0.75
+F-Score: 0.5714285714285714
+
+False Negatives
+	('test', 'tgl', 'lexical entry')
+	('test', 'tgl', 'user-identified')
+	('test', 'tgl', '1pl')
+	('test', 'tgl', 'combined')
+	('test', 'tgl', 'incomplete')
+	('test', 'tgl', '1du')
+
+False Positives
+	('test', 'tgl', '1dual')
+	('test', 'tgl', 'juan')
+	('test', 'tgl', 'ov')
+	('test', 'tgl', 'woman')
+	('test', 'tgl', 'this')
+	('test', 'tgl', 'av')
+	('test', 'tgl', 'book')
+	('test', 'tgl', 'refuse')
+	('test', 'tgl', 'af')
+	('test', 'tgl', '1plx')
+	('test', 'tgl', 'mango')
+	('test', 'tgl', 'maria')
+	('test', 'tgl', 'all')
+	('test', 'tgl', 'see')
+	('test', 'tgl', 'man')
+	('test', 'tgl', 'yon')
+	('test', 'tgl', '1pln')
+	('test', 'tgl', 'eat')
+	('test', 'tgl', 'that')
+	('test', 'tgl', 'lk')
+	('test', 'tgl', 'give')
+

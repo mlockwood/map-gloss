@@ -19,7 +19,7 @@ def load_choices(data_path, var_paths= {}):
     # {dataset: {iso: choices_path}}
     datasets = {}
     cur_dataset = ''
-    reader = open(data_path + '/datasets', 'r')
+    reader = open(data_path + '/choices', 'r')
     for row in reader:
         row = row.rstrip()
 
@@ -29,7 +29,7 @@ def load_choices(data_path, var_paths= {}):
         if row[0] == '#':
             continue
         elif row[0] == '@':
-            cur_dataset = row[1:]
+            cur_dataset = row[1:].lower()
 
         # Handle languages
         else:
@@ -37,8 +37,8 @@ def load_choices(data_path, var_paths= {}):
 
             # If no dataset is found raise MissingDatasetError
             if not cur_dataset:
-                raise GlossErrors.MissingDatasetError('Language with ISO {} at path {}'.format(line[0], line[1]) +
-                                                         ' does not have an identified dataset.')
+                raise GlossErrors.MissingDatasetError('Language with ISO {} at path {} '.format(line[0], line[1]) +
+                                                      'does not have an identified dataset.')
 
             # If dataset contains a variable path parse here
             match = re.search('\{\{\w*\}\}', line[1])
@@ -50,8 +50,8 @@ def load_choices(data_path, var_paths= {}):
 
                 # Else raise VariablePathError
                 else:
-                    raise GlossErrors.VariablePathError('{} was identified as a variable path'.format(var_path) +
-                                                           ' but no path was provided in gloss/constants.py.')
+                    raise GlossErrors.VariablePathError('{} was identified as a variable path '.format(var_path) +
+                                                        'but no path was provided in gloss/constants.py.')
 
             # Add the language to the datasets DS
             if cur_dataset not in datasets:

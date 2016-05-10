@@ -1,0 +1,45 @@
+Accuracy: 0.9230769230769231
+Total: 39; Correct: 36
+
+Incorrect pairs
+test, tgl, 1dual                                         Gold: 1du                  System: user-identified     
+test, tgl, 1plx                                          Gold: combined             System: user-identified     
+test, tgl, 1pln                                          Gold: 1pl                  System: 1sg                 
+
+Correct pairs
+test, tgl, prog                                          Gold: prog                 System: prog                
+test, tgl, erg                                           Gold: erg                  System: erg                 
+test, tgl, ov                                            Gold: user-identified      System: user-identified     
+test, tgl, 3pl                                           Gold: 3pl                  System: 3pl                 
+test, tgl, woman                                         Gold: lexical entry        System: lexical entry       
+test, tgl, this                                          Gold: incomplete           System: incomplete          
+test, tgl, av                                            Gold: user-identified      System: user-identified     
+test, tgl, book                                          Gold: lexical entry        System: lexical entry       
+test, tgl, 2pl                                           Gold: 2pl                  System: 2pl                 
+test, tgl, abs                                           Gold: abs                  System: abs                 
+test, tgl, af                                            Gold: user-identified      System: user-identified     
+test, tgl, prs                                           Gold: prs                  System: prs                 
+test, tgl, pl                                            Gold: pl                   System: pl                  
+test, tgl, 1sg                                           Gold: 1sg                  System: 1sg                 
+test, tgl, inv                                           Gold: inv                  System: inv                 
+test, tgl, pfv                                           Gold: pfv                  System: pfv                 
+test, tgl, yon                                           Gold: lexical entry        System: lexical entry       
+test, tgl, maria                                         Gold: lexical entry        System: lexical entry       
+test, tgl, that                                          Gold: incomplete           System: incomplete          
+test, tgl, obl                                           Gold: obl                  System: obl                 
+test, tgl, 2sg                                           Gold: 2sg                  System: 2sg                 
+test, tgl, eat                                           Gold: lexical entry        System: lexical entry       
+test, tgl, neg                                           Gold: neg                  System: neg                 
+test, tgl, fut                                           Gold: fut                  System: fut                 
+test, tgl, juan                                          Gold: lexical entry        System: lexical entry       
+test, tgl, nprs                                          Gold: nprs                 System: nprs                
+test, tgl, sg                                            Gold: sg                   System: sg                  
+test, tgl, refuse                                        Gold: lexical entry        System: lexical entry       
+test, tgl, 3sg                                           Gold: 3sg                  System: 3sg                 
+test, tgl, inf                                           Gold: inf                  System: inf                 
+test, tgl, all                                           Gold: lexical entry        System: lexical entry       
+test, tgl, mango                                         Gold: lexical entry        System: lexical entry       
+test, tgl, man                                           Gold: lexical entry        System: lexical entry       
+test, tgl, see                                           Gold: lexical entry        System: lexical entry       
+test, tgl, lk                                            Gold: user-identified      System: user-identified     
+test, tgl, give                                          Gold: lexical entry        System: lexical entry       

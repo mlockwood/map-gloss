@@ -1,0 +1,39 @@
+0x1,test,tgl,1dual,user-identified
+0x1,test,tgl,1pln,1sg
+0x1,test,tgl,1plx,user-identified
+0x1,test,tgl,1sg,1sg
+0x1,test,tgl,2pl,2pl
+0x1,test,tgl,2sg,2sg
+0x1,test,tgl,3pl,3pl
+0x1,test,tgl,3sg,3sg
+0x1,test,tgl,abs,abs
+0x1,test,tgl,af,user-identified
+0x1,test,tgl,all,lexical entry
+0x1,test,tgl,av,user-identified
+0x1,test,tgl,book,lexical entry
+0x1,test,tgl,eat,lexical entry
+0x1,test,tgl,erg,erg
+0x1,test,tgl,fut,fut
+0x1,test,tgl,give,lexical entry
+0x1,test,tgl,inf,inf
+0x1,test,tgl,inv,inv
+0x1,test,tgl,juan,lexical entry
+0x1,test,tgl,lk,user-identified
+0x1,test,tgl,man,lexical entry
+0x1,test,tgl,mango,lexical entry
+0x1,test,tgl,maria,lexical entry
+0x1,test,tgl,neg,neg
+0x1,test,tgl,nprs,nprs
+0x1,test,tgl,obl,obl
+0x1,test,tgl,ov,user-identified
+0x1,test,tgl,pfv,pfv
+0x1,test,tgl,pl,pl
+0x1,test,tgl,prog,prog
+0x1,test,tgl,prs,prs
+0x1,test,tgl,refuse,lexical entry
+0x1,test,tgl,see,lexical entry
+0x1,test,tgl,sg,sg
+0x1,test,tgl,that,incomplete
+0x1,test,tgl,this,incomplete
+0x1,test,tgl,woman,lexical entry
+0x1,test,tgl,yon,lexical entry

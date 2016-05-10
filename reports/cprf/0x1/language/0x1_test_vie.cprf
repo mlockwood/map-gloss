@@ -1,0 +1,202 @@
+Absolute Change
+Precision: 0.6861365235749473
+Recall: 0.10344827586206895
+F-Score: 0.5530817268531089
+
+Relative Change
+Precision: 3.8017241379310343
+Recall: 1.125
+F-Score: 2.4633620689655173
+
+False Positives Added
+	('test', 'vie', 'user-identified')
+	('test', 'vie', 'ptcp')
+
+False Negatives to True Positives
+	('test', 'vie', 'indf')
+	('test', 'vie', 'lexical entry')
+	('test', 'vie', 'incomplete')
+
+False Positives Removed
+	('test', 'vie', 'need')
+	('test', 'vie', 'nearpst')
+	('test', 'vie', 'already')
+	('test', 'vie', 'glass')
+	('test', 'vie', 'wash')
+	('test', 'vie', 'medial')
+	('test', 'vie', 'quickly')
+	('test', 'vie', 'book')
+	('test', 'vie', 'know')
+	('test', 'vie', 'able')
+	('test', 'vie', 'house')
+	('test', 'vie', 'typhoon')
+	('test', 'vie', 'indef')
+	('test', 'vie', 'affirmation')
+	('test', 'vie', 'chase')
+	('test', 'vie', 'very')
+	('test', 'vie', 'pair')
+	('test', 'vie', 'read')
+	('test', 'vie', 'hanoi')
+	('test', 'vie', 'i')
+	('test', 'vie', 'compact')
+	('test', 'vie', 'bread')
+	('test', 'vie', 'should')
+	('test', 'vie', 'fruit')
+	('test', 'vie', 'face')
+	('test', 'vie', 'in')
+	('test', 'vie', 'other')
+	('test', 'vie', 'sleep')
+	('test', 'vie', 'really')
+	('test', 'vie', 'interaction')
+	('test', 'vie', 'tall')
+	('test', 'vie', 'cat')
+	('test', 'vie', 'art')
+	('test', 'vie', 'hungry')
+	('test', 'vie', 'sheet')
+	('test', 'vie', 'mai')
+	('test', 'vie', 'all')
+	('test', 'vie', 'park')
+	('test', 'vie', 'tag')
+	('test', 'vie', 'onion')
+	('test', 'vie', 'animal')
+	('test', 'vie', 'live')
+	('test', 'vie', 'car')
+	('test', 'vie', 'dog')
+	('test', 'vie', 'two')
+	('test', 'vie', 'want')
+	('test', 'vie', 'life')
+	('test', 'vie', 'violent')
+	('test', 'vie', 'black')
+	('test', 'vie', 'noodles')
+	('test', 'vie', 'rect')
+	('test', 'vie', 'curtain')
+	('test', 'vie', 'bulb')
+	('test', 'vie', 'cloud')
+	('test', 'vie', 'like')
+	('test', 'vie', 'noodle')
+	('test', 'vie', 'ask')
+	('test', 'vie', 'hurt')
+	('test', 'vie', 'think')
+	('test', 'vie', 'eat')
+	('test', 'vie', 'banana')
+	('test', 'vie', 'and')
+	('test', 'vie', 'paper')
+	('test', 'vie', 'mirror')
+	('test', 'vie', 'clf')
+	('test', 'vie', 'chopsticks')
+	('test', 'vie', 'set')
+	('test', 'vie', 'nearfut')
+	('test', 'vie', 'yesterday')
+	('test', 'vie', 'flat')
+	('test', 'vie', 'card')
+	('test', 'vie', 'girl')
+	('test', 'vie', 'be')
+	('test', 'vie', 'this')
+
+
+
+--- 0x1_test_vie_FINAL ---
+
+Precision: 0.9310344827586207
+Recall: 0.9310344827586207
+F-Score: 0.9310344827586207
+
+False Negatives
+	('test', 'vie', 'part-of-speech')
+	('test', 'vie', 'nearpast')
+
+False Positives
+	('test', 'vie', 'user-identified')
+	('test', 'vie', 'ptcp')
+
+
+
+--- 0x1_test_vie_BASELINE ---
+
+Precision: 0.24489795918367346
+Recall: 0.8275862068965517
+F-Score: 0.3779527559055118
+
+False Negatives
+	('test', 'vie', 'incomplete')
+	('test', 'vie', 'indf')
+	('test', 'vie', 'lexical entry')
+	('test', 'vie', 'part-of-speech')
+	('test', 'vie', 'nearpast')
+
+False Positives
+	('test', 'vie', 'need')
+	('test', 'vie', 'sleep')
+	('test', 'vie', 'nearpst')
+	('test', 'vie', 'already')
+	('test', 'vie', 'glass')
+	('test', 'vie', 'black')
+	('test', 'vie', 'medial')
+	('test', 'vie', 'quickly')
+	('test', 'vie', 'book')
+	('test', 'vie', 'other')
+	('test', 'vie', 'dog')
+	('test', 'vie', 'able')
+	('test', 'vie', 'house')
+	('test', 'vie', 'indef')
+	('test', 'vie', 'affirmation')
+	('test', 'vie', 'onion')
+	('test', 'vie', 'very')
+	('test', 'vie', 'read')
+	('test', 'vie', 'hanoi')
+	('test', 'vie', 'i')
+	('test', 'vie', 'compact')
+	('test', 'vie', 'curtain')
+	('test', 'vie', 'should')
+	('test', 'vie', 'paper')
+	('test', 'vie', 'face')
+	('test', 'vie', 'in')
+	('test', 'vie', 'bread')
+	('test', 'vie', 'be')
+	('test', 'vie', 'interaction')
+	('test', 'vie', 'tall')
+	('test', 'vie', 'cat')
+	('test', 'vie', 'art')
+	('test', 'vie', 'hungry')
+	('test', 'vie', 'sheet')
+	('test', 'vie', 'mai')
+	('test', 'vie', 'all')
+	('test', 'vie', 'fruit')
+	('test', 'vie', 'tag')
+	('test', 'vie', 'chase')
+	('test', 'vie', 'park')
+	('test', 'vie', 'animal')
+	('test', 'vie', 'live')
+	('test', 'vie', 'car')
+	('test', 'vie', 'rect')
+	('test', 'vie', 'two')
+	('test', 'vie', 'want')
+	('test', 'vie', 'life')
+	('test', 'vie', 'violent')
+	('test', 'vie', 'pair')
+	('test', 'vie', 'noodles')
+	('test', 'vie', 'chopsticks')
+	('test', 'vie', 'wash')
+	('test', 'vie', 'bulb')
+	('test', 'vie', 'cloud')
+	('test', 'vie', 'know')
+	('test', 'vie', 'like')
+	('test', 'vie', 'noodle')
+	('test', 'vie', 'ask')
+	('test', 'vie', 'hurt')
+	('test', 'vie', 'think')
+	('test', 'vie', 'eat')
+	('test', 'vie', 'banana')
+	('test', 'vie', 'and')
+	('test', 'vie', 'typhoon')
+	('test', 'vie', 'mirror')
+	('test', 'vie', 'clf')
+	('test', 'vie', 'really')
+	('test', 'vie', 'set')
+	('test', 'vie', 'nearfut')
+	('test', 'vie', 'yesterday')
+	('test', 'vie', 'flat')
+	('test', 'vie', 'card')
+	('test', 'vie', 'girl')
+	('test', 'vie', 'this')
+

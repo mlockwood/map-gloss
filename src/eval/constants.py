@@ -8,9 +8,9 @@ LABEL_TEXT = [(0, 'standard'), (1, 'misspelled'), (2, 'confused with another glo
               (5, 'author-defined and specific to the language\'s IGT'), (6, 'an unrecoverable gloss'),
               (8, 'a part-of-speech tag or other non-gram value'), (9, 'a lexical entry')]
 
-INFER_BASELINE = {('tense', 'past'): True,
-                  ('tense', 'future'): True,
-                  ('tense', 'present'): True,
-                  ('aspect', 'perfective'): True,
-                  ('aspect', 'imperfective'): True
+INFER_BASELINE = {('tenses', 'past'): True,
+                  ('tenses', 'future'): True,
+                  ('tenses', 'present'): True,
+                  ('aspects', 'perfective'): True,
+                  ('aspects', 'imperfective'): True
                   }

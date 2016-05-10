@@ -1,0 +1,294 @@
+Accuracy: 0.9597687588485134
+
+1
+	1                   	      70
+
+1du
+	user-identified     	       3
+
+1pl
+	1pl                 	      26
+	1sg                 	       3
+
+1sg
+	1sg                 	     308
+
+2
+	2                   	      37
+
+2pl
+	2pl                 	      33
+	lexical entry       	       1
+
+2sg
+	2sg                 	      90
+	lexical entry       	       1
+
+3
+	3                   	     212
+
+3pl
+	3pl                 	      89
+
+3sg
+	3sg                 	      82
+
+a
+	lexical entry       	      10
+
+abs
+	abs                 	      36
+
+acc
+	acc                 	     194
+
+anim
+	anim                	      52
+
+animate
+	animate             	       3
+
+aux
+	aux                 	      88
+
+combined
+	lexical entry       	      12
+	combined            	       8
+	user-identified     	       4
+	1sg                 	       1
+
+comp
+	comp                	      29
+	user-identified     	       2
+
+conj
+	conj                	       3
+
+cont
+	cont                	      29
+
+cop
+	cop                 	       6
+
+copula
+	copula              	       3
+
+dat
+	dat                 	      81
+
+decl
+	decl                	      76
+
+def
+	def                 	     122
+
+dem
+	dem                 	      48
+
+dist
+	dist                	       9
+
+distal
+	distal              	       1
+
+dur
+	dur                 	       2
+
+emph
+	emph                	       3
+
+erg
+	erg                 	     107
+
+excl
+	lexical entry       	       9
+	excl                	       1
+
+f
+	f                   	     358
+
+foc
+	foc                 	      11
+
+focus
+	focus               	       1
+
+fp
+	fp                  	       7
+
+fut
+	fut                 	      69
+
+gen
+	gen                 	      16
+
+imp
+	ipfv                	       1
+
+inanimate
+	inanimate           	       3
+
+incl
+	lexical entry       	       6
+	incl                	       3
+
+incomplete
+	incomplete          	     268
+	combined            	       3
+	part-of-speech      	       1
+
+ind
+	ind                 	      56
+
+indf
+	indf                	       2
+
+inf
+	inf                 	      24
+
+ins
+	ins                 	       2
+
+inv
+	inv                 	       1
+
+ipfv
+	lexical entry       	       5
+	prf                 	       5
+	ipfv                	       1
+
+lexical entry
+	lexical entry       	    2953
+	user-identified     	      23
+	poss                	       5
+	incomplete          	       2
+	ptcp                	       1
+
+loc
+	loc                 	       1
+
+m
+	m                   	     358
+	user-identified     	       1
+
+n
+	n                   	      25
+
+nearpast
+	lexical entry       	       1
+
+neg
+	neg                 	      77
+	1sg                 	      14
+	lexical entry       	       5
+
+nmlz
+	lexical entry       	       2
+
+nom
+	nom                 	     448
+
+nonpast
+	nonpast             	       5
+
+nprs
+	prs                 	      41
+	nprs                	      38
+
+npst
+	npst                	       2
+	lexical entry       	       1
+
+obj
+	obj                 	      72
+
+obl
+	obl                 	      28
+
+p
+	p                   	       1
+
+part-of-speech
+	part-of-speech      	      64
+	user-identified     	      31
+	lexical entry       	       2
+
+participle
+	lexical entry       	       2
+
+passive
+	passive             	       1
+
+past
+	past                	      38
+
+pfv
+	pfv                 	      32
+
+pl
+	pl                  	     176
+	user-identified     	      15
+
+pluperfect
+	prf                 	       1
+
+pluralperson
+	lexical entry       	       2
+
+poss
+	poss                	       6
+
+prf
+	prf                 	       1
+
+prog
+	prog                	       5
+
+prox
+	prox                	      21
+
+prs
+	prs                 	     276
+	user-identified     	      51
+
+pst
+	pst                 	      25
+
+ptcp
+
+q
+	q                   	      31
+	lexical entry       	       3
+
+question
+	question            	       2
+
+rec
+	rec                 	       6
+
+refl
+	refl                	       2
+	user-identified     	       1
+
+remote
+	remote              	       2
+
+sbj
+	sbj                 	      76
+
+sg
+	sg                  	     425
+
+single
+	single              	       4
+
+top
+	top                 	      29
+
+unrecovered
+	lexical entry       	       1
+
+user-identified
+	user-identified     	     235
+	lexical entry       	      69
+

@@ -1,0 +1,49 @@
+Accuracy: 0.9591836734693877
+
+1pl
+	1pl                 	       1
+
+1sg
+	1sg                 	       1
+
+2pl
+	2pl                 	       1
+
+2sg
+	2sg                 	       1
+
+cop
+	cop                 	       1
+
+dur
+	dur                 	       1
+
+incomplete
+	incomplete          	       2
+
+lexical entry
+	lexical entry       	      32
+	incomplete          	       1
+
+neg
+	neg                 	       1
+
+nom
+	nom                 	       1
+
+obj
+	obj                 	       1
+
+part-of-speech
+	part-of-speech      	       1
+	lexical entry       	       1
+
+pl
+	pl                  	       1
+
+q
+	q                   	       1
+
+sg
+	sg                  	       1
+

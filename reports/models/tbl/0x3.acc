@@ -1,0 +1,111 @@
+Accuracy: 0.9568345323741008
+
+1
+	1                   	       4
+
+1pl
+	1pl                 	       6
+
+1sg
+	1sg                 	      15
+
+2
+	2                   	       1
+
+2pl
+	2pl                 	      17
+
+2sg
+	2sg                 	       8
+
+3
+	3                   	      15
+
+3pl
+	3pl                 	      29
+
+3sg
+	3sg                 	     246
+
+acc
+	acc                 	      89
+
+animate
+	animate             	      14
+
+combined
+	3sg                 	       2
+
+dat
+	dat                 	       1
+
+f
+	f                   	     106
+	user-identified     	       1
+
+fp
+	fp                  	       5
+
+fut
+	fut                 	      10
+
+gen
+	gen                 	       1
+
+imp
+
+inanimate
+	inanimate           	       6
+
+incomplete
+	incomplete          	      62
+
+inf
+	inf                 	       5
+
+ins
+	lexical entry       	      32
+
+ipfv
+	imp                 	      25
+
+lexical entry
+	lexical entry       	     488
+
+m
+	m                   	      45
+
+n
+	n                   	       5
+
+nom
+	nom                 	     156
+
+part-of-speech
+	lexical entry       	       6
+	incomplete          	       3
+	part-of-speech      	       2
+
+pl
+	pl                  	       5
+
+prf
+	prf                 	       9
+
+prs
+	prs                 	     105
+
+pst
+	pst                 	      60
+
+q
+	q                   	       1
+
+sg
+	sg                  	      80
+
+unrecovered
+	lexical entry       	       3
+
+user-identified
+

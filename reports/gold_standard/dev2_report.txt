@@ -1,0 +1,91 @@
+Gold Standard Statistics for: dev2
+
+Aggregate Statistics:
+    Standard:         181 & 0.1907
+    Misspelled:        37 & 0.0390
+    Confused:           1 & 0.0011
+    Incomplete:        83 & 0.0875
+    Combined:          10 & 0.0105
+    User-Identified:   36 & 0.0379
+    Unrecovered:        2 & 0.0021
+    Part-Of-Speech:     8 & 0.0084
+    Lexical Entry:    591 & 0.6228
+
+bre Statistics:
+    Standard:          22 & 0.3143
+    Misspelled:         2 & 0.0286
+    Incomplete:        13 & 0.1857
+    Combined:           2 & 0.0286
+    User-Identified:    2 & 0.0286
+    Part-Of-Speech:     1 & 0.0143
+    Lexical Entry:     28 & 0.4000
+
+cym Statistics:
+    Standard:          15 & 0.1172
+    Misspelled:         6 & 0.0469
+    Incomplete:        17 & 0.1328
+    User-Identified:    1 & 0.0078
+    Part-Of-Speech:     1 & 0.0078
+    Lexical Entry:     88 & 0.6875
+
+fra Statistics:
+    Standard:          21 & 0.2211
+    Misspelled:         4 & 0.0421
+    Incomplete:        13 & 0.1368
+    Combined:           2 & 0.0211
+    Part-Of-Speech:     1 & 0.0105
+    Lexical Entry:     54 & 0.5684
+
+lut Statistics:
+    Standard:          16 & 0.2807
+    Misspelled:         5 & 0.0877
+    Incomplete:         9 & 0.1579
+    Lexical Entry:     27 & 0.4737
+
+mal Statistics:
+    Standard:           6 & 0.1579
+    Misspelled:         4 & 0.1053
+    Incomplete:         3 & 0.0789
+    Lexical Entry:     25 & 0.6579
+
+ojg Statistics:
+    Standard:          18 & 0.1452
+    Misspelled:         6 & 0.0484
+    Incomplete:         9 & 0.0726
+    User-Identified:    4 & 0.0323
+    Unrecovered:        1 & 0.0081
+    Lexical Entry:     86 & 0.6935
+
+qub Statistics:
+    Standard:          26 & 0.2047
+    Misspelled:         1 & 0.0079
+    Confused:           1 & 0.0079
+    Incomplete:         6 & 0.0472
+    User-Identified:    7 & 0.0551
+    Unrecovered:        1 & 0.0079
+    Part-Of-Speech:     1 & 0.0079
+    Lexical Entry:     84 & 0.6614
+
+sci Statistics:
+    Standard:          22 & 0.1317
+    Misspelled:         7 & 0.0419
+    Incomplete:         2 & 0.0120
+    User-Identified:    1 & 0.0060
+    Part-Of-Speech:     1 & 0.0060
+    Lexical Entry:    134 & 0.8024
+
+tam Statistics:
+    Standard:          24 & 0.3038
+    Misspelled:         2 & 0.0253
+    Incomplete:        10 & 0.1266
+    Combined:           6 & 0.0759
+    User-Identified:    3 & 0.0380
+    Part-Of-Speech:     3 & 0.0380
+    Lexical Entry:     31 & 0.3924
+
+zul Statistics:
+    Standard:          11 & 0.1719
+    Incomplete:         1 & 0.0156
+    User-Identified:   18 & 0.2812
+    Lexical Entry:     34 & 0.5312
+

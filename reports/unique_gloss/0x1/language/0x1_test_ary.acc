@@ -1,0 +1,87 @@
+Accuracy: 0.9305555555555556
+
+1
+	1                   	       1
+
+3pl
+	3pl                 	       1
+
+a
+	lexical entry       	       1
+
+acc
+	acc                 	       1
+
+combined
+	lexical entry       	       4
+	combined            	       3
+
+conj
+	conj                	       1
+
+def
+	def                 	       1
+
+f
+	f                   	       2
+
+fut
+	fut                 	       1
+
+gen
+	gen                 	       1
+
+incomplete
+	incomplete          	      14
+	part-of-speech      	       1
+	combined            	       1
+
+ind
+	ind                 	       1
+
+indf
+	indf                	       1
+
+lexical entry
+	lexical entry       	     165
+	poss                	       1
+
+m
+	m                   	       1
+	user-identified     	       1
+
+neg
+	lexical entry       	       1
+	1sg                 	       1
+
+nom
+	nom                 	       1
+
+participle
+	lexical entry       	       1
+
+pl
+	pl                  	       1
+
+pluralperson
+	lexical entry       	       1
+
+poss
+	poss                	       1
+
+prs
+	prs                 	       1
+
+q
+	lexical entry       	       1
+	q                   	       1
+
+question
+	question            	       1
+
+single
+	single              	       1
+
+unrecovered
+	lexical entry       	       1
+

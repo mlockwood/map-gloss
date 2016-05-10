@@ -1,0 +1,118 @@
+Absolute Change
+Precision: 0.7755102040816326
+Recall: 0.2666666666666667
+F-Score: 0.65625
+
+Relative Change
+Precision: 4.454545454545454
+Recall: 1.3636363636363638
+F-Score: 2.909090909090909
+
+False Negatives to True Positives
+	('test', 'ain', 'part-of-speech')
+	('test', 'ain', 'lexical entry')
+	('test', 'ain', 'q')
+	('test', 'ain', 'incomplete')
+
+False Positives Removed
+	('test', 'ain', 'ques')
+	('test', 'ain', 'dog')
+	('test', 'ain', 'chase')
+	('test', 'ain', 'near')
+	('test', 'ain', 'eat')
+	('test', 'ain', 'laugh')
+	('test', 'ain', 'see')
+	('test', 'ain', 'grass')
+	('test', 'ain', 'hit')
+	('test', 'ain', 'if')
+	('test', 'ain', 'hurt')
+	('test', 'ain', 'money')
+	('test', 'ain', 'to')
+	('test', 'ain', 'can')
+	('test', 'ain', 'cat')
+	('test', 'ain', 'this')
+	('test', 'ain', 'girl')
+	('test', 'ain', 'boy')
+	('test', 'ain', 'beautiful')
+	('test', 'ain', 'cannot')
+	('test', 'ain', 'think')
+	('test', 'ain', 'colloc')
+	('test', 'ain', 'pron')
+	('test', 'ain', 'house')
+	('test', 'ain', 'early')
+	('test', 'ain', 'enter')
+	('test', 'ain', 'unknown')
+	('test', 'ain', 'in')
+	('test', 'ain', 'child')
+	('test', 'ain', 'give')
+	('test', 'ain', 'be')
+	('test', 'ain', 'asp')
+	('test', 'ain', 'that')
+	('test', 'ain', 'village')
+	('test', 'ain', 'and')
+	('test', 'ain', 'ask')
+	('test', 'ain', 'come')
+	('test', 'ain', 'many')
+
+
+
+--- 0x1_test_ain_FINAL ---
+
+Precision: 1.0
+Recall: 1.0
+F-Score: 1.0
+
+
+
+--- 0x1_test_ain_BASELINE ---
+
+Precision: 0.22448979591836735
+Recall: 0.7333333333333333
+F-Score: 0.34375
+
+False Negatives
+	('test', 'ain', 'lexical entry')
+	('test', 'ain', 'part-of-speech')
+	('test', 'ain', 'q')
+	('test', 'ain', 'incomplete')
+
+False Positives
+	('test', 'ain', 'ques')
+	('test', 'ain', 'dog')
+	('test', 'ain', 'chase')
+	('test', 'ain', 'near')
+	('test', 'ain', 'eat')
+	('test', 'ain', 'in')
+	('test', 'ain', 'see')
+	('test', 'ain', 'house')
+	('test', 'ain', 'hit')
+	('test', 'ain', 'if')
+	('test', 'ain', 'money')
+	('test', 'ain', 'to')
+	('test', 'ain', 'can')
+	('test', 'ain', 'cat')
+	('test', 'ain', 'laugh')
+	('test', 'ain', 'this')
+	('test', 'ain', 'grass')
+	('test', 'ain', 'boy')
+	('test', 'ain', 'beautiful')
+	('test', 'ain', 'cannot')
+	('test', 'ain', 'give')
+	('test', 'ain', 'think')
+	('test', 'ain', 'colloc')
+	('test', 'ain', 'pron')
+	('test', 'ain', 'unknown')
+	('test', 'ain', 'early')
+	('test', 'ain', 'enter')
+	('test', 'ain', 'be')
+	('test', 'ain', 'come')
+	('test', 'ain', 'many')
+	('test', 'ain', 'village')
+	('test', 'ain', 'girl')
+	('test', 'ain', 'asp')
+	('test', 'ain', 'that')
+	('test', 'ain', 'hurt')
+	('test', 'ain', 'and')
+	('test', 'ain', 'child')
+	('test', 'ain', 'ask')
+

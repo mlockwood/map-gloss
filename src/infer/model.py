@@ -64,13 +64,16 @@ def make_choices():
 
 def eval_choices():
     # For each language with a reference
-    for language in Language.objects:
+    for obj in Language.objects:
+        language = Language.objects[obj]
+
         # Establish containers for each model
         containers = [(language.model, 'model'),
                       ('{}_{}'.format(language.model, language.dataset), 'dataset'),
                       ('{}_{}_{}'.format(language.model, language.dataset, language.iso), 'language')]
 
-        # CONVERT TO OBJECTS
+        # Convert containers to objects
+        containers = [Container.get((language.model, container[0], container[1])) for container in containers]
 
         # Load choices files for each loadable file
         # Resolve path first
@@ -81,10 +84,18 @@ def eval_choices():
         # Add base of file name to path
         path += '/{}_{}_{}'.format(language.model, language.dataset, language.iso)
 
-        Choices(CHOICES[language.dataset][language.iso], language.model, containers, ftype='gold')
-        Choices('{}_baseline5.choices'.format(path), language.model, containers, ftype='baseline5')
-        Choices('{}.choices'.format(path), language.model, containers, ftype='final')
+        Choices(CHOICES[language.dataset][language.iso], language.model, language.dataset, language.iso, containers,
+                ftype='gold')
+        Choices.load_baseline4(language.dataset, language.iso, containers)
+        Choices('{}_baseline5.choices'.format(path), language.model, language.dataset, language.iso, containers,
+                ftype='baseline5')
+        Choices('{}.choices'.format(path), language.model, language.dataset, language.iso, containers, ftype='final')
 
+    # Write CPRF for the inference evaluation
+    for obj in Container.objects:
+        container = Container.objects[obj]
+        container.set_confusion_matrices()
 
 
 make_choices()
+eval_choices()

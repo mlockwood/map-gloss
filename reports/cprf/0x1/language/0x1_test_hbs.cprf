@@ -1,0 +1,136 @@
+Absolute Change
+Precision: 0.6486486486486487
+Recall: 0.10344827586206895
+F-Score: 0.49514563106796106
+
+Relative Change
+Precision: 2.846153846153846
+Recall: 1.1153846153846154
+F-Score: 1.9807692307692304
+
+False Negatives to True Positives
+	('test', 'hbs', 'user-identified')
+	('test', 'hbs', 'incomplete')
+	('test', 'hbs', 'lexical entry')
+
+False Positives Removed
+	('test', 'hbs', 'green')
+	('test', 'hbs', 'work')
+	('test', 'hbs', 'write')
+	('test', 'hbs', 'vine')
+	('test', 'hbs', 'can')
+	('test', 'hbs', 'olg')
+	('test', 'hbs', 'ivan')
+	('test', 'hbs', 'drink')
+	('test', 'hbs', 'see')
+	('test', 'hbs', 'and')
+	('test', 'hbs', 'li')
+	('test', 'hbs', 'slavko')
+	('test', 'hbs', 'new')
+	('test', 'hbs', 'this')
+	('test', 'hbs', 'study')
+	('test', 'hbs', 'unknown')
+	('test', 'hbs', 'fast')
+	('test', 'hbs', 'tea')
+	('test', 'hbs', 'da')
+	('test', 'hbs', 'think')
+	('test', 'hbs', 'eat')
+	('test', 'hbs', 'fear')
+	('test', 'hbs', 'speak')
+	('test', 'hbs', 'ask')
+	('test', 'hbs', 'woman')
+	('test', 'hbs', 'concert')
+	('test', 'hbs', 'city')
+	('test', 'hbs', 'marija')
+	('test', 'hbs', 'husband')
+	('test', 'hbs', 'red')
+	('test', 'hbs', 'house')
+	('test', 'hbs', 'well')
+	('test', 'hbs', 'wife')
+	('test', 'hbs', 'zoran')
+	('test', 'hbs', 'know')
+	('test', 'hbs', 'help')
+	('test', 'hbs', 'olga')
+	('test', 'hbs', 'book')
+	('test', 'hbs', 'l')
+	('test', 'hbs', 'be')
+	('test', 'hbs', 'at')
+	('test', 'hbs', 'that')
+	('test', 'hbs', 'sleep')
+	('test', 'hbs', 'from')
+	('test', 'hbs', 'slavo')
+	('test', 'hbs', 'glass')
+	('test', 'hbs', 'clearly')
+	('test', 'hbs', 'slavk')
+
+
+
+--- 0x1_test_hbs_FINAL ---
+
+Precision: 1.0
+Recall: 1.0
+F-Score: 1.0
+
+
+
+--- 0x1_test_hbs_BASELINE ---
+
+Precision: 0.35135135135135137
+Recall: 0.896551724137931
+F-Score: 0.5048543689320389
+
+False Negatives
+	('test', 'hbs', 'user-identified')
+	('test', 'hbs', 'incomplete')
+	('test', 'hbs', 'lexical entry')
+
+False Positives
+	('test', 'hbs', 'green')
+	('test', 'hbs', 'work')
+	('test', 'hbs', 'write')
+	('test', 'hbs', 'eat')
+	('test', 'hbs', 'can')
+	('test', 'hbs', 'olg')
+	('test', 'hbs', 'ivan')
+	('test', 'hbs', 'drink')
+	('test', 'hbs', 'see')
+	('test', 'hbs', 'and')
+	('test', 'hbs', 'li')
+	('test', 'hbs', 'slavko')
+	('test', 'hbs', 'new')
+	('test', 'hbs', 'at')
+	('test', 'hbs', 'study')
+	('test', 'hbs', 'book')
+	('test', 'hbs', 'fast')
+	('test', 'hbs', 'tea')
+	('test', 'hbs', 'da')
+	('test', 'hbs', 'think')
+	('test', 'hbs', 'vine')
+	('test', 'hbs', 'fear')
+	('test', 'hbs', 'speak')
+	('test', 'hbs', 'ask')
+	('test', 'hbs', 'woman')
+	('test', 'hbs', 'concert')
+	('test', 'hbs', 'city')
+	('test', 'hbs', 'marija')
+	('test', 'hbs', 'husband')
+	('test', 'hbs', 'red')
+	('test', 'hbs', 'house')
+	('test', 'hbs', 'well')
+	('test', 'hbs', 'wife')
+	('test', 'hbs', 'zoran')
+	('test', 'hbs', 'know')
+	('test', 'hbs', 'help')
+	('test', 'hbs', 'olga')
+	('test', 'hbs', 'unknown')
+	('test', 'hbs', 'l')
+	('test', 'hbs', 'be')
+	('test', 'hbs', 'this')
+	('test', 'hbs', 'that')
+	('test', 'hbs', 'sleep')
+	('test', 'hbs', 'from')
+	('test', 'hbs', 'slavo')
+	('test', 'hbs', 'slavk')
+	('test', 'hbs', 'clearly')
+	('test', 'hbs', 'glass')
+

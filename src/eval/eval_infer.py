@@ -36,32 +36,49 @@ class Choices(object):
 
     objects = {}
 
-    def __init__(self, file, model, containers, ctype='language', ftype='gold'):
+    def __init__(self, file, model, dataset, iso, containers, ftype='gold'):
         self.file = file
         self.choices_file = choices_reader.ChoicesFile(file)
         self.model = model
+        self.dataset = dataset
+        self.iso = iso
         self.containers = containers
-
-        if ctype in CTYPES:
-            self.ctype = ctype
-        else:
-            raise InferErrors.InvalidContainerTypeError(ctype)
 
         if ftype in FTYPES:
             self.ftype = ftype
         else:
-            raise InferErrors.InvalidFileTypeError(ctype)
+            raise InferErrors.InvalidFileTypeError(ftype)
 
-        Choices.objects[(container, ftype)] = self
+        self.load_choices()
+
+        Choices.objects[file] = self
 
     def load_choices(self):
-
+        choices = {}
         tam = ['tenses', 'aspects', 'moods']
         for category in tam:
             for choice in eval('self.choices_file.{}()'.format(category)):
                 if isinstance(choice, list):
                     choice = choice[0]
-                print(category, choice)
+                choices[tuple([s.lower() for s in [self.dataset, self.iso, category, choice]])] = True
+
+        for container in self.containers:
+            for choice in choices:
+                exec('container.{}[choice]=True'.format(self.ftype))
+
+        return True
+
+    @staticmethod
+    def load_baseline4(dataset, language, containers):
+        choices = {}
+        for (category, choice) in INFER_BASELINE:
+            choices[(dataset, language, category, choice)] = True
+
+        for container in containers:
+            for choice in choices:
+                container.baseline4[choice] = True
+
+        return True
 
 
 class Container(object):
@@ -87,8 +104,8 @@ class Container(object):
             raise InferErrors.InvalidContainerTypeError(ctype)
 
         # Attribute data structures
-        self.gold_choices = {}
-        self.baseline4 = INFER_BASELINE
+        self.gold = {}
+        self.baseline4 = {}
         self.baseline5 = {}
         self.final = {}
 
@@ -101,11 +118,17 @@ class Container(object):
 
         Container.objects[container] = self
 
+    @staticmethod
+    def get(args):
+        if args[1] not in Container.objects:
+            Container(*args)
+        return Container.objects[args[1]]
+
     def set_confusion_matrices(self):
         # Create initial confusion matrices for the baseline and the final sets
-        self.baseline4_cm = confusion_matrix.CM(self.gold_choices, self.baseline4, self.container + '_BASELINE4')
-        self.baseline5_cm = confusion_matrix.CM(self.gold_choices, self.baseline5, self.container + '_BASELINE5')
-        self.final_cm = confusion_matrix.CM(self.gold_choices, self.final, self.container + '_FINAL')
+        self.baseline4_cm = confusion_matrix.CM(self.gold, self.baseline4, self.container + '_BASELINE4')
+        self.baseline5_cm = confusion_matrix.CM(self.gold, self.baseline5, self.container + '_BASELINE5')
+        self.final_cm = confusion_matrix.CM(self.gold, self.final, self.container + '_FINAL')
 
         # Create a comparative confusion matrix of each baseline against the final
         self.compare4 = confusion_matrix.Compare(self.final_cm, self.baseline4_cm)
@@ -120,6 +143,6 @@ class Container(object):
         if not os.path.isdir(path):
             os.makedirs(path)
         self.compare4.write_cprf_file('{}/{}_comparison4'.format(path, self.container))
-        self.compare5.write_cprf_file('{}/{}_comparison4'.format(path, self.container))
+        self.compare5.write_cprf_file('{}/{}_comparison5'.format(path, self.container))
 
         return True

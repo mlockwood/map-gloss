@@ -1,0 +1,108 @@
+Accuracy: 0.9282511210762332
+
+1sg
+	1sg                 	       2
+
+2pl
+	lexical entry       	       1
+	2pl                 	       1
+
+2sg
+	2sg                 	       1
+
+3pl
+	3pl                 	       2
+
+3sg
+	3sg                 	       1
+
+a
+	lexical entry       	       1
+
+combined
+	lexical entry       	       1
+	1sg                 	       1
+	user-identified     	       1
+
+comp
+	user-identified     	       1
+
+dat
+	dat                 	       1
+
+dem
+	dem                 	       1
+
+emph
+	emph                	       1
+
+erg
+	erg                 	       1
+
+foc
+	foc                 	       1
+
+fut
+	fut                 	       1
+
+gen
+	gen                 	       1
+
+incomplete
+	incomplete          	       5
+
+inf
+	inf                 	       1
+
+ins
+	ins                 	       1
+
+ipfv
+	lexical entry       	       2
+
+lexical entry
+	lexical entry       	     166
+	user-identified     	       3
+	poss                	       1
+
+m
+	m                   	       1
+
+neg
+	neg                 	       1
+
+nom
+	nom                 	       1
+
+obl
+	obl                 	       1
+
+part-of-speech
+	part-of-speech      	       3
+
+pl
+	pl                  	       1
+	user-identified     	       1
+
+prog
+	prog                	       1
+
+prs
+	prs                 	       1
+
+pst
+	pst                 	       1
+
+q
+	q                   	       1
+
+refl
+	user-identified     	       1
+
+sbj
+	sbj                 	       1
+
+user-identified
+	user-identified     	       7
+	lexical entry       	       2
+

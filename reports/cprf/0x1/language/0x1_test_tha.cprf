@@ -1,0 +1,96 @@
+Absolute Change
+Precision: 1.0
+Recall: 1.0
+F-Score: 1.0
+
+Relative Change
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+False Negatives to True Positives
+	('test', 'tha', 'lexical entry')
+	('test', 'tha', 'incomplete')
+
+False Positives Removed
+	('test', 'tha', 'at')
+	('test', 'tha', 'cat')
+	('test', 'tha', 'die')
+	('test', 'tha', 'go')
+	('test', 'tha', 'allow')
+	('test', 'tha', 'cross')
+	('test', 'tha', 'must')
+	('test', 'tha', 'eat')
+	('test', 'tha', 'return')
+	('test', 'tha', 'hurry')
+	('test', 'tha', 'anything')
+	('test', 'tha', 'rice')
+	('test', 'tha', 'buy')
+	('test', 'tha', 'run')
+	('test', 'tha', 'i')
+	('test', 'tha', 'can')
+	('test', 'tha', 'child')
+	('test', 'tha', 'come')
+	('test', 'tha', 'market')
+	('test', 'tha', 'glass')
+	('test', 'tha', 'give')
+	('test', 'tha', 'speak')
+	('test', 'tha', 'call')
+	('test', 'tha', 'man')
+	('test', 'tha', 'not')
+	('test', 'tha', 'book')
+	('test', 'tha', 'he')
+	('test', 'tha', 'able')
+	('test', 'tha', 'all')
+
+
+
+--- 0x1_test_tha_FINAL ---
+
+Precision: 1.0
+Recall: 1.0
+F-Score: 1.0
+
+
+
+--- 0x1_test_tha_BASELINE ---
+
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+False Negatives
+	('test', 'tha', 'lexical entry')
+	('test', 'tha', 'incomplete')
+
+False Positives
+	('test', 'tha', 'at')
+	('test', 'tha', 'cat')
+	('test', 'tha', 'die')
+	('test', 'tha', 'go')
+	('test', 'tha', 'allow')
+	('test', 'tha', 'hurry')
+	('test', 'tha', 'must')
+	('test', 'tha', 'eat')
+	('test', 'tha', 'return')
+	('test', 'tha', 'cross')
+	('test', 'tha', 'anything')
+	('test', 'tha', 'rice')
+	('test', 'tha', 'buy')
+	('test', 'tha', 'call')
+	('test', 'tha', 'i')
+	('test', 'tha', 'can')
+	('test', 'tha', 'child')
+	('test', 'tha', 'man')
+	('test', 'tha', 'market')
+	('test', 'tha', 'glass')
+	('test', 'tha', 'give')
+	('test', 'tha', 'speak')
+	('test', 'tha', 'run')
+	('test', 'tha', 'come')
+	('test', 'tha', 'not')
+	('test', 'tha', 'book')
+	('test', 'tha', 'he')
+	('test', 'tha', 'able')
+	('test', 'tha', 'all')
+

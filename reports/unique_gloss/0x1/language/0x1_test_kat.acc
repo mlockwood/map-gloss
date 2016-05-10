@@ -1,0 +1,75 @@
+Accuracy: 0.9487179487179487
+
+1
+	1                   	       1
+
+2
+	2                   	       1
+
+3
+	3                   	       1
+
+copula
+	copula              	       1
+
+dat
+	dat                 	       1
+
+dem
+	dem                 	       1
+
+distal
+	distal              	       1
+
+erg
+	erg                 	       1
+
+fut
+	fut                 	       1
+
+gen
+	gen                 	       1
+
+incomplete
+	incomplete          	       2
+
+ipfv
+	prf                 	       1
+
+lexical entry
+	lexical entry       	      52
+
+nom
+	nom                 	       1
+
+nprs
+	prs                 	       1
+
+obj
+	obj                 	       1
+
+passive
+	passive             	       1
+
+past
+	past                	       1
+
+pl
+	pl                  	       1
+
+pluperfect
+	prf                 	       1
+
+prs
+	prs                 	       2
+	user-identified     	       1
+
+sbj
+	sbj                 	       1
+
+sg
+	sg                  	       1
+
+user-identified
+	user-identified     	       1
+
