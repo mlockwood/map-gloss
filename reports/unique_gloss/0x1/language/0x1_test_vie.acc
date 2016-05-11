@@ -1,4 +1,4 @@
-Accuracy: 0.9591836734693877
+Accuracy: 0.9387755102040817
 
 1
 	1                   	       1
@@ -61,9 +61,10 @@ indf
 	indf                	       1
 
 lexical entry
-	lexical entry       	      67
+	lexical entry       	      65
+	user-identified     	       2
 	ptcp                	       1
-	user-identified     	       1
+	comp                	       1
 
 nearpast
 	lexical entry       	       1

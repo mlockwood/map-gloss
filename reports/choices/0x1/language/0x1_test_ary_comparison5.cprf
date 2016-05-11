@@ -20,8 +20,8 @@ Recall: 0.0
 F-Score: 0.0
 
 False Positives
-	('test', 'ary', 'moods', 'ind')
 	('test', 'ary', 'tenses', 'future')
+	('test', 'ary', 'moods', 'ind')
 	('test', 'ary', 'tenses', 'present')
 
 
@@ -33,6 +33,6 @@ Recall: 0.0
 F-Score: 0.0
 
 False Positives
-	('test', 'ary', 'moods', 'ind')
 	('test', 'ary', 'tenses', 'future')
+	('test', 'ary', 'moods', 'ind')
 

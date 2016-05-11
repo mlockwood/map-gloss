@@ -113,7 +113,7 @@
 0x1,test,ary,name,lexical entry
 0x1,test,ary,needle,lexical entry
 0x1,test,ary,neg1,1sg
-0x1,test,ary,neg2,lexical entry
+0x1,test,ary,neg2,2sg
 0x1,test,ary,no,lexical entry
 0x1,test,ary,nom,nom
 0x1,test,ary,nothing,lexical entry
@@ -131,7 +131,7 @@
 0x1,test,ary,plm,lexical entry
 0x1,test,ary,plural,lexical entry
 0x1,test,ary,poss,poss
-0x1,test,ary,possible,poss
+0x1,test,ary,possible,lexical entry
 0x1,test,ary,pres,prs
 0x1,test,ary,pro,part-of-speech
 0x1,test,ary,projects,lexical entry

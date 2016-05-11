@@ -12,9 +12,9 @@ False Positives Added
 	('test', 'tgl', 'aspects', 'pfv')
 
 False Positives Removed
-	('test', 'tgl', 'aspects', 'imperfective')
-	('test', 'tgl', 'tenses', 'past')
 	('test', 'tgl', 'aspects', 'perfective')
+	('test', 'tgl', 'tenses', 'past')
+	('test', 'tgl', 'aspects', 'imperfective')
 
 
 
@@ -39,8 +39,8 @@ F-Score: 0.0
 
 False Positives
 	('test', 'tgl', 'tenses', 'present')
-	('test', 'tgl', 'aspects', 'perfective')
-	('test', 'tgl', 'aspects', 'imperfective')
 	('test', 'tgl', 'tenses', 'past')
+	('test', 'tgl', 'aspects', 'perfective')
 	('test', 'tgl', 'tenses', 'future')
+	('test', 'tgl', 'aspects', 'imperfective')
 

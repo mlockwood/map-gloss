@@ -26,10 +26,10 @@ from src.utils import choices_reader
 
 
 # Import errors
-import src.infer.errors as InferErrors
-
 from src.eval.constants import INFER_BASELINE
-from src.infer.constants import PATH, CTYPES, FTYPES
+from src.gloss.constants import PATH
+from src.infer.constants import CTYPES, FTYPES
+import src.infer.errors as InferErrors
 
 
 class Choices(object):
@@ -84,7 +84,6 @@ class Choices(object):
 class Container(object):
 
     objects = {}
-    types = {'language': True, 'dataset': True, 'model': True}
 
     def __init__(self, model, container, ctype='language'):
         """
@@ -98,7 +97,7 @@ class Container(object):
         self.model = model
         self.container = container
 
-        if ctype in Container.types:
+        if ctype in CTYPES:
             self.ctype = ctype
         else:
             raise InferErrors.InvalidContainerTypeError(ctype)

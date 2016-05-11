@@ -4,77 +4,77 @@ Total: 74; Correct: 74
 Incorrect pairs
 
 Correct pairs
-test, hbs, green                                         Gold: lexical entry        System: lexical entry       
-test, hbs, tea                                           Gold: lexical entry        System: lexical entry       
-test, hbs, write                                         Gold: lexical entry        System: lexical entry       
-test, hbs, eat                                           Gold: lexical entry        System: lexical entry       
-test, hbs, 2                                             Gold: 2                    System: 2                   
-test, hbs, 3                                             Gold: 3                    System: 3                   
-test, hbs, fut                                           Gold: fut                  System: fut                 
-test, hbs, can                                           Gold: lexical entry        System: lexical entry       
-test, hbs, olg                                           Gold: lexical entry        System: lexical entry       
-test, hbs, ivan                                          Gold: lexical entry        System: lexical entry       
-test, hbs, drink                                         Gold: lexical entry        System: lexical entry       
-test, hbs, see                                           Gold: lexical entry        System: lexical entry       
-test, hbs, and                                           Gold: lexical entry        System: lexical entry       
-test, hbs, that                                          Gold: incomplete           System: incomplete          
-test, hbs, nom                                           Gold: nom                  System: nom                 
-test, hbs, q                                             Gold: q                    System: q                   
-test, hbs, slavko                                        Gold: lexical entry        System: lexical entry       
-test, hbs, think                                         Gold: lexical entry        System: lexical entry       
 test, hbs, comp                                          Gold: comp                 System: comp                
-test, hbs, olga                                          Gold: lexical entry        System: lexical entry       
-test, hbs, gen                                           Gold: gen                  System: gen                 
-test, hbs, this                                          Gold: incomplete           System: incomplete          
-test, hbs, study                                         Gold: lexical entry        System: lexical entry       
-test, hbs, unknown                                       Gold: lexical entry        System: lexical entry       
-test, hbs, neg                                           Gold: neg                  System: neg                 
-test, hbs, work                                          Gold: lexical entry        System: lexical entry       
-test, hbs, pfv                                           Gold: pfv                  System: pfv                 
-test, hbs, pst                                           Gold: pst                  System: pst                 
-test, hbs, da                                            Gold: lexical entry        System: lexical entry       
-test, hbs, new                                           Gold: lexical entry        System: lexical entry       
-test, hbs, vine                                          Gold: lexical entry        System: lexical entry       
-test, hbs, fear                                          Gold: lexical entry        System: lexical entry       
-test, hbs, speak                                         Gold: lexical entry        System: lexical entry       
-test, hbs, l                                             Gold: user-identified      System: user-identified     
-test, hbs, well                                          Gold: lexical entry        System: lexical entry       
-test, hbs, woman                                         Gold: lexical entry        System: lexical entry       
-test, hbs, concert                                       Gold: lexical entry        System: lexical entry       
-test, hbs, prs                                           Gold: prs                  System: prs                 
-test, hbs, loc                                           Gold: loc                  System: loc                 
-test, hbs, slavo                                         Gold: lexical entry        System: lexical entry       
-test, hbs, 1sg                                           Gold: 1sg                  System: 1sg                 
-test, hbs, pl                                            Gold: pl                   System: pl                  
-test, hbs, red                                           Gold: lexical entry        System: lexical entry       
-test, hbs, 2sg                                           Gold: 2sg                  System: 2sg                 
-test, hbs, house                                         Gold: lexical entry        System: lexical entry       
-test, hbs, n                                             Gold: n                    System: n                   
-test, hbs, sleep                                         Gold: lexical entry        System: lexical entry       
-test, hbs, at                                            Gold: lexical entry        System: lexical entry       
-test, hbs, wife                                          Gold: lexical entry        System: lexical entry       
-test, hbs, zoran                                         Gold: lexical entry        System: lexical entry       
-test, hbs, know                                          Gold: lexical entry        System: lexical entry       
-test, hbs, help                                          Gold: lexical entry        System: lexical entry       
-test, hbs, from                                          Gold: lexical entry        System: lexical entry       
-test, hbs, book                                          Gold: lexical entry        System: lexical entry       
-test, hbs, sg                                            Gold: sg                   System: sg                  
-test, hbs, aux                                           Gold: aux                  System: aux                 
-test, hbs, inf                                           Gold: inf                  System: inf                 
-test, hbs, ask                                           Gold: lexical entry        System: lexical entry       
-test, hbs, f                                             Gold: f                    System: f                   
-test, hbs, city                                          Gold: lexical entry        System: lexical entry       
-test, hbs, be                                            Gold: lexical entry        System: lexical entry       
-test, hbs, husband                                       Gold: lexical entry        System: lexical entry       
-test, hbs, marija                                        Gold: lexical entry        System: lexical entry       
-test, hbs, li                                            Gold: lexical entry        System: lexical entry       
-test, hbs, fp                                            Gold: fp                   System: fp                  
-test, hbs, fast                                          Gold: lexical entry        System: lexical entry       
-test, hbs, m                                             Gold: m                    System: m                   
-test, hbs, dat                                           Gold: dat                  System: dat                 
 test, hbs, acc                                           Gold: acc                  System: acc                 
-test, hbs, ipfv                                          Gold: ipfv                 System: ipfv                
+test, hbs, marija                                        Gold: lexical entry        System: lexical entry       
+test, hbs, husband                                       Gold: lexical entry        System: lexical entry       
+test, hbs, f                                             Gold: f                    System: f                   
+test, hbs, tea                                           Gold: lexical entry        System: lexical entry       
+test, hbs, at                                            Gold: lexical entry        System: lexical entry       
 test, hbs, 1                                             Gold: 1                    System: 1                   
-test, hbs, glass                                         Gold: lexical entry        System: lexical entry       
+test, hbs, sg                                            Gold: sg                   System: sg                  
+test, hbs, drink                                         Gold: lexical entry        System: lexical entry       
+test, hbs, da                                            Gold: lexical entry        System: lexical entry       
+test, hbs, sleep                                         Gold: lexical entry        System: lexical entry       
+test, hbs, q                                             Gold: q                    System: q                   
+test, hbs, can                                           Gold: lexical entry        System: lexical entry       
+test, hbs, li                                            Gold: lexical entry        System: lexical entry       
+test, hbs, fear                                          Gold: lexical entry        System: lexical entry       
+test, hbs, fut                                           Gold: fut                  System: fut                 
+test, hbs, well                                          Gold: lexical entry        System: lexical entry       
+test, hbs, speak                                         Gold: lexical entry        System: lexical entry       
+test, hbs, 2sg                                           Gold: 2sg                  System: 2sg                 
+test, hbs, 2                                             Gold: 2                    System: 2                   
+test, hbs, and                                           Gold: lexical entry        System: lexical entry       
+test, hbs, ipfv                                          Gold: ipfv                 System: ipfv                
+test, hbs, inf                                           Gold: inf                  System: inf                 
+test, hbs, unknown                                       Gold: lexical entry        System: lexical entry       
+test, hbs, fp                                            Gold: fp                   System: fp                  
+test, hbs, new                                           Gold: lexical entry        System: lexical entry       
+test, hbs, aux                                           Gold: aux                  System: aux                 
+test, hbs, think                                         Gold: lexical entry        System: lexical entry       
+test, hbs, n                                             Gold: n                    System: n                   
+test, hbs, red                                           Gold: lexical entry        System: lexical entry       
+test, hbs, book                                          Gold: lexical entry        System: lexical entry       
+test, hbs, study                                         Gold: lexical entry        System: lexical entry       
+test, hbs, slavko                                        Gold: lexical entry        System: lexical entry       
+test, hbs, prs                                           Gold: prs                  System: prs                 
+test, hbs, eat                                           Gold: lexical entry        System: lexical entry       
 test, hbs, clearly                                       Gold: lexical entry        System: lexical entry       
+test, hbs, glass                                         Gold: lexical entry        System: lexical entry       
+test, hbs, ask                                           Gold: lexical entry        System: lexical entry       
+test, hbs, wife                                          Gold: lexical entry        System: lexical entry       
+test, hbs, green                                         Gold: lexical entry        System: lexical entry       
+test, hbs, vine                                          Gold: lexical entry        System: lexical entry       
+test, hbs, see                                           Gold: lexical entry        System: lexical entry       
+test, hbs, know                                          Gold: lexical entry        System: lexical entry       
+test, hbs, write                                         Gold: lexical entry        System: lexical entry       
+test, hbs, nom                                           Gold: nom                  System: nom                 
+test, hbs, gen                                           Gold: gen                  System: gen                 
+test, hbs, slavo                                         Gold: lexical entry        System: lexical entry       
+test, hbs, work                                          Gold: lexical entry        System: lexical entry       
+test, hbs, loc                                           Gold: loc                  System: loc                 
+test, hbs, help                                          Gold: lexical entry        System: lexical entry       
+test, hbs, be                                            Gold: lexical entry        System: lexical entry       
+test, hbs, woman                                         Gold: lexical entry        System: lexical entry       
+test, hbs, house                                         Gold: lexical entry        System: lexical entry       
+test, hbs, 1sg                                           Gold: 1sg                  System: 1sg                 
+test, hbs, pst                                           Gold: pst                  System: pst                 
+test, hbs, zoran                                         Gold: lexical entry        System: lexical entry       
+test, hbs, m                                             Gold: m                    System: m                   
+test, hbs, fast                                          Gold: lexical entry        System: lexical entry       
+test, hbs, ivan                                          Gold: lexical entry        System: lexical entry       
+test, hbs, dat                                           Gold: dat                  System: dat                 
+test, hbs, pfv                                           Gold: pfv                  System: pfv                 
+test, hbs, concert                                       Gold: lexical entry        System: lexical entry       
 test, hbs, slavk                                         Gold: lexical entry        System: lexical entry       
+test, hbs, neg                                           Gold: neg                  System: neg                 
+test, hbs, city                                          Gold: lexical entry        System: lexical entry       
+test, hbs, that                                          Gold: incomplete           System: incomplete          
+test, hbs, olga                                          Gold: lexical entry        System: lexical entry       
+test, hbs, l                                             Gold: user-identified      System: user-identified     
+test, hbs, from                                          Gold: lexical entry        System: lexical entry       
+test, hbs, olg                                           Gold: lexical entry        System: lexical entry       
+test, hbs, this                                          Gold: incomplete           System: incomplete          
+test, hbs, 3                                             Gold: 3                    System: 3                   
+test, hbs, pl                                            Gold: pl                   System: pl                  

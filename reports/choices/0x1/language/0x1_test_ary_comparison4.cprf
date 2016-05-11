@@ -12,8 +12,8 @@ False Positives Added
 	('test', 'ary', 'moods', 'ind')
 
 False Positives Removed
-	('test', 'ary', 'tenses', 'past')
 	('test', 'ary', 'aspects', 'perfective')
+	('test', 'ary', 'tenses', 'past')
 	('test', 'ary', 'aspects', 'imperfective')
 
 
@@ -25,8 +25,8 @@ Recall: 0.0
 F-Score: 0.0
 
 False Positives
-	('test', 'ary', 'moods', 'ind')
 	('test', 'ary', 'tenses', 'future')
+	('test', 'ary', 'moods', 'ind')
 	('test', 'ary', 'tenses', 'present')
 
 
@@ -38,9 +38,9 @@ Recall: 0.0
 F-Score: 0.0
 
 False Positives
-	('test', 'ary', 'tenses', 'past')
 	('test', 'ary', 'tenses', 'future')
+	('test', 'ary', 'aspects', 'perfective')
+	('test', 'ary', 'tenses', 'past')
 	('test', 'ary', 'aspects', 'imperfective')
 	('test', 'ary', 'tenses', 'present')
-	('test', 'ary', 'aspects', 'perfective')
 

@@ -17,12 +17,12 @@ Recall: 0.0
 F-Score: 0.0
 
 False Negatives
-	('test', 'ain', 'aspects', 'perfective')
-	('test', 'ain', 'tenses', 'present')
-	('test', 'ain', 'aspects', 'progressive')
-	('test', 'ain', 'tenses', 'future')
 	('test', 'ain', 'tenses', 'past')
 	('test', 'ain', 'aspects', 'durative')
+	('test', 'ain', 'tenses', 'future')
+	('test', 'ain', 'aspects', 'progressive')
+	('test', 'ain', 'aspects', 'perfective')
+	('test', 'ain', 'tenses', 'present')
 
 False Positives
 	('test', 'ain', 'aspects', 'dur')
@@ -36,12 +36,12 @@ Recall: 0.0
 F-Score: 0.0
 
 False Negatives
-	('test', 'ain', 'aspects', 'perfective')
-	('test', 'ain', 'tenses', 'present')
-	('test', 'ain', 'aspects', 'progressive')
-	('test', 'ain', 'tenses', 'future')
 	('test', 'ain', 'tenses', 'past')
 	('test', 'ain', 'aspects', 'durative')
+	('test', 'ain', 'tenses', 'future')
+	('test', 'ain', 'aspects', 'progressive')
+	('test', 'ain', 'aspects', 'perfective')
+	('test', 'ain', 'tenses', 'present')
 
 False Positives
 	('test', 'ain', 'aspects', 'dur')

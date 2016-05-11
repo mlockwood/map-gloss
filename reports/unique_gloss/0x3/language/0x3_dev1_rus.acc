@@ -1,4 +1,4 @@
-Accuracy: 0.9024390243902439
+Accuracy: 0.9146341463414634
 
 1
 	1                   	       1
@@ -34,7 +34,8 @@ animate
 	animate             	       1
 
 combined
-	3sg                 	       2
+	user-identified     	       1
+	combined            	       1
 
 dat
 	dat                 	       1
@@ -80,9 +81,9 @@ nom
 	nom                 	       1
 
 part-of-speech
-	lexical entry       	       1
 	part-of-speech      	       1
 	incomplete          	       1
+	lexical entry       	       1
 
 pl
 	pl                  	       1

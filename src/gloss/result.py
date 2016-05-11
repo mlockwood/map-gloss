@@ -11,7 +11,7 @@ from src.gloss import errors as GlossErrors
 from src.utils import functions
 
 # Import variables
-from src.gloss.constants import GRAMS, MODELS, PATH, EVAL
+from src.gloss.constants import PATH, CTYPES
 
 
 __project_parent__ = 'AGGREGATION'

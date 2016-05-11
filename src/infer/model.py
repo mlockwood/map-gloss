@@ -15,9 +15,8 @@ from src.infer import choices
 from src.eval.eval_infer import Choices, Container
 
 # Import variables
-from src.gloss.constants import EVAL
+from src.gloss.constants import find_path, PATH, EVAL
 from src.gloss.reference import Language, load_references
-from src.infer.constants import PATH, CHOICES
 
 
 __project_parent__ = 'AGGREGATION'
@@ -39,11 +38,6 @@ __collaborators__ = None
 # 3 once all choices are built run eval
 
 
-# Run model and collect references
-# model.process_models()
-load_references()
-
-
 def make_choices():
     # For each language with a reference
     for language in Language.objects:
@@ -62,7 +56,7 @@ def make_choices():
         choices.make_choices(language.final, '{}.choices'.format(path))
 
 
-def eval_choices():
+def eval_choices(gold_choices):
     # For each language with a reference
     for obj in Language.objects:
         language = Language.objects[obj]
@@ -84,7 +78,7 @@ def eval_choices():
         # Add base of file name to path
         path += '/{}_{}_{}'.format(language.model, language.dataset, language.iso)
 
-        Choices(CHOICES[language.dataset][language.iso], language.model, language.dataset, language.iso, containers,
+        Choices(gold_choices[language.dataset][language.iso], language.model, language.dataset, language.iso, containers,
                 ftype='gold')
         Choices.load_baseline4(language.dataset, language.iso, containers)
         Choices('{}_baseline5.choices'.format(path), language.model, language.dataset, language.iso, containers,
@@ -97,5 +91,24 @@ def eval_choices():
         container.set_confusion_matrices()
 
 
-make_choices()
-eval_choices()
+def use_internal_parameters():
+    # Run model and collect references
+    model.use_internal_parameters()
+    load_references()
+
+    agg_path = find_path('aggregation')
+    dev1_path = agg_path + '/data/567/dev1'
+    dev2_path = agg_path + '/data/567/dev2'
+    test_path = agg_path + '/data/567/test'
+    gold_choices = choices.load_choices(PATH + '/data', {'agg': agg_path, 'dev1': dev1_path, 'dev2': dev2_path,
+                                                         'test': test_path})
+
+    make_choices()
+    if EVAL:
+        eval_choices(gold_choices)
+    return True
+
+
+if __name__ == "__main__":
+    use_internal_parameters()
+

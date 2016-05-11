@@ -1,104 +1,104 @@
-Accuracy: 0.9591836734693877
-Total: 98; Correct: 94
+Accuracy: 0.9387755102040817
+Total: 98; Correct: 92
 
 Incorrect pairs
-test, vie, nearpst                                       Gold: nearpast             System: lexical entry       
 test, vie, medial                                        Gold: lexical entry        System: user-identified     
+test, vie, compact                                       Gold: lexical entry        System: comp                
 test, vie, art                                           Gold: lexical entry        System: ptcp                
+test, vie, nearpst                                       Gold: nearpast             System: lexical entry       
+test, vie, already                                       Gold: lexical entry        System: user-identified     
 test, vie, clf                                           Gold: part-of-speech       System: user-identified     
 
 Correct pairs
-test, vie, need                                          Gold: lexical entry        System: lexical entry       
-test, vie, in                                            Gold: lexical entry        System: lexical entry       
-test, vie, black                                         Gold: lexical entry        System: lexical entry       
-test, vie, pair                                          Gold: lexical entry        System: lexical entry       
-test, vie, dog                                           Gold: lexical entry        System: lexical entry       
-test, vie, house                                         Gold: lexical entry        System: lexical entry       
-test, vie, cop                                           Gold: cop                  System: cop                 
-test, vie, 1sg                                           Gold: 1sg                  System: 1sg                 
-test, vie, read                                          Gold: lexical entry        System: lexical entry       
-test, vie, hanoi                                         Gold: lexical entry        System: lexical entry       
-test, vie, pl                                            Gold: pl                   System: pl                  
-test, vie, should                                        Gold: lexical entry        System: lexical entry       
-test, vie, fp                                            Gold: fp                   System: fp                  
-test, vie, paper                                         Gold: lexical entry        System: lexical entry       
-test, vie, face                                          Gold: lexical entry        System: lexical entry       
-test, vie, bread                                         Gold: lexical entry        System: lexical entry       
-test, vie, be                                            Gold: lexical entry        System: lexical entry       
-test, vie, two                                           Gold: lexical entry        System: lexical entry       
 test, vie, interaction                                   Gold: lexical entry        System: lexical entry       
-test, vie, prox                                          Gold: prox                 System: prox                
-test, vie, hungry                                        Gold: lexical entry        System: lexical entry       
-test, vie, really                                        Gold: lexical entry        System: lexical entry       
-test, vie, mai                                           Gold: lexical entry        System: lexical entry       
-test, vie, all                                           Gold: lexical entry        System: lexical entry       
-test, vie, tag                                           Gold: lexical entry        System: lexical entry       
-test, vie, chase                                         Gold: lexical entry        System: lexical entry       
-test, vie, dem                                           Gold: dem                  System: dem                 
-test, vie, foc                                           Gold: foc                  System: foc                 
-test, vie, animal                                        Gold: lexical entry        System: lexical entry       
-test, vie, live                                          Gold: lexical entry        System: lexical entry       
-test, vie, car                                           Gold: lexical entry        System: lexical entry       
-test, vie, dist                                          Gold: dist                 System: dist                
-test, vie, cat                                           Gold: lexical entry        System: lexical entry       
-test, vie, glass                                         Gold: lexical entry        System: lexical entry       
-test, vie, chopsticks                                    Gold: lexical entry        System: lexical entry       
-test, vie, bulb                                          Gold: lexical entry        System: lexical entry       
 test, vie, cloud                                         Gold: lexical entry        System: lexical entry       
-test, vie, top                                           Gold: top                  System: top                 
-test, vie, like                                          Gold: lexical entry        System: lexical entry       
-test, vie, 2sg                                           Gold: 2sg                  System: 2sg                 
-test, vie, think                                         Gold: lexical entry        System: lexical entry       
-test, vie, prog                                          Gold: prog                 System: prog                
-test, vie, focus                                         Gold: focus                System: focus               
-test, vie, typhoon                                       Gold: lexical entry        System: lexical entry       
-test, vie, sheet                                         Gold: lexical entry        System: lexical entry       
-test, vie, noodle                                        Gold: lexical entry        System: lexical entry       
-test, vie, indef                                         Gold: indf                 System: indf                
-test, vie, flat                                          Gold: lexical entry        System: lexical entry       
-test, vie, tall                                          Gold: lexical entry        System: lexical entry       
-test, vie, able                                          Gold: lexical entry        System: lexical entry       
-test, vie, already                                       Gold: lexical entry        System: lexical entry       
-test, vie, wash                                          Gold: lexical entry        System: lexical entry       
-test, vie, quickly                                       Gold: lexical entry        System: lexical entry       
-test, vie, book                                          Gold: lexical entry        System: lexical entry       
-test, vie, nearfut                                       Gold: lexical entry        System: lexical entry       
-test, vie, affirmation                                   Gold: lexical entry        System: lexical entry       
-test, vie, 3sg                                           Gold: 3sg                  System: 3sg                 
-test, vie, 3                                             Gold: 3                    System: 3                   
-test, vie, i                                             Gold: incomplete           System: incomplete          
-test, vie, compact                                       Gold: lexical entry        System: lexical entry       
-test, vie, mirror                                        Gold: lexical entry        System: lexical entry       
-test, vie, fruit                                         Gold: lexical entry        System: lexical entry       
-test, vie, neg                                           Gold: neg                  System: neg                 
-test, vie, other                                         Gold: lexical entry        System: lexical entry       
-test, vie, sleep                                         Gold: lexical entry        System: lexical entry       
 test, vie, cont                                          Gold: cont                 System: cont                
-test, vie, very                                          Gold: lexical entry        System: lexical entry       
-test, vie, comp                                          Gold: comp                 System: comp                
-test, vie, noodles                                       Gold: lexical entry        System: lexical entry       
-test, vie, and                                           Gold: lexical entry        System: lexical entry       
-test, vie, park                                          Gold: lexical entry        System: lexical entry       
-test, vie, onion                                         Gold: lexical entry        System: lexical entry       
-test, vie, excl                                          Gold: excl                 System: excl                
-test, vie, rect                                          Gold: lexical entry        System: lexical entry       
-test, vie, 2                                             Gold: 2                    System: 2                   
-test, vie, eat                                           Gold: lexical entry        System: lexical entry       
-test, vie, want                                          Gold: lexical entry        System: lexical entry       
-test, vie, life                                          Gold: lexical entry        System: lexical entry       
-test, vie, violent                                       Gold: lexical entry        System: lexical entry       
-test, vie, set                                           Gold: lexical entry        System: lexical entry       
-test, vie, know                                          Gold: lexical entry        System: lexical entry       
-test, vie, curtain                                       Gold: lexical entry        System: lexical entry       
-test, vie, banana                                        Gold: lexical entry        System: lexical entry       
-test, vie, ask                                           Gold: lexical entry        System: lexical entry       
-test, vie, fut                                           Gold: fut                  System: fut                 
-test, vie, hurt                                          Gold: lexical entry        System: lexical entry       
-test, vie, 1                                             Gold: 1                    System: 1                   
-test, vie, pst                                           Gold: pst                  System: pst                 
-test, vie, incl                                          Gold: incl                 System: incl                
-test, vie, abs                                           Gold: abs                  System: abs                 
+test, vie, sleep                                         Gold: lexical entry        System: lexical entry       
+test, vie, typhoon                                       Gold: lexical entry        System: lexical entry       
+test, vie, noodle                                        Gold: lexical entry        System: lexical entry       
+test, vie, chase                                         Gold: lexical entry        System: lexical entry       
+test, vie, need                                          Gold: lexical entry        System: lexical entry       
+test, vie, two                                           Gold: lexical entry        System: lexical entry       
+test, vie, car                                           Gold: lexical entry        System: lexical entry       
 test, vie, yesterday                                     Gold: lexical entry        System: lexical entry       
-test, vie, card                                          Gold: lexical entry        System: lexical entry       
+test, vie, 3                                             Gold: 3                    System: 3                   
+test, vie, dist                                          Gold: dist                 System: dist                
+test, vie, pair                                          Gold: lexical entry        System: lexical entry       
+test, vie, incl                                          Gold: incl                 System: incl                
+test, vie, set                                           Gold: lexical entry        System: lexical entry       
+test, vie, all                                           Gold: lexical entry        System: lexical entry       
+test, vie, and                                           Gold: lexical entry        System: lexical entry       
+test, vie, wash                                          Gold: lexical entry        System: lexical entry       
+test, vie, 2sg                                           Gold: 2sg                  System: 2sg                 
+test, vie, foc                                           Gold: foc                  System: foc                 
+test, vie, onion                                         Gold: lexical entry        System: lexical entry       
+test, vie, fp                                            Gold: fp                   System: fp                  
+test, vie, animal                                        Gold: lexical entry        System: lexical entry       
+test, vie, face                                          Gold: lexical entry        System: lexical entry       
+test, vie, affirmation                                   Gold: lexical entry        System: lexical entry       
+test, vie, should                                        Gold: lexical entry        System: lexical entry       
+test, vie, i                                             Gold: incomplete           System: incomplete          
+test, vie, rect                                          Gold: lexical entry        System: lexical entry       
+test, vie, fruit                                         Gold: lexical entry        System: lexical entry       
+test, vie, cop                                           Gold: cop                  System: cop                 
+test, vie, paper                                         Gold: lexical entry        System: lexical entry       
+test, vie, cat                                           Gold: lexical entry        System: lexical entry       
+test, vie, in                                            Gold: lexical entry        System: lexical entry       
+test, vie, ask                                           Gold: lexical entry        System: lexical entry       
+test, vie, tag                                           Gold: lexical entry        System: lexical entry       
+test, vie, fut                                           Gold: fut                  System: fut                 
+test, vie, 3sg                                           Gold: 3sg                  System: 3sg                 
+test, vie, bread                                         Gold: lexical entry        System: lexical entry       
+test, vie, 2                                             Gold: 2                    System: 2                   
+test, vie, comp                                          Gold: comp                 System: comp                
+test, vie, pl                                            Gold: pl                   System: pl                  
+test, vie, tall                                          Gold: lexical entry        System: lexical entry       
+test, vie, abs                                           Gold: abs                  System: abs                 
+test, vie, prox                                          Gold: prox                 System: prox                
+test, vie, noodles                                       Gold: lexical entry        System: lexical entry       
+test, vie, sheet                                         Gold: lexical entry        System: lexical entry       
+test, vie, nearfut                                       Gold: lexical entry        System: lexical entry       
 test, vie, girl                                          Gold: lexical entry        System: lexical entry       
+test, vie, flat                                          Gold: lexical entry        System: lexical entry       
+test, vie, violent                                       Gold: lexical entry        System: lexical entry       
+test, vie, curtain                                       Gold: lexical entry        System: lexical entry       
+test, vie, really                                        Gold: lexical entry        System: lexical entry       
+test, vie, very                                          Gold: lexical entry        System: lexical entry       
+test, vie, book                                          Gold: lexical entry        System: lexical entry       
+test, vie, think                                         Gold: lexical entry        System: lexical entry       
+test, vie, read                                          Gold: lexical entry        System: lexical entry       
+test, vie, excl                                          Gold: excl                 System: excl                
+test, vie, mai                                           Gold: lexical entry        System: lexical entry       
+test, vie, hanoi                                         Gold: lexical entry        System: lexical entry       
+test, vie, want                                          Gold: lexical entry        System: lexical entry       
+test, vie, bulb                                          Gold: lexical entry        System: lexical entry       
+test, vie, glass                                         Gold: lexical entry        System: lexical entry       
+test, vie, prog                                          Gold: prog                 System: prog                
+test, vie, house                                         Gold: lexical entry        System: lexical entry       
+test, vie, other                                         Gold: lexical entry        System: lexical entry       
+test, vie, quickly                                       Gold: lexical entry        System: lexical entry       
+test, vie, 1                                             Gold: 1                    System: 1                   
+test, vie, hungry                                        Gold: lexical entry        System: lexical entry       
+test, vie, like                                          Gold: lexical entry        System: lexical entry       
+test, vie, pst                                           Gold: pst                  System: pst                 
+test, vie, life                                          Gold: lexical entry        System: lexical entry       
+test, vie, eat                                           Gold: lexical entry        System: lexical entry       
+test, vie, park                                          Gold: lexical entry        System: lexical entry       
+test, vie, top                                           Gold: top                  System: top                 
+test, vie, 1sg                                           Gold: 1sg                  System: 1sg                 
+test, vie, hurt                                          Gold: lexical entry        System: lexical entry       
+test, vie, dog                                           Gold: lexical entry        System: lexical entry       
+test, vie, know                                          Gold: lexical entry        System: lexical entry       
+test, vie, mirror                                        Gold: lexical entry        System: lexical entry       
+test, vie, banana                                        Gold: lexical entry        System: lexical entry       
+test, vie, card                                          Gold: lexical entry        System: lexical entry       
+test, vie, indef                                         Gold: indf                 System: indf                
+test, vie, black                                         Gold: lexical entry        System: lexical entry       
+test, vie, dem                                           Gold: dem                  System: dem                 
+test, vie, chopsticks                                    Gold: lexical entry        System: lexical entry       
+test, vie, able                                          Gold: lexical entry        System: lexical entry       
 test, vie, this                                          Gold: incomplete           System: incomplete          
+test, vie, live                                          Gold: lexical entry        System: lexical entry       
+test, vie, neg                                           Gold: neg                  System: neg                 
+test, vie, focus                                         Gold: focus                System: focus               
+test, vie, be                                            Gold: lexical entry        System: lexical entry       

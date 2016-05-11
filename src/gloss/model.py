@@ -12,10 +12,11 @@ from src.utils import functions
 
 # Import classes
 from src.gloss.result import UniqueGloss, Container
-from src.gloss.vector import Collection, Vector
+from src.gloss.vector import Collection, Vector, set_vectors, set_gold_standard
 
 # Import variables
-from src.gloss.constants import GRAMS, MODELS, PATH, EVAL
+from src.gloss.constants import find_path, GRAMS, PATH, EVAL
+from src.gloss.dataset import load_datasets
 
 
 __project_parent__ = 'AGGREGATION'
@@ -29,6 +30,14 @@ __email__ = 'lockwm@uw.edu'
 __github__ = 'mlockwood'
 __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
+
+
+def load_model(data_path):
+    models = []
+    reader = open(data_path + '/models', 'r')
+    for row in reader:
+        models.append(re.split(',', row.rstrip()))  # [model_id, train collection, test collection, classifiers]
+    return models
 
 
 class Model:
@@ -283,13 +292,32 @@ class TBL:
         return True
 
 
-def process_models():
-    for model in MODELS:
+def process_models(models):
+    for model in models:
         train = Collection.init_string_collection(model[1])
         test = Collection.init_string_collection(model[2])
         classifiers = Model.parse_classifier_string(model[0], model[3])
         Model(model[0], train, test, classifiers).run_classifiers()
 
 
+def use_internal_parameters():
+    # Load datasets assuming location of 'datasets' in map_gloss/data/ and xigt files in aggregation/data/
+    # This also assumes aggregation/src/map_gloss/
+    agg_path = find_path('aggregation')
+    dev1_path = agg_path + '/data/567/dev1'
+    dev2_path = agg_path + '/data/567/dev2'
+    test_path = agg_path + '/data/567/test'
+    set_vectors(load_datasets(PATH + '/data',
+                              {'agg': agg_path, 'dev1': dev1_path, 'dev2': dev2_path, 'test': test_path}))
+
+    # If evaluation is to occur load the gold_standard
+    if EVAL:
+        set_gold_standard()
+
+    # Process the models with the model file located in the data subdirectory of PATH
+    process_models(load_model(PATH + '/data'))
+    return True
+
+
 if __name__ == "__main__":
-    Model.process_models()
+    use_internal_parameters()

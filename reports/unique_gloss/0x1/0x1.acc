@@ -1,4 +1,4 @@
-Accuracy: 0.9383301707779886
+Accuracy: 0.937381404174573
 
 1
 	1                   	       4
@@ -18,11 +18,10 @@ Accuracy: 0.9383301707779886
 
 2pl
 	2pl                 	       5
-	lexical entry       	       1
+	2sg                 	       1
 
 2sg
-	2sg                 	       8
-	lexical entry       	       1
+	2sg                 	       9
 
 3
 	3                   	       3
@@ -52,9 +51,9 @@ aux
 	aux                 	       2
 
 combined
-	lexical entry       	       6
+	lexical entry       	       5
+	user-identified     	       3
 	combined            	       3
-	user-identified     	       2
 	1sg                 	       1
 
 comp
@@ -153,16 +152,16 @@ inv
 	inv                 	       1
 
 ipfv
-	lexical entry       	       2
-	prf                 	       1
+	user-identified     	       3
 	ipfv                	       1
 
 lexical entry
-	lexical entry       	     710
-	user-identified     	       7
-	poss                	       2
-	ptcp                	       1
+	lexical entry       	     707
+	user-identified     	      10
 	incomplete          	       1
+	complementizer      	       1
+	ptcp                	       1
+	comp                	       1
 
 loc
 	loc                 	       1
@@ -179,7 +178,7 @@ nearpast
 
 neg
 	neg                 	       8
-	lexical entry       	       1
+	2sg                 	       1
 	1sg                 	       1
 
 nmlz
@@ -192,12 +191,12 @@ nonpast
 	nonpast             	       1
 
 nprs
-	prs                 	       1
 	nprs                	       1
+	prs                 	       1
 
 npst
-	lexical entry       	       1
 	npst                	       1
+	lexical entry       	       1
 
 obj
 	obj                 	       2
@@ -210,8 +209,8 @@ p
 
 part-of-speech
 	part-of-speech      	       4
-	lexical entry       	       1
 	user-identified     	       1
+	lexical entry       	       1
 
 participle
 	lexical entry       	       1
@@ -230,7 +229,7 @@ pl
 	user-identified     	       2
 
 pluperfect
-	prf                 	       1
+	user-identified     	       1
 
 pluralperson
 	lexical entry       	       1
@@ -287,6 +286,6 @@ unrecovered
 	lexical entry       	       1
 
 user-identified
-	user-identified     	      29
-	lexical entry       	      11
+	user-identified     	      30
+	lexical entry       	      10
 

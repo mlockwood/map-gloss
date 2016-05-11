@@ -46,8 +46,8 @@ f
 	f                   	       1
 
 incl
-	lexical entry       	       1
 	incl                	       1
+	lexical entry       	       1
 
 incomplete
 	incomplete          	       1
@@ -66,8 +66,8 @@ nom
 	nom                 	       1
 
 npst
-	lexical entry       	       1
 	npst                	       1
+	lexical entry       	       1
 
 top
 	top                 	       1

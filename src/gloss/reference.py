@@ -6,7 +6,7 @@ import re
 import os
 
 # Import variables
-from src.gloss.constants import GRAMS, MODELS, PATH, EVAL
+from src.gloss.constants import PATH
 
 
 __project_parent__ = 'AGGREGATION'

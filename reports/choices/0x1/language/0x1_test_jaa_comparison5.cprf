@@ -17,19 +17,19 @@ Recall: 0.0
 F-Score: 0.0
 
 False Negatives
-	('test', 'jaa', 'tenses', 'past')
-	('test', 'jaa', 'tenses', 'fpn')
-	('test', 'jaa', 'aspects', 'habitual')
-	('test', 'jaa', 'tenses', 'ipn')
-	('test', 'jaa', 'aspects', 'perfective')
+	('test', 'jaa', 'tenses', 'rpn')
 	('test', 'jaa', 'tenses', 'present')
 	('test', 'jaa', 'tenses', 'ipe')
-	('test', 'jaa', 'aspects', 'continuous')
 	('test', 'jaa', 'tenses', 'fpe')
-	('test', 'jaa', 'tenses', 'furture')
-	('test', 'jaa', 'tenses', 'rpn')
+	('test', 'jaa', 'aspects', 'perfective')
 	('test', 'jaa', 'tenses', 'rpe')
+	('test', 'jaa', 'aspects', 'habitual')
+	('test', 'jaa', 'tenses', 'ipn')
 	('test', 'jaa', 'tenses', 'nonpast')
+	('test', 'jaa', 'tenses', 'fpn')
+	('test', 'jaa', 'tenses', 'furture')
+	('test', 'jaa', 'aspects', 'continuous')
+	('test', 'jaa', 'tenses', 'past')
 
 False Positives
 	('test', 'jaa', 'moods', 'decl')
@@ -43,19 +43,19 @@ Recall: 0.0
 F-Score: 0.0
 
 False Negatives
-	('test', 'jaa', 'tenses', 'past')
-	('test', 'jaa', 'tenses', 'fpn')
-	('test', 'jaa', 'aspects', 'habitual')
-	('test', 'jaa', 'tenses', 'ipn')
-	('test', 'jaa', 'aspects', 'perfective')
+	('test', 'jaa', 'tenses', 'rpn')
 	('test', 'jaa', 'tenses', 'present')
 	('test', 'jaa', 'tenses', 'ipe')
-	('test', 'jaa', 'aspects', 'continuous')
 	('test', 'jaa', 'tenses', 'fpe')
-	('test', 'jaa', 'tenses', 'furture')
-	('test', 'jaa', 'tenses', 'rpn')
+	('test', 'jaa', 'aspects', 'perfective')
 	('test', 'jaa', 'tenses', 'rpe')
+	('test', 'jaa', 'aspects', 'habitual')
+	('test', 'jaa', 'tenses', 'ipn')
 	('test', 'jaa', 'tenses', 'nonpast')
+	('test', 'jaa', 'tenses', 'fpn')
+	('test', 'jaa', 'tenses', 'furture')
+	('test', 'jaa', 'aspects', 'continuous')
+	('test', 'jaa', 'tenses', 'past')
 
 False Positives
 	('test', 'jaa', 'moods', 'decl')

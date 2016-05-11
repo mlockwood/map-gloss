@@ -1,12 +1,12 @@
-0x1,test,inh,1000,lexical entry
-0x1,test,inh,1pex,lexical entry
+0x1,test,inh,1000,user-identified
+0x1,test,inh,1pex,user-identified
 0x1,test,inh,1plexcl,1sg
 0x1,test,inh,1plincl,user-identified
 0x1,test,inh,1s,1sg
 0x1,test,inh,1sg,1sg
-0x1,test,inh,1srfl,lexical entry
-0x1,test,inh,20,lexical entry
-0x1,test,inh,2p,lexical entry
+0x1,test,inh,1srfl,user-identified
+0x1,test,inh,20,user-identified
+0x1,test,inh,2p,2sg
 0x1,test,inh,2pl,2pl
 0x1,test,inh,2s,2sg
 0x1,test,inh,3p,3pl
@@ -43,7 +43,7 @@
 0x1,test,inh,child,lexical entry
 0x1,test,inh,cmp,user-identified
 0x1,test,inh,come,lexical entry
-0x1,test,inh,complain,lexical entry
+0x1,test,inh,complain,complementizer
 0x1,test,inh,conversation,lexical entry
 0x1,test,inh,corner,lexical entry
 0x1,test,inh,cow,lexical entry
@@ -103,8 +103,8 @@
 0x1,test,inh,how,lexical entry
 0x1,test,inh,hurt,lexical entry
 0x1,test,inh,i,incomplete
-0x1,test,inh,impf,lexical entry
-0x1,test,inh,impv,lexical entry
+0x1,test,inh,impf,user-identified
+0x1,test,inh,impv,user-identified
 0x1,test,inh,in,lexical entry
 0x1,test,inh,incp,lexical entry
 0x1,test,inh,inf,inf
@@ -159,7 +159,7 @@
 0x1,test,inh,person,lexical entry
 0x1,test,inh,pl,pl
 0x1,test,inh,play,lexical entry
-0x1,test,inh,possibility,poss
+0x1,test,inh,possibility,lexical entry
 0x1,test,inh,ppl,user-identified
 0x1,test,inh,prayer,lexical entry
 0x1,test,inh,prog,prog

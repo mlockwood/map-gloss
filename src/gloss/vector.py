@@ -5,7 +5,7 @@ import string
 from src.eval import gold_standard
 from src.utils import functions
 from src.utils.xigt.codecs import xigtxml
-from src.gloss.constants import GRAMS, VALUES, DATASETS, EVAL
+from src.gloss.constants import GRAMS, VALUES
 
 
 __author__ = 'Michael Lockwood'
@@ -13,20 +13,12 @@ __email__ = 'lockwm@uw.edu'
 __github__ = 'mlockwood'
 
 
-def set_vectors():
-    """Function for the user to call to process a set(s) of glosses.
-    Ensures that /src/xigt is in the PYTHONPATH.
-
-    Keyword arguments:
-      collection -- the list of xigt files organized into tuples as
-                    following:
-                    [(collection_name, iso_code, xigt_file), ... ]
-    """
+def set_vectors(datasets):
     # Process and convert data
-    for dataset in DATASETS:
-        for iso in DATASETS[dataset]:
+    for dataset in datasets:
+        for iso in datasets[dataset]:
             # Open the current xigt file
-            file = open(DATASETS[dataset][iso])
+            file = open(datasets[dataset][iso])
             xc = xigtxml.load(file)
             file.close()
             punctex = re.compile('[%s]' % string.punctuation)
@@ -312,8 +304,3 @@ class Vector:
             # Add the gloss part to segments
             self.segments[gloss_part] = False
         return True
-
-
-set_vectors()
-if EVAL:
-    set_gold_standard()

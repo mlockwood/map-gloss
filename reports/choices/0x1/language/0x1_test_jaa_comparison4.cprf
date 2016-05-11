@@ -9,16 +9,16 @@ Recall: 0.0
 F-Score: 0.0
 
 True Positives to False Negatives
-	('test', 'jaa', 'tenses', 'past')
-	('test', 'jaa', 'aspects', 'perfective')
 	('test', 'jaa', 'tenses', 'present')
+	('test', 'jaa', 'aspects', 'perfective')
+	('test', 'jaa', 'tenses', 'past')
 
 False Positives Added
 	('test', 'jaa', 'moods', 'decl')
 
 False Positives Removed
-	('test', 'jaa', 'tenses', 'future')
 	('test', 'jaa', 'aspects', 'imperfective')
+	('test', 'jaa', 'tenses', 'future')
 
 
 
@@ -29,19 +29,19 @@ Recall: 0.0
 F-Score: 0.0
 
 False Negatives
-	('test', 'jaa', 'tenses', 'past')
-	('test', 'jaa', 'tenses', 'fpn')
-	('test', 'jaa', 'aspects', 'habitual')
-	('test', 'jaa', 'tenses', 'ipn')
-	('test', 'jaa', 'aspects', 'perfective')
+	('test', 'jaa', 'tenses', 'rpn')
 	('test', 'jaa', 'tenses', 'present')
 	('test', 'jaa', 'tenses', 'ipe')
-	('test', 'jaa', 'aspects', 'continuous')
 	('test', 'jaa', 'tenses', 'fpe')
-	('test', 'jaa', 'tenses', 'furture')
-	('test', 'jaa', 'tenses', 'rpn')
+	('test', 'jaa', 'aspects', 'perfective')
 	('test', 'jaa', 'tenses', 'rpe')
+	('test', 'jaa', 'aspects', 'habitual')
+	('test', 'jaa', 'tenses', 'ipn')
 	('test', 'jaa', 'tenses', 'nonpast')
+	('test', 'jaa', 'tenses', 'fpn')
+	('test', 'jaa', 'tenses', 'furture')
+	('test', 'jaa', 'aspects', 'continuous')
+	('test', 'jaa', 'tenses', 'past')
 
 False Positives
 	('test', 'jaa', 'moods', 'decl')
@@ -55,18 +55,18 @@ Recall: 0.23076923076923078
 F-Score: 0.33333333333333337
 
 False Negatives
-	('test', 'jaa', 'tenses', 'fpn')
-	('test', 'jaa', 'tenses', 'ipe')
-	('test', 'jaa', 'tenses', 'ipn')
-	('test', 'jaa', 'aspects', 'habitual')
-	('test', 'jaa', 'aspects', 'continuous')
-	('test', 'jaa', 'tenses', 'furture')
 	('test', 'jaa', 'tenses', 'rpn')
+	('test', 'jaa', 'tenses', 'ipe')
+	('test', 'jaa', 'tenses', 'furture')
 	('test', 'jaa', 'tenses', 'fpe')
+	('test', 'jaa', 'tenses', 'fpn')
 	('test', 'jaa', 'tenses', 'rpe')
 	('test', 'jaa', 'tenses', 'nonpast')
+	('test', 'jaa', 'aspects', 'continuous')
+	('test', 'jaa', 'tenses', 'ipn')
+	('test', 'jaa', 'aspects', 'habitual')
 
 False Positives
-	('test', 'jaa', 'tenses', 'future')
 	('test', 'jaa', 'aspects', 'imperfective')
+	('test', 'jaa', 'tenses', 'future')
 
