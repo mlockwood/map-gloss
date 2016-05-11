@@ -35,7 +35,7 @@
 0x1,test,kat,german,lexical entry
 0x1,test,kat,hide,lexical entry
 0x1,test,kat,however,lexical entry
-0x1,test,kat,imperf,user-identified
+0x1,test,kat,imperf,prf
 0x1,test,kat,in,lexical entry
 0x1,test,kat,kill,lexical entry
 0x1,test,kat,know,lexical entry
@@ -54,7 +54,7 @@
 0x1,test,kat,passive,passive
 0x1,test,kat,past,past
 0x1,test,kat,pl,pl
-0x1,test,kat,pluperf,user-identified
+0x1,test,kat,pluperf,prf
 0x1,test,kat,pre,prs
 0x1,test,kat,prepare,lexical entry
 0x1,test,kat,pres,prs

@@ -4,12 +4,11 @@
 
 # Import packages and libraries
 import re
-import os
 
 # Import scripts
 from src.gloss import errors as GlossErrors
 
-# Import variables
+# Import classes, functions, and variables
 from src.gloss.constants import GRAMS
 from src.infer.constants import RADIO
 
@@ -17,7 +16,7 @@ from src.infer.constants import RADIO
 __project_parent__ = 'AGGREGATION'
 __project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
 __project_name__ = 'Map Gloss'
-__script__ = 'choices.py'
+__script__ = 'infer/choices.py'
 __date__ = 'March 2015'
 
 __author__ = 'MichaelLockwood'

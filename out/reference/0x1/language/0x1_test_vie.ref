@@ -8,7 +8,7 @@
 0x1,test,vie,abs,abs
 0x1,test,vie,affirmation,lexical entry
 0x1,test,vie,all,lexical entry
-0x1,test,vie,already,user-identified
+0x1,test,vie,already,lexical entry
 0x1,test,vie,and,lexical entry
 0x1,test,vie,animal,lexical entry
 0x1,test,vie,art,ptcp
@@ -27,7 +27,7 @@
 0x1,test,vie,clf,user-identified
 0x1,test,vie,cloud,lexical entry
 0x1,test,vie,comp,comp
-0x1,test,vie,compact,comp
+0x1,test,vie,compact,lexical entry
 0x1,test,vie,cont,cont
 0x1,test,vie,cop,cop
 0x1,test,vie,curtain,lexical entry

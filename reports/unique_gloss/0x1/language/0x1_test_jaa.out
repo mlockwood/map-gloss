@@ -2,96 +2,96 @@ Accuracy: 0.8571428571428571
 Total: 91; Correct: 78
 
 Incorrect pairs
+test, jaa, exl                                           Gold: excl                 System: lexical entry       
+test, jaa, dec                                           Gold: lexical entry        System: user-identified     
+test, jaa, nspt                                          Gold: npst                 System: lexical entry       
+test, jaa, inc                                           Gold: incl                 System: lexical entry       
+test, jaa, oc                                            Gold: user-identified      System: lexical entry       
+test, jaa, vn                                            Gold: user-identified      System: lexical entry       
 test, jaa, exc                                           Gold: excl                 System: lexical entry       
+test, jaa, rpn                                           Gold: user-identified      System: lexical entry       
 test, jaa, ipe                                           Gold: user-identified      System: lexical entry       
+test, jaa, ipn                                           Gold: user-identified      System: lexical entry       
+test, jaa, fpn                                           Gold: combined             System: lexical entry       
 test, jaa, habit                                         Gold: lexical entry        System: user-identified     
 test, jaa, fpe                                           Gold: user-identified      System: lexical entry       
-test, jaa, fpn                                           Gold: combined             System: lexical entry       
-test, jaa, ipn                                           Gold: user-identified      System: lexical entry       
-test, jaa, dec                                           Gold: lexical entry        System: user-identified     
-test, jaa, inc                                           Gold: incl                 System: lexical entry       
-test, jaa, vn                                            Gold: user-identified      System: lexical entry       
-test, jaa, nspt                                          Gold: npst                 System: lexical entry       
-test, jaa, oc                                            Gold: user-identified      System: lexical entry       
-test, jaa, exl                                           Gold: excl                 System: lexical entry       
-test, jaa, rpn                                           Gold: user-identified      System: lexical entry       
 
 Correct pairs
-test, jaa, f                                             Gold: f                    System: f                   
-test, jaa, hurt                                          Gold: lexical entry        System: lexical entry       
-test, jaa, 1sg                                           Gold: 1sg                  System: 1sg                 
-test, jaa, top                                           Gold: top                  System: top                 
-test, jaa, car                                           Gold: lexical entry        System: lexical entry       
-test, jaa, another                                       Gold: lexical entry        System: lexical entry       
-test, jaa, eat                                           Gold: lexical entry        System: lexical entry       
 test, jaa, sleep                                         Gold: lexical entry        System: lexical entry       
-test, jaa, u                                             Gold: lexical entry        System: lexical entry       
-test, jaa, bite                                          Gold: lexical entry        System: lexical entry       
-test, jaa, house                                         Gold: lexical entry        System: lexical entry       
-test, jaa, acc                                           Gold: acc                  System: acc                 
-test, jaa, come                                          Gold: lexical entry        System: lexical entry       
-test, jaa, rpe                                           Gold: lexical entry        System: lexical entry       
-test, jaa, ask                                           Gold: lexical entry        System: lexical entry       
-test, jaa, drink                                         Gold: lexical entry        System: lexical entry       
-test, jaa, neg                                           Gold: neg                  System: neg                 
-test, jaa, walk                                          Gold: lexical entry        System: lexical entry       
-test, jaa, woman                                         Gold: lexical entry        System: lexical entry       
-test, jaa, nom                                           Gold: nom                  System: nom                 
 test, jaa, want                                          Gold: lexical entry        System: lexical entry       
-test, jaa, bit                                           Gold: lexical entry        System: lexical entry       
-test, jaa, think                                         Gold: lexical entry        System: lexical entry       
-test, jaa, banana                                        Gold: lexical entry        System: lexical entry       
-test, jaa, dog                                           Gold: lexical entry        System: lexical entry       
-test, jaa, park                                          Gold: lexical entry        System: lexical entry       
-test, jaa, call                                          Gold: lexical entry        System: lexical entry       
 test, jaa, be                                            Gold: lexical entry        System: lexical entry       
-test, jaa, see                                           Gold: lexical entry        System: lexical entry       
-test, jaa, old                                           Gold: lexical entry        System: lexical entry       
-test, jaa, pint                                          Gold: lexical entry        System: lexical entry       
-test, jaa, piece                                         Gold: lexical entry        System: lexical entry       
-test, jaa, hungry                                        Gold: lexical entry        System: lexical entry       
-test, jaa, located                                       Gold: lexical entry        System: lexical entry       
-test, jaa, decl                                          Gold: decl                 System: decl                
-test, jaa, fast                                          Gold: lexical entry        System: lexical entry       
-test, jaa, coffee                                        Gold: lexical entry        System: lexical entry       
-test, jaa, 3sg                                           Gold: 3sg                  System: 3sg                 
-test, jaa, can                                           Gold: lexical entry        System: lexical entry       
-test, jaa, 1pl                                           Gold: 1pl                  System: 1pl                 
-test, jaa, unknown                                       Gold: lexical entry        System: lexical entry       
-test, jaa, cat                                           Gold: lexical entry        System: lexical entry       
-test, jaa, okobomi                                       Gold: lexical entry        System: lexical entry       
 test, jaa, out                                           Gold: lexical entry        System: lexical entry       
-test, jaa, aux                                           Gold: aux                  System: aux                 
-test, jaa, fruit                                         Gold: lexical entry        System: lexical entry       
-test, jaa, anim                                          Gold: anim                 System: anim                
-test, jaa, okomobi                                       Gold: lexical entry        System: lexical entry       
-test, jaa, npst                                          Gold: npst                 System: npst                
-test, jaa, jaguar                                        Gold: lexical entry        System: lexical entry       
+test, jaa, banana                                        Gold: lexical entry        System: lexical entry       
 test, jaa, 2sg                                           Gold: 2sg                  System: 2sg                 
-test, jaa, good                                          Gold: lexical entry        System: lexical entry       
-test, jaa, comp                                          Gold: comp                 System: comp                
-test, jaa, 3pl                                           Gold: 3pl                  System: 3pl                 
+test, jaa, postp                                         Gold: user-identified      System: user-identified     
+test, jaa, ask                                           Gold: lexical entry        System: lexical entry       
+test, jaa, cat                                           Gold: lexical entry        System: lexical entry       
+test, jaa, cont                                          Gold: cont                 System: cont                
+test, jaa, without                                       Gold: lexical entry        System: lexical entry       
+test, jaa, fast                                          Gold: lexical entry        System: lexical entry       
+test, jaa, old                                           Gold: lexical entry        System: lexical entry       
+test, jaa, okobomi                                       Gold: lexical entry        System: lexical entry       
+test, jaa, aux                                           Gold: aux                  System: aux                 
+test, jaa, can                                           Gold: lexical entry        System: lexical entry       
+test, jaa, decl                                          Gold: decl                 System: decl                
+test, jaa, quick                                         Gold: lexical entry        System: lexical entry       
+test, jaa, ccall                                         Gold: lexical entry        System: lexical entry       
 test, jaa, and                                           Gold: lexical entry        System: lexical entry       
+test, jaa, see                                           Gold: lexical entry        System: lexical entry       
 test, jaa, m                                             Gold: m                    System: m                   
+test, jaa, say                                           Gold: lexical entry        System: lexical entry       
+test, jaa, bit                                           Gold: lexical entry        System: lexical entry       
+test, jaa, top                                           Gold: top                  System: top                 
+test, jaa, fruit                                         Gold: lexical entry        System: lexical entry       
+test, jaa, house                                         Gold: lexical entry        System: lexical entry       
+test, jaa, npst                                          Gold: npst                 System: npst                
+test, jaa, 3sg                                           Gold: 3sg                  System: 3sg                 
+test, jaa, pfutint                                       Gold: lexical entry        System: lexical entry       
+test, jaa, pint                                          Gold: lexical entry        System: lexical entry       
+test, jaa, u                                             Gold: lexical entry        System: lexical entry       
+test, jaa, anim                                          Gold: anim                 System: anim                
+test, jaa, walk                                          Gold: lexical entry        System: lexical entry       
+test, jaa, this                                          Gold: incomplete           System: incomplete          
+test, jaa, located                                       Gold: lexical entry        System: lexical entry       
+test, jaa, nom                                           Gold: nom                  System: nom                 
+test, jaa, piece                                         Gold: lexical entry        System: lexical entry       
+test, jaa, come                                          Gold: lexical entry        System: lexical entry       
+test, jaa, coffee                                        Gold: lexical entry        System: lexical entry       
+test, jaa, 3pl                                           Gold: 3pl                  System: 3pl                 
+test, jaa, incl                                          Gold: incl                 System: incl                
+test, jaa, know                                          Gold: lexical entry        System: lexical entry       
+test, jaa, rpe                                           Gold: lexical entry        System: lexical entry       
+test, jaa, car                                           Gold: lexical entry        System: lexical entry       
+test, jaa, 1sg                                           Gold: 1sg                  System: 1sg                 
+test, jaa, another                                       Gold: lexical entry        System: lexical entry       
+test, jaa, dog                                           Gold: lexical entry        System: lexical entry       
+test, jaa, hurt                                          Gold: lexical entry        System: lexical entry       
+test, jaa, okomobi                                       Gold: lexical entry        System: lexical entry       
+test, jaa, back                                          Gold: lexical entry        System: lexical entry       
+test, jaa, neg                                           Gold: neg                  System: neg                 
+test, jaa, call                                          Gold: lexical entry        System: lexical entry       
+test, jaa, f                                             Gold: f                    System: f                   
+test, jaa, wake                                          Gold: lexical entry        System: lexical entry       
+test, jaa, woman                                         Gold: lexical entry        System: lexical entry       
+test, jaa, glass                                         Gold: lexical entry        System: lexical entry       
+test, jaa, drink                                         Gold: lexical entry        System: lexical entry       
+test, jaa, passion                                       Gold: lexical entry        System: lexical entry       
+test, jaa, acc                                           Gold: acc                  System: acc                 
+test, jaa, think                                         Gold: lexical entry        System: lexical entry       
 test, jaa, unripe                                        Gold: lexical entry        System: lexical entry       
+test, jaa, bite                                          Gold: lexical entry        System: lexical entry       
+test, jaa, 2pl                                           Gold: 2pl                  System: 2pl                 
 test, jaa, chewing                                       Gold: lexical entry        System: lexical entry       
+test, jaa, eat                                           Gold: lexical entry        System: lexical entry       
+test, jaa, man                                           Gold: lexical entry        System: lexical entry       
+test, jaa, tell                                          Gold: lexical entry        System: lexical entry       
+test, jaa, comp                                          Gold: comp                 System: comp                
+test, jaa, jaguar                                        Gold: lexical entry        System: lexical entry       
+test, jaa, 1pl                                           Gold: 1pl                  System: 1pl                 
+test, jaa, hungry                                        Gold: lexical entry        System: lexical entry       
+test, jaa, unknown                                       Gold: lexical entry        System: lexical entry       
+test, jaa, park                                          Gold: lexical entry        System: lexical entry       
+test, jaa, good                                          Gold: lexical entry        System: lexical entry       
 test, jaa, sloth                                         Gold: lexical entry        System: lexical entry       
 test, jaa, chase                                         Gold: lexical entry        System: lexical entry       
-test, jaa, say                                           Gold: lexical entry        System: lexical entry       
-test, jaa, ccall                                         Gold: lexical entry        System: lexical entry       
-test, jaa, 2pl                                           Gold: 2pl                  System: 2pl                 
-test, jaa, wake                                          Gold: lexical entry        System: lexical entry       
-test, jaa, glass                                         Gold: lexical entry        System: lexical entry       
 test, jaa, up                                            Gold: lexical entry        System: lexical entry       
-test, jaa, quick                                         Gold: lexical entry        System: lexical entry       
-test, jaa, back                                          Gold: lexical entry        System: lexical entry       
-test, jaa, this                                          Gold: incomplete           System: incomplete          
-test, jaa, man                                           Gold: lexical entry        System: lexical entry       
-test, jaa, passion                                       Gold: lexical entry        System: lexical entry       
-test, jaa, cont                                          Gold: cont                 System: cont                
-test, jaa, know                                          Gold: lexical entry        System: lexical entry       
-test, jaa, pfutint                                       Gold: lexical entry        System: lexical entry       
-test, jaa, postp                                         Gold: user-identified      System: user-identified     
-test, jaa, incl                                          Gold: incl                 System: incl                
-test, jaa, tell                                          Gold: lexical entry        System: lexical entry       
-test, jaa, without                                       Gold: lexical entry        System: lexical entry       

@@ -9,9 +9,9 @@ Recall: 1.0
 F-Score: 1.2666666666666668
 
 False Positives Removed
-	('test', 'hix', 'aspects', 'imperfective')
-	('test', 'hix', 'tenses', 'present')
 	('test', 'hix', 'tenses', 'future')
+	('test', 'hix', 'tenses', 'present')
+	('test', 'hix', 'aspects', 'imperfective')
 	('test', 'hix', 'aspects', 'perfective')
 
 
@@ -23,18 +23,18 @@ Recall: 0.07142857142857142
 F-Score: 0.13333333333333333
 
 False Negatives
-	('test', 'hix', 'tenses', 'nonpast')
-	('test', 'hix', 'tenses', 'imm-past')
-	('test', 'hix', 'tenses', 'rec-comp')
 	('test', 'hix', 'tenses', 'recent-past-cont')
-	('test', 'hix', 'tenses', 'nonpast-uncert')
+	('test', 'hix', 'tenses', 'nonpast')
 	('test', 'hix', 'tenses', 'completive')
-	('test', 'hix', 'tenses', 'recent-past-comp')
-	('test', 'hix', 'tenses', 'dist-comp')
-	('test', 'hix', 'tenses', 'continuative')
 	('test', 'hix', 'tenses', 'dist-cont')
-	('test', 'hix', 'tenses', 'rec-cont')
+	('test', 'hix', 'tenses', 'nonpast-uncert')
 	('test', 'hix', 'tenses', 'distant')
+	('test', 'hix', 'tenses', 'recent-past-comp')
+	('test', 'hix', 'tenses', 'continuative')
+	('test', 'hix', 'tenses', 'imm-past')
+	('test', 'hix', 'tenses', 'rec-cont')
+	('test', 'hix', 'tenses', 'dist-comp')
+	('test', 'hix', 'tenses', 'rec-comp')
 	('test', 'hix', 'tenses', 'recent')
 
 
@@ -46,23 +46,23 @@ Recall: 0.07142857142857142
 F-Score: 0.10526315789473682
 
 False Negatives
-	('test', 'hix', 'tenses', 'nonpast')
-	('test', 'hix', 'tenses', 'imm-past')
-	('test', 'hix', 'tenses', 'rec-comp')
 	('test', 'hix', 'tenses', 'recent-past-cont')
-	('test', 'hix', 'tenses', 'nonpast-uncert')
+	('test', 'hix', 'tenses', 'nonpast')
 	('test', 'hix', 'tenses', 'completive')
-	('test', 'hix', 'tenses', 'recent-past-comp')
-	('test', 'hix', 'tenses', 'dist-comp')
-	('test', 'hix', 'tenses', 'continuative')
 	('test', 'hix', 'tenses', 'dist-cont')
-	('test', 'hix', 'tenses', 'rec-cont')
+	('test', 'hix', 'tenses', 'nonpast-uncert')
 	('test', 'hix', 'tenses', 'distant')
+	('test', 'hix', 'tenses', 'recent-past-comp')
+	('test', 'hix', 'tenses', 'continuative')
+	('test', 'hix', 'tenses', 'imm-past')
+	('test', 'hix', 'tenses', 'rec-cont')
+	('test', 'hix', 'tenses', 'dist-comp')
+	('test', 'hix', 'tenses', 'rec-comp')
 	('test', 'hix', 'tenses', 'recent')
 
 False Positives
-	('test', 'hix', 'aspects', 'imperfective')
-	('test', 'hix', 'tenses', 'present')
 	('test', 'hix', 'tenses', 'future')
 	('test', 'hix', 'aspects', 'perfective')
+	('test', 'hix', 'aspects', 'imperfective')
+	('test', 'hix', 'tenses', 'present')
 

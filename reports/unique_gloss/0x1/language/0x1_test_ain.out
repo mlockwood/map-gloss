@@ -6,50 +6,50 @@ test, ain, cannot                                        Gold: lexical entry    
 test, ain, asp                                           Gold: part-of-speech       System: lexical entry       
 
 Correct pairs
-test, ain, come                                          Gold: lexical entry        System: lexical entry       
-test, ain, chase                                         Gold: lexical entry        System: lexical entry       
-test, ain, if                                            Gold: lexical entry        System: lexical entry       
 test, ain, neg                                           Gold: neg                  System: neg                 
-test, ain, girl                                          Gold: lexical entry        System: lexical entry       
-test, ain, that                                          Gold: incomplete           System: incomplete          
 test, ain, unknown                                       Gold: lexical entry        System: lexical entry       
-test, ain, boy                                           Gold: lexical entry        System: lexical entry       
-test, ain, think                                         Gold: lexical entry        System: lexical entry       
-test, ain, village                                       Gold: lexical entry        System: lexical entry       
-test, ain, dur                                           Gold: dur                  System: dur                 
-test, ain, ques                                          Gold: q                    System: q                   
-test, ain, 2pl                                           Gold: 2pl                  System: 2pl                 
-test, ain, hit                                           Gold: lexical entry        System: lexical entry       
-test, ain, child                                         Gold: lexical entry        System: lexical entry       
-test, ain, can                                           Gold: lexical entry        System: lexical entry       
-test, ain, enter                                         Gold: lexical entry        System: lexical entry       
-test, ain, and                                           Gold: lexical entry        System: lexical entry       
-test, ain, colloc                                        Gold: lexical entry        System: lexical entry       
-test, ain, 2sg                                           Gold: 2sg                  System: 2sg                 
-test, ain, ask                                           Gold: lexical entry        System: lexical entry       
-test, ain, eat                                           Gold: lexical entry        System: lexical entry       
-test, ain, be                                            Gold: lexical entry        System: lexical entry       
-test, ain, money                                         Gold: lexical entry        System: lexical entry       
-test, ain, 1sg                                           Gold: 1sg                  System: 1sg                 
-test, ain, laugh                                         Gold: lexical entry        System: lexical entry       
-test, ain, see                                           Gold: lexical entry        System: lexical entry       
-test, ain, 1pl                                           Gold: 1pl                  System: 1pl                 
 test, ain, house                                         Gold: lexical entry        System: lexical entry       
-test, ain, cop                                           Gold: cop                  System: cop                 
-test, ain, dog                                           Gold: lexical entry        System: lexical entry       
+test, ain, ask                                           Gold: lexical entry        System: lexical entry       
+test, ain, hurt                                          Gold: lexical entry        System: lexical entry       
+test, ain, money                                         Gold: lexical entry        System: lexical entry       
+test, ain, 2sg                                           Gold: 2sg                  System: 2sg                 
+test, ain, be                                            Gold: lexical entry        System: lexical entry       
+test, ain, sg                                            Gold: sg                   System: sg                  
 test, ain, obj                                           Gold: obj                  System: obj                 
-test, ain, cat                                           Gold: lexical entry        System: lexical entry       
+test, ain, give                                          Gold: lexical entry        System: lexical entry       
+test, ain, that                                          Gold: incomplete           System: incomplete          
+test, ain, dog                                           Gold: lexical entry        System: lexical entry       
+test, ain, enter                                         Gold: lexical entry        System: lexical entry       
+test, ain, girl                                          Gold: lexical entry        System: lexical entry       
+test, ain, laugh                                         Gold: lexical entry        System: lexical entry       
+test, ain, hit                                           Gold: lexical entry        System: lexical entry       
+test, ain, nom                                           Gold: nom                  System: nom                 
+test, ain, can                                           Gold: lexical entry        System: lexical entry       
+test, ain, boy                                           Gold: lexical entry        System: lexical entry       
+test, ain, early                                         Gold: lexical entry        System: lexical entry       
+test, ain, pl                                            Gold: pl                   System: pl                  
+test, ain, village                                       Gold: lexical entry        System: lexical entry       
+test, ain, grass                                         Gold: lexical entry        System: lexical entry       
 test, ain, near                                          Gold: lexical entry        System: lexical entry       
 test, ain, beautiful                                     Gold: lexical entry        System: lexical entry       
-test, ain, this                                          Gold: incomplete           System: incomplete          
-test, ain, hurt                                          Gold: lexical entry        System: lexical entry       
-test, ain, in                                            Gold: lexical entry        System: lexical entry       
-test, ain, nom                                           Gold: nom                  System: nom                 
-test, ain, early                                         Gold: lexical entry        System: lexical entry       
-test, ain, to                                            Gold: lexical entry        System: lexical entry       
-test, ain, sg                                            Gold: sg                   System: sg                  
-test, ain, grass                                         Gold: lexical entry        System: lexical entry       
-test, ain, pl                                            Gold: pl                   System: pl                  
-test, ain, pron                                          Gold: part-of-speech       System: part-of-speech      
-test, ain, give                                          Gold: lexical entry        System: lexical entry       
 test, ain, many                                          Gold: lexical entry        System: lexical entry       
+test, ain, see                                           Gold: lexical entry        System: lexical entry       
+test, ain, eat                                           Gold: lexical entry        System: lexical entry       
+test, ain, and                                           Gold: lexical entry        System: lexical entry       
+test, ain, 2pl                                           Gold: 2pl                  System: 2pl                 
+test, ain, cat                                           Gold: lexical entry        System: lexical entry       
+test, ain, child                                         Gold: lexical entry        System: lexical entry       
+test, ain, pron                                          Gold: part-of-speech       System: part-of-speech      
+test, ain, to                                            Gold: lexical entry        System: lexical entry       
+test, ain, 1pl                                           Gold: 1pl                  System: 1pl                 
+test, ain, in                                            Gold: lexical entry        System: lexical entry       
+test, ain, think                                         Gold: lexical entry        System: lexical entry       
+test, ain, this                                          Gold: incomplete           System: incomplete          
+test, ain, ques                                          Gold: q                    System: q                   
+test, ain, 1sg                                           Gold: 1sg                  System: 1sg                 
+test, ain, dur                                           Gold: dur                  System: dur                 
+test, ain, chase                                         Gold: lexical entry        System: lexical entry       
+test, ain, cop                                           Gold: cop                  System: cop                 
+test, ain, colloc                                        Gold: lexical entry        System: lexical entry       
+test, ain, if                                            Gold: lexical entry        System: lexical entry       
+test, ain, come                                          Gold: lexical entry        System: lexical entry       

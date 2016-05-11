@@ -12,7 +12,7 @@ from src.gloss import errors as GlossErrors
 __project_parent__ = 'AGGREGATION'
 __project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
 __project_name__ = 'Map Gloss'
-__script__ = 'dataset.py'
+__script__ = 'gloss/dataset.py'
 __date__ = 'March 2015'
 
 __author__ = 'MichaelLockwood'

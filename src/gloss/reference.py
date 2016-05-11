@@ -2,17 +2,17 @@
 # -*- coding: utf-8 -*-
 
 # Import packages and libraries
-import re
 import os
+import re
 
-# Import variables
+# Import classes, functions, and variables
 from src.gloss.constants import PATH
 
 
 __project_parent__ = 'AGGREGATION'
 __project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
 __project_name__ = 'Map Gloss'
-__script__ = 'reference.py'
+__script__ = 'gloss/reference.py'
 __date__ = 'March 2015'
 
 __author__ = 'MichaelLockwood'

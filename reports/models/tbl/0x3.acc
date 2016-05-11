@@ -34,7 +34,7 @@ animate
 	animate             	      14
 
 combined
-	user-identified     	       1
+	pfv                 	       1
 	combined            	       1
 
 dat
@@ -86,6 +86,8 @@ part-of-speech
 	lexical entry       	       6
 	incomplete          	       3
 	part-of-speech      	       2
+
+pfv
 
 pl
 	pl                  	       5

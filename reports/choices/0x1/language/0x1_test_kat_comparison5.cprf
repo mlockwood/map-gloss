@@ -20,10 +20,10 @@ Recall: 0.42857142857142855
 F-Score: 0.6
 
 False Negatives
-	('test', 'kat', 'aspects', 'imperfective')
 	('test', 'kat', 'moods', 'indicative')
-	('test', 'kat', 'aspects', 'perfective')
 	('test', 'kat', 'moods', 'subjunctive')
+	('test', 'kat', 'aspects', 'perfective')
+	('test', 'kat', 'aspects', 'imperfective')
 
 
 
@@ -34,9 +34,9 @@ Recall: 0.2857142857142857
 F-Score: 0.4444444444444445
 
 False Negatives
-	('test', 'kat', 'aspects', 'imperfective')
-	('test', 'kat', 'tenses', 'present')
-	('test', 'kat', 'moods', 'indicative')
-	('test', 'kat', 'aspects', 'perfective')
 	('test', 'kat', 'moods', 'subjunctive')
+	('test', 'kat', 'moods', 'indicative')
+	('test', 'kat', 'tenses', 'present')
+	('test', 'kat', 'aspects', 'perfective')
+	('test', 'kat', 'aspects', 'imperfective')
 

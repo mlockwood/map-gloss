@@ -3,18 +3,14 @@
 
 
 # Import packages and libraries
-import re
 import os
 
 # Import scripts
-
 from src.gloss import model
 from src.infer import choices
 
-# Import classes
+# Import classes, functions, and variables
 from src.eval.eval_infer import Choices, Container
-
-# Import variables
 from src.gloss.constants import find_path, PATH, EVAL
 from src.gloss.reference import Language, load_references
 
@@ -22,7 +18,7 @@ from src.gloss.reference import Language, load_references
 __project_parent__ = 'AGGREGATION'
 __project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
 __project_name__ = 'Map Gloss'
-__script__ = 'model.py'
+__script__ = 'infer/model.py'
 __date__ = 'March 2015'
 
 __author__ = 'MichaelLockwood'

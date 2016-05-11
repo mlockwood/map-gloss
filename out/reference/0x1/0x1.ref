@@ -416,7 +416,7 @@
 0x1,test,hix,cont,cont
 0x1,test,hix,dance,lexical entry
 0x1,test,hix,deictic,lexical entry
-0x1,test,hix,denomlzr,lexical entry
+0x1,test,hix,denomlzr,nmlz
 0x1,test,hix,die,lexical entry
 0x1,test,hix,dist,dist
 0x1,test,hix,eat,lexical entry
@@ -494,14 +494,14 @@
 0x1,test,hix,wash,lexical entry
 0x1,test,hix,weep,lexical entry
 0x1,test,hix,woman,lexical entry
-0x1,test,inh,1000,user-identified
-0x1,test,inh,1pex,user-identified
+0x1,test,inh,1000,lexical entry
+0x1,test,inh,1pex,lexical entry
 0x1,test,inh,1plexcl,1sg
 0x1,test,inh,1plincl,user-identified
 0x1,test,inh,1s,1sg
 0x1,test,inh,1sg,1sg
-0x1,test,inh,1srfl,user-identified
-0x1,test,inh,20,user-identified
+0x1,test,inh,1srfl,lexical entry
+0x1,test,inh,20,lexical entry
 0x1,test,inh,2p,2sg
 0x1,test,inh,2pl,2pl
 0x1,test,inh,2s,2sg
@@ -599,8 +599,8 @@
 0x1,test,inh,how,lexical entry
 0x1,test,inh,hurt,lexical entry
 0x1,test,inh,i,incomplete
-0x1,test,inh,impf,user-identified
-0x1,test,inh,impv,user-identified
+0x1,test,inh,impf,lexical entry
+0x1,test,inh,impv,lexical entry
 0x1,test,inh,in,lexical entry
 0x1,test,inh,incp,lexical entry
 0x1,test,inh,inf,inf
@@ -845,7 +845,7 @@
 0x1,test,kat,german,lexical entry
 0x1,test,kat,hide,lexical entry
 0x1,test,kat,however,lexical entry
-0x1,test,kat,imperf,user-identified
+0x1,test,kat,imperf,prf
 0x1,test,kat,in,lexical entry
 0x1,test,kat,kill,lexical entry
 0x1,test,kat,know,lexical entry
@@ -864,7 +864,7 @@
 0x1,test,kat,passive,passive
 0x1,test,kat,past,past
 0x1,test,kat,pl,pl
-0x1,test,kat,pluperf,user-identified
+0x1,test,kat,pluperf,prf
 0x1,test,kat,pre,prs
 0x1,test,kat,prepare,lexical entry
 0x1,test,kat,pres,prs
@@ -964,7 +964,7 @@
 0x1,test,vie,abs,abs
 0x1,test,vie,affirmation,lexical entry
 0x1,test,vie,all,lexical entry
-0x1,test,vie,already,user-identified
+0x1,test,vie,already,lexical entry
 0x1,test,vie,and,lexical entry
 0x1,test,vie,animal,lexical entry
 0x1,test,vie,art,ptcp
@@ -983,7 +983,7 @@
 0x1,test,vie,clf,user-identified
 0x1,test,vie,cloud,lexical entry
 0x1,test,vie,comp,comp
-0x1,test,vie,compact,comp
+0x1,test,vie,compact,lexical entry
 0x1,test,vie,cont,cont
 0x1,test,vie,cop,cop
 0x1,test,vie,curtain,lexical entry

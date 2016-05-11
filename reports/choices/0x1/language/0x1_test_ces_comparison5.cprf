@@ -20,9 +20,9 @@ Recall: 0.0
 F-Score: 0.0
 
 False Positives
-	('test', 'ces', 'tenses', 'present')
 	('test', 'ces', 'tenses', 'future')
 	('test', 'ces', 'aspects', 'ipfv')
+	('test', 'ces', 'tenses', 'present')
 
 
 
@@ -33,6 +33,6 @@ Recall: 0.0
 F-Score: 0.0
 
 False Positives
-	('test', 'ces', 'tenses', 'present')
 	('test', 'ces', 'tenses', 'future')
+	('test', 'ces', 'tenses', 'present')
 

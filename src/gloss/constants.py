@@ -10,7 +10,7 @@ import os
 __project_parent__ = 'AGGREGATION'
 __project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
 __project_name__ = 'Map Gloss'
-__script__ = 'constants.py'
+__script__ = 'gloss/constants.py'
 __date__ = 'March 2015'
 
 __author__ = 'MichaelLockwood'

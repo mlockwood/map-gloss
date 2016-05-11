@@ -1,28 +1,34 @@
 Absolute Change
-Precision: 0.0
+Precision: -0.25
 Recall: -0.4
-F-Score: -0.2500000000000001
+F-Score: -0.3333333333333335
 
 Relative Change
-Precision: 1.0
+Precision: 0.75
 Recall: 0.6
-F-Score: 0.7499999999999999
+F-Score: 0.6666666666666665
 
 True Positives to False Negatives
-	('dev1', 'rus', 'aspects', 'imperfective')
 	('dev1', 'rus', 'aspects', 'perfective')
+	('dev1', 'rus', 'aspects', 'imperfective')
+
+False Positives Added
+	('dev1', 'rus', 'aspects', 'pfv')
 
 
 
 --- 0x3_dev1_rus_FINAL ---
 
-Precision: 1.0
+Precision: 0.75
 Recall: 0.6
-F-Score: 0.7499999999999999
+F-Score: 0.6666666666666665
 
 False Negatives
-	('dev1', 'rus', 'aspects', 'imperfective')
 	('dev1', 'rus', 'aspects', 'perfective')
+	('dev1', 'rus', 'aspects', 'imperfective')
+
+False Positives
+	('dev1', 'rus', 'aspects', 'pfv')
 
 
 

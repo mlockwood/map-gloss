@@ -9,11 +9,11 @@ Recall: 0.0
 F-Score: 0.0
 
 False Positives Removed
-	('test', 'tha', 'tenses', 'present')
-	('test', 'tha', 'aspects', 'imperfective')
 	('test', 'tha', 'tenses', 'future')
-	('test', 'tha', 'aspects', 'perfective')
 	('test', 'tha', 'tenses', 'past')
+	('test', 'tha', 'aspects', 'imperfective')
+	('test', 'tha', 'tenses', 'present')
+	('test', 'tha', 'aspects', 'perfective')
 
 
 
@@ -32,9 +32,9 @@ Recall: 0.0
 F-Score: 0.0
 
 False Positives
-	('test', 'tha', 'tenses', 'present')
-	('test', 'tha', 'aspects', 'imperfective')
 	('test', 'tha', 'tenses', 'future')
 	('test', 'tha', 'tenses', 'past')
+	('test', 'tha', 'aspects', 'imperfective')
+	('test', 'tha', 'tenses', 'present')
 	('test', 'tha', 'aspects', 'perfective')
 

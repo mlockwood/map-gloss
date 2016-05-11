@@ -17,8 +17,8 @@ Recall: 0.0
 F-Score: 0.0
 
 False Positives
-	('test', 'tgl', 'tenses', 'present')
 	('test', 'tgl', 'aspects', 'pfv')
+	('test', 'tgl', 'tenses', 'present')
 	('test', 'tgl', 'tenses', 'future')
 
 
@@ -30,7 +30,7 @@ Recall: 0.0
 F-Score: 0.0
 
 False Positives
-	('test', 'tgl', 'tenses', 'present')
 	('test', 'tgl', 'aspects', 'pfv')
+	('test', 'tgl', 'tenses', 'present')
 	('test', 'tgl', 'tenses', 'future')
 

@@ -10,13 +10,11 @@ import os
 from src.gloss import errors as GlossErrors
 from src.utils import functions
 
-# Import classes
-from src.gloss.result import UniqueGloss, Container
-from src.gloss.vector import Collection, Vector, set_vectors, set_gold_standard
-
-# Import variables
+# Import classes, functions, and variables
 from src.gloss.constants import find_path, GRAMS, PATH, EVAL
 from src.gloss.dataset import load_datasets
+from src.gloss.result import UniqueGloss, Container
+from src.gloss.vector import Collection, Vector, set_vectors, set_gold_standard
 
 
 __project_parent__ = 'AGGREGATION'

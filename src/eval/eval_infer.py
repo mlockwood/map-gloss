@@ -1,35 +1,32 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-__program__ = eval_infer.py
-__author__ = MichaelLockwood
-__projectclass__ = LING575
-__projecttopic__ = AGGREGATION Inferrence
-__projectname__ = Evaluate Tense, Aspect, and Mood
-__date__ = June2015
-__credits__ = None
-__collaborators__ = None
 
-This module loads two sets of choices files; a gold standard set and an
-auto-generated set. The evaluation procedure compares the gold standard
-against the inference set and a baseline set.
-"""
+# Import packages and libraries
 import os
-import re
-import sys
-
 
 # Import scripts
 from src.eval import confusion_matrix
 from src.utils import choices_reader
-
 
 # Import errors
 from src.eval.constants import INFER_BASELINE
 from src.gloss.constants import PATH
 from src.infer.constants import CTYPES, FTYPES
 import src.infer.errors as InferErrors
+
+
+__project_parent__ = 'AGGREGATION'
+__project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
+__project_name__ = 'Map Gloss'
+__script__ = 'eval/infer.py'
+__date__ = 'March 2015'
+
+__author__ = 'MichaelLockwood'
+__email__ = 'lockwm@uw.edu'
+__github__ = 'mlockwood'
+__credits__ = 'Emily M. Bender for her guidance'
+__collaborators__ = None
 
 
 class Choices(object):

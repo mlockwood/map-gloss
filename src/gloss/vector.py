@@ -4,13 +4,28 @@ import string
 # Import scripts
 from src.eval import gold_standard
 from src.utils import functions
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
+# Import scripts
 from src.utils.xigt.codecs import xigtxml
+
+# Import classes, functions, and variables
 from src.gloss.constants import GRAMS, VALUES
 
 
-__author__ = 'Michael Lockwood'
+__project_parent__ = 'AGGREGATION'
+__project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
+__project_name__ = 'Map Gloss'
+__script__ = 'gram/vector.py'
+__date__ = 'March 2015'
+
+__author__ = 'MichaelLockwood'
 __email__ = 'lockwm@uw.edu'
 __github__ = 'mlockwood'
+__credits__ = 'Emily M. Bender for her guidance'
+__collaborators__ = None
 
 
 def set_vectors(datasets):

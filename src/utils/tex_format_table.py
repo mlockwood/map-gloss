@@ -1,6 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
+__project_parent__ = 'AGGREGATION'
+__project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
+__project_name__ = 'Map Gloss'
+__script__ = 'utils/tex_format_table.py'
+__date__ = 'March 2015'
+
+__author__ = 'MichaelLockwood'
+__email__ = 'lockwm@uw.edu'
+__github__ = 'mlockwood'
+__credits__ = 'Emily M. Bender for her guidance'
+__collaborators__ = None
+
+
 def convert_to_tex_table(file, columns=0):
     reader = open(file, 'r')
     table = []

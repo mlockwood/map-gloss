@@ -10,14 +10,14 @@ from src.eval import confusion_matrix, gold_standard
 from src.gloss import errors as GlossErrors
 from src.utils import functions
 
-# Import variables
+# Import classes, functions, and variables
 from src.gloss.constants import PATH, CTYPES
 
 
 __project_parent__ = 'AGGREGATION'
 __project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
 __project_name__ = 'Map Gloss'
-__script__ = 'result.py'
+__script__ = 'gloss/result.py'
 __date__ = 'March 2015'
 
 __author__ = 'MichaelLockwood'

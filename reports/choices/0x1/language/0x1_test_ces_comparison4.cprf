@@ -12,9 +12,9 @@ False Positives Added
 	('test', 'ces', 'aspects', 'ipfv')
 
 False Positives Removed
+	('test', 'ces', 'tenses', 'past')
 	('test', 'ces', 'aspects', 'imperfective')
 	('test', 'ces', 'aspects', 'perfective')
-	('test', 'ces', 'tenses', 'past')
 
 
 
@@ -25,9 +25,9 @@ Recall: 0.0
 F-Score: 0.0
 
 False Positives
-	('test', 'ces', 'tenses', 'present')
 	('test', 'ces', 'tenses', 'future')
 	('test', 'ces', 'aspects', 'ipfv')
+	('test', 'ces', 'tenses', 'present')
 
 
 
@@ -38,9 +38,9 @@ Recall: 0.0
 F-Score: 0.0
 
 False Positives
-	('test', 'ces', 'tenses', 'present')
-	('test', 'ces', 'aspects', 'imperfective')
 	('test', 'ces', 'tenses', 'future')
 	('test', 'ces', 'tenses', 'past')
 	('test', 'ces', 'aspects', 'perfective')
+	('test', 'ces', 'aspects', 'imperfective')
+	('test', 'ces', 'tenses', 'present')
 

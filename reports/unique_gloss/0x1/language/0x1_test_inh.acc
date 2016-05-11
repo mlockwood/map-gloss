@@ -1,11 +1,11 @@
-Accuracy: 0.9237668161434978
+Accuracy: 0.9282511210762332
 
 1sg
 	1sg                 	       2
 
 2pl
-	2pl                 	       1
 	2sg                 	       1
+	2pl                 	       1
 
 2sg
 	2sg                 	       1
@@ -20,8 +20,9 @@ a
 	lexical entry       	       1
 
 combined
-	user-identified     	       2
+	user-identified     	       1
 	1sg                 	       1
+	lexical entry       	       1
 
 comp
 	user-identified     	       1
@@ -57,11 +58,11 @@ ins
 	ins                 	       1
 
 ipfv
-	user-identified     	       2
+	lexical entry       	       2
 
 lexical entry
-	lexical entry       	     164
-	user-identified     	       5
+	lexical entry       	     166
+	user-identified     	       3
 	complementizer      	       1
 
 m
@@ -80,8 +81,8 @@ part-of-speech
 	part-of-speech      	       3
 
 pl
-	user-identified     	       1
 	pl                  	       1
+	user-identified     	       1
 
 prog
 	prog                	       1
@@ -102,6 +103,6 @@ sbj
 	sbj                 	       1
 
 user-identified
-	user-identified     	       8
-	lexical entry       	       1
+	user-identified     	       7
+	lexical entry       	       2
 

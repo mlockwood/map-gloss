@@ -33,8 +33,8 @@ gen
 
 incomplete
 	incomplete          	      14
-	part-of-speech      	       1
 	combined            	       1
+	part-of-speech      	       1
 
 ind
 	ind                 	       1
@@ -50,8 +50,8 @@ m
 	m                   	       1
 
 neg
-	2sg                 	       1
 	1sg                 	       1
+	2sg                 	       1
 
 nom
 	nom                 	       1
@@ -72,8 +72,8 @@ prs
 	prs                 	       1
 
 q
-	q                   	       1
 	lexical entry       	       1
+	q                   	       1
 
 question
 	question            	       1
