@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16910774-536f-4b7f-b67f-106bd2470b9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_ain.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_ain.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_ary.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_ary.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_ces.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_ces.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_hbs.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_hbs.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_hbs_baseline5.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_hbs_baseline5.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_hix.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_hix.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_hix_baseline5.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_hix_baseline5.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_inh.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_inh.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_inh_baseline5.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_inh_baseline5.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_jaa.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_jaa.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_kat.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_kat.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_kat_baseline5.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_kat_baseline5.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_tgl.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_tgl.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_tgl_baseline5.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_tgl_baseline5.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_vie.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_vie.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_vie_baseline5.choices" afterPath="$PROJECT_DIR$/out/choices/0x1/0x1_test_vie_baseline5.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x3/0x3_dev1_rus.choices" afterPath="$PROJECT_DIR$/out/choices/0x3/0x3_dev1_rus.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/choices/0x3/0x3_dev1_rus_baseline5.choices" afterPath="$PROJECT_DIR$/out/choices/0x3/0x3_dev1_rus_baseline5.choices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/0x1.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/0x1.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/dataset/0x1_test.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/dataset/0x1_test.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_ain.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_ain.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_ary.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_ary.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_ces.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_ces.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_hbs.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_hbs.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_hix.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_hix.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_inh.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_inh.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_jaa.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_jaa.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_kat.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_kat.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_tgl.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_tgl.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_tha.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_tha.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_vie.ref" afterPath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_vie.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x3/0x3.ref" afterPath="$PROJECT_DIR$/out/reference/0x3/0x3.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x3/dataset/0x3_dev1.ref" afterPath="$PROJECT_DIR$/out/reference/0x3/dataset/0x3_dev1.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/reference/0x3/language/0x3_dev1_rus.ref" afterPath="$PROJECT_DIR$/out/reference/0x3/language/0x3_dev1_rus.ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/models/tbl/0x1.acc" afterPath="$PROJECT_DIR$/reports/models/tbl/0x1.acc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/models/tbl/0x1.mod" afterPath="$PROJECT_DIR$/reports/models/tbl/0x1.mod" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/models/tbl/0x1.sys" afterPath="$PROJECT_DIR$/reports/models/tbl/0x1.sys" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/models/tbl/0x2.mod" afterPath="$PROJECT_DIR$/reports/models/tbl/0x2.mod" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/models/tbl/0x3.acc" afterPath="$PROJECT_DIR$/reports/models/tbl/0x3.acc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/models/tbl/0x3.mod" afterPath="$PROJECT_DIR$/reports/models/tbl/0x3.mod" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/models/tbl/0x3.sys" afterPath="$PROJECT_DIR$/reports/models/tbl/0x3.sys" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gloss/constants.py" afterPath="$PROJECT_DIR$/src/gloss/constants.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gloss/model.py" afterPath="$PROJECT_DIR$/src/gloss/model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gloss/reference.py" afterPath="$PROJECT_DIR$/src/gloss/reference.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gloss/result.py" afterPath="$PROJECT_DIR$/src/gloss/result.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gloss/vector.py" afterPath="$PROJECT_DIR$/src/gloss/vector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/infer/model.py" afterPath="$PROJECT_DIR$/src/infer/model.py" />
     </list>
     <ignored path="map_gloss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,44 +33,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gloss/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="311" column="61" selection-start-line="311" selection-start-column="61" selection-end-line="311" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.71291864">
+              <caret line="311" column="29" selection-start-line="311" selection-start-column="29" selection-end-line="311" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gloss/result.py">
+      <file leaf-file-name="dataset.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gloss/dataset.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="192" column="18" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reference.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gloss/reference.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#80#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/infer/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.535885">
+            <state vertical-scroll-proportion="0.0">
               <caret line="106" column="47" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vector.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gloss/vector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -481,9 +434,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gloss/result.py">
+    <entry file="file://$PROJECT_DIR$/src/infer/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="47" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gloss/result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5215311">
           <caret line="192" column="18" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
           <folding />
         </state>
@@ -491,7 +452,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gloss/reference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.67464113">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#80#89#0" expanded="true" />
@@ -499,18 +460,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gloss/model.py">
+    <entry file="file://$PROJECT_DIR$/src/gloss/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="311" column="61" selection-start-line="311" selection-start-column="61" selection-end-line="311" selection-end-column="61" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/infer/model.py">
+    <entry file="file://$PROJECT_DIR$/src/gloss/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.535885">
-          <caret line="106" column="47" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.71291864">
+          <caret line="311" column="29" selection-start-line="311" selection-start-column="29" selection-end-line="311" selection-end-column="29" />
           <folding />
         </state>
       </provider>

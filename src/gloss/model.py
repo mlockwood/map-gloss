@@ -290,7 +290,7 @@ class TBL:
         return True
 
 
-def process_models(models, datasets, out_path):
+def process_models(datasets, models, out_path):
     set_vectors(datasets)
     for model in models:
         train = Collection.init_string_collection(model[1])
@@ -309,7 +309,7 @@ def use_internal_parameters():
                               'test': '{}/data/567/test'.format(agg_path)})
 
     # Process the models with the model file located in the data subdirectory of PATH
-    process_models(load_model(PATH + '/data'), datasets, PATH)
+    process_models(datasets, load_model(PATH + '/data'), PATH)
     return True
 
 
