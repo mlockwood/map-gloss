@@ -110,7 +110,7 @@ class Container(object):
         self.cprf = {}
         Container.objects[container] = self
 
-    def set_confusion_matrices(self):
+    def set_confusion_matrices(self, out_path):
         # Create initial confusion matrices for the baseline and the final sets
         self.cm1 = confusion_matrix.CM(self.gold_grams, self.final_glosses, self.container + '_FINAL')
         self.cm2 = confusion_matrix.CM(self.gold_grams, self.ref_glosses, self.container + '_BASELINE')
@@ -119,9 +119,9 @@ class Container(object):
         self.cprf = confusion_matrix.Compare(self.cm1, self.cm2)
 
         # Set the path for the comparative cprf file
-        path = '{}/reports/cprf/{}/{}'.format(PATH, self.model, self.ctype)
+        path = '{}/reports/cprf/{}/{}'.format(out_path, self.model, self.ctype)
         if self.model == self.container:
-            path = '{}/reports/cprf/{}'.format(PATH, self.model)
+            path = '{}/reports/cprf/{}'.format(out_path, self.model)
 
         # Write the comparative cprf to file
         if not os.path.isdir(path):
@@ -130,11 +130,11 @@ class Container(object):
 
         return True
 
-    def set_unique_gloss_evaluation(self):
+    def set_unique_gloss_evaluation(self, out_path):
         # Set the path for the unique_gloss evaluation file
-        path = '{}/reports/unique_gloss/{}/{}'.format(PATH, self.model, self.ctype)
+        path = '{}/reports/unique_gloss/{}/{}'.format(out_path, self.model, self.ctype)
         if self.model == self.container:
-            path = '{}/reports/unique_gloss/{}'.format(PATH, self.model)
+            path = '{}/reports/unique_gloss/{}'.format(out_path, self.model)
 
         # Set the writer for the unique_gloss evaluation file
         if not os.path.isdir(path):
@@ -192,11 +192,11 @@ class Container(object):
 
         return True
 
-    def export_references(self):
+    def export_references(self, out_path):
         # Set the path for the container reference file
-        path = '{}/out/reference/{}/{}'.format(PATH, self.model, self.ctype)
+        path = '{}/out/reference/{}/{}'.format(out_path, self.model, self.ctype)
         if self.model == self.container:
-            path = '{}/out/reference/{}'.format(PATH, self.model)
+            path = '{}/out/reference/{}'.format(out_path, self.model)
 
         # Set the writer for the container reference file
         if not os.path.isdir(path):

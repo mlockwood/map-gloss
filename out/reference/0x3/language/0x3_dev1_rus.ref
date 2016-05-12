@@ -1,82 +1,82 @@
-0x3,dev1,rus,1,1
-0x3,dev1,rus,1pl,1pl
-0x3,dev1,rus,1sg,1sg
-0x3,dev1,rus,2,2
-0x3,dev1,rus,2pl,2pl
-0x3,dev1,rus,2sg,2sg
-0x3,dev1,rus,3,3
-0x3,dev1,rus,3pl,3pl
-0x3,dev1,rus,3sg,3sg
-0x3,dev1,rus,acc,acc
-0x3,dev1,rus,always,lexical entry
-0x3,dev1,rus,and,lexical entry
-0x3,dev1,rus,animate,animate
-0x3,dev1,rus,ask,lexical entry
-0x3,dev1,rus,be,lexical entry
-0x3,dev1,rus,big,lexical entry
-0x3,dev1,rus,binding,lexical entry
-0x3,dev1,rus,book,lexical entry
-0x3,dev1,rus,boy,lexical entry
-0x3,dev1,rus,buy,lexical entry
-0x3,dev1,rus,by,lexical entry
-0x3,dev1,rus,can,lexical entry
-0x3,dev1,rus,cut,lexical entry
-0x3,dev1,rus,dat,dat
-0x3,dev1,rus,doctor,lexical entry
-0x3,dev1,rus,dog,lexical entry
-0x3,dev1,rus,eat,lexical entry
-0x3,dev1,rus,fem,f
-0x3,dev1,rus,fly,lexical entry
-0x3,dev1,rus,fm,user-identified
-0x3,dev1,rus,fp,fp
-0x3,dev1,rus,fut,fut
-0x3,dev1,rus,gen,gen
-0x3,dev1,rus,girl,lexical entry
-0x3,dev1,rus,glass,lexical entry
-0x3,dev1,rus,go,lexical entry
-0x3,dev1,rus,i,incomplete
-0x3,dev1,rus,imp,imp
-0x3,dev1,rus,in,lexical entry
-0x3,dev1,rus,inanimate,inanimate
-0x3,dev1,rus,inf,inf
-0x3,dev1,rus,inst,lexical entry
-0x3,dev1,rus,interrogative,lexical entry
-0x3,dev1,rus,ivan,lexical entry
-0x3,dev1,rus,large,lexical entry
-0x3,dev1,rus,lighten,lexical entry
-0x3,dev1,rus,love,lexical entry
-0x3,dev1,rus,masc,m
-0x3,dev1,rus,me,incomplete
-0x3,dev1,rus,means,lexical entry
-0x3,dev1,rus,neut,n
-0x3,dev1,rus,never,lexical entry
-0x3,dev1,rus,no,lexical entry
-0x3,dev1,rus,nom,nom
-0x3,dev1,rus,not,incomplete
-0x3,dev1,rus,on,lexical entry
-0x3,dev1,rus,perf,prf
-0x3,dev1,rus,perf1sg,combined
-0x3,dev1,rus,perf3sg,pfv
-0x3,dev1,rus,pl,pl
-0x3,dev1,rus,plane,lexical entry
-0x3,dev1,rus,po,lexical entry
-0x3,dev1,rus,prep,part-of-speech
-0x3,dev1,rus,pro,incomplete
-0x3,dev1,rus,prs,prs
-0x3,dev1,rus,pst,pst
-0x3,dev1,rus,q,q
-0x3,dev1,rus,quickly,lexical entry
-0x3,dev1,rus,read,lexical entry
-0x3,dev1,rus,red,lexical entry
-0x3,dev1,rus,school,lexical entry
-0x3,dev1,rus,sg,sg
-0x3,dev1,rus,she,incomplete
-0x3,dev1,rus,sleep,lexical entry
-0x3,dev1,rus,speak,lexical entry
-0x3,dev1,rus,table,lexical entry
-0x3,dev1,rus,that,incomplete
-0x3,dev1,rus,these,incomplete
-0x3,dev1,rus,think,lexical entry
-0x3,dev1,rus,this,incomplete
-0x3,dev1,rus,with,lexical entry
-0x3,dev1,rus,you,incomplete
+0x3,dev1,rus,1,
+0x3,dev1,rus,1pl,
+0x3,dev1,rus,1sg,
+0x3,dev1,rus,2,
+0x3,dev1,rus,2pl,
+0x3,dev1,rus,2sg,
+0x3,dev1,rus,3,
+0x3,dev1,rus,3pl,
+0x3,dev1,rus,3sg,
+0x3,dev1,rus,acc,
+0x3,dev1,rus,always,
+0x3,dev1,rus,and,
+0x3,dev1,rus,animate,
+0x3,dev1,rus,ask,
+0x3,dev1,rus,be,
+0x3,dev1,rus,big,
+0x3,dev1,rus,binding,
+0x3,dev1,rus,book,
+0x3,dev1,rus,boy,
+0x3,dev1,rus,buy,
+0x3,dev1,rus,by,
+0x3,dev1,rus,can,
+0x3,dev1,rus,cut,
+0x3,dev1,rus,dat,
+0x3,dev1,rus,doctor,
+0x3,dev1,rus,dog,
+0x3,dev1,rus,eat,
+0x3,dev1,rus,fem,
+0x3,dev1,rus,fly,
+0x3,dev1,rus,fm,
+0x3,dev1,rus,fp,
+0x3,dev1,rus,fut,
+0x3,dev1,rus,gen,
+0x3,dev1,rus,girl,
+0x3,dev1,rus,glass,
+0x3,dev1,rus,go,
+0x3,dev1,rus,i,
+0x3,dev1,rus,imp,
+0x3,dev1,rus,in,
+0x3,dev1,rus,inanimate,
+0x3,dev1,rus,inf,
+0x3,dev1,rus,inst,
+0x3,dev1,rus,interrogative,
+0x3,dev1,rus,ivan,
+0x3,dev1,rus,large,
+0x3,dev1,rus,lighten,
+0x3,dev1,rus,love,
+0x3,dev1,rus,masc,
+0x3,dev1,rus,me,
+0x3,dev1,rus,means,
+0x3,dev1,rus,neut,
+0x3,dev1,rus,never,
+0x3,dev1,rus,no,
+0x3,dev1,rus,nom,
+0x3,dev1,rus,not,
+0x3,dev1,rus,on,
+0x3,dev1,rus,perf,
+0x3,dev1,rus,perf1sg,
+0x3,dev1,rus,perf3sg,
+0x3,dev1,rus,pl,
+0x3,dev1,rus,plane,
+0x3,dev1,rus,po,
+0x3,dev1,rus,prep,
+0x3,dev1,rus,pro,
+0x3,dev1,rus,prs,
+0x3,dev1,rus,pst,
+0x3,dev1,rus,q,
+0x3,dev1,rus,quickly,
+0x3,dev1,rus,read,
+0x3,dev1,rus,red,
+0x3,dev1,rus,school,
+0x3,dev1,rus,sg,
+0x3,dev1,rus,she,
+0x3,dev1,rus,sleep,
+0x3,dev1,rus,speak,
+0x3,dev1,rus,table,
+0x3,dev1,rus,that,
+0x3,dev1,rus,these,
+0x3,dev1,rus,think,
+0x3,dev1,rus,this,
+0x3,dev1,rus,with,
+0x3,dev1,rus,you,

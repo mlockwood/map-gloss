@@ -14,7 +14,7 @@ from src.utils import functions
 from src.gloss.constants import find_path, GRAMS, PATH, EVAL
 from src.gloss.dataset import load_datasets
 from src.gloss.result import UniqueGloss, Container
-from src.gloss.vector import Collection, Vector, set_vectors, set_gold_standard
+from src.gloss.vector import Collection, Vector, set_vectors
 
 
 __project_parent__ = 'AGGREGATION'
@@ -93,7 +93,7 @@ class Model:
 
         return classifiers
 
-    def run_classifiers(self):
+    def run_classifiers(self, out_path):
         # Initial processing of classifiers
         for classifier in self.classifiers:
 
@@ -112,9 +112,9 @@ class Model:
         # Set files for each container in the model
         for container in self.containers:
             if EVAL:
-                Container.objects[container].set_confusion_matrices()
-                Container.objects[container].set_unique_gloss_evaluation()
-            Container.objects[container].export_references()
+                Container.objects[container].set_confusion_matrices(out_path)
+                Container.objects[container].set_unique_gloss_evaluation(out_path)
+            Container.objects[container].export_references(out_path)
 
         return True
 
@@ -290,30 +290,26 @@ class TBL:
         return True
 
 
-def process_models(models):
+def process_models(models, datasets, out_path):
+    set_vectors(datasets)
     for model in models:
         train = Collection.init_string_collection(model[1])
         test = Collection.init_string_collection(model[2])
         classifiers = Model.parse_classifier_string(model[0], model[3])
-        Model(model[0], train, test, classifiers).run_classifiers()
+        Model(model[0], train, test, classifiers).run_classifiers(out_path)
 
 
 def use_internal_parameters():
     # Load datasets assuming location of 'datasets' in map_gloss/data/ and xigt files in aggregation/data/
     # This also assumes aggregation/src/map_gloss/
     agg_path = find_path('aggregation')
-    dev1_path = agg_path + '/data/567/dev1'
-    dev2_path = agg_path + '/data/567/dev2'
-    test_path = agg_path + '/data/567/test'
-    set_vectors(load_datasets(PATH + '/data',
-                              {'agg': agg_path, 'dev1': dev1_path, 'dev2': dev2_path, 'test': test_path}))
-
-    # If evaluation is to occur load the gold_standard
-    if EVAL:
-        set_gold_standard()
+    datasets = load_datasets(PATH + '/data',
+                             {'dev1': '{}/data/567/dev1'.format(agg_path),
+                              'dev2': '{}/data/567/dev2'.format(agg_path),
+                              'test': '{}/data/567/test'.format(agg_path)})
 
     # Process the models with the model file located in the data subdirectory of PATH
-    process_models(load_model(PATH + '/data'))
+    process_models(load_model(PATH + '/data'), datasets, PATH)
     return True
 
 

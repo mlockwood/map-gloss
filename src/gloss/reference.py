@@ -5,9 +5,6 @@
 import os
 import re
 
-# Import classes, functions, and variables
-from src.gloss.constants import PATH
-
 
 __project_parent__ = 'AGGREGATION'
 __project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
@@ -49,9 +46,9 @@ class Language(object):
         return True
 
 
-def load_references():
+def load_references(out_path):
     # Set the path for the reference files
-    path = '{}/out/reference'.format(PATH)
+    path = '{}/out/reference'.format(out_path)
 
     # Search through the path for matching .ref files
     for dirpath, dirnames, filenames in os.walk(path):

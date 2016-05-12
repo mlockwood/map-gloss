@@ -1,9 +1,2 @@
 section=tense-aspect-mood
 tense-definition=choose
-future=on
-past=on
-present=on
- aspect1_name=pfv
-  aspect1_supertype1_name=aspect
- aspect2_name=ipfv
-  aspect2_supertype1_name=aspect

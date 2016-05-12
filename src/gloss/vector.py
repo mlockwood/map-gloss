@@ -12,7 +12,7 @@ from src.utils import functions
 from src.utils.xigt.codecs import xigtxml
 
 # Import classes, functions, and variables
-from src.gloss.constants import GRAMS, VALUES
+from src.gloss.constants import GRAMS, VALUES, EVAL
 
 
 __project_parent__ = 'AGGREGATION'
@@ -75,6 +75,10 @@ def set_vectors(datasets):
                             Vector(dataset, iso, gloss, shared_morphemes[morphemes[gloss.alignment]], word_match)
                         except:
                             Vector(dataset, iso, gloss, '', word_match)
+
+    # If evaluation is to occur load the gold_standard
+    if EVAL:
+        set_gold_standard()
 
     return True
 

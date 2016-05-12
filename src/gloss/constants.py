@@ -20,7 +20,7 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-def find_path(directory, alt_base_directory=False):
+def find_path(directory, alt_base_directory=None):
     if not alt_base_directory:
         alt_base_directory = os.getcwd()
     match = re.search('/' + str(directory), alt_base_directory)
@@ -80,4 +80,4 @@ PATH = find_path('map_gloss', os.path.realpath(__file__))
 GRAMS = load_standard_grams(PATH + '/data')
 VALUES = load_standard_values(PATH + '/data')
 CTYPES = {'language': True, 'dataset': True, 'model': True}
-EVAL = True
+EVAL = False

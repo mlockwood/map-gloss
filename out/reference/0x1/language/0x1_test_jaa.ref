@@ -1,91 +1,91 @@
-0x1,test,jaa,1pl,1pl
-0x1,test,jaa,1sg,1sg
-0x1,test,jaa,2pl,2pl
-0x1,test,jaa,2sg,2sg
-0x1,test,jaa,3pl,3pl
-0x1,test,jaa,3sg,3sg
-0x1,test,jaa,acc,acc
-0x1,test,jaa,and,lexical entry
-0x1,test,jaa,anim,anim
-0x1,test,jaa,another,lexical entry
-0x1,test,jaa,ask,lexical entry
-0x1,test,jaa,aux,aux
-0x1,test,jaa,back,lexical entry
-0x1,test,jaa,banana,lexical entry
-0x1,test,jaa,be,lexical entry
-0x1,test,jaa,bit,lexical entry
-0x1,test,jaa,bite,lexical entry
-0x1,test,jaa,call,lexical entry
-0x1,test,jaa,can,lexical entry
-0x1,test,jaa,car,lexical entry
-0x1,test,jaa,cat,lexical entry
-0x1,test,jaa,ccall,lexical entry
-0x1,test,jaa,chase,lexical entry
-0x1,test,jaa,chewing,lexical entry
-0x1,test,jaa,coffee,lexical entry
-0x1,test,jaa,come,lexical entry
-0x1,test,jaa,comp,comp
-0x1,test,jaa,cont,cont
-0x1,test,jaa,dec,user-identified
-0x1,test,jaa,decl,decl
-0x1,test,jaa,dog,lexical entry
-0x1,test,jaa,drink,lexical entry
-0x1,test,jaa,eat,lexical entry
-0x1,test,jaa,exc,lexical entry
-0x1,test,jaa,exl,lexical entry
-0x1,test,jaa,f,f
-0x1,test,jaa,fast,lexical entry
-0x1,test,jaa,fpe,lexical entry
-0x1,test,jaa,fpn,lexical entry
-0x1,test,jaa,fruit,lexical entry
-0x1,test,jaa,glass,lexical entry
-0x1,test,jaa,good,lexical entry
-0x1,test,jaa,habit,user-identified
-0x1,test,jaa,house,lexical entry
-0x1,test,jaa,hungry,lexical entry
-0x1,test,jaa,hurt,lexical entry
-0x1,test,jaa,inc,lexical entry
-0x1,test,jaa,incl,incl
-0x1,test,jaa,ipe,lexical entry
-0x1,test,jaa,ipn,lexical entry
-0x1,test,jaa,jaguar,lexical entry
-0x1,test,jaa,know,lexical entry
-0x1,test,jaa,located,lexical entry
-0x1,test,jaa,m,m
-0x1,test,jaa,man,lexical entry
-0x1,test,jaa,neg,neg
-0x1,test,jaa,nom,nom
+0x1,test,jaa,1pl,
+0x1,test,jaa,1sg,
+0x1,test,jaa,2pl,
+0x1,test,jaa,2sg,
+0x1,test,jaa,3pl,
+0x1,test,jaa,3sg,
+0x1,test,jaa,acc,
+0x1,test,jaa,and,
+0x1,test,jaa,anim,
+0x1,test,jaa,another,
+0x1,test,jaa,ask,
+0x1,test,jaa,aux,
+0x1,test,jaa,back,
+0x1,test,jaa,banana,
+0x1,test,jaa,be,
+0x1,test,jaa,bit,
+0x1,test,jaa,bite,
+0x1,test,jaa,call,
+0x1,test,jaa,can,
+0x1,test,jaa,car,
+0x1,test,jaa,cat,
+0x1,test,jaa,ccall,
+0x1,test,jaa,chase,
+0x1,test,jaa,chewing,
+0x1,test,jaa,coffee,
+0x1,test,jaa,come,
+0x1,test,jaa,comp,
+0x1,test,jaa,cont,
+0x1,test,jaa,dec,
+0x1,test,jaa,decl,
+0x1,test,jaa,dog,
+0x1,test,jaa,drink,
+0x1,test,jaa,eat,
+0x1,test,jaa,exc,
+0x1,test,jaa,exl,
+0x1,test,jaa,f,
+0x1,test,jaa,fast,
+0x1,test,jaa,fpe,
+0x1,test,jaa,fpn,
+0x1,test,jaa,fruit,
+0x1,test,jaa,glass,
+0x1,test,jaa,good,
+0x1,test,jaa,habit,
+0x1,test,jaa,house,
+0x1,test,jaa,hungry,
+0x1,test,jaa,hurt,
+0x1,test,jaa,inc,
+0x1,test,jaa,incl,
+0x1,test,jaa,ipe,
+0x1,test,jaa,ipn,
+0x1,test,jaa,jaguar,
+0x1,test,jaa,know,
+0x1,test,jaa,located,
+0x1,test,jaa,m,
+0x1,test,jaa,man,
+0x1,test,jaa,neg,
+0x1,test,jaa,nom,
 0x1,test,jaa,npst,npst
-0x1,test,jaa,nspt,lexical entry
-0x1,test,jaa,oc,lexical entry
-0x1,test,jaa,okobomi,lexical entry
-0x1,test,jaa,okomobi,lexical entry
-0x1,test,jaa,old,lexical entry
-0x1,test,jaa,out,lexical entry
-0x1,test,jaa,park,lexical entry
-0x1,test,jaa,passion,lexical entry
-0x1,test,jaa,pfutint,lexical entry
-0x1,test,jaa,piece,lexical entry
-0x1,test,jaa,pint,lexical entry
-0x1,test,jaa,postp,user-identified
-0x1,test,jaa,quick,lexical entry
-0x1,test,jaa,rpe,lexical entry
-0x1,test,jaa,rpn,lexical entry
-0x1,test,jaa,say,lexical entry
-0x1,test,jaa,see,lexical entry
-0x1,test,jaa,sleep,lexical entry
-0x1,test,jaa,sloth,lexical entry
-0x1,test,jaa,tell,lexical entry
-0x1,test,jaa,think,lexical entry
-0x1,test,jaa,this,incomplete
-0x1,test,jaa,top,top
-0x1,test,jaa,u,lexical entry
-0x1,test,jaa,unknown,lexical entry
-0x1,test,jaa,unripe,lexical entry
-0x1,test,jaa,up,lexical entry
-0x1,test,jaa,vn,lexical entry
-0x1,test,jaa,wake,lexical entry
-0x1,test,jaa,walk,lexical entry
-0x1,test,jaa,want,lexical entry
-0x1,test,jaa,without,lexical entry
-0x1,test,jaa,woman,lexical entry
+0x1,test,jaa,nspt,
+0x1,test,jaa,oc,
+0x1,test,jaa,okobomi,
+0x1,test,jaa,okomobi,
+0x1,test,jaa,old,
+0x1,test,jaa,out,
+0x1,test,jaa,park,
+0x1,test,jaa,passion,
+0x1,test,jaa,pfutint,
+0x1,test,jaa,piece,
+0x1,test,jaa,pint,
+0x1,test,jaa,postp,
+0x1,test,jaa,quick,
+0x1,test,jaa,rpe,
+0x1,test,jaa,rpn,
+0x1,test,jaa,say,
+0x1,test,jaa,see,
+0x1,test,jaa,sleep,
+0x1,test,jaa,sloth,
+0x1,test,jaa,tell,
+0x1,test,jaa,think,
+0x1,test,jaa,this,
+0x1,test,jaa,top,
+0x1,test,jaa,u,
+0x1,test,jaa,unknown,
+0x1,test,jaa,unripe,
+0x1,test,jaa,up,
+0x1,test,jaa,vn,
+0x1,test,jaa,wake,
+0x1,test,jaa,walk,
+0x1,test,jaa,want,
+0x1,test,jaa,without,
+0x1,test,jaa,woman,

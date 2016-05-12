@@ -34,13 +34,13 @@ __collaborators__ = None
 # 3 once all choices are built run eval
 
 
-def make_choices():
+def make_choices(out_path):
     # For each language with a reference
     for language in Language.objects:
         language = Language.objects[language]
 
         # Resolve path first
-        path = '{}/out/choices/{}'.format(PATH, language.model)
+        path = '{}/out/choices/{}'.format(out_path, language.model)
         if not os.path.isdir(path):
             os.makedirs(path)
 
@@ -52,7 +52,7 @@ def make_choices():
         choices.make_choices(language.final, '{}.choices'.format(path))
 
 
-def eval_choices(gold_choices):
+def eval_choices(out_path, gold_choices):
     # For each language with a reference
     for obj in Language.objects:
         language = Language.objects[obj]
@@ -67,7 +67,7 @@ def eval_choices(gold_choices):
 
         # Load choices files for each loadable file
         # Resolve path first
-        path = '{}/out/choices/{}'.format(PATH, language.model)
+        path = '{}/out/choices/{}'.format(out_path, language.model)
         if not os.path.isdir(path):
             os.makedirs(path)
 
@@ -87,21 +87,26 @@ def eval_choices(gold_choices):
         container.set_confusion_matrices()
 
 
+def process_inference(out_path, gold_choices=None):
+    load_references(out_path)
+    make_choices(out_path)
+    if EVAL and gold_choices:
+        eval_choices(out_path, gold_choices)
+
+
 def use_internal_parameters():
     # Run model and collect references
     model.use_internal_parameters()
-    load_references()
 
+    # Load choices assuming location of 'choices' in map_gloss/data/ and choices files in aggregation/data/
+    # This also assumes aggregation/src/map_gloss/
     agg_path = find_path('aggregation')
-    dev1_path = agg_path + '/data/567/dev1'
-    dev2_path = agg_path + '/data/567/dev2'
-    test_path = agg_path + '/data/567/test'
-    gold_choices = choices.load_choices(PATH + '/data', {'agg': agg_path, 'dev1': dev1_path, 'dev2': dev2_path,
-                                                         'test': test_path})
+    gold_choices = choices.load_choices(PATH + '/data',
+                                        {'dev1': '{}/data/567/dev1'.format(agg_path),
+                                         'dev2': '{}/data/567/dev2'.format(agg_path),
+                                         'test': '{}/data/567/test'.format(agg_path)})
 
-    make_choices()
-    if EVAL:
-        eval_choices(gold_choices)
+    process_inference(PATH, gold_choices=gold_choices)
     return True
 
 
