@@ -30,7 +30,7 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-def load_model(data_path):
+def load_models(data_path):
     models = []
     reader = open(data_path + '/models', 'r')
     for row in reader:
@@ -309,7 +309,7 @@ def use_internal_parameters():
                               'test': '{}/data/567/test'.format(agg_path)})
 
     # Process the models with the model file located in the data subdirectory of PATH
-    process_models(datasets, load_model(PATH + '/data'), PATH)
+    process_models(datasets, load_models(PATH + '/data'), PATH)
     return True
 
 
