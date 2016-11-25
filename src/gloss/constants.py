@@ -57,7 +57,7 @@ def load_standard_grams(data_path):
 
 def load_standard_values(data_path):
     values = {}
-    reader = open(data_path + '/standard_values', 'r')
+    reader = open(data_path + '/standard_values.json', 'r')
     for row in reader:
         if row[0] == '#':
             continue

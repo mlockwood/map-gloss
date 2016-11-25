@@ -1,0 +1,793 @@
+[
+    {
+        "GOLD": "FirstPerson",
+        "category": "per",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "1"
+    },
+    {
+        "GOLD": "SecondPerson",
+        "category": "per",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "2"
+    },
+    {
+        "GOLD": "ThirdPerson",
+        "category": "per",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "3"
+    },
+    {
+        "GOLD": "SingularNumber",
+        "category": "num",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "SG"
+    },
+    {
+        "GOLD": "DualNumber",
+        "category": "num",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "DU"
+    },
+    {
+        "GOLD": "PluralNumber",
+        "category": "num",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "PL"
+    },
+    {
+        "GOLD": "FirstPerson-SingularNumber",
+        "category": "pernum",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "1SG"
+    },
+    {
+        "GOLD": "SecondPerson-SingularNumber",
+        "category": "pernum",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "2SG"
+    },
+    {
+        "GOLD": "ThirdPerson-SingualNumber",
+        "category": "pernum",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "3SG"
+    },
+    {
+        "GOLD": "FirstPerson-DualNumber",
+        "category": "pernum",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "1DU"
+    },
+    {
+        "GOLD": "SecondPerson-DualNumber",
+        "category": "pernum",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "2DU"
+    },
+    {
+        "GOLD": "ThirdPerson-DualNumber",
+        "category": "pernum",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "3DU"
+    },
+    {
+        "GOLD": "FirstPerson-PluralNumber",
+        "category": "pernum",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "1PL"
+    },
+    {
+        "GOLD": "SecondPerson-PluralNumber",
+        "category": "pernum",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "2PL"
+    },
+    {
+        "GOLD": "ThirdPerson-PluralNumber",
+        "category": "pernum",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "3PL"
+    },
+    {
+        "GOLD": "Agent",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "A"
+    },
+    {
+        "GOLD": "Ablative",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "ABL"
+    },
+    {
+        "GOLD": "Absolutive",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "ABS"
+    },
+    {
+        "GOLD": "Accusative",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "ACC"
+    },
+    {
+        "GOLD": "Allative",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "ALL"
+    },
+    {
+        "GOLD": "Animate",
+        "category": "gender",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "ANIM"
+    },
+    {
+        "GOLD": "Antipassive",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "ANTIP"
+    },
+    {
+        "GOLD": "Applicative",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "APPL"
+    },
+    {
+        "GOLD": "Auxiliary",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "AUX"
+    },
+    {
+        "GOLD": "Benefactive",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "BEN"
+    },
+    {
+        "GOLD": "Causative",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "CAUS"
+    },
+    {
+        "GOLD": "Comitative",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "COM"
+    },
+    {
+        "GOLD": "Complementizer",
+        "category": "structure",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "COMP"
+    },
+    {
+        "GOLD": "Completive",
+        "category": "aspect-mood",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "COMPL"
+    },
+    {
+        "GOLD": "Conditional",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "COND"
+    },
+    {
+        "GOLD": "Conjunction",
+        "category": "coord",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "CONJ"
+    },
+    {
+        "GOLD": "Continuous",
+        "category": "aspect-tense",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "CONT"
+    },
+    {
+        "GOLD": "Copula",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "COP"
+    },
+    {
+        "GOLD": "Dative",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "DAT"
+    },
+    {
+        "GOLD": "Declarative",
+        "category": "mood",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "DECL"
+    },
+    {
+        "GOLD": "Definite",
+        "category": "noun",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "DEF"
+    },
+    {
+        "GOLD": "Demonstrative",
+        "category": "dem",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "DEM"
+    },
+    {
+        "GOLD": "Direct",
+        "category": "dirinv",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "DIR"
+    },
+    {
+        "GOLD": "Distal",
+        "category": "tense-aspect",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "DIST"
+    },
+    {
+        "GOLD": "Distributive",
+        "category": "aspect-pernum",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "DISTR"
+    },
+    {
+        "GOLD": "Dubitive",
+        "category": "mood",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "DUB"
+    },
+    {
+        "GOLD": "Durative",
+        "category": "aspect",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "DUR"
+    },
+    {
+        "GOLD": "Emphatic",
+        "category": "info",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "EMPH"
+    },
+    {
+        "GOLD": "Ergative",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "ERG"
+    },
+    {
+        "GOLD": "Exclusive",
+        "category": "person",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "EXCL"
+    },
+    {
+        "GOLD": "Feminine",
+        "category": "gender",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "F"
+    },
+    {
+        "GOLD": "FocusPoint",
+        "category": "info",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "FP"
+    },
+    {
+        "GOLD": "FinalVowel",
+        "category": "other",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "FV"
+    },
+    {
+        "GOLD": "Familiar",
+        "category": "person",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "FAM"
+    },
+    {
+        "GOLD": "Focus",
+        "category": "info",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "FOC"
+    },
+    {
+        "GOLD": "Formal",
+        "category": "person",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "FORM"
+    },
+    {
+        "GOLD": "Future",
+        "category": "tense",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "FUT"
+    },
+    {
+        "GOLD": "Genitive",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "GEN"
+    },
+    {
+        "GOLD": "Habitual",
+        "category": "aspect-tense",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "HAB"
+    },
+    {
+        "GOLD": "Imperative",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "IMP"
+    },
+    {
+        "GOLD": "Inanimate",
+        "category": "gender",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "INANIM"
+    },
+    {
+        "GOLD": "Inclusive",
+        "category": "person",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "INCL"
+    },
+    {
+        "GOLD": "Indicative",
+        "category": "mood",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "IND"
+    },
+    {
+        "GOLD": "Indefinite",
+        "category": "noun",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "INDF"
+    },
+    {
+        "GOLD": "Infinitive",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "INF"
+    },
+    {
+        "GOLD": "Instrumental",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "INS"
+    },
+    {
+        "GOLD": "Intransitive",
+        "category": "noun",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "INTR"
+    },
+    {
+        "GOLD": "Inverse",
+        "category": "dirinv",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "INV"
+    },
+    {
+        "GOLD": "Imperfective",
+        "category": "aspect",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "IPFV"
+    },
+    {
+        "GOLD": "Irrealis",
+        "category": "mood",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "IRR"
+    },
+    {
+        "GOLD": "Locative",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "LOC"
+    },
+    {
+        "GOLD": "Masculine",
+        "category": "gender",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "M"
+    },
+    {
+        "GOLD": "Neuter",
+        "category": "gender",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "N"
+    },
+    {
+        "GOLD": "Non",
+        "category": "non",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "N-"
+    },
+    {
+        "GOLD": "Negation",
+        "category": "neg",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "NEG"
+    },
+    {
+        "GOLD": "NonFuture",
+        "category": "tense",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "NFUT"
+    },
+    {
+        "GOLD": "Nominalizer",
+        "category": "noun",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "NMLZ"
+    },
+    {
+        "GOLD": "Nominative",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "NOM"
+    },
+    {
+        "GOLD": "NonPresent",
+        "category": "tense",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "NPRS"
+    },
+    {
+        "GOLD": "NonPast",
+        "category": "tense",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "NPST"
+    },
+    {
+        "GOLD": "NearFuture",
+        "category": "tense",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "NRFUT"
+    },
+    {
+        "GOLD": "NearPresent",
+        "category": "tense",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "NRPRS"
+    },
+    {
+        "GOLD": "NearPast",
+        "category": "tense",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "NRPST"
+    },
+    {
+        "GOLD": "Object",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "OBJ"
+    },
+    {
+        "GOLD": "Oblique",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "OBL"
+    },
+    {
+        "GOLD": "Patient",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "P"
+    },
+    {
+        "GOLD": "Passive",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "PASS"
+    },
+    {
+        "GOLD": "Personal",
+        "category": "aspect-mood",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "PERS"
+    },
+    {
+        "GOLD": "Perfective",
+        "category": "aspect",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "PFV"
+    },
+    {
+        "GOLD": "PluralPerson",
+        "category": "per",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "PL"
+    },
+    {
+        "GOLD": "Possessive",
+        "category": "noun",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "POSS"
+    },
+    {
+        "GOLD": "Predicative",
+        "category": "structure",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "PRED"
+    },
+    {
+        "GOLD": "Preterite",
+        "category": "tense-aspect",
+        "g_native": "false",
+        "l_native": "false",
+        "leipzig": "PRET"
+    },
+    {
+        "GOLD": "Perfect",
+        "category": "tense-aspect",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "PRF"
+    },
+    {
+        "GOLD": "Progressive",
+        "category": "aspect-tense",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "PROG"
+    },
+    {
+        "GOLD": "Prohibitive",
+        "category": "mood",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "PROH"
+    },
+    {
+        "GOLD": "Proximal",
+        "category": "tense-aspect",
+        "g_native": "false",
+        "l_native": "true",
+        "leipzig": "PROX"
+    },
+    {
+        "GOLD": "Present",
+        "category": "tense",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "PRS"
+    },
+    {
+        "GOLD": "Past",
+        "category": "tense",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "PST"
+    },
+    {
+        "GOLD": "Participle",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "PTCP"
+    },
+    {
+        "GOLD": "Purposive",
+        "category": "mood",
+        "g_native": "false",
+        "l_native": "true",
+        "leipzig": "PURP"
+    },
+    {
+        "GOLD": "Question",
+        "category": "q",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "Q"
+    },
+    {
+        "GOLD": "Quotative",
+        "category": "mood",
+        "g_native": "false",
+        "l_native": "true",
+        "leipzig": "QUOT"
+    },
+    {
+        "GOLD": "Recent",
+        "category": "tense-aspect",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "REC"
+    },
+    {
+        "GOLD": "Reciprocal",
+        "category": "noun",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "RECP"
+    },
+    {
+        "GOLD": "Reflexive",
+        "category": "noun",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "REFL"
+    },
+    {
+        "GOLD": "Relative",
+        "category": "coord",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "REL"
+    },
+    {
+        "GOLD": "Remote",
+        "category": "tense-aspect",
+        "g_native": "true",
+        "l_native": "false",
+        "leipzig": "REM"
+    },
+    {
+        "GOLD": "Repetitive",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "REP"
+    },
+    {
+        "GOLD": "Resultative",
+        "category": "aspect",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "RES"
+    },
+    {
+        "GOLD": "Single",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "S"
+    },
+    {
+        "GOLD": "Subject",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "SBJ"
+    },
+    {
+        "GOLD": "Subjunctive",
+        "category": "mood",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "SBJV"
+    },
+    {
+        "GOLD": "SingularPerson",
+        "category": "per",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "SG"
+    },
+    {
+        "GOLD": "Stative",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "STAT"
+    },
+    {
+        "GOLD": "Topic",
+        "category": "info",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "TOP"
+    },
+    {
+        "GOLD": "Transitive",
+        "category": "verb",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "TR"
+    },
+    {
+        "GOLD": "Vocative",
+        "category": "case",
+        "g_native": "true",
+        "l_native": "true",
+        "leipzig": "VOC"
+    }
+]

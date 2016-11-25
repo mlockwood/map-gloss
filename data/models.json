@@ -1,0 +1,26 @@
+[
+  {
+    "name": "main",
+    "train": ["dev1", "dev2"],
+    "test": ["test"],
+    "models": {
+      "tbl": 1.0
+    }
+  },
+  {
+    "name": "cross_validate",
+    "train": ["dev1", "dev2", "test"],
+    "test": ["<cross>"],
+    "models": {
+      "tbl": 1.0
+    }
+  },
+  {
+    "name": "russian",
+    "train": ["dev1!rus", "dev2", "test"],
+    "test": ["dev1-rus"],
+    "models": {
+      "tbl": 1.0
+    }
+  }
+]
