@@ -1,790 +1,790 @@
 [
     {
-        "GOLD": "FirstPerson",
+        "gold_ontology": "FirstPerson",
         "category": "per",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "1"
     },
     {
-        "GOLD": "SecondPerson",
+        "gold_ontology": "SecondPerson",
         "category": "per",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "2"
     },
     {
-        "GOLD": "ThirdPerson",
+        "gold_ontology": "ThirdPerson",
         "category": "per",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "3"
     },
     {
-        "GOLD": "SingularNumber",
+        "gold_ontology": "SingularNumber",
         "category": "num",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "SG"
     },
     {
-        "GOLD": "DualNumber",
+        "gold_ontology": "DualNumber",
         "category": "num",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "DU"
     },
     {
-        "GOLD": "PluralNumber",
+        "gold_ontology": "PluralNumber",
         "category": "num",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PL"
     },
     {
-        "GOLD": "FirstPerson-SingularNumber",
+        "gold_ontology": "FirstPerson-SingularNumber",
         "category": "pernum",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "1SG"
     },
     {
-        "GOLD": "SecondPerson-SingularNumber",
+        "gold_ontology": "SecondPerson-SingularNumber",
         "category": "pernum",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "2SG"
     },
     {
-        "GOLD": "ThirdPerson-SingualNumber",
+        "gold_ontology": "ThirdPerson-SingualNumber",
         "category": "pernum",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "3SG"
     },
     {
-        "GOLD": "FirstPerson-DualNumber",
+        "gold_ontology": "FirstPerson-DualNumber",
         "category": "pernum",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "1DU"
     },
     {
-        "GOLD": "SecondPerson-DualNumber",
+        "gold_ontology": "SecondPerson-DualNumber",
         "category": "pernum",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "2DU"
     },
     {
-        "GOLD": "ThirdPerson-DualNumber",
+        "gold_ontology": "ThirdPerson-DualNumber",
         "category": "pernum",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "3DU"
     },
     {
-        "GOLD": "FirstPerson-PluralNumber",
+        "gold_ontology": "FirstPerson-PluralNumber",
         "category": "pernum",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "1PL"
     },
     {
-        "GOLD": "SecondPerson-PluralNumber",
+        "gold_ontology": "SecondPerson-PluralNumber",
         "category": "pernum",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "2PL"
     },
     {
-        "GOLD": "ThirdPerson-PluralNumber",
+        "gold_ontology": "ThirdPerson-PluralNumber",
         "category": "pernum",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "3PL"
     },
     {
-        "GOLD": "Agent",
+        "gold_ontology": "Agent",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "A"
     },
     {
-        "GOLD": "Ablative",
+        "gold_ontology": "Ablative",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "ABL"
     },
     {
-        "GOLD": "Absolutive",
+        "gold_ontology": "Absolutive",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "ABS"
     },
     {
-        "GOLD": "Accusative",
+        "gold_ontology": "Accusative",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "ACC"
     },
     {
-        "GOLD": "Allative",
+        "gold_ontology": "Allative",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "ALL"
     },
     {
-        "GOLD": "Animate",
+        "gold_ontology": "Animate",
         "category": "gender",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "ANIM"
     },
     {
-        "GOLD": "Antipassive",
+        "gold_ontology": "Antipassive",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "ANTIP"
     },
     {
-        "GOLD": "Applicative",
+        "gold_ontology": "Applicative",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "APPL"
     },
     {
-        "GOLD": "Auxiliary",
+        "gold_ontology": "Auxiliary",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "AUX"
     },
     {
-        "GOLD": "Benefactive",
+        "gold_ontology": "Benefactive",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "BEN"
     },
     {
-        "GOLD": "Causative",
+        "gold_ontology": "Causative",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "CAUS"
     },
     {
-        "GOLD": "Comitative",
+        "gold_ontology": "Comitative",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "COM"
     },
     {
-        "GOLD": "Complementizer",
+        "gold_ontology": "Complementizer",
         "category": "structure",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "COMP"
     },
     {
-        "GOLD": "Completive",
+        "gold_ontology": "Completive",
         "category": "aspect-mood",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "COMPL"
     },
     {
-        "GOLD": "Conditional",
+        "gold_ontology": "Conditional",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "COND"
     },
     {
-        "GOLD": "Conjunction",
+        "gold_ontology": "Conjunction",
         "category": "coord",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "CONJ"
     },
     {
-        "GOLD": "Continuous",
+        "gold_ontology": "Continuous",
         "category": "aspect-tense",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "CONT"
     },
     {
-        "GOLD": "Copula",
+        "gold_ontology": "Copula",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "COP"
     },
     {
-        "GOLD": "Dative",
+        "gold_ontology": "Dative",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DAT"
     },
     {
-        "GOLD": "Declarative",
+        "gold_ontology": "Declarative",
         "category": "mood",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DECL"
     },
     {
-        "GOLD": "Definite",
+        "gold_ontology": "Definite",
         "category": "noun",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DEF"
     },
     {
-        "GOLD": "Demonstrative",
+        "gold_ontology": "Demonstrative",
         "category": "dem",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DEM"
     },
     {
-        "GOLD": "Direct",
+        "gold_ontology": "Direct",
         "category": "dirinv",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "DIR"
     },
     {
-        "GOLD": "Distal",
+        "gold_ontology": "Distal",
         "category": "tense-aspect",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DIST"
     },
     {
-        "GOLD": "Distributive",
+        "gold_ontology": "Distributive",
         "category": "aspect-pernum",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DISTR"
     },
     {
-        "GOLD": "Dubitive",
+        "gold_ontology": "Dubitive",
         "category": "mood",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DUB"
     },
     {
-        "GOLD": "Durative",
+        "gold_ontology": "Durative",
         "category": "aspect",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DUR"
     },
     {
-        "GOLD": "Emphatic",
+        "gold_ontology": "Emphatic",
         "category": "info",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "EMPH"
     },
     {
-        "GOLD": "Ergative",
+        "gold_ontology": "Ergative",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "ERG"
     },
     {
-        "GOLD": "Exclusive",
+        "gold_ontology": "Exclusive",
         "category": "person",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "EXCL"
     },
     {
-        "GOLD": "Feminine",
+        "gold_ontology": "Feminine",
         "category": "gender",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "F"
     },
     {
-        "GOLD": "FocusPoint",
+        "gold_ontology": "FocusPoint",
         "category": "info",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "FP"
     },
     {
-        "GOLD": "FinalVowel",
+        "gold_ontology": "FinalVowel",
         "category": "other",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "FV"
     },
     {
-        "GOLD": "Familiar",
+        "gold_ontology": "Familiar",
         "category": "person",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "FAM"
     },
     {
-        "GOLD": "Focus",
+        "gold_ontology": "Focus",
         "category": "info",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "FOC"
     },
     {
-        "GOLD": "Formal",
+        "gold_ontology": "Formal",
         "category": "person",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "FORM"
     },
     {
-        "GOLD": "Future",
+        "gold_ontology": "Future",
         "category": "tense",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "FUT"
     },
     {
-        "GOLD": "Genitive",
+        "gold_ontology": "Genitive",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "GEN"
     },
     {
-        "GOLD": "Habitual",
+        "gold_ontology": "Habitual",
         "category": "aspect-tense",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "HAB"
     },
     {
-        "GOLD": "Imperative",
+        "gold_ontology": "Imperative",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "IMP"
     },
     {
-        "GOLD": "Inanimate",
+        "gold_ontology": "Inanimate",
         "category": "gender",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "INANIM"
     },
     {
-        "GOLD": "Inclusive",
+        "gold_ontology": "Inclusive",
         "category": "person",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "INCL"
     },
     {
-        "GOLD": "Indicative",
+        "gold_ontology": "Indicative",
         "category": "mood",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "IND"
     },
     {
-        "GOLD": "Indefinite",
+        "gold_ontology": "Indefinite",
         "category": "noun",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "INDF"
     },
     {
-        "GOLD": "Infinitive",
+        "gold_ontology": "Infinitive",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "INF"
     },
     {
-        "GOLD": "Instrumental",
+        "gold_ontology": "Instrumental",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "INS"
     },
     {
-        "GOLD": "Intransitive",
+        "gold_ontology": "Intransitive",
         "category": "noun",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "INTR"
     },
     {
-        "GOLD": "Inverse",
+        "gold_ontology": "Inverse",
         "category": "dirinv",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "INV"
     },
     {
-        "GOLD": "Imperfective",
+        "gold_ontology": "Imperfective",
         "category": "aspect",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "IPFV"
     },
     {
-        "GOLD": "Irrealis",
+        "gold_ontology": "Irrealis",
         "category": "mood",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "IRR"
     },
     {
-        "GOLD": "Locative",
+        "gold_ontology": "Locative",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "LOC"
     },
     {
-        "GOLD": "Masculine",
+        "gold_ontology": "Masculine",
         "category": "gender",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "M"
     },
     {
-        "GOLD": "Neuter",
+        "gold_ontology": "Neuter",
         "category": "gender",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "N"
     },
     {
-        "GOLD": "Non",
+        "gold_ontology": "Non",
         "category": "non",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "N-"
     },
     {
-        "GOLD": "Negation",
+        "gold_ontology": "Negation",
         "category": "neg",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "NEG"
     },
     {
-        "GOLD": "NonFuture",
+        "gold_ontology": "NonFuture",
         "category": "tense",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "NFUT"
     },
     {
-        "GOLD": "Nominalizer",
+        "gold_ontology": "Nominalizer",
         "category": "noun",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "NMLZ"
     },
     {
-        "GOLD": "Nominative",
+        "gold_ontology": "Nominative",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "NOM"
     },
     {
-        "GOLD": "NonPresent",
+        "gold_ontology": "NonPresent",
         "category": "tense",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "NPRS"
     },
     {
-        "GOLD": "NonPast",
+        "gold_ontology": "NonPast",
         "category": "tense",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "NPST"
     },
     {
-        "GOLD": "NearFuture",
+        "gold_ontology": "NearFuture",
         "category": "tense",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "NRFUT"
     },
     {
-        "GOLD": "NearPresent",
+        "gold_ontology": "NearPresent",
         "category": "tense",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "NRPRS"
     },
     {
-        "GOLD": "NearPast",
+        "gold_ontology": "NearPast",
         "category": "tense",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "NRPST"
     },
     {
-        "GOLD": "Object",
+        "gold_ontology": "Object",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "OBJ"
     },
     {
-        "GOLD": "Oblique",
+        "gold_ontology": "Oblique",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "OBL"
     },
     {
-        "GOLD": "Patient",
+        "gold_ontology": "Patient",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "P"
     },
     {
-        "GOLD": "Passive",
+        "gold_ontology": "Passive",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PASS"
     },
     {
-        "GOLD": "Personal",
+        "gold_ontology": "Personal",
         "category": "aspect-mood",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "PERS"
     },
     {
-        "GOLD": "Perfective",
+        "gold_ontology": "Perfective",
         "category": "aspect",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PFV"
     },
     {
-        "GOLD": "PluralPerson",
+        "gold_ontology": "PluralPerson",
         "category": "per",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PL"
     },
     {
-        "GOLD": "Possessive",
+        "gold_ontology": "Possessive",
         "category": "noun",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "POSS"
     },
     {
-        "GOLD": "Predicative",
+        "gold_ontology": "Predicative",
         "category": "structure",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PRED"
     },
     {
-        "GOLD": "Preterite",
+        "gold_ontology": "Preterite",
         "category": "tense-aspect",
         "g_native": "false",
         "l_native": "false",
         "leipzig": "PRET"
     },
     {
-        "GOLD": "Perfect",
+        "gold_ontology": "Perfect",
         "category": "tense-aspect",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PRF"
     },
     {
-        "GOLD": "Progressive",
+        "gold_ontology": "Progressive",
         "category": "aspect-tense",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PROG"
     },
     {
-        "GOLD": "Prohibitive",
+        "gold_ontology": "Prohibitive",
         "category": "mood",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PROH"
     },
     {
-        "GOLD": "Proximal",
+        "gold_ontology": "Proximal",
         "category": "tense-aspect",
         "g_native": "false",
         "l_native": "true",
         "leipzig": "PROX"
     },
     {
-        "GOLD": "Present",
+        "gold_ontology": "Present",
         "category": "tense",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PRS"
     },
     {
-        "GOLD": "Past",
+        "gold_ontology": "Past",
         "category": "tense",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PST"
     },
     {
-        "GOLD": "Participle",
+        "gold_ontology": "Participle",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PTCP"
     },
     {
-        "GOLD": "Purposive",
+        "gold_ontology": "Purposive",
         "category": "mood",
         "g_native": "false",
         "l_native": "true",
         "leipzig": "PURP"
     },
     {
-        "GOLD": "Question",
+        "gold_ontology": "Question",
         "category": "q",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "Q"
     },
     {
-        "GOLD": "Quotative",
+        "gold_ontology": "Quotative",
         "category": "mood",
         "g_native": "false",
         "l_native": "true",
         "leipzig": "QUOT"
     },
     {
-        "GOLD": "Recent",
+        "gold_ontology": "Recent",
         "category": "tense-aspect",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "REC"
     },
     {
-        "GOLD": "Reciprocal",
+        "gold_ontology": "Reciprocal",
         "category": "noun",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "RECP"
     },
     {
-        "GOLD": "Reflexive",
+        "gold_ontology": "Reflexive",
         "category": "noun",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "REFL"
     },
     {
-        "GOLD": "Relative",
+        "gold_ontology": "Relative",
         "category": "coord",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "REL"
     },
     {
-        "GOLD": "Remote",
+        "gold_ontology": "Remote",
         "category": "tense-aspect",
         "g_native": "true",
         "l_native": "false",
         "leipzig": "REM"
     },
     {
-        "GOLD": "Repetitive",
+        "gold_ontology": "Repetitive",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "REP"
     },
     {
-        "GOLD": "Resultative",
+        "gold_ontology": "Resultative",
         "category": "aspect",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "RES"
     },
     {
-        "GOLD": "Single",
+        "gold_ontology": "Single",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "S"
     },
     {
-        "GOLD": "Subject",
+        "gold_ontology": "Subject",
         "category": "case",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "SBJ"
     },
     {
-        "GOLD": "Subjunctive",
+        "gold_ontology": "Subjunctive",
         "category": "mood",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "SBJV"
     },
     {
-        "GOLD": "SingularPerson",
+        "gold_ontology": "SingularPerson",
         "category": "per",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "SG"
     },
     {
-        "GOLD": "Stative",
+        "gold_ontology": "Stative",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "STAT"
     },
     {
-        "GOLD": "Topic",
+        "gold_ontology": "Topic",
         "category": "info",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "TOP"
     },
     {
-        "GOLD": "Transitive",
+        "gold_ontology": "Transitive",
         "category": "verb",
         "g_native": "true",
         "l_native": "true",
         "leipzig": "TR"
     },
     {
-        "GOLD": "Vocative",
+        "gold_ontology": "Vocative",
         "category": "case",
         "g_native": "true",
         "l_native": "true",

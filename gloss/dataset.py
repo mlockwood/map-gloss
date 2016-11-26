@@ -23,7 +23,7 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-def load_datasets(datasets):
+def infer_datasets(datasets):
     """
     Take a JSON representation of the datasets to be loaded and create
     a DS representation with all paths for XIGT and choices files.
@@ -67,7 +67,7 @@ def find_files(path):
         path: ISO path
 
     Returns:
-        {"XIGT": xigt path for ISO, "choices": choices path for ISO}
+        {"xigt": xigt path for ISO, "choices": choices path for ISO}
     """
     xigt = None
     choices = None
@@ -77,4 +77,4 @@ def find_files(path):
                 xigt = os.path.join(root, file)
             elif re.search('choices.up', file):
                 choices = os.path.join(root, file)
-    return {"XIGT": xigt, "choices": choices}
+    return {"xigt": xigt, "choices": choices}

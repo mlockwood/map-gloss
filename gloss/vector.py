@@ -1,18 +1,14 @@
-import re
-import string
-
-# Import scripts
-from src.eval import gold_standard
-from src.utils import functions
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 
-# Import scripts
-from src.utils.xigt.codecs import xigtxml
+import re
+import string
 
-# Import classes, functions, and variables
-from src.gloss.constants import GRAMS, VALUES, EVAL
+from eval import gold_standard
+from utils import functions
+from utils.xigt.codecs import xigtxml
+from gloss.constants import GRAMS, VALUES, EVAL
 
 
 __project_parent__ = 'AGGREGATION'
@@ -33,10 +29,11 @@ def set_vectors(datasets):
     for dataset in datasets:
         for iso in datasets[dataset]:
             # Open the current xigt file
-            file = open(datasets[dataset][iso])
+            file = open(datasets[dataset][iso]["xigt"])
             xc = xigtxml.load(file)
             file.close()
             punctex = re.compile('[%s]' % string.punctuation)
+
             # Train each IGT sentence
             for igt in xc:
 
@@ -116,25 +113,15 @@ def set_gold_standard():
 class Collection:
 
     objects = {}
-    strings = {}
-    id_generator = 1
+    tuples = {}
 
-    def __init__(self, structure, id=None):
+    def __init__(self, structure):
         self.structure = structure
         self.vectors = self.retrieve_vectors()
 
-        # Set id and store in objects
-        self.id = id if not None else hex(Collection.id_generator)
-        if self.id == Collection.id_generator:
-            Collection.id_generator += 1
-        Collection.objects[id] = self
-
     @staticmethod
-    def parse_collection_string(collection):
+    def parse_collection(collection):
         structure = {}
-
-        # Split & delimited datasets for the collection
-        collection = re.split('&', collection)
 
         # For each dataset after the split
         for dataset in collection:
@@ -163,12 +150,12 @@ class Collection:
         return structure
 
     @staticmethod
-    def init_string_collection(collection):
+    def get_collection(collection):
         # If the collection has not been seen create the Collection object
-        if collection not in Collection.strings:
-            structure = Collection.parse_collection_string(collection)
-            Collection.strings[collection] = Collection(structure)
-        return Collection.strings[collection]
+        if collection not in Collection.tuples:
+            structure = Collection.parse_collection(collection)
+            Collection.tuples[collection] = Collection(structure)
+        return Collection.tuples[collection]
 
     def retrieve_vectors(self):
         # Select the vectors that match the Collection object's structure

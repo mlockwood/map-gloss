@@ -16,8 +16,11 @@ how does a user point map gloss to their datasets/choices?
 
 then infer by iso/testsuite-enriched.xml and iso/choices.up etc
 
-gold standard is an extension of this same process because it is relevant to the XIGT and choices the user loads as is
-the lexicon and models -- therefore the only data inherent to map_gloss is the standard_grams and standard_values
+### Parameters
+
+internal: grams, values
+internal or loaded: gold standard, lexicon
+loaded: datasets, model
 
 
 models

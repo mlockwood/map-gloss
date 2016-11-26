@@ -7,11 +7,11 @@ import re
 import os
 
 # Import scripts
-from src.utils import functions
+from utils import functions
 
 # Import classes, functions, and variables
-from src.eval.constants import CLASSIFICATION_TYPES, LABELS, LABEL_TEXT
-from src.gloss.constants import GRAMS, VALUES, PATH
+from eval.constants import CLASSIFICATION_TYPES, LABELS, LABEL_TEXT
+from gloss.constants import GRAMS, VALUES
 
 
 __project_parent__ = 'AGGREGATION'

@@ -21,14 +21,6 @@ class GlossError(Exception):
         self.message = message
 
 
-class MissingDatasetError(GlossError):
-    pass
-
-
-class VariablePathError(GlossError):
-    pass
-
-
 class InvalidClassifierError(GlossError):
     pass
 

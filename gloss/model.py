@@ -7,14 +7,13 @@ import re
 import os
 
 # Import scripts
-from src.gloss import errors as GlossErrors
-from src.utils import functions
+from gloss import errors as GlossErrors
+from utils import functions
 
 # Import classes, functions, and variables
-from src.gloss.constants import find_path, GRAMS, PATH, EVAL
-from src.gloss.dataset import load_datasets
-from src.gloss.result import UniqueGloss, Container
-from src.gloss.vector import Collection, Vector, set_vectors
+from gloss.dataset import *
+from gloss.result import UniqueGloss, Container
+from gloss.vector import Collection, Vector, set_vectors
 
 
 __project_parent__ = 'AGGREGATION'
@@ -30,58 +29,34 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-def load_models(data_path):
-    models = []
-    reader = open(data_path + '/models', 'r')
-    for row in reader:
-        models.append(re.split(',', row.rstrip()))  # [model_id, train collection, test collection, classifiers]
-    return models
-
-
 class Model:
 
     objects = {}
     valid_classifiers = {'knn': True, 'maxent': True, 'nb': True, 'tbl': True}
 
-    def __init__(self, id, train, test, classifiers):
-        self.id = id
+    def __init__(self, name, train, test, classifiers):
+        self.name = name
         self.train = train
         self.test = test
         self.classifiers = classifiers
         self.models = {}
         self.unique_glosses = {}
         self.containers = {}
-        Model.objects[self.id] = self
+        Model.objects[name] = self
 
-    @staticmethod
-    def parse_classifier_string(model_id, classifier_string):
-        classifiers = {}
+    def validate_classifiers(self, classifiers):
         weight = 0.0
-        classifier_string = re.split('&', classifier_string)
-        for classifier in classifier_string:
-            classifier = re.split('@', classifier)
-
-            # Convert classifier[1] weight to float
-            try:
-                classifier[1] = float(classifier[1])
-            except ValueError:
-                raise GlossErrors.InvalidClassifierWeightError('{} for model {} '.format(model_id, classifier[0]) +
-                                                               'has an invalid weight of {}.'.format(classifier[1]))
+        for classifier in classifiers:
 
             # Verify that the classifier is a valid/known classifier
-            if classifier[0] not in Model.valid_classifiers:
-                raise GlossErrors.InvalidClassifierError('{} for model {} is not a '.format(model_id, classifier[0]) +
+            if classifier not in Model.valid_classifiers:
+                raise GlossErrors.InvalidClassifierError('{} for model {} is not a '.format(self.name, classifier) +
                                                          'valid classifier.')
 
-            # Verify that the model has exactly one weight for the classifier
-            if len(classifier) != 2:
-                raise GlossErrors.ClassifierWeightError('{} for model {} does not '.format(model_id, classifier[0]) +
-                                                        'have exactly one weight.')
-
             # Verify that the weight is a valid weight
-            if not (0.0 <= classifier[1] <= 1.0):
-                raise GlossErrors.InvalidClassifierWeightError('{} for model {} '.format(model_id, classifier[0]) +
-                                                               'has an invalid weight of {}.'.format(classifier[1]))
+            if not (0.0 <= classifiers[classifier] <= 1.0):
+                raise GlossErrors.InvalidClassifierWeightError('Model {} has an invalid weight for '.format(self.name) +
+                                                               '{} of {}.'.format(classifier, classifiers[classifier]))
 
             # Add classifier to classifiers and add weights to weight
             classifiers[classifier[0]] = classifier[1]
@@ -89,7 +64,7 @@ class Model:
 
         # Verify that the total weight is equal to 1.00
         if weight != 1.0:
-            raise GlossErrors.ClassifierWeightError('Model {} weights do not equal 1.0.'.format(model_id))
+            raise GlossErrors.ClassifierWeightError('Model {} weights do not equal 1.0.'.format(self.name))
 
         return classifiers
 
@@ -99,7 +74,7 @@ class Model:
 
             # If TBL
             if classifier == 'tbl':
-                self.models['tbl'] = TBL(self.train.vectors, self.id)
+                self.models['tbl'] = TBL(self.train.vectors, self.name)
                 self.models['tbl'].train_model()
                 self.models['tbl'].decode(self.test.vectors)
 
@@ -290,7 +265,8 @@ class TBL:
         return True
 
 
-def process_models(datasets, models, out_path):
+def process_models(datasets, models, out_path=None, gold_standard=None, infer_dataset=True):
+    datasets = infer_datasets(datasets) if infer_dataset else datasets
     set_vectors(datasets)
     for model in models:
         train = Collection.init_string_collection(model[1])
