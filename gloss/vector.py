@@ -8,7 +8,6 @@ import string
 from eval import gold_standard
 from utils import functions
 from utils.xigt.codecs import xigtxml
-from gloss.constants import GRAMS, VALUES, EVAL
 
 
 __project_parent__ = 'AGGREGATION'
@@ -73,40 +72,6 @@ def set_vectors(datasets):
                         except:
                             Vector(dataset, iso, gloss, '', word_match)
 
-    # If evaluation is to occur load the gold_standard
-    if EVAL:
-        set_gold_standard()
-
-    return True
-
-
-def set_gold_standard():
-    annotate = []
-    # Process every vector
-    for vector in Vector.objects:
-        # Collect vector obj
-        obj = Vector.objects[vector]
-
-        # If GoldStandard object does not exist, create GoldStandard object
-        if (obj.dataset, obj.iso, obj.gloss) not in gold_standard.GoldStandard.objects:
-            annotate += [(obj.dataset, obj.iso, obj.gloss)]
-            gold_standard.GoldStandard(obj.dataset, obj.iso, obj.gloss)
-
-        # If GoldStandard standard does not exist, add observation
-        elif not gold_standard.GoldStandard.objects[(obj.dataset, obj.iso, obj.gloss)].label:
-            gold_standard.GoldStandard.objects[(obj.dataset, obj.iso, obj.gloss)].add_count()
-
-        # If GoldStandard has a standard send to Vector
-        else:
-            obj.label = str(gold_standard.GoldStandard.objects[(obj.dataset, obj.iso, obj.gloss)].label)
-
-    # If there were values that needed a GoldStandard standard
-    if annotate:
-        # Seek input and then send to Vector
-        gold_standard.GoldStandard.annotate(annotate)
-        for unique in annotate:
-            for vector in Vector.lookup[unique]:
-                vector.label = gold_standard.GoldStandard.objects[unique].label
     return True
 
 

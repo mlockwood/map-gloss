@@ -8,9 +8,11 @@ import os
 
 from gloss import errors as GlossErrors
 from utils import functions
+from eval.gold_standard import GoldStandard, Lexicon
 from gloss.constants import CLASSIFIERS
 from gloss.dataset import *
 from gloss.result import UniqueGloss, Container
+from gloss.standard import Gram
 from gloss.vector import Collection, Vector, set_vectors
 from utils.classes import DataModelTemplate
 
@@ -66,7 +68,7 @@ class Model(DataModelTemplate):
 
         return classifiers
 
-    def run_classifiers(self, out_path):
+    def run_classifiers(self, evaluate, out_path):
         # Initial processing of classifiers
         for classifier in self.classifiers:
 
@@ -84,7 +86,7 @@ class Model(DataModelTemplate):
 
         # Set files for each container in the model
         for container in self.containers:
-            if EVAL:
+            if evaluate and out_path:
                 Container.objects[container].set_confusion_matrices(out_path)
                 Container.objects[container].set_unique_gloss_evaluation(out_path)
             Container.objects[container].export_references(out_path)
@@ -141,7 +143,7 @@ class TBL:
         tbl = {}
         # Read each vector object in the training DS
         for vector in self.train_vectors:
-            vector.tbl_cur = vector.gloss if vector.gloss in GRAMS else TBL.default
+            vector.tbl_cur = vector.gloss if vector.gloss in Gram.objects else TBL.default
             # For each feat in the instance's features
             for feat in vector.features:
                 # Set internal dictionaries if feet unseen
@@ -217,7 +219,7 @@ class TBL:
         # For each instance in vectors
         for vector in vectors:
             # Set default class
-            vector.tbl_cur = vector.gloss if vector.gloss in GRAMS else TBL.default
+            vector.tbl_cur = vector.gloss if vector.gloss in Gram.objects else TBL.default
             transformations = []
 
             # For each transformation rule in order
@@ -265,22 +267,58 @@ class TBL:
         return True
 
 
-def process_models(dataset_file, model_file, out_path=None, gold_standard=None):
+def set_gold_standard():
+    annotate = []
+    # Process every vector
+    for vector in Vector.objects:
+        # Collect vector obj
+        obj = Vector.objects[vector]
+
+        # If GoldStandard object does not exist, create GoldStandard object
+        if (obj.dataset, obj.iso, obj.gloss) not in GoldStandard.objects:
+            annotate += [(obj.dataset, obj.iso, obj.gloss)]
+            GoldStandard(obj.dataset, obj.iso, obj.gloss)
+
+        # If GoldStandard standard does not exist, add observation
+        elif not GoldStandard.objects[(obj.dataset, obj.iso, obj.gloss)].label:
+            GoldStandard.objects[(obj.dataset, obj.iso, obj.gloss)].add_count()
+
+        # If GoldStandard has a standard send to Vector
+        else:
+            obj.label = str(GoldStandard.objects[(obj.dataset, obj.iso, obj.gloss)].label)
+
+    # If there were values that needed a GoldStandard standard
+    if annotate:
+        # Seek input and then send to Vector
+        GoldStandard.annotate(annotate)
+        for unique in annotate:
+            for vector in Vector.lookup[unique]:
+                vector.label = GoldStandard.objects[unique].label
+    return True
+
+
+def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold_standard_file=None, lexicon_file=None):
     # Set up datasets
     datasets = infer_datasets(json.load(dataset_file))
     set_vectors(datasets)
 
     # Configure gold standard
+    if evaluate:
+        GoldStandard.json_path = gold_standard_file if gold_standard_file else 'data/gold_standard.json'
+        GoldStandard.load()
+        Lexicon.json_path = lexicon_file if lexicon_file else 'data/lexicon.json'
+        Lexicon.load()
+        set_gold_standard()
 
     # Process models
     Model.json_path = model_file
     Model.load()
     for model in Model.objects:
-        Model.objects[model].run_classifiers(out_path)
+        Model.objects[model].run_classifiers(evaluate, out_path)
 
 
 def use_internal_parameters():
-    
+
     return True
 
 

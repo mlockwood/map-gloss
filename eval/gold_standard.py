@@ -25,7 +25,8 @@ __collaborators__ = None
 
 
 class GoldStandard(DataModelTemplate):
-    
+
+    json_path = None
     objects = {}  # (dataset, iso, gloss)
     languages = {}
     lexicon = {}
@@ -55,11 +56,10 @@ class GoldStandard(DataModelTemplate):
                 if Value.objects[gloss[2]]["category"] == "part-of-speech":
                     GoldStandard.set_standard(gloss, 'part-of-speech', 'part-of-speech')
                 else:
-                    GoldStandard.set_standard(gloss, 'incomplete', Value.objects[gloss[2]]["grams"])
+                    GoldStandard.set_standard(gloss, 'incomplete', 'incomplete')
             # Otherwise seek standard
             else:
                 annotate.append(gloss)
-                valid = False
 
         # If there are glosses to annotate print the instructions for annotation
         if annotate:
@@ -263,6 +263,7 @@ class GoldStandard(DataModelTemplate):
 
 class Lexicon(DataModelTemplate):
 
+    json_file = None
     objects = {}
 
     def set_object_attrs(self):

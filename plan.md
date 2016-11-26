@@ -23,4 +23,4 @@ internal or loaded: gold standard, lexicon
 loaded: datasets, model
 
 ## Gold Standard
-What to do with words in IGT that are actually multiple grams?
+What to do with words in IGT that are actually multiple grams? Essentially what to do with combined and incomplete?

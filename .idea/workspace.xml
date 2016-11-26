@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16910774-536f-4b7f-b67f-106bd2470b9e" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/data/gold_standard.json" afterPath="$PROJECT_DIR$/gloss/data/gold_standard.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/data/lexicon.json" afterPath="$PROJECT_DIR$/gloss/data/lexicon.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eval/gold_standard.py" afterPath="$PROJECT_DIR$/eval/gold_standard.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/data/models.json" afterPath="$PROJECT_DIR$/example/data/models.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/constants.py" afterPath="$PROJECT_DIR$/gloss/constants.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/dataset.py" afterPath="$PROJECT_DIR$/gloss/dataset.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/model.py" afterPath="$PROJECT_DIR$/gloss/model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/standard.py" afterPath="$PROJECT_DIR$/gloss/standard.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/vector.py" afterPath="$PROJECT_DIR$/gloss/vector.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plan.md" afterPath="$PROJECT_DIR$/plan.md" />
     </list>
     <ignored path="map_gloss.iws" />
@@ -28,34 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="constants.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gloss/constants.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="plan.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plan.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+              <caret line="25" column="115" selection-start-line="25" selection-start-column="115" selection-end-line="25" selection-end-column="115" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataset.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gloss/dataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-              <folding>
-                <element signature="e#81#90#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -63,8 +40,8 @@
       <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gloss/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2398">
-              <caret line="282" column="4" selection-start-line="282" selection-start-column="4" selection-end-line="282" selection-end-column="4" />
+            <state relative-caret-position="875">
+              <caret line="316" column="55" selection-start-line="316" selection-start-column="55" selection-end-line="316" selection-end-column="55" />
               <folding>
                 <element signature="e#49#60#0" expanded="true" />
               </folding>
@@ -75,8 +52,8 @@
       <file leaf-file-name="vector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gloss/vector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+            <state relative-caret-position="15">
+              <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
               <folding>
                 <element signature="e#49#58#0" expanded="true" />
               </folding>
@@ -87,25 +64,15 @@
       <file leaf-file-name="gold_standard.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eval/gold_standard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+            <state relative-caret-position="459">
+              <caret line="265" column="20" selection-start-line="265" selection-start-column="20" selection-end-line="265" selection-end-column="20" />
               <folding>
                 <element signature="e#49#58#0" expanded="true" />
-                <element signature="e#5888#6993#0" expanded="false" />
-                <element signature="e#7039#9040#0" expanded="false" />
-                <element signature="e#9075#9266#0" expanded="false" />
-                <element signature="e#9333#10873#0" expanded="false" />
+                <element signature="e#5855#6960#0" expanded="false" />
+                <element signature="e#7006#9007#0" expanded="false" />
+                <element signature="e#9042#9233#0" expanded="false" />
+                <element signature="e#9300#10840#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gold_standard.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/data/gold_standard.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-189044">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -148,15 +115,15 @@
         <option value="$PROJECT_DIR$/src/plan.md" />
         <option value="$PROJECT_DIR$/utils/IOutils.py" />
         <option value="$PROJECT_DIR$/gloss/errors.py" />
-        <option value="$PROJECT_DIR$/gloss/vector.py" />
         <option value="$PROJECT_DIR$/gloss/data/standard_grams.json" />
         <option value="$PROJECT_DIR$/gloss/standard.py" />
-        <option value="$PROJECT_DIR$/eval/gold_standard.py" />
-        <option value="$PROJECT_DIR$/plan.md" />
         <option value="$PROJECT_DIR$/example/data/models.json" />
         <option value="$PROJECT_DIR$/gloss/constants.py" />
-        <option value="$PROJECT_DIR$/gloss/model.py" />
         <option value="$PROJECT_DIR$/gloss/dataset.py" />
+        <option value="$PROJECT_DIR$/gloss/vector.py" />
+        <option value="$PROJECT_DIR$/plan.md" />
+        <option value="$PROJECT_DIR$/eval/gold_standard.py" />
+        <option value="$PROJECT_DIR$/gloss/model.py" />
       </list>
     </option>
   </component>
@@ -740,7 +707,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/data/lexicon.json">
+    <entry file="file://$PROJECT_DIR$/gloss/data/lexicon.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -848,26 +815,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plan.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/data/models.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -877,38 +828,6 @@
         <state relative-caret-position="45">
           <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/data/gold_standard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189044">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eval/gold_standard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding>
-            <element signature="e#49#58#0" expanded="true" />
-            <element signature="e#5888#6993#0" expanded="false" />
-            <element signature="e#7039#9040#0" expanded="false" />
-            <element signature="e#9075#9266#0" expanded="false" />
-            <element signature="e#9333#10873#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/vector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
-          <folding>
-            <element signature="e#49#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -922,10 +841,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/data/gold_standard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6862" column="27" selection-start-line="6862" selection-start-column="27" selection-end-line="6862" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plan.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="115" selection-start-line="25" selection-start-column="115" selection-end-line="25" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+          <folding>
+            <element signature="e#49#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/gold_standard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="265" column="20" selection-start-line="265" selection-start-column="20" selection-end-line="265" selection-end-column="20" />
+          <folding>
+            <element signature="e#49#58#0" expanded="true" />
+            <element signature="e#5855#6960#0" expanded="false" />
+            <element signature="e#7006#9007#0" expanded="false" />
+            <element signature="e#9042#9233#0" expanded="false" />
+            <element signature="e#9300#10840#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gloss/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2398">
-          <caret line="282" column="4" selection-start-line="282" selection-start-column="4" selection-end-line="282" selection-end-column="4" />
+        <state relative-caret-position="875">
+          <caret line="316" column="55" selection-start-line="316" selection-start-column="55" selection-end-line="316" selection-end-column="55" />
           <folding>
             <element signature="e#49#60#0" expanded="true" />
           </folding>
