@@ -16,3 +16,7 @@ class Value(DataModelTemplate):
 
     def set_object_attrs(self):
         Value.objects[self.gloss] = self
+
+
+Gram.load()
+Value.load()

@@ -22,8 +22,5 @@ internal: grams, values
 internal or loaded: gold standard, lexicon
 loaded: datasets, model
 
-
-models
-0x1,dev1&dev2,test,tbl@1.0
-0x2,dev1&dev2&test,<cross>,tbl@1.0
-0x3,dev1!rus&dev2&test,dev1-rus,tbl@1.0
+## Gold Standard
+What to do with words in IGT that are actually multiple grams?

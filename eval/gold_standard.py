@@ -2,16 +2,13 @@
 # -*- coding: utf-8 -*-
 
 
-# Import packages and libraries
 import re
 import os
 
-# Import scripts
+from utils.classes import DataModelTemplate
 from utils import functions
-
-# Import classes, functions, and variables
 from eval.constants import CLASSIFICATION_TYPES, LABELS, LABEL_TEXT
-from gloss.constants import GRAMS, VALUES
+from gloss.standard import Gram, Value
 
 
 __project_parent__ = 'AGGREGATION'
@@ -27,72 +24,14 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-class GoldStandard:
+class GoldStandard(DataModelTemplate):
     
     objects = {}  # (dataset, iso, gloss)
     languages = {}
     lexicon = {}
 
-    def __init__(self, dataset, iso, gloss, count=1, classification_type='', label='', gold_grams=''):
-        self.dataset = dataset
-        self.iso = iso
-        self.gloss = gloss
-        self.count = int(count)
-        self.classification_type = classification_type
-        self.label = label
-        self.gold_grams = gold_grams
-        GoldStandard.objects[(dataset, iso, gloss)] = self
-
-    @staticmethod
-    def load():
-        # Import lexicon
-        try:
-            reader = open('{}/data/lexicon'.format(PATH), 'r')
-            for line in reader:
-                GoldStandard.lexicon[line.rstrip()] = True
-        except FileNotFoundError:
-            pass
-
-        # Import gold_standard objects
-        try:
-            reader = open('{}/data/gold_standard'.format(PATH), 'r')
-            for line in reader:
-                if not re.sub(' ', '', line.rstrip()):
-                    continue
-                line = re.split(',', line.rstrip())
-                GoldStandard(*line)
-            reader.close()
-        except FileNotFoundError:
-            pass
-
-        return True
-
-    @staticmethod
-    def export():
-        # Export lexicon
-        writer = open('{}/data/lexicon'.format(PATH), 'w')
-        for lex in sorted(GoldStandard.lexicon):
-            writer.write(lex + '\n')
-        writer.close()
-
-        # Export gold_standard objects
-        writer = open('{}/data/gold_standard'.format(PATH), 'w')
-        for obj in sorted(GoldStandard.objects.keys()):
-            gs = GoldStandard.objects[obj]
-            row = [gs.dataset, gs.iso, gs.gloss, str(gs.count), gs.classification_type, gs.label]
-            try:
-                row.append('-'.join(gs.gold_values))
-            except:
-                pass
-            writer.write(','.join(row) + '\n')
-        writer.close()
-        return True
-
-    @staticmethod
-    def set_lexicon():
-        for obj in GoldStandard.objects:
-            if GoldStandard.objects[obj].classification_type == 'lexical entry':
-                GoldStandard.lexicon[GoldStandard.objects[obj].gloss] = True
+    def set_object_attrs(self):
+        GoldStandard.objects[(self.dataset, self.iso, self.gloss)] = self
 
     @staticmethod
     def annotate(glosses):
@@ -105,14 +44,18 @@ class GoldStandard:
         annotate = []
         for gloss in glosses:
             # If a standard gloss
-            if gloss[2] in GRAMS:
+            # NOTE CONCERN WITH RUSSIAN IMP/IPFV
+            if gloss[2] in Gram.objects:
                 GoldStandard.set_standard(gloss, 'standard', gloss[2])
             # If a known word
-            elif gloss[2] in GoldStandard.lexicon:
+            elif gloss[2] in Lexicon.objects:
                 GoldStandard.set_standard(gloss, 'lexical entry', 'lexical entry')
-            # If a known incomplete value
-            elif gloss[2] in VALUES:
-                GoldStandard.set_standard(gloss, 'incomplete', VALUES[gloss[2]])
+            # If a known value
+            elif gloss[2] in Value.objects:
+                if Value.objects[gloss[2]]["category"] == "part-of-speech":
+                    GoldStandard.set_standard(gloss, 'part-of-speech', 'part-of-speech')
+                else:
+                    GoldStandard.set_standard(gloss, 'incomplete', Value.objects[gloss[2]]["grams"])
             # Otherwise seek standard
             else:
                 annotate.append(gloss)
@@ -318,8 +261,14 @@ class GoldStandard:
         return acc
 
 
-GoldStandard.load()
-GoldStandard.set_lexicon()
+class Lexicon(DataModelTemplate):
+
+    objects = {}
+
+    def set_object_attrs(self):
+        Lexicon.objects[self.entry] = self
+
+
 
 if __name__ == '__main__':
     print(GoldStandard.unigram_baseline({'dev1': True, 'dev2': True}, {'test': True}))

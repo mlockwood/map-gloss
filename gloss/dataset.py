@@ -37,7 +37,8 @@ def infer_datasets(datasets):
         displayed.
     """
     for dataset in datasets:
-        dataset["iso_list"] = find_iso_directories(dataset["path"])
+        if "iso_list" not in dataset:
+            dataset["iso_list"] = find_iso_directories(dataset["path"])
     return datasets
 
 

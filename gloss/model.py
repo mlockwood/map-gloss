@@ -2,18 +2,17 @@
 # -*- coding: utf-8 -*-
 
 
-# Import packages and libraries
+import json
 import re
 import os
 
-# Import scripts
 from gloss import errors as GlossErrors
 from utils import functions
-
-# Import classes, functions, and variables
+from gloss.constants import CLASSIFIERS
 from gloss.dataset import *
 from gloss.result import UniqueGloss, Container
 from gloss.vector import Collection, Vector, set_vectors
+from utils.classes import DataModelTemplate
 
 
 __project_parent__ = 'AGGREGATION'
@@ -29,27 +28,26 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-class Model:
+class Model(DataModelTemplate):
 
+    json_path = None
     objects = {}
-    valid_classifiers = {'knn': True, 'maxent': True, 'nb': True, 'tbl': True}
 
-    def __init__(self, name, train, test, classifiers):
-        self.name = name
-        self.train = train
-        self.test = test
-        self.classifiers = classifiers
+    def set_object_attrs(self):
+        self.train = Collection.get_collection(self.train)
+        self.test = Collection.get_collection(self.test)
+        self.classifiers = self.validate_classifiers(self.classifiers)
         self.models = {}
         self.unique_glosses = {}
         self.containers = {}
-        Model.objects[name] = self
+        Model.objects[self.name] = self
 
     def validate_classifiers(self, classifiers):
         weight = 0.0
         for classifier in classifiers:
 
             # Verify that the classifier is a valid/known classifier
-            if classifier not in Model.valid_classifiers:
+            if classifier not in CLASSIFIERS:
                 raise GlossErrors.InvalidClassifierError('{} for model {} is not a '.format(self.name, classifier) +
                                                          'valid classifier.')
 
@@ -96,12 +94,8 @@ class Model:
 
 class TBL:
 
-    objects = {}  # model_id
+    objects = {}  # model_name
     default = 'lexical entry'
-
-    path = '{}/reports/models/tbl'.format(PATH)
-    if not os.path.isdir(path):
-        os.makedirs(path)
 
     def __init__(self, train_vectors, model_id):
         self.train_vectors = train_vectors
@@ -111,6 +105,12 @@ class TBL:
         self.tbl_rules = []
         self.results = {}
         TBL.objects[model_id] = self
+
+    @classmethod
+    def set_cls_path(cls, path):
+        cls.path = '{}/reports/models/tbl'.format(path)
+        if not os.path.isdir(cls.path):
+            os.makedirs(cls.path)
 
     # Model function
     def model(self):
@@ -265,27 +265,22 @@ class TBL:
         return True
 
 
-def process_models(datasets, models, out_path=None, gold_standard=None, infer_dataset=True):
-    datasets = infer_datasets(datasets) if infer_dataset else datasets
+def process_models(dataset_file, model_file, out_path=None, gold_standard=None):
+    # Set up datasets
+    datasets = infer_datasets(json.load(dataset_file))
     set_vectors(datasets)
-    for model in models:
-        train = Collection.init_string_collection(model[1])
-        test = Collection.init_string_collection(model[2])
-        classifiers = Model.parse_classifier_string(model[0], model[3])
-        Model(model[0], train, test, classifiers).run_classifiers(out_path)
+
+    # Configure gold standard
+
+    # Process models
+    Model.json_path = model_file
+    Model.load()
+    for model in Model.objects:
+        Model.objects[model].run_classifiers(out_path)
 
 
 def use_internal_parameters():
-    # Load datasets assuming location of 'datasets' in map_gloss/data/ and xigt files in aggregation/data/
-    # This also assumes aggregation/src/map_gloss/
-    agg_path = find_path('aggregation')
-    datasets = load_datasets(PATH + '/data',
-                             {'dev1': '{}/data/567/dev1'.format(agg_path),
-                              'dev2': '{}/data/567/dev2'.format(agg_path),
-                              'test': '{}/data/567/test'.format(agg_path)})
-
-    # Process the models with the model file located in the data subdirectory of PATH
-    process_models(datasets, load_models(PATH + '/data'), PATH)
+    
     return True
 
 
