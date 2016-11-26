@@ -100,6 +100,3 @@ def txt_writer(matrix, file):
         writer.write('{}\n'.format(','.join(str(s) for s in row)))
     writer.close()
     return True
-
-
-txt_to_json('../../data/lexicon', '../../data/lexicon.json')

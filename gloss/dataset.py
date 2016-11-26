@@ -3,10 +3,11 @@
 
 
 # Import packages and libraries
+import os
 import re
 
 # Import scripts
-from src.gloss import errors as GlossErrors
+from gloss import errors as GlossErrors
 
 
 __project_parent__ = 'AGGREGATION'
@@ -22,47 +23,58 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-def load_datasets(data_path, var_paths={}):
-    # {dataset: {iso: xigt_path}}
-    datasets = {}
-    cur_dataset = ''
-    reader = open(data_path + '/datasets', 'r')
-    for row in reader:
-        row = row.rstrip()
+def load_datasets(datasets):
+    """
+    Take a JSON representation of the datasets to be loaded and create
+    a DS representation with all paths for XIGT and choices files.
+    Args:
+        datasets: [{"name": dataset name, "path": abs path}]
 
-        # Handle special row types
-        if not re.sub(' ', '', row):
-            continue
-        if row[0] == '#':
-            continue
-        elif row[0] == '@':
-            cur_dataset = row[1:]
-
-        # Handle languages
-        else:
-            line = re.sub(' ', '', row.rstrip().lower()).split(',') # if this works replace load standards 4 lines
-
-            # If no dataset is found raise MissingDatasetError
-            if not cur_dataset:
-                raise GlossErrors.MissingDatasetError('Language with ISO {} at path {}'.format(line[0], line[1]) +
-                                                         ' does not have an identified dataset.')
-
-            # If dataset contains a variable path parse here
-            match = re.search('\{\{\w*\}\}', line[1])
-            if match:
-                # If variable path identifier in var_paths
-                var_path = re.sub('\{|\}', '', match.group())
-                if var_path in var_paths:
-                    line[1] = re.sub(match.group(), var_paths[var_path], line[1])
-
-                # Else raise VariablePathError
-                else:
-                    raise GlossErrors.VariablePathError('{} was identified as a variable path'.format(var_path) +
-                                                           ' but no path was provided in gloss/constants.py.')
-
-            # Add the language to the datasets DS
-            if cur_dataset not in datasets:
-                datasets[cur_dataset] = {}
-            datasets[cur_dataset][line[0]] = line[1]
-
+    Returns:
+        JSON representation for internal map_gloss usage that extracted
+        ISO values and paths to corresponding XIGT and choices files.
+        If choices files are not present then a None value will be
+        displayed.
+    """
+    for dataset in datasets:
+        dataset["iso_list"] = find_iso_directories(dataset["path"])
     return datasets
+
+
+def find_iso_directories(path):
+    """
+    Use a path for a dataset and discover all ISO directories. This
+    means that a dataset must have subdirectories that are named after
+    ISO values. If a dataset needs additional directories they must
+    have a length greater than 3 to be ignored.
+    Args:
+        path: a path to a dataset extracted from the datasets JSON
+
+    Returns:
+        iso_list attribute for the dataset
+    """
+    iso_list = {}
+    for iso in [x for x in os.listdir(path) if os.path.isdir(os.path.join(path, x)) and len(x) <= 3]:
+        iso_list[iso] = find_files(path)
+    return iso_list
+
+
+def find_files(path):
+    """
+    Use simple inference logic and traverse a directory to find the
+    XIGT and hoices files for an ISO.
+    Args:
+        path: ISO path
+
+    Returns:
+        {"XIGT": xigt path for ISO, "choices": choices path for ISO}
+    """
+    xigt = None
+    choices = None
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            if re.search('testsuite-enriched.xml', file):
+                xigt = os.path.join(root, file)
+            elif re.search('choices.up', file):
+                choices = os.path.join(root, file)
+    return {"XIGT": xigt, "choices": choices}

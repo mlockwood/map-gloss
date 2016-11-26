@@ -2,208 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16910774-536f-4b7f-b67f-106bd2470b9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eval/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/data/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gloss/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gloss/data/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/models" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/github" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/deprecated/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/deprecated/clso.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/deprecated/machine_learning.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/eval/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/IOutils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/choices_reader.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/classes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/functions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/gps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/send_requests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/tex_format_table.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/time.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/codecs/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/codecs/xigtxml.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/consts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/errors.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/exporters/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/exporters/itsdb.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/exporters/latex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/exporters/util.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/importers/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/importers/odin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/importers/toolbox.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/metadata.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/mixins.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/model.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/query.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/ref.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/scripts/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/scripts/xigt_export.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/scripts/xigt_import.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/scripts/xigt_process.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/scripts/xigt_query.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/xigt/scripts/xigt_validate.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/gold_standard.json" afterPath="$PROJECT_DIR$/example/data/gold_standard.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/lexicon.json" afterPath="$PROJECT_DIR$/example/data/lexicon.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/models.json" afterPath="$PROJECT_DIR$/example/data/models.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/standard_grams.json" afterPath="$PROJECT_DIR$/gloss/data/standard_grams.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/standard_values.json" afterPath="$PROJECT_DIR$/gloss/data/standard_values.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_ain.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_ain.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_ain_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_ain_baseline5.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_ary.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_ary.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_ary_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_ary_baseline5.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_ces.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_ces.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_ces_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_ces_baseline5.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_hbs.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_hbs.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_hbs_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_hbs_baseline5.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_hix.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_hix.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_hix_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_hix_baseline5.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_inh.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_inh.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_inh_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_inh_baseline5.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_jaa.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_jaa.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_jaa_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_jaa_baseline5.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_kat.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_kat.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_kat_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_kat_baseline5.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_tgl.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_tgl.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_tgl_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_tgl_baseline5.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_tha.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_tha.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_tha_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_tha_baseline5.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_vie.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_vie.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x1/0x1_test_vie_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x1/0x1_test_vie_baseline5.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x3/0x3_dev1_rus.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x3/0x3_dev1_rus.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/choices/0x3/0x3_dev1_rus_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/0x3/0x3_dev1_rus_baseline5.choices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/0x1.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/0x1.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/dataset/0x1_test.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/dataset/0x1_test.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_ain.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_ain.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_ary.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_ary.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_ces.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_ces.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_hbs.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_hbs.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_hix.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_hix.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_inh.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_inh.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_jaa.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_jaa.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_kat.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_kat.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_tgl.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_tgl.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_tha.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_tha.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x1/language/0x1_test_vie.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_vie.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x3/0x3.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x3/0x3.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x3/dataset/0x3_dev1.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x3/dataset/0x3_dev1.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/reference/0x3/language/0x3_dev1_rus.ref" afterPath="$PROJECT_DIR$/example/out/reference/0x3/language/0x3_dev1_rus.ref" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/0x1_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/0x1_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/0x1_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/0x1_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/dataset/0x1_test_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/dataset/0x1_test_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/dataset/0x1_test_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/dataset/0x1_test_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_ain_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_ain_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_ain_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_ain_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_ary_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_ary_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_ary_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_ary_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_ces_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_ces_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_ces_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_ces_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_hbs_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_hbs_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_hbs_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_hbs_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_hix_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_hix_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_hix_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_hix_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_inh_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_inh_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_inh_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_inh_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_jaa_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_jaa_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_jaa_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_jaa_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_kat_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_kat_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_kat_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_kat_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_tgl_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_tgl_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_tgl_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_tgl_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_tha_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_tha_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_tha_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_tha_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_vie_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_vie_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x1/language/0x1_test_vie_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x1/language/0x1_test_vie_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x3/0x3_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x3/0x3_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x3/0x3_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x3/0x3_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x3/dataset/0x3_dev1_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x3/dataset/0x3_dev1_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x3/dataset/0x3_dev1_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x3/dataset/0x3_dev1_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x3/language/0x3_dev1_rus_comparison4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x3/language/0x3_dev1_rus_comparison4.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/choices/0x3/language/0x3_dev1_rus_comparison5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/0x3/language/0x3_dev1_rus_comparison5.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/0x1.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/0x1.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/dataset/0x1_test.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/dataset/0x1_test.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/language/0x1_test_ain.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_ain.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/language/0x1_test_ary.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_ary.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/language/0x1_test_ces.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_ces.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/language/0x1_test_hbs.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_hbs.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/language/0x1_test_hix.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_hix.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/language/0x1_test_inh.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_inh.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/language/0x1_test_jaa.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_jaa.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/language/0x1_test_kat.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_kat.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/language/0x1_test_tgl.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_tgl.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/language/0x1_test_tha.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_tha.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x1/language/0x1_test_vie.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_vie.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x3/0x3.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x3/0x3.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x3/dataset/0x3_dev1.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x3/dataset/0x3_dev1.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/cprf/0x3/language/0x3_dev1_rus.cprf" afterPath="$PROJECT_DIR$/example/reports/cprf/0x3/language/0x3_dev1_rus.cprf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/gold_standard/complete_report.txt" afterPath="$PROJECT_DIR$/example/reports/gold_standard/complete_report.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/gold_standard/dev1_report.txt" afterPath="$PROJECT_DIR$/example/reports/gold_standard/dev1_report.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/gold_standard/dev2_report.txt" afterPath="$PROJECT_DIR$/example/reports/gold_standard/dev2_report.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/gold_standard/test_report.txt" afterPath="$PROJECT_DIR$/example/reports/gold_standard/test_report.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/models/tbl/0x1.acc" afterPath="$PROJECT_DIR$/example/reports/models/tbl/0x1.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/models/tbl/0x1.mod" afterPath="$PROJECT_DIR$/example/reports/models/tbl/0x1.mod" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/models/tbl/0x1.sys" afterPath="$PROJECT_DIR$/example/reports/models/tbl/0x1.sys" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/models/tbl/0x2.acc" afterPath="$PROJECT_DIR$/example/reports/models/tbl/0x2.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/models/tbl/0x2.mod" afterPath="$PROJECT_DIR$/example/reports/models/tbl/0x2.mod" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/models/tbl/0x2.sys" afterPath="$PROJECT_DIR$/example/reports/models/tbl/0x2.sys" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/models/tbl/0x3.acc" afterPath="$PROJECT_DIR$/example/reports/models/tbl/0x3.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/models/tbl/0x3.mod" afterPath="$PROJECT_DIR$/example/reports/models/tbl/0x3.mod" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/models/tbl/0x3.sys" afterPath="$PROJECT_DIR$/example/reports/models/tbl/0x3.sys" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/0x1.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/0x1.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/0x1.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/0x1.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/dataset/0x1_test.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/dataset/0x1_test.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/dataset/0x1_test.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/dataset/0x1_test.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_ain.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ain.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_ain.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ain.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_ary.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ary.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_ary.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ary.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_ces.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ces.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_ces.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ces.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_hbs.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_hbs.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_hbs.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_hbs.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_hix.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_hix.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_hix.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_hix.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_inh.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_inh.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_inh.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_inh.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_jaa.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_jaa.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_jaa.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_jaa.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_kat.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_kat.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_kat.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_kat.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_tgl.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_tgl.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_tgl.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_tgl.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_tha.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_tha.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_tha.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_tha.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_vie.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_vie.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x1/language/0x1_test_vie.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_vie.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x3/0x3.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/0x3.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x3/0x3.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/0x3.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x3/dataset/0x3_dev1.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/dataset/0x3_dev1.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x3/dataset/0x3_dev1.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/dataset/0x3_dev1.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x3/language/0x3_dev1_rus.acc" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/language/0x3_dev1_rus.acc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/unique_gloss/0x3/language/0x3_dev1_rus.out" afterPath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/language/0x3_dev1_rus.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/eval/confusion_matrix.py" afterPath="$PROJECT_DIR$/eval/confusion_matrix.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/eval/constants.py" afterPath="$PROJECT_DIR$/eval/constants.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/eval/eval_infer.py" afterPath="$PROJECT_DIR$/eval/eval_infer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/eval/gold_standard.py" afterPath="$PROJECT_DIR$/eval/gold_standard.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gloss/__init__.py" afterPath="$PROJECT_DIR$/infer/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gloss/constants.py" afterPath="$PROJECT_DIR$/gloss/constants.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gloss/dataset.py" afterPath="$PROJECT_DIR$/gloss/dataset.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gloss/errors.py" afterPath="$PROJECT_DIR$/gloss/errors.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gloss/model.py" afterPath="$PROJECT_DIR$/gloss/model.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gloss/reference.py" afterPath="$PROJECT_DIR$/gloss/reference.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gloss/result.py" afterPath="$PROJECT_DIR$/gloss/result.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gloss/vector.py" afterPath="$PROJECT_DIR$/gloss/vector.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/infer/__init__.py" afterPath="$PROJECT_DIR$/gloss/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/infer/choices.py" afterPath="$PROJECT_DIR$/infer/choices.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/infer/constants.py" afterPath="$PROJECT_DIR$/infer/constants.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/infer/errors.py" afterPath="$PROJECT_DIR$/infer/errors.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/infer/model.py" afterPath="$PROJECT_DIR$/infer/model.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/notes.txt" afterPath="$PROJECT_DIR$/notes.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/plan.md" afterPath="$PROJECT_DIR$/plan.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/__init__.py" afterPath="$PROJECT_DIR$/eval/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/michael.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/constants.py" afterPath="$PROJECT_DIR$/gloss/constants.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/dataset.py" afterPath="$PROJECT_DIR$/gloss/dataset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/IOutils.py" afterPath="$PROJECT_DIR$/utils/IOutils.py" />
     </list>
     <ignored path="map_gloss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -226,8 +28,8 @@
       <file leaf-file-name="plan.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plan.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="113" selection-start-line="19" selection-start-column="113" selection-end-line="19" selection-end-column="113" />
+            <state relative-caret-position="180">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -236,8 +38,18 @@
       <file leaf-file-name="constants.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gloss/constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataset.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gloss/dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="69" column="68" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
               <folding>
                 <element signature="e#81#90#0" expanded="true" />
               </folding>
@@ -245,25 +57,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IOutils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/IOutils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="104" column="53" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -305,6 +105,9 @@
         <option value="$PROJECT_DIR$/src/utils/functions.py" />
         <option value="$PROJECT_DIR$/src/constants.py" />
         <option value="$PROJECT_DIR$/src/plan.md" />
+        <option value="$PROJECT_DIR$/utils/IOutils.py" />
+        <option value="$PROJECT_DIR$/gloss/constants.py" />
+        <option value="$PROJECT_DIR$/gloss/dataset.py" />
       </list>
     </option>
   </component>
@@ -425,7 +228,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -634,14 +437,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="951" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18760107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18760107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2402746" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2402746" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -675,9 +478,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#90#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -719,9 +520,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
           <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#90#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -795,14 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -919,16 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/IOutils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="104" column="53" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/models">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -945,28 +726,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plan.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="113" selection-start-line="19" selection-start-column="113" selection-end-line="19" selection-end-column="113" />
           <folding />
         </state>
       </provider>
@@ -979,12 +742,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/IOutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="101" column="15" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plan.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="69" column="68" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
+          <folding>
+            <element signature="e#81#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
