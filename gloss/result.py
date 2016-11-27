@@ -98,8 +98,8 @@ class Container(object):
             raise GlossErrors.InvalidContainerTypeError(ctype)
 
         # All glosses here are unique -> (dataset, iso, gloss)
-        self.gold_grams = {}  # {(dataset, iso, standard_gram.label): True}
-        self.gold_glosses = {}  # {input_unique: standard_gram.label}
+        self.gold_grams = {}  # {(dataset, iso, standard_gram.): True}
+        self.gold_glosses = {}  # {input_unique: standard_gram}
         self.ref_glosses = {}  # {input_unique: final}
         self.final_glosses = {}  # {final_unique: True}
         self.cm1 = {}
@@ -124,8 +124,6 @@ class Container(object):
         if not os.path.isdir(path):
             os.makedirs(path)
         self.cprf.write_cprf_file('{}/{}'.format(path, self.container))
-
-        return True
 
     def set_unique_gloss_evaluation(self, out_path):
         # Set the path for the unique_gloss evaluation file
@@ -187,8 +185,6 @@ class Container(object):
         file = '{}/{}'.format(path, self.container)
         functions.accuracy(acc, file)
 
-        return True
-
     def export_references(self, out_path):
         # Set the path for the container reference file
         path = '{}/out/reference/{}/{}'.format(out_path, self.model, self.ctype)
@@ -202,5 +198,3 @@ class Container(object):
 
         for gloss in sorted(self.ref_glosses):
             writer.write('{}\n'.format(','.join([self.model] + list(gloss) + [self.ref_glosses[gloss]])))
-
-        return True

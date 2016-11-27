@@ -4,7 +4,9 @@
 
 import re
 import string
+import uuid
 
+from gloss.standard import Gram, Value
 from utils import functions
 from utils.xigt.codecs import xigtxml
 
@@ -67,210 +69,202 @@ def set_vectors(datasets):
                         if gloss.lower() in words:
                             word_match = True
                         try:
-                            Vector(dataset, iso, gloss, shared_morphemes[morphemes[gloss.alignment]], word_match)
+                            set_vector(dataset, iso, gloss, shared_morphemes[morphemes[gloss.alignment]], word_match)
                         except:
-                            Vector(dataset, iso, gloss, '', word_match)
+                            set_vector(dataset, iso, gloss, '', word_match)
 
     return True
 
 
-class Collection:
+collections = {}  # {collection_tuple: vectors}
 
-    objects = {}
-    tuples = {}
 
-    def __init__(self, structure):
-        self.structure = structure
-        self.vectors = self.retrieve_vectors()
+def get_collection(collection):
+    # If the collection has not been seen create the Collection object
+    if collection not in collections:
+        collections[collection] = collect_vectors(parse_collection(collection))
+    return collections[collection]
 
-    @staticmethod
-    def parse_collection(collection):
-        structure = {}
 
-        # For each dataset after the split
-        for dataset in collection:
+def parse_collection(collection):
+    structure = {}
 
-            # Test for exception datasets
-            dataset = re.split('!', dataset)
-            if len(dataset) == 2:
-                # Set an <except> key and then add each iso to the dataset that is an exception
-                structure[dataset[0]] = {'<except>': True}
-                languages = re.split('-', dataset[1])
-                for iso in languages:
+    # For each dataset after the split
+    for dataset in collection:
+
+        # Test for exception datasets
+        dataset = re.split('!', dataset)
+        if len(dataset) == 2:
+            # Set an <except> key and then add each iso to the dataset that is an exception
+            structure[dataset[0]] = {'<except>': True}
+            languages = re.split('-', dataset[1])
+            for iso in languages:
+                structure[dataset[0]][iso] = True
+
+        # Test for specified datasets
+        else:
+            dataset = re.split('-', dataset[0])
+            if len(dataset) > 1:
+                structure[dataset[0]] = {}
+                for iso in dataset[1:]:
                     structure[dataset[0]][iso] = True
 
-            # Test for specified datasets
+            # Otherwise make the dataset an all-inclusive set
             else:
-                dataset = re.split('-', dataset[0])
-                if len(dataset) > 1:
-                    structure[dataset[0]] = {}
-                    for iso in dataset[1:]:
-                        structure[dataset[0]][iso] = True
+                structure[dataset[0]] = '<all>'
 
-                # Otherwise make the dataset an all-inclusive set
-                else:
-                    structure[dataset[0]] = '<all>'
-
-        return structure
-
-    @staticmethod
-    def get_collection(collection):
-        # If the collection has not been seen create the Collection object
-        if collection not in Collection.tuples:
-            structure = Collection.parse_collection(collection)
-            Collection.tuples[collection] = Collection(structure)
-        return Collection.tuples[collection]
-
-    def retrieve_vectors(self):
-        # Select the vectors that match the Collection object's structure
-        vectors = []
-        for dataset in self.structure:
-            if dataset in Vector.structured:
-                # Process datasets equal to '<all>'
-                if self.structure[dataset] == '<all>':
-                    for iso in Vector.structured[dataset]:
-                        vectors += Vector.structured[dataset][iso]
-
-                # Process exception datasets
-                elif '<except>' in self.structure[dataset]:
-                    for iso in Vector.structured[dataset]:
-                        if iso not in self.structure[dataset]:
-                            vectors += Vector.structured[dataset][iso]
-
-                # Process specified datasets
-                else:
-                    for iso in self.structure[dataset]:
-                        if iso in Vector.structured[dataset]:
-                            vectors += Vector.structured[dataset][iso]
-        return vectors
+    return structure
 
 
-class Vector:
+def collect_vectors(structure):
+    # Select the vectors that match the Collection object's structure
+    vectors = []
+    for dataset in structure:
+        if dataset in vector_structured:
+            # Process datasets equal to '<all>'
+            if structure[dataset] == '<all>':
+                for iso in vector_structured[dataset]:
+                    vectors += [vectors[vector_id] for vector_id in vector_structured[dataset][iso]]
 
-    objects = {}  # id
-    lookup = {}  # {(dataset, iso, gloss): {vector_obj: True}}
-    structured = {}  # {dataset: {iso: True}}
-    id_generator = 1
+            # Process exception datasets
+            elif '<except>' in structure[dataset]:
+                for iso in vector_structured[dataset]:
+                    if iso not in structure[dataset]:
+                        vectors += [vectors[vector_id] for vector_id in vector_structured[dataset][iso]]
 
-    def __init__(self, dataset, iso, raw_gloss, morphemes, word_match):
-        # Initialized attributes
-        self.dataset = dataset.lower()
-        self.iso = iso.lower()
-        self.raw_gloss = raw_gloss
-        self.gloss = str(raw_gloss.lower())
-        self.unique = (self.dataset, self.iso, self.gloss)
-        self.morphemes = morphemes
-        self.word_match = word_match
-
-        # Empty structures and function based attributes
-        self.label = ''
-        self.segments = {}
-        self.set_segmentation()
-        self.distances = {}
-        self.features = {}
-        self.set_features()
-
-        # Set id
-        self.id = hex(Vector.id_generator)
-        Vector.id_generator += 1
-        Vector.objects[self.id] = self
-
-        # Set unique dataset
-        if self.unique not in Vector.lookup:
-            Vector.lookup[self.unique] = {}
-        Vector.lookup[self.unique][self] = True
-
-        # Set class level structures
-        if self.dataset not in Vector.structured:
-            Vector.structured[self.dataset] = {}
-        if self.iso not in Vector.structured[self.dataset]:
-            Vector.structured[self.dataset][self.iso] = []
-        Vector.structured[self.dataset][self.iso] = Vector.structured[self.dataset].get(self.iso, 0) + [self]
-
-    def set_features(self):
-        # General self.features
-        self.features['gloss_' + str(self.gloss)] = 1
-        if self.gloss in GRAMS:
-            self.features['is_standard'] = 1
-            self.features['standard_'+str(self.gloss)] = 1
-        # Morphemes
-        for M in self.morphemes:
-            self.features['shared_morpheme_' + str(M)] = 1
-        # Segments
-        for S in self.segments:
-            if self.segments[S]:
-                self.features['segment_match_' + str(S)] = 1
+            # Process specified datasets
             else:
-                self.features['segment_nonmatch_' + str(S)] = 1
-        if self.segments:
-            self.features['segment_count'] = len(self.segments)
-        """
-        # Distances
-        self.set_distances
-        for D in self.distances:
-            self.self.features['distance_' + str(D) + '_' +
-                           str(self.distances[D])] = 1
-        """
-        # Features to improve incomplete disambiguation
-        if self.gloss in VALUES:
-            self.features['std_value_' + str(VALUES[self.gloss][1])] = 1
-        """
-        # Features to improve word disambiguation
-        self.features['count_' + str(GoldStandard.objects[(self.dataset, self.iso, self.gloss)].observed)] = 1
-        self.features['length_' + str(len(self.gloss))] = 1
-        self.features['vowels_' + str(len(re.findall('[aeiou]', self.gloss, re.IGNORECASE)))] = 1
-        """
-        if self.word_match:
-            self.features['word_match'] = 1
-        if str(self.raw_gloss).islower():
-            self.features['lower_case'] = 1
-        elif str(self.raw_gloss).isupper():
-            self.features['upper_case'] = 1
+                for iso in structure[dataset]:
+                    if iso in vector_structured[dataset]:
+                        vectors += [vectors[vector_id] for vector_id in vector_structured[dataset][iso]]
+    return vectors
+
+
+vectors = {}  # id
+vector_lookup = {}  # {(dataset, iso, gloss): {vector_obj: True}}
+vector_structured = {}  # {dataset: {iso: True}}
+
+
+def set_vector(dataset, iso, raw_gloss, morphemes, word_match):
+    vector = {"id": uuid.uuid4(),
+              "dataset": dataset.lower(),
+              "iso": iso.lower(),
+              "raw_gloss": raw_gloss,
+              "gloss": raw_gloss.lower(),
+              "unique": (dataset.lower(), iso.lower(), raw_gloss.lower()),
+              "morphemes": morphemes,
+              "word_match": word_match,
+              "label": '',
+              "segments": set_segmentation(raw_gloss.lower()),
+              "distances": set_distances(raw_gloss.lower()),
+              }
+    vector["features"] = set_features(vector)
+    vectors[vector["id"]] = vector
+
+    # Set unique dataset
+    if vector["unique"] not in vector_lookup:
+        vector_lookup[vector["unique"]] = {}
+    vector_lookup[vector["unique"]][vector["id"]] = True
+
+    # Set class level structures
+    if vector["dataset"] not in vector_structured:
+        vector_structured[vector["dataset"]] = {}
+    if vector["iso"] not in vector_structured[vector["dataset"]]:
+        vector_structured[vector["dataset"]][vector["iso"]] = {}
+    vector_structured[vector["dataset"]][vector["iso"]][vector["id"]] = True
+
+
+def set_segmentation(gloss):
+    """Locate all segments within the gloss.
+    """
+    # Explore all glosses
+    segments = {}
+    for gram in Gram.objects:
+        # If there is a match
+        if re.search(gram, gloss):
+            # Add match to segments
+            segments[gram] = True
+            match = re.search(gram, gloss)
+            # Process values to the left and right of the segment
+            segments.update(set_segmentation_helper(gloss[:match.span()[0]]))
+            segments.update(set_segmentation_helper(gloss[match.span()[1]:]))
+    return segments
+
+
+def set_segmentation_helper(gloss_part):
+    """Locate all segments within the gloss, if the gloss is Leipzig
+    or Gold it will match itvector[" This is for inner recursion of the
+    remainder.
+    """
+    segments = {}
+    if not gloss_part:
+        return False
+    match = False
+    # Try each gloss value
+    for gram in Gram.objects:
+        # If there is a match
+        if re.search(gram, gloss_part):
+            # Add match to segments
+            segments[gram] = True
+            match = re.search(gram, gloss_part)
+            # Process values to the left and right of the segment
+            segments.update(set_segmentation_helper(gloss_part[:match.span()[0]]))
+            segments.update(set_segmentation_helper(gloss_part[match.span()[1]:]))
+    # If no match has been found
+    if not match:
+        # Add the gloss part to segments
+        segments[gloss_part] = False
+    return segments
+
+
+def set_distances(gloss):
+    distances = {}
+    for gram in Gram.objects:
+        distances[gram] = functions.levenshtein(gloss, gram)
+    return distances
+
+
+def set_features(vector):
+    features = {}
+
+    # Gloss
+    features['gloss_' + str(vector["gloss"])] = 1
+    if vector["gloss"] in Gram.objects:
+        features['is_standard'] = 1
+        features['standard_'+str(vector["gloss"])] = 1
+
+    # Morphemes
+    for M in vector["morphemes"]:
+        features['shared_morpheme_' + str(M)] = 1
+
+    # Segments
+    for S in vector["segments"]:
+        if vector["segments"][S]:
+            features['segment_match_' + str(S)] = 1
         else:
-            self.features['mixed_case'] = 1
-        return True
+            features['segment_nonmatch_' + str(S)] = 1
+    if vector["segments"]:
+        features['segment_count'] = len(vector["segments"])
 
-    def set_distances(self):
-        for gram in GRAMS:
-            self.distances[gram] = functions.levenshtein(self.gloss, gram)
-        return True
+    # Distances
+    # for D in vector["distances"]:
+    #     features['distance_' + str(D) + '_' + str(vector["distances"][D])] = 1
 
-    def set_segmentation(self):
-        """Locate all segments within the gloss.
-        """
-        # Explore all glosses
-        for gram in GRAMS:
-            # If there is a match
-            if re.search(gram, self.gloss):
-                # Add match to segments
-                self.segments[gram] = True
-                match = re.search(gram, self.gloss)
-                # Process values to the left and right of the segment
-                self._set_segmentation(self.gloss[:match.span()[0]])
-                self._set_segmentation(self.gloss[match.span()[1]:])
-        return True
+    # Features to improve incomplete disambiguation
+    if vector["gloss"] in Value.objects:
+        features['std_value_' + str(Value.objects[vector["gloss"]][1])] = 1
 
-    def _set_segmentation(self, gloss_part):
-        """Locate all segments within the gloss, if the gloss is Leipzig
-        or Gold it will match itself. This is for inner recursion of the
-        remainder.
-        """
-        if not gloss_part:
-            return False
-        match = False
-        # Try each gloss value
-        for gram in GRAMS:
-            # If there is a match
-            if re.search(gram, gloss_part):
-                # Add match to segments
-                self.segments[gram] = True
-                match = True
-                match = re.search(gram, gloss_part)
-                # Process values to the left and right of the segment
-                self._set_segmentation(gloss_part[:match.span()[0]])
-                self._set_segmentation(gloss_part[match.span()[1]:])
-        # If no match has been found
-        if not match:
-            # Add the gloss part to segments
-            self.segments[gloss_part] = False
-        return True
+    # Features to improve word disambiguation
+    # features['length_' + str(len(vector["gloss"]))] = 1
+    # features['vowels_' + str(len(re.findall('[aeiou]', vector["gloss"], re.IGNORECASE)))] = 1
+
+    # Case matching
+    if vector["word_match"]:
+        features['word_match'] = 1
+    if str(vector["raw_gloss"]).islower():
+        features['lower_case'] = 1
+    elif str(vector["raw_gloss"]).isupper():
+        features['upper_case'] = 1
+    else:
+        features['mixed_case'] = 1
+    return features

@@ -42,6 +42,7 @@ class Model(DataModelTemplate):
         self.models = {}
         self.unique_glosses = {}
         self.containers = {}
+        self.results = {}
         Model.objects[self.name] = self
 
     def validate_classifiers(self, classifiers):
