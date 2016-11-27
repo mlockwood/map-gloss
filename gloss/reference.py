@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Import packages and libraries
 import os
 import re
+
+from utils.classes import DataModelTemplate
 
 
 __project_parent__ = 'AGGREGATION'
@@ -19,53 +20,30 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-class Language(object):
+class Reference(DataModelTemplate):  # formerly Language
 
+    json_path = []
     objects = {}
 
-    def __init__(self, model, dataset, iso):
-        self.model = model
-        self.dataset = dataset
-        self.iso = iso
-        self.reference = {}  # {input_gloss: final_gloss}
-        self.final = {}  # {final_gloss: True}
-
-        Language.objects[(model, dataset, iso)] = self
+    def set_object_attrs(self):
+        Reference.objects[(self.model, self.dataset, self.iso)] = self
 
     @staticmethod
     def add_reference(model, dataset, iso, gloss, final):
-        # Select language object
-        if (model, dataset, iso) not in Language.objects:
-            Language(model, dataset, iso)
-        language = Language.objects[(model, dataset, iso)]
+        # Select Reference object
+        if (model, dataset, iso) not in Reference.objects:
+            Reference(**{"model": model, "dataset": dataset, "iso": iso, "lookup": {}, "final": {}})
+        ref = Reference.objects[(model, dataset, iso)]
 
         # Add gloss to glosses with value of final
-        language.reference[gloss] = final
-        language.final[final] = True
+        ref.lookup[gloss] = final  # {input_gloss: final_gloss}
+        ref.final[final] = True  # {final_gloss: True}
 
-        return True
-
-
-def load_references(out_path):
-    # Set the path for the reference files
-    path = '{}/out/reference'.format(out_path)
-
-    # Search through the path for matching .ref files
-    for dirpath, dirnames, filenames in os.walk(path):
-
-        # Avoid redundant processing by reviewing dataset and language files
-        if 'dataset' in dirpath or 'language' in dirpath:
-            continue
-
-        # For model .ref files
-        for filename in [f for f in filenames if re.search('.ref$', f)]:
-            # Open the file
-            reader = open('{}/{}'.format(dirpath, filename), 'r')
-
-            # For each line in the reader add the reference to the appropriate Language object
-            for line in reader:
-                line = line.rstrip()
-                line = re.split(',', line)
-                Language.add_reference(*line)
-
-    return True
+    @classmethod
+    def load_references(cls, out_path):
+        # Search through the path for matching .ref files
+        for root, dirs, files in os.walk('{}/out/reference'.format(out_path)):
+            for file in [x for x in files if re.search('.ref$', x)]:
+                cls.json_path.append(os.path.join(root, file))
+        # Use DataModelTemplate load for Reference
+        cls.load()

@@ -5,13 +5,10 @@
 # Import packages and libraries
 import os
 
-# Import scripts
-from src.eval import confusion_matrix, gold_standard
-from src.gloss import errors as GlossErrors
-from src.utils import functions
-
-# Import classes, functions, and variables
-from src.gloss.constants import PATH, CTYPES
+from eval import confusion_matrix, gold_standard
+from gloss import errors as GlossErrors
+from utils import functions
+from gloss.constants import CTYPES
 
 
 __project_parent__ = 'AGGREGATION'

@@ -5,7 +5,6 @@
 import re
 import string
 
-from eval import gold_standard
 from utils import functions
 from utils.xigt.codecs import xigtxml
 
