@@ -45,3 +45,5 @@ TBL could be its own script where it returns a dictionary of {dataset: {iso: {gl
 to fit {dataset: {iso: {gloss: {final: {tbl: result}}}}}
 
 RECHECK all vector processing, clarify is it [{vector}] or {id: {vector}}
+
+Is result weights the same as model.classifiers?

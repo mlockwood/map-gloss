@@ -1,26 +1,27 @@
 import os
 
-from gloss.standard import Gram, Value
+from gloss.standard import Gram
 from utils import functions
 
 
 class TBL(object):
 
     objects = {}  # model_name
-    default = 'lexical entry'
+    default = None
+    path = None
 
-    def __init__(self, train_vectors, model_id):
+    def __init__(self, train_vectors, model_id, min_gain=1):
         self.train_vectors = train_vectors
         self.model_id = model_id
-        self.min_gain = 1
+        self.min_gain = min_gain
         self.tbl = {}
         self.tbl_rules = []
         self.results = {}
         TBL.objects[model_id] = self
 
     @classmethod
-    def set_cls_path(cls, path):
-        cls.path = '{}/reports/models/tbl'.format(path)
+    def set_cls_path(cls, out_path):
+        cls.path = '{}/reports/models/tbl'.format(out_path)
         if not os.path.isdir(cls.path):
             os.makedirs(cls.path)
 
@@ -162,17 +163,4 @@ class TBL(object):
         # Call system and accuracy functions
         self.system(syst)
         self.accuracy(acc)
-        self.set_results()
-        return True
-
-    def set_results(self):
-        for gloss in self.results:
-            # Find UniqueGloss object
-            args = tuple([self.model_id] + list(gloss))
-            if args not in Model.objects[self.model_id].unique_glosses:
-                Model.objects[self.model_id].unique_glosses[args] = UniqueGloss(*args)
-            obj = Model.objects[self.model_id].unique_glosses[args]
-
-            # Add results to UniqueGloss object
-            obj.results['tbl'] = functions.prob_conversion(self.results.get(gloss, 0))
         return True

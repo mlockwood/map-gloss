@@ -74,8 +74,8 @@ class Model(DataModelTemplate):
             if vector["dataset"] not in results:
                 results[vector["dataset"]] = {}
             if vector["iso"] not in results[vector["dataset"]]:
-                results[vector["dataset"]][vector["iso"]] = []
-            results[vector["dataset"]][vector["iso"]] = results[vector["dataset"]].get([vector["iso"]]) + {
+                results[vector["dataset"]][vector["iso"]] = {}
+            results[vector["dataset"]][vector["iso"]][vector["gloss"]] = {
                 "gold": GoldStandard.objects[vector["unique"]].gram,  # FIX THIS TO CORRECT ATTR
                 "input": vector["gloss"],
                 "final": {}
@@ -87,12 +87,23 @@ class Model(DataModelTemplate):
 
             # If TBL
             if classifier == 'tbl':
+                TBL.default = 'lexical entry'
+                TBL.set_cls_path(out_path)
                 tbl_classifier = TBL(self.train.vectors, self.name)
                 tbl_classifier.train_model()
                 tbl_classifier.decode(self.test.vectors)
 
+                # Set results
+                for dataset, iso, gloss in tbl_classifier.results:
+                    self.results[dataset][iso][gloss]["final"]["tbl"] = functions.prob_conversion(self.results.get(
+                        gloss, 0))
 
-
+        # Aggregate results from all models
+        for dataset in self.results:
+            for iso in self.results[dataset]:
+                for gloss in self.results[dataset][iso]:
+                    self.results[dataset][iso][gloss]["final"] = str(functions.max_value(functions.combine_weight(
+                        self.results[dataset][iso][gloss]["final"], self.classifiers), tie='lexical entry')[0])
 
         # Set files for each container in the model
         for container in self.containers:
