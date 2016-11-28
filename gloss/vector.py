@@ -24,6 +24,11 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
+vectors = {}  # id
+vector_lookup = {}  # {(dataset, iso, gloss): {vector_obj: True}}
+vector_structured = {}  # {dataset: {iso: True}}
+
+
 def set_vectors(datasets):
     # Process and convert data
     for dataset in datasets:
@@ -74,75 +79,6 @@ def set_vectors(datasets):
                             set_vector(dataset, iso, gloss, '', word_match)
 
     return True
-
-
-collections = {}  # {collection_tuple: vectors}
-
-
-def get_collection(collection):
-    # If the collection has not been seen create the Collection object
-    if collection not in collections:
-        collections[collection] = collect_vectors(parse_collection(collection))
-    return collections[collection]
-
-
-def parse_collection(collection):
-    structure = {}
-
-    # For each dataset after the split
-    for dataset in collection:
-
-        # Test for exception datasets
-        dataset = re.split('!', dataset)
-        if len(dataset) == 2:
-            # Set an <except> key and then add each iso to the dataset that is an exception
-            structure[dataset[0]] = {'<except>': True}
-            languages = re.split('-', dataset[1])
-            for iso in languages:
-                structure[dataset[0]][iso] = True
-
-        # Test for specified datasets
-        else:
-            dataset = re.split('-', dataset[0])
-            if len(dataset) > 1:
-                structure[dataset[0]] = {}
-                for iso in dataset[1:]:
-                    structure[dataset[0]][iso] = True
-
-            # Otherwise make the dataset an all-inclusive set
-            else:
-                structure[dataset[0]] = '<all>'
-
-    return structure
-
-
-def collect_vectors(structure):
-    # Select the vectors that match the Collection object's structure
-    vectors = []
-    for dataset in structure:
-        if dataset in vector_structured:
-            # Process datasets equal to '<all>'
-            if structure[dataset] == '<all>':
-                for iso in vector_structured[dataset]:
-                    vectors += [vectors[vector_id] for vector_id in vector_structured[dataset][iso]]
-
-            # Process exception datasets
-            elif '<except>' in structure[dataset]:
-                for iso in vector_structured[dataset]:
-                    if iso not in structure[dataset]:
-                        vectors += [vectors[vector_id] for vector_id in vector_structured[dataset][iso]]
-
-            # Process specified datasets
-            else:
-                for iso in structure[dataset]:
-                    if iso in vector_structured[dataset]:
-                        vectors += [vectors[vector_id] for vector_id in vector_structured[dataset][iso]]
-    return vectors
-
-
-vectors = {}  # id
-vector_lookup = {}  # {(dataset, iso, gloss): {vector_obj: True}}
-vector_structured = {}  # {dataset: {iso: True}}
 
 
 def set_vector(dataset, iso, raw_gloss, morphemes, word_match):
@@ -268,3 +204,70 @@ def set_features(vector):
     else:
         features['mixed_case'] = 1
     return features
+
+
+collections = {}  # {collection_tuple: vectors}
+
+
+def get_collection(collection):
+    # If the collection has not been seen create the Collection object
+    if collection not in collections:
+        collections[collection] = collect_vectors(parse_collection(collection))
+    return collections[collection]
+
+
+def parse_collection(collection):
+    structure = {}
+
+    # For each dataset after the split
+    for dataset in collection:
+
+        # Test for exception datasets
+        dataset = re.split('!', dataset)
+        if len(dataset) == 2:
+            # Set an <except> key and then add each iso to the dataset that is an exception
+            structure[dataset[0]] = {'<except>': True}
+            languages = re.split('-', dataset[1])
+            for iso in languages:
+                structure[dataset[0]][iso] = True
+
+        # Test for specified datasets
+        else:
+            dataset = re.split('-', dataset[0])
+            if len(dataset) > 1:
+                structure[dataset[0]] = {}
+                for iso in dataset[1:]:
+                    structure[dataset[0]][iso] = True
+
+            # Otherwise make the dataset an all-inclusive set
+            else:
+                structure[dataset[0]] = '<all>'
+
+    return structure
+
+
+def collect_vectors(structure):
+    # Select the vectors that match the Collection object's structure
+    vectors = []
+    for dataset in structure:
+        if dataset in vector_structured:
+            # Process datasets equal to '<all>'
+            if structure[dataset] == '<all>':
+                for iso in vector_structured[dataset]:
+                    vectors += get_structured_vectors(dataset, iso)
+            # Process exception datasets
+            elif '<except>' in structure[dataset]:
+                for iso in vector_structured[dataset]:
+                    if iso not in structure[dataset]:
+                        vectors += get_structured_vectors(dataset, iso)
+
+            # Process specified datasets
+            else:
+                for iso in structure[dataset]:
+                    if iso in vector_structured[dataset]:
+                        vectors += get_structured_vectors(dataset, iso)
+    return vectors
+
+
+def get_structured_vectors(dataset, iso):
+    return {(vector_id, vectors[vector_id]) for vector_id in vector_structured[dataset][iso]}

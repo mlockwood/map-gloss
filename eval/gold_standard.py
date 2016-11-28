@@ -29,7 +29,7 @@ class GoldStandard(DataModelTemplate):
     json_path = None
     objects = {}  # (dataset, iso, gloss)
     languages = {}
-    lexicon = {}
+
 
     def set_object_attrs(self):
         GoldStandard.objects[(self.dataset, self.iso, self.gloss)] = self

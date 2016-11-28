@@ -43,3 +43,5 @@ Reference could then just be a dictionary in memory created by [input]: final.
 
 TBL could be its own script where it returns a dictionary of {dataset: {iso: {gloss: result} which then gets reformatted
 to fit {dataset: {iso: {gloss: {final: {tbl: result}}}}}
+
+RECHECK all vector processing, clarify is it [{vector}] or {id: {vector}}
