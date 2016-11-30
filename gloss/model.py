@@ -6,7 +6,7 @@ import json
 import re
 import os
 
-from gloss import errors as GlossErrors
+from gloss.errors import *
 from utils import functions
 from eval.gold_standard import GoldStandard, Lexicon
 from gloss.constants import CLASSIFIERS
@@ -40,7 +40,8 @@ class Model(DataModelTemplate):
         self.train = get_collection(self.train)
         self.test = get_collection(self.test)
         self.classifiers = self.validate_classifiers(self.classifiers)
-        self.results = {}
+        self.reference = Reference(**{"model": self.name})
+        self.reference.init_results()
         Model.objects[self.name] = self
 
     def validate_classifiers(self, classifiers):
@@ -49,13 +50,12 @@ class Model(DataModelTemplate):
 
             # Verify that the classifier is a valid/known classifier
             if classifier not in CLASSIFIERS:
-                raise GlossErrors.InvalidClassifierError('{} for model {} is not a '.format(self.name, classifier) +
-                                                         'valid classifier.')
+                raise InvalidClassifierError('{} for model {} is not a valid classifier'.format(self.name, classifier))
 
             # Verify that the weight is a valid weight
             if not (0.0 <= classifiers[classifier] <= 1.0):
-                raise GlossErrors.InvalidClassifierWeightError('Model {} has an invalid weight for '.format(self.name) +
-                                                               '{} of {}.'.format(classifier, classifiers[classifier]))
+                raise InvalidClassifierWeightError('Model {} has an invalid weight for {} of {}.'.format(
+                    self.name, classifier, classifiers[classifier]))
 
             # Add classifier to classifiers and add weights to weight
             classifiers[classifier[0]] = classifier[1]
@@ -63,26 +63,11 @@ class Model(DataModelTemplate):
 
         # Verify that the total weight is equal to 1.00
         if weight != 1.0:
-            raise GlossErrors.ClassifierWeightError('Model {} weights do not equal 1.0.'.format(self.name))
+            raise ClassifierWeightError('Model {} weights do not equal 1.0.'.format(self.name))
 
         return classifiers
 
-    def init_results(self):
-        results = {}
-        for vector_id in self.test:
-            vector = self.test[vector_id]
-            if vector["dataset"] not in results:
-                results[vector["dataset"]] = {}
-            if vector["iso"] not in results[vector["dataset"]]:
-                results[vector["dataset"]][vector["iso"]] = {}
-            results[vector["dataset"]][vector["iso"]][vector["gloss"]] = {
-                "gold": GoldStandard.objects[vector["unique"]].gram,  # FIX THIS TO CORRECT ATTR
-                "input": vector["gloss"],
-                "final": {}
-            }
-
     def run_classifiers(self, evaluate, out_path):
-        # Initial processing of classifiers
         for classifier in self.classifiers:
 
             # If TBL
@@ -92,12 +77,36 @@ class Model(DataModelTemplate):
                 tbl_classifier = TBL(self.train.vectors, self.name)
                 tbl_classifier.train_model()
                 tbl_classifier.decode(self.test.vectors)
+                self.reference.set_classifier_results(tbl_classifier, 'tbl')
 
-                # Set results
-                for dataset, iso, gloss in tbl_classifier.results:
-                    self.results[dataset][iso][gloss]["final"]["tbl"] = functions.prob_conversion(self.results.get(
-                        gloss, 0))
+        self.reference.set_final_results(evaluate, out_path)
 
+
+class Reference(DataModelTemplate):
+
+    json_path = None
+    objects = {}
+
+    def init_results(self):
+        self.results = {}
+        for vector_id in self.test:
+            vector = self.test[vector_id]
+            if vector["dataset"] not in self.results:
+                self.results[vector["dataset"]] = {}
+            if vector["iso"] not in self.results[vector["dataset"]]:
+                self.results[vector["dataset"]][vector["iso"]] = {}
+            self.results[vector["dataset"]][vector["iso"]][vector["gloss"]] = {
+                "gold": GoldStandard.objects[vector["unique"]].gram,  # FIX THIS TO CORRECT ATTR
+                "input": vector["gloss"],
+                "final": {}
+            }
+
+    def set_classifier_results(self, classifier, classifier_name):
+        for dataset, iso, gloss in classifier.results:
+            self.results[dataset][iso][gloss]["final"][classifier_name] = functions.prob_conversion(
+                classifier.results.get((dataset, iso, gloss), 0))
+
+    def set_final_results(self, evaluate, out_path):
         # Aggregate results from all models
         for dataset in self.results:
             for iso in self.results[dataset]:
@@ -105,14 +114,11 @@ class Model(DataModelTemplate):
                     self.results[dataset][iso][gloss]["final"] = str(functions.max_value(functions.combine_weight(
                         self.results[dataset][iso][gloss]["final"], self.classifiers), tie='lexical entry')[0])
 
-        # Set files for each container in the model
-        for container in self.containers:
-            if evaluate and out_path:
+        if evaluate:
+            # Set files for each container in the model
+            for container in self.containers:
                 Container.objects[container].set_confusion_matrices(out_path)
                 Container.objects[container].set_unique_gloss_evaluation(out_path)
-            Container.objects[container].export_references(out_path)
-
-        return True
 
 
 def set_gold_standard():
@@ -163,6 +169,7 @@ def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold
     Model.load()
     for model in Model.objects:
         Model.objects[model].run_classifiers(evaluate, out_path)
+    Reference.export()
 
 
 def use_internal_parameters():

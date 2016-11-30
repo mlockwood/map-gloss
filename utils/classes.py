@@ -1,4 +1,4 @@
-from src.utils.IOutils import load_json, export_json
+from utils.IOutils import load_json, export_json
 
 
 class DataModelTemplate(object):
@@ -18,8 +18,11 @@ class DataModelTemplate(object):
         try:
             self.__class__.objects[self.id] = self
         except KeyError:
-            raise NotImplementedError('DataModelTemplate classes must define a set_objects object method if the ' +
-                                      'object\'s primary key is not `id`.')
+            try:
+                self.__class__.objects[self.name] = self
+            except KeyError:
+                raise NotImplementedError('DataModelTemplate classes must define a set_objects object method if the ' +
+                                          'object\'s primary key is not `id`.')
 
     @classmethod
     def set_class_vars(cls):
