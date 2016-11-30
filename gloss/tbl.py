@@ -2,6 +2,7 @@ import os
 
 from gloss.standard import Gram
 from utils import functions
+from utils.IOutils import set_directory
 
 
 class TBL(object):
@@ -10,24 +11,23 @@ class TBL(object):
     default = None
     path = None
 
-    def __init__(self, train_vectors, model_id, min_gain=1):
+    def __init__(self, train_vectors, model_name, min_gain=1):
         self.train_vectors = train_vectors
-        self.model_id = model_id
+        self.model = model_name
         self.min_gain = min_gain
         self.tbl = {}
         self.tbl_rules = []
         self.results = {}
-        TBL.objects[model_id] = self
+        TBL.objects[model_name] = self
 
     @classmethod
     def set_cls_path(cls, out_path):
         cls.path = '{}/reports/models/tbl'.format(out_path)
-        if not os.path.isdir(cls.path):
-            os.makedirs(cls.path)
+        set_directory(cls.path)
 
     # Model function
     def model(self):
-        writer = open('{}/{}.mod'.format(TBL.path, self.model_id), 'w')
+        writer = open('{}/{}.mod'.format(TBL.path, self.model), 'w')
         writer.write(TBL.default+'\n')
         for rule in self.tbl_rules:
             writer.write('{0:36s} {1:36s} {2:36s} {3:10s}\n'.format(*[str(s) for s in rule]))
@@ -36,8 +36,8 @@ class TBL(object):
 
     # System function
     def system(self, syst):
-        writer = open('{}/{}.sys'.format(TBL.path, self.model_id), 'w')
-        writer.write('%%%%% ' + self.model_id + ' data:\n')
+        writer = open('{}/{}.sys'.format(TBL.path, self.model), 'w')
+        writer.write('%%%%% ' + self.model + ' data:\n')
         for line in syst:
             writer.write('array: {}\n'.format(' '.join(str(s) for s in line)))
         writer.close()
@@ -45,7 +45,7 @@ class TBL(object):
 
     # Accuracy function
     def accuracy(self, acc):
-        file = '{}/{}'.format(TBL.path, self.model_id)
+        file = '{}/{}'.format(TBL.path, self.model)
         functions.accuracy(acc, file)
         return True
 

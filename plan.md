@@ -36,6 +36,9 @@ Move Containers and UniqueGloss to Model; result = {"dev1": {"iso": [{"gold", "i
 As a temporary measure final will point to a {} that used to be represented in UniqueGloss, then when the final weight
 scheme is applied the final answer will be stored there.
 
+RECHECK all vector processing, clarify is it [{vector}] or {id: {vector}}
+
+### References and reports
 Then create a new function(s) that iterates through a model, builds dictionaries as needed and then sends them to
 confusion matrices. Once the Compare is called ouput the results to the appropriate the location.
 
@@ -44,6 +47,12 @@ Reference could then just be a dictionary in memory created by [input]: final.
 TBL could be its own script where it returns a dictionary of {dataset: {iso: {gloss: result} which then gets reformatted
 to fit {dataset: {iso: {gloss: {final: {tbl: result}}}}}
 
-RECHECK all vector processing, clarify is it [{vector}] or {id: {vector}}
-
 Is result weights the same as model.classifiers?
+
+container.gold[(self.dataset, self.iso, self.gold_standard.label)] = True
+
+container.gloss_to_gold[self.unique] = self.gold_standard
+
+container.gloss_to_final[self.unique] = self.final
+
+container.final[(self.dataset, self.iso, self.final)] = True

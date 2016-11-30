@@ -10,7 +10,7 @@ def find_path(directory):
 
 
 def accuracy(acc, file):
-    writer = open(file + '.acc', 'w')
+    writer = open('{}.acc'.format(file), 'w')
     # New sorted acc
     sorted_acc = {}
     # Store correct and incorrect results
@@ -42,7 +42,21 @@ def accuracy(acc, file):
             writer.write('\t{0:20s}\t{1:8d}'.format(value[0], value[1]) + '\n')
         writer.write('\n')
     writer.close()
-    return True
+
+
+def out_evaluation(correct_total, n, incorrect_list, correct_list, file):
+    # Write results to file
+    writer = open('{}.out'.format(file), 'w')
+    writer.write('Accuracy: {}\n'.format(correct_total / float(n)))
+    writer.write('Correct: {}; Total: {}\n\n'.format(correct_total, n))
+
+    # Write incorrect_list
+    writer.write('Incorrect pairs\n')
+    [writer.write('{0:56s} Gold: {1:20s} System: {2:20s}\n'.format(*entry)) for entry in incorrect_list]
+
+    # Write correct list
+    writer.write('\nCorrect pairs\n')
+    [writer.write('{0:56} Gold: {1:20s} System: {2:20s}\n'.format(*entry)) for entry in correct_list]
 
 
 # Function to combined weighted dictionaries

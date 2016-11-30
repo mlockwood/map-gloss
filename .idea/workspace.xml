@@ -2,11 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16910774-536f-4b7f-b67f-106bd2470b9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gloss/test/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gloss/reference.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/0x1.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/dataset/0x1_test.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_ain.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_ary.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_ces.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_hbs.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_hix.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_inh.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_jaa.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_kat.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_tgl.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_tha.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_vie.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x3/0x3.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x3/dataset/0x3_dev1.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x3/language/0x3_dev1_rus.ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/0x1.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/dataset/0x1_test.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_ain.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_ary.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_ces.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_hbs.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_hix.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_inh.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_jaa.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_kat.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_tgl.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_tha.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_vie.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x3/0x3.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x3/dataset/0x3_dev1.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x3/language/0x3_dev1_rus.cprf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/0x1.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/0x1.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/dataset/0x1_test.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/dataset/0x1_test.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ain.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ain.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ary.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ary.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ces.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ces.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_hbs.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_hbs.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_hix.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_hix.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_inh.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_inh.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_jaa.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_jaa.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_kat.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_kat.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_tgl.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_tgl.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_tha.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_tha.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_vie.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_vie.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/0x3.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/0x3.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/dataset/0x3_dev1.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/dataset/0x3_dev1.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/language/0x3_dev1_rus.acc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/language/0x3_dev1_rus.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gloss/result.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/michael.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/michael.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/constants.py" afterPath="$PROJECT_DIR$/gloss/constants.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/model.py" afterPath="$PROJECT_DIR$/gloss/model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/classes.py" afterPath="$PROJECT_DIR$/utils/classes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/tbl.py" afterPath="$PROJECT_DIR$/gloss/tbl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plan.md" afterPath="$PROJECT_DIR$/plan.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/functions.py" afterPath="$PROJECT_DIR$/utils/functions.py" />
     </list>
     <ignored path="map_gloss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +95,16 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="plan.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plan.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-              <folding />
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="785">
+                <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -39,8 +112,8 @@
       <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gloss/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="922">
-              <caret line="120" column="45" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="45" />
+            <state relative-caret-position="107">
+              <caret line="126" column="120" selection-start-line="126" selection-start-column="120" selection-end-line="126" selection-end-column="120" />
               <folding>
                 <element signature="e#49#60#0" expanded="true" />
               </folding>
@@ -48,11 +121,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="functions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="tbl.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gloss/tbl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2145">
-              <caret line="164" column="26" selection-start-line="164" selection-start-column="26" selection-end-line="164" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -63,7 +146,7 @@
       <file leaf-file-name="vector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gloss/vector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
+            <state relative-caret-position="3007">
               <caret line="267" column="71" selection-start-line="267" selection-start-column="71" selection-end-line="267" selection-end-column="71" />
               <folding>
                 <element signature="e#49#58#0" expanded="true" />
@@ -83,18 +166,6 @@
                 <element signature="e#6990#8991#0" expanded="false" />
                 <element signature="e#9026#9217#0" expanded="false" />
                 <element signature="e#9284#10824#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gloss/result.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-413">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-              <folding>
-                <element signature="e#81#90#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,15 +212,17 @@
         <option value="$PROJECT_DIR$/gloss/data/standard_grams.json" />
         <option value="$PROJECT_DIR$/gloss/standard.py" />
         <option value="$PROJECT_DIR$/example/data/models.json" />
-        <option value="$PROJECT_DIR$/gloss/constants.py" />
         <option value="$PROJECT_DIR$/gloss/dataset.py" />
-        <option value="$PROJECT_DIR$/gloss/result.py" />
         <option value="$PROJECT_DIR$/gloss/vector.py" />
         <option value="$PROJECT_DIR$/eval/gold_standard.py" />
-        <option value="$PROJECT_DIR$/gloss/tbl.py" />
-        <option value="$PROJECT_DIR$/plan.md" />
         <option value="$PROJECT_DIR$/gloss/reference.py" />
         <option value="$PROJECT_DIR$/utils/classes.py" />
+        <option value="$PROJECT_DIR$/gloss/constants.py" />
+        <option value="$PROJECT_DIR$/plan.md" />
+        <option value="$PROJECT_DIR$/utils/functions.py" />
+        <option value="$PROJECT_DIR$/gloss/result.py" />
+        <option value="$PROJECT_DIR$/eval/eval_gloss.py" />
+        <option value="$PROJECT_DIR$/gloss/tbl.py" />
         <option value="$PROJECT_DIR$/gloss/model.py" />
       </list>
     </option>
@@ -185,7 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,6 +350,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="eval" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -285,6 +411,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,6 +421,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/reports/cprf/0x1" />
       <recent name="$PROJECT_DIR$/gloss/data" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/default" />
@@ -503,20 +631,20 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18760107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890704" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24004085" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24004085" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -537,33 +665,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gloss/result.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="e#81#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-          <folding>
-            <element signature="e#49#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gloss/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -571,53 +672,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/reference.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infer/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" column="47" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-          <folding>
-            <element signature="e#49#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/reference.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/reference.py" />
     <entry file="file://$PROJECT_DIR$/infer/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1455">
@@ -669,16 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/out/reference/0x1/dataset/0x1_test.ref">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -690,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,13 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eval/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -736,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gloss/data/gold_standard.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -757,28 +787,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/cprf/0x1/dataset/0x1_test.cprf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/0x1/dataset/0x1_test.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/0x1/dataset/0x1_test.acc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3534">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_ain.cprf">
+    <entry file="file://$PROJECT_DIR$/example/reports/cprf/0x1/0x1_test_ain.cprf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -799,25 +808,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plan.md">
+    <entry file="file://$PROJECT_DIR$/gloss/reference.py" />
+    <entry file="file://$PROJECT_DIR$/utils/classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        <state relative-caret-position="105">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/reference.py">
+    <entry file="file://$PROJECT_DIR$/example/reports/gold_standard/complete_report.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/gold_standard/dev1_report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/gold_standard/dev2_report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/gold_standard/test_report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/0x1/dataset/0x1_test.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/0x1/dataset/0x1_test.acc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3758">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/cprf/0x1/0x1_test.cprf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/cprf/0x1/0x1.cprf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/0x1/0x1.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/0x1/0x1.acc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gloss/vector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="3007">
           <caret line="267" column="71" selection-start-line="267" selection-start-column="71" selection-end-line="267" selection-end-column="71" />
           <folding>
             <element signature="e#49#58#0" expanded="true" />
@@ -825,10 +907,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/classes.py">
+    <entry file="file://$PROJECT_DIR$/gloss/constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="60">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -847,30 +929,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eval/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gloss/result.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-413">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="e#81#90#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/eval_gloss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gloss/tbl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2145">
-          <caret line="164" column="26" selection-start-line="164" selection-start-column="26" selection-end-line="164" selection-end-column="26" />
+        <state relative-caret-position="330">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plan.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="785">
+            <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gloss/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="922">
-          <caret line="120" column="45" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="45" />
+        <state relative-caret-position="107">
+          <caret line="126" column="120" selection-start-line="126" selection-start-column="120" selection-end-line="126" selection-end-column="120" />
           <folding>
             <element signature="e#49#60#0" expanded="true" />
           </folding>

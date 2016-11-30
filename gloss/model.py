@@ -6,16 +6,17 @@ import json
 import re
 import os
 
-from gloss.errors import *
-from utils import functions
+from eval.confusion_matrix import CM, Compare
 from eval.gold_standard import GoldStandard, Lexicon
 from gloss.constants import CLASSIFIERS
 from gloss.dataset import *
-from gloss.result import UniqueGloss, Container
+from gloss.errors import *
 from gloss.standard import Gram
 from gloss.tbl import TBL
 from gloss.vector import *
 from utils.classes import DataModelTemplate
+from utils import functions
+from utils.IOutils import set_directory
 
 
 __project_parent__ = 'AGGREGATION'
@@ -37,10 +38,10 @@ class Model(DataModelTemplate):
     objects = {}
 
     def set_object_attrs(self):
-        self.train = get_collection(self.train)
+        self.train = get_collection(self.train) if self.train else None  # FIX WITH LOADING VECTORS.JSON FROM SRC
         self.test = get_collection(self.test)
         self.classifiers = self.validate_classifiers(self.classifiers)
-        self.reference = Reference(**{"model": self.name})
+        self.reference = Reference(**{"model": self.name, "results": self.init_results()})
         self.reference.init_results()
         Model.objects[self.name] = self
 
@@ -67,7 +68,18 @@ class Model(DataModelTemplate):
 
         return classifiers
 
-    def run_classifiers(self, evaluate, out_path):
+    def init_results(self):
+        results = {}
+        for vector_id in self.test:
+            vector = self.test[vector_id]
+            self.results[vector["unique"]] = {
+                "gold": GoldStandard.objects[vector["unique"]].gram,  # FIX THIS TO CORRECT ATTR
+                "input": vector["gloss"],
+                "final": {}
+            }
+        return results
+
+    def run_classifiers(self, out_path):
         for classifier in self.classifiers:
 
             # If TBL
@@ -79,7 +91,7 @@ class Model(DataModelTemplate):
                 tbl_classifier.decode(self.test.vectors)
                 self.reference.set_classifier_results(tbl_classifier, 'tbl')
 
-        self.reference.set_final_results(evaluate, out_path)
+        self.reference.set_final_results()
 
 
 class Reference(DataModelTemplate):
@@ -87,59 +99,40 @@ class Reference(DataModelTemplate):
     json_path = None
     objects = {}
 
-    def init_results(self):
-        self.results = {}
-        for vector_id in self.test:
-            vector = self.test[vector_id]
-            if vector["dataset"] not in self.results:
-                self.results[vector["dataset"]] = {}
-            if vector["iso"] not in self.results[vector["dataset"]]:
-                self.results[vector["dataset"]][vector["iso"]] = {}
-            self.results[vector["dataset"]][vector["iso"]][vector["gloss"]] = {
-                "gold": GoldStandard.objects[vector["unique"]].gram,  # FIX THIS TO CORRECT ATTR
-                "input": vector["gloss"],
-                "final": {}
-            }
+    @classmethod
+    def get_all_results(cls):
+        results = {}
+        for model in cls.objects:
+            results[model] = cls.objects[model].results
+        return results
 
     def set_classifier_results(self, classifier, classifier_name):
-        for dataset, iso, gloss in classifier.results:
-            self.results[dataset][iso][gloss]["final"][classifier_name] = functions.prob_conversion(
-                classifier.results.get((dataset, iso, gloss), 0))
+        for gloss in classifier.results:
+            self.results[gloss]["final"][classifier_name] = functions.prob_conversion(classifier.results.get(gloss, 0))
 
-    def set_final_results(self, evaluate, out_path):
+    def set_final_results(self):
         # Aggregate results from all models
-        for dataset in self.results:
-            for iso in self.results[dataset]:
-                for gloss in self.results[dataset][iso]:
-                    self.results[dataset][iso][gloss]["final"] = str(functions.max_value(functions.combine_weight(
-                        self.results[dataset][iso][gloss]["final"], self.classifiers), tie='lexical entry')[0])
-
-        if evaluate:
-            # Set files for each container in the model
-            for container in self.containers:
-                Container.objects[container].set_confusion_matrices(out_path)
-                Container.objects[container].set_unique_gloss_evaluation(out_path)
+        for gloss in self.results:
+            self.results[gloss]["final"] = str(functions.max_value(functions.combine_weight(
+                self.results[gloss]["final"], self.classifiers), tie='lexical entry')[0])
 
 
-def set_gold_standard():
+def set_gold_standard(vectors):
     annotate = []
     # Process every vector
-    for vector in Vector.objects:
-        # Collect vector obj
-        obj = Vector.objects[vector]
-
+    for vector in vectors:
         # If GoldStandard object does not exist, create GoldStandard object
-        if (obj.dataset, obj.iso, obj.gloss) not in GoldStandard.objects:
-            annotate += [(obj.dataset, obj.iso, obj.gloss)]
-            GoldStandard(obj.dataset, obj.iso, obj.gloss)
+        if (vector["dataset"], vector["iso"], vector["gloss"]) not in GoldStandard.objects:
+            annotate += [(vector["dataset"], vector["iso"], vector["gloss"])]
+            GoldStandard(vector["dataset"], vector["iso"], vector["gloss"])  # USE KWARGS DICT--------------------------
 
         # If GoldStandard standard does not exist, add observation
-        elif not GoldStandard.objects[(obj.dataset, obj.iso, obj.gloss)].label:
-            GoldStandard.objects[(obj.dataset, obj.iso, obj.gloss)].add_count()
+        elif not GoldStandard.objects[(vector["dataset"], vector["iso"], vector["gloss"])].label:
+            GoldStandard.objects[(vector["dataset"], vector["iso"], vector["gloss"])].add_count()
 
         # If GoldStandard has a standard send to Vector
         else:
-            obj.label = str(GoldStandard.objects[(obj.dataset, obj.iso, obj.gloss)].label)
+            vector["label"] = str(GoldStandard.objects[(vector["dataset"], vector["iso"], vector["gloss"])].label)
 
     # If there were values that needed a GoldStandard standard
     if annotate:
@@ -169,13 +162,57 @@ def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold
     Model.load()
     for model in Model.objects:
         Model.objects[model].run_classifiers(evaluate, out_path)
-    Reference.export()
+
+    # Set outputs
+    if evaluate:
+        Reference.json_path = '{}/out/reference.json'.format(out_path)
+        Reference.export()
 
 
-def use_internal_parameters():
+def output_cprf_reports(out_path, gold, gloss_to_final, final, model):
+    # Create a comparative confusion matrix of the two initial confusion matrices
+    cprf = Compare(CM(gold, final, '{}_final'.format(model)),
+                   CM(gold, gloss_to_final, model + '{}_baseline'.format(model)))
 
-    return True
+    # Write the comparative cprf to file
+    set_directory('{}/reports/cprf/'.format(out_path))
+    cprf.write_cprf_file('{}/reports/cprf/{})'.format(out_path, model))
+
+
+def output_unique_gloss_reports(out_path, results, model):
+    set_directory('{}/reports/unique_gloss/acc'.format(out_path))
+    set_directory('{}/reports/unique_gloss/out'.format(out_path))
+
+    # Set up data structures
+    correct_total = 0
+    incorrect_list = []
+    correct_list = []
+    acc = {}
+
+    # Process each gloss
+    for gloss in results:
+        # Build accuracy DS
+        if results[gloss]["gold"] not in acc:
+            acc[results[gloss]["gold"]] = {}
+        acc[results[gloss]["gold"]][results[gloss]["final"]] = acc[results[gloss]["gold"]].get(results[gloss]["final"],
+                                                                                               0) + 1
+
+        # Build out DS (direct evaluation of each unique gloss)
+        entry = [', '.join(gloss), results[gloss]["gold"], results[gloss]["final"]]
+        if results[gloss]["gold"] == results[gloss]["final"]:
+            correct_total += 1
+            correct_list += [entry]
+        else:
+            incorrect_list += [entry]
+
+    # Write accuracy
+    file = '{}/reports/unique_gloss/acc/{}'.format(out_path, model)
+    functions.accuracy(acc, file)
+
+    # Write out evaluation
+    file = '{}/reports/unique_gloss/out/{}'.format(out_path, model)
+    functions.out_evaluation(correct_total, len(results), incorrect_list, correct_list, file)
 
 
 if __name__ == "__main__":
-    use_internal_parameters()
+    pass
