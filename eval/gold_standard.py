@@ -26,6 +26,7 @@ class GoldStandard(DataModelTemplate):
     json_path = None
     objects = {}  # (dataset, iso, gloss)
     stats = {}
+    temp = {}
 
     def set_objects(self):
         GoldStandard.objects[(self.dataset, self.iso, self.gloss)] = self
@@ -35,7 +36,12 @@ class GoldStandard(DataModelTemplate):
             if self.gloss in Value.objects:
                 self.final_grams = Value.objects[self.gloss].grams
             else:
-                self.final_grams = GoldStandard.seek_standard(self.gloss)
+                if self.gloss in GoldStandard.temp:
+                    self.final_grams = GoldStandard.temp[self.gloss]
+                else:
+                    print(self.gram)
+                    self.final_grams = GoldStandard.seek_standard(self.gloss)
+                    GoldStandard.temp[self.gloss] = self.final_grams
 
     def add_count(self):
         """Add an entry to the observation set for the dataset,
@@ -229,5 +235,6 @@ class Lexicon(DataModelTemplate):
 
 # print(GoldStandard.unigram_baseline({'dev1': True, 'dev2': True}, {'test': True}))
 # GoldStandard.report(out_path)
+GoldStandard.json_path = '/media/michael/Home/2_4_Professional_Academic/CLMS/map_gloss/gloss/data/gold_standard.json'
 GoldStandard.load()
 GoldStandard.export()
