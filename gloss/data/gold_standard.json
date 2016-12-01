@@ -523,6 +523,10 @@
         "classification_type": "incomplete",
         "count": "14",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "ang"
@@ -547,6 +551,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "poss"
+        ],
         "gloss": "her",
         "gram": "incomplete",
         "iso": "ang"
@@ -563,6 +571,11 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "obj",
+            "m"
+        ],
         "gloss": "him",
         "gram": "incomplete",
         "iso": "ang"
@@ -611,6 +624,10 @@
         "classification_type": "incomplete",
         "count": "31",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "ang"
@@ -771,6 +788,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "obj"
+        ],
         "gloss": "me",
         "gram": "incomplete",
         "iso": "ang"
@@ -779,6 +800,10 @@
         "classification_type": "incomplete",
         "count": "4",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "poss"
+        ],
         "gloss": "my",
         "gram": "incomplete",
         "iso": "ang"
@@ -835,6 +860,9 @@
         "classification_type": "incomplete",
         "count": "15",
         "dataset": "dev1",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "ang"
@@ -851,6 +879,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "1pl",
+            "poss"
+        ],
         "gloss": "our",
         "gram": "incomplete",
         "iso": "ang"
@@ -1003,6 +1035,10 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "she",
         "gram": "incomplete",
         "iso": "ang"
@@ -1107,6 +1143,10 @@
         "classification_type": "incomplete",
         "count": "17",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "ang"
@@ -1123,6 +1163,10 @@
         "classification_type": "incomplete",
         "count": "4",
         "dataset": "dev1",
+        "final_grams": [
+            "3pl",
+            "obj"
+        ],
         "gloss": "them",
         "gram": "incomplete",
         "iso": "ang"
@@ -1147,6 +1191,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "pl"
+        ],
         "gloss": "these",
         "gram": "incomplete",
         "iso": "ang"
@@ -1155,6 +1203,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev1",
+        "final_grams": [
+            "3pl",
+            "sbj"
+        ],
         "gloss": "they",
         "gram": "incomplete",
         "iso": "ang"
@@ -1187,6 +1239,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "ang"
@@ -1195,6 +1251,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "pl"
+        ],
         "gloss": "those",
         "gram": "incomplete",
         "iso": "ang"
@@ -1235,6 +1295,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev1",
+        "final_grams": [
+            "1pl",
+            "obj"
+        ],
         "gloss": "us",
         "gram": "incomplete",
         "iso": "ang"
@@ -1243,6 +1307,10 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "dev1",
+        "final_grams": [
+            "1pl",
+            "sbj"
+        ],
         "gloss": "we",
         "gram": "incomplete",
         "iso": "ang"
@@ -1339,6 +1407,9 @@
         "classification_type": "incomplete",
         "count": "25",
         "dataset": "dev1",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "ang"
@@ -1347,6 +1418,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev1",
+        "final_grams": [
+            "2",
+            "poss"
+        ],
         "gloss": "your",
         "gram": "incomplete",
         "iso": "ang"
@@ -1387,14 +1462,22 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev1",
+        "final_grams": [
+            "2",
+            "m"
+        ],
         "gloss": "2m",
-        "gram": "incomplete",
+        "gram": "combined",
         "iso": "hau"
     },
     {
         "classification_type": "combined",
         "count": "8",
         "dataset": "dev1",
+        "final_grams": [
+            "3",
+            "f"
+        ],
         "gloss": "3f",
         "gram": "combined",
         "iso": "hau"
@@ -1403,6 +1486,10 @@
         "classification_type": "incomplete",
         "count": "11",
         "dataset": "dev1",
+        "final_grams": [
+            "3",
+            "m"
+        ],
         "gloss": "3m",
         "gram": "incomplete",
         "iso": "hau"
@@ -1763,6 +1850,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "hau"
@@ -1931,6 +2022,11 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "obj",
+            "m"
+        ],
         "gloss": "him",
         "gram": "incomplete",
         "iso": "isl"
@@ -1939,6 +2035,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "isl"
@@ -1987,6 +2087,10 @@
         "classification_type": "incomplete",
         "count": "4",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "obj"
+        ],
         "gloss": "me",
         "gram": "incomplete",
         "iso": "isl"
@@ -2011,6 +2115,9 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "isl"
@@ -2027,6 +2134,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "she",
         "gram": "incomplete",
         "iso": "isl"
@@ -2051,6 +2162,10 @@
         "classification_type": "incomplete",
         "count": "23",
         "dataset": "dev1",
+        "final_grams": [
+            "1pl",
+            "sbj"
+        ],
         "gloss": "we",
         "gram": "incomplete",
         "iso": "isl"
@@ -2083,6 +2198,9 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev1",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "isl"
@@ -2179,6 +2297,9 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "cannot",
         "gram": "incomplete",
         "iso": "jpn"
@@ -2331,6 +2452,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "poss"
+        ],
         "gloss": "her",
         "gram": "incomplete",
         "iso": "jpn"
@@ -2363,6 +2488,10 @@
         "classification_type": "incomplete",
         "count": "41",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "jpn"
@@ -2435,6 +2564,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "obj"
+        ],
         "gloss": "me",
         "gram": "incomplete",
         "iso": "jpn"
@@ -2467,6 +2600,9 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev1",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "jpn"
@@ -2611,6 +2747,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "jpn"
@@ -2651,6 +2791,9 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "dev1",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "jpn"
@@ -3099,6 +3242,9 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "jup"
@@ -3339,6 +3485,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "jup"
@@ -3347,6 +3497,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "jup"
@@ -3707,6 +3861,9 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "doesnt",
         "gram": "incomplete",
         "iso": "mnk"
@@ -3907,6 +4064,10 @@
         "classification_type": "incomplete",
         "count": "15",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "mnk"
@@ -3923,6 +4084,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "poss"
+        ],
         "gloss": "her",
         "gram": "incomplete",
         "iso": "mnk"
@@ -3939,6 +4104,11 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "obj",
+            "m"
+        ],
         "gloss": "him",
         "gram": "incomplete",
         "iso": "mnk"
@@ -3947,6 +4117,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "poss"
+        ],
         "gloss": "his",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4011,6 +4185,10 @@
         "classification_type": "incomplete",
         "count": "17",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4131,6 +4309,10 @@
         "classification_type": "incomplete",
         "count": "6",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "obj"
+        ],
         "gloss": "me",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4155,6 +4337,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "poss"
+        ],
         "gloss": "my",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4179,6 +4365,9 @@
         "classification_type": "incomplete",
         "count": "15",
         "dataset": "dev1",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4195,6 +4384,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "1pl",
+            "poss"
+        ],
         "gloss": "our",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4355,6 +4548,10 @@
         "classification_type": "incomplete",
         "count": "10",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "she",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4419,6 +4616,10 @@
         "classification_type": "incomplete",
         "count": "12",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4451,6 +4652,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "pl"
+        ],
         "gloss": "these",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4459,6 +4664,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev1",
+        "final_grams": [
+            "3pl",
+            "sbj"
+        ],
         "gloss": "they",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4499,6 +4708,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev1",
+        "final_grams": [
+            "1pl",
+            "obj"
+        ],
         "gloss": "us",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4531,6 +4744,10 @@
         "classification_type": "incomplete",
         "count": "6",
         "dataset": "dev1",
+        "final_grams": [
+            "1pl",
+            "sbj"
+        ],
         "gloss": "we",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4627,6 +4844,9 @@
         "classification_type": "incomplete",
         "count": "23",
         "dataset": "dev1",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "mnk"
@@ -4963,6 +5183,10 @@
         "classification_type": "incomplete",
         "count": "10",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "nan"
@@ -5019,6 +5243,9 @@
         "classification_type": "incomplete",
         "count": "9",
         "dataset": "dev1",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "nan"
@@ -5131,6 +5358,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "nan"
@@ -5139,6 +5370,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "3pl",
+            "obj"
+        ],
         "gloss": "them",
         "gram": "incomplete",
         "iso": "nan"
@@ -5147,6 +5382,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "pl"
+        ],
         "gloss": "these",
         "gram": "incomplete",
         "iso": "nan"
@@ -5155,6 +5394,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "3pl",
+            "sbj"
+        ],
         "gloss": "they",
         "gram": "incomplete",
         "iso": "nan"
@@ -5171,6 +5414,10 @@
         "classification_type": "incomplete",
         "count": "12",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "nan"
@@ -5179,6 +5426,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "pl"
+        ],
         "gloss": "those",
         "gram": "incomplete",
         "iso": "nan"
@@ -5227,6 +5478,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev1",
+        "final_grams": [
+            "1pl",
+            "sbj"
+        ],
         "gloss": "we",
         "gram": "incomplete",
         "iso": "nan"
@@ -5291,6 +5546,9 @@
         "classification_type": "incomplete",
         "count": "12",
         "dataset": "dev1",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "nan"
@@ -5675,6 +5933,9 @@
         "classification_type": "incomplete",
         "count": "4",
         "dataset": "dev1",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "ifnot",
         "gram": "incomplete",
         "iso": "pbt"
@@ -5811,6 +6072,9 @@
         "classification_type": "incomplete",
         "count": "13",
         "dataset": "dev1",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "pbt"
@@ -6043,6 +6307,10 @@
         "classification_type": "incomplete",
         "count": "24",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "pbt"
@@ -6059,6 +6327,10 @@
         "classification_type": "incomplete",
         "count": "33",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "pbt"
@@ -6099,6 +6371,10 @@
         "classification_type": "incomplete",
         "count": "10",
         "dataset": "dev1",
+        "final_grams": [
+            "1pl",
+            "sbj"
+        ],
         "gloss": "we",
         "gram": "incomplete",
         "iso": "pbt"
@@ -6147,6 +6423,9 @@
         "classification_type": "incomplete",
         "count": "11",
         "dataset": "dev1",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "pbt"
@@ -6443,6 +6722,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "rus"
@@ -6539,6 +6822,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "1sg",
+            "obj"
+        ],
         "gloss": "me",
         "gram": "incomplete",
         "iso": "rus"
@@ -6587,6 +6874,9 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "dev1",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "rus"
@@ -6611,6 +6901,11 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "prf",
+            "1",
+            "sg"
+        ],
         "gloss": "perf1sg",
         "gram": "combined",
         "iso": "rus"
@@ -6619,6 +6914,11 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "prf",
+            "3",
+            "sg"
+        ],
         "gloss": "perf3sg",
         "gram": "combined",
         "iso": "rus"
@@ -6739,6 +7039,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev1",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "she",
         "gram": "incomplete",
         "iso": "rus"
@@ -6771,6 +7075,10 @@
         "classification_type": "incomplete",
         "count": "8",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "rus"
@@ -6779,6 +7087,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "pl"
+        ],
         "gloss": "these",
         "gram": "incomplete",
         "iso": "rus"
@@ -6795,6 +7107,10 @@
         "classification_type": "incomplete",
         "count": "39",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "rus"
@@ -6811,6 +7127,9 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "dev1",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "rus"
@@ -6859,6 +7178,11 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "dev1",
+        "final_grams": [
+            "2",
+            "sg",
+            "poss"
+        ],
         "gloss": "2sgpossr",
         "gram": "combined",
         "iso": "sna"
@@ -7859,6 +8183,10 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "sna"
@@ -7883,6 +8211,10 @@
         "classification_type": "incomplete",
         "count": "8",
         "dataset": "dev1",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "sna"
@@ -8235,6 +8567,10 @@
         "classification_type": "incomplete",
         "count": "6",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "bre"
@@ -8243,6 +8579,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "poss"
+        ],
         "gloss": "her",
         "gram": "incomplete",
         "iso": "bre"
@@ -8251,6 +8591,11 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "obj",
+            "m"
+        ],
         "gloss": "him",
         "gram": "incomplete",
         "iso": "bre"
@@ -8267,6 +8612,10 @@
         "classification_type": "incomplete",
         "count": "14",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "bre"
@@ -8315,6 +8664,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "obj"
+        ],
         "gloss": "me",
         "gram": "incomplete",
         "iso": "bre"
@@ -8323,6 +8676,10 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "m",
+            "pl"
+        ],
         "gloss": "mpl",
         "gram": "combined",
         "iso": "bre"
@@ -8331,6 +8688,10 @@
         "classification_type": "combined",
         "count": "3",
         "dataset": "dev2",
+        "final_grams": [
+            "m",
+            "sg"
+        ],
         "gloss": "msg",
         "gram": "combined",
         "iso": "bre"
@@ -8355,6 +8716,9 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "bre"
@@ -8491,6 +8855,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "she",
         "gram": "incomplete",
         "iso": "bre"
@@ -8507,6 +8875,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "bre"
@@ -8523,6 +8895,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "3pl",
+            "obj"
+        ],
         "gloss": "them",
         "gram": "incomplete",
         "iso": "bre"
@@ -8531,6 +8907,10 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "dev2",
+        "final_grams": [
+            "3pl",
+            "sbj"
+        ],
         "gloss": "they",
         "gram": "incomplete",
         "iso": "bre"
@@ -8547,6 +8927,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "1pl",
+            "obj"
+        ],
         "gloss": "us",
         "gram": "incomplete",
         "iso": "bre"
@@ -8555,6 +8939,10 @@
         "classification_type": "incomplete",
         "count": "23",
         "dataset": "dev2",
+        "final_grams": [
+            "1pl",
+            "sbj"
+        ],
         "gloss": "we",
         "gram": "incomplete",
         "iso": "bre"
@@ -8571,6 +8959,9 @@
         "classification_type": "incomplete",
         "count": "9",
         "dataset": "dev2",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "bre"
@@ -8747,6 +9138,7 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [],
         "gloss": "cd",
         "gram": "incomplete",
         "iso": "cym"
@@ -8939,6 +9331,10 @@
         "classification_type": "incomplete",
         "count": "20",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "cym"
@@ -8947,6 +9343,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "poss"
+        ],
         "gloss": "her",
         "gram": "incomplete",
         "iso": "cym"
@@ -8963,6 +9363,10 @@
         "classification_type": "incomplete",
         "count": "4",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "poss"
+        ],
         "gloss": "his",
         "gram": "incomplete",
         "iso": "cym"
@@ -9003,6 +9407,10 @@
         "classification_type": "incomplete",
         "count": "27",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "cym"
@@ -9163,6 +9571,10 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "poss"
+        ],
         "gloss": "my",
         "gram": "incomplete",
         "iso": "cym"
@@ -9195,6 +9607,9 @@
         "classification_type": "incomplete",
         "count": "6",
         "dataset": "dev2",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "cym"
@@ -9235,6 +9650,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "1pl",
+            "poss"
+        ],
         "gloss": "our",
         "gram": "incomplete",
         "iso": "cym"
@@ -9355,6 +9774,10 @@
         "classification_type": "incomplete",
         "count": "9",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "she",
         "gram": "incomplete",
         "iso": "cym"
@@ -9427,6 +9850,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "cym"
@@ -9443,6 +9870,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "3pl",
+            "poss"
+        ],
         "gloss": "their",
         "gram": "incomplete",
         "iso": "cym"
@@ -9459,6 +9890,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "pl"
+        ],
         "gloss": "these",
         "gram": "incomplete",
         "iso": "cym"
@@ -9467,6 +9902,10 @@
         "classification_type": "incomplete",
         "count": "6",
         "dataset": "dev2",
+        "final_grams": [
+            "3pl",
+            "sbj"
+        ],
         "gloss": "they",
         "gram": "incomplete",
         "iso": "cym"
@@ -9507,6 +9946,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "1pl",
+            "obj"
+        ],
         "gloss": "us",
         "gram": "incomplete",
         "iso": "cym"
@@ -9523,6 +9966,10 @@
         "classification_type": "incomplete",
         "count": "23",
         "dataset": "dev2",
+        "final_grams": [
+            "1pl",
+            "sbj"
+        ],
         "gloss": "we",
         "gram": "incomplete",
         "iso": "cym"
@@ -9587,6 +10034,9 @@
         "classification_type": "incomplete",
         "count": "21",
         "dataset": "dev2",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "cym"
@@ -9595,6 +10045,10 @@
         "classification_type": "incomplete",
         "count": "4",
         "dataset": "dev2",
+        "final_grams": [
+            "2",
+            "poss"
+        ],
         "gloss": "your",
         "gram": "incomplete",
         "iso": "cym"
@@ -9659,6 +10113,11 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "3",
+            "sg",
+            "f"
+        ],
         "gloss": "3sf",
         "gram": "combined",
         "iso": "fra"
@@ -9931,6 +10390,10 @@
         "classification_type": "incomplete",
         "count": "13",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "fra"
@@ -9947,6 +10410,10 @@
         "classification_type": "incomplete",
         "count": "53",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "fra"
@@ -10035,6 +10502,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "obj"
+        ],
         "gloss": "me",
         "gram": "incomplete",
         "iso": "fra"
@@ -10067,6 +10538,9 @@
         "classification_type": "incomplete",
         "count": "78",
         "dataset": "dev2",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "fra"
@@ -10075,6 +10549,9 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not.",
         "gram": "incomplete",
         "iso": "fra"
@@ -10147,6 +10624,10 @@
         "classification_type": "combined",
         "count": "25",
         "dataset": "dev2",
+        "final_grams": [
+            "pst",
+            "ptcp"
+        ],
         "gloss": "pstptcp",
         "gram": "combined",
         "iso": "fra"
@@ -10171,6 +10652,10 @@
         "classification_type": "incomplete",
         "count": "8",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "she",
         "gram": "incomplete",
         "iso": "fra"
@@ -10227,6 +10712,10 @@
         "classification_type": "incomplete",
         "count": "11",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "fra"
@@ -10243,6 +10732,10 @@
         "classification_type": "incomplete",
         "count": "9",
         "dataset": "dev2",
+        "final_grams": [
+            "3pl",
+            "obj"
+        ],
         "gloss": "them",
         "gram": "incomplete",
         "iso": "fra"
@@ -10259,6 +10752,10 @@
         "classification_type": "incomplete",
         "count": "8",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "pl"
+        ],
         "gloss": "these",
         "gram": "incomplete",
         "iso": "fra"
@@ -10267,6 +10764,10 @@
         "classification_type": "incomplete",
         "count": "12",
         "dataset": "dev2",
+        "final_grams": [
+            "3pl",
+            "sbj"
+        ],
         "gloss": "they",
         "gram": "incomplete",
         "iso": "fra"
@@ -10283,6 +10784,10 @@
         "classification_type": "incomplete",
         "count": "13",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "fra"
@@ -10315,6 +10820,10 @@
         "classification_type": "incomplete",
         "count": "23",
         "dataset": "dev2",
+        "final_grams": [
+            "1pl",
+            "sbj"
+        ],
         "gloss": "we",
         "gram": "incomplete",
         "iso": "fra"
@@ -10355,6 +10864,9 @@
         "classification_type": "incomplete",
         "count": "43",
         "dataset": "dev2",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "fra"
@@ -10507,6 +11019,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "lut"
@@ -10555,6 +11071,10 @@
         "classification_type": "incomplete",
         "count": "26",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "lut"
@@ -10603,6 +11123,9 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "dev2",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "lut"
@@ -10691,6 +11214,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "she",
         "gram": "incomplete",
         "iso": "lut"
@@ -10731,6 +11258,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "3pl",
+            "obj"
+        ],
         "gloss": "them",
         "gram": "incomplete",
         "iso": "lut"
@@ -10763,6 +11294,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev2",
+        "final_grams": [
+            "1pl",
+            "sbj"
+        ],
         "gloss": "we",
         "gram": "incomplete",
         "iso": "lut"
@@ -10795,6 +11330,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "2pl",
+            "sbj"
+        ],
         "gloss": "y'all",
         "gram": "incomplete",
         "iso": "lut"
@@ -10803,6 +11342,11 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "2",
+            "pl",
+            "sbj"
+        ],
         "gloss": "yall",
         "gram": "incomplete",
         "iso": "lut"
@@ -10811,6 +11355,9 @@
         "classification_type": "incomplete",
         "count": "10",
         "dataset": "dev2",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "lut"
@@ -10963,6 +11510,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "mal"
@@ -10979,6 +11530,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "mal"
@@ -11099,6 +11654,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "3pl",
+            "sbj"
+        ],
         "gloss": "they",
         "gram": "incomplete",
         "iso": "mal"
@@ -11171,6 +11730,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "3",
+            "obv"
+        ],
         "gloss": "3obv",
         "gram": "incomplete",
         "iso": "ojg"
@@ -11579,6 +12142,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "ojg"
@@ -11691,6 +12258,10 @@
         "classification_type": "incomplete",
         "count": "11",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "poss"
+        ],
         "gloss": "my",
         "gram": "incomplete",
         "iso": "ojg"
@@ -11747,6 +12318,9 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev2",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "ojg"
@@ -11955,6 +12529,10 @@
         "classification_type": "incomplete",
         "count": "13",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "ojg"
@@ -11971,6 +12549,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "pl"
+        ],
         "gloss": "these",
         "gram": "incomplete",
         "iso": "ojg"
@@ -11979,6 +12561,10 @@
         "classification_type": "incomplete",
         "count": "14",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "ojg"
@@ -12011,6 +12597,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "pl"
+        ],
         "gloss": "those",
         "gram": "incomplete",
         "iso": "ojg"
@@ -12099,6 +12689,9 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "ojg"
@@ -12603,6 +13196,10 @@
         "classification_type": "incomplete",
         "count": "4",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "qub"
@@ -12643,6 +13240,10 @@
         "classification_type": "incomplete",
         "count": "6",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "qub"
@@ -12795,6 +13396,9 @@
         "classification_type": "incomplete",
         "count": "7",
         "dataset": "dev2",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "qub"
@@ -13003,6 +13607,10 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "qub"
@@ -13019,6 +13627,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "qub"
@@ -13123,6 +13735,9 @@
         "classification_type": "incomplete",
         "count": "4",
         "dataset": "dev2",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "qub"
@@ -13331,6 +13946,9 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "cannot",
         "gram": "incomplete",
         "iso": "sci"
@@ -14363,6 +14981,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "sci"
@@ -14499,6 +15121,11 @@
         "classification_type": "combined",
         "count": "6",
         "dataset": "dev2",
+        "final_grams": [
+            "3",
+            "f",
+            "sg"
+        ],
         "gloss": "3fsg",
         "gram": "combined",
         "iso": "tam"
@@ -14507,6 +15134,11 @@
         "classification_type": "combined",
         "count": "5",
         "dataset": "dev2",
+        "final_grams": [
+            "3",
+            "m",
+            "sg"
+        ],
         "gloss": "3msg",
         "gram": "combined",
         "iso": "tam"
@@ -14531,6 +15163,11 @@
         "classification_type": "combined",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "3",
+            "m",
+            "sg"
+        ],
         "gloss": "3sgm",
         "gram": "combined",
         "iso": "tam"
@@ -14539,6 +15176,11 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "3",
+            "sg",
+            "n"
+        ],
         "gloss": "3sn",
         "gram": "combined",
         "iso": "tam"
@@ -14755,6 +15397,10 @@
         "classification_type": "incomplete",
         "count": "8",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "tam"
@@ -14763,6 +15409,10 @@
         "classification_type": "incomplete",
         "count": "22",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "tam"
@@ -14827,6 +15477,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "obj"
+        ],
         "gloss": "me",
         "gram": "incomplete",
         "iso": "tam"
@@ -14843,6 +15497,10 @@
         "classification_type": "incomplete",
         "count": "23",
         "dataset": "dev2",
+        "final_grams": [
+            "1sg",
+            "poss"
+        ],
         "gloss": "my",
         "gram": "incomplete",
         "iso": "tam"
@@ -14987,6 +15645,10 @@
         "classification_type": "incomplete",
         "count": "9",
         "dataset": "dev2",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "she",
         "gram": "incomplete",
         "iso": "tam"
@@ -15003,6 +15665,10 @@
         "classification_type": "combined",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "sg",
+            "m"
+        ],
         "gloss": "sm",
         "gram": "combined",
         "iso": "tam"
@@ -15011,6 +15677,10 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "sg",
+            "n"
+        ],
         "gloss": "sn",
         "gram": "combined",
         "iso": "tam"
@@ -15027,6 +15697,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "tam"
@@ -15035,6 +15709,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "3pl",
+            "sbj"
+        ],
         "gloss": "they",
         "gram": "incomplete",
         "iso": "tam"
@@ -15051,6 +15729,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "tam"
@@ -15083,6 +15765,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "dev2",
+        "final_grams": [
+            "1pl",
+            "sbj"
+        ],
         "gloss": "we",
         "gram": "incomplete",
         "iso": "tam"
@@ -15091,6 +15777,9 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "dev2",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "tam"
@@ -15555,6 +16244,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "dev2",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "zul"
@@ -15955,6 +16648,10 @@
         "classification_type": "incomplete",
         "count": "4",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "ain"
@@ -15971,6 +16668,10 @@
         "classification_type": "incomplete",
         "count": "6",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "ain"
@@ -16019,6 +16720,11 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "3",
+            "m",
+            "sg"
+        ],
         "gloss": "3sgm",
         "gram": "combined",
         "iso": "ary"
@@ -16459,6 +17165,10 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "f",
+            "pl"
+        ],
         "gloss": "fpl",
         "gram": "combined",
         "iso": "ary"
@@ -16571,6 +17281,10 @@
         "classification_type": "incomplete",
         "count": "43",
         "dataset": "test",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "ary"
@@ -16587,6 +17301,10 @@
         "classification_type": "incomplete",
         "count": "12",
         "dataset": "test",
+        "final_grams": [
+            "3sg",
+            "poss"
+        ],
         "gloss": "her",
         "gram": "incomplete",
         "iso": "ary"
@@ -16603,6 +17321,11 @@
         "classification_type": "incomplete",
         "count": "6",
         "dataset": "test",
+        "final_grams": [
+            "3sg",
+            "obj",
+            "m"
+        ],
         "gloss": "him",
         "gram": "incomplete",
         "iso": "ary"
@@ -16635,6 +17358,10 @@
         "classification_type": "incomplete",
         "count": "30",
         "dataset": "test",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "ary"
@@ -16819,6 +17546,10 @@
         "classification_type": "incomplete",
         "count": "9",
         "dataset": "test",
+        "final_grams": [
+            "1sg",
+            "obj"
+        ],
         "gloss": "me",
         "gram": "incomplete",
         "iso": "ary"
@@ -16891,6 +17622,10 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "m",
+            "pl"
+        ],
         "gloss": "mpl",
         "gram": "combined",
         "iso": "ary"
@@ -16907,6 +17642,10 @@
         "classification_type": "incomplete",
         "count": "6",
         "dataset": "test",
+        "final_grams": [
+            "1sg",
+            "poss"
+        ],
         "gloss": "my",
         "gram": "incomplete",
         "iso": "ary"
@@ -17059,6 +17798,10 @@
         "classification_type": "combined",
         "count": "4",
         "dataset": "test",
+        "final_grams": [
+            "pl",
+            "f"
+        ],
         "gloss": "plf",
         "gram": "combined",
         "iso": "ary"
@@ -17067,6 +17810,10 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "pl",
+            "m"
+        ],
         "gloss": "plm",
         "gram": "combined",
         "iso": "ary"
@@ -17107,6 +17854,7 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "test",
+        "final_grams": [],
         "gloss": "pro",
         "gram": "incomplete",
         "iso": "ary"
@@ -17275,6 +18023,10 @@
         "classification_type": "combined",
         "count": "5",
         "dataset": "test",
+        "final_grams": [
+            "sg",
+            "f"
+        ],
         "gloss": "sgf",
         "gram": "combined",
         "iso": "ary"
@@ -17283,6 +18035,10 @@
         "classification_type": "combined",
         "count": "2",
         "dataset": "test",
+        "final_grams": [
+            "sg",
+            "m"
+        ],
         "gloss": "sgm",
         "gram": "combined",
         "iso": "ary"
@@ -17291,6 +18047,10 @@
         "classification_type": "incomplete",
         "count": "37",
         "dataset": "test",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "she",
         "gram": "incomplete",
         "iso": "ary"
@@ -17435,6 +18195,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "ary"
@@ -17443,6 +18207,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "3pl",
+            "obj"
+        ],
         "gloss": "them",
         "gram": "incomplete",
         "iso": "ary"
@@ -17451,6 +18219,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "test",
+        "final_grams": [
+            "3pl",
+            "sbj"
+        ],
         "gloss": "they",
         "gram": "incomplete",
         "iso": "ary"
@@ -17483,6 +18255,10 @@
         "classification_type": "incomplete",
         "count": "12",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "ary"
@@ -17531,6 +18307,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "test",
+        "final_grams": [
+            "1pl",
+            "obj"
+        ],
         "gloss": "us",
         "gram": "incomplete",
         "iso": "ary"
@@ -17611,6 +18391,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "test",
+        "final_grams": [
+            "1pl",
+            "sbj"
+        ],
         "gloss": "we",
         "gram": "incomplete",
         "iso": "ary"
@@ -17739,6 +18523,9 @@
         "classification_type": "incomplete",
         "count": "17",
         "dataset": "test",
+        "final_grams": [
+            "2"
+        ],
         "gloss": "you",
         "gram": "incomplete",
         "iso": "ary"
@@ -17755,6 +18542,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "test",
+        "final_grams": [
+            "2",
+            "sg"
+        ],
         "gloss": "you_sg",
         "gram": "incomplete",
         "iso": "ary"
@@ -17763,6 +18554,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "test",
+        "final_grams": [
+            "2",
+            "sg"
+        ],
         "gloss": "yousg",
         "gram": "incomplete",
         "iso": "ary"
@@ -18067,6 +18862,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "test",
+        "final_grams": [
+            "1sg",
+            "poss"
+        ],
         "gloss": "my",
         "gram": "incomplete",
         "iso": "ces"
@@ -18115,6 +18914,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "test",
+        "final_grams": [
+            "1pl",
+            "poss"
+        ],
         "gloss": "our",
         "gram": "incomplete",
         "iso": "ces"
@@ -18219,6 +19022,10 @@
         "classification_type": "incomplete",
         "count": "7",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "ces"
@@ -18235,6 +19042,10 @@
         "classification_type": "incomplete",
         "count": "6",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "ces"
@@ -18787,6 +19598,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "hbs"
@@ -18803,6 +19618,10 @@
         "classification_type": "incomplete",
         "count": "8",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "hbs"
@@ -19107,6 +19926,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "test",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "hix"
@@ -19115,6 +19938,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "test",
+        "final_grams": [
+            "3sg",
+            "poss"
+        ],
         "gloss": "his",
         "gram": "incomplete",
         "iso": "hix"
@@ -19267,6 +20094,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "1sg",
+            "obj"
+        ],
         "gloss": "me",
         "gram": "incomplete",
         "iso": "hix"
@@ -19299,6 +20130,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "1sg",
+            "poss"
+        ],
         "gloss": "my",
         "gram": "incomplete",
         "iso": "hix"
@@ -19339,6 +20174,9 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "hix"
@@ -19683,6 +20521,11 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "1",
+            "pl",
+            "excl"
+        ],
         "gloss": "1plexcl",
         "gram": "combined",
         "iso": "inh"
@@ -19691,6 +20534,11 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "1",
+            "pl",
+            "incl"
+        ],
         "gloss": "1plincl",
         "gram": "combined",
         "iso": "inh"
@@ -19715,6 +20563,11 @@
         "classification_type": "combined",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "1",
+            "sg",
+            "rfl"
+        ],
         "gloss": "1srfl",
         "gram": "combined",
         "iso": "inh"
@@ -20459,6 +21312,10 @@
         "classification_type": "incomplete",
         "count": "9",
         "dataset": "test",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "inh"
@@ -20515,6 +21372,10 @@
         "classification_type": "incomplete",
         "count": "4",
         "dataset": "test",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "inh"
@@ -20739,6 +21600,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "test",
+        "final_grams": [
+            "1sg",
+            "obj"
+        ],
         "gloss": "me",
         "gram": "incomplete",
         "iso": "inh"
@@ -21251,6 +22116,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "pl"
+        ],
         "gloss": "these",
         "gram": "incomplete",
         "iso": "inh"
@@ -21267,6 +22136,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "inh"
@@ -21811,6 +22684,10 @@
         "classification_type": "combined",
         "count": "4",
         "dataset": "test",
+        "final_grams": [
+            "f",
+            "pl"
+        ],
         "gloss": "fpn",
         "gram": "combined",
         "iso": "jaa"
@@ -22147,6 +23024,10 @@
         "classification_type": "incomplete",
         "count": "5",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "jaa"
@@ -22635,6 +23516,9 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "kat"
@@ -22819,6 +23703,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "kat"
@@ -22891,6 +23779,10 @@
         "classification_type": "combined",
         "count": "3",
         "dataset": "test",
+        "final_grams": [
+            "1",
+            "pl"
+        ],
         "gloss": "1plx",
         "gram": "combined",
         "iso": "tgl"
@@ -23155,6 +24047,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "that",
         "gram": "incomplete",
         "iso": "tgl"
@@ -23163,6 +24059,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "tgl"
@@ -23331,6 +24231,10 @@
         "classification_type": "incomplete",
         "count": "3",
         "dataset": "test",
+        "final_grams": [
+            "3sg",
+            "sbj"
+        ],
         "gloss": "he",
         "gram": "incomplete",
         "iso": "tha"
@@ -23347,6 +24251,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "test",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "tha"
@@ -23379,6 +24287,9 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "neg"
+        ],
         "gloss": "not",
         "gram": "incomplete",
         "iso": "tha"
@@ -23827,6 +24738,10 @@
         "classification_type": "incomplete",
         "count": "2",
         "dataset": "test",
+        "final_grams": [
+            "1sg",
+            "sbj"
+        ],
         "gloss": "i",
         "gram": "incomplete",
         "iso": "vie"
@@ -24131,6 +25046,10 @@
         "classification_type": "incomplete",
         "count": "1",
         "dataset": "test",
+        "final_grams": [
+            "dem",
+            "sg"
+        ],
         "gloss": "this",
         "gram": "incomplete",
         "iso": "vie"

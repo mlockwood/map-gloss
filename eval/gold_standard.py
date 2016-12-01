@@ -31,18 +31,6 @@ class GoldStandard(DataModelTemplate):
     def set_objects(self):
         GoldStandard.objects[(self.dataset, self.iso, self.gloss)] = self
 
-    def set_object_attrs(self):
-        if self.gram == 'incomplete' or self.gram == 'combined':
-            if self.gloss in Value.objects:
-                self.final_grams = Value.objects[self.gloss].grams
-            else:
-                if self.gloss in GoldStandard.temp:
-                    self.final_grams = GoldStandard.temp[self.gloss]
-                else:
-                    print(self.gram)
-                    self.final_grams = GoldStandard.seek_standard(self.gloss)
-                    GoldStandard.temp[self.gloss] = self.final_grams
-
     def add_count(self):
         """Add an entry to the observation set for the dataset,
         iso_code, and gloss.
