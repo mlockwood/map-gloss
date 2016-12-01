@@ -78,7 +78,7 @@ def set_vectors(datasets):
                         except:
                             set_vector(dataset, iso, gloss, '', word_match)
 
-    return True
+    return vectors
 
 
 def set_vector(dataset, iso, raw_gloss, morphemes, word_match):

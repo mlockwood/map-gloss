@@ -2,78 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16910774-536f-4b7f-b67f-106bd2470b9e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/0x1.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/dataset/0x1_test.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_ain.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_ary.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_ces.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_hbs.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_hix.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_inh.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_jaa.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_kat.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_tgl.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_tha.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x1/language/0x1_test_vie.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x3/0x3.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x3/dataset/0x3_dev1.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/out/reference/0x3/language/0x3_dev1_rus.ref" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/0x1.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/dataset/0x1_test.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_ain.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_ary.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_ces.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_hbs.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_hix.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_inh.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_jaa.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_kat.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_tgl.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_tha.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x1/language/0x1_test_vie.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x3/0x3.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x3/dataset/0x3_dev1.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/cprf/0x3/language/0x3_dev1_rus.cprf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/0x1.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/0x1.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/dataset/0x1_test.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/dataset/0x1_test.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ain.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ain.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ary.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ary.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ces.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_ces.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_hbs.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_hbs.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_hix.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_hix.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_inh.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_inh.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_jaa.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_jaa.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_kat.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_kat.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_tgl.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_tgl.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_tha.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_tha.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_vie.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x1/language/0x1_test_vie.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/0x3.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/0x3.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/dataset/0x3_dev1.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/dataset/0x3_dev1.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/language/0x3_dev1_rus.acc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/reports/unique_gloss/0x3/language/0x3_dev1_rus.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gloss/result.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/michael.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/michael.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/constants.py" afterPath="$PROJECT_DIR$/gloss/constants.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eval/constants.py" afterPath="$PROJECT_DIR$/eval/constants.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eval/gold_standard.py" afterPath="$PROJECT_DIR$/eval/gold_standard.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/model.py" afterPath="$PROJECT_DIR$/gloss/model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/tbl.py" afterPath="$PROJECT_DIR$/gloss/tbl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plan.md" afterPath="$PROJECT_DIR$/plan.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/functions.py" afterPath="$PROJECT_DIR$/utils/functions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/vector.py" afterPath="$PROJECT_DIR$/gloss/vector.py" />
     </list>
     <ignored path="map_gloss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,14 +41,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gloss/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="126" column="120" selection-start-line="126" selection-start-column="120" selection-end-line="126" selection-end-column="120" />
+            <state relative-caret-position="587">
+              <caret line="138" column="12" selection-start-line="138" selection-start-column="12" selection-end-line="138" selection-end-column="12" />
               <folding>
                 <element signature="e#49#60#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gold_standard.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eval/gold_standard.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="218" column="21" selection-start-line="218" selection-start-column="21" selection-end-line="218" selection-end-column="21" />
+              <folding>
+                <element signature="e#48#115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constants.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eval/constants.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gold_standard.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gloss/data/gold_standard.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102930">
+              <caret line="6862" column="27" selection-start-line="6862" selection-start-column="27" selection-end-line="6862" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standard_values.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gloss/data/standard_values.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5040">
+              <caret line="336" column="1" selection-start-line="336" selection-start-column="1" selection-end-line="336" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,26 +120,10 @@
       <file leaf-file-name="vector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gloss/vector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3007">
-              <caret line="267" column="71" selection-start-line="267" selection-start-column="71" selection-end-line="267" selection-end-column="71" />
+            <state relative-caret-position="227">
+              <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
               <folding>
                 <element signature="e#49#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gold_standard.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eval/gold_standard.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="e#49#58#0" expanded="true" />
-                <element signature="e#5839#6944#0" expanded="false" />
-                <element signature="e#6990#8991#0" expanded="false" />
-                <element signature="e#9026#9217#0" expanded="false" />
-                <element signature="e#9284#10824#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -213,8 +171,6 @@
         <option value="$PROJECT_DIR$/gloss/standard.py" />
         <option value="$PROJECT_DIR$/example/data/models.json" />
         <option value="$PROJECT_DIR$/gloss/dataset.py" />
-        <option value="$PROJECT_DIR$/gloss/vector.py" />
-        <option value="$PROJECT_DIR$/eval/gold_standard.py" />
         <option value="$PROJECT_DIR$/gloss/reference.py" />
         <option value="$PROJECT_DIR$/utils/classes.py" />
         <option value="$PROJECT_DIR$/gloss/constants.py" />
@@ -223,7 +179,10 @@
         <option value="$PROJECT_DIR$/gloss/result.py" />
         <option value="$PROJECT_DIR$/eval/eval_gloss.py" />
         <option value="$PROJECT_DIR$/gloss/tbl.py" />
+        <option value="$PROJECT_DIR$/gloss/vector.py" />
         <option value="$PROJECT_DIR$/gloss/model.py" />
+        <option value="$PROJECT_DIR$/eval/constants.py" />
+        <option value="$PROJECT_DIR$/eval/gold_standard.py" />
       </list>
     </option>
   </component>
@@ -355,6 +314,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="reports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gold_standard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -660,7 +641,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -709,13 +690,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/models" />
     <entry file="file://$PROJECT_DIR$/docs/github" />
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/constants.py" />
     <entry file="file://$PROJECT_DIR$/utils/IOutils.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -752,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/data/standard_values.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="336" column="1" selection-start-line="336" selection-start-column="1" selection-end-line="336" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/data/models.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -770,13 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/data/gold_standard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6862" column="27" selection-start-line="6862" selection-start-column="27" selection-end-line="6862" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -813,22 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/gold_standard/complete_report.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/gold_standard/dev1_report.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -897,42 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/vector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3007">
-          <caret line="267" column="71" selection-start-line="267" selection-start-column="71" selection-end-line="267" selection-end-column="71" />
-          <folding>
-            <element signature="e#49#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gloss/constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eval/gold_standard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#49#58#0" expanded="true" />
-            <element signature="e#5839#6944#0" expanded="false" />
-            <element signature="e#6990#8991#0" expanded="false" />
-            <element signature="e#9026#9217#0" expanded="false" />
-            <element signature="e#9284#10824#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eval/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -961,16 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/tbl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plan.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -991,12 +893,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/tbl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+          <folding>
+            <element signature="e#49#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/data/standard_values.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5040">
+          <caret line="336" column="1" selection-start-line="336" selection-start-column="1" selection-end-line="336" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/data/gold_standard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102930">
+          <caret line="6862" column="27" selection-start-line="6862" selection-start-column="27" selection-end-line="6862" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gloss/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="126" column="120" selection-start-line="126" selection-start-column="120" selection-end-line="126" selection-end-column="120" />
+        <state relative-caret-position="587">
+          <caret line="138" column="12" selection-start-line="138" selection-start-column="12" selection-end-line="138" selection-end-column="12" />
           <folding>
             <element signature="e#49#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/gold_standard/complete_report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/gold_standard/dev1_report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/gold_standard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="218" column="21" selection-start-line="218" selection-start-column="21" selection-end-line="218" selection-end-column="21" />
+          <folding>
+            <element signature="e#48#115#0" expanded="true" />
           </folding>
         </state>
       </provider>

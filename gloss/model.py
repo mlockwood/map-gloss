@@ -11,7 +11,6 @@ from eval.gold_standard import GoldStandard, Lexicon
 from gloss.constants import CLASSIFIERS
 from gloss.dataset import *
 from gloss.errors import *
-from gloss.standard import Gram
 from gloss.tbl import TBL
 from gloss.vector import *
 from utils.classes import DataModelTemplate
@@ -42,7 +41,6 @@ class Model(DataModelTemplate):
         self.test = get_collection(self.test)
         self.classifiers = self.validate_classifiers(self.classifiers)
         self.reference = Reference(**{"model": self.name, "results": self.init_results()})
-        self.reference.init_results()
         Model.objects[self.name] = self
 
     def validate_classifiers(self, classifiers):
@@ -72,7 +70,7 @@ class Model(DataModelTemplate):
         results = {}
         for vector_id in self.test:
             vector = self.test[vector_id]
-            self.results[vector["unique"]] = {
+            results[vector["unique"]] = {
                 "gold": GoldStandard.objects[vector["unique"]].gram,  # FIX THIS TO CORRECT ATTR
                 "input": vector["gloss"],
                 "final": {}
@@ -147,15 +145,15 @@ def set_gold_standard(vectors):
 def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold_standard_file=None, lexicon_file=None):
     # Set up datasets
     datasets = infer_datasets(json.load(dataset_file))
-    set_vectors(datasets)
+    vectors = set_vectors(datasets)
 
-    # Configure gold standard
+    # Configure gold standard -- NEEDS TO BE DONE ON TRAINING BUT ONLY ON TEST IF EVALUATE
     if evaluate:
         GoldStandard.json_path = gold_standard_file if gold_standard_file else 'data/gold_standard.json'
         GoldStandard.load()
         Lexicon.json_path = lexicon_file if lexicon_file else 'data/lexicon.json'
         Lexicon.load()
-        set_gold_standard()
+        set_gold_standard(vectors)
 
     # Process models
     Model.json_path = model_file
