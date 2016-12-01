@@ -30,6 +30,13 @@ class GoldStandard(DataModelTemplate):
     def set_objects(self):
         GoldStandard.objects[(self.dataset, self.iso, self.gloss)] = self
 
+    def set_object_attrs(self):
+        if self.gram == 'incomplete' or self.gram == 'combined':
+            if self.gloss in Value.objects:
+                self.final_grams = Value.objects[self.gloss].grams
+            else:
+                self.final_grams = GoldStandard.seek_standard(self.gloss)
+
     def add_count(self):
         """Add an entry to the observation set for the dataset,
         iso_code, and gloss.
@@ -48,8 +55,7 @@ class GoldStandard(DataModelTemplate):
         # Check for default annotations
         annotate = []
         for gloss in glosses:
-            # If a standard gloss
-            # NOTE CONCERN WITH COMBINED LIKE RUSSIAN IMP/IPFV
+            # If a standard gloss; CONCERN WITH COMBINED LIKE RUSSIAN IMP/IPFV
             if gloss[2] in Gram.objects:
                 cls.set_standard(gloss, 'standard', gloss[2])
             # If a known word
@@ -115,13 +121,12 @@ class GoldStandard(DataModelTemplate):
     @staticmethod
     def seek_standard(gloss, repeat=False):
         if repeat:
-            s_list = []
-            standard = ''
-            while str(standard) != '0':
-                standard = input('\tWhat is one of the glosses for {} (use 0 if no more values): '.format(gloss))
-                if str(standard) != '0' and standard != '':
-                    s_list.append(standard.lower())
-            standard = s_list
+            standard = []
+            value = ''
+            while str(value) != '0':
+                value = input('\tWhat is one of the glosses for {} (use 0 if no more values): '.format(gloss))
+                if str(value) != '0' and value != '':
+                    standard.append(value.lower())
         else:
             standard = input('\tWhat is the correct value for {}: '.format(gloss))
         return standard
@@ -194,30 +199,21 @@ class GoldStandard(DataModelTemplate):
             if obj[0] in train:
                 if cls.objects[obj].gloss not in model:
                     model[cls.objects[obj].gloss] = {}
-                model[cls.objects[obj].gloss][cls.objects[obj].label] = (
-                    model[cls.objects[obj].gloss].get(cls.objects[obj].label, 0) + cls.objects[obj].count)
+                model[cls.objects[obj].gloss][cls.objects[obj].gram] = (
+                    model[cls.objects[obj].gloss].get(cls.objects[obj].gram, 0) + cls.objects[obj].count)
             elif obj[0] in test:
                 test_obj.append(cls.objects[obj])
         for obj in test_obj:
             # Known glosses
             if obj.gloss in model:
-                if functions.max_value(model[obj.gloss])[0] == obj.label:
-                    test_acc['pos'] = test_acc.get('pos', 0) + 1
-                else:
-                    test_acc['neg'] = test_acc.get('neg', 0) + 1
-            # Unknown glosses
-            # Gloss in standard set
+                key = 'pos' if functions.max_value(model[obj.gloss])[0] == obj.gram else 'neg'
+            # Gloss unknown but in standard set
             elif obj.gloss in Gram.objects:
-                if obj.gloss == obj.label:
-                    test_acc['pos'] = test_acc.get('pos', 0) + 1
-                else:
-                    test_acc['neg'] = test_acc.get('neg', 0) + 1
+                key = 'pos' if obj.gloss == obj.label else 'neg'
             # Otherwise assume it is a word
             else:
-                if obj.label == 'lexical entry':
-                    test_acc['pos'] = test_acc.get('pos', 0) + 1
-                else:
-                    test_acc['neg'] = test_acc.get('neg', 0) + 1
+                key = 'pos' if obj.gram == 'lexical entry' else 'neg'
+            test_acc[key] = test_acc.get(key, 0) + 1
         acc = functions.prob_conversion(test_acc)
         return acc
 
@@ -233,4 +229,5 @@ class Lexicon(DataModelTemplate):
 
 # print(GoldStandard.unigram_baseline({'dev1': True, 'dev2': True}, {'test': True}))
 # GoldStandard.report(out_path)
-
+GoldStandard.load()
+GoldStandard.export()
