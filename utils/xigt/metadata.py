@@ -2,11 +2,11 @@
 import warnings
 import re
 
-from src.utils.xigt.mixins import (
+from utils.xigt.mixins import (
     XigtContainerMixin,
     XigtAttributeMixin
 )
-from src.utils.xigt.errors import XigtError
+from utils.xigt.errors import XigtError
 
 # name_re approximately follows the XML 1.0 spec for Name productions,
 # so long as the re character classes correspond to XML productions.

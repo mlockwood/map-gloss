@@ -2,7 +2,7 @@
 import re
 from collections import namedtuple
 
-from src.utils.xigt.errors import (XigtLookupError, XigtStructureError)
+from utils.xigt.errors import (XigtLookupError, XigtStructureError)
 
 ### Alignment Expressions ####################################################
 

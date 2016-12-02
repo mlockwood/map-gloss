@@ -1,18 +1,18 @@
 
 import warnings
 
-from src.utils.xigt.consts import (
+from utils.xigt.consts import (
     ID,
     TYPE,
     ALIGNMENT,
     CONTENT,
     SEGMENTATION
 )
-from src.utils.xigt.errors import (
+from utils.xigt.errors import (
     XigtError,
     XigtStructureError
 )
-from src.utils.xigt.ref import id_re
+from utils.xigt.ref import id_re
 
 def _has_parent(obj):
     return hasattr(obj, '_parent') and obj._parent is not None

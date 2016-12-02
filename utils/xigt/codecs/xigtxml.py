@@ -41,7 +41,7 @@ except LookupError:
 #     bytes = str
 
 
-from src.utils.xigt import XigtCorpus, Igt, Tier, Item, Metadata, Meta, MetaChild
+from utils.xigt import XigtCorpus, Igt, Tier, Item, Metadata, Meta, MetaChild
 
 
 ##############################################################################

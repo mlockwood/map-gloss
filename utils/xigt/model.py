@@ -9,7 +9,7 @@ import logging
 import warnings
 from itertools import chain
 
-from src.utils.xigt.consts import (
+from utils.xigt.consts import (
     CONTENT,
     SEGMENTATION,
     FULL,
@@ -17,19 +17,19 @@ from src.utils.xigt.consts import (
     TRANSIENT
 )
 
-from src.utils.xigt.mixins import (
+from utils.xigt.mixins import (
     XigtContainerMixin,  # XigtCorpus, Igt, Tier, Metadata
     XigtAttributeMixin,  # XigtCorpus, Igt, Tier, Item, Metadata, Meta
     XigtReferenceAttributeMixin,  # Tier, Item
 )
 
-from src.utils.xigt.metadata import (
+from utils.xigt.metadata import (
     XigtMetadataMixin  # XigtCorpus, Igt, Tier
 )
 
-from src.utils.xigt import ref
+from utils.xigt import ref
 
-from src.utils.xigt.errors import (
+from utils.xigt.errors import (
     XigtError,
     XigtStructureError,
     XigtAttributeError,
