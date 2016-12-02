@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
 import json
-import re
-import os
 
 from eval.confusion_matrix import CM, Compare
 from eval.gold_standard import GoldStandard, Lexicon
@@ -89,7 +86,12 @@ class Model(DataModelTemplate):
                 tbl_classifier.decode(self.test.vectors)
                 self.reference.set_classifier_results(tbl_classifier, 'tbl')
 
-        self.reference.set_final_results()
+        if out_path:
+            set_directory('{}/reports/cprf/'.format(out_path))
+            set_directory('{}/reports/unique_gloss/acc'.format(out_path))
+            set_directory('{}/reports/unique_gloss/out'.format(out_path))
+
+        self.reference.set_final_results(out_path)
 
 
 class Reference(DataModelTemplate):
@@ -108,11 +110,51 @@ class Reference(DataModelTemplate):
         for gloss in classifier.results:
             self.results[gloss]["final"][classifier_name] = functions.prob_conversion(classifier.results.get(gloss, 0))
 
-    def set_final_results(self):
+    def set_final_results(self, out_path):
         # Aggregate results from all models
         for gloss in self.results:
             self.results[gloss]["final"] = str(functions.max_value(functions.combine_weight(
                 self.results[gloss]["final"], self.classifiers), tie='lexical entry')[0])
+        # Create reports
+        self.output_cprf_reports(out_path, self.get_ref_dict('gold'), self.get_ref_dict('final'))
+        self.output_unique_gloss_reports(out_path)
+
+    def get_ref_dict(self, key, value='final'):
+        return dict(((gloss[0], gloss[1], key), self.results[gloss][value]) for gloss in self.results)
+
+    def output_cprf_reports(self, out_path, gold, final):
+        # Create a comparative confusion matrix of the two initial confusion matrices
+        cprf = Compare(CM(gold, final, '{}_final'.format(self.model)),
+                       CM(gold, self.results, '{}_baseline'.format(self.model)))
+        cprf.write_cprf_file('{}/reports/cprf/{}'.format(out_path, self.model))
+
+    def output_unique_gloss_reports(self, out_path):
+        # Set up data structures
+        correct_total = 0
+        incorrect_list = []
+        correct_list = []
+        acc = {}
+
+        # Process each gloss
+        for gloss in self.results:
+            # Build accuracy DS
+            if self.results[gloss]["gold"] not in acc:
+                acc[self.results[gloss]["gold"]] = {}
+            acc[self.results[gloss]["gold"]][self.results[gloss]["final"]] = acc[self.results[gloss]["gold"]].get(
+                self.results[gloss]["final"], 0) + 1
+
+            # Build out DS (direct evaluation of each unique gloss)
+            entry = [', '.join(gloss), self.results[gloss]["gold"], self.results[gloss]["final"]]
+            if self.results[gloss]["gold"] == self.results[gloss]["final"]:
+                correct_total += 1
+                correct_list += [entry]
+            else:
+                incorrect_list += [entry]
+
+        # Write accuracy and out_evaluation
+        functions.accuracy(acc, '{}/reports/unique_gloss/acc/{}'.format(out_path, self.model))
+        functions.out_evaluation(correct_total, len(self.results), incorrect_list, correct_list,
+                                 '{}/reports/unique_gloss/out/{}'.format(out_path, self.model))
 
 
 def set_gold_standard(vectors):
@@ -159,57 +201,13 @@ def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold
     Model.json_path = model_file
     Model.load()
     for model in Model.objects:
-        Model.objects[model].run_classifiers(evaluate, out_path)
+        Model.objects[model].run_classifiers(out_path)
 
     # Set outputs
-    if evaluate:
+    if out_path:
         Reference.json_path = '{}/out/reference.json'.format(out_path)
         Reference.export()
-
-
-def output_cprf_reports(out_path, gold, gloss_to_final, final, model):
-    # Create a comparative confusion matrix of the two initial confusion matrices
-    cprf = Compare(CM(gold, final, '{}_final'.format(model)),
-                   CM(gold, gloss_to_final, model + '{}_baseline'.format(model)))
-
-    # Write the comparative cprf to file
-    set_directory('{}/reports/cprf/'.format(out_path))
-    cprf.write_cprf_file('{}/reports/cprf/{})'.format(out_path, model))
-
-
-def output_unique_gloss_reports(out_path, results, model):
-    set_directory('{}/reports/unique_gloss/acc'.format(out_path))
-    set_directory('{}/reports/unique_gloss/out'.format(out_path))
-
-    # Set up data structures
-    correct_total = 0
-    incorrect_list = []
-    correct_list = []
-    acc = {}
-
-    # Process each gloss
-    for gloss in results:
-        # Build accuracy DS
-        if results[gloss]["gold"] not in acc:
-            acc[results[gloss]["gold"]] = {}
-        acc[results[gloss]["gold"]][results[gloss]["final"]] = acc[results[gloss]["gold"]].get(results[gloss]["final"],
-                                                                                               0) + 1
-
-        # Build out DS (direct evaluation of each unique gloss)
-        entry = [', '.join(gloss), results[gloss]["gold"], results[gloss]["final"]]
-        if results[gloss]["gold"] == results[gloss]["final"]:
-            correct_total += 1
-            correct_list += [entry]
-        else:
-            incorrect_list += [entry]
-
-    # Write accuracy
-    file = '{}/reports/unique_gloss/acc/{}'.format(out_path, model)
-    functions.accuracy(acc, file)
-
-    # Write out evaluation
-    file = '{}/reports/unique_gloss/out/{}'.format(out_path, model)
-    functions.out_evaluation(correct_total, len(results), incorrect_list, correct_list, file)
+    return Reference.get_all_results()
 
 
 if __name__ == "__main__":

@@ -22,7 +22,7 @@ class TBL(object):
 
     @classmethod
     def set_cls_path(cls, out_path):
-        cls.path = '{}/reports/models/tbl'.format(out_path)
+        cls.path = '{}/reports/models/tbl'.format(out_path) if out_path else None
         set_directory(cls.path)
 
     # Model function
@@ -119,7 +119,8 @@ class TBL(object):
             # Add best rule to TBL rule set
             self.tbl_rules.append(best)
         # Once all rules have been created send them to output
-        self.model()
+        if TBL.path:
+            self.model()
         return True
 
     # Function to decode test vectors
@@ -161,6 +162,7 @@ class TBL(object):
                                                                                                    ) + 1
 
         # Call system and accuracy functions
-        self.system(syst)
-        self.accuracy(acc)
+        if TBL.path:
+            self.system(syst)
+            self.accuracy(acc)
         return True

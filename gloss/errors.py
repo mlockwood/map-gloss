@@ -31,11 +31,3 @@ class ClassifierWeightError(GlossError):
 
 class InvalidClassifierWeightError(GlossError):
     pass
-
-
-class InvalidContainerTypeError(GlossError):
-    pass
-
-
-class MissingGlossGoldStandardError(GlossError):
-    pass
