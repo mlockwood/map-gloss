@@ -33,9 +33,9 @@ vector_structured = {}  # {dataset: {iso: {vector_id: True}}
 def set_vectors(datasets):
     # Process and convert data
     for dataset in datasets:
-        for iso in datasets[dataset]:
+        for iso in dataset["iso_list"]:
             # Open the current xigt file
-            xc = xigtxml.load(open(datasets[dataset][iso]["xigt"]))
+            xc = xigtxml.load(open(dataset["iso_list"][iso]["xigt"]))
             for igt in xc:
                 # Capture the translated words
                 words = dict((w, True) for w in ' '.join([str(line.value()).lower() for line in igt.get('t')]).split())
