@@ -23,12 +23,15 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-def infer_datasets(datasets):
+def infer_datasets(datasets, method='agg'):
     """
     Take a JSON representation of the datasets to be loaded and create
     a DS representation with all paths for XIGT and choices files.
     Args:
         datasets: [{"name": dataset name, "path": abs path}]
+        method: describe how to infer paths for ISOs
+            (agg) for AGGREGATION at the /data/dataset path
+            (odin) for ODIN at the /data/by-lang/xigt-enriched path
 
     Returns:
         JSON representation for internal map_gloss usage that extracted
@@ -38,7 +41,10 @@ def infer_datasets(datasets):
     """
     for dataset in datasets:
         if "iso_list" not in dataset:
-            dataset["iso_list"] = find_iso_directories(dataset["path"])
+            if method == 'agg':
+                dataset["iso_list"] = find_iso_directories(dataset["path"])
+            elif method == 'odin':
+                dataset["iso_list"] = find_files(dataset["path"])
     return datasets
 
 
@@ -52,18 +58,18 @@ def find_iso_directories(path):
         path: a path to a dataset extracted from the datasets JSON
 
     Returns:
-        iso_list attribute for the dataset
+        "iso_list" JSON object for dataset
     """
     iso_list = {}
     for iso in [x for x in os.listdir(path) if os.path.isdir(os.path.join(path, x)) and len(x) <= 3]:
-        iso_list[iso] = find_files(path)
+        iso_list[iso] = find_files_in_subdirectories(path)
     return iso_list
 
 
-def find_files(path):
+def find_files_in_subdirectories(path):
     """
     Use simple inference logic and traverse a directory to find the
-    XIGT and hoices files for an ISO.
+    XIGT and choices files for an ISO.
     Args:
         path: ISO path
 
@@ -79,3 +85,21 @@ def find_files(path):
             elif re.search('choices.up', file):
                 choices = os.path.join(root, file)
     return {"xigt": xigt, "choices": choices}
+
+
+def find_files(path):
+    """
+    Discover XIGT files that are organized in the same directory by
+    ISO.txt
+    Args:
+        path: dataset directory path
+
+    Returns:
+        "iso_list" JSON object for dataset of XIGT files for each ISO
+    """
+    iso_list = {}
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            if re.search('.xml$', file):
+                iso_list[file[:-4]] = os.path.join(root, file)
+    return iso_list
