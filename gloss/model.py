@@ -174,6 +174,7 @@ def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold
     Model.json_path = model_file
     Model.load()
     set_gold_standard(gold_standard_file, lexicon_file)
+    GoldStandard.report(out_path)
     for model in Model.objects:
         Model.objects[model].run_classifiers(out_path)
 
@@ -182,3 +183,6 @@ def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold
         Reference.json_path = '{}/out/reference.json'.format(out_path)
         Reference.export()
     return Reference.get_all_results()
+
+
+process_models(DATASET_FILE, MODEL_FILE, True, OUT_PATH)

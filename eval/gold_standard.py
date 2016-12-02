@@ -222,7 +222,3 @@ class Lexicon(DataModelTemplate):
 
 
 # print(GoldStandard.unigram_baseline({'dev1': True, 'dev2': True}, {'test': True}))
-# GoldStandard.report(out_path)
-GoldStandard.json_path = '/media/michael/Home/2_4_Professional_Academic/CLMS/map_gloss/gloss/data/gold_standard.json'
-GoldStandard.load()
-GoldStandard.export()
