@@ -62,10 +62,10 @@ class TBL(object):
                     tbl[feat] = {}
                 if vector["tbl_cur"] not in tbl[feat]:
                     tbl[feat][vector["tbl_cur"]] = {}
-                if vector["label"] not in tbl[feat][vector["tbl_cur"]]:
-                    tbl[feat][vector["tbl_cur"]][vector["label"]] = {}
+                if vector["gram"] not in tbl[feat][vector["tbl_cur"]]:
+                    tbl[feat][vector["tbl_cur"]][vector["gram"]] = {}
                 # Set tbl[feat][cur][gold][vector["id"]] = True
-                tbl[feat][vector["tbl_cur"]][vector["label"]][vector["id"]] = True
+                tbl[feat][vector["tbl_cur"]][vector["gram"]][vector["id"]] = True
         self.tbl = tbl
         return True
 
@@ -112,9 +112,9 @@ class TBL(object):
                         del self.tbl[feat][vector["tbl_cur"]][vector["label"]][vid]
                         if best[2] not in self.tbl[feat]:
                             self.tbl[feat][best[2]] = {}
-                        if vector["label"] not in self.tbl[feat][best[2]]:
-                            self.tbl[feat][best[2]][vector["label"]] = {}
-                        self.tbl[feat][best[2]][vector["label"]][vid] = True
+                        if vector["gram"] not in self.tbl[feat][best[2]]:
+                            self.tbl[feat][best[2]][vector["gram"]] = {}
+                        self.tbl[feat][best[2]][vector["gram"]][vid] = True
                     vector["tbl_cur"] = best[2]
             # Add best rule to TBL rule set
             self.tbl_rules.append(best)
@@ -145,15 +145,15 @@ class TBL(object):
                         transformations.append(rule)
 
             # Prepare for outputs
-            syst.append((vector["id"], vector["label"], vector["tbl_cur"], transformations))
+            syst.append((vector["id"], vector["gram"], vector["tbl_cur"], transformations))
             n += 1
 
             # Send result to confusion matrix
-            if vector["label"] not in acc:
-                acc[vector["label"]] = {}
+            if vector["gram"] not in acc:
+                acc[vector["gram"]] = {}
             if vector["tbl_cur"] not in acc:
                 acc[vector["tbl_cur"]] = {}
-            acc[vector["label"]][vector["tbl_cur"]] = acc[vector["label"]].get(vector["tbl_cur"], 0) + 1
+            acc[vector["gram"]][vector["tbl_cur"]] = acc[vector["gram"]].get(vector["tbl_cur"], 0) + 1
 
             # Add to results
             if vector["unique"] not in self.results:

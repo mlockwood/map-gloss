@@ -2,13 +2,6 @@ import os
 import re
 
 
-def find_path(directory):
-    match = re.search(directory, os.getcwd())
-    if not match:
-        raise IOError('{} is not in current working directory of {}'.format(directory, os.getcwd()))
-    return os.getcwd()[:match.span()[0]] + directory
-
-
 def accuracy(acc, file):
     writer = open('{}.acc'.format(file), 'w')
     # New sorted acc

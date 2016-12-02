@@ -3,6 +3,13 @@ import os
 import re
 
 
+def find_path(directory):
+    match = re.search(directory, os.getcwd())
+    if not match:
+        raise IOError('{} is not in current working directory of {}'.format(directory, os.getcwd()))
+    return os.getcwd()[:match.span()[0]] + directory
+
+
 def set_directory(path):
     if not os.path.isdir(path):
         os.makedirs(path)

@@ -43,13 +43,13 @@ class DataModelTemplate(object):
         cls.set_class_vars()
 
     @classmethod
-    def export(cls):
+    def export(cls, index=0):
         # If only one path was provided
         if isinstance(cls.json_path, str):
             export_json(cls.json_path, cls)
         # If many paths were provided only export to the first json_path
         elif isinstance(cls.json_path, list) or isinstance(cls.json_path, tuple):
-            export_json(cls.json_path[0], cls)
+            export_json(cls.json_path[index], cls)
         # Else raise error and alert user that load requires at least one JSON file
         else:
             raise ValueError('The class {} must have a file or list/tuple of files to load.'.format(str(cls)))

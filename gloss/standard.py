@@ -1,5 +1,5 @@
 from utils.classes import DataModelTemplate
-from utils.functions import find_path
+from utils.IOutils import find_path
 
 
 class Gram(DataModelTemplate):

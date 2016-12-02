@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
-# Import packages and libraries
 import os
 import re
 
-# Import scripts
-from gloss import errors as GlossErrors
+from utils.IOutils import find_path
 
 
 __project_parent__ = 'AGGREGATION'
@@ -23,15 +20,12 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-def infer_datasets(datasets, method='agg'):
+def infer_datasets(datasets):
     """
     Take a JSON representation of the datasets to be loaded and create
     a DS representation with all paths for XIGT and choices files.
     Args:
         datasets: [{"name": dataset name, "path": abs path}]
-        method: describe how to infer paths for ISOs
-            (agg) for AGGREGATION at the /data/dataset path
-            (odin) for ODIN at the /data/by-lang/xigt-enriched path
 
     Returns:
         JSON representation for internal map_gloss usage that extracted
@@ -40,10 +34,12 @@ def infer_datasets(datasets, method='agg'):
         displayed.
     """
     for dataset in datasets:
+        if "find_path_key" in dataset:
+            dataset["path"] = '{}/{}'.format(find_path(dataset["find_path_key"]), dataset["path"])
         if "iso_list" not in dataset:
-            if method == 'agg':
+            if dataset["method"] == 'agg':
                 dataset["iso_list"] = find_iso_directories(dataset["path"])
-            elif method == 'odin':
+            elif dataset["method"] == 'odin':
                 dataset["iso_list"] = find_files(dataset["path"])
     return datasets
 

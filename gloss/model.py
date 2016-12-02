@@ -4,15 +4,14 @@
 import json
 
 from eval.confusion_matrix import CM, Compare
-from eval.gold_standard import GoldStandard, Lexicon
-from gloss.constants import CLASSIFIERS
+from gloss.constants import *
 from gloss.dataset import *
 from gloss.errors import *
 from gloss.tbl import TBL
 from gloss.vector import *
 from utils.classes import DataModelTemplate
 from utils import functions
-from utils.IOutils import set_directory
+from utils.IOutils import find_path, set_directory
 
 
 __project_parent__ = 'AGGREGATION'
@@ -30,15 +29,23 @@ __collaborators__ = None
 
 class Model(DataModelTemplate):
 
+    evaluate = False
     json_path = None
     objects = {}
+    train_vectors = {}
 
     def set_object_attrs(self):
-        self.train = get_collection(self.train) if self.train else None  # FIX WITH LOADING VECTORS.JSON FROM SRC
-        self.test = get_collection(self.test)
+        self.train = get_collection(self.train, True) if self.train else Model.get_train_vectors()
+        self.test = get_collection(self.test, Model.evaluate)
         self.classifiers = self.validate_classifiers(self.classifiers)
         self.reference = Reference(**{"model": self.name, "results": self.init_results()})
         Model.objects[self.name] = self
+
+    @classmethod
+    def get_train_vectors(cls):
+        if not cls.train_vectors:
+            cls.train_vectors = json.load('{}/example/data/vectors.json'.format(find_path('map_gloss')))
+        return cls.train_vectors
 
     def validate_classifiers(self, classifiers):
         weight = 0.0
@@ -68,7 +75,7 @@ class Model(DataModelTemplate):
         for vector_id in self.test:
             vector = self.test[vector_id]
             results[vector["unique"]] = {
-                "gold": GoldStandard.objects[vector["unique"]].gram,  # FIX THIS TO CORRECT ATTR
+                "gold": GoldStandard.objects[vector["unique"]].gram,
                 "input": vector["gloss"],
                 "final": {}
             }
@@ -157,49 +164,16 @@ class Reference(DataModelTemplate):
                                  '{}/reports/unique_gloss/out/{}'.format(out_path, self.model))
 
 
-def set_gold_standard(vectors):
-    annotate = []
-    # Process every vector
-    for vector in vectors:
-        # If GoldStandard object does not exist, create GoldStandard object
-        if (vector["dataset"], vector["iso"], vector["gloss"]) not in GoldStandard.objects:
-            annotate += [(vector["dataset"], vector["iso"], vector["gloss"])]
-            GoldStandard(vector["dataset"], vector["iso"], vector["gloss"])  # USE KWARGS DICT--------------------------
-
-        # If GoldStandard standard does not exist, add observation
-        elif not GoldStandard.objects[(vector["dataset"], vector["iso"], vector["gloss"])].label:
-            GoldStandard.objects[(vector["dataset"], vector["iso"], vector["gloss"])].add_count()
-
-        # If GoldStandard has a standard send to Vector
-        else:
-            vector["label"] = str(GoldStandard.objects[(vector["dataset"], vector["iso"], vector["gloss"])].label)
-
-    # If there were values that needed a GoldStandard standard
-    if annotate:
-        # Seek input and then send to Vector
-        GoldStandard.annotate(annotate)
-        for unique in annotate:
-            for vector in Vector.lookup[unique]:
-                vector.label = GoldStandard.objects[unique].label
-    return True
-
-
 def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold_standard_file=None, lexicon_file=None):
     # Set up datasets
     datasets = infer_datasets(json.load(dataset_file))
-    vectors = set_vectors(datasets)
-
-    # Configure gold standard -- NEEDS TO BE DONE ON TRAINING BUT ONLY ON TEST IF EVALUATE
-    if evaluate:
-        GoldStandard.json_path = gold_standard_file if gold_standard_file else 'data/gold_standard.json'
-        GoldStandard.load()
-        Lexicon.json_path = lexicon_file if lexicon_file else 'data/lexicon.json'
-        Lexicon.load()
-        set_gold_standard(vectors)
+    set_vectors(datasets)
 
     # Process models
+    Model.evaluate = evaluate
     Model.json_path = model_file
     Model.load()
+    set_gold_standard(gold_standard_file, lexicon_file)
     for model in Model.objects:
         Model.objects[model].run_classifiers(out_path)
 
@@ -208,7 +182,3 @@ def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold
         Reference.json_path = '{}/out/reference.json'.format(out_path)
         Reference.export()
     return Reference.get_all_results()
-
-
-if __name__ == "__main__":
-    pass

@@ -5,7 +5,7 @@ from eval.constants import CLASSIFICATION_TYPES, LABELS, LABEL_TEXT
 from gloss.standard import Gram, Value
 from utils.classes import DataModelTemplate
 from utils import functions
-from utils.IOutils import set_directory
+from utils.IOutils import find_path, set_directory
 
 
 __project_parent__ = 'AGGREGATION'
@@ -23,7 +23,7 @@ __collaborators__ = None
 
 class GoldStandard(DataModelTemplate):
 
-    json_path = None
+    json_path = ['{}/eval/data/gold_standard.json'.format(find_path('map_gloss'))]
     objects = {}  # (dataset, iso, gloss)
     stats = {}
     temp = {}
@@ -214,7 +214,7 @@ class GoldStandard(DataModelTemplate):
 
 class Lexicon(DataModelTemplate):
 
-    json_file = None
+    json_file = ['{}/eval/data/lexicon.json'.format(find_path('map_gloss'))]
     objects = {}
 
     def set_objects(self):

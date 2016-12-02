@@ -3,9 +3,10 @@
 
 
 import re
-import string
 import uuid
 
+from eval.gold_standard import GoldStandard, Lexicon
+from gloss.constants import PUNCTEX
 from gloss.standard import Gram, Value
 from utils import functions
 from utils.xigt.codecs import xigtxml
@@ -24,9 +25,9 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-vectors = {}  # id
-vector_lookup = {}  # {(dataset, iso, gloss): {vector_obj: True}}
-vector_structured = {}  # {dataset: {iso: True}}
+vectors = {}  # {id: vector_object}}
+vector_lookup = {}  # {(dataset, iso, gloss): {vector_id: True}}
+vector_structured = {}  # {dataset: {iso: {vector_id: True}}
 
 
 def set_vectors(datasets):
@@ -34,51 +35,30 @@ def set_vectors(datasets):
     for dataset in datasets:
         for iso in datasets[dataset]:
             # Open the current xigt file
-            file = open(datasets[dataset][iso]["xigt"])
-            xc = xigtxml.load(file)
-            file.close()
-            punctex = re.compile('[%s]' % string.punctuation)
-
-            # Train each IGT sentence
+            xc = xigtxml.load(open(datasets[dataset][iso]["xigt"]))
             for igt in xc:
+                # Capture the translated words
+                words = dict((w, True) for w in ' '.join([str(line.value()).lower() for line in igt.get('t')]).split())
 
                 # Capture the morphemes
-                morphemes = {}
-                for morpheme in igt.get('m'):
-                    morphemes[morpheme.id] = morpheme.value()
+                morphemes = dict((morpheme.id, morpheme.value()) for morpheme in igt.get('m'))
 
                 # Determine which glosses share a morpheme
-                shared_morphemes = {}
+                s_morphs = {"lookup": {}}
                 for gloss in igt.get('g'):
-                    try:
-                        if morphemes[gloss.alignment] not in shared_morphemes:
-                            shared_morphemes[morphemes[gloss.alignment]] = []
-                        shared_morphemes[morphemes[gloss.alignment]] = (shared_morphemes.get(
+                    if hasattr(gloss, "alignment"):
+                        if morphemes[gloss.alignment] not in s_morphs:
+                            s_morphs[morphemes[gloss.alignment]] = []
+                        s_morphs[morphemes[gloss.alignment]] = (s_morphs.get(
                             morphemes[gloss.alignment], 0) + [re.sub(' ', '', str(gloss.value()).lower())])
-                    except:
-                        pass
-
-                # Capture the translated words
-                words = {}
-                for line in igt.get('t'):
-                    line = str(line.value()).lower()
-                    line = line.split()
-                    for word in line:
-                        words[word] = True
 
                 # Create a vector for each gloss instance
                 for gloss in igt.get('g'):
-                    gloss = re.sub(punctex, '', str(gloss.value()))
+                    gloss = re.sub(PUNCTEX, '', gloss.value())
                     if gloss:
-                        word_match = False
-                        if gloss.lower() in words:
-                            word_match = True
-                        try:
-                            set_vector(dataset, iso, gloss, shared_morphemes[morphemes[gloss.alignment]], word_match)
-                        except:
-                            set_vector(dataset, iso, gloss, '', word_match)
-
-    return vectors
+                        word_match = True if gloss.lower() in words else False
+                        shared = s_morphs[gloss.alignment] if hasattr(gloss, "alignment") else ''
+                        set_vector(dataset, iso, gloss, shared, word_match)
 
 
 def set_vector(dataset, iso, raw_gloss, morphemes, word_match):
@@ -90,19 +70,20 @@ def set_vector(dataset, iso, raw_gloss, morphemes, word_match):
               "unique": (dataset.lower(), iso.lower(), raw_gloss.lower()),
               "morphemes": morphemes,
               "word_match": word_match,
-              "label": '',
+              "gold_requirement": False,
+              "gram": '',
               "segments": set_segmentation(raw_gloss.lower()),
               "distances": set_distances(raw_gloss.lower()),
               }
     vector["features"] = set_features(vector)
     vectors[vector["id"]] = vector
 
-    # Set unique dataset
+    # Set lookup
     if vector["unique"] not in vector_lookup:
         vector_lookup[vector["unique"]] = {}
     vector_lookup[vector["unique"]][vector["id"]] = True
 
-    # Set class level structures
+    # Set structured
     if vector["dataset"] not in vector_structured:
         vector_structured[vector["dataset"]] = {}
     if vector["iso"] not in vector_structured[vector["dataset"]]:
@@ -209,10 +190,12 @@ def set_features(vector):
 collections = {}  # {collection_tuple: vectors}
 
 
-def get_collection(collection):
+def get_collection(collection, require=False):
     # If the collection has not been seen create the Collection object
     if collection not in collections:
         collections[collection] = collect_vectors(parse_collection(collection))
+    if require:
+        [vectors[vector_id].update({"gold_requirement": True}) for vector_id in collections[collection]]
     return collections[collection]
 
 
@@ -271,3 +254,40 @@ def collect_vectors(structure):
 
 def get_structured_vectors(dataset, iso):
     return {(vector_id, vectors[vector_id]) for vector_id in vector_structured[dataset][iso]}
+
+
+def set_gold_standard(gold_standard_file, lexicon_file):
+    # Load all evaluation files (both map_gloss native and user provided)
+    if gold_standard_file:
+        GoldStandard.json_path.append(gold_standard_file)
+    if lexicon_file:
+        Lexicon.json_path.append(lexicon_file)
+    GoldStandard.load()
+    Lexicon.load()
+
+    annotate = []
+    # Process vectors who have gold_requirement set to True
+    for vector in [v for v in vectors if v["gold_requirement"]]:
+        # If GoldStandard object does not exist, create GoldStandard object
+        if (vector["dataset"], vector["iso"], vector["gloss"]) not in GoldStandard.objects:
+            annotate += [(vector["dataset"], vector["iso"], vector["gloss"])]
+            GoldStandard(**{"dataset": vector["dataset"], "iso": vector["iso"], "gloss": vector["gloss"]})
+
+        # If GoldStandard standard does not exist, add observation
+        elif not GoldStandard.objects[(vector["dataset"], vector["iso"], vector["gloss"])].gram:
+            GoldStandard.objects[(vector["dataset"], vector["iso"], vector["gloss"])].add_count()
+
+        # If GoldStandard has a standard send to Vector
+        else:
+            vector["gram"] = GoldStandard.objects[(vector["dataset"], vector["iso"], vector["gloss"])].gram
+
+    # If there were values that needed a GoldStandard standard
+    if annotate:
+        # Seek input and then send to Vector
+        GoldStandard.annotate(annotate)
+        for unique in annotate:
+            for vector in vector_lookup[unique]:
+                vector["gram"] = GoldStandard.objects[unique].gram
+        GoldStandard.export(index=-1)
+        Lexicon.export(index=-1)
+    return True

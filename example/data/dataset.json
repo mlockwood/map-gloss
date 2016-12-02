@@ -1,0 +1,20 @@
+[
+  {
+    "find_path_key": "aggregation",
+    "method": "agg",
+    "name": "dev1",
+    "path": "data/dev1"
+  },
+  {
+    "find_path_key": "aggregation",
+    "method": "agg",
+    "name": "dev2",
+    "path": "data/dev2"
+  },
+  {
+    "find_path_key": "aggregation",
+    "method": "agg",
+    "name": "test",
+    "path": "data/test"
+  }
+]
