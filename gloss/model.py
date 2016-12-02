@@ -166,7 +166,7 @@ class Reference(DataModelTemplate):
 
 def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold_standard_file=None, lexicon_file=None):
     # Set up datasets
-    datasets = infer_datasets(json.load(dataset_file))
+    datasets = infer_datasets(json.load(open(dataset_file, 'r')))
     set_vectors(datasets)
 
     # Process models
@@ -182,7 +182,8 @@ def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold
     if out_path:
         Reference.json_path = '{}/out/reference.json'.format(out_path)
         Reference.export()
-    return Reference.get_all_results()
+    return Reference.get_all_results(), vectors
 
 
-process_models(DATASET_FILE, MODEL_FILE, True, OUT_PATH)
+refs, vectors = process_models(DATASET_FILE, MODEL_FILE, True, OUT_PATH)
+json.dump(vectors, open(VECTOR_FILE, 'w'), indent=4, sort_keys=True)

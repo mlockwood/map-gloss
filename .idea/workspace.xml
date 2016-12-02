@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16910774-536f-4b7f-b67f-106bd2470b9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/xigt/__init__.py" afterPath="$PROJECT_DIR$/utils/xigt/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/xigt/codecs/xigtxml.py" afterPath="$PROJECT_DIR$/utils/xigt/codecs/xigtxml.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/xigt/metadata.py" afterPath="$PROJECT_DIR$/utils/xigt/metadata.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/xigt/mixins.py" afterPath="$PROJECT_DIR$/utils/xigt/mixins.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/xigt/model.py" afterPath="$PROJECT_DIR$/utils/xigt/model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/xigt/ref.py" afterPath="$PROJECT_DIR$/utils/xigt/ref.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/constants.py" afterPath="$PROJECT_DIR$/gloss/constants.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/model.py" afterPath="$PROJECT_DIR$/gloss/model.py" />
     </list>
     <ignored path="map_gloss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +27,8 @@
       <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gloss/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="176" column="33" selection-start-line="176" selection-start-column="33" selection-end-line="176" selection-end-column="33" />
+            <state relative-caret-position="520">
+              <caret line="188" column="19" selection-start-line="188" selection-start-column="19" selection-end-line="188" selection-end-column="19" />
               <folding>
                 <element signature="e#48#59#0" expanded="true" />
               </folding>
@@ -42,7 +39,7 @@
       <file leaf-file-name="vector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gloss/vector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="25">
               <caret line="259" column="73" selection-start-line="259" selection-start-column="73" selection-end-line="259" selection-end-column="73" />
               <folding>
                 <element signature="e#49#58#0" expanded="true" />
@@ -121,8 +118,6 @@
         <option value="$PROJECT_DIR$/gloss/dataset.py" />
         <option value="$PROJECT_DIR$/utils/classes.py" />
         <option value="$PROJECT_DIR$/gloss/vector.py" />
-        <option value="$PROJECT_DIR$/gloss/constants.py" />
-        <option value="$PROJECT_DIR$/gloss/model.py" />
         <option value="$PROJECT_DIR$/eval/gold_standard.py" />
         <option value="$PROJECT_DIR$/utils/xigt/model.py" />
         <option value="$PROJECT_DIR$/utils/xigt/__init__.py" />
@@ -130,6 +125,8 @@
         <option value="$PROJECT_DIR$/utils/xigt/mixins.py" />
         <option value="$PROJECT_DIR$/utils/xigt/metadata.py" />
         <option value="$PROJECT_DIR$/utils/xigt/ref.py" />
+        <option value="$PROJECT_DIR$/gloss/constants.py" />
+        <option value="$PROJECT_DIR$/gloss/model.py" />
       </list>
     </option>
   </component>
@@ -193,46 +190,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="map_gloss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="map_gloss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xigt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="map_gloss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="map_gloss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xigt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -628,9 +585,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18760107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18760107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890704" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -868,14 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/IOutils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gloss/standard.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1020,26 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/vector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="259" column="73" selection-start-line="259" selection-start-column="73" selection-end-line="259" selection-end-column="73" />
-          <folding>
-            <element signature="e#49#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <element signature="e#48#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plan.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1104,10 +1033,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="259" column="73" selection-start-line="259" selection-start-column="73" selection-end-line="259" selection-end-column="73" />
+          <folding>
+            <element signature="e#49#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+          <folding>
+            <element signature="e#48#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/IOutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gloss/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="176" column="33" selection-start-line="176" selection-start-column="33" selection-end-line="176" selection-end-column="33" />
+        <state relative-caret-position="520">
+          <caret line="188" column="19" selection-start-line="188" selection-start-column="19" selection-end-line="188" selection-end-column="19" />
           <folding>
             <element signature="e#48#59#0" expanded="true" />
           </folding>
