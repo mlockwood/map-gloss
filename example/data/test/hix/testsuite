@@ -1,0 +1,659 @@
+Language: Hixkaryana
+Language code: hix
+Author: Stacia Hartleben
+Date: Jan 15, 29
+Lines: orth orth-seg gloss translat
+Source a: Hixkaryana and Linguistic Typology: Desmond C Derbyshire
+
+#1 Word order trans
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {word order}
+toto yonono kamara
+toto y-ono-no kamara
+person 3sg-eat-past jaguar
+`The jaguar ate the person.'
+
+#2 Word order intrans
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+niratano biryekomo 
+ni-rata-no biryekomo 
+SIII-weep-IMM.PAST boy 
+`The boy wept.'
+
+#3  bad Word order trans
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+toto kamara yonono
+toto kamara y-ono-no 
+person jaguar SIIIOIII-eat-IMM.PAST
+`*The jaguar ate the person.'
+
+#4  bad Word order trans
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+yonono toto kamara 
+y-ono-no toto kamara 
+SIIIOIII-eat-IMM.PAST person jaguar 
+`*The jaguar ate the person.'
+
+#5  bad Word order trans
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+yonono kamara toto 
+y-ono-no kamara toto
+SIIIOIII-eat-IMM.PAST jaguar person 
+`*The jaguar ate the person.'
+
+#6  bad Word order trans
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+kamara toto yonono 
+kamara toto y-ono-no
+jaguar person SIIIOIII-eat-IMM.PAST 
+`*The jaguar ate the person.'
+
+#7 bad order intrans. This is an alternative word order used for intransitive sentences which may be valid. I don't see it that often, and when I do mostly with pronouns. I'll have to dig through the literature a little more.
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+biryekomo niratano 
+biryekomo ni-rata-no 
+boy SIII-weep-IMM.PAST
+`?The boy wept.'
+
+#7 agreement ## All of the examples with pronouns, except for amna (which I didn't do for reasons I talked about in my writeup), need to be deleted. I think they're grammatical, but they're not natural and don't appear in the examples.  ## None of these examples have collective versions because that's encoded onto the tense, agreement suffix, which we haven't done yet.
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement}
+kiewehno uro 
+ki-eweh-no uro 
+SI-take_bath-IMM.PAST 1sg 
+`I took a bath'
+
+#8 agreement
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement}
+miamrykino omoro
+mi-amryki-no omoro 
+SII-gohunting-IMM.PAST 2sg 
+`You went hunting'
+
+
+#9 agreement
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement}
+niwayehino noro 
+ni-wayehi-no noro 
+SIII-die-IMM.PAST 3sg 
+`He died'
+
+#10 agreement
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+niwayehino uro  
+ni-wayehi-no uro  
+SIII-die-IMM.PAST 1sg 
+`*I died'
+
+#11 agreement
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+miamrykino noro
+mi-amryki-no noro
+SII-gohunting-IMM.PAST 3sg 
+`*He went hunting'
+
+#12 agreement
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement}
+noro ikorokano uro
+noro i-koroka-no uro
+3sg SIOIII-wash-IMM.PAST 1sg
+`I washed him'
+
+
+#13 agreement
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+omoro ikorokano uro
+omoro i-koroka-no uro
+2sg SIOIII-wash-IMM.PAST 1sg
+`*I washed you'
+
+
+#14 agreement
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement}
+omoro kitayamano uro
+omoro ki-tayama-no uro
+2sg SIOII-push-IMM.PAST 1sg
+`I pushed you'
+
+#15 agreement
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+omoro itayamano noro
+omoro i-tayama-no noro
+2sg SIOII-push-IMM.PAST 3sg
+`*He pushed you'
+
+#16 tense, agreement. *** This is actually "nahyehhyaha" due to phonology, will put in rules later, but just so this will parse. The SV order may be OK in this case too, in fact it may be the only one. Same goes for the rest of the VS sentences. Too bad the author of this grammar has passed away :(
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {tam, agreement}
+niahyehi noro 
+ni-ahyehi-yaha noro
+he-is.hungry-NONPAST 3sg 
+`He is hungry'
+
+#17 tense, agreement. *** This is actually "kotahehe" due to phonology, will put in rules later, but just so this will parse. Also I added the pronouns
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {tam, agreement}
+omoro kiotahayaha uro
+omoro ki-otaha-yaha uro
+2g ISIIO-hit-NONPAST 1sg
+`I will hit you'
+
+#18 tense, agreement. *** This is actually "kotahehe" due to phonology, will put in rules later, but just so this will parse. Also I added the pronouns
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {tam, agreement}
+ninikiyako noro 
+ni-niki-yako noro
+IIIS-sleep-REC.PAST.COMP 3sg 
+`He went to sleep'
+
+#19 tense, agreement. *** This is actually "omomokyaknano" due to phonology, will put in rules later, but just so this will parse. Also I added the pronouns
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {tam, agreement}
+omoro omomokiyaknano noro
+omoro o-momokiyaknano noro
+2sg IIISIIO-wait.for.REC.PAST.CONT 3sg
+`He was waiting for you'
+
+#20 tense, agreement. *** some weirdness going on with the prefix here, book would indicate that this is copula only prefix. Not sure where it's coming from and I have to investigate further. Grammatical but will not parse until I find out w
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {tam, agreement}
+wewe wamaye uro
+wewe w-ama-ye uro
+tree ISIIIO-fell-DIST.PAST.COMP 1sg
+`I felled the tree'
+
+#21 tense, agreement. *** some weirdness going on with the prefix here, phonologically related, expected not to parse yet
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tam, agreement}
+toyakoni noro 
+0-to-yakoni noro 
+IIIS-go-DIST.PAST.CONT 3sg 
+`He used to go'
+
+#22 tense, agreement. Needs PL version of suffix
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam, agreement, agreement}
+ninikiyako nyamoro 
+ni-niki-yako nyamoro 
+IIIS-sleep-REC.PAST.COMP 3pl 
+`*They went to sleep'
+
+#23 tense, agreement. Has correct affix but suffix needs to reflect pl
+
+Source: a
+Vetted: t
+Judgment: u
+Phenomena: {tam, agreement}
+omoro tiotahayaha kiwro
+omoro ti-otaha-yaha kiwro
+2sg I+IISIIO-hit-NONPAST 1du.inc 
+`*We two will hit you'
+
+#24 yes no question, tense. Added pronoun. The prefix is weird - trying to figure this one out. Should be "amanheno" due to phonology. I put in the fake Q to indicate the intonnation.
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {tam, q}
+amanhoyano omoroQ 
+a-manho-yano omoro 
+IIS-dance-NONPAST.UNCERT 2sg
+`Do you dance?'
+
+#25 negation. Some weird phonology going on here so it will not parse.
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {negation}
+rotohira uro
+ro-to-hira uro 
+IS-go-NEG 1sg
+`I am not going.'
+
+#26 negation. You can't have a negative suffix with a tense suffix, this is verifying this.
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {negation}
+rotoyahahira uro
+ro-to-yaha-hira uro 
+IS-go-NONPAST-NEG 1sg
+`*I am not going.'
+
+#27 negation. You can't have a negative suffix with a tense suffix, this is verifying this.
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {negation}
+rotohirayaha uro
+ro-to-hira-yaha uro 
+IS-go-NEG-NONPAST 1sg
+`*I am not going.'
+
+#28 NP coordination, will not parse, just a phrase. Should give an edge. Added this because it was in the book
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {crd}
+forhenokomo, mahehenokomo, menkarhenokomo
+forhenno-komo maheheno-komo menkarheno-komo
+plaintain-patchPL, bell.potato.patch-PL, banana.patch-PL
+`The plantain patch, the bell-potato patch, and the banana patch.'
+
+#29 NP coordination. I'm guessing it takes a pl suffix but bad examples of coord so not sure...
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {crd}
+ninikiyatxoko kamara meku 
+ni-niki-yatxoko kamara meku
+SIII-sleep-REC.PAST.COMP.pl jaguar monkey 
+`The monkey and the jaguar slept.'
+
+#30 Examples with weird 1pl-ex. Should be "nomokno" phonologically
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {agr, word order}
+amna niomokino
+amna ni-omoki-no
+I+III SIII-come-IMM.PAST
+`We (excl) have come'
+
+#31 Examples with weird 1pl-ex. Should be "nomokno" phonologically. This CANNOT mean "We (excl) have come". Instead it can only mean "He has come"
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {agr, word order}
+niomokino
+ni-omoki-no
+SIII-come-IMM.PAST
+`*We (excl) have come'
+
+#31 Examples with weird 1pl-ex. Need to find out the morphological break down here. This is n right here because there is a pronoun. SHould be nano orthographically
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {agr, word order}
+kanawa amna niano
+kanawa amna ni-a-no
+canoe I+III took-it-IMM.PAST
+`We took the canoe'
+
+#32 Examples with weird 1pl-ex. This is y right here because there there are no pronouns
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {agr, word order}
+kanawa yano toto
+kanawa y-a-no toto
+canoe he-took-it person
+`The man took the canoe'
+
+#33 Adverbs. This is more or less from the book but I took an extra word "without stopping" out to make things less complicated. Morpheme gloss is not vetted. There were no further examples so I'm hesitant to put "ungrammatical" examples here, but it's clear it can attach after the verb.
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+Fumasa hono ntetxoko karyhe
+Fumasa hono ni-to-yatxoko karyhe
+Fumaca to SIII-go-REC.PAST.COMP fast
+`They went to Fumaca quickly'
+
+#33 Argument optionality
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+woto yonono
+woto y-ono-no
+meat SIIIOIII-eat-IMM.PAST
+`He ate the meat'
+
+#34 Argument optionality. This one still means "he ate the meat" because the verb means to eat meat.
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+yonono
+y-ono-no
+SIIIOIII-eat-IMM.PAST
+`He ate the meat'
+
+#35 Argument optionality. This one still means "he ate the meat" because the verb means to eat meat.
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+yonono noro
+y-ono-no noro
+SIIIOIII-eat-IMM.PAST 3sg
+`He ate the meat'
+
+#36 Argument optionality. 
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+nomokyatxoko hawanakomo
+ni-omoki-yatxoko hawana-komo
+SIII-come-REC.PAST.COMP.COLL visitor-PL
+`Visitors came'
+
+#37 Argument optionality. 
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+nomokyatxoko
+ni-omoki-yatxoko
+SIII-come-REC.PAST.COMP.COLL
+`They came'
+
+#38 Non verbal predicate PP past
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+kanawa yawo wahko
+kanawa yawo wakho
+canoe in 1sg.be.IMM.PAST 
+`I was in the canoe'
+
+#40 Non verbal predicate past
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+yaskomo me nehxakoni toto
+yaskomo me nehxakoni toto
+shaman DENOMLZR 3sg.be.DIST.PAST.CONT person
+`The man was a shaman'
+
+#41 Non verbal predicate
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+toto me naha
+toto me naha
+person DENOMLZR 3sg.be.NONPAST
+`He is a man'
+
+#42  OR... Non verbal predicate.
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+toto noro
+toto noro
+person 3sg
+`He is a man'
+
+#43 embedded clause. Only changed "her son" to "the boy". Guess on stem of "bite" and of dervation of "say"
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-d}
+kamara mpini oyoskeno kekoni notxwakomo biryekomo wya
+kamara mpini o-yoski-yano 0-ka-yakoni notxwakomo biryekomo wya
+jaguar warning SIIIOII-bite-PAST.UNCERT SIIIOIII-say-DIST.PAST.CONT old.woman boy to
+`Be careful lest the jaguar bite you, said the old woman to the boy. OR The old woman warned the boy that the jaguar might bite him'
+
+#44 Demonstratives
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cogst}
+oni wewe wamaye
+oni wewe w-ama-ye
+inanimate.near.deictic tree SI-fell-DIST.PAST.COMP
+`I felled this tree'
+
+
+#45 Demonstratives
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cogst}
+moro wewe wamaye
+moro wewe w-ama-ye
+inanimate.medial.deictic tree SI-fell-DIST.PAST.COMP
+`I felled that tree'
+
+#46 Demonstratives
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cogst}
+moni wewe wamaye
+moni wewe w-ama-ye
+inanimate.remote.deictic tree SI-fell-DIST.PAST.COMP
+`I felled that (far away) tree'
+
+#47 Demonstratives. Ungrammatical because trees are not animate
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+mosoni wewe wamaye
+mosoni wewe w-ama-ye
+animate.near.deictic.sg tree SIOIII-fell-DIST.PAST.COMP
+`*I felled this tree'
+
+#48 Demonstratives
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cogst}
+mosoni toto netahano
+mosoni toto ni-otaha-no
+animate.near.deictic.sg man SIIIOIII-hit-IMM.PAST
+`He hit this man'
+
+#49 Demonstratives
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+mokro toto netahano
+mokro toto ni-otaha-no
+animate.medial.deictic.sg man SIIIOIII-hit-IMM.PAST
+`He hit that man'
+
+#50 Demonstratives
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+moki toto netahano
+moki toto ni-otaha-no
+animate.remote.deictic.sg man SIIIOIII-hit-IMM.PAST
+`He hit that (far away) man'
+
+#51 Demonstratives. Ungrammatical because man is animate, not inanimate
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+oni totokomo netahano
+oni totokomo ni-otaha-no
+inanimate.near.deictic man.pl SIIIOIII-hit-IMM.PAST
+`*He hit this man'
+
+#52 Demonstratives
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cogst}
+moxamo totokomo netahatxowi
+moxamo totokomo ni-otaha-txowi
+animate.near.deictic.pl man.pl SIIIOIII-hit-IMM.PAST.pl
+`He hit these men'
+
+#53 Demonstratives
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cogst}
+mokyamo totokomo netahatxowi
+mokyamo totokomo ni-otaha-txowi
+animate.medial.remote.deictic.pl man.pl SIIIOIII-hit-IMM.PAST.pl
+`He hit those men OR He hit those (far away) men'
+
+#54 Demonstratives. Ungrammatical due to person mismatch
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+mosoni totokomo netahatxowi
+mosoni totokomo ni-otaha-txowi
+animate.near.deictic.sg man.pl SIIIOIII-hit-IMM.PAST.pl
+`*He hit this men'
+
+#55 embedded clause. 
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+wakara totho hutwahra wahko
+wakara totho hutwahra wahko
+Wakara his.going.NOMLZN not.knowing SI.be.IMM.PAST
+`I did not know that Wakara was going'
+
+#56 embedded clause. 
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+hitoniri yokarymano rowya
+hitoniri yokarymano rowya
+his.going SIIIOIII.tell.IMM.PAST to.me
+`He told me he was leaving'
+
+#57 embedded clause. 
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+ekeh me ryehtxoho muhutwehe
+ekeh me ryehtxoho muhutwehe
+sick.one DENOMLZR my.being.NOMLZN SIIOIII.know.NONPAST
+`He told me he was leaving'

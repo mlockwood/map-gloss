@@ -1,0 +1,238 @@
+Bob New
+Ling 567
+Emily Bender
+Lab 9
+March 9, 2008
+
+Changes to Grammar
+==================
+- I changed the determiners 'o' and 'olu' to use 'exist_q_rel'
+  instead of '_indef_q_rel'.
+- I added 'SPECI -' as a requirement for SPEC items in determiners.
+  This kept the grammar from applying determiners to pronouns.
+- I changed the definition of 'adjective-lex' based on the example
+  from the English grammar.  This made translations of adjectives
+  work.
+- I removed tense markers from the Grammar.  They were not correctly
+  implemeted in lab 8 and were causing redundant generations.
+
+
+=================
+English Sentences
+=================
+
+For the English grammar, I added a transfer rule to remove
+the demonstrative determiner.  The Mandinka grammar does
+not support these.
+
+Dogs sleep
+==========
+This sentence has exactly one translation with the current
+Mandinka grammar.
+
+    wulu olu    siinoo
+    dog  DET.PL sleep
+    "The dogs sleep"
+    
+Dogs chase cars
+===============
+This sentence has exactly one translation with the current
+Mandinka grammar.
+
+    wulu olu    moto  olu    bayindi
+    dogs DET.PL car   DET.PL chase
+    "The dogs chase the cars"
+    
+I chase you.
+============
+This sentence was originally giving 48 readings in
+Mandinka with the lab 8 grammar.  I made these changes
+to reduce the number of readings:
+
+- I changed determiners so they don't take pronouns in
+  the SPEC.  This was achieved by adding [SPECI - ].
+- I removed the tense marker lexicon entries that were
+  part of lab 8.  Since in Lab 8 I didn't get to the
+  point where the tense markers would only generate for
+  the correct tense value, I have just removed them to
+  reduce confusion.
+
+Now, there are 3 readings for the sentence.  In Mandinka,
+there are 3 different pronouns for 'you'. 'i' is singular,
+and 'ali' and 'al' are plural.
+
+    ng al  bayindi
+    i  you chase
+    "I chase you"
+
+These Dogs Sleep
+================
+My mandinka grammar does not have a demonstrative determiner,
+so i added a transfer rule to remove the 'proximal+dem_a_rel'
+relation.  I made the rule required.
+
+    wulu olu siinoo
+    dog  DET.PL sleep
+    "The dogs sleep"
+
+Dogs Eat
+========
+This sentence does not translate to Mandinka with the current
+Grammar.  In my grammar, I had implemented 'eat' as both a
+transitive and intransitive verb, so the extra argument in the
+MRS from English doesn't have a home in Mandinka.
+
+I can eat glass
+===============
+This sentence does not translate into Mandinka using the current
+grammar.  There is a problem with qeq linkages between the _eat_v_rel
+and the _can_v_rel.  I wasn't able to figure out how to make it work.
+
+    n weere o      domo noo
+    I glass DET.SG eat  can
+    "I can eat the glass"
+
+It doesn't hurt me
+==================
+This sentence translates to one form in Mandinka.  When I saw it
+work, I was astounded.
+
+    a  buka ng baram
+    it not  me hurt
+    "it doesn't hurt me"
+
+The Dogs chase cars
+===================
+This sentence translates to 4 different sentences in Mandinka
+depending on the usage of 'o' or 'olu' which are singular
+or plural determinters.
+
+    wulu o      motu o      bayindi
+    dog  DET.PL car  DET.PL chase
+    "The dogs chase the cars"
+    
+I think that you know that dogs chase cars
+==========================================
+This sentence does not translate to Mandinka.  It runs out of
+edges.
+
+I ask whether you know that dogs chase cars
+===========================================
+No translation for this one.
+
+Cats and dogs chase cars.
+=========================
+This sentence translates to 8 forms in Mandinka.  The variations
+are from the user of singular or plural determiners for each of
+the three NPs.
+
+    nankumu olu    ning wulu olu    motu olu    bayindi
+    cat     DET.PL and  dog  DET.PL car  DET.PL chase
+    "Cats and dogs chase cars"
+    
+The english grammar generated 3 versions of this sentence.
+There were Mandinka translations for only one of these.
+
+dogs chase cars and cats chase dogs
+===================================
+I didn't try this sentence.  The Mandinka grammar does not
+have any conjunctions for verb phrases.
+
+Cats chase dogs and sleep
+=========================
+I didn't try this sentence.  The Mandinka grammar does not
+have any conjunctions for verb phrases.
+
+Do cats chase dogs?
+===================
+This sentence translates, but the result is incorrect.
+The Mandinka grammar does not have a working solution
+for question words.
+
+Chase the dog
+=============
+The Mandinka grammar does not have a working solution
+for imperatives.
+
+Hungry Dogs eat
+===============
+This sentence does not generate to Mandinka for the same
+reason that "Dogs eat" does not translate.
+
+However, "Hungry dogs chase cars" does translate:
+
+    wulu konkota o motu o bayindi
+    dog  hungry  DET.SG car DET.SG chase
+    "The hungry dog chases the car"
+    
+Hungry dogs eat quickly
+=======================
+This sentence does not generate to Mandinka for the same
+reason that "Dogs eat" does not translate.
+    
+However, "hungry dogs chase cars quickly" does translate:
+
+    wulu konkota olu    motu olu    bayindi katabake
+    dog  hungry  DET.PL car  DET.PL chase   quickly
+    "hungry dogs chase cars quickly"
+
+
+=================
+Italian Sentences
+=================
+
+For the Italian sentences, I added the following transfer
+rules:
+- Remove demonstrative determinters.  The Mandinka grammar doesn't
+  support these.
+- Change the make-harm construct to hurt.
+- Insert pronouns.  There are two Italian sentences that don't have
+  pronouns in the MRS.  Adding these transfer rules made the sentences
+  work in Mandinka.
+
+With these transfer rules, I was able to translate the following
+sentences from Italian to Mandinka.
+
+    Cani dorm-ono
+    Cani insegu-ono macchine
+    Ti-insegu-o
+    Questi cani dorm-ono
+    Cani mangi-ano
+    Non mi-f-a male
+    I cani insegu-ono macchine
+    Cani e gatti insegu-ono macchine
+
+
+Also since the Mandinka Grammar doesn't support 'eat' with
+the optional argument, I tried these sentences to test
+adjectives and adverbs.  These are equivalent to the two
+extra sentences I tried in English.
+
+    cani affamat-i insegu-ono machine
+    cani affamat-i insegu-ono machine velocemente
+
+The Italian sentences that do not translate to Mandinka essentially
+do not do so for the same reason as the corresponding English sentences.
+
+=======
+Summary
+=======
+
+Of the test sentences, the Mandinka grammar translates:
+
+English source: 7 translations
+  Also 2 extra sentences that demonstrate adjectives and adverbs.
+  
+Italian source: 7 translations
+  Also 2 extra sentences that demonstrate adjectives and adverbs.
+
+In lab 8, there were 24 sentences from the test suite that parsed.
+In lab 9, there are 20 sentences that parse.  The difference is
+I removed the tense markers that were causing redundant outputs.
+
+Also, I removed the lex entry for 'ko' (that).  This was an experiment
+part way through the work that I did not undo.  It didn't affect the
+translation results.  It just deleted one of the test suite parses.
+
+There were no changes made to the test suite itself.
+

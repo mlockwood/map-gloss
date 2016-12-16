@@ -1,6 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import json
 import os
 import re
+
+
+__author__ = 'Michael Lockwood'
+__github__ = 'mlockwood'
+__email__ = 'lockwm@uw.edu'
 
 
 def find_path(directory):

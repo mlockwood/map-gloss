@@ -1,0 +1,1946 @@
+Language: Bosnian-Serbo-Crotian
+Language code: hbs
+Author: To Huynh, Zina Pozen
+Date: 1/13/12
+Lines: orth orth-seg gloss translat
+Source a: A Handbook of Bosnian, Serbian, and Croatian by Wayles Brown and Theresa Alt
+Source b: <Reference to grammar/web page>
+
+#word order
+
+#1, SVO
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {wo, c}
+Slavko vidi Olgu
+Slavk-o vid-i Olg-u
+Slavko-M.SG.NOM see-3.SG Olga.F-SG.ACC
+'Slavko sees Olga.'
+
+#2, SOV
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {wo, c, info}
+Slavko Olgu vidi
+Slavk-o Olg-u vid-i-FP
+Slavko-M.SG.NOM Olga.F-SG.ACC see-3.SG-FP
+'Slavko sees Olga.'
+
+#3, VOS
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {wo, c}
+vidi Olgu Slavko
+vid-i Olg-u Slavk-o
+see-3.SG Olga.F-SG.ACC Slavko-M.SG.NOM
+'Slavko sees Olga.'
+
+#4, VSO
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {wo, c, info}
+vidi Slavko Olgu
+Vid-i-FP Slavk-o Olg-u
+see-3.SG-FP Slavko-M.SG.NOM Olga.F-SG.ACC
+'Slavko sees Olga.'
+
+#5, OVS
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {wo, c, info}
+Olgu vidi Slavko
+Olg-u-FP vid-i Slavk-o
+Olga.F-SG.ACC-FP see-3.SG Slavko-M.SG.NOM
+'Slavko sees Olga.'
+
+#6, OSV
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {wo, c, info}
+Olgu Slavko vidi
+Olg-u-FP Slavk-o vid-i
+Olga.F-SG.ACC-FP Slavko-M.SG.NOM see-3.SG
+'Slavko sees Olga.'
+
+#7, SV
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {wo, c}
+Slavko spava
+Slavk-o spava
+Slavko-M.SG.NOM sleep.3.SG
+'Slavko is sleeping.'
+
+#8, VS
+# This needs to be vetted but hopefully no worse than the previous non-SVO sentences. A better example is something like: 'Na stolu lezi knjiga', see 3.1.3 in Brown and Alt.
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {wo, c}
+spava Slavko
+spava Slavk-o
+sleep.3.SG Slavko-M.SG.NOM
+'Slavko is sleeping.'
+
+#pronouns
+
+#nominative
+#9, pn.first.sg-v.first.sg
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Ja vidim Olgu
+Ja vid-im Olg-u
+1SG.NOM see-1.SG Olga.F-SG.ACC
+'I see Olga.'
+
+#10, pn.second.sg-v.second.sg
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Ti vidis Olgu
+Ti vid-is Olg-u
+2.SG.NOM see-2.SG Olga.F-SG.ACC
+'You see Olga.'
+
+#11, pn.third.sg-v.third.sg
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+On vidi Olgu
+On vid-i Olg-u
+3.SG.M.NOM see-3.SG Olga.F-SG.ACC
+'He sees Olga.'
+
+#12, pn.third.sg-v.third.sg
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Ono vidi Olgu
+Ono vid-i Olg-u
+3.SG.N.NOM see-3.SG Olga.F-SG.ACC
+'It sees Olga.'
+
+#13, pn.third.sg-v.third.sg
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Ona vidi Olgu
+Ona vid-i Olg-u
+3.SG.F.NOM see-3.SG Olga.F-SG.ACC
+'She sees Olga.'
+
+#14, pn.first.pl-v.first.pl
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Mi vidimo Olgu
+Mi vid-imo Olg-u
+1.PL.NOM see-1.PL Olga.F-SG.ACC
+'We see Olga.'
+
+#15, pn.second.pl-v.second.pl
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Vi vidite Olgu
+Vi vid-ite Olg-u
+2.PL.NOM see-2.PL Olga.F-SG.ACC
+'You guys see Olga.'
+
+#16, pn.third.pl-v.third.pl
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Oni vide Olgu
+Oni vid-e Olg-u
+3.PL.M.NOM see-3.PL Olga.F-SG.ACC
+'They see Olga.'
+
+#17, pn.third.pl-v.third.pl
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Ona vide Olgu
+Ona vid-e Olg-u
+3.PL.N.NOM see-3.PL Olga.F-SG.ACC
+'They see Olga.'
+
+#18, pn.third.pl-v.third.pl
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+One vide Olgu
+One vid-e Olg-u
+3.PL.F.NOM see-3.PL Olga.F-SG.ACC
+'They see Olga.'
+
+#accusative or genitive
+#19, first.sg
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Slavko vidi mene
+Slavk-o vid-i mene
+Slavko-M.SG.NOM see-3.SG 1.SG.ACC
+'Slavko sees me.'
+
+#20, second.sg
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn, c}
+Slavko vidi tebe
+Slavk-o vid-i tebe
+Slavko-M.SG.NOM see-3.SG 2.SG.ACC
+'Slavko sees you.'
+
+#21, third.sg,macs or neut
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Slavko vidi njega
+Slavk-o vid-i njega
+Slavko-M.SG.NOM see-3.SG 3.M/N.SG.ACC
+'Slavko sees him/it.'
+
+#22, third.sg,fem
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Slavko vidi nju
+Slavk-o vid-i nju
+Slavko-M.SG.NOM see-3.SG 3.F.SG.ACC
+'Slavko sees her.'
+
+#23, first.pl
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Slavko vidi nas
+Slavk-o vid-i nas
+Slavko-M.SG.NOM see-3.SG 1.PL.ACC
+'Slavko sees us.'
+
+#24, second.pl
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Slavko vidi vas
+Slavk-o vid-i vas
+Slavko-M.SG.NOM see-3.SG 2.PL.ACC
+'Slavko sees you guys.'
+
+#25, third.pl,masc,neut or fem
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Slavko vidi njih
+Slavk-o vid-i njih
+Slavko-M.SG.NOM see-3.SG 3.PL.ACC
+'Slavko sees them.'
+
+
+#negative examples
+#26, pn.first.pl-v.first.sg
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn}
+Mi vidim Olgu
+Mi vid-im Olg-u
+We.1.PL see-1.SG Olga.F-SG.ACC
+'We see Olga.'
+
+#27, pn.first.sg-v.second.sg
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn}
+Ja vidis Olgu
+Ja vid-is Olg-u
+I.1.SG see-2.SG Olga.F-SG.ACC
+'I see Olga.'
+
+#28, pn.first.sg-v.third.sg
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn}
+Ja vidi Olgu
+Ja vid-i Olg-u
+I.1.SG see-3.SG Olga.F-SG.ACC
+'I sees Olga.'
+
+#29, pn.second.sg-v.third.sg
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn}
+Ti vidi Olgu
+Ti vid-i Olg-u
+You.2.SG see-3.SG Olga.F-SG.ACC
+'You sees Olga.'
+
+#dative
+#30,first.sg
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Slavko pomaze meni
+Slavk-o pomog-e meni
+Slavko-M.SG.NOM help-3.SG 1.SG.DAT
+'Slavko helps me.'
+
+#31,second.sg
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Slavko pomaze tebi
+Slavk-o pomog-e tebi
+Slavko-M.SG.NOM help-3.SG 2.SG.DAT
+'Slavko helps you.'
+
+#32,third.sg, masc or neut
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Slavko pomaze njemu
+Slavk-o pomog-e njemu
+Slavko-M.SG.NOM  help-3.SG 3.SG.M/N.DAT
+'Slavko helps him/it.'
+
+#33,third.sg, fem
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Slavko pomaze njoj
+Slavk-o pomog-e njoj
+Slavko-M.SG.NOM help-3.SG 3.SG.F.DAT
+'Slavko helps her.'
+
+#34,first.pl
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Slavko pomaze nama
+Slavk-o pomog-e nama
+Slavko-M.SG.NOM help-3.SG 1.PL.DAT
+'Slavko helps us.'
+
+#35,second.pl
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn, c}
+Slavko pomaze vama
+Slavk-o pomog-e vama
+Slavko-M.SG.NOM  help-3.SG 2.PL.DAT
+'Slavko helps you guys.'
+
+#36,third.pl, all gender
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn, c}
+Slavko pomaze njima
+Slavk-o pomog-e njima
+Slavko-M.SG.NOM help-3.SG 3.PL.DAT
+'Slavko helps them.'
+
+#wrong case given verb
+#37 required acc
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn,c}
+Ja vidim tebe
+Ja vid-im tebe
+1.SG.NOM see-1.SG 2.SG.GEN
+'I see you.'
+
+#38
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn,c}
+Ja vidim tebi
+Ja vid-im tebi
+1.SG.NOM see-1.SG 2.SG.DAT
+'I see Olga.'
+
+#39required dat
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn,c}
+Slavko pomaze tebe
+Slavk-o pomog-e tebe
+Slavko-M.SG.NOM help-3.SG 2.SG.ACC
+'Slavko helps you.'
+
+#40
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn,c}
+Slavko pomaze tebe
+Slavk-o pomog-e tebe
+Slavko-M.SG.NOM help-3.SG 2.SG.GEN
+'Slavko helps you.'
+
+#41required gen
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn,c}
+Slavko boji tebe
+Slavk-o boj-i tebe
+Slavko-M.SG.NOM afraid-3.SG 2.SG.ACC
+'Slavko helps you.'
+
+#42
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn,c}
+Slavko boji tebi
+Slavk-o boj-i tebi
+Slavko-M.SG.NOM afraid-3.SG 2.SG.DAT
+'Slavko helps you.'
+
+#43,demonstrative
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {det, c, wo, agr}
+Slavko vidi t-u knjigu
+Slavk-o vid-i t-u knjig-u
+Slavko-M.SG.NOM see-3.SG that-F.SG.ACC book-F.SG.ACC
+'Slavko sees this book.'
+
+#44,demonstrative, reversed order. Note this is ok, but the matrix does not allow to specify free det-noun order
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {det, c, wo}
+Slavko vidi knjigu tu
+Slavk-o vid-i knjig-u t-u
+Slavko-M.SG.NOM see-3.SG book-F.SG.ACC that-F.SG.ACC
+'Slavko sees this book.'
+
+#45,demonstrative negative
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {det, c, wo, agr}
+Slavko vidi t-a knjigu
+Slavk-o vid-i t-a knjig-u
+Slavko-M.SG.NOM see-3.SG that-F.SG.NOM book-F.SG.ACC
+'Slavko sees this book.'
+
+#negation
+
+#46 SNegV-finiteO
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {neg}
+Slavko ne vidi Olgu
+Slavk-o ne vid-i Olg-u
+Slavko-M.SG.NOM NEG see-3.SG Olga.F-SG.ACC
+'Slavko does not see Olga.'
+
+#47 SV-finiteNegO 
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+Slavko vidi ne Olgu
+Slavk-o vid-i ne Olg-u
+Slavko-M.SG.NOM see-3.SG NEG Olga.F-SG.ACC
+'Slavko does see not Olga.'
+
+#48 SNegV-nonfiniteO 
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+Slavko ne vidjeti Olgu
+Slavk-o ne vid-jeti Olg-u
+Slavko-M.SG.NOM NEG see-INF Olga.F-SG.ACC
+'Slavko does sees not Olga.'
+
+#49 SV-finiteONeg 
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+Slavko vidi  Olgu ne
+Slavk-o vid-i  Olg-u ne
+Slavko-M.SG.NOM see-3.SG Olga.F-SG.ACC NEG
+'Slavko does see not Olga.'
+
+#50 negSV-finiteO
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+ne Slavko vidi  Olgu
+ne Slavk-o vid-i  Olg-u
+NEG Slavko-M.SG.NOM see-3.SG Olga.F-SG.ACC
+'Slavko does see not Olga.'
+
+#51 SNegAuxV-nonfiniteO
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {neg}
+Slavko ne ce vidjeti Olgu
+Slavk-o ne c-e vid-jeti Olg-u
+Slavko-M.SG.NOM NEG AUX-FUT.3.SG see-INF Olga.F-SG.ACC
+'Slavko will not see Olga.'
+
+#52 SNegAuxV-finiteO
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+Slavko ne ce vidi Olgu
+Slavk-o ne c-e vid-i Olg-u
+Slavko-M.SG.NOM NEG AUX-FUT.3.SG see-3.SG Olga.F-SG.ACC
+'Slavko will not see Olga.'
+
+#53 SAuxNegV-finiteO
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+Slavko ce ne vidi Olgu
+Slavk-o c-e ne vid-i Olg-u
+Slavko-M.SG.NOM AUX-FUT.3.SG NEG see-3.SG Olga.F-SG.ACC
+'Slavko will not see Olga.'
+
+#54 SAuxV-nonfiniteONeg
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+Slavko ce vidjeti Olgu ne
+Slavk-o c-e vid-jeti Olg-u ne
+Slavko-M.SG.NOM AUX-FUT.3.SG see-INF Olga.F-SG.ACC NEG
+'Slavko will not see Olga.'
+
+#55 NegSAuxV-nonfiniteO
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+ne Slavko ce vidjeti Olgu
+ne Slavk-o c-e vid-jeti Olg-u
+NEG Slavko-M.SG.NOM AUX-FUT.3.SG see-INF Olga.F-SG.ACC
+'Slavko will not see Olga.'
+
+#agreement
+
+#S-V agr for number, also illustrating positive examples of det-adj-n agr
+#56 det-sg-nom-masc adj-sg-nom-masc n-sg-nom-masc verb-3sgsubj det-sg-acc-fem adj-sg-acc-fem n-sg-acc-fem
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {agr}
+taj nov muz vidi tu novu zenu
+t-aj nov-0 muz-0 vid-i t-u nov-u zen-u
+this-SG.M.NOM new-SG.M.NOM husband-SG.M.NOM see-3.SG this-SG.F.ACC new-SG.F.ACC wife-SG.F.ACC
+'This new husband sees this new wife.'
+
+#57 det-pl-nom-masc adj-pl-nom-masc n-pl-nom-masc verb-3plsubj det-pl-dat-fem adj-pl-dat-fem n-pl-dat-fem
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {agr}
+ti novi muzevi pomazu tima novima zenama
+t-i nov-i muz-evi pomog-u t-ima nov-ima zen-ama
+this-PL.M.NOM new-PL.M.NOM husband-PL.M.NOM help-3.PL this-PL.F.DAT new-PL.F.DAT wife-PL.F.DAT
+'These new husbands help these new wives.'
+
+#58det-sg-nom-neut adj-sg-nom-neut n-sg-nom-neut verb-3sgsubj det-pl-gen-fem adj-pl-gen-fem n-pl-gen-fem
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {agr}
+to novo ucenje boji tih novih zena
+t-o nov-o ucenj-e boj-i t-ih nov-ih zen-a
+this-SG.N.NOM new-SG.N.NOM study-SG.N.NOM fear-3.SG this-PL.F.GEN new-PL.F.GEN wife-PL.F.GEN
+'This new study fears these new wives.'
+
+#59 det-pl-nom-masc n-pl-nom-masc verb-3plsubj det-sg-acc-fem n-sg-acc-fem
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {agr}
+ti novi muzevi vide tu novu zenu
+t-i nov-i muz-evi vid-e t-u nov-u zen-u
+this-PL.M.NOM new-PL.M.NOM husband-PL.M.NOM see-3.PL this-SG.F.ACC new-SG.F.ACC wife-SG.F.ACC
+'These new husbands see this new wife.'
+
+#60 det-pl-nom-masc n-pl-nom-masc verb-3sgsubj det-sg-acc-fem n-sg-acc-fem
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+ti novi muzevi vidi tu novu zenu
+t-i nov-i muz-evi vid-i t-u nov-u zen-u
+this-PL.M.NOM new-PL.M.NOM husband-PL.M.NOM see-3.SG this-SG.F.ACC new-SG.F.ACC wife-SG.F.ACC
+'These new husbands see this new wife.'
+
+#61 det-sg-nom-masc n-sg-nom-masc verb-3plsubj det-pl-acc-fem n-pl-acc-fem
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+taj nov muz vide te nove zene
+t-aj nov-0 muz-0 vid-e t-e nov-e zen-e
+this-SG.M.NOM new-SG.M.NOM husband-SG.M.NOM see-3.PL this-PL.F.ACC new-PL.F.ACC wife-PL.F.ACC
+'This new husband sees these new wives.'
+
+#det-adj-N agr, negative examples
+
+#62det-sg-nom-masc adj-pl-nom-masc n-pl-nom-masc verb-3plsubj
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+taj novi muzevi spavaju
+t-aj nov-i muz-evi spava-ju
+this-SG.M.NOM new-PL.M.NOM husband-PL.M.NOM sleep-3.PL
+'These new husbands sleeps.'
+
+#63det-pl-nom-masc adj-sg-nom-masc n-pl-nom-masc verb-3plsubj 
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+ti nov muzevi spavaju
+t-i nov-0 muz-evi spava-ju
+this-PL.M.NOM new-SG.M.NOM husband-PL.M.NOM sleep-3.PL
+'These new husbands sleeps.'
+
+#64 det-sg-acc-masc adj-sg-nom-masc n-sg-nom-masc verb-3sgsubj
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+toga nov muz spava
+t-oga nov-0 muz-0 spava
+this-SG.M.ACC new-SG.M.NOM husband-SG.M.NOM sleep.3.SG
+'This new husband sleeps.'
+
+#65 det-sg-nom-masc adj-sg-acc-masc n-sg-nom-masc verb-3sgsubj 
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+taj novoga muz spava
+t-aj nov-oga muz-0 spava
+this-SG.M.NOM new-SG.M.ACC husband-SG.M.NOM sleep.3.SG
+'This new husband sleeps.'
+
+#66 pn verb-3sgsubj det-sg-gen-fem adj-sg-dat-fem n-sg-dat-fem
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+ja pomazem te novoj zeni
+ja pomog-em t-e nov-oj zen-i
+1.SG.M.NOM help-1.SG this-SG.F.GEN new-SG.F.DAT wife-SG.F.DAT
+'He helps this new wife.'
+
+#67 pn verb-3sgsubj det-pl-dat-fem adj-pl-gen-fem n-pl-dat-fem
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+pomazem toj nove zeni
+pomog-em t-oj nov-e zen-i
+help-1.SG this-SG.F.DAT new-SG.F.GEN wife-SG.F.DAT
+'I help this new wife.'
+
+#68 det-sg-nom-fem adj-sg-nom-masc n-sg-nom-masc verb-3sgsubj 
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+ta nov muz spava
+t-a nov-0 muz-0 spava
+this-SG.F.NOM new-SG.M.NOM husband-SG.M.NOM sleep.3.SG
+'This new husband sleeps.'
+
+#69 det-sg-nom-masc adj-sg-nom-fem n-sg-nom-masc verb-3plsubj 
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+taj nova muz spava
+t-aj nov-a muz-0 spava
+this-SG.M.NOM new-SG.F.NOM husband-SG.M.NOM sleep.3.SG
+'This new husband sleeps.'
+
+#70 det-sg-nom-neut adj-sg-nom-masc n-sg-nom-masc verb-3plsubj
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+to nov muz spava
+t-o nov-0 muz-0 spava
+this-SG.N.NOM new-SG.M.NOM husband-SG.M.NOM sleep.3.SG
+'This new husband sleeps.'
+
+#71 det-sg-nom-masc adj-sg-nom-neut n-sg-nom-masc verb-3plsubj
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+taj novo muz spava
+t-aj nov-o muz-0 spava
+this-SG.M.NOM new-SG.N.NOM husband-SG.M.NOM sleep.3.SG
+'This new husband sleeps.'
+
+#72 det-sg-nom-neut adj-sg-nom-fem n-sg-nom-fem verb-3plsubj
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+to nova zena spava
+t-o nov-a zen-a spava
+this-SG.N.NOM new-SG.M.NOM wife-SG.F.NOM sleep.3.SG
+'This new wife sleeps.'
+
+#73 det-sg-nom-fem adj-sg-nom-neut n-sg-nom-fem verb-3plsubj
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+ta novo zena spava
+t-a nov-o zen-a spava
+this-SG.F.NOM new-SG.N.NOM wife-SG.F.NOM sleep.3.SG
+'This new wife sleeps.'
+
+
+
+#S-V agr for person
+
+#74 pronoun-1sg-nom verb-1sgsubj
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {agr}
+ja spavam
+ja spava-m
+1.SG.NOM sleep-1SG
+'I sleep.'
+
+#75 pronoun-2sg-nom verb-2sgsubj
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {agr}
+ti spavate
+ti spava-te
+2.SG.NOM sleep-2SG
+'You sleep.'
+
+#76 pronoun-3sg-nom verb-3sgsubj
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {agr}
+on spava
+on spava
+3.SG.M.NOM sleep.3.SG
+'He sleeps.'
+
+#77 pronoun-1sg-nom verb-2sgsubj
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+ja spavate
+ja spava-te
+1.SG.NOM sleep-2.SG
+'I sleep.'
+
+#78 pronoun-2sg-nom verb-1sgsubj
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+ti spavam
+ti spava-m
+2.SG.NOM sleep-1.SG
+'You sleep.'
+
+#79 pronoun-1sg-nom verb-3sgsubj
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+ja spava
+ja spava
+1.SG.NOM sleep.3.SG
+'I sleep.'
+
+#80 pronoun-3sg-nom verb-1sgsubj
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+on spavam
+on spava-m
+3.M.SG.NOM sleep-1.SG
+'He sleeps.'
+
+#81 pronoun-2sg-nom verb-3sgsubj
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+ti spava
+ti spava
+2.SG.NOM sleep.3.SG
+'You sleep.'
+
+#82 pronoun-3sg-nom verb-2sgsubj
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+on spavate
+on spava-te
+3.M.SG.NOM sleep-2.SG
+'He sleeps.'
+
+#argument optionality
+
+#83 dropped subj - tv
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+Vidim Olgu
+vid-im Olg-u
+see-1.SG.PRS Olga.F-SG.ACC
+'I see Olga.'
+
+#84 *dropped obj - tv
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn}
+Vidim
+vid-im
+see-1.SG.PRS
+'I see'
+
+#85 *dropped obj - tv
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn}
+Ja vidim
+Ja vid-im
+1.SG.NOM see-1.SG.PRS
+'I see'
+
+#86 dropped subj - itv
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+spavam
+spava-m
+sleep-1SG
+'I sleep.'
+
+#87 dropped subj - itv
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+spavate
+spava-te
+sleep-2SG
+'You sleep.'
+
+# FUTURE 1
+
+#88 Future1 - Aux enclitic 
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {tam}
+Ja cu spavati
+Ja c-u spava-ti
+1.SG AUX-FUT.1.SG sleep-INF
+'I will sleep.'
+
+#89 Future1 - Full Aux 
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {tam}
+Hocu spati
+Hoc-u spa-ti
+AUX-FUT.1.SG sleep-INF
+'I will sleep.'
+
+#90 Future1 - Aux enclitic 
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {tam}
+Slavko hoce vidjeti Olgu
+Slavk-o hoc-e vid-je-ti Olg-u
+Slavko-M.SG.NOM AUX-FUT.3.SG see-INF-UNKNOWN Olga-F.SG.ACC
+'Slavko will see Olga.'
+
+#91 * Future1 - *Non-infinitive verbal complement 
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {tam}
+Slavko hoce vidi Olgu
+Slavk-o hoc-e vid-i Olg-u
+Slavko-M.SG.NOM AUX-FUT.3.SG see-PRS Olga-F.SG.ACC
+'Slavko will see Olga.'
+
+#92 * Future1 - AUX agreement violation
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {tam}
+Slavko hoce vidjeti Olgu
+Slavk-o hoc-u vid-je-ti Olg-u
+Slavko-M.3.SG.NOM AUX-FUT.1.SG see-INF-UNKNOWN Olga-F.SG.ACC
+'Slavko will see Olga.'
+
+#93 Future 1 - perfective
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {tam}
+Olga ce napisati knjigu
+Olg-a c-e napis-ati knjig-u
+Olga-F.SG.NOM AUX-FUT write-PFV.INF book-F.ACC.SG
+'Olga will write a book.'
+
+#94 Future 1 - imperfective 
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {tam}
+Olga ce pisati knjigu
+Olg-a c-e pisa-ti knjig-u
+Olga-F.SG.NOM AUX-FUT write-IPFV.INF book-F.ACC.SG
+'Olga will be writing a book.'
+
+#####
+# PAST - PERFECT (sam/jesam + l-form)
+#####
+
+#95 Past perfect, itv. NOTE non-standard L
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {tam}
+Jesam spao
+Jesa-m spa-o
+AUX.PST-1.SG sleep-L.M.SG
+'I(man) slept.'
+
+#96 Past perfect, itv 
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {tam}
+Sam spala
+sa-m spa-la
+AUX.PST-1.SG sleep-L.F.SG
+'I(woman) slept.'
+
+#97 * Past perfect, itv, number disagreement with l-form
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {tam}
+Olga je spale
+Olg-a j-e spa-le
+Olga-F.3.SG.NOM AUX.PST-3.SG sleep-L.F.PL
+'Olga slept.'
+
+#98 * Past perfect, itv, gender disagreement with l-form
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {tam}
+Olga je spalo
+Olg-a j-e spa-lo
+Olga-F.3.SG.NOM AUX.PST-3.SG sleep-L.N
+'Olga slept.'
+
+#99 * Past perfect, itv, person disagreement with AUX
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {tam}
+Olga s-i spala
+Olg-a s-i spa-la
+Olga-F.3.SG.NOM AUX.PST-2.SG sleep-L.F
+'Olga slept.'
+
+#100 Past perfect, tv
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {tam}
+Mi smo videli Olgu
+Mi s-mo vide-li Olg-u
+1.PL AUX-1.PL.PST see-L.M.PL Olga-F.SG.ACC
+'We saw Olga.'
+
+
+#####
+# PAST - PLUPERFECT (sam/jesam + l-form of 'biti' + main verb l-form)
+# PAST - PLUPERFECT (sam/jesam + l-form of 'biti' + main verb l-form)
+#####
+
+#101 Pluperfect - itv
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {tam}
+Jesam bila spala
+Jesa-m bi-la spa-la
+AUX-1.SG AUX.PST-F.SG sleep-L.F.SG
+'I had slept'
+
+#102 Pluperfect - tv
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {tam}
+Mi smo bili videli Slavka
+Mi sm-o bi-li vide-li Slavk-a
+1.PL AUX-1.PL.PST  AUX-M.PL see-L.M.PL Slavko-M.ACC.SG
+'We had seen Slavko'
+
+#103 *Pluperfect - tv. Person agreement ciolation
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {tam}
+Oni smo bili videli Slavka
+Oni sm-o bi-li vide-li Slavk-a
+3.PL.M AUX-1.PL.PST  AUX-M.PL see-L.M.PL Slavko-M.ACC.SG
+'They had seen Slavko'
+
+#104 *Pluperfect - tv. Gender agreement violation 1
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {tam}
+Oni su bile videle Slavka
+Oni s-u bi-le vide-le Slavk-a
+3.PL.M AUX-3.PL.PST  AUX-F.PL see-L.F.PL Slavko-M.ACC.SG
+'They had seen Slavko'
+
+#105 *Pluperfect - tv. Gender agreement violation 2
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {tam}
+Oni su bili videle Slavka
+Oni s-u bi-li vide-le Slavk-a
+3.PL.M AUX-3.PL.PST  AUX-M.PL see-L.F.PL Slavko-M.ACC.SG
+'They had seen Slavko'
+
+#106 *Pluperfect - tv. Gender agreement violation 3
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {tam}
+Oni su bile videli Slavka
+Oni s-u bi-le vide-li Slavk-a
+3.PL.M AUX-3.PL.PST  AUX-F.PL see-L.M.PL Slavko-M.ACC.SG
+'They had seen Slavko'
+
+# Yes-No questions
+# 3 ways to ask Yes-No questions
+# 1. declarative sentences marked by intonation alone
+# 2. Enclitic li. The finite verb (auxiliary if there is one, otherwise the main verb) precedes li immediately and is thus sentence-initial.  An enclitic finite verb is replaced in li questions by its non-enclitic (full) form.
+# 3. sentence-initial Da li, which may be regarded as the full form of li, gets the enclitics right after it, and does not constrain the order of the remaining elements. 
+
+# 107 yes-no question, declarative + intonation only
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+Slavko vidi Olgu?
+Slavk-o vid-i Olg-u ?
+see-1.SG.PRS see-3.SG.PRS Olga.F-SG.ACC ?
+'Does Slavko see Olga?'
+
+# 108 yes-no question with enclitic li - main verb
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+Vidi li Slavko Olgu?
+vid-i li Slavk-o Olg-u ?
+see-1.SG.PRS li.Q Slavko-M.SG.NOM Olga.F-SG.ACC ?
+'Does Slavko see Olga?'
+
+# 109 * yes-no question with enclitic li - main verb - wrong order
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {q}
+Li vidi Slavko Olgu?
+li vid-i Slavk-o Olg-u ?
+li.Q see-1.SG.PRS Slavko-M.SG.NOM Olga.F-SG.ACC ?
+'Does Slavko see Olga?'
+
+# 110 yes-no question with enclitic li after AUX
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q, tam}
+Hoce li Slavko vidjeti Olgu?
+hoc-e li Slavk-o vid-je-ti Olg-u ?
+AUX-FUT.3.SG li.Q Slavko-M.SG.NOM see-INF-UNKNOWN Olga.F-SG.ACC ?
+'Will Slavko see Olga?'
+
+# 111 * yes-no question with enclitic li and AUX - wrong order
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {q, tam}
+Li hoce Slavko vidjeti Olgu?
+li hoc-e Slavk-o vid-je-ti Olg-u ?
+li.Q AUX-FUT.3.SG Slavko-M.SG.NOM see-INF-UNKNOWN Olga.F-SG.ACC ?
+'Will Slavko see Olga?'
+
+# 112 * yes-no question with enclitic li after AUX - non-enclitic AUX (wrong)
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {q, tam}
+Ce li Slavko vidjeti Olgu?
+c-e li Slavk-o vid-je-ti Olg-u ?
+AUX-FUT.3.SG li.Q Slavko-M.SG.NOM see-INF-UNKNOWN Olga.F-SG.ACC ?
+'Will Slavko see Olga?'
+
+# 113 yes-no question with enclitic li after AUX jesam
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+Je li Slavko vidio Olgu?
+J-e li Slavk-o vidi-o Olg-u ?
+AUX.PST-3.SG li.Q Slavko-M.SG.NOM see-L.M.SG Olga.F-SG.ACC ?
+'Did Slavko see Olga?'
+
+# 114 * yes-no question with enclitic li after AUX jesam - wrong order
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {q}
+Li je Slavko vidio Olgu?
+li j-e Slavk-o vidi-o Olg-u ?
+li.Q AUX.PST-3.SG Slavko-M.SG.NOM see-L.M.SG Olga.F-SG.ACC ?
+'Did Slavko see Olga?'
+
+# 115 * yes-no question with enclitic li after AUX jesam - wrong order
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {q}
+Je Slavko li vidio Olgu?
+j-e Slavk-o li vidi-o Olg-u ?
+AUX.PST-3.SG Slavko-M.SG.NOM li.Q see-L.M.SG Olga.F-SG.ACC ?
+'Did Slavko see Olga?'
+
+# 116 yes-no question with "da li" and AUX enclitic ce
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+Da li ce Slavko vidjeti Olgu?
+da li c-e Slavk-o vid-je-ti Olg-u ?
+da.Q li.Q AUX-FUT.3.SG Slavko-M.SG.NOM see-INF-UNKNOWN Olga.F-SG.ACC ?
+'Will Slavko see Olga?'
+
+# 117 ? yes-no question with "da li" and AUX non-enclitic hoce (need to vet)
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {q}
+Da li hoce Slavko vidjeti Olgu?
+da li hoc-e Slavk-o vid-je-ti Olg-u ?
+da.Q li.Q AUX-FUT.3.SG Slavko-M.SG.NOM see-INF-UNKNOWN Olga.F-SG.ACC ?
+'Will Slavko see Olga?'
+
+# 118 yes-no question with "da li" and main verb
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+Da li vidi Slavko Olgu ?
+da li vid-i Slavk-o Olg-u ?
+da.Q li.Q see-PRS.3.SG Slavko-M.SG.NOM Olga.F-SG.ACC ?
+'Does Slavko see Olga?'
+
+# 119 * yes-no question with "da li" and main verb - "li da", wrong order
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+Li da vidi Slavko Olgu ?
+li da vid-i Slavk-o Olg-u ?
+li.Q da.Q see-PRS.3.SG Slavko-M.SG.NOM Olga.F-SG.ACC ?
+'Does Slavko see Olga?'
+
+#################################################################
+# Coordination 
+#################################################################
+
+# 120 Two-noun coordinated subj; predicate agreement with PL
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+Slavko i Ivan vide Olgu
+Slavk-o i Ivan-0 vid-e Olg-u
+Slavko-M.SG.NOM and Ivan-M.SG.NOM see-PRS.3.PL Olga.F-SG.ACC
+'Slavko and Ivan see Olga'
+
+# 121 Two-noun coordinated subj; repeated markers; predicate agreement with PL
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+I Slavko i Ivan vide Olgu
+i Slavk-o i Ivan-0 vid-e Olg-u
+And Slavko-M.SG.NOM and Ivan-M.SG.NOM see-PRS.3.PL Olga.F-SG.ACC
+'Slavko and Ivan see Olga'
+
+# 122 Three-noun coordinated subj; predicate agreement with PL
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+Slavko, Ivan i Zoran vide Olgu
+Slavk-o , Ivan-0 i Zoran-0 vid-e Olg-u
+Slavko-M.SG.NOM , Ivan-M.SG.NOM and Zoran-M.SG.NOM see-PRS.3.PL Olga.F-SG.ACC
+'Slavko, Ivan and Zoran see Olga'
+
+# 123 Three-noun coordinated subj; repeated markers; predicate agreement with PL
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+Slavko i Ivan i Zoran vide Olgu
+Slavk-o i Ivan-0 i Zoran-0 vid-e Olg-u
+Slavko-M.SG.NOM and Ivan-M.SG.NOM and Zoran-M.SG.NOM see-PRS.3.PL Olga.F-SG.ACC
+'Slavko, Ivan and Zoran see Olga'
+
+# 124 Two noun coordination; gender agreement
+# Gender agreement resolution: F is all coordinates are F; N if all coordinates are N; M otherwise.
+# Both coordinates M, agreement in M
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+Slavko i Ivan su  vidjeli Olgu
+Slavk-o i Ivan-0 s-u vid-je-li Olg-u
+Slavko-M.SG.NOM and Ivan-M.SG.NOM AUX-3.PL.PST see-L-M.PL Olga.F-SG.ACC
+'Slavko and Ivan saw Olga'
+
+# 125 Two noun coordination; gender agreement
+# Gender agreement resolution: F is all coordinates are F.
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+Marija i Olga su vidjele Slavka
+Marij-a i Olg-a s-u vid-je-le Slavk-a
+Marija-F.SG.NOM and Olga-F.SG.NOM AUX-3.PL.PST see-L-F.PL Slavko.M-SG.ACC
+'Maria and Olga saw Slavko'
+
+# 126 Two noun coordination; gender agreement
+# Gender agreement resolution: M if coordinates gender are mixed.
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+Marija i Ivan su vidjeli Slavka
+Marij-a i Ivan-0 s-u vid-je-li Slavk-a
+Marija-F.SG.NOM and Ivan-M.SG.NOM AUX-3.PL.PST see-L-M.PL Slavko.M-SG.ACC
+'Maria and Ivan saw Slavko'
+
+# 127 Two noun coordination; gender agreement
+# * Gender agreement resolution: M if coordinates gender are mixed.
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {crd, agr}
+Marija i Ivan su vidjele Slavka
+Marij-a i Ivan-0 s-u vid-je-le Slavk-a
+Marija-F.SG.NOM and Ivan-M.SG.NOM AUX-3.PL.PST see-L-F.PL Slavko.M-SG.ACC
+'Maria and Ivan saw Slavko'
+
+# 128 Verb coordination - "i" marker
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {crd}
+citam i govorim
+cit-am i govor-im
+read-1.SG and speak-1.SG.PRS
+'I read and speak'
+
+# 129 VP coordination - "a" marker, mild contarst
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {crd}
+Slavko spava, a Olga cita
+Slavk-o spava a Olg-a cit-a
+Slavko-M.SG.NOM sleep.3.SG.PRS and Olga-F.SG.NOM read-3.SG.PRS
+'Slavko is sleeping and(while) Olga is reading'
+
+#########################
+# Attributive adjectives
+# Attributive adjectives usually precede the nouns and agree with them in gender, number and case.
+# Some exceptions include terms of endearment with the attribute possessive pronouns, 
+# like 'ruza moja' (my rose).
+# We will only model the Adj preceding the noun pattern. 
+# More on ordering  withint an NP in Browne-Alt, 3.1.6
+#########################
+
+# 130 Attributive adjective - agreement
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adj, agr}
+Olga pije crveno vino
+Olg-a pi-je crven-o vin-o
+Olga-F.SG.NOM drink-3.SG.PRS red-N.SG.ACC vine-N.ACC.SG
+'Olga is drinking red wine'
+
+# 131 Attributive adjective - agreement
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adj, agr}
+Marija pije zeleni caj
+Marij-a pi-je zelen-i caj-0
+Marija-F.SG.NOM drink-3.SG.PRS green-M.SG.ACC tea-M.ACC.SG
+'Maria is drinking green tea'
+
+# 132 * Attributive adjective - gender agreement violation
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {adj, agr}
+Olga pije crvenu vino
+Olg-a pi-je crven-u vin-o
+Olga-F.SG.NOM drink-3.SG.PRS red-F.SG.ACC vine-N.ACC.SG
+'Olga is drinking red wine'
+
+# 133 * Attributive adjective - number agreement violation
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {adj, agr}
+Olga pije crvena vino
+Olg-a pi-je crven-a vin-o
+Olga-F.SG.NOM drink-3.SG.PRS red-F.PL.ACC vine-N.ACC.SG
+'Olga is drinking red wine'
+
+# 134 * Attributive adjective - case agreement violation
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {adj, agr}
+Olga pije crvenim vino
+Olg-a pi-je crven-im vin-o
+Olga-F.SG.NOM drink-3.SG.PRS red-F.SG.INST vine-N.ACC.SG
+'Olga is drinking red wine'
+
+# 135 * Attributive adjective - wrong order
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {adj, agr}
+Olga pije vino crveno
+Olg-a pi-je vin-o crven-o
+Olga-F.SG.NOM drink-3.SG.PRS  vine-N.ACC.SG red-N.SG.ACC
+'Olga is drinking red wine'
+
+
+#######################################
+# Adverbs - Single-word adverbs modifying a verb tend to precede it,
+# but may sometimes follow it. 
+# Need to vet with a native speaker,
+# the sources are not clear on when adverbs are allowed to follow Vs they modify.
+# * Slavko vidi jasno Olgu.
+# ? Slavko vidi Olgu jasno.
+########################################
+# 136 Adverbs - preceding a transitive verb.
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adv}
+Slavko jasno vidi Olgu.
+Slavk-o jasno vid-i Olg-u
+Slavko-M.SG.NOM clearly see-PRS.3.SG Olga.F-SG.ACC
+'Slavko sees Olga clearly'
+
+# 137 Adverbs - preceding an intransitive verb.
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adv}
+Olga dobro govori
+Olg-a dobro govor-i
+Olga-F.SG.NOM well speak-3.SG.PRS
+'Olga speaks well'
+
+# 138 Adverbs - following an intransitive verb.
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adv}
+Olga radi brzo
+Olg-a rad-i brzo
+Olga-F.SG.NOM work-3.SG.PRS fast
+'Olga works fast'
+
+#################################################
+# Embedded clauses
+#################################################
+
+# 139 embed clauses, know
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {emb-q}
+znam da li Slavko vidi Olgu
+zn-am da li Slavk-o vid-i Olg-u
+know-1.SG COMP Q Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC
+'I know whether Slavko sees Olgu.'
+
+# 140 -embedded clause, declarative
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {emb-d}
+znam da Slavko vidi Olgu
+zn-am da Slavk-o vid-i Olg-u
+know-1.SG COMP Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC
+'I know that Slavko sees Olgu.'
+
+# 141 eq, ask
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {emb-q}
+pitam da li Slavko vidi Olgu
+pit-am da li Slavk-o vid-i Olg-u
+ask-1.SG COMP Q Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC
+'I ask whether Slavko sees Olgu.'
+
+# 142 eq
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {emb-d}
+pitam da Slavko vidi Olgu
+pit-am da Slavk-o vid-i Olg-u
+ask-1.SG COMP Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC
+'I ask that Slavko sees Olgu.'
+
+# 143 eq think
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {emb-d}
+mislim da Slavko vidi Olgu
+misl-im da Slavk-o vid-i Olg-u
+think-1.SG COMP Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC
+'I think that Slavko sees Olgu.'
+
+# 144 eq
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {emb-q}
+mislim da li Slavko vidi Olgu
+misl-im da li Slavk-o vid-i Olg-u
+think-1.SG COMP Q Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC
+'I think whether Slavko sees Olgu.'
+
+# 145 embedded clause-S
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {emb-q}
+da li Slavko vidi Olgu znam
+da li Slavk-o vid-i Olg-u zn-am
+COMP Q Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC know-1.SG 
+'I know whether Slavko sees Olgu.'
+
+# 146 S-OVS-clause
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {emb-d}
+znam da Olgu vidi Slavko
+zn-am da Olg-u vid-i Slavk-o
+know-1.SG COMP  Olg.F-3.SG.ACC see-3.SG  Slavk.M-3.SG.NOM
+'I know that Slavko sees Olgu.'
+
+########################################
+# Non-verbal predicates
+########################################
+
+# 147 NP with cop
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+ona je zena
+ona 0tr-i zen-a
+3.F.SG.NOM be-3.SG woman-SG.F.NOM
+'She is a woman.'
+
+# 148 adj with cop
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+ona je nov-a
+ona 0adj-i nov-a
+3.F.SG.NOM be-3.SG new-SG.F.NOM
+'She is new.'
+
+# 149 pp with cop
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+koncert je u kuci
+koncert-0 0pp-i u kuc-i
+concert-3.SG.NOM be-3.SG at house-3.SG.LOC
+'The concert is at the house.'
+
+# 150 NP without cop
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona zena
+ona zen-a
+3.F.SG.NOM woman-SG.F.NOM
+'She is a woman.'
+
+# 151 adj without cop
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona nova
+ona nov-a
+3.F.SG.NOM new-SG.F.NOM
+'She is new.'
+
+# 152 pp without cop
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+koncert u kuci
+koncert-0 u kuc-i
+concert-3.SG.NOM at house-3.SG.LOC
+'The concert is at the house.'
+
+# 153 variations of copular in person and number
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+ja jesam nova
+ja 0adj-am nov-a
+1.SG.NOM be-1.SG new.F-SG.NOM
+'I am new.'
+
+# 154
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+ti jesi nova
+ti 0adj-is nov-a
+2.SG.NOM be-2.SG new.F.-SG.NOM
+'You are new.'
+
+# 155
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+mi jesmo nova
+mi 0adj-imo nov-a
+1.PL.NOM be-1.PL new.F-SG.NOM
+'We are new.'
+
+# 156 
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+vi jeste nova
+vi 0adj-ite nov-a
+2.PL.NOM be-2.PL new.F.-SG.NOM
+'You guys are new.'
+
+# 157
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+oni jesu nova
+oni 0adj-e nov-a
+3.M.PL.NOM be-3.PL new.F.-SG.NOM
+'They are new.'
+
+# wrong case for AP and NP
+# 158  * NP with gen case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona je zene
+ona 0tr-i zen-e
+3.F.SG.NOM be-3.SG woman-SG.F.GEN
+'She is a woman.'
+
+# 159 * adj with gen case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona je nove
+ona 0adj-i nov-e
+3.F.SG.NOM be-3.SG new-SG.F.GEN
+'She is new.'
+
+# 160 * NP with acc case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona je zenu
+ona 0tr-i zen-u
+3.F.SG.NOM be-3.SG woman-SG.F.ACC
+'She is a woman.'
+
+# 161 * adj with acc case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona je novu
+ona 0adj-i nov-u
+3.F.SG.NOM be-3.SG new-SG.F.ACC
+'She is new.'
+
+# 162 * NP with dat case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona je zeni
+ona 0tr-i zen-i
+3.F.SG.NOM be-3.SG woman-SG.F.DAT
+'She is a woman.'
+
+# 163 * adj with dat case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona je novoj
+ona 0adj-i nov-oj
+3.F.SG.NOM be-3.SG new-SG.F.DAT
+'She is new.'
+
+# 164
+#tnh agreement with subject
+# AP with wrong gender
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona je nov
+ona 0adj-i nov-0
+3.F.SG.NOM be-3.SG new-SG.M.NOM
+'She is new.'
+
+# 165
+# AP with wrong number
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+on je novi
+on 0adj-i nov-i
+3.M.SG.NOM be-3.SG new-PL.M.NOM
+'He is new.'
+
+# 166
+#tnh, iz example
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+ona je iz grada
+ona 0pp-i iz grad-a
+3.F.SG.NOM be-3.SG from city-3.SG.GEN
+'She is from the city.'
+
+# 167
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona je iz gradu
+ona 0pp-i iz grad-u
+3.F.SG.NOM be-3.SG from city-3.SG.LOC
+'She is from the city.'
+
+# 168
+# *comp-head PP
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+koncert je kuci u
+koncert-0 0pp-i kuc-i u
+concert-3.SG.NOM be-3.SG house-3.SG.LOC at
+'The concert is at the house.
+
+# 169
+#wrong case for PPs
+# * acc case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+koncert je u kucu
+koncert-0 0pp-i u kuc-u
+concert-3.SG.NOM be-3.SG at house-3.SG.ACC
+'The concert is at the house.
+
+# 170
+# * nom case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+koncert je u kuca
+koncert-0 0pp-i u kuc-a
+concert-3.SG.NOM be-3.SG at house-3.SG.NOM
+'The concert is at the house.
+
+# 171
+# * gen case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+koncert je u kuce
+koncert-0 0pp-i u kuc-e
+concert-3.SG.NOM be-3.SG at house-3.SG.GEN
+'The concert is at the house.
+
+# 172
+# * dat case
+#This sentence had parses, but it is the incorrect parse where kuc-i's case is LOC because -i can be either DAT or LOC.
+# zp - commenting this out, since it is grammatical due to DAT-LOC having the same ending.
+# We also already have an identical positive example.
+#Source: a
+#Vetted: s
+#Judgment: u
+#Phenomena: {cop}
+#koncert je u kuci
+#koncert-0 0pp-i u kuc-i
+#concert.3.SG.NOM be.3.SG at house-3.SG.DAT
+#'The concert is at the house.
+
+#################################################
+# Information structure
+#################################################
+
+#173
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {info}
+Olgu vidimo i mi
+Olg-u vid-imo i mi
+Olg.F-3.SG.ACC see-1.PL AND 1.PL.NOM
+'We too see Olga.'
+
+# 174 cleft
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {info}
+to Slavko vidi Olgu
+to Slavk-o vid-i Olg-u
+that Slavo-3.M.SG.NOM see-3.SG Olg-3.F.SG.ACC
+'It was Slavko that sees Olgu.'
+
+# Adjectives and adverbs
+
+# 175
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adj}
+nov muz spava
+nov-0 muz-0 spava
+new-SG.M.NOM husband-SG.M.NOM sleep.3.SG
+'The new husband sleeps.'
+
+# 176
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adj}
+muz nov spava
+muz-0 nov-0 spava
+husband-SG.M.NOM new-SG.M.NOM sleep.3.SG
+'The new husband sleeps.'
+
+# 178
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adv}
+jasno slavko vidi olgu
+jasno slavk-o vid-i olg-u
+clearly slavk.M-3.SG.NOM see-3.SG olg.F-3.SG.ACC
+'Slavko sees Olga clearly.'
+
+# 179
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adv}
+slavko jasno vidi olgu
+slavk-o jasno vid-i olg-u
+slavk.M-3.SG.NOM clearly see-3.SG olg.F-3.SG.ACC
+'Slavko sees Olga clearly.'
+
+# 180
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adv}
+slavko vidi jasno olgu
+slavk-o vid-i jasno olg-u
+slavk.M-3.SG.NOM see-3.SG clearly olg.F-3.SG.ACC
+'Slavko sees Olga clearly.'
+
+# 181
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adv}
+slavko vidi olgu jasno 
+slavk-o vid-i  olg-u jasno
+slavk.M-3.SG.NOM see-3.SG olg.F-3.SG.ACC clearly
+'Slavko sees Olga clearly.'
+
+# 182
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {aux}
+ja mogu jesti staklo
+ja mog-u jed-ti stakl-o 
+1.SG.NOM can-1.SG eat-INF glass.N.3-SG.ACC
+'I can eat glass.'
+
+# commented out---JDC 23apr2013, missing gloss line
+# 182
+# Source: a
+# Vetted: s
+# Judgment: g
+# Phenomena: {neg}
+# to mene ne povrjedi
+# to mene ne povrjed-i
+# 'It doesn't hurt me.'
+
+# Several information structure ungrammatical examples
+
+#183, VSO, -FP added to a non-inflected verb
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {wo, c, info}
+vidi Slavko Olgu
+Vid-FP-i Slavk-o Olg-u
+see-3.SG-FP Slavko-M.SG.NOM Olga.F-SG.ACC
+'Slavko sees Olga.'
+
+#184, OVS, -FP added to a non-inflected noun
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {wo, c, info}
+Olgu vidi Slavko
+Olg-FP-u vid-i Slavk-o
+Olga.F-SG.ACC-FP see-3.SG Slavko-M.SG.NOM
+'Slavko sees Olga.'

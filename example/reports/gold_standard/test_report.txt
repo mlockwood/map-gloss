@@ -1,90 +1,90 @@
 Gold Standard Statistics for: test
 
-Aggregate Statistics:
-    Standard:         191 & 0.1778
-    Misspelled:        43 & 0.0400
-    Incomplete:        45 & 0.0419
-    Combined:          12 & 0.0112
-    User-Identified:   41 & 0.0382
-    Unrecovered:        1 & 0.0009
-    Part-Of-Speech:     6 & 0.0056
-    Lexical Entry:    735 & 0.6844
+aggregate statistics:
+	Standard        :  191 & 0.1778
+	Misspelled      :   43 & 0.0400
+	Incomplete      :   45 & 0.0419
+	Combined        :   12 & 0.0112
+	User-Identified :   41 & 0.0382
+	Unrecovered     :    1 & 0.0009
+	Part-Of-Speech  :    6 & 0.0056
+	Lexical Entry   :  735 & 0.6844
 
-ain Statistics:
-    Standard:          11 & 0.2245
-    Misspelled:         1 & 0.0204
-    Incomplete:         2 & 0.0408
-    Part-Of-Speech:     2 & 0.0408
-    Lexical Entry:     33 & 0.6735
+ain statistics:
+	Standard        :   11 & 0.2245
+	Misspelled      :    1 & 0.0204
+	Incomplete      :    2 & 0.0408
+	Part-Of-Speech  :    2 & 0.0408
+	Lexical Entry   :   33 & 0.6735
 
-ary Statistics:
-    Standard:          16 & 0.0717
-    Misspelled:        10 & 0.0448
-    Incomplete:        17 & 0.0762
-    Combined:           7 & 0.0314
-    Unrecovered:        1 & 0.0045
-    Lexical Entry:    172 & 0.7713
+ary statistics:
+	Standard        :   16 & 0.0717
+	Misspelled      :   10 & 0.0448
+	Incomplete      :   17 & 0.0762
+	Combined        :    7 & 0.0314
+	Unrecovered     :    1 & 0.0045
+	Lexical Entry   :  172 & 0.7713
 
-ces Statistics:
-    Standard:          22 & 0.3607
-    Misspelled:         2 & 0.0328
-    Incomplete:         4 & 0.0656
-    Lexical Entry:     33 & 0.5410
+ces statistics:
+	Standard        :   22 & 0.3607
+	Misspelled      :    2 & 0.0328
+	Incomplete      :    4 & 0.0656
+	Lexical Entry   :   33 & 0.5410
 
-hbs Statistics:
-    Standard:          26 & 0.3467
-    Incomplete:         2 & 0.0267
-    User-Identified:    1 & 0.0133
-    Lexical Entry:     46 & 0.6133
+hbs statistics:
+	Standard        :   26 & 0.3467
+	Incomplete      :    2 & 0.0267
+	User-Identified :    1 & 0.0133
+	Lexical Entry   :   46 & 0.6133
 
-hix Statistics:
-    Standard:          15 & 0.1531
-    Misspelled:         2 & 0.0204
-    Incomplete:         5 & 0.0510
-    User-Identified:   19 & 0.1939
-    Lexical Entry:     57 & 0.5816
+hix statistics:
+	Standard        :   15 & 0.1531
+	Misspelled      :    2 & 0.0204
+	Incomplete      :    5 & 0.0510
+	User-Identified :   19 & 0.1939
+	Lexical Entry   :   57 & 0.5816
 
-inh Statistics:
-    Standard:          22 & 0.0965
-    Misspelled:        11 & 0.0482
-    Incomplete:         5 & 0.0219
-    Combined:           3 & 0.0132
-    User-Identified:    9 & 0.0395
-    Part-Of-Speech:     3 & 0.0132
-    Lexical Entry:    175 & 0.7675
+inh statistics:
+	Standard        :   22 & 0.0965
+	Misspelled      :   11 & 0.0482
+	Incomplete      :    5 & 0.0219
+	Combined        :    3 & 0.0132
+	User-Identified :    9 & 0.0395
+	Part-Of-Speech  :    3 & 0.0132
+	Lexical Entry   :  175 & 0.7675
 
-jaa Statistics:
-    Standard:          19 & 0.2000
-    Misspelled:         6 & 0.0632
-    Incomplete:         1 & 0.0105
-    Combined:           1 & 0.0105
-    User-Identified:    7 & 0.0737
-    Lexical Entry:     61 & 0.6421
+jaa statistics:
+	Standard        :   19 & 0.2000
+	Misspelled      :    6 & 0.0632
+	Incomplete      :    1 & 0.0105
+	Combined        :    1 & 0.0105
+	User-Identified :    7 & 0.0737
+	Lexical Entry   :   61 & 0.6421
 
-kat Statistics:
-    Standard:          16 & 0.2025
-    Misspelled:         7 & 0.0886
-    Incomplete:         2 & 0.0253
-    User-Identified:    1 & 0.0127
-    Lexical Entry:     53 & 0.6709
+kat statistics:
+	Standard        :   16 & 0.2025
+	Misspelled      :    7 & 0.0886
+	Incomplete      :    2 & 0.0253
+	User-Identified :    1 & 0.0127
+	Lexical Entry   :   53 & 0.6709
 
-tgl Statistics:
-    Standard:          18 & 0.4615
-    Misspelled:         2 & 0.0513
-    Incomplete:         2 & 0.0513
-    Combined:           1 & 0.0256
-    User-Identified:    4 & 0.1026
-    Lexical Entry:     12 & 0.3077
+tgl statistics:
+	Standard        :   18 & 0.4615
+	Misspelled      :    2 & 0.0513
+	Incomplete      :    2 & 0.0513
+	Combined        :    1 & 0.0256
+	User-Identified :    4 & 0.1026
+	Lexical Entry   :   12 & 0.3077
 
-tha Statistics:
-    Standard:           1 & 0.0345
-    Incomplete:         3 & 0.1034
-    Lexical Entry:     25 & 0.8621
+tha statistics:
+	Standard        :    1 & 0.0345
+	Incomplete      :    3 & 0.1034
+	Lexical Entry   :   25 & 0.8621
 
-vie Statistics:
-    Standard:          25 & 0.2551
-    Misspelled:         2 & 0.0204
-    Incomplete:         2 & 0.0204
-    Part-Of-Speech:     1 & 0.0102
-    Lexical Entry:     68 & 0.6939
+vie statistics:
+	Standard        :   25 & 0.2551
+	Misspelled      :    2 & 0.0204
+	Incomplete      :    2 & 0.0204
+	Part-Of-Speech  :    1 & 0.0102
+	Lexical Entry   :   68 & 0.6939
 

@@ -1,0 +1,457 @@
+Language: <Malayalam>
+Language code: <mal>
+Tiers: translit orth-seg gloss translat
+Author: <Wendy Bannister>
+Date: January, 2007
+Source a: <Malayalam by R.E. Asher and T. C. Kumari>
+Source b: <Parametric Studies in Malayalam Syntax by K. A. Jayaseelan>
+Source c: <http://web.nitc.ac.in/~cse/CI_Lab/Malayalam_Parser.pdf>
+Source d: <http://tdil.mit.gov.in/news.htm: April 2002>
+
+
+#<Case>
+
+# MWG: removed original orthography line, since it's only for the first example
+# അവന്‍ഉനനൌന്നു
+#* noun-nom intrans-verb
+Source: {a:107}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {case}
+avan unanaunnu
+avan unanaunnu
+he eat.PRES   
+he is having his meal
+  
+#* *noun-acc intrans-verb
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+avane unanaunnu
+avan-e unanaunnu
+he-ACC eat.PRES   
+he is having his meal
+  
+#* *noun-dat intrans-verb
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+avannə unanaunnu
+avan-nə unanaunnu
+he-DAT eat.PRES   
+he is having his meal
+  
+
+#* noun-nom noun-acc trans-verb 
+Source: {a:193}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {case}
+kutatai ammaye     vilaiccu
+kutatai amma-ye    vilaicc-u
+child   mother-ACC call-PAST
+the child called the mother
+
+#* *noun-acc noun-acc trans-verb
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+kutataiye ammaye     vilaiccu
+kutatai-ye amma-ye    vilaicc-u
+child-ACC   mother-ACC call-PAST
+the child called the mother
+
+#* *noun-dat noun-acc trans-verb 
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+kutataikkə ammaye     vilaiccu
+kutatai-kkə amma-ye    vilaicc-u
+child-DAT   mother-ACC call-PAST
+the child called the mother
+
+#* *noun-nom noun-nom trans-verb 
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+kutatai amma     vilaiccu
+kutatai amma    vilaicc-u
+child.NOM   mother.NOM call-PAST
+the child called the mother
+
+#* *noun-nom noun-dat trans-verb 
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+kutatai ammakkə     vilaiccu
+kutatai amma-kkə    vilaicc-u
+child.NOM   mother-DAT call-PAST
+the child called the mother
+
+#* noun-dat noun-nom noun-nom ditrans-verb
+Source: {a:193}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {case}
+kutataikkə amma     paal kotautatau
+kutatai-kkə amma     paal kotautatau
+child-DAT  mother   milk gave.PAST
+the mother gave the child milk
+
+#* *noun-nom noun-nom noun-nom ditrans-verb
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+kutatai amma     paal kotautatau
+kutatai amma     paal kotautatau
+child  mother   milk gave.PAST
+the mother gave the child milk
+
+#* *noun-acc noun-nom noun-nom ditrans-verb
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+kutataiye amma     paal kotautatau
+kutatai-ye amma     paal kotautatau
+child-ACC  mother   milk gave.PAST
+the mother gave the child milk
+
+#* *noun-acc noun-acc noun-nom ditrans-verb
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+kutatai amma     paal kotautatau
+kutatai-ye amma-ye     paal kotautatau
+child-ACC  mother-ACC   milk gave.PAST
+the mother gave the child milk
+
+#* *noun-dat noun-dat noun-nom ditrans-verb
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+kutataikkə ammakkə     paal kotautatau
+kutatai-kkə amma-kkə     paal kotautatau
+child-DAT  mother-DAT   milk gave.PAST
+the mother gave the child milk
+
+#* *noun-dat noun-dat noun-dat ditrans-verb
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+kutataikkə ammakkə     paalkkə kotautatau
+kutatai-kkə amma-kkə     paal-kkə kotautatau
+child-DAT  mother-DAT   milk-DAT gave.PAST
+the mother gave the child milk
+
+#* *noun-acc noun-acc noun-acc ditrans-verb
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+kutataiye ammaye     paalye kotautatau
+kutatai-ye amma-ye     paal-ye kotautatau
+child-ACC  mother-ACC   milk-ACC gave.PAST
+the mother gave the child milk
+
+#* *noun-acc noun-acc noun-dat ditrans-verb
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {case}
+kutataiye ammaye     paal-kkə kotautatau
+kutatai-ye amma-ye     paal-kkə kotautatau
+child-ACC  mother-ACC   milk-ACC gave.PAST
+the mother gave the child milk
+
+
+
+#<Negation>
+
+Source: {a:151}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {negation}
+raaman daooktaar alla
+raaman daooktaar alla
+Raman doctor be.PRES.NEG
+Raman is not a doctor
+
+# it is not appropriate to use the other 'be' verb, so this ungrammatical case has the wrong negation.
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {negation}
+raaman daooktaar illa
+raaman daooktaar illa
+Raman doctor be.PRES.NEG
+Raman is not a doctor
+
+# it wouldn't be appropriate to append -alla to the verb 'be'.
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {negation}
+raaman daooktaar aanailla
+raaman daooktaar aana-illa
+Raman doctor be.PRES-NEG
+Raman is not a doctor
+
+Source: {a:151}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {negation}
+kutatai viitatail illa
+kutatai viitata-il illa
+child house-LOC be.PRES.NEG
+the child is not at home
+
+# it is not appropriate to use the other 'be' verb, so this ungrammatical case has the wrong negation.
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {negation}
+kutatai viitatail alla
+kutatai viitata-il alla
+child house-LOC be.PRES.NEG
+the child is not at home
+
+# it wouldn't be appropriate to append -illa to the verb 'be'.
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {negation}
+kutatai viitatail unataalla
+kutatai viitata-il unata-alla
+child house-LOC be-PRES.NEG
+the child is not at home
+
+#<Negation>
+
+Source: {a:8}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Matrix yes-no questions}
+avan vannoo
+avan vann-oo
+he come-PAST.IP
+Did he come?
+
+# It is ungrammatical to use the -ee suffix, since the verb hasn't been negated.
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Matrix yes-no questions}
+avan vannee
+avan vann-ee
+he come-PAST.IP
+Did he come?
+
+# It is ungrammatical to attach the suffix to the noun in a  sentence where the verb is present.
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Matrix yes-no questions}
+avanoo vannu
+avan-oo vannu
+he-IP come.PAST
+Did he come?
+
+Source: {A:8}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Matrix yes-no questions}
+avar vannillee
+avar vannill-ee
+they come.PAST.NEG-IP
+Didn't they come?
+
+# It is ungrammatical to use the -oo suffix, since the verb has been negated with a -illa suffix.
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Matrix yes-no questions}
+avar vannilloo
+avar vannill-oo
+they come.PAST.NEG-IP
+Didn't they come?
+
+# It is ungrammatical to attach the suffix to the noun in a  sentence where the verb is present.
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Matrix yes-no questions}
+avaree vannilla
+avar-ee vannilla
+they-IP come.PAST.NEG
+Didn't they come?
+
+Source: {A:133}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Coordination}
+raaghavanum kumaarum vannu
+raaghavan-um kumaar-um vannu
+Raghavan-COORD Kumar-COORD come.PAST
+Raghavan and Kumar came
+
+# It's ungrammatical to mark only one of the NPs with the coordinating suffix
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Coordination}
+raaghavan kumaarum vannu
+raaghavan kumaar-um vannu
+Raghavan Kumar-COORD come.PAST
+Raghavan and Kumar came
+
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Coordination}
+raaghavanum kumaar vannu
+raaghavan-um kumaar vannu
+Raghavan-COORD Kumar come.PAST
+Raghavan and Kumar came
+
+# It's ungrammatical to put the suffix on the verb
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Coordination}
+raaghavan kumaar vannum
+raaghavan kumaar vann-um
+Raghavan Kumar come.PAST-COORD
+Raghavan and Kumar came
+
+
+Source: {A:134}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Coordination}
+raaman kr^shanaaneyum goovindan maadhavaneyum kanatau
+raaman kr^shanaane-yum goovindan maadhavane-yum kanatau
+Raman Krishnan.ACC-COORD Govindan Madhavan.ACC-COORD see.PAST
+Raman saw Krishnan and Govidan saw Madhavan.
+
+# It's ungrammatical to mark only one of the NPs with the coordinating suffix
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Coordination}
+raaman kr^shanaane goovindan maadhavaneyum kanatau
+raaman kr^shanaane goovindan maadhavane-yum kanatau
+Raman Krishnan.ACC Govindan Madhavan.ACC-COORD see.PAST
+Raman saw Krishnan and Govidan saw Madhavan.
+
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Coordination}
+raaman kr^shanaaneyum goovindan maadhavane kanatau
+raaman kr^shanaane-yum goovindan maadhavane kanatau
+Raman Krishnan.ACC-COORD Govindan Madhavan.ACC see.PAST
+Raman saw Krishnan and Govidan saw Madhavan.
+
+# It's ungrammatical to put the suffix on the Subject
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Coordination}
+raamanum kr^shanaane goovindanum maadhavane kanatau
+raaman-um kr^shanaane goovindan-um maadhavane kanatau
+Raman-COORD Krishnan.ACC Govindan-COORD Madhavan.ACC see.PAST
+Raman saw Krishnan and Govidan saw Madhavan.
+
+# It's ungrammatical to put the suffix on the verb
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Coordination}
+raaman kr^shanaane goovindan maadhavane kanatauyum
+raaman kr^shanaane goovindan maadhavane kanatau-yum
+Raman Krishnan.ACC Govindan Madhavan.ACC see.PAST-COORD
+Raman saw Krishnan and Govidan saw Madhavan.
+
+
+#<Embedded>
+
+Source: {a:48}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Embedded questions}
+kumaar naalae varumoo ennə kutatai coodiccu
+kumaar naalae varumoo ennə kutatai coodiccu
+Kumar tomorrow come.FUT QP child ask.PAST
+the child asked whether Kumar would come tomorrow.
+
+# it would be ungrammatical to leave out the QP.
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Embedded questions}
+kumaar naalae varumoo kutatai coodiccu
+kumaar naalae varumoo kutatai coodiccu
+Kumar tomorrow come.FUT child ask.PAST
+the child asked whether Kumar would come tomorrow.
+
+# it might be ungrammatical to have the QP precede the verb, or follow the other verb.
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Embedded questions}
+kumaar naalae varumoo kutatai coodiccu ennə 
+kumaar naalae varumoo kutatai coodiccu ennə 
+Kumar tomorrow come.FUT child ask.PAST QP 
+the child asked whether Kumar would come tomorrow.
+
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Embedded questions}
+kumaar naalae ennə varumoo kutatai coodiccu
+kumaar naalae ennə varumoo kutatai coodiccu
+Kumar tomorrow QP come.FUT child ask.PAST
+the child asked whether Kumar would come tomorrow.
+
+
+#<Modals>
+
+Source: {a:308}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Modals}
+enikkə kuraccə duuram veegam nataakkaam
+enikkə kuraccə duuram veegam nataakk-aam
+I.DAT a_little distance fast walk-can
+I can walk fast for a short distance
+
+# ungrammatical to use a non-dative subject
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Modals}
+njaaan kuraccə duuram veegam nataakkaam
+njaaan kuraccə duuram veegam nataakk-aam
+I.NOM a_little distance fast walk-can
+I can walk fast for a short distance
+
+Source: {WBannister}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Modals}
+enne kuraccə duuram veegam nataakkaam
+enne kuraccə duuram veegam nataakk-aam
+I.ACC a_little distance fast walk-can
+I can walk fast for a short distance
+

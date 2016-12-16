@@ -1,0 +1,134 @@
+-------------------------------------------------------
+Comments
+
+ I chose 'free' word order because in main clauses any word order is
+ possible, but in subordinate clauses, the word order is SOV. I didn't
+ see this option so I chose the word order of main clauses.
+
+This is an interesting thing to model, and yes, the word order
+library doesn't cover it yet.  I think the solution is to make use
+of the feature MC, and make sure that the combinations of head-subj
+and head-comp that give rise to non-SOV orders say [MC +] on them.
+Then the heads selecting for subordinate clauses (and other
+subordinate contexts) can require [MC -].  (MC is an existing
+feature used to model phenomena restricted to matrix or subordinate
+clauses.)  Basically, I think you want subj-head to be underspecified
+for MC, and to split comp-head into two separate rules: one which
+is MC + and specifically requires an empty SUBJ list on the head
+daughter, and one which is underspecified for MC and specifically
+requires a non-empty SUBJ list.  head-comp and head-subj would
+be [MC +].  I think you also want all of these guys to identify
+the MC value of mother and head-daughter.  (File this away for when
+we get to subordinate clauses.)
+
+ The verbal inflection appears on finite verbs as a suffix, and spelled
+ -chu.  The adverb, spelled 'mana', is an independent modifier of S.
+
+Does that adverb have a fixed position?  The analysis of the
+required together case has the adverb actually appearing as a complement
+of the verb.  Is the adverb's position consistent with this?  What
+about in subordinate clauses?  If not, then the analysis of negation
+provided for your starter grammar is likely wrong...
+
+ I specified this way, but the adverb can be 'ama' if it appears in an
+ imperative sentence.
+
+This is fine.  When/if we add imperatives, you'll want to add to the
+negation analysis accordingly.
+
+ VPs are coordinated in the same fashion but I couldn't put them in the
+ questionnaire, so I just specified the two patterns found in Quechua.
+
+The idea is to extend that part of the questionnaire so that you
+can put in as many as you want...
+
+ There are several way of forming yes/no questions, and the above is
+ just one of them. There is another pattern where the question marker
+ co-occurs with a topic marker. Also, the question marker can be placed
+ on the constituent the speaker wants to ask about.
+
+Where does the question marker + topic marker combination appear within
+the sentence?
+
+ In LKB, only the sentence 'Mary comes' parsed (and it parsed as I
+ expected), but none of the sentences in the testsuite parsed in the
+ tsdb. The above sentence parsed in the LKB because the noun doesn't
+ have any case marker, but the second sentence 'Mariya allgu-ta maqan'
+ didn't parse because of the direct object taking the accusative
+ marker, which I haven't specified in the grammar. No sentence parsed
+ in the tsdb because simply the lexicon coverage was VERY low.
+
+?  But it does sound like you specified an accusative case marker
+in the grammar.  ... oops, you didn't submit your grammar, so I can't
+check.  But this suggests that you did:
+
+ Features:
+
+ Nominative-Accusative
+
+ nominative: unmarked
+ accusative: suffix, spelled -ta
+
+
+ After expanding the lexicon, I got 15 sentences parsed. I only got
+ simple intransitive and transitive sentences parsed and there was no
+ undergeneration or overgeneration but it didn't parse sentences with
+ fancy suffixes because either I didn't have enough lexical entries in
+ the lexicon file or I haven't taken care of subordinator, case
+ markers, agreement, and tense/aspect.
+
+Actually, if there are sentences in your test suite that are
+supposed to be grammatical but aren't parsing, that's undergeneration.
+
+
+ If Quechua had a fixed word order, the agreement wouldn't've
+ been so bad, but the word order is quite flexible. This will probably
+ makes it hard to keep track of the person of the subject and the
+ object.
+
+In point of fact, these are independent, so it doesn't matter.  That
+is, agreement will be as hard/easy with free word order as it would
+have been with fixed word order.
+
+ Also, the objects of ditransitive verbs may or may not take
+ the accusative marker (the indirect object tend to take the accusative
+ case marker but the direct object do not have to). If the direct
+ object doesn't have the accusative marker in a sentence, it looks as
+ if tehre were two NPs taking the nominative case (which is marked
+ null). In speech, you can tell which NP is the subject, but I'm not
+ sure if there's any systematic way of telling which one's which
+ without any context.
+
+We model this as ambiguity, then.  That is, more than one parse
+for the same string.  You'll want to clarify where the unmarked
+(apparently nominative) NPs can occur.  The most likely solution
+is that you underspecify the case required on the complements
+of ditransitives, so that acc and nom are both possible.
+
+ Another thing that I think I'll have a hard time with is the ordering
+ of the suffixes. There are some suffixes that have to come before the
+ verb, and others come after. If I don't specify the ordering of those
+ suffixes, I'll either end up with overgeneration or undergeneration.
+
+We have good ways of handling this.  Prefix/suffix is just in how
+you specify the %prefix or %suffix line in the lexical rule instance.
+Relative order of attachment is usually handled by typing the DTR
+value of the lexical rules....
+
+ The question sentence formation in Quechua is probably impossible to
+ cover because you need to know the speaker's intention in order to
+ form grammatical question sentences with the intended meaning.
+
+I don't agree.  We're trying to come up with form-meaning pairs,
+not forms for particular meanings someone has in mind.
+
+ I noticed that some sentences wouldn't parse simply because we haven't
+ done pre/post positional phrases in the test suite (like ablative
+ case, locative case etc etc). If we are going to cover them, I'll have
+ a chance to work on those sentences, but if not, I'll probably have to
+ remove them.
+
+No harm in leaving them in...
+
+You'll need to revise your lexical entries for pronouns and
+proper names to get the target semantic representations.

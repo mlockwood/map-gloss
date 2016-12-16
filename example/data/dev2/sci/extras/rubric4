@@ -1,0 +1,325 @@
+
+Notes
+-------------------------------------------------------
+
+In Sri Lanka Malay, the clitic =si is used to mark Yes-No questions. It can be attached to the verb when the whole sentence is questioned or it can also be attached to a NP if only a portion of the sentence is question. It is also possible to see =si being attached to more than one element in a sentence (Nordhoff 2009).
+
+EB> It sounds like the clitic functions also as a focus marker.  
+When only a part of the sentence is being questioned, that part
+is in focus.  This will be something to work on when we
+get to information structure.
+
+ Clitics must be applied to all coordinated constituents whereas the same rule does not apply to NPs, PPs and clauses.
+
+EB> I don't understand this sentence.  NPs PPs and clauses are all
+kinds of constituents.  So what is the difference?
+
+It is also possible and grammatical to construct a sentence with unmarked coordination for constituents, NPs, PPs and clauses.
+
+EB> Similarly here. What do you mean by "constituents"?
+
+Derang karang arà-blaajar cinggala=le English=le
+3pl now non.past-learn Sinhala=addit English=addit
+'They study in Sinhala and English now.'
+
+EB> Is "Sinhala and English" the complement of "learn" in this
+sentence?  Where does the "in" meaning come from?
+
+To model coordination in the customization matrix, I have created a coordination strategy for each marked clitic. For each strategy that involves coordination marking with clitics, I have specified that the coordination of nouns, NPs, VPs and sentences to be marked in an omnisyndeton pattern by the respective clitic appearing as a word after the coordinand. I have also defined a separate strategy to address unmarked coordination and that is, nouns, NPs, VPs and sentences marked in an asyndeton pattern.
+
+EB> This sounds good.
+
+ These strategies did not completely model the coordination phenomena in Sri Lanka Malay. There was no option to create a strategy to specify that clitics, if used in the coordination marking of constituents, must appear after each coordinand but at the same time, the same rule should not be applied to NPs, VPs or sentences.
+
+EB> I don't know what this means.  Can you show me an example
+(on GoPost) that is not getting the correct analysis because of this?
+
+Bìssar ruuma hatthu aada.
+big house indef exist.
+‘There is a big house.’
+
+Baae arà-nyaanyi.
+good=dat non.past-sing.
+‘He sings well.’
+
+EB> These are the types of examples that we are interested in for
+present purposes (modification); we're also interested in adjectives
+used as predicates.  "Attributive" refers to adjectives in their use
+as modifiers of nouns, as opposed to as predicates or nominalized.
+
+Adverbs in Sri Lanka Malay is a small class of words and they may be combined with postpositions (Nordhoff 2009). Some examples of adverbs are shown below:
+
+EB> Where in the clause can adverbs appear? (When they
+are modifying verbs, not when they are modifying adjectives.)
+
+Tony Hassan uncle=nang asà-kaasi aada duvith athi-mintha ambel=si?
+Tony Hassan uncle=dat cp-give exist money irr-ask take=interr
+‘Shall I ask for the money you gave to uncle Tony Hassan?’
+
+EB> This is an example of a relative clause, which is not
+the kind of embedded clause we are interested in.
+
+Ini records bannyak kamauvan athi-jaadi katha kithang arà-iingath.
+prox records much valuable irr=become quot 1pl non.past-think
+‘We think that these records will become very valuable in the future.’
+
+EB> This is a good example.  The "quot" element is probably
+some sort of complementizer.
+
+Suda inni moonyeth pada aapa thaau=si anà-gijja
+so prox monkey pl what know=interr past-do!
+‘Do you know what these monkeys then did!?’
+
+EB> This example is strange!  The verb for the embedded clause
+(do) is separated from its arguments by the verb of the matrix
+clause (know). Do you have other examples of embedded
+clauses with "know"?
+
+Clauses in Sri Lanka Malay normally consists of a predicate in final position, and a number of adjuncts and arguments to the left. The order of the arguments and adjuncts is free, there is no privileged argument such as "subject" or "object" and all arguments share the same prominence. Dropping of arguments is not uncommon and there is usually a lack of rigid constituency within the clause, with the exception of the verb which must be the last or second to last element. That is, arbitrary number of arguments can occur before the verb but only one can occur after (Nordhoff 2009).
+
+EB> This sounds like general remarks on clauses, but no a description
+of how clausal complements (the particular kind of embedded clause
+we're interested in) works.
+
+EB> Under non-verbal predicates, there should also be discussion
+and examples of adjectives used in predicative position and PPs
+(e.g., locatives), if you can find those.
+
+The following four analyzed ungrammatical examples occurred because I have tentatively defined the copula asàdhaathang and dhaathang as unknown verbs in the customization matrix. Copula, appearing at the end of sentence should have been judged as ungrammatical. But since the copulas were defined as verbs, they were therefore analyzed in error.
+
+EB> So where is the copula allowed to occur?  Does it take
+verbal morphology?  When we get to non-verbal predicates, you can
+implement an analysis that puts the copula in the right place.
+
+This ungrammatical example occurred because both braani (strong) and sgiithu (that.much or so) were both tentatively specified as unknown verbs in the customization matrix. Since they were classified under verbs, the sentence would be analyzed in error.
+
+EB> Why enter these as verbs? I'd guess that braani is an adjective
+and sgiithu is an adverb.
+
+2. Coordination marked with clitics, which did not produce any analyzed sentences even though they have been (wrongly?) defined in the customization matrix.
+
+EB> When you point this out in your write up, it is very helpful
+to have a specific example included there for me to try parsing so
+I can give better advice.  I found this example to try:
+
+#10-1 Coordination - Argument coordination marked with le
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Derang karang aràblaajar cinggala le English le
+Derang karang arà-blaajar cinggala=le English=le
+3pl now non.past-learn Sinhala=addit English=addit
+'They study in Sinhala and English now.'
+
+... and it turns out that there are several reasons it is not parsing.
+
+1. There is a bug in the matrix that is making the lex entries
+for the marker =le (and similar) not load.  You can work around this
+by taking lexical entries like this:
+
+le := conj-lex &
+  [ STEM < "le" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "1" & "2" ].
+
+and replacing them with two like this:
+
+le-1 := conj-lex &
+  [ STEM < "le" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "1" ].
+
+le-2 := conj-lex &
+  [ STEM < "le" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "2" ].
+
+(The problem is the & in the CFORM value.) 
+
+2. There's an adverb in the sentence, which your grammar
+doesn't handle yet ("now").
+
+3. SVO order.  You should look into why this example isn't V-final :)
+
+Once I've edited the grammar as suggested above, this one does
+parse:
+
+Derang cinggala le English le aràblaajar 
+
+5. DET INDEF Noun INDEF or DET DET Noun DET sentence construct, which is not captured in the grammar. For example:
+
+Itthu atthu=story=atthu
+=story=
+'This is a story.'
+
+EB> This will also be under "non-verbal predicates".
+
+Finally, there seemed to be cases of overgeneration caused by the unmarked coordination defined in the customization matrix. For example the following sentence generated 20 parses where army and captain were treated as coordinands.
+
+asàdhaathangapa incayang army captain.
+copula 3s.polite army captain
+‘He was an army captain.'
+
+EB> Actually, that one doesn't parse at all, because of the
+position of the copula.  I looked around and saw that it
+was item #110 that you meant.  (In the future, please double
+check when you are putting in examples like this, because I
+like to be able to test them.)  
+
+I will demonstrate how to explore sources of parse ambiguity
+in class tomorrow with this example.  
+
+EB> It looks like the coordination rule is also giving
+you some false coverage of examples like this one:
+
+#2-2, Pronouns 1SG, Case DAT
+Source: a:502
+Vetted: s
+Judgment: g
+Phenomena: pronouns, case
+Sedang màciong kamauvan
+See=nang mà-ciong kamauvan
+1S=DAT INF-kiss want
+'I want to kiss.'
+
+If you look at the MRS produced, you can see that coordination
+is firing, where it shouldn't.  The problem seems to be that 
+the opt-comp rule is discharging the complement requirement
+of "want", which furthermore should be an auxiliary (like can)
+and not a transitive verb, at least in this sentence.
+
+#9-1 Matrix yes-no question
+Source: a:512
+Vetted: s
+Judgment: g
+Phenomena: Matrix yes-no questions
+Se pe uumur masàbiilan si?
+Se=pe uumur masà-biilan=si?
+1=poss age must-tell=interr
+‘(Do I) have to tell my age?’
+
+EB> I tried testing this one, and it looks like "age" is entered
+as a verb, not a noun.
+
+#9-4 Matrix yes-no question Ungrammatical
+Source: a:512
+Vetted: s
+Judgment: u
+Phenomena: Matrix yes-no questions
+Lorang nang see yang si ingathan?
+Lorang=nang see=yang=si ingath-an?
+2pl=dat 1s=acc=interr think-nmlzr
+‘Is it me in your thoughts/is it me that you are thinking of?’
+
+EB> What's ungrammatical about this one?
+Is that nomializer required before =si but not
+allowed in declaratives?
+
+#10-2 Coordination - Argument coordination marked with le Ungrammatical
+Source: c
+Vetted: s
+Judgment: u
+Phenomena: Coordination
+Derang karang aràblaajar cinggala English
+Derang karang arà-blaajar cinggala English
+3pl now non.past-learn Sinhala English
+'They study in Sinhala English now.'
+
+EB> What's ungrammatical about this one?  I thought you said that
+sci also has asyndetic coordination.
+
+#10-15 Coordination - Unmarked coordination
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Cinggala aada mlaayu aada Moor aada mulbar aada le.
+Cinggala aada mlaayu aada Moor aada mulbar aada=le.
+Sinhala exist Malay exist Moor exist Tamil exist=addit
+'There are Sinhalese, there are Malays, there are Moors and there are also Hindus.'
+
+EB> This is grammatical, with the marker just on the last one?
+
+#10-17 Coordination - Unmarked coordination
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Kaaki thaangan kuvathan thraada.
+Kaaki thaangan kuvathan thraada.
+foot hand strong-nmlzr neg.exist
+'You have no strength in your arms or legs.'
+
+EB> There's also something else going on this sentence.
+Is "foot hand" a topic?
+
+#11-1 Attributive Adjectives - without Indefiniteness marker
+Source: a:212
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+incayang bìssar
+incayang bìssar
+3s.polite big
+‘He is big.’
+
+EB> This is an example of a predicative adjective, not an
+attributive adjective.
+
+#11-3 Attributive Adjectives
+Source: a:198
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+Incayang pullang aràoomong.
+Incayang pullang arà-oomong.
+3s.polite slow=dat non.past-speak
+‘He speaks softly.’
+
+EB> This is an example of an adverb.
+
+#11-7 Attributive Adjectives - with Indefiniteness marker
+Source: a:212
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+Incayang hatthu iitham
+Incayang hatthu iitham
+3s.polite indef black
+‘He is a dark person.’
+
+EB> This looks like a predicate NP to me.
+
+EB> Your embedded clause examples are too complicated --- too
+much else going on in them.  You'll want to find simpler examples,
+where the embedded clause is one that your grammar can handle.
+(And then the task is just adding the clause-embedding verb, plus
+the complementizer.)
+
+#13-6 Embedded Clauses
+Source: a:251
+Vetted: s
+Judgment: g
+Phenomena: Embedded Declaratives
+kithang aràiingath ini records bannyak kamauvan athijaadi katha.
+kithang arà-iingath ini records bannyak kamauvan athi-jaadi katha.
+1pl non.past-think prox records much valuable irr=become quot
+‘These records will become very valuable in the future, we thought.’
+
+#13-8 Embedded Clauses Ungrammatical
+Source: a:230
+Vetted: s
+Judgment: u
+Phenomena: Embedded Declaratives
+anàiingath Andare bannyak haari dering saapa yang ke thàràenco kang katha.
+anà-iingath Andare bannyak haari=dering saapa=yang=ke thàrà-enco-kang katha.
+past-think Andare much day=abl who=pat=simil neg.past-fool-cause quot.
+‘All the days that he had not taken anyone for a fool, Andare thought.’
+
+EB> Why is #13-6 grammatical, but #13-8 ungrammatical?  Is it
+that the clause can go after the matrix verb, but the subject still has to
+be before the verb?
+
+
+

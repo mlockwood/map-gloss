@@ -1,0 +1,2264 @@
+<xigt-corpus xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <igt id="igt1" doc-id="lgcol:sci" line-range="1-3" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="1" tag="M">  author vetted: s</item>
+      <item id="r2" line="2" tag="L">  Andare guula anà-maakang</item>
+      <item id="r3" line="3" tag="G">  Andare sugar PAST-eat</item>
+      <item id="r4" line="4" tag="T">  'Andare ate sugar'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="1" tag="M">  author vetted: s</item>
+      <item id="c2" alignment="r2" line="2" tag="L">  Andare guula anà-maakang</item>
+      <item id="c3" alignment="r3" line="3" tag="G">  Andare sugar PAST-eat</item>
+      <item id="c4" alignment="r4" line="4" tag="T">  'Andare ate sugar'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="1" tag="M">s</item>
+      <item id="n2" alignment="c2" line="2" tag="L">Andare guula anà-maakang</item>
+      <item id="n3" alignment="c3" line="3" tag="G">Andare sugar PAST-eat</item>
+      <item id="n4" alignment="c4" line="4" tag="T">Andare ate sugar</item>
+    </tier>
+  </igt>
+  <igt id="igt2" doc-id="lgcol:sci" line-range="13-15" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="13" tag="M">  author vetted: s</item>
+      <item id="r2" line="14" tag="L">  guula anà-maakang Andare</item>
+      <item id="r3" line="15" tag="G">  sugar PAST-eat Andare</item>
+      <item id="r4" line="16" tag="T">  'eat sugar is Andare'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="13" tag="M">  author vetted: s</item>
+      <item id="c2" alignment="r2" line="14" tag="L">  guula anà-maakang Andare</item>
+      <item id="c3" alignment="r3" line="15" tag="G">  sugar PAST-eat Andare</item>
+      <item id="c4" alignment="r4" line="16" tag="T">  'eat sugar is Andare'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="13" tag="M">s</item>
+      <item id="n2" alignment="c2" line="14" tag="L">guula anà-maakang Andare</item>
+      <item id="n3" alignment="c3" line="15" tag="G">sugar PAST-eat Andare</item>
+      <item id="n4" alignment="c4" line="16" tag="T">eat sugar is Andare</item>
+    </tier>
+  </igt>
+  <igt id="igt3" doc-id="lgcol:sci" line-range="17-19" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="17" tag="M">  a:502 vetted: s</item>
+      <item id="r2" line="18" tag="L">  See=nang mà-ciong kamauvan</item>
+      <item id="r3" line="19" tag="G">  1S=DAT INF-kiss want</item>
+      <item id="r4" line="20" tag="T">  'I want to kiss.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="17" tag="M">  a:502 vetted: s</item>
+      <item id="c2" alignment="r2" line="18" tag="L">  See=nang mà-ciong kamauvan</item>
+      <item id="c3" alignment="r3" line="19" tag="G">  1S=DAT INF-kiss want</item>
+      <item id="c4" alignment="r4" line="20" tag="T">  'I want to kiss.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="17" tag="M">a:502 vetted: s</item>
+      <item id="n2" alignment="c2" line="18" tag="L">See=nang mà-ciong kamauvan</item>
+      <item id="n3" alignment="c3" line="19" tag="G">1S=DAT INF-kiss want</item>
+      <item id="n4" alignment="c4" line="20" tag="T">I want to kiss.</item>
+    </tier>
+  </igt>
+  <igt id="igt4" doc-id="lgcol:sci" line-range="21-23" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="21" tag="M">  a:484 vetted: s</item>
+      <item id="r2" line="22" tag="L">  Umma see=yang su-braanak</item>
+      <item id="r3" line="23" tag="G">  mother 1S=ACC past-give.birth</item>
+      <item id="r4" line="24" tag="T">  'My mother gave birth to me.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="21" tag="M">  a:484 vetted: s</item>
+      <item id="c2" alignment="r2" line="22" tag="L">  Umma see=yang su-braanak</item>
+      <item id="c3" alignment="r3" line="23" tag="G">  mother 1S=ACC past-give.birth</item>
+      <item id="c4" alignment="r4" line="24" tag="T">  'My mother gave birth to me.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="21" tag="M">a:484 vetted: s</item>
+      <item id="n2" alignment="c2" line="22" tag="L">Umma see=yang su-braanak</item>
+      <item id="n3" alignment="c3" line="23" tag="G">mother 1S=ACC past-give.birth</item>
+      <item id="n4" alignment="c4" line="24" tag="T">My mother gave birth to me.</item>
+    </tier>
+  </igt>
+  <igt id="igt5" doc-id="lgcol:sci" line-range="25-27" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="25" tag="M">  a:483 vetted: s</item>
+      <item id="r2" line="26" tag="L">  Goo=nang thàràsìggar</item>
+      <item id="r3" line="27" tag="G">  1s.familiar=DAT sick</item>
+      <item id="r4" line="28" tag="T">  'I am sick.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="25" tag="M">  a:483 vetted: s</item>
+      <item id="c2" alignment="r2" line="26" tag="L">  Goo=nang thàràsìggar</item>
+      <item id="c3" alignment="r3" line="27" tag="G">  1s.familiar=DAT sick</item>
+      <item id="c4" alignment="r4" line="28" tag="T">  'I am sick.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="25" tag="M">a:483 vetted: s</item>
+      <item id="n2" alignment="c2" line="26" tag="L">Goo=nang thàràsìggar</item>
+      <item id="n3" alignment="c3" line="27" tag="G">1s.familiar=DAT sick</item>
+      <item id="n4" alignment="c4" line="28" tag="T">I am sick.</item>
+    </tier>
+  </igt>
+  <igt id="igt6" doc-id="lgcol:sci" line-range="29-31" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="29" tag="M">  a:483 vetted: s</item>
+      <item id="r2" line="30" tag="L">  Police=dering su-dhaathang</item>
+      <item id="r3" line="31" tag="G">  police=INSTR PAST-come</item>
+      <item id="r4" line="32" tag="T">  'The police came.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="29" tag="M">  a:483 vetted: s</item>
+      <item id="c2" alignment="r2" line="30" tag="L">  Police=dering su-dhaathang</item>
+      <item id="c3" alignment="r3" line="31" tag="G">  police=INSTR PAST-come</item>
+      <item id="c4" alignment="r4" line="32" tag="T">  'The police came.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="29" tag="M">a:483 vetted: s</item>
+      <item id="n2" alignment="c2" line="30" tag="L">Police=dering su-dhaathang</item>
+      <item id="n3" alignment="c3" line="31" tag="G">police=INSTR PAST-come</item>
+      <item id="n4" alignment="c4" line="32" tag="T">The police came.</item>
+    </tier>
+  </igt>
+  <igt id="igt7" doc-id="lgcol:sci" line-range="33-35" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="33" tag="M">  a:483 vetted: s</item>
+      <item id="r2" line="34" tag="L">  Titanic kappal=yang su-thìnggalam</item>
+      <item id="r3" line="35" tag="G">  Titanic ship=ACC PAST-sink</item>
+      <item id="r4" line="36" tag="T">  'The ship "Titanic" sank.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="33" tag="M">  a:483 vetted: s</item>
+      <item id="c2" alignment="r2" line="34" tag="L">  Titanic kappal=yang su-thìnggalam</item>
+      <item id="c3" alignment="r3" line="35" tag="G">  Titanic ship=ACC PAST-sink</item>
+      <item id="c4" alignment="r4" line="36" tag="T">  'The ship "Titanic" sank.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="33" tag="M">a:483 vetted: s</item>
+      <item id="n2" alignment="c2" line="34" tag="L">Titanic kappal=yang su-thìnggalam</item>
+      <item id="n3" alignment="c3" line="35" tag="G">Titanic ship=ACC PAST-sink</item>
+      <item id="n4" alignment="c4" line="36" tag="T">The ship "Titanic" sank.</item>
+    </tier>
+  </igt>
+  <igt id="igt8" doc-id="lgcol:sci" line-range="37-39" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="37" tag="M">  b:16 vetted: s</item>
+      <item id="r2" line="38" tag="L">  See=ppe naama Mohomed Imran Salim</item>
+      <item id="r3" line="39" tag="G">  1S=POSS name Mohomed Imran Salim	 </item>
+      <item id="r4" line="40" tag="T">  'My name is Mohomed Imran Salim.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="37" tag="M">  b:16 vetted: s</item>
+      <item id="c2" alignment="r2" line="38" tag="L">  See=ppe naama Mohomed Imran Salim</item>
+      <item id="c3" alignment="r3" line="39" tag="G">  1S=POSS name Mohomed Imran Salim	 </item>
+      <item id="c4" alignment="r4" line="40" tag="T">  'My name is Mohomed Imran Salim.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="37" tag="M">b:16 vetted: s</item>
+      <item id="n2" alignment="c2" line="38" tag="L">See=ppe naama Mohomed Imran Salim</item>
+      <item id="n3" alignment="c3" line="39" tag="G">1S=POSS name Mohomed Imran Salim</item>
+      <item id="n4" alignment="c4" line="40" tag="T">My name is Mohomed Imran Salim.</item>
+    </tier>
+  </igt>
+  <igt id="igt9" doc-id="lgcol:sci" line-range="41-43" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="41" tag="M">  b:23 vetted: s</item>
+      <item id="r2" line="42" tag="L">  svaara hatthu derang=nang su-dìnngar</item>
+      <item id="r3" line="43" tag="G">  noise INDEF 3PL=DAT PAST-hear</item>
+      <item id="r4" line="44" tag="T">  'They heard a noise.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="41" tag="M">  b:23 vetted: s</item>
+      <item id="c2" alignment="r2" line="42" tag="L">  svaara hatthu derang=nang su-dìnngar</item>
+      <item id="c3" alignment="r3" line="43" tag="G">  noise INDEF 3PL=DAT PAST-hear</item>
+      <item id="c4" alignment="r4" line="44" tag="T">  'They heard a noise.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="41" tag="M">b:23 vetted: s</item>
+      <item id="n2" alignment="c2" line="42" tag="L">svaara hatthu derang=nang su-dìnngar</item>
+      <item id="n3" alignment="c3" line="43" tag="G">noise INDEF 3PL=DAT PAST-hear</item>
+      <item id="n4" alignment="c4" line="44" tag="T">They heard a noise.</item>
+    </tier>
+  </igt>
+  <igt id="igt10" doc-id="lgcol:sci" line-range="45-47" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="45" tag="M">  b:23 vetted: s</item>
+      <item id="r2" line="46" tag="L">  See=yang police=dering nya-preksa</item>
+      <item id="r3" line="47" tag="G">  1S=ACC police=ABL PAST-enquire</item>
+      <item id="r4" line="48" tag="T">  'I was questioned by the police.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="45" tag="M">  b:23 vetted: s</item>
+      <item id="c2" alignment="r2" line="46" tag="L">  See=yang police=dering nya-preksa</item>
+      <item id="c3" alignment="r3" line="47" tag="G">  1S=ACC police=ABL PAST-enquire</item>
+      <item id="c4" alignment="r4" line="48" tag="T">  'I was questioned by the police.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="45" tag="M">b:23 vetted: s</item>
+      <item id="n2" alignment="c2" line="46" tag="L">See=yang police=dering nya-preksa</item>
+      <item id="n3" alignment="c3" line="47" tag="G">1S=ACC police=ABL PAST-enquire</item>
+      <item id="n4" alignment="c4" line="48" tag="T">I was questioned by the police.</item>
+    </tier>
+  </igt>
+  <igt id="igt11" doc-id="lgcol:sci" line-range="49-51" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="49" tag="M">  b:24 vetted: s</item>
+      <item id="r2" line="50" tag="L">  See=nang Farook=nang bole-puukul</item>
+      <item id="r3" line="51" tag="G">  1S=DAT Farook=DAT can-hit</item>
+      <item id="r4" line="52" tag="T">  'I can hit Farook.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="49" tag="M">  b:24 vetted: s</item>
+      <item id="c2" alignment="r2" line="50" tag="L">  See=nang Farook=nang bole-puukul</item>
+      <item id="c3" alignment="r3" line="51" tag="G">  1S=DAT Farook=DAT can-hit</item>
+      <item id="c4" alignment="r4" line="52" tag="T">  'I can hit Farook.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="49" tag="M">b:24 vetted: s</item>
+      <item id="n2" alignment="c2" line="50" tag="L">See=nang Farook=nang bole-puukul</item>
+      <item id="n3" alignment="c3" line="51" tag="G">1S=DAT Farook=DAT can-hit</item>
+      <item id="n4" alignment="c4" line="52" tag="T">I can hit Farook.</item>
+    </tier>
+  </igt>
+  <igt id="igt12" doc-id="lgcol:sci" line-range="53-55" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="53" tag="M">  a:272 vetted: s</item>
+      <item id="r2" line="54" tag="L">  Kumpulan su-mampus</item>
+      <item id="r3" line="55" tag="G">  association PAST-dead</item>
+      <item id="r4" line="56" tag="T">  'The association became defunct.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="53" tag="M">  a:272 vetted: s</item>
+      <item id="c2" alignment="r2" line="54" tag="L">  Kumpulan su-mampus</item>
+      <item id="c3" alignment="r3" line="55" tag="G">  association PAST-dead</item>
+      <item id="c4" alignment="r4" line="56" tag="T">  'The association became defunct.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="53" tag="M">a:272 vetted: s</item>
+      <item id="n2" alignment="c2" line="54" tag="L">Kumpulan su-mampus</item>
+      <item id="n3" alignment="c3" line="55" tag="G">association PAST-dead</item>
+      <item id="n4" alignment="c4" line="56" tag="T">The association became defunct.</item>
+    </tier>
+  </igt>
+  <igt id="igt13" doc-id="lgcol:sci" line-range="57-59" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="57" tag="M">  a:271 vetted: s</item>
+      <item id="r2" line="58" tag="L">  Umma su-mnniiňğgal</item>
+      <item id="r3" line="59" tag="G">  mother PAST-die</item>
+      <item id="r4" line="60" tag="T">  'My mother also died.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="57" tag="M">  a:271 vetted: s</item>
+      <item id="c2" alignment="r2" line="58" tag="L">  Umma su-mnniiňğgal</item>
+      <item id="c3" alignment="r3" line="59" tag="G">  mother PAST-die</item>
+      <item id="c4" alignment="r4" line="60" tag="T">  'My mother also died.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="57" tag="M">a:271 vetted: s</item>
+      <item id="n2" alignment="c2" line="58" tag="L">Umma su-mnniiňğgal</item>
+      <item id="n3" alignment="c3" line="59" tag="G">mother PAST-die</item>
+      <item id="n4" alignment="c4" line="60" tag="T">My mother also died.</item>
+    </tier>
+  </igt>
+  <igt id="igt14" doc-id="lgcol:sci" line-range="61-63" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="61" tag="M">  a:178 vetted: s</item>
+      <item id="r2" line="62" tag="L">  Singapore anà-peegang</item>
+      <item id="r3" line="63" tag="G">  SIngapore PAST-catch</item>
+      <item id="r4" line="64" tag="T">  'They captured Singapore.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="61" tag="M">  a:178 vetted: s</item>
+      <item id="c2" alignment="r2" line="62" tag="L">  Singapore anà-peegang</item>
+      <item id="c3" alignment="r3" line="63" tag="G">  SIngapore PAST-catch</item>
+      <item id="c4" alignment="r4" line="64" tag="T">  'They captured Singapore.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="61" tag="M">a:178 vetted: s</item>
+      <item id="n2" alignment="c2" line="62" tag="L">Singapore anà-peegang</item>
+      <item id="n3" alignment="c3" line="63" tag="G">SIngapore PAST-catch</item>
+      <item id="n4" alignment="c4" line="64" tag="T">They captured Singapore.</item>
+    </tier>
+  </igt>
+  <igt id="igt15" doc-id="lgcol:sci" line-range="65-67" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="65" tag="M">  a:167 vetted: s</item>
+      <item id="r2" line="66" tag="L">  Iceland=ka mlaayu thama-aada</item>
+      <item id="r3" line="67" tag="G">  Iceland=LOC Malay NEG.IRR-exist</item>
+      <item id="r4" line="68" tag="T">  'There will never be Malays in Iceland.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="65" tag="M">  a:167 vetted: s</item>
+      <item id="c2" alignment="r2" line="66" tag="L">  Iceland=ka mlaayu thama-aada</item>
+      <item id="c3" alignment="r3" line="67" tag="G">  Iceland=LOC Malay NEG.IRR-exist</item>
+      <item id="c4" alignment="r4" line="68" tag="T">  'There will never be Malays in Iceland.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="65" tag="M">a:167 vetted: s</item>
+      <item id="n2" alignment="c2" line="66" tag="L">Iceland=ka mlaayu thama-aada</item>
+      <item id="n3" alignment="c3" line="67" tag="G">Iceland=LOC Malay NEG.IRR-exist</item>
+      <item id="n4" alignment="c4" line="68" tag="T">There will never be Malays in Iceland.</item>
+    </tier>
+  </igt>
+  <igt id="igt16" doc-id="lgcol:sci" line-range="69-71" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="69" tag="M">  a:167 vetted: s</item>
+      <item id="r2" line="70" tag="L">  Iceland=ka mlaayu thàrà-aada</item>
+      <item id="r3" line="71" tag="G">  Iceland=LOC Malay NEG.IRR-exist</item>
+      <item id="r4" line="72" tag="T">  'There will never be Malays in Iceland.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="69" tag="M">  a:167 vetted: s</item>
+      <item id="c2" alignment="r2" line="70" tag="L">  Iceland=ka mlaayu thàrà-aada</item>
+      <item id="c3" alignment="r3" line="71" tag="G">  Iceland=LOC Malay NEG.IRR-exist</item>
+      <item id="c4" alignment="r4" line="72" tag="T">  'There will never be Malays in Iceland.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="69" tag="M">a:167 vetted: s</item>
+      <item id="n2" alignment="c2" line="70" tag="L">Iceland=ka mlaayu thàrà-aada</item>
+      <item id="n3" alignment="c3" line="71" tag="G">Iceland=LOC Malay NEG.IRR-exist</item>
+      <item id="n4" alignment="c4" line="72" tag="T">There will never be Malays in Iceland.</item>
+    </tier>
+  </igt>
+  <igt id="igt17" doc-id="lgcol:sci" line-range="77-79" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="77" tag="M">  a:170 vetted: s</item>
+      <item id="r2" line="78" tag="L">  See suuka thraa </item>
+      <item id="r3" line="79" tag="G">  1s like NEG</item>
+      <item id="r4" line="80" tag="T">  'I don't like (it)'.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="77" tag="M">  a:170 vetted: s</item>
+      <item id="c2" alignment="r2" line="78" tag="L">  See suuka thraa </item>
+      <item id="c3" alignment="r3" line="79" tag="G">  1s like NEG</item>
+      <item id="c4" alignment="r4" line="80" tag="T">  'I don't like (it)'.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="77" tag="M">a:170 vetted: s</item>
+      <item id="n2" alignment="c2" line="78" tag="L">See suuka thraa</item>
+      <item id="n3" alignment="c3" line="79" tag="G">1s like NEG</item>
+      <item id="n4" alignment="c4" line="80" tag="T">I don't like (it)'.</item>
+    </tier>
+  </igt>
+  <igt id="igt18" doc-id="lgcol:sci" line-range="85-87" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="85" tag="M">  a:255 vetted: s</item>
+      <item id="r2" line="86" tag="L">  Bìrras thraa</item>
+      <item id="r3" line="87" tag="G">  raw.rice NEG</item>
+      <item id="r4" line="88" tag="T">  'There is no rice.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="85" tag="M">  a:255 vetted: s</item>
+      <item id="c2" alignment="r2" line="86" tag="L">  Bìrras thraa</item>
+      <item id="c3" alignment="r3" line="87" tag="G">  raw.rice NEG</item>
+      <item id="c4" alignment="r4" line="88" tag="T">  'There is no rice.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="85" tag="M">a:255 vetted: s</item>
+      <item id="n2" alignment="c2" line="86" tag="L">Bìrras thraa</item>
+      <item id="n3" alignment="c3" line="87" tag="G">raw.rice NEG</item>
+      <item id="n4" alignment="c4" line="88" tag="T">There is no rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt19" doc-id="lgcol:sci" line-range="93-95" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="93" tag="M">  a:213 vetted: s</item>
+      <item id="r2" line="94" tag="L">  Aanak thàrà-thiiňğgi</item>
+      <item id="r3" line="95" tag="G">  child NEG.NONPAST-big</item>
+      <item id="r4" line="96" tag="T">  'The child did not grow tall.' </item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="93" tag="M">  a:213 vetted: s</item>
+      <item id="c2" alignment="r2" line="94" tag="L">  Aanak thàrà-thiiňğgi</item>
+      <item id="c3" alignment="r3" line="95" tag="G">  child NEG.NONPAST-big</item>
+      <item id="c4" alignment="r4" line="96" tag="T">  'The child did not grow tall.' </item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="93" tag="M">a:213 vetted: s</item>
+      <item id="n2" alignment="c2" line="94" tag="L">Aanak thàrà-thiiňğgi</item>
+      <item id="n3" alignment="c3" line="95" tag="G">child NEG.NONPAST-big</item>
+      <item id="n4" alignment="c4" line="96" tag="T">The child did not grow tall.</item>
+    </tier>
+  </igt>
+  <igt id="igt20" doc-id="lgcol:sci" line-range="97-99" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="97" tag="M">  a:213 vetted: s</item>
+      <item id="r2" line="98" tag="L">  Aanak thama-thiiňğgi</item>
+      <item id="r3" line="99" tag="G">  child NEG.NONPAST-big</item>
+      <item id="r4" line="100" tag="T">  'The child will never be tall.' </item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="97" tag="M">  a:213 vetted: s</item>
+      <item id="c2" alignment="r2" line="98" tag="L">  Aanak thama-thiiňğgi</item>
+      <item id="c3" alignment="r3" line="99" tag="G">  child NEG.NONPAST-big</item>
+      <item id="c4" alignment="r4" line="100" tag="T">  'The child will never be tall.' </item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="97" tag="M">a:213 vetted: s</item>
+      <item id="n2" alignment="c2" line="98" tag="L">Aanak thama-thiiňğgi</item>
+      <item id="n3" alignment="c3" line="99" tag="G">child NEG.NONPAST-big</item>
+      <item id="n4" alignment="c4" line="100" tag="T">The child will never be tall.</item>
+    </tier>
+  </igt>
+  <igt id="igt21" doc-id="lgcol:sci" line-range="101-103" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="101" tag="M">  a:213 vetted: s</item>
+      <item id="r2" line="102" tag="L">  Aanak thiiňğgi thraa</item>
+      <item id="r3" line="103" tag="G">  child big NEG</item>
+      <item id="r4" line="104" tag="T">  'The child is not tall.' </item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="101" tag="M">  a:213 vetted: s</item>
+      <item id="c2" alignment="r2" line="102" tag="L">  Aanak thiiňğgi thraa</item>
+      <item id="c3" alignment="r3" line="103" tag="G">  child big NEG</item>
+      <item id="c4" alignment="r4" line="104" tag="T">  'The child is not tall.' </item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="101" tag="M">a:213 vetted: s</item>
+      <item id="n2" alignment="c2" line="102" tag="L">Aanak thiiňğgi thraa</item>
+      <item id="n3" alignment="c3" line="103" tag="G">child big NEG</item>
+      <item id="n4" alignment="c4" line="104" tag="T">The child is not tall.</item>
+    </tier>
+  </igt>
+  <igt id="igt22" doc-id="lgcol:sci" line-range="105-107" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="105" tag="M">  a:250 vetted: s</item>
+      <item id="r2" line="106" tag="L">  Bannyak mà-biilang thàrboole</item>
+      <item id="r3" line="107" tag="G">  much INF-say cannot</item>
+      <item id="r4" line="108" tag="T">  '(I) can't tell you much.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="105" tag="M">  a:250 vetted: s</item>
+      <item id="c2" alignment="r2" line="106" tag="L">  Bannyak mà-biilang thàrboole</item>
+      <item id="c3" alignment="r3" line="107" tag="G">  much INF-say cannot</item>
+      <item id="c4" alignment="r4" line="108" tag="T">  '(I) can't tell you much.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="105" tag="M">a:250 vetted: s</item>
+      <item id="n2" alignment="c2" line="106" tag="L">Bannyak mà-biilang thàrboole</item>
+      <item id="n3" alignment="c3" line="107" tag="G">much INF-say cannot</item>
+      <item id="n4" alignment="c4" line="108" tag="T">can't tell you much.</item>
+    </tier>
+  </igt>
+  <igt id="igt23" doc-id="lgcol:sci" line-range="113-115" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="113" tag="M">  a:420 vetted: s</item>
+      <item id="r2" line="114" tag="L">  See avuliya atthu su-jaadi</item>
+      <item id="r3" line="115" tag="G">  1s saint INDEF PAST-become</item>
+      <item id="r4" line="116" tag="T">  'I have become a saint.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="113" tag="M">  a:420 vetted: s</item>
+      <item id="c2" alignment="r2" line="114" tag="L">  See avuliya atthu su-jaadi</item>
+      <item id="c3" alignment="r3" line="115" tag="G">  1s saint INDEF PAST-become</item>
+      <item id="c4" alignment="r4" line="116" tag="T">  'I have become a saint.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="113" tag="M">a:420 vetted: s</item>
+      <item id="n2" alignment="c2" line="114" tag="L">See avuliya atthu su-jaadi</item>
+      <item id="n3" alignment="c3" line="115" tag="G">1s saint INDEF PAST-become</item>
+      <item id="n4" alignment="c4" line="116" tag="T">I have become a saint.</item>
+    </tier>
+  </igt>
+  <igt id="igt24" doc-id="lgcol:sci" line-range="117-119" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="117" tag="M">  a:422 vetted: s</item>
+      <item id="r2" line="118" tag="L">  Ini maccan su-baavung kiyang</item>
+      <item id="r3" line="119" tag="G">  PROX tiger PAST-rise EVID</item>
+      <item id="r4" line="120" tag="T">  'The tiger apparently got up.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="117" tag="M">  a:422 vetted: s</item>
+      <item id="c2" alignment="r2" line="118" tag="L">  Ini maccan su-baavung kiyang</item>
+      <item id="c3" alignment="r3" line="119" tag="G">  PROX tiger PAST-rise EVID</item>
+      <item id="c4" alignment="r4" line="120" tag="T">  'The tiger apparently got up.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="117" tag="M">a:422 vetted: s</item>
+      <item id="n2" alignment="c2" line="118" tag="L">Ini maccan su-baavung kiyang</item>
+      <item id="n3" alignment="c3" line="119" tag="G">PROX tiger PAST-rise EVID</item>
+      <item id="n4" alignment="c4" line="120" tag="T">The tiger apparently got up.</item>
+    </tier>
+  </igt>
+  <igt id="igt25" doc-id="lgcol:sci" line-range="125-127" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="125" tag="M">  a:422 vetted: s</item>
+      <item id="r2" line="126" tag="L">  Itthu jaalang=ka ma-pii tharaboole</item>
+      <item id="r3" line="127" tag="G">  DIST road=loc INF-go cannot</item>
+      <item id="r4" line="128" tag="T">  'You could not take that road.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="125" tag="M">  a:422 vetted: s</item>
+      <item id="c2" alignment="r2" line="126" tag="L">  Itthu jaalang=ka ma-pii tharaboole</item>
+      <item id="c3" alignment="r3" line="127" tag="G">  DIST road=loc INF-go cannot</item>
+      <item id="c4" alignment="r4" line="128" tag="T">  'You could not take that road.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="125" tag="M">a:422 vetted: s</item>
+      <item id="n2" alignment="c2" line="126" tag="L">Itthu jaalang=ka ma-pii tharaboole</item>
+      <item id="n3" alignment="c3" line="127" tag="G">DIST road=loc INF-go cannot</item>
+      <item id="n4" alignment="c4" line="128" tag="T">You could not take that road.</item>
+    </tier>
+  </igt>
+  <igt id="igt26" doc-id="lgcol:sci" line-range="133-135" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="133" tag="M">  b:10 vetted: s</item>
+      <item id="r2" line="134" tag="L">  Itthu atthu=story=atthu</item>
+      <item id="r3" line="135" tag="G">  DIST INDEF=story=INDEF</item>
+      <item id="r4" line="136" tag="T">  'This is a story.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="133" tag="M">  b:10 vetted: s</item>
+      <item id="c2" alignment="r2" line="134" tag="L">  Itthu atthu=story=atthu</item>
+      <item id="c3" alignment="r3" line="135" tag="G">  DIST INDEF=story=INDEF</item>
+      <item id="c4" alignment="r4" line="136" tag="T">  'This is a story.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="133" tag="M">b:10 vetted: s</item>
+      <item id="n2" alignment="c2" line="134" tag="L">Itthu atthu=story=atthu</item>
+      <item id="n3" alignment="c3" line="135" tag="G">DIST INDEF=story=INDEF</item>
+      <item id="n4" alignment="c4" line="136" tag="T">This is a story.</item>
+    </tier>
+  </igt>
+  <igt id="igt27" doc-id="lgcol:sci" line-range="137-139" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="137" tag="M">  c vetted: s</item>
+      <item id="r2" line="138" tag="L">  Itthu hathu=kavanan laayeng</item>
+      <item id="r3" line="139" tag="G">  DIST INDEF=group different</item>
+      <item id="r4" line="140" tag="T">  'That is a different group.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="137" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="138" tag="L">  Itthu hathu=kavanan laayeng</item>
+      <item id="c3" alignment="r3" line="139" tag="G">  DIST INDEF=group different</item>
+      <item id="c4" alignment="r4" line="140" tag="T">  'That is a different group.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="137" tag="M">s</item>
+      <item id="n2" alignment="c2" line="138" tag="L">Itthu hathu=kavanan laayeng</item>
+      <item id="n3" alignment="c3" line="139" tag="G">DIST INDEF=group different</item>
+      <item id="n4" alignment="c4" line="140" tag="T">That is a different group.</item>
+    </tier>
+  </igt>
+  <igt id="igt28" doc-id="lgcol:sci" line-range="145-147" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="145" tag="M">  a:498 vetted: s</item>
+      <item id="r2" line="146" tag="L">  Itthu=nang blaakang, dee=yang su-peegang siini Seelong=ka</item>
+      <item id="r3" line="147" tag="G">  DIST=DAT after 3s.IMPOLITE=ACC PAST-catch here Ceylon=LOC</item>
+      <item id="r4" line="148" tag="T">  'After that (they) caught him here in Ceylon.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="145" tag="M">  a:498 vetted: s</item>
+      <item id="c2" alignment="r2" line="146" tag="L">  Itthu=nang blaakang, dee=yang su-peegang siini Seelong=ka</item>
+      <item id="c3" alignment="r3" line="147" tag="G">  DIST=DAT after 3s.IMPOLITE=ACC PAST-catch here Ceylon=LOC</item>
+      <item id="c4" alignment="r4" line="148" tag="T">  'After that (they) caught him here in Ceylon.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="145" tag="M">a:498 vetted: s</item>
+      <item id="n2" alignment="c2" line="146" tag="L">Itthu=nang blaakang, dee=yang su-peegang siini Seelong=ka</item>
+      <item id="n3" alignment="c3" line="147" tag="G">DIST=DAT after 3s.IMPOLITE=ACC PAST-catch here Ceylon=LOC</item>
+      <item id="n4" alignment="c4" line="148" tag="T">After that (they) caught him here in Ceylon.</item>
+    </tier>
+  </igt>
+  <igt id="igt29" doc-id="lgcol:sci" line-range="149-151" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="149" tag="M">  a:498 vetted: s</item>
+      <item id="r2" line="150" tag="L">  se=ppe umma-baapa se=ppe maama=pe ruuma=nang su-kiiring</item>
+      <item id="r3" line="151" tag="G">  1s=POSS mother-father 1s=POSS uncle=POSS house=DAT PAST-send</item>
+      <item id="r4" line="152" tag="T">  'my parents sent me to my uncle's house.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="149" tag="M">  a:498 vetted: s</item>
+      <item id="c2" alignment="r2" line="150" tag="L">  se=ppe umma-baapa se=ppe maama=pe ruuma=nang su-kiiring</item>
+      <item id="c3" alignment="r3" line="151" tag="G">  1s=POSS mother-father 1s=POSS uncle=POSS house=DAT PAST-send</item>
+      <item id="c4" alignment="r4" line="152" tag="T">  'my parents sent me to my uncle's house.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="149" tag="M">a:498 vetted: s</item>
+      <item id="n2" alignment="c2" line="150" tag="L">se=ppe umma-baapa se=ppe maama=pe ruuma=nang su-kiiring</item>
+      <item id="n3" alignment="c3" line="151" tag="G">1s=POSS mother-father 1s=POSS uncle=POSS house=DAT PAST-send</item>
+      <item id="n4" alignment="c4" line="152" tag="T">my parents sent me to my uncle's house.</item>
+    </tier>
+  </igt>
+  <igt id="igt30" doc-id="lgcol:sci" line-range="153-155" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="153" tag="M">  a:512 vetted: s</item>
+      <item id="r2" line="154" tag="L">  Se=pe uumur masà-biilan=si?</item>
+      <item id="r3" line="155" tag="G">  1=poss age must-tell=interr</item>
+      <item id="r4" line="156" tag="T">  ‘(Do I) have to tell my age?’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="153" tag="M">  a:512 vetted: s</item>
+      <item id="c2" alignment="r2" line="154" tag="L">  Se=pe uumur masà-biilan=si?</item>
+      <item id="c3" alignment="r3" line="155" tag="G">  1=poss age must-tell=interr</item>
+      <item id="c4" alignment="r4" line="156" tag="T">  ‘(Do I) have to tell my age?’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="153" tag="M">a:512 vetted: s</item>
+      <item id="n2" alignment="c2" line="154" tag="L">Se=pe uumur masà-biilan=si?</item>
+      <item id="n3" alignment="c3" line="155" tag="G">1=poss age must-tell=interr</item>
+      <item id="n4" alignment="c4" line="156" tag="T">‘(Do I) have to tell my age?’</item>
+    </tier>
+  </igt>
+  <igt id="igt31" doc-id="lgcol:sci" line-range="157-159" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="157" tag="M">  a:512 vetted: s</item>
+      <item id="r2" line="158" tag="L">  Se=pe uumur=si masà-biilan?</item>
+      <item id="r3" line="159" tag="G">  1=poss age=interr must-tell</item>
+      <item id="r4" line="160" tag="T">  ‘(Do I) have my age told?’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="157" tag="M">  a:512 vetted: s</item>
+      <item id="c2" alignment="r2" line="158" tag="L">  Se=pe uumur=si masà-biilan?</item>
+      <item id="c3" alignment="r3" line="159" tag="G">  1=poss age=interr must-tell</item>
+      <item id="c4" alignment="r4" line="160" tag="T">  ‘(Do I) have my age told?’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="157" tag="M">a:512 vetted: s</item>
+      <item id="n2" alignment="c2" line="158" tag="L">Se=pe uumur=si masà-biilan?</item>
+      <item id="n3" alignment="c3" line="159" tag="G">1=poss age=interr must-tell</item>
+      <item id="n4" alignment="c4" line="160" tag="T">‘(Do I) have my age told?’</item>
+    </tier>
+  </igt>
+  <igt id="igt32" doc-id="lgcol:sci" line-range="161-163" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="161" tag="M">  a:512 vetted: s</item>
+      <item id="r2" line="162" tag="L">  Lorang=nang see=yang ingath-an=si?</item>
+      <item id="r3" line="163" tag="G">  2pl=dat 1s=acc think-nmlzr=interr</item>
+      <item id="r4" line="164" tag="T">  ‘Do you have thoughts on me/are you thinking of me?’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="161" tag="M">  a:512 vetted: s</item>
+      <item id="c2" alignment="r2" line="162" tag="L">  Lorang=nang see=yang ingath-an=si?</item>
+      <item id="c3" alignment="r3" line="163" tag="G">  2pl=dat 1s=acc think-nmlzr=interr</item>
+      <item id="c4" alignment="r4" line="164" tag="T">  ‘Do you have thoughts on me/are you thinking of me?’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="161" tag="M">a:512 vetted: s</item>
+      <item id="n2" alignment="c2" line="162" tag="L">Lorang=nang see=yang ingath-an=si?</item>
+      <item id="n3" alignment="c3" line="163" tag="G">2pl=dat 1s=acc think-nmlzr=interr</item>
+      <item id="n4" alignment="c4" line="164" tag="T">‘Do you have thoughts on me/are you thinking of me?’</item>
+    </tier>
+  </igt>
+  <igt id="igt33" doc-id="lgcol:sci" line-range="165-167" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="165" tag="M">  a:512 vetted: s</item>
+      <item id="r2" line="166" tag="L">  Lorang=nang see=yang=si ingath-an?</item>
+      <item id="r3" line="167" tag="G">  2pl=dat 1s=acc=interr think-nmlzr</item>
+      <item id="r4" line="168" tag="T">  ‘Is it me in your thoughts/is it me that you are thinking of?’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="165" tag="M">  a:512 vetted: s</item>
+      <item id="c2" alignment="r2" line="166" tag="L">  Lorang=nang see=yang=si ingath-an?</item>
+      <item id="c3" alignment="r3" line="167" tag="G">  2pl=dat 1s=acc=interr think-nmlzr</item>
+      <item id="c4" alignment="r4" line="168" tag="T">  ‘Is it me in your thoughts/is it me that you are thinking of?’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="165" tag="M">a:512 vetted: s</item>
+      <item id="n2" alignment="c2" line="166" tag="L">Lorang=nang see=yang=si ingath-an?</item>
+      <item id="n3" alignment="c3" line="167" tag="G">2pl=dat 1s=acc=interr think-nmlzr</item>
+      <item id="n4" alignment="c4" line="168" tag="T">‘Is it me in your thoughts/is it me that you are thinking of?’</item>
+    </tier>
+  </igt>
+  <igt id="igt34" doc-id="lgcol:sci" line-range="169-171" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="169" tag="M">  b:20 vetted: s</item>
+      <item id="r2" line="170" tag="L">  maaňğga=si maau?</item>
+      <item id="r3" line="171" tag="G">  mango=interr want</item>
+      <item id="r4" line="172" tag="T">  ‘Is it mango that you want?’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="169" tag="M">  b:20 vetted: s</item>
+      <item id="c2" alignment="r2" line="170" tag="L">  maaňğga=si maau?</item>
+      <item id="c3" alignment="r3" line="171" tag="G">  mango=interr want</item>
+      <item id="c4" alignment="r4" line="172" tag="T">  ‘Is it mango that you want?’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="169" tag="M">b:20 vetted: s</item>
+      <item id="n2" alignment="c2" line="170" tag="L">maaňğga=si maau?</item>
+      <item id="n3" alignment="c3" line="171" tag="G">mango=interr want</item>
+      <item id="n4" alignment="c4" line="172" tag="T">‘Is it mango that you want?’</item>
+    </tier>
+  </igt>
+  <igt id="igt35" doc-id="lgcol:sci" line-range="173-175" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="173" tag="M">  b:20 vetted: s</item>
+      <item id="r2" line="174" tag="L">  maaňğga maau=si?</item>
+      <item id="r3" line="175" tag="G">  mango want=interr</item>
+      <item id="r4" line="176" tag="T">  ‘Do you want the mango?’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="173" tag="M">  b:20 vetted: s</item>
+      <item id="c2" alignment="r2" line="174" tag="L">  maaňğga maau=si?</item>
+      <item id="c3" alignment="r3" line="175" tag="G">  mango want=interr</item>
+      <item id="c4" alignment="r4" line="176" tag="T">  ‘Do you want the mango?’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="173" tag="M">b:20 vetted: s</item>
+      <item id="n2" alignment="c2" line="174" tag="L">maaňğga maau=si?</item>
+      <item id="n3" alignment="c3" line="175" tag="G">mango want=interr</item>
+      <item id="n4" alignment="c4" line="176" tag="T">‘Do you want the mango?’</item>
+    </tier>
+  </igt>
+  <igt id="igt36" doc-id="lgcol:sci" line-range="177-179" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="177" tag="M">  c vetted: s</item>
+      <item id="r2" line="178" tag="L">  Derang karang arà-blaajar cinggala=le English=le</item>
+      <item id="r3" line="179" tag="G">  3pl now non.past-learn Sinhala=addit English=addit</item>
+      <item id="r4" line="180" tag="T">  'They study in Sinhala and English now.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="177" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="178" tag="L">  Derang karang arà-blaajar cinggala=le English=le</item>
+      <item id="c3" alignment="r3" line="179" tag="G">  3pl now non.past-learn Sinhala=addit English=addit</item>
+      <item id="c4" alignment="r4" line="180" tag="T">  'They study in Sinhala and English now.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="177" tag="M">s</item>
+      <item id="n2" alignment="c2" line="178" tag="L">Derang karang arà-blaajar cinggala=le English=le</item>
+      <item id="n3" alignment="c3" line="179" tag="G">3pl now non.past-learn Sinhala=addit English=addit</item>
+      <item id="n4" alignment="c4" line="180" tag="T">They study in Sinhala and English now.</item>
+    </tier>
+  </igt>
+  <igt id="igt37" doc-id="lgcol:sci" line-range="181-183" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="181" tag="M">  c vetted: s</item>
+      <item id="r2" line="182" tag="L">  Derang karang arà-blaajar cinggala English</item>
+      <item id="r3" line="183" tag="G">  3pl now non.past-learn Sinhala English</item>
+      <item id="r4" line="184" tag="T">  'They study in Sinhala English now.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="181" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="182" tag="L">  Derang karang arà-blaajar cinggala English</item>
+      <item id="c3" alignment="r3" line="183" tag="G">  3pl now non.past-learn Sinhala English</item>
+      <item id="c4" alignment="r4" line="184" tag="T">  'They study in Sinhala English now.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="181" tag="M">s</item>
+      <item id="n2" alignment="c2" line="182" tag="L">Derang karang arà-blaajar cinggala English</item>
+      <item id="n3" alignment="c3" line="183" tag="G">3pl now non.past-learn Sinhala English</item>
+      <item id="n4" alignment="c4" line="184" tag="T">They study in Sinhala English now.</item>
+    </tier>
+  </igt>
+  <igt id="igt38" doc-id="lgcol:sci" line-range="189-191" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="189" tag="M">  c vetted: s</item>
+      <item id="r2" line="190" tag="L">  Lu=ppe muuluth=ka=le paasir, se=ppe muuluth=ka=le paasir</item>
+      <item id="r3" line="191" tag="G">  2s.familiar=poss mouth=loc=addit sand 1s=poss mouth=loc=addit sand</item>
+      <item id="r4" line="192" tag="T">  'There is sand in your mouth and there is sand in my mouth.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="189" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="190" tag="L">  Lu=ppe muuluth=ka=le paasir, se=ppe muuluth=ka=le paasir</item>
+      <item id="c3" alignment="r3" line="191" tag="G">  2s.familiar=poss mouth=loc=addit sand 1s=poss mouth=loc=addit sand</item>
+      <item id="c4" alignment="r4" line="192" tag="T">  'There is sand in your mouth and there is sand in my mouth.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="189" tag="M">s</item>
+      <item id="n2" alignment="c2" line="190" tag="L">Lu=ppe muuluth=ka=le paasir, se=ppe muuluth=ka=le paasir</item>
+      <item id="n3" alignment="c3" line="191" tag="G">2s.familiar=poss mouth=loc=addit sand 1s=poss mouth=loc=addit sand</item>
+      <item id="n4" alignment="c4" line="192" tag="T">There is sand in your mouth and there is sand in my mouth.</item>
+    </tier>
+  </igt>
+  <igt id="igt39" doc-id="lgcol:sci" line-range="193-195" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="193" tag="M">  c vetted: s</item>
+      <item id="r2" line="194" tag="L">  Lu=ppe muuluth=ka paasir, se=ppe muuluth=ka paasir</item>
+      <item id="r3" line="195" tag="G">  2s.familiar=poss mouth=loc sand 1s=poss mouth=loc sand</item>
+      <item id="r4" line="196" tag="T">  'There is sand in your mouth there is sand in my mouth.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="193" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="194" tag="L">  Lu=ppe muuluth=ka paasir, se=ppe muuluth=ka paasir</item>
+      <item id="c3" alignment="r3" line="195" tag="G">  2s.familiar=poss mouth=loc sand 1s=poss mouth=loc sand</item>
+      <item id="c4" alignment="r4" line="196" tag="T">  'There is sand in your mouth there is sand in my mouth.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="193" tag="M">s</item>
+      <item id="n2" alignment="c2" line="194" tag="L">Lu=ppe muuluth=ka paasir, se=ppe muuluth=ka paasir</item>
+      <item id="n3" alignment="c3" line="195" tag="G">2s.familiar=poss mouth=loc sand 1s=poss mouth=loc sand</item>
+      <item id="n4" alignment="c4" line="196" tag="T">There is sand in your mouth there is sand in my mouth.</item>
+    </tier>
+  </igt>
+  <igt id="igt40" doc-id="lgcol:sci" line-range="197-199" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="197" tag="M">  c vetted: s</item>
+      <item id="r2" line="198" tag="L">  Lu=ppe muuluth=ka paasir, se=ppe muuluth=ka=le paasir</item>
+      <item id="r3" line="199" tag="G">  2s.familiar=poss mouth=loc sand 1s=poss mouth=loc=addit sand</item>
+      <item id="r4" line="200" tag="T">  'There is sand in your mouth and there is sand in my mouth.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="197" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="198" tag="L">  Lu=ppe muuluth=ka paasir, se=ppe muuluth=ka=le paasir</item>
+      <item id="c3" alignment="r3" line="199" tag="G">  2s.familiar=poss mouth=loc sand 1s=poss mouth=loc=addit sand</item>
+      <item id="c4" alignment="r4" line="200" tag="T">  'There is sand in your mouth and there is sand in my mouth.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="197" tag="M">s</item>
+      <item id="n2" alignment="c2" line="198" tag="L">Lu=ppe muuluth=ka paasir, se=ppe muuluth=ka=le paasir</item>
+      <item id="n3" alignment="c3" line="199" tag="G">2s.familiar=poss mouth=loc sand 1s=poss mouth=loc=addit sand</item>
+      <item id="n4" alignment="c4" line="200" tag="T">There is sand in your mouth and there is sand in my mouth.</item>
+    </tier>
+  </igt>
+  <igt id="igt41" doc-id="lgcol:sci" line-range="201-203" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="201" tag="M">  c vetted: s</item>
+      <item id="r2" line="202" tag="L">  Snow_white=nang=le Rose_red=nang=le ini hatthu=ke thàrà-mirthi.</item>
+      <item id="r3" line="203" tag="G">  Snow_white=dat=addit Rose_Red=dat=addit prox indef=simil neg.past-understand</item>
+      <item id="r4" line="204" tag="T">  'Snow White and Rose Red did not understand a thing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="201" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="202" tag="L">  Snow_white=nang=le Rose_red=nang=le ini hatthu=ke thàrà-mirthi.</item>
+      <item id="c3" alignment="r3" line="203" tag="G">  Snow_white=dat=addit Rose_Red=dat=addit prox indef=simil neg.past-understand</item>
+      <item id="c4" alignment="r4" line="204" tag="T">  'Snow White and Rose Red did not understand a thing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="201" tag="M">s</item>
+      <item id="n2" alignment="c2" line="202" tag="L">Snow_white=nang=le Rose_red=nang=le ini hatthu=ke thàrà-mirthi.</item>
+      <item id="n3" alignment="c3" line="203" tag="G">Snow_white=dat=addit Rose_Red=dat=addit prox indef=simil neg.past-understand</item>
+      <item id="n4" alignment="c4" line="204" tag="T">Snow White and Rose Red did not understand a thing.</item>
+    </tier>
+  </igt>
+  <igt id="igt42" doc-id="lgcol:sci" line-range="205-207" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="205" tag="M">  c vetted: s</item>
+      <item id="r2" line="206" tag="L">  British government Malaysia Indonesia Singapore anà-peegang ambel.</item>
+      <item id="r3" line="207" tag="G">  British government Malaysia Indonesia Singapore past-catch take</item>
+      <item id="r4" line="208" tag="T">  'The British government captured Malaysia, Indonesia, Singapore.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="205" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="206" tag="L">  British government Malaysia Indonesia Singapore anà-peegang ambel.</item>
+      <item id="c3" alignment="r3" line="207" tag="G">  British government Malaysia Indonesia Singapore past-catch take</item>
+      <item id="c4" alignment="r4" line="208" tag="T">  'The British government captured Malaysia, Indonesia, Singapore.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="205" tag="M">s</item>
+      <item id="n2" alignment="c2" line="206" tag="L">British government Malaysia Indonesia Singapore anà-peegang ambel.</item>
+      <item id="n3" alignment="c3" line="207" tag="G">British government Malaysia Indonesia Singapore past-catch take</item>
+      <item id="n4" alignment="c4" line="208" tag="T">The British government captured Malaysia, Indonesia, Singapore.</item>
+    </tier>
+  </igt>
+  <igt id="igt43" doc-id="lgcol:sci" line-range="213-215" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="213" tag="M">  c vetted: s</item>
+      <item id="r2" line="214" tag="L">  Cinggala aada Moor aada mulbar aada.</item>
+      <item id="r3" line="215" tag="G">  Sinhala exist Moor exist Tamil exist</item>
+      <item id="r4" line="216" tag="T">  'There are Sinhalese, there are Moors, there are Hindus.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="213" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="214" tag="L">  Cinggala aada Moor aada mulbar aada.</item>
+      <item id="c3" alignment="r3" line="215" tag="G">  Sinhala exist Moor exist Tamil exist</item>
+      <item id="c4" alignment="r4" line="216" tag="T">  'There are Sinhalese, there are Moors, there are Hindus.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="213" tag="M">s</item>
+      <item id="n2" alignment="c2" line="214" tag="L">Cinggala aada Moor aada mulbar aada.</item>
+      <item id="n3" alignment="c3" line="215" tag="G">Sinhala exist Moor exist Tamil exist</item>
+      <item id="n4" alignment="c4" line="216" tag="T">There are Sinhalese, there are Moors, there are Hindus.</item>
+    </tier>
+  </igt>
+  <igt id="igt44" doc-id="lgcol:sci" line-range="217-219" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="217" tag="M">  c vetted: s</item>
+      <item id="r2" line="218" tag="L">  Cinggala aada=le mulbar aada=le.</item>
+      <item id="r3" line="219" tag="G">  Sinhala exist=addit Tamil exist=addit</item>
+      <item id="r4" line="220" tag="T">  'And there are Sinhalese and there are Hindus.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="217" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="218" tag="L">  Cinggala aada=le mulbar aada=le.</item>
+      <item id="c3" alignment="r3" line="219" tag="G">  Sinhala exist=addit Tamil exist=addit</item>
+      <item id="c4" alignment="r4" line="220" tag="T">  'And there are Sinhalese and there are Hindus.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="217" tag="M">s</item>
+      <item id="n2" alignment="c2" line="218" tag="L">Cinggala aada=le mulbar aada=le.</item>
+      <item id="n3" alignment="c3" line="219" tag="G">Sinhala exist=addit Tamil exist=addit</item>
+      <item id="n4" alignment="c4" line="220" tag="T">And there are Sinhalese and there are Hindus.</item>
+    </tier>
+  </igt>
+  <igt id="igt45" doc-id="lgcol:sci" line-range="221-223" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="221" tag="M">  c vetted: s</item>
+      <item id="r2" line="222" tag="L">  Cinggala aada mlaayu aada=le.</item>
+      <item id="r3" line="223" tag="G">  Sinhala exist Malay exist=addit.</item>
+      <item id="r4" line="224" tag="T">  'There are Sinhalese and there are Malays.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="221" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="222" tag="L">  Cinggala aada mlaayu aada=le.</item>
+      <item id="c3" alignment="r3" line="223" tag="G">  Sinhala exist Malay exist=addit.</item>
+      <item id="c4" alignment="r4" line="224" tag="T">  'There are Sinhalese and there are Malays.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="221" tag="M">s</item>
+      <item id="n2" alignment="c2" line="222" tag="L">Cinggala aada mlaayu aada=le.</item>
+      <item id="n3" alignment="c3" line="223" tag="G">Sinhala exist Malay exist=addit.</item>
+      <item id="n4" alignment="c4" line="224" tag="T">There are Sinhalese and there are Malays.</item>
+    </tier>
+  </igt>
+  <igt id="igt46" doc-id="lgcol:sci" line-range="225-227" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="225" tag="M">  c vetted: s</item>
+      <item id="r2" line="226" tag="L">  Mulbar laayeng cinggala laayeng Moor laayeng mlaayu laayeng sraani pada laayeng.</item>
+      <item id="r3" line="227" tag="G">  Tamil different Sinhala different Moor different Malay different burgher pl different</item>
+      <item id="r4" line="228" tag="T">  'Hindus, Sinhalese, Moors, Malays, Burghers, all are different.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="225" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="226" tag="L">  Mulbar laayeng cinggala laayeng Moor laayeng mlaayu laayeng sraani pada laayeng.</item>
+      <item id="c3" alignment="r3" line="227" tag="G">  Tamil different Sinhala different Moor different Malay different burgher pl different</item>
+      <item id="c4" alignment="r4" line="228" tag="T">  'Hindus, Sinhalese, Moors, Malays, Burghers, all are different.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="225" tag="M">s</item>
+      <item id="n2" alignment="c2" line="226" tag="L">Mulbar laayeng cinggala laayeng Moor laayeng mlaayu laayeng sraani pada laayeng.</item>
+      <item id="n3" alignment="c3" line="227" tag="G">Tamil different Sinhala different Moor different Malay different burgher pl different</item>
+      <item id="n4" alignment="c4" line="228" tag="T">Hindus, Sinhalese, Moors, Malays, Burghers, all are different.</item>
+    </tier>
+  </igt>
+  <igt id="igt47" doc-id="lgcol:sci" line-range="229-231" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="229" tag="M">  c vetted: s</item>
+      <item id="r2" line="230" tag="L">  Kaaki thaangan kuvathan thraada.</item>
+      <item id="r3" line="231" tag="G">  foot hand strong.nmlzr neg.exist</item>
+      <item id="r4" line="232" tag="T">  'You have no strength in your arms or legs.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="229" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="230" tag="L">  Kaaki thaangan kuvathan thraada.</item>
+      <item id="c3" alignment="r3" line="231" tag="G">  foot hand strong.nmlzr neg.exist</item>
+      <item id="c4" alignment="r4" line="232" tag="T">  'You have no strength in your arms or legs.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="229" tag="M">s</item>
+      <item id="n2" alignment="c2" line="230" tag="L">Kaaki thaangan kuvathan thraada.</item>
+      <item id="n3" alignment="c3" line="231" tag="G">foot hand strong.nmlzr neg.exist</item>
+      <item id="n4" alignment="c4" line="232" tag="T">You have no strength in your arms or legs.</item>
+    </tier>
+  </igt>
+  <igt id="igt48" doc-id="lgcol:sci" line-range="233-235" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="233" tag="M">  c vetted: s</item>
+      <item id="r2" line="234" tag="L">  Kaaki=le thaangan=le kuvathan thraada.</item>
+      <item id="r3" line="235" tag="G">  foot=addit hand=addit strong.nmlzr neg.exist</item>
+      <item id="r4" line="236" tag="T">  'You have no strength in your arms and legs.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="233" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="234" tag="L">  Kaaki=le thaangan=le kuvathan thraada.</item>
+      <item id="c3" alignment="r3" line="235" tag="G">  foot=addit hand=addit strong.nmlzr neg.exist</item>
+      <item id="c4" alignment="r4" line="236" tag="T">  'You have no strength in your arms and legs.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="233" tag="M">s</item>
+      <item id="n2" alignment="c2" line="234" tag="L">Kaaki=le thaangan=le kuvathan thraada.</item>
+      <item id="n3" alignment="c3" line="235" tag="G">foot=addit hand=addit strong.nmlzr neg.exist</item>
+      <item id="n4" alignment="c4" line="236" tag="T">You have no strength in your arms and legs.</item>
+    </tier>
+  </igt>
+  <igt id="igt49" doc-id="lgcol:sci" line-range="237-239" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="237" tag="M">  c vetted: s</item>
+      <item id="r2" line="238" tag="L">  Kithang=nang baaye=nang mulbar bole=baaca bole=thuulis.</item>
+      <item id="r3" line="239" tag="G">  1pl=dat good=dat Tamil can=read can=write</item>
+      <item id="r4" line="240" tag="T">  'We can read and write Tamil well.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="237" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="238" tag="L">  Kithang=nang baaye=nang mulbar bole=baaca bole=thuulis.</item>
+      <item id="c3" alignment="r3" line="239" tag="G">  1pl=dat good=dat Tamil can=read can=write</item>
+      <item id="c4" alignment="r4" line="240" tag="T">  'We can read and write Tamil well.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="237" tag="M">s</item>
+      <item id="n2" alignment="c2" line="238" tag="L">Kithang=nang baaye=nang mulbar bole=baaca bole=thuulis.</item>
+      <item id="n3" alignment="c3" line="239" tag="G">1pl=dat good=dat Tamil can=read can=write</item>
+      <item id="n4" alignment="c4" line="240" tag="T">We can read and write Tamil well.</item>
+    </tier>
+  </igt>
+  <igt id="igt50" doc-id="lgcol:sci" line-range="241-243" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="241" tag="M">  c vetted: s</item>
+      <item id="r2" line="242" tag="L">  Kithang=nang baaye=nang mulbar bole=baaca=le bole=thuulis=le.</item>
+      <item id="r3" line="243" tag="G">  1pl=dat good=dat Tamil can=read=addit can=write=addit</item>
+      <item id="r4" line="244" tag="T">  'We can read and write Tamil well.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="241" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="242" tag="L">  Kithang=nang baaye=nang mulbar bole=baaca=le bole=thuulis=le.</item>
+      <item id="c3" alignment="r3" line="243" tag="G">  1pl=dat good=dat Tamil can=read=addit can=write=addit</item>
+      <item id="c4" alignment="r4" line="244" tag="T">  'We can read and write Tamil well.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="241" tag="M">s</item>
+      <item id="n2" alignment="c2" line="242" tag="L">Kithang=nang baaye=nang mulbar bole=baaca=le bole=thuulis=le.</item>
+      <item id="n3" alignment="c3" line="243" tag="G">1pl=dat good=dat Tamil can=read=addit can=write=addit</item>
+      <item id="n4" alignment="c4" line="244" tag="T">We can read and write Tamil well.</item>
+    </tier>
+  </igt>
+  <igt id="igt51" doc-id="lgcol:sci" line-range="245-247" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="245" tag="M">  a:212 vetted: s</item>
+      <item id="r2" line="246" tag="L">  incayang bìssar</item>
+      <item id="r3" line="247" tag="G">  3s.polite big</item>
+      <item id="r4" line="248" tag="T">  ‘He is big.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="245" tag="M">  a:212 vetted: s</item>
+      <item id="c2" alignment="r2" line="246" tag="L">  incayang bìssar</item>
+      <item id="c3" alignment="r3" line="247" tag="G">  3s.polite big</item>
+      <item id="c4" alignment="r4" line="248" tag="T">  ‘He is big.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="245" tag="M">a:212 vetted: s</item>
+      <item id="n2" alignment="c2" line="246" tag="L">incayang bìssar</item>
+      <item id="n3" alignment="c3" line="247" tag="G">3s.polite big</item>
+      <item id="n4" alignment="c4" line="248" tag="T">‘He is big.’</item>
+    </tier>
+  </igt>
+  <igt id="igt52" doc-id="lgcol:sci" line-range="253-255" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="253" tag="M">  a:198 vetted: s</item>
+      <item id="r2" line="254" tag="L">  Incayang pullang arà-oomong.</item>
+      <item id="r3" line="255" tag="G">  3s.polite slow.dat non.past-speak</item>
+      <item id="r4" line="256" tag="T">  ‘He speaks softly.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="253" tag="M">  a:198 vetted: s</item>
+      <item id="c2" alignment="r2" line="254" tag="L">  Incayang pullang arà-oomong.</item>
+      <item id="c3" alignment="r3" line="255" tag="G">  3s.polite slow.dat non.past-speak</item>
+      <item id="c4" alignment="r4" line="256" tag="T">  ‘He speaks softly.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="253" tag="M">a:198 vetted: s</item>
+      <item id="n2" alignment="c2" line="254" tag="L">Incayang pullang arà-oomong.</item>
+      <item id="n3" alignment="c3" line="255" tag="G">3s.polite slow.dat non.past-speak</item>
+      <item id="n4" alignment="c4" line="256" tag="T">‘He speaks softly.’</item>
+    </tier>
+  </igt>
+  <igt id="igt53" doc-id="lgcol:sci" line-range="257-259" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="257" tag="M">  a:198 vetted: s</item>
+      <item id="r2" line="258" tag="L">  Incayang arà-oomong pullang.</item>
+      <item id="r3" line="259" tag="G">  3s.polite non.past-speak slow.dat</item>
+      <item id="r4" line="260" tag="T">  ‘He softly speaks.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="257" tag="M">  a:198 vetted: s</item>
+      <item id="c2" alignment="r2" line="258" tag="L">  Incayang arà-oomong pullang.</item>
+      <item id="c3" alignment="r3" line="259" tag="G">  3s.polite non.past-speak slow.dat</item>
+      <item id="c4" alignment="r4" line="260" tag="T">  ‘He softly speaks.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="257" tag="M">a:198 vetted: s</item>
+      <item id="n2" alignment="c2" line="258" tag="L">Incayang arà-oomong pullang.</item>
+      <item id="n3" alignment="c3" line="259" tag="G">3s.polite non.past-speak slow.dat</item>
+      <item id="n4" alignment="c4" line="260" tag="T">‘He softly speaks.’</item>
+    </tier>
+  </igt>
+  <igt id="igt54" doc-id="lgcol:sci" line-range="261-263" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="261" tag="M">  a:198 vetted: s</item>
+      <item id="r2" line="262" tag="L">  pullang incayang arà-oomong.</item>
+      <item id="r3" line="263" tag="G">  slow.dat 3s.polite non.past-speak</item>
+      <item id="r4" line="264" tag="T">  ‘Speak he softly.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="261" tag="M">  a:198 vetted: s</item>
+      <item id="c2" alignment="r2" line="262" tag="L">  pullang incayang arà-oomong.</item>
+      <item id="c3" alignment="r3" line="263" tag="G">  slow.dat 3s.polite non.past-speak</item>
+      <item id="c4" alignment="r4" line="264" tag="T">  ‘Speak he softly.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="261" tag="M">a:198 vetted: s</item>
+      <item id="n2" alignment="c2" line="262" tag="L">pullang incayang arà-oomong.</item>
+      <item id="n3" alignment="c3" line="263" tag="G">slow.dat 3s.polite non.past-speak</item>
+      <item id="n4" alignment="c4" line="264" tag="T">‘Speak he softly.’</item>
+    </tier>
+  </igt>
+  <igt id="igt55" doc-id="lgcol:sci" line-range="269-271" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="269" tag="M">  a:212 vetted: s</item>
+      <item id="r2" line="270" tag="L">  Incayang hatthu iitham</item>
+      <item id="r3" line="271" tag="G">  3s.polite indef black</item>
+      <item id="r4" line="272" tag="T">  ‘He is a dark person.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="269" tag="M">  a:212 vetted: s</item>
+      <item id="c2" alignment="r2" line="270" tag="L">  Incayang hatthu iitham</item>
+      <item id="c3" alignment="r3" line="271" tag="G">  3s.polite indef black</item>
+      <item id="c4" alignment="r4" line="272" tag="T">  ‘He is a dark person.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="269" tag="M">a:212 vetted: s</item>
+      <item id="n2" alignment="c2" line="270" tag="L">Incayang hatthu iitham</item>
+      <item id="n3" alignment="c3" line="271" tag="G">3s.polite indef black</item>
+      <item id="n4" alignment="c4" line="272" tag="T">‘He is a dark person.’</item>
+    </tier>
+  </igt>
+  <igt id="igt56" doc-id="lgcol:sci" line-range="277-279" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="277" tag="M">  a:212 vetted: s</item>
+      <item id="r2" line="278" tag="L">  Bìssar ruuma hatthu aada.</item>
+      <item id="r3" line="279" tag="G">  big house indef exist.</item>
+      <item id="r4" line="280" tag="T">  ‘There is a big house.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="277" tag="M">  a:212 vetted: s</item>
+      <item id="c2" alignment="r2" line="278" tag="L">  Bìssar ruuma hatthu aada.</item>
+      <item id="c3" alignment="r3" line="279" tag="G">  big house indef exist.</item>
+      <item id="c4" alignment="r4" line="280" tag="T">  ‘There is a big house.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="277" tag="M">a:212 vetted: s</item>
+      <item id="n2" alignment="c2" line="278" tag="L">Bìssar ruuma hatthu aada.</item>
+      <item id="n3" alignment="c3" line="279" tag="G">big house indef exist.</item>
+      <item id="n4" alignment="c4" line="280" tag="T">‘There is a big house.’</item>
+    </tier>
+  </igt>
+  <igt id="igt57" doc-id="lgcol:sci" line-range="285-287" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="285" tag="M">  a:213 vetted: s</item>
+      <item id="r2" line="286" tag="L">  Baae arà-nyaanyi.</item>
+      <item id="r3" line="287" tag="G">  good non.past-sing.</item>
+      <item id="r4" line="288" tag="T">  ‘He sings well.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="285" tag="M">  a:213 vetted: s</item>
+      <item id="c2" alignment="r2" line="286" tag="L">  Baae arà-nyaanyi.</item>
+      <item id="c3" alignment="r3" line="287" tag="G">  good non.past-sing.</item>
+      <item id="c4" alignment="r4" line="288" tag="T">  ‘He sings well.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="285" tag="M">a:213 vetted: s</item>
+      <item id="n2" alignment="c2" line="286" tag="L">Baae arà-nyaanyi.</item>
+      <item id="n3" alignment="c3" line="287" tag="G">good non.past-sing.</item>
+      <item id="n4" alignment="c4" line="288" tag="T">‘He sings well.’</item>
+    </tier>
+  </igt>
+  <igt id="igt58" doc-id="lgcol:sci" line-range="289-291" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="289" tag="M">  a:213 vetted: s</item>
+      <item id="r2" line="290" tag="L">  arà-nyaanyi Baae</item>
+      <item id="r3" line="291" tag="G">  non.past-sing good </item>
+      <item id="r4" line="292" tag="T">  ‘He well sings.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="289" tag="M">  a:213 vetted: s</item>
+      <item id="c2" alignment="r2" line="290" tag="L">  arà-nyaanyi Baae</item>
+      <item id="c3" alignment="r3" line="291" tag="G">  non.past-sing good </item>
+      <item id="c4" alignment="r4" line="292" tag="T">  ‘He well sings.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="289" tag="M">a:213 vetted: s</item>
+      <item id="n2" alignment="c2" line="290" tag="L">arà-nyaanyi Baae</item>
+      <item id="n3" alignment="c3" line="291" tag="G">non.past-sing good</item>
+      <item id="n4" alignment="c4" line="292" tag="T">‘He well sings.’</item>
+    </tier>
+  </igt>
+  <igt id="igt59" doc-id="lgcol:sci" line-range="293-295" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="293" tag="M">  a:213 vetted: s</item>
+      <item id="r2" line="294" tag="L">  Se=ppe aanak iitham thraa.</item>
+      <item id="r3" line="295" tag="G">  1s=poss child black NEG</item>
+      <item id="r4" line="296" tag="T">  ‘My child is not black.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="293" tag="M">  a:213 vetted: s</item>
+      <item id="c2" alignment="r2" line="294" tag="L">  Se=ppe aanak iitham thraa.</item>
+      <item id="c3" alignment="r3" line="295" tag="G">  1s=poss child black NEG</item>
+      <item id="c4" alignment="r4" line="296" tag="T">  ‘My child is not black.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="293" tag="M">a:213 vetted: s</item>
+      <item id="n2" alignment="c2" line="294" tag="L">Se=ppe aanak iitham thraa.</item>
+      <item id="n3" alignment="c3" line="295" tag="G">1s=poss child black NEG</item>
+      <item id="n4" alignment="c4" line="296" tag="T">‘My child is not black.’</item>
+    </tier>
+  </igt>
+  <igt id="igt60" doc-id="lgcol:sci" line-range="297-299" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="297" tag="M">  a:213 vetted: s</item>
+      <item id="r2" line="298" tag="L">  Se=ppe iitham aanak thraa.</item>
+      <item id="r3" line="299" tag="G">  1s=poss black child NEG</item>
+      <item id="r4" line="300" tag="T">  ‘My black child is not here (but my white child is).’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="297" tag="M">  a:213 vetted: s</item>
+      <item id="c2" alignment="r2" line="298" tag="L">  Se=ppe iitham aanak thraa.</item>
+      <item id="c3" alignment="r3" line="299" tag="G">  1s=poss black child NEG</item>
+      <item id="c4" alignment="r4" line="300" tag="T">  ‘My black child is not here (but my white child is).’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="297" tag="M">a:213 vetted: s</item>
+      <item id="n2" alignment="c2" line="298" tag="L">Se=ppe iitham aanak thraa.</item>
+      <item id="n3" alignment="c3" line="299" tag="G">1s=poss black child NEG</item>
+      <item id="n4" alignment="c4" line="300" tag="T">‘My black child is not here (but my white child is).’</item>
+    </tier>
+  </igt>
+  <igt id="igt61" doc-id="lgcol:sci" line-range="301-303" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="301" tag="M">  a:213 vetted: s</item>
+      <item id="r2" line="302" tag="L">  See=nang thàrà-sìggar.</item>
+      <item id="r3" line="303" tag="G">  1s=dat neg-healthy</item>
+      <item id="r4" line="304" tag="T">  ‘I am/was not healthy.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="301" tag="M">  a:213 vetted: s</item>
+      <item id="c2" alignment="r2" line="302" tag="L">  See=nang thàrà-sìggar.</item>
+      <item id="c3" alignment="r3" line="303" tag="G">  1s=dat neg-healthy</item>
+      <item id="c4" alignment="r4" line="304" tag="T">  ‘I am/was not healthy.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="301" tag="M">a:213 vetted: s</item>
+      <item id="n2" alignment="c2" line="302" tag="L">See=nang thàrà-sìggar.</item>
+      <item id="n3" alignment="c3" line="303" tag="G">1s=dat neg-healthy</item>
+      <item id="n4" alignment="c4" line="304" tag="T">‘I am/was not healthy.’</item>
+    </tier>
+  </igt>
+  <igt id="igt62" doc-id="lgcol:sci" line-range="305-307" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="305" tag="M">  a:213 vetted: s</item>
+      <item id="r2" line="306" tag="L">  thàrà-sìggar see=nang.</item>
+      <item id="r3" line="307" tag="G">  neg-healthy 1s=dat </item>
+      <item id="r4" line="308" tag="T">  ‘Not healthy am I.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="305" tag="M">  a:213 vetted: s</item>
+      <item id="c2" alignment="r2" line="306" tag="L">  thàrà-sìggar see=nang.</item>
+      <item id="c3" alignment="r3" line="307" tag="G">  neg-healthy 1s=dat </item>
+      <item id="c4" alignment="r4" line="308" tag="T">  ‘Not healthy am I.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="305" tag="M">a:213 vetted: s</item>
+      <item id="n2" alignment="c2" line="306" tag="L">thàrà-sìggar see=nang.</item>
+      <item id="n3" alignment="c3" line="307" tag="G">neg-healthy 1s=dat</item>
+      <item id="n4" alignment="c4" line="308" tag="T">‘Not healthy am I.’</item>
+    </tier>
+  </igt>
+  <igt id="igt63" doc-id="lgcol:sci" line-range="309-311" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="309" tag="M">  c vetted: s</item>
+      <item id="r2" line="310" tag="L">  Beeso luusa lubaarang arà-dhaathang.</item>
+      <item id="r3" line="311" tag="G">  tomorrow some.day.after.tomorrow festival non.past-come.</item>
+      <item id="r4" line="312" tag="T">  'The day after tomorrow is the festival.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="309" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="310" tag="L">  Beeso luusa lubaarang arà-dhaathang.</item>
+      <item id="c3" alignment="r3" line="311" tag="G">  tomorrow some.day.after.tomorrow festival non.past-come.</item>
+      <item id="c4" alignment="r4" line="312" tag="T">  'The day after tomorrow is the festival.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="309" tag="M">s</item>
+      <item id="n2" alignment="c2" line="310" tag="L">Beeso luusa lubaarang arà-dhaathang.</item>
+      <item id="n3" alignment="c3" line="311" tag="G">tomorrow some.day.after.tomorrow festival non.past-come.</item>
+      <item id="n4" alignment="c4" line="312" tag="T">The day after tomorrow is the festival.</item>
+    </tier>
+  </igt>
+  <igt id="igt64" doc-id="lgcol:sci" line-range="313-315" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="313" tag="M">  c vetted: s</item>
+      <item id="r2" line="314" tag="L">  lubaarang arà-dhaathang beeso luusa  .</item>
+      <item id="r3" line="315" tag="G">  festival non.past-come tomorrow some.day.after.tomorrow  .</item>
+      <item id="r4" line="316" tag="T">  'The festival come the day after tomorrow.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="313" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="314" tag="L">  lubaarang arà-dhaathang beeso luusa  .</item>
+      <item id="c3" alignment="r3" line="315" tag="G">  festival non.past-come tomorrow some.day.after.tomorrow  .</item>
+      <item id="c4" alignment="r4" line="316" tag="T">  'The festival come the day after tomorrow.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="313" tag="M">s</item>
+      <item id="n2" alignment="c2" line="314" tag="L">lubaarang arà-dhaathang beeso luusa  .</item>
+      <item id="n3" alignment="c3" line="315" tag="G">festival non.past-come tomorrow some.day.after.tomorrow  .</item>
+      <item id="n4" alignment="c4" line="316" tag="T">The festival come the day after tomorrow.</item>
+    </tier>
+  </igt>
+  <igt id="igt65" doc-id="lgcol:sci" line-range="317-319" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="317" tag="M">  c vetted: s</item>
+      <item id="r2" line="318" tag="L">  lubaarang beeso luusa arà-dhaathang.</item>
+      <item id="r3" line="319" tag="G">  festival tomorrow some.day.after.tomorrow non.past-come.</item>
+      <item id="r4" line="320" tag="T">  'The festival is the day after tomorrow.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="317" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="318" tag="L">  lubaarang beeso luusa arà-dhaathang.</item>
+      <item id="c3" alignment="r3" line="319" tag="G">  festival tomorrow some.day.after.tomorrow non.past-come.</item>
+      <item id="c4" alignment="r4" line="320" tag="T">  'The festival is the day after tomorrow.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="317" tag="M">s</item>
+      <item id="n2" alignment="c2" line="318" tag="L">lubaarang beeso luusa arà-dhaathang.</item>
+      <item id="n3" alignment="c3" line="319" tag="G">festival tomorrow some.day.after.tomorrow non.past-come.</item>
+      <item id="n4" alignment="c4" line="320" tag="T">The festival is the day after tomorrow.</item>
+    </tier>
+  </igt>
+  <igt id="igt66" doc-id="lgcol:sci" line-range="325-327" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="325" tag="M">  c vetted: s</item>
+      <item id="r2" line="326" tag="L">  Incayang siini=dering su-pii.</item>
+      <item id="r3" line="327" tag="G">  3s.polite here=abl past-go.</item>
+      <item id="r4" line="328" tag="T">  'He went off from here.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="325" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="326" tag="L">  Incayang siini=dering su-pii.</item>
+      <item id="c3" alignment="r3" line="327" tag="G">  3s.polite here=abl past-go.</item>
+      <item id="c4" alignment="r4" line="328" tag="T">  'He went off from here.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="325" tag="M">s</item>
+      <item id="n2" alignment="c2" line="326" tag="L">Incayang siini=dering su-pii.</item>
+      <item id="n3" alignment="c3" line="327" tag="G">3s.polite here=abl past-go.</item>
+      <item id="n4" alignment="c4" line="328" tag="T">He went off from here.</item>
+    </tier>
+  </igt>
+  <igt id="igt67" doc-id="lgcol:sci" line-range="329-331" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="329" tag="M">  c vetted: s</item>
+      <item id="r2" line="330" tag="L">  Incayang su-pii siini=dering.</item>
+      <item id="r3" line="331" tag="G">  3s.polite past-go here=abl.</item>
+      <item id="r4" line="332" tag="T">  'He from here went off.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="329" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="330" tag="L">  Incayang su-pii siini=dering.</item>
+      <item id="c3" alignment="r3" line="331" tag="G">  3s.polite past-go here=abl.</item>
+      <item id="c4" alignment="r4" line="332" tag="T">  'He from here went off.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="329" tag="M">s</item>
+      <item id="n2" alignment="c2" line="330" tag="L">Incayang su-pii siini=dering.</item>
+      <item id="n3" alignment="c3" line="331" tag="G">3s.polite past-go here=abl.</item>
+      <item id="n4" alignment="c4" line="332" tag="T">He from here went off.</item>
+    </tier>
+  </igt>
+  <igt id="igt68" doc-id="lgcol:sci" line-range="333-335" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="333" tag="M">  c vetted: s</item>
+      <item id="r2" line="334" tag="L">  siini=dering incayang su-pii.</item>
+      <item id="r3" line="335" tag="G">  here=abl 3s.polite past-go.</item>
+      <item id="r4" line="336" tag="T">  'From here he went off.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="333" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="334" tag="L">  siini=dering incayang su-pii.</item>
+      <item id="c3" alignment="r3" line="335" tag="G">  here=abl 3s.polite past-go.</item>
+      <item id="c4" alignment="r4" line="336" tag="T">  'From here he went off.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="333" tag="M">s</item>
+      <item id="n2" alignment="c2" line="334" tag="L">siini=dering incayang su-pii.</item>
+      <item id="n3" alignment="c3" line="335" tag="G">here=abl 3s.polite past-go.</item>
+      <item id="n4" alignment="c4" line="336" tag="T">From here he went off.</item>
+    </tier>
+  </igt>
+  <igt id="igt69" doc-id="lgcol:sci" line-range="337-339" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="337" tag="M">  c vetted: s</item>
+      <item id="r2" line="338" tag="L">  Derang pada sgiithu braani   </item>
+      <item id="r3" line="339" tag="G">  3pl pl that.much strong   </item>
+      <item id="r4" line="340" tag="T">  'They were so strong.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="337" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="338" tag="L">  Derang pada sgiithu braani   </item>
+      <item id="c3" alignment="r3" line="339" tag="G">  3pl pl that.much strong   </item>
+      <item id="c4" alignment="r4" line="340" tag="T">  'They were so strong.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="337" tag="M">s</item>
+      <item id="n2" alignment="c2" line="338" tag="L">Derang pada sgiithu braani</item>
+      <item id="n3" alignment="c3" line="339" tag="G">3pl pl that.much strong</item>
+      <item id="n4" alignment="c4" line="340" tag="T">They were so strong.</item>
+    </tier>
+  </igt>
+  <igt id="igt70" doc-id="lgcol:sci" line-range="345-347" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="345" tag="M">  c vetted: s</item>
+      <item id="r2" line="346" tag="L">  sgiithu derang pada braani   </item>
+      <item id="r3" line="347" tag="G">  that.much 3pl pl strong   </item>
+      <item id="r4" line="348" tag="T">  'So much they were strong.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="345" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="346" tag="L">  sgiithu derang pada braani   </item>
+      <item id="c3" alignment="r3" line="347" tag="G">  that.much 3pl pl strong   </item>
+      <item id="c4" alignment="r4" line="348" tag="T">  'So much they were strong.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="345" tag="M">s</item>
+      <item id="n2" alignment="c2" line="346" tag="L">sgiithu derang pada braani</item>
+      <item id="n3" alignment="c3" line="347" tag="G">that.much 3pl pl strong</item>
+      <item id="n4" alignment="c4" line="348" tag="T">So much they were strong.</item>
+    </tier>
+  </igt>
+  <igt id="igt71" doc-id="lgcol:sci" line-range="349-351" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="349" tag="M">  a:535 vetted: s</item>
+      <item id="r2" line="350" tag="L">  Suda ini moonyeth pada aapa thaau=si anà-gijja</item>
+      <item id="r3" line="351" tag="G">  so prox monkey pl what know=interr past-do!</item>
+      <item id="r4" line="352" tag="T">  ‘Do you know what these monkeys then did!?’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="349" tag="M">  a:535 vetted: s</item>
+      <item id="c2" alignment="r2" line="350" tag="L">  Suda ini moonyeth pada aapa thaau=si anà-gijja</item>
+      <item id="c3" alignment="r3" line="351" tag="G">  so prox monkey pl what know=interr past-do!</item>
+      <item id="c4" alignment="r4" line="352" tag="T">  ‘Do you know what these monkeys then did!?’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="349" tag="M">a:535 vetted: s</item>
+      <item id="n2" alignment="c2" line="350" tag="L">Suda ini moonyeth pada aapa thaau=si anà-gijja</item>
+      <item id="n3" alignment="c3" line="351" tag="G">so prox monkey pl what know=interr past-do!</item>
+      <item id="n4" alignment="c4" line="352" tag="T">‘Do you know what these monkeys then did!?’</item>
+    </tier>
+  </igt>
+  <igt id="igt72" doc-id="lgcol:sci" line-range="357-359" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="357" tag="M">  author vetted: t</item>
+      <item id="r2" line="358" tag="L">  lorang arà-thiidor katha see arà-caanya</item>
+      <item id="r3" line="359" tag="G">  2pl non.past-sleep quot 1st non.past-ask</item>
+      <item id="r4" line="360" tag="T">  I ask whether you sleep</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="357" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="358" tag="L">  lorang arà-thiidor katha see arà-caanya</item>
+      <item id="c3" alignment="r3" line="359" tag="G">  2pl non.past-sleep quot 1st non.past-ask</item>
+      <item id="c4" alignment="r4" line="360" tag="T">  I ask whether you sleep</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="357" tag="M">t</item>
+      <item id="n2" alignment="c2" line="358" tag="L">lorang arà-thiidor katha see arà-caanya</item>
+      <item id="n3" alignment="c3" line="359" tag="G">2pl non.past-sleep quot 1st non.past-ask</item>
+      <item id="n4" alignment="c4" line="360" tag="T">I ask whether you sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt73" doc-id="lgcol:sci" line-range="365-367" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="365" tag="M">  author vetted: t</item>
+      <item id="r2" line="366" tag="L">  lorang arà-miinong katha see thaau</item>
+      <item id="r3" line="367" tag="G">  2pl non.past-drink quot 1st know</item>
+      <item id="r4" line="368" tag="T">  I know that you drink</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="365" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="366" tag="L">  lorang arà-miinong katha see thaau</item>
+      <item id="c3" alignment="r3" line="367" tag="G">  2pl non.past-drink quot 1st know</item>
+      <item id="c4" alignment="r4" line="368" tag="T">  I know that you drink</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="365" tag="M">t</item>
+      <item id="n2" alignment="c2" line="366" tag="L">lorang arà-miinong katha see thaau</item>
+      <item id="n3" alignment="c3" line="367" tag="G">2pl non.past-drink quot 1st know</item>
+      <item id="n4" alignment="c4" line="368" tag="T">I know that you drink</item>
+    </tier>
+  </igt>
+  <igt id="igt74" doc-id="lgcol:sci" line-range="373-375" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="373" tag="M">  author vetted: t</item>
+      <item id="r2" line="374" tag="L">  Lorang=nang braani katha see arà-iingath</item>
+      <item id="r3" line="375" tag="G">  2pl=dat strong quot 1st non.past-think</item>
+      <item id="r4" line="376" tag="T">  I think that you are strong</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="373" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="374" tag="L">  Lorang=nang braani katha see arà-iingath</item>
+      <item id="c3" alignment="r3" line="375" tag="G">  2pl=dat strong quot 1st non.past-think</item>
+      <item id="c4" alignment="r4" line="376" tag="T">  I think that you are strong</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="373" tag="M">t</item>
+      <item id="n2" alignment="c2" line="374" tag="L">Lorang=nang braani katha see arà-iingath</item>
+      <item id="n3" alignment="c3" line="375" tag="G">2pl=dat strong quot 1st non.past-think</item>
+      <item id="n4" alignment="c4" line="376" tag="T">I think that you are strong</item>
+    </tier>
+  </igt>
+  <igt id="igt75" doc-id="lgcol:sci" line-range="385-387" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="385" tag="M">  a:510 vetted: s</item>
+      <item id="r2" line="386" tag="L">  Se=ppe baapa dhaathangapa Jinaan Samath.</item>
+      <item id="r3" line="387" tag="G">  1s=poss father copula Jinaan Samath</item>
+      <item id="r4" line="388" tag="T">  ‘My father was Jinaan Samath.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="385" tag="M">  a:510 vetted: s</item>
+      <item id="c2" alignment="r2" line="386" tag="L">  Se=ppe baapa dhaathangapa Jinaan Samath.</item>
+      <item id="c3" alignment="r3" line="387" tag="G">  1s=poss father copula Jinaan Samath</item>
+      <item id="c4" alignment="r4" line="388" tag="T">  ‘My father was Jinaan Samath.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="385" tag="M">a:510 vetted: s</item>
+      <item id="n2" alignment="c2" line="386" tag="L">Se=ppe baapa dhaathangapa Jinaan Samath.</item>
+      <item id="n3" alignment="c3" line="387" tag="G">1s=poss father copula Jinaan Samath</item>
+      <item id="n4" alignment="c4" line="388" tag="T">‘My father was Jinaan Samath.’</item>
+    </tier>
+  </igt>
+  <igt id="igt76" doc-id="lgcol:sci" line-range="397-399" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="397" tag="M">  a:510 vetted: s</item>
+      <item id="r2" line="398" tag="L">  Umma=pe baapa dhaathangapa hatthu inspector</item>
+      <item id="r3" line="399" tag="G">  mother=poss father copula indef inspector</item>
+      <item id="r4" line="400" tag="T">  ‘My mother’s father was an inspector.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="397" tag="M">  a:510 vetted: s</item>
+      <item id="c2" alignment="r2" line="398" tag="L">  Umma=pe baapa dhaathangapa hatthu inspector</item>
+      <item id="c3" alignment="r3" line="399" tag="G">  mother=poss father copula indef inspector</item>
+      <item id="c4" alignment="r4" line="400" tag="T">  ‘My mother’s father was an inspector.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="397" tag="M">a:510 vetted: s</item>
+      <item id="n2" alignment="c2" line="398" tag="L">Umma=pe baapa dhaathangapa hatthu inspector</item>
+      <item id="n3" alignment="c3" line="399" tag="G">mother=poss father copula indef inspector</item>
+      <item id="n4" alignment="c4" line="400" tag="T">‘My mother’s father was an inspector.</item>
+    </tier>
+  </igt>
+  <igt id="igt77" doc-id="lgcol:sci" line-range="409-411" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="409" tag="M">  a:511 vetted: s</item>
+      <item id="r2" line="410" tag="L">  Se=ppe kaake asàdhaathang officer</item>
+      <item id="r3" line="411" tag="G">  1s=poss grandfather copula officer.</item>
+      <item id="r4" line="412" tag="T">  ‘My grandfather was the officer.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="409" tag="M">  a:511 vetted: s</item>
+      <item id="c2" alignment="r2" line="410" tag="L">  Se=ppe kaake asàdhaathang officer</item>
+      <item id="c3" alignment="r3" line="411" tag="G">  1s=poss grandfather copula officer.</item>
+      <item id="c4" alignment="r4" line="412" tag="T">  ‘My grandfather was the officer.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="409" tag="M">a:511 vetted: s</item>
+      <item id="n2" alignment="c2" line="410" tag="L">Se=ppe kaake asàdhaathang officer</item>
+      <item id="n3" alignment="c3" line="411" tag="G">1s=poss grandfather copula officer.</item>
+      <item id="n4" alignment="c4" line="412" tag="T">‘My grandfather was the officer.’</item>
+    </tier>
+  </igt>
+  <igt id="igt78" doc-id="lgcol:sci" line-range="421-423" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="421" tag="M">  a:512 vetted: s</item>
+      <item id="r2" line="422" tag="L">  asàdhaathangapa incayang army captain.</item>
+      <item id="r3" line="423" tag="G">  copula 3s.polite army captain</item>
+      <item id="r4" line="424" tag="T">  ‘He was an army captain.’</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="421" tag="M">  a:512 vetted: s</item>
+      <item id="c2" alignment="r2" line="422" tag="L">  asàdhaathangapa incayang army captain.</item>
+      <item id="c3" alignment="r3" line="423" tag="G">  copula 3s.polite army captain</item>
+      <item id="c4" alignment="r4" line="424" tag="T">  ‘He was an army captain.’</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="421" tag="M">a:512 vetted: s</item>
+      <item id="n2" alignment="c2" line="422" tag="L">asàdhaathangapa incayang army captain.</item>
+      <item id="n3" alignment="c3" line="423" tag="G">copula 3s.polite army captain</item>
+      <item id="n4" alignment="c4" line="424" tag="T">‘He was an army captain.’</item>
+    </tier>
+  </igt>
+  <igt id="igt79" doc-id="lgcol:sci" line-range="429-431" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="429" tag="M">  c vetted: s</item>
+      <item id="r2" line="430" tag="L">  Itthu kumpulan=dang derang=jo bannyak arà-banthu.   </item>
+      <item id="r3" line="431" tag="G">  dist  association=dat  3pl=emph  much non.past-help   </item>
+      <item id="r4" line="432" tag="T">  'THEY helped the association a lot.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="429" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="430" tag="L">  Itthu kumpulan=dang derang=jo bannyak arà-banthu.   </item>
+      <item id="c3" alignment="r3" line="431" tag="G">  dist  association=dat  3pl=emph  much non.past-help   </item>
+      <item id="c4" alignment="r4" line="432" tag="T">  'THEY helped the association a lot.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="429" tag="M">s</item>
+      <item id="n2" alignment="c2" line="430" tag="L">Itthu kumpulan=dang derang=jo bannyak arà-banthu.</item>
+      <item id="n3" alignment="c3" line="431" tag="G">dist  association=dat  3pl=emph  much non.past-help</item>
+      <item id="n4" alignment="c4" line="432" tag="T">THEY helped the association a lot.</item>
+    </tier>
+  </igt>
+  <igt id="igt80" doc-id="lgcol:sci" line-range="433-435" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="433" tag="M">  c vetted: s</item>
+      <item id="r2" line="434" tag="L">  Kaaya oorang monied people=dering=jo arà-cuuri.   </item>
+      <item id="r3" line="435" tag="G">  rich man monied people=abl=emph non.past-steal   </item>
+      <item id="r4" line="436" tag="T">  'He steals from THE RICH.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="433" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="434" tag="L">  Kaaya oorang monied people=dering=jo arà-cuuri.   </item>
+      <item id="c3" alignment="r3" line="435" tag="G">  rich man monied people=abl=emph non.past-steal   </item>
+      <item id="c4" alignment="r4" line="436" tag="T">  'He steals from THE RICH.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="433" tag="M">s</item>
+      <item id="n2" alignment="c2" line="434" tag="L">Kaaya oorang monied people=dering=jo arà-cuuri.</item>
+      <item id="n3" alignment="c3" line="435" tag="G">rich man monied people=abl=emph non.past-steal</item>
+      <item id="n4" alignment="c4" line="436" tag="T">He steals from THE RICH.</item>
+    </tier>
+  </igt>
+  <igt id="igt81" doc-id="lgcol:sci" line-range="437-439" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="437" tag="M">  c vetted: s</item>
+      <item id="r2" line="438" tag="L">  Seelon=ka bìssar=jo pohong.</item>
+      <item id="r3" line="439" tag="G">  Ceylon=loc big=emph tree</item>
+      <item id="r4" line="440" tag="T">  'The BIGGEST tree in Ceylon.' </item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="437" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="438" tag="L">  Seelon=ka bìssar=jo pohong.</item>
+      <item id="c3" alignment="r3" line="439" tag="G">  Ceylon=loc big=emph tree</item>
+      <item id="c4" alignment="r4" line="440" tag="T">  'The BIGGEST tree in Ceylon.' </item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="437" tag="M">s</item>
+      <item id="n2" alignment="c2" line="438" tag="L">Seelon=ka bìssar=jo pohong.</item>
+      <item id="n3" alignment="c3" line="439" tag="G">Ceylon=loc big=emph tree</item>
+      <item id="n4" alignment="c4" line="440" tag="T">The BIGGEST tree in Ceylon.</item>
+    </tier>
+  </igt>
+  <igt id="igt82" doc-id="lgcol:sci" line-range="441-443" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="441" tag="M">  c vetted: s</item>
+      <item id="r2" line="442" tag="L">  Cricket arà-maayeng samma=jo kithang.   </item>
+      <item id="r3" line="443" tag="G">  cricket non.past-play every=emph 1pl   </item>
+      <item id="r4" line="444" tag="T">  'EVERYbody played cricket.' </item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="441" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="442" tag="L">  Cricket arà-maayeng samma=jo kithang.   </item>
+      <item id="c3" alignment="r3" line="443" tag="G">  cricket non.past-play every=emph 1pl   </item>
+      <item id="c4" alignment="r4" line="444" tag="T">  'EVERYbody played cricket.' </item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="441" tag="M">s</item>
+      <item id="n2" alignment="c2" line="442" tag="L">Cricket arà-maayeng samma=jo kithang.</item>
+      <item id="n3" alignment="c3" line="443" tag="G">cricket non.past-play every=emph 1pl</item>
+      <item id="n4" alignment="c4" line="444" tag="T">EVERYbody played cricket.</item>
+    </tier>
+  </igt>
+  <igt id="igt83" doc-id="lgcol:sci" line-range="445-447" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="445" tag="M">  c vetted: s</item>
+      <item id="r2" line="446" tag="L">  Hatthu komplok bannyak=jo puuthi caaya.   </item>
+      <item id="r3" line="447" tag="G">  one bush very=emph white colour   </item>
+      <item id="r4" line="448" tag="T">  'One bush was VERY, VERY white.' </item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="445" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="446" tag="L">  Hatthu komplok bannyak=jo puuthi caaya.   </item>
+      <item id="c3" alignment="r3" line="447" tag="G">  one bush very=emph white colour   </item>
+      <item id="c4" alignment="r4" line="448" tag="T">  'One bush was VERY, VERY white.' </item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="445" tag="M">s</item>
+      <item id="n2" alignment="c2" line="446" tag="L">Hatthu komplok bannyak=jo puuthi caaya.</item>
+      <item id="n3" alignment="c3" line="447" tag="G">one bush very=emph white colour</item>
+      <item id="n4" alignment="c4" line="448" tag="T">One bush was VERY, VERY white.</item>
+    </tier>
+  </igt>
+  <igt id="igt84" doc-id="lgcol:sci" line-range="449-451" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="449" tag="M">  c vetted: s</item>
+      <item id="r2" line="450" tag="L">  Hatthu lancar=jo English.   </item>
+      <item id="r3" line="451" tag="G">  one subject=emph English   </item>
+      <item id="r4" line="452" tag="T">  'Only one SUBJECT was taught in English.' </item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="449" tag="M">  c vetted: s</item>
+      <item id="c2" alignment="r2" line="450" tag="L">  Hatthu lancar=jo English.   </item>
+      <item id="c3" alignment="r3" line="451" tag="G">  one subject=emph English   </item>
+      <item id="c4" alignment="r4" line="452" tag="T">  'Only one SUBJECT was taught in English.' </item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="449" tag="M">s</item>
+      <item id="n2" alignment="c2" line="450" tag="L">Hatthu lancar=jo English.</item>
+      <item id="n3" alignment="c3" line="451" tag="G">one subject=emph English</item>
+      <item id="n4" alignment="c4" line="452" tag="T">Only one SUBJECT was taught in English.</item>
+    </tier>
+  </igt>
+  <igt id="igt85" doc-id="lgcol:sci" line-range="453-455" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="453" tag="M">  author vetted: f</item>
+      <item id="r2" line="454" tag="L">  see=nang kaaca bole=maakang</item>
+      <item id="r3" line="455" tag="G">  1st=dat glass can=eat</item>
+      <item id="r4" line="456" tag="T">  'I can eat glass.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="453" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="454" tag="L">  see=nang kaaca bole=maakang</item>
+      <item id="c3" alignment="r3" line="455" tag="G">  1st=dat glass can=eat</item>
+      <item id="c4" alignment="r4" line="456" tag="T">  'I can eat glass.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="453" tag="M">f</item>
+      <item id="n2" alignment="c2" line="454" tag="L">see=nang kaaca bole=maakang</item>
+      <item id="n3" alignment="c3" line="455" tag="G">1st=dat glass can=eat</item>
+      <item id="n4" alignment="c4" line="456" tag="T">I can eat glass.</item>
+    </tier>
+  </igt>
+  <igt id="igt86" doc-id="lgcol:sci" line-range="457-459" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="457" tag="M">  author vetted: f</item>
+      <item id="r2" line="458" tag="L">  see=nang kaaca mà-maakang boole</item>
+      <item id="r3" line="459" tag="G">  1st=dat glass INF-eat can</item>
+      <item id="r4" line="460" tag="T">  'I can eat glass.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="457" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="458" tag="L">  see=nang kaaca mà-maakang boole</item>
+      <item id="c3" alignment="r3" line="459" tag="G">  1st=dat glass INF-eat can</item>
+      <item id="c4" alignment="r4" line="460" tag="T">  'I can eat glass.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="457" tag="M">f</item>
+      <item id="n2" alignment="c2" line="458" tag="L">see=nang kaaca mà-maakang boole</item>
+      <item id="n3" alignment="c3" line="459" tag="G">1st=dat glass INF-eat can</item>
+      <item id="n4" alignment="c4" line="460" tag="T">I can eat glass.</item>
+    </tier>
+  </igt>
+  <igt id="igt87" doc-id="lgcol:sci" line-range="461-463" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="461" tag="M">  author vetted: f</item>
+      <item id="r2" line="462" tag="L">  Ini see=nang saakith thraa</item>
+      <item id="r3" line="463" tag="G">  prox 1s=dat hurt neg</item>
+      <item id="r4" line="464" tag="T">  'I do not experience pain.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="461" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="462" tag="L">  Ini see=nang saakith thraa</item>
+      <item id="c3" alignment="r3" line="463" tag="G">  prox 1s=dat hurt neg</item>
+      <item id="c4" alignment="r4" line="464" tag="T">  'I do not experience pain.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="461" tag="M">f</item>
+      <item id="n2" alignment="c2" line="462" tag="L">Ini see=nang saakith thraa</item>
+      <item id="n3" alignment="c3" line="463" tag="G">prox 1s=dat hurt neg</item>
+      <item id="n4" alignment="c4" line="464" tag="T">I do not experience pain.</item>
+    </tier>
+  </igt>
+</xigt-corpus>

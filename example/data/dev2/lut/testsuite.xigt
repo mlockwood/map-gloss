@@ -1,0 +1,2238 @@
+<xigt-corpus xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <igt id="igt1" doc-id="lgcol:lut" line-range="1-3" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="1" tag="M">  author vetted: t</item>
+      <item id="r2" line="2" tag="L">  ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="3" tag="G">  completive-get.lost det.def-dir child</item>
+      <item id="r4" line="4" tag="T">  'the child got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="1" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="2" tag="L">  ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="3" tag="G">  completive-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="4" tag="T">  'the child got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="1" tag="M">t</item>
+      <item id="n2" alignment="c2" line="2" tag="L">ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="3" tag="G">completive-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="4" tag="T">the child got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt2" doc-id="lgcol:lut" line-range="9-11" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="9" tag="M">  author vetted: t</item>
+      <item id="r2" line="10" tag="L">  ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl</item>
+      <item id="r3" line="11" tag="G">  completive-sweep ind.pred-I det.def-dir house</item>
+      <item id="r4" line="12" tag="T">  'I swept the house'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="9" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="10" tag="L">  ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl</item>
+      <item id="c3" alignment="r3" line="11" tag="G">  completive-sweep ind.pred-I det.def-dir house</item>
+      <item id="c4" alignment="r4" line="12" tag="T">  'I swept the house'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="9" tag="M">t</item>
+      <item id="n2" alignment="c2" line="10" tag="L">ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl</item>
+      <item id="n3" alignment="c3" line="11" tag="G">completive-sweep ind.pred-I det.def-dir house</item>
+      <item id="n4" alignment="c4" line="12" tag="T">I swept the house</item>
+    </tier>
+  </igt>
+  <igt id="igt3" doc-id="lgcol:lut" line-range="41-43" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="41" tag="M">  author vetted: t</item>
+      <item id="r2" line="42" tag="L">  ck̕ʷáqid ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="43" tag="G">  always static-get.lost det.def-dir child</item>
+      <item id="r4" line="44" tag="T">  'The child is always lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="41" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="42" tag="L">  ck̕ʷáqid ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="43" tag="G">  always static-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="44" tag="T">  'The child is always lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="41" tag="M">t</item>
+      <item id="n2" alignment="c2" line="42" tag="L">ck̕ʷáqid ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="43" tag="G">always static-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="44" tag="T">The child is always lost</item>
+    </tier>
+  </igt>
+  <igt id="igt4" doc-id="lgcol:lut" line-range="45-47" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="45" tag="M">  author vetted: t</item>
+      <item id="r2" line="46" tag="L">  ck̕ʷáqid č-əd ʔəs-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="r3" line="47" tag="G">  always ind.pred-I static-sweep det.def-dir house</item>
+      <item id="r4" line="48" tag="T">  'I always sweep the house'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="45" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="46" tag="L">  ck̕ʷáqid č-əd ʔəs-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="c3" alignment="r3" line="47" tag="G">  always ind.pred-I static-sweep det.def-dir house</item>
+      <item id="c4" alignment="r4" line="48" tag="T">  'I always sweep the house'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="45" tag="M">t</item>
+      <item id="n2" alignment="c2" line="46" tag="L">ck̕ʷáqid č-əd ʔəs-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="n3" alignment="c3" line="47" tag="G">always ind.pred-I static-sweep det.def-dir house</item>
+      <item id="n4" alignment="c4" line="48" tag="T">I always sweep the house</item>
+    </tier>
+  </igt>
+  <igt id="igt5" doc-id="lgcol:lut" line-range="69-71" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="69" tag="M">  author vetted: t</item>
+      <item id="r2" line="70" tag="L">  ʔu-x̣ʷil̕ č-əd</item>
+      <item id="r3" line="71" tag="G">  completive-get.lost ind.pred-I</item>
+      <item id="r4" line="72" tag="T">  'I got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="69" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="70" tag="L">  ʔu-x̣ʷil̕ č-əd</item>
+      <item id="c3" alignment="r3" line="71" tag="G">  completive-get.lost ind.pred-I</item>
+      <item id="c4" alignment="r4" line="72" tag="T">  'I got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="69" tag="M">t</item>
+      <item id="n2" alignment="c2" line="70" tag="L">ʔu-x̣ʷil̕ č-əd</item>
+      <item id="n3" alignment="c3" line="71" tag="G">completive-get.lost ind.pred-I</item>
+      <item id="n4" alignment="c4" line="72" tag="T">I got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt6" doc-id="lgcol:lut" line-range="73-75" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="73" tag="M">  author vetted: t</item>
+      <item id="r2" line="74" tag="L">  ʔu-x̣ʷil̕ č-əɬi</item>
+      <item id="r3" line="75" tag="G">  completive-get.lost ind.pred-we</item>
+      <item id="r4" line="76" tag="T">  'We got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="73" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="74" tag="L">  ʔu-x̣ʷil̕ č-əɬi</item>
+      <item id="c3" alignment="r3" line="75" tag="G">  completive-get.lost ind.pred-we</item>
+      <item id="c4" alignment="r4" line="76" tag="T">  'We got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="73" tag="M">t</item>
+      <item id="n2" alignment="c2" line="74" tag="L">ʔu-x̣ʷil̕ č-əɬi</item>
+      <item id="n3" alignment="c3" line="75" tag="G">completive-get.lost ind.pred-we</item>
+      <item id="n4" alignment="c4" line="76" tag="T">We got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt7" doc-id="lgcol:lut" line-range="77-79" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="77" tag="M">  author vetted: t</item>
+      <item id="r2" line="78" tag="L">  ʔu-x̣ʷil̕ č-əxʷ</item>
+      <item id="r3" line="79" tag="G">  completive-get.lost ind.pred-you</item>
+      <item id="r4" line="80" tag="T">  'You got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="77" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="78" tag="L">  ʔu-x̣ʷil̕ č-əxʷ</item>
+      <item id="c3" alignment="r3" line="79" tag="G">  completive-get.lost ind.pred-you</item>
+      <item id="c4" alignment="r4" line="80" tag="T">  'You got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="77" tag="M">t</item>
+      <item id="n2" alignment="c2" line="78" tag="L">ʔu-x̣ʷil̕ č-əxʷ</item>
+      <item id="n3" alignment="c3" line="79" tag="G">completive-get.lost ind.pred-you</item>
+      <item id="n4" alignment="c4" line="80" tag="T">You got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt8" doc-id="lgcol:lut" line-range="81-83" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="81" tag="M">  author vetted: t</item>
+      <item id="r2" line="82" tag="L">  ʔu-x̣ʷil̕ č-ələp</item>
+      <item id="r3" line="83" tag="G">  completive-get.lost ind.pred-yall</item>
+      <item id="r4" line="84" tag="T">  'Y'all got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="81" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="82" tag="L">  ʔu-x̣ʷil̕ č-ələp</item>
+      <item id="c3" alignment="r3" line="83" tag="G">  completive-get.lost ind.pred-yall</item>
+      <item id="c4" alignment="r4" line="84" tag="T">  'Y'all got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="81" tag="M">t</item>
+      <item id="n2" alignment="c2" line="82" tag="L">ʔu-x̣ʷil̕ č-ələp</item>
+      <item id="n3" alignment="c3" line="83" tag="G">completive-get.lost ind.pred-yall</item>
+      <item id="n4" alignment="c4" line="84" tag="T">Y'all got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt9" doc-id="lgcol:lut" line-range="113-115" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="113" tag="M">  author vetted: t</item>
+      <item id="r2" line="114" tag="L">  ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="115" tag="G">  completive-get.lost det.def-dir child</item>
+      <item id="r4" line="116" tag="T">  'the child (masc) got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="113" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="114" tag="L">  ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="115" tag="G">  completive-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="116" tag="T">  'the child (masc) got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="113" tag="M">t</item>
+      <item id="n2" alignment="c2" line="114" tag="L">ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="115" tag="G">completive-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="116" tag="T">the child (masc) got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt10" doc-id="lgcol:lut" line-range="117-119" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="117" tag="M">  author vetted: t</item>
+      <item id="r2" line="118" tag="L">  ʔu-x̣ʷil̕ t-s-i č̓ač̓as</item>
+      <item id="r3" line="119" tag="G">  completive-get.lost det.def-FEM-dir child</item>
+      <item id="r4" line="120" tag="T">  'the child (fem) got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="117" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="118" tag="L">  ʔu-x̣ʷil̕ t-s-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="119" tag="G">  completive-get.lost det.def-FEM-dir child</item>
+      <item id="c4" alignment="r4" line="120" tag="T">  'the child (fem) got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="117" tag="M">t</item>
+      <item id="n2" alignment="c2" line="118" tag="L">ʔu-x̣ʷil̕ t-s-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="119" tag="G">completive-get.lost det.def-FEM-dir child</item>
+      <item id="n4" alignment="c4" line="120" tag="T">the child (fem) got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt11" doc-id="lgcol:lut" line-range="149-151" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="149" tag="M">  author vetted: t</item>
+      <item id="r2" line="150" tag="L">  ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="151" tag="G">  static-get.lost det.def-dir child</item>
+      <item id="r4" line="152" tag="T">  'the child is lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="149" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="150" tag="L">  ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="151" tag="G">  static-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="152" tag="T">  'the child is lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="149" tag="M">t</item>
+      <item id="n2" alignment="c2" line="150" tag="L">ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="151" tag="G">static-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="152" tag="T">the child is lost</item>
+    </tier>
+  </igt>
+  <igt id="igt12" doc-id="lgcol:lut" line-range="153-155" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="153" tag="M">  author vetted: t</item>
+      <item id="r2" line="154" tag="L">  ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="155" tag="G">  completive-get.lost det.def-dir child</item>
+      <item id="r4" line="156" tag="T">  'the child has become lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="153" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="154" tag="L">  ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="155" tag="G">  completive-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="156" tag="T">  'the child has become lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="153" tag="M">t</item>
+      <item id="n2" alignment="c2" line="154" tag="L">ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="155" tag="G">completive-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="156" tag="T">the child has become lost</item>
+    </tier>
+  </igt>
+  <igt id="igt13" doc-id="lgcol:lut" line-range="157-159" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="157" tag="M">  author vetted: t</item>
+      <item id="r2" line="158" tag="L">  lə-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="159" tag="G">  progressive-static-get.lost det.def-dir child</item>
+      <item id="r4" line="160" tag="T">  'the child is getting lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="157" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="158" tag="L">  lə-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="159" tag="G">  progressive-static-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="160" tag="T">  'the child is getting lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="157" tag="M">t</item>
+      <item id="n2" alignment="c2" line="158" tag="L">lə-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="159" tag="G">progressive-static-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="160" tag="T">the child is getting lost</item>
+    </tier>
+  </igt>
+  <igt id="igt14" doc-id="lgcol:lut" line-range="161-163" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="161" tag="M">  author vetted: t</item>
+      <item id="r2" line="162" tag="L">  lə-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="163" tag="G">  progressive-get.lost det.def-dir child</item>
+      <item id="r4" line="164" tag="T">  'the child is getting lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="161" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="162" tag="L">  lə-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="163" tag="G">  progressive-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="164" tag="T">  'the child is getting lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="161" tag="M">t</item>
+      <item id="n2" alignment="c2" line="162" tag="L">lə-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="163" tag="G">progressive-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="164" tag="T">the child is getting lost</item>
+    </tier>
+  </igt>
+  <igt id="igt15" doc-id="lgcol:lut" line-range="201-203" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="201" tag="M">  author vetted: t</item>
+      <item id="r2" line="202" tag="L">  tu-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="203" tag="G">  past-static-get.lost det.def-dir child</item>
+      <item id="r4" line="204" tag="T">  'the child was lost and still is lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="201" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="202" tag="L">  tu-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="203" tag="G">  past-static-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="204" tag="T">  'the child was lost and still is lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="201" tag="M">t</item>
+      <item id="n2" alignment="c2" line="202" tag="L">tu-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="203" tag="G">past-static-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="204" tag="T">the child was lost and still is lost</item>
+    </tier>
+  </igt>
+  <igt id="igt16" doc-id="lgcol:lut" line-range="205-207" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="205" tag="M">  author vetted: t</item>
+      <item id="r2" line="206" tag="L">  tu-lə-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="207" tag="G">  past-progressive-get.lost det.def-dir child</item>
+      <item id="r4" line="208" tag="T">  'the child had gotten lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="205" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="206" tag="L">  tu-lə-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="207" tag="G">  past-progressive-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="208" tag="T">  'the child had gotten lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="205" tag="M">t</item>
+      <item id="n2" alignment="c2" line="206" tag="L">tu-lə-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="207" tag="G">past-progressive-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="208" tag="T">the child had gotten lost</item>
+    </tier>
+  </igt>
+  <igt id="igt17" doc-id="lgcol:lut" line-range="209-211" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="209" tag="M">  author vetted: t</item>
+      <item id="r2" line="210" tag="L">  tu-lə-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="211" tag="G">  past-progressive-static-get.lost det.def-dir child</item>
+      <item id="r4" line="212" tag="T">  'the child had gotten lost and still is lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="209" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="210" tag="L">  tu-lə-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="211" tag="G">  past-progressive-static-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="212" tag="T">  'the child had gotten lost and still is lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="209" tag="M">t</item>
+      <item id="n2" alignment="c2" line="210" tag="L">tu-lə-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="211" tag="G">past-progressive-static-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="212" tag="T">the child had gotten lost and still is lost</item>
+    </tier>
+  </igt>
+  <igt id="igt18" doc-id="lgcol:lut" line-range="213-215" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="213" tag="M">  author vetted: t</item>
+      <item id="r2" line="214" tag="L">  tu-ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="215" tag="G">  past-completive-get.lost det.def-dir child</item>
+      <item id="r4" line="216" tag="T">  'the child had become lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="213" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="214" tag="L">  tu-ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="215" tag="G">  past-completive-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="216" tag="T">  'the child had become lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="213" tag="M">t</item>
+      <item id="n2" alignment="c2" line="214" tag="L">tu-ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="215" tag="G">past-completive-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="216" tag="T">the child had become lost</item>
+    </tier>
+  </igt>
+  <igt id="igt19" doc-id="lgcol:lut" line-range="217-219" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="217" tag="M">  author vetted: t</item>
+      <item id="r2" line="218" tag="L">  ɬu-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="219" tag="G">  future-static-get.lost det.def-dir child</item>
+      <item id="r4" line="220" tag="T">  'the child is lost and will be lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="217" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="218" tag="L">  ɬu-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="219" tag="G">  future-static-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="220" tag="T">  'the child is lost and will be lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="217" tag="M">t</item>
+      <item id="n2" alignment="c2" line="218" tag="L">ɬu-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="219" tag="G">future-static-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="220" tag="T">the child is lost and will be lost</item>
+    </tier>
+  </igt>
+  <igt id="igt20" doc-id="lgcol:lut" line-range="221-223" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="221" tag="M">  author vetted: t</item>
+      <item id="r2" line="222" tag="L">  ɬu-lə-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="223" tag="G">  future-progressive-get.lost det.def-dir child</item>
+      <item id="r4" line="224" tag="T">  'the child will become lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="221" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="222" tag="L">  ɬu-lə-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="223" tag="G">  future-progressive-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="224" tag="T">  'the child will become lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="221" tag="M">t</item>
+      <item id="n2" alignment="c2" line="222" tag="L">ɬu-lə-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="223" tag="G">future-progressive-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="224" tag="T">the child will become lost</item>
+    </tier>
+  </igt>
+  <igt id="igt21" doc-id="lgcol:lut" line-range="225-227" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="225" tag="M">  author vetted: t</item>
+      <item id="r2" line="226" tag="L">  ɬu-lə-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="227" tag="G">  future-progressive-static-get.lost det.def-dir child</item>
+      <item id="r4" line="228" tag="T">  'the child will become lost (mental state)'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="225" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="226" tag="L">  ɬu-lə-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="227" tag="G">  future-progressive-static-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="228" tag="T">  'the child will become lost (mental state)'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="225" tag="M">t</item>
+      <item id="n2" alignment="c2" line="226" tag="L">ɬu-lə-ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="227" tag="G">future-progressive-static-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="228" tag="T">the child will become lost (mental state)</item>
+    </tier>
+  </igt>
+  <igt id="igt22" doc-id="lgcol:lut" line-range="229-231" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="229" tag="M">  author vetted: t</item>
+      <item id="r2" line="230" tag="L">  ɬu-ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="231" tag="G">  future-completive-get.lost det.def-dir child</item>
+      <item id="r4" line="232" tag="T">  'the child will become lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="229" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="230" tag="L">  ɬu-ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="231" tag="G">  future-completive-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="232" tag="T">  'the child will become lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="229" tag="M">t</item>
+      <item id="n2" alignment="c2" line="230" tag="L">ɬu-ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="231" tag="G">future-completive-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="232" tag="T">the child will become lost</item>
+    </tier>
+  </igt>
+  <igt id="igt23" doc-id="lgcol:lut" line-range="297-299" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="297" tag="M">  author vetted: t</item>
+      <item id="r2" line="298" tag="L">  ʔu-x̣ʷil̕</item>
+      <item id="r3" line="299" tag="G">  completive-get.lost</item>
+      <item id="r4" line="300" tag="T">  'he/she/it/them got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="297" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="298" tag="L">  ʔu-x̣ʷil̕</item>
+      <item id="c3" alignment="r3" line="299" tag="G">  completive-get.lost</item>
+      <item id="c4" alignment="r4" line="300" tag="T">  'he/she/it/them got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="297" tag="M">t</item>
+      <item id="n2" alignment="c2" line="298" tag="L">ʔu-x̣ʷil̕</item>
+      <item id="n3" alignment="c3" line="299" tag="G">completive-get.lost</item>
+      <item id="n4" alignment="c4" line="300" tag="T">he/she/it/them got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt24" doc-id="lgcol:lut" line-range="301-303" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="301" tag="M">  author vetted: t</item>
+      <item id="r2" line="302" tag="L">  ʔu-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="r3" line="303" tag="G">  completive-sweep det.def-dir house</item>
+      <item id="r4" line="304" tag="T">  'he/she/it/them swept the house'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="301" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="302" tag="L">  ʔu-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="c3" alignment="r3" line="303" tag="G">  completive-sweep det.def-dir house</item>
+      <item id="c4" alignment="r4" line="304" tag="T">  'he/she/it/them swept the house'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="301" tag="M">t</item>
+      <item id="n2" alignment="c2" line="302" tag="L">ʔu-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="n3" alignment="c3" line="303" tag="G">completive-sweep det.def-dir house</item>
+      <item id="n4" alignment="c4" line="304" tag="T">he/she/it/them swept the house</item>
+    </tier>
+  </igt>
+  <igt id="igt25" doc-id="lgcol:lut" line-range="305-307" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="305" tag="M">  author vetted: t</item>
+      <item id="r2" line="306" tag="L">  ʔu-ʔik̕ʷid t-i č̓ač̓as</item>
+      <item id="r3" line="307" tag="G">  completive-sweep det.def-dir child</item>
+      <item id="r4" line="308" tag="T">  'The child swept it/them'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="305" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="306" tag="L">  ʔu-ʔik̕ʷid t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="307" tag="G">  completive-sweep det.def-dir child</item>
+      <item id="c4" alignment="r4" line="308" tag="T">  'The child swept it/them'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="305" tag="M">t</item>
+      <item id="n2" alignment="c2" line="306" tag="L">ʔu-ʔik̕ʷid t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="307" tag="G">completive-sweep det.def-dir child</item>
+      <item id="n4" alignment="c4" line="308" tag="T">The child swept it/them</item>
+    </tier>
+  </igt>
+  <igt id="igt26" doc-id="lgcol:lut" line-range="309-311" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="309" tag="M">  author vetted: t</item>
+      <item id="r2" line="310" tag="L">  ʔu-ʔik̕ʷid-S t-i č̓ač̓as</item>
+      <item id="r3" line="311" tag="G">  completive-sweep-sg det.def-dir child</item>
+      <item id="r4" line="312" tag="T">  'The child swept me'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="309" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="310" tag="L">  ʔu-ʔik̕ʷid-S t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="311" tag="G">  completive-sweep-sg det.def-dir child</item>
+      <item id="c4" alignment="r4" line="312" tag="T">  'The child swept me'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="309" tag="M">t</item>
+      <item id="n2" alignment="c2" line="310" tag="L">ʔu-ʔik̕ʷid-S t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="311" tag="G">completive-sweep-sg det.def-dir child</item>
+      <item id="n4" alignment="c4" line="312" tag="T">The child swept me</item>
+    </tier>
+  </igt>
+  <igt id="igt27" doc-id="lgcol:lut" line-range="313-315" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="313" tag="M">  author vetted: t</item>
+      <item id="r2" line="314" tag="L">  ʔu-ʔik̕ʷid-L t-i č̓ač̓as</item>
+      <item id="r3" line="315" tag="G">  completive-sweep-pl det.def-dir child</item>
+      <item id="r4" line="316" tag="T">  'The child swept us'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="313" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="314" tag="L">  ʔu-ʔik̕ʷid-L t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="315" tag="G">  completive-sweep-pl det.def-dir child</item>
+      <item id="c4" alignment="r4" line="316" tag="T">  'The child swept us'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="313" tag="M">t</item>
+      <item id="n2" alignment="c2" line="314" tag="L">ʔu-ʔik̕ʷid-L t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="315" tag="G">completive-sweep-pl det.def-dir child</item>
+      <item id="n4" alignment="c4" line="316" tag="T">The child swept us</item>
+    </tier>
+  </igt>
+  <igt id="igt28" doc-id="lgcol:lut" line-range="317-319" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="317" tag="M">  author vetted: t</item>
+      <item id="r2" line="318" tag="L">  ʔu-ʔik̕ʷid-S-id t-i č̓ač̓as</item>
+      <item id="r3" line="319" tag="G">  completive-sweep-sg-2nd det.def-dir child</item>
+      <item id="r4" line="320" tag="T">  'The child swept you'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="317" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="318" tag="L">  ʔu-ʔik̕ʷid-S-id t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="319" tag="G">  completive-sweep-sg-2nd det.def-dir child</item>
+      <item id="c4" alignment="r4" line="320" tag="T">  'The child swept you'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="317" tag="M">t</item>
+      <item id="n2" alignment="c2" line="318" tag="L">ʔu-ʔik̕ʷid-S-id t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="319" tag="G">completive-sweep-sg-2nd det.def-dir child</item>
+      <item id="n4" alignment="c4" line="320" tag="T">The child swept you</item>
+    </tier>
+  </igt>
+  <igt id="igt29" doc-id="lgcol:lut" line-range="321-323" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="321" tag="M">  author vetted: t</item>
+      <item id="r2" line="322" tag="L">  ʔu-ʔik̕ʷid-L-id t-i č̓ač̓as</item>
+      <item id="r3" line="323" tag="G">  completive-sweep-sg-2nd det.def-dir child</item>
+      <item id="r4" line="324" tag="T">  'The child swept y'all'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="321" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="322" tag="L">  ʔu-ʔik̕ʷid-L-id t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="323" tag="G">  completive-sweep-sg-2nd det.def-dir child</item>
+      <item id="c4" alignment="r4" line="324" tag="T">  'The child swept y'all'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="321" tag="M">t</item>
+      <item id="n2" alignment="c2" line="322" tag="L">ʔu-ʔik̕ʷid-L-id t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="323" tag="G">completive-sweep-sg-2nd det.def-dir child</item>
+      <item id="n4" alignment="c4" line="324" tag="T">The child swept y'all</item>
+    </tier>
+  </igt>
+  <igt id="igt30" doc-id="lgcol:lut" line-range="325-327" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="325" tag="M">  author vetted: t</item>
+      <item id="r2" line="326" tag="L">  xʷíʔ č-əd ʔu-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="r3" line="327" tag="G">  not ind.pred-I completive-sweep det.def-dir house</item>
+      <item id="r4" line="328" tag="T">  'I did not sweep the house'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="325" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="326" tag="L">  xʷíʔ č-əd ʔu-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="c3" alignment="r3" line="327" tag="G">  not ind.pred-I completive-sweep det.def-dir house</item>
+      <item id="c4" alignment="r4" line="328" tag="T">  'I did not sweep the house'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="325" tag="M">t</item>
+      <item id="n2" alignment="c2" line="326" tag="L">xʷíʔ č-əd ʔu-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="n3" alignment="c3" line="327" tag="G">not ind.pred-I completive-sweep det.def-dir house</item>
+      <item id="n4" alignment="c4" line="328" tag="T">I did not sweep the house</item>
+    </tier>
+  </igt>
+  <igt id="igt31" doc-id="lgcol:lut" line-range="329-331" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="329" tag="M">  author vetted: t</item>
+      <item id="r2" line="330" tag="L">  xʷíʔ lə-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="331" tag="G">  not progressive-get.lost det.def-dir child</item>
+      <item id="r4" line="332" tag="T">  'the child is not lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="329" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="330" tag="L">  xʷíʔ lə-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="331" tag="G">  not progressive-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="332" tag="T">  'the child is not lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="329" tag="M">t</item>
+      <item id="n2" alignment="c2" line="330" tag="L">xʷíʔ lə-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="331" tag="G">not progressive-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="332" tag="T">the child is not lost</item>
+    </tier>
+  </igt>
+  <igt id="igt32" doc-id="lgcol:lut" line-range="349-351" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="349" tag="M">  author vetted: t</item>
+      <item id="r2" line="350" tag="L">  xʷíʔ č-əd ʔu-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="r3" line="351" tag="G">  not ind.pred-I completive-sweep det.def-dir house</item>
+      <item id="r4" line="352" tag="T">  'I did not sweep the house'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="349" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="350" tag="L">  xʷíʔ č-əd ʔu-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="c3" alignment="r3" line="351" tag="G">  not ind.pred-I completive-sweep det.def-dir house</item>
+      <item id="c4" alignment="r4" line="352" tag="T">  'I did not sweep the house'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="349" tag="M">t</item>
+      <item id="n2" alignment="c2" line="350" tag="L">xʷíʔ č-əd ʔu-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="n3" alignment="c3" line="351" tag="G">not ind.pred-I completive-sweep det.def-dir house</item>
+      <item id="n4" alignment="c4" line="352" tag="T">I did not sweep the house</item>
+    </tier>
+  </igt>
+  <igt id="igt33" doc-id="lgcol:lut" line-range="357-359" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="357" tag="M">  author vetted: t</item>
+      <item id="r2" line="358" tag="L">  xʷíʔ č-əd lə-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="r3" line="359" tag="G">  not ind.pred-I progressive-sweep det.def-dir house</item>
+      <item id="r4" line="360" tag="T">  'I do not sweep the house'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="357" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="358" tag="L">  xʷíʔ č-əd lə-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="c3" alignment="r3" line="359" tag="G">  not ind.pred-I progressive-sweep det.def-dir house</item>
+      <item id="c4" alignment="r4" line="360" tag="T">  'I do not sweep the house'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="357" tag="M">t</item>
+      <item id="n2" alignment="c2" line="358" tag="L">xʷíʔ č-əd lə-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="n3" alignment="c3" line="359" tag="G">not ind.pred-I progressive-sweep det.def-dir house</item>
+      <item id="n4" alignment="c4" line="360" tag="T">I do not sweep the house</item>
+    </tier>
+  </igt>
+  <igt id="igt34" doc-id="lgcol:lut" line-range="365-367" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="365" tag="M">  author vetted: t</item>
+      <item id="r2" line="366" tag="L">  ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="367" tag="G">  completive-get.lost det.def-dir child</item>
+      <item id="r4" line="368" tag="T">  'the child got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="365" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="366" tag="L">  ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="367" tag="G">  completive-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="368" tag="T">  'the child got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="365" tag="M">t</item>
+      <item id="n2" alignment="c2" line="366" tag="L">ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="367" tag="G">completive-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="368" tag="T">the child got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt35" doc-id="lgcol:lut" line-range="369-371" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="369" tag="M">  author vetted: t</item>
+      <item id="r2" line="370" tag="L">  ʔu-x̣ʷil̕ t-s-i č̓ač̓as</item>
+      <item id="r3" line="371" tag="G">  completive-get.lost det.def-fem-dir child</item>
+      <item id="r4" line="372" tag="T">  'the young girl got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="369" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="370" tag="L">  ʔu-x̣ʷil̕ t-s-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="371" tag="G">  completive-get.lost det.def-fem-dir child</item>
+      <item id="c4" alignment="r4" line="372" tag="T">  'the young girl got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="369" tag="M">t</item>
+      <item id="n2" alignment="c2" line="370" tag="L">ʔu-x̣ʷil̕ t-s-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="371" tag="G">completive-get.lost det.def-fem-dir child</item>
+      <item id="n4" alignment="c4" line="372" tag="T">the young girl got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt36" doc-id="lgcol:lut" line-range="373-375" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="373" tag="M">  author vetted: t</item>
+      <item id="r2" line="374" tag="L">  ʔu-x̣ʷil̕ kʷ-i č̓ač̓as</item>
+      <item id="r3" line="375" tag="G">  completive-get.lost det.indef-dir child</item>
+      <item id="r4" line="376" tag="T">  'a child got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="373" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="374" tag="L">  ʔu-x̣ʷil̕ kʷ-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="375" tag="G">  completive-get.lost det.indef-dir child</item>
+      <item id="c4" alignment="r4" line="376" tag="T">  'a child got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="373" tag="M">t</item>
+      <item id="n2" alignment="c2" line="374" tag="L">ʔu-x̣ʷil̕ kʷ-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="375" tag="G">completive-get.lost det.indef-dir child</item>
+      <item id="n4" alignment="c4" line="376" tag="T">a child got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt37" doc-id="lgcol:lut" line-range="385-387" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="385" tag="M">  author vetted: t</item>
+      <item id="r2" line="386" tag="L">  ʔu-x̣ʷil̕ kʷ-s-i č̓ač̓as</item>
+      <item id="r3" line="387" tag="G">  completive-get.lost det.indef-fem-dir child</item>
+      <item id="r4" line="388" tag="T">  'a young girl got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="385" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="386" tag="L">  ʔu-x̣ʷil̕ kʷ-s-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="387" tag="G">  completive-get.lost det.indef-fem-dir child</item>
+      <item id="c4" alignment="r4" line="388" tag="T">  'a young girl got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="385" tag="M">t</item>
+      <item id="n2" alignment="c2" line="386" tag="L">ʔu-x̣ʷil̕ kʷ-s-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="387" tag="G">completive-get.lost det.indef-fem-dir child</item>
+      <item id="n4" alignment="c4" line="388" tag="T">a young girl got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt38" doc-id="lgcol:lut" line-range="389-391" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="389" tag="M">  author vetted: t</item>
+      <item id="r2" line="390" tag="L">  ʔu-x̣ʷil̕ kʷ-ə č̓ač̓as</item>
+      <item id="r3" line="391" tag="G">  completive-get.lost det.indef-indir child</item>
+      <item id="r4" line="392" tag="T">  'a child got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="389" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="390" tag="L">  ʔu-x̣ʷil̕ kʷ-ə č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="391" tag="G">  completive-get.lost det.indef-indir child</item>
+      <item id="c4" alignment="r4" line="392" tag="T">  'a child got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="389" tag="M">t</item>
+      <item id="n2" alignment="c2" line="390" tag="L">ʔu-x̣ʷil̕ kʷ-ə č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="391" tag="G">completive-get.lost det.indef-indir child</item>
+      <item id="n4" alignment="c4" line="392" tag="T">a child got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt39" doc-id="lgcol:lut" line-range="393-395" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="393" tag="M">  author vetted: t</item>
+      <item id="r2" line="394" tag="L">  ʔu-x̣ʷil̕ kʷ-s-ə č̓ač̓as</item>
+      <item id="r3" line="395" tag="G">  completive-get.lost det.indef-fem-indir child</item>
+      <item id="r4" line="396" tag="T">  'a young girl got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="393" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="394" tag="L">  ʔu-x̣ʷil̕ kʷ-s-ə č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="395" tag="G">  completive-get.lost det.indef-fem-indir child</item>
+      <item id="c4" alignment="r4" line="396" tag="T">  'a young girl got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="393" tag="M">t</item>
+      <item id="n2" alignment="c2" line="394" tag="L">ʔu-x̣ʷil̕ kʷ-s-ə č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="395" tag="G">completive-get.lost det.indef-fem-indir child</item>
+      <item id="n4" alignment="c4" line="396" tag="T">a young girl got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt40" doc-id="lgcol:lut" line-range="397-399" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="397" tag="M">  author vetted: t</item>
+      <item id="r2" line="398" tag="L">  ʔu-x̣ʷil̕ t-ə č̓ač̓as</item>
+      <item id="r3" line="399" tag="G">  completive-get.lost det.def-indir child</item>
+      <item id="r4" line="400" tag="T">  'the child got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="397" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="398" tag="L">  ʔu-x̣ʷil̕ t-ə č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="399" tag="G">  completive-get.lost det.def-indir child</item>
+      <item id="c4" alignment="r4" line="400" tag="T">  'the child got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="397" tag="M">t</item>
+      <item id="n2" alignment="c2" line="398" tag="L">ʔu-x̣ʷil̕ t-ə č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="399" tag="G">completive-get.lost det.def-indir child</item>
+      <item id="n4" alignment="c4" line="400" tag="T">the child got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt41" doc-id="lgcol:lut" line-range="401-403" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="401" tag="M">  author vetted: t</item>
+      <item id="r2" line="402" tag="L">  ʔu-x̣ʷil̕ t-s-ə č̓ač̓as</item>
+      <item id="r3" line="403" tag="G">  completive-get.lost det.def-fem-indir child</item>
+      <item id="r4" line="404" tag="T">  'the young girl got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="401" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="402" tag="L">  ʔu-x̣ʷil̕ t-s-ə č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="403" tag="G">  completive-get.lost det.def-fem-indir child</item>
+      <item id="c4" alignment="r4" line="404" tag="T">  'the young girl got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="401" tag="M">t</item>
+      <item id="n2" alignment="c2" line="402" tag="L">ʔu-x̣ʷil̕ t-s-ə č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="403" tag="G">completive-get.lost det.def-fem-indir child</item>
+      <item id="n4" alignment="c4" line="404" tag="T">the young girl got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt42" doc-id="lgcol:lut" line-range="413-415" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="413" tag="M">  author vetted: t</item>
+      <item id="r2" line="414" tag="L">  ʔu-x̣ʷil̕ t-s-i-ʔaʔ č̓ač̓as</item>
+      <item id="r3" line="415" tag="G">  completive-get.lost det.def-fem-dir-here child</item>
+      <item id="r4" line="416" tag="T">  'this child got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="413" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="414" tag="L">  ʔu-x̣ʷil̕ t-s-i-ʔaʔ č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="415" tag="G">  completive-get.lost det.def-fem-dir-here child</item>
+      <item id="c4" alignment="r4" line="416" tag="T">  'this child got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="413" tag="M">t</item>
+      <item id="n2" alignment="c2" line="414" tag="L">ʔu-x̣ʷil̕ t-s-i-ʔaʔ č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="415" tag="G">completive-get.lost det.def-fem-dir-here child</item>
+      <item id="n4" alignment="c4" line="416" tag="T">this child got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt43" doc-id="lgcol:lut" line-range="417-419" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="417" tag="M">  author vetted: t</item>
+      <item id="r2" line="418" tag="L">  ʔu-x̣ʷil̕ t-i-ʔiɬ č̓ač̓as</item>
+      <item id="r3" line="419" tag="G">  completive-get.lost det.def-dir-there child</item>
+      <item id="r4" line="420" tag="T">  'that child got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="417" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="418" tag="L">  ʔu-x̣ʷil̕ t-i-ʔiɬ č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="419" tag="G">  completive-get.lost det.def-dir-there child</item>
+      <item id="c4" alignment="r4" line="420" tag="T">  'that child got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="417" tag="M">t</item>
+      <item id="n2" alignment="c2" line="418" tag="L">ʔu-x̣ʷil̕ t-i-ʔiɬ č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="419" tag="G">completive-get.lost det.def-dir-there child</item>
+      <item id="n4" alignment="c4" line="420" tag="T">that child got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt44" doc-id="lgcol:lut" line-range="421-423" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="421" tag="M">  author vetted: t</item>
+      <item id="r2" line="422" tag="L">  ʔu-x̣ʷil̕ t-s-i-ʔiɬ č̓ač̓as</item>
+      <item id="r3" line="423" tag="G">  completive-get.lost det.def-fem-dir-there child</item>
+      <item id="r4" line="424" tag="T">  'that child got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="421" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="422" tag="L">  ʔu-x̣ʷil̕ t-s-i-ʔiɬ č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="423" tag="G">  completive-get.lost det.def-fem-dir-there child</item>
+      <item id="c4" alignment="r4" line="424" tag="T">  'that child got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="421" tag="M">t</item>
+      <item id="n2" alignment="c2" line="422" tag="L">ʔu-x̣ʷil̕ t-s-i-ʔiɬ č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="423" tag="G">completive-get.lost det.def-fem-dir-there child</item>
+      <item id="n4" alignment="c4" line="424" tag="T">that child got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt45" doc-id="lgcol:lut" line-range="425-427" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="425" tag="M">  author vetted: t</item>
+      <item id="r2" line="426" tag="L">  ʔu-x̣ʷil̕ t-s-i-ʔiɬ čəgʷás</item>
+      <item id="r3" line="427" tag="G">  completive-get.lost det.def-fem-dir-there wife</item>
+      <item id="r4" line="428" tag="T">  'that wife got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="425" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="426" tag="L">  ʔu-x̣ʷil̕ t-s-i-ʔiɬ čəgʷás</item>
+      <item id="c3" alignment="r3" line="427" tag="G">  completive-get.lost det.def-fem-dir-there wife</item>
+      <item id="c4" alignment="r4" line="428" tag="T">  'that wife got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="425" tag="M">t</item>
+      <item id="n2" alignment="c2" line="426" tag="L">ʔu-x̣ʷil̕ t-s-i-ʔiɬ čəgʷás</item>
+      <item id="n3" alignment="c3" line="427" tag="G">completive-get.lost det.def-fem-dir-there wife</item>
+      <item id="n4" alignment="c4" line="428" tag="T">that wife got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt46" doc-id="lgcol:lut" line-range="429-431" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="429" tag="M">  author vetted: t</item>
+      <item id="r2" line="430" tag="L">  ʔu-x̣ʷil̕ t-i-ʔiɬ bád</item>
+      <item id="r3" line="431" tag="G">  completive-get.lost det.def-dir-there father</item>
+      <item id="r4" line="432" tag="T">  'that father got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="429" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="430" tag="L">  ʔu-x̣ʷil̕ t-i-ʔiɬ bád</item>
+      <item id="c3" alignment="r3" line="431" tag="G">  completive-get.lost det.def-dir-there father</item>
+      <item id="c4" alignment="r4" line="432" tag="T">  'that father got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="429" tag="M">t</item>
+      <item id="n2" alignment="c2" line="430" tag="L">ʔu-x̣ʷil̕ t-i-ʔiɬ bád</item>
+      <item id="n3" alignment="c3" line="431" tag="G">completive-get.lost det.def-dir-there father</item>
+      <item id="n4" alignment="c4" line="432" tag="T">that father got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt47" doc-id="lgcol:lut" line-range="433-435" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="433" tag="M">  a vetted: t</item>
+      <item id="r2" line="434" tag="L">  ʔəs-tágʷəxʷ ʔu</item>
+      <item id="r3" line="435" tag="G">  static-hungry Q</item>
+      <item id="r4" line="436" tag="T">  'Is/are he/she/it/they hungry?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="433" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="434" tag="L">  ʔəs-tágʷəxʷ ʔu</item>
+      <item id="c3" alignment="r3" line="435" tag="G">  static-hungry Q</item>
+      <item id="c4" alignment="r4" line="436" tag="T">  'Is/are he/she/it/they hungry?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="433" tag="M">t</item>
+      <item id="n2" alignment="c2" line="434" tag="L">ʔəs-tágʷəxʷ ʔu</item>
+      <item id="n3" alignment="c3" line="435" tag="G">static-hungry Q</item>
+      <item id="n4" alignment="c4" line="436" tag="T">Is/are he/she/it/they hungry?</item>
+    </tier>
+  </igt>
+  <igt id="igt48" doc-id="lgcol:lut" line-range="437-439" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="437" tag="M">  a vetted: t</item>
+      <item id="r2" line="438" tag="L">  híkʷ č-əxʷ ʔu ƛ̕u-ʔəs-xəɬqìd</item>
+      <item id="r3" line="439" tag="G">  very ind.pred-you Q habitual-stative-get.headache</item>
+      <item id="r4" line="440" tag="T">  'Do you generally get severe headaches?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="437" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="438" tag="L">  híkʷ č-əxʷ ʔu ƛ̕u-ʔəs-xəɬqìd</item>
+      <item id="c3" alignment="r3" line="439" tag="G">  very ind.pred-you Q habitual-stative-get.headache</item>
+      <item id="c4" alignment="r4" line="440" tag="T">  'Do you generally get severe headaches?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="437" tag="M">t</item>
+      <item id="n2" alignment="c2" line="438" tag="L">híkʷ č-əxʷ ʔu ƛ̕u-ʔəs-xəɬqìd</item>
+      <item id="n3" alignment="c3" line="439" tag="G">very ind.pred-you Q habitual-stative-get.headache</item>
+      <item id="n4" alignment="c4" line="440" tag="T">Do you generally get severe headaches?</item>
+    </tier>
+  </igt>
+  <igt id="igt49" doc-id="lgcol:lut" line-range="441-443" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="441" tag="M">  a vetted: t</item>
+      <item id="r2" line="442" tag="L">  híkʷ č-əxʷ ƛ̕u-ʔəs-xəɬqìd ʔu</item>
+      <item id="r3" line="443" tag="G">  very ind.pred-you habitual-stative-get.headache Q</item>
+      <item id="r4" line="444" tag="T">  'You generally get severe headaches, don't you?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="441" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="442" tag="L">  híkʷ č-əxʷ ƛ̕u-ʔəs-xəɬqìd ʔu</item>
+      <item id="c3" alignment="r3" line="443" tag="G">  very ind.pred-you habitual-stative-get.headache Q</item>
+      <item id="c4" alignment="r4" line="444" tag="T">  'You generally get severe headaches, don't you?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="441" tag="M">t</item>
+      <item id="n2" alignment="c2" line="442" tag="L">híkʷ č-əxʷ ƛ̕u-ʔəs-xəɬqìd ʔu</item>
+      <item id="n3" alignment="c3" line="443" tag="G">very ind.pred-you habitual-stative-get.headache Q</item>
+      <item id="n4" alignment="c4" line="444" tag="T">You generally get severe headaches, don't you?</item>
+    </tier>
+  </igt>
+  <igt id="igt50" doc-id="lgcol:lut" line-range="449-451" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="449" tag="M">  a vetted: t</item>
+      <item id="r2" line="450" tag="L">  ƛ̕u-ʔəs-áʔɬ ʔu</item>
+      <item id="r3" line="451" tag="G">  habitual-stative-well Q</item>
+      <item id="r4" line="452" tag="T">  'Is/are he/she/it/they habitually well?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="449" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="450" tag="L">  ƛ̕u-ʔəs-áʔɬ ʔu</item>
+      <item id="c3" alignment="r3" line="451" tag="G">  habitual-stative-well Q</item>
+      <item id="c4" alignment="r4" line="452" tag="T">  'Is/are he/she/it/they habitually well?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="449" tag="M">t</item>
+      <item id="n2" alignment="c2" line="450" tag="L">ƛ̕u-ʔəs-áʔɬ ʔu</item>
+      <item id="n3" alignment="c3" line="451" tag="G">habitual-stative-well Q</item>
+      <item id="n4" alignment="c4" line="452" tag="T">Is/are he/she/it/they habitually well?</item>
+    </tier>
+  </igt>
+  <igt id="igt51" doc-id="lgcol:lut" line-range="457-459" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="457" tag="M">  a vetted: t</item>
+      <item id="r2" line="458" tag="L">  təɬ ʔu dəgʷí</item>
+      <item id="r3" line="459" tag="G">  true Q you</item>
+      <item id="r4" line="460" tag="T">  'Is it really you?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="457" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="458" tag="L">  təɬ ʔu dəgʷí</item>
+      <item id="c3" alignment="r3" line="459" tag="G">  true Q you</item>
+      <item id="c4" alignment="r4" line="460" tag="T">  'Is it really you?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="457" tag="M">t</item>
+      <item id="n2" alignment="c2" line="458" tag="L">təɬ ʔu dəgʷí</item>
+      <item id="n3" alignment="c3" line="459" tag="G">true Q you</item>
+      <item id="n4" alignment="c4" line="460" tag="T">Is it really you?</item>
+    </tier>
+  </igt>
+  <igt id="igt52" doc-id="lgcol:lut" line-range="461-463" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="461" tag="M">  a vetted: t</item>
+      <item id="r2" line="462" tag="L">  təɬ dəgʷí ʔu</item>
+      <item id="r3" line="463" tag="G">  true you Q</item>
+      <item id="r4" line="464" tag="T">  'It is really you, isn't it?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="461" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="462" tag="L">  təɬ dəgʷí ʔu</item>
+      <item id="c3" alignment="r3" line="463" tag="G">  true you Q</item>
+      <item id="c4" alignment="r4" line="464" tag="T">  'It is really you, isn't it?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="461" tag="M">t</item>
+      <item id="n2" alignment="c2" line="462" tag="L">təɬ dəgʷí ʔu</item>
+      <item id="n3" alignment="c3" line="463" tag="G">true you Q</item>
+      <item id="n4" alignment="c4" line="464" tag="T">It is really you, isn't it?</item>
+    </tier>
+  </igt>
+  <igt id="igt53" doc-id="lgcol:lut" line-range="469-471" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="469" tag="M">  author vetted: t</item>
+      <item id="r2" line="470" tag="L">  ʔu-x̣ʷil̕ č-əd ʔi t-i č̓ač̓as</item>
+      <item id="r3" line="471" tag="G">  completive-get.lost ind.pred-I and det.def-dir child</item>
+      <item id="r4" line="472" tag="T">  'the child and I got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="469" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="470" tag="L">  ʔu-x̣ʷil̕ č-əd ʔi t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="471" tag="G">  completive-get.lost ind.pred-I and det.def-dir child</item>
+      <item id="c4" alignment="r4" line="472" tag="T">  'the child and I got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="469" tag="M">t</item>
+      <item id="n2" alignment="c2" line="470" tag="L">ʔu-x̣ʷil̕ č-əd ʔi t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="471" tag="G">completive-get.lost ind.pred-I and det.def-dir child</item>
+      <item id="n4" alignment="c4" line="472" tag="T">the child and I got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt54" doc-id="lgcol:lut" line-range="477-479" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="477" tag="M">  author vetted: t</item>
+      <item id="r2" line="478" tag="L">  ʔu-x̣ʷil̕ č-əd ʔi č-əxʷ ʔi t-i č̓ač̓as</item>
+      <item id="r3" line="479" tag="G">  completive-get.lost ind.pred-I and ind.pred-you and det.def-dir child</item>
+      <item id="r4" line="480" tag="T">  'the child, you, and I got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="477" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="478" tag="L">  ʔu-x̣ʷil̕ č-əd ʔi č-əxʷ ʔi t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="479" tag="G">  completive-get.lost ind.pred-I and ind.pred-you and det.def-dir child</item>
+      <item id="c4" alignment="r4" line="480" tag="T">  'the child, you, and I got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="477" tag="M">t</item>
+      <item id="n2" alignment="c2" line="478" tag="L">ʔu-x̣ʷil̕ č-əd ʔi č-əxʷ ʔi t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="479" tag="G">completive-get.lost ind.pred-I and ind.pred-you and det.def-dir child</item>
+      <item id="n4" alignment="c4" line="480" tag="T">the child, you, and I got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt55" doc-id="lgcol:lut" line-range="497-499" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="497" tag="M">  author vetted: t</item>
+      <item id="r2" line="498" tag="L">  ʔu-x̣ʷil̕ č-əɬi ʔi t-i č̓ač̓as</item>
+      <item id="r3" line="499" tag="G">  completive-get.lost ind.pred-we and det.def-dir child</item>
+      <item id="r4" line="500" tag="T">  'We, the child and I, got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="497" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="498" tag="L">  ʔu-x̣ʷil̕ č-əɬi ʔi t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="499" tag="G">  completive-get.lost ind.pred-we and det.def-dir child</item>
+      <item id="c4" alignment="r4" line="500" tag="T">  'We, the child and I, got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="497" tag="M">t</item>
+      <item id="n2" alignment="c2" line="498" tag="L">ʔu-x̣ʷil̕ č-əɬi ʔi t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="499" tag="G">completive-get.lost ind.pred-we and det.def-dir child</item>
+      <item id="n4" alignment="c4" line="500" tag="T">We, the child and I, got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt56" doc-id="lgcol:lut" line-range="501-503" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="501" tag="M">  author vetted: t</item>
+      <item id="r2" line="502" tag="L">  ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl č-əxʷ-a ʔu-x̣ʷil̕</item>
+      <item id="r3" line="503" tag="G">  completive-sweep ind.pred-I det.def-dir house ind.pred-you-and completive-get.lost</item>
+      <item id="r4" line="504" tag="T">  'I swept the house and you got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="501" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="502" tag="L">  ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl č-əxʷ-a ʔu-x̣ʷil̕</item>
+      <item id="c3" alignment="r3" line="503" tag="G">  completive-sweep ind.pred-I det.def-dir house ind.pred-you-and completive-get.lost</item>
+      <item id="c4" alignment="r4" line="504" tag="T">  'I swept the house and you got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="501" tag="M">t</item>
+      <item id="n2" alignment="c2" line="502" tag="L">ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl č-əxʷ-a ʔu-x̣ʷil̕</item>
+      <item id="n3" alignment="c3" line="503" tag="G">completive-sweep ind.pred-I det.def-dir house ind.pred-you-and completive-get.lost</item>
+      <item id="n4" alignment="c4" line="504" tag="T">I swept the house and you got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt57" doc-id="lgcol:lut" line-range="533-535" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="533" tag="M">  author vetted: t</item>
+      <item id="r2" line="534" tag="L">  ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl gʷəl ʔu-x̣ʷil̕</item>
+      <item id="r3" line="535" tag="G">  completive-sweep ind.pred-I det.def-dir house and completive-get.lost</item>
+      <item id="r4" line="536" tag="T">  'I swept the house and he/she/it/them got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="533" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="534" tag="L">  ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl gʷəl ʔu-x̣ʷil̕</item>
+      <item id="c3" alignment="r3" line="535" tag="G">  completive-sweep ind.pred-I det.def-dir house and completive-get.lost</item>
+      <item id="c4" alignment="r4" line="536" tag="T">  'I swept the house and he/she/it/them got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="533" tag="M">t</item>
+      <item id="n2" alignment="c2" line="534" tag="L">ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl gʷəl ʔu-x̣ʷil̕</item>
+      <item id="n3" alignment="c3" line="535" tag="G">completive-sweep ind.pred-I det.def-dir house and completive-get.lost</item>
+      <item id="n4" alignment="c4" line="536" tag="T">I swept the house and he/she/it/them got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt58" doc-id="lgcol:lut" line-range="537-539" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="537" tag="M">  author vetted: t</item>
+      <item id="r2" line="538" tag="L">  ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl gʷəl ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="539" tag="G">  completive-sweep ind.pred-I det.def-dir house and completive-get.lost det.def-dir child</item>
+      <item id="r4" line="540" tag="T">  'I swept the house and the child got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="537" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="538" tag="L">  ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl gʷəl ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="539" tag="G">  completive-sweep ind.pred-I det.def-dir house and completive-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="540" tag="T">  'I swept the house and the child got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="537" tag="M">t</item>
+      <item id="n2" alignment="c2" line="538" tag="L">ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl gʷəl ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="539" tag="G">completive-sweep ind.pred-I det.def-dir house and completive-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="540" tag="T">I swept the house and the child got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt59" doc-id="lgcol:lut" line-range="545-547" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="545" tag="M">  author vetted: t</item>
+      <item id="r2" line="546" tag="L">  ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl č-əxʷ-a ʔu-x̣ʷil̕ gʷəl ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="547" tag="G">  completive-sweep ind.pred-I det.def-dir house ind.pred-you-and completive-get.lost and completive-get.lost det.def-dir child</item>
+      <item id="r4" line="548" tag="T">  'I swept the house, you got lost, and the child got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="545" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="546" tag="L">  ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl č-əxʷ-a ʔu-x̣ʷil̕ gʷəl ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="547" tag="G">  completive-sweep ind.pred-I det.def-dir house ind.pred-you-and completive-get.lost and completive-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="548" tag="T">  'I swept the house, you got lost, and the child got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="545" tag="M">t</item>
+      <item id="n2" alignment="c2" line="546" tag="L">ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl č-əxʷ-a ʔu-x̣ʷil̕ gʷəl ʔu-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="547" tag="G">completive-sweep ind.pred-I det.def-dir house ind.pred-you-and completive-get.lost and completive-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="548" tag="T">I swept the house, you got lost, and the child got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt60" doc-id="lgcol:lut" line-range="553-555" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="553" tag="M">  author vetted: t</item>
+      <item id="r2" line="554" tag="L">  ʔu-ʔik̕ʷid č-əd t-i hìkʷ ʔalʔəl</item>
+      <item id="r3" line="555" tag="G">  completive-sweep ind.pred-I det.def-dir big house</item>
+      <item id="r4" line="556" tag="T">  'I swept the big house'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="553" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="554" tag="L">  ʔu-ʔik̕ʷid č-əd t-i hìkʷ ʔalʔəl</item>
+      <item id="c3" alignment="r3" line="555" tag="G">  completive-sweep ind.pred-I det.def-dir big house</item>
+      <item id="c4" alignment="r4" line="556" tag="T">  'I swept the big house'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="553" tag="M">t</item>
+      <item id="n2" alignment="c2" line="554" tag="L">ʔu-ʔik̕ʷid č-əd t-i hìkʷ ʔalʔəl</item>
+      <item id="n3" alignment="c3" line="555" tag="G">completive-sweep ind.pred-I det.def-dir big house</item>
+      <item id="n4" alignment="c4" line="556" tag="T">I swept the big house</item>
+    </tier>
+  </igt>
+  <igt id="igt61" doc-id="lgcol:lut" line-range="565-567" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="565" tag="M">  author vetted: t</item>
+      <item id="r2" line="566" tag="L">  ck̕ʷáqid ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="567" tag="G">  always static-get.lost det.def-dir child</item>
+      <item id="r4" line="568" tag="T">  'the child is always lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="565" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="566" tag="L">  ck̕ʷáqid ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="567" tag="G">  always static-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="568" tag="T">  'the child is always lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="565" tag="M">t</item>
+      <item id="n2" alignment="c2" line="566" tag="L">ck̕ʷáqid ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="567" tag="G">always static-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="568" tag="T">the child is always lost</item>
+    </tier>
+  </igt>
+  <igt id="igt62" doc-id="lgcol:lut" line-range="577-579" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="577" tag="M">  author vetted: t</item>
+      <item id="r2" line="578" tag="L">  ʔəs-xə́c č-əd ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="r3" line="579" tag="G">  static-fear ind.pred-I static-get.lost det.def-dir child</item>
+      <item id="r4" line="580" tag="T">  'I fear that the child is lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="577" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="578" tag="L">  ʔəs-xə́c č-əd ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="579" tag="G">  static-fear ind.pred-I static-get.lost det.def-dir child</item>
+      <item id="c4" alignment="r4" line="580" tag="T">  'I fear that the child is lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="577" tag="M">t</item>
+      <item id="n2" alignment="c2" line="578" tag="L">ʔəs-xə́c č-əd ʔəs-x̣ʷil̕ t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="579" tag="G">static-fear ind.pred-I static-get.lost det.def-dir child</item>
+      <item id="n4" alignment="c4" line="580" tag="T">I fear that the child is lost</item>
+    </tier>
+  </igt>
+  <igt id="igt63" doc-id="lgcol:lut" line-range="581-583" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="581" tag="M">  author vetted: t</item>
+      <item id="r2" line="582" tag="L">  ʔəs-xə́c t-i č̓ač̓as ʔəs-x̣ʷil̕ əd</item>
+      <item id="r3" line="583" tag="G">  static-fear det.def-dir child static-get.lost I</item>
+      <item id="r4" line="584" tag="T">  'The child fears that I am lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="581" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="582" tag="L">  ʔəs-xə́c t-i č̓ač̓as ʔəs-x̣ʷil̕ əd</item>
+      <item id="c3" alignment="r3" line="583" tag="G">  static-fear det.def-dir child static-get.lost I</item>
+      <item id="c4" alignment="r4" line="584" tag="T">  'The child fears that I am lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="581" tag="M">t</item>
+      <item id="n2" alignment="c2" line="582" tag="L">ʔəs-xə́c t-i č̓ač̓as ʔəs-x̣ʷil̕ əd</item>
+      <item id="n3" alignment="c3" line="583" tag="G">static-fear det.def-dir child static-get.lost I</item>
+      <item id="n4" alignment="c4" line="584" tag="T">The child fears that I am lost</item>
+    </tier>
+  </igt>
+  <igt id="igt64" doc-id="lgcol:lut" line-range="593-595" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="593" tag="M">  author vetted: t</item>
+      <item id="r2" line="594" tag="L">  ʔəs-xə́c t-i č̓ač̓as ʔəs-x̣ʷil̕ as</item>
+      <item id="r3" line="595" tag="G">  stati-fear det.def-dir child static-get.lost 3rd</item>
+      <item id="r4" line="596" tag="T">  'The child fears that he/she/it/them get(s) lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="593" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="594" tag="L">  ʔəs-xə́c t-i č̓ač̓as ʔəs-x̣ʷil̕ as</item>
+      <item id="c3" alignment="r3" line="595" tag="G">  stati-fear det.def-dir child static-get.lost 3rd</item>
+      <item id="c4" alignment="r4" line="596" tag="T">  'The child fears that he/she/it/them get(s) lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="593" tag="M">t</item>
+      <item id="n2" alignment="c2" line="594" tag="L">ʔəs-xə́c t-i č̓ač̓as ʔəs-x̣ʷil̕ as</item>
+      <item id="n3" alignment="c3" line="595" tag="G">stati-fear det.def-dir child static-get.lost 3rd</item>
+      <item id="n4" alignment="c4" line="596" tag="T">The child fears that he/she/it/them get(s) lost</item>
+    </tier>
+  </igt>
+  <igt id="igt65" doc-id="lgcol:lut" line-range="601-603" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="601" tag="M">  author vetted: t</item>
+      <item id="r2" line="602" tag="L">  ʔəs-xʷscut č-əd ʔəs-x̣ʷil̕ ʔu t-i č̓ač̓as</item>
+      <item id="r3" line="603" tag="G">  static-wonder ind.pred-I static-get.lost Q det.def-dir child</item>
+      <item id="r4" line="604" tag="T">  'I wonder if the child is lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="601" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="602" tag="L">  ʔəs-xʷscut č-əd ʔəs-x̣ʷil̕ ʔu t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="603" tag="G">  static-wonder ind.pred-I static-get.lost Q det.def-dir child</item>
+      <item id="c4" alignment="r4" line="604" tag="T">  'I wonder if the child is lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="601" tag="M">t</item>
+      <item id="n2" alignment="c2" line="602" tag="L">ʔəs-xʷscut č-əd ʔəs-x̣ʷil̕ ʔu t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="603" tag="G">static-wonder ind.pred-I static-get.lost Q det.def-dir child</item>
+      <item id="n4" alignment="c4" line="604" tag="T">I wonder if the child is lost</item>
+    </tier>
+  </igt>
+  <igt id="igt66" doc-id="lgcol:lut" line-range="609-611" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="609" tag="M">  d vetted: s</item>
+      <item id="r2" line="610" tag="L">  sʔuladxʷ t-i-ʔiɬ</item>
+      <item id="r3" line="611" tag="G">  salmon det.def-dir-there</item>
+      <item id="r4" line="612" tag="T">  'That is a salmon'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="609" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="610" tag="L">  sʔuladxʷ t-i-ʔiɬ</item>
+      <item id="c3" alignment="r3" line="611" tag="G">  salmon det.def-dir-there</item>
+      <item id="c4" alignment="r4" line="612" tag="T">  'That is a salmon'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="609" tag="M">s</item>
+      <item id="n2" alignment="c2" line="610" tag="L">sʔuladxʷ t-i-ʔiɬ</item>
+      <item id="n3" alignment="c3" line="611" tag="G">salmon det.def-dir-there</item>
+      <item id="n4" alignment="c4" line="612" tag="T">That is a salmon</item>
+    </tier>
+  </igt>
+  <igt id="igt67" doc-id="lgcol:lut" line-range="613-615" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="613" tag="M">  a vetted: f</item>
+      <item id="r2" line="614" tag="L">  hìkʷ t-i-ʔiɬ sʔuladxʷ</item>
+      <item id="r3" line="615" tag="G">  big det.def-dir-there salmon</item>
+      <item id="r4" line="616" tag="T">  'That salmon is big'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="613" tag="M">  a vetted: f</item>
+      <item id="c2" alignment="r2" line="614" tag="L">  hìkʷ t-i-ʔiɬ sʔuladxʷ</item>
+      <item id="c3" alignment="r3" line="615" tag="G">  big det.def-dir-there salmon</item>
+      <item id="c4" alignment="r4" line="616" tag="T">  'That salmon is big'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="613" tag="M">f</item>
+      <item id="n2" alignment="c2" line="614" tag="L">hìkʷ t-i-ʔiɬ sʔuladxʷ</item>
+      <item id="n3" alignment="c3" line="615" tag="G">big det.def-dir-there salmon</item>
+      <item id="n4" alignment="c4" line="616" tag="T">That salmon is big</item>
+    </tier>
+  </igt>
+  <igt id="igt68" doc-id="lgcol:lut" line-range="621-623" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="621" tag="M">  author vetted: t</item>
+      <item id="r2" line="622" tag="L">  sʔuladxʷ č-əd</item>
+      <item id="r3" line="623" tag="G">  salmon ind.pred-I</item>
+      <item id="r4" line="624" tag="T">  'I am a salmon'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="621" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="622" tag="L">  sʔuladxʷ č-əd</item>
+      <item id="c3" alignment="r3" line="623" tag="G">  salmon ind.pred-I</item>
+      <item id="c4" alignment="r4" line="624" tag="T">  'I am a salmon'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="621" tag="M">t</item>
+      <item id="n2" alignment="c2" line="622" tag="L">sʔuladxʷ č-əd</item>
+      <item id="n3" alignment="c3" line="623" tag="G">salmon ind.pred-I</item>
+      <item id="n4" alignment="c4" line="624" tag="T">I am a salmon</item>
+    </tier>
+  </igt>
+  <igt id="igt69" doc-id="lgcol:lut" line-range="625-627" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="625" tag="M">  author vetted: t</item>
+      <item id="r2" line="626" tag="L">  tu-sʔuladxʷ č-əd</item>
+      <item id="r3" line="627" tag="G">  past-salmon ind.pred-I</item>
+      <item id="r4" line="628" tag="T">  'I was a salmon'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="625" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="626" tag="L">  tu-sʔuladxʷ č-əd</item>
+      <item id="c3" alignment="r3" line="627" tag="G">  past-salmon ind.pred-I</item>
+      <item id="c4" alignment="r4" line="628" tag="T">  'I was a salmon'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="625" tag="M">t</item>
+      <item id="n2" alignment="c2" line="626" tag="L">tu-sʔuladxʷ č-əd</item>
+      <item id="n3" alignment="c3" line="627" tag="G">past-salmon ind.pred-I</item>
+      <item id="n4" alignment="c4" line="628" tag="T">I was a salmon</item>
+    </tier>
+  </igt>
+  <igt id="igt70" doc-id="lgcol:lut" line-range="629-631" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="629" tag="M">  author vetted: t</item>
+      <item id="r2" line="630" tag="L">  ɬu-sʔuladxʷ č-əd</item>
+      <item id="r3" line="631" tag="G">  future-salmon ind.pred-I</item>
+      <item id="r4" line="632" tag="T">  'I will be a salmon'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="629" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="630" tag="L">  ɬu-sʔuladxʷ č-əd</item>
+      <item id="c3" alignment="r3" line="631" tag="G">  future-salmon ind.pred-I</item>
+      <item id="c4" alignment="r4" line="632" tag="T">  'I will be a salmon'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="629" tag="M">t</item>
+      <item id="n2" alignment="c2" line="630" tag="L">ɬu-sʔuladxʷ č-əd</item>
+      <item id="n3" alignment="c3" line="631" tag="G">future-salmon ind.pred-I</item>
+      <item id="n4" alignment="c4" line="632" tag="T">I will be a salmon</item>
+    </tier>
+  </igt>
+  <igt id="igt71" doc-id="lgcol:lut" line-range="637-639" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="637" tag="M">  author vetted: t</item>
+      <item id="r2" line="638" tag="L">  ʔəs-xə́c č-əd sʔuladxʷ əd</item>
+      <item id="r3" line="639" tag="G">  stative-fear ind.pred-I salmon I</item>
+      <item id="r4" line="640" tag="T">  'I fear that I am a salmon'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="637" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="638" tag="L">  ʔəs-xə́c č-əd sʔuladxʷ əd</item>
+      <item id="c3" alignment="r3" line="639" tag="G">  stative-fear ind.pred-I salmon I</item>
+      <item id="c4" alignment="r4" line="640" tag="T">  'I fear that I am a salmon'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="637" tag="M">t</item>
+      <item id="n2" alignment="c2" line="638" tag="L">ʔəs-xə́c č-əd sʔuladxʷ əd</item>
+      <item id="n3" alignment="c3" line="639" tag="G">stative-fear ind.pred-I salmon I</item>
+      <item id="n4" alignment="c4" line="640" tag="T">I fear that I am a salmon</item>
+    </tier>
+  </igt>
+  <igt id="igt72" doc-id="lgcol:lut" line-range="645-647" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="645" tag="M">  author vetted: t</item>
+      <item id="r2" line="646" tag="L">  sʔuladxʷ t-i</item>
+      <item id="r3" line="647" tag="G">  salmon det.def-dir</item>
+      <item id="r4" line="648" tag="T">  'He/she/it/them is a salmon'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="645" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="646" tag="L">  sʔuladxʷ t-i</item>
+      <item id="c3" alignment="r3" line="647" tag="G">  salmon det.def-dir</item>
+      <item id="c4" alignment="r4" line="648" tag="T">  'He/she/it/them is a salmon'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="645" tag="M">t</item>
+      <item id="n2" alignment="c2" line="646" tag="L">sʔuladxʷ t-i</item>
+      <item id="n3" alignment="c3" line="647" tag="G">salmon det.def-dir</item>
+      <item id="n4" alignment="c4" line="648" tag="T">He/she/it/them is a salmon</item>
+    </tier>
+  </igt>
+  <igt id="igt73" doc-id="lgcol:lut" line-range="649-651" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="649" tag="M">  author vetted: t</item>
+      <item id="r2" line="650" tag="L">  ʔəs-x̣ʷil̕ t-i č̓ač̓as ck̕ʷáqid</item>
+      <item id="r3" line="651" tag="G">  static-get.lost det.def-dir child always</item>
+      <item id="r4" line="652" tag="T">  'the child is \emph{always} lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="649" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="650" tag="L">  ʔəs-x̣ʷil̕ t-i č̓ač̓as ck̕ʷáqid</item>
+      <item id="c3" alignment="r3" line="651" tag="G">  static-get.lost det.def-dir child always</item>
+      <item id="c4" alignment="r4" line="652" tag="T">  'the child is \emph{always} lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="649" tag="M">t</item>
+      <item id="n2" alignment="c2" line="650" tag="L">ʔəs-x̣ʷil̕ t-i č̓ač̓as ck̕ʷáqid</item>
+      <item id="n3" alignment="c3" line="651" tag="G">static-get.lost det.def-dir child always</item>
+      <item id="n4" alignment="c4" line="652" tag="T">the child is \emph{always} lost</item>
+    </tier>
+  </igt>
+  <igt id="igt74" doc-id="lgcol:lut" line-range="653-655" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="653" tag="M">  author vetted: t</item>
+      <item id="r2" line="654" tag="L">  ʔəs-x̣ʷil̕ č-əd ck̕ʷáqid</item>
+      <item id="r3" line="655" tag="G">  static-get.lost ind.pred-I always</item>
+      <item id="r4" line="656" tag="T">  'I am \emph{always} lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="653" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="654" tag="L">  ʔəs-x̣ʷil̕ č-əd ck̕ʷáqid</item>
+      <item id="c3" alignment="r3" line="655" tag="G">  static-get.lost ind.pred-I always</item>
+      <item id="c4" alignment="r4" line="656" tag="T">  'I am \emph{always} lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="653" tag="M">t</item>
+      <item id="n2" alignment="c2" line="654" tag="L">ʔəs-x̣ʷil̕ č-əd ck̕ʷáqid</item>
+      <item id="n3" alignment="c3" line="655" tag="G">static-get.lost ind.pred-I always</item>
+      <item id="n4" alignment="c4" line="656" tag="T">I am \emph{always} lost</item>
+    </tier>
+  </igt>
+  <igt id="igt75" doc-id="lgcol:lut" line-range="657-659" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="657" tag="M">  author vetted: t</item>
+      <item id="r2" line="658" tag="L">  ʔəcá ʔu-x̣ʷil̕</item>
+      <item id="r3" line="659" tag="G">  I completive-get.lost</item>
+      <item id="r4" line="660" tag="T">  'It is I that got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="657" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="658" tag="L">  ʔəcá ʔu-x̣ʷil̕</item>
+      <item id="c3" alignment="r3" line="659" tag="G">  I completive-get.lost</item>
+      <item id="c4" alignment="r4" line="660" tag="T">  'It is I that got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="657" tag="M">t</item>
+      <item id="n2" alignment="c2" line="658" tag="L">ʔəcá ʔu-x̣ʷil̕</item>
+      <item id="n3" alignment="c3" line="659" tag="G">I completive-get.lost</item>
+      <item id="n4" alignment="c4" line="660" tag="T">It is I that got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt76" doc-id="lgcol:lut" line-range="661-663" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="661" tag="M">  author vetted: t</item>
+      <item id="r2" line="662" tag="L">  díbəɬ ʔu-x̣ʷil̕</item>
+      <item id="r3" line="663" tag="G">  We completive-get.lost</item>
+      <item id="r4" line="664" tag="T">  'It is we that got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="661" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="662" tag="L">  díbəɬ ʔu-x̣ʷil̕</item>
+      <item id="c3" alignment="r3" line="663" tag="G">  We completive-get.lost</item>
+      <item id="c4" alignment="r4" line="664" tag="T">  'It is we that got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="661" tag="M">t</item>
+      <item id="n2" alignment="c2" line="662" tag="L">díbəɬ ʔu-x̣ʷil̕</item>
+      <item id="n3" alignment="c3" line="663" tag="G">We completive-get.lost</item>
+      <item id="n4" alignment="c4" line="664" tag="T">It is we that got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt77" doc-id="lgcol:lut" line-range="665-667" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="665" tag="M">  author vetted: t</item>
+      <item id="r2" line="666" tag="L">  dəgʷí ʔu-x̣ʷil̕</item>
+      <item id="r3" line="667" tag="G">  You completive-get.lost</item>
+      <item id="r4" line="668" tag="T">  'It is you that got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="665" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="666" tag="L">  dəgʷí ʔu-x̣ʷil̕</item>
+      <item id="c3" alignment="r3" line="667" tag="G">  You completive-get.lost</item>
+      <item id="c4" alignment="r4" line="668" tag="T">  'It is you that got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="665" tag="M">t</item>
+      <item id="n2" alignment="c2" line="666" tag="L">dəgʷí ʔu-x̣ʷil̕</item>
+      <item id="n3" alignment="c3" line="667" tag="G">You completive-get.lost</item>
+      <item id="n4" alignment="c4" line="668" tag="T">It is you that got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt78" doc-id="lgcol:lut" line-range="669-671" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="669" tag="M">  author vetted: t</item>
+      <item id="r2" line="670" tag="L">  gʷəlápu ʔu-x̣ʷil̕</item>
+      <item id="r3" line="671" tag="G">  Y'all completive-get.lost</item>
+      <item id="r4" line="672" tag="T">  'It is y'all that got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="669" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="670" tag="L">  gʷəlápu ʔu-x̣ʷil̕</item>
+      <item id="c3" alignment="r3" line="671" tag="G">  Y'all completive-get.lost</item>
+      <item id="c4" alignment="r4" line="672" tag="T">  'It is y'all that got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="669" tag="M">t</item>
+      <item id="n2" alignment="c2" line="670" tag="L">gʷəlápu ʔu-x̣ʷil̕</item>
+      <item id="n3" alignment="c3" line="671" tag="G">Y'all completive-get.lost</item>
+      <item id="n4" alignment="c4" line="672" tag="T">It is y'all that got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt79" doc-id="lgcol:lut" line-range="673-675" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="673" tag="M">  author vetted: t</item>
+      <item id="r2" line="674" tag="L">  díɬ ʔu-x̣ʷil̕</item>
+      <item id="r3" line="675" tag="G">  he/she/it/them completive-get.lost</item>
+      <item id="r4" line="676" tag="T">  'It is he/she/it/them that got lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="673" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="674" tag="L">  díɬ ʔu-x̣ʷil̕</item>
+      <item id="c3" alignment="r3" line="675" tag="G">  he/she/it/them completive-get.lost</item>
+      <item id="c4" alignment="r4" line="676" tag="T">  'It is he/she/it/them that got lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="673" tag="M">t</item>
+      <item id="n2" alignment="c2" line="674" tag="L">díɬ ʔu-x̣ʷil̕</item>
+      <item id="n3" alignment="c3" line="675" tag="G">he/she/it/them completive-get.lost</item>
+      <item id="n4" alignment="c4" line="676" tag="T">It is he/she/it/them that got lost</item>
+    </tier>
+  </igt>
+  <igt id="igt80" doc-id="lgcol:lut" line-range="697-699" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="697" tag="M">  author vetted: t</item>
+      <item id="r2" line="698" tag="L">  ʔu-ʔik̕ʷid-b ʔə t-i č̓ač̓as t-i ʔalʔəl</item>
+      <item id="r3" line="699" tag="G">  completive-sweep-pass P det.def-dir child det.def-dir house</item>
+      <item id="r4" line="700" tag="T">  'the house was swept by the \emph{child}'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="697" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="698" tag="L">  ʔu-ʔik̕ʷid-b ʔə t-i č̓ač̓as t-i ʔalʔəl</item>
+      <item id="c3" alignment="r3" line="699" tag="G">  completive-sweep-pass P det.def-dir child det.def-dir house</item>
+      <item id="c4" alignment="r4" line="700" tag="T">  'the house was swept by the \emph{child}'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="697" tag="M">t</item>
+      <item id="n2" alignment="c2" line="698" tag="L">ʔu-ʔik̕ʷid-b ʔə t-i č̓ač̓as t-i ʔalʔəl</item>
+      <item id="n3" alignment="c3" line="699" tag="G">completive-sweep-pass P det.def-dir child det.def-dir house</item>
+      <item id="n4" alignment="c4" line="700" tag="T">the house was swept by the \emph{child}</item>
+    </tier>
+  </igt>
+  <igt id="igt81" doc-id="lgcol:lut" line-range="709-711" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="709" tag="M">  author vetted: t</item>
+      <item id="r2" line="710" tag="L">  ʔu-ʔik̕ʷid-b t-i ʔalʔəl ʔə t-i č̓ač̓as</item>
+      <item id="r3" line="711" tag="G">  completive-sweep-pass det.def-dir child P det.def-dir house</item>
+      <item id="r4" line="712" tag="T">  'the \emph{house} was swept by the child'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="709" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="710" tag="L">  ʔu-ʔik̕ʷid-b t-i ʔalʔəl ʔə t-i č̓ač̓as</item>
+      <item id="c3" alignment="r3" line="711" tag="G">  completive-sweep-pass det.def-dir child P det.def-dir house</item>
+      <item id="c4" alignment="r4" line="712" tag="T">  'the \emph{house} was swept by the child'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="709" tag="M">t</item>
+      <item id="n2" alignment="c2" line="710" tag="L">ʔu-ʔik̕ʷid-b t-i ʔalʔəl ʔə t-i č̓ač̓as</item>
+      <item id="n3" alignment="c3" line="711" tag="G">completive-sweep-pass det.def-dir child P det.def-dir house</item>
+      <item id="n4" alignment="c4" line="712" tag="T">the \emph{house} was swept by the child</item>
+    </tier>
+  </igt>
+  <igt id="igt82" doc-id="lgcol:lut" line-range="713-715" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="713" tag="M">  author vetted: t</item>
+      <item id="r2" line="714" tag="L">  ʔu-ʔik̕ʷid-b ʔə č-əd t-i ʔalʔəl</item>
+      <item id="r3" line="715" tag="G">  completive-sweep-pass P ind.pred-I det.def-dir house</item>
+      <item id="r4" line="716" tag="T">  'the \emph{house} was swept by the me'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="713" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="714" tag="L">  ʔu-ʔik̕ʷid-b ʔə č-əd t-i ʔalʔəl</item>
+      <item id="c3" alignment="r3" line="715" tag="G">  completive-sweep-pass P ind.pred-I det.def-dir house</item>
+      <item id="c4" alignment="r4" line="716" tag="T">  'the \emph{house} was swept by the me'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="713" tag="M">t</item>
+      <item id="n2" alignment="c2" line="714" tag="L">ʔu-ʔik̕ʷid-b ʔə č-əd t-i ʔalʔəl</item>
+      <item id="n3" alignment="c3" line="715" tag="G">completive-sweep-pass P ind.pred-I det.def-dir house</item>
+      <item id="n4" alignment="c4" line="716" tag="T">the \emph{house} was swept by the me</item>
+    </tier>
+  </igt>
+  <igt id="igt83" doc-id="lgcol:lut" line-range="717-719" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="717" tag="M">  author vetted: t</item>
+      <item id="r2" line="718" tag="L">  ʔu-ʔik̕ʷid-b ʔə ʔəcá t-i ʔalʔəl</item>
+      <item id="r3" line="719" tag="G">  completive-sweep-pass P I det.def-dir house</item>
+      <item id="r4" line="720" tag="T">  'the house was swept by the \emph{me}'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="717" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="718" tag="L">  ʔu-ʔik̕ʷid-b ʔə ʔəcá t-i ʔalʔəl</item>
+      <item id="c3" alignment="r3" line="719" tag="G">  completive-sweep-pass P I det.def-dir house</item>
+      <item id="c4" alignment="r4" line="720" tag="T">  'the house was swept by the \emph{me}'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="717" tag="M">t</item>
+      <item id="n2" alignment="c2" line="718" tag="L">ʔu-ʔik̕ʷid-b ʔə ʔəcá t-i ʔalʔəl</item>
+      <item id="n3" alignment="c3" line="719" tag="G">completive-sweep-pass P I det.def-dir house</item>
+      <item id="n4" alignment="c4" line="720" tag="T">the house was swept by the \emph{me}</item>
+    </tier>
+  </igt>
+  <igt id="igt84" doc-id="lgcol:lut" line-range="725-727" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="725" tag="M">  f vetted: s</item>
+      <item id="r2" line="726" tag="L">  gʷə-ʔəɬəd č-əd ʔə t-ə gʷistalb</item>
+      <item id="r3" line="727" tag="G">  can-eat ind.pred-I P det.def-indir sand</item>
+      <item id="r4" line="728" tag="T">  'I can eat sand.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="725" tag="M">  f vetted: s</item>
+      <item id="c2" alignment="r2" line="726" tag="L">  gʷə-ʔəɬəd č-əd ʔə t-ə gʷistalb</item>
+      <item id="c3" alignment="r3" line="727" tag="G">  can-eat ind.pred-I P det.def-indir sand</item>
+      <item id="c4" alignment="r4" line="728" tag="T">  'I can eat sand.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="725" tag="M">s</item>
+      <item id="n2" alignment="c2" line="726" tag="L">gʷə-ʔəɬəd č-əd ʔə t-ə gʷistalb</item>
+      <item id="n3" alignment="c3" line="727" tag="G">can-eat ind.pred-I P det.def-indir sand</item>
+      <item id="n4" alignment="c4" line="728" tag="T">I can eat sand.</item>
+    </tier>
+  </igt>
+  <igt id="igt85" doc-id="lgcol:lut" line-range="729-731" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="729" tag="M">  f vetted: s</item>
+      <item id="r2" line="730" tag="L">  xʷíʔ lə-q̕íƛ̕dxʷ-S</item>
+      <item id="r3" line="731" tag="G">  not progressive-hurt-sg</item>
+      <item id="r4" line="732" tag="T">  'It doesn't hurt me'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="729" tag="M">  f vetted: s</item>
+      <item id="c2" alignment="r2" line="730" tag="L">  xʷíʔ lə-q̕íƛ̕dxʷ-S</item>
+      <item id="c3" alignment="r3" line="731" tag="G">  not progressive-hurt-sg</item>
+      <item id="c4" alignment="r4" line="732" tag="T">  'It doesn't hurt me'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="729" tag="M">s</item>
+      <item id="n2" alignment="c2" line="730" tag="L">xʷíʔ lə-q̕íƛ̕dxʷ-S</item>
+      <item id="n3" alignment="c3" line="731" tag="G">not progressive-hurt-sg</item>
+      <item id="n4" alignment="c4" line="732" tag="T">It doesn't hurt me</item>
+    </tier>
+  </igt>
+  <igt id="igt86" doc-id="lgcol:lut" line-range="733-735" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="733" tag="M">  author vetted: f</item>
+      <item id="r2" line="734" tag="L">  dəgʷí t-i ʔu-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="r3" line="735" tag="G">  you det.def-dir completive-sweep det.def-dir house</item>
+      <item id="r4" line="736" tag="T">  'It is \emph{you} who swept the house'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="733" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="734" tag="L">  dəgʷí t-i ʔu-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="c3" alignment="r3" line="735" tag="G">  you det.def-dir completive-sweep det.def-dir house</item>
+      <item id="c4" alignment="r4" line="736" tag="T">  'It is \emph{you} who swept the house'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="733" tag="M">f</item>
+      <item id="n2" alignment="c2" line="734" tag="L">dəgʷí t-i ʔu-ʔik̕ʷid t-i ʔalʔəl</item>
+      <item id="n3" alignment="c3" line="735" tag="G">you det.def-dir completive-sweep det.def-dir house</item>
+      <item id="n4" alignment="c4" line="736" tag="T">It is \emph{you} who swept the house</item>
+    </tier>
+  </igt>
+</xigt-corpus>

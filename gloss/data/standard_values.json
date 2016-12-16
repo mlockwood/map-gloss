@@ -1,337 +1,414 @@
 [
   {
+    "gloss": "fem",
+    "classification": "misspelled",
+    "gram": "f"
+  },
+  {
+    "gloss": "imperf",
+    "classification": "misspelled",
+    "gram": "ipfv"
+  },
+  {
+    "gloss": "impf",
+    "classification": "misspelled",
+    "gram": "ipfv"
+  },
+  {
+    "gloss": "masc",
+    "classification": "misspelled",
+    "gram": "m"
+  },
+  {
+    "gloss": "neut",
+    "classification": "mispelled",
+    "gram": "n"
+  },
+  {
+    "gloss": "pre",
+    "classification": "misspelled",
+    "gram": "prs"
+  },
+  {
+    "gloss": "pres",
+    "classification": "mispelled",
+    "gram": "prs"
+  },
+  {
+    "gloss": "sub",
+    "classification": "misspelled",
+    "gram": "sbj"
+  },
+  {
+    "gloss": "subj",
+    "classification": "mispelled",
+    "gram": "sbj"
+  },
+  {
+    "gloss": "not",
+    "classification": "incomplete",
+    "gram": ["neg"]
+  },
+  {
     "gloss": "i",
     "category": "pronoun",
-    "grams": ["1sg", "sbj"]
+    "classification": "incomplete",
+    "gram": ["1sg", "sbj"]
   },
   {
     "gloss": "you",
     "category": "pronoun",
-    "grams": ["2"]
+    "classification": "incomplete",
+    "gram": ["2"]
   },
   {
     "gloss": "he",
     "category": "pronoun",
-    "grams": ["3sg", "sbj"]
+    "classification": "incomplete",
+    "gram": ["3sg", "sbj"]
   },
   {
     "gloss": "she",
     "category": "pronoun",
-    "grams": ["3sg", "sbj"]
+    "classification": "incomplete",
+    "gram": ["3sg", "sbj"]
   },
   {
     "gloss": "we",
     "category": "pronoun",
-    "grams": ["1pl", "sbj"]
+    "classification": "incomplete",
+    "gram": ["1pl", "sbj"]
   },
   {
     "gloss": "y'all",
     "category": "pronoun",
-    "grams": ["2pl", "sbj"]
+    "classification": "incomplete",
+    "gram": ["2pl", "sbj"]
   },
   {
     "gloss": "they",
     "category": "pronoun",
-    "grams": ["3pl", "sbj"]
+    "classification": "incomplete",
+    "gram": ["3pl", "sbj"]
   },
   {
     "gloss": "me",
     "category": "pronoun",
-    "grams": ["1sg", "obj"]
+    "classification": "incomplete",
+    "gram": ["1sg", "obj"]
   },
   {
     "gloss": "him",
     "category": "pronoun",
-    "grams": ["3sg", "obj", "m"]
+    "classification": "incomplete",
+    "gram": ["3sg", "obj", "m"]
   },
   {
     "gloss": "her",
     "category": "pronoun",
-    "grams": ["3sg", "obj", "f"]
+    "classification": "incomplete",
+    "gram": ["3sg", "obj", "f"]
   },
   {
     "gloss": "us",
     "category": "pronoun",
-    "grams": ["1pl", "obj"]
+    "classification": "incomplete",
+    "gram": ["1pl", "obj"]
   },
   {
     "gloss": "them",
     "category": "pronoun",
-    "grams": ["3pl", "obj"]
+    "classification": "incomplete",
+    "gram": ["3pl", "obj"]
   },
   {
     "gloss": "my",
     "category": "pronoun",
-    "grams": ["1sg", "poss"]
+    "classification": "incomplete",
+    "gram": ["1sg", "poss"]
   },
   {
     "gloss": "mine",
     "category": "pronoun",
-    "grams": ["1sg", "poss"]
+    "classification": "incomplete",
+    "gram": ["1sg", "poss"]
   },
   {
     "gloss": "your",
     "category": "pronoun",
-    "grams": ["2", "poss"]
+    "classification": "incomplete",
+    "gram": ["2", "poss"]
   },
   {
     "gloss": "yours",
     "category": "pronoun",
-    "grams": ["2", "poss"]
+    "classification": "incomplete",
+    "gram": ["2", "poss"]
   },
   {
     "gloss": "his",
     "category": "pronoun",
-    "grams": ["3sg", "poss"]
+    "classification": "incomplete",
+    "gram": ["3sg", "poss"]
   },
   {
     "gloss": "her",
     "category": "pronoun",
-    "grams": ["3sg", "poss"]
+    "classification": "incomplete",
+    "gram": ["3sg", "poss"]
   },
   {
     "gloss": "hers",
     "category": "pronoun",
-    "grams": ["3sg", "poss"]
+    "classification": "incomplete",
+    "gram": ["3sg", "poss"]
   },
   {
     "gloss": "our",
     "category": "pronoun",
-    "grams": ["1pl", "poss"]
+    "classification": "incomplete",
+    "gram": ["1pl", "poss"]
   },
   {
     "gloss": "ours",
     "category": "pronoun",
-    "grams": ["1pl", "poss"]
+    "classification": "incomplete",
+    "gram": ["1pl", "poss"]
   },
   {
     "gloss": "their",
     "category": "pronoun",
-    "grams": ["3pl", "poss"]
+    "classification": "incomplete",
+    "gram": ["3pl", "poss"]
   },
   {
     "gloss": "theirs",
     "category": "pronoun",
-    "grams": ["3pl", "poss"]
+    "classification": "incomplete",
+    "gram": ["3pl", "poss"]
   },
   {
     "gloss": "this",
     "category": "demonstrative",
-    "grams": ["dem", "sg"]
+    "classification": "incomplete",
+    "gram": ["dem", "sg"]
   },
   {
     "gloss": "these",
     "category": "demonstrative",
-    "grams": ["dem", "pl"]
+    "classification": "incomplete",
+    "gram": ["dem", "pl"]
   },
   {
     "gloss": "that",
     "category": "demonstrative",
-    "grams": ["dem", "sg"]
+    "classification": "incomplete",
+    "gram": ["dem", "sg"]
   },
   {
     "gloss": "those",
     "category": "demonstrative",
-    "grams": ["dem", "pl"]
+    "classification": "incomplete",
+    "gram": ["dem", "pl"]
   },
   {
     "gloss": "adj",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "adv",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "prep",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "pro",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "cc",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "cd",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "dt",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "ex",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "fw",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "in",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "jj",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "jjr",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "jjs",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "ls",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "md",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "nn",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "nnp",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "nnps",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "nns",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "pdt",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "pos",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "prp",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "prp$",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "rb",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "rbr",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "rbs",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "rp",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "sym",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "to",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "uh",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "vb",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "vdb",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "vbg",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "vbn",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "vbp",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "vbz",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "wdt",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "wp",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "wp$",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   },
   {
     "gloss": "wrb",
-    "category": "part-of-speech",
-    "grams": []
+    "classification": "part-of-speech",
+    "gram": "part-of-speech"
   }
 ]

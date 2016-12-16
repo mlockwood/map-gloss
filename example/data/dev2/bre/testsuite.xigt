@@ -1,0 +1,1952 @@
+<xigt-corpus xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <igt id="igt1" doc-id="lgcol:bre" line-range="1-3" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="1" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="2" tag="L">  Klaskiñ a-gr ar beleg ul levr</item>
+      <item id="r3" line="3" tag="G">  seek.INF PRT-do.PRS.3SG the priest.M a book.M</item>
+      <item id="r4" line="4" tag="T">  'The priest is seeking a book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="1" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="2" tag="L">  Klaskiñ a-gr ar beleg ul levr</item>
+      <item id="c3" alignment="r3" line="3" tag="G">  seek.INF PRT-do.PRS.3SG the priest.M a book.M</item>
+      <item id="c4" alignment="r4" line="4" tag="T">  'The priest is seeking a book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="1" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="2" tag="L">Klaskiñ a-gr ar beleg ul levr</item>
+      <item id="n3" alignment="c3" line="3" tag="G">seek.INF PRT-do.PRS.3SG the priest.M a book.M</item>
+      <item id="n4" alignment="c4" line="4" tag="T">The priest is seeking a book.</item>
+    </tier>
+  </igt>
+  <igt id="igt2" doc-id="lgcol:bre" line-range="13-15" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="13" tag="M">  a vetted: s</item>
+      <item id="r2" line="14" tag="L">  Me a-kan-e</item>
+      <item id="r3" line="15" tag="G">  I.NOM PRT-sing-3SG.FUT</item>
+      <item id="r4" line="16" tag="T">  'I will sing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="13" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="14" tag="L">  Me a-kan-e</item>
+      <item id="c3" alignment="r3" line="15" tag="G">  I.NOM PRT-sing-3SG.FUT</item>
+      <item id="c4" alignment="r4" line="16" tag="T">  'I will sing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="13" tag="M">s</item>
+      <item id="n2" alignment="c2" line="14" tag="L">Me a-kan-e</item>
+      <item id="n3" alignment="c3" line="15" tag="G">I.NOM PRT-sing-3SG.FUT</item>
+      <item id="n4" alignment="c4" line="16" tag="T">I will sing.</item>
+    </tier>
+  </igt>
+  <igt id="igt3" doc-id="lgcol:bre" line-range="17-19" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="17" tag="M">  author, collab vetted: f</item>
+      <item id="r2" line="18" tag="L">  Debriñ a-gr ar beleg un aval</item>
+      <item id="r3" line="19" tag="G">  eat.INF PRT-do.3SG.PRS the priest.M a apple.M.SG</item>
+      <item id="r4" line="20" tag="T">  'The priest is eating an apple.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="17" tag="M">  author, collab vetted: f</item>
+      <item id="c2" alignment="r2" line="18" tag="L">  Debriñ a-gr ar beleg un aval</item>
+      <item id="c3" alignment="r3" line="19" tag="G">  eat.INF PRT-do.3SG.PRS the priest.M a apple.M.SG</item>
+      <item id="c4" alignment="r4" line="20" tag="T">  'The priest is eating an apple.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="17" tag="M">author, collab vetted: f</item>
+      <item id="n2" alignment="c2" line="18" tag="L">Debriñ a-gr ar beleg un aval</item>
+      <item id="n3" alignment="c3" line="19" tag="G">eat.INF PRT-do.3SG.PRS the priest.M a apple.M.SG</item>
+      <item id="n4" alignment="c4" line="20" tag="T">The priest is eating an apple.</item>
+    </tier>
+  </igt>
+  <igt id="igt4" doc-id="lgcol:bre" line-range="21-23" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="21" tag="M">  author, collab vetted: f</item>
+      <item id="r2" line="22" tag="L">  Debriñ a-gr ar beleg un aval-où</item>
+      <item id="r3" line="23" tag="G">  eat.INF PRT-do.3SG.PRS the priest.M a apple.M-PL</item>
+      <item id="r4" line="24" tag="T">  'The priest is eating some apples.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="21" tag="M">  author, collab vetted: f</item>
+      <item id="c2" alignment="r2" line="22" tag="L">  Debriñ a-gr ar beleg un aval-où</item>
+      <item id="c3" alignment="r3" line="23" tag="G">  eat.INF PRT-do.3SG.PRS the priest.M a apple.M-PL</item>
+      <item id="c4" alignment="r4" line="24" tag="T">  'The priest is eating some apples.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="21" tag="M">author, collab vetted: f</item>
+      <item id="n2" alignment="c2" line="22" tag="L">Debriñ a-gr ar beleg un aval-où</item>
+      <item id="n3" alignment="c3" line="23" tag="G">eat.INF PRT-do.3SG.PRS the priest.M a apple.M-PL</item>
+      <item id="n4" alignment="c4" line="24" tag="T">The priest is eating some apples.</item>
+    </tier>
+  </igt>
+  <igt id="igt5" doc-id="lgcol:bre" line-range="25-27" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="25" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="26" tag="L">  Debriñ a-gr-ont ar beleg-où un aval</item>
+      <item id="r3" line="27" tag="G">  eat.INF PRT-do-3PL.PRS the priest.M-PL an apple.M.SG</item>
+      <item id="r4" line="28" tag="T">  'The priests are eating an apple.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="25" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="26" tag="L">  Debriñ a-gr-ont ar beleg-où un aval</item>
+      <item id="c3" alignment="r3" line="27" tag="G">  eat.INF PRT-do-3PL.PRS the priest.M-PL an apple.M.SG</item>
+      <item id="c4" alignment="r4" line="28" tag="T">  'The priests are eating an apple.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="25" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="26" tag="L">Debriñ a-gr-ont ar beleg-où un aval</item>
+      <item id="n3" alignment="c3" line="27" tag="G">eat.INF PRT-do-3PL.PRS the priest.M-PL an apple.M.SG</item>
+      <item id="n4" alignment="c4" line="28" tag="T">The priests are eating an apple.</item>
+    </tier>
+  </igt>
+  <igt id="igt6" doc-id="lgcol:bre" line-range="53-55" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="53" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="54" tag="L">  Kanan a-gr ar beleg</item>
+      <item id="r3" line="55" tag="G">  sing.INF PRT-do.3SG.PRS the priest.M</item>
+      <item id="r4" line="56" tag="T">  'The priest is singing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="53" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="54" tag="L">  Kanan a-gr ar beleg</item>
+      <item id="c3" alignment="r3" line="55" tag="G">  sing.INF PRT-do.3SG.PRS the priest.M</item>
+      <item id="c4" alignment="r4" line="56" tag="T">  'The priest is singing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="53" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="54" tag="L">Kanan a-gr ar beleg</item>
+      <item id="n3" alignment="c3" line="55" tag="G">sing.INF PRT-do.3SG.PRS the priest.M</item>
+      <item id="n4" alignment="c4" line="56" tag="T">The priest is singing.</item>
+    </tier>
+  </igt>
+  <igt id="igt7" doc-id="lgcol:bre" line-range="65-67" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="65" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="66" tag="L">  Ar beleg a-kan</item>
+      <item id="r3" line="67" tag="G">  the priest.M PRT-sing.3SG.PRS</item>
+      <item id="r4" line="68" tag="T">  'The priest is singing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="65" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="66" tag="L">  Ar beleg a-kan</item>
+      <item id="c3" alignment="r3" line="67" tag="G">  the priest.M PRT-sing.3SG.PRS</item>
+      <item id="c4" alignment="r4" line="68" tag="T">  'The priest is singing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="65" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="66" tag="L">Ar beleg a-kan</item>
+      <item id="n3" alignment="c3" line="67" tag="G">the priest.M PRT-sing.3SG.PRS</item>
+      <item id="n4" alignment="c4" line="68" tag="T">The priest is singing.</item>
+    </tier>
+  </igt>
+  <igt id="igt8" doc-id="lgcol:bre" line-range="73-75" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="73" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="74" tag="L">  Hi a-klask o</item>
+      <item id="r3" line="75" tag="G">  she.NOM.SG PRT-seek.3SG.PRS them.ACC.PL</item>
+      <item id="r4" line="76" tag="T">  'She seeks them.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="73" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="74" tag="L">  Hi a-klask o</item>
+      <item id="c3" alignment="r3" line="75" tag="G">  she.NOM.SG PRT-seek.3SG.PRS them.ACC.PL</item>
+      <item id="c4" alignment="r4" line="76" tag="T">  'She seeks them.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="73" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="74" tag="L">Hi a-klask o</item>
+      <item id="n3" alignment="c3" line="75" tag="G">she.NOM.SG PRT-seek.3SG.PRS them.ACC.PL</item>
+      <item id="n4" alignment="c4" line="76" tag="T">She seeks them.</item>
+    </tier>
+  </igt>
+  <igt id="igt9" doc-id="lgcol:bre" line-range="81-83" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="81" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="82" tag="L">  Ar beleg a-klask ul levr</item>
+      <item id="r3" line="83" tag="G">  the priest.M PRT-seek.3SG.PRS a book.M</item>
+      <item id="r4" line="84" tag="T">  'The priest is seeking the book'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="81" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="82" tag="L">  Ar beleg a-klask ul levr</item>
+      <item id="c3" alignment="r3" line="83" tag="G">  the priest.M PRT-seek.3SG.PRS a book.M</item>
+      <item id="c4" alignment="r4" line="84" tag="T">  'The priest is seeking the book'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="81" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="82" tag="L">Ar beleg a-klask ul levr</item>
+      <item id="n3" alignment="c3" line="83" tag="G">the priest.M PRT-seek.3SG.PRS a book.M</item>
+      <item id="n4" alignment="c4" line="84" tag="T">The priest is seeking the book</item>
+    </tier>
+  </igt>
+  <igt id="igt10" doc-id="lgcol:bre" line-range="89-91" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="89" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="90" tag="L">  Klask ul levr a-gr ar beleg</item>
+      <item id="r3" line="91" tag="G">  seek.INF a book.M PRT-do.3SG.PRS the priest.M</item>
+      <item id="r4" line="92" tag="T">  'The priest is seeking a book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="89" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="90" tag="L">  Klask ul levr a-gr ar beleg</item>
+      <item id="c3" alignment="r3" line="91" tag="G">  seek.INF a book.M PRT-do.3SG.PRS the priest.M</item>
+      <item id="c4" alignment="r4" line="92" tag="T">  'The priest is seeking a book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="89" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="90" tag="L">Klask ul levr a-gr ar beleg</item>
+      <item id="n3" alignment="c3" line="91" tag="G">seek.INF a book.M PRT-do.3SG.PRS the priest.M</item>
+      <item id="n4" alignment="c4" line="92" tag="T">The priest is seeking a book.</item>
+    </tier>
+  </igt>
+  <igt id="igt11" doc-id="lgcol:bre" line-range="97-99" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="97" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="98" tag="L">  Ul levr a-klask ar beleg</item>
+      <item id="r3" line="99" tag="G">  a book.M PRT-seek.3SG.INF the priest.M</item>
+      <item id="r4" line="100" tag="T">  'The priest is seeking a book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="97" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="98" tag="L">  Ul levr a-klask ar beleg</item>
+      <item id="c3" alignment="r3" line="99" tag="G">  a book.M PRT-seek.3SG.INF the priest.M</item>
+      <item id="c4" alignment="r4" line="100" tag="T">  'The priest is seeking a book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="97" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="98" tag="L">Ul levr a-klask ar beleg</item>
+      <item id="n3" alignment="c3" line="99" tag="G">a book.M PRT-seek.3SG.INF the priest.M</item>
+      <item id="n4" alignment="c4" line="100" tag="T">The priest is seeking a book.</item>
+    </tier>
+  </igt>
+  <igt id="igt12" doc-id="lgcol:bre" line-range="105-107" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="105" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="106" tag="L">  Me a-klask-an da</item>
+      <item id="r3" line="107" tag="G">  I.NOM PRT-seek-1SG.PRS you.ACC.SG</item>
+      <item id="r4" line="108" tag="T">  'I seek you.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="105" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="106" tag="L">  Me a-klask-an da</item>
+      <item id="c3" alignment="r3" line="107" tag="G">  I.NOM PRT-seek-1SG.PRS you.ACC.SG</item>
+      <item id="c4" alignment="r4" line="108" tag="T">  'I seek you.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="105" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="106" tag="L">Me a-klask-an da</item>
+      <item id="n3" alignment="c3" line="107" tag="G">I.NOM PRT-seek-1SG.PRS you.ACC.SG</item>
+      <item id="n4" alignment="c4" line="108" tag="T">I seek you.</item>
+    </tier>
+  </igt>
+  <igt id="igt13" doc-id="lgcol:bre" line-range="109-111" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="109" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="110" tag="L">  Te a-klask-ez va</item>
+      <item id="r3" line="111" tag="G">  you.NOM PRT-seek-2SG.PRS me.ACC</item>
+      <item id="r4" line="112" tag="T">  'You seek me.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="109" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="110" tag="L">  Te a-klask-ez va</item>
+      <item id="c3" alignment="r3" line="111" tag="G">  you.NOM PRT-seek-2SG.PRS me.ACC</item>
+      <item id="c4" alignment="r4" line="112" tag="T">  'You seek me.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="109" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="110" tag="L">Te a-klask-ez va</item>
+      <item id="n3" alignment="c3" line="111" tag="G">you.NOM PRT-seek-2SG.PRS me.ACC</item>
+      <item id="n4" alignment="c4" line="112" tag="T">You seek me.</item>
+    </tier>
+  </igt>
+  <igt id="igt14" doc-id="lgcol:bre" line-range="125-127" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="125" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="126" tag="L">  Ni a-kan-omp</item>
+      <item id="r3" line="127" tag="G">  we.NOM PRT-sing-1PL.PRS</item>
+      <item id="r4" line="128" tag="T">  'We sing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="125" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="126" tag="L">  Ni a-kan-omp</item>
+      <item id="c3" alignment="r3" line="127" tag="G">  we.NOM PRT-sing-1PL.PRS</item>
+      <item id="c4" alignment="r4" line="128" tag="T">  'We sing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="125" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="126" tag="L">Ni a-kan-omp</item>
+      <item id="n3" alignment="c3" line="127" tag="G">we.NOM PRT-sing-1PL.PRS</item>
+      <item id="n4" alignment="c4" line="128" tag="T">We sing.</item>
+    </tier>
+  </igt>
+  <igt id="igt15" doc-id="lgcol:bre" line-range="129-131" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="129" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="130" tag="L">  Cchwi a-kan-it</item>
+      <item id="r3" line="131" tag="G">  you.NOM.PL PRT-sing-2PL.PRS</item>
+      <item id="r4" line="132" tag="T">  'You all sing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="129" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="130" tag="L">  Cchwi a-kan-it</item>
+      <item id="c3" alignment="r3" line="131" tag="G">  you.NOM.PL PRT-sing-2PL.PRS</item>
+      <item id="c4" alignment="r4" line="132" tag="T">  'You all sing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="129" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="130" tag="L">Cchwi a-kan-it</item>
+      <item id="n3" alignment="c3" line="131" tag="G">you.NOM.PL PRT-sing-2PL.PRS</item>
+      <item id="n4" alignment="c4" line="132" tag="T">You all sing.</item>
+    </tier>
+  </igt>
+  <igt id="igt16" doc-id="lgcol:bre" line-range="133-135" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="133" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="134" tag="L">  Int a-kan-ont</item>
+      <item id="r3" line="135" tag="G">  they.NOM.PL PRT-sing-3PL.PRS</item>
+      <item id="r4" line="136" tag="T">  'They sing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="133" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="134" tag="L">  Int a-kan-ont</item>
+      <item id="c3" alignment="r3" line="135" tag="G">  they.NOM.PL PRT-sing-3PL.PRS</item>
+      <item id="c4" alignment="r4" line="136" tag="T">  'They sing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="133" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="134" tag="L">Int a-kan-ont</item>
+      <item id="n3" alignment="c3" line="135" tag="G">they.NOM.PL PRT-sing-3PL.PRS</item>
+      <item id="n4" alignment="c4" line="136" tag="T">They sing.</item>
+    </tier>
+  </igt>
+  <igt id="igt17" doc-id="lgcol:bre" line-range="137-139" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="137" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="138" tag="L">  Da a-gwel-an</item>
+      <item id="r3" line="139" tag="G">  you.ACC.SG PRT-see-1SG.PRS</item>
+      <item id="r4" line="140" tag="T">  'I see you.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="137" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="138" tag="L">  Da a-gwel-an</item>
+      <item id="c3" alignment="r3" line="139" tag="G">  you.ACC.SG PRT-see-1SG.PRS</item>
+      <item id="c4" alignment="r4" line="140" tag="T">  'I see you.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="137" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="138" tag="L">Da a-gwel-an</item>
+      <item id="n3" alignment="c3" line="139" tag="G">you.ACC.SG PRT-see-1SG.PRS</item>
+      <item id="n4" alignment="c4" line="140" tag="T">I see you.</item>
+    </tier>
+  </igt>
+  <igt id="igt18" doc-id="lgcol:bre" line-range="141-143" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="141" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="142" tag="L">  E a-gwel-an</item>
+      <item id="r3" line="143" tag="G">  him.ACC PRT-see-1SG.PRS</item>
+      <item id="r4" line="144" tag="T">  'I see him.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="141" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="142" tag="L">  E a-gwel-an</item>
+      <item id="c3" alignment="r3" line="143" tag="G">  him.ACC PRT-see-1SG.PRS</item>
+      <item id="c4" alignment="r4" line="144" tag="T">  'I see him.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="141" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="142" tag="L">E a-gwel-an</item>
+      <item id="n3" alignment="c3" line="143" tag="G">him.ACC PRT-see-1SG.PRS</item>
+      <item id="n4" alignment="c4" line="144" tag="T">I see him.</item>
+    </tier>
+  </igt>
+  <igt id="igt19" doc-id="lgcol:bre" line-range="145-147" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="145" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="146" tag="L">  He a-gwel-an</item>
+      <item id="r3" line="147" tag="G">  her.ACC PRT-see-1SG.PRS</item>
+      <item id="r4" line="148" tag="T">  'I see her.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="145" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="146" tag="L">  He a-gwel-an</item>
+      <item id="c3" alignment="r3" line="147" tag="G">  her.ACC PRT-see-1SG.PRS</item>
+      <item id="c4" alignment="r4" line="148" tag="T">  'I see her.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="145" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="146" tag="L">He a-gwel-an</item>
+      <item id="n3" alignment="c3" line="147" tag="G">her.ACC PRT-see-1SG.PRS</item>
+      <item id="n4" alignment="c4" line="148" tag="T">I see her.</item>
+    </tier>
+  </igt>
+  <igt id="igt20" doc-id="lgcol:bre" line-range="149-151" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="149" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="150" tag="L">  Hon a-gwel-it</item>
+      <item id="r3" line="151" tag="G">  us.ACC PRT-see-2PL.PRS</item>
+      <item id="r4" line="152" tag="T">  'You see us.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="149" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="150" tag="L">  Hon a-gwel-it</item>
+      <item id="c3" alignment="r3" line="151" tag="G">  us.ACC PRT-see-2PL.PRS</item>
+      <item id="c4" alignment="r4" line="152" tag="T">  'You see us.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="149" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="150" tag="L">Hon a-gwel-it</item>
+      <item id="n3" alignment="c3" line="151" tag="G">us.ACC PRT-see-2PL.PRS</item>
+      <item id="n4" alignment="c4" line="152" tag="T">You see us.</item>
+    </tier>
+  </igt>
+  <igt id="igt21" doc-id="lgcol:bre" line-range="153-155" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="153" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="154" tag="L">  Ho a-gwel-an</item>
+      <item id="r3" line="155" tag="G">  you.ACC.PL PRT-see-1SG.PRS</item>
+      <item id="r4" line="156" tag="T">  'I see you all.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="153" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="154" tag="L">  Ho a-gwel-an</item>
+      <item id="c3" alignment="r3" line="155" tag="G">  you.ACC.PL PRT-see-1SG.PRS</item>
+      <item id="c4" alignment="r4" line="156" tag="T">  'I see you all.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="153" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="154" tag="L">Ho a-gwel-an</item>
+      <item id="n3" alignment="c3" line="155" tag="G">you.ACC.PL PRT-see-1SG.PRS</item>
+      <item id="n4" alignment="c4" line="156" tag="T">I see you all.</item>
+    </tier>
+  </igt>
+  <igt id="igt22" doc-id="lgcol:bre" line-range="157-159" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="157" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="158" tag="L">  O a-gwel-an</item>
+      <item id="r3" line="159" tag="G">  them.ACC.PL PRT-see-1SG.PRS</item>
+      <item id="r4" line="160" tag="T">  'I see them.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="157" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="158" tag="L">  O a-gwel-an</item>
+      <item id="c3" alignment="r3" line="159" tag="G">  them.ACC.PL PRT-see-1SG.PRS</item>
+      <item id="c4" alignment="r4" line="160" tag="T">  'I see them.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="157" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="158" tag="L">O a-gwel-an</item>
+      <item id="n3" alignment="c3" line="159" tag="G">them.ACC.PL PRT-see-1SG.PRS</item>
+      <item id="n4" alignment="c4" line="160" tag="T">I see them.</item>
+    </tier>
+  </igt>
+  <igt id="igt23" doc-id="lgcol:bre" line-range="165-167" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="165" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="166" tag="L">  Ur beleg a-kan</item>
+      <item id="r3" line="167" tag="G">  a priest.M PRT-sing.3SG.PRS</item>
+      <item id="r4" line="168" tag="T">  'A priest sings.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="165" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="166" tag="L">  Ur beleg a-kan</item>
+      <item id="c3" alignment="r3" line="167" tag="G">  a priest.M PRT-sing.3SG.PRS</item>
+      <item id="c4" alignment="r4" line="168" tag="T">  'A priest sings.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="165" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="166" tag="L">Ur beleg a-kan</item>
+      <item id="n3" alignment="c3" line="167" tag="G">a priest.M PRT-sing.3SG.PRS</item>
+      <item id="n4" alignment="c4" line="168" tag="T">A priest sings.</item>
+    </tier>
+  </igt>
+  <igt id="igt24" doc-id="lgcol:bre" line-range="169-171" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="169" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="170" tag="L">  Klaskiñ a-gr ar beleg ur gad</item>
+      <item id="r3" line="171" tag="G">  seek.INF PRT-do.3SG.PRS the priest.M a rabbit.F</item>
+      <item id="r4" line="172" tag="T">  'The priest is seeking a rabbit.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="169" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="170" tag="L">  Klaskiñ a-gr ar beleg ur gad</item>
+      <item id="c3" alignment="r3" line="171" tag="G">  seek.INF PRT-do.3SG.PRS the priest.M a rabbit.F</item>
+      <item id="c4" alignment="r4" line="172" tag="T">  'The priest is seeking a rabbit.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="169" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="170" tag="L">Klaskiñ a-gr ar beleg ur gad</item>
+      <item id="n3" alignment="c3" line="171" tag="G">seek.INF PRT-do.3SG.PRS the priest.M a rabbit.F</item>
+      <item id="n4" alignment="c4" line="172" tag="T">The priest is seeking a rabbit.</item>
+    </tier>
+  </igt>
+  <igt id="igt25" doc-id="lgcol:bre" line-range="177-179" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="177" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="178" tag="L">  Me ne-klask-an ket da</item>
+      <item id="r3" line="179" tag="G">  I.NOM NEG-seek-1SG.PRS not you.ACC.SG</item>
+      <item id="r4" line="180" tag="T">  'I do not seek you.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="177" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="178" tag="L">  Me ne-klask-an ket da</item>
+      <item id="c3" alignment="r3" line="179" tag="G">  I.NOM NEG-seek-1SG.PRS not you.ACC.SG</item>
+      <item id="c4" alignment="r4" line="180" tag="T">  'I do not seek you.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="177" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="178" tag="L">Me ne-klask-an ket da</item>
+      <item id="n3" alignment="c3" line="179" tag="G">I.NOM NEG-seek-1SG.PRS not you.ACC.SG</item>
+      <item id="n4" alignment="c4" line="180" tag="T">I do not seek you.</item>
+    </tier>
+  </igt>
+  <igt id="igt26" doc-id="lgcol:bre" line-range="193-195" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="193" tag="M">  {author, collab} vetted: f</item>
+      <item id="r2" line="194" tag="L">  Ar beleg ne-kan ket</item>
+      <item id="r3" line="195" tag="G">  the priest.M NEG-sing.3SG.PRS not</item>
+      <item id="r4" line="196" tag="T">  'The priest is not singing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="193" tag="M">  {author, collab} vetted: f</item>
+      <item id="c2" alignment="r2" line="194" tag="L">  Ar beleg ne-kan ket</item>
+      <item id="c3" alignment="r3" line="195" tag="G">  the priest.M NEG-sing.3SG.PRS not</item>
+      <item id="c4" alignment="r4" line="196" tag="T">  'The priest is not singing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="193" tag="M">{author, collab} vetted: f</item>
+      <item id="n2" alignment="c2" line="194" tag="L">Ar beleg ne-kan ket</item>
+      <item id="n3" alignment="c3" line="195" tag="G">the priest.M NEG-sing.3SG.PRS not</item>
+      <item id="n4" alignment="c4" line="196" tag="T">The priest is not singing.</item>
+    </tier>
+  </igt>
+  <igt id="igt27" doc-id="lgcol:bre" line-range="213-215" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="213" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="214" tag="L">  Me a-klask-an ul levr</item>
+      <item id="r3" line="215" tag="G">  I.NOM PRT-seek-1SG.PRS a book</item>
+      <item id="r4" line="216" tag="T">  'I seek a book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="213" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="214" tag="L">  Me a-klask-an ul levr</item>
+      <item id="c3" alignment="r3" line="215" tag="G">  I.NOM PRT-seek-1SG.PRS a book</item>
+      <item id="c4" alignment="r4" line="216" tag="T">  'I seek a book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="213" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="214" tag="L">Me a-klask-an ul levr</item>
+      <item id="n3" alignment="c3" line="215" tag="G">I.NOM PRT-seek-1SG.PRS a book</item>
+      <item id="n4" alignment="c4" line="216" tag="T">I seek a book.</item>
+    </tier>
+  </igt>
+  <igt id="igt28" doc-id="lgcol:bre" line-range="217-219" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="217" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="218" tag="L">  Me a-klask-an al levr</item>
+      <item id="r3" line="219" tag="G">  I.NOM PRT-seek-1SG.PRS the book</item>
+      <item id="r4" line="220" tag="T">  'I seek the book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="217" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="218" tag="L">  Me a-klask-an al levr</item>
+      <item id="c3" alignment="r3" line="219" tag="G">  I.NOM PRT-seek-1SG.PRS the book</item>
+      <item id="c4" alignment="r4" line="220" tag="T">  'I seek the book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="217" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="218" tag="L">Me a-klask-an al levr</item>
+      <item id="n3" alignment="c3" line="219" tag="G">I.NOM PRT-seek-1SG.PRS the book</item>
+      <item id="n4" alignment="c4" line="220" tag="T">I seek the book.</item>
+    </tier>
+  </igt>
+  <igt id="igt29" doc-id="lgcol:bre" line-range="229-231" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="229" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="230" tag="L">  Kan-iñ a-bezan-me</item>
+      <item id="r3" line="231" tag="G">  sing-INF PRT-be.1SG.PRS-1SG.AGR</item>
+      <item id="r4" line="232" tag="T">  'I am singing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="229" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="230" tag="L">  Kan-iñ a-bezan-me</item>
+      <item id="c3" alignment="r3" line="231" tag="G">  sing-INF PRT-be.1SG.PRS-1SG.AGR</item>
+      <item id="c4" alignment="r4" line="232" tag="T">  'I am singing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="229" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="230" tag="L">Kan-iñ a-bezan-me</item>
+      <item id="n3" alignment="c3" line="231" tag="G">sing-INF PRT-be.1SG.PRS-1SG.AGR</item>
+      <item id="n4" alignment="c4" line="232" tag="T">I am singing.</item>
+    </tier>
+  </igt>
+  <igt id="igt30" doc-id="lgcol:bre" line-range="241-243" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="241" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="242" tag="L">  Me a-bezen o-kan-iñ.</item>
+      <item id="r3" line="243" tag="G">  I.NOM PRT-be.1SG.HBT.PST PRS.PTCP-sing-INF</item>
+      <item id="r4" line="244" tag="T">  'I used to sing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="241" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="242" tag="L">  Me a-bezen o-kan-iñ.</item>
+      <item id="c3" alignment="r3" line="243" tag="G">  I.NOM PRT-be.1SG.HBT.PST PRS.PTCP-sing-INF</item>
+      <item id="c4" alignment="r4" line="244" tag="T">  'I used to sing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="241" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="242" tag="L">Me a-bezen o-kan-iñ.</item>
+      <item id="n3" alignment="c3" line="243" tag="G">I.NOM PRT-be.1SG.HBT.PST PRS.PTCP-sing-INF</item>
+      <item id="n4" alignment="c4" line="244" tag="T">I used to sing.</item>
+    </tier>
+  </igt>
+  <igt id="igt31" doc-id="lgcol:bre" line-range="245-247" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="245" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="246" tag="L">  Me a-kan-an</item>
+      <item id="r3" line="247" tag="G">  I.NOM PRT-sing-1SG.PRS</item>
+      <item id="r4" line="248" tag="T">  'I sing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="245" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="246" tag="L">  Me a-kan-an</item>
+      <item id="c3" alignment="r3" line="247" tag="G">  I.NOM PRT-sing-1SG.PRS</item>
+      <item id="c4" alignment="r4" line="248" tag="T">  'I sing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="245" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="246" tag="L">Me a-kan-an</item>
+      <item id="n3" alignment="c3" line="247" tag="G">I.NOM PRT-sing-1SG.PRS</item>
+      <item id="n4" alignment="c4" line="248" tag="T">I sing.</item>
+    </tier>
+  </igt>
+  <igt id="igt32" doc-id="lgcol:bre" line-range="249-251" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="249" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="250" tag="L">  Int a-kan-ont</item>
+      <item id="r3" line="251" tag="G">  They.NOM PRT-sing-3PL.PRS</item>
+      <item id="r4" line="252" tag="T">  'They sing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="249" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="250" tag="L">  Int a-kan-ont</item>
+      <item id="c3" alignment="r3" line="251" tag="G">  They.NOM PRT-sing-3PL.PRS</item>
+      <item id="c4" alignment="r4" line="252" tag="T">  'They sing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="249" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="250" tag="L">Int a-kan-ont</item>
+      <item id="n3" alignment="c3" line="251" tag="G">They.NOM PRT-sing-3PL.PRS</item>
+      <item id="n4" alignment="c4" line="252" tag="T">They sing.</item>
+    </tier>
+  </igt>
+  <igt id="igt33" doc-id="lgcol:bre" line-range="257-259" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="257" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="258" tag="L">  Te a-kan-jout</item>
+      <item id="r3" line="259" tag="G">  They.NOM PRT-sing-2SG.PAST</item>
+      <item id="r4" line="260" tag="T">  'You sang.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="257" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="258" tag="L">  Te a-kan-jout</item>
+      <item id="c3" alignment="r3" line="259" tag="G">  They.NOM PRT-sing-2SG.PAST</item>
+      <item id="c4" alignment="r4" line="260" tag="T">  'You sang.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="257" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="258" tag="L">Te a-kan-jout</item>
+      <item id="n3" alignment="c3" line="259" tag="G">They.NOM PRT-sing-2SG.PAST</item>
+      <item id="n4" alignment="c4" line="260" tag="T">You sang.</item>
+    </tier>
+  </igt>
+  <igt id="igt34" doc-id="lgcol:bre" line-range="261-263" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="261" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="262" tag="L">  Cchwi a-kan-ot</item>
+      <item id="r3" line="263" tag="G">  You.NOM PRT-sing-2PL.FUT</item>
+      <item id="r4" line="264" tag="T">  'You will sing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="261" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="262" tag="L">  Cchwi a-kan-ot</item>
+      <item id="c3" alignment="r3" line="263" tag="G">  You.NOM PRT-sing-2PL.FUT</item>
+      <item id="c4" alignment="r4" line="264" tag="T">  'You will sing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="261" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="262" tag="L">Cchwi a-kan-ot</item>
+      <item id="n3" alignment="c3" line="263" tag="G">You.NOM PRT-sing-2PL.FUT</item>
+      <item id="n4" alignment="c4" line="264" tag="T">You will sing.</item>
+    </tier>
+  </igt>
+  <igt id="igt35" doc-id="lgcol:bre" line-range="265-267" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="265" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="266" tag="L">  Eñ a-kan-e</item>
+      <item id="r3" line="267" tag="G">  He.NOM PRT-sing-SG.IPFV</item>
+      <item id="r4" line="268" tag="T">  'He was singing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="265" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="266" tag="L">  Eñ a-kan-e</item>
+      <item id="c3" alignment="r3" line="267" tag="G">  He.NOM PRT-sing-SG.IPFV</item>
+      <item id="c4" alignment="r4" line="268" tag="T">  'He was singing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="265" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="266" tag="L">Eñ a-kan-e</item>
+      <item id="n3" alignment="c3" line="267" tag="G">He.NOM PRT-sing-SG.IPFV</item>
+      <item id="n4" alignment="c4" line="268" tag="T">He was singing.</item>
+    </tier>
+  </igt>
+  <igt id="igt36" doc-id="lgcol:bre" line-range="269-271" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="269" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="270" tag="L">  Me a-klask-o al levr</item>
+      <item id="r3" line="271" tag="G">  I.NOM PRT-seek-IPFV.FUT the book</item>
+      <item id="r4" line="272" tag="T">  'I will seek the book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="269" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="270" tag="L">  Me a-klask-o al levr</item>
+      <item id="c3" alignment="r3" line="271" tag="G">  I.NOM PRT-seek-IPFV.FUT the book</item>
+      <item id="c4" alignment="r4" line="272" tag="T">  'I will seek the book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="269" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="270" tag="L">Me a-klask-o al levr</item>
+      <item id="n3" alignment="c3" line="271" tag="G">I.NOM PRT-seek-IPFV.FUT the book</item>
+      <item id="n4" alignment="c4" line="272" tag="T">I will seek the book.</item>
+    </tier>
+  </igt>
+  <igt id="igt37" doc-id="lgcol:bre" line-range="285-287" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="285" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="286" tag="L">  Klask-iñ a-gr-an me al levr-se</item>
+      <item id="r3" line="287" tag="G">  seek-INF PRT-do-1SG.PRS I.NOM the book-that</item>
+      <item id="r4" line="288" tag="T">  'I'm seeking that book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="285" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="286" tag="L">  Klask-iñ a-gr-an me al levr-se</item>
+      <item id="c3" alignment="r3" line="287" tag="G">  seek-INF PRT-do-1SG.PRS I.NOM the book-that</item>
+      <item id="c4" alignment="r4" line="288" tag="T">  'I'm seeking that book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="285" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="286" tag="L">Klask-iñ a-gr-an me al levr-se</item>
+      <item id="n3" alignment="c3" line="287" tag="G">seek-INF PRT-do-1SG.PRS I.NOM the book-that</item>
+      <item id="n4" alignment="c4" line="288" tag="T">I'm seeking that book.</item>
+    </tier>
+  </igt>
+  <igt id="igt38" doc-id="lgcol:bre" line-range="297-299" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="297" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="298" tag="L">  Al levr a-klask-er</item>
+      <item id="r3" line="299" tag="G">  the book PRT-seek-IPFV.PRS</item>
+      <item id="r4" line="300" tag="T">  'One seeks the book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="297" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="298" tag="L">  Al levr a-klask-er</item>
+      <item id="c3" alignment="r3" line="299" tag="G">  the book PRT-seek-IPFV.PRS</item>
+      <item id="c4" alignment="r4" line="300" tag="T">  'One seeks the book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="297" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="298" tag="L">Al levr a-klask-er</item>
+      <item id="n3" alignment="c3" line="299" tag="G">the book PRT-seek-IPFV.PRS</item>
+      <item id="n4" alignment="c4" line="300" tag="T">One seeks the book.</item>
+    </tier>
+  </igt>
+  <igt id="igt39" doc-id="lgcol:bre" line-range="301-303" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="301" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="302" tag="L">  Al levr a-klask-omp</item>
+      <item id="r3" line="303" tag="G">  the book PRT-seek-1PL.PRS</item>
+      <item id="r4" line="304" tag="T">  'We're seeking the book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="301" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="302" tag="L">  Al levr a-klask-omp</item>
+      <item id="c3" alignment="r3" line="303" tag="G">  the book PRT-seek-1PL.PRS</item>
+      <item id="c4" alignment="r4" line="304" tag="T">  'We're seeking the book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="301" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="302" tag="L">Al levr a-klask-omp</item>
+      <item id="n3" alignment="c3" line="303" tag="G">the book PRT-seek-1PL.PRS</item>
+      <item id="n4" alignment="c4" line="304" tag="T">We're seeking the book.</item>
+    </tier>
+  </igt>
+  <igt id="igt40" doc-id="lgcol:bre" line-range="309-311" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="309" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="310" tag="L">  Eñ a-emañ o-cchoarzh-iñ</item>
+      <item id="r3" line="311" tag="G">  he.NOM PRT-be.PNT.PRS PTCP-laugh-INF</item>
+      <item id="r4" line="312" tag="T">  "He is laughing."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="309" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="310" tag="L">  Eñ a-emañ o-cchoarzh-iñ</item>
+      <item id="c3" alignment="r3" line="311" tag="G">  he.NOM PRT-be.PNT.PRS PTCP-laugh-INF</item>
+      <item id="c4" alignment="r4" line="312" tag="T">  "He is laughing."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="309" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="310" tag="L">Eñ a-emañ o-cchoarzh-iñ</item>
+      <item id="n3" alignment="c3" line="311" tag="G">he.NOM PRT-be.PNT.PRS PTCP-laugh-INF</item>
+      <item id="n4" alignment="c4" line="312" tag="T">He is laughing.</item>
+    </tier>
+  </igt>
+  <igt id="igt41" doc-id="lgcol:bre" line-range="317-319" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="317" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="318" tag="L">  Eñ a-edo o-cchoarzh-iñ</item>
+      <item id="r3" line="319" tag="G">  he.NOM PRT-be.PNT.PST PTCP-laugh-INF</item>
+      <item id="r4" line="320" tag="T">  "He was laughing."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="317" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="318" tag="L">  Eñ a-edo o-cchoarzh-iñ</item>
+      <item id="c3" alignment="r3" line="319" tag="G">  he.NOM PRT-be.PNT.PST PTCP-laugh-INF</item>
+      <item id="c4" alignment="r4" line="320" tag="T">  "He was laughing."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="317" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="318" tag="L">Eñ a-edo o-cchoarzh-iñ</item>
+      <item id="n3" alignment="c3" line="319" tag="G">he.NOM PRT-be.PNT.PST PTCP-laugh-INF</item>
+      <item id="n4" alignment="c4" line="320" tag="T">He was laughing.</item>
+    </tier>
+  </igt>
+  <igt id="igt42" doc-id="lgcol:bre" line-range="321-323" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="321" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="322" tag="L">  Ni a-klask-omp al levr</item>
+      <item id="r3" line="323" tag="G">  We.NOM PRT-seek-1PL.PRS the book</item>
+      <item id="r4" line="324" tag="T">  'We are seeking the book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="321" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="322" tag="L">  Ni a-klask-omp al levr</item>
+      <item id="c3" alignment="r3" line="323" tag="G">  We.NOM PRT-seek-1PL.PRS the book</item>
+      <item id="c4" alignment="r4" line="324" tag="T">  'We are seeking the book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="321" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="322" tag="L">Ni a-klask-omp al levr</item>
+      <item id="n3" alignment="c3" line="323" tag="G">We.NOM PRT-seek-1PL.PRS the book</item>
+      <item id="n4" alignment="c4" line="324" tag="T">We are seeking the book.</item>
+    </tier>
+  </igt>
+  <igt id="igt43" doc-id="lgcol:bre" line-range="325-327" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="325" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="326" tag="L">  Ha a-kan-ent</item>
+      <item id="r3" line="327" tag="G">  Q PRT-sing-2PL.PST.IPFV</item>
+      <item id="r4" line="328" tag="T">  'Were you singing?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="325" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="326" tag="L">  Ha a-kan-ent</item>
+      <item id="c3" alignment="r3" line="327" tag="G">  Q PRT-sing-2PL.PST.IPFV</item>
+      <item id="c4" alignment="r4" line="328" tag="T">  'Were you singing?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="325" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="326" tag="L">Ha a-kan-ent</item>
+      <item id="n3" alignment="c3" line="327" tag="G">Q PRT-sing-2PL.PST.IPFV</item>
+      <item id="n4" alignment="c4" line="328" tag="T">Were you singing?</item>
+    </tier>
+  </igt>
+  <igt id="igt44" doc-id="lgcol:bre" line-range="333-335" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="333" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="334" tag="L">  Ha gwel-iñ a-gr ar beleg al levr</item>
+      <item id="r3" line="335" tag="G">  Q see-INF PRT-do.3SG.PRS the priest the book</item>
+      <item id="r4" line="336" tag="T">  'Does the priest see the book?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="333" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="334" tag="L">  Ha gwel-iñ a-gr ar beleg al levr</item>
+      <item id="c3" alignment="r3" line="335" tag="G">  Q see-INF PRT-do.3SG.PRS the priest the book</item>
+      <item id="c4" alignment="r4" line="336" tag="T">  'Does the priest see the book?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="333" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="334" tag="L">Ha gwel-iñ a-gr ar beleg al levr</item>
+      <item id="n3" alignment="c3" line="335" tag="G">Q see-INF PRT-do.3SG.PRS the priest the book</item>
+      <item id="n4" alignment="c4" line="336" tag="T">Does the priest see the book?</item>
+    </tier>
+  </igt>
+  <igt id="igt45" doc-id="lgcol:bre" line-range="349-351" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="349" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="350" tag="L">  Daoustha debr-iñ a-grez ur aval</item>
+      <item id="r3" line="351" tag="G">  Q eat-INF PRT-do.2SG.PRS ur aval</item>
+      <item id="r4" line="352" tag="T">  'Are you eating an apple?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="349" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="350" tag="L">  Daoustha debr-iñ a-grez ur aval</item>
+      <item id="c3" alignment="r3" line="351" tag="G">  Q eat-INF PRT-do.2SG.PRS ur aval</item>
+      <item id="c4" alignment="r4" line="352" tag="T">  'Are you eating an apple?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="349" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="350" tag="L">Daoustha debr-iñ a-grez ur aval</item>
+      <item id="n3" alignment="c3" line="351" tag="G">Q eat-INF PRT-do.2SG.PRS ur aval</item>
+      <item id="n4" alignment="c4" line="352" tag="T">Are you eating an apple?</item>
+    </tier>
+  </igt>
+  <igt id="igt46" doc-id="lgcol:bre" line-range="353-355" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="353" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="354" tag="L">  Daoustha debr-iñ ne-grez ket ur aval</item>
+      <item id="r3" line="355" tag="G">  Q eat-INF NEG-do.2SG.PRS NEG a apple</item>
+      <item id="r4" line="356" tag="T">  'Aren't you eating an apple?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="353" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="354" tag="L">  Daoustha debr-iñ ne-grez ket ur aval</item>
+      <item id="c3" alignment="r3" line="355" tag="G">  Q eat-INF NEG-do.2SG.PRS NEG a apple</item>
+      <item id="c4" alignment="r4" line="356" tag="T">  'Aren't you eating an apple?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="353" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="354" tag="L">Daoustha debr-iñ ne-grez ket ur aval</item>
+      <item id="n3" alignment="c3" line="355" tag="G">Q eat-INF NEG-do.2SG.PRS NEG a apple</item>
+      <item id="n4" alignment="c4" line="356" tag="T">Aren't you eating an apple?</item>
+    </tier>
+  </igt>
+  <igt id="igt47" doc-id="lgcol:bre" line-range="365-367" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="365" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="366" tag="L">  Klask-iñ a-gr ar beleg mezv-msg ul levr</item>
+      <item id="r3" line="367" tag="G">  seek-INF PRT-do.3SG.PRS the priest drunk-MSG a book</item>
+      <item id="r4" line="368" tag="T">  'The drunk priest is seeking a book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="365" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="366" tag="L">  Klask-iñ a-gr ar beleg mezv-msg ul levr</item>
+      <item id="c3" alignment="r3" line="367" tag="G">  seek-INF PRT-do.3SG.PRS the priest drunk-MSG a book</item>
+      <item id="c4" alignment="r4" line="368" tag="T">  'The drunk priest is seeking a book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="365" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="366" tag="L">Klask-iñ a-gr ar beleg mezv-msg ul levr</item>
+      <item id="n3" alignment="c3" line="367" tag="G">seek-INF PRT-do.3SG.PRS the priest drunk-MSG a book</item>
+      <item id="n4" alignment="c4" line="368" tag="T">The drunk priest is seeking a book.</item>
+    </tier>
+  </igt>
+  <igt id="igt48" doc-id="lgcol:bre" line-range="377-379" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="377" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="378" tag="L">  Klask-iñ a-gr ar mezv-msg beleg ul levr</item>
+      <item id="r3" line="379" tag="G">  seek-INF PRT-do.3SG.PRS the drunk-MSG priest a book</item>
+      <item id="r4" line="380" tag="T">  'The drunk priest is seeking a book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="377" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="378" tag="L">  Klask-iñ a-gr ar mezv-msg beleg ul levr</item>
+      <item id="c3" alignment="r3" line="379" tag="G">  seek-INF PRT-do.3SG.PRS the drunk-MSG priest a book</item>
+      <item id="c4" alignment="r4" line="380" tag="T">  'The drunk priest is seeking a book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="377" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="378" tag="L">Klask-iñ a-gr ar mezv-msg beleg ul levr</item>
+      <item id="n3" alignment="c3" line="379" tag="G">seek-INF PRT-do.3SG.PRS the drunk-MSG priest a book</item>
+      <item id="n4" alignment="c4" line="380" tag="T">The drunk priest is seeking a book.</item>
+    </tier>
+  </igt>
+  <igt id="igt49" doc-id="lgcol:bre" line-range="381-383" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="381" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="382" tag="L">  Klask-iñ a-gr ar beleg mezv-ik-msg ul levr</item>
+      <item id="r3" line="383" tag="G">  seek-INF PRT-do.3SG.PRS the priest drunk-DIM-MSG a book</item>
+      <item id="r4" line="384" tag="T">  'The drunk priest is seeking a book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="381" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="382" tag="L">  Klask-iñ a-gr ar beleg mezv-ik-msg ul levr</item>
+      <item id="c3" alignment="r3" line="383" tag="G">  seek-INF PRT-do.3SG.PRS the priest drunk-DIM-MSG a book</item>
+      <item id="c4" alignment="r4" line="384" tag="T">  'The drunk priest is seeking a book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="381" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="382" tag="L">Klask-iñ a-gr ar beleg mezv-ik-msg ul levr</item>
+      <item id="n3" alignment="c3" line="383" tag="G">seek-INF PRT-do.3SG.PRS the priest drunk-DIM-MSG a book</item>
+      <item id="n4" alignment="c4" line="384" tag="T">The drunk priest is seeking a book.</item>
+    </tier>
+  </igt>
+  <igt id="igt50" doc-id="lgcol:bre" line-range="385-387" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="385" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="386" tag="L">  Klask-iñ a-gr-an ur gwall levr</item>
+      <item id="r3" line="387" tag="G">  seek-INF PRT-do-1SG.PRS a bad book</item>
+      <item id="r4" line="388" tag="T">  'The priest is seeking a bad book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="385" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="386" tag="L">  Klask-iñ a-gr-an ur gwall levr</item>
+      <item id="c3" alignment="r3" line="387" tag="G">  seek-INF PRT-do-1SG.PRS a bad book</item>
+      <item id="c4" alignment="r4" line="388" tag="T">  'The priest is seeking a bad book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="385" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="386" tag="L">Klask-iñ a-gr-an ur gwall levr</item>
+      <item id="n3" alignment="c3" line="387" tag="G">seek-INF PRT-do-1SG.PRS a bad book</item>
+      <item id="n4" alignment="c4" line="388" tag="T">The priest is seeking a bad book.</item>
+    </tier>
+  </igt>
+  <igt id="igt51" doc-id="lgcol:bre" line-range="397-399" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="397" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="398" tag="L">  Me ha ar beleg a-kan-omp</item>
+      <item id="r3" line="399" tag="G">  I.ACC and the priest PRT-SING-1PL.PRS</item>
+      <item id="r4" line="400" tag="T">  'Me and the priest are singing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="397" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="398" tag="L">  Me ha ar beleg a-kan-omp</item>
+      <item id="c3" alignment="r3" line="399" tag="G">  I.ACC and the priest PRT-SING-1PL.PRS</item>
+      <item id="c4" alignment="r4" line="400" tag="T">  'Me and the priest are singing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="397" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="398" tag="L">Me ha ar beleg a-kan-omp</item>
+      <item id="n3" alignment="c3" line="399" tag="G">I.ACC and the priest PRT-SING-1PL.PRS</item>
+      <item id="n4" alignment="c4" line="400" tag="T">Me and the priest are singing.</item>
+    </tier>
+  </igt>
+  <igt id="igt52" doc-id="lgcol:bre" line-range="409-411" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="409" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="410" tag="L">  Me a-gwel-is al levr pe ul liorzh</item>
+      <item id="r3" line="411" tag="G">  I.ACC PRT-see-1SG.PST the book or a garden</item>
+      <item id="r4" line="412" tag="T">  'I saw the book or a garden.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="409" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="410" tag="L">  Me a-gwel-is al levr pe ul liorzh</item>
+      <item id="c3" alignment="r3" line="411" tag="G">  I.ACC PRT-see-1SG.PST the book or a garden</item>
+      <item id="c4" alignment="r4" line="412" tag="T">  'I saw the book or a garden.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="409" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="410" tag="L">Me a-gwel-is al levr pe ul liorzh</item>
+      <item id="n3" alignment="c3" line="411" tag="G">I.ACC PRT-see-1SG.PST the book or a garden</item>
+      <item id="n4" alignment="c4" line="412" tag="T">I saw the book or a garden.</item>
+    </tier>
+  </igt>
+  <igt id="igt53" doc-id="lgcol:bre" line-range="421-423" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="421" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="422" tag="L">  Buan a-klask gr ar beleg ul levr</item>
+      <item id="r3" line="423" tag="G">  quickly PRT-seek.INF do.PRS.3SG the priest.M a book.M</item>
+      <item id="r4" line="424" tag="T">  'The priest seeks a book quickly.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="421" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="422" tag="L">  Buan a-klask gr ar beleg ul levr</item>
+      <item id="c3" alignment="r3" line="423" tag="G">  quickly PRT-seek.INF do.PRS.3SG the priest.M a book.M</item>
+      <item id="c4" alignment="r4" line="424" tag="T">  'The priest seeks a book quickly.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="421" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="422" tag="L">Buan a-klask gr ar beleg ul levr</item>
+      <item id="n3" alignment="c3" line="423" tag="G">quickly PRT-seek.INF do.PRS.3SG the priest.M a book.M</item>
+      <item id="n4" alignment="c4" line="424" tag="T">The priest seeks a book quickly.</item>
+    </tier>
+  </igt>
+  <igt id="igt54" doc-id="lgcol:bre" line-range="437-439" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="437" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="438" tag="L">  Te dousig a-kan-jout</item>
+      <item id="r3" line="439" tag="G">  They.NOM gently PRT-sing-2SG.PAST</item>
+      <item id="r4" line="440" tag="T">  'You sang gently.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="437" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="438" tag="L">  Te dousig a-kan-jout</item>
+      <item id="c3" alignment="r3" line="439" tag="G">  They.NOM gently PRT-sing-2SG.PAST</item>
+      <item id="c4" alignment="r4" line="440" tag="T">  'You sang gently.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="437" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="438" tag="L">Te dousig a-kan-jout</item>
+      <item id="n3" alignment="c3" line="439" tag="G">They.NOM gently PRT-sing-2SG.PAST</item>
+      <item id="n4" alignment="c4" line="440" tag="T">You sang gently.</item>
+    </tier>
+  </igt>
+  <igt id="igt55" doc-id="lgcol:bre" line-range="441-443" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="441" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="442" tag="L">  Dousig te a-kan-jout</item>
+      <item id="r3" line="443" tag="G">  gently they.NOM PRT-sing-2SG.PAST</item>
+      <item id="r4" line="444" tag="T">  'You sang gently.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="441" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="442" tag="L">  Dousig te a-kan-jout</item>
+      <item id="c3" alignment="r3" line="443" tag="G">  gently they.NOM PRT-sing-2SG.PAST</item>
+      <item id="c4" alignment="r4" line="444" tag="T">  'You sang gently.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="441" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="442" tag="L">Dousig te a-kan-jout</item>
+      <item id="n3" alignment="c3" line="443" tag="G">gently they.NOM PRT-sing-2SG.PAST</item>
+      <item id="n4" alignment="c4" line="444" tag="T">You sang gently.</item>
+    </tier>
+  </igt>
+  <igt id="igt56" doc-id="lgcol:bre" line-range="445-447" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="445" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="446" tag="L">  Debriñ a-gr-ont beleg-où ar un aval</item>
+      <item id="r3" line="447" tag="G">  eat.INF PRT-do-3PL.PRS priest.M-PL the an apple</item>
+      <item id="r4" line="448" tag="T">  'The priests are eating an apple.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="445" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="446" tag="L">  Debriñ a-gr-ont beleg-où ar un aval</item>
+      <item id="c3" alignment="r3" line="447" tag="G">  eat.INF PRT-do-3PL.PRS priest.M-PL the an apple</item>
+      <item id="c4" alignment="r4" line="448" tag="T">  'The priests are eating an apple.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="445" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="446" tag="L">Debriñ a-gr-ont beleg-où ar un aval</item>
+      <item id="n3" alignment="c3" line="447" tag="G">eat.INF PRT-do-3PL.PRS priest.M-PL the an apple</item>
+      <item id="n4" alignment="c4" line="448" tag="T">The priests are eating an apple.</item>
+    </tier>
+  </igt>
+  <igt id="igt57" doc-id="lgcol:bre" line-range="449-451" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="449" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="450" tag="L">  Debriñ un aval a-gr-ont ar beleg-où</item>
+      <item id="r3" line="451" tag="G">  eat.INF an apple.M.SG PRT-do-3PL.PRS the priest.M-PL </item>
+      <item id="r4" line="452" tag="T">  'The priests are eating an apple.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="449" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="450" tag="L">  Debriñ un aval a-gr-ont ar beleg-où</item>
+      <item id="c3" alignment="r3" line="451" tag="G">  eat.INF an apple.M.SG PRT-do-3PL.PRS the priest.M-PL </item>
+      <item id="c4" alignment="r4" line="452" tag="T">  'The priests are eating an apple.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="449" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="450" tag="L">Debriñ un aval a-gr-ont ar beleg-où</item>
+      <item id="n3" alignment="c3" line="451" tag="G">eat.INF an apple.M.SG PRT-do-3PL.PRS the priest.M-PL</item>
+      <item id="n4" alignment="c4" line="452" tag="T">The priests are eating an apple.</item>
+    </tier>
+  </igt>
+  <igt id="igt58" doc-id="lgcol:bre" line-range="453-455" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="453" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="454" tag="L">  Klask ul levr a-gr ar beleg</item>
+      <item id="r3" line="455" tag="G">  seek.INF a book.M PRT-do.PRS.3SG the priest.M</item>
+      <item id="r4" line="456" tag="T">  'The priest is seeking a book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="453" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="454" tag="L">  Klask ul levr a-gr ar beleg</item>
+      <item id="c3" alignment="r3" line="455" tag="G">  seek.INF a book.M PRT-do.PRS.3SG the priest.M</item>
+      <item id="c4" alignment="r4" line="456" tag="T">  'The priest is seeking a book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="453" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="454" tag="L">Klask ul levr a-gr ar beleg</item>
+      <item id="n3" alignment="c3" line="455" tag="G">seek.INF a book.M PRT-do.PRS.3SG the priest.M</item>
+      <item id="n4" alignment="c4" line="456" tag="T">The priest is seeking a book.</item>
+    </tier>
+  </igt>
+  <igt id="igt59" doc-id="lgcol:bre" line-range="461-463" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="461" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="462" tag="L">  Un aval a-debront ar beleg-où</item>
+      <item id="r3" line="463" tag="G">  an apple.M eat-3PL.PRS the priest.M-PL </item>
+      <item id="r4" line="464" tag="T">  'An apple, the priests eat.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="461" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="462" tag="L">  Un aval a-debront ar beleg-où</item>
+      <item id="c3" alignment="r3" line="463" tag="G">  an apple.M eat-3PL.PRS the priest.M-PL </item>
+      <item id="c4" alignment="r4" line="464" tag="T">  'An apple, the priests eat.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="461" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="462" tag="L">Un aval a-debront ar beleg-où</item>
+      <item id="n3" alignment="c3" line="463" tag="G">an apple.M eat-3PL.PRS the priest.M-PL</item>
+      <item id="n4" alignment="c4" line="464" tag="T">An apple, the priests eat.</item>
+    </tier>
+  </igt>
+  <igt id="igt60" doc-id="lgcol:bre" line-range="465-467" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="465" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="466" tag="L">  Ar beleg-où a-debront un aval</item>
+      <item id="r3" line="467" tag="G">  the priest.M-PL eat-3PL.PRS an apple.M</item>
+      <item id="r4" line="468" tag="T">  'The priests eat an apple.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="465" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="466" tag="L">  Ar beleg-où a-debront un aval</item>
+      <item id="c3" alignment="r3" line="467" tag="G">  the priest.M-PL eat-3PL.PRS an apple.M</item>
+      <item id="c4" alignment="r4" line="468" tag="T">  'The priests eat an apple.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="465" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="466" tag="L">Ar beleg-où a-debront un aval</item>
+      <item id="n3" alignment="c3" line="467" tag="G">the priest.M-PL eat-3PL.PRS an apple.M</item>
+      <item id="n4" alignment="c4" line="468" tag="T">The priests eat an apple.</item>
+    </tier>
+  </igt>
+  <igt id="igt61" doc-id="lgcol:bre" line-range="477-479" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="477" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="478" tag="L">  Me a-kan-en ha a-cchoarzh-en</item>
+      <item id="r3" line="479" tag="G">  I.NOM PRT-sing-1SG.PST.IPFV and PRT-laugh-1SG.PST.IPFV</item>
+      <item id="r4" line="480" tag="T">  'I was singing and laughing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="477" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="478" tag="L">  Me a-kan-en ha a-cchoarzh-en</item>
+      <item id="c3" alignment="r3" line="479" tag="G">  I.NOM PRT-sing-1SG.PST.IPFV and PRT-laugh-1SG.PST.IPFV</item>
+      <item id="c4" alignment="r4" line="480" tag="T">  'I was singing and laughing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="477" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="478" tag="L">Me a-kan-en ha a-cchoarzh-en</item>
+      <item id="n3" alignment="c3" line="479" tag="G">I.NOM PRT-sing-1SG.PST.IPFV and PRT-laugh-1SG.PST.IPFV</item>
+      <item id="n4" alignment="c4" line="480" tag="T">I was singing and laughing.</item>
+    </tier>
+  </igt>
+  <igt id="igt62" doc-id="lgcol:bre" line-range="485-487" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="485" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="486" tag="L">  Me a-gwel-an da ha te a-gwel-ez va</item>
+      <item id="r3" line="487" tag="G">  I.NOM PRT-see-1SG.PRS you.SG.ACC and you.SG.NOM PRT-see-2SG.PRS I.ACC</item>
+      <item id="r4" line="488" tag="T">  'I see you and you see me.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="485" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="486" tag="L">  Me a-gwel-an da ha te a-gwel-ez va</item>
+      <item id="c3" alignment="r3" line="487" tag="G">  I.NOM PRT-see-1SG.PRS you.SG.ACC and you.SG.NOM PRT-see-2SG.PRS I.ACC</item>
+      <item id="c4" alignment="r4" line="488" tag="T">  'I see you and you see me.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="485" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="486" tag="L">Me a-gwel-an da ha te a-gwel-ez va</item>
+      <item id="n3" alignment="c3" line="487" tag="G">I.NOM PRT-see-1SG.PRS you.SG.ACC and you.SG.NOM PRT-see-2SG.PRS I.ACC</item>
+      <item id="n4" alignment="c4" line="488" tag="T">I see you and you see me.</item>
+    </tier>
+  </igt>
+  <igt id="igt63" doc-id="lgcol:bre" line-range="489-491" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="489" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="490" tag="L">  Gouz-iñ a-gr-an a-cchoarzh-an</item>
+      <item id="r3" line="491" tag="G">  know-INF PRT-do-1SG.PRS PRT-laugh-1SG.PRS</item>
+      <item id="r4" line="492" tag="T">  'I know that I'm laughing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="489" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="490" tag="L">  Gouz-iñ a-gr-an a-cchoarzh-an</item>
+      <item id="c3" alignment="r3" line="491" tag="G">  know-INF PRT-do-1SG.PRS PRT-laugh-1SG.PRS</item>
+      <item id="c4" alignment="r4" line="492" tag="T">  'I know that I'm laughing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="489" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="490" tag="L">Gouz-iñ a-gr-an a-cchoarzh-an</item>
+      <item id="n3" alignment="c3" line="491" tag="G">know-INF PRT-do-1SG.PRS PRT-laugh-1SG.PRS</item>
+      <item id="n4" alignment="c4" line="492" tag="T">I know that I'm laughing.</item>
+    </tier>
+  </igt>
+  <igt id="igt64" doc-id="lgcol:bre" line-range="501-503" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="501" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="502" tag="L">  Beleg a-bez-eñ</item>
+      <item id="r3" line="503" tag="G">  priest.M PRT-be-3SG.PRS</item>
+      <item id="r4" line="504" tag="T">  'He is a priest.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="501" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="502" tag="L">  Beleg a-bez-eñ</item>
+      <item id="c3" alignment="r3" line="503" tag="G">  priest.M PRT-be-3SG.PRS</item>
+      <item id="c4" alignment="r4" line="504" tag="T">  'He is a priest.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="501" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="502" tag="L">Beleg a-bez-eñ</item>
+      <item id="n3" alignment="c3" line="503" tag="G">priest.M PRT-be-3SG.PRS</item>
+      <item id="n4" alignment="c4" line="504" tag="T">He is a priest.</item>
+    </tier>
+  </igt>
+  <igt id="igt65" doc-id="lgcol:bre" line-range="505-507" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="505" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="506" tag="L">  Eñ a-bez Beleg</item>
+      <item id="r3" line="507" tag="G">  he PRT-be.3SG.PRS priest.M</item>
+      <item id="r4" line="508" tag="T">  'He is a priest.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="505" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="506" tag="L">  Eñ a-bez Beleg</item>
+      <item id="c3" alignment="r3" line="507" tag="G">  he PRT-be.3SG.PRS priest.M</item>
+      <item id="c4" alignment="r4" line="508" tag="T">  'He is a priest.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="505" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="506" tag="L">Eñ a-bez Beleg</item>
+      <item id="n3" alignment="c3" line="507" tag="G">he PRT-be.3SG.PRS priest.M</item>
+      <item id="n4" alignment="c4" line="508" tag="T">He is a priest.</item>
+    </tier>
+  </igt>
+  <igt id="igt66" doc-id="lgcol:bre" line-range="513-515" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="513" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="514" tag="L">  Bez e-bez ar beleg eñ</item>
+      <item id="r3" line="515" tag="G">  be.3SG.PRS PRT-be.3SG.PRS a priest.M he</item>
+      <item id="r4" line="516" tag="T">  'He is a priest.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="513" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="514" tag="L">  Bez e-bez ar beleg eñ</item>
+      <item id="c3" alignment="r3" line="515" tag="G">  be.3SG.PRS PRT-be.3SG.PRS a priest.M he</item>
+      <item id="c4" alignment="r4" line="516" tag="T">  'He is a priest.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="513" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="514" tag="L">Bez e-bez ar beleg eñ</item>
+      <item id="n3" alignment="c3" line="515" tag="G">be.3SG.PRS PRT-be.3SG.PRS a priest.M he</item>
+      <item id="n4" alignment="c4" line="516" tag="T">He is a priest.</item>
+    </tier>
+  </igt>
+  <igt id="igt67" doc-id="lgcol:bre" line-range="533-535" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="533" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="534" tag="L">  Goulenn-iñ a-gr-jod a-cchoarzh-es</item>
+      <item id="r3" line="535" tag="G">  ask-INF PRT-do-3PL.PST.PFV PRT-laugh-2SG.PST.IPFV</item>
+      <item id="r4" line="536" tag="T">  'They asked whether you were laughing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="533" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="534" tag="L">  Goulenn-iñ a-gr-jod a-cchoarzh-es</item>
+      <item id="c3" alignment="r3" line="535" tag="G">  ask-INF PRT-do-3PL.PST.PFV PRT-laugh-2SG.PST.IPFV</item>
+      <item id="c4" alignment="r4" line="536" tag="T">  'They asked whether you were laughing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="533" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="534" tag="L">Goulenn-iñ a-gr-jod a-cchoarzh-es</item>
+      <item id="n3" alignment="c3" line="535" tag="G">ask-INF PRT-do-3PL.PST.PFV PRT-laugh-2SG.PST.IPFV</item>
+      <item id="n4" alignment="c4" line="536" tag="T">They asked whether you were laughing.</item>
+    </tier>
+  </igt>
+  <igt id="igt68" doc-id="lgcol:bre" line-range="545-547" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="545" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="546" tag="L">  Klask-iñ a-gr ar beleg-où mezv-mpl-hum ul levr</item>
+      <item id="r3" line="547" tag="G">  seek-INF PRT-do.3SG.PRS the priest-PL drunk-MPL-HUM a book</item>
+      <item id="r4" line="548" tag="T">  'The drunk priests are seeking a book.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="545" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="546" tag="L">  Klask-iñ a-gr ar beleg-où mezv-mpl-hum ul levr</item>
+      <item id="c3" alignment="r3" line="547" tag="G">  seek-INF PRT-do.3SG.PRS the priest-PL drunk-MPL-HUM a book</item>
+      <item id="c4" alignment="r4" line="548" tag="T">  'The drunk priests are seeking a book.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="545" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="546" tag="L">Klask-iñ a-gr ar beleg-où mezv-mpl-hum ul levr</item>
+      <item id="n3" alignment="c3" line="547" tag="G">seek-INF PRT-do.3SG.PRS the priest-PL drunk-MPL-HUM a book</item>
+      <item id="n4" alignment="c4" line="548" tag="T">The drunk priests are seeking a book.</item>
+    </tier>
+  </igt>
+  <igt id="igt69" doc-id="lgcol:bre" line-range="553-555" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="553" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="554" tag="L">  Klask-iñ a-gr ar beleg-où ul levr liorzh</item>
+      <item id="r3" line="555" tag="G">  seek-INF PRT-do.3SG.PRS the priest-PL a book garden</item>
+      <item id="r4" line="556" tag="T">  'The priests are seeking a book about gardens.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="553" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="554" tag="L">  Klask-iñ a-gr ar beleg-où ul levr liorzh</item>
+      <item id="c3" alignment="r3" line="555" tag="G">  seek-INF PRT-do.3SG.PRS the priest-PL a book garden</item>
+      <item id="c4" alignment="r4" line="556" tag="T">  'The priests are seeking a book about gardens.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="553" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="554" tag="L">Klask-iñ a-gr ar beleg-où ul levr liorzh</item>
+      <item id="n3" alignment="c3" line="555" tag="G">seek-INF PRT-do.3SG.PRS the priest-PL a book garden</item>
+      <item id="n4" alignment="c4" line="556" tag="T">The priests are seeking a book about gardens.</item>
+    </tier>
+  </igt>
+  <igt id="igt70" doc-id="lgcol:bre" line-range="557-559" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="557" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="558" tag="L">  Mezv a-bez-eñ</item>
+      <item id="r3" line="559" tag="G">  drunk PRT-be-3SG.PRS</item>
+      <item id="r4" line="560" tag="T">  'He is drunk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="557" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="558" tag="L">  Mezv a-bez-eñ</item>
+      <item id="c3" alignment="r3" line="559" tag="G">  drunk PRT-be-3SG.PRS</item>
+      <item id="c4" alignment="r4" line="560" tag="T">  'He is drunk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="557" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="558" tag="L">Mezv a-bez-eñ</item>
+      <item id="n3" alignment="c3" line="559" tag="G">drunk PRT-be-3SG.PRS</item>
+      <item id="n4" alignment="c4" line="560" tag="T">He is drunk.</item>
+    </tier>
+  </igt>
+  <igt id="igt71" doc-id="lgcol:bre" line-range="561-563" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="561" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="562" tag="L">  Klask a-gr buan ar beleg ul levr</item>
+      <item id="r3" line="563" tag="G">  seek.INF PRT-do.PRS.3SG quickly the priest.M a book.M</item>
+      <item id="r4" line="564" tag="T">  'The priest seeks a book quickly.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="561" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="562" tag="L">  Klask a-gr buan ar beleg ul levr</item>
+      <item id="c3" alignment="r3" line="563" tag="G">  seek.INF PRT-do.PRS.3SG quickly the priest.M a book.M</item>
+      <item id="c4" alignment="r4" line="564" tag="T">  'The priest seeks a book quickly.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="561" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="562" tag="L">Klask a-gr buan ar beleg ul levr</item>
+      <item id="n3" alignment="c3" line="563" tag="G">seek.INF PRT-do.PRS.3SG quickly the priest.M a book.M</item>
+      <item id="n4" alignment="c4" line="564" tag="T">The priest seeks a book quickly.</item>
+    </tier>
+  </igt>
+  <igt id="igt72" doc-id="lgcol:bre" line-range="569-571" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="569" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="570" tag="L">  Klask a-gr fur ar beleg ul levr</item>
+      <item id="r3" line="571" tag="G">  seek.INF PRT-do.PRS.3SG wise the priest.M a book.M</item>
+      <item id="r4" line="572" tag="T">  'The priest seeks a book quickly.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="569" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="570" tag="L">  Klask a-gr fur ar beleg ul levr</item>
+      <item id="c3" alignment="r3" line="571" tag="G">  seek.INF PRT-do.PRS.3SG wise the priest.M a book.M</item>
+      <item id="c4" alignment="r4" line="572" tag="T">  'The priest seeks a book quickly.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="569" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="570" tag="L">Klask a-gr fur ar beleg ul levr</item>
+      <item id="n3" alignment="c3" line="571" tag="G">seek.INF PRT-do.PRS.3SG wise the priest.M a book.M</item>
+      <item id="n4" alignment="c4" line="572" tag="T">The priest seeks a book quickly.</item>
+    </tier>
+  </igt>
+  <igt id="igt73" doc-id="lgcol:bre" line-range="573-575" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="573" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="574" tag="L">  Klask a-gr efur ar beleg ul levr</item>
+      <item id="r3" line="575" tag="G">  seek.INF PRT-do.PRS.3SG wise the priest.M a book.M</item>
+      <item id="r4" line="576" tag="T">  'The priest seeks a book wisely.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="573" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="574" tag="L">  Klask a-gr efur ar beleg ul levr</item>
+      <item id="c3" alignment="r3" line="575" tag="G">  seek.INF PRT-do.PRS.3SG wise the priest.M a book.M</item>
+      <item id="c4" alignment="r4" line="576" tag="T">  'The priest seeks a book wisely.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="573" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="574" tag="L">Klask a-gr efur ar beleg ul levr</item>
+      <item id="n3" alignment="c3" line="575" tag="G">seek.INF PRT-do.PRS.3SG wise the priest.M a book.M</item>
+      <item id="n4" alignment="c4" line="576" tag="T">The priest seeks a book wisely.</item>
+    </tier>
+  </igt>
+  <igt id="igt74" doc-id="lgcol:bre" line-range="585-587" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="585" tag="M">  {author, todd} vetted: f</item>
+      <item id="r2" line="586" tag="L">  Gouz-iñ a-gr-an a-cchoarzh-an</item>
+      <item id="r3" line="587" tag="G">  know-INF PRT-do-1SG.PRS PRT-laugh-1SG.PRS</item>
+      <item id="r4" line="588" tag="T">  'I know that I'm laughing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="585" tag="M">  {author, todd} vetted: f</item>
+      <item id="c2" alignment="r2" line="586" tag="L">  Gouz-iñ a-gr-an a-cchoarzh-an</item>
+      <item id="c3" alignment="r3" line="587" tag="G">  know-INF PRT-do-1SG.PRS PRT-laugh-1SG.PRS</item>
+      <item id="c4" alignment="r4" line="588" tag="T">  'I know that I'm laughing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="585" tag="M">{author, todd} vetted: f</item>
+      <item id="n2" alignment="c2" line="586" tag="L">Gouz-iñ a-gr-an a-cchoarzh-an</item>
+      <item id="n3" alignment="c3" line="587" tag="G">know-INF PRT-do-1SG.PRS PRT-laugh-1SG.PRS</item>
+      <item id="n4" alignment="c4" line="588" tag="T">I know that I'm laughing.</item>
+    </tier>
+  </igt>
+  <igt id="igt75" doc-id="lgcol:bre" line-range="589-591" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="589" tag="M">  {author, foster} vetted: f</item>
+      <item id="r2" line="590" tag="L">  Bez e-bez ar beleg ha ul tad eñ</item>
+      <item id="r3" line="591" tag="G">  be.3SG.PRS PRT-be.3SG.PRS a priest.M and a father.M he</item>
+      <item id="r4" line="592" tag="T">  'He is a priest and a father.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="589" tag="M">  {author, foster} vetted: f</item>
+      <item id="c2" alignment="r2" line="590" tag="L">  Bez e-bez ar beleg ha ul tad eñ</item>
+      <item id="c3" alignment="r3" line="591" tag="G">  be.3SG.PRS PRT-be.3SG.PRS a priest.M and a father.M he</item>
+      <item id="c4" alignment="r4" line="592" tag="T">  'He is a priest and a father.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="589" tag="M">{author, foster} vetted: f</item>
+      <item id="n2" alignment="c2" line="590" tag="L">Bez e-bez ar beleg ha ul tad eñ</item>
+      <item id="n3" alignment="c3" line="591" tag="G">be.3SG.PRS PRT-be.3SG.PRS a priest.M and a father.M he</item>
+      <item id="n4" alignment="c4" line="592" tag="T">He is a priest and a father.</item>
+    </tier>
+  </igt>
+</xigt-corpus>

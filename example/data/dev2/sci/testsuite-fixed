@@ -1,0 +1,1272 @@
+Language: Sri Lankan Malay
+Language code: sci
+Tiers: orth orth-seg gloss translat
+Author: Varden Wang, Wee Teck Tan
+Date: January 10, 2012
+Source a: http://www.lotpublications.nl/publish/issues/Nordhoff/index.html
+Source b: http://www.eva.mpg.de/lingua/staff/nordhoff/pdf/grammatical_sketch_of_Sri_Lanka_Malay.pdf
+Source c: http://www.galoes.org/grammars/sci
+
+# Word Order Tests
+#1-1, SOV Word order 
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: word order, Tense Aspect Mood
+Andare guula anàmaakang
+Andare guula anà-maakang
+Andare sugar PAST-eat
+'Andare ate sugar'
+
+##1-2, SVO Word order - semantically weird
+#Source: author
+#Vetted: s
+#Judgment: g
+#Phenomena: word order
+#Andare anàmaakang mosthor guula 
+#Andare anà-maakang mosthor guula 
+#Andare PAST-eat manner sugar 
+#'The sugar-way Andare was eating'
+
+#1-3, VOS Word order - ungrammatical
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: word order
+anàmaakang guula Andare
+anà-maakang guula Andare
+PAST-eat sugar Andare
+'The eaten sugar is Andare'
+
+#1-4, VSO Word order - ungrammatical 
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: word order
+anàmaakang Andare guula
+anà-maakang Andare guula
+PAST-eat Andare sugar
+'Andare ate sugar'
+
+##1-5, OSV Word order - semantically weird 
+#Source: author
+#Vetted: s
+#Judgment: g
+#Phenomena: word order
+#guula Andare anàmaakang mosthor
+#guula Andare anà-maakang mosthor
+#sugar Andare PAST-eat manner
+#'The way how Andare ate sugar'
+
+#1-6, OVS Word order - different from meaning in #1 
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: word order
+guula anàmaakang Andare
+guula anà-maakang Andare
+sugar PAST-eat Andare
+'eat sugar is Andare'
+
+# Prounoun Examples with Case Examples
+#2-1, Pronouns 1PL, CASE LOC
+#Source: a:733
+#Vetted: s
+#Judgment: g
+#Phenomena: pronouns, case
+#kithang Kandy ka jo
+#kithang Kandy=ka-jo
+#1PL Kandy=LOC-foc
+#'We are from Kandy.'
+
+#2-2, Pronouns 1SG, Case DAT
+Source: a:502
+Vetted: s
+Judgment: g
+Phenomena: pronouns, case
+Sedang màciong kamauvan
+See=nang mà-ciong kamauvan
+1S=DAT INF-kiss want
+'I want to kiss.'
+
+#2-3, Pronouns 1S, Case ACC
+Source: a:484
+Vetted: s
+Judgment: g
+Phenomena: pronouns, case
+Umma see yang subraanak
+Umma see=yang su-braanak
+mother 1S=ACC past-give.birth
+'My mother gave birth to me.'
+
+#2-4, Pronouns 1S, Case DAT
+Source: a:483
+Vetted: s
+Judgment: g
+Phenomena: pronouns, case
+Godang thàràsìggar
+Goo=nang thàràsìggar
+1s.familiar=DAT sick
+'I am sick.'
+
+# Rest of NP Examples
+#3-1, the rest of the NP, Case INSTR, Word order, intransitive verb
+Source: a:483
+Vetted: s
+Judgment: g
+Phenomena: word order, case
+Police dering sudhaathang
+Police=dering su-dhaathang
+police=INSTR PAST-come
+'The police came.'
+
+#3-2, the rest of the NP, Case ACC, Word order, intransitive verb
+Source: a:483
+Vetted: s
+Judgment: g
+Phenomena: pronouns, case, word order
+Titanic kappal yang suthìnggalam
+Titanic kappal=yang su-thìnggalam
+Titanic ship=ACC PAST-sink
+'The ship "Titanic" sank.'
+
+#3-3, the rest of the NP, Right Headed NPs
+Source: b:16
+Vetted: s
+Judgment: g
+Phenomena: word order
+Seppe naama Mohomed-Imran-Salim
+See=ppe naama Mohomed Imran Salim
+1S=POSS name Mohomed Imran Salim	 
+'My name is Mohomed Imran Salim.'
+
+# Case Tests
+##4-1 Case, transitive verb
+#Source: b:23
+#Vetted: s
+#Judgment: g
+#Phenomena: case
+#Ithukapang lorang pe leher yang kithang athipoothong
+#Ithukapang lorang=pe leher=yang kithang=0 athi-poothong
+#then 2PL=POSS neck=ACC 1PL IRR-cut
+#'Then we will cut your neck.'
+
+##4-2 Case, transitive verb
+#Source: b:23
+#Vetted: s
+#Judgment: g
+#Phenomena: case
+#Derang pada aràbanthu cinggala raaja nang
+#Derang pada=0 arà-banthu cinggala raaja=nang
+#3PL PL NON.PAST-help Sinhala king=DAT
+#'They help the Sinhalese king.'
+
+#4-3 Case, transitive verb, indefinite article
+Source: b:23
+Vetted: s
+Judgment: g
+Phenomena: case
+svaara hatthu derang nang sudìnngar
+svaara hatthu derang=nang su-dìnngar
+noise INDEF 3PL=DAT PAST-hear
+'They heard a noise.'
+
+#4-4 Case
+Source: b:23
+Vetted: s
+Judgment: g
+Phenomena: case
+See yang police dering nyapreksa
+See=yang police=dering nya-preksa
+1S=ACC police=ABL PAST-enquire
+'I was questioned by the police.'
+
+##4-5 Case
+#Source: b:23
+#Vetted: s
+#Judgment: g
+#Phenomena: case
+#Kithang nang baaye nang mulbar bolebaaca
+#Kithang=nang baaye=nang mulbar=0 bole=baaca
+#1PL=DAT good=DAT Tamil can=read
+#'We can read Tamil well.'
+
+##4-6 Case
+#Source: b:24
+#Vetted: s
+#Judgment: g
+#Phenomena: case
+#aathi yang sajja hatthu oorang nang boleambel
+#aathi=yang sajja hatthu oorang=nang bole=ambel
+#liver=ACC only one man=DAT can-take
+#'Only one person can take the liver.'
+
+#4-7 Case
+Source: b:24
+Vetted: s
+Judgment: g
+Phenomena: case
+Sedang Farook nang bolepuukul
+See=nang Farook=nang bole-puukul
+1S=DAT Farook=DAT can-hit
+'I can hit Farook.'
+
+#5-1 Tenses
+Source: a:272
+Vetted: s
+Judgment: g
+Phenomena: Tense Aspect Mood
+Kumpulan sumampus
+Kumpulan su-mampus
+association PAST-dead
+'The association became defunct.'
+
+#5-2 Tenses
+Source: a:271
+Vetted: s
+Judgment: g
+Phenomena: Tense Aspect Mood
+Umma sumnniiňğgal
+Umma su-mnniiňğgal
+mother PAST-die
+'My mother also died.'
+
+#5-3 Tenses
+Source: a:178
+Vetted: s
+Judgment: g
+Phenomena: Tense Aspect Mood
+Singapore anàpeegang
+Singapore anà-peegang
+SIngapore PAST-catch
+'They captured Singapore.'
+
+#6-1 Negation
+Source: a:167
+Vetted: s
+Judgment: g
+Phenomena: Negation
+Iceland ka mlaayu thamaaada
+Iceland=ka mlaayu thama-aada
+Iceland=LOC Malay NEG.IRR-exist
+'There will never be Malays in Iceland.'
+
+#6-2 Negation
+Source: a:167
+Vetted: s
+Judgment: g
+Phenomena: Negation
+Iceland ka mlaayu thàràaada
+Iceland=ka mlaayu thàrà-aada
+Iceland=LOC Malay NEG.IRR-exist
+'There will never be Malays in Iceland.'
+
+#6-3 Negation Ungrammatical
+Source: a:167
+Vetted: s
+Judgment: u
+Phenomena: Negation
+Iceland ka mlaayu aada thraa
+Iceland=ka mlaayu aada thraa
+Iceland=LOC Malay exist NEG
+'There will never be Malays in Iceland.'
+
+#6-4 Negation
+Source: a:170
+Vetted: s
+Judgment: g
+Phenomena: Negation
+See suuka thraa
+See suuka thraa 
+1s like NEG
+'I don't like (it)'.
+
+#6-5 Negation Ungrammatical
+Source: a:170
+Vetted: s
+Judgment: u
+Phenomena: Negation
+See suuka thàrà
+See suuka thàrà
+1s like NEG
+'I don't like (it)'.
+
+#6-6 Negation
+Source: a:255
+Vetted: s
+Judgment: g
+Phenomena: Negation
+Bìrras thraa
+Bìrras thraa
+raw.rice NEG
+'There is no rice.'
+
+#6-7 Negation Ungrammatical
+Source: a:255
+Vetted: s
+Judgment: u
+Phenomena: Negation
+Bìrras thama
+Bìrras thama
+raw.rice NEG
+'There is no rice.
+
+#6-8 Negation
+Source: a:213
+Vetted: s
+Judgment: g
+Phenomena: Negation
+Aanak thàràthiiňğgi
+Aanak thàrà-thiiňğgi
+child NEG.NONPAST-big
+'The child did not grow tall.' 
+
+#6-9 Negation
+Source: a:213
+Vetted: s
+Judgment: g
+Phenomena: Negation
+Aanak thamathiiňğgi
+Aanak thama-thiiňğgi
+child NEG.NONPAST-big
+'The child will never be tall.' 
+
+#6-10 Negation
+Source: a:213
+Vetted: s
+Judgment: g
+Phenomena: Negation
+Aanak thiiňğgi thraa
+Aanak thiiňğgi thraa
+child big NEG
+'The child is not tall.' 
+
+#6-11 Negation
+Source: a:250
+Vetted: s
+Judgment: g
+Phenomena: Negation
+Bannyak màbiilang thàrboole
+Bannyak mà-biilang thàrboole
+much INF-say cannot
+'(I) can't tell you much.'
+
+#6-13 Negation Ungrammatical
+Source: a:250
+Vetted: s
+Judgment: u
+Phenomena: Negation
+Bannyak màbiilang thamaboole
+Bannyak mà-biilang thamaboole
+much INF-say cannot
+'(I) can't tell you much.'
+
+#7-1 Demonstratives/Definiteness
+Source: a:420
+Vetted: s
+Judgment: g
+Phenomena: Determiners
+See avuliya atthu sujaadi
+See avuliya atthu su-jaadi
+1s saint INDEF PAST-become
+'I have become a saint.'
+
+#7-2 Demonstratives/Definiteness
+Source: a:422
+Vetted: s
+Judgment: g
+Phenomena: Determiners
+Ini maccan subaavung kiyang
+Ini maccan su-baavung kiyang
+PROX tiger PAST-rise EVID
+'The tiger apparently got up.'
+
+#7-3 Demonstratives/Definiteness Ungrammatical
+Source: a:422
+Vetted: s
+Judgment: u
+Phenomena: Determiners
+Maccan ini subaavung kiyang
+Maccan ini su-baavung kiyang
+PROX tiger PAST-rise EVID
+'The tiger apparently got up.'
+
+#7-4 Demonstratives/Definiteness
+Source: a:422
+Vetted: s
+Judgment: g
+Phenomena: Determiners
+Itthu jaalang ka màpii thàràboole
+Itthu jaalang=ka ma-pii tharaboole
+DIST road=loc INF-go cannot
+'You could not take that road.'
+
+#7-5 Demonstratives/Definiteness Ungrammatical
+Source: a:422
+Vetted: s
+Judgment: u
+Phenomena: Determiners
+Jaalang ka itthu màpii thàràboole
+Jaalang=ka itthu mà-pii thàràboole
+road=loc DIST INF-go cannot
+'You could not take that road.'
+
+#7-6 Demonstratives/Definiteness
+Source: b:10
+Vetted: s
+Judgment: g
+Phenomena: Determiners
+Itthu atthu story atthu
+Itthu atthu=story=atthu
+DIST INDEF=story=INDEF
+'This is a story.'
+
+#7-7 Demonstratives/Definiteness
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Determiners
+Itthu hatthu kavanan laayeng
+Itthu hathu=kavanan laayeng
+DIST INDEF=group different
+'That is a different group.'
+
+#7-8 Demonstratives/Definiteness Ungrammatical
+Source: c
+Vetted: s
+Judgment: u
+Phenomena: Determiners
+Hatthu kavanan itthu laayeng
+Hatthu=kavanan itthu laayeng
+INDEF=group DIST different
+'That is a different group.'
+
+#8-1 Argument Optionality, dropping of an agent
+Source: a:498
+Vetted: s
+Judgment: g
+Phenomena: Argument Optionality
+Itthu nang blaakang, dee yang supeegang siini Seelong ka
+Itthu=nang blaakang, dee=yang su-peegang siini Seelong=ka
+DIST=DAT after 3s.IMPOLITE=ACC PAST-catch here Ceylon=LOC
+'After that (they) caught him here in Ceylon.'
+
+#8-2 Argument Optionality, dropping of patient or theme
+Source: a:498
+Vetted: s
+Judgment: g
+Phenomena: Argument Optionality
+seppe umma baapa seppe maama pe ruuma nang sukiiring
+se=ppe umma-baapa se=ppe maama=pe ruuma=nang su-kiiring
+1s=POSS mother-father 1s=POSS uncle=POSS house=DAT PAST-send
+'my parents sent me to my uncle's house.'
+
+#9-1 Matrix yes-no question
+Source: a:512
+Vetted: s
+Judgment: g
+Phenomena: Matrix yes-no questions
+Seppe uumur masàbiilan si?
+Se=pe uumur masà-biilan=si?
+1=poss age must-tell=interr
+‘(Do I) have to tell my age?’
+
+#9-2 Matrix yes-no question Ungrammatical
+Source: a:512
+Vetted: s
+Judgment: g
+Phenomena: Matrix yes-no questions
+Seppe uumur si masàbiilan?
+Se=pe uumur=si masà-biilan?
+1=poss age=interr must-tell
+‘(Do I) have my age told?’
+
+#9-3 Matrix yes-no question
+Source: a:512
+Vetted: s
+Judgment: g
+Phenomena: Matrix yes-no questions
+Lorang nang see yang ingathan si?
+Lorang=nang see=yang ingath-an=si?
+2pl=dat 1s=acc think-nmlzr=interr
+‘Do you have thoughts on me/are you thinking of me?’
+
+#9-4 Matrix yes-no question Ungrammatical
+Source: a:512
+Vetted: s
+Judgment: g
+Phenomena: Matrix yes-no questions
+Lorang nang see yang si ingathan?
+Lorang=nang see=yang=si ingath-an?
+2pl=dat 1s=acc=interr think-nmlzr
+‘Is it me in your thoughts/is it me that you are thinking of?’
+
+#9-5 Matrix yes-no question
+Source: b:20
+Vetted: s
+Judgment: g
+Phenomena: Matrix yes-no questions
+maaňğga si maau?
+maaňğga=si maau?
+mango=interr want
+‘Is it mango that you want?’
+
+#9-6 Matrix yes-no question
+Source: b:20
+Vetted: s
+Judgment: g
+Phenomena: Matrix yes-no questions
+maaňğga maau si?
+maaňğga maau=si?
+mango want=interr
+‘Do you want the mango?’
+
+#10-1 Coordination - Argument coordination marked with le
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Derang karang aràblaajar cinggala le English le
+Derang karang arà-blaajar cinggala=le English=le
+3pl now non.past-learn Sinhala=addit English=addit
+'They study in Sinhala and English now.'
+
+#10-2 Coordination - Argument coordination marked with le Ungrammatical
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Derang karang aràblaajar cinggala English
+Derang karang arà-blaajar cinggala English
+3pl now non.past-learn Sinhala English
+'They study in Sinhala English now.'
+
+#10-3 Coordination - Argument coordination marked with le Ungrammatical
+Source: c
+Vetted: s
+Judgment: u
+Phenomena: Coordination
+Derang karang aràblaajar cinggala le English
+Derang karang arà-blaajar cinggala=le English
+3pl now non.past-learn Sinhala=addit English
+'They study in English and Sinhala now.'
+
+#10-4 Coordination - Clause coordination marked with le
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Luppe muuluth ka le paasir, seppe muuluth ka le paasir
+Lu=ppe muuluth=ka=le paasir, se=ppe muuluth=ka=le paasir
+2s.familiar=poss mouth=loc=addit sand 1s=poss mouth=loc=addit sand
+'There is sand in your mouth and there is sand in my mouth.'
+
+#10-5 Coordination - Clause coordination marked with le
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Luppe muuluth ka paasir, seppe muuluth ka paasir
+Lu=ppe muuluth=ka paasir, se=ppe muuluth=ka paasir
+2s.familiar=poss mouth=loc sand 1s=poss mouth=loc sand
+'There is sand in your mouth there is sand in my mouth.'
+
+#10-6 Coordination - Clause coordination marked with le
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Luppe muuluth ka paasir, seppe muuluth ka le paasir
+Lu=ppe muuluth=ka paasir, se=ppe muuluth=ka=le paasir
+2s.familiar=poss mouth=loc sand 1s=poss mouth=loc=addit sand
+'There is sand in your mouth and there is sand in my mouth.'
+
+#10-7 Coordination - Clause coordination marked with le
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Snow-white nang le Rose-red nang le ini hatthu ke thàràmirthi.
+Snow_white=nang=le Rose_red=nang=le ini hatthu=ke thàrà-mirthi.
+Snow_white=dat=addit Rose_Red=dat=addit prox indef=simil neg.past-understand
+'Snow White and Rose Red did not understand a thing.'
+
+#10-8 Coordination - Unmarked coordination
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+British government Malaysia Indonesia Singapore anàpeegang ambel.
+British government Malaysia Indonesia Singapore anà-peegang ambel.
+British government Malaysia Indonesia Singapore past-catch take
+'The British government captured Malaysia, Indonesia, Singapore.'
+
+#10-9 Coordination - Unmarked coordination Ungrammatical
+Source: c
+Vetted: s
+Judgment: u
+Phenomena: Coordination
+British government Malaysia le Indonesia Singapore anàpeegang ambel.
+British government Malaysia=le Indonesia Singapore anà-peegang ambel.
+British government Malaysia=addit Indonesia Singapore past-catch take
+'The British government captured and Malaysia, Indonesia, Singapore.'
+
+#10-10 Coordination - Unmarked coordination Ungrammatical
+#Source: c
+#Vetted: s
+#Judgment: u
+#Phenomena: Coordination
+#British government Malaysia le Indonesia Singapore le anàpeegang ambel.
+#British government Malaysia=le Indonesia Singapore=le anà-peegang ambel.
+#British government Malaysia=addit Indonesia Singapore=addit past-catch take
+#'The British government captured and Malaysia and Indonesia, Singapore.'
+
+#10-11 Coordination - Unmarked coordination
+#Source: c
+#Vetted: s
+#Judgment: g
+#Phenomena: Coordination
+#British government Malaysia le Indonesia le Singapore le anàpeegang ambel.
+#British government Malaysia=le Indonesia=le Singapore=le anà-peegang ambel.
+#British government Malaysia=addit Indonesia=addit Singapore=addit past-catch take
+#'The British government captured and Malaysiacin and Indonesia and Singapore.'
+
+#10-12 Coordination - Unmarked coordination
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Cinggala aada Moor aada mulbar aada.
+Cinggala aada Moor aada mulbar aada.
+Sinhala exist Moor exist Tamil exist
+'There are Sinhalese, there are Moors, there are Hindus.'
+
+#10-13 Coordination - Unmarked coordination
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Cinggala aada le mulbar aada le.
+Cinggala aada=le mulbar aada=le.
+Sinhala exist=addit Tamil exist=addit
+'And there are Sinhalese and there are Hindus.'
+
+#10-14 Coordination - Unmarked coordination
+#Source: c
+#Vetted: s
+#Judgment: g
+#Phenomena: Coordination
+#Cinggala le aada mlaayu le aada Moor le aada mulbar le aada.
+#Cinggala=le aada mlaayu=le aada Moor=le aada mulbar=le aada.
+#Sinhala=addit exist Malay=addit exist Moor=addit exist Tamil=addit exist
+#'There are and Sinhalese there are and Malays, there are and Moors, there are and Hindus.'
+
+#10-15 Coordination - Unmarked coordination
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Cinggala aada mlaayu aada le.
+Cinggala aada mlaayu aada=le.
+Sinhala exist Malay exist=addit.
+'There are Sinhalese and there are Malays.'
+
+#10-16 Coordination - Unmarked coordination
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Mulbar laayeng cinggala laayeng Moor laayeng mlaayu laayeng sraani pada laayeng.
+Mulbar laayeng cinggala laayeng Moor laayeng mlaayu laayeng sraani pada laayeng.
+Tamil different Sinhala different Moor different Malay different burgher pl different
+'Hindus, Sinhalese, Moors, Malays, Burghers, all are different.'
+
+#10-17 Coordination - Unmarked coordination
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Kaaki thaangan kuvathan thraada.
+Kaaki thaangan kuvathan thraada.
+foot hand strong.nmlzr neg.exist
+'You have no strength in your arms or legs.'
+
+#10-18 Coordination - Unmarked coordination
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Kaaki le thaangan le kuvathan thraada.
+Kaaki=le thaangan=le kuvathan thraada.
+foot=addit hand=addit strong.nmlzr neg.exist
+'You have no strength in your arms and legs.'
+
+#10-19 Coordination - Unmarked coordination
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Kithang nang baaye nang mulbar bolebaaca bolethuulis.
+Kithang=nang baaye=nang mulbar bole=baaca bole=thuulis.
+1pl=dat good=dat Tamil can=read can=write
+'We can read and write Tamil well.'
+
+#10-20 Coordination - Unmarked coordination
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Coordination
+Kithang nang baaye nang mulbar bolebaaca le bolethuulis le.
+Kithang=nang baaye=nang mulbar bole=baaca=le bole=thuulis=le.
+1pl=dat good=dat Tamil can=read=addit can=write=addit
+'We can read and write Tamil well.'
+
+#11-1 Attributive Adjectives - without Indefiniteness marker
+Source: a:212
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+incayang bìssar
+incayang bìssar
+3s.polite big
+‘He is big.’
+
+#11-2 Attributive Adjectives - without Indefiniteness marker Ungrammatical
+Source: a:212
+Vetted: s
+Judgment: u
+Phenomena: Adjectives
+bìssar incayang
+bìssar incayang
+big 3s.polite
+‘Big he is.’
+
+#11-3 Attributive Adjectives
+Source: a:198
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+Incayang pullang aràoomong.
+Incayang pullang arà-oomong.
+3s.polite slow.dat non.past-speak
+‘He speaks softly.’
+
+#11-4 Attributive Adjectives
+Source: a:198
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+Incayang aràoomong pullang.
+Incayang arà-oomong pullang.
+3s.polite non.past-speak slow.dat
+‘He softly speaks.’
+
+#11-5 Attributive Adjectives
+Source: a:198
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+pullang incayang aràoomong.
+pullang incayang arà-oomong.
+slow.dat 3s.polite non.past-speak
+‘Speak he softly.’
+
+#11-6 Attributive Adjectives Ungrammatical
+Source: a:198
+Vetted: s
+Judgment: u
+Phenomena: Adjectives
+aràoomong incayang pullang.
+arà-oomong incayang pullang.
+non.past-speak 3s.polite slow.dat
+‘Softly he speaks.’
+
+#11-7 Attributive Adjectives - with Indefiniteness marker
+Source: a:212
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+Incayang hatthu iitham
+Incayang hatthu iitham
+3s.polite indef black
+‘He is a dark person.’
+
+#11-8 Attributive Adjectives - with Indefiniteness marker Ungrammatical
+Source: a:212
+Vetted: s
+Judgment: u
+Phenomena: Adjectives
+Incayang iitham hatthu 
+Incayang iitham hatthu
+3s.polite black indef
+‘He is a person dark.’
+
+#11-9 Attributive Adjectives - with pre-noun modification
+Source: a:212
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+Bìssar ruuma hatthu aada.
+Bìssar ruuma hatthu aada.
+big house indef exist.
+‘There is a big house.’
+
+#11-10 Attributive Adjectives - with post-noun modification Ungrammatical
+Source: a:212
+Vetted: s
+Judgment: u
+Phenomena: Adjectives
+ruuma bìssar hatthu aada.
+ruuma bìssar hatthu aada.
+house big indef exist.
+‘There is a house big.’
+
+#11-11 Attributive Adjectives - modifying verbal predications without the dative marker=nang
+Source: a:213
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+Baae arànyaanyi.
+Baae arà-nyaanyi.
+good non.past-sing.
+‘He sings well.’
+
+#11-12 Attributive Adjectives - modifying verbal predications without the dative marker=nang
+Source: a:213
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+arànyaanyi baae.
+arà-nyaanyi Baae
+non.past-sing good 
+‘He well sings.’
+
+#11-13 Attributive Adjectives - negated with thraa
+Source: a:213
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+Seppe aanak iitham thraa.
+Se=ppe aanak iitham thraa.
+1s=poss child black NEG
+‘My child is not black.’
+
+#11-14 Attributive Adjectives - negated with thraa
+Source: a:213
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+Seppe iitham aanak thraa.
+Se=ppe iitham aanak thraa.
+1s=poss black child NEG
+‘My black child is not here (but my white child is).’
+
+#11-15 Attributive Adjectives - negated with thàrà
+Source: a:213
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+Sedang thàràsìggar.
+See=nang thàrà-sìggar.
+1s=dat neg-healthy
+‘I am/was not healthy.’
+
+#11-16 Attributive Adjectives - negated with thàrà
+Source: a:213
+Vetted: s
+Judgment: g
+Phenomena: Adjectives
+thàràsìggar sedang
+thàrà-sìggar see=nang.
+neg-healthy 1s=dat 
+‘Not healthy am I.’
+
+#12-1 Adverbs
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Adverbs
+Beeso luusa lubaarang aràdhaathang.
+Beeso luusa lubaarang arà-dhaathang.
+tomorrow some.day.after.tomorrow festival non.past-come.
+'The day after tomorrow is the festival.'
+
+#12-2 Adverbs
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Adverbs
+lubaarang aràdhaathang beeso luusa.
+lubaarang arà-dhaathang beeso luusa  .
+festival non.past-come tomorrow some.day.after.tomorrow  .
+'The festival come the day after tomorrow.'
+
+#12-3 Adverbs
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Adverbs
+lubaarang beeso luusa aràdhaathang.
+lubaarang beeso luusa arà-dhaathang.
+festival tomorrow some.day.after.tomorrow non.past-come.
+'The festival is the day after tomorrow.'
+
+#12-4 Adverbs Ungrammatical
+Source: c
+Vetted: s
+Judgment: u
+Phenomena: Adverbs
+aràdhaathang beeso luusa lubaarang
+arà-dhaathang beeso luusa lubaarang.
+non.past-come tomorrow some.day.after.tomorrow festival.
+'What is coming the day after tomorrow is the festival.'
+
+#12-5 Adverbs
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Adverbs
+Incayang siini dering supii.
+Incayang siini=dering su-pii.
+3s.polite here=abl past-go.
+'He went off from here.'
+
+#12-6 Adverbs
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Adverbs
+Incayang supii siini dering.
+Incayang su-pii siini=dering.
+3s.polite past-go here=abl.
+'He from here went off.'
+
+#12-7 Adverbs
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Adverbs
+siini dering incayang supii.
+siini=dering incayang su-pii.
+here=abl 3s.polite past-go.
+'From here he went off.'
+
+#12-8 Adverbs
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Adverbs
+Derang pada sgiithu braani   
+Derang pada sgiithu braani   
+3pl pl that.much strong   
+'They were so strong.'
+
+#12-9 Adverbs Ungrammatical
+Source: c
+Vetted: s
+Judgment: u
+Phenomena: Adverbs
+Derang pada braani sgiithu
+Derang pada braani sgiithu
+3pl pl strong that.much
+'They were strong much.'
+
+#12-10 Adverbs
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Adverbs
+sgiithu derang pada braani   
+sgiithu derang pada braani   
+that.much 3pl pl strong   
+'So much they were strong.'
+
+#13-1 Embedded Clauses
+Source: a:535
+Vetted: s
+Judgment: g
+Phenomena: Embedded Questions
+Suda ini moonyeth pada aapa thaau si anàgijja
+Suda ini moonyeth pada aapa thaau=si anà-gijja
+so prox monkey pl what know=interr past-do!
+‘Do you know what these monkeys then did!?’
+
+#13-2 Embedded Clauses Ungrammatical
+Source: a:535
+Vetted: s
+Judgment: u
+Phenomena: Embedded Questions
+suda aapa thaau si ini moonyeth pada anàgijja
+suda aapa thaau=si ini moonyeth pada anà-gijja
+so what know=interr prox monkey pl past-do!
+‘What these monkeys then did, do you know!?’
+
+#13-3 Embedded Clauses
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: Embedded Clauses
+lorang aràthiidor katha see aràcaanya
+lorang arà-thiidor katha see arà-caanya
+2pl non.past-sleep quot 1st non.past-ask
+I ask whether you sleep
+
+#13-4 Embedded Clauses
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: Embedded Clauses
+katha lorang aràthiidor see aràcaanya
+katha lorang arà-thiidor see arà-caanya
+quot 2pl non.past-sleep 1st non.past-ask
+whether I ask you sleep 
+
+#13-5 Embedded Clauses
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: Embedded Clauses
+lorang aràmiinong katha see thaau
+lorang arà-miinong katha see thaau
+2pl non.past-drink quot 1st know
+I know that you drink
+
+#13-6 Embedded Clauses
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: Embedded Clauses
+lorang aràmiinong see thaau katha
+lorang arà-miinong see thaau katha
+2pl non.past-drink 1st know quot
+I know you drink that
+
+#13-7 Embedded Clauses
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: Embedded Clauses
+Lorang nang braani katha see aràiingath
+Lorang=nang braani katha see arà-iingath
+2pl=dat strong quot 1st non.past-think
+I think that you are strong
+ 
+#13-8 Embedded Clauses
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: Embedded Clauses
+Lorang nang katha braani see aràiingath
+Lorang=nang katha braani see arà-iingath
+2pl=dat quot strong 1st non.past-think
+I think you are that strong
+
+#13-9 Embedded Clauses
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: Embedded Clauses
+Lorang nang braani see katha aràiingath
+Lorang=nang braani see katha arà-iingath
+2pl=dat strong 1st quot non.past-think
+I that think you are strong
+
+#14-1 Non-Verbal Predicates
+Source: a:510
+Vetted: s
+Judgment: g
+Phenomena: Non-Verbal Predicates
+Seppe baapa dhaathangapa Jinaan-Samath.
+Se=ppe baapa dhaathangapa Jinaan Samath.
+1s=poss father copula Jinaan Samath
+‘My father was Jinaan Samath.’
+
+#14-2 Non-Verbal Predicates Ungrammatical
+Source: a:510
+Vetted: s
+Judgment: u
+Phenomena: Non-Verbal Predicates
+dhaathangapa Seppe baapa Jinaan-Samath.
+dhaathangapa Se=ppe baapa Jinaan Samath.
+copula 1s=poss father Jinaan Samath
+‘Was my father Jinaan Samath.’
+
+#14-3 Non-Verbal Predicates Ungrammatical
+Source: a:510
+Vetted: s
+Judgment: u
+Phenomena: Non-Verbal Predicates
+Seppe baapa Jinaan-Samath dhaathangapa.
+Se=ppe baapa Jinaan Samath dhaathangapa.
+1s=poss father Jinaan Samath copula.
+‘My father Jinaan Samath was.’
+
+#14-4 Non-Verbal Predicates
+Source: a:510
+Vetted: s
+Judgment: g
+Phenomena: Non-Verbal Predicates
+Umma pe baapa dhaathangapa hatthu inspector
+Umma=pe baapa dhaathangapa hatthu inspector
+mother=poss father copula indef inspector
+‘My mother’s father was an inspector.'
+
+#14-5 Non-Verbal Predicates Ungrammatical
+Source: a:510
+Vetted: s
+Judgment: u
+Phenomena: Non-Verbal Predicates
+dhaathangapa umma pe baapa hatthu inspector
+dhaathangapa umma=pe baapa hatthu inspector
+copula mother=poss father indef inspector
+‘Was my mother’s father an inspector.'
+
+#14-6 Non-Verbal Predicates Ungrammatical
+Source: a:510
+Vetted: s
+Judgment: u
+Phenomena: Non-Verbal Predicates
+umma pe baapa hatthu inspector dhaathangapa
+umma=pe baapa hatthu inspector dhaathangapa
+mother=poss father indef inspector copula
+‘My mother’s father an inspector was.'
+
+#14-7 Non-Verbal Predicates
+Source: a:511
+Vetted: s
+Judgment: g
+Phenomena: Non-Verbal Predicates
+Seppe kaake asàdhaathang officer
+Se=ppe kaake asàdhaathang officer
+1s=poss grandfather copula officer.
+‘My grandfather was the officer.’
+
+#14-8 Non-Verbal Predicates Ungrammtical
+Source: a:511
+Vetted: s
+Judgment: u
+Phenomena: Non-Verbal Predicates
+asàdhaathang seppe kaake officer
+asàdhaathang se=ppe kaake officer
+copula 1s=poss grandfather officer.
+‘Was my grandfather the officer.’
+
+#14-9 Non-Verbal Predicates Ungrammtical
+Source: a:511
+Vetted: s
+Judgment: u
+Phenomena: Non-Verbal Predicates
+seppe kaake officer asàdhaathang 
+se=ppe kaake officer asàdhaathang 
+1s=poss grandfather officer copula
+‘My grandfather the officer was.’
+
+#14-10 Non-Verbal Predicates
+Source: a:512
+Vetted: s
+Judgment: g
+Phenomena: Non-Verbal Predicates
+asàdhaathangapa incayang army captain.
+asàdhaathangapa incayang army captain.
+copula 3s.polite army captain
+‘He was an army captain.’
+
+#14-11 Non-Verbal Predicates Ungrammatical
+Source: a:512
+Vetted: s
+Judgment: u
+Phenomena: Non-Verbal Predicates
+incayang army captain asàdhaathangapa 
+incayang army captain asàdhaathangapa 
+3s.polite army captain copula
+‘An army captain he was.’
+
+#15-1 Information Structure - emphatic=jo
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Information Structure
+Itthu kumpulandang derang jo bannyak aràbanthu.   
+Itthu kumpulan=dang derang=jo bannyak arà-banthu.   
+dist  association=dat  3pl=emph  much non.past-help   
+'THEY helped the association a lot.'
+
+#15-4 Information Structure - emphatic=jo
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Information Structure
+Kaaya oorang monied people dering jo aràcuuri.  
+Kaaya oorang monied people=dering=jo arà-cuuri.   
+rich man monied people=abl=emph non.past-steal   
+'He steals from THE RICH.'
+
+#15-8 Information Structure - emphatic=jo
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Information Structure
+Seelon ka bìssar jo pohong.
+Seelon=ka bìssar=jo pohong.
+Ceylon=loc big=emph tree
+'The BIGGEST tree in Ceylon.' 
+
+#15-11 Information Structure - emphatic=jo
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Information Structure
+Cricket aràmaayeng samma jo kithang.   
+Cricket arà-maayeng samma=jo kithang.   
+cricket non.past-play every=emph 1pl   
+'EVERYbody played cricket.' 
+
+#15-15 Information Structure - emphatic=jo
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Information Structure
+Hatthu komplok bannyak jo puuthi caaya.  
+Hatthu komplok bannyak=jo puuthi caaya.   
+one bush very=emph white colour   
+'One bush was VERY, VERY white.' 
+
+#15-18 Information Structure - emphatic=jo
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: Information Structure
+Hatthu lancar jo English.   
+Hatthu lancar=jo English.   
+one subject=emph English   
+'Only one SUBJECT was taught in English.' 
+
+#16-1 Modals
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Modals
+sedang kaaca bolemaakang
+see=nang kaaca bole=maakang
+1st=dat glass can=eat
+'I can eat glass.'
+
+#16-2 Modals
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Modals
+sedang kaaca màmaakang boole
+see=nang kaaca mà-maakang boole
+1st=dat glass INF-eat can
+'I can eat glass.'
+
+#16-3 Negation
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Negation
+Ini sedang saakith thraa
+Ini see=nang saakith thraa
+prox 1s=dat hurt neg
+'I do not experience pain.'

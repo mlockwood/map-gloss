@@ -1,0 +1,10 @@
+note: iso639-3 'nan' maps to four wals languages:
+
+Taiwanese (taq)
+Chaozhou (chz)
+Hokkien (hok)
+Xiamen (xia)
+
+feature-no;feature-name;value;ref
+---------------------------------
+no case related feature found for any of the four, however

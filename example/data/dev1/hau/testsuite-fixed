@@ -1,0 +1,412 @@
+Language: Hausa
+Language code: HAU
+Tiers: orth orth-seg gloss translat
+Author: Kelsey Hutchins
+Date: January 21, 2007
+Source a: Newman, Paul.  The Hausa Language An Encyclopedic Reference Grammar. New Haven:Yale University Press, 2000.
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {Case, Coordination}
+nii dà yarò mun jee kàasuwaa
+nii dà yarò mun jee kàasuwaa
+1sg.indep and boy 1pl.COMP go market
+'I and the boy went to market.'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Case, Coordination}
+ni dà yarò mun jee kàasuwaa
+ni dà yarò mun jee kàasuwaa
+1sg.dobj and boy 1pl.COMP go market
+'I and the boy went to market.'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Case, Coordination}
+minì dà yarò mun jee kàasuwaa
+minì dà yarò mun jee kàasuwaa
+1sg.iobj and boy 1pl.COMP go market
+'I and the boy went to market.'
+
+Source: {a:478}
+Vetted: s
+Judgement: g
+Phenomena: {Case}
+mun kar.àncee su
+mun kar-àncee su
+1s.COMP read-all 3pl.dobj
+'we read them (all)'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Case}
+mun kar.àncee suu
+mun kar-àncee suu
+1s.COMP read-all 3pl.indep
+'we read them (all)'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Case}
+mun kar.àncee musù
+mun kar-àncee musù
+1s.COMP read-all 3pl.iobj
+'we read them (all)'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {Case, Coordination}
+shii dà d'àalìbai sun fad'àa matà ita
+shii dà d'àalìbai sun fad'àa matà ita
+3m.indep and students 3p.COMP tell 3f.iobj 3f.indep
+'he and the students told it(f.) to her'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Case, Coordination}
+shi dà d'àalìbai sun fad'àa matà ita
+shi dà d'àalìbai sun fad'àa matà ita
+3m.dobj and students 3p.COMP tell 3f.iobj 3f.indep
+'he and the students told it(f.) to her'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Case, Coordination}
+masà dà d'àalìbai sun fad'àa matà ita
+masà dà d'àalìbai sun fad'àa matà ita
+3m.iobj and students 3p.COMP tell 3f.iobj 3f.indep
+'he and the students told it(f.) to her'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Case, Coordination}
+shii dà d'àalìbai sun fad'àa ta ita
+shii dà d'àalìbai sun fad'àa ta ita
+3m.indep and students 3p.COMP tell 3f.dobj 3f.indep
+'he and the students told it(f.) to her'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Case, Coordination}
+shii dà d'àalìbai sun fad'àa matà ta
+shii dà d'àalìbai sun fad'àa matà ta
+3m.indep and students 3p.COMP tell 3f.iobj 3f.dobj
+'he and the students told it(f.) to her'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Case, Coordination}
+shii dà d'àalìbai sun fad'àa matà matà
+shii dà d'àalìbai sun fad'àa matà matà
+3m.indep and students 3p.COMP tell 3f.iobj 3f.iobj
+'he and the students told it(f.) to her'
+
+Source: a
+Vetted: s
+Judgement: g
+Phenomena: {Agreement}
+d'àalìbai sun fad'àa wà maalàminsù làabaar.ìi 
+d'àalìbai sun fad'àa wà maalàminsù làabaar.ìi 
+students 3p.COMP tell (to) teacher news 
+'the students told the teacher the news'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Agreement}
+d'àalìbai taa fad'àa wà maalàminsù làabaar.ìi 
+d'àalìbai taa fad'àa wà maalàminsù làabaar.ìi 
+students 3f.COMP tell (to) teacher news 
+'the students told the teacher the news'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Agreement}
+d'àalìbai mun fad'àa wà maalàminsù làabaar.ìi 
+d'àalìbai mun fad'àa wà maalàminsù làabaar.ìi 
+students 1p.COMP tell (to) teacher news 
+'the students told the teacher the news'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {Agreement}
+yaaròo k'àramii ya sàyaa farar. mootàa 
+yaaròo k'àram-ii ya sàyaa far-ar. mootàa
+boy small-masc 3m.PRET buy white-fem car
+'a small boy bought a white car.'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {Agreement}
+yaaròo k'àramii ya sàyaa mootàa faraa
+yaaròo k'àram-ii ya sàyaa mootàa far-aa
+boy small-masc 3m.PRET buy car white-fem
+'a small boy bought a white car.'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {Agreement}
+k'àramin yaaròo  ya sàyaa farar. mootàa 
+k'àram-in yaaròo ya sàyaa far-ar. mootàa
+small-masc boy 3m.PRET buy white-fem car
+'a small boy bought a white car.'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Agreement}
+yaaròo k'àramin ya sàyaa farar. mootàa 
+yaaròo k'àram-in ya sàyaa far-ar. mootàa
+boy small-masc 3m.PRET buy white-fem car
+'a small boy bought a white car.'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Agreement}
+yaaròo k'àramii ya sàyaa mootàa farii
+yaaròo k'àram-ii ya sàyaa mootàa far-ii
+boy small-masc 3m.PRET buy car white-masc
+'a small boy bought a white car.'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Agreement}
+yaaròo k'àramaa ya sàyaa mootàa faraa
+yaaròo k'àram-aa ya sàyaa mootàa far-aa
+boy small-fem 3m.PRET buy car white-fem
+'a small boy bought a white car.'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {Agreement}
+wani yaaròn ya sàyaa mootàa faraa
+wani yaarò-n ya sàyaa mootàa far-aa
+some.masc boy-the.masc 3m.PRET buy car white-fem
+'another boy bought a white car.'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Agreement}
+wata yaaròn ya sàyaa mootàa faraa
+wata yaarò-n ya sàyaa mootàa far-aa
+some.fem boy-themasc 3m.PRET buy car white-fem
+'another boy bought a white car.'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Agreement}
+wani yaaròr. ya sàyaa mootàa faraa
+wani yaarò-r. ya sàyaa mootàa far-aa
+some.masc boy-thefem 3m.PRET buy car white-fem
+'another boy bought a white car.'
+
+Source: a
+Vetted: s
+Judgement: g
+Phenomena: {Coordination}
+mun ròokee shì àmmaa yaa k'i
+mun ròokee shì àmmaa yaa k'i
+3p.COMP beg 3m.indep but 3m.COMP refuse
+'we begged him but he refused'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Coordination}
+mun ròokee shì yaa k'i àmmaa
+mun ròokee shì yaa k'i àmmaa
+3p.COMP beg 3m.indep 3m.COMP refuse but
+'we begged him but he refused'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {Coordination}
+ya sàyaa gidaa dà mootàa
+ya sàyaa gidaa dà mootàa
+3m.COMP buy house and car
+'he bought a house and a car'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Coordination}
+ya sàyaa gidaa dà mootàa dà 
+ya sàyaa gidaa dà mootàa dà 
+3m.COMP buy house and car and
+'he bought a house and a car'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Coordination}
+ya sàyaa gidaa mootàa dà 
+ya sàyaa gidaa mootàa dà 
+3m.COMP buy house car and
+'he bought a house and a car'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Coordination}
+ya sàyaa dà gidaa mootàa  
+ya sàyaa dà gidaa mootàa 
+3m.COMP buy and house car
+'he bought a house and a car'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {Coordination}
+ya sàyaa gidaa koo mootàa
+ya sàyaa gidaa koo mootàa
+3m.COMP buy house or car
+'he bought a house or a car'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {Coordination}
+ya sàyaa koo gidaa koo mootàa
+ya sàyaa koo gidaa koo mootàa
+3m.COMP buy or house or car
+'he bought either a house or a car'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Coordination}
+ya sàyaa koo gidaa mootàa
+ya sàyaa koo gidaa mootàa
+3m.COMP buy or house car
+'he bought a house or a car'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {Coordination}
+ya sàyaa gidaa mootàa koo
+ya sàyaa gidaa mootàa koo
+3m.COMP buy house or car
+'he bought either a house or a car'
+
+Source: a
+Vetted: s
+Judgement: g
+Phenomena: {q, neg}
+bà tà zoo bâ
+bà tà zoo bâ
+3f NEG.COMP come NEG
+'did she not come?'
+
+Source: a
+Vetted: s
+Judgement: g
+Phenomena: {q, neg}
+bà tà zoo bâ
+bà tà zoo bâ
+3f NEG.COMP come NEG
+'did she not come?'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {q}
+ka sàyaa mootàa koo?
+ka sàyaa mootàa koo?
+2m.PRET buy car QUEST
+'Did you buy a car?'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {q}
+ka sàyaa koo mootàa?
+ka sàyaa koo mootàa?
+2m.PRET buy QUEST car
+'Did you buy a car?'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {q}
+koo ka sàyaa mootàa?
+koo ka sàyaa mootàa?
+QUEST 2m.PRET buy car
+'Did you buy a car?'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {m}
+yaarinyàa tà iyà dafà miyàa
+yaarinyàa tà iyà dafà miyàa
+girl 3f.SUBJUNCT able cook soup.
+'the girl is able to cook soup.'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {m, neg}
+bà tà iyà dafà miyàa ba
+bà tà iyà dafà miyàa ba
+3f NEG.COMP SUBJUNCT able cook soup.
+'she is not able to cook soup.'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {rel}
+tùulun dà yaarinyàa ta sàyaa taa fashèe
+tùulun dà yaarinyàa ta sàyaa taa fashèe
+waterpot that girl 3f.PRET buy 3f.COMP broke
+'the waterpot that the girl bought, broke'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {rel}
+tùulun dà yaarinyàa taa sàyaa taa fashèe
+tùulun dà yaarinyàa taa sàyaa taa fashèe
+waterpot that girl 3f.COMP buy 3f.COMP broke
+'the waterpot that the girl bought, broke'
+
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {rel}
+mùtûm wândà na ganii yaa ginà gidaa
+mùtûm wândà na ganii yaa ginà gidaa
+man rel.pron.m 1sg.PRET see 3m.COMP build house
+'the man whom I saw built a house.'
+
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {rel}
+mùtûm wândà na ganii yaa ginà gidaa
+mùtûm wândà na ganii yaa ginà gidaa
+man rel.pron.m 1sg.PRET see 3m.COMP build house
+'the man whom I saw built a house.'
+

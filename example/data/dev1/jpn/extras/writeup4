@@ -1,0 +1,518 @@
+Tom Amundsen
+LING 567
+Lab 4
+
+1) Documentation the new or revised choices you made in the customization system, illustrated with examples from your test suite.
+
+My changes to the customization system this week aren't grammar related, but additions to the lexicon. I have added some more nouns: common nouns - 物 (thing), 学正(student), 心(heart), 寺(temple), 涼風(cool breeze). I found the kanji character for the first person pronoun - 我. I also added a couple of verbs: おぼしめし (an honorific transtive verb meaning `to think'), and 参る (to go). I am not so sure about which verb type 参る should go under at the moment. And I still need to add a new conjugation type for honorific verbs to get おぼしめし to work.
+
+The reason why I've added these entries to the lexicon was because I had many new examples in my test suite that required these words. I found most of my examples from references, and wanted to keep them in their original form.
+
+I did make one non-trivial change to the lexicon - the addition of an auxiliary negation verb. I have already described the treatment of sentential negation in Classical Japanese in the last lab, so I will not repeat myself. As already noted, the negation page in the customization system doesn't allow for auxiliary negation, because it is possible to do that separately in the lexicon. So, I added the auxiliary - ず - which is used in the following examples:
+
+# 26 this is an example of proper use of a negation auxiliary verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {neg}
+われ   が  飯     を    たぶ   ず  
+ware  ga  mesi   wo   tabu  zu
+I     NOM rice   ACC  eat   NEG
+`I don't eat rice.'
+
+# 27 this is an example of improper use of a negation auxiliary verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {neg}
+われ    が    飯  を    ず     たぶ    
+ware  ga  mesi   wo   zu    tabu
+I     NOM rice    ACC  NEG   eat-PRESENT
+`I don't eat rice.'
+
+# 28 this is an example of improper use of a negation auxiliary verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {neg}
+ず    われ    が     飯         を      たぶ    
+zu   ware  ga    mesi    wo    tabu
+NEG  I     NOM   rice    ACC    eat-PRESENT
+`I don't eat rice.'
+
+# 29 this is an example of improper use of a negation auxiliary verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {neg}
+われ   が    ず    飯      を     たぶ    
+ware  ga    zu   mesi    wo    tabu
+I     NOM   NEG  rice    ACC   eat-PRESENT
+`I don't eat rice.'
+
+2) Descriptions of any properties of your language illustrated in your test suite but not covered by your starter grammar and/or the customization system.
+
+Most of this week's work was adding examples to my test suite and not providing analysis in the grammar, so I was primarily adding items that do not parse.
+
+_Argument Optionality_
+
+Classical Japanese allows you to drop subjects, objects, and even entire predicates. Because of this, my references mention that a reader must always keep in mind how one might fill these spots based off of context. I have included examples where the subject is missing, and where the object of a verb is missing. 
+
+# 52 this is an example of proper argument dropping (subject)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+うれしから   ず
+ureshikara zu
+happy      NEG
+`(That person) would not be happy.'
+
+# 53 this is an example of proper argument dropping (subject)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+飯       を    たぶ
+mesi     wo   tabu
+rice     ACC  eat-PRESENT
+`(I/you/he/she/it) eat rice.'
+
+# 54 this is an example of proper argument dropping (object)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+われ   が  たぶ
+ware  ga  tabu
+I     NOM eat-PRESENT
+`I eat (rice/sushi/meat/whatever).'
+
+# 55 this is an example of proper argument dropping (object)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+なんじ   が     たぶ
+nanji   ga    tabu
+you     NOM   eat-PRESENT
+`You eat (rice/sushi/meat/whatever).'
+
+_Demonstratives_
+
+Demonstratives in Classical Japanese seem to be handled by using demonstrative pronouns (e.g., こ, それ, かれ, いづれ) with an attributive suffix particle (e.g., の).
+
+I have one grammatical example here, where we have a demonstrative functioning as a determiner. My ungrammatical examples are variations of where to place the demonstrative, and removing the suffix particle (resulting in a demonstrative pronoun).
+
+# 40 this is an example of proper use of a demonstrative
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cogst}
+この        飯      を     われ   が    たぶ
+kono       mesi    wo    ware  ga    eat-PRES
+that-DEM   rice    ACC   I     NOM   eat
+`I eat that rice.'
+
+# 41 this is an example of improper use of a demonstrative (missing suffix)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+こ        飯      を     われ   が    たぶ
+ko       mesi    wo    ware  ga    eat-PRES
+that-DEM   rice    ACC   I     NOM   eat
+`I eat that rice.'
+
+# 42 this is an example of improper use of a demonstrative (wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+飯      を   この       われ   が    たぶ
+mesi    wo  kono      ware  ga    eat-PRES
+rice    ACC that-DEM  I     NOM   eat
+`I eat that rice.'
+
+# 43 this is an example of improper use of a demonstrative (wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+飯    この       を     われ   が    たぶ
+mesi  kono      wo    ware  ga    eat-PRES
+rice  that-DEM  ACC   I     NOM   eat
+`I eat that rice.'
+
+# 44 this is an example of improper use of a demonstrative (wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+飯    を     われ   が   この       たぶ
+mesi  wo    ware  ga   kono      eat-PRES
+rice  ACC   I     NOM  that-DEM  eat
+`I eat that rice.'
+
+# 45 this is an example of improper use of a demonstrative (wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+のこ        飯      を     われ   が    たぶ
+noko       mesi    wo    ware  ga    eat-PRES
+?          rice    ACC   I     NOM   eat
+`I eat that rice.'
+
+_Definiteness_
+
+As far as I can tell, Classical Japanese doesn't have a direct way of indicating definiteness.
+
+_Attributive Adjectives_
+
+In Classical Japanese, there seem to be three types of adjectives: (1) adjectives in the ordinary sense - inflected autonomous words, (2) adjectival verbs, and (3) verbs that have been conjugated into the attributive (rentaikei) form.
+
+Examples:
+
+(1) うれしき    物
+      ureshiki   mono
+      pleasing  things
+      `Pleasing things.'
+
+(2) 静かなる         暁
+    shizuka-naru  akatsuki
+    quiet         dawn
+    'A quiet dawn.'
+
+(3) 死ぬ                  人
+     sinu              hito
+     die-ATTRIBUTIVE   person
+     'One who dies.'
+
+As you have advised, I am only going to look at type (1) adjectives. These adjectives are "inflected autonomous words that describe a condition or an ongoing state." (Shirane, 2005)
+
+# 46 this is an example of an adjective in the NP
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {adj}
+うれしき   物
+ureshiki mono
+pleasing  things
+`Pleasing things.'
+
+# 47 this is an example of an adjective in the NP (wrong order)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+物     うれしき   
+mono    ureshiki
+things  pleasing
+`Pleasing things.'
+
+# 48 this is an example of an adjective separated by other elements
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adj}
+うれしき   物     を    われ   が     みる 
+ureshiki mono   wo    ware  ga    miru
+pleasing things ACC   I     ACC   see
+`I see pleasing things.'
+
+# 49 this is an example of an adjective separated by other elements (wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+物     を    われ   が     みる   うれしき
+mono   wo    ware  ga    miru  ureshiki
+things ACC   I     ACC   see   pleasing
+`I see pleasing things.'
+
+# 50 this is an example of an adjective separated by other elements (wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+物     を    うれしき   われ   が     みる 
+mono   wo   ureshiki  ware  ga    miru
+things ACC  pleasing  I     ACC   see
+`I see pleasing things.'
+
+# 51 this is an example of an adjective separated by other elements (wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+物     を    われ   が   うれしき    みる 
+mono   wo   ware  ga   ureshiki  miru
+things ACC  I     ACC  pleasing  see
+`I see pleasing things.'
+
+_Adverbs_
+
+Adverbs in Japanese are really just adjectives or adjectival verbs that appear in their (inflected) ren'yokei form. The types of adverbs we are looking at, manner adverbs, seem to be handled with the たり and なり adjectival (auxiliary) verbs (yet another source of ambiguity with たり!!). These forms are basically an adjective followed by the auxiliaries たり or なり.
+
+There are adverbial particles, which, "generally indicate quantity, degree, limit or scope. Their primary functions are analogy, restriction, minimal desire, addition, scope, degree, approximation, example, and emphasis." (Shirane, 2005) As these are not `manner adverbs,' I will not analyze these.
+
+# 66 this is an example of an adverb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adv}
+涼風          さつさつ                 たり
+ryofu        satsusatsu              tari
+cool breeze  blow refreshingly-PAST  ADVERB
+`A cool breeze blew refreshingly.'
+
+# 67 this is an example of an adverb (missing auxiliary)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+涼風          さつさつ
+ryofu        satsusatsu
+cool breeze  blow refreshingly-PAST
+`A cool breeze blew refreshingly.'
+
+# 68 this is an example of an adverb (auxiliary in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+涼風          たり    さつさつ            
+ryofu        tari   satsusatsu
+cool breeze  ADVERB blow refreshingly-PAST
+`A cool breeze blew refreshingly.'
+
+# 69 this is an example of an adverb (auxiliary in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+涼風          たり
+ryofu        tari
+cool breeze  ADVERB
+`A cool breeze blew refreshingly.'
+
+_Embedded Clauses_
+
+It was really hard for me to find examples about embedded clauses. I have only found examples of embedded declarative clauses, and they are quite long and involve some pro-dropping. Embedded clauses are indicted with the と particle. This particle is described as being, "used to indicate that the preceding is the content of the action following the verb, such as (to think), (to say), (to hear), or (to do), thus indicating the content of thought, speech, hearing, or action. Often takes the form of a citation, indicating the content of a poem, letter, or message." (Shirane, 2005)
+
+I couldn't find any examples of emedded interrogative clauses. However, I have _another_ source that will arrive sometime very soon that I hope might have one of these. My source I received this week "Classical Japanese Grammar Illustrated With Texts" is not so good, because it doesn't have much English explanations in it. It assumes that the reader fully understands modern Japanese.
+
+The following examples actually use a special honorific verb, おぼしめす, that means "to think."
+
+# 70 this is an example of an embedded clause
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+御前           に        も,    えさ           は       あらじ        と       おぼしめし     たり
+omae          ni        mo    esa           wa       araji        to       oboshimeshi  tari
+Her Highness  LOCATION  ALSO  that long     SUBJECT  cannot last  CLAUSE  think-PAST   RESULTATIVE
+`Even when it came to Her Highness, Her Highness thought, "(the hill of snow) cannot last that long (without melting)."
+
+
+# 71 this is an example of an embedded clause (missing citational particle)
+Source: b
+Vetted: f
+Judgment: u
+Phenomena: {emb-d}
+御前           に        も,    えさ           は       あらじ        おぼしめし     たり
+omae          ni        mo    esa           wa       araji        oboshimeshi  tari
+Her Highness  LOCATION  ALSO  that long     SUBJECT  cannot last  think-PAST   RESULTATIVE
+`Even when it came to Her Highness, Her Highness thought, "(the hill of snow) cannot last that long (without melting)."
+
+_Non-Verbal Predicates_
+
+"なり and たり are copular auxiliary verbs in which the speaker or writer makes an assertion or declaration, usually identifying the subject in an X=Y sentence structure, with Y being a nominal." (Shirane, 2005) While both なり and たり can indicate a declaration, only なり can declare the location of an object. Note that this is another source of ambiguity with たり!
+
+It seems that we can declare things about noun phrases, such as defining their state or location, with a copula. But, adjectives (e.g., "This dog is small") are handled without a copula.
+
+Items 63-65 demonstrate declaration of the location of an object. However, it is not in a form simliar to "The cat is in the park." like you wanted, but the object of the sentence has its location declared. I hope these will be sufficient. If not, I can just keep digging.
+
+# 56 this is an example of a non-verbal predicate (copular NP)
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+我    は       学正      なり
+ware wa       gakusei  nari
+I    SUBJECT  student  COPULA-PRESENT
+`I am a student.'
+
+# 57 this is an example of a non-verbal predicate (copular NP, missing copula)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+我    は       学正
+ware wa       gakusei
+I    SUBJECT  student
+`I am a student.'
+
+# 58 this is an example of a non-verbal predicate (copular NP, copula in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+なり         我    は       学正      
+nari        ware wa       gakusei  
+COPULA-PRESENT  I    SUBJECT  student
+`I am a student.'
+
+# 59 this is an example of a non-verbal predicate (non-copular adjective)
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+心      も   静かなら    ず
+kokoro  mo  shizukara  zu
+heart   ?   quiet      NEG
+`The heart is unsettled.'
+
+# 60 this is an example of a non-verbal predicate (non-copular adjective, copula present when it shouldn't be)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+心      も   静かなら    ず   なり
+kokoro  mo  shizukara  zu  nari
+heart   ?   quiet      NEG COPULA-PRESENT
+`The heart is unsettled.'
+
+# 61 this is an example of a non-verbal predicate (non-copular adjective, copula present when it shouldn't be)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+心      も   静かなら    なり         ず
+kokoro  mo  shizukara  nari        zu
+heart   ?   quiet      COPULA-PRESENT  NEG
+`The heart is unsettled.'
+
+# 62 this is an example of a non-verbal predicate (non-copular adjective, copula present when it shouldn't be)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+心      も   なり             静かなら    ず
+kokoro  mo  nari            shizukara  zu
+heart   ?   COPULA-PRESENT  quiet      NEG
+`The heart is unsettled.'
+
+# 63 this is an example of a non-verbal predicate (locative copular)
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+江戸  なる     寺     に        参り      たり
+Edo  naru   tera   ni        mawiri   tari
+Edo  COPULA temple LOCATION  go-PAST  RESULTATIVE
+`I went to a temple in Edo.'
+
+# 64 this is an example of a non-verbal predicate (locative copular, copula in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+江戸  寺     に        参り      たり
+Edo  tera   ni        mawiri   tari
+Edo  temple LOCATION  go-PAST  RESULTATIVE
+`I went to a temple in Edo.'
+
+# 65 this is an example of a non-verbal predicate (locative copular, copula in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+江戸  寺     に        参り      たり             なる
+Edo  tera   ni        mawiri   tari            naru
+Edo  temple LOCATION  go-PAST  RESULTATIVE  COPULA
+`I went to a temple in Edo.'
+
+3) Documentation the coverage of your grammar over the testsuite.
+
+The amount of ambiguity has been drastically reduced in my grammar. One of my coordination examples used to have 64 readings, now it only has 16. I think this can be attributed to my new verbal inflection morphology updates. I am no longer allowing the base form of verbs to blindly pass straight through lexical rules without any change to morphology. Now, it will inflect it properly, so I won't get 6 copies for each verb, because there are 6 morphemes for each inflection. It should only produce the morphologically correct conjugations. However, I do know that it is wrong in one case. For the verb たべる, I originally only had the inflection change for this one verb. But, its verb class - shimo-nidan - actually has another verb that conjugates in a different way, because it doesn't end with the same character. When I added this additional conjugation, that introduced more ambiguity. Without the additional conjugation, I was getting only 4 readings for the example mentioned before, instead of 16.
+
+In addition, there are several other, particularly my examples of aspect, that have reduced ambiguity. One of my aspect examples used to have 12 readings, now it only has 2. I think this is attributed to the fix to the ASPECT heirarchy that I made this week, which I describe below.
+
+My addition of the negative auxiliary seems to be working properly. My grammatical example has a parse, and my ungrammaticals don't. The MRS looks correct as well.
+
+
+It appears that literally none of my test items I added this week have any readings. This isn't too surprising though, as many involve words that haven't entered the lexicon - adjectives and adverbs. And examples that use words contained in the lexicon are portraying phenomena that haven't been modeled yet.
+
+4) Documentation of any changes you made to your grammar to improve its performance (coverage and accuracy).
+
+_Aspect Changes in Customization System_
+
+In Classical Japanese, り and たり are auxiliary verbs that are ambiguous between resultative and continuative aspect. I have added a new supertype - "resultative_continuative," and allowed these two auxiliaries to both contribute [ASPECT resultative_continuative] to their verbal complements. I also removed all of the predicates for my auxiliaries (besides the negation auxiliary), and just had the auxiliaries require their complement verbs to have TENSE/ASPECT features contributed by the auxiliaries. 
+
+Here are the examples where I use these auxiliaries (also presented in Lab 3):
+
+# 34 this is an example of proper use of aspect (continuative, present)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+われ    が     飯     を     たべ  り         
+ware  ga    mesi    wo    tabe  ri
+I     NOM   rice    ACC    eat  CONTINUATIVE
+`I am eating rice.'
+
+# 35 this is an example of proper use of aspect (continuative, present)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+り           われ   が     飯      を    たべ             
+ri           ware  ga    mesi    wo   tabe
+CONTINUATIVE  I    NOM   rice    ACC   eat
+`I am eating rice.'
+
+# 36 this is an example of proper use of aspect (continuative, present)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+われ   が   り             飯      を     たべ             
+ware  ga   ri            mesi    wo    tabe
+I     NOM  CONTINUATIVE  rice    ACC    eat
+`I am eating rice.'
+
+# 37 this is an example of proper use of aspect (resultative, present)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+われ    が     飯    を     たべ    たり         
+ware  ga    mesi    wo    tabe   tari
+I     NOM   rice    ACC    eat   RESULTATIVE
+`I had been eating rice.'
+
+# 38 this is an example of proper use of aspect (resultative, present)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+たり            われ    が     飯         を     たべ             
+tari          ware  ga    mesi    wo   tabe
+RESULTATIVE   I     NOM   rice    ACC   eat
+`I had been eating rice.'
+
+# 39 this is an example of proper use of aspect (resultative, present)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+われ    が    たり             飯          を     たべ             
+ware  ga   tari           mesi    wo    tabe
+I     NOM  RESULTATIVE    rice    ACC    eat
+`I had been eating rice.'
+
+_Verbal Inflections_
+
+I have modified irules.tdl to allow the verbs of different classes to conjugate for their various forms. I am not using most of these at the moment. In fact, items 1-42 were completely covered already with the minimal entries in irules.tdl I had last week. However, I now have a very wide coverage of inflectional changes. Some verb types allow for verbs of base forms with different endings - e.g., る, ず, く, etc. However, most of my lexical rules only cover one of these changes. When (if) I add more verbal stems to my lexicon, I will have to add more entries to my irules.tdl to cover the conjugations. This will be trivial though, because the conjugation will follow the same pattern, except it will be, for example, endings beginning with the `r' sound instead of the `s' sound. I didn't want to add all possible conjugations right now, because some verb types do not allow certain endings. For example, all irregular verbs only allow one type of ending, so these are actually completely covered. But, the four regular conjugations can potentially allow verbs with different endings, but I don't want to add them until I have found verbs that require them and included them in my testsuite.

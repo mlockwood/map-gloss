@@ -1,0 +1,89 @@
+Bob New
+Ling 567
+Emily Bender
+Lab 4
+February 1, 2008
+
+Questionnaire
+=============
+
+This is a summary of the settings I chose on the grammar customization page.
+
+Language:
+   Mandinka
+Features:
+   none.
+Word Order:
+   SOV.
+   Independent words for determiners.  No.  The o-suffix is attached to either the
+   noun or one of its modifiers.
+Sentential Negation:
+   Adverb.
+   I'm not sure how it is attached.  I am guessing it attaches to the VP.
+   It comes before the verb.
+Coordination:
+   As noted in lab 3 write up, I didn't find any examples of NP coordination
+   with more than two NPs.  The examples I did find are monosyndeton.
+
+   The single example that I found of VP coordination is not well described.
+   I am guessing that 'nyin' is a N-Polysyndeton coordinator.
+Matrix Yes/No Questions:
+   One form attested to is sentence final use of a question word, 'bang'.
+
+Basic Lexicon:
+   Noun 1.  wulu - dog
+   Noun 2.  nankumoo - cat
+   ITV. siinoo - sleep
+   TV. bayindi - chase
+   AUX.  noo - can.
+      For this one, I am only guessing at the syntactic relationship between
+      this aux and the rest of the sentence.
+
+Test Sentences:
+   With this vocabulary, I created two sentences:
+     nankumoo siinoo = cat sleeps
+     nankymoo nankumoo siinoo = cat chases cat
+
+First Parses
+============
+
+I was able to parse 2 different senteces (one in LKB and one from the test suite).
+Both of these sentences were contrived because the grammar does not yet handle
+the -O suffix on nouns.
+
+For example 'nankumoo siinoo' means '(the) cat sleeps'.  The stem form of this noun
+is 'nankumu', although I never found any attested sources that showed this root form.
+The inflected form 'nankumu-oo' is described as having a built in determiner.  However,
+when adjectives or numerals are added to the noun, the -o suffix moves to the last
+word of the NP.
+
+Since I do not yet have a way to distinguish between a bare noun and a noun with the -o
+suffix, I can't really parse a true sentence that includes a noun with the -o suffix.
+
+In the test suite, I added 'wulu siinoo' which means 'dog sleeps'.  Here also, the
+true form would have the -o suffix on the noun 'wuloo'  As far as I can tell, the
+parse for this sentence is correct.
+
+Coverage
+========
+
+As described above, the grammar is not correctly set up to handle the -o suffix on nouns.
+This means that none of the nouns in the sentences will be identified with entries in the
+lexicon.
+
+So for now, I am parsing exactly one sentence by using a 'fake' noun.
+
+It is not clear to me what the overgeneration window is trying to say.  The number in the
+lower right corner (total overall coverage) is 0.0.
+
+Needed Phenomena
+================
+
+As mentioned above, the noun phrases will not parse until the -o suffix is correctly
+handled.  So except for 'fake' nouns, none of the sentences will parse.
+
+Another item that would add a lot of sentences is pronouns.  Many of the sentences have
+pronouns but not common nouns.  So adding pronouns would expand the coverage quite a bit.
+
+
+

@@ -1,0 +1,1276 @@
+<xigt-corpus xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <igt id="igt1" doc-id="lgcol:zul" line-range="1-3" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="1" tag="M">  author vetted: f</item>
+      <item id="r2" line="2" tag="L">  um-ntwana u-zo-dlal-a</item>
+      <item id="r3" line="3" tag="G">  C1-child SC1-FUT(IMM)-play-FV </item>
+      <item id="r4" line="4" tag="T">  'The child will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="1" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="2" tag="L">  um-ntwana u-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="3" tag="G">  C1-child SC1-FUT(IMM)-play-FV </item>
+      <item id="c4" alignment="r4" line="4" tag="T">  'The child will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="1" tag="M">f</item>
+      <item id="n2" alignment="c2" line="2" tag="L">um-ntwana u-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="3" tag="G">C1-child SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="4" tag="T">The child will play</item>
+    </tier>
+  </igt>
+  <igt id="igt2" doc-id="lgcol:zul" line-range="9-11" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="9" tag="M">  author vetted: f</item>
+      <item id="r2" line="10" tag="L">  um-ntwana u-zo-bon-a in-yoka</item>
+      <item id="r3" line="11" tag="G">  C1-child SC1-FUT(IMM)-see-FV C9-snake</item>
+      <item id="r4" line="12" tag="T">  'The child will see the snake'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="9" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="10" tag="L">  um-ntwana u-zo-bon-a in-yoka</item>
+      <item id="c3" alignment="r3" line="11" tag="G">  C1-child SC1-FUT(IMM)-see-FV C9-snake</item>
+      <item id="c4" alignment="r4" line="12" tag="T">  'The child will see the snake'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="9" tag="M">f</item>
+      <item id="n2" alignment="c2" line="10" tag="L">um-ntwana u-zo-bon-a in-yoka</item>
+      <item id="n3" alignment="c3" line="11" tag="G">C1-child SC1-FUT(IMM)-see-FV C9-snake</item>
+      <item id="n4" alignment="c4" line="12" tag="T">The child will see the snake</item>
+    </tier>
+  </igt>
+  <igt id="igt3" doc-id="lgcol:zul" line-range="33-35" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="33" tag="M">  author vetted: f</item>
+      <item id="r2" line="34" tag="L">  mina ngi-zo-gijim-a</item>
+      <item id="r3" line="35" tag="G">  1SG 1SG-FUT(IMM)-run-FV</item>
+      <item id="r4" line="36" tag="T">  'I will run'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="33" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="34" tag="L">  mina ngi-zo-gijim-a</item>
+      <item id="c3" alignment="r3" line="35" tag="G">  1SG 1SG-FUT(IMM)-run-FV</item>
+      <item id="c4" alignment="r4" line="36" tag="T">  'I will run'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="33" tag="M">f</item>
+      <item id="n2" alignment="c2" line="34" tag="L">mina ngi-zo-gijim-a</item>
+      <item id="n3" alignment="c3" line="35" tag="G">1SG 1SG-FUT(IMM)-run-FV</item>
+      <item id="n4" alignment="c4" line="36" tag="T">I will run</item>
+    </tier>
+  </igt>
+  <igt id="igt4" doc-id="lgcol:zul" line-range="37-39" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="37" tag="M">  author vetted: f</item>
+      <item id="r2" line="38" tag="L">  thina si-zo-gijim-a</item>
+      <item id="r3" line="39" tag="G">  1PL 1PL-FUT(IMM)-run-FV</item>
+      <item id="r4" line="40" tag="T">  'We will run'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="37" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="38" tag="L">  thina si-zo-gijim-a</item>
+      <item id="c3" alignment="r3" line="39" tag="G">  1PL 1PL-FUT(IMM)-run-FV</item>
+      <item id="c4" alignment="r4" line="40" tag="T">  'We will run'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="37" tag="M">f</item>
+      <item id="n2" alignment="c2" line="38" tag="L">thina si-zo-gijim-a</item>
+      <item id="n3" alignment="c3" line="39" tag="G">1PL 1PL-FUT(IMM)-run-FV</item>
+      <item id="n4" alignment="c4" line="40" tag="T">We will run</item>
+    </tier>
+  </igt>
+  <igt id="igt5" doc-id="lgcol:zul" line-range="41-43" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="41" tag="M">  author vetted: f</item>
+      <item id="r2" line="42" tag="L">  wena u-zo-gijim-a</item>
+      <item id="r3" line="43" tag="G">  2SG 2SG-FUT(IMM)-run-FV</item>
+      <item id="r4" line="44" tag="T">  'You(sg) will run'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="41" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="42" tag="L">  wena u-zo-gijim-a</item>
+      <item id="c3" alignment="r3" line="43" tag="G">  2SG 2SG-FUT(IMM)-run-FV</item>
+      <item id="c4" alignment="r4" line="44" tag="T">  'You(sg) will run'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="41" tag="M">f</item>
+      <item id="n2" alignment="c2" line="42" tag="L">wena u-zo-gijim-a</item>
+      <item id="n3" alignment="c3" line="43" tag="G">2SG 2SG-FUT(IMM)-run-FV</item>
+      <item id="n4" alignment="c4" line="44" tag="T">You(sg) will run</item>
+    </tier>
+  </igt>
+  <igt id="igt6" doc-id="lgcol:zul" line-range="45-47" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="45" tag="M">  author vetted: f</item>
+      <item id="r2" line="46" tag="L">  nina ni-zo-gijim-a</item>
+      <item id="r3" line="47" tag="G">  2PL 2PL-FUT(IMM)-run-FV</item>
+      <item id="r4" line="48" tag="T">  'You(pl) will run'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="45" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="46" tag="L">  nina ni-zo-gijim-a</item>
+      <item id="c3" alignment="r3" line="47" tag="G">  2PL 2PL-FUT(IMM)-run-FV</item>
+      <item id="c4" alignment="r4" line="48" tag="T">  'You(pl) will run'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="45" tag="M">f</item>
+      <item id="n2" alignment="c2" line="46" tag="L">nina ni-zo-gijim-a</item>
+      <item id="n3" alignment="c3" line="47" tag="G">2PL 2PL-FUT(IMM)-run-FV</item>
+      <item id="n4" alignment="c4" line="48" tag="T">You(pl) will run</item>
+    </tier>
+  </igt>
+  <igt id="igt7" doc-id="lgcol:zul" line-range="49-51" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="49" tag="M">  author vetted: f</item>
+      <item id="r2" line="50" tag="L">  um-ntwana u-zo-shay-a mina</item>
+      <item id="r3" line="51" tag="G">  C1-child SC1-FUT(IMM)-hit-FV 1SG</item>
+      <item id="r4" line="52" tag="T">  'The child will hit me'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="49" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="50" tag="L">  um-ntwana u-zo-shay-a mina</item>
+      <item id="c3" alignment="r3" line="51" tag="G">  C1-child SC1-FUT(IMM)-hit-FV 1SG</item>
+      <item id="c4" alignment="r4" line="52" tag="T">  'The child will hit me'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="49" tag="M">f</item>
+      <item id="n2" alignment="c2" line="50" tag="L">um-ntwana u-zo-shay-a mina</item>
+      <item id="n3" alignment="c3" line="51" tag="G">C1-child SC1-FUT(IMM)-hit-FV 1SG</item>
+      <item id="n4" alignment="c4" line="52" tag="T">The child will hit me</item>
+    </tier>
+  </igt>
+  <igt id="igt8" doc-id="lgcol:zul" line-range="53-55" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="53" tag="M">  author vetted: f</item>
+      <item id="r2" line="54" tag="L">  um-ntwana u-zo-shay-a mina</item>
+      <item id="r3" line="55" tag="G">  C1-child SC1-FUT(IMM)-hit-FV 1PL</item>
+      <item id="r4" line="56" tag="T">  'The child will hit us'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="53" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="54" tag="L">  um-ntwana u-zo-shay-a mina</item>
+      <item id="c3" alignment="r3" line="55" tag="G">  C1-child SC1-FUT(IMM)-hit-FV 1PL</item>
+      <item id="c4" alignment="r4" line="56" tag="T">  'The child will hit us'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="53" tag="M">f</item>
+      <item id="n2" alignment="c2" line="54" tag="L">um-ntwana u-zo-shay-a mina</item>
+      <item id="n3" alignment="c3" line="55" tag="G">C1-child SC1-FUT(IMM)-hit-FV 1PL</item>
+      <item id="n4" alignment="c4" line="56" tag="T">The child will hit us</item>
+    </tier>
+  </igt>
+  <igt id="igt9" doc-id="lgcol:zul" line-range="57-59" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="57" tag="M">  author vetted: f</item>
+      <item id="r2" line="58" tag="L">  in-yoka i-zo-bon-a wena</item>
+      <item id="r3" line="59" tag="G">  C9-snake SC9-FUT(IMM)-see-FV 2SG</item>
+      <item id="r4" line="60" tag="T">  'The snake will see you(sg)'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="57" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="58" tag="L">  in-yoka i-zo-bon-a wena</item>
+      <item id="c3" alignment="r3" line="59" tag="G">  C9-snake SC9-FUT(IMM)-see-FV 2SG</item>
+      <item id="c4" alignment="r4" line="60" tag="T">  'The snake will see you(sg)'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="57" tag="M">f</item>
+      <item id="n2" alignment="c2" line="58" tag="L">in-yoka i-zo-bon-a wena</item>
+      <item id="n3" alignment="c3" line="59" tag="G">C9-snake SC9-FUT(IMM)-see-FV 2SG</item>
+      <item id="n4" alignment="c4" line="60" tag="T">The snake will see you(sg)</item>
+    </tier>
+  </igt>
+  <igt id="igt10" doc-id="lgcol:zul" line-range="61-63" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="61" tag="M">  author vetted: f</item>
+      <item id="r2" line="62" tag="L">  in-yoka i-zo-bon-a nina</item>
+      <item id="r3" line="63" tag="G">  C9-snake SC9-FUT(IMM)-see-FV 2PL</item>
+      <item id="r4" line="64" tag="T">  'The snake will see you(pl)'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="61" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="62" tag="L">  in-yoka i-zo-bon-a nina</item>
+      <item id="c3" alignment="r3" line="63" tag="G">  C9-snake SC9-FUT(IMM)-see-FV 2PL</item>
+      <item id="c4" alignment="r4" line="64" tag="T">  'The snake will see you(pl)'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="61" tag="M">f</item>
+      <item id="n2" alignment="c2" line="62" tag="L">in-yoka i-zo-bon-a nina</item>
+      <item id="n3" alignment="c3" line="63" tag="G">C9-snake SC9-FUT(IMM)-see-FV 2PL</item>
+      <item id="n4" alignment="c4" line="64" tag="T">The snake will see you(pl)</item>
+    </tier>
+  </igt>
+  <igt id="igt11" doc-id="lgcol:zul" line-range="65-67" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="65" tag="M">  author vetted: f</item>
+      <item id="r2" line="66" tag="L">  lo um-ntwana u-zo-dlal-a</item>
+      <item id="r3" line="67" tag="G">  C1.P1 C1-child SC1-FUT(IMM)-play-FV</item>
+      <item id="r4" line="68" tag="T">  'This child (near me) will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="65" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="66" tag="L">  lo um-ntwana u-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="67" tag="G">  C1.P1 C1-child SC1-FUT(IMM)-play-FV</item>
+      <item id="c4" alignment="r4" line="68" tag="T">  'This child (near me) will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="65" tag="M">f</item>
+      <item id="n2" alignment="c2" line="66" tag="L">lo um-ntwana u-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="67" tag="G">C1.P1 C1-child SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="68" tag="T">This child (near me) will play</item>
+    </tier>
+  </igt>
+  <igt id="igt12" doc-id="lgcol:zul" line-range="69-71" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="69" tag="M">  author vetted: f</item>
+      <item id="r2" line="70" tag="L">  um-ntwana lo u-zo-dlal-a</item>
+      <item id="r3" line="71" tag="G">  C1-child C1.P1 SC1-FUT(IMM)-play-FV</item>
+      <item id="r4" line="72" tag="T">  'This child (near me) will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="69" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="70" tag="L">  um-ntwana lo u-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="71" tag="G">  C1-child C1.P1 SC1-FUT(IMM)-play-FV</item>
+      <item id="c4" alignment="r4" line="72" tag="T">  'This child (near me) will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="69" tag="M">f</item>
+      <item id="n2" alignment="c2" line="70" tag="L">um-ntwana lo u-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="71" tag="G">C1-child C1.P1 SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="72" tag="T">This child (near me) will play</item>
+    </tier>
+  </igt>
+  <igt id="igt13" doc-id="lgcol:zul" line-range="73-75" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="73" tag="M">  author vetted: f</item>
+      <item id="r2" line="74" tag="L">  lowo um-ntwana u-zo-dlal-a</item>
+      <item id="r3" line="75" tag="G">  C1.P2 C1-child SC1-FUT(IMM)-play-FV</item>
+      <item id="r4" line="76" tag="T">  'That child (near you) will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="73" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="74" tag="L">  lowo um-ntwana u-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="75" tag="G">  C1.P2 C1-child SC1-FUT(IMM)-play-FV</item>
+      <item id="c4" alignment="r4" line="76" tag="T">  'That child (near you) will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="73" tag="M">f</item>
+      <item id="n2" alignment="c2" line="74" tag="L">lowo um-ntwana u-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="75" tag="G">C1.P2 C1-child SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="76" tag="T">That child (near you) will play</item>
+    </tier>
+  </igt>
+  <igt id="igt14" doc-id="lgcol:zul" line-range="77-79" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="77" tag="M">  author vetted: f</item>
+      <item id="r2" line="78" tag="L">  um-ntwana lowo u-zo-dlal-a</item>
+      <item id="r3" line="79" tag="G">  C1-child C1.P2 SC1-FUT(IMM)-play-FV</item>
+      <item id="r4" line="80" tag="T">  'That child (near you) will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="77" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="78" tag="L">  um-ntwana lowo u-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="79" tag="G">  C1-child C1.P2 SC1-FUT(IMM)-play-FV</item>
+      <item id="c4" alignment="r4" line="80" tag="T">  'That child (near you) will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="77" tag="M">f</item>
+      <item id="n2" alignment="c2" line="78" tag="L">um-ntwana lowo u-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="79" tag="G">C1-child C1.P2 SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="80" tag="T">That child (near you) will play</item>
+    </tier>
+  </igt>
+  <igt id="igt15" doc-id="lgcol:zul" line-range="81-83" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="81" tag="M">  author vetted: f</item>
+      <item id="r2" line="82" tag="L">  lowaya um-ntwana u-zo-dlal-a</item>
+      <item id="r3" line="83" tag="G">  C1.P3 C1-child SC1-FUT(IMM)-play-FV</item>
+      <item id="r4" line="84" tag="T">  'That child (far from both of us) will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="81" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="82" tag="L">  lowaya um-ntwana u-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="83" tag="G">  C1.P3 C1-child SC1-FUT(IMM)-play-FV</item>
+      <item id="c4" alignment="r4" line="84" tag="T">  'That child (far from both of us) will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="81" tag="M">f</item>
+      <item id="n2" alignment="c2" line="82" tag="L">lowaya um-ntwana u-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="83" tag="G">C1.P3 C1-child SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="84" tag="T">That child (far from both of us) will play</item>
+    </tier>
+  </igt>
+  <igt id="igt16" doc-id="lgcol:zul" line-range="85-87" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="85" tag="M">  author vetted: f</item>
+      <item id="r2" line="86" tag="L">  um-ntwana lowaya u-zo-dlal-a</item>
+      <item id="r3" line="87" tag="G">  C1-child C1.P1 SC1-FUT(IMM)-play-FV</item>
+      <item id="r4" line="88" tag="T">  'That child (far from both of us) will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="85" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="86" tag="L">  um-ntwana lowaya u-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="87" tag="G">  C1-child C1.P1 SC1-FUT(IMM)-play-FV</item>
+      <item id="c4" alignment="r4" line="88" tag="T">  'That child (far from both of us) will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="85" tag="M">f</item>
+      <item id="n2" alignment="c2" line="86" tag="L">um-ntwana lowaya u-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="87" tag="G">C1-child C1.P1 SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="88" tag="T">That child (far from both of us) will play</item>
+    </tier>
+  </igt>
+  <igt id="igt17" doc-id="lgcol:zul" line-range="89-91" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="89" tag="M">  author vetted: f</item>
+      <item id="r2" line="90" tag="L">  in-yoka le i-zo-dlal-a</item>
+      <item id="r3" line="91" tag="G">  C9-snake C9.P1 SC1-FUT(IMM)-play-FV</item>
+      <item id="r4" line="92" tag="T">  'This snake (near me) will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="89" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="90" tag="L">  in-yoka le i-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="91" tag="G">  C9-snake C9.P1 SC1-FUT(IMM)-play-FV</item>
+      <item id="c4" alignment="r4" line="92" tag="T">  'This snake (near me) will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="89" tag="M">f</item>
+      <item id="n2" alignment="c2" line="90" tag="L">in-yoka le i-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="91" tag="G">C9-snake C9.P1 SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="92" tag="T">This snake (near me) will play</item>
+    </tier>
+  </igt>
+  <igt id="igt18" doc-id="lgcol:zul" line-range="97-99" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="97" tag="M">  author vetted: f</item>
+      <item id="r2" line="98" tag="L">  um-ntwana le u-zo-dlal-a</item>
+      <item id="r3" line="99" tag="G">  C1-child C9.P1 SC1-FUT(IMM)-play-FV</item>
+      <item id="r4" line="100" tag="T">  'This child (near me) will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="97" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="98" tag="L">  um-ntwana le u-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="99" tag="G">  C1-child C9.P1 SC1-FUT(IMM)-play-FV</item>
+      <item id="c4" alignment="r4" line="100" tag="T">  'This child (near me) will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="97" tag="M">f</item>
+      <item id="n2" alignment="c2" line="98" tag="L">um-ntwana le u-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="99" tag="G">C1-child C9.P1 SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="100" tag="T">This child (near me) will play</item>
+    </tier>
+  </igt>
+  <igt id="igt19" doc-id="lgcol:zul" line-range="101-103" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="101" tag="M">  author vetted: f</item>
+      <item id="r2" line="102" tag="L">  in-yoka leyo i-zo-dlal-a</item>
+      <item id="r3" line="103" tag="G">  C9-snake C9.P2 SC1-FUT(IMM)-play-FV</item>
+      <item id="r4" line="104" tag="T">  'That snake (near you) will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="101" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="102" tag="L">  in-yoka leyo i-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="103" tag="G">  C9-snake C9.P2 SC1-FUT(IMM)-play-FV</item>
+      <item id="c4" alignment="r4" line="104" tag="T">  'That snake (near you) will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="101" tag="M">f</item>
+      <item id="n2" alignment="c2" line="102" tag="L">in-yoka leyo i-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="103" tag="G">C9-snake C9.P2 SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="104" tag="T">That snake (near you) will play</item>
+    </tier>
+  </igt>
+  <igt id="igt20" doc-id="lgcol:zul" line-range="113-115" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="113" tag="M">  author vetted: f</item>
+      <item id="r2" line="114" tag="L">  in-yoka leyo i-zo-dlal-a</item>
+      <item id="r3" line="115" tag="G">  C9-snake C9.P3 SC1-FUT(IMM)-play-FV</item>
+      <item id="r4" line="116" tag="T">  'That snake (far from both of us) will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="113" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="114" tag="L">  in-yoka leyo i-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="115" tag="G">  C9-snake C9.P3 SC1-FUT(IMM)-play-FV</item>
+      <item id="c4" alignment="r4" line="116" tag="T">  'That snake (far from both of us) will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="113" tag="M">f</item>
+      <item id="n2" alignment="c2" line="114" tag="L">in-yoka leyo i-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="115" tag="G">C9-snake C9.P3 SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="116" tag="T">That snake (far from both of us) will play</item>
+    </tier>
+  </igt>
+  <igt id="igt21" doc-id="lgcol:zul" line-range="121-123" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="121" tag="M">  author vetted: f</item>
+      <item id="r2" line="122" tag="L">  um-ntwana leyo i-zo-dlal-a</item>
+      <item id="r3" line="123" tag="G">  C1-child C9.P3 SC1-FUT(IMM)-play-FV</item>
+      <item id="r4" line="124" tag="T">  'That child (far from both of us) will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="121" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="122" tag="L">  um-ntwana leyo i-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="123" tag="G">  C1-child C9.P3 SC1-FUT(IMM)-play-FV</item>
+      <item id="c4" alignment="r4" line="124" tag="T">  'That child (far from both of us) will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="121" tag="M">f</item>
+      <item id="n2" alignment="c2" line="122" tag="L">um-ntwana leyo i-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="123" tag="G">C1-child C9.P3 SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="124" tag="T">That child (far from both of us) will play</item>
+    </tier>
+  </igt>
+  <igt id="igt22" doc-id="lgcol:zul" line-range="125-127" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="125" tag="M">  author vetted: f</item>
+      <item id="r2" line="126" tag="L">  um-ntwana u-zo-yi-shay-a in-yoka</item>
+      <item id="r3" line="127" tag="G">  C1-child SC1-FUT(IMM)-OC9-hit-FV C9-snake</item>
+      <item id="r4" line="128" tag="T">  'The child will hit the snake'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="125" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="126" tag="L">  um-ntwana u-zo-yi-shay-a in-yoka</item>
+      <item id="c3" alignment="r3" line="127" tag="G">  C1-child SC1-FUT(IMM)-OC9-hit-FV C9-snake</item>
+      <item id="c4" alignment="r4" line="128" tag="T">  'The child will hit the snake'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="125" tag="M">f</item>
+      <item id="n2" alignment="c2" line="126" tag="L">um-ntwana u-zo-yi-shay-a in-yoka</item>
+      <item id="n3" alignment="c3" line="127" tag="G">C1-child SC1-FUT(IMM)-OC9-hit-FV C9-snake</item>
+      <item id="n4" alignment="c4" line="128" tag="T">The child will hit the snake</item>
+    </tier>
+  </igt>
+  <igt id="igt23" doc-id="lgcol:zul" line-range="129-131" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="129" tag="M">  author vetted: f</item>
+      <item id="r2" line="130" tag="L">  um-ntwana u-zo-yi-shay-a</item>
+      <item id="r3" line="131" tag="G">  C1-child SC1-FUT(IMM)-OC9-shay-FV</item>
+      <item id="r4" line="132" tag="T">  'The child will hit it'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="129" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="130" tag="L">  um-ntwana u-zo-yi-shay-a</item>
+      <item id="c3" alignment="r3" line="131" tag="G">  C1-child SC1-FUT(IMM)-OC9-shay-FV</item>
+      <item id="c4" alignment="r4" line="132" tag="T">  'The child will hit it'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="129" tag="M">f</item>
+      <item id="n2" alignment="c2" line="130" tag="L">um-ntwana u-zo-yi-shay-a</item>
+      <item id="n3" alignment="c3" line="131" tag="G">C1-child SC1-FUT(IMM)-OC9-shay-FV</item>
+      <item id="n4" alignment="c4" line="132" tag="T">The child will hit it</item>
+    </tier>
+  </igt>
+  <igt id="igt24" doc-id="lgcol:zul" line-range="141-143" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="141" tag="M">  author vetted: f</item>
+      <item id="r2" line="142" tag="L">  u-zo-shay-a in-yoka</item>
+      <item id="r3" line="143" tag="G">  SC1-FUT(IMM)-hit-FV C9-snake</item>
+      <item id="r4" line="144" tag="T">  'He/She will hit the snake'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="141" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="142" tag="L">  u-zo-shay-a in-yoka</item>
+      <item id="c3" alignment="r3" line="143" tag="G">  SC1-FUT(IMM)-hit-FV C9-snake</item>
+      <item id="c4" alignment="r4" line="144" tag="T">  'He/She will hit the snake'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="141" tag="M">f</item>
+      <item id="n2" alignment="c2" line="142" tag="L">u-zo-shay-a in-yoka</item>
+      <item id="n3" alignment="c3" line="143" tag="G">SC1-FUT(IMM)-hit-FV C9-snake</item>
+      <item id="n4" alignment="c4" line="144" tag="T">He/She will hit the snake</item>
+    </tier>
+  </igt>
+  <igt id="igt25" doc-id="lgcol:zul" line-range="145-147" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="145" tag="M">  author vetted: f</item>
+      <item id="r2" line="146" tag="L">  u-zo-yi-shay-a</item>
+      <item id="r3" line="147" tag="G">  SC1-FUT(IMM)-OC9-hit-FV</item>
+      <item id="r4" line="148" tag="T">  'He/She will hit it'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="145" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="146" tag="L">  u-zo-yi-shay-a</item>
+      <item id="c3" alignment="r3" line="147" tag="G">  SC1-FUT(IMM)-OC9-hit-FV</item>
+      <item id="c4" alignment="r4" line="148" tag="T">  'He/She will hit it'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="145" tag="M">f</item>
+      <item id="n2" alignment="c2" line="146" tag="L">u-zo-yi-shay-a</item>
+      <item id="n3" alignment="c3" line="147" tag="G">SC1-FUT(IMM)-OC9-hit-FV</item>
+      <item id="n4" alignment="c4" line="148" tag="T">He/She will hit it</item>
+    </tier>
+  </igt>
+  <igt id="igt26" doc-id="lgcol:zul" line-range="149-151" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="149" tag="M">  author vetted: f</item>
+      <item id="r2" line="150" tag="L">  Um-twana u-zo-gijim-a</item>
+      <item id="r3" line="151" tag="G">  C1-child SC1-FUT(IMM)-run-FV</item>
+      <item id="r4" line="152" tag="T">  'The child will run'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="149" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="150" tag="L">  Um-twana u-zo-gijim-a</item>
+      <item id="c3" alignment="r3" line="151" tag="G">  C1-child SC1-FUT(IMM)-run-FV</item>
+      <item id="c4" alignment="r4" line="152" tag="T">  'The child will run'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="149" tag="M">f</item>
+      <item id="n2" alignment="c2" line="150" tag="L">Um-twana u-zo-gijim-a</item>
+      <item id="n3" alignment="c3" line="151" tag="G">C1-child SC1-FUT(IMM)-run-FV</item>
+      <item id="n4" alignment="c4" line="152" tag="T">The child will run</item>
+    </tier>
+  </igt>
+  <igt id="igt27" doc-id="lgcol:zul" line-range="221-223" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="221" tag="M">  author vetted: f</item>
+      <item id="r2" line="222" tag="L">  ili-kati li-zo-dlal-a</item>
+      <item id="r3" line="223" tag="G">  C5-cat SC5-FUT(IMM)-play-FV</item>
+      <item id="r4" line="224" tag="T">  'The cat will play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="221" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="222" tag="L">  ili-kati li-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="223" tag="G">  C5-cat SC5-FUT(IMM)-play-FV</item>
+      <item id="c4" alignment="r4" line="224" tag="T">  'The cat will play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="221" tag="M">f</item>
+      <item id="n2" alignment="c2" line="222" tag="L">ili-kati li-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="223" tag="G">C5-cat SC5-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="224" tag="T">The cat will play</item>
+    </tier>
+  </igt>
+  <igt id="igt28" doc-id="lgcol:zul" line-range="269-271" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="269" tag="M">  author vetted: f</item>
+      <item id="r2" line="270" tag="L">  ngi-zo-m-shay-a um-ntwana</item>
+      <item id="r3" line="271" tag="G">  1SG-FUT(IMM)-OC1-hit-FV C1-child</item>
+      <item id="r4" line="272" tag="T">  'I will hit the child'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="269" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="270" tag="L">  ngi-zo-m-shay-a um-ntwana</item>
+      <item id="c3" alignment="r3" line="271" tag="G">  1SG-FUT(IMM)-OC1-hit-FV C1-child</item>
+      <item id="c4" alignment="r4" line="272" tag="T">  'I will hit the child'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="269" tag="M">f</item>
+      <item id="n2" alignment="c2" line="270" tag="L">ngi-zo-m-shay-a um-ntwana</item>
+      <item id="n3" alignment="c3" line="271" tag="G">1SG-FUT(IMM)-OC1-hit-FV C1-child</item>
+      <item id="n4" alignment="c4" line="272" tag="T">I will hit the child</item>
+    </tier>
+  </igt>
+  <igt id="igt29" doc-id="lgcol:zul" line-range="317-319" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="317" tag="M">  author vetted: f</item>
+      <item id="r2" line="318" tag="L">  ngi-zo-ba-shay-a aba-ntwana</item>
+      <item id="r3" line="319" tag="G">  1SG-FUT(IMM)-OC2-play-FV C2-child</item>
+      <item id="r4" line="320" tag="T">  'I will hit the children'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="317" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="318" tag="L">  ngi-zo-ba-shay-a aba-ntwana</item>
+      <item id="c3" alignment="r3" line="319" tag="G">  1SG-FUT(IMM)-OC2-play-FV C2-child</item>
+      <item id="c4" alignment="r4" line="320" tag="T">  'I will hit the children'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="317" tag="M">f</item>
+      <item id="n2" alignment="c2" line="318" tag="L">ngi-zo-ba-shay-a aba-ntwana</item>
+      <item id="n3" alignment="c3" line="319" tag="G">1SG-FUT(IMM)-OC2-play-FV C2-child</item>
+      <item id="n4" alignment="c4" line="320" tag="T">I will hit the children</item>
+    </tier>
+  </igt>
+  <igt id="igt30" doc-id="lgcol:zul" line-range="325-327" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="325" tag="M">  author vetted: f</item>
+      <item id="r2" line="326" tag="L">  ngi-zo-ba-shay-a o-dokotela</item>
+      <item id="r3" line="327" tag="G">  1SG-FUT(IMM)-OC2-play-FV C2a-doctor</item>
+      <item id="r4" line="328" tag="T">  'I will hit the doctors/the doctor and others'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="325" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="326" tag="L">  ngi-zo-ba-shay-a o-dokotela</item>
+      <item id="c3" alignment="r3" line="327" tag="G">  1SG-FUT(IMM)-OC2-play-FV C2a-doctor</item>
+      <item id="c4" alignment="r4" line="328" tag="T">  'I will hit the doctors/the doctor and others'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="325" tag="M">f</item>
+      <item id="n2" alignment="c2" line="326" tag="L">ngi-zo-ba-shay-a o-dokotela</item>
+      <item id="n3" alignment="c3" line="327" tag="G">1SG-FUT(IMM)-OC2-play-FV C2a-doctor</item>
+      <item id="n4" alignment="c4" line="328" tag="T">I will hit the doctors/the doctor and others</item>
+    </tier>
+  </igt>
+  <igt id="igt31" doc-id="lgcol:zul" line-range="385-387" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="385" tag="M">  a vetted: s</item>
+      <item id="r2" line="386" tag="L">  a-ngi-zu-fund-a</item>
+      <item id="r3" line="387" tag="G">  NEG-1SG-FUT(IMM)-study-FV</item>
+      <item id="r4" line="388" tag="T">  'I will not study'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="385" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="386" tag="L">  a-ngi-zu-fund-a</item>
+      <item id="c3" alignment="r3" line="387" tag="G">  NEG-1SG-FUT(IMM)-study-FV</item>
+      <item id="c4" alignment="r4" line="388" tag="T">  'I will not study'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="385" tag="M">s</item>
+      <item id="n2" alignment="c2" line="386" tag="L">a-ngi-zu-fund-a</item>
+      <item id="n3" alignment="c3" line="387" tag="G">NEG-1SG-FUT(IMM)-study-FV</item>
+      <item id="n4" alignment="c4" line="388" tag="T">I will not study</item>
+    </tier>
+  </igt>
+  <igt id="igt32" doc-id="lgcol:zul" line-range="389-391" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="389" tag="M">  b vetted: s</item>
+      <item id="r2" line="390" tag="L">  aba-ntwana a-ba-zu-fund-a</item>
+      <item id="r3" line="391" tag="G">  C2-child NEG-SC2-FUT(IMM)-study-FV</item>
+      <item id="r4" line="392" tag="T">  'The children will not study"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="389" tag="M">  b vetted: s</item>
+      <item id="c2" alignment="r2" line="390" tag="L">  aba-ntwana a-ba-zu-fund-a</item>
+      <item id="c3" alignment="r3" line="391" tag="G">  C2-child NEG-SC2-FUT(IMM)-study-FV</item>
+      <item id="c4" alignment="r4" line="392" tag="T">  'The children will not study"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="389" tag="M">s</item>
+      <item id="n2" alignment="c2" line="390" tag="L">aba-ntwana a-ba-zu-fund-a</item>
+      <item id="n3" alignment="c3" line="391" tag="G">C2-child NEG-SC2-FUT(IMM)-study-FV</item>
+      <item id="n4" alignment="c4" line="392" tag="T">The children will not study</item>
+    </tier>
+  </igt>
+  <igt id="igt33" doc-id="lgcol:zul" line-range="413-415" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="413" tag="M">  author vetted: f</item>
+      <item id="r2" line="414" tag="L">  um-ntwana u-zo-dlal-a</item>
+      <item id="r3" line="415" tag="G">  C1-child SC1-FUT(IMM)-play-FV </item>
+      <item id="r4" line="416" tag="T">  'Will the child play?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="413" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="414" tag="L">  um-ntwana u-zo-dlal-a</item>
+      <item id="c3" alignment="r3" line="415" tag="G">  C1-child SC1-FUT(IMM)-play-FV </item>
+      <item id="c4" alignment="r4" line="416" tag="T">  'Will the child play?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="413" tag="M">f</item>
+      <item id="n2" alignment="c2" line="414" tag="L">um-ntwana u-zo-dlal-a</item>
+      <item id="n3" alignment="c3" line="415" tag="G">C1-child SC1-FUT(IMM)-play-FV</item>
+      <item id="n4" alignment="c4" line="416" tag="T">Will the child play?</item>
+    </tier>
+  </igt>
+  <igt id="igt34" doc-id="lgcol:zul" line-range="417-419" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="417" tag="M">  author vetted: f</item>
+      <item id="r2" line="418" tag="L">  um-ntwana u-zo-dlal-a na</item>
+      <item id="r3" line="419" tag="G">  C1-child SC1-FUT(IMM)-play-FV Q</item>
+      <item id="r4" line="420" tag="T">  'Will the child play?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="417" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="418" tag="L">  um-ntwana u-zo-dlal-a na</item>
+      <item id="c3" alignment="r3" line="419" tag="G">  C1-child SC1-FUT(IMM)-play-FV Q</item>
+      <item id="c4" alignment="r4" line="420" tag="T">  'Will the child play?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="417" tag="M">f</item>
+      <item id="n2" alignment="c2" line="418" tag="L">um-ntwana u-zo-dlal-a na</item>
+      <item id="n3" alignment="c3" line="419" tag="G">C1-child SC1-FUT(IMM)-play-FV Q</item>
+      <item id="n4" alignment="c4" line="420" tag="T">Will the child play?</item>
+    </tier>
+  </igt>
+  <igt id="igt35" doc-id="lgcol:zul" line-range="429-431" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="429" tag="M">  a vetted: s</item>
+      <item id="r2" line="430" tag="L">  gijim-a</item>
+      <item id="r3" line="431" tag="G">  run-FV</item>
+      <item id="r4" line="432" tag="T">  'Run(sg)!' </item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="429" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="430" tag="L">  gijim-a</item>
+      <item id="c3" alignment="r3" line="431" tag="G">  run-FV</item>
+      <item id="c4" alignment="r4" line="432" tag="T">  'Run(sg)!' </item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="429" tag="M">s</item>
+      <item id="n2" alignment="c2" line="430" tag="L">gijim-a</item>
+      <item id="n3" alignment="c3" line="431" tag="G">run-FV</item>
+      <item id="n4" alignment="c4" line="432" tag="T">Run(sg)!</item>
+    </tier>
+  </igt>
+  <igt id="igt36" doc-id="lgcol:zul" line-range="433-435" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="433" tag="M">  a vetted: s</item>
+      <item id="r2" line="434" tag="L">  gijim-a-ni</item>
+      <item id="r3" line="435" tag="G">  run-FV-PL</item>
+      <item id="r4" line="436" tag="T">  'Run(pl)!'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="433" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="434" tag="L">  gijim-a-ni</item>
+      <item id="c3" alignment="r3" line="435" tag="G">  run-FV-PL</item>
+      <item id="c4" alignment="r4" line="436" tag="T">  'Run(pl)!'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="433" tag="M">s</item>
+      <item id="n2" alignment="c2" line="434" tag="L">gijim-a-ni</item>
+      <item id="n3" alignment="c3" line="435" tag="G">run-FV-PL</item>
+      <item id="n4" alignment="c4" line="436" tag="T">Run(pl)!</item>
+    </tier>
+  </igt>
+  <igt id="igt37" doc-id="lgcol:zul" line-range="437-439" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="437" tag="M">  b vetted: s</item>
+      <item id="r2" line="438" tag="L">  shay-a in-ja</item>
+      <item id="r3" line="439" tag="G">  hit-FV C9-dog</item>
+      <item id="r4" line="440" tag="T">  'Hit(sg) the dog!'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="437" tag="M">  b vetted: s</item>
+      <item id="c2" alignment="r2" line="438" tag="L">  shay-a in-ja</item>
+      <item id="c3" alignment="r3" line="439" tag="G">  hit-FV C9-dog</item>
+      <item id="c4" alignment="r4" line="440" tag="T">  'Hit(sg) the dog!'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="437" tag="M">s</item>
+      <item id="n2" alignment="c2" line="438" tag="L">shay-a in-ja</item>
+      <item id="n3" alignment="c3" line="439" tag="G">hit-FV C9-dog</item>
+      <item id="n4" alignment="c4" line="440" tag="T">Hit(sg) the dog!</item>
+    </tier>
+  </igt>
+  <igt id="igt38" doc-id="lgcol:zul" line-range="441-443" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="441" tag="M">  author vetted: n</item>
+      <item id="r2" line="442" tag="L">  shay-a-ni in-ja</item>
+      <item id="r3" line="443" tag="G">  hit-FV-PL C9-dog</item>
+      <item id="r4" line="444" tag="T">  'Hit(pl) the dog!'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="441" tag="M">  author vetted: n</item>
+      <item id="c2" alignment="r2" line="442" tag="L">  shay-a-ni in-ja</item>
+      <item id="c3" alignment="r3" line="443" tag="G">  hit-FV-PL C9-dog</item>
+      <item id="c4" alignment="r4" line="444" tag="T">  'Hit(pl) the dog!'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="441" tag="M">n</item>
+      <item id="n2" alignment="c2" line="442" tag="L">shay-a-ni in-ja</item>
+      <item id="n3" alignment="c3" line="443" tag="G">hit-FV-PL C9-dog</item>
+      <item id="n4" alignment="c4" line="444" tag="T">Hit(pl) the dog!</item>
+    </tier>
+  </igt>
+  <igt id="igt39" doc-id="lgcol:zul" line-range="445-447" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="445" tag="M">  a vetted: s</item>
+      <item id="r2" line="446" tag="L">  mus-a uku-gijim-a</item>
+      <item id="r3" line="447" tag="G">  don't-FV SC15-run-FV</item>
+      <item id="r4" line="448" tag="T">  'Don't run!'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="445" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="446" tag="L">  mus-a uku-gijim-a</item>
+      <item id="c3" alignment="r3" line="447" tag="G">  don't-FV SC15-run-FV</item>
+      <item id="c4" alignment="r4" line="448" tag="T">  'Don't run!'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="445" tag="M">s</item>
+      <item id="n2" alignment="c2" line="446" tag="L">mus-a uku-gijim-a</item>
+      <item id="n3" alignment="c3" line="447" tag="G">don't-FV SC15-run-FV</item>
+      <item id="n4" alignment="c4" line="448" tag="T">Don't run!</item>
+    </tier>
+  </igt>
+  <igt id="igt40" doc-id="lgcol:zul" line-range="457-459" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="457" tag="M">  author vetted: n</item>
+      <item id="r2" line="458" tag="L">  u-mama u-zo-fun-a ukuba si-y-e</item>
+      <item id="r3" line="459" tag="G">  C1a-mother C1a-FUT(IMM)-want-FV that 1PL-go-SBJV</item>
+      <item id="r4" line="460" tag="T">  'Mother will want that we go / Mother will want us to go'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="457" tag="M">  author vetted: n</item>
+      <item id="c2" alignment="r2" line="458" tag="L">  u-mama u-zo-fun-a ukuba si-y-e</item>
+      <item id="c3" alignment="r3" line="459" tag="G">  C1a-mother C1a-FUT(IMM)-want-FV that 1PL-go-SBJV</item>
+      <item id="c4" alignment="r4" line="460" tag="T">  'Mother will want that we go / Mother will want us to go'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="457" tag="M">n</item>
+      <item id="n2" alignment="c2" line="458" tag="L">u-mama u-zo-fun-a ukuba si-y-e</item>
+      <item id="n3" alignment="c3" line="459" tag="G">C1a-mother C1a-FUT(IMM)-want-FV that 1PL-go-SBJV</item>
+      <item id="n4" alignment="c4" line="460" tag="T">Mother will want that we go / Mother will want us to go</item>
+    </tier>
+  </igt>
+  <igt id="igt41" doc-id="lgcol:zul" line-range="461-463" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="461" tag="M">  author vetted: n</item>
+      <item id="r2" line="462" tag="L">  u-mama u-zo-fun-a ukuba si-y-a</item>
+      <item id="r3" line="463" tag="G">  C1a-mother C1a-FUT(IMM)-want-FV that 1PL-go-FV</item>
+      <item id="r4" line="464" tag="T">  'Mother will want that we go / Mother will want us to go'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="461" tag="M">  author vetted: n</item>
+      <item id="c2" alignment="r2" line="462" tag="L">  u-mama u-zo-fun-a ukuba si-y-a</item>
+      <item id="c3" alignment="r3" line="463" tag="G">  C1a-mother C1a-FUT(IMM)-want-FV that 1PL-go-FV</item>
+      <item id="c4" alignment="r4" line="464" tag="T">  'Mother will want that we go / Mother will want us to go'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="461" tag="M">n</item>
+      <item id="n2" alignment="c2" line="462" tag="L">u-mama u-zo-fun-a ukuba si-y-a</item>
+      <item id="n3" alignment="c3" line="463" tag="G">C1a-mother C1a-FUT(IMM)-want-FV that 1PL-go-FV</item>
+      <item id="n4" alignment="c4" line="464" tag="T">Mother will want that we go / Mother will want us to go</item>
+    </tier>
+  </igt>
+  <igt id="igt42" doc-id="lgcol:zul" line-range="465-467" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="465" tag="M">  a vetted: s</item>
+      <item id="r2" line="466" tag="L">  aba-ntwana ba-zo-y-a e-sikol-eni ukuze ba-fund-e</item>
+      <item id="r3" line="467" tag="G">  C2-child SC2-FUT(IMM)-go-FV LOC-school-to in.order.to SC2-study-SBJV</item>
+      <item id="r4" line="468" tag="T">  'The children go to school in order that they study'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="465" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="466" tag="L">  aba-ntwana ba-zo-y-a e-sikol-eni ukuze ba-fund-e</item>
+      <item id="c3" alignment="r3" line="467" tag="G">  C2-child SC2-FUT(IMM)-go-FV LOC-school-to in.order.to SC2-study-SBJV</item>
+      <item id="c4" alignment="r4" line="468" tag="T">  'The children go to school in order that they study'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="465" tag="M">s</item>
+      <item id="n2" alignment="c2" line="466" tag="L">aba-ntwana ba-zo-y-a e-sikol-eni ukuze ba-fund-e</item>
+      <item id="n3" alignment="c3" line="467" tag="G">C2-child SC2-FUT(IMM)-go-FV LOC-school-to in.order.to SC2-study-SBJV</item>
+      <item id="n4" alignment="c4" line="468" tag="T">The children go to school in order that they study</item>
+    </tier>
+  </igt>
+  <igt id="igt43" doc-id="lgcol:zul" line-range="477-479" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="477" tag="M">  a vetted: s</item>
+      <item id="r2" line="478" tag="L">  aba-ntu ba-nga-dlal-a</item>
+      <item id="r3" line="479" tag="G">  C2-person SC2-can-play-FV</item>
+      <item id="r4" line="480" tag="T">  'The people can play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="477" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="478" tag="L">  aba-ntu ba-nga-dlal-a</item>
+      <item id="c3" alignment="r3" line="479" tag="G">  C2-person SC2-can-play-FV</item>
+      <item id="c4" alignment="r4" line="480" tag="T">  'The people can play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="477" tag="M">s</item>
+      <item id="n2" alignment="c2" line="478" tag="L">aba-ntu ba-nga-dlal-a</item>
+      <item id="n3" alignment="c3" line="479" tag="G">C2-person SC2-can-play-FV</item>
+      <item id="n4" alignment="c4" line="480" tag="T">The people can play</item>
+    </tier>
+  </igt>
+  <igt id="igt44" doc-id="lgcol:zul" line-range="493-495" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="493" tag="M">  a vetted: s</item>
+      <item id="r2" line="494" tag="L">  ni-nga-m-bon-a e-dolobh-eni</item>
+      <item id="r3" line="495" tag="G">  2PL-can-OC1-see-fv LOC-town-in</item>
+      <item id="r4" line="496" tag="T">  'You(pl) can see him/her in town'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="493" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="494" tag="L">  ni-nga-m-bon-a e-dolobh-eni</item>
+      <item id="c3" alignment="r3" line="495" tag="G">  2PL-can-OC1-see-fv LOC-town-in</item>
+      <item id="c4" alignment="r4" line="496" tag="T">  'You(pl) can see him/her in town'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="493" tag="M">s</item>
+      <item id="n2" alignment="c2" line="494" tag="L">ni-nga-m-bon-a e-dolobh-eni</item>
+      <item id="n3" alignment="c3" line="495" tag="G">2PL-can-OC1-see-fv LOC-town-in</item>
+      <item id="n4" alignment="c4" line="496" tag="T">You(pl) can see him/her in town</item>
+    </tier>
+  </igt>
+  <igt id="igt45" doc-id="lgcol:zul" line-range="501-503" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="501" tag="M">  author vetted: n</item>
+      <item id="r2" line="502" tag="L">  aba-ntu ba-nge-dlal-e</item>
+      <item id="r3" line="503" tag="G">  C2-person SC2-can-play-FV</item>
+      <item id="r4" line="504" tag="T">  'The people can't play'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="501" tag="M">  author vetted: n</item>
+      <item id="c2" alignment="r2" line="502" tag="L">  aba-ntu ba-nge-dlal-e</item>
+      <item id="c3" alignment="r3" line="503" tag="G">  C2-person SC2-can-play-FV</item>
+      <item id="c4" alignment="r4" line="504" tag="T">  'The people can't play'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="501" tag="M">n</item>
+      <item id="n2" alignment="c2" line="502" tag="L">aba-ntu ba-nge-dlal-e</item>
+      <item id="n3" alignment="c3" line="503" tag="G">C2-person SC2-can-play-FV</item>
+      <item id="n4" alignment="c4" line="504" tag="T">The people can't play</item>
+    </tier>
+  </igt>
+  <igt id="igt46" doc-id="lgcol:zul" line-range="505-507" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="505" tag="M">  author vetted: n</item>
+      <item id="r2" line="506" tag="L">  umu-ntu u-zo-bon-a u-James na-u-Sipho</item>
+      <item id="r3" line="507" tag="G">  C1-person SC1-FUT(IMM)-see-FV C1a-James with-C1a-Sipho</item>
+      <item id="r4" line="508" tag="T">  'The person sees James and Sipho'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="505" tag="M">  author vetted: n</item>
+      <item id="c2" alignment="r2" line="506" tag="L">  umu-ntu u-zo-bon-a u-James na-u-Sipho</item>
+      <item id="c3" alignment="r3" line="507" tag="G">  C1-person SC1-FUT(IMM)-see-FV C1a-James with-C1a-Sipho</item>
+      <item id="c4" alignment="r4" line="508" tag="T">  'The person sees James and Sipho'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="505" tag="M">n</item>
+      <item id="n2" alignment="c2" line="506" tag="L">umu-ntu u-zo-bon-a u-James na-u-Sipho</item>
+      <item id="n3" alignment="c3" line="507" tag="G">C1-person SC1-FUT(IMM)-see-FV C1a-James with-C1a-Sipho</item>
+      <item id="n4" alignment="c4" line="508" tag="T">The person sees James and Sipho</item>
+    </tier>
+  </igt>
+  <igt id="igt47" doc-id="lgcol:zul" line-range="517-519" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="517" tag="M">  author vetted: n</item>
+      <item id="r2" line="518" tag="L">  umu-fana u-zo-shay-a i-shani na-in-ja</item>
+      <item id="r3" line="519" tag="G">  C1-boy SC1-FUT(IMM)-hit-FV C5-horse with-C9-dog</item>
+      <item id="r4" line="520" tag="T">  'The boy hit the horse and the dog'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="517" tag="M">  author vetted: n</item>
+      <item id="c2" alignment="r2" line="518" tag="L">  umu-fana u-zo-shay-a i-shani na-in-ja</item>
+      <item id="c3" alignment="r3" line="519" tag="G">  C1-boy SC1-FUT(IMM)-hit-FV C5-horse with-C9-dog</item>
+      <item id="c4" alignment="r4" line="520" tag="T">  'The boy hit the horse and the dog'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="517" tag="M">n</item>
+      <item id="n2" alignment="c2" line="518" tag="L">umu-fana u-zo-shay-a i-shani na-in-ja</item>
+      <item id="n3" alignment="c3" line="519" tag="G">C1-boy SC1-FUT(IMM)-hit-FV C5-horse with-C9-dog</item>
+      <item id="n4" alignment="c4" line="520" tag="T">The boy hit the horse and the dog</item>
+    </tier>
+  </igt>
+  <igt id="igt48" doc-id="lgcol:zul" line-range="529-531" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="529" tag="M">  author vetted: n</item>
+      <item id="r2" line="530" tag="L">  umu-fana u-zo-dlal-a na-in-ja</item>
+      <item id="r3" line="531" tag="G">  C1-boy SC1-FUT(IMM)-play-FV with-C9-dog</item>
+      <item id="r4" line="532" tag="T">  'The boy will play with the dog'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="529" tag="M">  author vetted: n</item>
+      <item id="c2" alignment="r2" line="530" tag="L">  umu-fana u-zo-dlal-a na-in-ja</item>
+      <item id="c3" alignment="r3" line="531" tag="G">  C1-boy SC1-FUT(IMM)-play-FV with-C9-dog</item>
+      <item id="c4" alignment="r4" line="532" tag="T">  'The boy will play with the dog'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="529" tag="M">n</item>
+      <item id="n2" alignment="c2" line="530" tag="L">umu-fana u-zo-dlal-a na-in-ja</item>
+      <item id="n3" alignment="c3" line="531" tag="G">C1-boy SC1-FUT(IMM)-play-FV with-C9-dog</item>
+      <item id="n4" alignment="c4" line="532" tag="T">The boy will play with the dog</item>
+    </tier>
+  </igt>
+  <igt id="igt49" doc-id="lgcol:zul" line-range="537-539" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="537" tag="M">  b vetted: s</item>
+      <item id="r2" line="538" tag="L">  u-Sipho u-zo-vuk-a ngo-7 a-phuz-e i-tiye a-y-e em-sebenz-ini</item>
+      <item id="r3" line="539" tag="G">  C1-Sipho SC1-FUT(IMM)-wake-FV at-7 SC1-drink-SBJV C5-tea SC1-go-SBJV LOC-work-to</item>
+      <item id="r4" line="540" tag="T">  'Sipho will wake at 7, drink tea, and go to work'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="537" tag="M">  b vetted: s</item>
+      <item id="c2" alignment="r2" line="538" tag="L">  u-Sipho u-zo-vuk-a ngo-7 a-phuz-e i-tiye a-y-e em-sebenz-ini</item>
+      <item id="c3" alignment="r3" line="539" tag="G">  C1-Sipho SC1-FUT(IMM)-wake-FV at-7 SC1-drink-SBJV C5-tea SC1-go-SBJV LOC-work-to</item>
+      <item id="c4" alignment="r4" line="540" tag="T">  'Sipho will wake at 7, drink tea, and go to work'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="537" tag="M">s</item>
+      <item id="n2" alignment="c2" line="538" tag="L">u-Sipho u-zo-vuk-a ngo-7 a-phuz-e i-tiye a-y-e em-sebenz-ini</item>
+      <item id="n3" alignment="c3" line="539" tag="G">C1-Sipho SC1-FUT(IMM)-wake-FV at-7 SC1-drink-SBJV C5-tea SC1-go-SBJV LOC-work-to</item>
+      <item id="n4" alignment="c4" line="540" tag="T">Sipho will wake at 7, drink tea, and go to work</item>
+    </tier>
+  </igt>
+</xigt-corpus>

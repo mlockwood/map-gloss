@@ -1,0 +1,107 @@
+Notes
+-------------------------------------------------------
+
+The clitic =’a (“and”) has the same distribution as =ji but is used when the coordinates do not form a group or are an incomplete or exemplifying listing. It implies VP or clause coordination instead or word or phrase coordination.
+
+EB> This is an interesting contrast (between =ji and ='a), but I don't
+understand what you mean by "implies VP or clause coordination instead
+or word or phrase coordination."  In your example, ='a is attached
+to the NP, not the VP.  Also, VPs (and clauses) are phrases.
+
+The preposed particle je (“or”) has a similar distribution; it occurs before all of the coordinates or all but the first. It usually does not coordinate phrases.
+
+EB> Again, what do you mean by "phrases"?  Also, I think it's fine to
+limit the scope of your grammar to the and (not or or neither/nor)
+coordination cases.
+
+Embedded declarative clauses can also be formed with the conjunctions sanna or muo “like, as”.
+
+EB> These converbs look like they might be functioning similar
+to complementizers.  Do they inflect at all?
+
+
+INFORMATION STRUCTURE
+By default, topics in Ingush are in clause-initial position. Focus (of word or phrase) follows the topic but precedes the rest of the clause.
+
+
+#42.15 Information Structure - Topicalization (& Focus) (correct)
+# topic: Mista  focus: myshta
+Source: a:683
+Vetted: s
+Judgment: g
+Phenomena: info
+Mista xudar myshta duora?
+Mista xudar myshta d-uo-ra?
+sour porridge how D-make-IMPF
+How did they make sour porridge? How was sour porridge made? (A traditional Ingush food.) 
+
+EB> We're not going to handle "how", so you might want
+to add an example here to replace this one.
+
+#42.3 Information Structure - Normal Argument Focus (correct)
+Source: a:687
+Vetted: s
+Judgment: g
+Phenomena: info
+Cuo diicar suona jerazh.
+Cuo d-iic-ar suona jerazh.
+3s.ERG D-tell-WP 1s.DAT these
+She told them [=stories] to me (focus on she)
+
+EB> So no topic in this sentence?
+
+#42.1 Information Structure - Contrastive Focus (correct)
+Source: a:721
+Vetted: s
+Judgment: g
+Phenomena: info
+Suonam xoza di xet, hwuona myshta dy xaac suona
+Suona=m xoza di xet, hwuona myshta d-y xaac suona
+1s.DAT=FOC nice day think, 2s.DAT how D-be.PRS know.PRS 1s.DAT
+I don't know what you think, but I think it's a nice day.
+
+EB> A simpler example would be good here, too.
+
+Normal (unmarked) contrastive focus is also done by word order; it is immediately preverbal and not fronted.
+
+EB> Why is this kind "normal"?
+
+Cumulative focus is marked by the clitic =q.
+
+EB> What is cumulative focus?
+
+The compound verbs that are represented as one word are still not parsing correctly; this is because they need a hand-written rule in order to properly combine (since each part of the compound verb can take an explicit gender prefix).
+
+EB> Can you post and example of this to GoPost so we can talk about it
+in class tomorrow?  
+
+EB> Lots of your attributive adjective examples are also
+non-verbal predicate examples, which means they're not useful
+yet.  I suggest augmenting with simple intransitive or transitive
+sentences with adjectives inside the NPs.
+
+#42.1a Information Structure - Contrastive Focus (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: info
+Suona xoza di xet, hwuonam myshta dy xaac suona
+Suona xoza di xet, hwuona=m myshta d-y xaa-c suona
+1s.DAT nice day think, 2s.DAT=FOC how D-be.PRS know.PRS-NEG 1s.DAT
+*I don't know what you think, but I think it's a nice day.
+
+EB> What is ungrammatical about this one?
+
+#42.2a Information Structure - Cumulative Focus (incorrect)
+# (The speaker is asked for the name of the ravine behind her childhood house.)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: info
+Ealiiq oalar oaxa cynagh
+Ealii=q oal-ar oaxa cynagh
+gully=CUM say-IMPF 1pEX.ERG 3s.LAT
+We just called it the gully.
+
+EB> What is ungrammatical about this one?
+

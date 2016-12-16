@@ -1,0 +1,2030 @@
+Language: Huallaga Quechua
+Language code: qub
+Tiers: orth orth-seg gloss translat
+Author: Mayo Kudo
+Date: January 15, 2008
+Source a: Weber, David John. (1989)
+Source b: Lafebvre, C and Muysken P. (1988) 
+
+
+# MWG: Not all examples had all 4 lines, so I created the orth tier from the
+# orth-seg tier where needed.
+
+
+####################################################################################
+#NOTE:
+#
+#LAB3 NEW EXAMPLES START from #88. 
+#
+#PLEASE NOTE THAT THAT I WAS GLOSSING THE SUFFIXES WRONG IN LAB 2.
+#AS I WROTE IN THE WRITE-UP, QUECHUA SUFFIXES ENCODES 
+#THE PERSON OF THE SUBJECT AND OBJECT SIMULTANEOUSLY ALONG WITH TENSE,
+# SO I CORRECTED THE EXAMPLES I HAD IN THE LAST LAB. 
+#THE SYMBOL 'X>Y' IS USED TO INDICATE THE PERSON OF THE SUBJECT (X) AND 
+# THE PERSON OF THE OBJECT (Y). INTRANSITIVES DO NOT TAKE ANY OBJECT, SO 
+# ONLY THE PERSON OF THE SUBJECT IS INDICATED. 1 = FIRST PERSON, 2 = SECOND PERSON,
+# 3 = THIRD PERSON.
+#
+####################################################################################
+
+
+
+
+
+########################################################
+#                                                      # 
+#Each example should consist of the following:         #
+#                                                      #
+# Source: {a:page, b:page, author, elicited, attested} #
+# Vetted: {t, f, s}                                    #
+# Judgment: {g, u}                                     #
+# Phenomena: {word order, case, agreement, ...}        #
+# <Example in standard orthography> (optional)         # 
+# <Example in transliteration> (optional)              #  
+# <Example with morpheme boundaries>                   #
+# <Morpheme-by-morpheme glosses>                       #
+# <Free translation>                                   #
+#                                                      #
+########################################################
+
+
+####################################################
+#                                                  #
+#  Word Order: canonical word order is SOV         #
+#                                                  #
+####################################################
+
+#1
+
+Source: b:17
+Vetted: s
+Judgment: g
+Phenomena: {wo, agr}
+Xwan hamun
+Xwan hamu-n
+John come-3
+'John comes.'
+
+
+#2
+#The subject of the intransitive 'come' is taking the ACC case
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {c}
+Xwanta hamun
+Xwan-ta hamu-n
+Xwan-ACC come-3
+'John comes.'
+
+
+#3
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {agr}
+noqa hamun
+noqa hamu-n
+I come-1   
+'I come.'
+
+
+#4
+#the agreement is wrong. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+noqa hamu:
+noqa hamu-:
+I come-3
+'I come.'
+
+
+#5
+
+Source: a:15
+Vetted: s
+Judgment: g
+Phenomena: {wo, agr, c}
+Xwan Tumasta maqan
+Xwan Tumas-ta maqa-n
+John Tom-ACC hit-3>3
+'John hits Tom.'
+
+
+
+#6
+#the verb 'hit' is transitive. Only one of the NPs can take the
+# accusative marker. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr, c}
+Xwanta Tumasta maqan
+Xwan-ta Tumas-ta maqa-n
+Xwan-ACC Tom-ACC hit-3>3
+'John hits Tom.'
+
+
+#7
+#one of the NPs has to take the accusative marker. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {c}
+Xwan Tumas mawan
+Xwan Tumas mawa-n
+Xwan Tom hit-3>3
+'John hits Tom.'
+
+
+#8
+
+Source: b:21
+Vetted: s
+Judgment: g
+Phenomena: {wo, agr, c}
+Xwan papata mikhun
+Xwan papa-ta mikhu-n
+John potato-ACC eat-3>3
+'John eats potatoes.'
+
+#9
+
+Source: b:21
+Vetted: s
+Judgment: g
+Phenomena: {wo, agr, c}
+Xwan mikhun papata
+Xwan mikhu-n papa-ta
+John eat-3>3 potato-ACC
+'John eats potatoes.'
+
+
+#10
+#Xwan shuold be nominative. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {c}
+Xwanta mikhun patata
+Xwan-ta mikhu-n pata-ta
+John-ACC eat-3>3 potato-ACC
+'John eats potatoes.'
+
+
+#11
+#the direct object is taking a wrong suffix.
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+Xwan mikhun patapita
+Xwan mikhu-n pata-pita
+John eat-3>3 potato-ABL
+'John eats potatoes.'
+
+
+#12
+#subject marking anomaly
+
+Source: a: 12
+Vetted: s
+Judgment: g
+Phenomena: {agr, pro-d}
+maqamanchi
+maqa-ma-nchi
+hit-1.ACC-1.INCL
+'He hits us.'
+
+
+#13
+
+Source: b: 44
+Vetted: s
+Judgment: g
+Phenomena: {wo, agr}
+Mariya t'antata mikhun
+Mariya t'anta-ta mikhu-n
+Mariya bread-ACC eat-3>3
+'Mary eats bread.'
+
+
+#14
+
+Source: b: 44
+Vetted: s
+Judgment: g
+Phenomena: {wo, agr}
+Mariya mikhu-n t'antata
+Mariya mikhu-n t'anta-ta
+Mariya eat-3>3 bread-ACC
+'Mary eats bread.'
+
+
+#15
+
+Source: b: 44
+Vetted: s
+Judgment: g
+Phenomena: {wo, agr}
+t'antata mikhun Mariya
+t'anta-ta mikhu-n Mariya
+bread-ACC eat-3>3 Mariya
+'Mary eats bread.'
+
+
+#16
+
+Source: b: 44
+Vetted: s
+Judgment: g
+Phenomena: {wo, agr}
+t'antata Mariya mikhun
+t'anta-ta Mariya mikhu-n
+bread-ACC Mariya eat-3>3
+'Mary eats bread.'
+
+
+#17
+
+Source: b: 44
+Vetted: s
+Judgment: g
+Phenomena: {wo, agr}
+mikhun Mariya t'antata
+mikhu-n Mariya t'anta-ta
+eat-3>3 Mariya bread-ACC
+'Mary eats bread.'
+
+
+#18
+
+Source: b: 44
+Vetted: s
+Judgment: g
+Phenomena: {wo, agr}
+mikhun t'antata Mariya
+mikhu-n t'anta-ta Mariya
+eat-3>3 bread-ACC Mariya
+'Mary eats bread.'
+
+
+#19
+#the subject is not supposed to take any suffix. 
+#LIM=　limitative
+# why LIM?  I just chose a random suffix to make the sentence ungrammatical. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {c}
+mikhun t'antata Mariyakama
+mikhu-n t'anta-ta Mariya-kama
+eat-3>3 bread-ACC Mariya-LIM
+'Mary eats bread.'
+
+
+
+#20
+#not sure why the verb doesn't have suffixes. maybe an irregular verb?
+
+Source: a:11
+Vetted: s
+Judgment: g
+Phenomena: {wo, c, pro-d}
+Xwanta kuchita rantikusha
+Xwan-ta kuchi-ta rantikusha
+John-ACC pig-ACC sell.PST.3
+'He sold a/the pig to John.'
+
+
+#21
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {c}
+Xwan kuchi rantikusha
+Xwan kuchi rantikusha
+John pig sell.PST.3
+'He sold a/the pig to John.'
+
+
+#22
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {c}
+Xwanta kuchi rantikusha
+Xwan-ta kuchi rantikusha
+John-ACC pig sell.PST.3
+'He sold a/the pig to John.'
+
+
+
+#23
+#the verb doesn't indicate the subject-object relation. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+Xwan Tumasta maqa
+Xwan Tumas-ta maqa
+John Tom-ACC hit
+'John hits Tom.
+
+
+#24
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {neg, c, agr}
+mana John Tumasta maqanchu
+mana John Tumas-ta maqa-n-chu
+not John Tom-ACC hit-3>3-NEG
+'John does not hit Tom.'
+
+
+#25
+#the NP should be nominative
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {c}
+Xwan hamun
+Xwan hamu-n
+John-ACC come-3
+'John comes.'
+
+
+#26
+
+Source: a:37
+Vetted: s
+Judgment: g
+Phenomena: {pn, c, agr}
+pay noqata rikaman
+pay noqa-ta rika-man
+he.3sg I.1-ACC see-3>1
+'He sees me.'
+
+
+#27
+
+#Source: a:37
+#Vetted: s
+#Judgment: g
+#Phenomena: {pn, c, agr}
+#paypis noqallatami rikamanna
+#pay-pis noqa-lla-ta-mi rika-man-na
+#he.sg-also I.1sg-just-ACC-DIR see-3>1-now
+#'He too now sees just me.'
+
+
+#28
+
+Source: a:38
+Vetted: s
+Judgment: g
+Phenomena: {pn, agr}
+kiki: rurara:
+kiki-: rura-ra:
+self-1sg do-1.PST
+'I did it (emphasizing that it was me who did it).'
+
+
+#29
+#the agreement is wrong. The person of the subject and the emphatic
+#pronoun has to agree. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+kikiki rurara:
+kiki-ki rura-ra:
+self-2sg do-1.PST
+'I did it.'
+
+
+#30
+#The word for 'self' is not in the right form. 
+
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {pn}
+kiki rurara:
+kiki rura-ra:
+self do-1.PST
+'I did it.'
+
+
+#31
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {pn, agr, pro-d}
+noqata rikaman
+noqa-ta rika-man
+I.1sg-ACC see-3>1
+'He sees me.'
+
+
+#32
+
+Source: a:177
+Vetted: s
+Judgment: g
+Phenomena: {pn, agr}
+qam aywanki
+qam aywa-nki
+you.2sg go-2
+'You go.'
+
+
+#33
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {pn, agr, pro-d}
+aywanki
+aywa-nki
+go-2sg
+'You go.'
+
+
+#34
+#The person of the verb doesn't agree with the subject. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+noqanchi aywan
+noqanchi aywa-n
+we.1.PL.INCL go-3
+'We(incl) go.'
+
+
+#35
+
+Source: a:180
+Vetted: s
+Judgment: g
+Phenomena: {pn, c, agr}
+pay noqata maqamaran
+pay noqa-ta maqa-maran
+he.3sg I.1sg-ACC hit-3>1.PST
+'He hit me.'
+
+
+#36
+
+#Source: a:190
+#Vetted: s
+#Judgment: g
+#Phenomena: {c , agr}
+#nirkur hana-n-pita wayta-wan chapa-n ushaqpaq
+#then top-3.POSS-ABL flower-COM cover-3 completely
+#'Then they cover it (the cross) from top to bottom with flowers.'
+
+
+#37
+
+Source: a:190
+Vetted: s
+Judgment: g
+Phenomena: {c, agr}
+kaychaw arun Visaqpita
+kay-chaw aru-n Visaq-pita
+here-LOC work-3 Visaq-ABL
+'He works here (commuting) from Visaq.'
+
+
+
+
+#38
+
+Source: a:18
+Vetted: s
+Judgment: g
+Phenomena: {neg}
+mana musya:chu
+mana musya-:-chu
+not know-1-NEG
+'I do not know.'
+
+
+#39
+#'ama' should've been 'mana'. 'ama' is only used in imperatives. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+ama musya:chu
+ama musya-:-chu
+not know-1-NEG
+'I do not know.'
+
+
+#40 
+#the negation marker is missing on the verb.
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+mana musya:
+mana musya-:
+not know-1
+'I do not know.'
+
+
+
+
+
+#41
+
+Source: a:19
+Vetted: s
+Judgment: g
+Phenomena: {neg, agr, ta}
+aywashaqchu
+aywa-shaq-chu
+go-1.FUT-NEG
+'I will not go.'
+
+
+#42
+#the position of the negation marker is wrong. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+aywachushaw
+aywa-chu-shaw
+go-NEG-1.FUT
+'I will not go.'
+
+
+
+#43
+
+Source: a:65
+Vetted: s
+Judgment: g
+Phenomena: {agr, c}
+achkata qomaran
+achka-ta qo-maran
+much-ACC give-3>1.PST
+'He gave me a lot.'
+
+
+#44
+#1sg object is marked by the suffix -ma. noqa is not a suffix. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {ta} 
+achkata qonoqaran
+achka-ta qo-noqa-ran
+much-ACC give-1sg-3>3.PST
+'He gave me a lot.'
+
+
+#45
+# achka 'much' has to take the accusative marker. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {c}
+achka qomaran
+achka qo-maran
+much give-3>1.PST
+'He gave me a lot.'
+
+
+#46
+
+Source: a:66
+Vetted: s
+Judgment: g
+Phenomena: {wo, det}
+taqay allaapa awkisna
+taqay allaapa awkis-na
+that too old-now
+'That one is too old now.'
+
+
+#47
+#-ta is also used as an adverb marking morpheme
+
+Source: a:68
+Vetted: s
+Judgment: g
+Phenomena: {agr, wo, c}
+chaninta kubran
+chanin-ta kubra-n
+expensive-ADV charge-3
+'He charges a lot.'
+
+
+#48
+#'chanin' has to take some kind of suffix
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {c}
+chanin kubran
+chanin kubra-n
+expensive charge-3
+'He charges a lot.'
+
+
+
+#49
+
+Source: a:73
+Vetted: s
+Judgment: g
+Phenomena: {ta, neg, agr}
+mana rurashka:chu
+mana rura-shka-:-chu
+not do-PFV-1-NEG
+'I did not do it.'
+
+
+#50
+#wrong negative word. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+ama rurashka:chu
+ama rura-shka-:-chu
+not do-PFV-1-NEG
+'I did not do it.'
+
+
+#51
+#the negative suffix missing.
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+mana rurashka:
+mana rura-shka-:
+not do-PFV-1
+'I did not do it.'
+
+
+
+#52
+
+Source: a:96
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+aywa:kuna
+aywa-:kuna
+go-1.EXCL.PL
+'we(excl) go.'
+
+
+#53
+
+Source: a:98
+Vetted: s
+Judgment: g
+Phenomena: {pn, wo, agr}
+noqa hatun ka:
+noqa hatun ka-:
+I big be-1
+'I am big.'
+
+
+#54
+#the aux -ka: is missing. The empty aux indicates '3rd person aux'.
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+noqa hatun
+noqa hatun
+I big
+'I am big.'
+
+
+
+
+#55
+
+Source: a:98
+Vetted: s
+Judgment: g
+Phenomena: {pn, agr}
+pay hatun 
+pay hatun 
+he big
+'He is big.'
+
+
+
+#56
+#wrong aux
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+pay hatun kanki
+pay hatun ka-nki
+he big be-2
+'He is big.'
+
+
+#57
+#wrong aux
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+noqakuna hatun ka:kuna
+noqa-kuna hatun ka-:kuna
+I-PL big be-1.PL.EXCL
+'We are big.'
+
+
+
+
+#58
+#the position of 'mana' is wrong. it has to come before 'noqa'.
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+noqa mana musya:chu
+noqa mana musya-:-chu
+I not know-1-NEG
+'I do not know.'
+
+
+#59
+
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {pn, agr, pro-d}
+rikaman
+rika-man
+see-3>1
+'He sees me.'
+
+
+#60
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+rikan
+rika-n
+see-3>3
+'He sees me.'
+
+
+#61
+#The form of the suffix is wrong.
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+rikama
+rika-ma
+see-1.ACC
+'He sees me.'
+
+#62
+
+Source: a:19
+Vetted: s
+Judgment: g
+Phenomena: {q, c, ta}
+Mariya Xwantachu maqasha
+Mariya Xwan-ta-chu maqa-sha
+Mary John-ACC-Q hit-3>3.PRF
+'Did Mary hit John? (or did she hit someone else?)'
+
+
+#63
+#Xwan must take the ACC case
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {c}
+Mariya Xwanchu maqasha
+Mariya Xwan-chu maqa-sha
+Mary John-Q hit-3>3.PRF
+'Did Mary hit John?'
+
+
+#64
+
+Source: a:19
+Vetted: s
+Judgment: g
+Phenomena: {q, c, ta}
+Mariya Xwantaqa maqashachu
+Mariya Xwan-ta-qa maqa-sha-chu
+Mary John-ACC-TOP hit-3>3.PRF-Q
+'Did Mary hit John? (or did she hit someone else?)'
+
+
+
+#65
+#no focal marker on Mariya or Xwan
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {q}
+Mariya Xwanta maqashachu
+Mariya Xwan-ta maqa-sha-chu
+Mary John-ACC hit-3>3.PRF-Q
+'Did Mary hit John?'
+
+
+#66
+
+Source: a:76
+Vetted: s
+Judgment: g
+Phenomena: {q, c, neg}
+aywankichu
+aywa-nki-chu
+go-2-Q
+'Are you going?'
+
+
+#67
+#'mana (not)' can be omitted in some sentences.'
+
+Source: a:76
+Vetted: s
+Judgment: g
+Phenomena: {q, c, neg}
+aywankichu
+aywa-nki-chu
+go-2-NEG
+'You are not going.'
+
+
+#68
+
+Source: a:76
+Vetted: s
+Judgment: g
+Phenomena: {c, neg}
+mana aywankichu
+mana aywa-nki-chu
+not go-2-NEG
+'You are not going.'
+
+
+#69
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {q. c, ta}
+Mariyaqa Xwanta maqashachu
+Mariya-qa Xwan-ta maqa-sha-chu
+Mary-TOP John-ACC hit-3>3.PRF-Q
+'Did Mary hit John? (or did someone else hit John?)'
+
+
+
+#70
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {q, c}
+Mariyaqa Johnta  maqan
+Mariya-qa John-ta  maqa-n
+Mary-TOP John-ACC hit-3>3
+'Does Mary hit John? (or does someone else hit John?)'
+
+
+#71
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {pn, q, agr}
+noqakuna hatun ka:kunachu
+noqa-kuna hatun ka-:kuna-chu
+I-PL big be-1.PL.EXCL
+'Are we big?'
+
+
+#72
+# -TOP ... -Q to form a question
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {q, agr, c}
+Mariya t'antataqa mikhunchu
+Mariya t'anta-ta-qa mikhu-n-chu
+Mariya bread-ACC-TOP eat-3>3-Q
+'Does Mary eat bread (or something else)?'
+
+
+
+#73
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {q, agr, c}
+Mariya t'antataqa mikhunchu
+Mariya t'anta-ta-qa mikhu-n-chu
+Mariya bread-ACC eat-3>3-NEG
+'Mary does not eat bread.'
+
+
+
+#74
+#the negation word 'mana' is missing.
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+t'antata mikhun Mariyachu
+t'anta-ta mikhu-n Mariya-chu
+bread-ACC eat-3>3 Mariya-NEG
+'Mary does not eat bread.'
+
+
+#75
+#The position of the negative marker is wrong.
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+t'antata mikhun Mariyachu
+t'anta-ta mikhu-n Mariya-chu
+bread-ACC eat-3>3 Mariya-Q
+'Does Mary eat bread?'
+
+
+#76
+# the position of the negation marker is wrong.
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+t'antata mikhun Mariyachu
+t'anta-ta-chu mikhu-n Mariya
+bread-ACC-NEG eat-3>3 Mariya
+'Mary does not eat bread.'
+
+
+#77
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {agr, neg}
+t'antatachu mikhun Mariya
+t'anta-ta-chu mikhu-n Mariya
+bread-ACC-Q eat-3>3 Mariya
+'Does Mary eat bread?'
+
+
+
+#78
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+aywa:kunachu
+aywa-:kuna-chu
+go-1.EXCL.PL-NEG
+'we(excl) do not go.'
+
+
+
+#79
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {pn}
+aywa:kunachu
+aywa-:kuna-chu
+go-1.EXCL.PL-Q
+'Are we(excl) going?'
+
+
+
+#80
+
+Source: a:17
+Vetted: s
+Judgment: g
+Phenomena: {wo}
+weqruyllapa purin
+weqruyllapa puri-n
+limpingly walk.3
+'He walks limpingly.'
+
+
+#81
+#the modifier has to precede the head. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {wo}
+purin weqruyllapa
+puri-n weqruyllapa
+walk-3 limpingly
+'He walks limpingly.'
+
+
+#82
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {wo}
+hatun runa
+hatun runa
+big man
+'He is a big man.'
+
+
+#83
+#the modifier has to precede the head.
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {wo}
+runa hatun
+runa hatun
+man big
+'He is a big man.'
+
+
+#84
+
+Source: a:36
+Vetted: s
+Judgment: g
+Phenomena: {wo, agr, c}
+hatunta rika:
+hatun-ta rika-:
+big-ACC see-1>3
+'I see a/the big (one).'
+
+
+
+#85
+#the ACC case marker is missing
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {wo}
+hatun rika:
+hatun rika-:
+big see-1>3
+'I see a/the big (one).'
+
+
+#86
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {} #noun phrase
+taqay hatun kaykan
+taqay hatun ka-yka-n
+that big be-IPFV-3
+'That one is big/a big one.'
+
+
+
+#87
+
+Source: a:36
+Vetted: s
+Judgment: g
+Phenomena: {} #noun phrase
+taqay rumi kaykan
+taqay rumi ka-yka-n
+that stone be-IPFV-3
+'That one is stone/a stone.'
+
+
+
+
+
+
+########################################################
+#
+# LAB 3:
+# Due: Jan 25, 2008
+# 
+#######################################################
+
+
+#88
+Source: a:340
+Vetted: s
+Judgment: g
+Phenomena: {neg, agr}
+mana puydi:chu
+mana puydi-:-chu
+not be:able-1>3-NEG
+'I can't do it'
+
+#89
+#cannot be interpreted as 'non-exasperated' negation
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+puydi:chu mana
+puydi-:-chu mana
+be:able-1>3-NEG not
+'I can't do it.'
+
+
+#90
+#"exasperated negation"
+
+Source: a:340
+Vetted: s
+Judgment: g
+Phenomena: {neg, agr}
+rima:chu mana
+rima-:-chu mana
+speak-1-NEG not
+'I can't speak!'
+
+
+#91
+
+Source: a:104
+Vetted: s
+Judgment: g
+Phenomena: {m, agr, c}
+listuta rurashwan fistakunapata
+listu-ta rura-shwan fista-kuna-pa-ta
+list-ACC make-12>3.COND fiesta-PL-GEN-ACC
+'We could/should make a list of the fiestas.'
+
+
+
+#92
+#The internal order of the suffix is wrong on the verb 'make'
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+listuta ruranman fistakunapata
+listu-ta rura-nman fista-kuna-pa-ta
+list-ACC make-3>3.COND fiesta-PL-GEN-ACC
+'We could/shuold make a list of the fiestas.'
+
+
+#93
+
+Source: a:104
+Vetted:	s
+Judgment: g
+Phenomena: {m, agr}
+qam punyunkiman
+qam punyu-nkiman
+you sleep-2.COND
+'You should be asleep.'
+
+
+
+
+#94
+#DUB = dubitive
+
+Source: a:104
+Vetted: s
+Judgment: g
+Phenomena: {m}
+rurayta puydi:manchuraq
+rura-y-ta puydi-:man-churaq
+do-INF-ACC be:able-1.COND-DUB
+'I might be able to do it, but maybe not., or I wonder if I could do it.'
+
+
+#95
+#ITER = iterative
+
+Source: a:150
+Vetted: s
+Judgment: g
+Phenomena: {ta, agr}
+pichakachan
+picha-kacha-n
+sweep-ITER-3
+'He sweeps it, a little here, a little there.'
+
+
+#96
+#the iterative marker has to come before the person marker
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {wo}
+pichankacha
+picha-n-kacha
+sweep-3-ITER
+'He sweeps it, a little here, a little there.'
+
+#97
+#wrong iterative marker. -cha: is only used with certain suffixes
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {ta}
+pichacha:n
+picha-cha:-n
+sweep-ITER-3
+'He sweeps it, a little here, a little there.'
+
+
+#98
+
+Source: a: 147
+Vetted: s
+Judgment: g
+Phenomena: {ta, agr}
+aypara:mun
+aypa-ra:-mu-n
+reach-DUR-afar-3
+'It reaches (to here) (e.g. said of a tree on the opposite bank of a river whose branches reach over to where the speaker is)'
+
+#99
+#the position of the durative marker is wrong. It has to come before the person marker. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {wo}
+aypamunra:
+aypa-mu-n-ra:
+reach-afar-3-DUR
+'It reaches (to here).'
+
+
+#100
+#SUB = subordinator
+#naw means 'similarity', but the example in the reference grammar has it glossed as SIM
+#perfective aspect
+
+Source: a:109
+Vetted: s
+Judgment: g
+Phenomena: {ta, c, agr}
+chaynaw achkata mikuq ka:kuna
+chay-naw achka-ta miku-q ka-:kuna
+that-SIM many-ACC eat-SUB be-1.PL.EXCL
+'In that way, we used to eat many.'
+
+#101
+#subordinator is missing
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {wo}
+chaynaw achkata miku ka:kuna
+chay-naw achka-ta miku ka-:kuna
+that-SIM many-ACC eat be-1.PL.EXCL
+'In that way, we used to eat many.'
+
+#102
+#the auxiliary and the main verb? are switched
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {wo} 
+chaynaw achkata ka:kuna mikuq
+chay-naw achka-ta ka-:kuna miku-q
+that-SIM many-ACC be-1.PL.EXCL eat-SUB
+'In that way, we used to eat many.'
+
+
+#103
+
+Source: a:110
+Vetted: s
+Judgment: g
+Phenomena: {ta, c}
+biyaahita puriq kasha
+biyaahi-ta puri-q ka-sha
+trip-ACC travel-SUB be-3.PRF
+'He used to go on trips.'
+
+#104
+
+Source: a:147
+Vetted: s
+Judgment: g
+Phenomena: {ta, agr}
+punyuraykan
+punyu-ra-yka-n
+sleep-DUR-IPFV-3
+'He is sleeping/he remains asleep.'
+
+
+#105
+
+Source: a:147
+Vetted: s
+Judgment: g
+Phenomena: {ta, agr}
+punyuykan
+punyu-yka-n
+sleep-IPFV-3
+'He is sleeping (emphasizing that he is sleeping for an extended period of time).'
+
+
+#106
+#the position of the aspect markers is wrong
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {wo}
+punyunrayka
+punyu-n-ra-yka
+sleep-3-DUR-IPFV
+'He is sleeping.'
+
+
+#107
+
+Source: a:289
+Vetted: s
+Judgment: g
+Phenomena: {emb-d, agr, c}
+qanyan aywashaykita musya:
+qanyan aywa-shayki-ta musya-:
+yesterday go-2.SUB-ACC know-1
+'I know that you went yesterday.'
+
+
+#108
+#The ACC marker missing
+#the [ ] marks the embedded part. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {c}
+[ qanyan aywashayki ] musya:
+[ qanyan aywa-shayki ] musya-:
+[ yesterday go-2.SUB ] know-1
+'I know that you went yesterday.'
+
+#109 
+#the substantivizer is replaced with the past tense marker.
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {emb-d}
+[ qanyan aywarayki ] musya:
+[ qanyan aywa-rayki ] musya-:
+[ yesterday go-2.PST ] know-1
+'I know that you went yesterday.'
+
+
+#110
+#the square brackets mark the embedded clause
+
+Source: a:332
+Vetted: s
+Judgment: g
+Phenomena: {emb-q}
+rimeeru tihirata rikanchi [ sumaq fiinu kashan] ta 
+rimeeru tihira-ta rika-nchi [ sumaq fiinu ka-shan] -ta 
+first scissor-ACC see-12 [ very sharp be-3.SUB ]-ACC 
+'First, we see whether (or not) the scissors are very sharp.'
+
+#111
+#the embedded clause is before the main verb.
+#but I'm not sure if it's really ungrammatical
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {wo}
+sumaq fiinu kashanta rimeeru tishirata rikanchi
+sumaq fiinu ka-shan-ta rimeeru tishira-ta rika-nchi
+very sharp be-3.SUB-ACC first scissor-ACC see-12
+'First, we see whether (or not) the scissors are very sharp.'
+
+#113
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {ta}
+kuneju culebrata mikhuran
+kuneju culebra-ta mikhu-ran
+rabbit snake-ACC eat-3.PST
+'The/a rabbit ate the/a snake.'
+
+
+#114
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {ta}
+chuschu gallitaskuna watyanqa
+chuschu gallitas-kuna watya-nqa
+boy cookie-PL bake-3>3.FUT
+'The/a boy will bake cookies.'
+
+#115
+#the demonstrative has to precede the head
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {wo}
+allgukuna kay punyun
+allgu-kuna kay punyu-n
+dog-PL this sleep-3
+'these dogs sleep.'
+
+#116
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {} #noun phrase
+chay kunejuta mikhuyta muna:
+chay kuneju-ta mikhu-y-ta muna-:
+that rabbit-ACC eat-INF-ACC want-1
+'I want to eat that rabbit.'
+
+
+#117
+
+#infinitive marker is missing
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {emd-d}
+chay kunejuta mikhuta muna:
+chay kuneju-ta mikhu-ta muna-:
+that rabbit-ACC eat-ACC want-1
+'I want to eat that rabbit.'
+
+#118
+
+Source: a:117
+Vetted: s
+Judgment: g
+Phenomena: {emd-d}
+rikananta munan
+rika-nan-ta muna-n
+see-3.SUB-ACC want-3
+'I want him to see it.'
+
+#119
+#in Quechua, 'I want him to see it' is expressed as 'I want (that) he sees it.'
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {emd-d}
+rikananta munan
+rika-nan-ta pay-ta muna-n
+see-3.SUB-ACC he.3sg-ACC want-3
+'I want him to see it.'
+
+#120
+#wrong transition. 'want' is not a strict transitive in Quechua
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {emd-d}
+rikananta muna:
+rika-nan-ta muna-:
+see-3.SUB-ACC want-1>3
+'I want him to see it.'
+
+#121
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {ta}
+mishi punyuran
+mishi punyu-ran
+cat sleep-3.PST
+'(the) cat slept.'
+
+#122
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {ta}
+aywanqa
+aywa-nqa
+he-3.FUT
+'He will go.'
+
+
+
+#123
+#the conditional marker is attaching to a noun. 
+
+Source: author
+Vetted:	s
+Judgment: g
+Phenomena: {m}
+qamnkiman punyu
+qam-nkiman punyu
+you-2.COND sleep
+'You should be asleep.'
+
+
+
+
+#124
+#DUB = dubitive
+#the conditional marker should be placed after the main verb stem.
+
+Source: a:104
+Vetted: s
+Judgment: u
+Phenomena: {m}
+ruray:manta puydichuraq
+rura-y-:man-ta puydi-churaq
+do-INF-1.COND-ACC be:able-DUB
+'I might be able to do it, but maybe not., or I wonder if I could do it.'
+
+
+#125
+#the embedded clause 'dogs cahse cars' is not taking the substantivizer. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {emd-q}
+tapu: allgukuna autukunata gatinta musyashaykita
+tapu-: allgu-kuna autu-kuna-ta gati-n-ta musya-shayki-ta
+ask-1 dog-PL car-PL-ACC chase-3>3-ACC know-2>3.SUB-ACC
+'I ask whether you know that dogs chase cars.'
+
+#126
+#the main verb has to come first. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {emd-q}
+allgukuna autukunata gatishanta musyashaykita tapu: 
+allgu-kuna autu-kuna-ta gati-shan-ta musya-shayki-ta tapu-: 
+dog-PL car-PL-ACC chase-3>3.SUB-ACC know-2>3.SUB-ACC ask-1 
+'I ask whether you know that dogs chase cars.'
+
+#127
+#the main verb has to come at the end.
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {emd-d, agr, c}
+ayarpa: llgukuna autokunata gatishanta musyashaykita 
+ayarpa-: llgu-kuna auto-kuna-ta gati-shan-ta musya-shayki-ta 
+think-1 dog-PL car-PL-ACC chase-3>3.SUB-ACC know-2>3.SUB-ACC 
+'I think that you know that dogs chase cars.'
+
+#128
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {neg, ta}
+mana mayashka:chu
+mana maya-shka-:chu
+not sense-PFV-1-NEG
+'I didn't hear it.'
+
+#129
+
+Source: a:347
+Vetted: s
+Judgment: g
+Phenomena: {crd, c}
+rantin awrindita kukata sigaaruta
+ranti-n awrindi-ta kuka-ta sigaaru-ta
+buy-3>3 fire:water-ACC coca-ACC cigarette-ACC
+'they (he/she) buy firewater, coca, and cigarettes. 
+
+#130
+#the word for 'firewater' is not taking the accusative marker. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {c}
+rantin awrindi kukata sigaaruta
+ranti-n awrindi kuka-ta sigaaru-ta
+buy-3>3 fire:water coca-ACC cigarette-ACC
+'they (he/she) buy firewater, coca, and cigarettes. 
+
+#131
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {crd, c}
+rantin awrindita y kukata y sigaaruta
+ranti-n awrindi-ta y kuka-ta y sigaaru-ta
+buy-3>3 fire:water-ACC and coca-ACC and cigarette-ACC
+'they (he/she) buy firewater, coca, and cigarettes. 
+
+#132
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+parlan upyan chawchan
+parla-n upya-n chawcha-n
+speak-3 drink-3 chew:coca-3
+'they speak, drink, and chew coca.'
+
+#133
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+parlan y upyan y chawchan
+parla-n y upya-n y chawcha-n
+speak-3 and drink-3 and chew:coca-3
+'they speak, drink, and chew coca.'
+
+
+#134
+#'speak' is not taking the transition marker. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+parla y upyan y chawchan
+parla y upya-n y chawcha-n
+speak and drink-3 and chew:coca-3
+'they speak, drink, and chew coca.'
+
+
+#135
+#the last verb is not taking the transition marker. 
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agr}
+parlan upyan chawcha
+parla-n upya-n chawcha
+speak-3 drink-3 chew:coca
+'they speak, drink, and chew coca.'
+
+#136
+#the word for 'hungry' has to come before the word for 'dog'
+
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {wo}
+allgukuna yargaykaj mikun
+allgu-kuna yargaykaj miku-n
+dog-PL hungry eat-3
+'Hungry dogs eat'
+ 
+
+#137
+#when a verb takes the INF marker, the transition marker is omitted. 
+
+Source: a:289
+Vetted: s
+Judgment: g
+Phenomena: {emb-d ?}
+muchayta muna:
+mucha-y-ta muna-:
+kiss-INF-ACC want-1
+'I want to kiss (her).'
+
+#138
+#the infinitive verb is taking the transition marker.
+ 
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {emb-d ?}
+mucha:yta muna:
+mucha-:-y-ta muna-:
+kiss-1>3-INF-ACC want-1
+'I want to kiss (her).'
+
+
+
+########################################
+#
+#	MMT
+#
+########################################
+
+
+#1 dogs sleep
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {wo, agr}
+allgukuna punyun
+allgu-kuna punyu-n
+dog-PL sleep-3
+'Dogs sleep.'
+
+
+#2 dogs chase cars
+
+#MWG: also added translation here
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {wo, c, agr}
+allgukuna autukunata gatin
+allgu-kuna autu-kuna-ta gati-n
+dogs-PL car-PL-ACC chase-3>3
+'Dogs chase cars.'
+
+
+#3 I chase you
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {pn, c, agr}
+qamta gati:
+qam-ta gati-:
+you-ACC chase-1>2
+'I chase you.'
+
+
+
+#4 These dogs sleep
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {c, agr}
+kay allgukuna punyun
+kay allgu-kuna punyu-n
+this dog-PL sleep-3
+'these dogs sleep.'
+
+
+
+#5 Dogs eat
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {c, agr}
+allgukuna mikun
+allgu-kuna miku-n
+dog-PL eat-3
+'Dogs eat.'
+
+
+
+#6 I can eat glass
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {emd-d, c, agr}
+bidryuta mikuyta puydi:
+bidryu-ta miku-y-ta puydi-:
+glass-ACC eat-INF-ACC be:able-1
+'I can eat glass.'
+
+
+#7 it doesn't hurt me
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {neg, agr}
+nanaman
+nana-man
+hurt-3>1
+'It doesn't hurt me.'
+
+
+
+#8 the dogs chase cars
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {c, agr}
+allgukuna autukunata gatin
+allgu-kuna autu-kuna-ta gati-n
+dog-PL car-PL-ACC chase-3>3
+'(the) dogs chase cars.'
+
+
+
+#9 I think that you know that dogs chase cars.
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {emd-d, agr, c}
+allgukuna autokunata gatishanta musyashaykita yarpa:
+allgu-kuna auto-kuna-ta gati-shan-ta musya-shayki-ta yarpa-:
+dog-PL car-PL-ACC chase-3>3.SUB-ACC know-2>3.SUB-ACC think-1
+'I think that you know that dogs chase cars.'
+
+
+
+#10 I ask whether you know that dogs chase cars
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {emd-q, agr, c}
+tapu: allgukuna autukunata gatishanta musyashaykita
+tapu-: allgu-kuna autu-kuna-ta gati-shan-ta musya-shayki-ta
+ask-1 dog-PL car-PL-ACC chase-3>3.SUB-ACC know-2>3.SUB-ACC
+'I ask whether you know that dogs chase cars.'
+
+
+
+#11 cats and dogs chase cars
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr, c}
+autukunata mishikuna allgukuna gatin
+autu-kuna-ta mishi-kuna allgu-kuna gati-n
+car-PL-ACC cat-PL dog-PL chase-3
+'cats and dogs chase cars.'
+
+
+#12 dogs chase cars and cats chase dogs
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr, c}
+allgukuna autukunata gatin y mishikuna allgukunata gatin
+allgu-kuna autu-kuna-ta gati-n y mishi-kuna allgu-kuna-ta gati-n
+dog-PL car-PL-ACC chase-3>3 and cat-PL dog-PL-ACC chase-3>3
+'dogs chase cars and cats chase dogs.'
+
+
+#13 cats chase dogs and sleep
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr, c}
+mishikuna allgukunata gatin y punyun
+mishi-kuna allgu-kuna-ta gati-n y punyu-n
+cats-PL dogs-PL-ACC chase-3>3 and sleep-3
+'cats chase dogs and sleep.'
+
+
+
+#14 Do cats chase dogs?
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {q, c, agr}
+mishikunachu allgukuna gatin
+mishi-kuna-chu allgu-kuna gati-n
+cat-PL-Q dog-PL chase-3>3
+'Do cats chase dogs (the focus is cats)?'
+
+
+#14 Do cats chase dogs?
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {q, c, agr}
+mishikuna allgukunachu gatin
+mishi-kuna allgu-kuna-chu gati-n
+cat-PL dog-PL-Q chase-3>3
+'Do cats chase dogs (the focus is dogs)?'
+
+
+
+#15 chase the dog!
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {imp, agr}
+allguta gatiy
+allgu-ta gati-y
+dog-ACC chase-2.IMP
+'chase the dog!'
+
+
+#16 Hungry dogs eat
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {agr}
+yargaykaj allgukuna mikun
+yargaykaj allgu-kuna miku-n
+hungry dog-PL eat-3
+'Hungry dogs eat'
+ 
+
+#17 Hungry dogs eat quickly.
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {agr}
+yargaykaj allgukuna apura mikun
+yargaykaj allgu-kuna apura miku-n
+hungry dog-PL quickly eat-3
+'Hungry dogs eat quickly.'
+
+
+
+

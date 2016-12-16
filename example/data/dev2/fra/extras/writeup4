@@ -1,0 +1,512 @@
+LAB4
+
+1. Documentation of the new or revised choices you made in the customization system, illustrated with examples from your test suite. (Diff your lab3 and lab4 choices files to make sure you've caught all the changes.) 
+
+=== Lab 3 cleanup === 
+* In negative constructions, I'd originally considered the ne to be a negating adverb and the -pas to be a suffix on the verb.  I reversed this to keep in line with current linguistic theory. 
+** As a consequence, the samples from my test suite were changed from:
+#1
+Source: author
+Vetted: f
+Judgment: g
+Phenom: neg
+La fille ne mange pas le biscuit 
+la         fille    ne  mang.e-pas  le      biscuit
+the.non2SG girl.3SG not eat.3SG-not the.3SG cookie.3SG 
+'The girl does mot eat the cookie' / 'the girl is not eating the cookie' 
+
+with the -pas attaching to the verb as a suffix, to: 
+
+#148
+Source: author
+Vetted: f
+Judgment: g
+Phenom: neg
+La fille ne-mange pas le biscuit 
+la         fille    ne-mang.e pas  le      biscuit
+the.non2SG girl.3SG not eat.3SG-not the.3SG cookie.3SG 
+'The girl does mot eat the cookie' / 'the girl is not eating the cookie'  
+
+with the ne- attaching to the verb as a prefix.
+
+* In my attempt to implement the past perfective tense, I'd listed the conjugations of the verb avoir (to have) as slots of a single auxiliary type.  Since the customization system did not allow me to specify features of these types, I revised this to make each PER-NUM combination its own aux slot.  This was an implementation detail and didn't really affect the test suite. 
+
+* I added sentences with demonstrative determiners throughout.  These were missing from last week's test suite.
+#59 
+Source: author
+Vetted: f
+Judgment: g
+Phenom: agr 
+ce garçon mange le gâteau 
+ce           garçon       mang.e   le           gâteau
+this.3SG-masc boy.3SG-masc eats.3SG   the.3SG-masc cake.3SG-masc 
+'a boy eats the cake' 
+
+#60
+Source: author
+Vetted: f
+Judgment: g
+Phenom: agr 
+le garçon mange ce gâteau 
+le           garçon       mang.e   ce           gâteau
+The.3SG-masc boy.3SG-masc eats.3SG this.3SG-masc cake.3SG-masc 
+'The boy eats this cake' 
+
+=== Lab 4 === 
+
+* Matrix yes/no questions - French achieves this in 2 ways (other than intonation).  It uses subject-verb inversion on the main verb of the sentence (the verb, or the auxiliary if present), OR a sentence initial particle, est-ce-que.  
+
+I showed some positive examples of both of these constructions:
+
+#243  
+Source: author
+Vetted: f
+Judgment: g
+Phenom: q
+mange le garçon le gâteau?
+mang.e   le           garçon       le           gâteau?
+eat.non2SG the.3SG-masc boy.3SG-masc the.3SG-masc cake.3SG-masc 
+'is the boy eating the cake?' 
+
+#244
+Source: author
+Vetted: f
+Judgment: g
+Phenom: q
+est-ce-que le garçon mange le gâteau?
+est-ce-que le           garçon       mang.e  le           gâteau?
+is         the.3SG-masc boy.3SG-masc eat.3SG the.3SG-masc cake.3SG-masc
+'is the boy eating the cake?' 
+
+In each tense: 
+
+#260 future perfective
+Source: author
+Vetted: f
+Judgment: g
+Phenom: q, tam 
+mangerons nous les biscuits 
+mang.erons nous les biscuits
+eat.1PL-FUT-PFV we.1PL the.3PL cookies.3PL-masc
+'will we eat the cookies?' / 'Are we going to eat the cookies?' 
+
+#261 Past Perfective
+Source: author
+Vetted: f
+Judgment: g
+Phenom: q, tam 
+as tu mangé la pomme?
+as               tu      mang.é       la          pomme?
+have.2SG-PST-PFV you.2SG eat.PST-PTCP the.3SG-fem apple.3SG-fem 
+'have you eaten the apple?' 
+
+Then some ungrammatical examples of this, where both est-ce-que and subject-verb inversion were used:
+
+#256 With both est-ce que and S-V inversion  
+Source: author
+Vetted: f
+Judgment: u
+Phenom: q
+est-ce-que mangez vous les biscuits?
+est-ce que mang.ez vous    les     biscuits 
+are        eat.3PL you.2PL the.3PL cookies.3PL-masc 
+'are you eating the cookies?' 
+
+This parsed, I suppose because the customization system doesn't allow one to specify that if one method is being used, the other shouldn't be allowed.  
+
+
+* Coordination - French uses a monosyndeton means of coordination, where the coordinand is specified prior to the last conjunct.  The coordinand is an independent word, 'et' and can be used to coordinate NPs, VPs, sentences, adjectives, and adverbs.
+
+In my test suite, I tried examples of NPs and VPs.  I left out the adjectives and adverbs because none have been input yet:
+
+#262 Coordinating the subject 
+Source: author
+Vetted: f
+Judgment: g
+Phenom: crd
+la fille et le garçon mangent les biscuits 
+la          fille        et  le           garçon       mang.ent les     biscuits
+the.3SG-fem girl.3SG-fem and the.3SG-masc boy.3SG-masc eat.3PL  the.3PL cookies.3PL-masc 
+'the girl and the boy are eating the cookies' 
+
+#263 Coordinating the object
+Source: author
+Vetted: f
+Judgment: g
+Phenom: crd
+je mange les biscuit et la pomme
+je    mang.e     les     biscuit     et  la          pomme
+i.1SG eat.non2SG the.3PL cookies.3PL and the.3SG-fem apple.3SG-fem
+'I am eating the cookies and an apple.' 
+
+#264 Coordinating VPs
+Source: author
+Vetted: f
+Judgment: g
+Phenom: crd 
+Tu manges le biscuit et penses
+tu  mang.es le           biscuit         et  penses.
+you eat.2SG the.3SG-masc cookie.3SG-masc and think.2SG
+'you are eating the cookie and thinking' 
+
+#266 Coordinating sentences
+Source: author
+Vetted: f
+Judgment: g
+Phenom: crd
+nous mangeons les biscuits et tu manges une pomme
+nous   mang.eons les     biscuits         et  tu      mang.es une        pomme
+we.1PL eat.1PL   the.3PL cookies.3PL-masc and you.2SG eat.2SG an.3SG-fem apple.3SG-fem 
+'we eat the cookie and you eat the apple.' 
+
+Where the subject was coordinated, the verb should then become plural.  Unfortunately, at this time, it does not. 
+Where the object was coordinated, these parsed as was expected.
+Where 2 VPs were coordinated, it did not parse.  I suspect it is because the second verb doesn't know to combine with the subject of the entire sentence.
+Where 2 sentences were coordinated, it parsed as expected. 
+
+* Attributive Adjectives - agree with the noun they modify in gender and number. 
+** Adjectives of nationality, physical characteristics, participles used as adjectives, and adjectives qualified by an adverb go after the noun 
+** Some adjectives usually go before the noun (and after the determiner).  Beau, belle, bon, dernier, grand, petit.  
+** Yet others change their meaning according to whether they're before or after the noun.
+
+So, unless I have a means to categorize these based on where they can go, it looks like they can go either before or after the verb, with the risk of altering the semantics of the sentence. 
+
+I made some test sentences with the adjective in both the subject, and the object:
+
+#271 
+Source: author
+Vetted: f
+Judgment: g
+Phenom: adj 
+les grands enfants mangent 
+les      grand.s enfant.s    mang.ent 
+the.3PL big.PL   children.PL eat.3PL 
+'the big children eat' 
+
+#272
+Source: author
+Vetted: f
+Judgment: g
+Phenom: adj
+la fille mange un petit biscuit
+la          fille        mang.e      un         petit         biscuit
+the.3SG-fem girl.3SG-fem eats.non2SG a.3PL-masc small.SG-masc cookie.3SG-masc 
+'the girl eats a small cookie'
+
+And then, for ungrammatical examples, I used some agreement issues:
+
+#277 Dischord between adj and noun 
+Source: author
+Vetted: f
+Judgment: u
+Phenom: adj, agr
+la fille mange un petite biscuit
+la          fille        mang.e      un         petite         biscuit
+the.3SG-fem girl.3SG-fem eats.non2SG a.3PL-masc small.SG-fem cookie.3SG-masc 
+'the girl eats a small cookie'
+
+and a word order issue:
+
+#279 Word Order
+Source: author
+Vetted: f
+Judgment: u
+Phenom: adj, wo
+la fille mange petit un biscuit
+la          fille        mang.e        petit      un         biscuit
+the.3SG-fem girl.3SG-fem eats.non2SG  small.SG-masc a.3PL-masc cookie.3SG-masc 
+'the girl eats a small cookie'
+
+* Adverbs - adverbs show no agreement with the verb they modify.  
+** With simple tenses, adverbs usually follow the verb, unless the verb is in the infinitive, in which case, it usually precedes it. 
+** With complex tenses, adverbs usually follow the auxiliary and precede the participle 
+** However, this is only practice.  The adverb can appear elsewhere for emphasis. 
+
+To demonstrate the use of adverbs in simple and complex tenses, I showed examples of each:
+
+#280 
+Source: author
+Vetted: f 
+Judgment: g
+Phenom: adv
+je mange le biscuit lentement 
+je mang.e le biscuit lentement
+i.1SG eat.non2SG the.3SG-masc cookie.3SG-masc slowly.ADV
+'I am eating the cookie slowly' 
+
+#281 
+Source: author
+Vetted: f
+Judgment: g
+Phenom: adv
+je ai lentement mangé le biscuit 
+je ai lentement   mang.é le biscuit
+I.1SG did.1SG-PFV slowly.ADV eat.PST-PTCP the.3SG-masc cookie.3SG-masc 
+'I slowly ate the cookie' 
+
+and for an ungrammatical example, I put the adverb before the auxiliary verb: 
+
+#283 Word order
+Source: author
+Vetted: f
+Judgment: u
+Phenom: adv, wo
+je lentement ai mangé 
+je lentement ai mangé 
+I.1SG slowly.ADV did.1SG-PFV eat.PST-PTSP
+'I ate slowly' 
+
+* Embedded Clauses - French does not special marking of an embedded clause. 
+** penser (to think) is a verb that takes an embedded declarative clause. 
+*** Le chien (y) pense que la chat se dort.
+** se demander (to wonder, to ask) is a verb that takes an embedded interrogative clause:
+*** l'enfant se demande si l'oiseau chante? 
+
+I'm not sure how I'd go about finding ungrammatical examples other than the usual lack of agreement ones.  The placement of the outer clause looks to be able to go at the beginning or at the end of the sentence (Tu as mangé tous les biscuits, je pense! Avez-vous mangé tous les biscuits, je te demande!) however, this may be more a marker of conversational French. 
+
+Keeping with written French, I gave an example of each in my test suite:
+
+#285 Declarative 
+Source: author
+Vetted: f
+Judgment: g
+Phenom: emb-d
+Je pense que elle mange les biscuits 
+je pens.e que elle mang.e les biscuits 
+1.1SG think.1SG that she.3SG-fem eat.3SG the.3PL cookies.3PL 
+'I think she is eating the cookies' 
+
+#286 Interrogative 
+Source: author
+Vetted: f
+Judgment: g
+Phenom: emb-q
+Je me demande si tu as mangé les biscuits 
+je me-demand.e si tu as mang.é les biscuits
+1.1SG me-REFL wonder.1SG if you.2SG have.2SG eat.PST-PTCP les.3PL cookies.3PL-masc
+'I wonder if you have eaten the cookies' 
+
+* Non-Verbal Predicates - French can take nouns, adjectives, and prepositional phrases as non-verbal predicates.  A copula, represented by the verb être (to be), is required in all cases.  When the copula is missing, the sentence often becomes a sentence fragment, with the former predicate becoming an adjective, as shown in the following examples: 
+
+#291 - Prepositional Phrase Predicate
+Source: author
+Vetted: f
+Judgment: g
+Phenom: cop
+Les garçons sont dans le parc 
+les     garçons       sont   dans    le           parc
+the.3PL boys.3PL-masc be.3PL in.PREP the.3SG-masc park.3SG-masc
+'the boys are in the park' 
+
+#292 without the copula.  Becomes an adjectival phrase.
+Source: author
+Vetted: f
+Judgment: u
+Phenom: cop
+les garçons dans le parc 
+les     garçon.s      dans    le           parc
+the.3PL boys.3PL-masc in.PREP the.3SG-masc park.3SG-masc
+'the boys are in the park' 
+
+* Information Structure - Topic and Focus are marked with the construction 'C'est' + NP which is usually at the beginning of the sentence.  Animate pronouns are then put into the accusative case (followed by qui, or who);  inanimate pronouns are not (since there is no accusative case for them), and are followed by 'que'.  
+** C'est moi qui mange les biscuits - It is me who is eating the cookies 
+** C'est les biscuits que je mange - It is the cookies that I am eating 
+** C'est la fille qui dort - it's the girl who sleeps
+
+**There doesn't seem to be a means to put the focus on a verb or an adjective without using a contrastive construction
+*** Je MANGE les biscuits, pas prepare! 
+*** Elle est BELLE, pas beau! 
+
+I showed examples where the focus was on the agent: 
+#293 - focus on agent
+Source: author
+Vetted: f
+Judgment: g
+Phenom: info
+C'est moi qui a mangé les biscuits!
+c'est moi     qui a       mang.é           les     biscuits
+it-is 1SG.ACC who has.3SG eat.3SG-PST-PTCP the.3PL cookies.3PL-masc 
+'It is me who ate the cookies' 
+
+Emphasizing the case shift: 
+
+#294 Focus on agent, wrong case
+Source: author
+Vetted: f
+Judgment: u
+Phenom: info
+C'est je qui a mang.é les biscuits
+c'est je      qui  a       mang.é           les     biscuits
+it-is 1SG.NOM who  has.3SG eat.3SG-PST-PTCP the.3PL cookies.3PL-masc 
+'It is me who ate the cookies' 
+
+And where the focus is on the patient, or object: 
+
+#295 Focus on patient 
+Source: author
+Vetted: f
+Judgment: g
+Phenom: info
+C'est une pomme que je mange
+C'est une        pomme           que  je    mang.e
+it-is an.3SG-fem apple.3SG-apple that I.1SG eat.non2SG 
+'It's an apple that I am eating!' 
+
+
+
+2. Descriptions of any properties of your language illustrated in your test suite but not covered by your starter grammar and/or the customization system. This will be most of the additions to your test suite this week. Here, too, please include IGT from your testsuite, and give explanations along the lines of the example above (though without the information about the customization system).
+
+* As of yet, the customization system has not permitted me to enter adjectives nor adverbs, nor specify where they fit.  Therefore, I have some sentences demonstrating them, but these sentences do not parse:
+
+#280 
+Source: author
+Vetted: f 
+Judgment: g
+Phenom: adv
+je mange le biscuit lentement 
+je mang.e le biscuit lentement
+i.1SG eat.non2SG the.3SG-masc cookie.3SG-masc slowly.ADV
+'I am eating the cookie slowly' 
+
+#281 
+Source: author
+Vetted: f
+Judgment: g
+Phenom: adv
+je ai lentement mangé le biscuit 
+je ai lentement   mang.é le biscuit
+I.1SG did.1SG-PFV slowly.ADV eat.PST-PTCP the.3SG-masc cookie.3SG-masc 
+'I slowly ate the cookie' 
+
+#270
+Source: author
+Vetted: f
+Judgment: g
+Phenom: adj 
+Le petit garçon mange
+le petit garçon mang.e
+the.3SG-masc small.SG-masc boy.3SG-masc eat.non2SG
+'the small boy eats.
+
+#271 
+Source: author
+Vetted: f
+Judgment: g
+Phenom: adj 
+les grands enfants mangent 
+les      grand.s enfant.s    mang.ent 
+the.3PL big.PL   children.PL eat.3PL 
+'the big children eat' 
+
+* Embedded Clauses - In French, these are marked with verbs that require a prepositional complement.  As of yet, there is no means to enter these prepositional complements.  Sample sentences are:
+
+#285 Declarative 
+Source: author
+Vetted: f
+Judgment: g
+Phenom: emb-d
+Je pense que elle mange les biscuits 
+je pens.e que elle mang.e les biscuits 
+1.1SG think.1SG that she.3SG-fem eat.3SG the.3PL cookies.3PL 
+'I think she is eating the cookies' 
+
+#286 Interrogative 
+Source: author
+Vetted: f
+Judgment: g
+Phenom: emb-q
+Je me demande si tu as mangé les biscuits 
+je me-demand.e si tu as mang.é les biscuits
+1.1SG me-REFL wonder.1SG if you.2SG have.2SG eat.PST-PTCP les.3PL cookies.3PL-masc
+'I wonder if you have eaten the cookies' 
+
+* Non-Verbal Predicates - As of now, the only non-verbal predicates that will parse are those with a nominal predicate, and this is only because I considered the verb être (to be) to be a transitive verb.  I'm not certain this is entirely correct, but I based this on the fact that it can take a NP object.  Adjectival, and prepositional phrase predicates won't parse until I can enter adjectives and prepositions into the customization system.  
+  A sentence like "Je suis un biscuit" will parse, but I didn't include it in my test suite because it's silly.  I will fully implement these when I have chosen a larger vocabulary.
+
+* Information Structure - This is marked by the emphatic words "c'est", however, there is no means to enter this into the customization system.  
+
+
+   3. Documentation of the coverage of your grammar over the testsuite. If there are examples that thare parsed incorrectly (unanalyzed grammatical examples, analyzed ungrammatical examples, or grammatical examples assigned surprising parses), reflect on why that might be.
+
+In my test suite, I have 173 positive items, 123 negative.  
+Of those 173 positive items, itsdb found 290 parses.  
+Of the 173 positive items, 26 failed to parse, because they had adjectives, adverbs, c'est, or the demonstrative suffixes that I haven't implemented, so, of 147 parsable items, I got 290 parses.  
+
+One sentence, "je mange et mange et mange" parsed 38 times!  I dare not speculate on this. 
+Another, "tu manges le biscuit et penses" parsed 12.  I also dare not speculate on this, although I am seeing a pattern with conjunctions with verb phrases.
+A third, again within the same pattern, "nous mangeons les biscuits et tu manges une pomme" parsed 8.
+
+Ignoring those three, 147 sentences yielded 232 parses.  Looking at the sentences, it seems that all my present tense sentences with over arguments are parsing twice, so something is ambiguous in there. 
+
+Of the 123 Negative items, I have 16 parses.  Of those 16, 12 are past perfective examples.  I think these parsed because in the auxiliary verb section, where I specified each per-num of the verb avoir as its own aux slot, there was no place to specify features such as person and number; consequently, my examples that show dischord between the subject and the verb parse.  
+
+The other 2 examples (2 parses each) 1 was a conjuncted sentence where the subject was a conjunction and the verb didn't pluralize, and the other is an example where I formed a Matrix yes/no question using both the particle est-ce que, and subject verb inversion.  As I speculated earlier, I think this is because the customization system doesn't allow me to specify the either/or relationship of this.  
+
+   4. Documentation of any changes you made to your grammar to improve its performance (coverage and accuracy). Include the examples that motivated the change and explain what changes you made to the choices file or tdl. 
+
+* Fixed some issues where sentences were parsing multiple times.  I was due, partially, to the way I'd double conjugated the verbs (it was well into it that I realized I could use different morphemes of a single verb slot, rather than separate slots), partially the fact that I'd made my singular and plural noun slots optional, and other such developer errors.
+
+For instance: 
+
+#1 Correct word order - S V O 
+Source: author
+Vetted: f
+Judgment: g
+Phenom: wo
+le garçon mange le gâteau 
+le           garçon       mang.e   le           gâteau
+The.3SG-masc boy.3SG-masc eats.3SG the.3SG-masc cake.3SG-masc 
+'The boy eats the cake' 
+
+Has gone from 4 parses to two!  
+
+* Refactored the way I represented the optionally transitive verb 'manger', in that I had it listed as both transitive and intransitive.  Now, it's listed as transitive, with the overt object optional if the ARG-ST marking is absent.  This also helped combat the extra parse problem. 
+
+* Refactored how I did conjugations.  Rather than making my stem conform to the different endings (for instance, I had mang and mange as stems, and all the suffixes standard), I am making the endings conform to the stem (using the stem mang and the endings e, es, eons, ons, ez, and ent). 
+
+* Where the verb is irregular, rather than consider the word an affix on an empty stem, which is bad, I made each PER-NUM combination its own verb slot. 
+
+* Added sentences that tested agreement over each tense:
+
+#171 1SG subject with 1PL verb:
+Source: author
+Vetted: f
+Judgment: u
+Phenom: tam
+je mangerons les biscuits 
+je       manger.ons         les     biscuits
+I.1SG    eat.1PL-FUT-PFV    the.3PL cookies.3PL
+'I will eat the cookies'
+
+#187 1SG subject with 3SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenom: tam
+je mangeait la pomme 
+je     mange.ait          la           pomme
+i.1SG  eat.3SG-PST-IPFV   the.3SG-fem  apple.3SG-fem 
+'I will eat the apple' 
+
+And checked that negation didn't affect the tense agreements: 
+
+#222
+Source: author
+Vetted: f
+Judgment: g
+Phenom: tam, neg 
+elles ne-mangeaient pas ces biscuits  
+elles        ne-mang.eaient         pas ces       biscuits
+they.3PL-fem not.eat.3PL-PST-IPFV   not these.3PL cookies.3PL-masc 
+'they were not eating these cookies' 
+
+#223 - 3SG subject with 2Sg verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenom: tam, neg, agr 
+le garçon ne-mangeais pas les biscuits 
+le           garçon       ne-mang.eais         pas les     biscuits
+the.3SG-male boy.3SG-male not.eat.2SG-PST-IPFV not the.3PL cookies.3PL 
+'The boy will not eat the cookies' 
+

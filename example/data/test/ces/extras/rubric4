@@ -1,0 +1,88 @@
+-------------------------------------------------------
+Comments
+
+ Czech is a nominative-accusative language, indicated by a suffix
+ change.  It asks what the suffix is used for those cases.  The thing
+ is, Czech has fusional morphology, so it's really irregular (57
+ declension paradigms).  So I just used the suffixes for my most common
+ noun, but I don't think it generalizes to any other noun in my
+ lexicon.  I'm planning on throwing lexical entries at it to handle the
+ irregularity, though maybe I'll think otherwise once I start doing the
+ work.  I guess my other option is work with the "higher-level tape"
+ and accept morpheme-glossed input.  I just feel like it'd be "cooler",
+ when I'm done, to be able to input text just as a speaker would do,
+ and have it work.  I'm trying to maintain all the diacritics (at the
+ cost of dealing with Unicode) for the same reason.
+
+As I think I've said elsewhere, there are probably better solutions
+than throwing lexical rules at it.  When you say "fusional", though,
+I imagine that Czech has single suffixes which mark at least case and
+number together?  If that's the case, then you'll want to make
+lexical rule types for case and number and then cross classify them
+and have lexical rule instances for e.g., nom-sg etc.  If the form
+of each of those varies based on declension class, then you add
+another dimension to your classification of rules, and restrict each
+one to only the right class of nouns...
+
+ This is the one I was least confident about.  I said that Czech is
+ polysyndeton, but I haven't found any examples of coordinating more
+ than two things.  Writing this reminds me, I should email my native
+ speaker and ask her how you do 3+ co-ordination.  Anyway, Czech has
+ one 'and' conjunction for NPs, and one for sentences.  I said that it
+ comes after the coordinand, but after what you said in class, maybe I
+ should say it comes before.  If I have A and B, B is the coordinand,
+ not A, right?
+
+They're both coordinands, but B is the one that is marked.
+
+ Matrix Yes/No Questions
+ This is easy: it's just subject-verb inversion, applicable to any verb.
+
+... which supports the claim that you don't have turly free
+word order, otherwise this would be an ineffective way of marking
+questions.
+
+ My first sentence (which is about as simple as it gets: NP VP) didn't
+ parse, although it came close: the lkb found some constituents, but no
+ initial symbol.  
+
+Actually, it found some constituents, but no spanning parse.  Once
+it finds a spanning parse, it compares the avm for that edge to the
+initial symbol to see if it is a legitimate stand-alone utterance
+(according to the grammar).
+
+ Turns out this was due to a misformed morphology rule
+ (I think).  The customization system required that I enter a noun
+ ending for nominiative and accusative declensions.  So I chose endings
+ for my most common noun (ptak).  So I said that the nominative ending
+ was "-ak" and the accusative ending was "-aka" (which is true, for
+ that one word).  But then I entered the orthographic form as "ptak",
+ so I guess the lkb never recongnized it.  If I changed my lexicon.tdl
+ entry to "pt", it worked.  The actual structure was strange: the tree
+ has two non-branching rules to get to the noun.  From noun-lex to
+ nom-noun to bare-np.
+
+Get used to it :)
+
+ I was hoping this would be easy to fix by just changing the lexicon,
+ but the only reason the first sentence parsed in the first place was
+ that I changed my entry for "ptak" to "pt" so that the nominal rule
+ would add an "ak" to make it match. In retrospect, I should have
+ skipped the part of the customization script that asked me what
+ affixes to add to my nouns to decline them.
+
+Not necessarily --- if you had skipped that, you would have gotten
+a grammar with no machinery for case at all, which would make it harder
+to get to a working analysis for case.  There's more to it than the
+spelling of the affixes, right?
+
+ I'd like to discuss strategies for paring down overgeneration, but
+ it's not really a problem at this point. :)
+
+The upside of low coverage...
+
+Regarding inputting the accented forms into the LKB:  You'll want
+to do interactive parsing through emacs with do-parse-tty().  The
+keyboard shortcut is C-c p.  Or, you can work through [incr tsdb()],
+by doing Browse > Test items, and then double clicking the items
+you're interested in.

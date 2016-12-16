@@ -1,0 +1,83 @@
+
+version=28
+
+section=general
+language=tagalog
+
+section=word-order
+word-order=vso
+has-dets=yes
+noun-det-order=det-noun
+has-aux=no
+
+section=number
+
+section=person
+person=none
+
+section=gender
+
+section=case
+case-marking=erg-abs
+erg-abs-erg-case-name=ergative
+erg-abs-abs-case-name=absolutive
+
+section=direct-inverse
+
+section=tense-aspect-mood
+
+section=other-features
+
+section=sentential-negation
+neg-exp=1
+vpc-0-neg=create
+adv-neg=on
+neg-mod=s
+neg-order=before
+neg-adv-orth=hindi
+
+section=coordination
+  cs1_n=on
+  cs1_np=on
+  cs1_vp=on
+  cs1_s=on
+  cs1_pat=poly
+  cs1_mark=word
+  cs1_orth=at
+  cs1_order=before
+
+section=matrix-yes-no
+
+section=info-str
+
+section=arg-opt
+
+section=lexicon
+  noun1_det=opt
+    noun1_stem1_orth=batae
+    noun1_stem1_pred=_woman_n_rel
+  noun2_det=opt
+    noun2_stem1_orth=mangga
+    noun2_stem1_pred=_mango_n_rel
+  verb1_valence=abs
+    verb1_stem1_orth=tulog
+    verb1_stem1_pred=_sleep_v_rel
+  verb2_valence=erg-abs
+    verb2_stem1_orth=kain
+    verb2_stem1_pred=_eat_v_rel
+  adp1_orth=ang
+  adp1_order=before
+    adp1_feat1_name=case
+    adp1_feat1_value=absolutive
+
+section=morphology
+
+section=toolbox-import
+
+section=test-sentences
+  sentence1_orth=kain ng mangga ang batae
+  sentence2_orth=tulog ang batae
+
+section=gen-options
+
+section=ToolboxLexicon

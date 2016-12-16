@@ -1,0 +1,1068 @@
+<xigt-corpus xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <igt id="igt1" doc-id="lgcol:hix" line-range="1-3" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="1" tag="M">  a vetted: t</item>
+      <item id="r2" line="2" tag="L">  toto y-ono-no kamara</item>
+      <item id="r3" line="3" tag="G">  person 3sg-eat-past jaguar</item>
+      <item id="r4" line="4" tag="T">  `The jaguar ate the person.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="1" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="2" tag="L">  toto y-ono-no kamara</item>
+      <item id="c3" alignment="r3" line="3" tag="G">  person 3sg-eat-past jaguar</item>
+      <item id="c4" alignment="r4" line="4" tag="T">  `The jaguar ate the person.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="1" tag="M">t</item>
+      <item id="n2" alignment="c2" line="2" tag="L">toto y-ono-no kamara</item>
+      <item id="n3" alignment="c3" line="3" tag="G">person 3sg-eat-past jaguar</item>
+      <item id="n4" alignment="c4" line="4" tag="T">The jaguar ate the person.</item>
+    </tier>
+  </igt>
+  <igt id="igt2" doc-id="lgcol:hix" line-range="5-7" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="5" tag="M">  author vetted: f</item>
+      <item id="r2" line="6" tag="L">  ni-rata-no biryekomo </item>
+      <item id="r3" line="7" tag="G">  SIII-weep-IMM.PAST boy </item>
+      <item id="r4" line="8" tag="T">  `The boy wept.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="5" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="6" tag="L">  ni-rata-no biryekomo </item>
+      <item id="c3" alignment="r3" line="7" tag="G">  SIII-weep-IMM.PAST boy </item>
+      <item id="c4" alignment="r4" line="8" tag="T">  `The boy wept.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="5" tag="M">f</item>
+      <item id="n2" alignment="c2" line="6" tag="L">ni-rata-no biryekomo</item>
+      <item id="n3" alignment="c3" line="7" tag="G">SIII-weep-IMM.PAST boy</item>
+      <item id="n4" alignment="c4" line="8" tag="T">The boy wept.</item>
+    </tier>
+  </igt>
+  <igt id="igt3" doc-id="lgcol:hix" line-range="29-31" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="29" tag="M">  author vetted: f</item>
+      <item id="r2" line="30" tag="L">  ki-eweh-no uro </item>
+      <item id="r3" line="31" tag="G">  SI-take_bath-IMM.PAST 1sg </item>
+      <item id="r4" line="32" tag="T">  `I took a bath'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="29" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="30" tag="L">  ki-eweh-no uro </item>
+      <item id="c3" alignment="r3" line="31" tag="G">  SI-take_bath-IMM.PAST 1sg </item>
+      <item id="c4" alignment="r4" line="32" tag="T">  `I took a bath'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="29" tag="M">f</item>
+      <item id="n2" alignment="c2" line="30" tag="L">ki-eweh-no uro</item>
+      <item id="n3" alignment="c3" line="31" tag="G">SI-take_bath-IMM.PAST 1sg</item>
+      <item id="n4" alignment="c4" line="32" tag="T">I took a bath</item>
+    </tier>
+  </igt>
+  <igt id="igt4" doc-id="lgcol:hix" line-range="33-35" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="33" tag="M">  author vetted: f</item>
+      <item id="r2" line="34" tag="L">  mi-amryki-no omoro </item>
+      <item id="r3" line="35" tag="G">  SII-gohunting-IMM.PAST 2sg </item>
+      <item id="r4" line="36" tag="T">  `You went hunting'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="33" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="34" tag="L">  mi-amryki-no omoro </item>
+      <item id="c3" alignment="r3" line="35" tag="G">  SII-gohunting-IMM.PAST 2sg </item>
+      <item id="c4" alignment="r4" line="36" tag="T">  `You went hunting'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="33" tag="M">f</item>
+      <item id="n2" alignment="c2" line="34" tag="L">mi-amryki-no omoro</item>
+      <item id="n3" alignment="c3" line="35" tag="G">SII-gohunting-IMM.PAST 2sg</item>
+      <item id="n4" alignment="c4" line="36" tag="T">You went hunting</item>
+    </tier>
+  </igt>
+  <igt id="igt5" doc-id="lgcol:hix" line-range="37-39" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="37" tag="M">  author vetted: f</item>
+      <item id="r2" line="38" tag="L">  ni-wayehi-no noro </item>
+      <item id="r3" line="39" tag="G">  SIII-die-IMM.PAST 3sg </item>
+      <item id="r4" line="40" tag="T">  `He died'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="37" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="38" tag="L">  ni-wayehi-no noro </item>
+      <item id="c3" alignment="r3" line="39" tag="G">  SIII-die-IMM.PAST 3sg </item>
+      <item id="c4" alignment="r4" line="40" tag="T">  `He died'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="37" tag="M">f</item>
+      <item id="n2" alignment="c2" line="38" tag="L">ni-wayehi-no noro</item>
+      <item id="n3" alignment="c3" line="39" tag="G">SIII-die-IMM.PAST 3sg</item>
+      <item id="n4" alignment="c4" line="40" tag="T">He died</item>
+    </tier>
+  </igt>
+  <igt id="igt6" doc-id="lgcol:hix" line-range="49-51" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="49" tag="M">  author vetted: f</item>
+      <item id="r2" line="50" tag="L">  noro i-koroka-no uro</item>
+      <item id="r3" line="51" tag="G">  3sg SIOIII-wash-IMM.PAST 1sg</item>
+      <item id="r4" line="52" tag="T">  `I washed him'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="49" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="50" tag="L">  noro i-koroka-no uro</item>
+      <item id="c3" alignment="r3" line="51" tag="G">  3sg SIOIII-wash-IMM.PAST 1sg</item>
+      <item id="c4" alignment="r4" line="52" tag="T">  `I washed him'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="49" tag="M">f</item>
+      <item id="n2" alignment="c2" line="50" tag="L">noro i-koroka-no uro</item>
+      <item id="n3" alignment="c3" line="51" tag="G">3sg SIOIII-wash-IMM.PAST 1sg</item>
+      <item id="n4" alignment="c4" line="52" tag="T">I washed him</item>
+    </tier>
+  </igt>
+  <igt id="igt7" doc-id="lgcol:hix" line-range="57-59" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="57" tag="M">  author vetted: f</item>
+      <item id="r2" line="58" tag="L">  omoro ki-tayama-no uro</item>
+      <item id="r3" line="59" tag="G">  2sg SIOII-push-IMM.PAST 1sg</item>
+      <item id="r4" line="60" tag="T">  `I pushed you'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="57" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="58" tag="L">  omoro ki-tayama-no uro</item>
+      <item id="c3" alignment="r3" line="59" tag="G">  2sg SIOII-push-IMM.PAST 1sg</item>
+      <item id="c4" alignment="r4" line="60" tag="T">  `I pushed you'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="57" tag="M">f</item>
+      <item id="n2" alignment="c2" line="58" tag="L">omoro ki-tayama-no uro</item>
+      <item id="n3" alignment="c3" line="59" tag="G">2sg SIOII-push-IMM.PAST 1sg</item>
+      <item id="n4" alignment="c4" line="60" tag="T">I pushed you</item>
+    </tier>
+  </igt>
+  <igt id="igt8" doc-id="lgcol:hix" line-range="65-67" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="65" tag="M">  a vetted: t</item>
+      <item id="r2" line="66" tag="L">  ni-ahyehi-yaha noro</item>
+      <item id="r3" line="67" tag="G">  he-is.hungry-NONPAST 3sg </item>
+      <item id="r4" line="68" tag="T">  `He is hungry'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="65" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="66" tag="L">  ni-ahyehi-yaha noro</item>
+      <item id="c3" alignment="r3" line="67" tag="G">  he-is.hungry-NONPAST 3sg </item>
+      <item id="c4" alignment="r4" line="68" tag="T">  `He is hungry'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="65" tag="M">t</item>
+      <item id="n2" alignment="c2" line="66" tag="L">ni-ahyehi-yaha noro</item>
+      <item id="n3" alignment="c3" line="67" tag="G">he-is.hungry-NONPAST 3sg</item>
+      <item id="n4" alignment="c4" line="68" tag="T">He is hungry</item>
+    </tier>
+  </igt>
+  <igt id="igt9" doc-id="lgcol:hix" line-range="69-71" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="69" tag="M">  a vetted: t</item>
+      <item id="r2" line="70" tag="L">  omoro ki-otaha-yaha uro</item>
+      <item id="r3" line="71" tag="G">  2g ISIIO-hit-NONPAST 1sg</item>
+      <item id="r4" line="72" tag="T">  `I will hit you'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="69" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="70" tag="L">  omoro ki-otaha-yaha uro</item>
+      <item id="c3" alignment="r3" line="71" tag="G">  2g ISIIO-hit-NONPAST 1sg</item>
+      <item id="c4" alignment="r4" line="72" tag="T">  `I will hit you'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="69" tag="M">t</item>
+      <item id="n2" alignment="c2" line="70" tag="L">omoro ki-otaha-yaha uro</item>
+      <item id="n3" alignment="c3" line="71" tag="G">2g ISIIO-hit-NONPAST 1sg</item>
+      <item id="n4" alignment="c4" line="72" tag="T">I will hit you</item>
+    </tier>
+  </igt>
+  <igt id="igt10" doc-id="lgcol:hix" line-range="73-75" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="73" tag="M">  a vetted: t</item>
+      <item id="r2" line="74" tag="L">  ni-niki-yako noro</item>
+      <item id="r3" line="75" tag="G">  IIIS-sleep-REC.PAST.COMP 3sg </item>
+      <item id="r4" line="76" tag="T">  `He went to sleep'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="73" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="74" tag="L">  ni-niki-yako noro</item>
+      <item id="c3" alignment="r3" line="75" tag="G">  IIIS-sleep-REC.PAST.COMP 3sg </item>
+      <item id="c4" alignment="r4" line="76" tag="T">  `He went to sleep'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="73" tag="M">t</item>
+      <item id="n2" alignment="c2" line="74" tag="L">ni-niki-yako noro</item>
+      <item id="n3" alignment="c3" line="75" tag="G">IIIS-sleep-REC.PAST.COMP 3sg</item>
+      <item id="n4" alignment="c4" line="76" tag="T">He went to sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt11" doc-id="lgcol:hix" line-range="77-79" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="77" tag="M">  a vetted: t</item>
+      <item id="r2" line="78" tag="L">  omoro o-momokiyaknano noro</item>
+      <item id="r3" line="79" tag="G">  2sg IIISIIO-wait.for.REC.PAST.CONT 3sg</item>
+      <item id="r4" line="80" tag="T">  `He was waiting for you'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="77" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="78" tag="L">  omoro o-momokiyaknano noro</item>
+      <item id="c3" alignment="r3" line="79" tag="G">  2sg IIISIIO-wait.for.REC.PAST.CONT 3sg</item>
+      <item id="c4" alignment="r4" line="80" tag="T">  `He was waiting for you'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="77" tag="M">t</item>
+      <item id="n2" alignment="c2" line="78" tag="L">omoro o-momokiyaknano noro</item>
+      <item id="n3" alignment="c3" line="79" tag="G">2sg IIISIIO-wait.for.REC.PAST.CONT 3sg</item>
+      <item id="n4" alignment="c4" line="80" tag="T">He was waiting for you</item>
+    </tier>
+  </igt>
+  <igt id="igt12" doc-id="lgcol:hix" line-range="81-83" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="81" tag="M">  a vetted: t</item>
+      <item id="r2" line="82" tag="L">  wewe w-ama-ye uro</item>
+      <item id="r3" line="83" tag="G">  tree ISIIIO-fell-DIST.PAST.COMP 1sg</item>
+      <item id="r4" line="84" tag="T">  `I felled the tree'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="81" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="82" tag="L">  wewe w-ama-ye uro</item>
+      <item id="c3" alignment="r3" line="83" tag="G">  tree ISIIIO-fell-DIST.PAST.COMP 1sg</item>
+      <item id="c4" alignment="r4" line="84" tag="T">  `I felled the tree'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="81" tag="M">t</item>
+      <item id="n2" alignment="c2" line="82" tag="L">wewe w-ama-ye uro</item>
+      <item id="n3" alignment="c3" line="83" tag="G">tree ISIIIO-fell-DIST.PAST.COMP 1sg</item>
+      <item id="n4" alignment="c4" line="84" tag="T">I felled the tree</item>
+    </tier>
+  </igt>
+  <igt id="igt13" doc-id="lgcol:hix" line-range="85-87" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="85" tag="M">  author vetted: f</item>
+      <item id="r2" line="86" tag="L">  0-to-yakoni noro </item>
+      <item id="r3" line="87" tag="G">  IIIS-go-DIST.PAST.CONT 3sg </item>
+      <item id="r4" line="88" tag="T">  `He used to go'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="85" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="86" tag="L">  0-to-yakoni noro </item>
+      <item id="c3" alignment="r3" line="87" tag="G">  IIIS-go-DIST.PAST.CONT 3sg </item>
+      <item id="c4" alignment="r4" line="88" tag="T">  `He used to go'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="85" tag="M">f</item>
+      <item id="n2" alignment="c2" line="86" tag="L">0-to-yakoni noro</item>
+      <item id="n3" alignment="c3" line="87" tag="G">IIIS-go-DIST.PAST.CONT 3sg</item>
+      <item id="n4" alignment="c4" line="88" tag="T">He used to go</item>
+    </tier>
+  </igt>
+  <igt id="igt14" doc-id="lgcol:hix" line-range="97-99" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="97" tag="M">  a vetted: t</item>
+      <item id="r2" line="98" tag="L">  a-manho-yano omoro </item>
+      <item id="r3" line="99" tag="G">  IIS-dance-NONPAST.UNCERT 2sg</item>
+      <item id="r4" line="100" tag="T">  `Do you dance?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="97" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="98" tag="L">  a-manho-yano omoro </item>
+      <item id="c3" alignment="r3" line="99" tag="G">  IIS-dance-NONPAST.UNCERT 2sg</item>
+      <item id="c4" alignment="r4" line="100" tag="T">  `Do you dance?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="97" tag="M">t</item>
+      <item id="n2" alignment="c2" line="98" tag="L">a-manho-yano omoro</item>
+      <item id="n3" alignment="c3" line="99" tag="G">IIS-dance-NONPAST.UNCERT 2sg</item>
+      <item id="n4" alignment="c4" line="100" tag="T">Do you dance?</item>
+    </tier>
+  </igt>
+  <igt id="igt15" doc-id="lgcol:hix" line-range="101-103" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="101" tag="M">  a vetted: t</item>
+      <item id="r2" line="102" tag="L">  ro-to-hira uro </item>
+      <item id="r3" line="103" tag="G">  IS-go-NEG 1sg</item>
+      <item id="r4" line="104" tag="T">  `I am not going.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="101" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="102" tag="L">  ro-to-hira uro </item>
+      <item id="c3" alignment="r3" line="103" tag="G">  IS-go-NEG 1sg</item>
+      <item id="c4" alignment="r4" line="104" tag="T">  `I am not going.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="101" tag="M">t</item>
+      <item id="n2" alignment="c2" line="102" tag="L">ro-to-hira uro</item>
+      <item id="n3" alignment="c3" line="103" tag="G">IS-go-NEG 1sg</item>
+      <item id="n4" alignment="c4" line="104" tag="T">I am not going.</item>
+    </tier>
+  </igt>
+  <igt id="igt16" doc-id="lgcol:hix" line-range="113-115" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="113" tag="M">  a vetted: t</item>
+      <item id="r2" line="114" tag="L">  forhenno-komo maheheno-komo menkarheno-komo</item>
+      <item id="r3" line="115" tag="G">  plaintain-patchPL, bell.potato.patch-PL, banana.patch-PL</item>
+      <item id="r4" line="116" tag="T">  `The plantain patch, the bell-potato patch, and the banana patch.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="113" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="114" tag="L">  forhenno-komo maheheno-komo menkarheno-komo</item>
+      <item id="c3" alignment="r3" line="115" tag="G">  plaintain-patchPL, bell.potato.patch-PL, banana.patch-PL</item>
+      <item id="c4" alignment="r4" line="116" tag="T">  `The plantain patch, the bell-potato patch, and the banana patch.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="113" tag="M">t</item>
+      <item id="n2" alignment="c2" line="114" tag="L">forhenno-komo maheheno-komo menkarheno-komo</item>
+      <item id="n3" alignment="c3" line="115" tag="G">plaintain-patchPL, bell.potato.patch-PL, banana.patch-PL</item>
+      <item id="n4" alignment="c4" line="116" tag="T">The plantain patch, the bell-potato patch, and the banana patch.</item>
+    </tier>
+  </igt>
+  <igt id="igt17" doc-id="lgcol:hix" line-range="117-119" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="117" tag="M">  author vetted: f</item>
+      <item id="r2" line="118" tag="L">  ni-niki-yatxoko kamara meku</item>
+      <item id="r3" line="119" tag="G">  SIII-sleep-REC.PAST.COMP.pl jaguar monkey </item>
+      <item id="r4" line="120" tag="T">  `The monkey and the jaguar slept.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="117" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="118" tag="L">  ni-niki-yatxoko kamara meku</item>
+      <item id="c3" alignment="r3" line="119" tag="G">  SIII-sleep-REC.PAST.COMP.pl jaguar monkey </item>
+      <item id="c4" alignment="r4" line="120" tag="T">  `The monkey and the jaguar slept.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="117" tag="M">f</item>
+      <item id="n2" alignment="c2" line="118" tag="L">ni-niki-yatxoko kamara meku</item>
+      <item id="n3" alignment="c3" line="119" tag="G">SIII-sleep-REC.PAST.COMP.pl jaguar monkey</item>
+      <item id="n4" alignment="c4" line="120" tag="T">The monkey and the jaguar slept.</item>
+    </tier>
+  </igt>
+  <igt id="igt18" doc-id="lgcol:hix" line-range="121-123" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="121" tag="M">  a vetted: t</item>
+      <item id="r2" line="122" tag="L">  amna ni-omoki-no</item>
+      <item id="r3" line="123" tag="G">  I+III SIII-come-IMM.PAST</item>
+      <item id="r4" line="124" tag="T">  `We (excl) have come'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="121" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="122" tag="L">  amna ni-omoki-no</item>
+      <item id="c3" alignment="r3" line="123" tag="G">  I+III SIII-come-IMM.PAST</item>
+      <item id="c4" alignment="r4" line="124" tag="T">  `We (excl) have come'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="121" tag="M">t</item>
+      <item id="n2" alignment="c2" line="122" tag="L">amna ni-omoki-no</item>
+      <item id="n3" alignment="c3" line="123" tag="G">I+III SIII-come-IMM.PAST</item>
+      <item id="n4" alignment="c4" line="124" tag="T">We (excl) have come</item>
+    </tier>
+  </igt>
+  <igt id="igt19" doc-id="lgcol:hix" line-range="125-127" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="125" tag="M">  a vetted: t</item>
+      <item id="r2" line="126" tag="L">  ni-omoki-no</item>
+      <item id="r3" line="127" tag="G">  SIII-come-IMM.PAST</item>
+      <item id="r4" line="128" tag="T">  `*We (excl) have come'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="125" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="126" tag="L">  ni-omoki-no</item>
+      <item id="c3" alignment="r3" line="127" tag="G">  SIII-come-IMM.PAST</item>
+      <item id="c4" alignment="r4" line="128" tag="T">  `*We (excl) have come'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="125" tag="M">t</item>
+      <item id="n2" alignment="c2" line="126" tag="L">ni-omoki-no</item>
+      <item id="n3" alignment="c3" line="127" tag="G">SIII-come-IMM.PAST</item>
+      <item id="n4" alignment="c4" line="128" tag="T">*We (excl) have come</item>
+    </tier>
+  </igt>
+  <igt id="igt20" doc-id="lgcol:hix" line-range="129-131" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="129" tag="M">  a vetted: t</item>
+      <item id="r2" line="130" tag="L">  kanawa amna ni-a-no</item>
+      <item id="r3" line="131" tag="G">  canoe I+III took-it-IMM.PAST</item>
+      <item id="r4" line="132" tag="T">  `We took the canoe'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="129" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="130" tag="L">  kanawa amna ni-a-no</item>
+      <item id="c3" alignment="r3" line="131" tag="G">  canoe I+III took-it-IMM.PAST</item>
+      <item id="c4" alignment="r4" line="132" tag="T">  `We took the canoe'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="129" tag="M">t</item>
+      <item id="n2" alignment="c2" line="130" tag="L">kanawa amna ni-a-no</item>
+      <item id="n3" alignment="c3" line="131" tag="G">canoe I+III took-it-IMM.PAST</item>
+      <item id="n4" alignment="c4" line="132" tag="T">We took the canoe</item>
+    </tier>
+  </igt>
+  <igt id="igt21" doc-id="lgcol:hix" line-range="133-135" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="133" tag="M">  a vetted: t</item>
+      <item id="r2" line="134" tag="L">  kanawa y-a-no toto</item>
+      <item id="r3" line="135" tag="G">  canoe he-took-it person</item>
+      <item id="r4" line="136" tag="T">  `The man took the canoe'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="133" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="134" tag="L">  kanawa y-a-no toto</item>
+      <item id="c3" alignment="r3" line="135" tag="G">  canoe he-took-it person</item>
+      <item id="c4" alignment="r4" line="136" tag="T">  `The man took the canoe'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="133" tag="M">t</item>
+      <item id="n2" alignment="c2" line="134" tag="L">kanawa y-a-no toto</item>
+      <item id="n3" alignment="c3" line="135" tag="G">canoe he-took-it person</item>
+      <item id="n4" alignment="c4" line="136" tag="T">The man took the canoe</item>
+    </tier>
+  </igt>
+  <igt id="igt22" doc-id="lgcol:hix" line-range="137-139" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="137" tag="M">  a vetted: t</item>
+      <item id="r2" line="138" tag="L">  Fumasa hono ni-to-yatxoko karyhe</item>
+      <item id="r3" line="139" tag="G">  Fumaca to SIII-go-REC.PAST.COMP fast</item>
+      <item id="r4" line="140" tag="T">  `They went to Fumaca quickly'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="137" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="138" tag="L">  Fumasa hono ni-to-yatxoko karyhe</item>
+      <item id="c3" alignment="r3" line="139" tag="G">  Fumaca to SIII-go-REC.PAST.COMP fast</item>
+      <item id="c4" alignment="r4" line="140" tag="T">  `They went to Fumaca quickly'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="137" tag="M">t</item>
+      <item id="n2" alignment="c2" line="138" tag="L">Fumasa hono ni-to-yatxoko karyhe</item>
+      <item id="n3" alignment="c3" line="139" tag="G">Fumaca to SIII-go-REC.PAST.COMP fast</item>
+      <item id="n4" alignment="c4" line="140" tag="T">They went to Fumaca quickly</item>
+    </tier>
+  </igt>
+  <igt id="igt23" doc-id="lgcol:hix" line-range="141-143" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="141" tag="M">  a vetted: t</item>
+      <item id="r2" line="142" tag="L">  woto y-ono-no</item>
+      <item id="r3" line="143" tag="G">  meat SIIIOIII-eat-IMM.PAST</item>
+      <item id="r4" line="144" tag="T">  `He ate the meat'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="141" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="142" tag="L">  woto y-ono-no</item>
+      <item id="c3" alignment="r3" line="143" tag="G">  meat SIIIOIII-eat-IMM.PAST</item>
+      <item id="c4" alignment="r4" line="144" tag="T">  `He ate the meat'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="141" tag="M">t</item>
+      <item id="n2" alignment="c2" line="142" tag="L">woto y-ono-no</item>
+      <item id="n3" alignment="c3" line="143" tag="G">meat SIIIOIII-eat-IMM.PAST</item>
+      <item id="n4" alignment="c4" line="144" tag="T">He ate the meat</item>
+    </tier>
+  </igt>
+  <igt id="igt24" doc-id="lgcol:hix" line-range="145-147" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="145" tag="M">  author vetted: f</item>
+      <item id="r2" line="146" tag="L">  y-ono-no</item>
+      <item id="r3" line="147" tag="G">  SIIIOIII-eat-IMM.PAST</item>
+      <item id="r4" line="148" tag="T">  `He ate the meat'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="145" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="146" tag="L">  y-ono-no</item>
+      <item id="c3" alignment="r3" line="147" tag="G">  SIIIOIII-eat-IMM.PAST</item>
+      <item id="c4" alignment="r4" line="148" tag="T">  `He ate the meat'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="145" tag="M">f</item>
+      <item id="n2" alignment="c2" line="146" tag="L">y-ono-no</item>
+      <item id="n3" alignment="c3" line="147" tag="G">SIIIOIII-eat-IMM.PAST</item>
+      <item id="n4" alignment="c4" line="148" tag="T">He ate the meat</item>
+    </tier>
+  </igt>
+  <igt id="igt25" doc-id="lgcol:hix" line-range="149-151" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="149" tag="M">  author vetted: f</item>
+      <item id="r2" line="150" tag="L">  y-ono-no noro</item>
+      <item id="r3" line="151" tag="G">  SIIIOIII-eat-IMM.PAST 3sg</item>
+      <item id="r4" line="152" tag="T">  `He ate the meat'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="149" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="150" tag="L">  y-ono-no noro</item>
+      <item id="c3" alignment="r3" line="151" tag="G">  SIIIOIII-eat-IMM.PAST 3sg</item>
+      <item id="c4" alignment="r4" line="152" tag="T">  `He ate the meat'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="149" tag="M">f</item>
+      <item id="n2" alignment="c2" line="150" tag="L">y-ono-no noro</item>
+      <item id="n3" alignment="c3" line="151" tag="G">SIIIOIII-eat-IMM.PAST 3sg</item>
+      <item id="n4" alignment="c4" line="152" tag="T">He ate the meat</item>
+    </tier>
+  </igt>
+  <igt id="igt26" doc-id="lgcol:hix" line-range="153-155" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="153" tag="M">  a vetted: t</item>
+      <item id="r2" line="154" tag="L">  ni-omoki-yatxoko hawana-komo</item>
+      <item id="r3" line="155" tag="G">  SIII-come-REC.PAST.COMP.COLL visitor-PL</item>
+      <item id="r4" line="156" tag="T">  `Visitors came'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="153" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="154" tag="L">  ni-omoki-yatxoko hawana-komo</item>
+      <item id="c3" alignment="r3" line="155" tag="G">  SIII-come-REC.PAST.COMP.COLL visitor-PL</item>
+      <item id="c4" alignment="r4" line="156" tag="T">  `Visitors came'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="153" tag="M">t</item>
+      <item id="n2" alignment="c2" line="154" tag="L">ni-omoki-yatxoko hawana-komo</item>
+      <item id="n3" alignment="c3" line="155" tag="G">SIII-come-REC.PAST.COMP.COLL visitor-PL</item>
+      <item id="n4" alignment="c4" line="156" tag="T">Visitors came</item>
+    </tier>
+  </igt>
+  <igt id="igt27" doc-id="lgcol:hix" line-range="157-159" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="157" tag="M">  author vetted: f</item>
+      <item id="r2" line="158" tag="L">  ni-omoki-yatxoko</item>
+      <item id="r3" line="159" tag="G">  SIII-come-REC.PAST.COMP.COLL</item>
+      <item id="r4" line="160" tag="T">  `They came'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="157" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="158" tag="L">  ni-omoki-yatxoko</item>
+      <item id="c3" alignment="r3" line="159" tag="G">  SIII-come-REC.PAST.COMP.COLL</item>
+      <item id="c4" alignment="r4" line="160" tag="T">  `They came'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="157" tag="M">f</item>
+      <item id="n2" alignment="c2" line="158" tag="L">ni-omoki-yatxoko</item>
+      <item id="n3" alignment="c3" line="159" tag="G">SIII-come-REC.PAST.COMP.COLL</item>
+      <item id="n4" alignment="c4" line="160" tag="T">They came</item>
+    </tier>
+  </igt>
+  <igt id="igt28" doc-id="lgcol:hix" line-range="161-163" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="161" tag="M">  author vetted: f</item>
+      <item id="r2" line="162" tag="L">  kanawa yawo wakho</item>
+      <item id="r3" line="163" tag="G">  canoe in 1sg.be.IMM.PAST </item>
+      <item id="r4" line="164" tag="T">  `I was in the canoe'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="161" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="162" tag="L">  kanawa yawo wakho</item>
+      <item id="c3" alignment="r3" line="163" tag="G">  canoe in 1sg.be.IMM.PAST </item>
+      <item id="c4" alignment="r4" line="164" tag="T">  `I was in the canoe'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="161" tag="M">f</item>
+      <item id="n2" alignment="c2" line="162" tag="L">kanawa yawo wakho</item>
+      <item id="n3" alignment="c3" line="163" tag="G">canoe in 1sg.be.IMM.PAST</item>
+      <item id="n4" alignment="c4" line="164" tag="T">I was in the canoe</item>
+    </tier>
+  </igt>
+  <igt id="igt29" doc-id="lgcol:hix" line-range="165-167" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="165" tag="M">  a vetted: t</item>
+      <item id="r2" line="166" tag="L">  yaskomo me nehxakoni toto</item>
+      <item id="r3" line="167" tag="G">  shaman DENOMLZR 3sg.be.DIST.PAST.CONT person</item>
+      <item id="r4" line="168" tag="T">  `The man was a shaman'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="165" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="166" tag="L">  yaskomo me nehxakoni toto</item>
+      <item id="c3" alignment="r3" line="167" tag="G">  shaman DENOMLZR 3sg.be.DIST.PAST.CONT person</item>
+      <item id="c4" alignment="r4" line="168" tag="T">  `The man was a shaman'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="165" tag="M">t</item>
+      <item id="n2" alignment="c2" line="166" tag="L">yaskomo me nehxakoni toto</item>
+      <item id="n3" alignment="c3" line="167" tag="G">shaman DENOMLZR 3sg.be.DIST.PAST.CONT person</item>
+      <item id="n4" alignment="c4" line="168" tag="T">The man was a shaman</item>
+    </tier>
+  </igt>
+  <igt id="igt30" doc-id="lgcol:hix" line-range="169-171" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="169" tag="M">  a vetted: t</item>
+      <item id="r2" line="170" tag="L">  toto me naha</item>
+      <item id="r3" line="171" tag="G">  person DENOMLZR 3sg.be.NONPAST</item>
+      <item id="r4" line="172" tag="T">  `He is a man'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="169" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="170" tag="L">  toto me naha</item>
+      <item id="c3" alignment="r3" line="171" tag="G">  person DENOMLZR 3sg.be.NONPAST</item>
+      <item id="c4" alignment="r4" line="172" tag="T">  `He is a man'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="169" tag="M">t</item>
+      <item id="n2" alignment="c2" line="170" tag="L">toto me naha</item>
+      <item id="n3" alignment="c3" line="171" tag="G">person DENOMLZR 3sg.be.NONPAST</item>
+      <item id="n4" alignment="c4" line="172" tag="T">He is a man</item>
+    </tier>
+  </igt>
+  <igt id="igt31" doc-id="lgcol:hix" line-range="173-175" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="173" tag="M">  a vetted: t</item>
+      <item id="r2" line="174" tag="L">  toto noro</item>
+      <item id="r3" line="175" tag="G">  person 3sg</item>
+      <item id="r4" line="176" tag="T">  `He is a man'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="173" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="174" tag="L">  toto noro</item>
+      <item id="c3" alignment="r3" line="175" tag="G">  person 3sg</item>
+      <item id="c4" alignment="r4" line="176" tag="T">  `He is a man'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="173" tag="M">t</item>
+      <item id="n2" alignment="c2" line="174" tag="L">toto noro</item>
+      <item id="n3" alignment="c3" line="175" tag="G">person 3sg</item>
+      <item id="n4" alignment="c4" line="176" tag="T">He is a man</item>
+    </tier>
+  </igt>
+  <igt id="igt32" doc-id="lgcol:hix" line-range="177-179" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="177" tag="M">  author vetted: f</item>
+      <item id="r2" line="178" tag="L">  kamara mpini o-yoski-yano 0-ka-yakoni notxwakomo biryekomo wya</item>
+      <item id="r3" line="179" tag="G">  jaguar warning SIIIOII-bite-PAST.UNCERT SIIIOIII-say-DIST.PAST.CONT old.woman boy to</item>
+      <item id="r4" line="180" tag="T">  `Be careful lest the jaguar bite you, said the old woman to the boy. OR The old woman warned the boy that the jaguar might bite him'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="177" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="178" tag="L">  kamara mpini o-yoski-yano 0-ka-yakoni notxwakomo biryekomo wya</item>
+      <item id="c3" alignment="r3" line="179" tag="G">  jaguar warning SIIIOII-bite-PAST.UNCERT SIIIOIII-say-DIST.PAST.CONT old.woman boy to</item>
+      <item id="c4" alignment="r4" line="180" tag="T">  `Be careful lest the jaguar bite you, said the old woman to the boy. OR The old woman warned the boy that the jaguar might bite him'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="177" tag="M">f</item>
+      <item id="n2" alignment="c2" line="178" tag="L">kamara mpini o-yoski-yano 0-ka-yakoni notxwakomo biryekomo wya</item>
+      <item id="n3" alignment="c3" line="179" tag="G">jaguar warning SIIIOII-bite-PAST.UNCERT SIIIOIII-say-DIST.PAST.CONT old.woman boy to</item>
+      <item id="n4" alignment="c4" line="180" tag="T">Be careful lest the jaguar bite you, said the old woman to the boy. OR The old woman warned the boy that the jaguar might bite him</item>
+    </tier>
+  </igt>
+  <igt id="igt33" doc-id="lgcol:hix" line-range="181-183" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="181" tag="M">  author vetted: f</item>
+      <item id="r2" line="182" tag="L">  oni wewe w-ama-ye</item>
+      <item id="r3" line="183" tag="G">  inanimate.near.deictic tree SI-fell-DIST.PAST.COMP</item>
+      <item id="r4" line="184" tag="T">  `I felled this tree'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="181" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="182" tag="L">  oni wewe w-ama-ye</item>
+      <item id="c3" alignment="r3" line="183" tag="G">  inanimate.near.deictic tree SI-fell-DIST.PAST.COMP</item>
+      <item id="c4" alignment="r4" line="184" tag="T">  `I felled this tree'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="181" tag="M">f</item>
+      <item id="n2" alignment="c2" line="182" tag="L">oni wewe w-ama-ye</item>
+      <item id="n3" alignment="c3" line="183" tag="G">inanimate.near.deictic tree SI-fell-DIST.PAST.COMP</item>
+      <item id="n4" alignment="c4" line="184" tag="T">I felled this tree</item>
+    </tier>
+  </igt>
+  <igt id="igt34" doc-id="lgcol:hix" line-range="185-187" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="185" tag="M">  author vetted: f</item>
+      <item id="r2" line="186" tag="L">  moro wewe w-ama-ye</item>
+      <item id="r3" line="187" tag="G">  inanimate.medial.deictic tree SI-fell-DIST.PAST.COMP</item>
+      <item id="r4" line="188" tag="T">  `I felled that tree'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="185" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="186" tag="L">  moro wewe w-ama-ye</item>
+      <item id="c3" alignment="r3" line="187" tag="G">  inanimate.medial.deictic tree SI-fell-DIST.PAST.COMP</item>
+      <item id="c4" alignment="r4" line="188" tag="T">  `I felled that tree'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="185" tag="M">f</item>
+      <item id="n2" alignment="c2" line="186" tag="L">moro wewe w-ama-ye</item>
+      <item id="n3" alignment="c3" line="187" tag="G">inanimate.medial.deictic tree SI-fell-DIST.PAST.COMP</item>
+      <item id="n4" alignment="c4" line="188" tag="T">I felled that tree</item>
+    </tier>
+  </igt>
+  <igt id="igt35" doc-id="lgcol:hix" line-range="189-191" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="189" tag="M">  author vetted: f</item>
+      <item id="r2" line="190" tag="L">  moni wewe w-ama-ye</item>
+      <item id="r3" line="191" tag="G">  inanimate.remote.deictic tree SI-fell-DIST.PAST.COMP</item>
+      <item id="r4" line="192" tag="T">  `I felled that (far away) tree'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="189" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="190" tag="L">  moni wewe w-ama-ye</item>
+      <item id="c3" alignment="r3" line="191" tag="G">  inanimate.remote.deictic tree SI-fell-DIST.PAST.COMP</item>
+      <item id="c4" alignment="r4" line="192" tag="T">  `I felled that (far away) tree'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="189" tag="M">f</item>
+      <item id="n2" alignment="c2" line="190" tag="L">moni wewe w-ama-ye</item>
+      <item id="n3" alignment="c3" line="191" tag="G">inanimate.remote.deictic tree SI-fell-DIST.PAST.COMP</item>
+      <item id="n4" alignment="c4" line="192" tag="T">I felled that (far away) tree</item>
+    </tier>
+  </igt>
+  <igt id="igt36" doc-id="lgcol:hix" line-range="197-199" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="197" tag="M">  author vetted: f</item>
+      <item id="r2" line="198" tag="L">  mosoni toto ni-otaha-no</item>
+      <item id="r3" line="199" tag="G">  animate.near.deictic.sg man SIIIOIII-hit-IMM.PAST</item>
+      <item id="r4" line="200" tag="T">  `He hit this man'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="197" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="198" tag="L">  mosoni toto ni-otaha-no</item>
+      <item id="c3" alignment="r3" line="199" tag="G">  animate.near.deictic.sg man SIIIOIII-hit-IMM.PAST</item>
+      <item id="c4" alignment="r4" line="200" tag="T">  `He hit this man'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="197" tag="M">f</item>
+      <item id="n2" alignment="c2" line="198" tag="L">mosoni toto ni-otaha-no</item>
+      <item id="n3" alignment="c3" line="199" tag="G">animate.near.deictic.sg man SIIIOIII-hit-IMM.PAST</item>
+      <item id="n4" alignment="c4" line="200" tag="T">He hit this man</item>
+    </tier>
+  </igt>
+  <igt id="igt37" doc-id="lgcol:hix" line-range="213-215" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="213" tag="M">  author vetted: f</item>
+      <item id="r2" line="214" tag="L">  moxamo totokomo ni-otaha-txowi</item>
+      <item id="r3" line="215" tag="G">  animate.near.deictic.pl man.pl SIIIOIII-hit-IMM.PAST.pl</item>
+      <item id="r4" line="216" tag="T">  `He hit these men'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="213" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="214" tag="L">  moxamo totokomo ni-otaha-txowi</item>
+      <item id="c3" alignment="r3" line="215" tag="G">  animate.near.deictic.pl man.pl SIIIOIII-hit-IMM.PAST.pl</item>
+      <item id="c4" alignment="r4" line="216" tag="T">  `He hit these men'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="213" tag="M">f</item>
+      <item id="n2" alignment="c2" line="214" tag="L">moxamo totokomo ni-otaha-txowi</item>
+      <item id="n3" alignment="c3" line="215" tag="G">animate.near.deictic.pl man.pl SIIIOIII-hit-IMM.PAST.pl</item>
+      <item id="n4" alignment="c4" line="216" tag="T">He hit these men</item>
+    </tier>
+  </igt>
+  <igt id="igt38" doc-id="lgcol:hix" line-range="217-219" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="217" tag="M">  author vetted: f</item>
+      <item id="r2" line="218" tag="L">  mokyamo totokomo ni-otaha-txowi</item>
+      <item id="r3" line="219" tag="G">  animate.medial.remote.deictic.pl man.pl SIIIOIII-hit-IMM.PAST.pl</item>
+      <item id="r4" line="220" tag="T">  `He hit those men OR He hit those (far away) men'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="217" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="218" tag="L">  mokyamo totokomo ni-otaha-txowi</item>
+      <item id="c3" alignment="r3" line="219" tag="G">  animate.medial.remote.deictic.pl man.pl SIIIOIII-hit-IMM.PAST.pl</item>
+      <item id="c4" alignment="r4" line="220" tag="T">  `He hit those men OR He hit those (far away) men'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="217" tag="M">f</item>
+      <item id="n2" alignment="c2" line="218" tag="L">mokyamo totokomo ni-otaha-txowi</item>
+      <item id="n3" alignment="c3" line="219" tag="G">animate.medial.remote.deictic.pl man.pl SIIIOIII-hit-IMM.PAST.pl</item>
+      <item id="n4" alignment="c4" line="220" tag="T">He hit those men OR He hit those (far away) men</item>
+    </tier>
+  </igt>
+  <igt id="igt39" doc-id="lgcol:hix" line-range="225-227" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="225" tag="M">  a vetted: t</item>
+      <item id="r2" line="226" tag="L">  wakara totho hutwahra wahko</item>
+      <item id="r3" line="227" tag="G">  Wakara his.going.NOMLZN not.knowing SI.be.IMM.PAST</item>
+      <item id="r4" line="228" tag="T">  `I did not know that Wakara was going'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="225" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="226" tag="L">  wakara totho hutwahra wahko</item>
+      <item id="c3" alignment="r3" line="227" tag="G">  Wakara his.going.NOMLZN not.knowing SI.be.IMM.PAST</item>
+      <item id="c4" alignment="r4" line="228" tag="T">  `I did not know that Wakara was going'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="225" tag="M">t</item>
+      <item id="n2" alignment="c2" line="226" tag="L">wakara totho hutwahra wahko</item>
+      <item id="n3" alignment="c3" line="227" tag="G">Wakara his.going.NOMLZN not.knowing SI.be.IMM.PAST</item>
+      <item id="n4" alignment="c4" line="228" tag="T">I did not know that Wakara was going</item>
+    </tier>
+  </igt>
+  <igt id="igt40" doc-id="lgcol:hix" line-range="229-231" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="229" tag="M">  a vetted: t</item>
+      <item id="r2" line="230" tag="L">  hitoniri yokarymano rowya</item>
+      <item id="r3" line="231" tag="G">  his.going SIIIOIII.tell.IMM.PAST to.me</item>
+      <item id="r4" line="232" tag="T">  `He told me he was leaving'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="229" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="230" tag="L">  hitoniri yokarymano rowya</item>
+      <item id="c3" alignment="r3" line="231" tag="G">  his.going SIIIOIII.tell.IMM.PAST to.me</item>
+      <item id="c4" alignment="r4" line="232" tag="T">  `He told me he was leaving'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="229" tag="M">t</item>
+      <item id="n2" alignment="c2" line="230" tag="L">hitoniri yokarymano rowya</item>
+      <item id="n3" alignment="c3" line="231" tag="G">his.going SIIIOIII.tell.IMM.PAST to.me</item>
+      <item id="n4" alignment="c4" line="232" tag="T">He told me he was leaving</item>
+    </tier>
+  </igt>
+  <igt id="igt41" doc-id="lgcol:hix" line-range="233-235" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="233" tag="M">  a vetted: t</item>
+      <item id="r2" line="234" tag="L">  ekeh me ryehtxoho muhutwehe</item>
+      <item id="r3" line="235" tag="G">  sick.one DENOMLZR my.being.NOMLZN SIIOIII.know.NONPAST</item>
+      <item id="r4" line="236" tag="T">  `He told me he was leaving'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="233" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="234" tag="L">  ekeh me ryehtxoho muhutwehe</item>
+      <item id="c3" alignment="r3" line="235" tag="G">  sick.one DENOMLZR my.being.NOMLZN SIIOIII.know.NONPAST</item>
+      <item id="c4" alignment="r4" line="236" tag="T">  `He told me he was leaving'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="233" tag="M">t</item>
+      <item id="n2" alignment="c2" line="234" tag="L">ekeh me ryehtxoho muhutwehe</item>
+      <item id="n3" alignment="c3" line="235" tag="G">sick.one DENOMLZR my.being.NOMLZN SIIOIII.know.NONPAST</item>
+      <item id="n4" alignment="c4" line="236" tag="T">He told me he was leaving</item>
+    </tier>
+  </igt>
+</xigt-corpus>

@@ -1,0 +1,1445 @@
+Language: Welsh
+Language code: cym
+Tiers: orth orth-seg gloss translat
+Author: Eric Mead
+Date: January 17, 2008
+Source a: Teach Yourself Welsh, NTC Publishing Group, Lincolnwood, Illinois, USA, 1961.
+Source b: Basic Welsh, A Grammar and Workbook, Routledge, London, 1996.
+Source c: BBC Learn Welsh, Y Lolfa, Cyf., 2004
+Source d: Modern Welsh: A Comprehensive Grammar, King, Gareth, Routledge, London, 2003
+
+Source: {c:38}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {word order}
+Mae'r plant yn mynd i'r ysgol ar y bws.
+Mae=`r plant yn mynd i=`r ysgol ar y bws
+be.PRES.3SING.AUX=the.DET child.PL INF go to=the.DET school on the.DET bus
+"The children go to school on the bus."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {word order}
+Mae'r plant yn eistedd.
+Mae='r plant yn eistedd
+be.PRES.3SING.AUX=the.DET child.PL INF sit
+"The children sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {word order}
+Yr plant mae yn eistedd.
+Yr plant mae yn eistedd
+the.DET child.PL be.PRES.3SING.AUX INF sit
+"The children sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {word order}
+Yr plant yn eistedd mae.
+Yr plant yn eistedd mae
+the.DET child.PL INF sit be.PRES.3SING.AUX
+"The children sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {word order}
+Mae yn yr plant eistedd.
+Mae yn yr plant eistedd
+be.PRES.3SING.AUX INF the.DET child.PL sit
+"The children sit."
+
+Source: {b:27}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {word order}
+Mae'r plant yn tyfu.
+Mae='r plant yn tyfu
+be.PRES.3SING.AUX=the.DET child.PL INF grow
+"The children grow."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {word order}
+Mae'r plant yn darllen y papur.
+Mae='r plant yn darllen y papur
+be.PRES.3SING.AUX=the.DET child.PL INF read the.DET paper
+"The children read the paper."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {word order}
+ y papur Mae'r plant yn darllen.
+ y papur Mae='r plant yn darllen
+the.DET paper be.PRES.3SING.AUX=the.DET child.PL INF read
+"The children read the paper."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {word order}
+Yr plant mae yn darllen y papur.
+Yr plant mae yn darllen y papur
+the.DET child.PL be.PRES.3SING.AUX INF read the.DET paper
+"The children read the paper."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {word order}
+Yr plant y papur mae yn darllen.
+Yr plant y papur mae yn darllen
+the.DET child.PL the.DET paper be.PRES.3SING.AUX INF read 
+"The children read the paper."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {word order}
+Yr papur y plant mae yn darllen.
+Yr papur y plant mae yn darllen
+the.DET paper the.DET child.PL  be.PRES.3SING.AUX INF read 
+"The children read the paper."
+
+Source: {b:26}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {word order}
+Mae Geraint yn tynnu llun.
+Mae Geraint yn tynnu llun
+be.PRES.3SING.AUX Geraint INF draw picture
+"Geraint draws a picture."
+
+Source: {b:56}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {word order}
+Mae Sioned yn rhoi bisgedi i'r plant.
+Mae Sioned yn rhoi bisgedi i='r plant
+be.PRES.3SING.AUX Sioned INF give biscuit.PL to=the.DET child.PL
+"Sioned gives biscuits to the children."
+
+Source: {b:56}
+Vetted: {s}
+Judgment: {u}
+Phenomena: {word order}
+Sioned mae yn rhoi bisgedi i'r plant.
+Sioned mae yn rhoi bisgedi i='r plant
+Sioned be.PRES.3SING.AUX INF give biscuit.PL to=the.DET child.PL
+"Sioned gives biscuits to the children."
+
+Source: {b:56}
+Vetted: {s}
+Judgment: {u}
+Phenomena: {word order}
+Yn mae Sioned rhoi bisgedi i'r plant.
+Yn mae Sioned rhoi bisgedi i='r plant
+INF be.PRES.3SING.AUX Sioned give biscuit.PL to=the.DET child.PL
+"Sioned gives biscuits to the children."
+
+Source: {b:56}
+Vetted: {s}
+Judgment: {u}
+Phenomena: {word order}
+Rhoi mae Sioned yn bisgedi i'r plant.
+Rhoi mae Sioned yn bisgedi i='r plant
+give be.PRES.3SING.AUX Sioned INF biscuit.PL to=the.DET child.PL
+"Sioned gives biscuits to the children."
+
+Source: {b:56}
+Vetted: {s}
+Judgment: {u}
+Phenomena: {word order}
+Rhoi mae Sioned plant yn bisgedi i'r.
+Rhoi mae Sioned plant yn bisgedi i='r
+give be.PRES.3SING.AUX Sioned child.PL INF biscuit.PL to=the.DET 
+"Sioned gives biscuits to the children."
+
+Source: {b:56}
+Vetted: {s}
+Judgment: {u}
+Phenomena: {word order}
+I'r rhoi mae Sioned yn bisgedi plant.
+I='r rhoi mae Sioned yn bisgedi plant
+to=the.DET give be.PRES.3SING.AUX Sioned INF biscuit.PL child.PL
+"Sioned gives biscuits to the children."
+
+Source: {b:9}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {pronouns}
+Mae hi fan hyn.
+Mae hi fanhyn
+be.PRES.3SING she here
+"She is here."
+
+Source: {b:9}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {pronouns}
+Dych chi yn y lle iawn.
+Dych chi yn y lle iawn
+be.PRES.2PL  you.PL in the.DET place right
+"You are in the right place."
+
+Source: {b:9}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {pronouns}
+Maen nhw drws nesa.
+Maen nhw drws nesa
+be.PRES.3PL they door next
+"They are next door."
+
+Source: {b:33}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {pronouns}
+Dw I'n hoffi siocled.
+Dw I='n hoffi siocled
+be.PRES.1SING I=INF like chocolate
+"I like chocolate."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {pronouns}
+`Dyn ni'n byw yn Llandudno.
+`Dyn ni='n byw yn Llandudno
+be.PRES.1PL we=INF live in Llandudno
+"We are living in Llandudno."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {pronouns}
+Rwyt ti'n gweithio'n hwyr.
+Rwyt ti='n gweithio='n hwyr
+be.PRES.2SING you.2SING=INF work=in late
+"You are working late."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {pronouns}
+`Dyn ni'n eu `nabod nhw.
+`Dyn ni='n eu `nabod nhw
+be.PRES.1PL we=INF their know they
+We know them.
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {pronouns}
+Dw i'n dy hoffi ti.
+Dw i='n dy hoffi ti
+be.PRES.1SING I=INF your.2SING like you.2SING
+"I like you."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {pronouns}
+Rwyt ti'n ein `nabod ni.
+Rwyt ti='n ein `nabod ni
+be.PRES.1PL you.2SING=INF our know us
+"You know us."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {pronouns}
+Mae ei chath hi'n fy `nabod i.
+Mae ei chath hi='n fy `nabod i
+be.PRES.3SING her cat she=INF my know I
+"Her cat knows me."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {pronouns}
+Mae fy nghath i'n ei hoffi e.
+Mae fy nghath i'n ei hoffi e
+be.PRES.3SING my cat I.INF his like he
+"My cat likes him."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {pronouns}
+Mae dy chath ti'n fy `nabod i.
+Mae dy chath ti='n fy `nabod i
+be.PRES.3SING your.SING cat you.SING=INF my know I
+"Your cat knows me."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {pronouns}
+Mae eich nghath chi'n ei hoffi e.
+Mae eich nghath chi'n ei hoffi e
+be.PRES.3SING your.PL cat you.PL.INF his like he
+"Your cat likes him."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {pronouns}
+Mae ein chath ni'n fy `nabod i.
+Mae ein chath ni='n fy `nabod i
+be.PRES.3SING our cat we=INF my know I
+"Our cat knows me."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {pronouns}
+Mae eu nghath nhw'n ei hoffi e.
+Mae eu nghath nhw'n ei hoffi e
+be.PRES.3SING their cat they.INF his like he
+"Their cat likes him."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {determiners}
+Mae lliw car Mair gwyn.
+Mae lliw car Mair gwyn
+be.PRES.3SING colour car.GEN Mair.GEN white
+"The colour of Mair's car is white."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Mae e yn eistedd.
+Mae e yn eistedd
+be.PRES.3SING.AUX he INF sit
+"He sits."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Mae hi yn eistedd.
+Mae hi yn eistedd
+be.PRES.3SING.AUX she INF sit
+"She sits."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Maen nhw yn eistedd.
+Maen nhw yn eistedd
+be.PRES.3PL.AUX they INF sit
+"They sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Dw i yn eistedd.
+Dw i yn eistedd
+be.PRES.1SING.AUX I INF sit
+"I sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Dyn ni yn eistedd.
+Dyn ni yn eistedd
+be.PRES.1PL.AUX we.1PL INF sit
+"We sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Rwyt ti yn eistedd.
+Rwyt ti yn eistedd
+be.PRES.2SING.AUX you.2SING INF sit
+"You sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Dych chi yn eistedd.
+Dych chi yn eistedd
+be.PRES.2PL.AUX you.2PL INF sit
+"You sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Mae e yn eistedd.
+Mae e yn eistedd
+be.PRES.3SING.AUX he INF sit
+"He sits."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Maen hi yn eistedd.
+Maen hi yn eistedd
+be.PRES.3SING.AUX she INF sit
+"She sits."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Mae nhw yn eistedd.
+Mae nhw yn eistedd
+be.PRES.3PL.AUX they INF sit
+"They sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Dyn i yn eistedd.
+Dyn i yn eistedd
+be.PRES.1SING.AUX I INF sit
+"I sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Dw ni yn eistedd.
+Dw ni yn eistedd
+be.PRES.1PL.AUX we.1PL INF sit
+"We sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Dych ti yn eistedd.
+Dych ti yn eistedd
+be.PRES.2SING.AUX you.2SING INF sit
+"You sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Rwyt chi yn eistedd.
+Rwyt chi yn eistedd
+be.PRES.2PL.AUX you.2PL INF sit
+"You sit."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Dych chi yn danfon fe aton ni?
+Dych chi yn danfon fe aton ni
+be.PRES.2PL.AUX you.2PL INF send it to.1PL we
+"You send it to us."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Dych chi yn danfon fe ata i?
+Dych chi yn danfon fe ata i
+be.PRES.2PL.AUX you.2PL INF send it to.1SING I
+"You send it to me."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Dych chi yn danfon fe ato fe?
+Dych chi yn danfon fe ato fe
+be.PRES.2PL.AUX you.2PL INF send it to.3SING.MASC he
+"You send it to him."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Dych chi yn danfon fe ati hi?
+Dych chi yn danfon fe ati hi
+be.PRES.2PL.AUX you.2PL INF send it to.3SING.FEM she
+"You send it to her."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Dych chi yn danfon fe atyn nhw?
+Dych chi yn danfon fe atyn nhw
+be.PRES.2PL.AUX you.2PL INF send it to.3PL they
+"You send it to them."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Dw i yn danfon fe atat ti?
+Dw i yn danfon fe atat ti
+be.PRES.1SING.AUX I INF send it to.2SING you.2SING
+"May I send it to you."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {agreement}
+Dw i yn danfon fe atoch chi?
+Dw i yn danfon fe atoch chi
+be.PRES.1SING.AUX I INF send it to.2PL you.2PL
+"May I send it to you."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Dych chi yn danfon fe ato ni?
+Dych chi yn danfon fe ato ni
+be.PRES.2PL.AUX you.2PL INF send it to.1PL we
+"You send it to us."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Dych chi yn danfon fe aton i?
+Dych chi yn danfon fe aton i
+be.PRES.2PL.AUX you.2PL INF send it to.1SING I
+"You send it to me."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Dych chi yn danfon fe ata fe?
+Dych chi yn danfon fe ata fe
+be.PRES.2PL.AUX you.2PL INF send it to.3SING.MASC he
+"You send it to him."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Dych chi yn danfon fe atyn hi?
+Dych chi yn danfon fe atyn hi
+be.PRES.2PL.AUX you.2PL INF send it to.3SING.FEM she
+"You send it to her."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Dych chi yn danfon fe ati nhw?
+Dych chi yn danfon fe ati nhw
+be.PRES.2PL.AUX you.2PL INF send it to.3PL they
+"You send it to them."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Dw i yn danfon fe atoch ti?
+Dw i yn danfon fe atoch ti
+be.PRES.1SING.AUX I INF send it to.2SING you.2SING
+"I send it to you."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {agreement}
+Dw i yn danfon fe atat chi?
+Dw i yn danfon fe atat chi
+be.PRES.1SING.AUX I INF send it to.2PL you.2PL
+"I send it to you."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {negation}
+Dydy hi ddim yn siopa.
+Dydy hi ddim yn siopa
+is.NEG.PRES.3SING she not INF shop
+"She isn't shopping."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {negation}
+Dw i ddim yn byw yn Llandudno.
+Dw i ddim yn byw yn Llandudno
+is.NEG.PRES.1SING I not INF live in Llandudno
+"I am not living in Llandudno."
+
+Source: {b:77}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {negation}
+Weles i mo'r ffilm.
+Weles i mo='r ffilm
+see.PAST.1SING I not=the.DET ffilm
+"I didn't see the film."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {negation}
+Dydy hi yn siopa yn Llundain.
+Dydy hi yn siopa yn Llundain
+is.NEG.PRES.3SING she INF shop in Llundain
+"She isn't shopping in London.'"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {negation}
+Mae hi ddim yn siopa yn Llundain.
+Mae hi ddim yn siopa yn Llundain
+is.PRES.3SING she not INF shop in Llundain
+"She isn't shopping in London."
+
+Source: {b:77}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {negation}
+Weles i ddim y ffilm.
+Weles i ddim y ffilm
+see.PAST.1SING I not the.DET ffilm
+"I didn't see the film."
+
+Source: {b:7}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {matrix yes-no questions}
+Ydw i yn y lle iawn?
+Ydw i yn y lle iawn
+be.PRES.1SING.Q I in the.DET place right
+"Am I in the right place?"
+
+Source: {b:7}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {matrix yes-no questions}
+Ydy Siwan gartre?
+Ydy Siwan gartre
+be.PRES.3SING.Q Siwan home
+"Is Siwan home?"
+
+Source: {b:7}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {matrix yes-no questions}
+Ydyn ni yn Aberystwyth?
+Ydyn ni yn Aberystwyth
+be.PRES.1PL.Q we in Aberystwyth
+"Are we in Aberystwyth?"
+
+Source: {b:7}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {matrix yes-no questions}
+Ydych chi fan'na?
+Ydych chi fan'na
+be.PRES.2PL.Q you.2PL there
+"Are you there?"
+
+Source: {b:7}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {matrix yes-no questions}
+Ydyn nhw yn y gegin?
+Ydyn nhw yn y gegin
+be.PRES.3PL.Q they in the.DET kitchen
+"Are they in the kitchen?"
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {matrix yes-no questions}
+Wyt ti yn y lle iawn?
+Wyt ti yn y lle iawn
+be.PRES.2SING.Q you.2SING in the.DET place right
+"Are you in the right place?"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {matrix yes-no questions}
+I ydw yn y lle iawn?
+I ydw yn y lle iawn
+I be.PRES.1SING.Q in the.DET place right
+"Am I in the right place?"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {matrix yes-no questions}
+Siwan gartre ydy?
+Siwan gartre ydy 
+Siwan home be.PRES.3SING.Q
+"Is Siwan home?"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {matrix yes-no questions}
+Ni yn ydyn Aberystwyth?
+Ni yn ydyn Aberystwyth
+we in be.PRES.1PL.Q Aberystwyth
+"Are we in Aberystwyth?"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {matrix yes-no questions}
+fan'na ydych chi?
+fan'na ydych chi
+there be.PRES.2PL.Q you.2PL 
+"Are you there?"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {matrix yes-no questions}
+Ti yn y lle iawn wyt?
+Ti yn y lle iawn wyt 
+you.2SING in the.DET place right be.PRES.2SING.Q
+"Are you in the right place?"
+
+Source: {b:111}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {matrix yes-no questions}
+Ddysgodd hi?
+Ddysgodd hi
+learn.PAST.3SING.Q she
+"Did she learn?"
+
+Source: {b:111}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {matrix yes-no questions}
+Ddysgodd hi?
+Ddysgodd hi
+learn.PAST.3SING.Q she
+"Did she learn?"
+
+Source: {c:87}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {embedded declaratives}
+Dw i'n gwybod bod John ar ei wyliau.
+Dw i='n gwybod bod John ar ei wyliau.
+be.PRES.1SING.AUX I=INF know that John on his holiday
+"I know that John is on holiday."
+
+Source: {c:88}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {embedded declaratives}
+Dw i'n meddwl fy bod i'n mynd i Lundain yfory.
+Dw i='n meddwl fy bod i='n mynd i Lundain yfory.
+be.PRES.1SING.AUX I=INF think my that I=INF go to London tomorrow
+"I think that I am going to London tomorrow."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {embedded declaratives}
+Dw i'n gwybod John ar ei wyliau.
+Dw i='n gwybod John ar ei wyliau.
+be.PRES.1SING.AUX I=INF know John on his holiday
+"I know that John is on holiday."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {embedded declaratives}
+Dw i'n meddwl fy i'n mynd i Lundain yfory.
+Dw i='n meddwl fy i='n mynd i Lundain yfory.
+be.PRES.1SING.AUX I=INF think my I=INF go to London tomorrow
+"I think that I am going to London tomorrow."
+
+Source: {a:246}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {embedded interrogatives}
+Sgwn i ble mae John Jones nawr?
+Sgwn i ble mae John Jones nawr?
+wonder.1SING I where be.PRES.3SING John Jones now
+"I wonder where John Jones is now?"
+
+Source: {a:246}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {embedded interrogatives}
+Wyddoch chi beth ddaeth ohono fe?
+Wyddoch chi beth ddaeth ohono fe
+know.PRES.2PL you.2PL what become.PAST.3SING of.3SING he
+"Do you know what became of him?"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {embedded interrogatives}
+Sgwn i mae John Jones nawr?
+Sgwn i mae John Jones nawr?
+wonder.1SING I be.PRES.3SING John Jones now
+"I wonder where John Jones is now?"
+
+Source: {b:24}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {modals}
+Newch chi fynd i'r siop?
+Newch chi fynd i='r siop
+will.2PL you.2PL go to=the.DET shop
+"Will you go to the shop?"
+
+Source: {b:32}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {modals}
+Leichiwn i brynu cryno-ddisg.
+Leichiwn i brynu crynoddisg
+want.1SING I buy CD
+"I would like to buy a CD."
+
+
+Source: {b:33}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {modals}
+Hoffwn i fynd.
+Hoffwn i fynd
+want.1SING I go
+"I would like to go."
+
+Source: {b:33}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {modals}
+Leiciwn i fynd.
+Leiciwn i fynd
+want.1SING I go
+"I would like to go."
+
+Source: {c:74}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {modals}
+Fe ddylai'r plant fynd i'r gwely'n gynnar heno.
+Fe ddylai='r plant fynd i='r gwely='n gynnar heno.
+AFR should.3SING=the.DET child.PL go to=the.DET bed=in early tonight
+"The children ought to go to bed early tonight."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {modals}
+Newch chi yn fynd i'r siop?
+Newch chi yn fynd i='r siop
+will.2PL you.2PL INF go to=the.DET shop
+"Will you go to the shop?"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {modals}
+Leichiwn i yn brynu cryno-ddisg.
+Leichiwn i yn brynu crynoddisg
+want.1SING I INF buy CD
+"I would like to buy a CD."
+
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {modals}
+Hoffwn yn i fynd.
+Hoffwn yn i fynd
+want.1SING INF I go
+"I would like to go."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {modals}
+Leiciwn yn fynd i.
+Leiciwn yn fynd i
+want.1SING INF go I
+"I would like to go."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {modals}
+Fe ddylai'r plant yn fynd i'r gwely'n gynnar heno.
+Fe ddylai='r plant yn fynd i='r gwely='n gynnar heno.
+AFR should.3SING=the.DET child.PL INF go to=the.DET bed=in early tonight
+"The children ought to go to bed early tonight."
+
+Source: {c:102}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {coordination}
+Es i'r siop ond ni phrynais ddim.
+Es i='r siop ond ni phrynais ddim
+go.PAST.1SING I=the.DET shop but not buy.PAST.1SING not
+"I went to the shop but did'nt buy anything."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {coordination}
+Mae e yn eistedd neu mae e yn cysg.
+Mae e yn eistedd neu mae e yn cysg
+be.PRES.3SING.AUX he INF sit or be.PRES.3SING.AUX he INF sleep
+"He is sitting or he is sleeping."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {coordination}
+Es i'r siop ni phrynais ddim ond.
+Es i='r siop ni phrynais ddim ond 
+go.PAST.1SING I=the.DET shop not buy.PAST.1SING not but
+"I went to the shop but did'nt buy anything."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {coordination}
+Neu mae e yn eistedd mae e yn cysg.
+Neu mae e yn eistedd mae e yn cysg
+ or be.PRES.3SING.AUX he INF sit be.PRES.3SING.AUX he INF sleep
+"He is sitting or he is sleeping."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {coordination}
+Mae ci ac chath yn eistedd.
+Mae ci ac chath yn eistedd
+be.PRES.3SING.AUX dog and cat INF sit
+"A dog and a cat are sitting."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {argument optionality}
+Mae ei chath hi'n `nabod i.
+Mae ei chath hi='n `nabod i
+be.PRES.3SING her cat she=INF know I
+"Her cat knows me."
+
+Source: {b:112}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {argument optionality}
+Ydy.
+Ydy
+be.PRES.3SING
+"(Yes, he) is (coming). [as an answer]"
+
+Source: {b:111}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {argument optionality}
+Gallwn.
+Gallwn
+can.PRES.1PL
+"(Yes, we) can (go tomorrow). [as an answer]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {argument optionality}
+Ydy e.
+Ydy e
+be.PRES.3SING he
+"(Yes,) he is (coming). [as an answer]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {argument optionality}
+Gallwn ni.
+Gallwn ni
+can.PRES.1PL we
+"(Yes,) we can (go tomorrow). [as an answer]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {argument optionality}
+Ydy e.
+Ydy e
+be.PRES.3SING he
+"(Yes,) he is (coming). [as an answer]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {argument optionality}
+Gallwn ni fynd.
+Gallwn ni fynd
+can.PRES.1PL we go
+"(Yes,) we can go (tomorrow). [as an answer]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {argument optionality}
+Gallwn ni fynd yfory.
+Gallwn ni fynd yfory
+can.PRES.1PL we go tomorrow
+"(Yes,) we can go tomorrow. [as an answer]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {argument optionality}
+E.
+e
+he
+"(Yes, he) is (coming). [as an answer]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {argument optionality}
+Ni.
+ni
+we
+"(Yes, we) can (go tomorrow). [as an answer]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {argument optionality}
+Gallwn fynd.
+Gallwn fynd
+can.PRES.1PL go
+"(Yes, we) can go (tomorrow). [as an answer]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {argument optionality}
+Gallwn fynd yfory.
+Gallwn fynd yfory
+can.PRES.1PL go tomorrow
+"(Yes, we) can go tomorrow. [as an answer]"
+
+Source: {c:76}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {argument optionality}
+Pryna gar newydd!
+Pryna gar newydd
+buy.IMP.FAM car new
+"Buy a new car!"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {argument optionality}
+Pryna ti gar newydd!
+Pryna ti gar newydd
+buy.IMP.FAM you.2SING car new
+"Buy a new car!"
+
+Source: {d:138}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+Mae e'n prynu.
+Mae e='n prynu
+be.PRES.3SING.AUX he=INF buy
+"He buys./He is buying."
+
+Source: {d:138}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+Oedd e'n prynu.
+Oedd e='n prynu
+be.PAST.3SING.AUX he=INF buy
+"He was buying."
+
+Source: {d:138}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+Mae e wedi prynu.
+Mae e wedi prynu
+be.PRES.3SING.AUX he have.PRF buy
+"He has bought."
+
+Source: {d:138}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+Oedd e wedi prynu.
+Oedd e wedi prynu.
+be.PAST.3SING.AUX he have.PRF buy
+"He had bought."
+
+Source: {d:138}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+Brynodd e.
+Brynodd e
+buy.PAST.3SING he
+"He bought./He did buy."
+
+Source: {d:138}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+Brynith e.
+Brynith e
+buy.FUT.3SING he
+"He will buy."
+
+Source: {d:138}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+Bydd e'n prynu.
+Bydd e='n prynu
+be.FUT.3SING.AUX he=INF buy
+"He will be buying."
+
+Source: {d:138}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+Bydd e wedi prynu.
+Bydd e wedi prynu
+be.FUT.3SING.AUX he have.PRF buy
+"He will have bought."
+
+Source: {d:138}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+Basai fe'n prynu.
+Basai fe='n prynu
+be.COND.3SING.AUX he=INF buy
+"He would buy."
+
+Source: {d:138}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+Basai fe wedi prynu.
+Basai fe wedi prynu
+be.COND.3SING.AUX he have.PRF buy
+"He would have bought."
+
+Source: {d:171}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+'Dda i'n cysgu'n ysgafnach yn yr Ha.
+'Dda i'n cysgu='n ysgafnach yn yr Ha.
+be.FUT.1SING.AUX I.INF sleep=in light in the.DET summer
+"I'm a lighter sleeper in the summer. [habitual]"
+
+Source: {c:76}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+Dysgwch Gymraeg!
+Dysgwch Gymraeg!
+learn.FOR.IMP Welsh
+"Learn Welsh! [formal]"
+
+Source: {c:76}
+Vetted: {s}
+Judgment: {g}
+Phenomena: {Tense Aspect}
+Dysga Gymraeg!
+Dysga Gymraeg!
+learn.FAM.IMP Welsh
+"Learn Welsh! [familiar]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+e'n prynu.
+e='n prynu
+he=INF buy
+"He buys./He is buying."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+e'n prynu.
+e='n prynu
+he=INF buy
+"He was buying."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+Mae e prynu.
+Mae e prynu
+be.PRES.3SING.AUX he buy
+"He has bought."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+Oedd e prynu.
+Oedd e prynu.
+be.PAST.3SING.AUX he buy
+"He had bought."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+Bryn e.
+Bryn e
+buy he
+"He bought./He did buy."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+Bryn e.
+Bryn e
+buy he
+"He will buy."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+e'n prynu.
+e='n prynu
+he=INF buy
+"He will be buying."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+Bydd e prynu.
+Bydd e prynu
+be.FUT.3SING.AUX he buy
+"He will have bought."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+fe'n prynu.
+fe='n prynu
+he=INF buy
+"He would buy."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+Basai fe prynu.
+Basai fe prynu
+be.COND.3SING.AUX he buy
+"He would have bought."
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+I'n cysgu'n ysgafnach yn yr Ha.
+i'n cysgu='n ysgafnach yn yr Ha.
+I.INF sleep=in light in the.DET summer
+"I'm a lighter sleeper in the summer. [habitual]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+Dysg Gymraeg!
+Dysg Gymraeg!
+learn Welsh
+"Learn Welsh! [formal]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {u}
+Phenomena: {Tense Aspect}
+Dysg Gymraeg!
+Dysg Gymraeg!
+learn Welsh
+"Learn Welsh! [familiar]"
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Mae cwn yn cysgu.
+Mae cwn yn cysgu
+be.PRES.3SING.AUX dog.PL INF sleep
+"Dogs sleep."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Mae cwn yn ymlid ceir.
+Mae cwn yn ymlid ceir
+be.PRES.3SING.AUX dog.PL INF chase car.PL
+"Dogs chase cars."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Dw i yn dy ymlid ti.
+Dw i yn dy ymlid ti
+be.PRES.1SING.AUX I INF your.2SING chase you.2SING
+"I chase you."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Mae y cwn hyn yn cysgu.
+Mae y cwn hyn yn cysgu
+be.PRES.3SING.AUX the.DET dog.PL these INF sleep
+"These dogs sleep."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Mae cwn yn bwyta.
+Mae cwn yn bwyta
+be.PRES.3SING.AUX dog.PL INF eat 
+"Dogs eat."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Fe ga i bwyta gwydr.
+Fe ga i bwyta gwydr.
+AFR can.1SING I eat glass
+"I can eat glass."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+'Dyw hi ddim yn niweidio i fi.
+'Dyw hi ddim yn niweidio i fi.
+be.PRES.3SING.AUX she not INF hurt to I
+"It doesn't hurt me."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Mae'r cwn yn ymlid ceir.
+Mae='r cwn yn ymlid ceir
+be.PRES.3SING.AUX=the.DET dog.PL INF chase car.PL
+"The dogs chase cars."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Dw i'n erchi os wyddaist ti bod cwn yn ymlid ceir.
+Dw i='n erchi os wyddaist ti bod cwn yn ymlid ceir.
+be.PRES.1SING.AUX I=INF ask if know.2SING you.2SING that dog.PL INF chase car.PL
+"I ask whether you know that dogs chase cars."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Mae Cathod ac cwn yn ymlid ceir. 
+Mae Cathod ac cwn yn ymlid ceir. 
+be.PRES.3SING.AUX cat.PL and dog.PL INF chase car.PL
+"Cats and dogs chase cars."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Mae cwn yn ymlid ceir ac mae cathod yn ymlid cwn.
+Mae cwn yn ymlid ceir ac mae cathod yn ymlid cwn.
+be.PRES.3SING.AUX dog.PL INF chase car.PL and be.PRES.3SING.AUX cat.PL INF chase dog.PL
+"Dogs chase cars and cats chase dogs."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Mae cathod yn ymlid cwn ac mae cathod yn cysgu
+Mae cathod yn ymlid cwn ac mae cathod yn cysgu
+be.PRES.3SING.AUX cat.PL INF chase dog.PL and be.PRES.3SING.AUX cat.PL INF sleep
+"Cats chase dogs and sleep."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Ydy cathod yn ymlid cwn?
+Ydy cathod yn ymlid cwn
+be.PRES.3SING.AUX.Q cat.PL INF chase dog.PL
+"Do cats chase dogs?"
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Ymlida'r ci!
+Ymlida='r ci
+chase.FAM.IMP=the.DET dog
+"Chase the dog!"
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Mae cwn llwglyd yn bwyta.
+Mae cwn llwglyd yn bwyta
+be.PRES.3SING.AUX dog.PL hungry INF eat
+"Hungry dogs eat."
+
+Source: {author}
+Vetted: {f}
+Judgment: {g}
+Phenomena: {MT}
+Mae cwn llwglyd yn bwyta ar frys.
+Mae cwn llwglyd yn bwyta ar.frys
+be.PRES.3SING.AUX dog.PL hungry INF eat quickly
+"Hungry dogs eat quickly."
+
+
+

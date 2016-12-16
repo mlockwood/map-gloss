@@ -1,0 +1,108 @@
+Notes
+
+  And what the book says "The free form amna has been seen already to
+  be unique among the +pro in two respsects: it has the same form for
+  both individual and collective, and it obligiatoriyl cooccurs with
+  the third person prefixes to express the category I+III. It is also
+  unique in the rules which govern its position in the clause when it
+  occurs as subject: 1) In quotative clause it always occurs
+  immediately after the verb -ka- 'say' and 2) in all other finite
+  clauses it occurs immediately before the V, even when there is also
+  a free form direct object in the clause. This results in an order of
+  constiuents that virtually never appears otherwoise, namely OSV"
+
+Yes, this does seem a little over the top.  But I+III is an exclusive, right?
+The word order we might not able to fully pin down, but the exclusive notion
+we can certainly do.  I wonder what kinds of examples he tested to come
+up with those word order generalizations.  It sounds suspiciously like he
+might have had some sort of biased sample, to me.
+
+  I'm not sure where they can attach actually which is why I didn't
+  include an ungrammatical example. In the "singing loudly" example,
+  loudly went before "singing" but singing was also a kind of
+  denominalized phrase. For the purposes of this lab I think I will
+  say they attach after the verb, but I don't have hard evidence to
+  this fact, so I'm hesitant to put in "ungrammatical" examples.
+
+It might be good to get his other book, too, if only in the hopes that
+he'll have more examples.
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+nomokyatxoko
+ni-omoki-yatxoko
+SIII-come-REC.PAST.COMP-COLL
+
+This is example needs a translation line.
+
+From your examples, it looks like you have obligatory agreement markers
+and rampant pro-drop.
+
+  "The foregoing examples higlight the structural differences in the
+  two clause types. The equative nucleus has only nominals, in
+  contrast with the copular complement, which must be a PP or an AP,
+  the copula is present or absent, and the subject is an obligatory
+  sonstituent of the equative, but not copular, clause"
+
+Yikes!  Is this typical of his writing? Obviously not a paragon of clarity...
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+ekeh me ryehtxoho muhutwehe
+ekeh me ryehtxoho muhutwehe
+sick-one DENOMLZR my-being-NOMLZN SIIOIII-know-NONPAST
+`He told me he was leaving'
+
+Incorrect translation line?
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+hitoniri yokarymano rowya
+hitoniri yokarymano rowya
+his-going SIIIOIII-tell-IMM.PAST to-me
+`He told me he was leaving'
+
+What is the internal structure of hitoniri, such that it is glossed as
+his-going?
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+wakara totho hutwahra wahko
+wakara totho hutwahra wahko
+Wakara his-going.NOMLZN not-knowing SI-be-IMM.PAST
+`I did not know that Wakara was going'
+
+This one looks like it has two separate things going on in it:
+The nominalization of going, and the not-knowing ... be
+construction.  Are they independent?  (Or can you tell from your source?)
+
+Do the nominalized verbs lose their agreement morphology,
+or is the thing glossed as "his" actually a 3rd person subject marker?
+(Btw, I find SIII etc *really* hard to read.  Can you search and replace
+and switch to 3.subj or 3S or something like that?)
+
+
+  Since we added a ton of items that aren't expected to parse yet,
+  only some of my basic examples parse. Some of the more basic ones
+  that should parse but aren't are because I have yet to put in my
+  orthographic rules.
+
+Still, I'm looking for a report on the percentages that are parsing
+overall (such as you can get from Analyze | Coverage).
+
+  I didn't really make any changes to the grammar other than put in
+  some lexical items, and my previous tsdb suites were messy so I
+  didn't compare. It looks like I may not be able to compare test
+  suites with different numbers of items too?
+
+You can, per the discussion in class today.  [incr tsdb()] does
+an alignment based on the input strings (not the item numbers).
+

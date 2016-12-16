@@ -1,20 +1,20 @@
 [
   {
-    "find_path_key": "aggregation",
+    "find_path_key": "map_gloss",
     "method": "agg",
     "name": "dev1",
-    "path": "data/567/dev1"
+    "path": "example/data/dev1"
   },
   {
-    "find_path_key": "aggregation",
+    "find_path_key": "map_gloss",
     "method": "agg",
     "name": "dev2",
-    "path": "data/567/dev2"
+    "path": "example/data/dev2"
   },
   {
-    "find_path_key": "aggregation",
+    "find_path_key": "map_gloss",
     "method": "agg",
     "name": "test",
-    "path": "data/567/test"
+    "path": "example/data/test"
   }
 ]

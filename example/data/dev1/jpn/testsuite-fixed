@@ -1,0 +1,1283 @@
+Language: Classical-Japanese
+Language code: jpn
+Tiers: orth translit-seg gloss translat
+Author: Thomas C Amundsen III
+Date: January 24, 2009
+Source a: A Grammar of Classical Japanese by Akira Komai
+Source b: Classical Japanese: A Grammar by Haruo Shirane
+
+# 1 this is an example of proper word order with an intransitive verb (SV)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {wo}
+なんじ  が    みる
+Nanji ga   miru
+you   NOM  see
+`You see (it).'
+
+# 2 this is an example of improper word order with an intransitive verb (VS)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+みる   なんじ  が
+Miru  nanji  ga
+see   you    NOM
+`You see (it).'
+
+# 3 this is an example of proper word order with a transitive verb (SOV)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {wo}
+なんじ   が    我   を    みる
+Nanji  ga   ware wo   miru
+you    NOM  me    ACC  see
+`You see me.'
+
+# 4 this is an example of improper word order with a transitive verb (*OSV)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+我  を     なんじ   が   みる
+Ware wo   nanji  ga   miru
+me   ACC  you    NOM  see
+`You see me.'
+
+# 5 this is an example of improper word order with a transitive verb (*SVO)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+なんじ   が    みる   我      を
+Nanji  ga   miru  ware    o
+you    NOM  see   me      ACC
+`You see me.'
+
+# 6 this is an example of improper word order with a transitive verb (*VSO)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+みる    なんじ  が    我    を
+Miru  nanji  ga   ware  o
+see   you    NOM  me    ACC
+`You see me.'
+
+# 7 this is an example of improper word order with a transitive verb (*VOS)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+みる   我    を    なんじ   が
+Miru  ware   wo   nanji  ga
+see   me    ACC  you    NOM
+`You see me.'
+
+# 8 this is an example of improper word order with a transitive verb (*OVS)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+我   を    みる   なんじ   が
+Ware  wo    miru  nanji  ga
+me   ACC  see   you    NOM
+`You see me.'
+
+# 9 this is an example of proper case agreement (noun-nom intrans-verb)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {c}
+なんじ   が    みる
+Nanji  ga   miru
+you    NOM  see
+`You see (it).'
+
+# 10 this is an example of improper case agreement (*noun-acc intrans-verb)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {c}
+なんじ    を     みる
+Nanji    wo    miru
+you     ACC   see
+`You see (it).'
+
+# 11 this is an example of proper case agreement with a transitive verb (noun-nom noun-acc trans-verb)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {c}
+我   が    なんじ  を    みる
+Ware  ga   nanji   wo   miru
+I     NOM  you    ACC  see
+`I see you.'
+
+
+# 12 this is an example of improper case agreement with a transitive verb (*noun-acc noun-acc trans-verb noun-acc)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {c}
+我    を    なんじ  を     みる
+Ware  wo  nanji wo   miru
+I     ACC  you    ACC  see
+`I see you.'
+
+
+# 13 this is an example of improper case agreement with a transitive verb (*noun-nom noun-nom trans-verb)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {c}
+我    が   なんじ が  みる
+Ware  ga   nanji  ga   miru
+I     NOM  you    NOM  see
+`I see you.'
+
+# 14 this is an example of proper noun-phrase coordination
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {c}
+飯    も  すし   も  を   我   が  たべる
+mesi mo  sushi mo  wo  ware  ga  taberu
+rice  and sushi and ACC I     NOM eat
+`I eat rice and sushi.'
+
+# 15 this is an example of improper noun-phrase coordination
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {crd}
+飯   を   すし    を   我  が    たべる
+mesi wo  sushi  wo  ware  ga   taberu
+rice ACC sushi  ACC  I    NOM  eat
+`I eat rice and sushi.'
+
+# 16 this is an example of proper sentence coordination
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {crd}
+我   が   飯     を   たべる  に  我    が   すし    を   たべる
+ware  ga   mesi  wo   eat    ni  ware  ga   sushi  wo   taberu
+I     NOM  rice   ACC  eat  and  I     NOM  sushi  ACC  eat
+`I eat rice and I eat sushi.'
+
+# 17 this is an example of improper sentence coordination
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {crd}
+我   が    飯   を    たべる  我   が    すし   を   たべる    に
+ware  ga   mesi  wo   eat    ware  ga   sushi  wo  taberu   ni
+I     nom  rice   ACC  eat    I     nom  sushi  ACC eat      and
+`I eat rice and I eat sushi.'
+
+# 18 this is an example of improper sentence coordination
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {crd}
+我    が    飯  を    たべる   に     我   が    すし    を   たべる    に
+ware  ga   mesi  wo   eat     ni    ware  ga    sushi  wo   taberu   ni
+I     NOM  rice   ACC  eat     and   I     NOM  sushi  ACC  eat      and
+`I eat rice and I eat sushi.'
+
+# 19 this is an example of proper use of an auxiliary verb to indicate tense
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+男      が     あり  けり
+wotoko  ga    ari  keri
+man     nom   is   HEARSAY.PAST
+`(It is said) there was a man.'
+
+# 20 this is an example of improper use of an auxiliary verb to indicate tense
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+男      が    けり           あり
+wotoko  ga   keri          ari
+man     nom  HEARSAY.PAST  is   
+`(It is said) there was a man.'
+
+# 21 this is an example of proper use of an auxiliary verb to indicate tense
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+男      が   あり    き
+wotoko  ga  ari    ki
+man    NOM  is     PERSONAL.PAST
+`There was a man (and I knew him).'
+
+# 22 this is an example of improper use of an auxiliary verb to indicate tense
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+男       が   き              あり
+wotoko  ga   ki             ari
+man    NOM   PERSONAL.PAST  is    
+`There was a man (and I knew him).'
+
+# 23 this is an example of proper use of a question particle
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {q}
+人       や   ある
+hito    ya   aru
+person  ?    is    
+`Is there anyone here?'
+
+# 24 this is an example of improper use of a question particle
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+人      ある   や    
+hito    aru   ya
+person  is    ?    
+`Is there anyone here?'
+
+# 25 this is an example of improper use of a question particle
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+や    人       ある     
+ya   hito     aru
+?    person   is
+`Is there anyone here?'
+
+# 26 this is an example of proper use of a negation auxiliary verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {neg}
+我   が  飯     を     たべ    ず  
+ware  ga  mesi   wo   tabe   zu
+I     NOM rice   ACC  eat   NEG
+`I don't eat rice.'
+
+# 27 this is an example of improper use of a negation auxiliary verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {neg}
+我    が    飯  を    ず     たぶ    
+ware  ga  mesi   wo   zu    tabu
+I     NOM rice    ACC  NEG   eat.PRESENT
+`I don't eat rice.'
+
+# 28 this is an example of improper use of a negation auxiliary verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {neg}
+ず    我    が     飯         を      たぶ    
+zu   ware  ga    mesi    wo    tabu
+NEG  I     NOM   rice    ACC    eat.PRESENT
+`I don't eat rice.'
+
+# 29 this is an example of improper use of a negation auxiliary verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {neg}
+我   が    ず    飯      を     たぶ    
+ware  ga    zu   mesi    wo    tabu
+I     NOM   NEG  rice    ACC   eat.PRESENT
+`I don't eat rice.'
+
+# 30 this is an example of proper use of the present tense of a verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+我    が     飯     を    たぶ    
+ware  ga    mesi    wo    tabu
+I     NOM   rice    ACC    eat.PRESENT
+`I eat rice.'
+
+# 31 this is an example of improper use of the present tense of a verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+我    が     飯     を    たべる    
+ware  ga    mesi    wo    taberu
+I     NOM   rice    ACC   eat.INF
+`I eat rice.'
+
+# 32 this is an example of proper use of the future tense auxiliary verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+我    が     飯    を     たべ         ま
+ware  ga    mesi    wo    tabe        ma
+I     NOM   rice    ACC   eat        FUTURE
+`I will eat rice.'
+
+# 33 this is an example of proper use of the future tense auxiliary verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+我   が     飯     を     む        たべ          
+ware  ga    mesi    wo    mu       tabe
+I     NOM   rice    ACC    FUTURE   eat
+`I will eat rice.'
+
+# 34 this is an example of proper use of aspect (continuative, present)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+我    が     飯     を     たべ  り         
+ware  ga    mesi    wo    tabe  ri
+I     NOM   rice    ACC    eat  CONTINUATIVE
+`I am eating rice.'
+
+# 35 this is an example of proper use of aspect (continuative, present)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+り           我   が     飯      を    たべ             
+ri           ware  ga    mesi    wo   tabe
+CONTINUATIVE  I    NOM   rice    ACC   eat
+`I am eating rice.'
+
+# 36 this is an example of proper use of aspect (continuative, present)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+我   が   り             飯      を     たべ             
+ware  ga   ri            mesi    wo    tabe
+I     NOM  CONTINUATIVE  rice    ACC    eat
+`I am eating rice.'
+
+# 37 this is an example of proper use of aspect (resultative, present)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+我    が     飯    を     たべ    たり         
+ware  ga    mesi    wo    tabe   tari
+I     NOM   rice    ACC    eat   RESULTATIVE
+`I had been eating rice.'
+
+# 38 this is an example of proper use of aspect (resultative, present)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+たり            我    が     飯         を     たべ             
+tari          ware  ga    mesi    wo   tabe
+RESULTATIVE   I     NOM   rice    ACC   eat
+`I had been eating rice.'
+
+# 39 this is an example of proper use of aspect (resultative, present)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+我    が    たり             飯          を     たべ             
+ware  ga   tari           mesi    wo    tabe
+I     NOM  RESULTATIVE    rice    ACC    eat
+`I had been eating rice.'
+
+# 40 this is an example of proper use of a demonstrative
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cogst}
+この        飯      を     我   が    たぶ
+kono       mesi    wo    ware  ga    eat.PRES
+that.DEM   rice    ACC   I     NOM   eat
+`I eat that rice.'
+
+# 41 this is an example of improper use of a demonstrative (missing suffix)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+こ        飯      を     我   が    たぶ
+ko       mesi    wo    ware  ga    eat.PRES
+that.DEM   rice    ACC   I     NOM   eat
+`I eat that rice.'
+
+# 42 this is an example of improper use of a demonstrative (missing suffix)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cogst}
+飯      を   この       我   が    たぶ
+mesi    wo  kono      ware  ga    eat.PRES
+rice    ACC that.DEM  I     NOM   eat
+`I eat that rice.'
+
+# 43 this is an example of improper use of a demonstrative (missing suffix)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+飯    この       を     我   が    たぶ
+mesi  kono      wo    ware  ga    eat.PRES
+rice  that.DEM  ACC   I     NOM   eat
+`I eat that rice.'
+
+# 44 this is an example of improper use of a demonstrative (missing suffix)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+飯    を     我   が   この       たぶ
+mesi  wo    ware  ga   kono      eat.PRES
+rice  ACC   I     NOM  that.DEM  eat
+`I eat that rice.'
+
+# 45 this is an example of improper use of a demonstrative (missing suffix)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+のこ        飯      を     我   が    たぶ
+noko       mesi    wo    ware  ga    eat.PRES
+?          rice    ACC   I     NOM   eat
+`I eat that rice.'
+
+# 46 this is an example of an adjective in the NP
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {adj}
+うれしき   物
+ureshiki mono
+pleasing  things
+`Pleasing things.'
+
+# 47 this is an example of an adjective in the NP (wrong order)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+物     うれしき   
+mono    ureshiki
+things  pleasing
+`Pleasing things.'
+
+# 48 this is an example of an adjective separated by other elements (wrong place)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adj}
+うれしき   物     を    我   が     みる 
+ureshiki mono   wo    ware  ga    miru
+pleasing things ACC   I     ACC   see
+`I see pleasing things.'
+
+# 49 this is an example of an adjective separated by other elements (wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+物     を    我   が     みる   うれしき
+mono   wo    ware  ga    miru  ureshiki
+things ACC   I     ACC   see   pleasing
+`I see pleasing things.'
+
+# 50 this is an example of an adjective separated by other elements (wrong place)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adj}
+物     を    うれしき   我   が     みる 
+mono   wo   ureshiki  ware  ga    miru
+things ACC  pleasing  I     ACC   see
+`I see pleasing things.'
+
+# 51 this is an example of an adjective separated by other elements (wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+物     を    我   が   うれしき    みる 
+mono   wo   ware  ga   ureshiki  miru
+things ACC  I     ACC  pleasing  see
+`I see pleasing things.'
+
+# 52 this is an example of proper argument dropping (subject)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+うれしから   ず
+ureshikara zu
+happy      NEG
+`(That person) would not be happy.'
+
+# 53 this is an example of proper argument dropping (subject)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+飯       を    たぶ
+mesi     wo   tabu
+rice     ACC  eat.PRESENT
+`(I/you/he/she/it) eat rice.'
+
+# 54 this is an example of proper argument dropping (object)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+我   が  たぶ
+ware  ga  tabu
+I     NOM eat.PRESENT
+`I eat (rice/sushi/meat/whatever).'
+
+# 55 this is an example of proper argument dropping (object)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+なんじ   が     たぶ
+nanji   ga    tabu
+you     NOM   eat.PRESENT
+`You eat (rice/sushi/meat/whatever).'
+
+# 56 this is an example of a non-verbal predicate (copular NP)
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+我    は       学正      なり
+ware wa       gakusei  nari
+I    SUBJECT  student  COPULA.PRESENT
+`I am a student.'
+
+# 57 this is an example of a non-verbal predicate (copular NP, missing copula)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+我    は       学正
+ware wa       gakusei
+I    SUBJECT  student
+`I am a student.'
+
+# 58 this is an example of a non-verbal predicate (copular NP, copula in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+なり         我    は       学正      
+nari        ware wa       gakusei  
+COPULA.PRESENT  I    SUBJECT  student
+`I am a student.'
+
+# 59 this is an example of a non-verbal predicate (non-copular adjective)
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+心      も   静かなら    ず
+kokoro  mo  shizukara  zu
+heart   ?   quiet      NEG
+`The heart is unsettled.'
+
+# 60 this is an example of a non-verbal predicate (non-copular adjective, copula in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+心      も   静かなら    ず   なり
+kokoro  mo  shizukara  zu  nari
+heart   ?   quiet      NEG COPULA.PRESENT
+`The heart is unsettled.'
+
+# 61 this is an example of a non-verbal predicate (non-copular adjective, copula in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+心      も   静かなら    なり         ず
+kokoro  mo  shizukara  nari        zu
+heart   ?   quiet      COPULA.PRESENT  NEG
+`The heart is unsettled.'
+
+# 62 this is an example of a non-verbal predicate (non-copular adjective, copula in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+心      も   なり             静かなら    ず
+kokoro  mo  nari            shizukara  zu
+heart   ?   COPULA.PRESENT  quiet      NEG
+`The heart is unsettled.'
+
+# 63 this is an example of a non-verbal predicate (locative copular)
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+江戸  なる    寺     に        参り      たり
+Edo  naru   tera   ni        mawiri   tari
+Edo  COPULA temple LOCATION  go.PAST  RESULTATIVE
+`I went to a temple in Edo.'
+
+# 64 this is an example of a non-verbal predicate (locative copular, copula in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+江戸  寺     に        参り      たり
+Edo  tera   ni        mawiri   tari
+Edo  temple LOCATION  go.PAST  RESULTATIVE
+`I went to a temple in Edo.'
+
+# 65 this is an example of a non-verbal predicate (locative copular, copula in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+江戸  寺     に        参り      たり             なる
+Edo  tera   ni        mawiri   tari            naru
+Edo  temple LOCATION  go.PAST  RESULTATIVE    COPULA
+`I went to a temple in Edo.'
+
+# 66 this is an example of an adverb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adv}
+涼風          さつさつ                 たり
+ryofu        satsusatsu              tari
+cool.breeze  blow.refreshingly.PAST  ADVERB
+`A cool breeze blew refreshingly.'
+
+# 67 this is an example of an adverb (missing auxiliary)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+涼風          さつさつ
+ryofu        satsusatsu
+cool.breeze  blow.refreshingly.PAST
+`A cool breeze blew refreshingly.'
+
+# 68 this is an example of an adverb (auxiliary in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+涼風          たり    さつさつ            
+ryofu        tari   satsusatsu
+cool.breeze  ADVERB blow.refreshingly.PAST
+`A cool breeze blew refreshingly.'
+
+# 69 this is an example of an adverb (auxiliary in wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+涼風          たり
+ryofu        tari
+cool.breeze  ADVERB
+`A cool breeze blew refreshingly.'
+
+# 70 this is an example of an embedded clause
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+御前           に        も,    えさ           は       あらじ        と       おぼしめし     たり
+omae          ni        mo    esa           wa       araji        to       oboshimeshi  tari
+Her.Highness  LOCATION  ALSO  that.long     SUBJECT  cannot.last  CLAUSE  think.PAST   RESULTATIVE
+`Even when it came to Her Highness, Her Highness thought, "(the hill of snow) cannot last that long (without melting)."
+
+
+# 71 this is an example of an embedded clause (missing citational particle)
+Source: b
+Vetted: f
+Judgment: u
+Phenomena: {emb-d}
+御前           に        も,    えさ           は       あらじ        おぼしめし     たり
+omae          ni        mo    esa           wa       araji        oboshimeshi  tari
+Her.Highness  LOCATION  ALSO  that.long     SUBJECT  cannot.last  think.PAST   RESULTATIVE
+`Even when it came to Her Highness, Her Highness thought, "(the hill of snow) cannot last that long (without melting)."
+
+# 72 this is an example of an adverb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adv}
+飯      を     我    が    しづかに      たぶ
+mesi    wo   ware  ga   shizukani  tabu
+rice    ACC  I     NOM  quietly    eat
+`I quietly eat rice.'
+
+# 73 this is an example of an adverb in the wrong place
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+飯      を     我    が     たぶ   しづかに
+mesi    wo   ware  ga   tabu  shizukani
+rice    ACC  I     NOM  eat   quietly
+`I quietly eat rice.'
+
+# 74 this is a grammatical example of a ditransitive verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {ditv}
+飯      を     人      に     我     が   あづけ
+mesi    wo    hito    ni     ware  ga   aduke
+rice    ACC   man     DAT    I     NOM  give 
+`I give rice to the man.'
+
+# 75 this is a grammatical example of a ditransitive verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {ditv}
+人      に     飯      を     我     が   あづけ
+hito    ni    mesi    wo     ware  ga   aduke
+man     DAT   rice    ACC     I     NOM  give 
+`I give rice to the man.'
+
+# 76 this is a ungrammatical example of a ditransitive verb (wrong case marking)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {ditv}
+人      を     飯      を     我     が   あづけ
+hito    wo    mesi    wo     ware  ga   aduke
+man     ACC   rice    ACC     I     NOM  give 
+`I give rice to the man.'
+
+# 77 this is a ungrammatical example of a ditransitive verb (wrong case marking)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {ditv}
+人      に     飯      に     我     が   あづけ
+hito    ni    mesi    ni     ware  ga   aduke
+man     DAT   rice    DAT     I     NOM  give 
+`I give rice to the man.'
+
+# 78 this is a grammatical example with the accusative argument missing
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {ditv}
+人      に     我     が   あづけ
+hito    ni     ware  ga   aduke
+man     DAT    I     NOM  give 
+`I give the man (something).'
+
+# 79 this is a grammatical example of a ditransitive verb with the dative argument missing
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {ditv}
+飯      を     我     が   あづけ
+mesi    wo    ware  ga   aduke
+rice    ACC   I     NOM  give 
+`I give rice (to somebody).'
+
+# 80 this is a grammatical example of a ditransitive verb with the nominative argument missing
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {ditv}
+飯      を     人      に     あづけ
+mesi    wo    hito    ni     aduke
+rice    ACC   man     DAT    give 
+`(Somebody) gives rice to the man.'
+
+# 81 this is a grammatical example of an embedded declaratiave clause
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-d}
+みやこ   を   のぼる   と   思ふ
+miyako  wo   noboru  to   omohu
+capital ACC  go.PRES EMB  think.PRES
+`(I) think (I) go to the capital.'
+
+# 82 this is a ungrammatical example of an embedded declarative clause (missing complementizer)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {emb-d}
+みやこ   を   のぼる   思ふ
+miyako  wo   noboru  omohu
+capital ACC  go.PRES think.PRES
+`I think I go to the capital.'
+
+# 83 this is a grammatical example of an embedded declaratiave clause (wrong order)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {emb-d}
+と   思ふ         みやこ   を   のぼる   
+to   omohu       miyako  wo   noboru  
+EMB  think.PRES  capital ACC  go.PRES 
+`(I) think (I) go to the capital.'
+
+# 84 this is an example of proper use of a question particle
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {q}
+人       やあり
+hito     ya-ari
+person   Q-is    
+`Is there anyone here?'
+
+# 85 this is an example of proper use of a question particle
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+人       あるや
+hito     aru-ya
+person   is-Q
+`Is there anyone here?'
+
+# 86 this is an example of proper use of a question particle
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+や人       ある
+ya-hito    aru
+Q-person   is
+`Is there anyone here?'
+
+# 87 this is an example of proper use of a question particle
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+人や       ある
+hito-ya    aru
+person-Q   is
+`Is there anyone here?'
+
+# 88 this is a grammatical example of an embedded interrogative clause
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-i}
+ここ  を   やいます    と  とふ
+koko  wo   ya-imasu  to  tofu
+here  ACC  UNKNOWN-live    EMB ask
+`[They] ask such questions as: `Does [he] live here?''
+
+# 89 this is a ungrammatical example of an embedded interrogative clause (complementizer missing)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {emb-i}
+ここ  を   やいます    とふ
+koko  wo   ya-imasu  tofu
+here  ACC  UNKNOWN-live    ask
+`[They] ask such questions as: `Does [he] live here?''
+
+# 90 this is a grammatical example of an embedded interrogative clause (wrong order)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {emb-i}
+と  とふ    ここ  を   やいます    
+to  tofu   koko  wo   ya-imasu  
+EMB ask    here  ACC  UNKNOWN-live    
+`[They] ask such questions as: `Does [he] live here?''
+
+# 91 "I can eat glass"
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {m}
+我    が    玻璃      を   たべ   れ
+ware  ga   UNKNOWN        wo   tabe  re
+I    nom   glass     acc  eat   can
+`I can eat glass.'
+
+# 92 "I can eat glass"
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {m}
+我    が    玻璃      を   れ    たべ
+ware  ga   UNKNOWN        wo   re   tabe
+I    nom   glass     acc  can  eat
+`I can eat glass.'
+
+# 93 "I can eat glass"
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {m}
+れ   我    が    玻璃   を   たべ
+re  ware  ga    UNKNOWN     wo  tab
+can I    nom   glass   acc  eat
+`I can eat glass.'
+
+# 94 "I can eat glass"
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {m}
+玻璃   を   たべ   れ
+UNKNOWN     wo  tabe  re
+glass  acc  eat  can
+`(I) can eat glass.'
+
+# 95 "It doesn't hurt me"
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {neg}
+それ   が   我   を    傷つか   ず
+sore  ga   ware wo   UNKNOWN.tsuka  zu
+it    nom  I    acc  hurt     not
+`It doesn't hurt me.'
+
+# 96 "It doesn't hurt me"
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {neg}
+我   を    傷つか    ず
+ware wo   UNKNOWN.tsuka  zu
+I    acc  hurt     not
+`It doesn't hurt me.'
+
+
+# 97 "It doesn't hurt me"
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {neg}
+それ   が   傷つか   ず
+sore  ga   UNKNOWN.tsuka  zu
+it    nom  hurt     not
+`It doesn't hurt me.'
+
+# 98 "It doesn't hurt me"
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {neg}
+それ   が   我   を   ず    傷つか   
+sore  ga   ware wo   zu   UNKNOWN.tsuka
+it    nom  I    acc  not  hurt
+`It doesn't hurt me.'
+
+# 99 "It doesn't hurt me"
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {neg}
+ず  それ   が   我   を    傷つか   
+zu  sore  ga   ware wo   UNKNOWN.tsuka
+not it    nom  I    acc  hurt
+`It doesn't hurt me.'
+
+# 100 proper use of the topic marking particle
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adp}
+我    は      飯      を    たぶ
+ware  wa     mesi    wo    tabu
+I     TOPIC  rice    acc   eat.PRES
+`I eat rice.'
+
+# 101 proper use of the topic marking particle
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adp}
+我    は     たぶ
+ware  wa     tabu
+I     TOPIC  eat.PRES
+`I eat rice.'
+
+# 102 this is an example of a non-verbal predicate (copular, adjective)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+心      が   静か      なら
+kokoro  ga  shizuka  nara
+heart  nom   quiet  be.ATTR
+`The heart is settled.'
+
+# 103 this is an example of a non-verbal predicate (copular, adjective)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+心      が   静か
+kokoro  ga  shizuka
+heart  nom   quiet
+`The heart is settled.'
+
+# 104 this is an example of a non-verbal predicate (copular, adjective)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+心      が   静か      なら     ず  
+kokoro  ga  shizuka   nara    zu
+heart  nom   quiet   be.ATTR  NEG
+`The heart is unsettled.'
+
+# 105 proper use of a locative PP 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が   山        に    あり
+ware ga   yama      ni   ari
+I    nom  mountain  LOC  be.ATTR
+`I am in the mountains.'
+
+# 106 this is an example of a non-verbal predicate (copular NP)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が       学正     なり
+ware  ga      gakusei nari
+I    SUBJECT  student COPULA.PRESENT
+`I am a student.'
+
+# 107 this is an example of a non-verbal predicate (copular NP)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+我    が       学正     
+ware  ga      gakusei
+I    SUBJECT  student
+`I am a student.'
+
+# 108 this is an example of a non-verbal predicate (copular NP)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が       学正     なり
+ware  ga      gakusei nari
+I    SUBJECT  student COPULA.PRESENT
+`I am a student.'
+
+# 109 this is an example of a non-verbal predicate (copular NP, future tense)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が       学正      なら             ま
+ware  ga      gakusei  nara            mu
+I    SUBJECT  student  COPULA          FUTURE
+`I will be a student.'
+
+# 110 this is an example of a non-verbal predicate (copular NP, past tense)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が       学正     なり       けり
+ware  ga      gakusei  nari      keri
+I    SUBJECT  student  COPULA    HEARSAY.PAST
+`(someone said) I was a student.'
+
+# 111 this is an example of a non-verbal predicate (copular NP, past tense)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が       学正     なり       き
+ware  ga      gakusei nari      ki
+I    SUBJECT  student COPULA    PERSONAL.PAST
+`I was a student.'
+
+# 112 this is an example of a non-verbal predicate (copular NP, continuative aspect)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が       学正     なら       り
+ware  ga      gakusei  nara      ri
+I    SUBJECT  student  COPULA    CONTINUATIVE
+`I am being a student.'
+
+# 113 this is an example of a non-verbal predicate (copular NP, resultative aspect)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が       学正     なり       たり
+ware  ga      gakusei  nari      tari
+I    SUBJECT  student  COPULA    RESULTATIVE
+`I have completed the state of being a student.'
+
+# 114 this is an example of a non-verbal predicate (copular NP, in an embedded clause)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が       学正     なり       と     思ふ
+ware  ga      gakusei  nari      to     omofu
+I    SUBJECT  student  COPULA    EMB    think
+`I think I am a student.'
+
+# 115 this is an example of a non-verbal predicate (copular, adjective, future tense)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+心      が   静か      なら    ま
+kokoro  ga  shizuka  nara    ma
+heart  nom   quiet   copula  FUTURE
+`The heart will be settled.'
+
+# 116 this is an example of a non-verbal predicate (copular, adjective, past tense)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+心      が   静か      なり    けれ
+kokoro  ga  shizuka  nari    keri
+heart  nom   quiet   copula  HEARSAY.PAST
+`(someone said)The heart was be settled.'
+
+# 117 this is an example of a non-verbal predicate (copular, adjective, past tense)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+心      が   静か      なり    き
+kokoro  ga  shizuka  nari    ki
+heart  nom   quiet   copula  PERSONAL.PAST
+`(I know that)The heart was be settled.'
+
+# 118 this is an example of a non-verbal predicate (copular, adjective, continuative aspect)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+心      が   静か      なら    り
+kokoro  ga  shizuka  nara    ri
+heart  nom   quiet   copula  CONTINUATIVE
+`The heart continues to be settled.'
+
+# 119 this is an example of a non-verbal predicate (copular, adjective, resultative aspect)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+心      が   静か      なら    たり
+kokoro  ga  shizuka  nara    tari
+heart  nom   quiet   copula  RESULTATIVE
+`The heart has finished being settled.'
+
+# 120 this is an example of a non-verbal predicate (copular, adjective, in an embedded clause)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+心      が   静か      なら    と     思ふ
+kokoro  ga  shizuka  nara    COMP  omofu
+heart  nom   quiet   copula  COMP  think
+`I think the heart is settled.'
+
+# 121 proper use of a locative PP 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が   山        に    あり
+ware ga   yama      ni   ari
+I    nom  mountain  LOC  be.ATTR
+`I am in the mountains.'
+
+# 122 proper use of a locative PP (future tense)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が   山        に    あら     ま
+ware ga   yama      ni   ara      ma
+I    nom  mountain  LOC  be.ATTR  FUTURE
+`I will be in the mountains.'
+
+# 123 proper use of a locative PP (past tense)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が   山        に    あり     けれ
+ware ga   yama      ni   ari      kere
+I    nom  mountain  LOC  be.ATTR  HEARSAY.PAST
+`I was in the mountains. (and I know it)'
+
+# 124 proper use of a locative PP (past tense)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が   山        に    あり     き
+ware ga   yama      ni    ari      ki
+I    nom  mountain  LOC   be      PERSONAL.PAST
+`I was in the mountains. (and I know it)'
+
+# 125 proper use of a locative PP (continuative aspect)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が   山        に    あれ     り
+ware ga   yama      ni   are      ri
+I    nom  mountain  LOC  be.ATTR  CONTINUATIVE
+`I am currently being located in the mountains.'
+
+# 126 proper use of a locative PP (resultative aspect)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が   山        に    ある     たり
+ware ga   yama      ni   aru      tari
+I    nom  mountain  LOC  be.ATTR  RESULTATIVE
+`I am currently being located in the mountains.'
+
+# 127 proper use of a locative PP (in an embedded clause)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+我    が   山        に    ある     と     思ふ
+ware ga   yama      ni   aru      to    omofu
+I    nom  mountain  LOC  be.ATTR  COMP  think
+`I think I am in the mountains.'
+
+

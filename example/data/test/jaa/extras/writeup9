@@ -1,0 +1,560 @@
+LING 567
+Jamamadi
+Ryan Cross / David Wax
+
+Week 9 Write Up
+
+[Clean-up to Gramamr]
+
+[-ha/-hi verb clean-up]
+Inflecting verbs in Jamamadi are divided into two major classes. Verbs which use 'a' and 'e' endings ("consonant-stem verbs") and verbs that use the 'ha'/'hi' endings ("vowel-stem verbs"). The most common type of verb in Jamamadi is the former class, which made up the majority of our test suite. 'chase' though is in the less common class; we found that the -ha/-hi verbs were not being correctly marked as finite, which was allowing them to take empty auxiliaries. So one of the first issues we fixed was marking -ha/-hi lexical rules so they could no longer take auxiliaries.
+
+Next we found that -ha/-hi verbs we not correctly implemented for the Object Construction when no other suffiexes were added. This basically involved the splitting of the 2 normal suffix rules into the 12 different object and agent construction possiblities. 
+
+;Masculine agreement on intransitive verbs
+V_final_intr_hi_m-lex-rule := infl-ltol-rule & verb_S_prefix-rule-dtr & Verb_final_ha-lex-rule &
+  [ SYNSEM.LOCAL [ CAT [ HEAD [ COPULA -,
+                                FORM finite ],
+                         VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG masc,
+                               COMPS < > ] ],
+                   CONT.HOOK.INDEX.E [ TENSE nonpast,
+                                       ASPECT Perfective ] ] ].
+
+;Feminine agreement on intransitive verbs
+V_final_intr_ha_f-lex-rule := infl-ltol-rule & verb_S_prefix-rule-dtr & Verb_final_ha-lex-rule &
+  [ SYNSEM.LOCAL [ CAT [ HEAD [ COPULA -,
+                                FORM finite ],
+                         VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG fem,
+                               COMPS < > ] ],
+                   CONT.HOOK.INDEX.E [ TENSE nonpast,
+                                       ASPECT Perfective ] ] ].
+
+;Masculine agreement with a 1st or 2nd person complement, agent construction
+V_Ac_final_hi_m-lex-rule := infl-ltol-rule & verb_S_prefix-rule-dtr & Verb_final_ha-lex-rule &
+  [ SYNSEM.LOCAL [ CAT [ HEAD [ COPULA -,
+                                FORM finite ],
+                         VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX [ PNG masc,
+                                                                  INFO-STR topic ],
+                               COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.PNG 1+2 ] ],
+                   CONT.HOOK.INDEX.E [ TENSE nonpast,
+                                       ASPECT Perfective ] ] ].
+
+;Both subject and object 1st or 2nd person (ambigious A/O construction, so unmarked)
+V_final_ha_f-lex-rule := infl-ltol-rule & verb_S_prefix-rule-dtr & Verb_final_ha-lex-rule &
+  [ SYNSEM.LOCAL [ CAT [ HEAD [ COPULA -,
+                                FORM finite ],
+                         VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG 1+2,
+                               COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.PNG 1+2 ] ],
+                   CONT.HOOK.INDEX.E [ TENSE nonpast,
+                                       ASPECT Perfective ] ] ].
+
+;3rd person feminine agreement with a 1st or 2nd person object (agent construction)
+V_Ac_final_ha_f-lex-rule := infl-ltol-rule & verb_S_prefix-rule-dtr & Verb_final_ha-lex-rule &
+  [ SYNSEM.LOCAL [ CAT [ HEAD [ COPULA -,
+                                FORM finite ],
+                         VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX [ PNG 3fem,
+                                                                  INFO-STR topic ],
+                               COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.PNG 1+2 ] ],
+                   CONT.HOOK.INDEX.E [ TENSE nonpast,
+                                       ASPECT Perfective ] ] ].
+
+;Feminine agreement with a 3rd person object (agent construction)
+V_Ac2_final_ha_f-lex-rule := infl-ltol-rule & verb_S_prefix-rule-dtr & Verb_final_ha-lex-rule &
+  [ SYNSEM.LOCAL [ CAT [ HEAD [ COPULA -,
+                                FORM finite ],
+                         VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX [ PNG fem,
+                                                                  INFO-STR topic ],
+                               COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.PNG 3per ] ],
+                   CONT.HOOK.INDEX.E [ TENSE nonpast,
+                                       ASPECT Perfective ] ] ].
+
+;Masculine agreement with a 3rd person object (agent construction)
+V_Ac2_final_hi_m-lex-rule := infl-ltol-rule & verb_S_prefix-rule-dtr & Verb_final_ha-lex-rule &
+  [ SYNSEM.LOCAL [ CAT [ HEAD [ COPULA -,
+                                FORM finite ],
+                         VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX [ PNG masc,
+                                                                  INFO-STR topic ],
+                               COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.PNG 3per ] ],
+                   CONT.HOOK.INDEX.E [ TENSE nonpast,
+                                       ASPECT Perfective ] ] ].
+
+;Masculine agreement on object (object construction)
+V_Oc_final_hi_m-lex-rule := infl-ltol-rule & verb_Oc_S_prefix-rule-dtr & Verb_final_ha-lex-rule &
+  [ SYNSEM.LOCAL [ CAT [ HEAD [ COPULA -,
+                                FORM finite ],
+                         VAL.COMPS.FIRST.LOCAL.CONT.HOOK.INDEX [ PNG masc,
+                                                                 INFO-STR topic ] ],
+                   CONT.HOOK.INDEX.E [ TENSE nonpast,
+                                       ASPECT Perfective ] ] ].
+
+;3rd person feminine agreement on object (object construction)
+V_Oc_final_ha_f-lex-rule := infl-ltol-rule & verb_Oc_S_prefix-rule-dtr & Verb_final_ha-lex-rule &
+  [ SYNSEM.LOCAL [ CAT [ HEAD [ COPULA -,
+                                FORM finite ],
+                         VAL.COMPS.FIRST.LOCAL.CONT.HOOK.INDEX [ PNG 3fem,
+                                                                 INFO-STR topic ] ],
+                   CONT.HOOK.INDEX.E [ TENSE nonpast,
+                                       ASPECT Perfective ] ] ].
+
+;verbs which take an embedded clauses masculine agreement.
+V_embed_final_hi_m-lex-rule := infl-ltol-rule & verb_S_prefix-rule-dtr & Verb_final_ha-lex-rule &
+  [ SYNSEM.LOCAL [ CAT [ HEAD [ COPULA -,
+                                FORM finite ],
+                         VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG masc,
+                               COMPS.FIRST.LOCAL.CAT.HEAD verb ] ],
+                   CONT.HOOK.INDEX.E [ TENSE nonpast,
+                                       ASPECT Perfective ] ] ].
+
+;verbs which take an embedded clause feminine agreement.
+V_embed_final_ha_f-lex-rule := infl-ltol-rule & verb_S_prefix-rule-dtr & Verb_final_ha-lex-rule &
+  [ SYNSEM.LOCAL [ CAT [ HEAD [ COPULA -,
+                                FORM finite ],
+                         VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG fem,
+                               COMPS.FIRST.LOCAL.CAT.HEAD verb ] ],
+                   CONT.HOOK.INDEX.E [ TENSE nonpast,
+                                       ASPECT Perfective ] ] ].
+
+;verb ending to be used in an embedded clause
+V_final_embed-lex-rule := Verb_final_ha-lex-rule & const-ltol-rule & verb_S_prefix-rule-dtr &
+  [ SYNSEM.LOCAL.CAT.HEAD [ COPULA -,
+                            FORM i_form ] ].
+
+This last lexical rule is actually a part of a new implementation we added. 
+
+[Embedded verb clean-up]
+
+As briefly mentioned in lab 4, complement clauses are formed in Jamamadi by means of the -i COMP suffix.  Consonant-stem inflecting verbs (e.g. /taf-/ 'eat (intr.)') take this -i suffix.  The auxiliary /n-/ takes this suffix as well, becoming /n-i/.  Vowel-stem verbs (e.g. /wato/ 'understand') do not take the -i suffix.  They are distinguished by not taking a gender-agreement suffix, e.g. /-ha/ 'f' or /-hi/ 'm'.  Note that verbs taking the overt or covert COMP suffix may not take any other suffixes (tense, negation, mood, etc.).  They take pronominal prefixes and clitics as normal, however.
+
+The complement clause occurs in either the subject or object position of the verb taking it as a complement.  Thus, in #292 below, /mee-kijo/ '3pl.nom-chase' takes no COMP suffix (since it is a vowel-stem verb) and the entire complement clause (/jomee kaho mee-kijo/) occurs in the object slot for the verb /ti-wato-ti-ke/.
+
+#292 MT 9 'I think that you know that dogs chase cars.'
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: mt
+Jomee kaho mee kijo tiwato tike ona.
+jomee kaho mee-kijo ti-wato-ti-ke ati o-na
+dog.m car.m 3pl.anim.nom-chase 2sg.nom-know-2sg-DECL.f think 1sg.nom-AUX.f
+'I think that you know that dogs chase cars.'
+
+To implement this we first created another form type i_form which inherits from form. This is used to mark verbs which have taking the ending that lets them be used as the complement of the set of verbs which takes an embedded clause as its complement. Next we added the inflectional rules to allow for embedded clauses (Note: we only added the embedded clauses to inflectional verbs, since those are the kind which appear in the MT task. Although it is also possible to have an auxiliary become an embedded verb.) One of the lexical rules allowing for embedded clauses is the one seen above. The second one is used for the more common -a/-e ending verbs:
+
+V_final_embed_i-lex-rule := verb_S_prefix-rule-dtr & Verb_final_a-lex-rule &
+  [ SYNSEM.LOCAL.CAT.HEAD [ COPULA -,
+                            FORM i_form ] ].
+
+Then we added the new verb type 
+
+verb_embed_I_form-verb-lex := Verb_final_ha-rule-dtr & verb_ending_1-rule-dtr & verb_embed-verb-lex &
+  [ INFLECTED -,
+    SYNSEM.LOCAL.CAT [ HEAD [ COPULA -,
+                              VERB_ENDING ha_hi ],
+                       VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM i_form ] ].
+
+This verb is the inherits from our original embedded verbs which take a verb phrase as its complement. The embed_I verb though goes through normal ha verb inflection and can only take i_form verbs as its complement. These embedded clauses allow us to parse "I think you know that dogs chase cars".
+
+[Coordination clean-up]
+
+Coordination is one of the issues in our language which hasn't quite been working, so this was a good chance to finally make some of those major changes.
+
+First VP coordination is a bit peculiar in Jamamadi, it takes a normal list of verbs, but then the last verb must be a normal auxiliary even if the verbs being coordinated are already finite. For example
+
+#147 Coordination through list construction using aux /na/
+Source: a:522
+Vetted: s
+Judgment: g
+Phenomena: coordination, wo
+Kafe otaa fawa; otaa tafa na
+kafe otaa-fawa; otaa-tafa na
+coffee 1pl.exc.nom-drink 1pl.exl.nom-eat AUX.f
+'We drank cofee, and we ate.'
+
+Both fawa and tafa are inflectional verbs which are not allowed to take an auxiliary, but when coordinated the auxiliary appears and can inflect also. Additionally the last constraint is that i_form embedded verbs do not coordinate in this manner, so we created an additional form conj_form. This form inherits from form, and is a parent to both finite and nonfinite verbs. 
+
+;;; Coordination Strategy 1
+
+vp1-top-coord-rule := basic-vp-top-coord-rule & apoly-top-coord-rule &
+  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+                   CAT [ HEAD.FORM nonfinite,
+                         VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX #xarg ],
+                   CONT.HOOK.XARG #xarg ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM conj_form,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM conj_form ].
+
+vp1-bottom-coord-rule := unary-bottom-coord-rule & vp-bottom-coord-phrase &
+  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+                   COORD-REL.PRED "_and_coord_rel" ],
+    ARGS.FIRST.SYNSEM.LOCAL.CAT.HEAD [ AUX -,
+                                       FORM conj_form ] ].
+
+As you can see all the daughter values are constrained to being conj_form and by not allowing auxiliaries to appear in the right most location, they also cannot appear in a VP coordination. We also constrain the top coordination rule to be nonfinite. This will insure that an auxiliary is used to make a correct sentence. Finally we also needed to link the INDEX of the coordination with its XARG, this allows for the subject to be correctly passed up by the auxiliary which attaches to the entire VP phrase.
+
+We also fixed incorrect parses which generated from sentence coordination. The coordination was allowing nonfinite sentences to be used in sentence coordination, which is not allowed in Jamamadi.
+
+s2-top-coord-rule := basic-s-top-coord-rule & apoly-top-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2",
+    RCOORD-DTR.SYNSEM.LOCAL.CAT [ VAL [ SUBJ < >,
+                                        COMPS < > ],
+                                  MC +,
+                                  HEAD verb &
+                                       [ FORM finite ] ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT [ VAL [ SUBJ < >,
+                                        COMPS < > ],
+                                  MC +,
+                                  HEAD verb &
+                                       [ FORM finite ] ] ].
+
+s2-bottom-coord-rule := conj-first-bottom-coord-rule & s-bottom-coord-phrase &
+  [ SYNSEM.LOCAL.COORD-STRAT "2",
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT [ VAL [ SUBJ < >,
+                                         COMPS < > ],
+                                   MC +,
+                                   HEAD verb &
+                                        [ FORM finite ] ] ].
+
+As you can see we simply required the same conditions as the root to appear upon any sentence which is to be coordinated. We also have another coordination rule but the tdl fix is the same as upon the second sentence coordination.
+
+[semi.vpm clean-up]
+
+We added two lines as a catch all for tense
+
+  Present << *
+  Present << [e]
+
+Additionally, because transitive verbs will often mark the subj or object as topic, and we do not have a construction which adds focus, sentences with transtive verbs in English would not generate if all unmarked info-st went to unmarked, because Jamamadi would either add topic to the subj or object. To allieviate this constraint we assigned both unmarked and info-st back to info-st allowing for topic to appear as required.
+
+INFO-STR : INFO-STR
+  topic <> topic
+  focus <> focus
+  info-str << unmarked
+  info-str << info-str
+  info-str >> unmarked
+
+[Transfer Rules Instantiated]
+
+We found that since Jamamadi is a pro-drop language it was necessary to instantiate:
+pro-drop := pronoun-delete-mtr.
+Which allowed us to correctly generate sentences like "I chase you."
+
+Also for the Italian grammar we used the rule:
+harm-to-hurt := make-harm-mtr.
+This fixed the semantics of "Non mi-f-a male" generate correctly in Jamamadi.
+
+[New Transfer Rules Created]
+
+We needed to create 1 transfer rule to more correctly deal with the sentence "dogs eat." Jamamadi has two verbs which are used for eat, one which is transitive (kaba) and one which is intranstive (tafa). So the rule looks to see if the object is realized and if so it leaves the _eat_v_rel unchanged, but if the direct object is missing then we switch to _eat_1_v_rel which then only displays the intransitive results.
+
+eat-no-object-mtr := monotonic_mtr &
+[ INPUT.RELS <! [ PRED "_eat_v_rel",
+                   LBL #larg,
+                   ARG0 #arg0,
+                   ARG1 #arg1,
+		   ARG2 #x ] !>,
+  FILTER.RELS <! [ ARG0 #x ] !>,
+  OUTPUT [ RELS <! [ PRED "_eat_1_v_rel",
+		    ARG0 #arg0,
+                    ARG1 #arg1,
+		    LBL #larg ] !> ] ].
+
+We also created a second rule which changes _eat_1_v_rel into the normal _eat_v_rel which might be used to generate other langages from a Jamamadi MRS:
+
+eat-made-up-object-mtr := monotonic_mtr &
+[ INPUT.RELS <! [ PRED "_eat_1_v_rel",
+                   LBL #larg,
+                   ARG0 #arg0,
+                   ARG1 #arg1 ] !>,
+  OUTPUT [ RELS <! [ PRED "_eat_v_rel",
+		    ARG0 #arg0,
+                    ARG1 #arg1,
+		    LBL #larg ] !> ] ].
+
+As you can see it just changes the pred name, while making sure to link all the semantic features.
+
+[Coverage Translating MMT from ENG and ITA and Explanation of Variation]
+
+We will discuss each ENG > JAA and ITA > JAA sentence translation in turn, noting if it translates properly, explaining any variation, and explaining why it does not work (if that is the case).
+
+ENG #01 'Dogs sleep.'
+	jomee MEE-AMO NA
+	jomee MEE-AMO KE
+Translates properly.  The variation is do to the declarative auxiliary optionally occuring istead of the general /na/ auxiliary (which is unmarked for mood). (see our lab 6 writeup)
+
+ENG #02 'Dogs chase cars'
+	jomee kaho MEE-KIJO-HA
+	kaho jomee MEE-KIJO-HA
+	jomee kaho MEE-HI-KIJO-HI
+	kaho jomee MEE-HI-KIJO-HI
+	jomee kaho MEE-HI-KIJO-HI-KA
+	kaho jomee MEE-HI-KIJO-HI-KA
+	jomee kaho MEE-KIJO-KE
+	kaho jomee MEE-KIJO-KE
+Translates properly.  The variation is due to the optional declarative suffix (see lab 6) and the type of construction (A-construction or O-construction) used (see lab 8).
+
+ENG #03 'I chase you'
+	TIWA-O-KIJO-HA
+	TERA-O-KIJO-HA
+	TIWA-O-KIJO-O-KE
+	TERA-O-KIJO-O-KE
+Translates properly.  The variation is due to the optional declarative suffix and the fact that English 'you' can translate to accusative singular /tiwa-/ or accusative plural /tera-/ in Jamamadi.
+
+ENG #04 'These dogs sleep'
+Does not translate properly.
+Our grammar actually only has one demonstrative so it does not distinguish between this/that/these/those. Also because we implemented it like a determiner since we lost the "exist_q_rel" which would normally appear. Unfortunately this wasn't high on the list of fixes, so has been left unresolved.
+
+ENG #05 'Dogs eat.'
+	jomee MEE-TAFA
+	jomee MEE-TAFA-KE
+Translates properly.  The variation is due to the optional declarative suffix.
+
+ENG #06 'I can eat glass.'
+	hoto-boni KABA-HINA O-NA-O-KE
+	hoto-boni KABA-HINA O-NA
+	hoto-boni KABA-HINA O-KE
+Translates properly.  Variation is entirely due to the declarative suffix being added in the first result, the declarative suffix not being added in the second parse, and the declarative auxiliary replacing the unmarked auxiliary in the last parse (more detail about our ke auxiliary implemenation is in our lab 8 write up).
+
+ENG #07 'It doesnt hurt me.'
+	OWA-TISA-RE
+	OWA-TISA-RA
+	OWA-TISA-KE-RE
+	OWA-TISA-KA-RA
+Translates properly.  The variation is due to the optional declarative suffix; note that an alternative version of the negative suffix occurs after the declarative suffix (as shown in our results).  Also, the gender of the subject is underspecified, so our verbs agreeing in both f and m gender are generated.  (In the context where "I can eat glass" comes before "It doesn't hurt me", the gender would be feminine.)
+
+ENG #08 'The dogs chase cars.'
+	jomee kaho MEE-KIJO-HA
+	kaho jomee MEE-KIJO-HA
+	jomee kaho MEE-HI-KIJO-HI
+	kaho jomee MEE-HI-KIJO-HI
+	jomee kaho MEE-HI-KIJO-HI-KA
+	kaho jomee MEE-HI-KIJO-HI-KA
+	jomee kaho MEE-KIJO-KE
+	kaho jomee MEE-KIJO-KE
+Translates properly.  The variation is due to the optional declarative suffix and the fact that English 'you' can translate to accusative singular /tiwa-/ or accusative plural /tera-/ in Jamamadi.  (Notice that these results are identical to the results from ENG #02, as these sentences are not distinct in Jamamadi.)
+
+ENG #09 'I think that you know that dogs chase cars.'
+	kaho jomee MEE-KIJO TI-WATO-HA ati O-KE
+	kaho jomee MEE-KIJO TI-WATO-HA ati O-NA
+	kaho jomee MEE-KIJO TI-WATO-HA ati O-NA-O-KE
+	... (24 generation results)
+Translates properly.  The variation is due to subject/object order, optional declarative suffix, (which can be added to wato or na), optional declarative auxiliary (in place of na), and whether 2sg or 2pl is used for 'you'.
+
+ENG #10 I ask whether you know that dogs chase cars.
+The verb ask in Jamamadi does not take an embedded clause, but instead would be more akin to: "you know that dogs chase cars. I ask you." Since we could not find a verb which would create one set of semantics in this manner, we were unable to generate this sentence.
+
+ENG #11 Cats and dogs chase cars.
+Jamamadi does not have NP coordination. Instead they would use a verb to show in a manner like: "Cats chase cars and dogs chase cars" or "cats chase cars and dogs chase (them)". So the MRS was incompatible with our grammar implementation.
+
+ENG #12 Dogs chase cars and cats chase dogs.
+	kaho jomee MEE-KIJO-KE faja kato jomee MERA-MEE-KIJO-HA
+	...	
+	jomee kaho MEE-KIJO-KE jomee kato MEE-MEE-HI-KIJO-HI-KE
+	... (128 results)
+Translates properly.  The rather high number of parses can be explained since there are seven optional factors that can occur in any combination each sentence:
+	(1) Ac/Oc for the first clause
+	(2) Ac/Oc for the second clause
+	(3) Declarative suffix for the first clause
+	(4) Declarative suffix for the second clause
+	(5) SUBJ/OBJ NP order for the first clause
+	(6) SUBJ/OBJ NP order for the second clause
+        (7) Appearance of 'and' (faja)
+
+ENG #13 Cats chase dogs and sleep.
+	kato jomee MERA-MEE-KIJO-HA MEE-AMO NA
+        kato jomee MERA-MEE-KIJO-HA MEE-AMO KE
+        kata jomee MERA-MEE-HI-KIJO-HI MEE-AMO NA
+        kata jomee MERA-MEE-HI-KIJO-HI MEE-AMO KE
+	kato jomee MERA-MEE-KIJO-KE MEE-AMO NA
+        kato jomee MERA-MEE-KIJO-KE MEE-AMO KE
+        kata jomee MERA-MEE-HI-KIJO-HI-KE MEE-AMO NA
+        kata jomee MERA-MEE-HI-KIJO-HI-KE MEE-AMO KE
+Translates properly. We see 8 parses due to the appearance of the declaritive on both verbs and the Ac/Oc construction on the first verb.
+
+ENG #14 Do cats chase dogs?
+	kato jomee MERA-MEE-KIJO-HA
+	jomee kato MERA-MEE-KIJO-HA
+	kato jomee MEE-MEE-HI-KIJO-HI
+	jomee kato MEE-MEE-HI-KIJI-HI
+	kato jomee MEE-MEE-HI-KIJO-HI-KE
+	jomee kato MEE-MEE-HI-KIJO-HI-KE
+	kato jomee MERA-MEE-KIJO-KE
+	jomee kato MERA-MEE-KIJO-KE
+Translates properly.  The variation comes from the declarative suffix and Ac/Oc.
+
+ENG #15 Hungry dogs eat.
+Jamamadi has a very small class of adjectives, and 'hungry' is not one of them. Instead we have a stative verb 'be.hungry', although the same sentence with the verb 'old' should work in our grammar.
+
+ENG #16 Dogs eat quickly.
+Similiarly to hungry, Jamamadi doesn't use standard adverbs.  To express the meaning of this sentence, Jamamadi might use a stative verb 'be.quick' that takes an -i embedded clause as its complement. Such as in :
+#160
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: emb-d, wo
+Tafi hahata raro.
+taf-i hahata ra-haro
+eat-COMP be.fast NEG-RPe.f
+'She ate quickly. (Her eating was fast.)'
+Additionally, 'quickly' has the odd characteristic of requiring a negation suffix on its auxiliary, but no negation semantics.
+
+ENG #17 The dogs are hungry.
+This is expressed using the stative verb 'be.hungry'.  Unfortunately, this means that the predicate generated in our MRS is a verb and does not match up with the MRS from English and Italian.
+
+ENG #18 The dogs are in the park.
+Jamamadi uses a verb locative verb to link the one adposition (which takes a variety of means such as 'in', 'with', 'on', 'by') with the subj. So the semantics generated by our parser was incompatable with those output by the english grammar.
+
+ENG #19 The dogs are the cats.
+	jomee kato MERA-MEE-AMA-KE
+	kato jomee MERA-MEE-AMA-KE
+Translates properly.  The variation is due to Jamamadi allowing both SOV and OSV word order (see lab 2 writeup).
+
+ENG #20 The dogs-FP chase the cats.
+	jomee kato MEE-MEE-HI-KIJO-HI
+	kato jomee MEE-MEE-HI-KIJO-HI
+	jomee kato MEE-MEE_HI-KIJO-HI-KE
+	kato jomee MEE-MEE-HI-KIJO-HI-KE
+Translates properly.  The variation is due to the optional declarative suffix and the two possible word orders for subject/object NPs.  Notice that only O-construction results occur, since these mark the topic as the object (cats).  Since 'dogs' is in-focus, it cannot be the topic and, since one argument in a transitive sentence in Jamamadi must be the topic, 'cats' must be the topic.
+
+ENG #21 The dogs chase-FP the cats.
+	jomee kato MERA-MEE-KIJO-HA
+	kato jomee MERA-MEE-KIJO-HA
+	jomee kato MEE-MEE-HI-KIJO-HI
+	kato jomee MEE-MEE-HI-KIJO-HI
+	jomee kato MEE-MEE-HI-KIJO-HI-KE
+	kato jomee MEE-MEE-HI-KIJO-HI-KE
+	jomee kato MERA-MEE-KIJO-KE
+	kato jomee MERA-MEE-KIJO-KE
+Translates properly.  The variation is due to the optional declarative suffix, two possible word orders, and Ac/Oc variation.  Notice that both A-constructions and O-constructions occur here, since the focus is on the verb (rather than an NP arugment).
+
+ENG #22 The dogs chase the cats-FP.
+	jomee kato MERA-MEE-KIJO-HA
+	kato jomee MERA-MEE-KIJO-HA
+	jomee kato MERA-MEE-KIJO-KE
+	kato jomee MERA-MEE-KIJO-KE
+Translates properly.  The variation is due to the optional declarative suffix and the two possible word orders for subject/object NPs.  Notice that only A-construction results occur, since these mark the topic as the subject (dogs).  Since 'cats' is in-focus, it cannot be the topic so (as explained before) 'dogs' must be the topic.
+
+ITA #01 Cani dorm-ono
+	jomee MEE-AMO NA
+	jomee MEE-AMO KE
+Translates properly.  The variation is do to the declarative auxiliary optionally occuring istead of the general /na/ auxiliary (which is unmarked for mood). (see our lab 6 writeup)
+
+ITA #02 Cani insegu-ono macchine
+	jomee kaho MEE-KIJO-HA
+	kaho jomee MEE-KIJO-HA
+	jomee kaho MEE-HI-KIJO-HI
+	kaho jomee MEE-HI-KIJO-HI
+	jomee kaho MEE-HI-KIJO-HI-KA
+	kaho jomee MEE-HI-KIJO-HI-KA
+	jomee kaho MEE-KIJO-KE
+	kaho jomee MEE-KIJO-KE
+Translates properly.  The variation is due to the optional declarative suffix and the type of construction (A-construction or O-construction) used.
+
+ITA #03 Ti-insegu-o
+	TIWA-O-KIJO-HA
+	TIWA-O-KIJO-O-KE
+Translates properly.  The variation is due to the optional declarative suffix.  Notice that only singular 'to' occurs, since Italian does distinguish number in the 2nd person.
+
+ITA #04 Questi cani dorm-ono
+Same demonstrative issue. We don't have a distict demonstrative, and it is currently acting like a determiner.
+
+ITA #05 Cani mangi-ano
+	jomee MEE-TAFA
+	jomee MEE-TAFA-KE
+Translates properly.  The variation is due to the optional declarative suffix.
+
+ITA #06 Posso mangi-are il vetro
+	hoto-boni KABA-HINA O-NA-O-KE
+	hoto-boni KABA-HINA O-NA
+	hoto-boni KABA-HINA O-KE
+Translates properly.  Variation is entirely due to the declarative suffix being added in the first result, the declarative suffix not being added in the second parse, and the declarative auxiliary replacing the unmarked auxiliary in the last parse.
+
+ITA #07 Non mi-f-a male
+	OWA-TISA-RE
+	OWA-TISA-RA
+	OWA-TISA-KE-RE
+	OWA-TISA-KA-RA
+Translates properly.  The variation is due to the optional declarative suffix; note that an alternative version of the negative suffix occurs after the declarative suffix (as shown in our results).  Also, the gender of the subject is underspecified, so our verbs agreeing in both f and m gender are generated.  (In the context where "I can eat glass" comes before "It doesn't hurt me", the gender would be feminine.)
+
+ITA #08 I cani insegu-ono macchine
+	jomee kaho MEE-KIJO-HA
+	kaho jomee MEE-KIJO-HA
+	jomee kaho MEE-HI-KIJO-HI
+	kaho jomee MEE-HI-KIJO-HI
+	jomee kaho MEE-HI-KIJO-HI-KA
+	kaho jomee MEE-HI-KIJO-HI-KA
+	jomee kaho MEE-KIJO-KE
+	kaho jomee MEE-KIJO-KE
+Translates properly.  The variation is due to the optional declarative suffix and the fact that English 'you' can translate to accusative singular /tiwa-/ or accusative plural /tera-/ in Jamamadi.  (Notice that these results are identical to the results from ENG #02, as these sentences are not distinct in Jamamadi.)
+
+ITA #09 Pens-o che sai che cani insegu-ono macchine
+	kaho jomee MEE-KIJO TI-WATO-HA ati O-KE
+	kaho jomee MEE-KIJO TI-WATO-HA ati O-NE
+	... (12 total results)
+Translates correctly.  Variation is due to /wato/ optionally taking the declarative suffix, /ati/ optionally occuring with the declarative auxiliary (rather than the standard auxiliary /na/), /na/ taking the declarative suffix, and subject/object order. 
+
+ITA #10 Domand-o se sai che cani insegu-ono macchine
+The same issue with no "ask" verb which semantically works in one sentence.
+
+ITA #11 Cani e gatti insegu-ono macchine
+Just like with the English sentence, Jamamadi doesn't allow for NP coordination in a way to match the semantics provided by Italian.
+
+ITA #12 Cani insegu-ono macchine e gatti insegu-ono cani
+	kaho jomee MEE-KIJO-KE faja kato jomee MERA-MEE-KIJO-HA
+	...	
+	jomee kaho MEE-KIJO-KE jomee kato MEE-MEE-HI-KIJO-HI-KE
+	... (128 results)
+Translates properly.  The rather high number of parses can be explained since there are seven optional factors that can occur in any combination each sentence:
+	(1) Ac/Oc for the first clause
+	(2) Ac/Oc for the second clause
+	(3) Declarative suffix for the first clause
+	(4) Declarative suffix for the second clause
+	(5) SUBJ/OBJ NP order for the first clause
+	(6) SUBJ/OBJ NP order for the second clause
+
+ITA #13 Gatti insegu-ono cani e dorm-ono
+	kato jomee MERA-MEE-KIJO-HA faja MEE-AMO NA
+	kato jomee MERA-MEE-KIJO-HA faja MEE-AMO KE
+	... (96 total results)
+Translates correctly.  Because Italian sentence is analyzed as two clauses joined by /e/ 'and' (rather than two VPs joined by 'and', as in the English sentence ENG #13 'Cats chase dogs and sleep'), Jamamadi generates numerous possibilities.  They vary based on:
+	(1) Order of subject/object for the first clause
+	(2) Ac/Oc for the first clause
+	(3) Declarative suffix for the firrst clause
+	(4) Declarative auxiliary for the second clause
+	(5) Use of the optional conjunction /faja/ 'and'
+	(6) The second clause has a dropped subject, so it may agree in f or m gender
+	(7) The second clause may also agree in sg or pl number (note that in pl number, only f gender occurs, as per rules of the grammar)
+
+
+ITA #14 Gatti insegu-ono cani
+	kato jomee MERA-MEE-KIJO-HA
+	jomee kato MERA-MEE-KIJO-HA
+	kato jomee MEE-MEE-HI-KIJO-HI
+	jomee kato MEE-MEE-HI-KIJI-HI
+	kato jomee MEE-MEE-HI-KIJO-HI-KE
+	jomee kato MEE-MEE-HI-KIJO-HI-KE
+	kato jomee MERA-MEE-KIJO-KE
+	jomee kato MERA-MEE-KIJO-KE
+Translates properly.  The variation comes from the declarative suffix and Ac/Oc.
+
+ITA #15 Cani affamat-i mangi-ano
+Same issue as with the English sentenses which use the _hungry_a_rel. 
+
+ITA #16 Cani mangi-ano velocemente
+--same as #15--
+
+[Final results and comparison]
+
+Eng Coverage:
+15 of 22 sentences correctly generated.
+
+Ita Coverage:
+11 of 16 sentences correctly generated.
+
+Lab 9 grammar:
+Coverage: 209 out of 216 items (96.8%)
+Overgeneration: 1 out of 104 items (1.0%)
+Lab 8 grammar:
+Coverage: 216 out of 193 items (89.4%)
+Overgeneration: 1 out of 104 items (1.0%)
+
+Again we see a gain in the total coverage. We are mainly parsing the new -i embedded clauses and some of the new vocabulary. We are still not parsing odd behaving words like "quickly." Also we see a jump in ambiguity from two sources. First, one of our main masculine nouns 'Jaguar' /jomee/ is the homophonous with 'Dog' /jomee/. So every sentence with jomee gained x2 parses. Also our coordination fix, increased the amibiguity of certain sentences and reduced others. Although the semantics of coordination seems to be better across the board.
+
+Final notes: We didn't include the eng or ita grammar, so we made sure that our grammar contains the same two acm files. Also the rephrase function on certain sentences (mostly coordination) could take upwards of 15 minutes, and would crash on VirtualBox when it only had 512 MB of virtual RAM. Although we weren't seeing any semantically incorrect parses.

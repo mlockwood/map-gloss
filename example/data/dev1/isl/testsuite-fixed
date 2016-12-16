@@ -1,0 +1,415 @@
+Language: Icelandic
+Language code: isl
+Tiers: orth orth-seg gloss translat
+Author: Katie Sickles
+Date: January 12, 2007
+Source a: Einarsson, Stefán. Icelandic - Grammar, Texts, Glossary. The Johns Hopkins Press. Baltimore. 1949.
+Source b: Jónsdóttir, Hildur. Teach Yourself Icelandic. US: McGraw-Hill, 2004.
+Source c: P.J.T., Glendening. Teach Yourself Icelandic. London: The English Universities P Ltd, 1961.
+Source d: Sigurðsson, Halldór Á. Verbal Syntax and Case in Icelandic: in a Comparative GB Approach. 2nd ed. ReykjavíK: Institute of Linguistics, University of Iceland, 1992.
+Source e: "Germanic Languages: Icelandic." Verbix.com. 22 Sept. 2006. 14 Jan. 2007 <http://www.verbix.com/languages/icelandic.shtml>.
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pn, agr}
+Við hoppum
+Við hoppa-um
+We jump-1pl
+'We jump'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {pn, agr}
+Við hoppa
+Við hoppa
+We jump.1sg
+'We jump'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {pn, agr}
+Hann hoppa
+Hann hoppa
+He jump.1sg
+'He jumps'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pn, agr}
+Ég elska þig
+Ég elska þig
+I love.1sg you.2pl.FAM
+'I love you'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {pn, agr}
+Hún elskið þig
+Hún elska-ið þig
+She love-2pl you.2pl.FAM
+'She loves you'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {pn, agr}
+Við elskar þig
+Við elska-r þig
+We love-3sg you.2pl.FAM
+'We love you'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {det}
+Maðurinn elskar mig
+Maður-inn elska-r mig
+man.MASC.NOM-the.MASC.NOM.sg love-3sg me
+'The man loves me'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {det}
+Hinn maður elskar mig
+Hin-n maður elska-r mig
+the-MASC.NOM.sg man.MASC.NOM love-3sg me
+'The man loves me'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {det, adj}
+Hinn gódi maður elskar mig
+Hin-n gódi maður elskar mig
+the-MASC.NOM.sg good man.MASC.NOM love.3sg me
+'The good man loves me'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {det, adj}
+Gódi maðurinn elskar mig
+Gódi maður-inn elskar mig
+good man.MASC.NOM-the.MASC.NOM.sg love.3sg me
+'The good man loves me'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agr, det}
+Maðurin elskar mig
+Maður-in elskar mig
+man.MASC.NOM-the.FEM.NOM.sg love.3sg me
+'The man loves me'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agr, det}
+Maðurnir elskar mig
+Maður-nir elskar mig
+man.MASC.NOM-the.MASC.NOM.pl love.3sg me
+'The man loves me'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {case}
+Kötturinn mjálmar
+Köttur-inn mjálma-r
+cat.MASC.NOM-the.MASC.NOM.sg meow-3sg
+'The cat meows'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Köttinn mjálmar
+Kött-inn mjálma-r
+cat.MASC.ACC-the.MASC.NOM.sg meow-3sg
+'The cat meows'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Kattarinn mjálmar
+Kattar-inn mjálma-r
+cat.MASC.GEN-the.MASC.NOM.sg meow-3sg
+'The cat meows'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {case}
+Kötturinn elskar hundinn
+Köttur-inn elska-r hund-inn
+cat.MASC.NOM-the.MASC.NOM.sg love-3sg dog.MASC.ACC-the.MASC.ACC.sg
+'The cat loves the dog'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Kötturinn elskar hundurinn
+Köttur-inn elska-r hund-ur-inn
+cat.MASC.NOM-the.MASC.NOM.sg love-3sg dog-MASC.NOM-the.MASC.ACC.sg
+'The cat loves the dog'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Kötturinn elskar hundsinn
+Köttur-inn elska-r hund-s-nn
+cat.MASC.NOM-the.MASC.NOM.sg love-3sg dog-MASC.GEN-the.MASC.ACC.sg
+'The cat loves the dog'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adj, agr}
+Gulur köttur mjálmar
+Gul-ur köttur mjálma-r
+yellow-MASC.NOM.STRONG.sg cat.MASC.NOM meow-3sg
+'A yellow cat meows'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adj, agr}
+Gulir köttur mjálmar
+Gul-ir köttur mjálma-r
+yellow-MASC.NOM.STRONG.pl cat.MASC.NOM meow-3sg
+'A yellow cat meows'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adj, agr}
+Gulum köttur mjálmar
+Gul-um köttur mjálma-r
+yellow-MASC.DAT.STRONG.sg cat.MASC.NOM meow-3sg
+'A yellow cat meows'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {det, adj}
+Fagri maðurinn elskar mig
+Fagr-i maður-inn elska-r mig
+fair-MASC.NOM.WEAK.sg man.MASC.NOM-the.MASC.NOM.sg love-3sg me
+'The fair man loves me'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {det, adj}
+Fagur maðurinn elskar mig
+Fagur maður-inn elska-r mig
+fair.MASC.NOM.STRONG.sg man.MASC.NOM-the.MASC.NOM.sg love-3sg me
+'The fair man loves me'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+Fagri maður elskar mig
+Fagr-i maður elska-r mig
+fair-MASC.NOM.WEAK.sg man.MASC.NOM love-3sg me
+'a fair man loves me'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {crd}
+Kötturinn elskar hundinn og hunderinn elskar köttinn
+Köttur-inn elska-r hund-inn og hunder-inn elska-r kött-inn
+cat.MASC.NOM-the.MASC.NOM.sg love-3sg dog.MASC.ACC-the.MASC.ACC.sg and dog.MASC.NOM-the.MASC.NOM.sg love-3sg cat.MASC.ACC-the.MASC.ACC.sg
+'the cat loves the dog and the dog loves the cat'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {crd, det, case}
+Kötturinn elskar hundinn og hunderinn elskar köttinn
+Köttur-inn elska-r hund-inn og hunder elska-r kött-inn
+cat.MASC.NOM-the.MASC.NOM.sg love-3sg dog.MASC.ACC-the.MASC.ACC.sg and dog.MASC.NOM love-3sg cat.MASC.ACC-the.MASC.ACC.sg
+'the cat loves the dog and the dog loves the cat'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {crd, case}
+Kötturinn elskar hundinn og hunderinn elskar köttinn
+Köttur-inn elska-r hund-inn og hunder-inn
+cat.MASC.NOM-the.MASC.NOM.sg love-3sg dog.MASC.ACC-the.MASC.ACC.sg and dog.MASC.NOM-the.MASC.NOM.sg
+'the cat loves the dog and the dog'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {crd, case}
+Konan elskar hundinn og köttinn
+Kona-n elska-r hund-inn og kött-inn
+woman.FEM.NOM-the.FEM.NOM.sg love-3sg dog.MASC.ACC-the.MASC.ACC.sg and cat.MASC.ACC-the.MASC.ACC.sg
+'the woman loves the dog and the cat'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {crd, case, wo}
+Konan elskar og hundinn köttinn
+Kona-n elska-r og hund-inn kött-inn
+woman.FEM.NOM-the.FEM.NOM.sg love-3sg and dog.MASC.ACC-the.MASC.ACC.sg cat.MASC.ACC-the.MASC.ACC.sg
+'the woman loves the dog and the cat'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {crd, case}
+Konan elskar hundinn og kötturinn
+Kona-n elska-r hund-inn og köttur-inn
+woman.FEM.NOM-the.FEM.NOM.sg love-3sg dog.MASC.ACC-the.MASC.ACC.sg and cat.MASC.NOM-the.MASC.NOM.sg
+'the woman loves the dog and the cat'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {wo}
+Hún elskar hann
+Hún elska-r hann
+She love-3sg him
+'she loves him'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+Hún hann elskar
+Hún hann elska-r
+She him love-3sg
+'she loves him'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+Elskar hún hann
+Elska-r hún hann
+love-3sg she him
+'she loves him'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {neg, wo}
+Ég borða ekki matinn
+Ég borða ekki mat-inn
+I eat.1sg not food-MASC.ACC
+'I do not eat food'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {neg, wo}
+Ég ekki borða matinn
+Ég ekki borða mat-inn
+I not eat.1sg food-MASC.ACC
+'I do not eat food'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {neg, wo}
+Ég borða matinn ekki
+Ég borða mat-inn ekki
+I eat.1sg food-MASC.ACC not
+'I do not eat food'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {wo, q}
+Borðar þú matinn?
+Borða-r þú mat-inn?
+eat-2sg you.NOM.sg food-MASC.ACC
+'Do you eat food?'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {wo, q, case}
+Borðar þig matinn?
+Borða-r þig mat-inn?
+eat-2sg you.ACC.sg food-MASC.ACC
+'Do you eat food'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {wo, q}
+Borðar matinn þú?
+Borða-r mat-inn þú?
+eat-2sg food-MASC.ACC you.NOM.sg
+'Do you eat food?'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {imp}
+Hoppa þú!
+Hoppa þú
+jump.IMP.2sg you.sg
+'Jump!'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {imp, agr}
+Hoppið þú!
+Hopp-ið þú
+jump-IMP.2pl you.sg
+'Jump!'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {imp, agr}
+Hoppar þú!
+Hoppa-r þú
+jump-2sg you.sg
+'Jump!'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {m}
+Ég get elska hann
+Ég get elska hann
+I can.1sg love him
+'I can love him'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {m, wo}
+Ég elska get hann
+Ég elska get hann
+I love.1sg can.1sg him
+'I can love him'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {m, wo}
+Ég elska hann get
+Ég elska hann get
+I love him can.1sg
+'I can love him'

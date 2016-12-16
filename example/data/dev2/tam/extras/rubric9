@@ -1,0 +1,43 @@
+-----------------------------------------------------
+Notes:
+ 
+  The lab 8 feedback noted that the HCONS for embedded clauses was
+  not.  The ARG2 of the main verb was not qeq to the label of the
+  other verb.  In searching for the cause, I found that my
+  clausal-verb-lex did not include this relationship.  I modified the
+  type to establish this relationship.  The new type definition is
+  given below.
+
+
+clausal-verb-lex := main-verb-lex & clausal-second-arg-trans-lex-item &
+    [SYNSEM[LOCAL.CONT[HOOK.INDEX.SF prop-or-ques,
+                       HCONS <!qeq & 
+		                [ HARG #arg2,
+		                  LARG #ltop ] !>],
+            LKEYS.KEYREL.ARG2 #arg2], 
+     SYNSEM.LOCAL.CAT.VAL.COMPS<[LOCAL.CAT.MC -, 
+                                 LOCAL.CAT.VAL[COMPS<>, SUBJ <>],
+                                 LOCAL.CONT.HOOK[LTOP #ltop, INDEX.SF prop-or-ques]]>].
+
+The supertype already has the qeq:
+
+clausal-second-arg-trans-lex-item := basic-two-arg &
+   [ ARG-ST < [ LOCAL.CONT.HOOK.INDEX ref-ind & #ind ],
+	      [ LOCAL.CONT.HOOK.LTOP #larg ] >,
+     SYNSEM [ LOCAL.CONT.HCONS <! qeq & [ HARG #harg,
+					  LARG #larg ] !>,
+	      LKEYS.KEYREL [ ARG1 #ind,
+			     ARG2 #harg ] ] ].
+
+What was missing was a link between ARG-ST and COMPS.
+ 
+  I also had to add a constraint so that embedded clauses were not
+  able to combine via the head-subj and subj-head rules.
+
+head-subj-phrase := decl-head-subj-phrase & head-initial-head-nexus &
+  [ SYNSEM.LOCAL.CAT.MC #mc,
+    HEAD-DTR.SYNSEM [LOCAL.CAT[MC #mc, HEAD.HF -], VERB-CL +] ].
+
+That's also surprising. Something was allowing a clausal subject?
+
+In general, this was excellent, as usual!

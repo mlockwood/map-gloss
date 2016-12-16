@@ -1,0 +1,622 @@
+LAB 4
+Writeup
+Gracheva, Suskic                                                                     
+
+
+
+Part 1: documentation fo the new or revised choices we made in the customization system illustrated with
+examples from our testsuite.
+
+
+						MATRIX YES-NO QUESTIONS
+
+
+//INTONATION USE FOR YES-NO QUESTIONS
+
+Russian can have intonation as the sole marker of the syntactic function for the yes-no questions.  
+Yes/No questions thus can retain the normal declarative order and are identified only phonetically, 
+i.e. by intonation.  This is the intonation "IK-3" ("intonational contour") as described by Cubberley 
+(adapted from Bryzgunova 1960s).  It is referred to as the "peculiarly Russian contour in shape", 
+with the central syllable marked by a sharp rise in the speaker's top level, followed by an equally 
+sharp fall to the bottom level.  Again, since Russian is a free word order language and we cannot 
+really mark intonation syntactically, so we only have grammatical examples for this part.  
+
+We selected the option to use the Separate question particle "li" and sentence final; as the position. 
+However, this did not work since in Russian, the particle is placed usually after the first stressed word 
+in the question (the verb or a predicate word) indicating the focus of the question. The end result is that 
+our grammatical questions with "li” in the second place fail to parse in lkb and itsdb, while our ungrammatical 
+questions with “li” at the end of the sentence are recognized as grammatical in itsdb (see further below for 
+examples)
+
+
+#160   (subj verb obj)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: Matrix yes-no questions
+Ivan kupil        sobaku?
+Ivan kupi-l       sobak-u
+Ivan buy-3SG.PST  dog-ACC.SG
+Did Ivan buy a dog?
+
+#161   (obj verb subj: this word order places the emphasis on the "dog")
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: Matrix yes-no questions
+Sobaku      kupil       Ivan?
+sobak-u     kupi-l      Ivan
+Dog-ACC.SG  buy-3SG.PST Ivan
+Did Ivan buy a dog? 
+
+#162    (verb  subj  obj):  that sounds like a reconfirmation, i.e. describing a situation in which we know that
+#	Ivan was going to buy a dog, and now we are asking to reconfirm that "Did Ivan buy a dog?")
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: Matrix yes-no questions
+Kupil        Ivan sobaku?
+Kupi-l       Ivan sobak-u
+buy-3SG.PST  Ivan dog-ACC
+Did Ivan buy a dog? 
+
+
+
+//PARTICLE "LI" USE FOR YES-NO QUESTIONS
+
+An interrogative particle "li" can be also used to mark the interrogative: its position is 
+usually second in the clause, following the word central to the question (usually the verb), 
+which leads to the inversion of S-V.  Intonation remains IK-3, centered on the last word.  
+The use of particle "li" is optional.  Also, based on the data from two native speakers, "li" 
+can also occupy a position other than the third (although this is a much less common form) and 
+also it can follow the pos other than the verb.  The further away from the second position the
+particle "li" is, the more ungrammatical the sentence becomes.  
+
+#163   (subj	li	verb 	obj)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: Matrix yes-no questions
+Ivan li 	     kupil        sobaku?
+Ivan li 	     kupi-l       sobak-u
+Ivan INTERROGATIVE   buy-3SG.PST  dog-ACC.SG
+Did Ivan buy a dog?
+
+#164   (obj	li	verb	subj): that sounds like "was it the dog that Ivan bought?")
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: Matrix yes-no questions
+Sobaku      li			kupil       Ivan?
+sobak-u     li			kupi-l      Ivan
+Dog-ACC.SG  INTERROGATIVE	buy-3SG.PST Ivan
+Did Ivan buy a dog? 
+
+#165    (verb li subj obj: that sounds like "Ivan was going to buy a dog, and now we are asking to reconfirm 
+#	that "Did Ivan buy a dog? as in "did Ivan end up buying a dog?"
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: Matrix yes-no questions
+Kupil        li			Ivan sobaku?
+Kupi-l       li			Ivan sobak-u
+buy-3SG.PST  INTERROGATIVE	Ivan dog-ACC
+Did Ivan buy a dog? 
+
+#166   (*obj	verb	subj	li)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: Matrix yes-no questions
+Li		Ivan  	kupil        sobaku?
+Li		Ivan    kupi-l       sobak-u
+Interrogative	Ivan 	buy-3SG.PST  dog-ACC.SG
+intended: did Ivan buy a dog?
+
+#167   (*obj	verb 	subj	li)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: Matrix yes-no questions
+Sobaku      kupil       Ivan	li?
+Sobak-u     kupi-l      Ivan	li
+Dog-ACC.SG  buy-3SG.PST Ivan	INTERROGATIVE
+intended: did Ivan buy a dog? 
+
+#168    (*verb	subj	li 	obj)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: Matrix yes-no questions
+Kupil        Ivan 	li		sobaku?
+Kupi-l       Ivan 	li		sobak-u
+buy-3SG.PST  Ivan 	INTERROGATIVE	dog-ACC
+ungrammatical: did Ivan buy a dog? 
+
+When we run the unanalyzed and wellformed examples in tsdb++, we get several problems with "li":
+sentence #164 (Kupil li Ivan sobaku?) is analyzed as ungrammatical because the particle "li"
+is not placed in one of the positions licensed by Grammar Customization, although it is a
+grammatical sentence. The same applies to sentence #163 (Sobaku li kupil Ivan?) and sentence 162
+(Ivan li kupil sobaku?)
+
+
+
+
+					//COORDINATION
+
+Russian equivalent of English "and" is "i", which can join words, phrases, or clauses.  In Russian it 
+appears that they can be joined in different ways: 
+
+1). either only one (last) coordinand is marked (A, B and C), 
+2). or all coordinands are marked (and A, and B, and C), with the latter giving a reading similar to 
+   (both ... and...), 
+3). or none of the coordinands are marked (A, B, C).  
+
+To cater for this we defined 3 coordination strategies in Matrix Customization: 
+
+We chose monosyndeton (gives us polysydenton), omnisyndenton and asyndenton. In the first two cases the 
+conjunction is marked with the word “I”. For the first option we chose nouns, NPs and VPs as the coordinants, 
+while for the latter two we chose nopuns and NPs only. We were getting multiple parses when the latter two 
+options also coordinated VPs and sentences. Itsdb was also not able to parse that many edges and was failing.
+
+This is what we have in the choices file for coordination:
+ 
+section=coordination
+  cs1_n=on
+  cs1_np=on
+  cs1_vp=on
+  cs1_pat=mono
+  cs1_mark=word
+  cs1_orth=i
+  cs1_order=before
+  cs3_n=on
+  cs3_np=on
+  cs3_pat=omni
+  cs3_mark=word
+  cs3_orth=i
+  cs3_order=before
+  cs4_n=on
+  cs4_np=on
+  cs4_pat=a
+
+In the lexicon file we had to define 3 different entries for "i":
+
+In our testsuite we have examples both for the sentences with only two coordinands (examples #168-173)
+and with 3 coordinands (#174-189). We cover N, NP, V, VP and S coordination in these testsuite examples. 
+All of these use the same coordination strategies as described above.    
+
+The ungrammatical examples used in our testsuite place "i" in the positions which are not licensed as
+defined by our coordination strategies (below are the examples for Ns).  
+
+#187    (*N i N i N)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: coordination
+Maljchik,  i    devochka,   i     sobaka    letjat       samoljotom. 
+Maljchik   i    devochk-a   i     sobak-a   let-jat      samoljot-om.  
+Boy.NOM    and  girl-NOM    and   dog-NOM   fly-3PL.PRS  plane-INST.SG
+intended: The boy, the girl and the dog are flying by airplane.
+
+#188    (*i noun i noun noun)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: coordination
+Maljchik,  i    devochka,   sobaka    letjat       samoljotom. 
+Maljchik   i    devochk-a   sobak-a   let-jat      samoljot-om.  
+Boy.NOM    and  girl-NOM    dog-NOM   fly-3PL.PRS  plane-INST.SG
+intended: The boy, the girl and the dog are flying by airplane.
+
+#189    (*i noun i noun noun)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: coordination
+I    maljchik,  i    devochka,   sobaka    letjat       samoljotom. 
+I    maljchik   i    devochk-a   sobak-a   let-jat      samoljot-om.  
+And  boy.NOM    and  girl-NOM    dog-NOM   fly-3PL.PRS  plane-INST.SG
+intended: The boy, the girl and the dog are flying by airplane.
+
+ 
+
+
+
+
+
+Part 2: descriptions of properties of Russian illustrated in our test suite but not covered by our starter
+grammar and/or customization system.
+
+
+					//ATTRIBUTIVE ADJECTIVES
+
+In Russian attributive adjectives appear usually before the nouns (while predicative adjectives 
+usually follow the noun), with the exception being when they describe nouns in menus or lists or 
+when the noun is generic (as in example "Ivan - student userdnyj" ('Ivan is a hardworking student').  
+They agree with the nouns they modify in gender, number, and case features. We have covered this 
+agreement for adjectives in the previous testsuite for Lab 3 (#107-116), in which we had the 
+adjectives, appearing before the nouns, and agreeing with them in Gender, Number, and Case features.  
+This time we are adding the examples that demonstrate that unlike English, other circumstantial 
+information can come between attributive adjectives and the nouns they modify.  It is also not 
+mentioned in the sources, but, based on the native speakers' data, it seems that the attributive 
+adjectives usually follow the determiners (if determiners are present) and not the other way around.  
+
+#190 comment: n-sg-nom verb-3sgsubj adj-sg-acc prep adj-sg-inst n-sg-inst n-sg-acc
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adjectives
+Devochka           chitaet        krasnuju          s     boljshim             perepljotom            knigu.
+Devochk-a          chita-et       krasnu-ju         s     boljsh-im            perepljot-om   	      knig-u
+Girl-FEM.3SG.NOM   read-3SG.PRS   red-FEM.SG.ACC    with  large-INST.SG.MASC   binding-INST.SG.MASC   book-FEM.SG.ACC
+The girl is reading a red book with a big binding. 
+
+The other testsuite examples we have cover these constructions:
+
+*n-sg-nom verb-3sgsubj prep adj-sg-inst n-sg-inst adj-sg-acc n-sg-acc
+det adj noun
+*adj det noun
+
+						//ADVERBS
+//ADVERB FORMATION
+
+The most common formation of adverbs in Russian is by adding the -o to the stem of the adjective 
+(Cubberley refers to it as not the suffixation, but instead to as just making the short neuter form 
+of the adjective, which is formed by adding -o to the stem), i.e. from the adjective "horosh-ij" 
+(good) we can form an adverb "horosh-o" (well).  The other examples include bystr-yj/bystr-o 
+(quick/quickly),"ploh-oj/ploh-o" (bad.ADJ/bad.ADV), skuchn-yj/skuchn-o (boring.ADJ/boring.ADV)
+
+The adverbs that do not have a short form (these are the adjectives with the suffix -(e)sk-, 
+form the adverbs by adding the suffix -i to the stem, i.e. druzhesk-ij/druzhesk-i, vorovsk-oj/vorovsk-i.  
+
+The adverbs of time and quantity were often formed long time ago, from the nouns, with their 
+etymology now rather obscure, as in vchera, ochenj, zdesj.  
+
+Lastly, some adverbs have been formed from the case forms of temporal or quantity nouns, i.e. 
+let-o/let-om (summer/in summer), utr-o/utr-om (morning/in the morning).
+
+Comparative adverbs are usually homophonous with the comparative adjectives and their pos can be 
+distinguished by the element they modify: i.e. if it modifies the noun, then it is a comparative 
+adjective, and if it modifies another adjective or a verb, then it is a comparative adverb.  
+
+
+
+//ADVERB POSITION
+Adverbs can attach to V, VP, and S.  They are usually positioned next to the verb they qualify (Wade 534).  
+The word order, however, is slightly more complicated phenomenon. Per Wade, the adverbs of time usually 
+precede the verb (i.e. adverb "vsegda" (always)), although 4 native speakers say that though this might be a 
+more common way of positioning the adverbs, they can also position the adverbs after the verb they modify 
+and it will still be grammatical.  The manner adverb "quickly", on the other hand, is more commonly positioned 
+to the right of the verb, per data gathered from 4 native speakers.  The adverbs conveying essential new 
+information usually appear in the final position (Wade 535).  However, based on the data from 4 native
+speakers, both positions (sentence-initial preceding the verb and sentence-final following the verb) 
+are equally acceptable for these "new information" adverbs.  This might indicate a difference in the 
+positioning of adverbs depending on what group they belong to (manner vs. time vs. introducing new information). 
+Therefore, for now we will treat them as following the free word order.  
+
+Per Wade, if there is more than one adverb or adverbial phrase in the sentence, their order of appearance is 
+usually in the following order:
+1. adverbs/adverbial phrases of time
+2. adverbs/adverbial phrases of place
+3. other types of adverb/adverbial phrase (manner, cause, etc.)
+
+
+We cover these possibilities in our testsuite: 
+-for adverbs attaching to V we look at these possibilities: (noun adv verb), (noun verb adverb), (adv noun verb)
+-for adverbs attaching to S: (adverb S), (S adverb)
+
+We don't really have ungrammatical examples for the adverbs since they can attach to the verbs in any order.
+
+Some of the examples in our testsuite are:
+
+#199    (adv VP)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Ivan      bystro   letit        samoljotom.  
+Ivan      bystro   let-it       samoljot-om
+Ivan.NOM  quickly  fly-3SG.PRS  plane-INST.SG
+Ivan is flying quickly by the plane.    
+
+#200    (VP adv)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Ivan      samoljotom        letit        bystro.  
+Ivan      samoljotom        let-it       bystro   
+Ivan.NOM  plane-INST.SG     fly-3SG.PRS  quickly
+Ivan is flying quickly by the plane.   
+
+#201    (adv noun VP)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Ivan      bystro       samoljotom        letit.  
+Ivan      bystro       samoljot-om       let-it  
+Ivan.NOM  quickly      plane-INST.SG     fly-3SG.PRS
+Ivan is flying quickly by the plane.   
+ 
+
+				//EMBEDDED CLAUSES (declarative, interrogative)
+
+
+Russian uses complementizers for embedded declarative clauses and particle "li" for the interrogative
+clauses.
+
+//EMBEDDED DECLARATIVE CLAUSES: 
+
+WORD ORDER: 
+The complementizer occupies the first position in the embedded clause, the rest of the clause also seems 
+to follow the free word order (there wasn't anything written on this in our sources, but 3 native speakers 
+judged these sentences below as grammatical, noting that although every word order carries a different 
+emphasis/intonation, all sentences are grammatical).  
+
+COMPLEMENTIZER: 
+Complementizer "chto" ("that") is used for declarative clauses of saying, thinking, etc.  It cannot be 
+omitted as in English in such contexts.  Other conjuctions can be used for other types of declarative 
+clauses (i.e. "chtoby" ("in order to") for conjunctions of purpose; "tak chto" ("so") for conjunctions 
+of result; "esli" ("if") for conditional conjunctions; "hotja/hotj" ("although") and "pustj" (even if) 
+for concessive conjunctions, "kak" ("as, like") for comparative conjunctions, "do togo kak" ("until"), 
+"posle togo kak" ("after"), "prezhde chem" ("before"), "poka" ("while"), "kogda" ("when") for temporal 
+conjuctions, etc.)  
+
+#204    (declarative clause: comp noun verb)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded clauses
+Ivan      dumaet          chto    sobaka      spit.   
+Ivan      duma-et   	  chto    sobak-a     sp-it.        
+Ivan.NOM  think-3SG.PRS   that    dog-SG.NOM  sleep-3SG.PRS  
+Ivan thinks that the dog is sleeping.
+
+The ungrammatical example below shows that the complementizer in embedded declarative clause is obligatory.
+
+#205    (declarative clause: *noun verb)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: embedded clauses
+Ivan      dumaet          sobaka      spit.   
+Ivan      duma-et   	  sobak-a     sp-it.        
+Ivan.NOM  think-3SG.PRS   dog-SG.NOM  sleep-3SG.PRS  
+intended: Ivan thinks (that) the dog is sleeping.  
+
+We have the following examples of different word order in the embedded clauses in our testsuite:
+(declarative clause: comp verb noun)
+(declarative clause: comp noun-nom tr-verb noun-acc)
+(declarative clause: comp noun-acc tr-verb noun-nom)(declarative clause: comp tr-verb noun-nom noun-acc)
+(declarative clause: comp tr-verb noun-acc noun-nom)
+
+
+//EMBEDDED INTERROGATIVE CLAUSES: INTERROGATIVE PARTICLE "LI" AND WORD ORDER
+Embedded yes-no questions use the conjunction "li" (also referred to as particle in other sources), 
+which is placed second in the clause, usually after the verb (Cubberley 237).  Data gathered from 
+3 native speakers shows that the interrogative particle "li" can occupy the third position in the 
+sentence as well, but as with the matrix questions, the further it moves from the second position, 
+the more questionable its grammaticality becomes, therefore we are treating any position besides the 
+second position in the embedded sentences as ungrammatical for the interrogative particle "li".  
+
+
+#212    (interrogative clause: tr-verb li noun-nom noun-acc)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded clauses
+Ivan      sprosil           kupila		li		devochka	knigu.   
+Ivan      sprosi-l   	    kupi-l-a		li		devochk-a	knig-u    
+Ivan.NOM  ask-3SG.MASC.PST  buy-3SG.FEM.PST	INTERROGATIVE	girl-FEM.3SG	book-3SG.ACC	 	 
+Ivan asked whether the girl bought a book.
+
+#213    (interrogative clause: noun-acc   li   tr-verb   noun-nom)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded clauses
+Ivan      sprosil           knigu		li		kupila		devochka.   
+Ivan      sprosi-l   	    knig-u		li		kupi-l-a	devochk-a   
+Ivan.NOM  ask-3SG.MASC.PST  book-3SG.ACC	INTERROGATIVE	buy-3SG.FEM.PST	girl-FEM.3SG	 	 
+Ivan asked whether the girl bought a book.
+
+
+We have several un grammatical examples by placing "li" in the non-licensed position.  
+(interrogative clause: noun-nom   li  tr-verb   noun-acc)
+(interrogative clause: *tr-verb chto li noun-nom noun-acc)
+(interrogative clause: ??tr-verb noun-nom li noun-acc )
+(interrogative clause: *tr-verb noun-nom noun-acc li)
+
+
+
+
+						//NON-VERBAL PREDICATES
+
+The "simplest form of the copula" in Russian language is the verb "bytj" ("be") and it can serve 
+different functions.  It is not used in Present Tense, when it serves a locational function 
+("na stole kniga" (the book is on the table).  The only case when "bytj" is used in the Present 
+Tense is when it the existential sense, as in "na stole estj kniga" ("there is a book on the table"). 
+The copula "bytj" is ised in the Future Tense and the Past Tense obligatorily.  There are also two 
+additional copular verbs that are equivalent to "bytj", i.e. 1). "byvatj" (means "to be" but with an 
+additional frequentative meaning), as in "Ivan byvaet v Moskve"; or 2). "javljatjsja" (used in formal 
+written style), as in "Ivan javljaetsja doktorom".  We are not looking at these two copular verbs, as 
+they are less common.
+
+
+#220    (noun noun)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: non-verbal predicates
+Ivan		doktor. 
+Ivan		doktor		 
+Ivan.NOM  	doctor.NOM.SG.MASC	 	 
+Ivan is a doctor.    
+
+#221    (*noun be.PRS noun)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: non-verbal predicates
+Ivan		estj		doktor. 
+Ivan		estj		doktor		 
+Ivan.NOM  	be.3SG.PRS	doctor.NOM.SG.MASC	 	 
+intended: Ivan is a doctor. 
+
+#222    (noun be.PST noun)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: non-verbal predicates
+Ivan		byl		doktorom. 
+Ivan		byl		doktor-om		 
+Ivan.NOM  	be.3SG.MASC.PST	doctor-SG.MASC.INST	 
+Ivan was a doctor.  
+
+#223    (noun be.FUT noun)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: non-verbal predicates
+Ivan		budet		doktorom. 
+Ivan		budet		doktor-om		 
+Ivan.NOM  	be.3SG.FUT	doctor-SG.MASC.INST	 
+Ivan will be a doctor.  
+  
+We have similar testsuite examples for the Adjectives:
+(noun adj)
+(*noun be.PRS adj)
+(noun be.PST adj)
+(noun be.FUT adj)
+
+
+						INFORMATION STRUCTURE
+
+The word order is one of the most important markers of the information structure in Russian language.  
+Thus, we are repeating the examples from our word section, with a more detailed explanation. 
+
+The emphatic stress can be used on the words as well in order to make this word more "informative" 
+than the others.  The word order nevertheless is preserved, retaining its usual functions 
+(Timberlake 455).
+
+We have testsuite examples for SV, SVO:
+
+The most neutral word order in Russian is SV and SVO (i.e. when the subject precedes the verb).  
+
+#228   SV
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Ivan spit.
+Ivan sp-it
+Ivan sleep-3SG.PRS
+Ivan is sleeping.
+
+#229 SVO 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Ivan kupil        sobaku.
+Ivan kupi-l       sobak-u
+Ivan buy-3SG.PST  dog-ACC.SG
+Ivan bought a dog.
+
+
+
+We have testsuite example for OVS:
+The order OVS, per Timberlake, can usually serve two functions.  It: 
+1). establishes a relationship between a known entity (object) and an abstract condition (subject).
+2). introduces a new event, which is an interaction between the known object and a new individual.  
+
+Timberlake bases his findings on corpus consisting of 359 examples.  There seem to be other possibilities, 
+though, for using the OVS order.  The example we are using in the testsuite seems to belong to neither 
+of these categories, but it demonstrates the OVS order (and it is also judged as grammatical by 4 native 
+speakers, although the reason for that might be an addition of emphatic stress, which in combination with 
+this word order makes this sentence grammatical). 
+
+#230  OVS
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Knigu       kupil       Ivan.
+Knig-u      kupi-l      Ivan
+Book-ACC.SG buy-3SG.PST Ivan
+Ivan bought a book.
+
+
+We have testsuite examples for: SOV, OSV
+The orders SOV and OSV are used to establish the entities as bases (topics), with the predicate 
+(as focus) stating the relation among them. SOV order links the current predicate to surrounding 
+text through the effect on the object.  OSV is used to contrast this particular entity (which is 
+the object in this case) to the others (Timberlake 452).  
+
+#231 SOV, the object is a weak basis
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Ivan sobaku      kupil.
+Ivan sobak-u     kupi-l
+Ivan dog-ACC.3SG buy-3SG.PST
+Ivan bought a dog.
+
+In our testsuite example with OSV, the object is a strong basis:
+
+#232 OSV, the object is a strong basis
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Sobaku     Ivan kupil.
+Sobak-u    Ivan kupi-l
+Dog-ACC.SG Ivan buy-3SG.PST
+Ivan bought a dog.
+
+We also have the testsuite examples for VS(X), VSO, VOS: 
+-VS(O)X allows the speaker to insert a strong focus and answer an implicit question (Timberlake 453).  
+-VOS introduces a new scene involving the object and then an unknown subject (as a strong focus). 
+
+
+
+
+
+
+Part 3:  Documentation of the coverage of our grammar over the testsuite.
+
+SUMMARY OF RESULTS FROM TSDB++
+
+For coverage we have 46.1%, which is up from 29% coverage that we had for Lab 3.  
+
+We have 5 wellformed/unanalyzed sentences (three of which were due to the position of "li" particle, discussed
+in the question formation section). For wellformed and unanalyzed examples we also get:
+#43 (Ivan kupil sobake knigu) (i-category: c).  We think that this sentence didn't parse because it has Dative case which we haven't
+dealt with yet.  
+#56 (Sobaka jeta spit) (i-category: det). We are not yet clear on why it's not parsing.  
+
+For illformed but parsed results we get:
+#44 ("Ivan kupil sobaka knigu")   
+We think the reason for #44 not-parsing might be the fact that we haven't analyzed the Dative case.
+#166 (Sobaku kupil Ivan li?") parses because the interrogative particle "li" is placed in the sentence-final position, 
+which is licensed by Grammar Customization system while in fact it is ungrammatical in Russian.  
+
+
+
+
+
+Part 4: documentation of changes we made to our grammar to improve its performance.  
+
+Lexicon
+We made a change in the lexicon to remove one noun-slot which was duplicating a rule, causing inamimate fem 
+inanimate nouns to generate two parses. We firs set up a noun inflection slot for feminine nouns and chose both 
+animate and inamimate feminine noun types as input. We then created a separate noun slot to inflect (with the 
+same morphemes) only inanimate feminine nouns. We corrected this mistake in Lab 4.
+
+Also in Lab 4, we took a closer look at our test suite to see why some grammatical sentences were not parsing. 
+About six sentences were marked as ungrammatical, but were being passed in lkb. We noticed that the error was 
+in the test suite, where the example in transliteration did not match the example in the morpheme boundary line.
+Easy fix and our coverage improved (currently at over 40%).
+

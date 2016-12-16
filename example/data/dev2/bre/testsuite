@@ -1,0 +1,1863 @@
+Language: Breton
+Language code: bre
+Tiers: orth translit orth-seg gloss translat
+Author: Mike Foster, Matt Todd
+Date: January 9, 2010
+Source a: A grammar of Modern Breton
+Source b: Handbook of Modern Breton
+
+# Note: standard orthography should include mutations and boundaries from
+# the text/surface
+# Transliteration removes mutations and writes the particle as a prefix
+# Transliteration also regularizes, mostly the difference is in plural
+# since all non-auxiliary verbs are regular
+# transliteration is what can be entered into the parser
+# Morpheme boundaries line separates endings out
+
+# Example 1
+# except PN Yann was edited out
+# VSO
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+Klask a ra ar beleg ul levr.
+Klaskiñ a-gr ar beleg ul levr
+Klaskiñ a-gr ar beleg ul levr
+seek.INF PRT-do.PRS.3SG the priest.M a book.M
+'The priest is seeking a book.'
+
+# Example 2
+# might not really be wo now that particles are prefixes
+# VSO
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+A glask gra ar beleg ul levr.
+A-klask gr ar beleg ul levr
+A-klask gr ar beleg ul levr
+PRT seek.INF do.PRS.3SG the priest.M a book.M
+'The priest seeks a book.'
+
+# Example 3
+# might not be necessary/possible with prefix particle
+# in fact, i'm commenting it out
+#Source: {author, Todd}
+#Vetted: f
+#Judgment: u
+#Phenomena: {word order}
+#Klask gra a ar beleg ul levr.
+#Klask gr-a a ar beleg ul levr
+#seek.INF do-PRS.3SG PRT the priest.M a book.M
+#'The priest.M seeks a book.M.'
+
+# Example 4
+# VSO
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+A ra klask ar beleg ul levr.
+A-gr klask ar beleg ul levr
+A-gr klask ar beleg ul levr
+PRT-do-PRS.3SG the priest.M a book.M
+'The priest is seeking a book.'
+
+# Example 5
+# SV
+# this is actually a different construction than i originally thought
+# but i'm leaving it in for when we get to this kind of construction
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {pronouns}
+Me a gane.
+Me a-kane
+Me a-kan-e
+I.NOM PRT-sing-3SG.FUT
+'I will sing.'
+
+# Example 6
+# VSO
+Source: author, collab
+Vetted: f
+Judgment: g
+Phenomena: {wo, det}
+Debriñ a ra ar beleg un aval.
+Debriñ a-gr ar beleg un aval.
+Debriñ a-gr ar beleg un aval
+eat.INF PRT-do.3SG.PRS the priest.M a apple.M.SG
+'The priest is eating an apple.'
+
+# Example 7
+# VSO
+Source: author, collab
+Vetted: f
+Judgment: g
+Phenomena: {wo, det}
+Debriñ a ra ar beleg un avaloù.
+Debriñ a-gr ar beleg un avaloù.
+Debriñ a-gr ar beleg un aval-où
+eat.INF PRT-do.3SG.PRS the priest.M a apple.M-PL
+'The priest is eating some apples.'
+
+# Example 8
+# VSO
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: {agr}
+Debriñ a reont ar beleien un aval.
+Debriñ a-gront ar belegoù un aval.
+Debriñ a-gr-ont ar beleg-où un aval
+eat.INF PRT-do-3PL.PRS the priest.M-PL an apple.M.SG
+'The priests are eating an apple.'
+
+# Example 9
+# VSO
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: {agr}
+Debriñ a ra ar beleien un aval.
+Debriñ a-gr ar belegoù un aval.
+Debriñ a-gr ar beleg-où un aval
+eat.INF PRT-do.3SG.PRS the priest.M-PL an apple.M.SG
+'The priests are eating an apple.'
+
+# Example 10
+# problem is verb does not agree with subject
+# VSO
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: {agr}
+Debriñ a reont ar beleg un aval.
+Debriñ a-gront ar beleg un aval.
+Debriñ a-gr-ont ar beleg un aval
+eat.INF PRT-do-3PL.PRS the priest.M a apple.M.SG
+'The priest is eating an apple.'
+
+# Example 11
+# we cannot find this again in our book, and have not been able to find any
+# parallels. we also can't see how it could possibly be grammatical, so we are
+# commenting it out until we find anything like this construction in our text
+# again. (note to self: use page numbers!!)
+# OV(S)
+#Source: a
+#Vetted: s
+#Judgment: g
+#Phenomena: {pronouns}
+#Eñ a welit.
+#Eñ a-gwelit.
+#Eñ a-gwel-it
+#he PRT-see-2PL.PRS
+#'He sees you.'
+
+# Example 12
+# VSO
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+A ra ar beleg klask ul levr.
+A-gr ar beleg klask ul levr
+A-gr ar beleg klask ul levr
+PRT-do.3SG.PRS the priest.M seek.INF a book.M
+'The priest is seeking a book.'
+
+# Example 13
+# VSO
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+A ra ar beleg ul levr klask.
+A-gr ar beleg ul levr klask
+A-gr ar beleg ul levr klask
+PRT-do.3SG.PRS the priest.M a book.M seek.INF
+'The priest is seeking a book.'
+
+# Example 14
+# SOV
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+Ar beleg ul levr klask a ra.
+Ar beleg ul levr klask a-gr.
+Ar beleg ul levr klask a-gr.
+the priest.M a book.M seek.INF PRT-do.3SG.PRS
+'The priest is seeking a book.'
+
+# Example 15
+# OSV
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+Ul levr ar beleg klask a ra.
+Ul levr ar beleg klask a-gr.
+Ul levr ar beleg klask a-gr.
+a book.M the priest.M seek.INF PRT-do.3SG.PRS
+'The priest is seeking a book.'
+
+# Example 16
+# VS
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+Kanan a ra ar beleg.
+Kanan a-gr ar beleg
+Kanan a-gr ar beleg
+sing.INF PRT-do.3SG.PRS the priest.M
+'The priest is singing.'
+
+# Example 17
+# verb must come before aux
+# VS
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: wo
+A ra kanan ar beleg.
+A-gr kanan ar beleg
+A-gr kanan ar beleg
+PRT-do.3SG.PRS sing.INF the priest.M
+'The priest is singing.'
+
+# Example 18
+# det must precede noun
+# VSO
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: det
+Kanan a ra beleg ar.
+Kanan a-gr beleg ar
+Kanan a-gr beleg ar
+sing.INF PRT-do.3SG.PRS priest.M the
+'The priest is singing.'
+
+# Example 19
+# subject emphasized
+# i'm taking a transitive eg from p 192 of a and making it itr
+# so it's a bit shakier, but i'm reasonably confident 
+# SV
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: {word order, det}
+Ar beleg a gan.
+Ar beleg a-kan
+Ar beleg a-kan
+the priest.M PRT-sing.3SG.PRS
+'The priest is singing.'
+
+# Example 20
+# V must be in second position
+# VS
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+A gan ar beleg.
+A-kan ar beleg
+A-kan ar beleg
+PRT-sing.3SG.PRS the priest.M
+'The priest is singing.'
+
+# Example 21
+# SVO
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: {pn, c, info}
+Hi a glask o.
+Hi a-klask o
+Hi a-klask o
+she.NOM.SG PRT-seek.3SG.PRS them.ACC.PL
+'She seeks them.'
+
+# Example 22
+# subject pronoun cannot be used twice
+# SVO
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: c
+Hi a glask int.
+Hi a-klask int
+Hi a-klask int
+she.NOM.SG PRT-seek.3SG.PRS they.NOM.PL
+'She seeks them.'
+
+# Example 23
+# SVO
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: wo
+Ar beleg a glask ul levr.
+Ar beleg a-klask ul levr
+Ar beleg a-klask ul levr
+the priest.M PRT-seek.3SG.PRS a book.M
+'The priest is seeking the book'
+
+# Example 24
+# SOV
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: wo
+Ar beleg ul levr a glask.
+Ar beleg ul levr a-klask
+Ar beleg ul levr a-klask
+the priest.M a book.M PRT-seek.3SG.PRS
+'The priest is seeking a book.'
+
+# Example 25
+# INF-OVS
+# p 191, w/ PN change
+# this is probably going to pose a problem for us
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: wo
+Klask ul levr a ra ar beleg.
+Klask ul levr a-gr ar beleg
+Klask ul levr a-gr ar beleg
+seek.INF a book.M PRT-do.3SG.PRS the priest.M
+'The priest is seeking a book.'
+
+# Example 26
+# OSV
+# impossible word order
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: wo
+Ul levr ar beleg klask a ra.
+Ul levr ar beleg klask a-gr
+Ul levr ar beleg klask a-gr
+a book.M the priest.M seek.INF PRT-do.3SG.PRS
+'The priest is seeking a book.'
+
+# Example 27
+# OVS
+# source "a" p 192, w/ PN change
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: wo
+Ul levr a glask ar beleg.
+Ul levr a-klask ar beleg
+Ul levr a-klask ar beleg
+a book.M PRT-seek.3SG.INF the priest.M
+'The priest is seeking a book.'
+
+# Example 28
+# OVS
+# *finite* verb needs to be in V2
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: wo
+Ul levr klask a ra ar beleg.
+Ul levr klask a-gr ar beleg
+Ul levr klask a-gr ar beleg
+a book.M seek.INF PRT-do.3SG.PRS the priest.M
+'The priest is seeking a book.'
+
+# Example 29
+# not extremely sure of grammaticality on this one
+# ie - don't know if da would be the form and don't know if it would
+# appear sentence final
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pn, c
+Me a glaskan da.
+Me a-klaskan da
+Me a-klask-an da
+I.NOM PRT-seek-1SG.PRS you.ACC.SG
+'I seek you.'
+
+# Example 30
+# same worry as 27
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pn, c
+Te a glaskez va.
+Te a-klaskez va
+Te a-klask-ez va
+you.NOM PRT-seek-2SG.PRS me.ACC
+'You seek me.'
+
+# Example 31
+# pronoun does not agree with verb
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: pn
+Me a glaskez da.
+Me a-klaskez da
+Me a-klask-ez da
+I.NOM PRT-seek-2SG.PRS you.ACC.SG
+'I seek you.'
+
+# Example 32
+# wrong case of object pronoun
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: c
+Me a glaskez te.
+Me a-klaskez te
+Me a-klask-ez te
+I.NOM PRT-seek-2SG.PRS you.NOM.SG
+'I seek you.'
+
+# Example 33
+# det with pronoun not allowed
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: det
+Ar me a ganan.
+Ar me a-kanan
+Ar me a-kan-an
+the I.NOM PRT-sing-1SG.PRS
+'I sing.'
+
+# Example 34
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pn
+Ni a ganomp.
+Ni a-kanomp
+Ni a-kan-omp
+we.NOM PRT-sing-1PL.PRS
+'We sing.'
+
+# Example 35
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pn
+C'hwi a ganit.
+Cchwi a-kanit
+Cchwi a-kan-it
+you.NOM.PL PRT-sing-2PL.PRS
+'You all sing.'
+
+# Example 36
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pn
+Int a ganont.
+Int a-kanont
+Int a-kan-ont
+they.NOM.PL PRT-sing-3PL.PRS
+'They sing.'
+
+# Example 37
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pn
+Da a welan.
+Da a-gwelan
+Da a-gwel-an
+you.ACC.SG PRT-see-1SG.PRS
+'I see you.'
+
+# Example 38
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pn
+E a welan.
+E a-gwelan
+E a-gwel-an
+him.ACC PRT-see-1SG.PRS
+'I see him.'
+
+# Example 39
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pn
+Hec'h a welan.
+He a-gwelan
+He a-gwel-an
+her.ACC PRT-see-1SG.PRS
+'I see her.'
+
+# Example 40
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pn
+Hon a welit.
+Hon a-gwelit
+Hon a-gwel-it
+us.ACC PRT-see-2PL.PRS
+'You see us.'
+
+# Example 41
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pn
+Hoc'h a welan.
+Ho a-gwelan
+Ho a-gwel-an
+you.ACC.PL PRT-see-1SG.PRS
+'I see you all.'
+
+# Example 42
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pn
+O a welan.
+O a-gwelan
+O a-gwel-an
+them.ACC.PL PRT-see-1SG.PRS
+'I see them.'
+
+# Example 43
+# I believe (but am not certain) that ordinary common nouns need a
+# determiner
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: det
+Beleg a gan.
+Beleg a-kan
+Beleg a-kan
+priest.M PRT-sing.3SG.PRS
+'The priest sings.'
+
+# Example 44
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: det
+Ur beleg a gan.
+Ur beleg a-kan
+Ur beleg a-kan
+a priest.M PRT-sing.3SG.PRS
+'A priest sings.'
+
+# Example 45
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: det
+Klask a ra ar beleg ur c'had.
+Klaskiñ a-gr ar beleg ur gad
+Klaskiñ a-gr ar beleg ur gad
+seek.INF PRT-do.3SG.PRS the priest.M a rabbit.F
+'The priest is seeking a rabbit.'
+
+# Example 46
+# ungrammatical because there are two accusatives in one clause
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: c
+Va a glaskan da.
+Va a-klaskan da
+Va a-klask-an da
+I.ACC PRT-seek-1SG.PRS you.ACC.SG
+'I seek you.'
+
+# Example 47
+#Unsure of the translation using 'do'
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: neg
+Me ne glaskan ket da.
+Me ne-klaskan ket da
+Me ne-klask-an ket da
+I.NOM NEG-seek-1SG.PRS not you.ACC.SG
+'I do not seek you.'
+
+# Example 48
+#Ungrammatical because the negative adverb does not immediately follow the verb
+#Unsure of the translation using 'do'
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: neg
+Va ne glaskan da ket.
+Va ne-klaskan da ket
+Va ne-klask-an da ket
+I.ACC NEG-seek-1SG.PRS you.ACC.SG not
+'I do not seek you.'
+
+# Example 49
+# ungrammatical because the negative adverb does not immediately follow the verb
+#Unsure of the translation using 'do'
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: neg
+Va ket ne glaskan da.
+Va ket ne-klaskan da
+Va ket ne-klask-an da
+I.ACC not NEG-seek-1SG.PRS you.ACC.SG
+'I do not seek you.'
+
+# Example 50
+#Ungrammatical because the negative adverb does not immediately follow the verb 
+#Unsure of the translation using 'do'
+Source: {author, Foster} 
+Vetted: f 
+Judgment: u
+Phenomena: neg
+Ket va ne glaskan da.
+Ket va ne-klaskan da
+Ket va ne-klask-an da
+Not I.ACC NEG-seek-1SG.PRS you.ACC.SG 
+'I do not seek you.'
+
+# Example 51
+#Negation with an instransitive verb
+#Unsure of the translation using 'is'
+Source: {author, collab}
+Vetted: f
+Judgment: g
+Phenomena: neg
+Ar beleg na gan ket.
+Ar beleg na-kan ket
+Ar beleg ne-kan ket
+the priest.M NEG-sing.3SG.PRS not
+'The priest is not singing.'
+
+# Example 52
+#Negation requires the post-verb adverb(really an adverb?)
+#Unsure of the translation using 'is'
+Source: {author, collab}
+Vetted: f
+Judgment: u
+Phenomena: neg
+Ar beleg na gan.
+Ar beleg na-kan
+Ar beleg ne-kan
+the priest.M NEG-sing.3SG.PRS
+'The priest is not singing.'
+
+# Example 53
+#Negation with an instransitive verb
+#Unsure of the translation using 'is'
+Source: {author, collab}
+Vetted: f
+Judgment: u
+Phenomena: neg
+Ar beleg ket na gan.
+Ar beleg ket na-kan
+Ar beleg ket ne-kan
+the priest.M not NEG-sing.3SG.PRS
+'The priest is not singing.'
+
+# Example 54
+#Negation with an instransitive verb
+Source: {author, collab}
+Vetted: f
+Judgment: u
+Phenomena: neg
+Ar ket beleg na gan.
+Ar ket beleg na-kan
+Ar ket beleg ne-kan
+the not priest.M NEG-sing.3SG.PRS
+'The priest is not singing.'
+
+# Example 55
+#Negation with an instransitive verb
+Source: {author, collab}
+Vetted: f
+Judgment: u
+Phenomena: neg
+Ket ar  beleg na gan.
+Ket ar  beleg na-kan
+Ket ar  beleg ne-kan
+not the priest.M NEG-sing.3SG.PRS
+'The priest is singing.'
+
+# Example 56
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: cogst
+Me a glaskan ul levr.
+Me a-klaskan ul levr
+Me a-klask-an ul levr
+I.NOM PRT-seek-1SG.PRS a book
+'I seek a book.'
+
+# Example 57
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: cogst
+Me a glaskan al levr.
+Me a-klaskan al levr
+Me a-klask-an al levr
+I.NOM PRT-seek-1SG.PRS the book
+'I seek the book.'
+
+# Example 58
+#Showing ungrammatical when the definite article is out of place
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: cogst
+Me al a glaskan levr.
+Me al a-klaskan levr
+Me al a-klask-an levr
+I.NOM the PRT-seek-1SG.PRS book
+'I seek the book.'
+
+# Example 59
+#Showing ungrammatical when the definite article is out of place
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: cogst
+Me a glaskan levr al.
+Me a-klaskan levr al
+Me a-klask-an levr al
+I.NOM PRT-seek-1SG.PRS book the
+'I seek the book.'
+
+# Example 60
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: tam, agr
+Kanañ a on-me.
+Kaniñ a-bezan-me
+Kan-iñ a-bezan-me
+sing-INF PRT-be.1SG.PRS-1SG.AGR
+'I am singing.'
+
+# Example 61
+# subject pronoun suffix does not agree with main verb
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: agr
+Kanañ a ran-te.
+Kaniñ a-gran-te
+Kan-iñ a-gr-an-te
+sing-INF PRT-be.1SG.PRS-2SG.AGR
+'I am singing.'
+
+# Example 62
+# be goes before its complement
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: wo
+Kanañ a vezan.
+Kaniñ a-bezan
+Kan-iñ a-bezan
+sing-INF PRT-be.1SG.HBT.PRS
+'I usually sing.'
+
+# Example 63
+# for habitual, o comes before infinitive, just a special form of the verb
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: tam
+Me a vezen o kanañ.
+Me a-bezen o-kaniñ.
+Me a-bezen o-kan-iñ.
+I.NOM PRT-be.1SG.HBT.PST PRS.PTCP-sing-INF
+'I used to sing.'
+
+# Example 64
+# First person singular present tense
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: tam
+Me a gan an.
+Me a-kanan
+Me a-kan-an
+I.NOM PRT-sing-1SG.PRS
+'I sing.'
+
+# Example 65
+# 3rd person plural present tense
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: tam
+Int a gan ont.
+Int a-kanont
+Int a-kan-ont
+They.NOM PRT-sing-3PL.PRS
+'They sing.'
+
+# Example 66
+# 3rd person plural present tense affix doesn't agree with 
+# 2nd person singular pronoun
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: tam
+Te a gan ont.
+Te a-kanont
+Te a-kan-ont
+You.NOM PRT-sing-3PL.PRS
+'You sing.'
+
+# Example 67
+# Second person singular past tense
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: tam
+Te a gan jout.
+Te a-kanjout
+Te a-kan-jout
+They.NOM PRT-sing-2SG.PAST
+'You sang.'
+
+# Example 68
+# Second person plural future tense
+# The translation makes this seem like there is more going on because
+# English lacks future tense verb marking
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: tam
+Cchwi a gan ot.
+Cchwi a-kanot
+Cchwi a-kan-ot
+You.NOM PRT-sing-2PL.FUT
+'You will sing.'
+
+# Example 69
+# Third person singular imperfect aspect
+# The translation makes this seem like there is more going on because
+# English lacks imperfect aspect verb marking
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: tam
+Eñ a gane.
+Eñ a-kane
+Eñ a-kan-e
+He.NOM PRT-sing-SG.IPFV
+'He was singing.'
+
+# Example 70
+# correct use of analytic form
+# emphasis on subj; another translation might be
+# "It's me who will seek the book." 
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: tam
+Me a klasko al levr.
+Me a-klasko al levr
+Me a-klask-o al levr
+I.NOM PRT-seek-IPFV.FUT the book
+'I will seek the book.'
+
+# Example 71
+# content verb should be in infinitive form
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: tam
+Klaskan a ran me da.
+Klaskan a-gran me da
+Klask-an a-gr-an me da
+seek-1SG.PRS PRT-do-1SG.PRS I.NOM you.ACC
+'I'm seeking you.'
+
+# Example 72
+# auxiliary should be inflected
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: tam
+Klask a ober me da.
+Klaskiñ a-griñ me da
+Klask-iñ a-gr-iñ me da
+seek-INF PRT-do-INF I.NOM you.ACC
+'I'm seeking you.'
+
+# Example 73
+# auxiliary should be the one that's inflected, not the content verb
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: tam
+A glaskan ober me da.
+A-klaskan griñ me da
+A-klask-an gr-iñ me da
+PRT-seek-1SG.PRS do-INF I.NOM you.ACC
+'I'm seeking you.'
+
+# Example 74
+# correct use of demonstrative
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: cogst
+Klask a ran me al levr-se
+Klaskiñ a-gran me al levr-se
+Klask-iñ a-gr-an me al levr-se
+seek-INF PRT-do-1SG.PRS the book-that
+'I'm seeking that book.'
+
+# Example 75
+# demonstratives require the definite article
+# right now our grammar lets this sentence through because we don't have a way
+# to tell it that this noun suffix requires the definite article before the noun
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: cogst
+Klask a ran me ul levr-se
+Klaskiñ a-gran me ul levr-se
+Klask-iñ a-gr-an me ul levr-se
+seek-INF PRT-do-1SG.PRS a book-that
+'I'm seeking that book.'
+
+# Example 76
+# demonstratives require the definite article
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: cogst
+Klask a ran me levr-se
+Klaskiñ a-gran me levr-se
+Klask-iñ a-gr-an me levr-se
+seek-INF PRT-do-1SG.PRS book-that
+'I'm seeking that book.'
+
+# Example 77
+# correct use of autonomous/impersonal form
+# source a p 161 has example w/ read instead of seek
+# two translations given, extra is: "The book is sought."
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: tam
+Al levr a glasker.
+Al levr a-klasker
+Al levr a-klask-er
+the book PRT-seek-IPFV.PRS
+'One seeks the book.'
+
+# Example 78
+# argument optionality: correct to have no overt subject
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+Al levr a glaskomp.
+Al levr a-klaskomp
+Al levr a-klask-omp
+the book PRT-seek-1PL.PRS
+'We're seeking the book.'
+
+# Example 79
+# need overt object
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: pro-d
+Te a glaskez.
+Te a-klaskez
+Te a-klask-ez
+you.NOM PRT-seek-2SG.PRS
+'You're seeking it.'
+
+# Example 80
+# present progressive used correctly
+# not at all sure of the grammaticality here
+# because I think be might not use a particle in these cases
+# translation is the same as non present progressive, but meaning is more
+# emphatic of the short-lived momentariness of the action
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: tam
+Eñ a emañ o cchoarzhiñ.
+Eñ a-emañ o-cchoarzhiñ
+Eñ a-emañ o-cchoarzh-iñ
+he.NOM PRT-be.PNT.PRS PTCP-laugh-INF
+"He is laughing."
+
+# Example 81
+# need the particle "o" to make present progressive
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: tam
+Eñ a emañ cchoarzhiñ.
+Eñ a-emañ cchoarzhiñ
+Eñ a-emañ cchoarzh-iñ
+he.NOM PRT-be.PNT.PRS laugh-INF
+"He is laughing."
+
+# Example 82
+# past progressive
+# same reservations as 77
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: tam
+Eñ a edo o cchoarzhiñ.
+Eñ a-edo o-cchoarzhiñ
+Eñ a-edo o-cchoarzh-iñ
+he.NOM PRT-be.PNT.PST PTCP-laugh-INF
+"He was laughing."
+
+# Example 83
+# argument optionality: correct to have no overt subject
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+Ni a glaskomp al levr.
+Ni  a-klaskomp al levr
+Ni a-klask-omp al levr
+We.NOM PRT-seek-1PL.PRS the book
+'We are seeking the book.'
+
+# Example 84
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: q
+Ha a ganent?
+Ha a-kanent
+Ha a-kan-ent
+Q PRT-sing-2PL.PST.IPFV
+'Were you singing?'
+
+# Example 85
+# question particle should be sentence-initial
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: q
+A ganent ha?
+A-kanent ha
+A-kan-ent ha
+PRT-sing-2PL.PST.IPFV Q
+'Were you singing?'
+
+# Example 86
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: q
+Ha gwelout a ra ar beleg al levr?
+Ha gweliñ a-gr ar beleg al levr
+Ha gwel-iñ a-gr ar beleg al levr
+Q see-INF PRT-do.3SG.PRS the priest the book
+'Does the priest see the book?'
+
+# Example 87
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: q
+Gwelout a ra ar beleg al levr ha?
+Gweliñ a-gr ar beleg al levr ha
+Gwel-iñ a-gr ar beleg al levr ha
+see-INF PRT-do.3SG.PRS the priest the book Q
+'Does the priest see the book?'
+
+# Example 88
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: q
+Gwelout hag a ra ar beleg al levr?
+Gweliñ ha a-gr ar beleg al levr
+Gwel-iñ ha a-gr ar beleg al levr
+see-INF Q PRT-do.3SG.PRS the priest the book
+'Does the priest see the book?'
+
+# Example 89
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: q
+Gwelout a ra hag ar beleg al levr?
+Gweliñ a-gr ha ar beleg al levr
+Gwel-iñ a-gr ha ar beleg al levr
+see-INF PRT-do.3SG.PRS Q the priest the book
+'Does the priest see the book?'
+
+# Example 90
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: q
+Daoust ha debriñ a rez ur aval?
+Daoust-ha debriñ a-grez ur aval
+Daoust-ha debr-iñ a-grez ur aval
+Q eat-INF PRT-do.2SG.PRS ur aval
+'Are you eating an apple?'
+
+# Example 91
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: q, neg
+Daoust ha debriñ ne rez ket ur aval?
+Daoust-ha debriñ ne-grez ket ur aval
+Daoust-ha debr-iñ ne-grez ket ur aval
+Q eat-INF NEG-do.2SG.PRS NEG a apple
+'Aren't you eating an apple?'
+
+# Example 92
+# negative questions require full "Daoust ha(g)" particle
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: q
+Ha debriñ ne rez ket ur aval?
+Ha debriñ ne-grez ket ur aval
+Ha debr-iñ ne-grez ket ur aval
+Q eat-INF NEG-do.2SG.PRS NEG a apple
+'Aren't you eating an apple?'
+
+# Example 93
+# question particle should be sentence-initial
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: q
+Debriñ ne rez ket ur aval ha?
+Debriñ ne-grez ket ur aval ha
+Debr-iñ ne-grez ket ur aval ha
+eat-INF NEG-do.2SG.PRS NEG a apple Q
+'Aren't you eating an apple?'
+
+# Example 94
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ra ar beleg mezv ul levr.
+Klaskiñ a-gr ar beleg mezv-msg ul levr
+Klask-iñ a-gr ar beleg mezv-msg ul levr
+seek-INF PRT-do.3SG.PRS the priest drunk-MSG a book
+'The drunk priest is seeking a book.'
+
+# Example 95
+# gender of adjective should agree with noun
+# can see the "f" gender in surface string with the mutation of m to v
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: adj
+Klask a ra ar beleg vezv ul levr.
+Klaskiñ a-gr ar beleg mezv-fsg ul levr
+Klask-iñ a-gr ar beleg mezv-fsg ul levr
+seek-INF PRT-do.3SG.PRS the priest drunk-FSG a book
+'The drunk priest is seeking a book.'
+
+# Example 96
+# mezv should go after the noun
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: adj
+Klask a ra mezv ar beleg ul levr.
+Klaskiñ a-gr mezv-msg ar beleg ul levr
+Klask-iñ a-gr mezv-msg ar beleg ul levr
+seek-INF PRT-do.3SG.PRS drunk-MSG the priest a book
+'The drunk priest is seeking a book.'
+
+# Example 97
+# i had marked this ungrammatical, but i think that this would actually
+# be grammatical in an emphatic sense
+# if it were not emphatic, it would be ungrammatical to get mezv before
+# the noun
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ra ar mezv beleg ul levr.
+Klaskiñ a-gr ar mezv-msg beleg ul levr
+Klask-iñ a-gr ar mezv-msg beleg ul levr
+seek-INF PRT-do.3SG.PRS the drunk-MSG priest a book
+'The drunk priest is seeking a book.'
+
+# Example 98
+# correct use of diminutive for adjectives
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ra ar beleg mezvik ul levr.
+Klaskiñ a-gr ar beleg mezvik-msg ul levr
+Klask-iñ a-gr ar beleg mezv-ik-msg ul levr
+seek-INF PRT-do.3SG.PRS the priest drunk-DIM-MSG a book
+'The drunk priest is seeking a book.'
+
+# Example 99
+# gwall is one of a [rarer] class of adjectives that go before the noun
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ran ur gwall levr.
+Klaskiñ a-gran ur gwall levr
+Klask-iñ a-gr-an ur gwall levr
+seek-INF PRT-do-1SG.PRS a bad book
+'The priest is seeking a bad book.'
+
+# Example 100
+# gwall should go directly before noun
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: adj
+Klask a ran gwall ur levr.
+Klaskiñ a-gran gwall ur levr
+Klask-iñ a-gr-an gwall ur levr
+seek-INF PRT-do-1SG.PRS bad a book
+'The priest is seeking a bad book.'
+
+# Example 101
+# gwall should go directly before noun
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: adj
+Klask a ran ur levr gwall.
+Klaskiñ a-gran ur levr gwall-msg
+Klask-iñ a-gr-an ur levr gwall-msg
+seek-INF PRT-do-1SG.PRS a book bad-MSG
+'The priest is seeking a bad book.'
+
+# Example 102
+# correct use of subject NP coordination
+# less sure than usual of grammaticality
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: crd
+Me hag ar beleg a ganomp.
+Me ha ar beleg a-kanomp
+Me ha ar beleg a-kan-omp
+I.ACC and the priest PRT-SING-1PL.PRS
+'Me and the priest are singing.'
+
+# Example 103
+# coordinator should go before last coordinand
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: crd
+Ha me ar beleg a ganomp.
+Ha me ar beleg a-kanomp
+Ha me ar beleg a-kan-omp
+and I.ACC the priest PRT-SING-1PL.PRS
+'Me and the priest are singing.'
+
+# Example 104
+# coordinator should go before last coordinand
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: crd
+Me ar beleg hag a ganomp.
+Me ar beleg ha a-kanomp
+Me ar beleg ha a-kan-omp
+I.ACC the priest and PRT-SING-1PL.PRS
+'Me and the priest are singing.'
+
+# Example 105
+# correct coordination of object NPs
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: crd
+Me a welis al levr pe ul liorzh.
+Me a-gwelis al levr pe ul liorzh
+Me a-gwel-is al levr pe ul liorzh
+I.ACC PRT-see-1SG.PST the book or a garden
+'I saw the book or a garden.'
+
+# Example 106
+# coordinator should go before last coordinand
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: crd
+Me a welis al levr ul liorzh pe.
+Me a-gwelis al levr ul liorzh pe
+Me a-gwel-is al levr ul liorzh pe
+I.ACC PRT-see-1SG.PST the book a garden or
+'I saw the book or a garden.'
+
+# Example 107
+# coordinator should go before last coordinand
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: crd
+Me a welis al levr ul liorzh pe.
+Me a-gwelis al levr ul liorzh pe
+Me a-gwel-is al levr ul liorzh pe
+I.ACC PRT-see-1SG.PST the book a garden or
+'I saw the book or a garden.'
+
+# Example 108
+# Grammatical use of adverb (preceding the verb)
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {adv}
+Buan a glask gr ar beleg ul levr.
+Buan a-klask gr ar beleg ul levr
+Buan a-klask gr ar beleg ul levr
+quickly PRT-seek.INF do.PRS.3SG the priest.M a book.M
+'The priest seeks a book quickly.'
+
+# Example 109
+# Ungrammatical use of adverb (not preceding the verb)
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+A glask gra ar beleg ul levr buan.
+A-klask gr ar beleg ul levr buan
+A-klask gr ar beleg ul levr buan
+PRT-seek.INF do.PRS.3SG the priest.M a book.M quickly
+'The priest seeks a book quickly.'
+
+# Example 110
+# Ungrammatical use of adverb (not preceding the verb)
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+A glask gr ar beleg buan ul levr.
+A-klask gr ar beleg buan ul levr
+A-klask gr ar beleg buan ul levr
+PRT-seek.INF do.PRS.3SG the priest.M quickly a book.M
+'The priest seeks a book quickly.'
+
+# Example 111
+# Ungrammatical use of adverb (not preceding the verb)
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+A glask gr ar baun beleg ul levr.
+A-klask gr ar buan beleg ul levr
+A-klask gr ar buan beleg ul levr
+PRT-seek.INF do.PRS.3SG quickly the priest.M a book.M
+'The priest seeks a book quickly.'
+
+# Example 112
+# unGrammatical use of adverb where it is not sentence initial.
+# ungrammatical because it does not use V2 order
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {adv}
+Te dousig a gan jout.
+Te dousig a-kanjout
+Te dousig a-kan-jout
+They.NOM gently PRT-sing-2SG.PAST
+'You sang gently.'
+
+# Example 113
+# Ungrammatical use of adverb
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {adv}
+Dousig te a gan jout.
+Dousig te a-kanjout
+Dousig te a-kan-jout
+gently they.NOM PRT-sing-2SG.PAST
+'You sang gently.'
+
+# Example 114
+# Grammatical object emphasis. Object must come after the verb if infinitive
+# Emphasized elements come as early as possible in a sentence
+Source: {author, Foster} 
+Vetted: f
+Judgment: g
+Phenomena: {info}
+Debriñ a reont beleien ar un aval.
+Debriñ a-gront belegoù ar un aval.
+Debriñ a-gr-ont beleg-où ar un aval
+eat.INF PRT-do-3PL.PRS the priest.M 
+'The priests are eating an apple.'
+
+# Example 115
+# Grammatical object emphasis. Object must come after the verb if infinitive
+# Emphasized elements come as early as possible in a sentence
+Source: {author, Foster} 
+Vetted: f
+Judgment: g
+Phenomena: {info, wo}
+Debriñ un aval a reont ar beleien.
+Debriñ un aval a-gront ar belegoù.
+Debriñ un aval a-gr-ont ar beleg-où
+eat.INF an apple.M.SG PRT-do-3PL.PRS the priest.M-PL 
+'The priests are eating an apple.'
+
+# Example 116
+# Grammatical emphasis on the total action. Make the total action prominent 
+# placing the object between the infinitive and 'ober'.
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {word order, info}
+Klask ul levr a ra ar beleg.
+Klask ul levr a-gr ar beleg
+Klask ul levr a-gr ar beleg
+seek.INF a book.M PRT-do.PRS.3SG the priest.M
+'The priest is seeking a book.'
+
+# Example 117
+# Ungrammatical object emphasis. Nothing may precede the 
+# infinitive in an "ober" construction
+# Emphasized elements come as early as possible in a sentence
+Source: {author, Foster} 
+Vetted: f
+Judgment: u
+Phenomena: {info, wo}
+Un aval debriñ a ront ar beleien.
+Un aval debriñ a-gront ar belegoù.
+Un aval debriñ a-gr-ont ar beleg-où 
+an apple.M seek.INF PRT-do-3PL.PRS the priest.M-PL 
+'The priests are eating an apple.'
+
+# Example 118
+# Grammatical object emphasis. Object may come sentence initially
+# if not in an 'ober' construction. This sentence is ambiguous and relies on intonation
+# for the intended meaning. 117 and 118 should be treated the same by the grammar
+Source: {author, Foster} 
+Vetted: f
+Judgment: g
+Phenomena: {info, wo}
+Un aval a debront ar beleien.
+Un aval a-debront ar belegoù.
+Un aval a-debront ar beleg-où
+an apple.M eat-3PL.PRS the priest.M-PL 
+'An apple, the priests eat.'
+
+# Example 119
+# Grammatical subject emphasis. subject may come sentence initially
+# if not in an 'ober' construction. This sentence is ambiguous and relies on intonation
+# for the intended meaning. 117 and 118 should be treated the same by the grammar
+Source: {author, Foster} 
+Vetted: f
+Judgment: g
+Phenomena: {info, wo}
+Ar beleien a debront un aval.
+Ar belegoù a-debront un aval.
+Ar beleg-où a-debront un aval
+the priest.M-PL eat-3PL.PRS an apple.M
+'The priests eat an apple.'
+
+# Example 120
+# Ungrammatical emphasis. Subject and object may not both precede the verb
+Source: {author, Foster} 
+Vetted: f
+Judgment: u
+Phenomena: {info, wo}
+Ar beleien un aval a debront.
+Ar belegoù un aval a-debront.
+Ar beleg-où un aval a-debront
+an apple.M the priest.M-PL eat-3PL.PRS 
+'The priests eat an apple.'
+
+# Example 121
+# Ungrammatical information structure. Both the subject and object may not
+# appear between an infinitive and 'ober'.
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {word order, info}
+Klask ul levr ar beleg a ra.
+Klask ul levr ar beleg a-gr 
+Klask ul levr ar beleg a-gr 
+seek.INF a book.M the priest.M PRT-do.PRS.3SG 
+'The priest is seeking a book.'
+
+# Example 122
+# correct example of coordinating two VPs
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: crd
+Me a ganen hag a c'hoarzhen.
+Me a-kanen ha a-cchoarzhen
+Me a-kan-en ha a-cchoarzh-en
+I.NOM PRT-sing-1SG.PST.IPFV and PRT-laugh-1SG.PST.IPFV
+'I was singing and laughing.'
+
+# Example 123
+# coordinator must come before last coordinand
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: crd
+Me hag a ganen a c'hoarzhen.
+Me ha a-kanen a-cchoarzhen
+Me ha a-kan-en a-cchoarzh-en
+I.NOM and PRT-sing-1SG.PST.IPFV PRT-laugh-1SG.PST.IPFV
+'I was singing and laughing.'
+
+# Example 124
+# correct example of coordinating two Ss
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: crd
+Me a welan da ha te a welez va.
+Me a-gwelan da ha te a-gwelez va
+Me a-gwel-an da ha te a-gwel-ez va
+I.NOM PRT-see-1SG.PRS you.SG.ACC and you.SG.NOM PRT-see-2SG.PRS I.ACC
+'I see you and you see me.'
+
+# Example 125
+# correct example of embedded clause with 'know'
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: emb-d
+Gouzout a ran a c'hoarzhan.
+Gouziñ a-gran a-cchoarzhan
+Gouz-iñ a-gr-an a-cchoarzh-an
+know-INF PRT-do-1SG.PRS PRT-laugh-1SG.PRS
+'I know that I'm laughing.'
+
+# Example 126
+# embedded clause should be in finite form
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+Gouzout a ran a c'hoarzhañ.
+Gouziñ a-gran a-cchoarzhiñ
+Gouz-iñ a-gr-an a-cchoarzh-iñ
+know-INF PRT-do-1SG.PRS PRT-laugh-INF
+'I know that I'm laughing.'
+
+# Example 127
+# embedded clause should have preverbal particle
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+Gouzout a ran c'hoarzhan.
+Gouziñ a-gran cchoarzhan
+Gouz-iñ a-gr-an cchoarzh-an
+know-INF PRT-do-1SG.PRS laugh-1SG.PRS
+'I know that I'm laughing.'
+
+# Example 128
+# Grammatical nonverbal predicate of the form: complement + verb + subject
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {cop, info}
+Beleg a bez-eñ.
+Beleg a-bez-eñ
+Beleg a-bez-eñ
+priest.M PRT-be.3SG.PRS he
+'He is a priest.'
+
+# Example 129
+# Grammatical nonverbal predicate of the form: verb + subject + complement
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {cop, info}
+Eñ a bez Beleg.
+Eñ a-bez Beleg
+Eñ a-bez Beleg
+he PRT-be.3SG.PRS priest.M
+'He is a priest.'
+
+# Example 130
+# Ungrammatical nonverbal predicate of the form: verb + subject + complement
+# 'bezan' inflection is wrong 
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+Eñ a bezan beleg.
+Eñ a-bezan beleg
+Eñ a-bez-an beleg
+he PRT-be.3SG.PRS priest.M
+'He is a priest.'
+
+# Example 131
+# Grammatical nonverbal predicate of the form: Bez' (e) + verb + subject (+ complement)
+# 'bezan' must be sentence initial 
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+Bez' e vez ar beleg eñ.
+Bez e-bez ar beleg eñ
+Bez e-bez ar beleg eñ
+be.3SG.PRS PRT-be.3SG.PRS a priest.M he
+'He is a priest.'
+
+# Example 132
+# Ungrammatical nonverbal predicate of the form: Bez' (e) + verb + subject (+ complement)
+# Nominal predicate marking 'bezan' must be sentence initial 
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+A bez bez' ar beleg eñ.
+A-bez bez' ar beleg eñ
+A-bez bez' ar beleg eñ
+PRT-be.3SG.PRS be.3SG.PRS a priest.M he
+'He is a priest.'
+
+# Example 133
+# Ungrammatical nonverbal predicate of the form: Bez' (e) + verb + subject (+ complement)
+# Nominal predicate marking 'bezan' must be sentence initial 
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+A bez ar beleg bez' eñ.
+A-bez ar beleg bez' eñ
+A-bez ar beleg bez' eñ
+PRT-be.3SG.PRS a priest.M be.3SG.PRS he
+'He is a priest.'
+
+# Example 134
+# Ungrammatical nonverbal predicate of the form: Bez' (e) + verb + subject (+ complement)
+# Nominal predicate marking 'bezan' must be sentence initial 
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+A bez ar beleg eñ bez'.
+A-bez ar beleg eñ bez'
+A-bez ar beleg eñ bez'
+PRT-be.3SG.PRS a priest.M he be.3SG.PRS
+'He is a priest.'
+
+# Example 135
+# Ungrammatical nonverbal predicate of the form: Bez' (e) + verb + subject (+ complement)
+# Nominal predicate marking 'bezan' has incorrect agreement
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+Bezont a bez ar beleg eñ.
+Bezont a-bez ar beleg eñ
+Bezont a-bez ar beleg eñ
+be.3PL.PRS PRT-be.3SG.PRS a priest.M he
+'He is a priest.'
+
+# Example 136
+# correct use of embedded interrogative
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: emb-q
+Goulenn a rejod a c'hoarzhes.
+Goulenniñ a-grjod a-cchoarzhes
+Goulenn-iñ a-gr-jod a-cchoarzh-es
+ask-INF PRT-do-3PL.PST.PFV PRT-laugh-2SG.PST.IPFV
+'They asked whether you were laughing.'
+
+# Example 137
+# embedded interrogative should not use question particle
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+Goulenn a rejod hag a c'hoarzhes.
+Goulenniñ a-grjod ha a-cchoarzhes
+Goulenn-iñ a-gr-jod ha a-cchoarzh-es
+ask-INF PRT-do-3PL.PST.PFV Q PRT-laugh-2SG.PST.IPFV
+'They asked whether you were laughing.'
+
+# Example 138
+# embedded interrogative needs to be in finite form
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+Goulenn a rejod c'hoarzhañ.
+Goulenniñ a-grjod cchoarzhiñ
+Goulenn-iñ a-gr-jod cchoarzh-iñ
+ask-INF PRT-do-3PL.PST.PFV laugh-INF
+'They asked whether you were laughing.'
+
+# Example 139
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ra ar belegoù vezv ul levr.
+Klaskiñ a-gr ar belegoù mezv-mpl-hum ul levr
+Klask-iñ a-gr ar beleg-où mezv-mpl-hum ul levr
+seek-INF PRT-do.3SG.PRS the priest-PL drunk-MPL-HUM a book
+'The drunk priests are seeking a book.'
+
+# Example 140
+# should get the plural human form of the adjective
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: adj
+Klask a ra ar belegoù mezv ul levr.
+Klaskiñ a-gr ar belegoù mezv-msg ul levr
+Klask-iñ a-gr ar beleg-où mezv-msg ul levr
+seek-INF PRT-do.3SG.PRS the priest-PL drunk-MSG a book
+'The drunk priests are seeking a book.'
+
+# Example 141
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ra ar belegoù ul levr liorzh.
+Klaskiñ a-gr ar belegoù ul levr liorzh
+Klask-iñ a-gr ar beleg-où ul levr liorzh
+seek-INF PRT-do.3SG.PRS the priest-PL a book garden
+'The priests are seeking a book about gardens.'
+
+# Example 142
+# Grammatical adjectival predicate of the form: complement + verb + subject
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: {cop, info, adj}
+Mezv a bez-eñ.
+Mezv a-bez-eñ
+Mezv a-bez-eñ
+drunk-msg PRT-be.3SG.PRS he
+'He is drunk.'
+
+# Example 143
+# Grammatical use of adverb (following the verb)
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {adv}
+Glask a ra buan ar beleg ul levr.
+Klask a-gr buan ar beleg ul levr
+Klask a-gr buan ar beleg ul levr
+PRT-seek.INF do.PRS.3SG quickly the priest.M a book.M
+'The priest seeks a book quickly.'
+
+# Example 144
+# Ungrammatical use of adverb (following the infinitive but before 'ober')
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+Glask buan a ra ar beleg ul levr.
+Klask buan a-gr ar beleg ul levr
+Klask buan a-gr ar beleg ul levr
+PRT-seek.INF quickly do.PRS.3SG the priest.M a book.M
+'The priest seeks a book quickly.'
+
+# Example 145
+# Grammatical use of adjective as an adverb (following the verb)
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {adv}
+Glask a ra fur ar beleg ul levr.
+Klask a-gr fur ar beleg ul levr
+Klask a-gr fur ar beleg ul levr
+PRT-seek.INF do.PRS.3SG wise the priest.M a book.M
+'The priest seeks a book quickly.'
+
+# Example 146
+# Grammatical use of adjective as an adverb (following the verb)
+# Info Structure: e' affix shows emphasis on the adverb
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {adv, inf}
+Glask a ra e'fur ar beleg ul levr.
+Klask a-gr e-fur ar beleg ul levr
+Klask a-gr e-fur ar beleg ul levr
+PRT-seek.INF do.PRS.3SG wise the priest.M a book.M
+'The priest seeks a book wisely.'
+
+# Example 147
+# Ungrammatical use of adjective-adverb 
+# Emphatic affix on adjective adverb can't come sentence initial
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+E'fur glask a ra ar beleg ul levr.
+E-fur klask a-gr ar beleg ul levr
+E-fur klask a-gr ar beleg ul levr
+wise PRT-seek.INF do.PRS.3SG the priest.M a book.M
+'The priest seeks a book wisely.'
+
+# Example 148
+# Ungrammatical use of adjective-adverb 
+# Emphatic affix on adjective adverb can't come sentence initial
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+E'fur glask a ra ar beleg ul levr.
+E-fur klask a-gr ar beleg ul levr
+E-fur klask a-gr ar beleg ul levr
+wise PRT-seek.INF do.PRS.3SG the priest.M a book.M
+'The priest seeks a book wisely.'
+
+# Example 149
+# correct example of embedded clause with 'know'
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: emb-d
+Gouzout a ran a c'hoarzhan.
+Gouziñ a-gran a-cchoarzhan
+Gouz-iñ a-gr-an a-cchoarzh-an
+know-INF PRT-do-1SG.PRS PRT-laugh-1SG.PRS
+'I know that I'm laughing.'
+
+# Example 150
+# Grammatical nonverbal predicate of the form: Bez' (e) + verb + subject (+ complement)
+# 'bezan' must be sentence initial 
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+Bez' e vez ar beleg ha ul tad eñ.
+Bez e-bez ar beleg ha ul tad eñ
+Bez e-bez ar beleg ha ul tad eñ
+be.3SG.PRS PRT-be.3SG.PRS a priest.M and a father.M he
+'He is a priest and a father.'

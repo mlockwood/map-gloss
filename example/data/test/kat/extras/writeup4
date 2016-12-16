@@ -1,0 +1,200 @@
+Changes to stuff from lab 3:
+	Have converted everything to work with the morpheme segmented line.  All things that were previously no affix, are now marked with an affix '0-' or '-0'.  All the different preverbs are adjusted to just being "PRE-" rather than all the different forms that previously existed.  All the Present/Future stem formants have been modified to be "-PSF".  This will allow me to not have the giant headache of all the different prefixes and suffixes which are identical in function, but have different forms depending on the particular verb.
+	
+	There are still 3 different PRE-:
+		PRE = 0- AND verb has PSF : add present tense
+		PRE = PRE- AND verb has PSF : add future tense
+		PRE = PRE- AND verb doesn't have PSF : no semantic meaning (some tenses just require this, but it wouldn't mean something different if there wasn't a prefix)
+	
+	Have collapsed the tense_marker_with_PSF and tense_marker_no_PSF together with the 3rd_subj_suffix.  These happen in the same slot, it's just 1 occurs with 1st and 2nd person subjects (tense markers), while the 3rd person subject suffixes carry the tense information.  This new type is now obligatory, and I have gone through adding a -0 suffix to all of my examples having 1st and 2nd person subjects that are either present or future tense. Creating:
+	tense_and_3rd_subj
+		possible inputs: preverb, PSF, stem_augment
+	I've also created a few super types that other types in this class rely on:
+	     nom-dat & erg-nom for transitive case marking
+	     3rd-nom-dat & 3rd-erg-nom for 3rd person versions of these
+	     verbs either require a 3rd-person super type of some sort, or a 1st/2nd person prefix marker.
+
+	Realized that I accidently had the word 'ბრმა' (blind) meaning woman rather than the real word: ქალი.
+
+	Got rid of the SA position class, and have just added the SA 'დ' directly to the tense markers that require it.  They weren't being reused for anything, and the marker itself doesn't carry any specific meaning, so having a unique position that added this marker wasn't doing anything useful.  Relatedly, finally got the past imperfective working correctly and have added extra example sentences of this type in the test suite.
+
+Yes/No Questions:
+       To quote source b (Hewitt): "Questions this type [yes-no] involve no movement of words but are signalled entirely by the application of the appropriate intonation-pattern, namely a rise-falling pitch on the final syllable of the verb, which will normally be the last word in the sentence."  In written form, these questions are typically indicated with a question mark.  Because of this, any of the sentences I already have in the test suite could be questions, and therefore I will not have any new examples from this.
+       Because there is no overt clues this is a question from the text form, there is no way to handle it in the customization system, so I have not selected anything on this page and left it blank.
+
+Coordination:
+	Coordination in Georgian is a rather straight forward affair.  Conjunction between any constituents of the same kind occurs with the word 'და', which is a `monosyndenton' phenomenon:
+	(Pro)Nouns:
+		მე და შენ ვსვამთ ლუდს
+		მე და შენ 0-ვ-0-სვამ-PSF-0-თ ლუდ-ს
+		1.SG.NOM and 2.SG.NOM NOPRE-1.SUBJ-3.OBJ-drink-PSF-PRES/FUT-1.SUBJ.PL beer-DAT
+		`You and I are drinking beer.'
+
+	Adjectives:
+		პოლანდიურ და გერმანულ ლიტერატურას ასწავლის.
+		პოლანდიურ-0 და გერმანულ-0 ლიტერატურა-ს 0-0-ასწავლი-PSF-ს
+		dutch.DAT and german.DAT literature-DAT NOPRE-3.OBJ-teach-PSF-3.SG.SUBJ.PRES/FUT
+		`(S)he teaches Dutch and German literature.'
+
+	Verbs:
+		ჩვენ ვსვამთ და ვისმენთ
+		ჩვენ 0-ვ-0-სვამ-PSF-0-თ და 0-ვ-0-ისმენ-PSF-0-თ
+		3.PL.SUBJ NOPRE-1.SUBJ-3.OBJ-drink-PSF-PRES/FUT-1.SUBJ.PL and NOPRE-1.SUBJ-3.OBJ-listen-PSF-PRES/FUT-1.SUBJ.PL
+		`We are drinking (something) and listening (to something).'
+	Sentences:
+		მე წიგნს ვკითხავ და შენ გაზეთს კითხავ
+		მე წიგნ-ს 0-ვ-0-კითხ-PSF-0-0 და შენ გაზეთ-ს 0-0-0-კითხ-PSF-0-0
+		1.SG.NOM book-DAT NOPRE-1.SUBJ-3.OBJ-read-PSF-PRES/FUT-SG and 2.SG.NOM newspaper-DAT NOPRE-2.SUBJ-3.OBJ-read-PSF-PRES/FUT-SG
+		`I am reading a book and you are reading a newspaper.'
+	In the customization system, I have selected a monosyndenton pattern, that is able to connect Nouns, NPs, VPs, and Ss.  The monosyndenton pattern is expressed by a word ("და") that occurs before the coordinand.
+
+Attributive Adjectives:
+	    When an adjective is modifying a noun (rather than acting as a predicate), the adjective comes immediately before the noun it modifies.  There are two classes of adjectives, 1 shows no agreement with the noun it modifies at all, and the other shows agreement only for case (but not number).  Adjectives do not require the conjunction და to be put in a series when modifying the same noun.
+	First adjective shows case agreement, 2nd adjective does not
+	მაგალი ბრმა ქალი რადიოგადაცემას მოისმენს.
+	მაგალ-ი ბრმა ქალ-ი რადიოგადაცემა-ს PRE-0-ისმენ-PSF-ს
+	tall-NOM blind woman-NOM radiobroadcast-DAT PRE-3.OBJ-listen-PSF-3.SG.SUBJ.PRES/FUT
+	`The tall blind woman will listen to the radiobroadcast.'
+
+	compared with the same sentence in the past and perfective tense:
+	მაგალმა ბრმა ქალმა რადიოგადაცემა მოისმენა.
+	მაგალ-მა ბრმა ქალ-მა რადიოგადაცემა-0 PRE-0-ისმენ-ა
+	tall-ERG blind woman-ERG radiobroadcast-NOM PRE-3.OBJ-listen-AOR.3.SG.SUBJ
+	`The tall blind woman listened to the radiobroadcast.'
+
+	Ungrammatical word order (N-ADJ):
+	ქალი ბრმა რადიოგადაცემას მოისმენს.
+	ქალ-ი ბრმა რადიოგადაცემა-ს PRE-0-ისმენ-PSF-ს
+	woman-NOM blind radiobroadcast-DAT PRE-3.OBJ-listen-PSF-3.SG.SUBJ.PRES/FUT
+	`The blind woman will listen to the radiobroadcast.'
+
+	Ungrammatical lack of agreement:
+	      მაგალ ქალი რადიოგადაცემას მოისმენს.
+	      მაგალ-0 ქალ-ი რადიოგადაცემა-ს PRE-0-ისმენ-PSF-ს
+	      tall-DAT woman-NOM radiobroadcast-DAT PRE-3.OBJ-listen-PSF-3.SG.SUBJ.PRES/FUT
+	      `The tall woman will listen to the radiobroadcast.'
+
+Adverbs:
+	Adverbs of manner are able to appear anywhere in a sentence, appearing to exist as their own constituent within the sententential structure.
+	მე სწრაფად წიგნი წავიკითხე.
+	მე სწრაფად წიგნ-ი PRE-ვ-0-კითხ-ე-0
+	1.SG.ERG quickly book-NOM PRE-1.SUBJ-3.OBJ-read-AOR-PL.SUBJ
+	`I read the book quickly.'
+
+	vs
+
+	სწრაფად მე წიგნი წავიკითხე.
+	სწრაფად მე წიგნ-ი PRE-ვ-0-კითხ-ე-0
+	quickly 1.SG.ERG  book-NOM PRE-1.SUBJ-3.OBJ-read-AOR-PL.SUBJ
+	`I read the book quickly.'
+
+	or
+
+	მე წიგნი წავიკითხე სწრაფად.
+	მე წიგნ-ი PRE-ვ-0-კითხ-ე-0 სწრაფად
+	1.SG.ERG  book-NOM PRE-1.SUBJ-3.OBJ-read-AOR-PL.SUBJ quickly
+	`I read the book quickly.'
+
+Embedded clauses:
+	 Georgian declarative embedded clauses are marked by the complementizer "რომ", which introduces the declarative into the sentence.  Word order is as free as ever, after the introduction of the complementizer.
+
+	 ვიცი, რომ იგი კითხულობს წიგნს
+	 0-ვ-0-იც-PSF-0-0 რომ იგი 0-0-კითხ-PSF-ს წიგნ-ს
+	 NOPRE-1.SUBJ-3.OBJ-know-PSF-PRES/FUT-SG that 3.SG.PRES NOPRE-3.OBJ-read-PSF-3.SG.SUBJ.PRES/FUT book-DAT
+	 `I know, that she is reading a book.'
+
+	 Embedded declarative clauses can also occur without the complementizer:
+	 ვიცი, იგი კითხულობს წიგნს
+	 0-ვ-0-იც-PSF-0-0 იგი 0-0-კითხ-PSF-ს წიგნ-ს
+	 NOPRE-1.SUBJ-3.OBJ-know-PSF-PRES/FUT-SG 3.SG.PRES NOPRE-3.OBJ-read-PSF-3.SG.SUBJ.PRES/FUT book-DAT
+	 `I know, that she is reading a book.'
+	 
+	 Georgian embedded interrogative clauses are marked by the complementizer "თუ", which also occurs at the beginning of the subordinate clause.  I have given this one example here, but honestly this kind of structure is incredibly difficult to find examples of, mostly due to the fact that most of the times there is a question involving whether something occured, the part in question isn't embedded, but rather lead by "თუ არა რომ" (gloss: if not that).  This phrasal structure is apparently so popular that it has become something almost like a meme online (see http://icode.ge/category/%E1%83%98%E1%83%AA%E1%83%98%E1%83%97-%E1%83%97%E1%83%A3-%E1%83%90%E1%83%A0%E1%83%90-%E1%83%A0%E1%83%9D%E1%83%9B%E2%80%A6/ for a page with tons of these), perhaps similar to "does anyone know if..." in English.
+
+	 ბავშვი კითხვას თუ ფრინველები მღერიან
+	 ბავშვ-ი 0-კითხვა-PSF-ს თუ ფრინველ-ებ-ი 0-0-მღერი-PSF-ენ
+	 child-NOM NOPRE-ask-PSF-3.SG.SUBJ.PRES/FUT whether bird-PL-NOM NOPRE-3.OBJ-sing-PSF-3.PL.SUBJ.PRES/FUT
+	 `The child is asking whether birds sing.'
+
+
+Non-verbal Predicates:
+	   Non-verbal predicates are formed using a copula that exists in all tenses and aspect combinations.  In present indicative, this copula is often slightly obscure, as the copula has (only for 3rd person present/future tense) a form which suffixes onto one of the other constituents in the sentence.  The constituents being linked by the copula are in the nominative case.  None of my books mention specifically what case the constituents take in the past perfective tense (where the subject normally takes the ergative case), but all the examples I can find by googling the past perfective 3rd person verbs have nominative case.
+
+	   Copula, adjective, full form 3rd person sg present:
+	   ის ლამიზი არის.
+	   ის ლამიზ-ი არის
+	   3.SG.NOM beautiful-NOM 3.SG.PRES.be
+	   `(S)he is beautiful.'
+
+	   Copula, adjective, clitic form:
+	   ის ლამიზია.
+	   ის ლამიზ-ი-ა
+	   3.SG.NOM beautiful-NOM-3.SG.PRES.be
+	   `(S)he is beautiful.'
+
+	   Copula, preposition, past perfective (nominative case):
+	   იყვნენ ამერიკელები მთვარეზე?
+	   იყვნენ ამერიკელ-ებ-ი მთვარე-ზე
+	   3.PL.AOR.be american-PL-NOM moon-on
+	   `Were American on the moon?'
+
+	   Copula, noun phrase, future:
+	   ვიქნები ექიმი.
+	   ვიქნები ექიმ-ი
+	   1.SG.FUT.be doctor
+	   `I will be a doctor.'
+
+	   The clitic copula can appear on either constituent (though it seems to be stylistically wrong to attach it to a pronoun), though it generally will attach to the last word:
+	   ამერიკელი ექიმია
+	   ამერიკელ-ი ექიმ-ი-ა
+	   american-NOM doctor-NOM-3.SG.PRES.be
+	   `The American is a doctor.'
+
+	   ამერიკელი-ა ექიმი
+	   ამერიკელ-ი-ა ექიმ-ი
+	   american-NOM-3.SG.PRES.be doctor-NOM
+	   `The American is a doctor.'
+
+	   If the case isn't nominative, then we have an ungrammatical sentence:
+   	   ამერიკელს ექიმია
+	   ამერიკელ-ს ექიმ-ი-ა
+	   american-DAT doctor-NOM-3.SG.PRES.be
+	   `*The American is a doctor.'
+
+Information Structure:
+	    Besides intonation, the largest indicator of focus is word order in Georgian.  The neutral word order is SOV, but if something besides the subject needs to be brought into focus, then it is moved to the beginning of the sentence.
+
+	    Compare the neutral order:
+	    მასწავლებელი წერილს წერს.
+	    მასწავლებელ-ი წერილ-ს 0-0-წერ-PSF-ს
+	    teacher-NOM letter-DAT NOPRE-3.OBJ-write-PSF-3.SUBJ.SG.PRES
+	    `The teacher is writing a letter.'
+	    
+	    with 'letter' being stressed:
+	    წერილს მასწავლებელი წერს.
+	    წერილ-ს მასწავლებელ-ი 0-0-წერ-PSF-ს
+	    letter-DAT teacher-NOM NOPRE-3.OBJ-write-PSF-3.SG.SUBJ.PRES/FUT
+	    `The teacher is writing a letter.'
+
+	    Another method of bringing focus to parts of a sentence are use of the conjunction 'კი' meaning 'however', mainly used to bring attention to the fact the subject has changed from the previous subject of the discourse:
+	    ამერიკელი კი წიგნს წერს.
+	    ამერიკელ-ი კი წიგნ-ს 0-0-წერ-PSF-ს
+	    david-NOM however book-DAT NOPRE-3.OBJ-write-PSF-3.SG.SUBJ.PRES/FUT
+	    `David, however, is writing a book.'
+
+	    The passive can also employed in to stress the object of a verb. This creates a subjectless sentence that stresses an event occured, who/what the event effected, but not who was the agent of the even.  For the passives, the verbs mark the patient of the verb as though it were a subject:
+	    ჩიკაგოში დავიბადე.
+	    ჩიკაგო-ში და-ვ-იბა-დ-ე-0
+	    chicago-in PRE-1.SG.SUBJ-bear-PASSIVE-AOR-SG
+	    `I was born in Chicago.'
+
+I am currently getting 60.3% coverage of my testsuite, and 0% overgeneration.
+
+Overgeneration analysis:
+	I'm no longer getting near the overgeneration of before, because I have switched to dealing with the morphologically seperated and regularized forms, which is removing the overgeneration I had before.
+
+Coverage analysis:
+	The 60.3% seems to be coming from the number of sentences I've added for lab 4 that I don't have a way to deal with yet: adjectives, copula, information structure, etc.  So I am quite pleased with my coverage.  I don't see anything in here that I think should be able to parse by now that isn't. 
+
+Looking at MRS:
+	Looking at the MRSs, I don't see any in particular that are incorrect.  There is a bit of ambiguity at the moment resulting in several charts identical sentences, this is because nouns are only specified for number if they are specifically marked as plural.  This wasn't actually an intentional feature of the grammar, but isn't incorrect as marking plurality in Georgian is in fact optional based on pragmatics.  If a noun is explicitly marked as plural, then it is in fact specified as plural and the verb should agree, if the noun isn't marked for plural then it still may or may not be plural, and the verb will agree with it as though it were singular.

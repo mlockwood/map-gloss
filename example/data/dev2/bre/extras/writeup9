@@ -1,0 +1,171 @@
+Mike Foster, Matt Todd
+March 5, 2010
+LING 567 Lab 9 Writeup
+
+----- Grammar Changes -----
+Added/Changed:
+
+The sentence initial word in Breton has focus. To ensure that it gains focus when translating from a sentence that has no focus marked or retains focus in that position if it is already there, we mapped focus as follows:
+
+	INFO-STR : INFO-STR
+	  topic <> topic
+	  focus <> focus
+	  info-str << unmarked
+	  info-str << info-str
+	  info-str >> unmarked
+
+To ensure that the sentence initial word gets focus (as seen in subj-head-phrase below) and all other words are unmarked (as seen in head-subj-phrase below) , we modified all of the phrase rules to add INFO-STR to the daughters of the phrase as necessary.
+
+	subj-head-phrase := decl-head-subj-phrase & head-final-head-nexus &
+	    [SYNSEM.LOCAL.CAT.MC +,
+	     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.INFO-STR focus,
+	     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.INFO-STR unmarked].
+
+	head-subj-phrase := decl-head-subj-phrase & head-initial-head-nexus &
+	    [NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.INFO-STR unmarked, 
+	    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.INFO-STR unmarked]. 
+
+The following demonstrative types were added so that the demonstratives can map to Breton from a source language:
+
+	demonstrative_a_rel := predsort.
+	proximal+dem_a_rel := demonstrative_a_rel. ; close to speaker
+	distal+dem_a_rel := demonstrative_a_rel.   ; away from speaker
+	mid+dem_a_rel := distal+dem_a_rel.         ; away, but not very far away
+	far+dem_a_rel := distal+dem_a_rel.         ; very far away
+
+It was necessary to change the demonstrative lexical rules so that the demonstrative shares its label with the noun that it refers to.
+
+	this-lex-rule := demonstrative-lex-rule & norm-hook-lex-item & 
+	    [ SYNSEM [ LOCAL.CONT.HOOK.LTOP #lbl ,
+		       LKEYS.KEYREL.ARG0 #arg ],
+	      C-CONT.RELS <!   arg1-ev-relation &
+		               [PRED proximal+dem_a_rel,
+		                LBL #lbl,
+		                ARG1 #arg ] !> ].
+
+Because the grammar does not allow object dropping, a pronoun needs to take the place of a dropped object if the source sentence contains one. The type below defines a pronoun equivalent to English "something" that can be used in when translating dropped objects.
+
+	something-pronoun-noun-lex := no-spr-noun-lex &	
+	    [ SYNSEM.LOCAL.CONT.HOOK.INDEX.COG-ST type-id ].
+
+To cut down on the generation space, we added several inflected forms of the semantically empty copula to the lexicon and created trigger rules so that only the correct form would be used in generation. Each form has a unique combination of person and number and each trigger rule looks for a single combination. One of the lexical entries and its trigger rule are shown below:
+
+	on2 := be-1sg-prs-copula-lex &
+	  [ STEM < "on" > ].
+
+	eo2-trigger-rule := generator-rule &
+	 [ CONTEXT.RELS <! [ ARG0 #x2 & [E   [ TENSE present]],
+		             ARG1 #x1 & [PNG [ PER 3rd,
+		                               NUM singular ]]] !>,
+	   FLAGS [ EQUAL < #x1, #x2 >,
+		   TRIGGER "eo2" ]].
+
+We removed the nonpast lexical rules (similar to 1sgnonpast-lex-rule below) in favor of the existing present and future lexical rules because all they were doing was adding to the generation space.
+
+	1sgnonpast-lex-rule := infl-ltol-rule & inflection-lex-rule &
+	  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.TENSE nonpast,
+	                   CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 1st,
+	                                                                    NUM singular ],
+	                         HEAD.FORM finite ] ] ].
+
+There were (and still are, to a lesser degree) problems generating sentences with embedded clauses and conjunctions. We constrained the SPR in the rules shown below to stop some of the overgeneration:
+
+	decl-head-opt-subj-phrase :+ [ SYNSEM.LOCAL.CAT.VAL.SPR #spr,
+		                       HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR #spr ].
+
+	neg-particle-lex-rule := infl-ltow-rule & same-ctxt-lex-rule & same-agr-lex-rule & same-head-lex-rule & 
+				 same-hc-light-lex-rule & same-posthead-lex-rule & same-mc-lex-rule & 
+	  [ TRACK #track ,
+	    SYNSEM.LOCAL.CAT.VAL [ COMPS [ FIRST [ LOCAL.CAT.HEAD [ MOD < [ LOCAL.CAT.HEAD verb ] >,
+		                                                    KEYS.KEY neg-adv] ],
+		                         REST #comps ],
+		                   SUBJ #subj,
+		                   SPEC < >,
+		                   SPR #spr ],
+	    DTR inflection-lex-rule &
+		[ TRACK #track ,
+		  SYNSEM.LOCAL.CAT.VAL [COMPS #comps ,
+		                        SUBJ #subj ,
+		                        SPR #spr ] ] ].
+
+----- Tranfer Rules -----
+We instantiated the pro-insert-arg2-mtr transfer rule to handle the verbs with a dropped object by adding the pronoun 'unan' ("something") in the place of the dropped object. This allows sentences like "Hungry dogs eat," or the Italian "Cani affamat-i mangi-ano" to translate into Breton as "Un kioù marnaonieg a-debront unan," which translates, more literally to "Some hungry dogs eat something."
+
+It was not necessary to add or instantiate any other transfer rules.
+
+----- Translation Coverage -----
+The Breton grammar generates correct translations for 14 of the 22 English sentences and 9 of the 16 Italian sentences. These are listed below in their English form. There were no sentences with only one translation because English and Italian verbs only have past and non-past morphemes. Breton verbs, on the other hand, bear past, non-past analytic, present or future. Any non-past verb in English or Italian will result in three translations. Sentence numbers 1 through 7 below are examples where tense is the only factor contributing to multiple correct translations.
+
+Additionally, the word order of Breton is much more free with regard to the subject and object of a verb. Either one can come before or after the verb. The sentences initial position that precedes the verb is the focus position, as seen in examples like 3 and 4. Where there is no element that is explicitly marked for focus, however, extra translations result as seen in examples 9 through 13. 
+
+In number 14, the second person accusative pronoun is underspecified for number in Italian and English, so when the translation is generated, two different form result in Breton. Combining this fact with non-past and word order issues mentioned above, and 12 legitimate translations result.
+
+Numbers 16 and 17 were not included in the count above because, despite a translation begin generated, both over generate a great deal. This appears to be the result of an underspecified value for SPR in the tree. We did not pursue this further, however.
+
+E = English
+I = Italian
+E/I = English and Italian
+
+=== 3 Translations ===
+1. (E/I) Dogs sleep. 
+2. (E/I) These dogs sleep.
+3. (E) The dogs-FP chase the cats.
+4. (E) The dogs chase the cats-FP.
+7. (I) I chase you. 
+8. (E) The dogs are in the park.
+3 Translations: Two different rules licensing the PP: head-comp-phrase, head-comp-phrase4. One realization incorrectly allows the P sentence finally.
+
+=== 6 Translations ===
+9. (E/I) Dogs chase cars. 
+10. (E/I) Dogs eat.
+Translates to "Dogs eat something" because the grammar doesn't implement object optionality.
+11. (E/I) The dogs chase cars.
+12. (E/I) Cats and dogs chase cars.
+13. (E) The dogs are the cats.
+
+=== 12 Translations ===
+14. (E) I chase you. 
+
+15. (E/I) Hungry dogs eat.
+12 translations: (ont, fe, none V suffixes). Free ordering of adjective appearance creates extra translations
+
+=== Other ===
+16. (E) The dogs are hungry.
+2 translations: Two different rules licensing the adj: pre-adj-lex-rule, m-nhum-adj-lex-rule
+
+17. (E/I) Do cats chase dogs?
+6 translations: Translating as "Cats chase dogs"/"Dogs chase cats". No question marker.
+
+=== Translated but not Counted ===
+
+18. (E/I) Dogs chase cars and cats chase dogs.
+Over 100 translations. Allowing V first sentences in each conjunct.
+
+19. (E/I) Cats chase dogs and sleep.
+Almost 40 translations: Allowing V first sentences in each conjunct.
+
+20. (E) I ask whether you know that dogs chase cars.
+Over 200 translations. For Gouz (none, ez, fe, an V suffixes). For Argas (none, fe, ont V suffixes).
+
+21. (E/I) I think that you know that dogs chase cars.
+E: Over 200 translations. Edge limit set to 20000. 
+I: 0 generation results. MRS appears to be identical. Unable to determine the issue here.
+
+----- MMT Sentences that Lack Coverage -----
+
+23. (E/I) I can eat glass.
+error `next-active-edge(): edge limit exhausted. w/ limit @ 10,000
+Can't generate this sentence from Breton. The infinitive verb that should come after "can" is not recognized by the grammar.
+
+24. (E/I) It doesnt hurt me.
+0 generation results due to negation problem. Label of NEG relation should be the label of the whole MRS.
+
+26. (I) I ask whether you know that dogs chase cars.
+0 generation results. MRSs seem to be the same for bre and ita for this sentence. Uncertain why it does not translate.
+
+27. (E/I) Dogs eat quickly.
+0 generation results
+This isn't generating in Breton. 
+
+28. (E/I) The dogs chase-FP the cats.
+0 generation results: Don't have trigger rules for the inflected forms of the auxiliary "do" ('ober') to generate sentences with the verb in the sentence initial position and 'ober' immediately following the verb. Since there is no verb in the second position of the sentence, the sentence cannot be licensed by the grammar.

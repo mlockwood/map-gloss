@@ -1,92 +1,92 @@
 Gold Standard Statistics for: dev1
 
-Aggregate Statistics:
-    Standard:         164 & 0.1637
-    Misspelled:        54 & 0.0539
-    Confused:           1 & 0.0010
-    Incomplete:        82 & 0.0818
-    Combined:           4 & 0.0040
-    User-Identified:   28 & 0.0279
-    Unrecovered:        7 & 0.0070
-    Part-Of-Speech:    13 & 0.0130
-    Lexical Entry:    649 & 0.6477
+aggregate statistics:
+	Standard        :  164 & 0.1637
+	Misspelled      :   54 & 0.0539
+	Confused        :    1 & 0.0010
+	Incomplete      :   82 & 0.0818
+	Combined        :    4 & 0.0040
+	User-Identified :   28 & 0.0279
+	Unrecovered     :    7 & 0.0070
+	Part-Of-Speech  :   13 & 0.0130
+	Lexical Entry   :  649 & 0.6477
 
-ang Statistics:
-    Standard:          16 & 0.0947
-    Misspelled:         7 & 0.0414
-    Incomplete:        19 & 0.1124
-    Lexical Entry:    127 & 0.7515
+ang statistics:
+	Standard        :   16 & 0.0947
+	Misspelled      :    7 & 0.0414
+	Incomplete      :   19 & 0.1124
+	Lexical Entry   :  127 & 0.7515
 
-hau Statistics:
-    Standard:           8 & 0.1429
-    Misspelled:         8 & 0.1429
-    Incomplete:         3 & 0.0536
-    Combined:           1 & 0.0179
-    User-Identified:    1 & 0.0179
-    Part-Of-Speech:     1 & 0.0179
-    Lexical Entry:     34 & 0.6071
+hau statistics:
+	Standard        :    8 & 0.1429
+	Misspelled      :    8 & 0.1429
+	Incomplete      :    3 & 0.0536
+	Combined        :    1 & 0.0179
+	User-Identified :    1 & 0.0179
+	Part-Of-Speech  :    1 & 0.0179
+	Lexical Entry   :   34 & 0.6071
 
-isl Statistics:
-    Standard:          10 & 0.2778
-    Misspelled:         2 & 0.0556
-    Incomplete:         7 & 0.1944
-    Lexical Entry:     17 & 0.4722
+isl statistics:
+	Standard        :   10 & 0.2778
+	Misspelled      :    2 & 0.0556
+	Incomplete      :    7 & 0.1944
+	Lexical Entry   :   17 & 0.4722
 
-jpn Statistics:
-    Standard:          17 & 0.2394
-    Misspelled:         1 & 0.0141
-    Incomplete:         7 & 0.0986
-    User-Identified:    1 & 0.0141
-    Part-Of-Speech:     1 & 0.0141
-    Lexical Entry:     44 & 0.6197
+jpn statistics:
+	Standard        :   17 & 0.2394
+	Misspelled      :    1 & 0.0141
+	Incomplete      :    7 & 0.0986
+	User-Identified :    1 & 0.0141
+	Part-Of-Speech  :    1 & 0.0141
+	Lexical Entry   :   44 & 0.6197
 
-jup Statistics:
-    Standard:          18 & 0.1915
-    Misspelled:         6 & 0.0638
-    Incomplete:         3 & 0.0319
-    User-Identified:    4 & 0.0426
-    Lexical Entry:     63 & 0.6702
+jup statistics:
+	Standard        :   18 & 0.1915
+	Misspelled      :    6 & 0.0638
+	Incomplete      :    3 & 0.0319
+	User-Identified :    4 & 0.0426
+	Lexical Entry   :   63 & 0.6702
 
-mnk Statistics:
-    Standard:          14 & 0.0909
-    Misspelled:         4 & 0.0260
-    Incomplete:        17 & 0.1104
-    User-Identified:    6 & 0.0390
-    Part-Of-Speech:     2 & 0.0130
-    Lexical Entry:    111 & 0.7208
+mnk statistics:
+	Standard        :   14 & 0.0909
+	Misspelled      :    4 & 0.0260
+	Incomplete      :   17 & 0.1104
+	User-Identified :    6 & 0.0390
+	Part-Of-Speech  :    2 & 0.0130
+	Lexical Entry   :  111 & 0.7208
 
-nan Statistics:
-    Standard:           5 & 0.0610
-    Misspelled:         1 & 0.0122
-    Incomplete:        10 & 0.1220
-    User-Identified:    2 & 0.0244
-    Lexical Entry:     64 & 0.7805
+nan statistics:
+	Standard        :    5 & 0.0610
+	Misspelled      :    1 & 0.0122
+	Incomplete      :   10 & 0.1220
+	User-Identified :    2 & 0.0244
+	Lexical Entry   :   64 & 0.7805
 
-pbt Statistics:
-    Standard:          26 & 0.2430
-    Misspelled:         9 & 0.0841
-    Incomplete:         6 & 0.0561
-    Unrecovered:        3 & 0.0280
-    Part-Of-Speech:     4 & 0.0374
-    Lexical Entry:     59 & 0.5514
+pbt statistics:
+	Standard        :   26 & 0.2430
+	Misspelled      :    9 & 0.0841
+	Incomplete      :    6 & 0.0561
+	Unrecovered     :    3 & 0.0280
+	Part-Of-Speech  :    4 & 0.0374
+	Lexical Entry   :   59 & 0.5514
 
-rus Statistics:
-    Standard:          23 & 0.2771
-    Misspelled:         6 & 0.0723
-    Confused:           1 & 0.0120
-    Incomplete:         8 & 0.0964
-    Combined:           2 & 0.0241
-    Unrecovered:        1 & 0.0120
-    Part-Of-Speech:     3 & 0.0361
-    Lexical Entry:     39 & 0.4699
+rus statistics:
+	Standard        :   23 & 0.2771
+	Misspelled      :    6 & 0.0723
+	Confused        :    1 & 0.0120
+	Incomplete      :    8 & 0.0964
+	Combined        :    2 & 0.0241
+	Unrecovered     :    1 & 0.0120
+	Part-Of-Speech  :    3 & 0.0361
+	Lexical Entry   :   39 & 0.4699
 
-sna Statistics:
-    Standard:          27 & 0.1800
-    Misspelled:        10 & 0.0667
-    Incomplete:         2 & 0.0133
-    Combined:           1 & 0.0067
-    User-Identified:   14 & 0.0933
-    Unrecovered:        3 & 0.0200
-    Part-Of-Speech:     2 & 0.0133
-    Lexical Entry:     91 & 0.6067
+sna statistics:
+	Standard        :   27 & 0.1800
+	Misspelled      :   10 & 0.0667
+	Incomplete      :    2 & 0.0133
+	Combined        :    1 & 0.0067
+	User-Identified :   14 & 0.0933
+	Unrecovered     :    3 & 0.0200
+	Part-Of-Speech  :    2 & 0.0133
+	Lexical Entry   :   91 & 0.6067
 

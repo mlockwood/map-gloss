@@ -1,0 +1,1217 @@
+Language:  Old English
+Language code:  ang
+Tiers: orth orth-seg gloss translat
+Author:  Meg Mitchell
+Date:  January 18, 2008
+Source a:  Moore, The Elements of Old English
+Source b:  Bright, Bright's Old English Grammar & Reader
+Source c:  Mitchell, Guide to Old English
+Source d:  Stevick, A Firstbook of Old English
+Source e:  Carlton, Descriptive Syntax of the Old English Charters
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Ic sl@pe.
+Ic sl@p-e.
+I.1sg.NOM sleep-1sg
+'I sleep.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Sl@pe ic.
+sl@p-e ic.
+sleep-1sg I.1sg.NOM 
+'I sleep.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Tu sl@pest.
+Tu sl@p-est.
+you.2sg.NOM sleep-2sg
+'You sleep.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+He sl@peT.
+He sl@p-eT.
+he.3sg.NOM sleep-3sg
+'I sleep.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+We sl@paT.
+Ic sl@p-aT.
+We.1pl.NOM sleep-pl
+'We sleep.'
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Ic eom Apollonius.
+Ic eom Apollonius.
+I.1sg.NOM am.1sg Apollonius
+'I am Apollonius.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Apollonius Eom ic.
+Apollonius Eom ic.
+Apollonius am.1sg.NOM I.1sg
+'I am Apollonius.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns}
+Ic eart Apollonius.
+Ic eart Apollonius.
+I.1sg.NOM am.2sg Apollonius
+'I is Apollonius.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Du eart Apollonius.
+Du eart Apollonius.
+you.2sg.NOM are.2sg Apollonius
+'You are Apollonius.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+He is Apollonius.
+He is Apollonius.
+he.3sg.NOM is.3sg Apollonius
+'He is Apollonius.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Apollonius is he.
+Apollonius is he.
+Apollonius is.3sg he.2sg.NOM
+'He is Apollonius.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Heo is Apollonius.
+Heo is Apollonius.
+she.3sg.NOM is.3sg Apollonius
+'She is Apollonius.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Hit is Apollonius.
+Hit is Apollonius.
+it.3sg.NOM is.3sg Apollonius
+'It is Apollonius.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+We sindon Apollonius.
+We sindon Apollonius.
+we.1pl.NOM are.pl Apollonius
+'We are Apollonius.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Ge sindon Apollonius.
+Ge sindon Apollonius.
+you.2pl.NOM are.pl Apollonius
+'You (all) are Apollonius.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Hie sindon Apollonius.
+Hie sindon Apollonius.
+they.3pl.NOM are.pl Apollonius.'
+'They are Apollonius.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Ic lufie Done stan.
+Ic lufi-e Done stan.
+I.1sg.NOM love-1sg the.3sg.masc.ACC stone.sg.masc.ACC
+'i love the stone.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Tu lufie Done stan.
+Tu lufi-e Done stan.
+you.2sg.NOM love-1sg the.3sg.masc.ACC stone.sg.masc.ACC
+'You love the stone.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Ic lufie D@s stan.
+Ic lufi-e D@s stan.
+I.1sg.NOM love-1sg the.3sg.masc.GEN stone.sg.masc.ACC
+'I love the stone.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Tu lufast min stan.
+Tu luf-ast min stan.
+you.2sg.NOM love-2sg my stone.sg.masc.ACC
+'You love my stone.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Ic lufast min stan.
+Ic luf-ast min stan.
+I.1sg.NOM love-2sg my stone.sg.masc.ACC
+'I love my stone.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Tu lufast se stan.
+Tu luf-ast se stan.
+you.2sg.NOM love-2sg the.sg.masc.NOM stone.sg.masc.NOM
+'You love the stone.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Te lufaT se stan.
+Te luf-aT se stan.
+you.2sg.ACC love-3sg the.sg.masc.NOM stone.sg.masc.NOM
+'The stone loves you.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Ic lufast Done stan.
+Ic luf-ast Done stan.
+I.1sg.NOM love-2sg the.sg.masc.ACC stone.sg.masc.ACC
+'I love the stone.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+He lufaT Tin stan.
+He luf-aT Tin stan.
+he.3sg.NOM loves-3sg your stone.sg.masc.ACC
+'He loves your stone.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Ic lufaT Tin stan.
+Ic luf-aT Tin stan.
+I.1sg.NOM love-3sg your stone.sg.masc.ACC
+'I love your stone.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+He lufaT D@m stan.
+He luf-aT D@m stan.
+he.3sg.NOM loves-3sg the.3sg.masc.DAT stone.sg.masc.ACC
+'He loves the stone.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+He lufaT D@m stane.
+He luf-aT D@m stan-e.
+he.3sg.NOM loves-3sg the.sg.masc.DAT stone-sg.masc.DAT
+'He loves the stone.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+We lufiaT sin stan.
+We lufi-aT sin stan.
+we.1pl.NOM love-pl her stone.sg.masc.ACC
+'We love her stone.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Ge lufiaT Da stan-as.
+Ge lufi-aT Da stan-as.
+you.2pl.NOM love-pl the.pl.masc.ACC stones-pl.masc.ACC
+'You all love the stones.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Hie lufiaT me.
+Hie lufi-aT me.
+they.3pl.NOM love-pl me.1sg.ACC
+'They love me.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Ic lufie hie.
+Ic lufi-e hie.
+I.1sg.NOM love-1sg them.3pl.ACC
+'I love them.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Hie lufie ic.
+Hie lufi-e ic.
+them.3pl.ACC love-1sg I.1sg.NOM 
+'I love them.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Tu lufast user stanas.
+Tu luf-ast user stan-as.
+you.2sg.NOM love-2sg our stones-pl.masc.ACC
+'You love our stones.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Tu lufast eower stanas.
+Tu luf-ast eower stan-as.
+you.2sg.NOM love-2sg your stones-pl.masc.ACC
+'You love your stones.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Seo D@t tungol.
+Seo D@t tungol.
+see.1sg the.sg.neut.ACC star.sg.neut.ACC
+'I see the star.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, Other Sections of NP}
+Seo D@s tungol.
+Seo D@s tungol.
+see.1sg the.sg.masc.ACC star.sg.neut.ACC
+'I see the star.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, Other Sections of NP}
+Seo Da tungol.
+Seo Da tungol.
+see.1sg the.sg.fem.ACC star.sg.neut.ACC
+'I see the star.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, Other Sections of NP}
+Seo D@s tungles.
+Seo D@s tungl-es.
+see.1sg the.sg.masc.GEN star-sg.neut.GEN
+'I see the star.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, Other Sections of NP}
+Seo Done tungol.
+Seo Done tungol.
+see.1sg the.sg.masc.ACC star.sg.neut.ACC
+'I see the star.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Siehst D@ tungol.
+Sieh-st D@ tungol.
+see-2sg the.pl.neut.ACC stars.pl.neutr.ACC
+'You see the stars.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, Other Sections of NP}
+Siehst Da tungol.
+Sieh-st Da tungol.
+see-2sg the.pl.masc.ACC stars.pl.neut.ACC
+'I see the stars.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+SiehT T@t tungol.
+Sieh-T T@t tungol.
+see-3sg that.sg.neut.ACC star.sg.neut.ACC
+'He/she/it sees that star.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, Other Sections of NP}
+SeoT Tis tungol.
+SeoT Tis tungol.
+see.1pl this.sg.neut.ACC star.sg.neut.ACC
+'We see this star.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, Other Sections of NP}
+Beorge him.
+Beorg-e him.
+save-1sg him.3sg.masc.DAT
+'I save him.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, Other Sections of NP}
+Beorgest hiere.
+Beorg-est hiere.
+save-2sg her.3sg.fem.DAT
+'You save her.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+BeorgeT him.
+Beorg-eT him.
+save-3sg him.3sg.masc.DAT
+'He/she/it saves him.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+BeorgeT him.
+Beorg-eT him.
+save-3sg it.3sg.neut.DAT
+'He/she/it saves it.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+BeorgeT him.
+Beorg-eT him.
+save-3sg them.3pl.DAT
+'He/she/it saves them.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Beorge Te.
+Beorg-e Te.
+save-1sg you.2sg.DAT
+'I save you'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Beorge eow.
+Beorg-e eow.
+save-1sg you.2pl.DAT
+'I save you all'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Tu beorgest D@m stane.
+Tu beorg-est D@m stan-e.
+you.2sg.NOM save-2sg the.sg.masc.DAT stone-sg.masc.DAT
+'You save the stone.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Ic beorgest Done stan.
+Ic beorg-est Done stan.
+I.1sg.NOM save-2sg the.sg.masc.ACC stone.sg.masc.ACC
+'I save the stone.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Heo beorgest Done stane.
+Heo beorg-est Done stan-e.
+she.3sg.fem.NOM save-2sg the.sg.masc.ACC stone-sg.masc.DAT
+'She saves the stone.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+We beorgest D@m stane.
+We beorg-est D@m stan-e.
+we.3pl.NOM save-2sg the.sg.masc.DAT stone-sg.masc.DAT
+'We save the stone.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Tu beorgest D@re stane.
+Tu beorg-est D@re stan-e.
+you.2sg.NOM save-2sg the.sg.fem.DAT stone-sg.masc.DAT
+'You save the stone.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Ge beorgest D@m stane.
+Ge beorg-est D@m stan-e.
+you.2pl.NOM save-2sg the.sg.masc.DAT stone-sg.masc.DAT
+'You save the stone.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Tu beorgest D@m stanum.
+Tu beorg-est D@m stan-um.
+you.2sg.NOM save-2sg the.pl.masc.DAT stones-pl.masc.DAT
+'You save the stones.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+He beorgeT D@re giefe.
+He beorg-eT D@re gief-e.
+he.3sg.masc.NOM saves-3sg the.sg.fem.DAT gift-sg.fem.DAT
+'He saves the gift.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Heo beorgeT D@m giefum.
+Heo beorg-eT D@m gief-um.
+she.3sg.fem.NOM saves-3sg the.pl.fem.DAT gifts-pl.fem.DAT
+'She saves the gifts.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Hie beorgeT D@m giefum.
+Hie beorg-eT D@m gief-um.
+they.3pl.NOM saves-3sg the.pl.fem.DAT gifts-pl.fem.DAT
+'They save the gifts.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Hie beorgaT Da giefe.
+Hie beorg-aT Da gief-e.
+They.3pl.NOM save-pl the.sg.fem.ACC gift-sg.fem.ACC
+'They save the gift.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Heo beorgeT him.
+Heo beorg-eT him.
+She.3sg.fem.NOM saves-3sg him.3sg.masc.DAT
+'She saves him.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns}
+Heo beorgeT hine.
+Heo beorg-eT hine.
+She.3sg.fem.NOM saves-3sg him.3sg.masc.ACC
+'She saves him.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Hie beorgaT D@m giefum.
+Hie beorg-aT D@m gief-um.
+You.2pl.NOM save-pl the.pl.fem.DAT gifts-pl.fem.DAT
+'You all save the gifts.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Ic beorge D@t tungol.
+Ic beorg-e D@t tungol.
+I.1sg.NOM save-1sg the.sg.neut.DAT star.sg.neut.DAT
+'I save the star.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Ic beorge D@m tungl-um.
+Ic beorg-e D@m tungl-um.
+I.1sg.NOM save-1sg the.pl.neut.DAT star-pl.neut.DAT
+'I save the stars.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+We beorgaT inc.
+We beorg-aT inc.
+We.1pl.NOM save-pl you.2du.DAT
+'We save you two.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Tu beorgest unc.
+Tu beorg-est unc.
+You.1sg.NOM save-2sg us.1du.DAT
+'You save us two.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+He beorgeT us.
+He beorg-eT us.
+he.3sg.masc.NOM saves-3sg us.1pl.DAT
+'He saves us.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Bide D@s stanes.
+Bid-e D@s stan-es.
+await-1sg the.sg.masc.GEN stone-sg.masc.GEN
+'I await the stone.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Bidest Dara stana.
+Bid-est Dara stan-a.
+await-2sg the.pl.masc.GEN stone-pl.masc.GEN
+'You await the stone.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+BideT D@re giefe.
+Bid-eT D@re gief-e.
+awaits-3sg the.sg.fem.GEN gift-sg.fem.GEN
+'He awaits the gift.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns}
+BideT Ta.
+Bid-eT Ta.
+awaits-3sg those.pl.ACC
+'He awaits those.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+BidaT Dara giefe.
+Bid-aT Dara gief-e.
+await-pl the.pl.fem.GEN gifts-pl.fem.GEN
+'We await the gifts.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+We bidaT Dara giefe.
+We bid-aT Dara gief-e.
+we.1pl await-pl the.pl.fem.GEN gifts-pl.fem.GEN
+'We await the gifts.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+T@ra bidaT Dam giefe.
+T@ra bid-aT Dam gief-e.
+those.pl.GEN await-pl the.pl.fem.DAT gifts-pl.fem.DAT
+'Those await the gifts.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+BidaT D@t tungles.
+Bid-aT ge D@t tungl-es.
+await-pl you.2pl.NOM the.sg.neut.GEN star-sg.neut.GEN
+'You all await the star.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, Other Sections of NP}
+BidaT tungles.
+Bid-aT tungl-es.
+await-pl star-sg.neut.ACC
+'We await the star.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Ge bidaT T@s.
+Ge bid-aT T@s.
+you.2pl await-pl those.neut.GEN
+'You all await him.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns}
+Ic bidaT se.
+Ic bid-aT se.
+I.1sg.NOM await-pl it.sg.masc.NOM
+'I await it.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns}
+Ic bidaT Tone.
+Ic bid-aT Tone.
+I.1sg.NOM await-pl that.sg.masc.ACC
+'I await that.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, case, agreement, pronouns, Other Sections of NP}
+Tu bidaT T@m.
+Tu bid-aT T@m.
+you.1sg await-pl that.sg.masc.DAT
+'You await that.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, pronouns}
+Ic bide T@re.
+Ic bid-e T@re.
+I.1sg await-1sg her.sg.fem.GEN
+'I await her.'
+ 
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, Other Sections of NP}
+Bid-aT D@ra tungla.
+Bid-aT D@ra tungl-a.
+await-pl the.pl.neut.GEN star-pl.neut.GEN
+'They await the star.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, case, agreement, Other Sections of NP}
+D@ra tungla BidaT.
+D@ra tungl-a Bid-aT.
+the.pl.neut.GEN star-pl.neut.GEN await-pl
+'They await the star.'
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {negation, modals, embedded clauses}
+Ne mot ic don T@t ic wylle.
+Ne mot ic don T@t ic wylle.
+not can.1sg.NOM I.1sg.NOM do what I.1sg.NOM wish.1sg.NOM
+'I cannot do what I wish."
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {modals}
+T@r ic mot wunian.
+T@r ic mot wunian.
+there I.1sg.NOM can.1sg.NOM continue
+'There I can continue.'
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {negation}
+Hit is wyrse De uncer naDor hit n@bbe.
+Hit is wyrse De uncer naDor hit ne-h@bbe.
+It.3sg.neut.NOM is.3sg.NOM worse that us.1du.GEN neither it.3sg.neut.ACC not-have
+'It is worse that neither of us have it.'
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses, tense}
+He s@gde T@t hine hingrede.
+He s@g-de T@t hine hingre-de.
+He.3sg.masc.NOM said-3sg.PST that he.3sg.masc.ACC hungry-3sg.PST
+"He said that he was hungry"
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {tense}
+Him hungrode.
+Him hungr-ode.
+He.3sg.masc.DAT hungry-3sg.PST
+"He hungered."
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {tense}
+Me hingrode.
+Me hingrode.
+I.1sg.DAT hungry.3sg.PST
+"I hungered."
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {tense}
+Ongan hine hingrian.
+Ongan hine hingrian.
+Began he.3sg.ACC to.hunger
+"He began to hunger."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense, modals, negation, embedded clauses}
+S@gde D@t Ne Tyrst Tone.
+S@g-de D@t Ne Tyrst Tone.
+Say-PST that not thirst one
+"He said that one shall not thirst."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense, modals, negation, embedded clauses}
+s@gde D@t he nan ryhtre geDencan ne meahte.
+s@g-de D@t he nan ryhtre geDencan ne meah-te.
+Say-PST Tat he.3sg.masc.NOM not right conceive not could-PST
+"He said that he could not conceive nothing more right"
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense, modals, negation, embedded clauses}
+Gif hio Donne bearn nabbe, Ic sceal r@dan tomerigen.
+Gif hio Donne bearn ne-habbe, Ic sceal r@dan tomerigen.
+If  she.3sg.fem.NOM than child not-have.3sg, I.1sg.NOM shall.1sg read tomorrow
+"If she does not have a child, then I shall read tomorrow."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense, negation, embedded clauses}
+Gif Du w@re her, n@re min broDor dead.
+Gif Du w@r-e her, ne-w@re min broDor dead.
+If you.2sg.NOM were-2sg.PST here, not-be.3sg my brother dead
+"If you had been here, then my brother would not be dead"
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense, modals}
+Ic sceal r@dan tomerigen.
+Ic        sceal     r@dan tomerigen.
+I.1sg.NOM shall.1sg read  tomorrow
+"I shall read tomorrow."
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {modals}
+EorDe m@g wiD ealra wihta gehwilce.
+EorDe m@g     wiD     ealra    wihta           gehwilce.
+Earth can.3sg against every.pl creature.pl.GEN whatsoever. 
+"Earth prevails against every creature"
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {modals, negation}
+Ne miht Tu leng tunscire bewitan.
+Ne  mih-t   Tu          leng tunscire    bewitan.
+Not can-2sg you.2sg.NOM long stewardship hold
+"You can no longer hold the stewardship."
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {modals}
+N@nig manna is D@tte areccan m@g.
+N@nig manna       is     D@tte areccan m@g.
+No    man.3sg.NOM is.3sg that  relate  may.3sg
+"There is no man that he may relate."
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {tense}
+Ic an T@s landes @t Ingepenne ofer minne d@g.
+Ic        an T@s              landes       @t Ingepenne ofer  minne d@g.
+I.1sg.NOM to the.3sg.masc.GEN land.3sg.GEN at Inkpen    after my    day.3sg.ACC
+"I grant the land at Inkpen after my day."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense, embedded clause}
+Ic deme nan T@ra cyninga De cumaD @fter me.
+Ic.1sg.NOM deme.1sg nan  T@ra       cyninga  De  cum-aD  @fter me.
+I          judge    none the.pl.GEN kings.pl who come-pl after me.1sg.DAT
+"I judge none of those kings who (will) come after me."
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {negation}
+Ne com se here.
+Ne  com      se               here.
+Not come.3sg the.3sg.masc.NOM army.3sg.masc.NOM
+"The army did not come."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {negation, embedded clause}
+Gif hit T@t ne sio Tonne selle hio him.
+Gif hit        T@t               ne  sio             Tonne sell-e   hio         him	
+If  it.3sg.NOM that.3sg.neut.ACC not she.3sg.fem.NOM then  give-3sg them.pl.ACC him.3sg.masc.DAT
+"If it may not be that, then she is to give to him them."
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {main clause yes-no questions}
+Gehyrst Tu, s@lida?
+Gehyr-st Tu,         s@lida?
+Hear-2sg you.2sg.NOM sailor?
+"Do you hear, sailor?"
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {main clause yes-no questions, negation}
+Ne seowe Tu god s@d on Tinum @cere?
+Ne  seow-e Tu           god  s@d          on Tin-um   @cer-e?
+Not sow-2sg you.2sg.NOM good seed.3sg.ACC in your-DAT field-3sg.DAT
+"Did you not sow good seed in your field?"
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {main clause yes-no questions}
+Hw@Der ic mote lybban oDT@t ic hine geseo?
+Hw@Der  ic         mot-e   lybban oDT@t ic.1sg.NOM hine        gese-o?
+Whether I.1sg.NOM  may-1sg live   until I          him.3sg.ACC see-3sg?
+"May I live until I see him?"
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {embedded clauses}
+Her swutelaD T@t docgas bedrifaT catte.
+Her swutel-aD T@t docga-s bedrif-aT catte.
+Here declare-3pl that dogs-3pl.masc.NOM chase-3pl cats.3pl.ACC
+"Here is declared that dogs chase cats."
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses}
+Ic wille T@t man nime T@t feoh.
+Ic        will-e   T@t  man         nim-e    T@t.3sg.neut.ACC  feoh.3sg.neut.ACC.
+I.1sg.NOM wish-1sg that one.3sg.NOM take-3sg that              property
+'I wish that one take that property'
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses}
+Ic h@bbe geleauan T@t Tu nelle.
+Ic        h@bb-e   geleauan   T@t  Tu          ne-wille.
+I.1sg.NOM have-1sg confidence that you.2sg.NOM not-will.2sg
+"I have confidence that you will not."
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses}
+Ic h@bbe allum Dingum De to londum belimpaD.
+Ic        h@bb-e   allum Dingum               De to lond-um belimp-aD.
+I.1sg.NOM have-1sg all.3pl.GEN things.3pl.GEN which to land-3sg.GEN belong-3sg
+"I have all the things which belong to the land."
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses}
+Da Dohte he D@t he wolde gesecan helle godu.
+Da Doht-e    he              D@t  he              wold-e    gesecan hell-e        godu.
+Then thought-? he.3sg.masc.NOM that he.3sg.masc.NOM would-3sg seek    hell-3sg.GEN gods.3pl.ACC
+"then he thought that he would seek the gods of hell"
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses, negation, tense}
+Ic wene D@tte noht monige begiondan Humbre n@ren.
+Ic        wen-e       D@tte noht monige begiondan Humbre ne-w@ren.
+I.1sg.NOM believe-1sg that  not  many   beyond    Humber  not-were.3sg
+"I believe that there were not many beyond the Humber." 
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses, tense}
+Ic wat he minne hige cuDe.
+Ic        wat      he         minne hige              cuD-e.
+I.1sg.NOM know.1sg he.1sg.NOM my    intention.3sg.ACC perceived-3sg.PST
+"I know he perceived my intention."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {embedded clauses}
+Ic hycge T@t docgas bedrifen catte.
+Ic.1sg.NOM think.1sg T@t  docga-s           bedrif-en      catt-e.
+I         think     that dogs-3pl.masc.NOM chase-3pl.SUBJ cats-3pl.fem.ACC
+"I think that dogs chase cats."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {embedded clauses}
+Ic cann T@t docgas bedrifaT catte.
+Ic.1sg.NOM cann.1sg T@t  docga-s           bedrif-aT catt-e.
+I         know     that dogs-3pl.masc.NOM chase-3pl cats-3pl.fem.ACC
+"I know that dogs chase cats."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Docgas sl@paT.
+Docga-s sl@p-aT.
+Dogs-3pl.masc.NOM sleep-3sg
+"Dogs sleep"
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Docgas bedrifaT carbunclas.
+Docga-s bedrif-aT carbunclas.
+Dogs-3pl.masc.NOM chase-3pl carbuncles
+"Dogs             chase     carbuncles."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Ic bedrife Tec.
+Ic        bedrif-e  Tec.
+I.1sg.NOM chase-1sg you.2sg.ACC
+"I chase you."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+T@s docgas sl@paT.
+T@s               docga-s           sl@p-aT.
+These.pl.masc.NOM dogs-3pl.masc.NOM sleep-3pl
+"These dogs sleep."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Docgas abrucaT.
+Docga-s           abruc-aT.
+Dogs-3pl.masc.NOM eat-3pl
+"Dogs eat."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Ic mot abrucan gl@s.
+Ic        mot     abrucan gl@s.
+I.1sg.NOM can.1sg eat     glass.
+"I can eat glass."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Ne aderie me.
+Ne aderi-e me.
+Not hurt-3sg me.1sg.DAT
+"It doesn't hurt me"
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Da docgas bedrifaT carbunclas.
+Da docga-s bedrif-aT carbunclas.
+The.3pl.masc.NOM dogs-3pl.masc.NOM chase-3pl carbuncles
+"The dogs chase carbuncles."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Ic hycge T@t Tu canne T@t docgas bedrif-aT catte.
+Ic        hycg-e    T@t  Tu          cann-e       T@t  docga-s           bedrif-aT catte.
+I.1sg.NOM think-1sg that you.2sg.NOM know-2sg.SUB that dogs-3pl.masc.NOM chase-3pl cats.3pl.ACC.
+"I think that you know that dogs chase cats."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Ic fr@ge hw@Der Tu T@t docgas bedrifaT catte canst.
+Ic        fr@g-e  hw@Der  Tu          T@t  docga-s            bedrif-aT catte            can-st.
+I.1sg.NOM ask-1sg whether you.2sg.NOM that dogs-1pl.masc.NOM chase-1pl cats.3pl.fem.ACC know-2sg
+"I ask whether you know that dogs chase cars."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Catte and docgas bedrifaT carbunclas.
+Catte            and docga-s           bedrif-aT carbunclas.
+Cats.3pl.fem.NOM and dogs-3pl.masc.NOM chase-3pl carbuncles.
+"Cats and dogs chase carbuncles."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Docgas bedrifaT carbunclas and catte bedrifaT docgas.
+Docga-s           bedrif-aT carbunclas and catte            bedrif-aT docga-s.
+Dogs-3pl.masc.NOM chase-3pl carbuncles and cats.3pl.fem.NOM chase-3pl dogs-3pl.masc.ACC
+"Dogs chase carbuncles and cats chase dogs."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Catte bedrifaT docgas and sl@paT.
+Catte bedrif-aT docga-s and sl@p-aT.
+Cats.3pl.fem.NOM chase-3pl dogs-3pl.masc.ACC and sleep-3pl
+"Cats chase dogs and sleep."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+BedrifaT catte docgas?
+Bedrif-aT catte            docga-s?
+Chase-3pl cats.3pl.fem.NOM dogs-3pl.masc.ACC
+"Do cats chase dogs?"
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Bedrif se docga!
+Bedrif        se           docga!
+Chase.2sg.IMP the.3sg.masc dog.3sg.masc
+"Chase the dog!"
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Hungrige docgas abrucaT.
+Hungrig-e docga-s abruc-aT.
+Hungry-3pl.masc.NOM dogs-3pl.masc.NOM eat-3pl
+"Hungry dogs eat."
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, word order}
+Hungrige docgas abrucaT.
+Hungrig-e docga-s abruc-aT gearwe.
+Hungry-3pl.masc.NOM dogs-3pl.masc.NOM eat-3pl gearwe.
+"Hungry dogs eat quickly."

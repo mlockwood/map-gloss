@@ -1,0 +1,366 @@
+<xigt-corpus xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <igt id="igt1" doc-id="lgcol:tha" line-range="1-3" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="1" tag="M">  author vetted: t</item>
+      <item id="r2" line="2" tag="L">  เด็ก กิน ข้าว</item>
+      <item id="r3" line="3" tag="G">  child eat rice</item>
+      <item id="r4" line="4" tag="T">  The child eats rice.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="1" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="2" tag="L">  เด็ก กิน ข้าว</item>
+      <item id="c3" alignment="r3" line="3" tag="G">  child eat rice</item>
+      <item id="c4" alignment="r4" line="4" tag="T">  The child eats rice.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="1" tag="M">t</item>
+      <item id="n2" alignment="c2" line="2" tag="L">เด็ก กิน ข้าว</item>
+      <item id="n3" alignment="c3" line="3" tag="G">child eat rice</item>
+      <item id="n4" alignment="c4" line="4" tag="T">The child eats rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt2" doc-id="lgcol:tha" line-range="13-15" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="13" tag="M">  c:80 vetted: t</item>
+      <item id="r2" line="14" tag="L">  ฉัน ให้ หนังสือ เขา</item>
+      <item id="r3" line="15" tag="G">  I give book he</item>
+      <item id="r4" line="16" tag="T">  I gave him the book.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="13" tag="M">  c:80 vetted: t</item>
+      <item id="c2" alignment="r2" line="14" tag="L">  ฉัน ให้ หนังสือ เขา</item>
+      <item id="c3" alignment="r3" line="15" tag="G">  I give book he</item>
+      <item id="c4" alignment="r4" line="16" tag="T">  I gave him the book.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="13" tag="M">c:80 vetted: t</item>
+      <item id="n2" alignment="c2" line="14" tag="L">ฉัน ให้ หนังสือ เขา</item>
+      <item id="n3" alignment="c3" line="15" tag="G">I give book he</item>
+      <item id="n4" alignment="c4" line="16" tag="T">I gave him the book.</item>
+    </tier>
+  </igt>
+  <igt id="igt3" doc-id="lgcol:tha" line-range="29-31" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="29" tag="M">  author vetted: t</item>
+      <item id="r2" line="30" tag="L">  เด็ก กิน</item>
+      <item id="r3" line="31" tag="G">  child eat</item>
+      <item id="r4" line="32" tag="T">  The child eats.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="29" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="30" tag="L">  เด็ก กิน</item>
+      <item id="c3" alignment="r3" line="31" tag="G">  child eat</item>
+      <item id="c4" alignment="r4" line="32" tag="T">  The child eats.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="29" tag="M">t</item>
+      <item id="n2" alignment="c2" line="30" tag="L">เด็ก กิน</item>
+      <item id="n3" alignment="c3" line="31" tag="G">child eat</item>
+      <item id="n4" alignment="c4" line="32" tag="T">The child eats.</item>
+    </tier>
+  </igt>
+  <igt id="igt4" doc-id="lgcol:tha" line-range="37-39" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="37" tag="M">  author vetted: t</item>
+      <item id="r2" line="38" tag="L">  ฉัน กิน กระจก ได้</item>
+      <item id="r3" line="39" tag="G">  I eat glass can</item>
+      <item id="r4" line="40" tag="T">  I can eat glass.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="37" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="38" tag="L">  ฉัน กิน กระจก ได้</item>
+      <item id="c3" alignment="r3" line="39" tag="G">  I eat glass can</item>
+      <item id="c4" alignment="r4" line="40" tag="T">  I can eat glass.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="37" tag="M">t</item>
+      <item id="n2" alignment="c2" line="38" tag="L">ฉัน กิน กระจก ได้</item>
+      <item id="n3" alignment="c3" line="39" tag="G">I eat glass can</item>
+      <item id="n4" alignment="c4" line="40" tag="T">I can eat glass.</item>
+    </tier>
+  </igt>
+  <igt id="igt5" doc-id="lgcol:tha" line-range="41-43" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="41" tag="M">  b:81 vetted: t</item>
+      <item id="r2" line="42" tag="L">  เขา ไป ซื้อ มา กิน</item>
+      <item id="r3" line="43" tag="G">  he go buy come eat</item>
+      <item id="r4" line="44" tag="T">  He went out to buy something and brought it back to eat.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="41" tag="M">  b:81 vetted: t</item>
+      <item id="c2" alignment="r2" line="42" tag="L">  เขา ไป ซื้อ มา กิน</item>
+      <item id="c3" alignment="r3" line="43" tag="G">  he go buy come eat</item>
+      <item id="c4" alignment="r4" line="44" tag="T">  He went out to buy something and brought it back to eat.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="41" tag="M">b:81 vetted: t</item>
+      <item id="n2" alignment="c2" line="42" tag="L">เขา ไป ซื้อ มา กิน</item>
+      <item id="n3" alignment="c3" line="43" tag="G">he go buy come eat</item>
+      <item id="n4" alignment="c4" line="44" tag="T">He went out to buy something and brought it back to eat.</item>
+    </tier>
+  </igt>
+  <igt id="igt6" doc-id="lgcol:tha" line-range="45-47" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="45" tag="M">  b:82 vetted: t</item>
+      <item id="r2" line="46" tag="L">  เขา รีบ วิ่ง ข้าม ไป</item>
+      <item id="r3" line="47" tag="G">  he hurry run cross go</item>
+      <item id="r4" line="48" tag="T">  He hurriedly ran across.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="45" tag="M">  b:82 vetted: t</item>
+      <item id="c2" alignment="r2" line="46" tag="L">  เขา รีบ วิ่ง ข้าม ไป</item>
+      <item id="c3" alignment="r3" line="47" tag="G">  he hurry run cross go</item>
+      <item id="c4" alignment="r4" line="48" tag="T">  He hurriedly ran across.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="45" tag="M">b:82 vetted: t</item>
+      <item id="n2" alignment="c2" line="46" tag="L">เขา รีบ วิ่ง ข้าม ไป</item>
+      <item id="n3" alignment="c3" line="47" tag="G">he hurry run cross go</item>
+      <item id="n4" alignment="c4" line="48" tag="T">He hurriedly ran across.</item>
+    </tier>
+  </igt>
+  <igt id="igt7" doc-id="lgcol:tha" line-range="49-51" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="49" tag="M">  b:82 vetted: t</item>
+      <item id="r2" line="50" tag="L">  ต้อง รีบ กลับ ไป เรียก ให้ มา บอก</item>
+      <item id="r3" line="51" tag="G">  must hurry return go call give come speak</item>
+      <item id="r4" line="52" tag="T">  You must hurry back and call him to come and tell me.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="49" tag="M">  b:82 vetted: t</item>
+      <item id="c2" alignment="r2" line="50" tag="L">  ต้อง รีบ กลับ ไป เรียก ให้ มา บอก</item>
+      <item id="c3" alignment="r3" line="51" tag="G">  must hurry return go call give come speak</item>
+      <item id="c4" alignment="r4" line="52" tag="T">  You must hurry back and call him to come and tell me.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="49" tag="M">b:82 vetted: t</item>
+      <item id="n2" alignment="c2" line="50" tag="L">ต้อง รีบ กลับ ไป เรียก ให้ มา บอก</item>
+      <item id="n3" alignment="c3" line="51" tag="G">must hurry return go call give come speak</item>
+      <item id="n4" alignment="c4" line="52" tag="T">You must hurry back and call him to come and tell me.</item>
+    </tier>
+  </igt>
+  <igt id="igt8" doc-id="lgcol:tha" line-range="53-55" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="53" tag="M">  a:232 vetted: t</item>
+      <item id="r2" line="54" tag="L">  ไม่ ยอม กิน อะไร เลย</item>
+      <item id="r3" line="55" tag="G">  not allow eat anything at.all</item>
+      <item id="r4" line="56" tag="T">  I wasn't willing to eat anything at all.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="53" tag="M">  a:232 vetted: t</item>
+      <item id="c2" alignment="r2" line="54" tag="L">  ไม่ ยอม กิน อะไร เลย</item>
+      <item id="c3" alignment="r3" line="55" tag="G">  not allow eat anything at.all</item>
+      <item id="c4" alignment="r4" line="56" tag="T">  I wasn't willing to eat anything at all.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="53" tag="M">a:232 vetted: t</item>
+      <item id="n2" alignment="c2" line="54" tag="L">ไม่ ยอม กิน อะไร เลย</item>
+      <item id="n3" alignment="c3" line="55" tag="G">not allow eat anything at.all</item>
+      <item id="n4" alignment="c4" line="56" tag="T">I wasn't willing to eat anything at all.</item>
+    </tier>
+  </igt>
+  <igt id="igt9" doc-id="lgcol:tha" line-range="57-59" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="57" tag="M">  author vetted: t</item>
+      <item id="r2" line="58" tag="L">  แมว ตาย</item>
+      <item id="r3" line="59" tag="G">  cat die</item>
+      <item id="r4" line="60" tag="T">  The cat died.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="57" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="58" tag="L">  แมว ตาย</item>
+      <item id="c3" alignment="r3" line="59" tag="G">  cat die</item>
+      <item id="c4" alignment="r4" line="60" tag="T">  The cat died.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="57" tag="M">t</item>
+      <item id="n2" alignment="c2" line="58" tag="L">แมว ตาย</item>
+      <item id="n3" alignment="c3" line="59" tag="G">cat die</item>
+      <item id="n4" alignment="c4" line="60" tag="T">The cat died.</item>
+    </tier>
+  </igt>
+  <igt id="igt10" doc-id="lgcol:tha" line-range="65-67" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="65" tag="M">  author vetted: t</item>
+      <item id="r2" line="66" tag="L">  ผู้ชาย ไป ได้</item>
+      <item id="r3" line="67" tag="G">  man go can</item>
+      <item id="r4" line="68" tag="T">  The man can go.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="65" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="66" tag="L">  ผู้ชาย ไป ได้</item>
+      <item id="c3" alignment="r3" line="67" tag="G">  man go can</item>
+      <item id="c4" alignment="r4" line="68" tag="T">  The man can go.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="65" tag="M">t</item>
+      <item id="n2" alignment="c2" line="66" tag="L">ผู้ชาย ไป ได้</item>
+      <item id="n3" alignment="c3" line="67" tag="G">man go can</item>
+      <item id="n4" alignment="c4" line="68" tag="T">The man can go.</item>
+    </tier>
+  </igt>
+  <igt id="igt11" doc-id="lgcol:tha" line-range="69-71" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="69" tag="M">  author vetted: t</item>
+      <item id="r2" line="70" tag="L">  ผู้ชาย ได้ ไป</item>
+      <item id="r3" line="71" tag="G">  man can go</item>
+      <item id="r4" line="72" tag="T">  The man went.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="69" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="70" tag="L">  ผู้ชาย ได้ ไป</item>
+      <item id="c3" alignment="r3" line="71" tag="G">  man can go</item>
+      <item id="c4" alignment="r4" line="72" tag="T">  The man went.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="69" tag="M">t</item>
+      <item id="n2" alignment="c2" line="70" tag="L">ผู้ชาย ได้ ไป</item>
+      <item id="n3" alignment="c3" line="71" tag="G">man can go</item>
+      <item id="n4" alignment="c4" line="72" tag="T">The man went.</item>
+    </tier>
+  </igt>
+  <igt id="igt12" doc-id="lgcol:tha" line-range="73-75" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="73" tag="M">  author vetted: t</item>
+      <item id="r2" line="74" tag="L">  ผู้ชาย ต้อง ไป</item>
+      <item id="r3" line="75" tag="G">  man must go</item>
+      <item id="r4" line="76" tag="T">  The man must go.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="73" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="74" tag="L">  ผู้ชาย ต้อง ไป</item>
+      <item id="c3" alignment="r3" line="75" tag="G">  man must go</item>
+      <item id="c4" alignment="r4" line="76" tag="T">  The man must go.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="73" tag="M">t</item>
+      <item id="n2" alignment="c2" line="74" tag="L">ผู้ชาย ต้อง ไป</item>
+      <item id="n3" alignment="c3" line="75" tag="G">man must go</item>
+      <item id="n4" alignment="c4" line="76" tag="T">The man must go.</item>
+    </tier>
+  </igt>
+  <igt id="igt13" doc-id="lgcol:tha" line-range="81-83" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="81" tag="M">  author vetted: t</item>
+      <item id="r2" line="82" tag="L">  ผู้ชาย ไป ไหว</item>
+      <item id="r3" line="83" tag="G">  man go able</item>
+      <item id="r4" line="84" tag="T">  The man is able to go.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="81" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="82" tag="L">  ผู้ชาย ไป ไหว</item>
+      <item id="c3" alignment="r3" line="83" tag="G">  man go able</item>
+      <item id="c4" alignment="r4" line="84" tag="T">  The man is able to go.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="81" tag="M">t</item>
+      <item id="n2" alignment="c2" line="82" tag="L">ผู้ชาย ไป ไหว</item>
+      <item id="n3" alignment="c3" line="83" tag="G">man go able</item>
+      <item id="n4" alignment="c4" line="84" tag="T">The man is able to go.</item>
+    </tier>
+  </igt>
+  <igt id="igt14" doc-id="lgcol:tha" line-range="89-91" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="89" tag="M">  author vetted: t</item>
+      <item id="r2" line="90" tag="L">  ผู้ชาย ไป ตลาด ไหว</item>
+      <item id="r3" line="91" tag="G">  man go market able</item>
+      <item id="r4" line="92" tag="T">  The man is able to go to the market.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="89" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="90" tag="L">  ผู้ชาย ไป ตลาด ไหว</item>
+      <item id="c3" alignment="r3" line="91" tag="G">  man go market able</item>
+      <item id="c4" alignment="r4" line="92" tag="T">  The man is able to go to the market.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="89" tag="M">t</item>
+      <item id="n2" alignment="c2" line="90" tag="L">ผู้ชาย ไป ตลาด ไหว</item>
+      <item id="n3" alignment="c3" line="91" tag="G">man go market able</item>
+      <item id="n4" alignment="c4" line="92" tag="T">The man is able to go to the market.</item>
+    </tier>
+  </igt>
+</xigt-corpus>

@@ -1,0 +1,459 @@
+Writeup author: Jeffrey Shu
+Partner: Sanghoun Song
+
+This lab proved a bit of a challenge compared to the previous ones for several reasons,
+mainly that all the features being examined this week are exhibited in Vietnamese, unlike
+previous weeks where we could skip some, and for a lack of data. Most of the sources we
+could find lacked explicit information that we needed, so many of these examples were 
+constructed by us based on presumptions we made. If there was one good thing, it's that
+the customization system cannot handle most of these phenomena, and thus saved us some work.
+
+
+Matrix yes-no questions:
+
+In general, for yes no questions in Vietnamese there are three different strategies. One
+is simply by intonation in a declarative sentence. There is no way to display such a
+distinction in text, so we don't have a test suite example for that. The next is placing
+a negative construction after the verb, creating a "or not" type construction.
+
+#71 The question is constructed as a positive-negative choice ("sleep or not sleep")
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {q}
+Mai có ngủ không ngủ
+Mai có ngủ không ngủ
+Mai be sleep NEG sleep
+"Does Mai sleep (or not sleep)?
+
+This type of construction is usually accompanied by the auxiliary "be" verb "có", though
+this is apparently optional in colloquial speech.
+
+Often this construction will exhibit ellipsis, like in English, and drop the negative
+construction's verb:
+
+#72 The second instance of the verb in the positive-negative construction can be omitted ("sleep or not")
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {q}
+Mai có ngủ không
+Mai có ngủ không
+Mai be sleep NEG
+"Does Mai sleep (or not)?"
+
+The third strategy is to use a special question particle, which functions similarly to a tag question
+in English, requesting confirmation:
+
+#80 There is a sentence final particle that indicates a desire for confirmation, similar to a tag question in English.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {q}
+Mai ngủ chứ?
+Mai ngủ chứ?
+Mai sleep TAG.affirmation
+"Mai sleeps, doesn't she?"
+
+This particle is sentence final, and does not occur elsewhere. This was the only strategy that the
+customization system is able to handle. We set the customization system to recognize a sentence
+final particle.
+
+
+Coordination:
+
+Vietnamese seems to be rather free with its coordination. There is a class of conjunctions, from
+which we selected a generic "and": và. NPs, VPs and sentences can all be coordinated. While
+to be explicit, one can include conjunctions between all coordinands, in colloquial speech it seems
+that it can be determined from context that adjacent constituents without conjunctions are coordinated
+elements. Thus all the following constructions are valid:
+
+#91 Three verb phrases can be coordinated with an explicit conjunction before the final coordinand
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination}
+tôi rửa mặt ăn phở và đọc sách
+tôi rửa mặt ăn phở và đọc sách
+1SG wash face eat noodles and read book
+"I wash my face, eat noodles, and read books."
+
+#92 The conjunction can occur between all coordinands
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination}
+tôi rửa mặt và ăn phở và đọc sách
+tôi rửa mặt và ăn phở và đọc sách
+1SG wash face and eat noodle and read book
+"I wash my face, eat noodles, and read books."
+
+#93 Three verb phrases can be coordinated without an explicit conjunction
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination}
+tôi rửa mặt ăn phở đọc sách
+tôi rửa mặt ăn phở đọc sách
+1SG wash face eat noodles read book
+"I wash my face, eat noodles, and read books."
+
+In the customization system we selected NPs, VPs and sentences as coordinating. We were not able to
+determine if bare nouns can coordinate inside NPs, for instance an English construction: 
+[black [dogs and books]], so we left the bare nouns unchecked. It seems likely that modifiers do
+not extend over multiple head nouns, so evidence points towards bare nouns not coordinating (if
+they do coordinate, it's because they're treated as NPs).
+
+The main restriction on coordination is that they must be of equivalent constituents, thus VPs cannot
+coordinate with NPs:
+
+#96 Non-equivalent constituents (such as a verb and noun) cannot be coordinated
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {coordination}
+tôi ngủ và bánh mì
+tôi ngủ và bánh#mì
+1SG sleep and bread
+*"I sleep and bread"
+
+Coordination in the customization system caused one element to break from Lab 3, namely auxiliaries.
+Because verbs can now be coordinated, the system incorrectly indicates that auxiliaries can also be
+coordinated, leading to invalid constructions like this parsing:
+
+#148 Auxiliaries cannot be coordinated
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {auxiliaries, coordination}
+tôi cần cần ngủ
+tôi cần cần ngủ
+1SG need need sleep
+*"I need to sleep"
+
+It doesn't seem possible to fix this with the customization system, so we'll have to do it later.
+
+
+Information structure:
+
+Vietnamese has topic and focus markers that are typically used when specific emphasis is desired.
+While seemingly similar, topic indicates what the statement is "about". It comes after the NP
+and usually forces the NP to be the first in the sentence, even if it behaves as the object of the verb
+
+#114 Indicating that the topic being spoken of is the speaker
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {info}
+tôi thì đọc cuốn sách này
+tôi thì đọc cuốn sách này
+1SG TOP read book DEM.PROX
+"I read this book"
+
+#113 Indicating that the topic being spoken of is the book
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {info}
+Cuốn sách này thì tôi đọc.
+CLF.book book this TOP I read
+"This is the book I read"
+
+Focus is marked before the NP. It can occur before any NP in the sentence.
+
+#118 Focus distinguishes a particular NP
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {info}
+tôi thích cái con chó này
+tôi thích cái con chó này
+1SG like FOC CLF.animal dog DEM.PROX
+"I like this very dog"
+
+Note that both markers occur entirely outside of the NPs they mark, and thus constructions such as:
+
+#121 The focus marker doesn't occur inside the NP
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {info}
+tôi thích các cái con chó này
+tôi thích các cái con chó này
+1SG like all FOC CLF.animal dog DEM.PROX
+*"I like these very dogs"
+
+are invalid.
+
+Obviously, since the customization system does not handle this concept, we could not make any changes
+to it with regards to this, and these sentences do not parse.
+
+
+Adjectives:
+
+Vietnamese has no adjectives as we know them in English. The words that perform the attributive function
+are "stative verbs". Being verbs, they can serve as sentence predicates by themselves. In an attributive
+sense, they occur immediately after the noun they modify, with nothing able to occur inbetween. Note that
+count nouns, when modified, require a classifier that comes immediately before the noun.
+
+#103 An attributive "adjective" can fill the slot immediately to the right of the noun. In the case of count nouns, a classifier is required
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adjective}
+tôi thích con chó đen
+tôi thích con chó đen
+1SG like CLF.animal dog black
+"I like black dogs"
+
+An "adjective" that has intervening components between it and the noun it modifies is most likely the predicate.
+
+#109 If the "adjective" occurs on the outside of the demonstrative, and there is no other verb in the sentence, it is the main verb (predicate) of the sentence.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adjective}
+con chó này đen
+con chó này đen
+CLF.animal dog DEM.PROX black
+"This dog is black"
+
+The customization system cannot handle attributive markers, nor classifiers, so these sentences do not parse.
+
+As a side note, it does seem possible that in a classifier construction, the head noun of the NP is actually
+the classifier, and the "regular" noun is a modifier for it, seeing as it seems to fit the modifier position
+of the classifier. This is just speculation on my part, though.
+
+
+Adverbs:
+
+Adverbs are a tricky topic in Vietnamese, similar to determiners, as there are many different types, which
+occur in different places. One type of adverb indicates "degree", such as "very". These seem to only occur
+with stative verbs ("adjectives" in predicate position) and occur before the verb:
+
+#139 Usually stative verbs are paired with adverbs of degree.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop, adverb}
+tôi rất cao
+tôi rất cao
+1SG very tall
+"I am very tall"
+
+Usually stative verbs in predicate position do not occur without these degree adverbs (while not strictly
+ungrammatical, it sounds odd). Also, these adverbs do not occur with "action adverbs":
+
+#141 These adverbs of degree only occur with stative verbs, not active verbs
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop, adverb}
+tôi rất ngủ
+tôi rất ngủ
+1SG very sleep
+*"I very sleep"
+
+Some adverbs can occur either before or after the verb:
+
+#124 Some adverbs may precede or follow the main (stative) verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adverbs}
+Tôi thật cao
+Tôi thật cao
+1SG really tall
+"I am really tall"
+
+#125 Some adverbs may precede or follow the main (stative) verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adverbs}
+Tôi cao thật
+Tôi cao thật
+1SG tall really
+"I am really tall"
+
+I am not sure what exactly is the difference between these two constructions semantically.
+
+There are also manner verbs that only occur after action verbs:
+
+#126 Manner adverbs follow the main verb. Seemingly by default it follows the object of the verb.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adverbs}
+Tôi đọc sách nhanh chóng
+Tôi đọc sách nhanh#chóng
+1SG read book quickly
+"I read books quickly"
+
+There was a bit of confusion between us whether this adverb occurs between the object and the verb
+or outside of them. It seems by default it occurs outside, but at least one source indicated that
+it can occur between a modified NP object and the verb, but not a bare noun and the verb, meaning that
+130 is grammatical and 129 is not:
+
+#129 Adverbs do not seem to be able to appear between the verb and the a bare NP object
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adverbs}
+Tôi đọc nhanh chóng sách
+Tôi đọc nhanh#chóng sách
+1SG read quickly book
+*"I read books quickly"
+
+#130 One of our sources claims that manner adverbs can intervene between a verb and a modified NP object
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adverbs}
+Tôi đọc nhanh chóng sách
+Tôi đọc nhanh#chóng hai cuốn sách
+1SG read quickly two CLF.book book
+"I read two books quickly"
+
+It was not too clear, but seemingly the difference is whether the V and the object can be considered
+outside the confines of a VP construction or not.
+
+These manner verbs cannot occur with stative verbs (and seems quite nonsensical in translation):
+
+#111 Stative verbs cannot go with manner adverbs
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adjective}
+con chó này đen nhanh chóng
+con chó này đen nhanh chóng
+CLF.animal dog DEM.PROX black quickly
+*"This dog is quickly black"
+
+The customization system doesn't handle adverbs (or other modifiers), so these sentences do not parse.
+
+
+Non-verbal predicates:
+
+Non-verbal predicates only consist of NPs and PPs. These require the use of copulas, which assume the
+place of the verb in the sentence. A nominal predicate without a copula is ungrammatical:
+
+#134 A nominal predicate requires the use of the copulà 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+Tôi là gái
+Tôi là gái
+1SG COP girl
+"I am a girl"
+
+#135 A nominal predicate without the copula is ungrammatical
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+tôi gai
+tôi gai
+1SG girl
+*"I am a girl"
+
+Locative predicates use another special copula which carries the meaning of location:
+
+#144 A special copula with a locative meaning occurs with locatives
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+tôi ở Hà Nội
+tôi ở Hà#Nội
+1SG COP.LOC Hanoi
+"I am in Hanoi"
+
+At least one source seems to indicate that this copula is optional if there is another
+word indicating location (such as a preposition), but we couldn't find clear examples of
+how this is supposed to work.
+
+Stative verbs cannot combine with the copula:
+
+#142 The copula cannot be used with stative verbs
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+tôi là cao
+tôi là cao
+1SG COP tall
+*"I am tall"
+
+Copula are different from normal verbs in that they do not seem to deal with tense in the
+same way. Rather than using tense markers, as normal verbs do, time is indicated with time
+adverbials:
+
+#147 Tense is not normally marked for copulas as other verbs are. Time adverbials are typically used instead.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+Hôm qua tôi sống ở Hà Nội
+Hôm#qua tôi ở Hà#Nội
+yesterday 1SG COP.LOC Hanoi
+"Yesterday I was in Hanoi"
+
+Again, the customization system cannot handle these constructions.
+
+
+Embedded clauses:
+
+Embedded clauses, clausal complements of verbs, make use of a complementizer. The complement
+clause seems to be a fully fledged sentence, including tense markers and such:
+
+#131 The sentence complement makes use of the complementizer rằng
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-d}
+Tôi nghĩ rằng Mai đã ngủ
+Tôi nghĩ rằng Mai đã ngủ
+1SG think COMP Mai PST sleep
+"I think that Mai slept."
+
+In most circumstances, the complementizer is optional, just as it is with English "that". The
+verb is enough context to know that this is a complement clause, and not a separate coordinated
+clause:
+
+#132 The complementizer is optional, like "that" often is in English
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-d}
+Tôi nghĩ Mai đã ngủ
+Tôi nghĩ Mai đã ngủ
+1SG think Mai PST sleep
+"I think Mai slept."
+
+Embedded questions are no different from declaratives, and use the same complementizer:
+
+#133 The same complemetizer can be used for embedded question clauses
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-q}
+Tôi hỏi rằng Mai đã ngủ
+Tôi hỏi rằng Mai đã ngủ
+1SG ask COMP Mai PST sleep
+"I asked whether Mai slept."
+
+In colloquial speech, the copula là is also sometimes used as a complementizer, and serves in
+the same role as rằng.
+
+As a side note, rằng actually originates from a verb meaning "say", but this usage is archaic, and
+now usually only means the complementizer.
+
+Given that the complementizer is optional, and with the argument optional nature of Vietnamese, we
+couldn't think of a way to construct an ungrammatical construction with this (though there are probably
+examples where the complementizer is not used, I could not determine what exactly defines this).
+
+
+It seems we have a lot of work cut out for us in the coming weeks hand editing TDLs to accomodate
+these features.

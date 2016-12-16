@@ -1,0 +1,471 @@
+Jason Shaw 
+Prescott Klassen (author)
+3/5/10
+Lab 9
+
+###############################################################################
+CONTENTS
+###############################################################################
+
+1. Grammar Changes
+2. Transfer Rules
+3. MMT Sentence Coverage
+4. Summary
+
+A. Appendix A: Generation Report
+
+###############################################################################
+1. GRAMMAR CHANGES
+###############################################################################
+
+Generation and Translation dramatically impacted the design of our grammar. Much of our time in previous labs was spent deconstructing the verb inflection paradigms in our reference grammar to produce the correct number and sequence of morphemes for our grammar rules. We carefully decomposed the morphophonology of our language into what we felt were representative morphemes. However, especially in regards to THEME, we implemented inflection rules that accommodated the morphology of our language but did not add explicit or distinguishing constraints to our feature structures. In retrospect, we probably should have been less focused on fidelity to the morphophonology than the actual syntax and grammar constraints that shape the language.
+
+Theme
+-----
+
+In ojg, theme appears directly after the stem in transitive verbs. For VTI (transitive inanimate object) the difference in theme is purely morphophonological. Different themes are selected based on the stem ending (specific consonants or vowels). No constraints on syntax are imposed by theme in VTI. Both generation and translation processes revealed that constraint-less morphemes simply add to the combinatorial explosion in an already free-form language (word order, coordination, unexpressed arguments, etc.). In order to rein in spurious ambiguity, we decided to go with a canonical theme for VTI (-am). This required changing the theme suffix lexical rules and vetting all VTI test sentences against these changes. A similar approach was required for VTA (transitive animate object) verbs (3 different suffixes for inverse and 2 for direct). A canonical theme suffix for direct (-aa) and inverse (-igw) were selected and the grammar and test suite were vetted for the changes.
+
+We also noticed that the generation and translation processes created ungrammatical inflections on VTA verbs, treating theme as an optional component. Theme was implemented through the word-or-lexrule DTR rule pattern in our verb inflection pipeline. In order to require theme and reduce the spurious ambiguity results from generation and translation, we changed the way theme was handled in the pipeline:
+
+vta-theme-lex-rule := vta-tense-rule-dtr & vta-negation-rule-dtr & vta-aspect-rule-dtr & infl-add-only-no-ccont-ltol-rule &
+  [ DTR verb-class-VTA-verb-lex ].
+
+The confounding factor was that in our previous grammar, theme was applied to all of our direct inverse VTA subtypes via the theme-rule-dtr pattern. In order to preserve our direct inverse subtypes that were a result of the questionnaire, we would have had to create individual DTR rules for each of the direct inverse subtypes. This required us to take a second look at the questionnaire created direct inverse hierarchy and the VTA subtypes it produced. In short, we didn't need them. Because our language is free word order, we had specifically constrained all of our person suffixes to properly enforce subject/object agreement. 
+
+vta-1SG-actor-3Obv-goal-lex-rule := vta-person-suffix-lex-rule & ind-cat-mc-rule &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PERNUM 1SG,
+                                                                  GEND anim ],
+                           COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PERNUM 3rd,
+                                                                   GEND anim,
+                                                                   OBVIATION obv ] ] ].
+
+
+We were able to effectively by-pass our direct inverse hierarchy and subtypes by adding a constraint to the irules suffix rules:
+
+vta-3PL-actor-1SG-goal-suffix :=
+%suffix (* -igoog)
+vta-3PL-actor-1SG-goal-lex-rule & 
+  [ SYNSEM.LOCAL.CAT.HEAD.DIRECTION inv ].
+ 
+This constraint now unified with the DIRECTION constraint on theme and also allowed us to require theme from our verb-class-VTA-verb-lex supertype.
+
+Refactoring theme for both VTI and VTA verbs in our grammar substantially reduced spurious ambiguity in generation and translation. Both theme-less inflection and spurious theme inflection have been eliminated.
+
+Embedded Clauses and Conjunct Order
+-----------------------------------
+
+During our initial applications of the generation and translation process, we noticed that conjunct order (only appropriate for embedded clauses) was causing extensive ambiguity in our realizations. To block these realizations, we implemented the following constraints on person prefix in our verb inflection pipeline:
+
+ind-cat-mc-rule := ind-cat-rule & 
+  [ SYNSEM.LOCAL.CAT [ HEAD +vc,
+                       MC + ] ].
+
+conj-cat-mc-rule := conj-cat-rule & 
+  [ SYNSEM.LOCAL.CAT [ HEAD +vc,
+                       MC - ] ].
+
+to distinguish conjunct and independent order. After implementing these constraints, conjunct order no longer was part of our realizations.
+
+Locative Noun selection
+-----------------------
+
+In ojg, nouns can be locative, and do so by inflection. Our copula verbs select for locative nouns to express prepositional phrases. Applying generation and translation to our Lab 8 grammar revealed that all nouns that were objects for our transitive verbs (basic VTI and VTA verbs) were being inflected for location. In order to reduce these realizations, we had to constrain our VTA and VTI verbs from selecting locative nouns. The lexical rule for locative nouns provided the clue:
+
+noun-lex :+ [ SYNSEM.LOCAL.CAT.HEAD.LOC - ].
+
+noun-loc-suffix-lex-rule := inflecting-lex-rule & nocoord &
+  [ SYNSEM.LOCAL.CAT [ HEAD.LOC +,
+		       VAL [ SPR #spr,
+			     COMPS null ] ],
+    DTR [ SYNSEM.LOCAL.CAT [ HEAD.LOC -,
+			     VAL.SPR #spr ],
+	  INFLECTED + ] ].
+
+We constrained our VTA and VTI verbs to only select LOC - objects and again reduced the spurious ambiguity of our realizations.
+
+verb-class-VTI-verb-lex := vti-tense-rule-dtr & vti-negation-rule-dtr & vti-aspect-rule-dtr & vti-theme-rule-dtr & transitive-verb-lex &
+  [ INFLECTED -, 
+    SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL [ CAT.HEAD.LOC -, 
+                                             CONT.HOOK.INDEX.PNG.GEND inan ] ].
+
+Dialect Variation
+-----------------
+
+Early on we had wanted to use sentences directly from our reference grammar that might be syntactically uniform but morphophonologically varied based on regional dialects. We built in multiple dialect forms of words in our lexicon. This led to additional ambiguity in generation and translation. We decided to remove these and go with a canonical form. Examples of removed dialect forms below:
+
+;nii := personal-pronoun-1SG-noun-lex &
+;  [ STEM < "nii" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_I_prn_rel" ].
+
+;gii := personal-pronoun-2SG-noun-lex &
+;  [ STEM < "gii" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_you_prn_rel" ].
+
+;wii := personal-pronoun-3SG-noun-lex &
+;  [ STEM < "wii" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_he+or+she+or+it_prn_rel" ].
+
+;niinwi := personal-pronoun-1PL-noun-lex &
+;  [ STEM < "niinwi" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_I_prn_rel" ].
+
+Other Changes
+-------------
+
+The MMT sentences exposed some minor mistakes that had gone unnoticed until this lab.  For example, the main clause feature MC that we added in the lab intoducing embedded clauses was not properly constrained to play nicely with adverbs, which had already been introduced into the grammar.  There were also a couple of additional coordination possibilities that we hadn't accounted for.  As a result, we were getting embedded clause inflection in main clauses.  To handle this, we added the following constraints:
+
+binary-headed-phrase :+
+  [ SYNSEM.LOCAL.CAT.MC #mc,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.MC #mc ].
+
+coord-phrase :+
+  [ SYNSEM.LOCAL.CAT.MC #mc,
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.MC #mc,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.MC #mc ].
+
+bottom-coord-phrase :+
+  [ SYNSEM.LOCAL.CAT.MC #mc,
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT.MC #mc ].
+
+As another example, all inflection rules for embedded clause verbs must inherit from a supertype conj-cat-mc-rule.  One particular rule, vta-conj-1SG-actor-2SG-Goal-lex-rule, was missing this supertype, and sure enough, the sentences "I chase you" and "Ti-insegu-o" nailed it.  We added the supertype and the spurious ambiguity vanished.
+
+We also had not properly implemented cognitive status features (COG-ST) from Lab 5, and this came back to haunt us in dealing with intransitive "eat".  We added the following constraint:
+
+basic-head-opt-comp-phrase :+
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.OPT-CS in-foc ].
+
+We also had not constrained coordination of noun phrases relative to a locative feature LOC, which was inappropriate.  So we added:
+
+np-coord-phrase :+
+  [ SYNSEM.LOCAL.CAT.HEAD.LOC #loc,
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.LOC #loc,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.LOC #loc ].
+
+np-bottom-coord-phrase :+
+  [ SYNSEM.LOCAL.CAT.HEAD.LOC #loc,
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD.LOC #loc ].
+
+n-coord-phrase :+
+  [ SYNSEM.LOCAL.CAT.HEAD.LOC #loc,
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.LOC #loc,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.LOC #loc ].
+
+n-bottom-coord-phrase :+
+  [ SYNSEM.LOCAL.CAT.HEAD.LOC #loc,
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD.LOC #loc ].
+
+Another oversight that was only clear upon translation was dealing with underspecified and nonexistent information structure.  This won't be a problem in the MMT exercise, but the Italian grammar does not have a feature INFO-STR, so we added the variable property mapping
+
+info-str << !
+
+Likewise we need to augment our PER.NUM mappings to accommodate the Italian grammar and idiosyncracies with the English grammar (3PL << ! pl):
+
+PNG.PERNUM : PNG.PER PNG.NUM
+  1SG <> first sg
+  1PL <> first pl
+  1PL <> first non-sg
+  1st <> first !
+  1st << first *
+  2SG <> second sg
+  2PL <> second pl
+  2PL <> second non-sg
+  2nd <> second !
+  2nd << second *
+  3SG <> third sg
+  3PL <> third pl
+  3PL <> third non-sg
+  3rd <> third !
+  3rd << third *
+  3PL << ! pl
+  *  >> ! !
+  !  << * *
+
+Also, we had constrained our grammar rules so that head-final phrases placed [ INFO-STR topic ] or [ INFO-STR focus ] on the non-head daughter, but we didn't specify that head-initial rules were establishing the non-head dauther as [ INFO-STR unmarked ].  So we added:
+
+head-unmarked := head-initial &
+  [ NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.INFO-STR unmarked ].
+
+head-subj-phrase :+ head-unmarked.
+head-comp-phrase :+ head-unmarked.
+head-comp-phrase-2 :+ head-unmarked.
+
+###############################################################################
+2. TRANSFER RULES
+###############################################################################
+
+We instantiated a limited number of transfer rules:
+
+;pro-drop := pronoun-delete-mtr.
+make-hurt := make-hurt-mtr.
+eat-VTI := eat-no-object-mtr.
+
+(we were considering pro-drop -- but noticed it was commented out late on Friday evening. We figured it would be too much of a risk this late in the game to start changing our grammar)
+
+In order to deal with the spurious ambiguity resulting from 3 "eat" verbs (VAI, VTI, and VTA versions), we implemented the following transfer rule in acm.tdl:
+
+;;; Added for ojg
+
+eat-no-object-mtr := monotonic_mtr &
+[ INPUT.RELS <! [ PRED "_eat_v_rel",
+                           LBL #larg,
+                           ARG0 #arg0,
+                           ARG1 #arg1,
+                           ARG2 #x ] !>,
+  FILTER.RELS <! [ ARG0 #x ] !>,
+  OUTPUT [ RELS <! [ PRED "_eat_v_1_rel",
+                                 ARG0 #arg0,
+                                 ARG1 #arg1,
+                                 LBL #larg ] !> ] ].
+
+
+This rule was inspired by David Wax's post to Go Post on Friday, March 5. We added the innovation of the "_eat_v_1_rel" so we could isolate our VAI (intransitive animate subject) "eat". It was added to both the Italian and English acm.tdl file and instantiated in their respective acm.mtr files. The lexical entry for VAI eat was changed to reflect the new PRED:
+
+wiisnid := verb-class-VAI-verb-lex &
+  [ STEM < "wiisnid" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_1_rel" ].
+
+###############################################################################
+3. MMT Sentence Coverage
+###############################################################################
+
+The comment that follow each sentence describes if the translation worked, how much spurious ambiguity was introduced, or if no translation was realized, issues in the grammar that were either incorrect or unfinished that caused translation to fail.
+
+#############################
+ENGLISH
+-----------------------------
+Sentences with translations and no spurious ambiguity: 12
+Sentences with translations and spurious ambiguity: 4 (spurious by factors of 3, 5, 2, and 14)
+Sentences with no correct translations: 6
+#############################
+
+1. Dogs sleep.
+Actual translations: 1
+Correct translations: 1
+Comment: The noun must follow the verb in order to be unmarked for information structure, so there is only one correct translation.
+
+2. Dogs chase cars.
+Actual translations: 4
+Correct translations: 4
+Comment: The Nishnaabemwin word for "car" is animate.  Therefore, we must mark either "daabaan" (car) or "nim" (dog) as obviative.  Since bothe arguments are unmarked for information structure, both must follow the verb and we have two choices for ordering them.  So two choices for obviation and two choices for argument order yields four correct translations.
+
+3. I chase you.
+Actual translations: 4
+Correct translations: 4
+Comment: We do not have pro-drop enabled for Nishnaabemwin, so both of these pronouns are realized.  Two argument orderings and singular/plural ambiguity in the English yields four correct translations.
+
+4. These dogs sleep.
+Actual translations: 0
+Correct translations: 0
+Comment: We were unable to avoid the message "error `invalid predicates: |proximal+dem_a_rel|'."
+
+5. Dogs eat.
+Actual translations: 1
+Correct translations: 1
+Comment: No ambiguity to capture.
+
+6. I can eat glass.
+Actual translations: 24
+Correct translations: 8
+Comment: For some reason, the variable property mapping is not working for us and we get all three tenses in the translation.  The English MRS is also ambiguous with regard to number, and in such cases we do not constrain it with VPM.  We also do not constrain obviation in the VPM, and this feature of course is not in the English MRS.  Finally, the arguments of the verb can appear in either order.  The latter three ambiguities we expect, for eight correct translations, but the three-way ambiguity in tense, yielding 24 actual translations, is not correct.
+
+7. It doesnt hurt me.
+Actual translations: 10
+Correct translations: 2
+Comment: The strings generating by the translation system only differ in the presence/absence of the negative adverb "gaawii" and the order of the verbal arguments "niin" (me) and "wiin" (it).  The adverb "gaawii" is not working properly in our grammar (it should be associated with a negative suffix on the verb, and that is missing).  So the six translations with "gaawii" are incorrect.  The remaining four translations are due to the order of the arguments and apparently a two-way ambiguity in some lexical rules that leaves the surface string the same.
+
+8. The dogs chase cars.
+Actual translations: 4
+Correct translations: 4
+Comment: Two argument orders, two proximate/obviative choices (see #2).
+
+9. I think that you know that dogs chase cars.
+Actual translations: 0
+Correct translations: 0
+Comment: This sentence yields the error message "error `invalid predicates: |"_think_v_rel"|'."
+
+10. I ask whether you know that dogs chase cars.
+Actual translations: 0
+Correct translations: 0
+Comment: This sentence yields the error message "error `invalid predicates: |"_ask_v_rel"|'."  We suspect that this error and the previous one are due to problems with our clause-embedding machinery, which was apparently broken by some very recent changes to the grammar.
+
+11. Cats and dogs chase cars.
+Actual translations: 48
+Correct translations: 24
+Comment: Two obviation options for "gaazhag" (cats), two obviation options for "nim" (dogs), two options for argument order, two options for direct/inverse marking of the arguments, and three coordination strategies yields forty-eight possible translations.  However, the direct/inverse marking should determine the obviation of the coordinand nearest to the verb.  We have not implemented this feature of the language.  The three coordination strategies are asyndetic, monosyndetic with "gye", and monosyndetic with "miinwaa".
+
+12. Dogs chase cars and cats chase dogs.
+Actual translations: 48
+Correct translations: 48
+Comment: Two direct/inverse options for the first sentence, two direct/inverse options for the second sentence, two argument orders for the first verb, two argument orders for the second verb, and three coordination strategies yields 48 legitimate translations.
+
+13. Cats chase dogs and sleep.
+Actual translations: 3
+Correct translations: 3
+Comment: Three coordination strategies.
+
+14. Do cats chase dogs?
+Actual translations: 4
+Correct translations: 0
+Comment: Two direct/inverse choices and two argument orders yields four translations.  However, our question particle is not appearing, possibly because no constituent is focused in the English MRS, and our question particle places focus on whatever constituent it attaches to.  That our translation manages to have [ SF ques ] without the question particle is a bit alarming.
+
+15. Hungry dogs eat.
+Actual translations: 1
+Correct translations: 1
+Comment: No ambiguity to capture.
+
+16. Dogs eat quickly.
+Actual translations: 4
+Correct translations: 4
+Comment: Four places of attachment for the adverb.
+
+17. The dogs are hungry.
+Actual translations: 0
+Correct translations: 0
+Comment: We do not have the predicative adjectives working.  We did not line up the PRED values of intransitive verbs (which can express properties) with the PRED values of adjectives.
+
+18. The dogs are in the park.
+Actual translations: 0
+Correct translations: 0
+Comment: This yields the error message "error `invalid predicates: |"_in_p_rel"|'.".  This is because our locative nouns only express a general sense of location.  Nishnaabemwin does not have highly specific prepositions to express a relation like "in".
+
+19. The dogs are the cats.
+Actual translations: 56
+Correct translations: 4
+Comment: The verbal arguments can either be proximate or obviative, yield four combinations.  However, the copular verbs were not specified very well, and their inflection needs to be fixed.  They also need to be restricted from accepting locative nouns.
+
+20. The dogs-FP chase the cats.
+Actual translations: 2
+Correct translations: 2
+Comment: Two direct/inverse choices yields two translations.
+
+21. The dogs chase-FP the cats.
+Actual translations: 4
+Correct translations: 4
+Comment: Two argument orders and two direct/inverse choices yields four translations.
+
+22.The dogs chase the cats-FP.
+Actual translations: 2
+Correct translations: 2
+Comment: Two direct/inverse choices yields two translations.
+
+#############################
+ITALIAN
+-----------------------------
+Sentences with translations and no spurious ambiguity: 11
+Sentences with translations and spurious ambiguity: 2 (spurious by factors of 3 and 2)
+Sentences with no correct translations: 3
+#############################
+
+1. Cani dorm-ono
+Actual translations: 1
+Correct translations: 1
+Comment: Just as the English translation.
+
+2. Cani insegu-ono macchine
+Actual translations: 4
+Correct translations: 4
+Comment: Just as the English translation.
+
+3. Ti-insegu-o
+Actual translations: 1
+Correct translations: 1
+Comment: Though we don't have pro-drop enabled, Italian dropped the pronouns for us, so there is only one translation.  This shows that we can accept MRS either with or without the pronoun relations, and generate a proper translation.
+
+4. Questi cani dorm-ono
+Actual translations: 0
+Correct translations: 0
+Comment: Same error was with the English translation attempt.
+
+5. Cani mangi-ano
+Actual translations: 1
+Correct translations: 1
+Comment: Just as the English translation.
+
+6. Posso mangi-are il vetro
+Actual translations: 2
+Correct translations: 2
+Comment: The object can be either proximate or obviative, so there are two translations.  No pronouns, no problem!
+
+7. Non mi-f-a male
+Actual translations: 6
+Correct translations: 2
+Comment: The same problems occur as with the English translation, except without the pronouns, the possible combinations are reduced.
+
+8. I cani insegu-ono macchine
+Actual translations: 4
+Correct translations: 4
+Comment: Just as the English translation.
+
+9. Pens-o che sai che cani insegu-ono macchine
+Actual translations: 0
+Correct translations: 0
+Comment: Same error as with the English translation: "error `invalid predicates: |"_think_v_rel"|'".
+
+10. Domand-o se sai che cani insegu-ono macchine
+Actual translations: 0
+Correct translations: 0
+Comment: Same error as with the English translations: "error `invalid predicates: |"_ask_v_rel"|'".
+
+11. Cani e gatti insegu-ono macchine
+Actual translations: 48
+Correct translations: 24
+Comment: Just as the English translation.
+
+12. Cani insegu-ono macchine e gatti insegu-ono cani
+Actual translations: 48
+Correct translations: 48
+Comment: Just as the English translation.
+
+13. Gatti insegu-ono cani e dorm-ono
+Actual translations: 12
+Correct translations: 12
+Comment: In the Italian grammar, the subject of chase ("gatti") is not associated with "dorm-ono" the way "cats" is with "sleep" in the English grammar.  This is due to argument optionality in Italian.  This is therefore reflected in the Nishnaabemwin translation.  We now have two direct/inverse options, two argument orders, and three coordination strategies for twelve translations.
+
+14. Gatti insegu-ono cani
+Actual translations: 4
+Correct translations: 4
+Comment: Two argument orders and two direct/inverse options yields four translations.
+
+15. Cani affamat-i mangi-ano
+Actual translations: 1
+Correct translations: 1
+Comment: Just as the English translation.
+
+16. Cani mangi-ano velocemente
+Actual translations: 4
+Correct translations: 4
+Comment: Just as the English translation.
+
+
+###############################################################################
+4. SUMMARY
+###############################################################################
+
+What an incredible experience!!! Although we only scratched the surface of a fascinating and beautiful language, the grammar we created over the last 3 months has made a small step forward in understanding the rich structure of Nishnaabemwin. Given more time we probably could have conquered all of the MMT sentences, but seeing 666 realizations reduced to 4 was pretty powerful ("Dogs eat quickly").
+
+Even so, the scale of this project certainly took us by surprise.  Knowing the fragility and intricacy of our grammar as it currently stands, it is humbling to see the limited range of phenomena in this translation suite that we can deal with.  The situation likely would not be much different if we were building a grammar of English, but having to dissect a language so typologically different from anything we've encountered before made the task even more challenging -- and rewarding.  We have not just learned about how difficult it can be to automate something we take for granted, but also how varied the world's languages can be.  We tend to look at different languages in terms of how many similarities we see between them -- to be sure, many categories in Nishnaabemwin correspond to phenomena in our own language -- but the differences are truly remarkable.  We have much more to learn about the Nishnaabemwin language, and we feel quite certain that we will.
+
+###############################################################################
+A. Appendix A: Generation Report
+###############################################################################
+
+Total items: 369
+Positive items: 253
+Negative items: 116
+
+Lab 9 baseline*:
+Coverage: 43.5%
+Distinct analyses (+): 2.85
+Overgeneration: 8.6%
+Distinct analyses (-): 2.5
+
+*these numbers are so poor because of the extensive refactoring of the test suite due to changes in transitive verb inflection
+
+Lab 9 performance:
+Coverage: 87.4%
+Distinct analyses (+): 2.55
+Overgeneration: 12.1%
+Distinct analyses (-): 3.71
+
+
+

@@ -1,0 +1,138 @@
+What works
+ENG:
+Dogs sleep.
+Dogs chase cars.
+I chase you.
+These dogs sleep.
+Dogs eat.
+The dogs chase cars.
+Cats and dogs chase cars.
+Dogs chase cars and cats chase dogs.
+Cats chase dogs and sleep.
+Do cats chase dogs?
+Hungry dogs eat
+Dogs eat quickly.
+The dogs are hungry.
+It doesnt hurt me.
+
+ITA:
+cani mangi-ano velocemente
+cani dorm-ono
+ti-insegu-o
+cani-mangi-ano
+Questi cani dorm-ono
+cani insegu-ono-macchine
+I cani insegu-ono macchine
+Cani insegu-ono macchine e gatti insegu-ono cani
+Gatti insegu-ono cani e dorm-ono
+Gatti insegu-ono cani
+Cani affamat-i mangi-ano
+cani e gatti insegu-ono macchine 
+
+3. Nouns got to full clean-up this week; the cumbersome flags were boiled down to: 
+determiner-flag, case-flag,  1ag-flag, pronoun-flag.
+with:
+determiner-flag na-or-+ and CASE-FLAG +
+finding their way on the INFL-satisfied list.
+
+The determiner flag was introduced - on determiners and set by the dependent-det-lex-rule-super to be positive:
+[ INFLECTED.determiner-flag +,
+    DTR determiner-lex-supertype &
+        [ INFLECTED.determiner-flag na-or-- ] ].
+
+This way the uninflected determiner could be prevented from valid parses out. 
+
+The noun heirarchy mainly stayed the same, with flags removed, but the pronouns are now treated properly. New supertypes were created:
+inflecting-noun-lex := no-spr-noun-lex & case-rule-dtr.
+
+set-case-noun-lex := no-spr-noun-lex & 
+ [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.GEND HUMAN,
+   INFLECTED.CASE-FLAG +].
+pronoun-lex := inflecting-noun-lex &
+ [SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.GEND Human,
+  INFLECTED[ pronoun-flag +,
+	     CASE-FLAG -]].
+
+The set-case noun lex applies only to the 1-sg-obj pronoun, which is an irregular form. This pronoun-type also recieves Case-Flag +, so that it can be fully inflected. All other pronouns are case-flag - and inherit from the basic pronoun lex. (This lab also fixed the 3rd pl pronoun, which for some reason had no number or person markers on it, causing WAY too much overgeneration).
+
+The rest of the difference came in the case system, which previously allowed an underspecified noun to come out (as the uninflected noun). The case heirarchy allowed this uninflected noun to have any of the 4 cases, so there was much ambiguity. The new system introduces 3 lrules; the subjective rule, and the animate an inanimate obj rules. These rules all add the proper case value. The human obj, the directional-oblique and oblique rules are all irules that also inherit from:
+case-lex-rule-super := focus-rule-dtr & Representative-rule-dtr & add-only-no-ccont-rule & noun-telic-rule-dtr &
+  [ INFLECTED.CASE-FLAG +,
+    DTR case-rule-dtr &
+        [ INFLECTED.Case-FLag - ] ].
+
+The obj rule has a special constraint :
+DTR.INFLECTED.1sg-flag na
+To prevent a false 1sg-obj case to be created. The new case-rule system prevents the uninflected nouns to act as any of the 4 cases in Hup.
+
+Small changes were also required for functionality, such as changing demonstrative's PRED values from a string to a reference and changing the _neg_r_rel.
+
+Fixes on the Can and Inner Negation rule were also done; The can affix applied last lab, even if it didn't show on the stem. It did not inherit from inflecting-lex-rule, and was not NEEDS-AFFIX +. This was changed, and results were cut in half.
+The negation rule was not working as intended. In rewriting it, I had overlooked copying up the C-Cont information that it introduced. This syntax error was fixed, and it no longer creates massive ambiguity.
+
+
+3. The only transfer rule I needed, optional pro-drop is already part of my language, was to change Make harm to hurt:
+make-harm-mtr := monotonic_mtr &
+[ INPUT [ RELS <! [ PRED "_make_v_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #arg1,
+		   ARG2 #arg2,
+		   ARG3 #arg3 ],
+		 [ PRED "_harm_n_rel",
+		   ARG0 #arg2,
+		   LBL #larg ],
+		 [ PRED "exist_q_rel",
+		   ARG0 #arg2 ]!>,
+	  HCONS <! [ LARG #larg ] !> ],
+  OUTPUT [ RELS <! [ PRED "_hurt_v_rel",
+		    LBL #lbl,
+		    ARG0 #arg0,
+		    ARG1 #arg1,
+		    ARG2 #arg3 ] !>,
+	   HCONS <! !> ]].
+
+5. Variation: Plurals on inanimate and inanimate nouns (like 90% of the nouns we are using in translation is optional. The noun without an affix can be interpretted as plural or singular, but the noun with the =d5eh affix is explictly plural. As a result of this, there are many results that differ just based on the noun(s) in the sentence having this affix or not. Most of the variation comes from this. Previously this grammar allowed inanimate and animate nouns to take the explicit obj affix (-2an). This was in the grammar so that nouns that are beneficiaries or recipients can take this affix. However, this led to another explosion in variation in nouns, and many ungrammatical sentences. Because of this I edited the tdl as follows:
+;;; FOR TRANSLATION PURPOSES [DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.GEND HUMAN] 
+;has been added to this rule. The proper rule should include any noun
+;3-argument verbs with a recipient or beneficiary are not in the grammar
+;but if they were, they would require the OBJ suffix on INANIMATE and ANIMATE 
+; nouns. However, in all other circumstances the suffix is incorrect on these
+; nouns. This, of course, drops the accuracy of this grammar in recognizing 
+;correct parses, but generation is manageable.
+Obj-lex-rule := infl-lex-rule & objective-lex-rule &
+ [ DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.GEND HUMAN].
+
+Human nouns and human nouns only can take the obj case with the suffix (in our test set only "you" does this). Animate and inanimate nouns must go through the lrules: 
+ animate-obj-lex-rule := const-lex-rule & objective-lex-rule &
+   [ DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.GEND ANIMATE ].
+
+ inanimate-obj-lex-rule := const-lex-rule & objective-lex-rule &
+   [ DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.GEND INANIMATE ].
+
+Additionally, the focus rules and the representative rule (indicating that the event was not experienced by the speaker) were also commented out for translation; They doubled simple examples like "dogs sleep", but sentences such as "Dogs chase cars and cats chase dogs" had around 8 times as many sentences with these affixes. Introducing semantics to these affixes would be necessary to expand the grammar and reintroduce these affixes.
+
+6. What Doesn't Work: 
+ENG
+I Can Eat Glass
+I think that you know that dogs chase cars.
+I ask whether you know that dogs chase cars.
+Cats chase dogs and sleep
+The dogs are in the park
+
+The Can... sentence is not working due to a limitation of my grammar; it still does not create the correct MRS from a V-AUXV-AFFIX construction
+The two embedding sentences not working is also a shortcoming of the grammar; Embedding is not modeled well (and seems to me much more like serial S's in Hup, rather than embedded S/CPs. Frex.1[ Dogs chase cars], you know that_1,  I think that_2)
+The park sentence and the V-coordination sentence are both instances of MRSes not lining up. At some point my noun adposition type and my VP coordination do not pass the correct references, or identify the correct values, which prevents the correct MRS from ever being created.
+
+ITA:
+Posso mangi-are il vetro
+non mi-f-a male
+Pens-o che sai che cani insegu-ono macchine
+Domand-o se sai che cani insegu-ono macchine
+
+
+Posso: The same problem of Can recognition
+non: The mtr. rule to change cause harm -> hurt did not pan out, unfortunately this doesn't work from ENG to ITA either.
+Embedding: same as the English
+
+Interestingly  "Gatti insegu-ono cani e dorm-ono" translates from Italian, while the english version does not. The English version Interpretes the  phrase; CATS  ([chase dogs) and [sleep]) while the Italian is [(Cats chase dogs) and (sleep)].  The Hup grammar will coordinate the sentences, but not the VPs.

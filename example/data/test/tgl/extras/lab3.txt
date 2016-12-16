@@ -1,0 +1,37 @@
+When filling out the web questionnaire, I selected erg/abs for case-marking, though there seems to be a special case-structure unique to (at least) Philippine languages that doesn't quite fit the normal paradigm.  This, combined with the fact that many of my sentences use the actor-focus forms of aspect markers, leads to a situation where those sentences aren't parsing.  Normally, in an erg/abs language, the agent in a transitive verb sentence would be in the ergative case.  But the focus system allows for agent, patient, or goal to be "promoted" to the absolutive case.  Bearing this in mind, if I were to run the setup again, I might choose "verb-initial" rather than VSO for basic word order.
+
+Sentential negation: I chose adverb as independent modifier of S.  It usually appears before, though negated matrix questions have it at the end.  I also filled out the coordination section, choosing Polysyndenton for all types, as a word following the coordinand.
+
+I probably should have skipped the matrix yes/no questions section given that the question particle is neither sentence initial nor sentence final.  But I felt compelled to fill out the entire questionnaire.
+
+When I stripped off verbal inflection, and defaulted to standard erg/abs roles, i got a manually-entered sentence to parse:
+
+kang ng          batae ang         mangga
+eat  NPRS.SG.ERG woman NPRS.SG.ABS mango
+
+I was surprised at first that "ng batae" was parsed as a PP.  On further consideration, the first P of PP is preposition, or pre-position, so it more or less made sense.  The overgeneration profile was the same before and after lexicon building due to other issues noted above:
+
+Aggregate	tot    neg    word   lex    dist     tot    overall
+	       items  items  string items analyses results  coverage
+i-len [5..10]    36     11    6.18   2.82     0       0        0
+i-len [0..5]	 32	24    3.67   0.00     0	      0	       0
+
+Coverage profiles differed only in terms of the number of lexical items:
+
+before:
+Aggregate	tot    pos    word   lex    dist     tot    overall
+	       items  items  string items analyses results  coverage
+i-len [5..10]    36     25    5.60   2.76     0       0        0
+i-len [0..5]	 32	 8    3.00   0.00     0	      0	       0
+
+after:
+Aggregate	tot    pos    word   lex    dist     tot    overall
+	       items  items  string items analyses results  coverage
+i-len [5..10]    36     25    5.60   3.44     0       0        0
+i-len [0..5]	 32	 8    3.00   0.12     0	      0	       0
+
+Obviously, I need to further increase the size of my test-suite, as well.
+
+As things now stand, getting pronouns and their markers in will get the greatest increase in coverage, but only if I free up the word order so that SOV order is accepted as well.  The other major thing I could think of to make things smoother would be to select object-focus markings rather than subject-focus ones to get the predicted pattern of erg/abs case markings.
+
+I feel that I have separated phenomena as well as possible thus far in the test suite.  As I mentioned above, there are many phenomena not yet covered; I hope to remedy this in the coming weeks.

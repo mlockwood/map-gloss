@@ -1,0 +1,297 @@
+Writeup Lab 4
+
+==Issues from last lab==
+
+First responding to some things in the last lab: Regarding "amna" the 1pl-ex pronoun. Here are my examples for this pronoun:
+
+#30 Examples with weird 1pl-ex. Should be "nomokno" phonologically
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {agr, word order}
+amna niomokino
+amna ni-omoki-no
+I+III SIII-come-IMM.PAST
+`We (excl) have come'
+
+#31 Examples with weird 1pl-ex. Should be "nomokno" phonologically. This CANNOT mean "We (excl) have come". Instead it can only mean "He has come"
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {agr, word order}
+niomokino
+ni-omoki-no
+SIII-come-IMM.PAST
+`*We (excl) have come'
+
+#31 Examples with weird 1pl-ex. Need to find out the morphological break down here. This is n right here because there is a pronoun. SHould be nano orthographically
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {agr, word order}
+kanawa amna niano
+kanawa amna ni-a-no
+canoe I+III took-it
+`We took the canoe'
+
+#32 Examples with weird 1pl-ex. This is y right here because there there are no pronouns
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {agr, word order}
+kanawa yano toto
+kanawa y-a-no toto
+canoe he-took-it person
+`The man took the canoe'
+
+
+And what the book says "The free form amna has been seen already to be unique among the +pro in two respsects: it has the same form for both individual and collective, and it obligiatoriyl cooccurs with the third person prefixes to express the category I+III. It is also unique in the rules which govern its position in the clause when it occurs as subject: 1) In quotative clause it always occurs immediately after the verb -ka- 'say' and 2) in all other finite clauses it occurs immediately before the V, even when there is also a free form direct object in the clause. This results in an order of constiuents that virtually never appears otherwoise, namely OSV"
+
+I think this is a little too crazy for the customization system to handle.
+
+As for the word order of sentences with Transitive verbs, it looks like there's an alternate SV structure when the antecedent is in the precedeing sentence. Although I have yet to find good examples of this, fronting only ONE object is ok. That results in the alternate word orders SOV(I) or IOVS but NOT ISOV which confirms the OVS basic word order. Take that, all of those theorists who believe SVO is the basic word order structure ;)
+
+==Adverbs==
+
+Here is the only reliable example I found of a true "adverb" from the book. He has lots of things that he calls adverbs (as explained on gopost) but this was the only example I found find that was reliable. There was another example of "loudly" but that was in a subordinate clause (singing loudly) so I decided not to use it.
+
+#33 Adverbs. This is more or less from the book but I took an extra word "without stopping" out to make things less complicated. Morpheme gloss is not vetted.
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {adv}
+Fumasa hono ntetxoko karyhe
+Fumasa hono ni-to-yatxoko karyhe
+Fumaca to SIII-go-REC.PAST.COMP fast
+`They went to Fumaca quickly'
+
+I'm not sure where they can attach actually which is why I didn't include an ungrammatical example. In the "singing loudly" example, loudly went before "singing" but singing was also a kind of denominalized phrase. For the purposes of this lab I think I will say they attach after the verb, but I don't have hard evidence to this fact, so I'm hesitant to put in "ungrammatical" examples.
+
+== Argument Optionality ==
+
+This language seems to go with Pronomial affixes, however I'm not sure if it totally follows what you said on that page. The affixes are not optional.
+
+
+#33 Argument optionality
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+woto yonono
+woto y-ono-no
+meat SIIIOIII-eat-IMM.PAST
+`He ate the meat'
+
+#34 Argument optionality. This one still means "he ate the meat" because the verb means to eat meat.
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+yonono
+y-ono-no
+SIIIOIII-eat-IMM.PAST
+`He ate the meat'
+
+#35 Argument optionality. This one still means "he ate the meat" because the verb means to eat meat.
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+yonono noro
+y-ono-no noro
+SIIIOIII-eat-IMM.PAST 3sg
+`He ate the meat'
+
+#36 Argument optionality. 
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+nomokyatxoko hawanakomo
+ni-omoki-yatxoko hawana-komo
+SIII-come-REC.PAST.COMP-COLL visitor-PL
+`Visitors came'
+
+#37 Argument optionality. 
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+nomokyatxoko
+ni-omoki-yatxoko
+SIII-come-REC.PAST.COMP-COLL
+
+==Definiteness==
+
+The only definiteness I could find was in demonstrative pronouns. From the examples I found, I don't think that they can modify nouns. There is a nondeictic/near-deictic/medial-diectic/remote-deitic split between these pronouns though, and they're also marked for inanimate/animate. Animate pronouns have pl and sg forms. However you said not to worry about thos so I'll leave it for now.
+
+Update: I found ONE example (For something else) that indicates that the pronouns can be used to specify definitness just like english - That can mean something like "that one" or "That NOM". However I am only going on this one example. I made a bunch of examples based on my intuition but the book never really talks about this.
+
+A medial deictic with animate Sg
+#49 Demonstratives
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+mokro toto netahano
+mokro toto ni-otaha-no
+animate-medial.deictic-sg man SIIIOIII-hit-IMM.PAST
+`He hit that man'
+
+Ungrammatical because the pronoun is sg
+#54 Demonstratives
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+mosoni totokomo netahatxowi
+mosoni totokomo ni-otaha-txowi
+animate-near.deictic-sg man-pl SIIIOIII-hit-IMM.PAST-pl
+`*He hit this men'
+
+Ungrammatical because trees are not animate
+#47 Demonstratives
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+mosoni wewe wamaye
+mosoni wewe w-ama-ye
+animate-near.deictic-sg tree SIOIII-fell-DIST.PAST.COMP
+`*I felled this tree'
+
+
+==Adjectives==
+
+I was having a very hard time finding examples for this. I found several post-particles, one meaning "dead" and one meaning "big, bad" (glossed as Augmentative), but there were no exaples I could find that had other NP modifiers. I found some numeral ones but the author seemed to indicate that those were a special case. Every time I found the word "red" or something I got all excited but then I'd find out the "red-and-green-toucan" is one word :( 
+
+Update: Here is what the book says: iii) neither the basic nor the derived froms function in noun phrases, which is often one of the main criteria used for establishing an adjective class.
+
+Apparently there are no modifiers in NPs. Sigh.
+
+==Non Verbal Predicate==
+
+This is kind of interesting, because you can use the copula in NP=NP type sentences, but ONLY if you put this particle he calls a denominalizer after the object. The copula apparently oly takes PPs or APs, so you'l have to turn the noun into an AP first. Alternatively you can make what he calls an equative form which has no copula or extra particle. See these examples: From the book: "The foregoing examples higlight the structural differences in the two clause types. The equative nucleus has only nominals, in contrast with the copular complement, which must be a PP or an AP, the copula is present or absent, and the subject is an obligatory sonstituent of the equative, but not copular, clause" 
+
+#38 Non verbal predicate
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+kanawa yawo wahko
+kanawa yawo wakho
+canoe in 1sg-be-IMM.PAST 
+`I was in the canoe'
+
+#40 Non verbal predicate
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+yaskomo me nehxakoni toto
+yaskomo me nehxakoni toto
+shaman DENOMLZR 3sg-be-DIST.PAST.CONT person
+`The man was a shaman'
+
+#41 Non verbal predicate
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+toto me naha
+toto me naha
+person DENOMLZR 3sg-be-NONPAST
+`He is a man'
+
+#42  OR... Non verbal predicate
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+toto noro
+toto noro
+person 3sg
+`He is a man'
+
+==Embedded Clause ==
+I couldn't find any good examples of the type you were looking for, and you said quotative could work. See what the author says on quotative:
+
+"Direct speech is embedded as the direct object in a quotative clause...The quotative verb -ka- "say" is the only verb whcih can have direct speech embedded as its object or complement of any kind.....The verb -ka- is the only one that can signal the performance of a speech act. There are no special forms to express the meaning of acts such as 'question', 'assert', 'think' etc. These concepts are expressed by a quotative sentence in which -ka- say is the main verb."
+
+#43 embedded clause. Only changed "her son" to "the boy". Guess on stem of "bite" and of dervation of "say"
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-d}
+kamara mpini oyoskeno kekoni notxwakomo biryekomo wya
+kamara mpini o-yoski-yano 0-ka-yakoni notxwakomo biryekomo wya
+jaguar warning SIIIOII-bite-PAST.UNCERT SIIIOIII-say-DIST.PAST.CONT old-woman boy to
+`Be careful lest the jaguar bite you, said the old woman to the boy. OR The old woman warned the boy that the jaguar might bite him'
+
+Note that this example has two readings: It can be direct or indirect reported speech. I don't think this language has things like complementizers for this verb and it seems like this verb does a lot.
+
+Update: I found some more embedded clauses in another section. See the following examples from the book. I am not sure how I'll use them because they include weird morphologically derived words - I'll have to figure this out.
+
+
+#55 embedded clause. 
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+wakara totho hutwahra wahko
+wakara totho hutwahra wahko
+Wakara his-going.NOMLZN not-knowing SI-be-IMM.PAST
+`I did not know that Wakara was going'
+
+#56 embedded clause. 
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+hitoniri yokarymano rowya
+hitoniri yokarymano rowya
+his-going SIIIOIII-tell-IMM.PAST to-me
+`He told me he was leaving'
+
+#57 embedded clause. 
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+ekeh me ryehtxoho muhutwehe
+ekeh me ryehtxoho muhutwehe
+sick-one DENOMLZR my-being-NOMLZN SIIOIII-know-NONPAST
+`He told me he was leaving'
+
+I found these examples in another section and I'm trying to figure out exactly what's going on. He talks about nominals and psuedonominals (A). On this subject he says "There are two other general ways in which full nominals function to substitute for constructions that are lacking in the language: THey replace finite complement clauses, including indrect statements and the complements of cognitive verbs."
+
+== Testsuite info ==
+
+Since we added a ton of items that aren't expected to parse yet, only some of my basic examples parse. Some of the more basic ones that should parse but aren't are because I have yet to put in my orthographic rules.
+
+As far as I can see, the only examples that were supposed to parse but didn't were 17, 22, and 25. For 17, I'm getting "Unification of + and - failed at path <inflected> I'm not sure what that's supposed to mean. For 22, there's a suffix/orthography thing going on, but the grammar saw it was a verb at least. Looksl like 25 isn't parsing due to a weird form of the verb, which is too bad because that's my only question example. One example, 13, has two parses. Not sure what that's about yet either...Example 26 is another one that has unusual prefixes.
+
+Checking some basic MRSs seem to be OK! I checked a transitive, intransitive, and a coordination example (I guess I don't have anything more complicated that parses, since I don't have determiners, aux, etc). That is really cool. BTW, using SVN within the Liunx file system on AndLinux works a treat. Thanks for the tip!
+
+I didn't really make any changes to the grammar other than put in some lexical items, and my previous tsdb suites were messy so I didn't compare. It looks like I may not be able to compare test suites with different numbers of items too?

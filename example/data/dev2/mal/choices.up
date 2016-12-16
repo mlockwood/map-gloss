@@ -1,0 +1,76 @@
+
+version=28
+
+section=general
+language=Malayalam
+
+section=word-order
+word-order=v-final
+has-dets=yes
+noun-det-order=det-noun
+has-aux=no
+
+section=number
+
+section=person
+person=none
+
+section=gender
+
+section=case
+case-marking=none
+
+section=direct-inverse
+
+section=tense-aspect-mood
+
+section=other-features
+
+section=sentential-negation
+neg-exp=1
+vpc-0-neg=create
+infl-neg=on
+
+section=coordination
+  cs1_n=on
+  cs1_pat=omni
+  cs1_mark=affix
+  cs1_orth=um
+  cs1_order=after
+
+section=matrix-yes-no
+q-part=on
+q-part-order=after
+q-part-orth=oo
+
+section=info-str
+
+section=arg-opt
+
+section=lexicon
+  noun1_det=opt
+    noun1_stem1_orth=kutatai
+    noun1_stem1_pred=_child_n_
+  noun2_det=opt
+    noun2_stem1_orth=amma
+    noun2_stem1_pred=_mother_n_
+  verb1_valence=intrans
+    verb1_stem1_orth=unanaunnu
+    verb1_stem1_pred=_eatAMeal_v
+  verb2_valence=trans
+    verb2_stem1_orth=vilaiccu
+    verb2_stem1_pred=_call_v
+    det1_stem1_orth=oru
+    det1_stem1_pred=_q_
+
+section=morphology
+
+section=toolbox-import
+
+section=test-sentences
+  sentence1_orth=kutatai ammaye vilaiccu
+  sentence2_orth=avan coora? unanaunnu
+
+section=gen-options
+
+section=ToolboxLexicon

@@ -1,0 +1,92 @@
+-------------------------------------------------------
+Comments
+
+ I chose an adverbial sentential negation modifying the VP before the
+ phrase, because the general negation strategy is VSnegO. There is some
+ possibility that the verb changes form, but this seems to be more of a
+ phonological mutation. This makes it very difficult to model, as we
+ are not modeling phonological mutations. I decided to regularize the
+ mutations (as they are regular all throughout the language), and treat
+ negation as solely an adverbial addition.
+
+That's not a VP modifier, though, since V+S isn't a VP.  We'll
+need to adjust the adverb type for negation to get it in the right
+place, but it looks perfectly well defined (SUBJ empty, COMPS non-empty,
+though what about intransitives...?)  Where does it go when
+there's an auxiliary?  Aux S neg V O?
+
+	When I tried parsing a sentence initially, it didn't work
+ since I had neglected to add "yn", the INF marker to the lexicon. I
+ added it (as the same type as the NEG marker just to get things
+ working), and things started to work just fine. The structures were
+ the right ones as far as I can tell, although I haven't been able to
+ look at too many just yet, since I was (and am) struggling with the
+ itsdb() system.
+
+But the semantics would be all wrong.  I think you want that "yn" guy
+to be some sort of infinitival marker that combines with a VP.  I
+think you want it to be a raising verb
+(trans-first-arg-raising-lex-item-2, head verb).  Then you should add
+a feature INF to the type verb:
+
+verb += [INF bool].
+
+"yn" is INF +, its complement is [INF -], and the auxiliaries that
+require "yn" want an [INF +] VP as their complement.  You'll also want
+to make sure that only the right inflected forms of verbs end up in
+the complement of "yn" (using the feature FORM, probably), and that
+the initial symbol (see roots.tdl) requires [INF -].
+
+It seems that the customization system gave you a somewhat broken
+grammar: It is allowing VSO as well as VOS, which I assume we don't
+want.  It also has a comp-head rule, which it just shouldn't.  You
+should delete (or comment out) comp-head from rules.tdl and welsh.tdl.
+To disallow VOS while still allowing V+O in Aux S V O, I suggest doing
+the following: Have the main head-comp rule require SUBJ <> on the
+head-daughter, and then add another head-comp rule that allows SUBJ
+cons on the head-daughter, but then marks that SUBJ in such a way that
+it can't be realized directly but has to be raised.  I think marking
+it as [OPT +] and making sure the head-subj rule requires [OPT -] on
+the non-head daughter should do the trick, as a first pass.  Let me
+know if this is too cryptic.
+
+What are the issues with [incr tsdb()]?  Please post questions to GoPost.
+
+	Either that, or I need to include 'n in the lexicon as another
+ form of the INF marker (?).
+
+That might work, since the LKB is probably stripping =, but it might
+choke on ' as part of a lexical entry.
+
+	In any case, I need to regularize the orthography in that
+ regard – and also in terms of the phonological mutations that are
+ SO widespread in Welsh. I will have to go through and make sure all
+ the things that are just phonological issues are taken out. Otherwise,
+ there will be about 57 forms for everything once you take into
+ consideration real forms combined with phonological mutations!! For
+ example, fynd becomes mynd at the beginning of a sentence for no
+ apparent reason (or perhaps, it's that mynd becomes fynd
+ elsewhere!!). The only issue with this, is that there is some
+ indication that the mutation (along with other markers – like
+ dropping an optional affirmative marker) signals questions and/or
+ negation. I'm still trying to get my head around this (I still
+ question how important/necessary it is) and figure out what to do
+ about it. I'll keep you posted.
+
+Please do. I'm particularly interested in cases where the mutation
+signals something like negation or questions all by itself.  I'd like
+to be able to pin that meaning on something else, but if the mutation
+is the only difference in the string...
+
+ ci := noun-lex &
+   [ STEM < "ci" >,
+     SYNSEM.LKEYS.KEYREL.PRED "_dog_n-rel" ].
+
+You want _dog_n_rel, not _dog_n-rel.
+
+ cwn := noun-lex &
+  [ STEM < "cwn" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dogs_n_rel" ].
+
+The number distinction will be reflected in the semantics
+in the PNG value on the INDEX, not in the PRED value.

@@ -1,0 +1,264 @@
+Joshua Crowgey and Eduard Pham Lab 4 Writeup
+Language: Shona
+
+
+Section 1, Choices:
+==
+The changes to our choices file, i.e. what we did with the customization system this week, was almost completely restricted to lexicon expansion.  Most of the new phenomena that we entered into the testsuite happened to use new verb and nouns that we had not yet defined types for, so we had to do this work in order to evaluate our coverage.  I'll first describe the changes we made which do not deal explicitly with lexis, then I'll present a few of the special cases regarding the lexicon that we wanted to report on. 
+
+
+Matrix-yes-no
+--
+The following lines were added to the choices file in order to accomodate Shona yes/no questions:
+
+section=matrix-yes-no
+q-part=on
+q-part-order=after
+q-part-orth=here
+
+Shona yes/no questions are formed by placing a question particle `here' after the otherwise declarative sentence.  This observation was documented in one survey/typological paper that we found online, which did not provide a clear reference to follow up on.  However, we were able to confirm its veracity both by checking with our informant, and by inference in certain data in our reference grammar (our reference grammar does not discuss question formation per se, and there's no IGT, but we did find examples in the grammar which illustrate the Q partical, and provide an according free translation).  
+
+Here are some examples of Shona yes/no questions which motivated our choices, presented along with their declarative counterparts, for comparison:
+
+Source: f
+Vetted: s
+Judgment: g
+Phenomena: {question}
+Ndinotaura here?
+ndi-no-taur-a here
+SBJ.1sg-HAB-speak-FV Q 
+`Do I speak?'
+
+Source: f
+Vetted: s
+Judgment: g
+Phenomena: {aspect}
+Ndinotaura
+ndi-no-taur-a
+SBJ.1sg-HAB-speak-FV
+`I speak.'
+
+
+Source: p
+Vetted: t
+Judgment: g
+Phenomenon: {trans, agr}
+Vanogara muSeattle.
+va-no-gar-a mu-Seattle.
+SBJ.cl3-PRES.HAB-stay-FV cl1-Seattle.
+`They live in Seattle.'
+
+Source: p
+Vetted: t
+Judgment: g
+Phenomenon: {q}
+Vanogara muSeattle here?
+va-no-gar-a mu-Seattle here
+SBJ.cl3-PRES.HAB-stay-a cl1-Seattle Q
+`Do they live in Seattle?'
+
+The data from Shona yes/no questions also interacts in an interesting way with embedded clauses.  This will be discussed in the next section treating phenomena not covered by our starter grammar/customization system. 
+
+Coordination:
+--
+
+We've found quite a few confusing and conflicting analyses when reseraching coordination.  Our principle source provices many examples of what he terms `conjunctives', however, on closer examination, most of them end up being complementizers or adverbs.  
+
+We, have, however, cleaned that Shona does N and NP coordination with prefix that is often translated as the preposition 'with'.  The vowel in the prep is phonologically conditioned by the stem.  The following examples illustrate:
+
+Source: b
+Vetted: s
+Judgment: g
+Phenomena: {conjunction}
+Sadza naGutu vauya
+Sadza na-Gutu va-a-uy-a
+Sadza with-Gutu CL2-REC.PAST-come-FV
+`Sazda and-Gutu have come.'
+
+Source: b
+Vetted: s
+Judgment: g
+Phenomena: {conjunction}
+Ini nomukadzi wangu tiri kurwara
+Ini no-mu-kadzi wa-ngu ti-ri ku-rwar-a
+1sg AND-CL1-woman/wife CL1.POSSD-1sg.POSSR SBJ.2PL-AUX INF-ill-FV
+`My wife and I, we are ill.'
+
+Here are the choices that we made in light of the preceding data:
+
+section=coordination
+  cs1_n=on
+  cs1_pat=mono
+  cs1_mark=affix
+  cs1_orth=na-
+  cs1_order=before
+
+We haven't yet been able to investigate Shona's strategy for coordinating verb phrases.  As was mentioned above, the traditional grammars seem to classing many adverbial phrases as `conjunctives' and we haven't yet found a clear treatment of simple coordination.  We plan on generating a few of our own examples and running them by our informants this week.  
+
+Section 2, testsuite phenomena  
+==
+
+This section describes:
+
+# attributive adjectives/non-verbal predicates
+# adverbs
+# embedded clauses
+
+as they have been incorporated into our testsuite.  We have not yet found any specific information regarding information structure in Shona.  We have come across observations that Shona's basic word order varies according to discourse factors, but we haven't yet found any concrete examples that present morphological aspects that we can model. 
+
+Attributive adjectives/non-verbal predicates
+--
+
+Shona allows a noun or pronoun to take a copulative prefix and noun as its complement.  Here are some examples:
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop, agreement}
+Hezvi zvako
+ha-zvi zvi-ko
+COP.CL8-here.CL8 POSSD.CL8-POSSR.2sg
+'Here are your things.'
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop, agreement}
+Huru mombe ndiCharuveki
+kuru mombe ndi-Charuveki
+CL9.big CL9.ox cl9.COP-Charuveki
+'The big ox is Charuveki'
+
+If the non-verbal predicate is adjectival, Shona simply places them together.  It's quite likely (given the fact that Shona distinguishes relative clauses from matrix clauses with tonal morphemes) that the distction between the copula, S reading and NP reading is marked by tone. 
+
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {cop, cogst}
+Mukadzi uyu mukuru
+mu-kadzi u-yu mu-kuru
+CL1-woman CL1-this CL1-big
+'This woman is big.'
+
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {adj, cop, cogst}
+Vamwe vasikana varefu, vamwe vapfupi
+va-mwe va-sikana va-refu va-mwe va-pfupi
+CL2-some CL2-girls CL2-tall CL2-some CL2-short
+'Some girls are tall, some are short.'
+
+Adverbs
+--
+
+Shona has a large class of adverbial morphology which some authors have analysed as auxiliary verbs at varying stages of grammaticalization.  Our sources provide many such examples along the lines of the following two:
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {tense, aspect}
+Achiri kudya
+a-chi-ri ku-dy-a
+SBJ.3sg-still-AUX.CONT INF-eat-FV
+`He/she is still eating'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {adverbial, tense, aspect, mood}
+Achachimbidzofamba
+a-cha-chimbidz-o-famb-a
+SBJ.3sg-FUT-do.quickly-o-walk-FV
+`He/she will quickly walk.'
+
+
+However, Shona also has stand alone adverbials, as illustrated below:
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {adv}
+Vaifamba zvishoma 
+va-ai-famb-a zvi-shoma 
+SBJ.2pl-PAST.HAB-walk-FV CL8.slowly
+'They walked slowly.'
+
+Embedded Clauses
+--
+None of our Shona grammars treat this subject directly.  In fact, we found or first clues to how Shona treats these constructions in a section on `conjuctions'.  Nevertheless, we created some examples and ran them past our informant.  Here is an example from our vetted results:
+
+
+Source: p
+Vetted: t
+Judgment: g
+Phenomenon: {declarative embedded C}
+Imbwa yaifunga kuti katsi yaifara
+i-mbwa i-ai-fung-a kuti katsi i-ai-far-a
+cl9-dog SBJ.cl9-PAST.HAB-think-FV that cat SBJ.cl9-PAST.HAB-be.happy-FV
+`The dog used to think that the cat was happy.'
+
+
+Shona provide an especially interesting interaction between the Q particle, the C marker for embedded clauses and matrix vs. low scope when there is an embedded interrogative.  observe the following contrast:
+
+
+Source: p
+Vetted: t
+Judgment: g
+Phenomenon: {embedded question with matrix scope}
+Ndabvunza here kuti wafamba kumba kwako?
+Ndi-a-bvunz-a here kuti u-a-famb-a ku-mba kwa-ko
+SBJ.1sg-REC.PAST-ask-FV Q that SBJ.2sg-REC.PAST-walk-FV to-house cl16.POSSD-2sg.POSSR
+`Did I ask you if you walked to your house?'
+
+
+Source: p
+Vetted: t
+Judgment: g
+Phenomenon: {embedded question with low scope}
+Ndabvunza kuti wafamba kumba kwako here.
+Ndi-a-bvunz-a kuti u-a-famb-a ku-mba kwa-ko here.
+SBJ.1sg-REC.PAST-ask-FV that SBJ.2sg-REC.PAST-walk-FV to-house cl16.POSSD-2sg.POSSR
+`I asked if you walked to your house.'
+
+
+When the Q particle is at the end of the entire string, the question takes low scope and the sentence is interpreted as a declarative.  However, in order to get a matrix scope reading the Q particle must precede the complementizer that introduces the complement clause.  Edith Aldridg in personal communication remarked that this might be an example of a phenomenon known as 'clausal postposing'.  We were hoping to ask you about what sort of further data we might want to elicit from our informant in order to account for the word order here. 
+
+
+Section 3, testsuite coverage
+==
+While we were able to several new phenomena to our testsuite, our grammar doesn't actually fare very well over the new data.  This is, however, expected, for two reasons:
+
+1) much of the new phenomena also introduce new lexis.  because many of these examples were not provided with IGT, we are still attempting to resolve ambiguities regarding how to gloss the new items in several cases. 
+2) the grammar is not expected to handle many of these new examples, we have not built in adjectives or any of the phenomena described in section 2, so we don't expect our grammar to handle that.  
+
+So, to be concrete, here are some numbers:
+
+Of a total of 117 items, 91 are positive examples, and we provide parses for 41 of these, that is 45%.  
+
+Out of the 117, we have lexical errors for 51 examples.  This is, as explained above, due to the fact that we have not had a place to add adjectives, complementizers, adverbs to the lexicon, our grammar provides a 'no token' error when it encounters one of these words, so this is expected.  Thus of our 117 examples, we can really only expect to parse 66.  
+
+So what happened in the other 25 cases?  
+
+Well, in 6 of the cases, we `incorrectly' provide a parse.  The `incorrectly' is in quotes because these examples were marked ungrammatical by my partner in week one.  Yet our current knowledge would actually predict that they are grammatical.  We plan on cleaning much of the inaccuracy from our testsuite this week.  We're hoping to do a push for better documentation of assumptions as examples go in, and we are planning to go over our data with both of our informants this week.  
+
+In 7 of the cases, we correctly rule out a malformed sentence, which at this time we only really have the sophistication to produce malformed sentences (that we are sure they are malformed) by producing an incorrect agreement pattern, or by putting words in the wrong order.  We think that there may be a hidden advantage if we are right that we have inaccuracies in our testsuite: we suppose that many of our inaccurately claimed grammatical sentences will actually become ungrammatical examples, once we've vetted the new testsuite with our speakers.  
+
+What about the other 18 well formed sentences that do not have words that we don't know about?  
+
+They fall into two classes:  
+1) sentences with copular forms which are missing verbs.  our grammar doesn't throw a lexical error on these sentences because it knows all of the morphemes it sees, it just doesn't know that they can pattern like this (without a verb) yet.  
+2) sentences with multi-verbal auxiliary constructions.  we spent our time this week developing the test suite and researching phenomena.  so we have a residual problem from last week's work, which is that we still require all verbs to take a final vowel.  this is a blatant error, and is high-priority to fix.  
+
+Section 4, changes to the grammar
+==
+
+Most of this has been covered above:
+
+1) We added new lexical items and new lexical classes.  This was necessary, for example, in order to allow the parsing of proper names that don't take noun class prefixes, and for that to interact with our examples of coordination.  
+2) We added predicates and features to certain morphemes in the verbal morphology slots, these morphemes actually constrain for tense/aspect now, instead of just freely glomming on.  
+3) We made a small change that begins to address the determiners kludge that was put in at the last minute last week.  These are actually stems that take class prefix and thus need to have slots and agreement defined for them.  While we only did so for two stems, this does, officially improve the quality of our model. 
+
+In sum, we spent a lot of time this week looking for auxiliary sources of information because much of this week's topics were not directly covered in our sources.  In the end, we are still not very happy about the quality of our testsuite and we hope to improve it over the next week.  However, our efforts were not entirely without gain.  We recruited a second informant, a linguisitcs student at UBC who is a native Shona speaker and a phonology student.  I personally, had a small (very small) epiphany yesterday afternoon when I understood how demonstrative pronouns were related to noun class prefixes.  However, we still need a better sampling of grammatical examples that use the same lexis that we already have (so that we don't introduce new complications that may arise via lexical ideosyncracies), and we need more ungrammtical examples using that lexis.  These are our principle goals for next week, as we see them now. 
+
+Thanks so much for your feedback. 

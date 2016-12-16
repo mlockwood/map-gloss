@@ -1,0 +1,2836 @@
+<xigt-corpus xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <igt id="igt1" doc-id="lgcol:mnk" line-range="1-3" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="1" tag="M">  a:38 vetted: s</item>
+      <item id="r2" line="2" tag="L">  k`ambaan-oo-lu   m'an      n`aa</item>
+      <item id="r3" line="3" tag="G">  youth-DET-PL     have.not  come</item>
+      <item id="r4" line="4" tag="T">  the youths have not come</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="1" tag="M">  a:38 vetted: s</item>
+      <item id="c2" alignment="r2" line="2" tag="L">  k`ambaan-oo-lu   m'an      n`aa</item>
+      <item id="c3" alignment="r3" line="3" tag="G">  youth-DET-PL     have.not  come</item>
+      <item id="c4" alignment="r4" line="4" tag="T">  the youths have not come</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="1" tag="M">a:38 vetted: s</item>
+      <item id="n2" alignment="c2" line="2" tag="L">k`ambaan-oo-lu   m'an      n`aa</item>
+      <item id="n3" alignment="c3" line="3" tag="G">youth-DET-PL     have.not  come</item>
+      <item id="n4" alignment="c4" line="4" tag="T">the youths have not come</item>
+    </tier>
+  </igt>
+  <igt id="igt2" doc-id="lgcol:mnk" line-range="5-7" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="5" tag="M">  a:87 vetted: s</item>
+      <item id="r2" line="6" tag="L">  a        m'ang     n`aa</item>
+      <item id="r3" line="7" tag="G">  he/she   not      come</item>
+      <item id="r4" line="8" tag="T">  'he/she has not come'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="5" tag="M">  a:87 vetted: s</item>
+      <item id="c2" alignment="r2" line="6" tag="L">  a        m'ang     n`aa</item>
+      <item id="c3" alignment="r3" line="7" tag="G">  he/she   not      come</item>
+      <item id="c4" alignment="r4" line="8" tag="T">  'he/she has not come'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="5" tag="M">a:87 vetted: s</item>
+      <item id="n2" alignment="c2" line="6" tag="L">a        m'ang     n`aa</item>
+      <item id="n3" alignment="c3" line="7" tag="G">he/she   not      come</item>
+      <item id="n4" alignment="c4" line="8" tag="T">he/she has not come</item>
+    </tier>
+  </igt>
+  <igt id="igt3" doc-id="lgcol:mnk" line-range="9-11" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="9" tag="M">  author vetted: f</item>
+      <item id="r2" line="10" tag="L">  kee-o    f'aa     m'ang  n`aa</item>
+      <item id="r3" line="11" tag="G">  man-DET father  not   come</item>
+      <item id="r4" line="12" tag="T">  'the man's father has not come'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="9" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="10" tag="L">  kee-o    f'aa     m'ang  n`aa</item>
+      <item id="c3" alignment="r3" line="11" tag="G">  man-DET father  not   come</item>
+      <item id="c4" alignment="r4" line="12" tag="T">  'the man's father has not come'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="9" tag="M">f</item>
+      <item id="n2" alignment="c2" line="10" tag="L">kee-o    f'aa     m'ang  n`aa</item>
+      <item id="n3" alignment="c3" line="11" tag="G">man-DET father  not   come</item>
+      <item id="n4" alignment="c4" line="12" tag="T">the man's father has not come</item>
+    </tier>
+  </igt>
+  <igt id="igt4" doc-id="lgcol:mnk" line-range="17-19" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="17" tag="M">  a:28 vetted: s</item>
+      <item id="r2" line="18" tag="L">  a       m'ang n`aa  D`imaasoo</item>
+      <item id="r3" line="19" tag="G">  he/she  not  come Sunday</item>
+      <item id="r4" line="20" tag="T">  'he/she did not come on Sunday'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="17" tag="M">  a:28 vetted: s</item>
+      <item id="c2" alignment="r2" line="18" tag="L">  a       m'ang n`aa  D`imaasoo</item>
+      <item id="c3" alignment="r3" line="19" tag="G">  he/she  not  come Sunday</item>
+      <item id="c4" alignment="r4" line="20" tag="T">  'he/she did not come on Sunday'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="17" tag="M">a:28 vetted: s</item>
+      <item id="n2" alignment="c2" line="18" tag="L">a       m'ang n`aa  D`imaasoo</item>
+      <item id="n3" alignment="c3" line="19" tag="G">he/she  not  come Sunday</item>
+      <item id="n4" alignment="c4" line="20" tag="T">he/she did not come on Sunday</item>
+    </tier>
+  </igt>
+  <igt id="igt5" doc-id="lgcol:mnk" line-range="21-23" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="21" tag="M">  a:57 vetted: s</item>
+      <item id="r2" line="22" tag="L">  'm b'ota  B`anjunu k`unung   ne</item>
+      <item id="r3" line="23" tag="G">  i  depart Banjunu  yesterday EMPH</item>
+      <item id="r4" line="24" tag="T">  'i left banjunu yesterday'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="21" tag="M">  a:57 vetted: s</item>
+      <item id="c2" alignment="r2" line="22" tag="L">  'm b'ota  B`anjunu k`unung   ne</item>
+      <item id="c3" alignment="r3" line="23" tag="G">  i  depart Banjunu  yesterday EMPH</item>
+      <item id="c4" alignment="r4" line="24" tag="T">  'i left banjunu yesterday'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="21" tag="M">a:57 vetted: s</item>
+      <item id="n2" alignment="c2" line="22" tag="L">m b'ota  B`anjunu k`unung   ne</item>
+      <item id="n3" alignment="c3" line="23" tag="G">i  depart Banjunu  yesterday EMPH</item>
+      <item id="n4" alignment="c4" line="24" tag="T">i left banjunu yesterday</item>
+    </tier>
+  </igt>
+  <igt id="igt6" doc-id="lgcol:mnk" line-range="29-31" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="29" tag="M">  a:58 vetted: s</item>
+      <item id="r2" line="30" tag="L">  a      t'aata B`anjunu k`unung   ne</item>
+      <item id="r3" line="31" tag="G">  he/she went   Banjunu  yesterday EMPH</item>
+      <item id="r4" line="32" tag="T">  'he/she went to Banjunu yesterday'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="29" tag="M">  a:58 vetted: s</item>
+      <item id="c2" alignment="r2" line="30" tag="L">  a      t'aata B`anjunu k`unung   ne</item>
+      <item id="c3" alignment="r3" line="31" tag="G">  he/she went   Banjunu  yesterday EMPH</item>
+      <item id="c4" alignment="r4" line="32" tag="T">  'he/she went to Banjunu yesterday'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="29" tag="M">a:58 vetted: s</item>
+      <item id="n2" alignment="c2" line="30" tag="L">a      t'aata B`anjunu k`unung   ne</item>
+      <item id="n3" alignment="c3" line="31" tag="G">he/she went   Banjunu  yesterday EMPH</item>
+      <item id="n4" alignment="c4" line="32" tag="T">he/she went to Banjunu yesterday</item>
+    </tier>
+  </igt>
+  <igt id="igt7" doc-id="lgcol:mnk" line-range="37-39" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="37" tag="M">  a:28 vetted: s</item>
+      <item id="r2" line="38" tag="L">  a      t'aata B`anjunu</item>
+      <item id="r3" line="39" tag="G">  he/she went   Banjunu</item>
+      <item id="r4" line="40" tag="T">  'he/she went to Banjunu'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="37" tag="M">  a:28 vetted: s</item>
+      <item id="c2" alignment="r2" line="38" tag="L">  a      t'aata B`anjunu</item>
+      <item id="c3" alignment="r3" line="39" tag="G">  he/she went   Banjunu</item>
+      <item id="c4" alignment="r4" line="40" tag="T">  'he/she went to Banjunu'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="37" tag="M">a:28 vetted: s</item>
+      <item id="n2" alignment="c2" line="38" tag="L">a      t'aata B`anjunu</item>
+      <item id="n3" alignment="c3" line="39" tag="G">he/she went   Banjunu</item>
+      <item id="n4" alignment="c4" line="40" tag="T">he/she went to Banjunu</item>
+    </tier>
+  </igt>
+  <igt id="igt8" doc-id="lgcol:mnk" line-range="45-47" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="45" tag="M">  a:28 vetted: s</item>
+      <item id="r2" line="46" tag="L">  a      t'aata B'aabaa</item>
+      <item id="r3" line="47" tag="G">  he/she went  overseas</item>
+      <item id="r4" line="48" tag="T">  'he went overseas'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="45" tag="M">  a:28 vetted: s</item>
+      <item id="c2" alignment="r2" line="46" tag="L">  a      t'aata B'aabaa</item>
+      <item id="c3" alignment="r3" line="47" tag="G">  he/she went  overseas</item>
+      <item id="c4" alignment="r4" line="48" tag="T">  'he went overseas'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="45" tag="M">a:28 vetted: s</item>
+      <item id="n2" alignment="c2" line="46" tag="L">a      t'aata B'aabaa</item>
+      <item id="n3" alignment="c3" line="47" tag="G">he/she went  overseas</item>
+      <item id="n4" alignment="c4" line="48" tag="T">he went overseas</item>
+    </tier>
+  </igt>
+  <igt id="igt9" doc-id="lgcol:mnk" line-range="49-51" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="49" tag="M">  a:95,118 vetted: s</item>
+      <item id="r2" line="50" tag="L">  a  t'i  j`ang</item>
+      <item id="r3" line="51" tag="G">  he not  here</item>
+      <item id="r4" line="52" tag="T">  'he is not here'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="49" tag="M">  a:95,118 vetted: s</item>
+      <item id="c2" alignment="r2" line="50" tag="L">  a  t'i  j`ang</item>
+      <item id="c3" alignment="r3" line="51" tag="G">  he not  here</item>
+      <item id="c4" alignment="r4" line="52" tag="T">  'he is not here'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="49" tag="M">a:95,118 vetted: s</item>
+      <item id="n2" alignment="c2" line="50" tag="L">a  t'i  j`ang</item>
+      <item id="n3" alignment="c3" line="51" tag="G">he not  here</item>
+      <item id="n4" alignment="c4" line="52" tag="T">he is not here</item>
+    </tier>
+  </igt>
+  <igt id="igt10" doc-id="lgcol:mnk" line-range="57-59" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="57" tag="M">  a:95 vetted: s</item>
+      <item id="r2" line="58" tag="L">  a  be B`anjunu le</item>
+      <item id="r3" line="59" tag="G">  he is B'anjunu EMPH</item>
+      <item id="r4" line="60" tag="T">  'he is at Banjunu'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="57" tag="M">  a:95 vetted: s</item>
+      <item id="c2" alignment="r2" line="58" tag="L">  a  be B`anjunu le</item>
+      <item id="c3" alignment="r3" line="59" tag="G">  he is B'anjunu EMPH</item>
+      <item id="c4" alignment="r4" line="60" tag="T">  'he is at Banjunu'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="57" tag="M">a:95 vetted: s</item>
+      <item id="n2" alignment="c2" line="58" tag="L">a  be B`anjunu le</item>
+      <item id="n3" alignment="c3" line="59" tag="G">he is B'anjunu EMPH</item>
+      <item id="n4" alignment="c4" line="60" tag="T">he is at Banjunu</item>
+    </tier>
+  </igt>
+  <igt id="igt11" doc-id="lgcol:mnk" line-range="65-67" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="65" tag="M">  a:117 vetted: s</item>
+      <item id="r2" line="66" tag="L">  'm b'ota     B`anjunu le</item>
+      <item id="r3" line="67" tag="G">  I  come_from Banjunu  EMPH</item>
+      <item id="r4" line="68" tag="T">  'I have come from Banjunu'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="65" tag="M">  a:117 vetted: s</item>
+      <item id="c2" alignment="r2" line="66" tag="L">  'm b'ota     B`anjunu le</item>
+      <item id="c3" alignment="r3" line="67" tag="G">  I  come_from Banjunu  EMPH</item>
+      <item id="c4" alignment="r4" line="68" tag="T">  'I have come from Banjunu'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="65" tag="M">a:117 vetted: s</item>
+      <item id="n2" alignment="c2" line="66" tag="L">m b'ota     B`anjunu le</item>
+      <item id="n3" alignment="c3" line="67" tag="G">I  come_from Banjunu  EMPH</item>
+      <item id="n4" alignment="c4" line="68" tag="T">I have come from Banjunu</item>
+    </tier>
+  </igt>
+  <igt id="igt12" doc-id="lgcol:mnk" line-range="69-71" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="69" tag="M">  a:28,95 vetted: s</item>
+      <item id="r2" line="70" tag="L">  a  be b'ungo k'ono</item>
+      <item id="r3" line="71" tag="G">  he is house inside</item>
+      <item id="r4" line="72" tag="T">  'he is in the house'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="69" tag="M">  a:28,95 vetted: s</item>
+      <item id="c2" alignment="r2" line="70" tag="L">  a  be b'ungo k'ono</item>
+      <item id="c3" alignment="r3" line="71" tag="G">  he is house inside</item>
+      <item id="c4" alignment="r4" line="72" tag="T">  'he is in the house'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="69" tag="M">a:28,95 vetted: s</item>
+      <item id="n2" alignment="c2" line="70" tag="L">a  be b'ungo k'ono</item>
+      <item id="n3" alignment="c3" line="71" tag="G">he is house inside</item>
+      <item id="n4" alignment="c4" line="72" tag="T">he is in the house</item>
+    </tier>
+  </igt>
+  <igt id="igt13" doc-id="lgcol:mnk" line-range="73-75" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="73" tag="M">  a:22 vetted: s</item>
+      <item id="r2" line="74" tag="L">  s'unkutoo mang   t'aa   f'oloo </item>
+      <item id="r3" line="75" tag="G">  girl      hasnot depart yet</item>
+      <item id="r4" line="76" tag="T">  'the girl has not gone yet'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="73" tag="M">  a:22 vetted: s</item>
+      <item id="c2" alignment="r2" line="74" tag="L">  s'unkutoo mang   t'aa   f'oloo </item>
+      <item id="c3" alignment="r3" line="75" tag="G">  girl      hasnot depart yet</item>
+      <item id="c4" alignment="r4" line="76" tag="T">  'the girl has not gone yet'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="73" tag="M">a:22 vetted: s</item>
+      <item id="n2" alignment="c2" line="74" tag="L">s'unkutoo mang   t'aa   f'oloo</item>
+      <item id="n3" alignment="c3" line="75" tag="G">girl      hasnot depart yet</item>
+      <item id="n4" alignment="c4" line="76" tag="T">the girl has not gone yet</item>
+    </tier>
+  </igt>
+  <igt id="igt14" doc-id="lgcol:mnk" line-range="77-79" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="77" tag="M">  a:23 vetted: s</item>
+      <item id="r2" line="78" tag="L">  k`ambanoo m'ang n`aa  f'oloo</item>
+      <item id="r3" line="79" tag="G">  boy       not   come  yet</item>
+      <item id="r4" line="80" tag="T">  'the boy has not come yet'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="77" tag="M">  a:23 vetted: s</item>
+      <item id="c2" alignment="r2" line="78" tag="L">  k`ambanoo m'ang n`aa  f'oloo</item>
+      <item id="c3" alignment="r3" line="79" tag="G">  boy       not   come  yet</item>
+      <item id="c4" alignment="r4" line="80" tag="T">  'the boy has not come yet'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="77" tag="M">a:23 vetted: s</item>
+      <item id="n2" alignment="c2" line="78" tag="L">k`ambanoo m'ang n`aa  f'oloo</item>
+      <item id="n3" alignment="c3" line="79" tag="G">boy       not   come  yet</item>
+      <item id="n4" alignment="c4" line="80" tag="T">the boy has not come yet</item>
+    </tier>
+  </igt>
+  <igt id="igt15" doc-id="lgcol:mnk" line-range="81-83" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="81" tag="M">  a:28 vetted: s</item>
+      <item id="r2" line="82" tag="L">  d'indingo t'aata k'unkoo to</item>
+      <item id="r3" line="83" tag="G">  child     went   farm POSTP</item>
+      <item id="r4" line="84" tag="T">  'the boy went to the farm'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="81" tag="M">  a:28 vetted: s</item>
+      <item id="c2" alignment="r2" line="82" tag="L">  d'indingo t'aata k'unkoo to</item>
+      <item id="c3" alignment="r3" line="83" tag="G">  child     went   farm POSTP</item>
+      <item id="c4" alignment="r4" line="84" tag="T">  'the boy went to the farm'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="81" tag="M">a:28 vetted: s</item>
+      <item id="n2" alignment="c2" line="82" tag="L">d'indingo t'aata k'unkoo to</item>
+      <item id="n3" alignment="c3" line="83" tag="G">child     went   farm POSTP</item>
+      <item id="n4" alignment="c4" line="84" tag="T">the boy went to the farm</item>
+    </tier>
+  </igt>
+  <igt id="igt16" doc-id="lgcol:mnk" line-range="85-87" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="85" tag="M">  author vetted: f</item>
+      <item id="r2" line="86" tag="L">  suu-o         t'aata k'unkoo to</item>
+      <item id="r3" line="87" tag="G">  horse-DET    went   farm    POSTP</item>
+      <item id="r4" line="88" tag="T">  'the horse went to the farm'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="85" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="86" tag="L">  suu-o         t'aata k'unkoo to</item>
+      <item id="c3" alignment="r3" line="87" tag="G">  horse-DET    went   farm    POSTP</item>
+      <item id="c4" alignment="r4" line="88" tag="T">  'the horse went to the farm'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="85" tag="M">f</item>
+      <item id="n2" alignment="c2" line="86" tag="L">suu-o         t'aata k'unkoo to</item>
+      <item id="n3" alignment="c3" line="87" tag="G">horse-DET    went   farm    POSTP</item>
+      <item id="n4" alignment="c4" line="88" tag="T">the horse went to the farm</item>
+    </tier>
+  </igt>
+  <igt id="igt17" doc-id="lgcol:mnk" line-range="93-95" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="93" tag="M">  a:23 vetted: s</item>
+      <item id="r2" line="94" tag="L">  B'aakari f'aa    m'ang   n`aa</item>
+      <item id="r3" line="95" tag="G">  Baakari father not    come</item>
+      <item id="r4" line="96" tag="T">  'Baakari's father has not come'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="93" tag="M">  a:23 vetted: s</item>
+      <item id="c2" alignment="r2" line="94" tag="L">  B'aakari f'aa    m'ang   n`aa</item>
+      <item id="c3" alignment="r3" line="95" tag="G">  Baakari father not    come</item>
+      <item id="c4" alignment="r4" line="96" tag="T">  'Baakari's father has not come'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="93" tag="M">a:23 vetted: s</item>
+      <item id="n2" alignment="c2" line="94" tag="L">B'aakari f'aa    m'ang   n`aa</item>
+      <item id="n3" alignment="c3" line="95" tag="G">Baakari father not    come</item>
+      <item id="n4" alignment="c4" line="96" tag="T">Baakari's father has not come</item>
+    </tier>
+  </igt>
+  <igt id="igt18" doc-id="lgcol:mnk" line-range="97-99" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="97" tag="M">  a:23 vetted: s</item>
+      <item id="r2" line="98" tag="L">  L`anding f'aa    m'ang   t'aa    j'ee</item>
+      <item id="r3" line="99" tag="G">  Landing father not    depart there</item>
+      <item id="r4" line="100" tag="T">  'Landing's father did not go there'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="97" tag="M">  a:23 vetted: s</item>
+      <item id="c2" alignment="r2" line="98" tag="L">  L`anding f'aa    m'ang   t'aa    j'ee</item>
+      <item id="c3" alignment="r3" line="99" tag="G">  Landing father not    depart there</item>
+      <item id="c4" alignment="r4" line="100" tag="T">  'Landing's father did not go there'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="97" tag="M">a:23 vetted: s</item>
+      <item id="n2" alignment="c2" line="98" tag="L">L`anding f'aa    m'ang   t'aa    j'ee</item>
+      <item id="n3" alignment="c3" line="99" tag="G">Landing father not    depart there</item>
+      <item id="n4" alignment="c4" line="100" tag="T">Landing's father did not go there</item>
+    </tier>
+  </igt>
+  <igt id="igt19" doc-id="lgcol:mnk" line-range="101-103" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="101" tag="M">  a:95 vetted: s</item>
+      <item id="r2" line="102" tag="L">  k'onkoo le    be   'n  na</item>
+      <item id="r3" line="103" tag="G">  hunger  EMPH  is   I   inside</item>
+      <item id="r4" line="104" tag="T">  'I am hungry'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="101" tag="M">  a:95 vetted: s</item>
+      <item id="c2" alignment="r2" line="102" tag="L">  k'onkoo le    be   'n  na</item>
+      <item id="c3" alignment="r3" line="103" tag="G">  hunger  EMPH  is   I   inside</item>
+      <item id="c4" alignment="r4" line="104" tag="T">  'I am hungry'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="101" tag="M">a:95 vetted: s</item>
+      <item id="n2" alignment="c2" line="102" tag="L">k'onkoo le    be   'n  na</item>
+      <item id="n3" alignment="c3" line="103" tag="G">hunger  EMPH  is   I   inside</item>
+      <item id="n4" alignment="c4" line="104" tag="T">I am hungry</item>
+    </tier>
+  </igt>
+  <igt id="igt20" doc-id="lgcol:mnk" line-range="105-107" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="105" tag="M">  a:57 vetted: s</item>
+      <item id="r2" line="106" tag="L">  'nna b'ungo j`amfata le</item>
+      <item id="r3" line="107" tag="G">  my   house  far      EMPH</item>
+      <item id="r4" line="108" tag="T">  'my house is far'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="105" tag="M">  a:57 vetted: s</item>
+      <item id="c2" alignment="r2" line="106" tag="L">  'nna b'ungo j`amfata le</item>
+      <item id="c3" alignment="r3" line="107" tag="G">  my   house  far      EMPH</item>
+      <item id="c4" alignment="r4" line="108" tag="T">  'my house is far'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="105" tag="M">a:57 vetted: s</item>
+      <item id="n2" alignment="c2" line="106" tag="L">nna b'ungo j`amfata le</item>
+      <item id="n3" alignment="c3" line="107" tag="G">my   house  far      EMPH</item>
+      <item id="n4" alignment="c4" line="108" tag="T">my house is far</item>
+    </tier>
+  </igt>
+  <igt id="igt21" doc-id="lgcol:mnk" line-range="109-111" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="109" tag="M">  a:58 vetted: s</item>
+      <item id="r2" line="110" tag="L">  `nna b'ungo m'ang j`amfa</item>
+      <item id="r3" line="111" tag="G">  our  house  not   far</item>
+      <item id="r4" line="112" tag="T">  'our house is not far'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="109" tag="M">  a:58 vetted: s</item>
+      <item id="c2" alignment="r2" line="110" tag="L">  `nna b'ungo m'ang j`amfa</item>
+      <item id="c3" alignment="r3" line="111" tag="G">  our  house  not   far</item>
+      <item id="c4" alignment="r4" line="112" tag="T">  'our house is not far'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="109" tag="M">a:58 vetted: s</item>
+      <item id="n2" alignment="c2" line="110" tag="L">nna b'ungo m'ang j`amfa</item>
+      <item id="n3" alignment="c3" line="111" tag="G">our  house  not   far</item>
+      <item id="n4" alignment="c4" line="112" tag="T">our house is not far</item>
+    </tier>
+  </igt>
+  <igt id="igt22" doc-id="lgcol:mnk" line-range="117-119" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="117" tag="M">  author vetted: f</item>
+      <item id="r2" line="118" tag="L">  kee-o   la   k'unkoo m'ang j`amfa</item>
+      <item id="r3" line="119" tag="G">  man-DET GEN  farm    not   far</item>
+      <item id="r4" line="120" tag="T">  'the man's farm is not far'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="117" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="118" tag="L">  kee-o   la   k'unkoo m'ang j`amfa</item>
+      <item id="c3" alignment="r3" line="119" tag="G">  man-DET GEN  farm    not   far</item>
+      <item id="c4" alignment="r4" line="120" tag="T">  'the man's farm is not far'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="117" tag="M">f</item>
+      <item id="n2" alignment="c2" line="118" tag="L">kee-o   la   k'unkoo m'ang j`amfa</item>
+      <item id="n3" alignment="c3" line="119" tag="G">man-DET GEN  farm    not   far</item>
+      <item id="n4" alignment="c4" line="120" tag="T">the man's farm is not far</item>
+    </tier>
+  </igt>
+  <igt id="igt23" doc-id="lgcol:mnk" line-range="121-123" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="121" tag="M">  a:58,118 vetted: s</item>
+      <item id="r2" line="122" tag="L">  'm bi t'aa s'uu</item>
+      <item id="r3" line="123" tag="G">  i  be go   home</item>
+      <item id="r4" line="124" tag="T">  'I am going home'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="121" tag="M">  a:58,118 vetted: s</item>
+      <item id="c2" alignment="r2" line="122" tag="L">  'm bi t'aa s'uu</item>
+      <item id="c3" alignment="r3" line="123" tag="G">  i  be go   home</item>
+      <item id="c4" alignment="r4" line="124" tag="T">  'I am going home'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="121" tag="M">a:58,118 vetted: s</item>
+      <item id="n2" alignment="c2" line="122" tag="L">m bi t'aa s'uu</item>
+      <item id="n3" alignment="c3" line="123" tag="G">i  be go   home</item>
+      <item id="n4" alignment="c4" line="124" tag="T">I am going home</item>
+    </tier>
+  </igt>
+  <igt id="igt24" doc-id="lgcol:mnk" line-range="125-127" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="125" tag="M">  a:60 vetted: s</item>
+      <item id="r2" line="126" tag="L">  'm bi taa n k`uu le</item>
+      <item id="r3" line="127" tag="G">  I  be go  ? wash  EMPH</item>
+      <item id="r4" line="128" tag="T">  'I am going for a wash'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="125" tag="M">  a:60 vetted: s</item>
+      <item id="c2" alignment="r2" line="126" tag="L">  'm bi taa n k`uu le</item>
+      <item id="c3" alignment="r3" line="127" tag="G">  I  be go  ? wash  EMPH</item>
+      <item id="c4" alignment="r4" line="128" tag="T">  'I am going for a wash'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="125" tag="M">a:60 vetted: s</item>
+      <item id="n2" alignment="c2" line="126" tag="L">m bi taa n k`uu le</item>
+      <item id="n3" alignment="c3" line="127" tag="G">I  be go  ? wash  EMPH</item>
+      <item id="n4" alignment="c4" line="128" tag="T">I am going for a wash</item>
+    </tier>
+  </igt>
+  <igt id="igt25" doc-id="lgcol:mnk" line-range="129-131" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="129" tag="M">  a:39 vetted: s</item>
+      <item id="r2" line="130" tag="L">  m`usoo le    la    k'odoo f`ilita</item>
+      <item id="r3" line="131" tag="G">  woman  EMPH  GEN   money  lose</item>
+      <item id="r4" line="132" tag="T">  'it is the woman's money which is lost'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="129" tag="M">  a:39 vetted: s</item>
+      <item id="c2" alignment="r2" line="130" tag="L">  m`usoo le    la    k'odoo f`ilita</item>
+      <item id="c3" alignment="r3" line="131" tag="G">  woman  EMPH  GEN   money  lose</item>
+      <item id="c4" alignment="r4" line="132" tag="T">  'it is the woman's money which is lost'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="129" tag="M">a:39 vetted: s</item>
+      <item id="n2" alignment="c2" line="130" tag="L">m`usoo le    la    k'odoo f`ilita</item>
+      <item id="n3" alignment="c3" line="131" tag="G">woman  EMPH  GEN   money  lose</item>
+      <item id="n4" alignment="c4" line="132" tag="T">it is the woman's money which is lost</item>
+    </tier>
+  </igt>
+  <igt id="igt26" doc-id="lgcol:mnk" line-range="133-135" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="133" tag="M">  a:60 vetted: s</item>
+      <item id="r2" line="134" tag="L">  `m bi  t'aa n k`uu  le</item>
+      <item id="r3" line="135" tag="G">  we be  go   ? wash  EMPH</item>
+      <item id="r4" line="136" tag="T">  'we are going for a wash'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="133" tag="M">  a:60 vetted: s</item>
+      <item id="c2" alignment="r2" line="134" tag="L">  `m bi  t'aa n k`uu  le</item>
+      <item id="c3" alignment="r3" line="135" tag="G">  we be  go   ? wash  EMPH</item>
+      <item id="c4" alignment="r4" line="136" tag="T">  'we are going for a wash'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="133" tag="M">a:60 vetted: s</item>
+      <item id="n2" alignment="c2" line="134" tag="L">m bi  t'aa n k`uu  le</item>
+      <item id="n3" alignment="c3" line="135" tag="G">we be  go   ? wash  EMPH</item>
+      <item id="n4" alignment="c4" line="136" tag="T">we are going for a wash</item>
+    </tier>
+  </igt>
+  <igt id="igt27" doc-id="lgcol:mnk" line-range="137-139" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="137" tag="M">  a:61 vetted: s</item>
+      <item id="r2" line="138" tag="L">  `i     ye  'n   k`uu  le</item>
+      <item id="r3" line="139" tag="G">  they   PST  me  wash  EMPH</item>
+      <item id="r4" line="140" tag="T">  'they have washed me'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="137" tag="M">  a:61 vetted: s</item>
+      <item id="c2" alignment="r2" line="138" tag="L">  `i     ye  'n   k`uu  le</item>
+      <item id="c3" alignment="r3" line="139" tag="G">  they   PST  me  wash  EMPH</item>
+      <item id="c4" alignment="r4" line="140" tag="T">  'they have washed me'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="137" tag="M">a:61 vetted: s</item>
+      <item id="n2" alignment="c2" line="138" tag="L">i     ye  'n   k`uu  le</item>
+      <item id="n3" alignment="c3" line="139" tag="G">they   PST  me  wash  EMPH</item>
+      <item id="n4" alignment="c4" line="140" tag="T">they have washed me</item>
+    </tier>
+  </igt>
+  <igt id="igt28" doc-id="lgcol:mnk" line-range="141-143" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="141" tag="M">  a:61 vetted: s</item>
+      <item id="r2" line="142" tag="L">  `i     ye  'n   j'oo  le</item>
+      <item id="r3" line="143" tag="G">  they   PST me  pay    EMPH</item>
+      <item id="r4" line="144" tag="T">  'they have paid me'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="141" tag="M">  a:61 vetted: s</item>
+      <item id="c2" alignment="r2" line="142" tag="L">  `i     ye  'n   j'oo  le</item>
+      <item id="c3" alignment="r3" line="143" tag="G">  they   PST me  pay    EMPH</item>
+      <item id="c4" alignment="r4" line="144" tag="T">  'they have paid me'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="141" tag="M">a:61 vetted: s</item>
+      <item id="n2" alignment="c2" line="142" tag="L">i     ye  'n   j'oo  le</item>
+      <item id="n3" alignment="c3" line="143" tag="G">they   PST me  pay    EMPH</item>
+      <item id="n4" alignment="c4" line="144" tag="T">they have paid me</item>
+    </tier>
+  </igt>
+  <igt id="igt29" doc-id="lgcol:mnk" line-range="145-147" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="145" tag="M">  a:61 vetted: s</item>
+      <item id="r2" line="146" tag="L">  a      ye  `n j'oo le</item>
+      <item id="r3" line="147" tag="G">  he/she PT  us pay  EMPH</item>
+      <item id="r4" line="148" tag="T">  'he has paid us'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="145" tag="M">  a:61 vetted: s</item>
+      <item id="c2" alignment="r2" line="146" tag="L">  a      ye  `n j'oo le</item>
+      <item id="c3" alignment="r3" line="147" tag="G">  he/she PT  us pay  EMPH</item>
+      <item id="c4" alignment="r4" line="148" tag="T">  'he has paid us'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="145" tag="M">a:61 vetted: s</item>
+      <item id="n2" alignment="c2" line="146" tag="L">a      ye  `n j'oo le</item>
+      <item id="n3" alignment="c3" line="147" tag="G">he/she PT  us pay  EMPH</item>
+      <item id="n4" alignment="c4" line="148" tag="T">he has paid us</item>
+    </tier>
+  </igt>
+  <igt id="igt30" doc-id="lgcol:mnk" line-range="149-151" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="149" tag="M">  a:63 vetted: s</item>
+      <item id="r2" line="150" tag="L">  `ate     t'oo  mu B'aakari le    ti</item>
+      <item id="r3" line="151" tag="G">  his/her  name  is Baakari  EMPH  SENTENCE_COMPLEMENT</item>
+      <item id="r4" line="152" tag="T">  'his/her name is Bakari'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="149" tag="M">  a:63 vetted: s</item>
+      <item id="c2" alignment="r2" line="150" tag="L">  `ate     t'oo  mu B'aakari le    ti</item>
+      <item id="c3" alignment="r3" line="151" tag="G">  his/her  name  is Baakari  EMPH  SENTENCE_COMPLEMENT</item>
+      <item id="c4" alignment="r4" line="152" tag="T">  'his/her name is Bakari'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="149" tag="M">a:63 vetted: s</item>
+      <item id="n2" alignment="c2" line="150" tag="L">ate     t'oo  mu B'aakari le    ti</item>
+      <item id="n3" alignment="c3" line="151" tag="G">his/her  name  is Baakari  EMPH  SENTENCE_COMPLEMENT</item>
+      <item id="n4" alignment="c4" line="152" tag="T">his/her name is Bakari</item>
+    </tier>
+  </igt>
+  <igt id="igt31" doc-id="lgcol:mnk" line-range="153-155" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="153" tag="M">  a:103 vetted: s</item>
+      <item id="r2" line="154" tag="L">  'm m'ang d'omo d`oo</item>
+      <item id="r3" line="155" tag="G">  I  not   eat   able</item>
+      <item id="r4" line="156" tag="T">  'I could not eat it'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="153" tag="M">  a:103 vetted: s</item>
+      <item id="c2" alignment="r2" line="154" tag="L">  'm m'ang d'omo d`oo</item>
+      <item id="c3" alignment="r3" line="155" tag="G">  I  not   eat   able</item>
+      <item id="c4" alignment="r4" line="156" tag="T">  'I could not eat it'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="153" tag="M">a:103 vetted: s</item>
+      <item id="n2" alignment="c2" line="154" tag="L">m m'ang d'omo d`oo</item>
+      <item id="n3" alignment="c3" line="155" tag="G">I  not   eat   able</item>
+      <item id="n4" alignment="c4" line="156" tag="T">I could not eat it</item>
+    </tier>
+  </igt>
+  <igt id="igt32" doc-id="lgcol:mnk" line-range="157-159" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="157" tag="M">  a:103 vetted: s</item>
+      <item id="r2" line="158" tag="L">  a       be t'abi-roo   le    la    </item>
+      <item id="r3" line="159" tag="G">  he/she  is cook-INTR   EMPH  EMPH</item>
+      <item id="r4" line="160" tag="T">  'he/she is cooking'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="157" tag="M">  a:103 vetted: s</item>
+      <item id="c2" alignment="r2" line="158" tag="L">  a       be t'abi-roo   le    la    </item>
+      <item id="c3" alignment="r3" line="159" tag="G">  he/she  is cook-INTR   EMPH  EMPH</item>
+      <item id="c4" alignment="r4" line="160" tag="T">  'he/she is cooking'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="157" tag="M">a:103 vetted: s</item>
+      <item id="n2" alignment="c2" line="158" tag="L">a       be t'abi-roo   le    la</item>
+      <item id="n3" alignment="c3" line="159" tag="G">he/she  is cook-INTR   EMPH  EMPH</item>
+      <item id="n4" alignment="c4" line="160" tag="T">he/she is cooking</item>
+    </tier>
+  </igt>
+  <igt id="igt33" doc-id="lgcol:mnk" line-range="161-163" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="161" tag="M">  author vetted: f</item>
+      <item id="r2" line="162" tag="L">  a       be domoo-ri  le    la    </item>
+      <item id="r3" line="163" tag="G">  he/she  is eat-INTR  EMPH  EMPH</item>
+      <item id="r4" line="164" tag="T">  'he/she is eating'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="161" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="162" tag="L">  a       be domoo-ri  le    la    </item>
+      <item id="c3" alignment="r3" line="163" tag="G">  he/she  is eat-INTR  EMPH  EMPH</item>
+      <item id="c4" alignment="r4" line="164" tag="T">  'he/she is eating'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="161" tag="M">f</item>
+      <item id="n2" alignment="c2" line="162" tag="L">a       be domoo-ri  le    la</item>
+      <item id="n3" alignment="c3" line="163" tag="G">he/she  is eat-INTR  EMPH  EMPH</item>
+      <item id="n4" alignment="c4" line="164" tag="T">he/she is eating</item>
+    </tier>
+  </igt>
+  <igt id="igt34" doc-id="lgcol:mnk" line-range="165-167" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="165" tag="M">  a:129 vetted: s</item>
+      <item id="r2" line="166" tag="L">  i          ye   meng    t'ara l'oo-ring,     'i   si  w`o   t`aa</item>
+      <item id="r3" line="167" tag="G">  you.UNEMPH PT  NOM.REL find stand-STATIVE    you IMP  that take</item>
+      <item id="r4" line="168" tag="T">  'the one you find standing, you must take that one'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="165" tag="M">  a:129 vetted: s</item>
+      <item id="c2" alignment="r2" line="166" tag="L">  i          ye   meng    t'ara l'oo-ring,     'i   si  w`o   t`aa</item>
+      <item id="c3" alignment="r3" line="167" tag="G">  you.UNEMPH PT  NOM.REL find stand-STATIVE    you IMP  that take</item>
+      <item id="c4" alignment="r4" line="168" tag="T">  'the one you find standing, you must take that one'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="165" tag="M">a:129 vetted: s</item>
+      <item id="n2" alignment="c2" line="166" tag="L">i          ye   meng    t'ara l'oo-ring,     'i   si  w`o   t`aa</item>
+      <item id="n3" alignment="c3" line="167" tag="G">you.UNEMPH PT  NOM.REL find stand-STATIVE    you IMP  that take</item>
+      <item id="n4" alignment="c4" line="168" tag="T">the one you find standing, you must take that one</item>
+    </tier>
+  </igt>
+  <igt id="igt35" doc-id="lgcol:mnk" line-range="169-171" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="169" tag="M">  a:64 vetted: s</item>
+      <item id="r2" line="170" tag="L">  'i      ye  'nna d`endikoo n`ondi   le</item>
+      <item id="r3" line="171" tag="G">  you.SG  PT  my   clothes   dirty.V  EMPH</item>
+      <item id="r4" line="172" tag="T">  'you have dirtied my clothes'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="169" tag="M">  a:64 vetted: s</item>
+      <item id="c2" alignment="r2" line="170" tag="L">  'i      ye  'nna d`endikoo n`ondi   le</item>
+      <item id="c3" alignment="r3" line="171" tag="G">  you.SG  PT  my   clothes   dirty.V  EMPH</item>
+      <item id="c4" alignment="r4" line="172" tag="T">  'you have dirtied my clothes'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="169" tag="M">a:64 vetted: s</item>
+      <item id="n2" alignment="c2" line="170" tag="L">i      ye  'nna d`endikoo n`ondi   le</item>
+      <item id="n3" alignment="c3" line="171" tag="G">you.SG  PT  my   clothes   dirty.V  EMPH</item>
+      <item id="n4" alignment="c4" line="172" tag="T">you have dirtied my clothes</item>
+    </tier>
+  </igt>
+  <igt id="igt36" doc-id="lgcol:mnk" line-range="173-175" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="173" tag="M">  a:61 vetted: s</item>
+      <item id="r2" line="174" tag="L">  'i      y'aa m'oyi le</item>
+      <item id="r3" line="175" tag="G">  you.SG  PT   hear  EMPH</item>
+      <item id="r4" line="176" tag="T">  'you have heard'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="173" tag="M">  a:61 vetted: s</item>
+      <item id="c2" alignment="r2" line="174" tag="L">  'i      y'aa m'oyi le</item>
+      <item id="c3" alignment="r3" line="175" tag="G">  you.SG  PT   hear  EMPH</item>
+      <item id="c4" alignment="r4" line="176" tag="T">  'you have heard'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="173" tag="M">a:61 vetted: s</item>
+      <item id="n2" alignment="c2" line="174" tag="L">i      y'aa m'oyi le</item>
+      <item id="n3" alignment="c3" line="175" tag="G">you.SG  PT   hear  EMPH</item>
+      <item id="n4" alignment="c4" line="176" tag="T">you have heard</item>
+    </tier>
+  </igt>
+  <igt id="igt37" doc-id="lgcol:mnk" line-range="177-179" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="177" tag="M">  a:58 vetted: s</item>
+      <item id="r2" line="178" tag="L">  `m m'an t'aa   n`oo</item>
+      <item id="r3" line="179" tag="G">  we not  depart able</item>
+      <item id="r4" line="180" tag="T">  'we cannot go'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="177" tag="M">  a:58 vetted: s</item>
+      <item id="c2" alignment="r2" line="178" tag="L">  `m m'an t'aa   n`oo</item>
+      <item id="c3" alignment="r3" line="179" tag="G">  we not  depart able</item>
+      <item id="c4" alignment="r4" line="180" tag="T">  'we cannot go'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="177" tag="M">a:58 vetted: s</item>
+      <item id="n2" alignment="c2" line="178" tag="L">m m'an t'aa   n`oo</item>
+      <item id="n3" alignment="c3" line="179" tag="G">we not  depart able</item>
+      <item id="n4" alignment="c4" line="180" tag="T">we cannot go</item>
+    </tier>
+  </igt>
+  <igt id="igt38" doc-id="lgcol:mnk" line-range="181-183" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="181" tag="M">  a:58 vetted: s</item>
+      <item id="r2" line="182" tag="L">  `n  so   kodoo la</item>
+      <item id="r3" line="183" tag="G">  us  give money EMPH</item>
+      <item id="r4" line="184" tag="T">  'give us money'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="181" tag="M">  a:58 vetted: s</item>
+      <item id="c2" alignment="r2" line="182" tag="L">  `n  so   kodoo la</item>
+      <item id="c3" alignment="r3" line="183" tag="G">  us  give money EMPH</item>
+      <item id="c4" alignment="r4" line="184" tag="T">  'give us money'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="181" tag="M">a:58 vetted: s</item>
+      <item id="n2" alignment="c2" line="182" tag="L">n  so   kodoo la</item>
+      <item id="n3" alignment="c3" line="183" tag="G">us  give money EMPH</item>
+      <item id="n4" alignment="c4" line="184" tag="T">give us money</item>
+    </tier>
+  </igt>
+  <igt id="igt39" doc-id="lgcol:mnk" line-range="185-187" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="185" tag="M">  a:57 vetted: s</item>
+      <item id="r2" line="186" tag="L">  'n  s'o   k'odoo la</item>
+      <item id="r3" line="187" tag="G">  me  give  money  EMPH</item>
+      <item id="r4" line="188" tag="T">  'give me money'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="185" tag="M">  a:57 vetted: s</item>
+      <item id="c2" alignment="r2" line="186" tag="L">  'n  s'o   k'odoo la</item>
+      <item id="c3" alignment="r3" line="187" tag="G">  me  give  money  EMPH</item>
+      <item id="c4" alignment="r4" line="188" tag="T">  'give me money'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="185" tag="M">a:57 vetted: s</item>
+      <item id="n2" alignment="c2" line="186" tag="L">n  s'o   k'odoo la</item>
+      <item id="n3" alignment="c3" line="187" tag="G">me  give  money  EMPH</item>
+      <item id="n4" alignment="c4" line="188" tag="T">give me money</item>
+    </tier>
+  </igt>
+  <igt id="igt40" doc-id="lgcol:mnk" line-range="189-191" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="189" tag="M">  a:57 vetted: s</item>
+      <item id="r2" line="190" tag="L">  i      si   taa    jee</item>
+      <item id="r3" line="191" tag="G">  you.SG  IMP  depart  there</item>
+      <item id="r4" line="192" tag="T">  'you must go there'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="189" tag="M">  a:57 vetted: s</item>
+      <item id="c2" alignment="r2" line="190" tag="L">  i      si   taa    jee</item>
+      <item id="c3" alignment="r3" line="191" tag="G">  you.SG  IMP  depart  there</item>
+      <item id="c4" alignment="r4" line="192" tag="T">  'you must go there'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="189" tag="M">a:57 vetted: s</item>
+      <item id="n2" alignment="c2" line="190" tag="L">i      si   taa    jee</item>
+      <item id="n3" alignment="c3" line="191" tag="G">you.SG  IMP  depart  there</item>
+      <item id="n4" alignment="c4" line="192" tag="T">you must go there</item>
+    </tier>
+  </igt>
+  <igt id="igt41" doc-id="lgcol:mnk" line-range="193-195" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="193" tag="M">  a:48 vetted: s</item>
+      <item id="r2" line="194" tag="L">  s'oli    kiling ne    bi j'ee</item>
+      <item id="r3" line="195" tag="G">  leopard  one    EMPH  be there</item>
+      <item id="r4" line="196" tag="T">  'there is one leopard there'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="193" tag="M">  a:48 vetted: s</item>
+      <item id="c2" alignment="r2" line="194" tag="L">  s'oli    kiling ne    bi j'ee</item>
+      <item id="c3" alignment="r3" line="195" tag="G">  leopard  one    EMPH  be there</item>
+      <item id="c4" alignment="r4" line="196" tag="T">  'there is one leopard there'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="193" tag="M">a:48 vetted: s</item>
+      <item id="n2" alignment="c2" line="194" tag="L">s'oli    kiling ne    bi j'ee</item>
+      <item id="n3" alignment="c3" line="195" tag="G">leopard  one    EMPH  be there</item>
+      <item id="n4" alignment="c4" line="196" tag="T">there is one leopard there</item>
+    </tier>
+  </igt>
+  <igt id="igt42" doc-id="lgcol:mnk" line-range="197-199" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="197" tag="M">  author vetted: f</item>
+      <item id="r2" line="198" tag="L">  s'oli-oo      ne    bi j'ee</item>
+      <item id="r3" line="199" tag="G">  leopard-DET   EMPH  be there</item>
+      <item id="r4" line="200" tag="T">  'there is a leopard there'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="197" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="198" tag="L">  s'oli-oo      ne    bi j'ee</item>
+      <item id="c3" alignment="r3" line="199" tag="G">  leopard-DET   EMPH  be there</item>
+      <item id="c4" alignment="r4" line="200" tag="T">  'there is a leopard there'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="197" tag="M">f</item>
+      <item id="n2" alignment="c2" line="198" tag="L">s'oli-oo      ne    bi j'ee</item>
+      <item id="n3" alignment="c3" line="199" tag="G">leopard-DET   EMPH  be there</item>
+      <item id="n4" alignment="c4" line="200" tag="T">there is a leopard there</item>
+    </tier>
+  </igt>
+  <igt id="igt43" doc-id="lgcol:mnk" line-range="201-203" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="201" tag="M">  a:48 vetted: s</item>
+      <item id="r2" line="202" tag="L">  b'ung  n'aani le    bi jee</item>
+      <item id="r3" line="203" tag="G">  house  four   EMPH  be there</item>
+      <item id="r4" line="204" tag="T">  "there are four houses there"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="201" tag="M">  a:48 vetted: s</item>
+      <item id="c2" alignment="r2" line="202" tag="L">  b'ung  n'aani le    bi jee</item>
+      <item id="c3" alignment="r3" line="203" tag="G">  house  four   EMPH  be there</item>
+      <item id="c4" alignment="r4" line="204" tag="T">  "there are four houses there"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="201" tag="M">a:48 vetted: s</item>
+      <item id="n2" alignment="c2" line="202" tag="L">b'ung  n'aani le    bi jee</item>
+      <item id="n3" alignment="c3" line="203" tag="G">house  four   EMPH  be there</item>
+      <item id="n4" alignment="c4" line="204" tag="T">there are four houses there</item>
+    </tier>
+  </igt>
+  <igt id="igt44" doc-id="lgcol:mnk" line-range="205-207" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="205" tag="M">  author vetted: f</item>
+      <item id="r2" line="206" tag="L">  wulu olu siinoo</item>
+      <item id="r3" line="207" tag="G">  dog DET.PL   sleep</item>
+      <item id="r4" line="208" tag="T">  "the dogs sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="205" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="206" tag="L">  wulu olu siinoo</item>
+      <item id="c3" alignment="r3" line="207" tag="G">  dog DET.PL   sleep</item>
+      <item id="c4" alignment="r4" line="208" tag="T">  "the dogs sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="205" tag="M">f</item>
+      <item id="n2" alignment="c2" line="206" tag="L">wulu olu siinoo</item>
+      <item id="n3" alignment="c3" line="207" tag="G">dog DET.PL   sleep</item>
+      <item id="n4" alignment="c4" line="208" tag="T">the dogs sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt45" doc-id="lgcol:mnk" line-range="213-215" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="213" tag="M">  author vetted: f</item>
+      <item id="r2" line="214" tag="L">  wulu o siinoo</item>
+      <item id="r3" line="215" tag="G">  dog DET   sleep</item>
+      <item id="r4" line="216" tag="T">  "the dog sleeps"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="213" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="214" tag="L">  wulu o siinoo</item>
+      <item id="c3" alignment="r3" line="215" tag="G">  dog DET   sleep</item>
+      <item id="c4" alignment="r4" line="216" tag="T">  "the dog sleeps"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="213" tag="M">f</item>
+      <item id="n2" alignment="c2" line="214" tag="L">wulu o siinoo</item>
+      <item id="n3" alignment="c3" line="215" tag="G">dog DET   sleep</item>
+      <item id="n4" alignment="c4" line="216" tag="T">the dog sleeps</item>
+    </tier>
+  </igt>
+  <igt id="igt46" doc-id="lgcol:mnk" line-range="217-219" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="217" tag="M">  author vetted: f</item>
+      <item id="r2" line="218" tag="L">  wulu fing o     siinoo</item>
+      <item id="r3" line="219" tag="G">  dog  black DET  sleep</item>
+      <item id="r4" line="220" tag="T">  "the black dog sleeps"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="217" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="218" tag="L">  wulu fing o     siinoo</item>
+      <item id="c3" alignment="r3" line="219" tag="G">  dog  black DET  sleep</item>
+      <item id="c4" alignment="r4" line="220" tag="T">  "the black dog sleeps"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="217" tag="M">f</item>
+      <item id="n2" alignment="c2" line="218" tag="L">wulu fing o     siinoo</item>
+      <item id="n3" alignment="c3" line="219" tag="G">dog  black DET  sleep</item>
+      <item id="n4" alignment="c4" line="220" tag="T">the black dog sleeps</item>
+    </tier>
+  </igt>
+  <igt id="igt47" doc-id="lgcol:mnk" line-range="221-223" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="221" tag="M">  author vetted: f</item>
+      <item id="r2" line="222" tag="L">  wulu fing  olu     siinoo</item>
+      <item id="r3" line="223" tag="G">  dog  black DET.PL  sleep</item>
+      <item id="r4" line="224" tag="T">  "the black dogs sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="221" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="222" tag="L">  wulu fing  olu     siinoo</item>
+      <item id="c3" alignment="r3" line="223" tag="G">  dog  black DET.PL  sleep</item>
+      <item id="c4" alignment="r4" line="224" tag="T">  "the black dogs sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="221" tag="M">f</item>
+      <item id="n2" alignment="c2" line="222" tag="L">wulu fing  olu     siinoo</item>
+      <item id="n3" alignment="c3" line="223" tag="G">dog  black DET.PL  sleep</item>
+      <item id="n4" alignment="c4" line="224" tag="T">the black dogs sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt48" doc-id="lgcol:mnk" line-range="225-227" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="225" tag="M">  author vetted: f</item>
+      <item id="r2" line="226" tag="L">  wulu fing  konkota olu     siinoo</item>
+      <item id="r3" line="227" tag="G">  dog  black hungry  DET.PL  sleep</item>
+      <item id="r4" line="228" tag="T">  "the hungry black dogs sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="225" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="226" tag="L">  wulu fing  konkota olu     siinoo</item>
+      <item id="c3" alignment="r3" line="227" tag="G">  dog  black hungry  DET.PL  sleep</item>
+      <item id="c4" alignment="r4" line="228" tag="T">  "the hungry black dogs sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="225" tag="M">f</item>
+      <item id="n2" alignment="c2" line="226" tag="L">wulu fing  konkota olu     siinoo</item>
+      <item id="n3" alignment="c3" line="227" tag="G">dog  black hungry  DET.PL  sleep</item>
+      <item id="n4" alignment="c4" line="228" tag="T">the hungry black dogs sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt49" doc-id="lgcol:mnk" line-range="229-231" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="229" tag="M">  author vetted: f</item>
+      <item id="r2" line="230" tag="L">  wulu fing  konkota olu     siinoo katabake</item>
+      <item id="r3" line="231" tag="G">  dog  black hungry  DET.PL  sleep  quickly</item>
+      <item id="r4" line="232" tag="T">  "the hungry black dogs sleep quickly"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="229" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="230" tag="L">  wulu fing  konkota olu     siinoo katabake</item>
+      <item id="c3" alignment="r3" line="231" tag="G">  dog  black hungry  DET.PL  sleep  quickly</item>
+      <item id="c4" alignment="r4" line="232" tag="T">  "the hungry black dogs sleep quickly"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="229" tag="M">f</item>
+      <item id="n2" alignment="c2" line="230" tag="L">wulu fing  konkota olu     siinoo katabake</item>
+      <item id="n3" alignment="c3" line="231" tag="G">dog  black hungry  DET.PL  sleep  quickly</item>
+      <item id="n4" alignment="c4" line="232" tag="T">the hungry black dogs sleep quickly</item>
+    </tier>
+  </igt>
+  <igt id="igt50" doc-id="lgcol:mnk" line-range="233-235" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="233" tag="M">  author vetted: f</item>
+      <item id="r2" line="234" tag="L">  wulu o    siinoo katabake</item>
+      <item id="r3" line="235" tag="G">  dog  DET  sleep  quickly</item>
+      <item id="r4" line="236" tag="T">  "the dog sleeps quickly"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="233" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="234" tag="L">  wulu o    siinoo katabake</item>
+      <item id="c3" alignment="r3" line="235" tag="G">  dog  DET  sleep  quickly</item>
+      <item id="c4" alignment="r4" line="236" tag="T">  "the dog sleeps quickly"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="233" tag="M">f</item>
+      <item id="n2" alignment="c2" line="234" tag="L">wulu o    siinoo katabake</item>
+      <item id="n3" alignment="c3" line="235" tag="G">dog  DET  sleep  quickly</item>
+      <item id="n4" alignment="c4" line="236" tag="T">the dog sleeps quickly</item>
+    </tier>
+  </igt>
+  <igt id="igt51" doc-id="lgcol:mnk" line-range="237-239" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="237" tag="M">  author vetted: f</item>
+      <item id="r2" line="238" tag="L">  wuloo-lu motoo-lu bayindi</item>
+      <item id="r3" line="239" tag="G">  dog-PL   car-PL   chase</item>
+      <item id="r4" line="240" tag="T">  "dogs chase cars"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="237" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="238" tag="L">  wuloo-lu motoo-lu bayindi</item>
+      <item id="c3" alignment="r3" line="239" tag="G">  dog-PL   car-PL   chase</item>
+      <item id="c4" alignment="r4" line="240" tag="T">  "dogs chase cars"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="237" tag="M">f</item>
+      <item id="n2" alignment="c2" line="238" tag="L">wuloo-lu motoo-lu bayindi</item>
+      <item id="n3" alignment="c3" line="239" tag="G">dog-PL   car-PL   chase</item>
+      <item id="n4" alignment="c4" line="240" tag="T">dogs chase cars</item>
+    </tier>
+  </igt>
+  <igt id="igt52" doc-id="lgcol:mnk" line-range="241-243" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="241" tag="M">  author vetted: f</item>
+      <item id="r2" line="242" tag="L">  n i   bayindi</item>
+      <item id="r3" line="243" tag="G">  i you chase</item>
+      <item id="r4" line="244" tag="T">  "I chase you"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="241" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="242" tag="L">  n i   bayindi</item>
+      <item id="c3" alignment="r3" line="243" tag="G">  i you chase</item>
+      <item id="c4" alignment="r4" line="244" tag="T">  "I chase you"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="241" tag="M">f</item>
+      <item id="n2" alignment="c2" line="242" tag="L">n i   bayindi</item>
+      <item id="n3" alignment="c3" line="243" tag="G">i you chase</item>
+      <item id="n4" alignment="c4" line="244" tag="T">I chase you</item>
+    </tier>
+  </igt>
+  <igt id="igt53" doc-id="lgcol:mnk" line-range="245-247" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="245" tag="M">  author vetted: f</item>
+      <item id="r2" line="246" tag="L">  ninnu wuloo-lu siinoo</item>
+      <item id="r3" line="247" tag="G">  these dog-PL sleep</item>
+      <item id="r4" line="248" tag="T">  "these dogs sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="245" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="246" tag="L">  ninnu wuloo-lu siinoo</item>
+      <item id="c3" alignment="r3" line="247" tag="G">  these dog-PL sleep</item>
+      <item id="c4" alignment="r4" line="248" tag="T">  "these dogs sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="245" tag="M">f</item>
+      <item id="n2" alignment="c2" line="246" tag="L">ninnu wuloo-lu siinoo</item>
+      <item id="n3" alignment="c3" line="247" tag="G">these dog-PL sleep</item>
+      <item id="n4" alignment="c4" line="248" tag="T">these dogs sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt54" doc-id="lgcol:mnk" line-range="249-251" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="249" tag="M">  author vetted: f</item>
+      <item id="r2" line="250" tag="L">  wuloo-lu d'omo</item>
+      <item id="r3" line="251" tag="G">  dog-PL   eat</item>
+      <item id="r4" line="252" tag="T">  "dogs eat"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="249" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="250" tag="L">  wuloo-lu d'omo</item>
+      <item id="c3" alignment="r3" line="251" tag="G">  dog-PL   eat</item>
+      <item id="c4" alignment="r4" line="252" tag="T">  "dogs eat"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="249" tag="M">f</item>
+      <item id="n2" alignment="c2" line="250" tag="L">wuloo-lu d'omo</item>
+      <item id="n3" alignment="c3" line="251" tag="G">dog-PL   eat</item>
+      <item id="n4" alignment="c4" line="252" tag="T">dogs eat</item>
+    </tier>
+  </igt>
+  <igt id="igt55" doc-id="lgcol:mnk" line-range="253-255" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="253" tag="M">  author vetted: f</item>
+      <item id="r2" line="254" tag="L">  n weere o   domo noo</item>
+      <item id="r3" line="255" tag="G">  I glass DET eat  can</item>
+      <item id="r4" line="256" tag="T">  "I can eat glass"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="253" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="254" tag="L">  n weere o   domo noo</item>
+      <item id="c3" alignment="r3" line="255" tag="G">  I glass DET eat  can</item>
+      <item id="c4" alignment="r4" line="256" tag="T">  "I can eat glass"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="253" tag="M">f</item>
+      <item id="n2" alignment="c2" line="254" tag="L">n weere o   domo noo</item>
+      <item id="n3" alignment="c3" line="255" tag="G">I glass DET eat  can</item>
+      <item id="n4" alignment="c4" line="256" tag="T">I can eat glass</item>
+    </tier>
+  </igt>
+  <igt id="igt56" doc-id="lgcol:mnk" line-range="257-259" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="257" tag="M">  author vetted: f</item>
+      <item id="r2" line="258" tag="L">  a  buka   m  baram</item>
+      <item id="r3" line="259" tag="G">  it doesn't me harm</item>
+      <item id="r4" line="260" tag="T">  "it doesn't hurt me"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="257" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="258" tag="L">  a  buka   m  baram</item>
+      <item id="c3" alignment="r3" line="259" tag="G">  it doesn't me harm</item>
+      <item id="c4" alignment="r4" line="260" tag="T">  "it doesn't hurt me"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="257" tag="M">f</item>
+      <item id="n2" alignment="c2" line="258" tag="L">a  buka   m  baram</item>
+      <item id="n3" alignment="c3" line="259" tag="G">it doesn't me harm</item>
+      <item id="n4" alignment="c4" line="260" tag="T">it doesn't hurt me</item>
+    </tier>
+  </igt>
+  <igt id="igt57" doc-id="lgcol:mnk" line-range="273-275" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="273" tag="M">  author vetted: f</item>
+      <item id="r2" line="274" tag="L">  wuloo-lu motoo-lu bayindi</item>
+      <item id="r3" line="275" tag="G">  dog-PL   car-PL   chase</item>
+      <item id="r4" line="276" tag="T">  "the dogs chase cars"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="273" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="274" tag="L">  wuloo-lu motoo-lu bayindi</item>
+      <item id="c3" alignment="r3" line="275" tag="G">  dog-PL   car-PL   chase</item>
+      <item id="c4" alignment="r4" line="276" tag="T">  "the dogs chase cars"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="273" tag="M">f</item>
+      <item id="n2" alignment="c2" line="274" tag="L">wuloo-lu motoo-lu bayindi</item>
+      <item id="n3" alignment="c3" line="275" tag="G">dog-PL   car-PL   chase</item>
+      <item id="n4" alignment="c4" line="276" tag="T">the dogs chase cars</item>
+    </tier>
+  </igt>
+  <igt id="igt58" doc-id="lgcol:mnk" line-range="277-279" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="277" tag="M">  author vetted: f</item>
+      <item id="r2" line="278" tag="L">  i   ye  a  long ko   wuloo-lu motoo-lu bayindi</item>
+      <item id="r3" line="279" tag="G">  you PST it know that dog-PL   car-PL   chase</item>
+      <item id="r4" line="280" tag="T">  "you know that dogs chase cars"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="277" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="278" tag="L">  i   ye  a  long ko   wuloo-lu motoo-lu bayindi</item>
+      <item id="c3" alignment="r3" line="279" tag="G">  you PST it know that dog-PL   car-PL   chase</item>
+      <item id="c4" alignment="r4" line="280" tag="T">  "you know that dogs chase cars"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="277" tag="M">f</item>
+      <item id="n2" alignment="c2" line="278" tag="L">i   ye  a  long ko   wuloo-lu motoo-lu bayindi</item>
+      <item id="n3" alignment="c3" line="279" tag="G">you PST it know that dog-PL   car-PL   chase</item>
+      <item id="n4" alignment="c4" line="280" tag="T">you know that dogs chase cars</item>
+    </tier>
+  </igt>
+  <igt id="igt59" doc-id="lgcol:mnk" line-range="281-283" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="281" tag="M">  author vetted: f</item>
+      <item id="r2" line="282" tag="L">  m ye  a  jiibee ko   i   ye  a  long ko   wuloo-lu motoo-lu bayindi</item>
+      <item id="r3" line="283" tag="G">  I PST it think  that you PST it know that dog-PL  car-PL  chase</item>
+      <item id="r4" line="284" tag="T">  I think that you know that dogs chase cars</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="281" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="282" tag="L">  m ye  a  jiibee ko   i   ye  a  long ko   wuloo-lu motoo-lu bayindi</item>
+      <item id="c3" alignment="r3" line="283" tag="G">  I PST it think  that you PST it know that dog-PL  car-PL  chase</item>
+      <item id="c4" alignment="r4" line="284" tag="T">  I think that you know that dogs chase cars</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="281" tag="M">f</item>
+      <item id="n2" alignment="c2" line="282" tag="L">m ye  a  jiibee ko   i   ye  a  long ko   wuloo-lu motoo-lu bayindi</item>
+      <item id="n3" alignment="c3" line="283" tag="G">I PST it think  that you PST it know that dog-PL  car-PL  chase</item>
+      <item id="n4" alignment="c4" line="284" tag="T">I think that you know that dogs chase cars</item>
+    </tier>
+  </igt>
+  <igt id="igt60" doc-id="lgcol:mnk" line-range="285-287" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="285" tag="M">  author vetted: f</item>
+      <item id="r2" line="286" tag="L">  i   ye  a  long ko   wulu olu    motu olu     bayindi</item>
+      <item id="r3" line="287" tag="G">  you PST it know that dog  DET.PL car  DET.PL  chase</item>
+      <item id="r4" line="288" tag="T">  you know that dogs chase cars</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="285" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="286" tag="L">  i   ye  a  long ko   wulu olu    motu olu     bayindi</item>
+      <item id="c3" alignment="r3" line="287" tag="G">  you PST it know that dog  DET.PL car  DET.PL  chase</item>
+      <item id="c4" alignment="r4" line="288" tag="T">  you know that dogs chase cars</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="285" tag="M">f</item>
+      <item id="n2" alignment="c2" line="286" tag="L">i   ye  a  long ko   wulu olu    motu olu     bayindi</item>
+      <item id="n3" alignment="c3" line="287" tag="G">you PST it know that dog  DET.PL car  DET.PL  chase</item>
+      <item id="n4" alignment="c4" line="288" tag="T">you know that dogs chase cars</item>
+    </tier>
+  </igt>
+  <igt id="igt61" doc-id="lgcol:mnk" line-range="289-291" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="289" tag="M">  author vetted: f</item>
+      <item id="r2" line="290" tag="L">  i   ye  a  long</item>
+      <item id="r3" line="291" tag="G">  you COMPL it know</item>
+      <item id="r4" line="292" tag="T">  you know it</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="289" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="290" tag="L">  i   ye  a  long</item>
+      <item id="c3" alignment="r3" line="291" tag="G">  you COMPL it know</item>
+      <item id="c4" alignment="r4" line="292" tag="T">  you know it</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="289" tag="M">f</item>
+      <item id="n2" alignment="c2" line="290" tag="L">i   ye  a  long</item>
+      <item id="n3" alignment="c3" line="291" tag="G">you COMPL it know</item>
+      <item id="n4" alignment="c4" line="292" tag="T">you know it</item>
+    </tier>
+  </igt>
+  <igt id="igt62" doc-id="lgcol:mnk" line-range="293-295" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="293" tag="M">  author vetted: f</item>
+      <item id="r2" line="294" tag="L">  m a  nininkaa fo i   ye  a  long ko   wuloo-lu motoo-lu bayindi</item>
+      <item id="r3" line="295" tag="G">  i it ask      Q  you PST it know that dog-PL   car-PL   chase</item>
+      <item id="r4" line="296" tag="T">  "I ask whether you know that dogs chase cars"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="293" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="294" tag="L">  m a  nininkaa fo i   ye  a  long ko   wuloo-lu motoo-lu bayindi</item>
+      <item id="c3" alignment="r3" line="295" tag="G">  i it ask      Q  you PST it know that dog-PL   car-PL   chase</item>
+      <item id="c4" alignment="r4" line="296" tag="T">  "I ask whether you know that dogs chase cars"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="293" tag="M">f</item>
+      <item id="n2" alignment="c2" line="294" tag="L">m a  nininkaa fo i   ye  a  long ko   wuloo-lu motoo-lu bayindi</item>
+      <item id="n3" alignment="c3" line="295" tag="G">i it ask      Q  you PST it know that dog-PL   car-PL   chase</item>
+      <item id="n4" alignment="c4" line="296" tag="T">I ask whether you know that dogs chase cars</item>
+    </tier>
+  </igt>
+  <igt id="igt63" doc-id="lgcol:mnk" line-range="297-299" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="297" tag="M">  author vetted: f</item>
+      <item id="r2" line="298" tag="L">  nankumoo-lu ming wuloo-lu motoo-lu bayindi</item>
+      <item id="r3" line="299" tag="G">  cat-PL      and  dog-PL   car-PL   chase</item>
+      <item id="r4" line="300" tag="T">  "cats and dogs chase cars"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="297" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="298" tag="L">  nankumoo-lu ming wuloo-lu motoo-lu bayindi</item>
+      <item id="c3" alignment="r3" line="299" tag="G">  cat-PL      and  dog-PL   car-PL   chase</item>
+      <item id="c4" alignment="r4" line="300" tag="T">  "cats and dogs chase cars"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="297" tag="M">f</item>
+      <item id="n2" alignment="c2" line="298" tag="L">nankumoo-lu ming wuloo-lu motoo-lu bayindi</item>
+      <item id="n3" alignment="c3" line="299" tag="G">cat-PL      and  dog-PL   car-PL   chase</item>
+      <item id="n4" alignment="c4" line="300" tag="T">cats and dogs chase cars</item>
+    </tier>
+  </igt>
+  <igt id="igt64" doc-id="lgcol:mnk" line-range="301-303" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="301" tag="M">  author vetted: f</item>
+      <item id="r2" line="302" tag="L">  nankumu olu    wulu olu    bayindi bang</item>
+      <item id="r3" line="303" tag="G">  cat     DET.PL dog  DET.PL chase   Q</item>
+      <item id="r4" line="304" tag="T">  "do cats chase dogs?"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="301" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="302" tag="L">  nankumu olu    wulu olu    bayindi bang</item>
+      <item id="c3" alignment="r3" line="303" tag="G">  cat     DET.PL dog  DET.PL chase   Q</item>
+      <item id="c4" alignment="r4" line="304" tag="T">  "do cats chase dogs?"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="301" tag="M">f</item>
+      <item id="n2" alignment="c2" line="302" tag="L">nankumu olu    wulu olu    bayindi bang</item>
+      <item id="n3" alignment="c3" line="303" tag="G">cat     DET.PL dog  DET.PL chase   Q</item>
+      <item id="n4" alignment="c4" line="304" tag="T">do cats chase dogs?</item>
+    </tier>
+  </igt>
+  <igt id="igt65" doc-id="lgcol:mnk" line-range="309-311" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="309" tag="M">  author vetted: f</item>
+      <item id="r2" line="310" tag="L">  wuloo bayindi</item>
+      <item id="r3" line="311" tag="G">  dog   chase</item>
+      <item id="r4" line="312" tag="T">  "chase the dog"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="309" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="310" tag="L">  wuloo bayindi</item>
+      <item id="c3" alignment="r3" line="311" tag="G">  dog   chase</item>
+      <item id="c4" alignment="r4" line="312" tag="T">  "chase the dog"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="309" tag="M">f</item>
+      <item id="n2" alignment="c2" line="310" tag="L">wuloo bayindi</item>
+      <item id="n3" alignment="c3" line="311" tag="G">dog   chase</item>
+      <item id="n4" alignment="c4" line="312" tag="T">chase the dog</item>
+    </tier>
+  </igt>
+  <igt id="igt66" doc-id="lgcol:mnk" line-range="313-315" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="313" tag="M">  author vetted: f</item>
+      <item id="r2" line="314" tag="L">  wulu konkota-lu d'omo</item>
+      <item id="r3" line="315" tag="G">  dog  hungry-PL  eat</item>
+      <item id="r4" line="316" tag="T">  "hungry dogs eat"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="313" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="314" tag="L">  wulu konkota-lu d'omo</item>
+      <item id="c3" alignment="r3" line="315" tag="G">  dog  hungry-PL  eat</item>
+      <item id="c4" alignment="r4" line="316" tag="T">  "hungry dogs eat"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="313" tag="M">f</item>
+      <item id="n2" alignment="c2" line="314" tag="L">wulu konkota-lu d'omo</item>
+      <item id="n3" alignment="c3" line="315" tag="G">dog  hungry-PL  eat</item>
+      <item id="n4" alignment="c4" line="316" tag="T">hungry dogs eat</item>
+    </tier>
+  </igt>
+  <igt id="igt67" doc-id="lgcol:mnk" line-range="317-319" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="317" tag="M">  author vetted: f</item>
+      <item id="r2" line="318" tag="L">  wulu konkota-lu d'omo katabake</item>
+      <item id="r3" line="319" tag="G">  dog  hungry-PL  eat   quickly</item>
+      <item id="r4" line="320" tag="T">  "hungry dogs eat quickly"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="317" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="318" tag="L">  wulu konkota-lu d'omo katabake</item>
+      <item id="c3" alignment="r3" line="319" tag="G">  dog  hungry-PL  eat   quickly</item>
+      <item id="c4" alignment="r4" line="320" tag="T">  "hungry dogs eat quickly"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="317" tag="M">f</item>
+      <item id="n2" alignment="c2" line="318" tag="L">wulu konkota-lu d'omo katabake</item>
+      <item id="n3" alignment="c3" line="319" tag="G">dog  hungry-PL  eat   quickly</item>
+      <item id="n4" alignment="c4" line="320" tag="T">hungry dogs eat quickly</item>
+    </tier>
+  </igt>
+  <igt id="igt68" doc-id="lgcol:mnk" line-range="321-323" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="321" tag="M">  author vetted: f</item>
+      <item id="r2" line="322" tag="L">  wulu fing-o    domo  katabake</item>
+      <item id="r3" line="323" tag="G">  dog  black-DET eat   quickly</item>
+      <item id="r4" line="324" tag="T">  "the black dog eats quickly"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="321" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="322" tag="L">  wulu fing-o    domo  katabake</item>
+      <item id="c3" alignment="r3" line="323" tag="G">  dog  black-DET eat   quickly</item>
+      <item id="c4" alignment="r4" line="324" tag="T">  "the black dog eats quickly"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="321" tag="M">f</item>
+      <item id="n2" alignment="c2" line="322" tag="L">wulu fing-o    domo  katabake</item>
+      <item id="n3" alignment="c3" line="323" tag="G">dog  black-DET eat   quickly</item>
+      <item id="n4" alignment="c4" line="324" tag="T">the black dog eats quickly</item>
+    </tier>
+  </igt>
+  <igt id="igt69" doc-id="lgcol:mnk" line-range="325-327" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="325" tag="M">  author vetted: f</item>
+      <item id="r2" line="326" tag="L">  wulu fing-o    domo</item>
+      <item id="r3" line="327" tag="G">  dog  black-DET eat</item>
+      <item id="r4" line="328" tag="T">  "the black dog eats"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="325" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="326" tag="L">  wulu fing-o    domo</item>
+      <item id="c3" alignment="r3" line="327" tag="G">  dog  black-DET eat</item>
+      <item id="c4" alignment="r4" line="328" tag="T">  "the black dog eats"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="325" tag="M">f</item>
+      <item id="n2" alignment="c2" line="326" tag="L">wulu fing-o    domo</item>
+      <item id="n3" alignment="c3" line="327" tag="G">dog  black-DET eat</item>
+      <item id="n4" alignment="c4" line="328" tag="T">the black dog eats</item>
+    </tier>
+  </igt>
+  <igt id="igt70" doc-id="lgcol:mnk" line-range="329-331" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="329" tag="M">  c:86 vetted: s</item>
+      <item id="r2" line="330" tag="L">  kana siinoo jang</item>
+      <item id="r3" line="331" tag="G">  don't sleep here</item>
+      <item id="r4" line="332" tag="T">  "don't sleep here"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="329" tag="M">  c:86 vetted: s</item>
+      <item id="c2" alignment="r2" line="330" tag="L">  kana siinoo jang</item>
+      <item id="c3" alignment="r3" line="331" tag="G">  don't sleep here</item>
+      <item id="c4" alignment="r4" line="332" tag="T">  "don't sleep here"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="329" tag="M">c:86 vetted: s</item>
+      <item id="n2" alignment="c2" line="330" tag="L">kana siinoo jang</item>
+      <item id="n3" alignment="c3" line="331" tag="G">don't sleep here</item>
+      <item id="n4" alignment="c4" line="332" tag="T">don't sleep here</item>
+    </tier>
+  </igt>
+  <igt id="igt71" doc-id="lgcol:mnk" line-range="333-335" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="333" tag="M">  c:106 vetted: s</item>
+      <item id="r2" line="334" tag="L">  ite         mu wuloo le   ti</item>
+      <item id="r3" line="335" tag="G">  you.SG.EMPH is dog   EMPH SENTENCE_COMP</item>
+      <item id="r4" line="336" tag="T">  "you are a liar"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="333" tag="M">  c:106 vetted: s</item>
+      <item id="c2" alignment="r2" line="334" tag="L">  ite         mu wuloo le   ti</item>
+      <item id="c3" alignment="r3" line="335" tag="G">  you.SG.EMPH is dog   EMPH SENTENCE_COMP</item>
+      <item id="c4" alignment="r4" line="336" tag="T">  "you are a liar"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="333" tag="M">c:106 vetted: s</item>
+      <item id="n2" alignment="c2" line="334" tag="L">ite         mu wuloo le   ti</item>
+      <item id="n3" alignment="c3" line="335" tag="G">you.SG.EMPH is dog   EMPH SENTENCE_COMP</item>
+      <item id="n4" alignment="c4" line="336" tag="T">you are a liar</item>
+    </tier>
+  </igt>
+  <igt id="igt72" doc-id="lgcol:mnk" line-range="337-339" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="337" tag="M">  c:64 vetted: s</item>
+      <item id="r2" line="338" tag="L">  i-la    motoo lee</item>
+      <item id="r3" line="339" tag="G">  you-GEN car   where.Q</item>
+      <item id="r4" line="340" tag="T">  "where is your car?"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="337" tag="M">  c:64 vetted: s</item>
+      <item id="c2" alignment="r2" line="338" tag="L">  i-la    motoo lee</item>
+      <item id="c3" alignment="r3" line="339" tag="G">  you-GEN car   where.Q</item>
+      <item id="c4" alignment="r4" line="340" tag="T">  "where is your car?"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="337" tag="M">c:64 vetted: s</item>
+      <item id="n2" alignment="c2" line="338" tag="L">i-la    motoo lee</item>
+      <item id="n3" alignment="c3" line="339" tag="G">you-GEN car   where.Q</item>
+      <item id="n4" alignment="c4" line="340" tag="T">where is your car?</item>
+    </tier>
+  </igt>
+  <igt id="igt73" doc-id="lgcol:mnk" line-range="345-347" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="345" tag="M">  c:105 vetted: s</item>
+      <item id="r2" line="346" tag="L">  weeroo teyita le</item>
+      <item id="r3" line="347" tag="G">  glass  broken EMPH</item>
+      <item id="r4" line="348" tag="T">  "the glass is broken"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="345" tag="M">  c:105 vetted: s</item>
+      <item id="c2" alignment="r2" line="346" tag="L">  weeroo teyita le</item>
+      <item id="c3" alignment="r3" line="347" tag="G">  glass  broken EMPH</item>
+      <item id="c4" alignment="r4" line="348" tag="T">  "the glass is broken"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="345" tag="M">c:105 vetted: s</item>
+      <item id="n2" alignment="c2" line="346" tag="L">weeroo teyita le</item>
+      <item id="n3" alignment="c3" line="347" tag="G">glass  broken EMPH</item>
+      <item id="n4" alignment="c4" line="348" tag="T">the glass is broken</item>
+    </tier>
+  </igt>
+  <igt id="igt74" doc-id="lgcol:mnk" line-range="349-351" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="349" tag="M">  c:6 vetted: s</item>
+      <item id="r2" line="350" tag="L">  kana a   baram</item>
+      <item id="r3" line="351" tag="G">  dont him wound</item>
+      <item id="r4" line="352" tag="T">  "don't wound him"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="349" tag="M">  c:6 vetted: s</item>
+      <item id="c2" alignment="r2" line="350" tag="L">  kana a   baram</item>
+      <item id="c3" alignment="r3" line="351" tag="G">  dont him wound</item>
+      <item id="c4" alignment="r4" line="352" tag="T">  "don't wound him"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="349" tag="M">c:6 vetted: s</item>
+      <item id="n2" alignment="c2" line="350" tag="L">kana a   baram</item>
+      <item id="n3" alignment="c3" line="351" tag="G">dont him wound</item>
+      <item id="n4" alignment="c4" line="352" tag="T">don't wound him</item>
+    </tier>
+  </igt>
+  <igt id="igt75" doc-id="lgcol:mnk" line-range="353-355" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="353" tag="M">  c:33 vetted: s</item>
+      <item id="r2" line="354" tag="L">  kana  n       jiibee</item>
+      <item id="r3" line="355" tag="G">  don't me.REFL look</item>
+      <item id="r4" line="356" tag="T">  "don't look at me"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="353" tag="M">  c:33 vetted: s</item>
+      <item id="c2" alignment="r2" line="354" tag="L">  kana  n       jiibee</item>
+      <item id="c3" alignment="r3" line="355" tag="G">  don't me.REFL look</item>
+      <item id="c4" alignment="r4" line="356" tag="T">  "don't look at me"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="353" tag="M">c:33 vetted: s</item>
+      <item id="n2" alignment="c2" line="354" tag="L">kana  n       jiibee</item>
+      <item id="n3" alignment="c3" line="355" tag="G">don't me.REFL look</item>
+      <item id="n4" alignment="c4" line="356" tag="T">don't look at me</item>
+    </tier>
+  </igt>
+  <igt id="igt76" doc-id="lgcol:mnk" line-range="357-359" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="357" tag="M">  c:73 vetted: s</item>
+      <item id="r2" line="358" tag="L">  a nininkaa</item>
+      <item id="r3" line="359" tag="G">  him ask</item>
+      <item id="r4" line="360" tag="T">  "ask him"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="357" tag="M">  c:73 vetted: s</item>
+      <item id="c2" alignment="r2" line="358" tag="L">  a nininkaa</item>
+      <item id="c3" alignment="r3" line="359" tag="G">  him ask</item>
+      <item id="c4" alignment="r4" line="360" tag="T">  "ask him"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="357" tag="M">c:73 vetted: s</item>
+      <item id="n2" alignment="c2" line="358" tag="L">a nininkaa</item>
+      <item id="n3" alignment="c3" line="359" tag="G">him ask</item>
+      <item id="n4" alignment="c4" line="360" tag="T">ask him</item>
+    </tier>
+  </igt>
+  <igt id="igt77" doc-id="lgcol:mnk" line-range="361-363" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="361" tag="M">  c:72 vetted: s</item>
+      <item id="r2" line="362" tag="L">  Nankumoo ye basoo muta</item>
+      <item id="r3" line="363" tag="G">  cat      PST lizard catch</item>
+      <item id="r4" line="364" tag="T">  "the cat caught a lizard"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="361" tag="M">  c:72 vetted: s</item>
+      <item id="c2" alignment="r2" line="362" tag="L">  Nankumoo ye basoo muta</item>
+      <item id="c3" alignment="r3" line="363" tag="G">  cat      PST lizard catch</item>
+      <item id="c4" alignment="r4" line="364" tag="T">  "the cat caught a lizard"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="361" tag="M">c:72 vetted: s</item>
+      <item id="n2" alignment="c2" line="362" tag="L">Nankumoo ye basoo muta</item>
+      <item id="n3" alignment="c3" line="363" tag="G">cat      PST lizard catch</item>
+      <item id="n4" alignment="c4" line="364" tag="T">the cat caught a lizard</item>
+    </tier>
+  </igt>
+  <igt id="igt78" doc-id="lgcol:mnk" line-range="365-367" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="365" tag="M">  c:42 vetted: s</item>
+      <item id="r2" line="366" tag="L">  taa katabake</item>
+      <item id="r3" line="367" tag="G">  go  quickly</item>
+      <item id="r4" line="368" tag="T">  "go quickly"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="365" tag="M">  c:42 vetted: s</item>
+      <item id="c2" alignment="r2" line="366" tag="L">  taa katabake</item>
+      <item id="c3" alignment="r3" line="367" tag="G">  go  quickly</item>
+      <item id="c4" alignment="r4" line="368" tag="T">  "go quickly"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="365" tag="M">c:42 vetted: s</item>
+      <item id="n2" alignment="c2" line="366" tag="L">taa katabake</item>
+      <item id="n3" alignment="c3" line="367" tag="G">go  quickly</item>
+      <item id="n4" alignment="c4" line="368" tag="T">go quickly</item>
+    </tier>
+  </igt>
+  <igt id="igt79" doc-id="lgcol:mnk" line-range="369-371" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="369" tag="M">  c:47 vetted: s</item>
+      <item id="r2" line="370" tag="L">  n konkota baake</item>
+      <item id="r3" line="371" tag="G">  I hungry  very</item>
+      <item id="r4" line="372" tag="T">  "I am very hungry"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="369" tag="M">  c:47 vetted: s</item>
+      <item id="c2" alignment="r2" line="370" tag="L">  n konkota baake</item>
+      <item id="c3" alignment="r3" line="371" tag="G">  I hungry  very</item>
+      <item id="c4" alignment="r4" line="372" tag="T">  "I am very hungry"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="369" tag="M">c:47 vetted: s</item>
+      <item id="n2" alignment="c2" line="370" tag="L">n konkota baake</item>
+      <item id="n3" alignment="c3" line="371" tag="G">I hungry  very</item>
+      <item id="n4" alignment="c4" line="372" tag="T">I am very hungry</item>
+    </tier>
+  </igt>
+  <igt id="igt80" doc-id="lgcol:mnk" line-range="373-375" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="373" tag="M">  c:73 vetted: s</item>
+      <item id="r2" line="374" tag="L">  ninnu mu bukoo-lu le   ti</item>
+      <item id="r3" line="375" tag="G">  these is book-PL  EMPH SENTENCE_COMPLEMENT</item>
+      <item id="r4" line="376" tag="T">  "these are books"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="373" tag="M">  c:73 vetted: s</item>
+      <item id="c2" alignment="r2" line="374" tag="L">  ninnu mu bukoo-lu le   ti</item>
+      <item id="c3" alignment="r3" line="375" tag="G">  these is book-PL  EMPH SENTENCE_COMPLEMENT</item>
+      <item id="c4" alignment="r4" line="376" tag="T">  "these are books"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="373" tag="M">c:73 vetted: s</item>
+      <item id="n2" alignment="c2" line="374" tag="L">ninnu mu bukoo-lu le   ti</item>
+      <item id="n3" alignment="c3" line="375" tag="G">these is book-PL  EMPH SENTENCE_COMPLEMENT</item>
+      <item id="n4" alignment="c4" line="376" tag="T">these are books</item>
+    </tier>
+  </igt>
+  <igt id="igt81" doc-id="lgcol:mnk" line-range="377-379" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="377" tag="M">  c:70 vetted: s</item>
+      <item id="r2" line="378" tag="L">  i   ye  munne  noo</item>
+      <item id="r3" line="379" tag="G">  you PST what.Q can</item>
+      <item id="r4" line="380" tag="T">  "what can you do?"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="377" tag="M">  c:70 vetted: s</item>
+      <item id="c2" alignment="r2" line="378" tag="L">  i   ye  munne  noo</item>
+      <item id="c3" alignment="r3" line="379" tag="G">  you PST what.Q can</item>
+      <item id="c4" alignment="r4" line="380" tag="T">  "what can you do?"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="377" tag="M">c:70 vetted: s</item>
+      <item id="n2" alignment="c2" line="378" tag="L">i   ye  munne  noo</item>
+      <item id="n3" alignment="c3" line="379" tag="G">you PST what.Q can</item>
+      <item id="n4" alignment="c4" line="380" tag="T">what can you do?</item>
+    </tier>
+  </igt>
+  <igt id="igt82" doc-id="lgcol:mnk" line-range="385-387" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="385" tag="M">  a:89 vetted: s</item>
+      <item id="r2" line="386" tag="L">  `m buka  domo</item>
+      <item id="r3" line="387" tag="G">  we not   eat</item>
+      <item id="r4" line="388" tag="T">  "we do not eat it"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="385" tag="M">  a:89 vetted: s</item>
+      <item id="c2" alignment="r2" line="386" tag="L">  `m buka  domo</item>
+      <item id="c3" alignment="r3" line="387" tag="G">  we not   eat</item>
+      <item id="c4" alignment="r4" line="388" tag="T">  "we do not eat it"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="385" tag="M">a:89 vetted: s</item>
+      <item id="n2" alignment="c2" line="386" tag="L">m buka  domo</item>
+      <item id="n3" alignment="c3" line="387" tag="G">we not   eat</item>
+      <item id="n4" alignment="c4" line="388" tag="T">we do not eat it</item>
+    </tier>
+  </igt>
+  <igt id="igt83" doc-id="lgcol:mnk" line-range="389-391" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="389" tag="M">  a:89 vetted: s</item>
+      <item id="r2" line="390" tag="L">  m'eng   b'uka s`uboo d'omo, w`o  si  m`unne d'omo a  n'oo to?</item>
+      <item id="r3" line="391" tag="G">  the_one not   meat   eat,   that IMP WHAT   eat   he can  from</item>
+      <item id="r4" line="392" tag="T">  the one who does not eat meat, what will he eat instead of it?</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="389" tag="M">  a:89 vetted: s</item>
+      <item id="c2" alignment="r2" line="390" tag="L">  m'eng   b'uka s`uboo d'omo, w`o  si  m`unne d'omo a  n'oo to?</item>
+      <item id="c3" alignment="r3" line="391" tag="G">  the_one not   meat   eat,   that IMP WHAT   eat   he can  from</item>
+      <item id="c4" alignment="r4" line="392" tag="T">  the one who does not eat meat, what will he eat instead of it?</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="389" tag="M">a:89 vetted: s</item>
+      <item id="n2" alignment="c2" line="390" tag="L">m'eng   b'uka s`uboo d'omo, w`o  si  m`unne d'omo a  n'oo to?</item>
+      <item id="n3" alignment="c3" line="391" tag="G">the_one not   meat   eat,   that IMP WHAT   eat   he can  from</item>
+      <item id="n4" alignment="c4" line="392" tag="T">the one who does not eat meat, what will he eat instead of it?</item>
+    </tier>
+  </igt>
+  <igt id="igt84" doc-id="lgcol:mnk" line-range="393-395" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="393" tag="M">  c:69 vetted: s</item>
+      <item id="r2" line="394" tag="L">  moo         ning beeyango mang kilinyaa</item>
+      <item id="r3" line="395" tag="G">  human_being and  beast    not  same</item>
+      <item id="r4" line="396" tag="T">  "a human being and a beast are not the same"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="393" tag="M">  c:69 vetted: s</item>
+      <item id="c2" alignment="r2" line="394" tag="L">  moo         ning beeyango mang kilinyaa</item>
+      <item id="c3" alignment="r3" line="395" tag="G">  human_being and  beast    not  same</item>
+      <item id="c4" alignment="r4" line="396" tag="T">  "a human being and a beast are not the same"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="393" tag="M">c:69 vetted: s</item>
+      <item id="n2" alignment="c2" line="394" tag="L">moo         ning beeyango mang kilinyaa</item>
+      <item id="n3" alignment="c3" line="395" tag="G">human_being and  beast    not  same</item>
+      <item id="n4" alignment="c4" line="396" tag="T">a human being and a beast are not the same</item>
+    </tier>
+  </igt>
+  <igt id="igt85" doc-id="lgcol:mnk" line-range="397-399" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="397" tag="M">  a:139 vetted: s</item>
+      <item id="r2" line="398" tag="L">  'm be nyin t`atoo t`ee      la   le    nye  nyim m`usoo f'utuu</item>
+      <item id="r3" line="399" tag="G">  I  am UNKNOWN   fort   chop_down EMPH EMPH  COMPL UNKNOWN   woman  marry</item>
+      <item id="r4" line="400" tag="T">  "I am going to destroy this fortress and marry this woman"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="397" tag="M">  a:139 vetted: s</item>
+      <item id="c2" alignment="r2" line="398" tag="L">  'm be nyin t`atoo t`ee      la   le    nye  nyim m`usoo f'utuu</item>
+      <item id="c3" alignment="r3" line="399" tag="G">  I  am UNKNOWN   fort   chop_down EMPH EMPH  COMPL UNKNOWN   woman  marry</item>
+      <item id="c4" alignment="r4" line="400" tag="T">  "I am going to destroy this fortress and marry this woman"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="397" tag="M">a:139 vetted: s</item>
+      <item id="n2" alignment="c2" line="398" tag="L">m be nyin t`atoo t`ee      la   le    nye  nyim m`usoo f'utuu</item>
+      <item id="n3" alignment="c3" line="399" tag="G">I  am UNKNOWN   fort   chop_down EMPH EMPH  COMPL UNKNOWN   woman  marry</item>
+      <item id="n4" alignment="c4" line="400" tag="T">I am going to destroy this fortress and marry this woman</item>
+    </tier>
+  </igt>
+  <igt id="igt86" doc-id="lgcol:mnk" line-range="401-403" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="401" tag="M">  a:137 vetted: s</item>
+      <item id="r2" line="402" tag="L">  `i  b'uka a  d'omo b`ang?</item>
+      <item id="r3" line="403" tag="G">  you don't it eat   Q</item>
+      <item id="r4" line="404" tag="T">  "don't you eat it?"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="401" tag="M">  a:137 vetted: s</item>
+      <item id="c2" alignment="r2" line="402" tag="L">  `i  b'uka a  d'omo b`ang?</item>
+      <item id="c3" alignment="r3" line="403" tag="G">  you don't it eat   Q</item>
+      <item id="c4" alignment="r4" line="404" tag="T">  "don't you eat it?"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="401" tag="M">a:137 vetted: s</item>
+      <item id="n2" alignment="c2" line="402" tag="L">i  b'uka a  d'omo b`ang?</item>
+      <item id="n3" alignment="c3" line="403" tag="G">you don't it eat   Q</item>
+      <item id="n4" alignment="c4" line="404" tag="T">don't you eat it?</item>
+    </tier>
+  </igt>
+  <igt id="igt87" doc-id="lgcol:mnk" line-range="409-411" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="409" tag="M">  a:83 vetted: s</item>
+      <item id="r2" line="410" tag="L">  n`aa j`ang</item>
+      <item id="r3" line="411" tag="G">  come here</item>
+      <item id="r4" line="412" tag="T">  "come here"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="409" tag="M">  a:83 vetted: s</item>
+      <item id="c2" alignment="r2" line="410" tag="L">  n`aa j`ang</item>
+      <item id="c3" alignment="r3" line="411" tag="G">  come here</item>
+      <item id="c4" alignment="r4" line="412" tag="T">  "come here"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="409" tag="M">a:83 vetted: s</item>
+      <item id="n2" alignment="c2" line="410" tag="L">n`aa j`ang</item>
+      <item id="n3" alignment="c3" line="411" tag="G">come here</item>
+      <item id="n4" alignment="c4" line="412" tag="T">come here</item>
+    </tier>
+  </igt>
+  <igt id="igt88" doc-id="lgcol:mnk" line-range="413-415" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="413" tag="M">  a:83 vetted: s</item>
+      <item id="r2" line="414" tag="L">  a  t'u   j'ee</item>
+      <item id="r3" line="415" tag="G">  it leave there</item>
+      <item id="r4" line="416" tag="T">  "leave it there"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="413" tag="M">  a:83 vetted: s</item>
+      <item id="c2" alignment="r2" line="414" tag="L">  a  t'u   j'ee</item>
+      <item id="c3" alignment="r3" line="415" tag="G">  it leave there</item>
+      <item id="c4" alignment="r4" line="416" tag="T">  "leave it there"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="413" tag="M">a:83 vetted: s</item>
+      <item id="n2" alignment="c2" line="414" tag="L">a  t'u   j'ee</item>
+      <item id="n3" alignment="c3" line="415" tag="G">it leave there</item>
+      <item id="n4" alignment="c4" line="416" tag="T">leave it there</item>
+    </tier>
+  </igt>
+  <igt id="igt89" doc-id="lgcol:mnk" line-range="417-419" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="417" tag="M">  a:47 vetted: s</item>
+      <item id="r2" line="418" tag="L">  w`ulu f`ing b'aa le   ye  aa  k'ing</item>
+      <item id="r3" line="419" tag="G">  dog   black big  EMPH PST him bite</item>
+      <item id="r4" line="420" tag="T">  "a big black dog bit him"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="417" tag="M">  a:47 vetted: s</item>
+      <item id="c2" alignment="r2" line="418" tag="L">  w`ulu f`ing b'aa le   ye  aa  k'ing</item>
+      <item id="c3" alignment="r3" line="419" tag="G">  dog   black big  EMPH PST him bite</item>
+      <item id="c4" alignment="r4" line="420" tag="T">  "a big black dog bit him"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="417" tag="M">a:47 vetted: s</item>
+      <item id="n2" alignment="c2" line="418" tag="L">w`ulu f`ing b'aa le   ye  aa  k'ing</item>
+      <item id="n3" alignment="c3" line="419" tag="G">dog   black big  EMPH PST him bite</item>
+      <item id="n4" alignment="c4" line="420" tag="T">a big black dog bit him</item>
+    </tier>
+  </igt>
+  <igt id="igt90" doc-id="lgcol:mnk" line-range="421-423" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="421" tag="M">  author vetted: f</item>
+      <item id="r2" line="422" tag="L">  w`ulu le   ye  aa  k'ing</item>
+      <item id="r3" line="423" tag="G">  dog   EMPH PST him bite</item>
+      <item id="r4" line="424" tag="T">  "a dog bit him"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="421" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="422" tag="L">  w`ulu le   ye  aa  k'ing</item>
+      <item id="c3" alignment="r3" line="423" tag="G">  dog   EMPH PST him bite</item>
+      <item id="c4" alignment="r4" line="424" tag="T">  "a dog bit him"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="421" tag="M">f</item>
+      <item id="n2" alignment="c2" line="422" tag="L">w`ulu le   ye  aa  k'ing</item>
+      <item id="n3" alignment="c3" line="423" tag="G">dog   EMPH PST him bite</item>
+      <item id="n4" alignment="c4" line="424" tag="T">a dog bit him</item>
+    </tier>
+  </igt>
+  <igt id="igt91" doc-id="lgcol:mnk" line-range="425-427" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="425" tag="M">  a:151 vetted: s</item>
+      <item id="r2" line="426" tag="L">  n-ye  d`endika koy-oo    le   s`ang</item>
+      <item id="r3" line="427" tag="G">  I-PST gown     white-DET EMPH buy</item>
+      <item id="r4" line="428" tag="T">  "I bought a white gown"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="425" tag="M">  a:151 vetted: s</item>
+      <item id="c2" alignment="r2" line="426" tag="L">  n-ye  d`endika koy-oo    le   s`ang</item>
+      <item id="c3" alignment="r3" line="427" tag="G">  I-PST gown     white-DET EMPH buy</item>
+      <item id="c4" alignment="r4" line="428" tag="T">  "I bought a white gown"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="425" tag="M">a:151 vetted: s</item>
+      <item id="n2" alignment="c2" line="426" tag="L">n-ye  d`endika koy-oo    le   s`ang</item>
+      <item id="n3" alignment="c3" line="427" tag="G">I-PST gown     white-DET EMPH buy</item>
+      <item id="n4" alignment="c4" line="428" tag="T">I bought a white gown</item>
+    </tier>
+  </igt>
+  <igt id="igt92" doc-id="lgcol:mnk" line-range="429-431" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="429" tag="M">  author vetted: f</item>
+      <item id="r2" line="430" tag="L">  n-ye  d`endika koy-oo-lu    le   s`ang</item>
+      <item id="r3" line="431" tag="G">  I-PST gown     white-DET-PL EMPH buy</item>
+      <item id="r4" line="432" tag="T">  "I bought the white gowns"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="429" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="430" tag="L">  n-ye  d`endika koy-oo-lu    le   s`ang</item>
+      <item id="c3" alignment="r3" line="431" tag="G">  I-PST gown     white-DET-PL EMPH buy</item>
+      <item id="c4" alignment="r4" line="432" tag="T">  "I bought the white gowns"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="429" tag="M">f</item>
+      <item id="n2" alignment="c2" line="430" tag="L">n-ye  d`endika koy-oo-lu    le   s`ang</item>
+      <item id="n3" alignment="c3" line="431" tag="G">I-PST gown     white-DET-PL EMPH buy</item>
+      <item id="n4" alignment="c4" line="432" tag="T">I bought the white gowns</item>
+    </tier>
+  </igt>
+  <igt id="igt93" doc-id="lgcol:mnk" line-range="433-435" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="433" tag="M">  c:45 vetted: s</item>
+      <item id="r2" line="434" tag="L">  A wulita kiribit</item>
+      <item id="r3" line="435" tag="G">  He/she got_up suddenly</item>
+      <item id="r4" line="436" tag="T">  "He/she got up suddenly"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="433" tag="M">  c:45 vetted: s</item>
+      <item id="c2" alignment="r2" line="434" tag="L">  A wulita kiribit</item>
+      <item id="c3" alignment="r3" line="435" tag="G">  He/she got_up suddenly</item>
+      <item id="c4" alignment="r4" line="436" tag="T">  "He/she got up suddenly"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="433" tag="M">c:45 vetted: s</item>
+      <item id="n2" alignment="c2" line="434" tag="L">A wulita kiribit</item>
+      <item id="n3" alignment="c3" line="435" tag="G">He/she got_up suddenly</item>
+      <item id="n4" alignment="c4" line="436" tag="T">He/she got up suddenly</item>
+    </tier>
+  </igt>
+  <igt id="igt94" doc-id="lgcol:mnk" line-range="437-439" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="437" tag="M">  c:58 vetted: s</item>
+      <item id="r2" line="438" tag="L">  I   ye  n  long ne   bang?</item>
+      <item id="r3" line="439" tag="G">  you PST me know EMPH Q</item>
+      <item id="r4" line="440" tag="T">  "Do you know me?"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="437" tag="M">  c:58 vetted: s</item>
+      <item id="c2" alignment="r2" line="438" tag="L">  I   ye  n  long ne   bang?</item>
+      <item id="c3" alignment="r3" line="439" tag="G">  you PST me know EMPH Q</item>
+      <item id="c4" alignment="r4" line="440" tag="T">  "Do you know me?"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="437" tag="M">c:58 vetted: s</item>
+      <item id="n2" alignment="c2" line="438" tag="L">I   ye  n  long ne   bang?</item>
+      <item id="n3" alignment="c3" line="439" tag="G">you PST me know EMPH Q</item>
+      <item id="n4" alignment="c4" line="440" tag="T">Do you know me?</item>
+    </tier>
+  </igt>
+  <igt id="igt95" doc-id="lgcol:mnk" line-range="445-447" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="445" tag="M">  c:46 vetted: s</item>
+      <item id="r2" line="446" tag="L">  A       fo   a  ye  ko   n be   naa  la   le</item>
+      <item id="r3" line="447" tag="G">  him/her tell it PST that I will come EMPH EMPH</item>
+      <item id="r4" line="448" tag="T">  "Tell him that I'll come"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="445" tag="M">  c:46 vetted: s</item>
+      <item id="c2" alignment="r2" line="446" tag="L">  A       fo   a  ye  ko   n be   naa  la   le</item>
+      <item id="c3" alignment="r3" line="447" tag="G">  him/her tell it PST that I will come EMPH EMPH</item>
+      <item id="c4" alignment="r4" line="448" tag="T">  "Tell him that I'll come"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="445" tag="M">c:46 vetted: s</item>
+      <item id="n2" alignment="c2" line="446" tag="L">A       fo   a  ye  ko   n be   naa  la   le</item>
+      <item id="n3" alignment="c3" line="447" tag="G">him/her tell it PST that I will come EMPH EMPH</item>
+      <item id="n4" alignment="c4" line="448" tag="T">Tell him that I'll come</item>
+    </tier>
+  </igt>
+  <igt id="igt96" doc-id="lgcol:mnk" line-range="449-451" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="449" tag="M">  c:23 vetted: s</item>
+      <item id="r2" line="450" tag="L">  fo i   be   taa la   le   saama</item>
+      <item id="r3" line="451" tag="G">  Q  you will go  EMPH EMPH tomorrow</item>
+      <item id="r4" line="452" tag="T">  "Will you go tomorrow?"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="449" tag="M">  c:23 vetted: s</item>
+      <item id="c2" alignment="r2" line="450" tag="L">  fo i   be   taa la   le   saama</item>
+      <item id="c3" alignment="r3" line="451" tag="G">  Q  you will go  EMPH EMPH tomorrow</item>
+      <item id="c4" alignment="r4" line="452" tag="T">  "Will you go tomorrow?"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="449" tag="M">c:23 vetted: s</item>
+      <item id="n2" alignment="c2" line="450" tag="L">fo i   be   taa la   le   saama</item>
+      <item id="n3" alignment="c3" line="451" tag="G">Q  you will go  EMPH EMPH tomorrow</item>
+      <item id="n4" alignment="c4" line="452" tag="T">Will you go tomorrow?</item>
+    </tier>
+  </igt>
+  <igt id="igt97" doc-id="lgcol:mnk" line-range="457-459" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="457" tag="M">  a:131 vetted: s</item>
+      <item id="r2" line="458" tag="L">  a   ye d'indingo ny`ininkaa m'eng    ye  k'unkoo t`inyaa</item>
+      <item id="r3" line="459" tag="G">  he PST boy       ask        who_what PST farm    destroy</item>
+      <item id="r4" line="460" tag="T">  "he asked the boy who/what had spoiled the farm"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="457" tag="M">  a:131 vetted: s</item>
+      <item id="c2" alignment="r2" line="458" tag="L">  a   ye d'indingo ny`ininkaa m'eng    ye  k'unkoo t`inyaa</item>
+      <item id="c3" alignment="r3" line="459" tag="G">  he PST boy       ask        who_what PST farm    destroy</item>
+      <item id="c4" alignment="r4" line="460" tag="T">  "he asked the boy who/what had spoiled the farm"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="457" tag="M">a:131 vetted: s</item>
+      <item id="n2" alignment="c2" line="458" tag="L">a   ye d'indingo ny`ininkaa m'eng    ye  k'unkoo t`inyaa</item>
+      <item id="n3" alignment="c3" line="459" tag="G">he PST boy       ask        who_what PST farm    destroy</item>
+      <item id="n4" alignment="c4" line="460" tag="T">he asked the boy who/what had spoiled the farm</item>
+    </tier>
+  </igt>
+  <igt id="igt98" doc-id="lgcol:mnk" line-range="461-463" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="461" tag="M">  author vetted: f</item>
+      <item id="r2" line="462" tag="L">  ng siinoo</item>
+      <item id="r3" line="463" tag="G">  I  sleep</item>
+      <item id="r4" line="464" tag="T">  "I sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="461" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="462" tag="L">  ng siinoo</item>
+      <item id="c3" alignment="r3" line="463" tag="G">  I  sleep</item>
+      <item id="c4" alignment="r4" line="464" tag="T">  "I sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="461" tag="M">f</item>
+      <item id="n2" alignment="c2" line="462" tag="L">ng siinoo</item>
+      <item id="n3" alignment="c3" line="463" tag="G">I  sleep</item>
+      <item id="n4" alignment="c4" line="464" tag="T">I sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt99" doc-id="lgcol:mnk" line-range="465-467" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="465" tag="M">  author vetted: f</item>
+      <item id="r2" line="466" tag="L">  `ng         siinoo</item>
+      <item id="r3" line="467" tag="G">  I.SG_OR_PL  sleep</item>
+      <item id="r4" line="468" tag="T">  "I/we sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="465" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="466" tag="L">  `ng         siinoo</item>
+      <item id="c3" alignment="r3" line="467" tag="G">  I.SG_OR_PL  sleep</item>
+      <item id="c4" alignment="r4" line="468" tag="T">  "I/we sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="465" tag="M">f</item>
+      <item id="n2" alignment="c2" line="466" tag="L">ng         siinoo</item>
+      <item id="n3" alignment="c3" line="467" tag="G">I.SG_OR_PL  sleep</item>
+      <item id="n4" alignment="c4" line="468" tag="T">I/we sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt100" doc-id="lgcol:mnk" line-range="469-471" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="469" tag="M">  author vetted: f</item>
+      <item id="r2" line="470" tag="L">  m   siinoo</item>
+      <item id="r3" line="471" tag="G">  we  sleep</item>
+      <item id="r4" line="472" tag="T">  "we sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="469" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="470" tag="L">  m   siinoo</item>
+      <item id="c3" alignment="r3" line="471" tag="G">  we  sleep</item>
+      <item id="c4" alignment="r4" line="472" tag="T">  "we sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="469" tag="M">f</item>
+      <item id="n2" alignment="c2" line="470" tag="L">m   siinoo</item>
+      <item id="n3" alignment="c3" line="471" tag="G">we  sleep</item>
+      <item id="n4" alignment="c4" line="472" tag="T">we sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt101" doc-id="lgcol:mnk" line-range="473-475" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="473" tag="M">  author vetted: f</item>
+      <item id="r2" line="474" tag="L">  i      siinoo</item>
+      <item id="r3" line="475" tag="G">  you.PL sleep</item>
+      <item id="r4" line="476" tag="T">  "you sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="473" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="474" tag="L">  i      siinoo</item>
+      <item id="c3" alignment="r3" line="475" tag="G">  you.PL sleep</item>
+      <item id="c4" alignment="r4" line="476" tag="T">  "you sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="473" tag="M">f</item>
+      <item id="n2" alignment="c2" line="474" tag="L">i      siinoo</item>
+      <item id="n3" alignment="c3" line="475" tag="G">you.PL sleep</item>
+      <item id="n4" alignment="c4" line="476" tag="T">you sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt102" doc-id="lgcol:mnk" line-range="477-479" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="477" tag="M">  author vetted: f</item>
+      <item id="r2" line="478" tag="L">  ali     siinoo</item>
+      <item id="r3" line="479" tag="G">  you.pl  sleep</item>
+      <item id="r4" line="480" tag="T">  "you sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="477" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="478" tag="L">  ali     siinoo</item>
+      <item id="c3" alignment="r3" line="479" tag="G">  you.pl  sleep</item>
+      <item id="c4" alignment="r4" line="480" tag="T">  "you sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="477" tag="M">f</item>
+      <item id="n2" alignment="c2" line="478" tag="L">ali     siinoo</item>
+      <item id="n3" alignment="c3" line="479" tag="G">you.pl  sleep</item>
+      <item id="n4" alignment="c4" line="480" tag="T">you sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt103" doc-id="lgcol:mnk" line-range="481-483" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="481" tag="M">  author vetted: f</item>
+      <item id="r2" line="482" tag="L">  al      siinoo</item>
+      <item id="r3" line="483" tag="G">  you.pl  sleep</item>
+      <item id="r4" line="484" tag="T">  "you sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="481" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="482" tag="L">  al      siinoo</item>
+      <item id="c3" alignment="r3" line="483" tag="G">  you.pl  sleep</item>
+      <item id="c4" alignment="r4" line="484" tag="T">  "you sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="481" tag="M">f</item>
+      <item id="n2" alignment="c2" line="482" tag="L">al      siinoo</item>
+      <item id="n3" alignment="c3" line="483" tag="G">you.pl  sleep</item>
+      <item id="n4" alignment="c4" line="484" tag="T">you sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt104" doc-id="lgcol:mnk" line-range="485-487" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="485" tag="M">  author vetted: f</item>
+      <item id="r2" line="486" tag="L">  a       siinoo</item>
+      <item id="r3" line="487" tag="G">  he/she  sleep</item>
+      <item id="r4" line="488" tag="T">  "he/she sleeps"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="485" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="486" tag="L">  a       siinoo</item>
+      <item id="c3" alignment="r3" line="487" tag="G">  he/she  sleep</item>
+      <item id="c4" alignment="r4" line="488" tag="T">  "he/she sleeps"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="485" tag="M">f</item>
+      <item id="n2" alignment="c2" line="486" tag="L">a       siinoo</item>
+      <item id="n3" alignment="c3" line="487" tag="G">he/she  sleep</item>
+      <item id="n4" alignment="c4" line="488" tag="T">he/she sleeps</item>
+    </tier>
+  </igt>
+  <igt id="igt105" doc-id="lgcol:mnk" line-range="489-491" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="489" tag="M">  a:66 vetted: t</item>
+      <item id="r2" line="490" tag="L">  n  si  wo   ke</item>
+      <item id="r3" line="491" tag="G">  we EMP that do</item>
+      <item id="r4" line="492" tag="T">  "we must do that"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="489" tag="M">  a:66 vetted: t</item>
+      <item id="c2" alignment="r2" line="490" tag="L">  n  si  wo   ke</item>
+      <item id="c3" alignment="r3" line="491" tag="G">  we EMP that do</item>
+      <item id="c4" alignment="r4" line="492" tag="T">  "we must do that"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="489" tag="M">a:66 vetted: t</item>
+      <item id="n2" alignment="c2" line="490" tag="L">n  si  wo   ke</item>
+      <item id="n3" alignment="c3" line="491" tag="G">we EMP that do</item>
+      <item id="n4" alignment="c4" line="492" tag="T">we must do that</item>
+    </tier>
+  </igt>
+  <igt id="igt106" doc-id="lgcol:mnk" line-range="493-495" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="493" tag="M">  author vetted: f</item>
+      <item id="r2" line="494" tag="L">  n  wo   ke</item>
+      <item id="r3" line="495" tag="G">  we that do</item>
+      <item id="r4" line="496" tag="T">  "we will do that"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="493" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="494" tag="L">  n  wo   ke</item>
+      <item id="c3" alignment="r3" line="495" tag="G">  we that do</item>
+      <item id="c4" alignment="r4" line="496" tag="T">  "we will do that"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="493" tag="M">f</item>
+      <item id="n2" alignment="c2" line="494" tag="L">n  wo   ke</item>
+      <item id="n3" alignment="c3" line="495" tag="G">we that do</item>
+      <item id="n4" alignment="c4" line="496" tag="T">we will do that</item>
+    </tier>
+  </igt>
+  <igt id="igt107" doc-id="lgcol:mnk" line-range="497-499" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="497" tag="M">  a:66 vetted: t</item>
+      <item id="r2" line="498" tag="L">  wo   le mu i   taa  ti</item>
+      <item id="r3" line="499" tag="G">  that UNKNOWN is you POSS SENTENCE_COMPLEMENT</item>
+      <item id="r4" line="500" tag="T">  "That is yours"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="497" tag="M">  a:66 vetted: t</item>
+      <item id="c2" alignment="r2" line="498" tag="L">  wo   le mu i   taa  ti</item>
+      <item id="c3" alignment="r3" line="499" tag="G">  that UNKNOWN is you POSS SENTENCE_COMPLEMENT</item>
+      <item id="c4" alignment="r4" line="500" tag="T">  "That is yours"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="497" tag="M">a:66 vetted: t</item>
+      <item id="n2" alignment="c2" line="498" tag="L">wo   le mu i   taa  ti</item>
+      <item id="n3" alignment="c3" line="499" tag="G">that UNKNOWN is you POSS SENTENCE_COMPLEMENT</item>
+      <item id="n4" alignment="c4" line="500" tag="T">That is yours</item>
+    </tier>
+  </igt>
+  <igt id="igt108" doc-id="lgcol:mnk" line-range="501-503" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="501" tag="M">  author vetted: f</item>
+      <item id="r2" line="502" tag="L">  i   a  long ko   wulu olu    siinoo</item>
+      <item id="r3" line="503" tag="G">  you it know that dog  DET.PL sleep</item>
+      <item id="r4" line="504" tag="T">  "you know that dogs sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="501" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="502" tag="L">  i   a  long ko   wulu olu    siinoo</item>
+      <item id="c3" alignment="r3" line="503" tag="G">  you it know that dog  DET.PL sleep</item>
+      <item id="c4" alignment="r4" line="504" tag="T">  "you know that dogs sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="501" tag="M">f</item>
+      <item id="n2" alignment="c2" line="502" tag="L">i   a  long ko   wulu olu    siinoo</item>
+      <item id="n3" alignment="c3" line="503" tag="G">you it know that dog  DET.PL sleep</item>
+      <item id="n4" alignment="c4" line="504" tag="T">you know that dogs sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt109" doc-id="lgcol:mnk" line-range="505-507" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="505" tag="M">  author vetted: f</item>
+      <item id="r2" line="506" tag="L">  i   a  long</item>
+      <item id="r3" line="507" tag="G">  you it know</item>
+      <item id="r4" line="508" tag="T">  "you know it"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="505" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="506" tag="L">  i   a  long</item>
+      <item id="c3" alignment="r3" line="507" tag="G">  you it know</item>
+      <item id="c4" alignment="r4" line="508" tag="T">  "you know it"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="505" tag="M">f</item>
+      <item id="n2" alignment="c2" line="506" tag="L">i   a  long</item>
+      <item id="n3" alignment="c3" line="507" tag="G">you it know</item>
+      <item id="n4" alignment="c4" line="508" tag="T">you know it</item>
+    </tier>
+  </igt>
+</xigt-corpus>

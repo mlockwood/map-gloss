@@ -1,0 +1,83 @@
+Lab 9 (Clean up & machine translation)
+I.  Clean-up performed
+    a) It turns out that I broke the compositional semantics of my grammar way back in Lab 6 when I
+       implemented the demonstratives.  When I created the new noun-lex from the supertype I lost
+       inheriting from no-hcons-lex-item.  
+       It took me several days to figure that out.  Looking at the HCONS did not seem to help.  I
+       got the failure point by going back through the edits to the grammar and catching the last
+       version where the intransitive verb "neas(sleep)" had a good HCONS list.
+    b) Even so, adding no-hcons-lex-item to the noun-lex type broke all my parses.  What I did
+       was start with grammar six and add in all the relevant features up to the end of lab 8
+       one feature at a time.  I would add a feature, test it to make sure that I still had a
+       a good HCONS when I looked at a parses MRS and then add another feature.
+    c) In this process I eliminated almost every boolean feature that I had created. They never
+       did work the way I expected.  Adding two valued features to constrain the ordering
+       of rule application is actually more elegant and works in a way that I understand.
+
+II. Transfer rules instantiated.
+    a) I instantiated the pro-drop rule for both English and Italian, 
+       because Moroccan is a subject pro-drop language.  I was not sure if I needed to do it for Italain.
+    b) I tried to instantiate the make-hurt rule for Italian, and for some reason I never
+       saw it do anything. I tried both directions because hurt-> make harm and harm - > make hurt.
+
+III.
+    a) English.
+       i) The following sentences did not transfer from English to Moroccan.
+       	  In every case it was because of a mis-match in the MRS structure.
+       	  1 - These dogs sleep.  
+	    a: My demostrative adjectives are placing the tense and aspect information onto the 
+	    demoinstrative.  I'm not sure how to fix this.  Now, I'm not even sure that I need 
+	    demonstrative adjectives.  There are two sets of demonstratives.  One set attaches to the
+	    following noun which must be marked definite.  It shows no gender or number agreement.
+	    The other set shows number and gender agreement and for intenst and purposes functions
+	    like a 3rd-person stand-alone pronoun.
+	    For some reason yet to be determined, the Moroccan accepts teh Italian version of this sentences.
+	  2 - I can eat glass.
+	      I'm not sure.  It seems like the MRS structures are very similar. I think becasue of the
+	      unspecified tense it might be running out of edges.  The LKB would start crashing pretty
+	      regualrly once the 'out of edgges' error was generated.
+	  3 - I think that you know that dogs chase cars.
+	  4 - I ask whether you know that dogs chase cars.
+	    For both of the see I can see that the verb argumet on the complemnet is not pointing to
+	    anything. 
+	  5 - Cats chase dogs and sleep.
+	    On this one the MRS looks the same to me but the english has no aspect ionformation on
+	    the coordination element.
+	  6 - Chase the dog.
+	    I never implemented the imperative.
+       ii) Italian
+       	   In general the Moroccan grammar generated more sentences from the Italian than from the English.  In the Italian
+	   sentences not only were the verbs underspecified for tense but the nouns were 
+	   underspecied for number.  Sentences with more than one noun generated all permutations of
+	   the plural and singular nouns times the count of tenses on the verb.
+
+	   The following sentences did not transfer from Italian.
+
+	   1 - Posso mangi-are il vetro.  Same problem as English: my modal has broken MRS somewhere.
+
+	   2 - Non mi-f-a male.  I created the rule in acm.mtr, but never it fires.  I ran out of
+	   time. 
+
+	   3 - Pens-o che sai che cani insegu-ono macchine
+	   4 - Domand-o se sai che cani insegu-ono macchine
+	     The MRS on my complemetizers is not correct.
+
+	   I think the next three are that I am simply generating too many tenses and numbers.
+	   Two of these three do transfer from English.
+	   5 - Cani e gatti insegu-ono macchine
+	   6 - Cani insegu-ono macchine e gatti insegu-ono cani
+	   7 - Gatti insegu-ono cani e dorm-ono
+
+	   8 - insegu-i il cane.  Same problem as English: I did not implement the imperative.
+	   
+
+IV  Final thoughts.
+    I wish had had time to come in during office hours and get a hands-on walk through on fixing
+the MRS on either my modal or my demonstratives.
+          
+
+
+
+
+      
+ 

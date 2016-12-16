@@ -1,0 +1,49 @@
+-----------------------------------------------------
+Notes:
+
+
+The last thing I had to do in order to fix translation from Classical
+Japanese -> Classical Japanese (i.e. generation) was a hack that made
+both my question inflection and negation inflection lexical rules
+contribute [TENSE present]. The thing I found that was because all of
+my inflected forms were contributing TENSE values that were not leaves
+in the heirarchy - i.e. they were non_past or non_future - the MRSs
+were underspecified for TENSE. This would allow any tense auxiliaries
+to attach to the sentence, because they were underspecified for
+tense. The reason why I made a hack to have all questions and
+negations be [TENSE present] was that the negation auxiliary follows a
+special conjugation, and that the question inflection is being
+modelled in a slightly inaccurate way. By that, I mean that the
+question particle isn't really an affix, so it shouldn't have it's own
+inflection. I now realize that this means that it should propagate up
+the verb it is modifying's TENSE value, but it is the 11th hour and I
+don't want to be fiddling with the grammar at this point to correct
+something that works for our purposes.
+
+... Indeed, this doesn't seem to be the right way to go about
+fixing this.  The question marker can't co-occur with non-present?
+
+ For Italian, I instantiated the following transfer rules:
+ Again, I needed this one so that we allow pro-drop:
+ pro-drop := pronoun-delete-mtr.
+
+Really?  Italian is pro-drop too.
+
+  I have complete coverage in Italian. The only problem is that I have
+  a bit of overgeneration with "I think that you know that dogs chase
+  cars." and "Dogs eat quickly." There is overgeneration with "I think
+  that you know that dogs chase cars." because of the pro-drop
+  rules. By that, I mean that since we delete "I" and "you" we are
+  left with possibilities like "The dog knows that someone knows that
+  someone chases cars." and "Someone knows that the dog knows that
+  someone chases cars."
+
+I'm not sure this is overgeneration.  Japanese doesn't mark PNG
+with prodrop...
+
+  In English, I can translate everything besides "Cats chase dogs and
+  sleep." I find this fact quite perplexing, as I can translate this
+  from Italian.
+
+That's because it's S-coordination in Italian but VP-coordination
+in English.

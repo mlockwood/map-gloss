@@ -1,0 +1,1333 @@
+Language: Zulu
+Language Code: Zul
+Tiers: orth orth-seg gloss translat
+Author: Kelly O'Hara
+Date: January 14, 2007
+Source A: Nyembezi, Sibusiso: _Learn Zulu_
+Source B: Poulos, George and Sonja E. Bosch: _Zulu_
+Source C: Buell, Leston Chandler: 'Issues in Zulu Verbal Morphosyntax'
+
+###############
+#  WORD ORDER  #
+###############
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo
+Umntwana uzodlala 
+um-ntwana u-zo-dlal-a
+C1-child SC1-FUT(IMM)-play-FV 
+'The child will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+uzodlala umntwana 
+u-zo-dlal-a um-ntwana 
+SC1-FUT(IMM)-play-FV C1-child
+'The child will play'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo
+Umntwana uzobona inyoka
+um-ntwana u-zo-bon-a in-yoka
+C1-child SC1-FUT(IMM)-see-FV C9-snake
+'The child will see the snake'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+Umntwana inyoka uzobona
+um-ntwana in-yoka u-zo-bon-a
+C1-child C9-snake SC1-FUT(IMM)-see-FV
+'The child saw the snake'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+Inyoka umntwana uzobona
+in-yoka um-ntwana u-zo-bon-a
+C9-snake C1-child SC1-FUT(IMM)-see-FV
+'The child will see the snake'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo, agr
+Inyoka uzobona umntwana
+in-yoka u-zo-bon-a um-ntwana
+C9-snake SC1-FUT(IMM)see-FV C1-child
+'The child will see the snake'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+Uzobona umntwana inyoka
+u-zo-bon-a um-ntwana in-yoka
+SC1-FUT(IMM)-see-FV C1-child C9-snake
+'The child will see the snake'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+Uzobona inyoka umntwana
+u-zo-bon-a in-yoka um-ntwana
+SC1-FUT(IMM)-see-FV C9-snake C1-child
+'The child will see the snake'
+
+###################################
+# FIRST AND SECOND PERSON PRONOUNS  #
+###################################
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pn
+Mina ngizogijima
+mina ngi-zo-gijim-a
+1SG 1SG-FUT(IMM)-run-FV
+'I will run'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pn
+thina sizogijima
+thina si-zo-gijim-a
+1PL 1PL-FUT(IMM)-run-FV
+'We will run'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pn
+wena uzogijima
+wena u-zo-gijim-a
+2SG 2SG-FUT(IMM)-run-FV
+'You(sg) will run'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pn
+nina nizogijima
+nina ni-zo-gijim-a
+2PL 2PL-FUT(IMM)-run-FV
+'You(pl) will run'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pn
+Umntwana uzoshaya mina
+um-ntwana u-zo-shay-a mina
+C1-child SC1-FUT(IMM)-hit-FV 1SG
+'The child will hit me'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pn
+Umntwana uzoshaya thina
+um-ntwana u-zo-shay-a mina
+C1-child SC1-FUT(IMM)-hit-FV 1PL
+'The child will hit us'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pn
+Inyoka uzobona wena
+in-yoka i-zo-bon-a wena
+C9-snake SC9-FUT(IMM)-see-FV 2SG
+'The snake will see you(sg)'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pn
+Inyoka uzobona nina
+in-yoka i-zo-bon-a nina
+C9-snake SC9-FUT(IMM)-see-FV 2PL
+'The snake will see you(pl)'
+
+##########################
+# Determiners/Demonstratives #
+##########################
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Lo mntwana uzodlala 
+lo um-ntwana u-zo-dlal-a
+C1.P1 C1-child SC1-FUT(IMM)-play-FV
+'This child (near me) will play'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Umntwana lo uzodlala 
+um-ntwana lo u-zo-dlal-a
+C1-child C1.P1 SC1-FUT(IMM)-play-FV
+'This child (near me) will play'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Lowo mntwana uzodlala 
+lowo um-ntwana u-zo-dlal-a
+C1.P2 C1-child SC1-FUT(IMM)-play-FV
+'That child (near you) will play'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Umntwana lowo uzodlala 
+um-ntwana lowo u-zo-dlal-a
+C1-child C1.P2 SC1-FUT(IMM)-play-FV
+'That child (near you) will play'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Lowaya mntwana uzodlala 
+lowaya um-ntwana u-zo-dlal-a
+C1.P3 C1-child SC1-FUT(IMM)-play-FV
+'That child (far from both of us) will play'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Umntwana lowaya uzodlala 
+um-ntwana lowaya u-zo-dlal-a
+C1-child C1.P1 SC1-FUT(IMM)-play-FV
+'That child (far from both of us) will play'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Inyoka le izodlala
+in-yoka le i-zo-dlal-a
+C9-snake C9.P1 SC1-FUT(IMM)-play-FV
+'This snake (near me) will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: det, agr
+Inyoka lo izodlala
+in-yoka lo i-zo-dlal-a
+C9-snake C1.P1 SC1-FUT(IMM)-play-FV
+'This snake (near me) will play'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det, agr
+Umntwana le uzodlala 
+um-ntwana le u-zo-dlal-a
+C1-child C9.P1 SC1-FUT(IMM)-play-FV
+'This child (near me) will play'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Inyoka leyo izodlala
+in-yoka leyo i-zo-dlal-a
+C9-snake C9.P2 SC1-FUT(IMM)-play-FV
+'That snake (near you) will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: det, agr
+Inyoka lowo izodlala
+in-yoka lowo i-zo-dlal-a
+C9-snake C1.P2 SC1-FUT(IMM)-play-FV
+'That snake (near you) will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: det, agr
+Umntwana leyo uzodlala 
+um-ntwana leyo u-zo-dlal-a
+C1-child C9.P2 SC1-FUT(IMM)-play-FV
+'That child (near you) will play'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Inyoka leya izodlala
+in-yoka leyo i-zo-dlal-a
+C9-snake C9.P3 SC1-FUT(IMM)-play-FV
+'That snake (far from both of us) will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: det, agr
+Inyoka lowaya izodlala
+in-yoka lowaya i-zo-dlal-a
+C9-snake C1.P3 SC1-FUT(IMM)-play-FV
+'That snake (far from both of us) will play'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Umntwana leya izodlala
+um-ntwana leyo i-zo-dlal-a
+C1-child C9.P3 SC1-FUT(IMM)-play-FV
+'That child (far from both of us) will play'
+
+#############
+#  PRO-DROP   #
+#############
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+Umntwana uzoyishaya inyoka
+um-ntwana u-zo-yi-shay-a in-yoka
+C1-child SC1-FUT(IMM)-OC9-hit-FV C9-snake
+'The child will hit the snake'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+Umntwana uzoyishaya 
+um-ntwana u-zo-yi-shay-a
+C1-child SC1-FUT(IMM)-OC9-shay-FV
+'The child will hit it'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d
+Umntwana uzoshaya 
+um-ntwana u-zo-shay-a
+C1-child SC1-FUT(IMM)-shay-FV
+'The child will hit'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d
+Umntwana zoshaya inyoka
+um-ntwana zo-shay-a in-yoka
+C1-child FUT(IMM)-hit-FV C9-snake
+'The child will hit the snake'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+Uzoshaya inyoka
+u-zo-shay-a in-yoka
+SC1-FUT(IMM)-hit-FV C9-snake
+'He/She will hit the snake'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+uzoyishaya 
+u-zo-yi-shay-a
+SC1-FUT(IMM)-OC9-hit-FV
+'He/She will hit it'
+
+##############################
+# AGREEMENT  SECTION 1:                #
+# Same subject, different concords   #
+##############################
+ 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Umntwana uzogijima
+Um-twana u-zo-gijim-a
+C1-child SC1-FUT(IMM)-run-FV
+'The child will run'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umntwana bazogijima
+Um-twana ba-zo-gijim-a
+C1-child SC2-FUT(IMM)-run-FV
+'The child will run'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umntwana izogijima
+Um-twana i-zo-gijim-a
+C1-child SC4-FUT(IMM)-run-FV
+'The child will run'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umntwana lizogijima
+Um-twana li-zo-gijim-a
+C1-child SC5-FUT(IMM)-run-FV
+'The child will run'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umntwana azogijima
+Um-twana a-zo-gijim-a
+C1-child SC6-FUT(IMM)-run-FV
+'The child will run'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umntwana sizogijima
+Um-twana si-zo-gijim-a
+C1-child SC7-FUT(IMM)-run-FV
+'The child will run'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umntwana zizogijima
+Um-twana zi-zo-gijim-a
+C1-child SC8-FUT(IMM)-run-FV
+'The child will run'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umntwana luzogijima
+Um-twana lu-zo-gijim-a
+C1-child SC11-FUT(IMM)-run-FV
+'The child will run'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umntwana buzogijima
+Um-twana bu-zo-gijim-a
+C1-child SC14-FUT(IMM)-run-FV
+'The child will run'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umntwana kuzogijima
+Um-twana ku-zo-gijim-a
+C1-child SC15-FUT(IMM)-run-FV
+'The child will run'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umntwana ngizogijima
+Um-twana ngi-zo-gijim-a
+C1-child 1SG-FUT(IMM)-run-FV
+'The child will run'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umntwana nizogijima
+Um-twana ni-zo-gijim-a
+C1-child 2PL-FUT(IMM)-run-FV
+'The child will run'
+
+##############################
+#  AGREEMENT SECTION 2:                #
+#  Same concord, different subjects  #
+##############################
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umntwana lizodlala 
+um-ntwana li-zo-dlal-a
+C1-child SC5-FUT(IMM)-play-FV
+'The child will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Abantwana lizodlala 
+Aba-ntwana li-zo-dlal-a
+C2-child SC5-FUT(IMM)-play-FV
+'The children will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Udokotela lizodlala 
+u-dokotela li-zo-dlal-a
+C1a-doctor SC5-FUT(IMM)-play-FV
+'The doctor will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Odokotela lizodlala 
+o-dokotela li-zo-dlal-a
+C2a-doctor SC5-FUT(IMM)-play-FV
+'The doctors/The doctor and others will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Umlilo lizodlala 
+umu-lilo li-zo-dlal-a
+C3-fire SC5-FUT(IMM)-play-FV
+'The fire will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Imililo lizodlala 
+imi-lilo li-zo-dlal-a
+C4-fire SC5-FUT(IMM)-play-FV
+'The fires will play'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Ikati lizodlala 
+ili-kati li-zo-dlal-a
+C5-cat SC5-FUT(IMM)-play-FV
+'The cat will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Amakati lizodlala 
+ama-kati li-zo-dlal-a
+C6-cat SC5-FUT(IMM)-play-FV
+'The cats will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Isisebenzi lizodlala 
+isi-sebenz-i li-zo-dlal-a
+C7-work-NMLZ SC5-FUT(IMM)-play-FV
+'The worker will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Izisebenzi lizodlala 
+izi-sebenz-i li-zo-dlal-a
+C8-work-NMLZ SC5-FUT(IMM)-play-FV
+'The workers will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Inyoka lizodlala 
+in-yoka li-zo-dlal-a
+C9-snake SC5-FUT(IMM)-play-FV
+'The snake will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Izinyoka lizodlala 
+izin-yoka li-zo-dlal-a
+C10-snake SC5-FUT(IMM)-play-FV
+'The snakes will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ufudu lizodlala 
+ulu-fudu li-zo-dlal-a
+C11-tortoise SC5-FUT(IMM)-play-FV
+'The tortoise will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Utshani lizodlala 
+ubu-ani li-zo-dlal-a
+C14-grass SC5-FUT(IMM)-play-FV
+'The grass will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ukudla lizodlala 
+uku-dla li-zo-dlal-a
+C15-eat SC5-FUT(IMM)-play-FV
+'The food will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Phandle lizodlala 
+pha-ndle li-zo-dlal-a
+C16-outside SC5-FUT(IMM)-play-FV
+'The outside will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ukunto lizodlala 
+uku-nto li-zo-dlal-a
+C17-toy SC5-FUT(IMM)-play-FV
+'The toy will play'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Mina lizodlala 
+mina li-zo-dlal-a
+1SG SC5-FUT(IMM)-play-FV
+'I will play'
+
+############################
+# AGREEMENT SECTION 3:             #
+# Same object, different concords #
+############################
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: arg
+Ngizomshaya umntwana 
+ngi-zo-m-shay-a um-ntwana
+1SG-FUT(IMM)-OC1-hit-FV C1-child
+'I will hit the child'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: arg
+Ngizobashaya umntwana 
+ngi-zo-ba-shay-a um-ntwana
+1SG-FUT(IMM)-OC2-hit-FV C1-child
+'I will hit the child'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: arg
+Ngizowushaya umntwana 
+ngi-zo-wu-shay-a um-ntwana
+1SG-FUT(IMM)-OC3-hit-FV C1-child
+'I will hit the child'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: arg
+Ngizoyishaya umntwana 
+ngi-zo-yi-shay-a um-ntwana
+1SG-FUT(IMM)-OC4-hit-FV C1-child
+'I will hit the child'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: arg
+Ngizolishaya umntwana 
+ngi-zo-li-shay-a um-ntwana
+1SG-FUT(IMM)-OC5-hit-FV C1-child
+'I will hit the child'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: arg
+Ngizowashaya umntwana 
+ngi-zo-wa-shay-a um-ntwana
+1SG-FUT(IMM)-OC6-hit-FV C1-child
+'I will hit the child'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: arg
+Ngizosishaya umntwana 
+ngi-zo-si-shay-a um-ntwana
+1SG-FUT(IMM)-OC7-hit-FV C1-child
+'I will hit the child'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: arg
+Ngizozishaya umntwana 
+ngi-zo-zi-shay-a um-ntwana
+1SG-FUT(IMM)-OC8-hit-FV C1-child
+'I will hit the child'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: arg
+Ngizolushaya umntwana 
+ngi-zo-lu-shay-a um-ntwana
+1SG-FUT(IMM)-OC11-hit-FV C1-child
+'I will hit the child'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: arg
+Ngizobushaya umntwana 
+ngi-zo-bu-shay-a um-ntwana
+1SG-FUT(IMM)-OC14-hit-FV C1-child
+'I will hit the child'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: arg
+Ngizokushaya umntwana 
+ngi-zo-ku-shay-a um-ntwana
+1SG-FUT(IMM)-OC15-hit-FV C1-child
+'I will hit the child'
+
+#############################
+# AGREEMENT SECTION 4:               #
+# Same concord, different objects   #
+#############################
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya umntwana
+ngi-zo-ba-shay-a um-ntwana
+1SG-FUT(IMM)-OC2-play-FV C1-child
+'I will hit the child'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Ngizobashaya abantwana
+ngi-zo-ba-shay-a aba-ntwana
+1SG-FUT(IMM)-OC2-play-FV C2-child
+'I will hit the children'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya udokotela
+ngi-zo-ba-shay-a u-dokotela
+1SG-FUT(IMM)-OC2-play-FV C1a-doctor
+'I will hit the doctor'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Ngizobashaya odokotela
+ngi-zo-ba-shay-a o-dokotela
+1SG-FUT(IMM)-OC2-play-FV C2a-doctor
+'I will hit the doctors/the doctor and others'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya umlilo
+ngi-zo-ba-shay-a umu-lilo
+1SG-FUT(IMM)-OC2-play-FV C3-fire
+'I will hit the fire'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya imililo
+ngi-zo-ba-shay-a imi-lilo
+1SG-FUT(IMM)-OC2-play-FV C4-fires
+'I will hit the fires'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya ikati
+ngi-zo-ba-shay-a uli-kati
+1SG-FUT(IMM)-OC2-play-FV C5-cat
+'I will hit the cat'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya amakati
+ngi-zo-ba-shay-a ama-kati
+1SG-FUT(IMM)-OC2-play-FV C6-cat
+'I will hit the cats'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya isisebenzi
+ngi-zo-ba-shay-a isi-sebenz-i
+1SG-FUT(IMM)-OC2-play-FV C7-work-NMLZ
+'I will hit the worker'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya izisebenzi
+ngi-zo-ba-shay-a izi-sebenz-i
+1SG-FUT(IMM)-OC2-play-FV C8-work-NMLZ
+'I will hit the workers'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya inyoka
+ngi-zo-ba-shay-a in-yoka
+1SG-FUT(IMM)-OC2-play-FV C9-snake
+'I will hit the snake'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya izinyoka
+ngi-zo-ba-shay-a izin-yoka
+1SG-FUT(IMM)-OC2-play-FV C10-snakes
+'I will hit the snakes'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya ufudu
+ngi-zo-ba-shay-a ulu-fudu
+1SG-FUT(IMM)-OC2-play-FV C11-tortoise
+'I will hit the tortoise'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya utshani
+ngi-zo-ba-shay-a ubu-ani
+1SG-FUT(IMM)-OC2-play-FV C14-grass
+'I will hit the grass'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya ukudla
+ngi-zo-ba-shay-a uku-dla
+1SG-FUT(IMM)-OC2-play-FV C15-eat
+'I will hit the food'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizobashaya phandle
+ngi-zo-ba-shay-a pha-ndle
+1SG-FUT(IMM)-OC2-play-FV C16-outside
+'I will hit the outside'
+
+Source: author
+Vetted: f
+Judgment: un
+Phenomena: agr
+Ngizobashaya ukunto
+ngi-zo-ba-shay-a uku-nto
+1SG-FUT(IMM)-OC2-play-FV C17-toy
+'I will hit the toy'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Ngizokushaya wena 
+ngi-zo-ku-shay-a wena
+1SG-FUT(IMM)-2SG-play-FV 2SG
+'I will hit you(sg)'
+
+###########
+# NEGATION #
+###########
+Source: A
+Vetted: s
+Judgment: g
+Phenomena: neg
+Angizufunda
+a-ngi-zu-fund-a
+NEG-1SG-FUT(IMM)-study-FV
+'I will not study'
+
+Source: B
+Vetted: s
+Judgment: g
+Phenomena: neg
+Abantwana abazufunda
+aba-ntwana a-ba-zu-fund-a
+C2-child NEG-SC2-FUT(IMM)-study-FV
+'The children will not study"
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: neg
+Ngizufunda
+ngi-zu-fund-a
+1SG-FUT(IMM)-study-FV
+'I will not study'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: neg
+Ngiazofunda
+ngi-a-zo-fund-a
+1SG-NEG-FUT(IMM)-study-FV
+'I will not study'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: neg
+Abantwana bazuafunda
+aba-ntwana ba-zu-a-fund-a
+C2-child NEG-SC2-FUT(IMM)-study-FV
+'The children will not study"
+ 
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: neg
+Abantwana bazufundaa
+aba-ntwana ba-zu-fund-a-a
+C2-child SC2-FUT(IMM)-study-NEG-FV
+'The children will not study'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: neg
+Abantwana bazufundaa
+aba-ntwana ba-zu-fund-a-a
+C2-child SC2-FUT(IMM)-study-FV-NEG
+'The children will not study'
+
+##########################
+# MATRIX YES-NO QUESTIONS  #
+##########################
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+Umntwana uzodlala?
+um-ntwana u-zo-dlal-a
+C1-child SC1-FUT(IMM)-play-FV 
+'Will the child play?'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+Umntwana uzodlala na?
+um-ntwana u-zo-dlal-a Q
+C1-child SC1-FUT(IMM)-play-FV 
+'Will the child play?'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: q
+Na umntwana uzodlala?
+um-ntwana u-zo-dlal-a 
+Q C1-child SC1-FUT(IMM)-play-FV 
+'Will the child play?'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: q
+Umntwana uzodlala?
+um-ntwana na u-zo-dlal-a
+C1-child Q SC1-FUT(IMM)-play-FV 
+'Will the child play?'
+
+#############
+# IMPERATIVES #
+#############
+
+Source: A
+Vetted: s
+Judgment: g
+Phenomena: imp
+Gijima!
+gijim-a
+run-FV
+'Run(sg)!' 
+
+Source: A
+Vetted: s
+Judgment: g
+Phenomena: imp
+Gijimani!
+gijim-a-ni
+run-FV-PL
+'Run(pl)!'
+
+Source: B
+Vetted: s
+Judgment: g
+Phenomena: imp
+Shaya inja!
+shay-a in-ja
+hit-FV C9-dog
+'Hit(sg) the dog!'
+
+Source: author
+Vetted: n
+Judgment: g
+Phenomena: imp
+Shayani inja!
+shay-a-ni in-ja
+hit-FV-PL C9-dog
+'Hit(pl) the dog!'
+
+Source: A
+Vetted: s
+Judgment: g
+Phenomena: neg, imp
+Musa ukugijima!
+mus-a uku-gijim-a
+don't-FV SC15-run-FV
+'Don't run!'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: neg, imp
+Ukugijima musa!
+uku-gijim-a mus-a
+SC15-run-FV don't-FV
+'Don't run!'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: imp
+USipho, gijima!
+u-Sipho gijim-a
+C1a-Sipho run-FV
+'Sipho, run!'
+
+####################
+#  EMBEDDED CLAUSES  #
+####################
+
+Source: author
+Vetted: n
+Judgment: g
+Phenomena: emb-d
+Umama uzofuna ukuba siye
+u-mama u-zo-fun-a ukuba si-y-e
+C1a-mother C1a-FUT(IMM)-want-FV that 1PL-go-SBJV
+'Mother will want that we go / Mother will want us to go'
+
+Source: author
+Vetted: n
+Judgment: g
+Phenomena: emb-d
+Umama uzofuna ukuba siye
+u-mama u-zo-fun-a ukuba si-y-a
+C1a-mother C1a-FUT(IMM)-want-FV that 1PL-go-FV
+'Mother will want that we go / Mother will want us to go'
+
+Source: A
+Vetted: s
+Judgment: g
+Phenomena: emb-d
+Abantwana bazoya esikoleni ukuze bafunde
+aba-ntwana ba-zo-y-a e-sikol-eni ukuze ba-fund-e
+C2-child SC2-FUT(IMM)-go-FV LOC-school-to in.order.to SC2-study-SBJV
+'The children go to school in order that they study'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: emb-d
+Abantwana ukuze bazoya esikoleni bafunde
+aba-ntwana ukuze ba-zo-y-a e-sikol-eni ba-fund-e
+C2-child in.order.to SC2-FUT(IMM)-go-FV LOC-school-to SC2-study-SBJV
+'The children go to school in order that they study'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: emb-d
+Abantwana bazoya ukuze esikoleni bafunde
+aba-ntwana ba-zo-y-a ukuze e-sikol-eni ba-fund-e
+C2-child SC2-FUT(IMM)-go-FV in.order.to LOC-school-to SC2-study-SBJV
+'The children go to school in order that they study'
+
+##########
+# MODALS #
+##########
+
+Source: A
+Vetted: s
+Judgment: g
+Phenomena: m
+Abantu bangadlala
+aba-ntu ba-nga-dlal-a
+C2-person SC2-can-play-FV
+'The people can play'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: m
+Abantu ngabadlala
+aba-ntu nga-ba-dlal-a
+C2-person can-SC2-play-FV
+'The people can play'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: m
+Abantu badlalngaa
+aba-ntu ba-nga-dlal-nga-a
+C2-person SC2-play-can-FV
+'The people can play'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: m
+Abantu badlalanga
+aba-ntu ba-dlal-a-nga
+C2-person SC2-play-FV-can
+'The people can play'
+
+Source: A
+Vetted: s
+Judgment: g
+Phenomena: m
+Ningambona edolobheni
+ni-nga-m-bon-a e-dolobh-eni
+2PL-can-OC1-see-fv LOC-town-in
+'You(pl) can see him/her in town'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: m
+Nimngabona edolobheni
+ni-m-nga-bon-a e-dolobh-eni
+2PL-OC1-can-see-fv LOC-town-in
+'You(pl) can see him/her in town'
+
+Source: author
+Vetted: n
+Judgment: g
+Phenomena: m, neg
+Abantu bangedlale
+aba-ntu ba-nge-dlal-e
+C2-person SC2-can-play-FV
+'The people can't play'
+
+
+
+
+################
+# COORDINATION # 
+################
+
+Source: author
+Vetted: n
+Judgment: g
+Phenomena: crd
+Umuntu uzobona uJames noSipho
+umu-ntu u-zo-bon-a u-James na-u-Sipho
+C1-person SC1-FUT(IMM)-see-FV C1a-James with-C1a-Sipho
+'The person sees James and Sipho'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: crd
+Umuntu uzobona noJames noSipho
+umu-ntu u-zo-bon-a na-u-James na-u-Sipho
+C1-person SC1-FUT(IMM)-see-FV with-C1a-James with-C1a-Sipho
+'The person sees James and Sipho'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: crd
+Umuntu uzobona uJames uSipho
+umu-ntu u-zo-bon-a u-James u-Sipho
+C1-person SC1-FUT(IMM)-see-FV C1a-James C1a-Sipho
+'The person sees James and Sipho'
+
+Source: author
+Vetted: n
+Judgment: g
+Phenomena: crd
+Umfana uzoshaya ishani nenja
+umu-fana u-zo-shay-a i-shani na-in-ja
+C1-boy SC1-FUT(IMM)-hit-FV C5-horse with-C9-dog
+'The boy hit the horse and the dog'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: crd
+Umfana uzoshaya neshani nenja
+umu-fana u-zo-shay-a na-i-shani na-in-ja
+C1-boy SC1-FUT(IMM)-hit-FV with-C5-horse with-C9-dog
+'The boy hit the horse and the dog'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: crd
+Umfana uzoshaya ishani inja
+umu-fana u-zo-shay-a i-shani in-ja
+C1-boy SC1-FUT(IMM)-hit-FV C5-horse C9-dog
+'The boy hit the horse and the dog'
+
+Source: author
+Vetted: n
+Judgment: g
+Phenomena: crd
+Umfana uzodlala nenja
+umu-fana u-zo-dlal-a na-in-ja
+C1-boy SC1-FUT(IMM)-play-FV with-C9-dog
+'The boy will play with the dog'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: crd
+Nomfana uzodlala nenja
+na-umu-fana u-zo-dlal-a na-in-ja
+with-C1-boy SC1-FUT(IMM)-play-FV with-C9-dog
+'The boy will play with the dog'
+
+Source: B
+Vetted: s
+Judgment: g
+Phenomena: crd
+USipho uzovuka ngo-7 aphuze itiye aye emsebenzini
+u-Sipho u-zo-vuk-a ngo-7 a-phuz-e i-tiye a-y-e em-sebenz-ini
+C1-Sipho SC1-FUT(IMM)-wake-FV at-7 SC1-drink-SBJV C5-tea SC1-go-SBJV LOC-work-to
+'Sipho will wake at 7, drink tea, and go to work'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: crd
+USipho uzovuka ngo-7 aphuza itiye aye emsebenzini
+u-Sipho u-zo-vuk-a ngo-7 a-phuz-a i-tiye a-y-e em-sebenz-ini
+C1-Sipho SC1-FUT(IMM)-wake-FV at-7 SC1-drink-FV C5-tea SC1-go-SBJV LOC-work-to
+'Sipho will wake at 7, drink tea, and go to work'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: crd
+USipho uzovuka ngo-7 aphuza itiye aya emsebenzini
+u-Sipho u-zo-vuk-a ngo-7 a-phuz-a i-tiye a-y-a em-sebenz-ini
+C1-Sipho SC1-FUT(IMM)-wake-FV at-7 SC1-drink-FV C5-tea SC1-go-FV LOC-work-to
+'Sipho will wake at 7, drink tea, and go to work'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: crd
+USipho uzovuka ngo-7 naphuze itiye aye emsebenzini
+u-Sipho u-zo-vuk-a ngo-7 na-a-phuz-e i-tiye a-y-e em-sebenz-ini
+C1-Sipho SC1-FUT(IMM)-wake-FV at-7 with-SC1-drink-SBJV C5-tea SC1-go-SBJV LOC-work-to
+'Sipho will wake at 7, drink tea, and go to work'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: crd
+USipho uzovuka ngo-7 naphuze itiye naye emsebenzini
+u-Sipho u-zo-vuk-a ngo-7 na-a-phuz-e i-tiye a-y-e em-sebenz-ini
+C1-Sipho SC1-FUT(IMM)-wake-FV at-7 with-SC1-drink-SBJV C5-tea with-SC1-go-SBJV LOC-work-to
+'Sipho will wake at 7, drink tea, and go to work'
+
+Source: author
+Vetted: n
+Judgment: u
+Phenomena: crd
+USipho uzovuka ngo-7 naphuza itiye naya emsebenzini
+u-Sipho u-zo-vuk-a ngo-7 with-a-phuz-a i-tiye with-a-y-a em-sebenz-ini
+C1-Sipho SC1-FUT(IMM)-wake-FV at-7 SC1-drink-FV C5-tea SC1-go-FV LOC-work-to
+'Sipho will wake at 7, drink tea, and go to work'
+
+
+

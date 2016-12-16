@@ -1,0 +1,1302 @@
+
+
+
+Ling 567-10win:  Lab 4
+
+Language:  Pashto, Southern (pbt)
+Team:  Justin Kauhl, Jeff Scott
+Date Due:  1/22/2010
+Date:  $Date: 2010-01-30 01:57:54 -0800 (Sat, 30 Jan 2010) $
+Author:  Jeffry Scott
+
+TOPICS:  Matrix Yes-No Questions, Coordination, Adjectives, Adverbs,
+         Non-Verbal Predicates, Embedded Clauses, Information
+         Structure
+
+
+NB:  We use the plus sign ('+') in IGT to indicate phenomena or
+lexical items not yet implemented in the grammar.  Thus, '+*'
+indicates a sentence that has constituents not in the grammar but will
+be ungrammatical once implemented.
+
+
+
+1.  CUSTOMIZATION OF SYSTEM CHOICES
+
+
+1.1  Matrix Yes-No Questions
+
+Questions in Pashto "are formed by rising intonation at the end of a
+sentence." (Babrakzai 1999, p. 64).  No marking or changes in word
+order are required.  Focus occurs with stress on the desired
+constituent.  Stress on the main verb is applied in long sentences.
+
+# Id: 08.1  Matrix Yes/No Question: rising intonation
+Source: author:scott
+Vetted: f
+Judgment: g
+Phenomena:  q
+spe           natsi                  ?
+sp-e          nats-i                 ?
+dog-M.SG.ABS  dance:ITR-3SG.PRS.ABS  ?
+'(Does the) dog dance?'
+
+
+Yes-No Questions may also be generated using the tag 'kana', meaning
+'if not'.  This tag is placed at the end of a declarative sentence.
+
+# Id: 08.5  Matrix Yes/No Question: tag question
+Source: c:68
+Vetted: f
+Judgment: g
+Phenomena:  q
++ sta                 wrar              parun          ravay          ka na       ?
++ st-a                wrar              parun          rav-ay         ka_na       ?
++ your:PN.POSS-M.3SG  brother:M-SG.ABS  yesterday:ADV  come:TR-M.3SG  if+not:TAG  ?
+'+ Your brother came yesterday, didn't he?'
+
+# Id: 08.2  Matrix Yes/No Question: tag question
+Source: author:scott
+Vetted: f
+Judgment: g
+Phenomena:  q
++ spe             natsi                  ka na       ?
++ sp-e            nats-i                 ka_na       ?
++ dog:M-3SG.ABS   dance:ITR-3SG.PRS.ABS  if+not:TAG  ?
+'+ (The) dog dances, doesn't he?'
+
+# Id: 08.4  Matrix Yes/No Question: tag question, word order *
+Source: author:scott
+Vetted: f
+Judgment: u
+Phenomena:  q
++* spe            ka na       natsi                  ?
++* sp-e           ka_na       nats-i                 ?
++* dog:M-3SG.ABS  if+not:TAG  dance:ITR-3SG.PRS.ABS  ?
+'+* (The) dog dances, doesn't he?'
+
+
+Within the Grammar Qustionnaire, the option for a separate question
+particle was selected.  The particle is 'ka na', with Sentence Final
+marked.
+
+
+
+
+1.2  Coordination
+
+Pashto coordination is primarily accomplished through the use of the
+conjuction 'aw' which roughly means the same as 'and' in English.
+There are various other coordinating conjunctions but at this stage of
+the grammar implementation we are only planning on including 'aw'. If
+the implementation of that goes smoothly and we are pleased with the
+result the further implementation of other conjunctions is always an
+option. Although the meaning of the word 'aw' is like that of English
+it is not used in the same way. In Pashto coordination can be
+accomplished using either a polysyndeton strategy or a asyndeton
+strategy. When the polysyndeton strategy is used the coordination
+conjunction appears before the coordinand. All coordinands must
+display the case requirements of the position that they are being
+coordinated in.
+
+
+1.2.1 NP Coordination
+
+In NP Coordination, a coordinated NP can occur in any location that a
+standard uncoordinated NP can. For the purposes of our grammar that
+would be in the s-NP and o-NP positions. NP coordinations use both
+polysyndeton strategy or asyndeton strategy. When using either
+strategy the Verb must take the plural inflection and agree in PERSON
+with the highest PERSON present, 1st > 2nd > 3rd. If all are of the
+3rd person and the verb is in the past tense the verb must agree with
+the coodinand with the highest gender, M > F, and take the plural
+form. With the exception that if the verb agrees in NUMBER, GENDER,
+and PERSON with the nearest coordinand in the past tense it can stand
+for the whole of the coordination.
+
+The questionnarie implementation of this consisted of the addition of
+two coordination strategies. The first specifying polysyndeton marking
+by a word 'aw' that comes before the coordinant. As well as a strategy
+simply specifying asyndeton coordination on the NP's.
+
+# Id: 11.01  NP coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PRES Intransitive) 3rd person only
+pisho         aw        spe            natsi
+pisho         aw        sp-e           nats-i
+cat:F.SG.ABS  and:CONJ  dog:M-SG.ABS   dance:INTR-3RD.PL.PRS
+'(the) cat and (the) dog dances.'
+
+# Id: 11.05  NP coordination without markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PRES Intransitive) 3rd person only
+pisho         spe            natsi
+pisho         sp-e           nats-i
+cat:F.SG.ABS  dog:M-SG.ABS   dance:INTR-3RD.PL.PRS
+'(the) cat and (the) dog dances.'
+
+# Id: 11.06  NP coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PRES Intransitive) 3rd and 2nd person
+pisho         aw        te               natsey
+pisho         aw        te               nats-ey
+cat:F.SG.ABS  and:CONJ  you:2ND.SG.ABS   dance:INTR-2ND.PL.PRS
+'(the) cat and you dances.'
+
+# Id: 11.13  NP coordination without markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PRES Transitive)
+ze             pisho         spe            taqibawem
+ze             pisho         sp-e           taqibaw-em
+I:1ST.SG.ABS   cat:F.SG.ABS  dog:M-SG.ABS   chase:TRAN-1ST.SG.PRS
+'I chase (the) cat and (the) dog.'
+
+# Id: 11.14  NP coordination without markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PRES Transitive)
+ze             pisho         spe            taqibawu
+ze             pisho         sp-e           taqibaw-u
+I:1ST.SG.ABS   cat:F.SG.ABS  dog:M-SG.ABS   chase:TRAN-1ST.PL.PRS
+'Me and (the) cat chase (the) dog.'
+
+
+These previous examples demonstrate the various ways to make a
+grammatical NP coordination. 11.01 demonstrates the basic 3rd person
+present coordination with the coordinating conjunction 'aw' while
+11.05 shows a sentence of the same meaning without the conjunction.
+Note in both examples that the verb takes the 3RD.PL morpheme. 11.06
+demonstrates the hierarchy of PERSON in verb agreement. While 11.13
+and 11.14 demonstrate the subtle differences between an object
+position coordination and a subject position coordination when there
+are no conjuctions present. The distinction between one and the other
+is all in the verb inflection. A few negative examples showing ways in
+which these rules are broken follow.
+
+# Id: 11.02  NP coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: u
+Phenomena:  Coordination (PRES Intransitive) 3rd person only
+* aw       pisho         aw        spe           natsi
+* aw       pisho         aw        sp-e          nats-i
+and:CONJ  cat:F.SG.ABS  and:CONJ  dog:M-SG.ABS  dance:INTR-3RD.PL.PRS
+'*(the) cat and (the) dog dances.'
+
+# Id: 11.03  NP coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: u
+Phenomena:  Coordination (PRES Intransitive) 3rd person only
+* pisho        aw        spe           aw        natsi
+* pisho        aw        sp-e          aw        nats-i
+cat:F.SG.ABS  and:CONJ  dog:M-SG.ABS  and:CONJ  dance:INTR-3RD.PL.PRS
+'*(the) cat and (the) dog dances.'
+
+
+These two examples are ungrammatical because of how they use the
+coordinating conjunction.
+
+# Id: 11.09  NP coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: u
+Phenomena:  Coordination (PRES Intransitive) 3rd and 2nd person
+* pisho         aw        te               natsi
+* pisho         aw        te               nats-i
+cat:F.SG.ABS   and:CONJ  you:2ND.SG.ABS   dance:INTR-3RD.PL.PRS
+'*(the) cat and you dances.'
+
+
+While this example shows a violation of the PERSON feature hierarchy.
+
+# Id: 11.11  NP coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: u
+Phenomena:  Coordination (PRES Intransitive) 3rd person only - ABS and ERG conjunction
+* pisho         aw        spo            natsi
+* pisho         aw        sp-o           nats-i
+* cat:F.SG.ABS  and:CONJ  dog:M-SG.ERG   dance:INTR-3RD.PL.PRS
+'* (the) cat and (the) dog dances.
+
+Within NP conjunctions all coordinands must agree in the feature CASE.
+11.11 is an example of an ungrammatical example where this doesn't
+occur.
+
+
+The following ungrammatical example displays a rule which is not
+explicitly stated in any of out sources but I suspect must be the case
+to avoid a crippling sort of ambiguity. It can only occur in present
+transitive sentences due to the split-ergative nature of Pashto
+however.
+
+# Id: 11.18  NP coordination without markers
+Source: author:kauhl
+Vetted:   f
+Judgment: u
+Phenomena:  Multiple 3RD person nouns in both object and subject positions
+* pisho         sere          spe           karye         taqibawi
+* pisho         ser-e         sp-e          kary-e        taqibaw-i
+* cat:F.SG.ABS  man:M-SG.ABS  dog:M-SG.ABS  cow:M-SG.ABS  chase:TRAN-3RD.PL.PRES
+'* (the) cat and (the) man chase (the) dog and (the) cow.'
+
+This sentence ungrammatical on the basis that there is no
+way to tell how many of the nouns present here belong to the subject
+and how many belong to the object. I believe this to be a place in the
+language where the conjunctions are necessary.
+
+# Id: 11.19  NP coordination with markers
+Source: author:kauhl
+Vetted:   f
+Judgment: g
+Phenomena:  Multiple 3RD person nouns in both object and subject positions
+pisho         aw       sere           spe            aw      karye           taqibawi
+pisho         aw       ser-e          sp-e           aw      kary-e          taqibaw-i
+cat:F.SG.ABS  and:CONJ man:M-SG.ABS   dog:M-SG.ABS   and:CONJ  cow:M-SG.ABS    chase:TRAN-3RD.PL.PRES
+'(the) cat and (the) man chase (the) dog and (the) cow.'
+
+So 11.19 would then be the grammatical form of that. Or even if only
+one, the subject coordination or object coordination, were to display
+conjunctions I believe it would eliminate this ambiguity.
+
+
+
+1.2.2 Sentence Coordination
+
+Sentence coordination occurs with the use of the conjunction 'aw' and
+displays the polysyndeton strategy just as NP coordination but as of
+yet we have failed to find examples of its optionality. When
+coordinating sentences in Pashto the only thing that needs to be kept
+in mind is that the two coordinated sentences need to express the same
+tense.
+
+In the questionnaire a strategy for these was specified on sentences
+using the polysyndeton strategy using the word 'aw' that comes before
+the coordinand.
+
+# Id: 11.20  Sentence coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PRES Intransitive) + (PRES Intransitive)
+spe            natsi                   aw          pisho     xandi
+sp-e           nats-i                  aw          pisho     xand-i
+dog:M-SG.ABS   dance:INTR-3RD.SG.PRS   and:CONJ    cat:F-SG.ABS    laugh:INTR-3RD.SG.PAST
+'(the) dog dances and (the) cat laughs.'
+
+# Id: 11.21  Sentence coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PRES Intransitive) + (PRES Transitive)
+spe            natsi                   aw    ze            pisho          taqibawem
+sp-e           nats-i                  aw    ze            pisho          taqibaw-em
+dog:M-SG.ABS   dance:INTR-3RD.SG.PRS   and:CONJ   I:1ST.SG.ABS  cat:F-SG.ABS    chase:TRAN-1ST.SG.PRS
+'(the) dog dances and I chase (the) cat.'
+
+# Id: 11.22  Sentence coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: u
+Phenomena:  Coordination (PRES Intransitive) + (PAST Transitive)
+* spe            natsi                   aw    ma            pisho          taqibawa
+* sp-e           nats-i                  aw    ma            pisho          taqibaw-a
+ dog:M-SG.ABS   dance:INTR-3RD.SG.PRS   and:CONJ   I:1ST.SG.ERG  cat:F-SG.ABS    chase:TRAN-3RD.SG.PAST
+'*(the) dog dances and I chased (the) cat.'
+
+So 11.20 and 11.21 are grammatical while 11.22 is not.
+
+
+1.2.3 Verb Coordination
+
+In Pashto the verb coordination is accomplished with the conjunction
+'aw' and displays the polysyndeton strategy. The second verb declared
+will act on the same set of arguments as the first and will require no
+additional markings or case requirements. The only stipulation is that
+the tense of both verbs must agree.
+
+In the questionnaire a strategy for these was specified on verbs using
+the polysyndeton strategy using the word 'aw' that comes before the
+coordinand.
+
+# Id: 11.23  Verb coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PRES Intransitive) + (PRES Intransitive)
+spe            natsi                   aw        xandi
+sp-e           nats-i                  aw        xand-i
+dog:M-SG.ABS   dance:INTR-3RD.SG.PRS   and:CONJ  laugh:INTR-3RD.SG.PRES
+'(the) dog dances and laughs.'
+
+# Id: 11.24  Verb coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PRES Intransitive) + (PRES Transitive)
+spe            natsi                   aw          pisho             tabiqawi
+sp-e           nats-i                  aw          pisho             tabiqaw-i
+dog:M-SG.ABS   dance:INTR-3RD.SG.PRS   and:CONJ    cat:F.SG.ABS      chase:TRAN-3RD.SG.PRES
+'(the) dog dances and chases the cat.'
+
+
+Both of these examples show the correct basic pattern for verb
+coordination. An ungrammatical example in which the two verbs do not
+agree in tense is as follows.
+
+# Id: 11.25  Verb coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: u
+Phenomena:  Coordination (PRES Intransitive) + (PAST Transitive)
+* spe            natsi                   aw        pisho           tabiqawa
+* sp-e           nats-i                  aw        pisho           tabiqaw-a
+ dog:M-SG.ABS   dance:INTR-3RD.SG.PRS   and:CONJ  cat:F.SG.ABS    chase:TRAN-F.3RD.SG.PAST
+'*(the) dog dances and chases the cat.'
+
+
+An interesting thing happens with the split-ergative case marking when
+a transitive past and an intrasitive past verb are coordinated. See
+11.26 and 11.27 below.
+
+# Id: 11.26  Verb coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PAST Intransitive) + (PAST Transitive)
+spo            xandey                   aw         pisho          tabiqawa
+sp-o           xand-ey                  aw         pisho          tabiqaw-a
+dog:M-SG.ERG   laugh:INTR-3RD.SG.PAST   and:CONJ   cat:F.SG.ABS   chase:TRAN-F.3RD.SG.PAST
+'(the) dog laughed and chased the cat.'
+
+# Id: 11.27  Verb coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PAST Transitive) + (PAST Intransitive)
+spo          pisho           tabiqawa                 aw         xandey
+sp-o         pisho           tabiqaw-a                aw         xand-ey
+dog:M-SG.ERG cat:F.SG.ABS    chase:TRAN-F.3RD.SG.PAST and:CONJ   laugh:INTR-3RD.SG.PAST
+'(the) dog chased the cat and laughed.'
+
+
+Although typically an intransitive verb in the past tense would
+require the subject of the sentence to be in the absolutive case. The
+presence of a transitive verb in the past tense calls for an ergative
+subject. This forces the intransitive verb to accept the ergative case
+noun in these constructions. This will be more difficult to implement
+in the grammar than any other examples thus far as it will require the
+unification of the S-NP requirements on a coordinated VP so that it
+will produce three rules. One of which will properly specify that in
+these cases intransitive verbs must take an ergative case subject.
+
+
+
+1.3  Attributive Adjectives
+
+Adjectives in Pashto appear befor the nouns affected (Shafeev 1964 pp.
+23-29).  Inflection occurs based on Gender, Number and Case of the
+head noun. Shafeev has identified seven morphological classes of
+adjectives.  In general there is nothing morphologically to
+distinguish nouns from adjectives, e.g., 'sur' (red:ADJ) vs. 'lur'
+(daughter:N), 'mor' (satisfied:ADJ) vs. 'or' (fire:N), and 'praday'
+(strange:ADJ) vs. 'saray' (man).
+
+# Id:  14.01  Adjective:  F.3SG.ABS
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adjective
++ hage         pradey            pisho          natsa
++ hag-e        prad-ey           pisho          nats-a
++ that-SG.ABS  strange-F.SG.ABS  cat:F.3SG.ABS  dance:INTR-F.3SG.PRS
+'+ That strange cat danced.'
+
+# Id:  14.02  Adjective:  F.PL.ERG, M.PL.ABS
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adjective
++ bado          pisho   zoro        spp         taqibawey
++ bad-o         pisho   zor-o       sp-o        taqibaw-ey
++ bad-F.PL.ERG  cat:PL  old-PL.ABS  dog-PL.ABS  chase:TR-PL.PST.ABS
+'+ Bad cats chased old dogs.'
+
+
+Adjective ungrammaticality appears in two classes:  word order and Gender-Number-Case
+agreement with the head noun.
+
+# Id:  14.06  Adjective:  F.3SG.ABS, DET-N-ADJ, ungrammatical
+Source:  author:scott
+Vetted:  f
+Judgment:  u
+Phenomena:   adjective
++* hage         pisho          pradey            natsa
++* hag-e        pisho          prad-ey           nats-a
++* that-SG.ABS  cat:F.3SG.ABS  strange-F.SG.ABS  dance:INTR-F.3SG.PRS
+'+* That strange cat dances.'
+
+# Id:  14.12  Adjective:  ADJ case disagreement
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adjective
++* badi          pisho       zoro        spp         taqibawey
++* bad-i         pisho       zor-o       sp-o        taqibaw-ey
++* bad-F.PL.ABS  cat:PL.ERG  old-PL.ABS  dog-PL.ABS  chase:TR-PL.PST.ABS
+'+* Bad cats chased old dogs.'
+
+
+Implementation of adjectives in the grammar is deferred to a later lab.
+
+
+
+1.4  Adverbs
+
+Like adjectives, adverbs are not morphologically distinguished from
+nouns, adjectives or numbers (Shafeev 1964 pp. 49-50).  Examples of
+this similarity are:  'natsapa' (suddenly:ADV) vs. 'naroga' (sick:N),
+and 'zer' (quickly:ADV) vs. 'zer' (thousand:N).
+
+Shafeev divides adverbs into five classes, based on use:
+
+     - adverbs of time
+     - adverbs of place
+     - adverbs of manner (of action)
+     - adverbs of measure and degree
+     - adverbs of cause and purpose
+
+Generally adverbs are placed before the verb affected.  However,
+adverbs of time may be placed before or after the subject, even at the beginning of a sentence.
+
+# Id:  15.3  Adverb adverb of time. ADV-V
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adverb
++ spo            pisho          parun          taqibawe
++ sp-o           pisho          parun          taqibaw-e
++ dog:M-3PL.ERG  cat:F.3PL.ABS  yesterday:ADV  chase:INTR-3SG.PST
+'+ (The) dogs chased (the) cats yesterday.'
+
+# Id:  15.2  Adverb adverb of time. N-ADV-N
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adverb
++ spo            parun          pisho          taqibawe
++ sp-o           parun          pisho          taqibaw-e
++ dog:M-3PL.ERG  yesterday:ADV  cat:F.3PL.ABS  chase:INTR-3SG.PST
+'+ (The) dogs chased (the) cats yesterday.'
+
+# Id:  15.1  Adverb: adverb of time. ADV-S
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adverb
++ parun          spo            pisho          taqibawe
++ parun          sp-o           pisho          taqibaw-e
++ yesterday:ADV  dog:M-3PL.ERG  cat:F.3PL.ABS  chase:INTR-3SG.PST
+'+ Yesterday (the) dogs chased (the) cats.'
+
+
+Adverbs may also be used in noun phrases, referring to adjectives or
+other adverbs.
+
+# Id:  15.4  Adverb:  multiple adverbs
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adverb
++ spi            pisho         zest      natsapa       taqibawe
++ sp-i           pisho         zest      natsapa       taqibaw-i
++ dog:M-3PL.ABS  cat:F.3PL.ABS very:ADV  suddenly:ADV  chase:INTR-3SG.PRS
+'+ (The) dogs very suddenly chase (the) cats .'
+
+
+Some adverbs may inflect on Gender and Number, but this appears to be
+the exception rather than the rule.
+
+# Id:  15.7  Adverb:  adverb agreement in NP.M
+Source:  a:49
+Vetted:  f
+Judgment:  u
+Phenomena:   adverb
++ da       kor      der         loy          dey
++ da       kor      der-0       loy-0        dey
++ this:SG  house:M  very:ADV-M  large:ADJ-M  be:M.3SG.PRS
+'+ This house is very large.'
+
+# Id:  15.8  Adverb:  adverb agreement in NP.F
+Source:  a:49
+Vetted:  f
+Judgment:  u
+Phenomena:   adverb
++ da       kota    dera        loya         da
++ da       kot-a   der-a       loy-a        da
++ this:SG  room-F  very:ADV-F  large:ADJ-F  be:F.3SG.PRS
+'+ This room is very large.'
+
+
+With varied placement of an adverb within a sentence, there are fewer
+cases of ungrammaticality due to word placement.
+
+# Id:  15.6  Adverb: adverb of time. S-ADV bad word order ungrammatical
+Source:  author:scott
+Vetted:  f
+Judgment:  u
+Phenomena:   adverb
++* spo            pisho          taqibawe           parun
++* sp-o           pisho          taqibaw-e           parun
++* dog:M-3PL.ERG  cat:F.3PL.ABS  chase:INTR-3SG.PST  yesterday:ADV
+'+* Yesterday (the) dogs chased (the) cats.'
+
+
+Ungrammaticality due to agreement would look like:
+
+# Id:  15.10  Adverb:  Gender agreement *
+Source:  a:49
+Vetted:  f
+Judgment:  u
+Phenomena:   adverb
++* da       kor      dera        loy          dey
++* da       kor      der-a       loy-0        dey
++* this:SG  house:M  very:ADV-F  large:ADJ-M  be:M.3SG.PRS
+'+* This house is very large.'
+
+
+Implementation of adjectives in the grammar is deferred to a later lab.
+
+
+
+
+1.5  Embedded Clauses
+
+1.5.1 Declarative Embedded Clauses
+
+Embedded Clauses in Pashto produce an interesting sort of problem for
+this grammar system. In a way the essential SOV word order is not
+changed however this is only because of certian placeholder words that
+hold those positions. In Pashto the word order for embedded clauses is
+SOV(Clause). Where (Clause) can stand for either a clause in the
+subject position or one in the object position. Like mentioned above
+the S and O positions are not really empty when there is a clause
+because there is a word that fills the position. For the subject
+position this word is 'dase' = "such" and for the object position this
+word is 'da' = "this". These words have no semantic contribution to
+the sentence they only exist to refer to the clause at the end of the
+sentence.
+
+Any embedded clause in Pashto begins with the particle 'ce' which in
+some contexts can mean roughly "that".
+
+A simple example of these phenomenon can be found in 09.02 of our
+testsuite.
+
+# Id: 09.02  Embedded clauses
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Embedded clauses (Object position)
+spe           da        angeri                 ce    pisho          natse
+sp-e          da        anger-i                ce    pisho          nats-e
+dog:M-SG.ABS  this      think:TRAN-PRS.3RD.SG  that  cat:F.SG.ABS   dance:INTR-3RD.SG.PAST
+'(the) dog thinks [that the cat danced]'
+
+In this example the clause is being refered to by the word 'da' in the
+object position of the sentence. The clause that comes after the 'ce'
+could otherwise be a stand alone utterance. Because of the argument
+optionality principles which have been implemented in our grammar the
+following sentence 12.01 is also allowable.
+
+# Id: 09.01  Embedded clauses
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Embedded clauses (Object position)
++ spe            angeri                 ce    pisho          natse
++ sp-e           anger-i                ce    pisho          nats-e
++ dog:M-SG.ABS   think:TRAN-PRS.3RD.SG  that  cat:F.SG.ABS   dance:INTR-3RD.SG.PAST
+'+ (the) dog thinks [that the cat danced]'
+
+In this case the placeholder in the object position is missing but it
+is still a grammatical sentence. The clause itself however is not
+optional.
+
+# Id: 09.09  Embedded clauses
+Source: author:kauhl
+Vetted: f
+Judgment: u
+Phenomena:  Embedded clauses (Object position)
++* spe            angeri
++* sp-e           anger-i
++* dog:M-SG.ABS   think:TRAN-PRS.3RD.SG
+'+*(the) dog thinks [that the cat danced]'
+
+The distinction between with the placeholders 'da' and 'dase', which
+you will see in the next two examples, is quite subtle. It has more to
+do with the topic and focus of a sentence and therfore will be
+discussed further in section 1.7.
+
+# Id: 09.07  Embedded clauses
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Embedded clauses (Subject position) {Modeled from Babrakzai pp212 #8}
++ dase   xkari                     ce    ze         najorem                 da
++ dase   xkar-i                    ce    ze         najor-em                da
++ such   appear:TRAN.PRES-3RD.SG   that  I:1ST.SG   sick:INT.PRES-1ST.SG    is
+'+ It appears that I am sick'
+
+# Id: 09.08  Embedded clauses
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Embedded clauses (Subject position) {Modeled from Babrakzai pp212 #8}
+xkari                     ce    pisho              najori                 da
+xkar-i                    ce    pisho              najor-i                da
+appear:TRAN.PRES-3RD.SG   that  cat:F.3RD.SG.ABS   sick:INT.PRES-3RD.SG   is
+'It appears that (the) cat is sick'
+
+Examples 09.07 and 09.08 show the same phenomenon as in examples 09.01
+and 09.09 except that in these cases it is the subject position that
+takes the clause. In these examples 'dase' however acts much like the
+"dummy-it" construction in English. Observe that although the verb is
+transitive it really only takes one complement in these types of
+sentences. It is also not correct to place the clause in the typical
+position of the role it fills. 09.10 and 09.03 display this.
+
+# Id: 09.10  Embedded clauses
+Source: author:kauhl
+Vetted: f
+Judgment: u
+Phenomena:  Embedded clauses (Subject position)
+* ce    pisho              najori                 da   xkari
+* ce    pisho              najor-i                da   xkar-i
+ that  cat:F.3RD.SG.ABS   sick:INT.PRES-3RD.SG   is   appear:TRAN.PRES-3RD.SG
+'* It appears that (the) cat is sick'
+
+# Id: 09.03  Embedded clauses
+Source: author:kauhl
+Vetted: f
+Judgment: u
+Phenomena:  Embedded clauses (Object position)
+* spe           ce    pisho          natse                    angeri
+* sp-e          ce    pisho          nats-e                   anger-i
+ dog:M-SG.ABS  that  cat:F.SG.ABS   dance:INTR-3RD.SG.PAST   think:TRAN-PRS.3RD.SG
+'*(the) dog thinks [that the cat danced]'
+
+These are ungrammatical as a clause cannot have a CASE value which
+would agree with the verb.
+
+The following 2 examples show various ungrammatical positions for the
+'ce' clause marker.
+
+# Id: 09.04  Embedded clauses
+Source: author:kauhl
+Vetted: f
+Judgment: u
+Phenomena:  Embedded clauses (Object position)
+* spe            angeri                   pisho          ce      natse
+* sp-e           anger-i                  pisho          ce      nats-e
+dog:M-SG.ABS   think:TRAN-PRS.3RD.SG    cat:F.SG.ABS   that  dance:INTR-3RD.SG.PAST
+'*(the) dog thinks [that the cat danced]'
+
+# Id: 09.05  Embedded clauses
+Source: author:kauhl
+Vetted: f
+Judgment: u
+Phenomena:  Embedded clauses (Object position)
+* spe         angeri                 pisho         natse                   ce
+* sp-e        anger-i                pisho         nats-e                  ce
+dog:M-SG.ABS  think:TRAN-PRS.3RD.SG  cat:F.SG.ABS  dance:INTR-3RD.SG.PAST  that
+'* (the) dog thinks [that the cat danced]'
+
+The clause marker must always preceed the verb.
+
+
+
+1.5.1 Interrogative Embedded Clauses
+
+Our sources never actually explicitly cover embedded interogative clauses and further serching has as
+of yet turned up little else. However given the information that we have about embedded declaritives and
+the usual way Pashto has of handling Martix Yes-No Clauses, I believe it is possible to put forth an educated
+guess. The particle 'ce' is used to mark every clause in Pashto and unless the clause is a relative clause its
+position will always be post-verbal as demonstrated in the above section. This information with the fact that
+almost all cases of Matrix Yes-No questions are handled entirely with inflection leads me to propose the following
+as a valid Interogative embedded clause.
+
+# Id: 09.11  Embedded clauses
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Interrogative embedded clause
++ma              da           pukhtem               ce    pisho          natse
++ma              da           pukht-em              ce    pisho          nats-e
+ I:M-SG.1ST.OBL  this:ABS     ask:TRAN-PAST.3RD.SG  that  cat:F.SG.ABS   dance:INTR-3RD.SG.PAST
+'I asked whether (the) cat danced'
+
+As you can see this follows exactly the form of the Pashto Declaritive embedded clause. Only the presence of
+the verb 'pukhtedal', "to ask" and if spoken an inflection on the end of the sentence would mark it as an interrogative.
+I believe this would account for the lack of information on this exact form of clauses as it is only a type
+of declarative clauses using inflection and a certian set of verbs.
+
+Implementation of adjectives in the grammar is deferred to a later lab.
+
+
+
+1.6  Non-Verbal Predicates
+
+Noun phrases, adjectives phrases, and adverbial phrases can function
+as predicates in Pashto.  These predicates are formed using the verbs
+'to be' and 'kedel' (to become).  (NB:  no refernces read have a
+Pashto name for the verb 'to be'.  Shafeev states there is no
+infinitive for 'to be'.) The copula varies by Gender, Number, Person
+and Tense.  No instances of 'copula-drop' have been found in the
+literature.
+
+Examples of copula with noun phrases, adjectives and prepositional
+phrases are:
+
+# Id:  16.1.01  Non-Verbal Predicates:  NP-NP
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   non-verbal predicates (cop)
+da           pisho         spe           da
+da           pisho         sp-e          da
+this:SG.ABS  cat:F.SG.ABS  dog:M.SG.ABS  be:TR.3SG.PRS
+'This cat is (a) dog.'
+
+# Id:  16.1.02  Non-Verbal Predicates:  NP-ADJ
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   non-verbal predicates (cop)
++ daga             khoshala      pisho          di
++ dag-a            khoshala      pisho          di
++ this:DET.PL.ABS  khoshala:ADJ  cat:N.F.PL.ABS be:V.TR.3PL.ABS.PRS
+'+ These cats are happy.'
+
+# Id:  16.1.06  Non-Verbal Predicates:  NP-NP-PP
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   non-verbal predicates (cop)
++ dago         pisho         pe    kor             ki         day
++ dag-o        pisho         pe-   kor-0           -ki        day
++ this:PL.ERG  cat:F.PL.ERG  PREP  house:M-SG.ABS  into:PREP  be:TR.M.3SG.ABS.PST
+'+ These cats were inside (the) house.'
+
+
+Ungrammatical sentences specifically for copula seem rare.  Many other
+tests for phenomena address ungrammatical cases.
+
+# Id:  16.1.07  Non-Verbal Predicates:  NP-NP, bad word order, SVO  *
+Source:  author:scott
+Vetted:  f
+Judgment:  u
+Phenomena:   non-verbal predicates (cop)
++* da               pisho           da               spe
++* da               pisho           da               sp-e
++* this:DET.SG.ABS  cat:N.F.SG.ABS  be:V.TR.3SG.PRS  dog:N.M.SG.ABS
+'+* This cat is (a) dog.'
+
+# Id:  16.1.08  Non-Verbal Predicates:  bad word order, ADJ-DET-N *
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   non-verbal predicates (cop)
++* khoshala      daga             pisho           di
++* khoshala      dag-a            pisho           di
++* khoshala:ADJ  this:DET.PL.ABS  cat:N.F.PL.ABS  be:V.TR.3PL.ABS.PRS
+'+* These cats are happy.'
+
+# Id:  16.1.09  Non-Verbal Predicates:  NP-NP-PP, case agreement mismatch *
+Source:  author:scott
+Vetted:  f
+Judgment:  u
+Phenomena:   non-verbal predicates (cop)
++* daga         pisho         pe    kor             ki         day
++* dag-a        pisho         pe-   kor-0           -ki        day
++* this:PL.ABS  cat:F.PL.ABS  PREP  house:M-SG.ABS  into:PREP  be:TR.M.3SG.ABS.PST
+'+* These cats were inside (the) house.'
+
+Implementation in the grammar consists of instantiating the verbs 'to
+be' and 'kedel' (to bedome).
+
+
+
+
+1.7  Information Structure
+
+In Pashto Information Structure is largely marked with syntax. More
+specifically the FOCUS of a sentence is found immediately preceeding
+the verb while the TOPIC is found at the head of the sentence. So in a
+typical transitive sentence like 17.01. It would be assumed that
+'pisho' is the TOPIC while 'spe' is the FOCUS.
+
+# Id: 17.01  Information Structure
+Source: author:scott
+Vetted: f
+Judgment: g
+Phenomena:  Topic/Focus
+pisho                spe                  taqibawi
+pisho                sp-e                 taqibaw-i
+cat:F.SG.ABS(Topic)  dog:M-SG.ABS(Focus)  chase:TR-3SG.PRS
+'Cat chases dog.'
+
+
+
+A number of changes in the syntax of the sentence occur specifically
+to facilitate this contrast. One already discussed a little is the
+inclusion and exclusion of placeholders in embedded clauses.
+
+# Id: 17.03  Information Structure
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Embedded clauses (Object position) {Lack of da emphasis in the direct object position}
+spe           angeri                 ce    pisho          natse
+sp-e          anger-i                ce    pisho          nats-e
+dog:M-SG.ABS  think:TRAN-PRS.3RD.SG  that  cat:F.SG.ABS   dance:INTR-3RD.SG.PAST
+'(the) dog(topic) thinks that the cat danced'
+
+# Id: 17.04  Information Structure
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Embedded clauses (Object position) {da emphasis means focus is on the direct object embedded clause}
+spe           da        angeri                 ce    pisho          natse
+sp-e          da        anger-i                ce    pisho          nats-e
+dog:M-SG.ABS  this      think:TRAN-PRS.3RD.SG  that  cat:F.SG.ABS   dance:INTR-3RD.SG.PAST
+'(the) dog(topic) thinks [that the cat danced](focus)'
+
+
+The existance of da in the immediate pre-verb position in 17.04 refers
+the FOCUS of the sentence to the clause following the verb.
+
+In most negative sentences the sentential negation marker 'na' will
+take the FOCUS as in example 17.05.
+
+# Id: 17.05  Information Structure
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Sentenial Negation
+day          na            liki
+day          na            lik-i
+he:M.SG.ABS  not:negation  write:INTR-3SG.PRS
+'He(TOPIC) doesn't(FOCUS) write.'
+
+
+The change is information structure can be seen most clearly with the
+shift in FOCUS when using adverbs as in examples 17.06 and 17.07.
+
+# Id:  17.06  Information Structure
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   Adverb adverb of time. N-ADV-N
++ spo             parun         pisho          taqibawe
++ sp-o            parun         pisho          taqibaw-e
++ dog:M-3PL.ERG   yesterday:ADV cat:F.3PL.ABS  chase:INTR-3SG.PST
+'+ (The) dogs(TOPIC) chased (the) cats(FOCUS) yesterday.'
+
+# Id:  17.07  Information Structure
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   Adverb adverb of time. ADV-V
++ spo            pisho         parun           taqibawe
++ sp-o           pisho         parun           taqibaw-e
++ dog:M-3PL.ERG  cat:F.3PL.ABS yesterday:ADV   chase:INTR-3SG.PST
+'+ (The) dogs(TOPIC) chased (the) cats yesterday(FOCUS).'
+
+When 'pisho' is in the preverbal position and 'parun' proceeds
+'pisho', 'pisho' becomes the FOCUS for the sentence. However when the
+order of these two words is reversed 'parun' then becomes the FOCUS.
+
+
+Like in FOCUS there are a number of examples that can be used to demonstrate how word order
+changes the assignment of TOPIC in a sentence. Take for example 17.08 and 17.09 and below.
+
+# Id:  17.08  Information Structure
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adjective
++ hage         pradey            pisho          natsa
++ hag-e        prad-ey           pisho          nats-a
++ that-SG.ABS  strange-F.SG.ABS  cat:F.3SG.ABS  dance:INTR-F.3SG.PRS
+'+ That strange [cat](TOPIC) dances.'
+
+# Id:  17.09  Information Structure
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adjective
+pradey            pisho          natsa
+prad-ey           pisho          nats-a
+strange-F.SG.ABS  cat:F.3SG.ABS  dance:INTR-F.3SG.PRS
+'+ [Strange cat](TOPIC) dances.'
+
+I believe that when the determiner is present as in sentence 17.08 the TOPIC is directed onto the
+subject that it refers to as in [Cat] in that example. But when it is absent and the adjective takes
+the front position in the sentence 'pradey' "strange" in example 17.09 takes the TOPIC. Meaning that
+the established discourse concerned a cat who was strange while in 17.08 the established discourse
+only concerned a cat.
+
+<<<<<<< .mine
+1.9  Lexicon
+=======
+
+
+
+
+
+
+
+
+
+
+1.9  Lexicon
+>>>>>>> .r10683
+
+Major changes to the lexicon were addition of the verb 'to be'.  This
+verb is irregular in Pashto.
+
+Minor changes to the grammar and lexicon (apart from work described
+ealier) include:
+
+    - dropping duplicate lexical entries for 'yaw' (one) and 'har'
+      (each).  These were implemented in Lab2 for early test sentences,
+      and reimplemented as part of Demonstratives/Definiteness. The
+      duplicate entries were causing overgeneration.
+
+    - removed "plural" forms of 'da', 'daga' and 'haga' (this, this,
+      that).
+
+
+
+
+2.  UNADDRESSED LANGUAGE PROPERTIES IN THE TEST SUITE
+
+
+2.1  Coordination of Intransitive and Transitive Sentences
+
+With Pashto, the presence of a transitive verb in the past tense
+requires an ergative subject while the presence of  an intransitive
+verb requires an absolutive case subject. However the transitive seems
+to be dominant in these constructions and the intransitive takes an
+ergative as a subject.
+
+# Id: 11.26  Verb coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PAST Intransitive) + (PAST Transitive)
+spo            xandey                   aw         pisho          tabiqawa
+sp-o           xand-ey                  aw         pisho          tabiqaw-a
+dog:M-SG.ERG   laugh:INTR-3RD.SG.PAST   and:CONJ   cat:F.SG.ABS   chase:TRAN-F.3RD.SG.PAST
+'(the) dog laughed and chased the cat.'
+
+Per discussions with Dr. Bender, this can only be resolved by manually
+updating TDL files.
+
+
+2.2  The Rest
+
+Other items currently in the test suite but not in the grammar are
+listed below.  It is anticipated all of these phenomena will be
+implemented in later labs.
+
+
+  - conjunctions for embedded clauses, e.g., 'ce' (that)
+
+# Id: 09.01  Embedded clauses
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Embedded clauses (Object position)
+spe            angeri                 ce    pisho          natse
+sp-e           anger-i                ce    pisho          nats-e
+dog:M-SG.ABS   think:TRAN-PRS.3RD.SG  that  cat:F.SG.ABS   dance:INTR-3RD.SG.PAST
+'(the) dog thinks [that the cat danced]'
+
+
+  - adjectives
+
+# Id:  14.01  Adjective:  F.3SG.ABS
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adjective
++ hage         pradey            pisho          natsa
++ hag-e        prad-ey           pisho          nats-a
++ that-SG.ABS  strange-F.SG.ABS  cat:F.3SG.ABS  dance:INTR-F.3SG.PRS
+'+ That strange cat dances.'
+
+
+  - adverbs
+
+# Id:  15.1  Adverb: adverb of time. ADV-S
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adverb
++ parun          spo            pisho          taqibawe
++ parun          sp-o           pisho          taqibaw-e
++ yesterday:ADV  dog:M-3PL.ERG  cat:F.3PL.ABS  chase:INTR-3SG.PST
+'+ Yesterday (the) dogs chased (the) cats.'
+
+
+  - 'ka na', the Pashto question tag.  'ka na' cannot be implemented
+    using the Questionnaire due to a space in the word form.
+
+# Id: 08.2  Matrix Yes/No Question: tag question
+Source: author:scott
+Vetted: f
+Judgment: g
+Phenomena:  q
++ spe             natsi                  ka na       ?
++ sp-e            nats-i                 ka_na       ?
++ dog:M-3SG.ABS   dance:ITR-3SG.PRS.ABS  if+not:TAG  ?
+'+ (The) dog dances, doesn't he?'
+
+
+
+
+
+3.  GRAMMAR COVERAGE
+
+
+Summary:
+
+    242 Sentences
+    150 Positive Items with coverage of 49%
+     92 Negative Items with coverage of 24%
+
+Problems contributing to parsing errors are:
+
+    1.  Coordination:  overgeneration in coordination.  Pashto has
+        specific rules for coordination which cannot be represented
+        using the Questionnaire.  For example, if the verb is taking a
+        oordinated noun phrase as the subject, it must take the plural
+        form of the verb.  This problem exists in almost every test
+        sentence involving coordination.
+
+# Id: 11.12  NP coordination with markers
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Coordination (PRES Transitive)
+ze             pisho         aw        spe            taqibawem
+ze             pisho         aw        sp-e           taqibaw-em
+I:1ST.SG.ABS   cat:F.SG.ABS  and:CONJ  dog:M-SG.ABS   chase:TRAN-1ST.SG.PRS
+'I chase (the) cat and (the) dog.'
+
+
+        Also, the coordinating conjunction 'aw' (and) is optional
+        in Pashto.  As such, the grammar has difficulty distinguishing
+        between two separate nouns with a transitive verb, and
+        two nouns with a dropped conjunction and a dropped argument.
+
+# Id: 02.09 Pronoun Use - Agent Position/Present 1st person
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  pronouns
+ze         spe           taqibawem
+ze         sp-e          taqibaw-em
+I:1SG.ABS  dog:M-SG.ABS  chase:TR-PRS.1SG
+'I chase (the) dog.'
+
+        The original interpretation of this sentence is 'I chase (the)
+        dog.'  With argument optionality and conjuction optionality,
+        this sentence may be read as 'I and (the) dog chase.' where
+        the object after chase is dropped.
+
+        Put another way, argument optionality coupled with conjunction
+        optionality and no restrictions with verb inflection on
+        coordinated noun phrase cause most of the ambiguity (and
+        overgeneration) we see in the test suite.
+
+
+    2.  'ka na', the Pashto question tag:  have not (yet) implemented
+         the suggest workaround of:
+
+              ka%20na := qpart-lex-item &
+                [ STEM < "ka na" > ].
+
+              to this:
+
+              ka-na := qpart-lex-item &
+                [ STEM < "ka", "na" > ].
+
+
+    3.  Conjugation of the verb 'to be':  the grammar rules were
+        developed with one tranliteration but the test suite sentences
+        were developed with another. Some parses did occur, but not all of
+        the parses for the past and future tense of 'to be'.  This will be
+        corrected very soon.  Here are verb stems from the current choices
+        file:
+
+            verb3_stem1_orth=yem
+            verb3_stem1_pred=_is_v_rel
+            verb4_stem1_orth=yu
+            verb4_stem1_pred=_is_v_rel
+            verb5_stem1_orth=ye
+            verb5_stem1_pred=_is_v_rel
+            verb6_stem1_orth=yey
+            verb6_stem1_pred=_is_v_rel
+            verb7_stem1_orth=day
+            verb7_stem1_pred=_is_v_rel
+            verb8_stem1_orth=da
+            verb8_stem1_pred=_is_v_rel
+            verb9_stem1_orth=di
+            verb9_stem1_pred=_is_v_rel
+            verb10_stem1_orth=wem
+            verb10_stem1_pred=_is_v_rel
+            verb11_stem1_orth=wu
+            verb11_stem1_pred=_is_v_rel
+            verb12_stem1_orth=we
+            verb12_stem1_pred=_is_v_rel
+            verb13_stem1_orth=wey
+            verb13_stem1_pred=_is_v_rel
+            verb14_stem1_orth=we
+            verb14_stem1_pred=_is_v_rel
+            verb15_stem1_orth=wu
+            verb15_stem1_pred=_is_v_rel
+            verb16_stem1_orth=wa
+            verb16_stem1_pred=_is_v_rel
+            verb17_stem1_orth=we
+            verb17_stem1_pred=_is_v_rel
+
+        Sentences from Shafeev 1965 use a 'v*' transliteration rather than a
+        'w*'.
+
+# Id:  19.01.2.10  Verb: be:F.3PL.PST
+Source:  a:43
+Vetted:  f
+Judgment:  g
+Phenomena:   u
+duy       ve
+duy       ve
+they:3PL  be:F.3PL.PST
+'They were.'
+
+    4.  Adjectives, adverbs, conjunctions:  all of the adjectives, adverbs and the
+        conjunction 'ce' (that) have no been implemented in the lexicon.  This is
+        a known issue.
+
+# Id:  14.01  Adjective:  F.3SG.ABS
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adjective
++ hage         pradey            pisho          natsa
++ hag-e        prad-ey           pisho          nats-a
++ that-SG.ABS  strange-F.SG.ABS  cat:F.3SG.ABS  dance:INTR-F.3SG.PRS
+'+ That strange cat dances.'
+
+# Id:  15.3  Adverb adverb of time. ADV-V
+Source:  author:scott
+Vetted:  f
+Judgment:  g
+Phenomena:   adverb
++ spo            pisho          parun          taqibawe
++ sp-o           pisho          parun          taqibaw-e
++ dog:M-3PL.ERG  cat:F.3PL.ABS  yesterday:ADV  chase:INTR-3SG.PST
+'+ (The) dogs chased (the) cats yesterday.'
+
+# Id: 09.01  Embedded clauses
+Source: author:kauhl
+Vetted: f
+Judgment: g
+Phenomena:  Embedded clauses (Object position)
+spe            angeri                 ce    pisho          natse
+sp-e           anger-i                ce    pisho          nats-e
+dog:M-SG.ABS   think:TRAN-PRS.3RD.SG  that  cat:F.SG.ABS   dance:INTR-3RD.SG.PAST
+'(the) dog thinks [that the cat danced]'
+
+
+
+While this analysis is not exhaustive, we are confident these cases
+classify 90% of the problems found in the current grammar.
+
+
+
+
+4.  LANGUAGE FEATURES NOT SUPPORTED
+
+
+4.1  Verb coordination conflict
+
+As mentioned in section 2.1, the customization system cannot handle
+the case where two sentences, one with an intransitive verb, past
+tense, and the other a transitive verb, past tense, are joined using
+the coordinator 'aw' (and).
+
+4.2  'ka na' tag for questions
+
+The particle 'ka na' (if not) cannot be used with Matrix Yes-No
+Questions in the customization system.  A space in the word form is
+causing the problem.
+
+
+
+
+5.  PROBLEMS IN LAB WORK
+
+
+5.1  Handling of irregular verbs
+
+The Questionnaire seems ill-suited to handle inflections of irregular
+verbs. Our solution involved declaring a number of verb classes one
+for each inflection at the worst case. The solution however messy was
+usable though.
+
+
+
+
+6.  REFERENCES
+
+Awde, Nicholas. 2002. Pashto : Pashto-English, English-Pashto
+dictionary & phrasebook. New York: Hippocrene Books.
+
+Babrakzai, Farooq. 1999. Topics in Pashto syntax. University of Hawaii.
+
+Khan, Mohammad A., and Fatima T. Zuhra. 2006b. A Computation-Based
+Study of the Past Tense Verbs in Pashto. In Proceedings of 26th Annual
+Meeting of the South Asian Language Analysis Roundtable. Mysor, India.
+http://www.mabidkhan.com/pdf_papers/Past%20Tense%20Improved.pdf.
+
+———. 2007. The Computational Morphology of Pashto Nouns. SOUTH ASIAN
+LANGUAGE REVIEW 17, no. 1. http://salr.net/Documents/AbidKhan.pdf.
+
+Khan, Qazi Rahimullah. 2002. Introduction to Pushtu : an official
+language of Afghanistan : Romanized. Ed. H. L. Ogden. New York ::
+Hippocrene Books,
+
+Roberts, Taylor. 2001. Split-agreement and ergativity in Pashto.
+Unpublished ms., Available online. http://www.pashtun.com/split-
+ergativity.htm.
+
+Shafeev, D. 1964. A short grammatical outline of Pashto. Trans.
+Herbert H. Paper. Bloomington  ;The Hague Netherlands: Indiana
+University ;;Mouton.
+
+Zuhra, Fatima T., and Mohammad A. Khan. 2005. Towards the
+Computational Treatment of the Pashto Verb. Scientific Khyber 18,
+no. 1: 123-141.

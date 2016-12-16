@@ -1,0 +1,58 @@
+Notes
+
+  The second rule,"png-neg", applies to the same input as the first
+  rule; however the results of this rule are required to be marked for
+  person,number, and gender.  When I attempted to place this rule as
+  one of the inputs for the png slot, errors about cycles were created
+  and so I removed it as input.  This results in a grammar which
+  incorrectly parses sentences with no png on future negatives as
+  correct and those with it as ungrammatical.  On Go Post we discussed
+  that I would have to change the tdl file to fix this problem. The
+  following example parses when it should not.
+
+Please give it a try this week and let me know if that fixes it.
+
+If you're interested in modeling the derived adjectives, post to GoPost,
+and I can sketch what the lexical rule should look like.
+
+  Embedded clauses are formed by adding the quotative particle "-NNu"
+  to the end of a verb. If an embedded clause is embedded into another
+  embedded clause "I said that I said that I would walk." The subjects
+  of the two embedded clauses must be different.  The example given
+  above is awkward but grammatical in English.  In Tamil it is
+  ungrammatical.
+
+That's a new one to me.  What about "I said that I thought that I would walk"?
+
+  Adjectives are not allowed to be predicates without first undergoing
+  nominalization. This is done by adding a number/gender-marker to the
+  adjective e.g. "avan" for masculine, "adu" for neuter, "-aanga" for
+  plural(rational).
+
+Again this is a bit surprising (but interesting :).  What about "This dog is big"?  
+Do you get "This dog is a big one"?
+
+# Ex 44 demonstrates ungrammatical continuous aspect for a Form II verb. The verb is taken from (a:250) the name of the form from (b:63). AVP is being used here to denote that this marker is the same as the past tense marker but does not actually assign tense.  Instead it is used to form the adverbial participle (AVP). Here the aspectual verb is attached without the AVP being formed.  The AVP marker is missing.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+naan viZakiTTirukkreen
+naan viZu-kiTTiru-kkr-een
+I fall-cont-PRS-1sg
+'I am falling.'
+
+This sounds like an error in the way you defined the lexical rules.
+In the correct form there should be something between viZu and
+kiTTiru?  The rule for kiTTiru inherits from a type whose DTR has to
+be aspect_marker-rule-dtr, but several of the verb types inherit from
+this.
+
+  The third overgeneration issue is coordinating NPs.  The masculine
+  singular "raaman" and the feminine 3sg pronoun aval do not agree the
+  the png on the ver "paaru" "-aal" is used when the subject is
+  feminine singular.  A coordinated NP takes plural marking.
+
+You can fix this by constraining the CONT.HOOK.INDEX.PNG.NUM of
+the mother of the np coordination rule.
+

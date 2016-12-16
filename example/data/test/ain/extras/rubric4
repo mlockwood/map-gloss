@@ -1,0 +1,154 @@
+Notes
+
+Please note the following instructions from the lab page, under "write up":
+
+ 2. Descriptions of any properties of your language illustrated in your
+ test suite but not covered by your starter grammar and/or the
+ customization system. This will be most of the additions to your test
+ suite this week. Here, too, please include IGT from your testsuite,
+ and give explanations along the lines of the example above (though
+ without the information about the customization system).
+
+You have included IGT, but you have not included any descriptions
+of the new phenomena.  
+
+  1)Added plural demostratives.
+
+This should be:  Demonstratives in Ainu inflect for number. 
+They appear to the left of the nouns the modify.  (And it would
+be nice to know how many different ones there are, and what
+contrasts are marked.)
+
+#Ex 89
+#Grammatical sentence
+Source: e:46
+Vetted: f
+Judgment: g
+Phenomena: cop
+cape cise or ta an.
+cape cise or ta an
+cat house place in to-be
+`The cat is in the house.'
+
+Is "place" required in this sentence?  Can "ta" appear without "or"
+in other examples?
+
+#Ex 92
+#Grammatical sentence
+Source: e:236
+Vetted: f
+Judgment: g
+Phenomena: cop
+kani menoko ku-ne.
+kani menoko ku-ne
+1sg-PRON girl COP
+`I am a girl.'
+
+What does the hyphen in ku-ne indicate?  Are there two morphemes there?
+
+#Ex 94
+#Grammatical sentence
+Source: {c:193, author}
+Vetted: t
+Judgment: g
+Phenomena: emb-d
+seta cape kesanpa kuni ku ramu.
+seta cape kesanpa kuni ku ramu
+dog cat chase that 1sg-NOM think
+`I think that the dog chases the cat.'
+
+Can you also get the other 1sg pronoun in this sentence?  (at the
+beginning?)
+
+
+#Ex 89
+#Grammatical sentence
+Source: e:46
+Vetted: f
+Judgment: g
+Phenomena: cop
+cape cise or ta an.
+cape cise or ta an
+cat house place in to-be
+`The cat is in the house.'
+
+Maybe "an" is more like "exist"? That is, is it a locative verb?
+
+#Ex 73
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+eci kikkik.
+ku-e kikkik
+1sg-NOM 2sg-OBJ hit
+`I hit you.'
+
+The format of this example is off.  I think the gloss should be
+
+1sg.NOM-2sg.OBJ 
+
+assuming it corresponds to eci.
+
+#Ex 74
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: u
+Phenomena: pro-d
+ku eci kikkik.
+ku-e kikkik
+1sg-NOM 2sg-OBJ hit
+`I hit you.'
+
+
+Grammatical sentence?
+
+  It could be because 2pl-OBJ is also eci so it might be misleading parser.
+
+I responded to this hypothesis in my comments on a previous lab.
+Please be sure to read them carefully, and ask questions if you would
+like me to clarify anything.
+
+There showed 24 parses for the following sentence.
+
+#Ex 82
+#Grammatical sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+pirka seta ka pirka cape ek.
+pirka seta ka pirka cape ek
+beautiful dog and beautiful cat come
+`A beautiful dog and a beautiful cat come.'
+
+This is because your type for adjectives is underconstrained.  But,
+you weren't supposed to create a type for adjectives for lab 4, and there
+are specific directions in lab 5.  If they don't make it clear how to fix this,
+please post ot GoPost.
+
+  I contacted the foundation for research and promotion of ainu
+  culture and found someone who could help me to verify the
+  grammaticality of the sentences I generated. Althought he is not a
+  native speaker of Ainu, he has been working on this language for
+  many years and he also publishes the only Ainu newspaper in
+  Japan. He suggested some good reference books and explained the
+  basic grammar of Ainu. It was extremely helpful and I made a
+  correction to some of my sentences.
+
+I'm very glad to hear this :)
+
+#Ex 81
+#Ungrammatical sentence
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+seta pirka ek.
+seta pirka ek
+boy that-pl laugh
+`A beautiful dog comes.'
+
+In correct gloss here.

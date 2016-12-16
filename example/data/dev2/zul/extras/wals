@@ -1,0 +1,18 @@
+ISO Language Zulu (zul) maps to WALS Language(s)
+Zulu (Southern) (zso)
+Zulu (Northern) (zno)
+Zulu (zul)
+
+zso: no case data
+zno: no case data
+zul:
+21A;Exponence of Selected Inflectional Formatives;No case;Doke 1927, Poulos and Bosch 1997, Ziervogel et al. 1981
+49A;Number of Cases;No morphological case-marking;Poulos and Msimang 1998 (404-409)
+50A;Asymmetrical Case-Marking;No case-marking;Poulos and Msimang 1998 (404-409)
+51A;Position of Case Affixes;Case prefixes;Ziervogel et al. 1981 (64)
+102A;Verbal Person Marking;Both the A and P arguments;Ziervogel et al. 1967 (22)
+103A;Third Person Zero of Verbal Person Marking;No zero realization;Ziervogel et al. 1967 (25)
+104A;Order of Person Markers on the Verb;A precedes P;Ziervogel et al. 1967 (22)
+98A;Alignment of Case Marking of Full Noun Phrases;Neutral;Poulos and Msimang 1998 (122, 223, 225)
+99A;Alignment of Case Marking of Pronouns;Neutral;Poulos and Msimang 1998 (118, 122, 221)
+100A;Alignment of Verbal Person Marking;Accusative;Ziervogel et al. 1967 (44-45)

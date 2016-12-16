@@ -1,0 +1,7 @@
+note: no info in wals for iso639-3 [pbt] 'southern pashto', however, wals has [pst], central pashto
+
+feature-no;feature-name;value
+-----------------------------
+49A;Number of Cases;3 cases
+50A;Asymmetrical Case-Marking;Additive-quantitatively asymmetrical
+51A;Position of Case Affixes;Case suffixes

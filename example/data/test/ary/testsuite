@@ -1,0 +1,1566 @@
+Language: <Arabic, Moroccan Spoken , d-darija>
+Language code: <ary>
+Author: <Andrew Freeman>
+Lines: orth orth-seg gloss translat
+Date: Jan 14, 2008 
+Source a: <An Introduction to Moroccan Arabic; Ernest Abdel-Massih>
+Source b: <A Basic Course in Moroccan Arabic; Richard S. Harrell>
+Source c: <Moroccan Arabic: Intermediate Reader; Wali A. Alami>
+Source d: <Arabic Made Easy: Mouncef Saheb-Ettaba & Caroline Squire Saheb-Ettaba>
+Source e: <Moroccan Arabic: Peace Corps Morocco, http://friendsofmorocco.org/Docs/Moroccan Arabic.doc>
+Source f: <A Short Reference Grammar of Moroccan Arabic; Richard S. Harrell>
+Source g: <A Dictionary of Moroccan Arabic English-Moroccan; Richard S. Harrell>
+Source h: <A Dictionary of Moroccan Arabic Moroccan-English; Richard S. Harrell>
+
+#0
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {intransive verb}
+faTima katnEas
+FaTima  ka-t-nEas.
+FaTima  pres.ind.-she-sleeps.
+FaTima  sleeps.
+
+#1
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {transitive verb}
+FaTima  katkteb lktab.
+FaTima  ka-t-kteb               l-ktab.
+FaTima  pres.ind.-she-writes    DEF-book.
+FaTima  writes the book.
+
+#2 ditransitive
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: ditransive verb}
+FaTima  katETi sami lktab.
+FaTima  ka-t-ETa                Sami           l-ktab.
+FaTima  pres.ind.-she-gives     Sami(a.name)   DEF-book.
+FaTima gives Sami the book.
+
+#3 ditransitive w/ PP argument 2nd
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {ditransitive verb w/ PP argument 2nd}
+FaTima  katETi lktab lsami.
+FaTima  ka-t-ETa                l-ktab         l-Sami.
+FaTima  pres.ind.-she-gives     DEF-book       t-Sami(a.name).
+FaTima gives the book to Sami.
+
+#4 di-transitive w/ PP argument 1st
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {ditransitive verb w/ PP argument 1st }
+lGarSon jab lfaTima lfrit.
+l-GarSon    jab             l-faTima    l-frit.
+DEF-waiter  brought.(he)    to-Fatima   DEF-French.fries.
+The waiter brought Fatima French Fries.
+
+
+#5 Intransitive future w/ prepositional predicate
+Source: e:125
+Vetted: s
+Judgment: g
+Phenomena: {word order}
+gadya nxdem f Dar $-$bab.
+gady-a               n-xdem          f       Dar     $-$bab.
+going-sgF            I-work          in      house   DEF-youths.
+I will be working in the Youth Center.
+
+#6 Misplacement of the future marking verbal agent noun
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+nxdem gadya f Dar$~bab.
+n-xdem           gady-a          f       Dar     $-$bab.
+1st-work         going-sgF       in      house   DEF-youths.
+I work going in the Youth Center.
+
+#7 VSO 
+Source: a:437
+Vetted: s
+Judgment: g
+Phenomena: {VSO word order}
+uja  waHd    n~har.
+u           ja           waHd    n-nhar.
+and         came         one     DEF-day.
+There came a day.
+
+#8 Imperative verb
+Source: a:437
+Vetted: s
+Judgment: g
+Phenomena: {Imperative verb optional argument & word order}
+qaltlu m~-u "sir ajHa $rili  waHd l-ibra'
+qal-t-l-u                 m~-u                sir    a-jHa    $ri-l-i         waHd    l-ibra'
+said-she-to-him.ACC       mother-3sgM.gen     go     oh-Juha  buy-to-me.ACC   one     DEF-needle.
+His mother said to him, "Go Juha, and buy me a needle".
+
+#9 Presentational verval agant noun "kayn"
+Source: e:114
+Vetted: s
+Judgment: g
+Phenomena: {word order}
+kayn dyal fra$ waHd kbir u kayn dyal juj fra$at.
+kayn        dyal    fra$ waHd   kbir    u   kayn    dyal    juj fra$-at.
+exists.M    POSS    bed  single large   and exists  POSS    two bed-plF.
+There exists (those) with a single large bed and those with two beds.
+
+
+#10
+Source: e:60
+Vetted: s
+Judgment: g
+Phenomena: {word order}
+Malika kat$rb lHlib kul SbaH.
+Malika ka-t-$rb             l-Hlib   kul    SbaH.
+Malika pres.ind-she-drink   DEF-milk every  morning.
+Malika drinks milk every morning.
+
+#11 Semantic clash on word order, 
+Source: e:60
+Vetted: f
+Judgment: u
+Phenomena: {word order: Milk canot be the subject of the verb drink }
+kat$rb lHlib Malika kul SbaH.
+ka-t-$rb l-Hlib Malika kul SbaH.
+pres.ind-she-drink DEF-milk Malika every morning.
+Malika drinks milk every morning.
+
+#12 VSO word order
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {VSO word order}
+kat$rb Malika kul SbaH lHlib.
+ka-t-$rb            Malika kul   SbaH    l-Hlib
+pres.ind-she-drink Malika every morning DEF-milk.
+drinks milk Malika every morning.
+
+#13 Aux verb "kan, ykun" marking a habitual event in the past 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+FaTima kanat katlEeb f lmaTi$a.
+FaTima  kan-at       ka-t-lEeb          f   l-maTi$a.
+Fatima  was-she      pres.ind-she-play in DEF-swing.
+Fatima used to play on the swing.
+
+#14 XaSS -- defective aux verb - marks necessary action
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {modality}
+FaTima xS~ha tlEeb f lmaTi$a.
+FaTima  xS~-ha          t-lEeb              f   l-maTi$a.
+Fatima  lack-her.ACC   pres.ind-she.play  in DEF-swing.
+Fatima  needs to play on the swing.
+
+#15 kan + Xass -- past tense forces Xass to conjugate like a regular verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {modality + past tense}
+FaTima kanat txS~ha tlEeb f lmaTi$a.
+FaTima  kan-at      t-xS~-ha                 t-lEeb              f   l-maTi$a.
+Fatima  was-she     she-lack-her.ACC         she-play            in  DEF-swing.
+Fatima  needed to play on the swing.
+
+#16 modality
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {modality}
+FaTima bgat tlEeb f lmaTi$a.
+FaTima  bga-t        t-lEeb              f   l-maTi$a.
+Fatima  wants-she    she-play            in DEF-swing.
+Fatima  wants to play on the swing.
+
+#17 modality
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {modality}
+ymkn lFaTima tlEeb f lmaTi$a.
+y-mkn           l-FaTima    t-lEeb      f   l-maTi$a.
+he-possible     to-Fatima   she-play    in  DEF-swing.
+Fatima can play on the swing.
+
+#18 Bad because the modal is not in the imperfective verb modality slot & lEeb does not specify for a verb complement
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+FaTima tlEeb bqat f l-maTi$a.
+FaTima  t-lEeb              bqa-t               f   l-maTi$a.
+Fatima  she-play            remained-she        in  DEF-swing.
+Fatima  continues to play on the swing.
+
+#19 modality
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {modality}
+FaTima bqat tlEeb f lmaTi$a.
+FaTima  bqa-t           t-lEeb      f   l-maTi$a.
+Fatima  remained-she    she-play    in  DEF-swing.
+Fatima continued to play on the swing.
+
+#20 Constituent order. The PP "to Fatima" should appear after deontic marker ymkn
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {modal word order}
+ymkn tlEb lFaTima flmaTi$a.
+y-mkn           t-lEeb      l-FaTima    f   l-maTi$a.
+he-possible     she-play    to-Fatima   in  DEF-swing.
+Fatima can play on the swing.
+
+#21 The auxiliary kan needs to precede the argument verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {Aux word order}
+FaTima katlEeb kanat f lmaTi$a.
+FaTima  ka-t-lEeb          kan-at        f   l-maTi$a.
+Fatima  pres.ind-she-play  was-she       in DEF-swing.
+Fatima used to play on the swing.
+
+#22 Agreement -- all elements referring to the singer must show feminine agreement
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {NP, Pronouns, agreement}
+had lmra lgzala hiya lmugen~y~a lme$hura il~i knt ngul~k Enha
+had     l-mra       l-gzala         hiya    l-mugen~y~-a    l-me$hur-a      il~i    kan-t    n-gal-l-k      En-ha
+this    DEF-woman   DEF-beautiful  she     DEF-singer-sgF  DEF-famous-sgF  who     was-I    I-say-to-you   about-her
+That beautiful woman is the famous singer who I was telling you about.
+
+#23 When there is a string of nouns, only the last one can be marked definite
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agreement}
+gadya nxdem f D~ar $$bab.
+gady-a               n-xdem          f       D-Dar          $-$bab.
+going-sgF            I-work          in      DEF-house      DEF-youths.
+I will be working in the Youth Center.
+
+#24 NP in noun strings, only the last one is definite
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: {agreement}
+gadya nxdem f D~ar $bab.
+gady-a               n-xdem          f       D-Dar          $bab.
+going-sgF            I-work          in      DEF-house      youths.
+I will be working in the Youth Center.
+
+#25 NP phrase definiteness agreement
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {agreement}
+gadya nxdem f D~ar d$$bab.
+gady-a               n-xdem          f       D-Dar          d-$-$bab.
+going-sgF            I-work          in      DEF-house      poss-DEF-youths.
+I will be working in the Youth Center.
+
+#26 Agreement clash.  In the last PP the pronoun should be 3 Fem sg 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, Pronouns, agreement}
+had lmra lgzala hiya lmugen~y~a lme$hura il~i knt ngul~k Enu
+had     l-mra       l-gzal-a            hiya   l-mugen~y~-a    l-me$hur-a      il~i    kan-t    n-gal-l-k      En-u
+this    DEF-woman   DEF-beautiful-sgF   she     DEF-singer-sgF  DEF-famous-sgF  who     was-I    I-say-to-you   about-him
+That beautiful woman is the famous singer who I was telling you about.
+
+#27 The adjective "gzala" needs to follow the noun
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, word order}
+had lgzala lmra hiya lmugen~y~a lme$hura il~i knt ngul~k Enha
+had     l-gzal-a            l-mra             hiya    l-mugen~y~-a    l-me$hur-a      il~i    kan-t    n-gal-l-k      En-ha
+this    DEF-beautiful-sgF   DEF-woman         she     DEF-singer-sgF  DEF-famous-sgF  who     was-I    I-say-to-you   about-her
+That beautiful woman is the famous singer who I was telling you about.
+
+#28 The adjective "gzal" needs to show feminine agreement "gzala"
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, agreement}
+had lmra lgzal hiya lmugen~y~a lme$hura il~i knt ngul~k Enha
+had     l-mra             l-gzal              hiya    l-mugen~y~      l-me$hur-a      il~i    kan-t    n-gal-l-k      En-ha
+this    DEF-woman         DEF-beautiful.sgM   she     DEF-singer.sgM  DEF-famous-sgF  who     was-I    I-say-to-you   about-her
+That beautiful woman is the famous singer who I was telling you about.
+
+#29 All adjectives and referring pronouns must agree with their noun
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {NP, Pronouns, agreement}
+had lrajl lgzal huwa lmugen~y~ lme$hur il~i knti tgul~i Enu
+had     l-rajl      l-gzal         huwa   l-mugen~y~        l-me$hur        il~i    kan-ti      t-gal-l-i       En-u
+this    DEF-man     DEF-beautiful  he     DEF-singer.sgM    DEF-famous.sgM  who     was-you     you-say-to-me   about-him
+That handsome man is the famous singer who you were telling me about.
+
+#30 The adjective "gzala" needs to show masculine agreement "gzal"
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, Pronouns, agreement}
+had lrajl lgzala huwa lmugen~y~ lme$hur il~i knti tgul~i Enu
+had     l-rajl      l-gzal-a            huwa   l-mugen~y~        l-me$hur        il~i    kan-ti      t-gal-l-i       En-u
+this    DEF-man     DEF-beautiful-sgF   he     DEF-singer        DEF-famous      who     was-you     you-say-to-me   about-him
+That beautiful man is the famous singer who you were telling me about.
+
+#31 The adjective "gzala" and the pronoun "hiya" need to show masculine agreement "gzal" and "huwa"
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, Pronouns, agreement}
+had lrajl lgzala hiya lmugen~y~ lme$hur il~i knti tgul~i Enu
+had     l-rajl      l-gzal-a            hiya    l-mugen~y~        l-me$hur        il~i    kan-ti      t-gal-l-i       En-u
+this    DEF-man     DEF-beautiful-sgF   she     DEF-singer        DEF-famous      who     was-you     you-say-to-me   about-him
+That beautiful man is the famous singer who you were telling me about.
+
+#32 The pronoun "hiya" needs to show masculine "huwa"
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, Pronouns, agreement}
+had lrajl lgzala hiya lmugen~y~ lme$hur il~i knti tgul~i Enu
+had     l-rajl      l-gzal              hiya    l-mugen~y~        l-me$hur        il~i    kan-ti      t-gal-l-i       En-u
+this    DEF-man     DEF-beautiful.sgM   she     DEF-singer        DEF-famous      who     was-you     you-say-to-me   about-him
+That beautiful man is the famous singer who you were telling me about.
+
+#33 The pronoun "me$hura" needs to show masculine "me$hur"
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, Pronouns, agreement}
+had lrajl lgzala hiya lmugen~y~ lme$hura il~i knti tgul~i Enu
+had     l-rajl      l-gzal              huwa    l-mugen~y~        l-me$hur-a        il~i    kan-ti      t-gal-l-i       En-u
+this    DEF-man     DEF-beautiful.sgM   he      DEF-singer        DEF-famous-sgF    who     was-you     you-say-to-me   about-him
+That beautiful man is the famous singer who you were telling me about.
+
+#34
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, Pronouns, agreement}
+had lrajl lgzal hiya lmugen~y~a lme$hur il~i knti tgul~i Enu
+had     l-rajl      l-gzal            hiya    l-mugen~y~        l-me$hur-a        il~i    kan-ti      t-gal-l-i       En-u
+this    DEF-man     DEF-beautiful     she     DEF-singer        DEF-famous-sgF    who     was-you     you-say-to-me   about-him
+That handsome man is the famous singer who I was telling you about.
+
+#35
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, Pronouns, agreement}
+had lrajl lgzal huwa lmugen~y~ lme$hur il~i knti ygul~i Enhum
+had     l-rajl      l-gzal            huwa    l-mugen~y~        l-me$hur        il~i    kan-ti      y-gal-l-i       En-hum
+this    DEF-man     DEF-beautiful     he      DEF-singer        DEF-famous      who     was-you     he-say-to-me    about-them
+That handsome man is the famous singer who I was telling you about.
+
+#36
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, Pronouns, agreement}
+had lrajl lgzal ana lmugen~y~ lme$hur il~i knti tgul~i Enu
+had     l-rajl      l-gzal            ana    l-mugen~y~        l-me$hur        il~i    kan-ti      t-gal-l-i       En-hum
+this    DEF-man     DEF-beautiful     I      DEF-singer        DEF-famous      who     was-you     you-say-to-me   about-him
+That handsome man is the famous singer who I was telling you about.
+
+#37
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, Pronouns, agreement}
+had r~ajl lgzal nti lmugen~y~ lme$hur il~i knti tgul~i Enu
+had     r-rajl      l-gzal            nti       l-mugen~y~        l-me$hur        il~i    kan-ti      t-gal-l-i       En-u
+this    DEF-man     DEF-beautiful     you.sgF   DEF-singer        DEF-famous      who     was-you     he-say-to-me    about-him
+That handsome man is the famous singer who I was telling you about.
+
+#38
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, Pronouns, agreement}
+had r~ajl lgzal Hna lmugen~y~ lme$hur il~i knti tgul~i Enu
+had     r-rajl      l-gzal            Hna    l-mugen~y~        l-me$hur        il~i    kan-ti      t-gal-l-i       En-u
+this    DEF-man     DEF-beautiful     we     DEF-singer        DEF-famous      who     was-you     you-say-to-me   about-him
+That handsome man is the famous singer who I was telling you about.
+
+#39
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, Pronouns, number agreement}
+had r-rajl l-gzal ntuma lmugen~y~ lme$hur il~i knti tgul~i Enu
+had     r-rajl      l-gzal            ntuma     l-mugen~y~        l-me$hur        il~i     kan-ti      t-gal-l-i        En-hu
+this    DEF-man     DEF-beautiful     you.pl     DEF-singer        DEF-famous      who     was-you     you-say-to-me    about-him
+That handsome man is the famous singer who I was telling you about.
+
+#40
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {NP, Pronouns, number agreement}
+had r~ajl lgzal mugen~y~ me$hur.
+had     l-rajl      l-gzal            mugen~y~       me$hur.
+this    DEF-man     DEF-beautiful     singer         famous.
+That handsome man is a famous singer
+
+#41
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {NP, number, definiteness and gender agreement
+had r~ajl lmugen~y~ lgzal me$hur.
+had     r-rajl      l-mugen~y~        l-gzal            me$hur.
+this    DEF-man     DEF-singing       DEF-beautiful     famous.
+That handsome singing man is famous. 
+
+#42
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP definiteness agreement}
+had r~ajl mugen~y~ lgzal lme$hur.
+had     r-rajl      mugen~y~        l-gzal           l-me$hur.
+this    DEF-man     singing         DEF-beautiful    DEF-famous.
+That handsome singing man is famous. 
+
+#43
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP definiteness agreement}
+had r~ajl lmugen~y~ gzal lme$hur.
+had     r-rajl      l-mugen~y~      gzal           l-me$hur.
+this    DEF-man     DEF-singing     beautiful      DEF-famous.
+That handsome singing man is famous. 
+
+#44
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, number, definiteness and gender agreement}
+had rajl lmugen~y~ lgzal me$hur.
+had     rajl    l-mugen~y~        l-gzal            me$hur.
+this    man     DEF-singing       DEF-beautiful     famous.
+That handsome singing man is famous. 
+
+#45
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {NP, number, definiteness and gender agreement}
+had rajl mugen~y~ gzal me$hur.
+had     rajl     mugen~y~     gzal           me$hur.
+this    man     singing       beautiful     famous.
+That is a handsome, famous, singing, man. 
+
+#46
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP gender agreement}
+huwa      mutaTaw~iEa             mEa     hayIat      s-salam.   
+huwa      mutaTaw~iE-a            mEa     hayIat      s-salam.   
+he        volunteer-sgF           with    body        DEF-peace  
+He is a volunteer with the Peace Corps. 
+
+#47
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {NP gender and number agreement}
+hiya       mutaTaw~iEa             mEa     hayIat      s-salam.   
+hiya       mutaTaw~iE-a            mEa     hayIat      s-salam.   
+She        volunteer-sgF           with    body        DEF-peace  
+She is a volunteer with the Peace Corps. 
+
+#48
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP gender and number agreement}
+Antuma          mutaTaw~iEa             mEa     hayIat      s-salam.   
+Antuma-2PL      mutaTaw~iE-a            mEa     hayIat      s-salam.   
+She-2PL       volunteer-sgF           with    body        DEF-peace  
+She is a volunteer with the Peace Corps. 
+
+#49
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP gender and number agreement}
+ntuma          mutaTaw~iEin            mEa     hayIat      s-salam.   
+ntuma-2PL      mutaTaw~iE              mEa     hayIat      s-salam.   
+You-pl          volunteer               with    body        DEF-peace  
+Y'all are volunteers with the Peace Corps. 
+
+#50
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {NP gender and number agreement}
+ntuma          mutaTaw~iEat             mEa     hayIat      s-salam.   
+ntuma-2PL      mutaTaw~iE-at            mEa     hayIat      s-salam.   
+You-pl         volunteer-plF            with    body        DEF-peace  
+(Addressing a group of women) All of you are volunteers with the Peace Corps. 
+
+#51
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {NP gender and number agreement}
+ntuma          mutaTaw~iEat             mEa     hayIat      s-salam.   
+ntuma-2PL      mutaTaw~iE-at            mEa     hayIat      s-salam.   
+You-pl         volunteer-plF            with    body        DEF-peace  
+(Addressing a group of women) All of you are volunteers with the Peace Corps. 
+
+#52
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {NP gender and number agreement}
+huma          mutaTaw~iEat             mEa     hayIat      s-salam.   
+huma-3PL      mutaTaw~iE-at            mEa     hayIat      s-salam.   
+They-3PL         volunteer-plF            with    body        DEF-peace  
+(Discussing a group of women) They are volunteers with the Peace Corps. 
+
+#53
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {NP gender and number agreement}
+huma          mutaTaw~iEin             mEa     hayIat      s-salam.   
+huma-3PL      mutaTaw~iE-in            mEa     hayIat      s-salam.   
+They-3PL          volunteer-plM            with    body        DEF-peace  
+They are volunteers with the Peace Corps. 
+
+#54
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP gender and number agreement}
+huma          mutaTaw~iE             mEa     hayIat      s-salam.   
+huma-3PL      mutaTaw~iE             mEa     hayIat      s-salam.   
+They-3PL         volunteer              with    body        DEF-peace  
+They are volunteers with the Peace Corps. 
+
+#55
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, number, definiteness and gender agreement}
+had rajl mugen~y~ gzal me$hura.
+had     rajl     mugen~y~     gzal          me$hur-a.
+this    man      singing      beautiful     famous-sgF.
+That is a handsome, famous, singing, man. 
+
+#56
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {NP, number, definiteness and gender agreement}
+had rajl mugen~y~ gzal lme$hur.
+had     rajl     mugen~y~     gzal          me$hur.
+this    man     singing       beautiful     famous.
+That is a handsome, famous, singing, man. 
+
+#57
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {NP, number, definiteness and gender agreement}
+had rajl mugen~y~ gzal me$hur.
+had     rajl     mugen~y~     gzal           me$hur.
+this    man     singing       beautiful     famous.
+That is a handsome, famous, singing, man. 
+
+#58
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {NP, number, definiteness and gender agreement}
+had rajl mugen~y~ gzal me$hur.
+had     rajl     mugen~y~     gzal           me$hur.
+this    man     singing       beautiful     famous.
+That is a handsome, famous, singing man. 
+
+#59
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Embedded clauses (declarative)}
+faTima  katDen~ had r~ajl mugen~y~ gzal me$hur.
+faTima  ka-t-Den~            had     r-rajl       mugen~y~     gzal           me$hur.
+Fatima  pres.ind-she-thinks  this    DEF-man      singing      beautiful     famous.
+Fatima thinks this/that man is a handsome, famous singer. 
+
+#60
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Embedded clauses (declarative)}
+faTima  katDen~ had r~ajl kayDreb kamanja mezyan bez~af.
+faTima  ka-t-Den~             had     r-rajl       ka-y-Dreb              kamanja     mezyan bez~af.
+Fatima  pres.ind-she-thinks   this    DEF-man      pres.ind-he-strikes    violin      good   a.lot.
+Fatima believes this man plays violin quite well. 
+
+#61
+Source: e:158
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses interrogative}
+bgit nErf we$ qriti had lktab.
+bga-t    n-Erf       we$                         qra-ti          had     l-ktab.
+want-I   I-know      yes/no.question.marker      read-you_sg     this    DEF-book.
+I want to know, did you read this book.
+
+#62
+Source: g:224
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses interrogative}
+knt tamamen kanxm~en $-knti kateEmel mnin Ey~eT~ili.
+kan-t    tamamen       ka-n-xm~en         $-kan-ti                   ka-te-Emel          mnin        Ey~eT-ti-l-i      
+was-I    exactly       pres.ind-I-wonder  what.ques-was-you_sg       pres.ind-you-do     when.conj   called-you-to-me.
+I was just wondering what you were doing when you called.
+
+#63
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {Embedded clauses (declarative), verb agreement}
+faTima  kayDen~ had r~ajl kayDreb kamanja mezyan bez~af.
+faTima  ka-y-Den~            had     r-rajl       ka-y-Dreb              kamanja     mezyan bez~af.
+Fatima  pres.ind-he-thinks   this    DEF-man      pres.ind-he-strikes    violin      good   a.lot.
+Fatima believes this man plays violin quite well. 
+
+#64
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses {interrogative}
+mHm~d bga yErf we$ qrina had lktab.
+mHm~d       bga     y-Erf      we$                         qri-na      had     l-ktab.
+Muhammad    wants   he-knows   yes/no.question.marker      read-we     this    DEF-book.
+Muhammad wants to know, have we read this book.
+
+#65
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses {interrogative}}
+mHm~d bga nErfu qra had lktab.
+mHm~d      bga     n-Erf-u            qra          had     l-ktab.
+Muhammad   wants   1st.NOM-know-pl    read(he)     this    DEF-book.
+Muhammad wants us to know he has read this book.
+
+#66
+Source: g:224
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses interrogative}
+knt tamamen kanxm~en $-knti kateEmel mnin Ey~eT~ili.
+kan-t    tamamen       ka-n-xm~en         $-kan-ti                   ka-te-Emel          mnin        Ey~eT-ti-l-i      
+was-I    exactly       pres.ind-I-wonder  what.ques-was-you_sg       pres.ind-you-do     when.conj   called-you-to-me.
+I was just wondering what you were doing when you called.
+
+#67
+Source: e:224
+Vetted: s
+Judgment: u
+Phenomena: {embedded clauses {interrogative}, auxiliary, complement verb subject agreement clash}
+knt tamamen kanxm~en $-knti kaneEmel mnin Ey~eT~ili.
+kan-t    tamamen       ka-n-xm~en         $-kan-ti                   ka-ne-Emel          mnin        Ey~eT-ti-l-i      
+was-I    exactly       pres.ind-I-wonder  what.ques-was-you_sg       pres.ind-I-do       when.conj   called-you-to-me.
+I was just wondering what I was doing when you called.
+
+#68
+Source: e:224
+Vetted: s
+Judgment: g
+Phenomena: {embedded clauses {interrogative}, auxiliary, complement verb subject agreement}
+knt tamamen kanxm~en $-knt kaneEmel mnin Ey~eT~ili.
+kan-t    tamamen       ka-n-xm~en         $-kan-t               ka-ne-Emel          mnin        Ey~eT-ti-l-i      
+was-I    exactly       pres.ind-I-wonder  what.ques-was-I       pres.ind-I-do       when.conj   called-you-to-me.
+I was just wondering what I was doing when you called.
+
+#69
+Source: e:53
+Vetted: s
+Judgment: g
+Phenomena: {Negation}
+ma $rebna$.
+ma      $reb-na-$
+neg1    drank-we-neg2
+We did not drink.
+
+#70
+Source: e:53
+Vetted: s
+Judgment: g
+Phenomena: {Negation}
+ma Erft walu.
+ma      Erf-t   walu.
+neg1    knew-I  nothing
+I found out nothing.
+
+#71
+Source: e:53
+Vetted: s
+Judgment: g
+Phenomena: {Negation}
+ma klit Ht~a Haja.
+ma      kla-t   Ht~a    Haja.
+neg1    ate-I   even    thing.
+I ate nothing.	
+
+#72
+Source: e:53
+Vetted: s
+Judgment: g
+Phenomena: {Negation}
+Ht~a waHd ma ja.
+Ht~a    waHd    ma      ja.
+even    one     neg1    came.(he)
+No one came.
+
+#73
+Source: e:53
+Vetted: s
+Judgment: g
+Phenomena: {Negation}
+ma $af Ht~a waHd.
+ma      $af         Ht~a    waHd.
+neg1    saw.(he)    even    one.
+He saw no one.
+
+#74
+Source: e:53
+Vetted: s
+Judgment: g
+Phenomena: {Negation}
+ma $af Ht~a Hd~.
+ma      $af         Ht~a    Hd~.
+neg1    saw.(he)    even    one.
+He saw no one.
+
+#75
+Source: author, attested
+Vetted: t
+Judgment: g
+Phenomena: {Negation}
+ma kayn Hat~a plaSa f t~ran.
+ma      kayn    Hat~a   plaSa   f   t-tran.
+neg1    exits   even    seat    on  DEF-train
+There is not a single seat on the train.
+
+#76
+Source: author, attested
+Vetted: f
+Judgment: g
+Phenomena: {Negation}
+FaTima  ma Endha Hat~a fels.
+FaTima  ma      End-ha       Hat~a  fels.
+FaTima  neg1    at-her.ACC   even   penny
+FaTima hasn't a penny to her name.
+
+#77
+Source: h:page 36
+Vetted: s
+Judgment: g
+Phenomena: {Negation}
+ma Endi Hat~a fels.
+ma      End-i       Hat~a  fels.
+neg1    at-me.ACC   even   penny
+I haven't a penny to my name.
+
+#78
+Source: h:page 36
+Vetted: s
+Judgment: g
+Phenomena: {Negation}
+ma Endi$     flws.
+ma      End-i-$     flws.
+neg1    at-me.ACC-UNKNOWN   money
+I do not have money.
+
+#79
+Source: e:53
+Vetted: s
+Judgment: u
+Phenomena: {Negation}
+$~rebna  ma.
+$-$reb-na       ma      
+neg2-drank-we   neg1
+We did not drink.
+
+#80
+Source: e:53
+Vetted: s
+Judgment: u
+Phenomena: {Negation}
+ma walu Erft.
+ma      walu    Erf-t   
+neg1    nothing knew-I  
+I found out nothing.
+
+#81
+Source: e:53
+Vetted: s
+Judgment: u
+Phenomena: {Negation}
+ma Erft walu.
+Erf-t   walu       ma.
+knew-I  nothing    neg1    
+I found out nothing.
+
+#82
+Source: e:53
+Vetted: s
+Judgment: u
+Phenomena: {Negation}
+ma klit Htta Haja.
+kla-t   Htta    ma      Haja.
+ate-I   even    neg1    thing.
+I ate nothing.	
+
+#83
+Source: e:53
+Vetted: s
+Judgment: u
+Phenomena: {Negation}
+Haja klit Htta ma.
+Haja  kla-t   Htta    ma      
+thing ate-I   even    neg1    
+I ate nothing.	
+
+#84
+Source: e:53
+Vetted: s
+Judgment: u
+Phenomena: {Negation}
+Ht~a waHd ma ja walu.
+Ht~a    waHd    ma      ja          walu.
+even    one     neg1    came.(he)   nothing.
+No one came.
+
+#85
+Source: e:53
+Vetted: s
+Judgment: u
+Phenomena: {Negation}
+ma  Ht~a waHd $af.
+ma      Ht~a        waHd    $af.
+neg1    even        one     saw.(he).
+He saw no one.
+
+#86
+Source: author, attested
+Vetted: t
+Judgment: u
+Phenomena: {Negation}
+ma Hat~a f t~ran plaSa kayn.
+ma      Hat~a    f   t-tran.      plaSa   kayn     
+neg1    even     on  DEF-train    seat    exists   
+There is not a single seat on the train.
+
+#87
+Source: h:page 36
+Vetted: s
+Judgment: u
+Phenomena: {Negation}
+ma fels Endi Hat~a.
+ma      fels        End-i       Hat~a
+neg1    penny       at-me.ACC   even   
+I haven't a penny to my name.
+
+#88
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {argument optionality}
+lbnt katjri bz~rba
+l-bnt       ka-t-jra b-z-zrba 
+DEF-girl    pres.ind-she-run    with-DEF-speed
+the girl runs quickly
+
+#89
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {argument optionality}
+katjri bz~rba
+ka-t-jra b-z-zrba 
+pres.ind-she-run    with-DEF-speed
+she runs quickly
+
+#90
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {argument optionality}
+hiya katjri bz~rba
+hiya    ka-t-jra           b-z-zrba 
+she.NOM pres.ind-she-run    with-DEF-speed
+she runs quickly
+
+#91
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {argument optionality}
+lwld kayjri bz~rba
+l-wld      ka-y-jra b-z-zrba 
+DEF-boy    pres.ind-he-run    with-DEF-speed
+the boy runs quickly
+
+#92
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {argument optionality}
+kayjri bz~rba
+ka-y-jra b-z-zrba 
+pres.ind-hhe-run    with-DEF-speed
+he runs quickly
+
+#93  The verb subject marker is missing from the verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {argument optionality}
+lwld kajri bz~rba
+l-wld      ka-jra b-z-zrba 
+DEF-boy    pres.ind-run    with-DEF-speed
+the boy runs quickly
+
+#94 The verb subject marker is missing from the verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {argument optionality}
+hiya kajri bz~rba
+hiya    ka-jra         b-z-zrba 
+she.NOM pres.ind-run    with-DEF-speed
+she runs quickly
+
+#95
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+lkelb kaynEas
+l-kelb      ka-y-nEs
+DEF-dog     pres.ind-he-sleeps
+Dogs sleep.
+
+#96
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+lkelb kayjri Ela T~omobil
+l-kelb   ka-y-jra               Ela                 T-Tomobil
+DEF-dog  pres.ind-he-chases     verb.particle       DEF-car.
+Dogs chase cars.
+ 
+#97
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {argument optionality}
+kanjri 3lik
+ka-n-jra            3li-k
+pres.ind.-I-run     verb.particle-you.ACC
+I chase you.
+ 
+#98
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+Had l-klab kayn3asu
+Had         l-klab      ka-y-n3as-u
+demon.pro   DEF-dogs    pres.ind-he-sleeps-PL
+These dogs sleep.
+ 
+#99
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+lkelb kayakul.
+l-kelb      ka-y-akul.
+DEF-dog     pres.ind-he-eat. 
+Dogs eat. 
+
+#100
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order
+ymknli nakol j~aj
+y-mkn-l-i           n-akol  j-jaj
+he-possible-to-me   I-eat   DEF-glass.
+I can eat glass
+ 
+#101
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {negation}
+ma kayDerrni$
+ma      ka-y-Derr-ni-$
+neg1    pres.ind.-he-damage-me-neg2.
+It doesn't hurt me.
+ 
+#102
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+lklab kayjriw 3la T~omobil
+l-klab      ka-y-jra-u 3la T-Tomobil
+DEF-dogs    pres.ind.-he-runs-PL    verb.part   DEF-car.
+The dogs chase cars.
+
+#103
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Embedded declarative clause}
+kanDenn bel~i kat3ref l-kelb kayjri 3la T~omobil
+ka-n-Denn           bel~i   ka-t-3ref           l-kelb  ka-y-jra            3la         T-Tomobil
+pres.ind-I-believe  that    pres.ind-you-know   DEF-dog pres.ind-he-runs    verb.part   DEF-car
+I think that you know dogs chase cars
+
+#104
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Embedded interrogative clause}
+kansuwwel wa$ kat3ref bel~i lkelb kayjri 3la T~omobil
+ka-n-suwwel         wa$     ka-t-3ref           bel~i   l-kelb  ka-y-jra            3la         T-Tomobil
+pres.ind-I-believe  Q.mark  pres.ind-you-know   that    DEF-dog pres.ind-he-runs    verb.part   DEF-car
+I ask whether you know that dogs chase cars.
+
+#105
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {coordination}
+lme$$ ulkelb kayjriw 3ala T~omobil
+l-me$$      u-l-kelb    ka-y-jra-u             3ala        T-Tomobil
+DEF-Cat     and-DEF-dog pres.ind-he-runs-PL    verb.part   DEF-car.
+Cats and dogs chase cars.
+ 
+#106
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {coordination}
+lkelb kayjri 3ala T~omobil ulme$$ kayjri 3ala lkelb
+l-kelb  ka-y-jra           3la         T-Tomobil   u-l-me$$        ka-y-jra            3ala        l-kelb
+DEF-dog pres.ind-he-runs   verb.part   DEF-car     and-DEF-cat     pres.ind.-he-runs   verb.part   DEF-dog
+Dogs chase cars and cats chase dogs.
+ 
+#107
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {coordination}
+lme$$ kayjri 3ala lkelb ukayn3as
+l-me$$      ka-y-jra            3ala        l-kelb      u-ka-y-nEas
+DEF-cat     pres.ind.-he-runs   verb.part   DEF-dog     and-pres.ind.-he-sleeps
+Cats chase dogs and sleep.
+ 
+#108
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {Matrix yes-no question}
+wa$ lme$$ kayjri 3ala lkelb?
+wa$     l-me$$      ka-y-jra            3ala        l-kelb?
+Q.mark  DEF-cat     pres.ind.-he-runs   verb.part   DEF-dog
+Do cats chase dogs?
+
+
+#109
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {imperative}
+jri 3ala lkelb
+jra     3ala        l-kelb
+run    verb.part   DEF-dog
+Chase the dog!
+
+#110
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+lkelb bih ju3 kayakul
+l-kelb      bi-u    ju3     ka-y-akul
+DEF-dog     in-him  hunger  pres.ind.-he-eats
+Hungry dogs eat.
+ 
+#111
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+lkelb bih ju3 kayakul bz~arba
+l-kelb  bi-u    ju3     ka-y-akul     b-z-zarba
+DEF-dog in-him  hunger  ka-y-akul   with-DEF-quickness
+Hungry dogs eat quickly.
+
+#112 aspect
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {aspect}
+FaTima  tbqa katlEeb flmaTi$a.
+FaTima  t-bqa          ka-t-lEeb            f   l-maTi$a.
+Fatima  she-remains    pres.ind-she-play    in  DEF-swing.
+Fatima continues to play on the swing.
+
+#113 aspect
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {aspect}
+FaTima bqat katlEeb f lmaTi$a.
+FaTima  bqa-t           ka-t-lEeb           f   l-maTi$a.
+Fatima  remained-she    pres.ind-she-play   in  DEF-swing.
+Fatima continued to play on the swing.
+
+#114 aspect
+Source: e:155
+Vetted: s
+Judgment: g
+Phenomena: {aspect}
+ma      bqit$               kankmi.
+ma      bqa-t-$             ka-n-kmi
+neg1    continued-I-neg2    pres.ind.-I-smoke
+I no longer smoke.
+
+#115 aspect The example has been altered slightly.  I added Antones as an overt subject
+Source: e:155
+Vetted: s
+Judgment: g
+Phenomena: {aspect}
+AnTone baqi kayxdm mEana
+AnTon baqi      ka-y-xdm            mEa-na
+Anton still     pres.ind-he-works   with-us
+Anton still works with us.
+
+#116 Yes/No question
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {Yes/No question}
+wa$ bgiti t$rab $i Haja?
+wa$     bga-ti      t-$rab      $i       Haja?
+Q.mark  want-you    you-drink   indef    thing
+Do you want to drink something?
+
+#117 Yes/No question
+Source: e:22
+Vetted: s
+Judgment: g
+Phenomena: {Yes/No question}
+wa$ nEawnk?
+wa$     n-Eawn-k?
+Q.mark  I-help-you?
+May I help you?
+
+#118 Yes/No question
+Source: e:56
+Vetted: s
+Judgment: g
+Phenomena: {Yes/No question}
+wa$ ktbti lbra l Hassan?
+wa$     ktb-ti      l-bra       l   Hsan?
+Q.mark  wrote-you   DEF-letter  to  Hassan
+Did you write the letter to Hassan?
+    
+#119 Yes/No question
+Source: e:60
+Vetted: s
+Judgment: g
+Phenomena: {Yes/No question}
+wa$ Greg kaytkllm tamazigt mzyan?
+wa$     Greg    ka-y-tkllm          tamazigt    mzyan?
+Q.mark  Greg    pres.ind.-he-speaks Tamazigh    well?
+Does Greg speak Tamazigh well?
+
+#120 Embedded Yes/No question
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: Embedded Yes/No question}
+kat3ref wa$ l-kelb kayjri 3la T~omobil
+ka-t-3ref           wa$       l-kelb  ka-y-jra            3la         T-Tomobil
+pres.ind-you-know   Q.mark    DEF-dog pres.ind-he-runs    verb.part   DEF-car
+Do you know whether dogs chase cars?
+
+#121 mood
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {mood}
+ymkn lna nm$iw lmknas lyum.
+y-mkn       l-na    n-m$a-u         l-mknas     l-yum.
+he-possible to-us   1st-go-plural   to-Meknes   DEF-day
+It is possible for us to go to Meknes today.
+
+#122 mood negated
+Source: a:246
+Vetted: s
+Judgment: g
+Phenomena: {mood with sentence negation}
+ma ymkn lna$ nm$iw lmknas lyum.
+ma      y-mkn           l-na-$      n-m$a-u         l-mknas     l-yum.
+neg1    he-possible     to-us-neg2  1st-go-plural   to-Meknes   DEF-day
+We're not able to go to Meknes today
+
+#123 mood altered slightly from book by replacing the pronoun subject with a proper noun 
+Source: e:98
+Vetted: s
+Judgment: g
+Phenomena: {mood}
+FaTima xSSha tji f lwqt.
+FaTima  xSSha       t-ji        f   l-wqt.
+Fatima  lack.her    she-come    in  DEF-time.
+Fatima needs to come on time.
+
+#124 mood altered slightly from book by replacing the pronoun subject a proper noun
+Source: e:10
+Vetted: s
+Judgment: g
+Phenomena: {mood}
+FaTima ma xSSha$    t$uf    T~bib.
+FaTima ma   xSS-ha-$        t-$uf       T-Tbib.
+Fatima neg1 lack-her-neg2   she-sees    DEF-doctor.
+Fatima does not need to see the doctor.
+
+#125 mood
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {mood}
+FaTima bgat nlEeb f lmaTi$a.
+FaTima  bga-t        n-lEeb     f   l-maTi$a.
+Fatima  wants-she    I-play     in DEF-swing.
+Fatima  wants me to play on the swing.
+
+#126 future tense particle 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense}
+Malika gat$rb lHlib f S~baH.
+Malika ga-t-$rb             l-Hlib   f      S-SbaH.
+Malika fut.ind-she-drink    DEF-milk in     UNKNOWN-morning.
+Malika will drink milk in the morning.
+
+#127 future tense participle 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense}
+Malika gadya t$rb lHlib f S~baH.
+Malika gady-a   t-$rb        l-Hlib   f      S-SbaH.
+Malika fut-FEM  she-drink    DEF-milk in     UNKNOWN-morning.
+Malika will drink milk in the morning.
+
+#128 past tense 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense}
+lwald jra Ela lkura
+l-wald  jra         Ela         l-kura
+DEF-boy ran.(he)    verb.part   DEF-ball
+The boy ran after the ball.
+
+#129 future tense particle 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense}
+lwald gayjri Ela lkura
+l-wald  ga-y-jra        Ela         l-kura
+DEF-boy FUT-he-runs     verb.part   DEF-ball
+The boy will run after the ball.
+
+#130 tense present indicative particle 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense}
+lwald kayjri Ela lkura
+l-wald  ka-y-jra            Ela         l-kura
+DEF-boy pres.ind-he-runs    verb.part   DEF-ball
+The boy runs after the ball.
+
+#131 future tense participle 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense}
+lwald gadi yjri Ela lkura.
+l-wald  gadi        y-jra        Ela         l-kura
+DEF-boy fut.MAS     he-runs      verb.part   DEF-ball
+The boy will run after the ball.
+
+#132 coordination
+Source: e:126
+Vetted: s
+Judgment: g
+Phenomena: {coordination}
+gadya nqr~i n~gliziya u gadya ndir ma$ariE mEa j~mEiyat u ay Haja l~i Endha Ealaqa mEa tnmiyat $~bab.
+gady-a  n-qr~i      n-ngliziya      u   gady-a  n-dar   ma$ariE     mEa     j-jmEiya-at         u    ay  Haja        l~i     End-ha  Ealaqa          mEa     tnmiyat         $-$bab.
+fut-F   I-teach     DEF-English    and  fut-F   I-do    projects    with    DEF-association-Fpl and  any thing.F     which   at-her  relationship    with    development     DEF-youth
+I will be teaching English and doing projects with the associations and anything which has a connection with youth development.
+
+#133 coordination
+Source: e:128
+Vetted: s
+Judgment: g
+Phenomena: {coordination}
+u kanhDr mEahum Ela lahammiya dyal d~wa d lbir, u bit lma u gsil lyddin u d~wa d lkr$.
+u       ka-n-hDr            mEa-hum     Ela     l-ahammiya      dyal    d-dwa           d   l-bir,      u       bit     l-ma        u       gsil        l-ydd-in        u   d-dwa           d   l-kr$.
+and     pres.ind-I-speak    with-them   on      DEF-importance  of      DEF-hygiene     of  def-well    and     room    DEF-water   and     washing     DEF-hands-Mpl   and DEF-medicine    of  DEF-diarrhea
+I speak with them about well and toilet hygiene, hand washing and diarrhea medicine.
+
+#134 coordination
+Source: e:128
+Vetted: s
+Judgment: g
+Phenomena: {coordination}
+bgit Dar mtwssTa, ykun fiha Salun u bit n~Eas u d~u$ u kuzina u katdxl liha $~ms u y kun s sTH dyali b wHdi.
+bga-t       Dar     mtwssTa,    y-kun       fi-ha       Salun       u       bit     n-nEas      u   d-du$       u   kuzina  u   ka-t-dxl            li-ha   $-$ms   u   y-kun   s-sTH       dyal-i     b    wHd-i.
+want-I      house   middle      he-is       in-her      living.room and     room    DEF-sleep   and DEF-shower  and kitchen and pres.ind-she-enters to-her  DEF-sun and he-is   DEF-roof    poss-my    by   single-my
+I want a medium-sized house that has a living room, a bedroom, a shower, a kitchen, the sunlight enters it and my roof is mine alone.
+
+#135 Subject noun and verb subject marker gender clash
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+lkelb katnEas
+l-kelb      ka-t-nEs
+DEF-dog     pres.ind-she-sleeps
+Dogs sleep.
+
+#136 Subject noun and verb subject marker number clash
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+lkelb katnEasu
+l-kelb      ka-y-nEs-u
+DEF-dog     pres.ind-3rdM-sleep-pl
+Dogs sleep.
+
+#137 Subject noun and verb subject marker number and person clash
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+lkelb katnEasu
+l-kelb      ka-t-nEs-u
+DEF-dog     pres.ind-2nd-sleep-pl
+Dogs sleep.
+
+#138 Subject noun and verb subject marker gender clash
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+lkelb katnEas
+l-kelb      ka-t-nEs
+DEF-dog     pres.ind-3rdF-sleeps.pl
+Dogs sleep.
+
+#139 Subject noun and verb subject marker person clash
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+lkelb kan~Eas
+l-kelb      ka-n-nEs
+DEF-dog     pres.ind-I-sleep.pl
+Dogs sleep.
+
+#140 Subject noun and verb subject marker person and number clash
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+lkelb kanEasu
+l-kelb      ka-n-nEs-u
+DEF-dog     pres.ind-1st-sleep-pl
+Dogs sleep.
+
+#141 Verb particle missing, extra argument for intransitive verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {verb valence}
+lkelb kayjri Ela T~omobil
+l-kelb   ka-y-jra               T-Tomobil
+DEF-dog  pres.ind-he-chases     DEF-car.
+Dogs chase cars.
+
+#142 Verb particle missing, extra argument for intransitive verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {verb valence}
+kanjrik
+ka-n-jra-k
+pres.ind.-I-run-you.ACC
+I chase you.
+ 
+#143 Subject noun and verb subject marker number clash
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+Had l-kalb kayn3asu
+Had         l-klab      ka-y-n3as-u
+demon.pro   DEF-dogs    pres.ind-he-sleeps-PL
+These dogs sleep.
+ 
+#144 the verb needs to follow the modal operator ymkn l-
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+ymknli j~aj nakol
+y-mkn-l-i           j-jaj           n-akol  
+he-possible-to-me   DEF-glass       I-eat   
+I can eat glass
+  
+#145 number clash on noun and verb subject marker
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement}
+lklab kayjri 3la T~omobil
+l-klab      ka-y-jra            3la         T-omobil
+DEF-dogs    pres.ind.-he-runs   verb.part   DEF-car.
+The dogs chase cars.
+
+#146 missing argument on "quickly" idiom
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {missing preposition}
+lkelb bih ju3 kayakul z~arba
+l-kelb  bi-u    ju3     ka-y-akul     z-zarba
+DEF-dog in-him  hunger  ka-y-akul   DEF-quickness
+Hungry dogs eat quickly.
+
+#147 missing preposition
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {argument structure}
+FaTima  bqat katlEeb flmaTi$a.
+FaTima  bqa-t           ka-t-lEeb           l-maTi$a.
+Fatima  remained-she    pres.ind-she-play   DEF-swing.
+Fatima continues to play on the swing.
+
+#148 verb following bqa needs to be an imperfective form
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {modified verb in incorrect tense}
+FaTima bqat lEebat f lmaTi$a.
+FaTima  bqa-t           lEeb-at           f   l-maTi$a.
+Fatima  remained-she    play-she          in  DEF-swing.
+Fatima continued to play on the swing.
+
+#149 missing object pronoun on xaSS 
+Source: e:98
+Vetted: s
+Judgment: u
+Phenomena: {mood - agreement}
+FaTima  xSS tji f lwqt.
+FaTima  xSS      t-ji        f   l-wqt.
+Fatima  lack     she-come    in  DEF-time.
+Fatima needs to come on time.
+
+#150 missing subject pronoun on verb 
+Source: e:98
+Vetted: s
+Judgment: u
+Phenomena: {mood - agreement}
+FaTima xSSha  ji f lwqt.
+FaTima xSS-ha      ji      f   l-wqt.
+Fatima lack-her    come    in  DEF-time.
+Fatima needs to come on time.
+
+#151 NP Fatima in incorrect location 
+Source: e:98
+Vetted: s
+Judgment: u
+Phenomena: {mood - word order}
+xSSha  FaTima tji f lwqt.
+xSS-ha      FaTima   t-ji         f   l-wqt.
+lack-her    Fatima   she-come     in  DEF-time.
+Fatima needs to come on time.
+
+#152 Pronoun agreement clash 
+Source: e:98
+Vetted: s
+Judgment: u
+Phenomena: {Pronoun agreement clash}
+FaTima xSSu nji f lwqt.
+FaTima   xSS-u       n-ji         f   l-wqt.
+Fatima   lack-him    I-come    in  DEF-time.
+Fatima needs to come on time.
+
+#153 Dar takes feminine agreement
+Source: e:128
+Vetted: s
+Judgment: g
+Phenomena: {agreement}
+bgit Dar mtwssTa, ykun fiha Salun u bit n~Eas u d~u$ u kuzina u katdxl liha $~ms u ykun s~TH dyali b wHdi.
+bga-t       Dar     mtwssT,    y-kun       fi-h       Salun       u       bit     n-nEas      u   d-du$       u   kuzina  u   ka-t-dxl            li-ha   $-$ms   u   y-kun   s-sTH       dyal-i     b    wHd-i.
+want-I      house   middle     he-is       in-him     living.room and     room    DEF-sleep   and DEF-shower  and kitchen and pres.ind-she-enters to-her  DEF-sun and he-is   DEF-roof    poss-my    by   single-my
+I want a medium-sized house that has a living room, a bedroom, a shower, a kitchen, the sunlight enters it and my roof is mine alone.
+
+#154 $ms takes feminine agreement
+Source: e:128
+Vetted: s
+Judgment: g
+Phenomena: {agreement}
+bgit Dar mtwssTa, ykun fiha Salun u bit n~Eas u d~u$ u kuzina u katdxl liha $~ms u ykun s~TH dyali b wHdi.
+bga-t       Dar     mtwssTa,    y-kun       fi-ha       Salun       u       bit     n-nEas      u   d-du$       u   kuzina  u   ka-y-dxl             li-ha   $-$ms   u   y-kun   s-sTH       dyal-i     b    wHd-i.
+want-I      house   middle      he-is       in-her      living.room and     room    DEF-sleep   and DEF-shower  and kitchen and pres.ind-he-enters   to-her  DEF-sun and he-is   DEF-roof    poss-my    by   single-my
+I want a medium-sized house that has a living room, a bedroom, a shower, a kitchen, the sunlight enters it and my roof is mine alone.

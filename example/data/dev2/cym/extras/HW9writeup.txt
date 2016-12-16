@@ -1,0 +1,77 @@
+Eric Mead
+Ling567.Bender
+lab9.writeup
+3/9/08
+
+
+	My primary cleanup to my grammar was spelling, dialect changes, and lexicon additions. I had been ignoring this important feature of my test suite and my lexicon. Many things weren't matching because of different spelling conventions of different dialects. There is, evidently, a Northern, Southern, Standard, and Spoken version of Welsh in common publication, and I have chosen to work with the Southern Spoken version. However, I discovered recently that many of my sources' example sentences were not necessarily following the spelling I expected. So I cleaned those up, and added some words that were still missing from my lexicon.
+	I also implemented a few suggestions of Emily's from previous lab comments. However, during the process of trying to get the sentences to translate, I discovered that one change in particular – constraining my common-noun-lex to be COG-ST type-id – caused one sentence to translate and another to stop translating. It also broke my determiners, so I opted to remove this change. I don't fully understand what this is actually doing, and so I have had no luck in figuring out the real cause of all this.
+	I also unconstrained my pronoun-lex's COG-ST from active-or-more. I'm not really certain that this helped or hurt anything, but it was a suggestion on lab6, and I thought I'd try it.
+	In general, I felt that most things that I had implemented were working okay, so I didn't really know what needed cleaning up. My sentences that I have been working with parsed and generated acceptably, so I focused more on trying to get things translating.
+	
+	I ended up instantiating pronoun-delete-mtr and make-harm-mtr for the Italian grammar only.  This was done in an attempt to get "Non mi-f-a male" translating. It hasn't seem to have helped, but my thoughts are that the relations Italian is sending are not matching anything on the Welsh side, and this rule could help convert the relations to the expected "_hurt_v_rel" relation. This sentence is still not working, so I'm not sure if this is helping or doing nothing.
+	
+	I did not develop any other transfer rules. I think most of the sentences are straightforward enough in Welsh so that any other rules are probably unnecessary.
+
+	My current coverage of the English sentences is the following:
+
+
+![#] = can rephrase with how many (note: should be approx. 7 covering tense/aspect)
+* = cannot rephrase
+(error types in capital letters)
+
+![7] Dogs sleep.
+![7] Dogs chase cars.
+![14] I chase you.
+![7] These dogs sleep.
+![9] Dogs eat.
+![1] I can eat glass.
+* It doesnt hurt me.
+![7] The dogs chase cars.
+MAXEDGES I think that you know that dogs chase cars.
+MAXEDGES I ask whether you know that dogs chase cars.
+* Cats and dogs chase cars.
+![100] Dogs chase cars and cats chase dogs.
+* Cats chase dogs and sleep.
+![7] Do cats chase dogs?
+* Chase the dog.
+![18] Hungry dogs eat.
+![188] Hungry dogs eat quickly
+
+	My current coverage of the Italian sentences is the following:
+
+![#] = can rephrase with how many (note: should be approx. 7 covering tense/aspects)
+* = cannot rephrase
+
+![7] Cani dorm-ono
+![7] Cani insegu-ono macchine
+* Ti-insegu-o
+![7] Questi cani dorm-ono
+![9] Cani mangi-ano
+* Posso mangi-are il vetro
+* Non mi-f-a male
+![7] I cani insegu-ono macchine
+*  Pens-o che sai che cani insegu-ono macchine
+*  Domand-o se sai che cani insegu-ono macchine
+*  Cani e gatti insegu-ono macchine
+![100] Cani insegu-ono macchine e gatti insegu-ono cani
+* Gatti insegu-ono cani e dorm-ono
+![7] Gatti insegu-ono cani
+*  insegu-i il cane
+Cani affamat-i mangi-ano
+Cani affamat-i mangi-ano velocemente
+
+
+	Totals:   English  	11 with 8-9 having reasonable amounts of productions
+		  Italian	7 with 6 having reasonable amounts of productions
+
+
+	I spent quite a while tracking down spelling issues, feature inconsistencies, and a few grammar changes. In general I had a rough time figuring out how the grammar changes would help/hurt/change the translation effects, and I didn't really make any worth noting as everything I tried didn't seem to work. I'm skeptical that my determiners are working the way they should, but I haven't been able to track down why. I also think that there is some problem with a rule or two's relation lists and how they hook things up. It seems that a few of my sentences exhibited slightly altered argument structures from what was expected. For example: The ARG1 of my _hurt_v_rel is not linking right to the subject in the translation of "It doesn't hurt me." I checked through how the auxiliaries were identifying their complements and subject, but nothing jumped out at me. I do think that if I could find this problem, it might be the root of a number of sentences not translating.
+	On a brighter note, after cleaning up my test suite's inconsistencies and changing things so that the translations work (i.e., some of them!), my test suite coverage went from 17.8% to 21.8% to 26.7%. That is, from before the test suite and grammar cleanup, to before the translation attempt, to after everything respectively. The word string went from 5.55 to 5.53 to 5.53, the lexical items went from 7.4 to 7.3 to 7.34, and the total results went from 18 to 22 to 27.
+	In terms of overgeneration from before the cleanup, to before the translations, to after everything:  the only thing that changed at all was the lexical items which went from 6.81 to 7.07 to 7.07. The word string, distinct analyses, total results, and total coverage stayed constant at 5.30, 1.00, 1, and 1.6 respectively.
+	
+	At first glance, my numbers look horrible. However, the main reason for this is that my test suite contained a great number of examples of things that we didn't handle in this project and/or I didn't get to implement. In browsing the errors, I noted that ALL of the errors contained some kind of grammatical or lexical reason why it actually shouldn't have parsed. For example, I did not end up implementing prepositions, and many of the sentences had prepositional phrases. Possessives were also key in my test suite, yet we didn't get to them. In retrospect, I would have constructed my test suite totally different. My sentences were very ambitious in many cases, as I tried to find real examples from sources instead of making sentences up. It seems in hindsight that it would have been better for my purposes to just make sentences up knowing what I did about Welsh. I guess I just didn't really understand what we were going to be doing with them.
+	By my estimation, my coverage without sentences which *shouldn't* parse (i.e., for lack of implemented phenomena and/or lack of words in the lexicon) is 60%. That is, 101 positive items, 54 which represent issues unaddressed by the current state of my grammar, and 28 which parsed pretty well (i.e., 28/47). This, while not being ideal, is fairly promising – and much more positive sounding than the 26.7% based on my entire test suite!
+	
+	In general I think my Welsh grammar is working pretty well for simple sentences. There seems to be something wrong with complementizers and determiners, and I'm still looking into that. Hopefully I'll figure some more out before the translation extravaganza!
+	

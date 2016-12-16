@@ -1,7 +1,5 @@
-import os
-
 from gloss.standard import Gram
-from utils import functions
+from utils.stat_reports import accuracy
 from utils.IOutils import set_directory
 
 
@@ -18,6 +16,7 @@ class TBL(object):
         self.tbl = {}
         self.tbl_rules = []
         self.results = {}
+        self.lookup = {}
         TBL.objects[model_name] = self
 
     @classmethod
@@ -26,34 +25,34 @@ class TBL(object):
         set_directory(cls.path)
 
     # Model function
-    def model(self):
+    def report_model(self):
         writer = open('{}/{}.mod'.format(TBL.path, self.model), 'w')
         writer.write(TBL.default+'\n')
         for rule in self.tbl_rules:
             writer.write('{0:36s} {1:36s} {2:36s} {3:10s}\n'.format(*[str(s) for s in rule]))
         writer.close()
-        return True
 
     # System function
-    def system(self, syst):
+    def report_system(self, syst):
         writer = open('{}/{}.sys'.format(TBL.path, self.model), 'w')
         writer.write('%%%%% ' + self.model + ' data:\n')
         for line in syst:
             writer.write('array: {}\n'.format(' '.join(str(s) for s in line)))
         writer.close()
-        return True
 
     # Accuracy function
-    def accuracy(self, acc):
+    def report_accuracy(self, acc):
         file = '{}/{}'.format(TBL.path, self.model)
-        functions.accuracy(acc, file)
-        return True
+        accuracy(acc, file)
 
     # Function to set the initial TBL map that matches indices, labels, and feats
     def initialize(self):
         tbl = {}
         # Read each vector object in the training DS
-        for vector in self.train_vectors:
+        i = 0
+        while i < len(self.train_vectors):
+            vector = self.train_vectors[i]
+            self.lookup[vector["id"]] = i
             vector["tbl_cur"] = vector["gloss"] if vector["gloss"] in Gram.objects else TBL.default
             # For each feat in the instance's features
             for feat in vector["features"]:
@@ -66,8 +65,8 @@ class TBL(object):
                     tbl[feat][vector["tbl_cur"]][vector["gram"]] = {}
                 # Set tbl[feat][cur][gold][vector["id"]] = True
                 tbl[feat][vector["tbl_cur"]][vector["gram"]][vector["id"]] = True
+            i += 1
         self.tbl = tbl
-        return True
 
     # Function to train TBL
     def train_model(self):
@@ -105,11 +104,11 @@ class TBL(object):
             for label in self.tbl[best[0]][best[1]].keys():
                 # Critical to use .keys() here, otherwise deletion won't work
                 for vid in list(self.tbl[best[0]][best[1]][label].keys()):
-                    vector = self.train_vectors[vid]
+                    vector = self.train_vectors[self.lookup[vid]]
                     # Update each feature for each vector and then update the vector's cur
                     for feat in vector["features"].keys():
                         # Delete previous cur state and instantiate new cur state
-                        del self.tbl[feat][vector["tbl_cur"]][vector["label"]][vid]
+                        del self.tbl[feat][vector["tbl_cur"]][vector["gram"]][vid]
                         if best[2] not in self.tbl[feat]:
                             self.tbl[feat][best[2]] = {}
                         if vector["gram"] not in self.tbl[feat][best[2]]:
@@ -118,10 +117,10 @@ class TBL(object):
                     vector["tbl_cur"] = best[2]
             # Add best rule to TBL rule set
             self.tbl_rules.append(best)
+
         # Once all rules have been created send them to output
         if TBL.path:
-            self.model()
-        return True
+            self.report_model()
 
     # Function to decode test vectors
     def decode(self, vectors):
@@ -163,6 +162,5 @@ class TBL(object):
 
         # Call system and accuracy functions
         if TBL.path:
-            self.system(syst)
-            self.accuracy(acc)
-        return True
+            self.report_system(syst)
+            self.report_accuracy(acc)

@@ -1,0 +1,1287 @@
+Language: Tamil
+Language code: tam
+Tiers: translit orth-seg gloss translat
+Author: Safiyyah Saleem
+Date: January 11, 2009
+Source a: Groom Helm Descriptive Grammars: Tamilby R.E. Asher
+Source b: A reference grammar of spoken Tamil by Harold F. Schiffman
+Source c: Tamil to English Transliteration Table http://www.aczoom.com/itrans/tamil/node5.html 
+
+
+#Ex 1 based on { a, 87, b, 90} demonstrates the unmarked word order SOV
+Source:author 
+Vetted:f
+Judgment: g
+Phenomena:{word order,case,agreement}
+tiruDanga en naaye paattanga
+tiruDa-nga en naay-e paaru-tt-aanga
+thief.NOM-pl my dog-ACC see-past-3pl
+'Thieves saw my dog.'
+
+#Ex 2 demonstrates marked word order OVS.
+Source:author 
+Vetted:f
+Judgment: g
+Phenomena:{word order,case,agreement}
+en naaye paattanga tiruDanga
+en naay-e paaru-tt-aanga tiruDa-nga
+my dog-ACC see-past-3pl thief.NOM-pl
+'Thieves saw my dog.'
+
+#Ex 3 demonstrates marked word order VSO.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement}
+paattanga tiruDanga en naaye
+paaru-tt-aanga tiruDa-nga en naay-e 
+see-past-3pl thief.NOM-pl my dog-ACC
+'Thieves saw my dog.'
+
+#Ex 4 demonstrates marked word order SVO.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement}
+tiruDanga  paattanga en naaye
+tiruDa-nga paaru-tt-aanga en naay-e 
+thief.NOM-pl  see-past-3pl my dog-ACC
+'Thieves saw my dog.'
+
+
+#Ex 5 demonstrates marked word order OSV.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement}
+en naaye tiruDanga paattanga 
+en naay-e tiruDa-nga paaru-tt-aanga 
+my dog-ACC thief.NOM-pl see-past-3pl 
+'Thieves saw my dog.'
+
+#Ex 6 demonstrates marked word order OSV.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement}
+paattanga  en naaye tiruDanga 
+paaru-tt-aanga en naay-e tiruDa-nga  
+see-past-3pl  my dog-ACC thief.NOM-pl 
+'Thieves saw my dog.'
+
+#Ex 7 demonstrates nom case for subject of intransitive verb. Verb conjugation comes from (b:63)
+Source: author
+Vetted:f
+Judgment:g
+Phenomena: {case,agreement}
+naan naDandeen
+naan naDa-nd-een
+I.NOM walk-past-1sg
+'I walked.'
+
+
+#Ex 8 demonstrates nom-acc-dative cases for subject,object and indirect object of a transitive verb.Verb conjugation (b:69), pronoun (b:118)
+Source:author
+Vetted:f
+Judgment:g
+Phenomena: {case, agreement}
+nii vaanginee naaye avarukku
+nii vaangu-in-ee naay-e avan-ukku
+you.NOM buy-past-2sg dog-acc he.dat
+'You bought the dog for him.'
+
+#Ex 9 demonstrates dat-acc case for subject and object of special stative verbs.  These verbs cannot take a nominative subject. Verb paradigm on (b:107)
+Source: b:37
+Vetted:t
+Judgment:g
+Phenomena: {case, agreement}
+avane enakku teriyum
+avan-e naan-ukku teri-yum
+he-acc me-dat know-hab
+'I know him.'
+
+#Ex 10 deomonstrates ungrammaticality of nominative subject for dative-stative verb
+Source:author
+Vetted:f
+Judgment:u
+Phenomena: {case}
+avane naan teriyum
+avan-e naan teri-yum
+he-acc I.nom know-hab
+'I know him.'
+
+#Ex 11 demonstrates ungrammaticality of accusative subject with an intransitive verb
+Source:author
+Vetted: f
+Judgment:u
+Phenomena: {case}
+enne naDandeen
+naan-e naDa-nd-een
+I.NOM walk-past-1sg
+'I walked.'
+
+#Ex 12 demonstrates third person masculine singular verb-subject agreement.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement}
+avan en naaye paattaan
+avan en naay-e paaru-tt-aan 
+he.NOM my dog-acc see-PST-3msg
+He saw my dog.
+
+# Ex 13 demonstrates third person feminine singular verb-subject agreement.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement}
+aval en naaye paattaal
+aval en naay-e paaru-tt-aal
+she my dog-acc see-PST-3fsg
+'She saw my dog.'
+
+
+#Ex 14 demonstrates (polite)third person feminine singular verb-subject agreement
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement}
+avangal en naaye paatteen
+avangal en naay-e paaru-tt-aanga
+she.pol my dog-acc see-PST-3fsg.pol
+'She saw my dog.'
+
+
+#Ex 15 demonstrates neuter third person singular agreement.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena:{word order,case,agreement}
+idu  en naaye paattadu
+idu en naay-e paaru-tt-adu
+it my dog-acc see-PST-1sg
+'It saw my dog.'
+
+
+
+#Ex 16 demonstrates exclusive first person plural verb-subject agreement.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena:{word order,case,agreement}
+naanga en naaye paattoom
+naanga en naay-e paaru-tt-oom
+I-pl.excl my dog-acc see-PST-1pl
+'We, including you, saw my dog.'
+
+# Ex 17 demonstrates inclusive first person plural verb-subject agreement
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena:{word order,case,agreement}
+naama en naaye paattoom
+naama en naay-e paaru-tt-oom
+we.incl my dog-acc see-PST-1pl
+We, not including you, saw my dog.
+
+# Ex 18 demonstrates exclusive second person plural verb-subject agreement
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena:{word order,case,agreement}
+niinga en naaye paattiinga
+niinga en naay-e paaru-tt-iinga
+you-pl my dog-acc see-PST-2pl
+'You saw my dog.'
+
+# Ex 19 demonstrates third person plural verb-subject agreement
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena:{word order,case,agreement}
+avangal en naaye paattaanga
+avangal en naay-e paaru-tt-aanga
+they-pl my dog-acc see-PST-3pl
+'They saw my dog.'
+
+# Ex 20 demonstrates an ungrammatical  second person plural verb-subject agreement
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{word order,case,agreement}
+niinga en naaye paattaanga
+niinga en naay-e paaru-tt-aanga
+you-pl  my dog-acc see-PST-3pl
+'You saw my dog.'
+
+# Ex 21 demonstrates an ungrammatical masculine third person singular  verb-subject agreement
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{agreement}
+avan en naaye paattaanga
+avan  en naay-e paaru-tt-aanga
+he  my dog-acc see-PST-3pl
+'He saw my dog.'
+
+# Ex 22 demonstrates ungrammatical inclusive first person plural verb-subject agreement
+Source:author 
+Vetted:f
+Judgment: u
+Phenomena:{agreement}
+naama en naaye paatteen
+naama en naay-e paaru-tt-een
+we.incl my dog-acc see-PST-1sg
+'We, not including you, saw my dog.'
+
+
+# Ex 23 demonstrates an ungrammatical  second person plural verb-subject agreement
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{agreement}
+naan en naaye paattaanga
+naan en naay-e paaru-tt-aanga
+I  my dog-acc see-PST-3pl
+'I saw my dog.'
+
+# Ex 24 demonstrates grammatical third person inanimate plural verb-subject agreement.  And past tene for a Form II verb. (Orginally had incorrect past tense marker--now corrected)
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena:{agreement,tense}
+maranga viZundadunga
+maram-nga viZu-nd-adunga
+tree-pl fall-PST-3pl.neut
+'The trees fell.'
+
+
+# Ex 25 demonstrates ungrammatical third person inanimate plural verb-subject agreement.(Originally had incorrect past tense marker--now corrected)
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{agreement}
+maram viZuttadunga
+maram viZu-nd-adunga
+tree fall-PST-3pl.neut
+'The tree fell.'
+
+
+#Ex 26 based on { a, 87, b, 90}ungrammatical third person singular verb-subject agreement
+Source:author 
+Vetted:f
+Judgment: u
+Phenomena:{agreement}
+tiruDa en naaye paattanga
+tiruDa en naay-e paaru-tt-aanga
+thief.NOM my dog-ACC see-past-3pl
+'The thief saw my dog.'
+
+# Ex 27 demonstrates that an inanimate word can appear as an obect in the nominative case.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena:{word order,case,agreement}
+niinga maram paattiinga
+niinga maram paaru-tt-iinga
+you-pl tree.NOM.3sg.inanim see-PST-2pl
+'You saw a tree.'
+
+# Ex 28 demonstrates present tense for a Form VI verb. The verb conjugation is taken from (b:66) the name of the form from (b:63).
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena:{word order,case,agreement,tam}
+avan en naaye paakkuraan
+avan en naay-e paaru-kkr-aan 
+he.NOM my dog-acc see-PRS-3msg
+He sees my dog.
+
+# Ex 29 demonstrates future tense for a Form VI verb. The verb conjugation is taken from (b:66) the name of the form from (b:63).
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena:{word order,case,agreement,tam}
+avan en naaye paappaan
+avan en naay-e paaru-pp-aan 
+he.NOM my dog-acc see-fut-3msg
+He will see my dog.
+
+# Ex 30 demonstrates ungrammatical use of present tense marker for a Form VI verb. The verb conjugation is taken from (b:66) the name of the form from (b:63). Form III present tense marker is used instead of the Form VI marker.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+avan en naaye paaraan
+avan en naay-e paaru-r-aan 
+he.NOM my dog-acc see-PRS-3msg
+He sees my dog.
+
+
+# Ex 31 demonstrates ungrammatical use of future tense marker for a Form VI verb. The verb conjugation is taken from (b:66) the name of the form from (b:63). Form III future  tense marker is used instead of the Form VI marker.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+avan en naaye paavaan
+avan en naay-e paaru-v-aan 
+he.NOM my dog-acc see-PRS-3msg
+He will see my dog.
+
+
+# Ex 32 demonstrates ungrammatical use of future tense marker for a Form VI verb. The verb conjugation is taken from (b:66) the name of the form from (b:63). Form IIIb future  tense marker is used in addition to the Form VI marker. The Form VI marker precedes the Form IIIb marker.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+avan en naaye paappvaan
+avan en naay-e paaru-pp-v-aan 
+he.NOM my dog-acc see-fut-fut-3msg
+He will see my dog.
+
+# Ex 33 demonstrates ungrammatical present tense for a Form VI verb. The verb conjugation is taken from (b:66) the name of the form from (b:63). A Form II present tense marker is used along with the Form VI marker. The Form IIIb marker precedes the Form VI marker.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+avan en naaye paarkkuraan
+avan en naay-e paaru-r-kkr-aan 
+he.NOM my dog-acc see-PRS-PRS-3msg
+He sees my dog.
+
+# Ex 34 demonstrates ungrammatical present tense for a Form VI verb. The verb conjugation is taken from (b:66) the name of the form from (b:63). The present tense marker is placed after the png marker.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+avan en naaye paaraankkur
+avan en naay-e paaru-aan-kkr 
+he.NOM my dog-acc see-3msg-PRS
+He sees my dog.
+
+# Ex 35 demonstrates grammatical present tense for a Form II verb. The verb is taken from (a:250) the name of the form from (b:63). 
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena:{agreement,tam}
+naan viZareen
+naan viZu-r-een
+I fall-PRS-1sg
+'I fall.'
+
+# Ex 36 demonstrates grammatical future tense for a Form II verb. The verb is taken from (a:250) the name of the form from (b:63). 
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena:{agreement,tam}
+naan viZaveen
+naan viZu-v-een
+I fall-fut-1sg
+'I will fall.'
+
+# Ex 37 demonstrates ungrammatical future tense for a Form II verb. The verb is taken from (a:250) the name of the form from (b:63). 
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+naan viZappeen
+naan viZu-pp-een
+I fall-fut-1sg
+'I will fall.'
+
+# Ex 38 demonstrates ungrammatical present tense for a Form II verb. The verb is taken from (a:250) the name of the form from (b:63). 
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+naan viZakkreen
+naan viZu-kkr-een
+I fall-PRS-1sg
+'I fall.'
+
+# Ex 39 demonstrates ungrammatical past tense for a Form II verb. The verb is taken from (a:250) the name of the form from (b:63). 
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+naan viZatteen
+naan viZu-tt-een
+I fall-PST-1sg
+'I will fall.'
+
+# Ex 40 demonstrates grammatical continuous aspect for a Form II verb. The verb is taken from (a:250) the name of the form from (b:63). AVP is being used here to denote that this marker is the same as the past tense marker but does not actually assign tense.  Instead it is used to form the adverbial participle (AVP)
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena:{agreement,tam}
+naan viZandukiTTirukkreen
+naan viZu-ndu-kiTTiru-kkr-een
+I fall-AVP-cont-PRS-1sg
+'I am falling.'
+
+
+# Ex 41 demonstrates ungrammatical continuous aspect for a Form II verb. The verb is taken from (a:250) the name of the form from (b:63). AVP is being used here to denote that this marker is the same as the past tense marker but does not actually assign tense.  Instead it is used to form the adverbial participle (AVP). The AVP is formed incorrectly with the present tense marker instead of the past.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+naan viZarukiTTirukkreen
+naan viZu-ru-kiTTiru-kkr-een
+I fall-AVP-cont-PRS-1sg
+'I am falling.'
+
+# Ex 42 demonstrates ungrammatical continuous aspect for a Form II verb. The verb is taken from (a:250) the name of the form from (b:63). AVP is being used here to denote that this marker is the same as the past tense marker but does not actually assign tense.  Instead it is used to form the adverbial participle (AVP). The AVP is formed incorrectly with the future tense marker instead of the past.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+naan viZavukiTTirukkreen
+naan viZu-vu-kiTTiru-kkr-een
+I fall-AVP-cont-PRS-1sg
+'I am falling.'
+
+# Ex 43 demonstrates ungrammatical continuous aspect for a Form II verb. The verb is taken from (a:250) the name of the form from (b:63). AVP is being used here to denote that this marker is the same as the past tense marker but does not actually assign tense.  Instead it is used to form the adverbial participle (AVP). This is example is ungrammatical because the true tense marker is (incorrectly) placed before the aspectual verb.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+naan viZandukkrkiTTirueen
+naan viZu-ndu-kkr-kiTTiru-een
+tree-pl fall-AVP-cont-PRS-1sg
+'I am falling.'
+
+
+# Ex 44 demonstrates ungrammatical continuous aspect for a Form II verb. The verb is taken from (a:250) the name of the form from (b:63). AVP is being used here to denote that this marker is the same as the past tense marker but does not actually assign tense.  Instead it is used to form the adverbial participle (AVP). Here the aspectual verb is attached without the AVP being formed.  The AVP marker is missing.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+naan viZakiTTirukkreen
+naan viZu-kiTTiru-kkr-een
+I fall-cont-PRS-1sg
+'I am falling.'
+
+#Ex 45 demonstrates grammatical continuous aspect for a Form VI verb. The verb is taken from (b:63).  AVP is being used here to denote that this marker is the same as the past tense marker (with the addition of a final u) but does not actually assign tense.  Instead it is used to form the adverbial participle (AVP). 
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement,tam}
+avan en naaye paattukiTTirukkraan
+avan en naay-e paaru-ttu-kiTTiru-kkr-aan 
+he.NOM my dog-acc see-AVP-cont-PRS-3msg
+'He is looking at my dog.'
+
+#Ex 46 demonstrates ungrammatical continuous aspect for a Form VI verb. The verb is taken from (b:63).  AVP is being used here to denote that this marker is the same as the past tense marker (with the addition of a final u) but does not actually assign tense.  Instead it is used to form the adverbial participle (AVP). In this example the AVP is formed incorrectly with the past tense marker for the aspectual marker instead of the correct past tense marker for Form VI. 
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena: {tam}
+avan en naaye paandukiTTirukkraan
+avan en naay-e paaru-ndu-kiTTiru-kkr-aan 
+he.NOM my dog-acc see-AVP-cont-PRS-3msg
+'He is looking at my dog.'
+
+
+#Example 47 demonstrates the unmarked question.  The question marker occurs on the verb in the sentence final position.
+Source:author 
+Vetted:f
+Judgment: g
+Phenomena:{word order,case,agreement,q}
+tiruDanga en naaye paattangaa
+tiruDa-nga en naay-e paaru-tt-aanga-aa
+thief.NOM-pl my dog-ACC see-past-3pl-Q
+'Did the thieves see my dog?'
+
+
+#Example 48 demonstrates a marked question.  The question marker somewhere other than on a verb in the sentence final position. Placing the question marker after thieves puts focus on this element.
+Source:author 
+Vetted:f
+Judgment: g
+Phenomena:{word order,case,agreement,q}
+tiruDangaa en naaye paattangaa
+tiruDa-nga-aa en naay-e paaru-tt-aanga
+thief.NOM-pl-Q my dog-ACC see-past-3pl
+'Did the thieves see my dog?'
+
+
+#Example 49 demonstrates an ungrammatical question.  The question marker occurs as a prefix instead of as a suffix.
+Source:author 
+Vetted:f
+Judgment: u
+Phenomena:{q}
+aatiruDanga en naaye aapaattangaa
+tiruDa-nga en naay-e aa-paaru-tt-aanga
+thief.NOM-pl my dog-ACC Q-see-past-3pl
+'Did the thieves see my dog?'
+
+#Example 50 demonstrates an ungrammatical question.  The question marker occurs on more than one element
+Source:author 
+Vetted:f
+Judgment: u
+Phenomena:{q}
+tiruDangaa en naaye paattangaa
+tiruDa-nga-aa en naay-e paaru-tt-aanga-aa
+thief.NOM-pl-Q my dog-ACC see-past-3pl-Q
+'Did the thieves see my dog?'
+
+
+#Example 51 demonstrates a grammatical, ordinary (non-future, non-habitual) negative statement.  Formation of the infinitive came from (b:73).  Formation of the negative came from (b:142).
+Source: author
+Vetted:f
+Judgment:g
+Phenomena: {case,agreement,neg}
+naan naDakkalle
+naan naDa-kka-lle
+I.NOM walk-INF-NEG
+'I did not walk.'
+
+#Example 52 demonstrates a grammatical, ordinary (non-future, no-habitual) negative statement and shows that it does not marked for png and so does not agree with the subject.  Formation of the infinitive came from (b:73).  Formation of the negative came from (b:142).
+Source: author
+Vetted:f
+Judgment:g
+Phenomena: {case,agreement,neg}
+sval naDakkalle
+aval naDa-kka-lle
+She  walk-INF-NEG
+'She did not walk.'
+
+
+#Example 53 demonstrates an ungrammatical negative statement where png is marked on the verb.  Formation of the infinitive came from (b:73).  Formation of the negative came from (b:142).
+Source: author
+Vetted:f
+Judgment:u
+Phenomena: {neg}
+naan naDakkalleen
+naan naDa-kka-lle-een
+I.NOM walk-INF-NEG-1sg
+'I did not walk.'
+
+#Example 54 demonstrates an ungrammatical negative statement where the negative partle is attached to the verb stem instead of to the infinitive.  Formation of the infinitive came from (b:73).  Formation of the negative came from (b:142).
+Source: author
+Vetted:f
+Judgment:u
+Phenomena: {neg}
+naan naDalle
+naan naDa-lle
+I.NOM walk-NEG
+'I did not walk.'
+
+
+# Example 55 deomontrates a grammatical habitual negative statement with an adverb. The use of an adverb gives the habitual meaning. The habitual negative is formed by adding the negative morpheme (-lle) to the present verbal noun.(b:143)  The present verbal noun is formed by the present tense marker to the verb stem and then adding (-adu).
+Source: author
+Vetted:f
+Judgment:g
+Phenomena: {neg}
+naan poduvaa naDakkradulle
+naan poduvaa naDa-kkr-adu-lle
+I.NOM generally walk-PRS-NMLZ-NEG
+'I usually do not walk.'
+
+# Example 56 deomontrates a grammatical habitual negative statement without an adverb.  Without an adverb this form has the meaning of immediate future negative (b:143).  The habitual negative is formed by adding the negative morpheme (-lle) to the present verbal noun.(b:143)  The present verbal noun is formed by the present tense marker to the verb stem and then adding (-adu).
+Source: author
+Vetted:f
+Judgment:g
+Phenomena: {neg}
+naan naDakkradulle
+naan naDa-kkr-adu-lle
+I.NOM walk-PRS-NMLZ-NEG
+'I am not going to walk.'
+
+# Example 57 deomontrates an ungrammatical habitual negative statement.  The habitual negative is formed by adding the negative morpheme (-lle) to the present verbal noun.(b:143)  The present verbal noun is formed by the present tense marker to the verb stem and then adding (-adu). Here the nominalizer (-adu) is attached (incorrectly) directly to the verb stem.
+Source: author
+Vetted:f
+Judgment:u
+Phenomena: {neg}
+naan poduvaa naDaadulle
+naan poduvaa naDa-adu-lle
+I.NOM generally walk-NMLZ-NEG
+'I usually do not walk.'
+
+
+# Example 58 is marked as grammatical.  According to (a:175) this is possible, but (b:142) says that only the present verbal noun can be used. It deomontrates an ungrammatical habitual negative statement.  The habitual negative is formed by adding the negative morpheme (-lle) to the past verbal noun.  The past verbal noun is formed by the past tense marker to the verb stem and then adding (-adu). 
+Source: author
+Vetted:f
+Judgment:g
+Phenomena: {neg}
+naan poduvaa naDandadulle
+naan poduvaa naDa-nd-adu-lle
+I.NOM generally walk-PST-NMLZ-NEG
+'I have never walked.'
+
+# Example 59 deomontrates an ungrammatical habitual negative statement.  The habitual negative is formed by adding the negative morpheme (-lle) to the present verbal noun.(b:143)  The present verbal noun is formed by the present tense marker to the verb stem and then adding (-adu). Here the negative morpheme(-lle) is (incorrectly) placed before the nominalizer (-adu).
+Source: author
+Vetted:f
+Judgment:u
+Phenomena: {neg}
+naan poduvaa naDakkrlleadu
+naan poduvaa naDa-kkr-lle-adu
+I.NOM generally walk-PRS-NEG-NMLZ
+'I usually do not walk.'
+
+# Example 60 deomontrates an ungrammatical habitual negative statement.  The habitual negative is formed by adding the negative morpheme (-lle) to the present verbal noun.(b:143)  The present verbal noun is formed by the present tense marker to the verb stem and then adding (-adu). Here the nominalizer is (incorrectly) placed before the present tense marker.
+Source: author
+Vetted:f
+Judgment:u
+Phenomena: {neg}
+naan poduvaa naDakkradulle
+naan poduvaa naDa-adu-kkr-lle
+I.NOM generally walk-PRS-NMLZ-NEG
+'I usually do not walk.'
+
+# Example 61 deomontrates a grammatical a past habitual negative statement.  The habitual negative is formed by adding the negative morpheme (-lle) to the present verbal noun.(b:143)  The present verbal noun is formed by the present tense marker to the verb stem and then adding (-adu). This construction is then placed before (-NNu irund-PNG) (b:144)
+Source: author
+Vetted:f
+Judgment:g
+Phenomena: {neg}
+naan poduvaa naDakkradulleNNu irundeen
+naan poduvaa naDa-kkr-adu-lle-NNu irund-een
+I.NOM generally walk-PRS-NMLZ-NEG
+'I never inteded to walk.'
+
+# Example 62 deomontrates a grammatical future negative statement.  The future negative is formed by  adding the future negative morpheme (-maaTT) to the infinitive.  PNG markers are then added. They are required. (b:144) 
+Source: author
+Vetted:f
+Judgment:g
+Phenomena: {neg}
+naan naDakkamaaTTeen
+naan  naDa-kka-maaTT-een
+I.NOM walk-INF-NEG.FUT-1sg
+'I will not walk.'
+
+# Example 63 deomontrates an ungrammatical future negative statement.  The future negative is formed by  adding the future negative morpheme (-maaTT) to the infinitive.  PNG markers are then added. They are required. (b:144) Here the PNG is (incorrectly) not included
+Source: author
+Vetted:f
+Judgment:u
+Phenomena: {neg}
+naan naDakkamaaTT
+naan naDa-kka-maaTT
+I.NOM walk-INF-NEG.FUT
+'I will not walk.'
+
+# Example 64 deomontrates an ungrammatical future negative statement.  The future negative is formed by  adding the future negative morpheme (-maaTT) to the infinitive.  PNG markers are then added. They are required. (b:144) Here the negative morpheme (-maatu) is attached to verbal noun instead of the infinitive
+Source: author
+Vetted:f
+Judgment:u
+Phenomena: {neg}
+naan naDakkrmaaTTeen
+naan naDa-kkr-adu-maaTT-een
+I.NOM walk-PST-NMLZ-NEG.FUT-1sg
+'I will not walk.'
+
+# Ex 65 demonstrates coordination of direct objects.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement,crd}
+aval en naayeyum maratteyum paattaal
+aval en naay-e-um maram-e-um paaru-tt-aal
+she my dog-ACC-and tree-ACC-and see-PST-3fsg
+'She saw my dog and a tree.'
+
+# Ex 66 demonstrates grammaticality of NP with no determiner.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement,det}
+aval naaye paattaal
+aval naay-e paaru-tt-aal
+she dog-acc see-PST-3fsg
+'She saw the dog.'
+
+
+# Ex 67 demonstrates grammaticality of NP with a determiner.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement,det}
+aval oru naaye paattaal
+aval oru naay-e paaru-tt-aal
+she one dog-acc see-PST-3fsg
+'She saw a dog.'
+
+# Ex 68 demonstrates the ungrammaticality of a determiner coming after its noun.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena: {det}
+aval naaye oru paattaal
+aval en naay-e oru paaru-tt-aal
+she dog-acc one see-PST-3fsg
+'She saw a dog.'
+
+# Ex 69 demonstrates an ungrammatical coordination of direct objects.  Here one of the coordinands is missing the suffix.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena: {crd}
+aval en naayeyum maratte paattaal
+aval en naay-e-um maram-e paaru-tt-aal
+she.NOM my dog-ACC-and tree-ACC see-PST-3fsg
+'She saw my dog and a tree.'
+
+# Ex 70 demonstrates coordination of subjects. The PNG agrees with the combined number of the two NPs.  
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement,crd}
+raamanum naanum en naaye paattoom
+raaman-um naan-um en naay-e paaru-tt-oom
+Raman.NOM-and I.NOM-and my dog-acc see-PST-1pl
+'Raman and I saw my dog.'
+
+
+# Ex 71 demonstrates coordination of subjects. The PNG agrees with the combined number of the two NPs.  
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement,crd}
+raamanum avalum en naaye paattaanga
+raaman-um aval-um en naay-e paaru-tt-aanga
+Raman.NOM-and she.NOM-and my dog-acc see-PST-3pl
+'She and Raman saw my dog.'
+
+
+# Ex 72 demonstrates ungrammatical agreement with coordinated NP. The PNG on the verb should agree with the combined number--plural.  
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena: {agreement}
+raamanum avalum en naaye paattaal
+raaman-um aval-um en naay-e paaru-tt-aal
+Raman.NOM-and she.NOM-and my dog-acc see-PST-3fsg
+'She and Raman saw my dog.'
+
+# Ex 73 demonstrates ungrammaticality of coordinating rational and non-rational nouns as subjects. 
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena: {crd}
+raamanum en naayum maratte paattaanga
+raaman-um aval-um en naay-um maram-e paaru-tt-aanga
+Raman.NOM-and my dog.NOM-and tree-ACC see-PST-3pl
+'Raman and my dog saw the tree.'
+
+# Ex 74 demonstrates the grammaticality of coordination of direct objects where one is rational and the other is non-rational.
+Source:author 
+Vetted:f
+Judgment:g
+Phenomena: {word order,case,agreement,crd}
+aval en naayeyum maratteyum ramaneyum paattaal
+aval en naay-e-um maram-e-um raaman-e-um paaru-tt-aal
+she my dog-ACC-and tree-ACC-and Raman-ACC-and see-PST-3fsg
+'She saw my dog, a tree, and Raman.'
+
+#Example 75 demonstrates a but-coordination (a:68) including a grammatical, ordinary (non-future, no-habitual) negative statement and shows that it does not marked for png and so does not agree with the subject.  Formation of the infinitive came from (b:73).  Formation of the negative came from (b:142).
+Source: author
+Vetted:f
+Judgment:g
+Phenomena: {case,agreement, neg, crd}
+naan naDandeen aanaa aval naDakkalle
+naan naDa-nd-een aanaa aval naDa-kka-lle
+I.NOM walk-PST-1sg but she  walk-INF-NEG
+'I walked, but she did not walk.'
+
+
+#Example 76 demonstrates an ungrammatical but-coordination (a:68) including a ordinary (non-future, no-habitual) negative statement and shows that it does not marked for png and so does not agree with the subject.  Formation of the infinitive came from (b:73).  Formation of the negative came from (b:142). Here the word for "but" (aanaa) comes before the first sentence.  It is required to be at the beginning of the second sentence. 
+Source: author
+Vetted:f
+Judgment:u
+Phenomena: {crd}
+aanaa naan naDandeen aval naDakkalle
+aanaa naan naDa-nd-een aval naDa-kka-lle
+but I.NOM walk-PST-1sg she  walk-INF-NEG
+'I walked, but she did not walk.'
+
+
+#Example 77 demonstrates a grammatical embedded clause.  -NNu is used to mark that something is embedded.  Usually -NNu is preceded by a complete sentence (b:174)
+Source: author
+Vetted:f
+Judgment:g
+Phenomena:emb-d
+naan naDappeenNNu sonneen
+naan naDa-pp-een-NNu sollu-nn-een
+I.NOM walk-FUT-1sg-EMB say-PAST-1sg
+I said that I would walk.
+
+# Example 78 demonstrates an ungrammatical embedded clause.  "A sentence containing the embedded marker (-NNu) cannot be embeddd with (-NNu) before another finite verb if th the subjects of the two verbs is the same.  Here the subject of the two embedded clauses is "I."
+Source: author
+Vetted:f
+Judgment:u
+Phenomena: emb-d
+naan naDappeen NNu sonneen NNu sonneen.
+naan naDa-pp-een NNu sollu-nn-een NNu sollu-nn-een
+I walk-FUT-1sg QTV say-PAST-1sg QTV say-PAST-1sg.
+'I said that I said that I would come.'
+
+# Example 79 demonstrates a grammatical sentence with two embedded clauses.  As required for sentences of this structure, the subjects of the two embedded clauses are different from each other.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-d
+naan naDappeen NNu sonnaan NNu sonneen
+naan naDa-pp-een NNu sollu-nn-aan NNu sollu-nn-een
+I walk-FUT-1sg QTV say-PAST-3sgm QTV say-PAST-1sg.
+I said that he said that I would walk. 
+
+# Example 80 demonstrates a grammatical setence with an interrogative embedded clause. (b:152-153).  The form of the question does not change.  The only thing that changes is the pronoun concord.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-q
+raaman naan naDappeen NNu keeTTaan
+raaman naan naDa-pp-een NNu keelu-TT-aan
+Raman I.Nom walk-FUT-1sg QTV ask-PAST-3sgm
+Raman asked if I would walk.
+
+
+#Ex 81 demonstrates the proximate demonstrative determiner "inda"(b:125,a:139).
+Source:author 
+Vetted:f
+Judgment: g
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga inda naaye paattanga
+tiruDa-nga inda naay-e paaru-tt-aanga
+thief.NOM-pl this dog-ACC see-past-3pl
+'Thieves saw this dog.'
+
+
+#Ex 82 demonstrates the distant(relative to the speaker) demonstrative determiner "anda"(b:125,a:139).
+Source:author 
+Vetted:f
+Judgment: g
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga anda naaye paattanga
+tiruDa-nga anda naay-e paaru-tt-aanga
+thief.NOM-pl that dog-ACC see-past-3pl
+'Thieves saw that dog.'
+
+#Ex 83 demonstrates and ungrammatical use of the proximate demonstrative determiner "inda"(b:125,a:139). Here :inda" comes after the noun.  It should come before.
+Source:author 
+Vetted:f
+Judgment: u
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga naaye inda paattanga
+tiruDa-nga naay-e inda paaru-tt-aanga
+thief.NOM-pl dog-ACC this see-past-3pl
+'Thieves saw this dog.'
+
+#Ex 84 demonstrates and ungrammatical use of the demonstrative determiner "anda"(b:125,a:139).  Here "anda" comes after the noun.  It should come before.
+Source:author 
+Vetted:f
+Judgment: u
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga naaye anda paattanga
+tiruDa-nga naay-e anda paaru-tt-aanga
+thief.NOM-pl dog-ACC that see-past-3pl
+'Thieves saw that dog.'
+
+#Ex 85 demonstrates the ungrammatical use of the proximate demonstrative determiner "inda" without the required noun (b:125,a:139).
+Source:author 
+Vetted:f
+Judgment: u
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga inda paattanga
+tiruDa-nga inda paaru-tt-aanga
+thief.NOM-pl this see-past-3pl
+'Thieves saw this.'
+
+#Ex 86 demonstrates the indefinite marker oNNu which, unlike the other determiners, comes after the noun(a:140).
+Source:author 
+Vetted:f
+Judgment: g
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga naaye oNNu paattanga
+tiruDa-nga naay-e oNNu paaru-tt-aanga
+thief.NOM-pl dog-ACC a see-past-3pl
+'Thieves saw a dog.'
+
+#Ex 87 demonstrates an ungrammatical use of the indefinite marker oNNu which, unlike the other determiners, comes after the noun(a:140). Here oNNu occurs before the noun.
+Source:author 
+Vetted:f
+Judgment: u
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga oNNu  naaye  paattanga
+tiruDa-nga oNNu naay-e paaru-tt-aanga
+thief.NOM-pl a dog-ACC  see-past-3pl
+'Thieves saw a dog.'
+
+
+#Example 88 demonstrates a grammatical use of an attributive adjective.  
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+tiruDanga periya naaye  paattanga
+tiruDa-nga periya naay-e paaru-tt-aanga
+thief.NOM-pl big dog-ACC  see-past-3pl
+'Thieves saw a big dog.'
+
+#Example 89 demonstrates an ungrammatical use of an attributive adjective. Here the adjective comes after the noun.  It should come before.  
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+tiruDanga  naaye periya paattanga
+tiruDa-nga naay-e periya paaru-tt-aanga
+thief.NOM-pl big dog-ACC  see-past-3pl
+'Thieves saw a big dog.'
+
+# Example 90 demonstrates a copular sentence without the optional be-copula "iru."(a:49)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+avaru DakTar
+avaru DakTar
+He.POL doctor
+He is a doctor.
+
+# Example 91 demonstrates a copular sentence with the optional be-copula "iru."The copula tends to be used more in the past tense and for contrastive purposes the present tense.  For example, he used to be a director.  Now, he is a doctor.(a:50).  When the copula "iru" is used, the complement must cary an adverbial marker (-aa)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+avaru irukkaraaru DakTaraa
+avaru iru-kkr-aaru DakTar-aa
+He.POL be-PRES-3msg.POL doctor-ADVL
+He is a doctor.
+
+#Example 92 demonstrates a grammatical copular sentence with a masculine subject that uses a nominal form derived from an adjective as the predicate.  Pure adjectives cannot appear as the predicate of a copular sentence.  They must be nominalized first. (a:50)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+raaman nallavan
+raaman nalla-avan
+Raman good-sm
+Raman is a good person
+
+
+#Example 93 demonstrates a grammatical copular sentence with a feminine subject that uses a nominal form derived from an adjective as the predicate.  Pure adjectives cannot appear as the predicate of a copular sentence.  They must be nominalized first. (a:50)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+lakshmi nallava
+lakshmi nalla-ava
+Lakshmi good-sm
+'Lakshmi is a good person.'
+
+
+#Example 94 demonstrates an ungrammatical copular sentence that uses an adjective as a predicate.  Pure adjectives cannot appear as the predicate of a copular sentence.  They must be nominalized first. (a:50)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+raaman nalla
+raaman nalla
+Raman good
+'Raman is good.'
+
+#Example 95 demonstrates an ungrammatical copular sentence with a feminine subject that uses an adjective as a predicate.  Pure adjectives cannot appear as the predicate of a copular sentence.  They must be nominalized first. (a:50)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+lakshmi nalla
+lakshmi nalla
+Lakshmi good
+'Lakshmi is good.'
+
+#Example 96 demonstrates a grammatical copular sentence with a neuter subject that uses a nominal form derived from an adjective as the predicate.  Pure adjectives cannot appear as the predicate of a copular sentence.  They must be nominalized first. (a:50)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+inda paTam nalladu
+inda paTam nalla-adu
+this picture good-sn
+This film is good.
+
+# Example 97 demonstrates an ungrammatical copular sentence with the optional be-copula "iru."(a:50).  When the copula "iru" is used, the complement must cary an adverbial marker (-aa).  Here (-aa) is missing
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+avaru irukkaraaru DakTar
+avaru iru-kkr-aaru DakTar
+He.POL be-PRES-3msg.POL doctor
+He is a doctor.
+
+# Example 98 deomonstrates a grammatical copular sentence without the optional be-copula "iru" that uses an NP in the locative case as the predicate.  The locative case is marked on inanimate nouns as (-le) and on animate nouns as (-kiTTe).(puune from a:141)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+puune marattule
+puune maram-le
+cat tree-LOC
+The cat is in the tree.
+
+
+# Example 99  deomonstrates a grammatical copular sentence without the optional be-copula "iru" that uses an NP in the locative case as the predicate.  The locative case is marked on inanimate nouns as (-le) and on animate nouns as (-kiTTe).(puune from a:141).  This example has marked word order.  The unmarked order is subject then locative predicate. 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+marattule
+maram-le puune 
+tre-LOC cat
+The cat is in the tree.
+
+# Example 100 deomonstrates a grammatical copular sentence without the optional be-copula "iru" that uses an NP in the locative case as the predicate.  The locative case is marked on inanimate nouns as (-le) and on animate nouns as (-kiTTe).(puune from a:141)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+puune marattule irukkudu
+puune maram-le
+cat tree-LOC iru-kkr-adu
+The cat is in the tree.
+
+# Example 101 deomonstrates an  ungrammatical copular sentence with the optional be-copula "iru" that uses an NP in the locative case as the predicate.  The locative case is marked on inanimate nouns as (-le) and on animate nouns as (-kiTTe).(puune from a:141).  Here the locative case marker is omitted.
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+puune maram irukkudu
+puune maram iru-kkr-adu
+cat tree be-PReS-3sn
+The cat is in the tree.
+
+#Example 102 demonstrates a grammatical use of an attributive adjective formed from a noun.  
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+naan aRahaana naaye paatteen
+naan aRahu-aana naay-e paaru-tt-een
+I beauty-ADJ dog-ACC see-PAST-1sg
+I saw a beautiful dog.
+
+
+#Example 103 demonstrates an grammatical use of an attributive adjective formed from a noun. In this example, the suffix to form an adjective is missing 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+naan aRahu naaye paatteen
+naan aRahu naay-e paaru-tt-een
+I beauty dog-ACC see-PAST-1sg
+I saw a beautiful dog.
+
+#Example 104 demonstrates an ungrammatical use of an attributive adjective formed from a noun. Here the adjective is placed after the noun.  
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+naan naaye aRahaana paatteen
+naan naay-e aRahu-aana paaru-tt-een
+I  dog-ACC beauty-ADJsee-PAST-1sg
+I saw a beautiful dog.
+
+
+#Example 105 demonstrates a grammatical use of a noun (that could be turned into an adjective) as a predicate in a copular sentence without the optional copula "iru"
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj,cop
+naay aRahu 
+naay aRahu
+dog beauty
+The dog is beautiful.
+
+
+#Example 106 demonstrates an ungrammatical use of an attributive adjective formed from a noun. Here the adjective is used in a copular sentence.  
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+naay aRahaana 
+naay aRahu-aana
+dog beauty-ADJ
+The dog is beautiful.
+
+#Example 107 demonstrates a grammatical use of an attributive adjective formed from a noun. Here the adjective is nominalized before it is used as a predicate in a copular sentence. 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop,adj
+naay aRahaanadu 
+naay aRahu-aana-adu
+dog beauty-ADJ-sn
+The dog is beautiful.
+
+#Example 108 demonstrates a grammatical use of an adverb derived from a noun.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adv
+naan veekamaa naDandeen
+naan veekam-aa naDa-nd-een
+I.NOM speed-ADV walk-PAST-1sg
+I walked quickly. 
+
+#Example 109 demonstrates an ungrammatical use of an noun as and adverb without the suffix (-aa).
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+naan veekam naDandeen
+naan veekam naDa-nd-een
+I.NOM speed walk-PAST-1sg
+I walked quickly. 
+
+#Example 110 demonstrates a grammatical use of a simple underived adverb.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adv
+naan molla naDandeen
+naan molla naDa-nd-een
+I.NOM slowly walk-PAST-1sg
+I walked slowly. 
+
+#Example 111 demonstrates an ungrammatical use of an simple adverb that (incorrectly) has an adverial derivatiomal suffix attached.
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+naan mollaaa naDandeen
+naan molla-aa naDa-nd-een
+I.NOM slowly-ADV walk-PAST-1sg
+I walked slowly. 
+
+#Example 112 demonstrates subject dropping of an intransitive verb.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+naDandeen
+naDa-nd-een
+walk-PAST-1sg
+(I) walked.
+
+#Example 113 demonstrates subject dropping of a transitive verb.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+naaye paatteen 
+naay-e paaru-tt-een
+dog-ACC see-PAST 1sg
+I saw the dog.
+
+#Example 114 demonstrates direct object dropping of a transitive verb.  In this case the dropped information must be recoverable from context (a:54)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+naan paatteen 
+naan paaru-tt-een
+I see-PAST-1sg
+'He saw the dog.'
+
+#Example 115 demonstrates subject and direct object dropping of a transitive verb. In this case the dropped information must be recoverable from the context(a:54)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+paatteen 
+paaru-tt-een
+see-PAST-1sg
+(I) saw (it)
+
+#Example 116 demonstrates a modal auxiliary
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: m
+naan naDakka muDiyum
+naan naDa-kka muDiyum
+I walk-INF ABIL
+I can walk.
+
+#Example 117 demonstrates an ungrammatical example of a modal verb.  Modals combine with the infinitive of the main verb.  Some modals are separate words.  Others are suffixes.  Modals are unmarked for tense or person, number, gender.  Here a stand alone modal is used incorrectly as a suffix.
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+naan naDakkamuDiyum
+naan naDa-kka-muDiyum
+I walk-INF-ABIL
+I can walk.
+
+
+#Example 118 demonstrates an ungrammatical use of a modal auxiliary  Modals combine with the infinitive of the main verb.  Some modals are separate words.  Others are suffixes.  Modals are unmarked for tense or person, number, gender. Here a modal is combined with a verb that has a future tense marker.
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+naan naDapp muDiyum
+naan naDa-nd muDiyum
+I walk-PAST-ABIL
+I can walk.
+
+#Example 119 demonstrates an ungrammatical use of a modal auxiliary  Modals combine with the infinitive of the main verb.  Some modals are separate words.  Others are suffixes.  Modals are unmarked for tense or person, number, gender. Here a modal is combined with a verb that has a future tense marker and a person, number, gender marker.
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+naan naDappeen muDiyum
+naan naDa-nd-een muDiyum
+I walk-PAST-1sg ABIL
+I can walk.
+
+#Example 120 demonstrates a negative modal auxilliary.  Modals combine with the infinitive of the main verb.  Some modals are separate words.  Others are suffixes.  Modals are unmarked for tense or person, number, gender. 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+naan naDakka muDiyaadu
+naan naDakka muDiyaadu
+I walk-INF ABIL.NEG
+I cannot walk.
+
+#Example 121 demonstrates a grammatical use of the adjectival participle(AJT).  The AJT is formed by removing the png-marker from a present or past tense verb and then adding the suffix "-a."  AJTs appear before the noun that they modify. Modified from (b:128).
+Source: auhtor
+Vetted: f
+Judgment: g
+Phenomena: adj
+naan vaanguna paNam paatteen
+naan vaangu-in-a paNam paaru-tt-een
+I buy-PAST-ADJ money see-PAST-1sg
+I saw the money that was taken(borrowed).
+
+
+#Example 122 demonstrates an ungrammatical use of the adjectival participle(AJT).  The AJT is formed by removing the png-marker from a present or past tense verb and then adding the suffix "-a."  AJTs appear before the noun that they modify. Modified from (b:128). Here the AJT is formed with the future tense. 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena:adj
+naan vaanguna paNam paatteen
+naan vaangu-v-a paNam paaru-tt-een
+I buy-FUT-ADJ money see-PAST-1sg
+I saw the money that was taken(borrowed).
+
+
+#Example 123 demonstrates an ungrammatical use of the adjectival participle(AJT).  The AJT is formed by removing the png-marker from a present or past tense verb and then adding the suffix "-a."  AJTs appear before the noun that they modify. Modified from (b:128). Here the AJT is formed with the future tense. 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+naan vaanguva paNam paatteen
+naan vaangu-v-a paNam paaru-tt-een
+I buy-FUT-ADJ money see-PAST-1sg
+I saw the money that was taken(borrowed).
+
+#Example 124 demonstrates an ungrammatical use of the adjectival participle(AJT).  The AJT is formed by removing the png-marker from a present or past tense verb and then adding the suffix "-a."  AJTs appear before the noun that they modify. Modified from (b:128). Here the AJT comes (incorrectly) after the noun. 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+naan paNam vaanguna paatteen
+naan paNam vaangu-in-a paaru-tt-een
+I money buy-PAST-ADJ see-PAST-1sg
+I saw the money that was taken(borrowed).
+

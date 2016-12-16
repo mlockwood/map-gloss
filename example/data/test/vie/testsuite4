@@ -1,0 +1,788 @@
+﻿Language: Vietnamese
+Language code: vie
+Author: Sanghoun Song and Jeffrey Shu
+Date: January 29, 2010
+Source a: Thompson:65
+Source b: Nguyyenm:97
+Source c: Nguyễn 1975
+Source d: Vietnamese Online Grammar Project
+
+#71 The question is constructed as a positive-negative choice ("sleep or not sleep")
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {q}
+Mai có ngủ không ngủ
+Mai có ngủ không ngủ
+Mai be sleep NEG sleep
+"Does Mai sleep (or not sleep)?
+
+#72 The second instance of the verb in the positive-negative construction can be omitted ("sleep or not")
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {q}
+Mai có ngủ không
+Mai có ngủ không
+Mai be sleep NEG
+"Does Mai sleep (or not)?"
+
+#73 Stative verbs can also be constructed as such
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {q}
+Mai có cao không
+Mai có cao không
+Mai be tall NEG
+"Is Mai tall (or not)?"
+
+#74 The "be" auxiliary verb can be optionally omitted
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {q}
+Mai ngủ không
+Mai ngủ không
+Mai sleep NEG
+"Does Mai sleep (or not)?"
+
+#75 In this construction the negative morpheme should follow, not precede the verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+Mai có không ngủ
+Mai có không ngủ
+Mai be NEG sleep
+*"Does Mai sleep (or not)?"
+
+#76 The "be" verb should not follow the main verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+Mai ngủ có không
+Mai ngủ có không
+Mai sleep be NEG
+*"Does Mai sleep (or not)?"
+
+#77 The "be" auxiliary does not occur after the verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+Mai không ngủ có
+Mai không ngủ có
+Mai NEG sleep be
+*"Does Mai sleep (or not)?"
+
+#78 The "be" verb should not precede the subject
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+có Mai ngủ không
+có Mai ngủ không
+be Mai sleep NEG
+*"Does Mai sleep (or not)"
+
+#79 Two negative markers are not used
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+Mai có không ngủ không
+Mai có không ngủ không
+Mai be NEG sleep NEG
+*"Does Mai sleep (or not)"
+
+#80 There is a sentence final particle that indicates a desire for confirmation, similar to a tag question in English.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {q}
+Mai ngủ chứ?
+Mai ngủ chứ?
+Mai sleep TAG.affirmation
+"Mai sleeps, doesn't she?"
+
+#81 This is a sentence final particle and does not occur elsewhere
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+Mai chứ ngủ
+Mai chứ ngủ
+Mai TAG.affirmation sleep
+"Mai sleeps, doesn't she?"
+
+#82 This is a sentence final particle and does not occur elsewhere
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+chứ Mai ngủ
+chứ Mai ngủ
+TAG.affirmation Mai sleep
+"Mai sleeps, doesn't she?"
+
+#83 The "tag particle" can occur with the negative morpheme
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {q}
+Mai không ngủ chứ
+Mai không ngủ chứ
+Mai NEG sleep TAG.affirmation
+"Does Mai not sleep?"
+
+#84 This is a sentence final particle and does not occur elsewhere
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+Mai không chứ ngủ
+Mai không chứ ngủ
+Mai NEG TAG.affirmation sleep
+*"Does Mai not sleep?"
+
+#85 This is a sentence final particle and does not occur elsewhere
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+Mai chứ không ngủ
+Mai chứ không ngủ
+Mai TAG.affirmation NEG sleep
+*"Does Mai not sleep?"
+
+#86 This is a sentence final particle and does not occur elsewhere
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+chứ Mai không ngủ
+chứ Mai không ngủ
+affirmation Mai NEG sleep
+*"Does Mai not sleep?"
+
+#87 The negative marker (indicating an "or not" question) and chứ cannot both occur after the verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+Mai ngủ không chứ
+Mai ngủ không chứ
+Mai sleep NEG TAG.affirmation
+*"Does Mai not sleep?"
+
+#88 The negative marker (indicating an "or not" question) and chứ cannot both occur after the verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+Mai ngủ chứ không
+Mai ngủ chứ không
+Mai sleep TAG.affirmation NEG
+*"Does Mai not sleep?"
+
+#89 Two verb phrases can be coordinated with an explicit conjunction
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination}
+tôi ăn phở và đọc sách
+tôi ăn phở và đọc sách
+1SG eat noodles and read book
+"I eat noodles and read books."
+
+#90 Two verb phrases can be coordinated without an explicit conjunction
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination}
+tôi ăn phở đọc sách
+tôi ăn phở đọc sách
+1SG eat noodles read book
+"I eat noodles and read books."
+
+#91 Three verb phrases can be coordinated with an explicit conjunction before the final coordinand
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination}
+tôi rửa mặt ăn phở và đọc sách
+tôi rửa mặt ăn phở và đọc sách
+1SG wash face eat noodles and read book
+"I wash my face, eat noodles, and read books."
+
+#92 The conjunction can occur between all coordinands
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination}
+tôi rửa mặt và ăn phở và đọc sách
+tôi rửa mặt và ăn phở và đọc sách
+1SG wash face and eat noodle and read book
+"I wash my face, eat noodles, and read books."
+
+#93 Three verb phrases can be coordinated without an explicit conjunction
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination}
+tôi rửa mặt ăn phở đọc sách
+tôi rửa mặt ăn phở đọc sách
+1SG wash face eat noodles read book
+"I wash my face, eat noodles, and read books."
+
+#94 Noun phrases can be coordinated with an explicit conjunction
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination}
+tôi ăn phở và bánh mì
+tôi ăn phở và bánh#mì
+1SG eat noodles and bread
+"I eat noodles and bread"
+
+#95 Noun phrase objects of a verb can be coordinated without an explicit conjunction
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination}
+tôi ăn phở bánh mì
+tôi ăn phở bánh#mì
+1SG eat noodles bread
+"I eat noodles and bread"
+
+#96 Non-equivalent constituents (such as a verb and noun) cannot be coordinated
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {coordination}
+tôi ngủ và bánh mì
+tôi ngủ và bánh#mì
+1SG sleep and bread
+*"I sleep and bread"
+
+#97 Conjunctions occur between coordinands, not outside
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {coordination}
+tôi ăn và phở bánh mì
+tôi ăn và phở bánh#mì
+1SG eat and noodles bread
+*"I eat noodles and bread"
+
+#98 Sentences can be coordinated
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination}
+Mai ngủ và tôi ăn phở
+Mai ngủ và tôi ăn phở
+Mai sleep and 1SG eat noodles
+"Mai sleeps, and I eat noodles"
+
+#99 Presumably the non-explicit conjunction for lower level constituents applies to sentences as well
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination}
+Mai ngủ tôi ăn phở
+Mai ngủ tôi ăn phở
+Mai sleep 1SG eat noodles
+"Mai sleeps, and I eat noodles"
+
+#100 Conjunctions occur between coordinands, not outside
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {coordination}
+và Mai ngủ tôi ăn phở
+và Mai ngủ tôi ăn phở
+and Mai sleep 1SG eat noodles
+*"Mai sleeps, and I eat noodles"
+
+#101 Conjunctions occur between coordinands, not outside
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {coordination}
+Mai ngủ tôi ăn phở và
+Mai ngủ tôi ăn phở và
+Mai sleep 1SG eat noodles and
+*"Mai sleeps and I eat noodles"
+
+#102 Unmodified noun
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adjective}
+tôi thích chó
+tôi thích chó
+1SG like dog
+"I like dogs"
+
+#103 An attributive "adjective" can fill the slot immediately to the right of the noun. In the case of count nouns, a classifier is required
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adjective}
+tôi thích con chó đen
+tôi thích con chó đen
+1SG like CLF.animal dog black
+"I like black dogs"
+
+#104 Attributive modifiers follow the noun, not precede
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adjective}
+tôi thích con đen chó
+tôi thích con đen chó
+1SG like CLF.animal black dog
+*"I like black dogs"
+
+#105 Attributive modifiers follow the noun, not precede
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adjective}
+tôi thích đen con chó
+tôi thích đen con chó
+1SG like black CLF.animal dog
+*"I like black dogs"
+
+#106 A modified count noun with no classifier is not allowed
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adjective}
+tôi thích chó đen
+tôi thích chó đen
+1SG like dog black
+*"I like black dogs"
+
+#107 The demonstratives (and any other noun phrase elements) come after the attributive modifiers
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adjective}
+tôi thích con chó đen này
+tôi thích con chó đen này
+1SG like CLF.animal dog black DEM.PROX
+"I like this black dog"
+
+#108 The slot immediately after nouns is reserved for attributive modifiers. Nothing else can come inbetween them.
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adjective}
+tôi thích con chó này đen
+tôi thích con chó này đen
+1SG like CLF.animal dog DEM.PROX black
+*"I like this black dog"
+
+#109 If the "adjective" occurs on the outside of the demonstrative, and there is no other verb in the sentence, it is the main verb (predicate) of the sentence.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adjective}
+con chó này đen
+con chó này đen
+CLF.animal dog DEM.PROX black
+"This dog is black"
+
+#110 Stative verbs are usually paired with an adverb of degree
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adjective}
+con chó này rất đen
+con chó này rất đen
+CLF.animal dog DEM.PROX very black
+"This dog is very black"
+
+#111 Stative verbs cannot go with manner adverbs
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adjective}
+con chó này đen nhanh chóng
+con chó này đen nhanh chóng
+CLF.animal dog DEM.PROX black quickly
+*"This dog is quickly black"
+
+#112 Basic sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {demonstrative}
+Tôi đọc cuốn sách này
+Tôi đọc cuốn sách này
+1SG read CLF.book book DEM.PROX
+"I read this book."
+
+#113 Indicating that the topic being spoken of is the book
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {info}
+Cuốn sách này thì tôi đọc.
+Cuốn sách này thì tôi đọc.
+CLF.book book this TOP I read
+"This is the book I read"
+
+#114 Indicating that the topic being spoken of is the speaker
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {info}
+tôi thì đọc cuốn sách này
+tôi thì đọc cuốn sách này
+1SG TOP read book DEM.PROX
+"I read this book"
+
+#115 The topic marker should follow the NP it is topicalizing
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {info}
+tôi đọc cuốn sách này thì
+tôi đọc cuốn sách này thì
+1SG read CLF.book book DEM.PROX TOP
+*"I read these books"
+
+#116 The topic marker should follow the NP it is topicalizing
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {info}
+tôi đọc thì cuốn sách này
+tôi đọc thì cuốn sách này
+1SG read TOP CLF.book book DEM.PROX
+*"I read these books"
+
+#117 The topic marker should follow the NP it is topicalizing
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {info}
+thì tôi đọc cuốn sách này
+thì tôi đọc cuốn sách này
+TOP 1SG read CLF.book book DEM.PROX
+*"I read this book"
+
+#118 Focus distinguishes a particular NP
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {info}
+tôi thích cái con chó này
+tôi thích cái con chó này
+1SG like FOC CLF.animal dog DEM.PROX
+"I like this very dog"
+
+#119 Focus does not come inbetween the classifier and its noun
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {info}
+tôi thích con cái chó này
+tôi thích con cái chó này
+1SG like CLF.animal FOC dog DEM.PROX
+*"I like this very dog"
+
+#120Focus occurs entirely outside the NP
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {info}
+tôi thích cái các con chó này
+tôi thích cái các con chó này
+1SG like FOC all CLF.animal dog DEM.PROX
+"I like these very dogs"
+
+#121 The focus marker doesn't occur inside the NP
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {info}
+tôi thích các cái con chó này
+tôi thích các cái con chó này
+1SG like all FOC CLF.animal dog DEM.PROX
+*"I like these very dogs"
+
+#122 Focus can extend over modified nouns
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {info}
+tôi thích cái hai con chó đen này
+tôi thích cái hai con chó đen này
+1SG like FOCUS two CLF.animal black DEM.PROX
+"I like these two very dogs"
+
+#123 Exactly which part is being focused inside the noun phrase can be emphasized by stress
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {info}
+tôi thích cái con chó đen
+tôi thích cái con chó đen
+I like FOC CLF.animal dog black
+"I like the black DOG"
+
+#124 Some adverbs may precede or follow the main (stative) verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adverbs}
+Tôi thật cao
+Tôi thật cao
+1SG really tall
+"I am really tall"
+
+#125 Some adverbs may precede or follow the main (stative) verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adverbs}
+Tôi cao thật
+Tôi cao thật
+1SG tall really
+"I am really tall"
+
+#126 Manner adverbs follow the main verb. Seemingly by default it follows the object of the verb.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adverbs}
+Tôi đọc sách nhanh chóng
+Tôi đọc sách nhanh#chóng
+1SG read book quickly
+"I read books quickly"
+
+#127 Manner adverbs do not precede the main verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adverbs}
+Tôi nhanh chóng đọc sách
+Tôi nhanh#chóng đọc sách
+1SG quickly read book
+*"I read books quickly"
+
+#128 Manner adverbs do not precede the subject as adverbials (such as time) can
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adverbs}
+Nhanh chóng tôi đọc sách
+nhanh#chóng tôi đọc sách
+quickly 1SG read book
+*"I read books quickly"
+
+#129 Adverbs do not seem to be able to appear between the verb and the a bare NP object
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adverbs}
+Tôi đọc nhanh chóng sách
+Tôi đọc nhanh#chóng sách
+1SG read quickly book
+*"I read books quickly"
+
+#130 One of our sources claims that manner adverbs can intervene between a verb and a modified NP object
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adverbs}
+Tôi đọc nhanh chóng sách
+Tôi đọc nhanh#chóng hai cuốn sách
+1SG read quickly two CLF.book book
+"I read two books quickly"
+
+#131 The sentence complement makes use of the complementizer rằng
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-d}
+Tôi nghĩ rằng Mai đã ngủ
+Tôi nghĩ rằng Mai đã ngủ
+1SG think COMP Mai PST sleep
+"I think that Mai slept."
+
+#132 The complementizer is optional, like "that" often is in English
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-d}
+Tôi nghĩ Mai đã ngủ
+Tôi nghĩ Mai đã ngủ
+1SG think Mai PST sleep
+"I think Mai slept."
+
+#133 The same complemetizer can be used for embedded question clauses
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-q}
+Tôi hỏi rằng Mai đã ngủ
+Tôi hỏi rằng Mai đã ngủ
+1SG ask COMP Mai PST sleep
+"I asked whether Mai slept."
+
+#134 A nominal predicate requires the use of the copulà 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+Tôi là gái
+Tôi là gái
+1SG COP girl
+"I am a girl"
+
+#135 A nominal predicate without the copula is ungrammatical
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+tôi gai
+tôi gai
+1SG girl
+*"I am a girl"
+
+#136 The copula applies to proper nouns as well
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+tôi là Mai
+tôi là Mai
+1SG COP Mai
+"I am Mai"
+
+#137 Equivalence is not established just by juxtoposition
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+tôi Mai
+tôi Mai
+1SG Mai
+*"I am Mai"
+
+#138 There do not appear to be "true" adjectives, only stative verbs, so "adjectives" can stand alone as the predicate of the sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+tôi cao
+tôi cao
+1SG tall
+"I am tall"
+
+#139 Usually stative verbs are paired with adverbs of degree.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop, adverb}
+tôi rất cao
+tôi rất cao
+1SG very tall
+"I am very tall"
+
+#140 Adverbs of degree usually only occur before the main verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop, adverb}
+tôi cao rất
+tôi cao rất
+1SG very tall
+*"I am very tall"
+
+#141 These adverbs of degree only occur with stative verbs, not active verbs
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop, adverb}
+tôi rất ngủ
+tôi rất ngủ
+1SG very sleep
+*"I very sleep"
+
+#142 The copula cannot be used with stative verbs
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+tôi là cao
+tôi là cao
+1SG COP tall
+*"I am tall"
+
+#143 Locative predicates cannot occur without some form of locative morpheme (whether a "preposition" or a copula)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+tôi Hà#Nội
+tôi Hà#Nội
+1SG Hanoi
+*"I am in Hanoi"
+
+#144 A special copula with a locative meaning occurs with locatives
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+tôi ở Hà Nội
+tôi ở Hà#Nội
+1SG COP.LOC Hanoi
+"I am in Hanoi"
+
+#145 The locative copula does not occur with the copula là
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+tôi là ở Hà Nội
+tôi là ở Hà#Nội
+1SG COP COP.LOC Hanoi
+*"I am in Hanoi"
+
+#146 In one interpretation this "locative copula" can function similarly to what would be a preposition in English
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+tôi sống ở Hà Nội
+tôi sống ở Hà#Nội
+1SG live COP.LOC Hanoi
+"I live in Hanoi"
+
+#147 Tense is not normally marked for copulas as other verbs are. Time adverbials are typically used instead.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+Hôm qua tôi sống ở Hà Nội
+Hôm#qua tôi ở Hà#Nội
+yesterday 1SG COP.LOC Hanoi
+"Yesterday I was in Hanoi"
+
+#148 Auxiliaries cannot be coordinated
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {auxiliaries, coordination}
+tôi cần cần ngủ
+tôi cần cần ngủ
+1SG need need sleep
+*"I need to sleep"

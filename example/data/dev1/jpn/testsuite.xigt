@@ -1,0 +1,1770 @@
+<xigt-corpus xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <igt id="igt1" doc-id="lgcol:jpn" line-range="1-3" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="1" tag="M">  author vetted: f</item>
+      <item id="r2" line="2" tag="L">  Nanji ga   miru</item>
+      <item id="r3" line="3" tag="G">  you   NOM  see</item>
+      <item id="r4" line="4" tag="T">  `You see (it).'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="1" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="2" tag="L">  Nanji ga   miru</item>
+      <item id="c3" alignment="r3" line="3" tag="G">  you   NOM  see</item>
+      <item id="c4" alignment="r4" line="4" tag="T">  `You see (it).'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="1" tag="M">f</item>
+      <item id="n2" alignment="c2" line="2" tag="L">Nanji ga   miru</item>
+      <item id="n3" alignment="c3" line="3" tag="G">you   NOM  see</item>
+      <item id="n4" alignment="c4" line="4" tag="T">You see (it).</item>
+    </tier>
+  </igt>
+  <igt id="igt2" doc-id="lgcol:jpn" line-range="9-11" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="9" tag="M">  author vetted: f</item>
+      <item id="r2" line="10" tag="L">  Nanji  ga   ware wo   miru</item>
+      <item id="r3" line="11" tag="G">  you    NOM  me    ACC  see</item>
+      <item id="r4" line="12" tag="T">  `You see me.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="9" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="10" tag="L">  Nanji  ga   ware wo   miru</item>
+      <item id="c3" alignment="r3" line="11" tag="G">  you    NOM  me    ACC  see</item>
+      <item id="c4" alignment="r4" line="12" tag="T">  `You see me.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="9" tag="M">f</item>
+      <item id="n2" alignment="c2" line="10" tag="L">Nanji  ga   ware wo   miru</item>
+      <item id="n3" alignment="c3" line="11" tag="G">you    NOM  me    ACC  see</item>
+      <item id="n4" alignment="c4" line="12" tag="T">You see me.</item>
+    </tier>
+  </igt>
+  <igt id="igt3" doc-id="lgcol:jpn" line-range="33-35" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="33" tag="M">  author vetted: f</item>
+      <item id="r2" line="34" tag="L">  Nanji  ga   miru</item>
+      <item id="r3" line="35" tag="G">  you    NOM  see</item>
+      <item id="r4" line="36" tag="T">  `You see (it).'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="33" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="34" tag="L">  Nanji  ga   miru</item>
+      <item id="c3" alignment="r3" line="35" tag="G">  you    NOM  see</item>
+      <item id="c4" alignment="r4" line="36" tag="T">  `You see (it).'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="33" tag="M">f</item>
+      <item id="n2" alignment="c2" line="34" tag="L">Nanji  ga   miru</item>
+      <item id="n3" alignment="c3" line="35" tag="G">you    NOM  see</item>
+      <item id="n4" alignment="c4" line="36" tag="T">You see (it).</item>
+    </tier>
+  </igt>
+  <igt id="igt4" doc-id="lgcol:jpn" line-range="41-43" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="41" tag="M">  author vetted: f</item>
+      <item id="r2" line="42" tag="L">  Ware  ga   nanji   wo   miru</item>
+      <item id="r3" line="43" tag="G">  I     NOM  you    ACC  see</item>
+      <item id="r4" line="44" tag="T">  `I see you.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="41" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="42" tag="L">  Ware  ga   nanji   wo   miru</item>
+      <item id="c3" alignment="r3" line="43" tag="G">  I     NOM  you    ACC  see</item>
+      <item id="c4" alignment="r4" line="44" tag="T">  `I see you.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="41" tag="M">f</item>
+      <item id="n2" alignment="c2" line="42" tag="L">Ware  ga   nanji   wo   miru</item>
+      <item id="n3" alignment="c3" line="43" tag="G">I     NOM  you    ACC  see</item>
+      <item id="n4" alignment="c4" line="44" tag="T">I see you.</item>
+    </tier>
+  </igt>
+  <igt id="igt5" doc-id="lgcol:jpn" line-range="53-55" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="53" tag="M">  author vetted: f</item>
+      <item id="r2" line="54" tag="L">  mesi mo  sushi mo  wo  ware  ga  taberu</item>
+      <item id="r3" line="55" tag="G">  rice  and sushi and ACC I     NOM eat</item>
+      <item id="r4" line="56" tag="T">  `I eat rice and sushi.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="53" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="54" tag="L">  mesi mo  sushi mo  wo  ware  ga  taberu</item>
+      <item id="c3" alignment="r3" line="55" tag="G">  rice  and sushi and ACC I     NOM eat</item>
+      <item id="c4" alignment="r4" line="56" tag="T">  `I eat rice and sushi.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="53" tag="M">f</item>
+      <item id="n2" alignment="c2" line="54" tag="L">mesi mo  sushi mo  wo  ware  ga  taberu</item>
+      <item id="n3" alignment="c3" line="55" tag="G">rice  and sushi and ACC I     NOM eat</item>
+      <item id="n4" alignment="c4" line="56" tag="T">I eat rice and sushi.</item>
+    </tier>
+  </igt>
+  <igt id="igt6" doc-id="lgcol:jpn" line-range="61-63" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="61" tag="M">  author vetted: f</item>
+      <item id="r2" line="62" tag="L">  ware  ga   mesi  wo   eat    ni  ware  ga   sushi  wo   taberu</item>
+      <item id="r3" line="63" tag="G">  I     NOM  rice   ACC  eat  and  I     NOM  sushi  ACC  eat</item>
+      <item id="r4" line="64" tag="T">  `I eat rice and I eat sushi.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="61" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="62" tag="L">  ware  ga   mesi  wo   eat    ni  ware  ga   sushi  wo   taberu</item>
+      <item id="c3" alignment="r3" line="63" tag="G">  I     NOM  rice   ACC  eat  and  I     NOM  sushi  ACC  eat</item>
+      <item id="c4" alignment="r4" line="64" tag="T">  `I eat rice and I eat sushi.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="61" tag="M">f</item>
+      <item id="n2" alignment="c2" line="62" tag="L">ware  ga   mesi  wo   eat    ni  ware  ga   sushi  wo   taberu</item>
+      <item id="n3" alignment="c3" line="63" tag="G">I     NOM  rice   ACC  eat  and  I     NOM  sushi  ACC  eat</item>
+      <item id="n4" alignment="c4" line="64" tag="T">I eat rice and I eat sushi.</item>
+    </tier>
+  </igt>
+  <igt id="igt7" doc-id="lgcol:jpn" line-range="73-75" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="73" tag="M">  a vetted: t</item>
+      <item id="r2" line="74" tag="L">  wotoko  ga    ari  keri</item>
+      <item id="r3" line="75" tag="G">  man     nom   is   HEARSAY.PAST</item>
+      <item id="r4" line="76" tag="T">  `(It is said) there was a man.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="73" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="74" tag="L">  wotoko  ga    ari  keri</item>
+      <item id="c3" alignment="r3" line="75" tag="G">  man     nom   is   HEARSAY.PAST</item>
+      <item id="c4" alignment="r4" line="76" tag="T">  `(It is said) there was a man.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="73" tag="M">t</item>
+      <item id="n2" alignment="c2" line="74" tag="L">wotoko  ga    ari  keri</item>
+      <item id="n3" alignment="c3" line="75" tag="G">man     nom   is   HEARSAY.PAST</item>
+      <item id="n4" alignment="c4" line="76" tag="T">(It is said) there was a man.</item>
+    </tier>
+  </igt>
+  <igt id="igt8" doc-id="lgcol:jpn" line-range="81-83" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="81" tag="M">  author vetted: t</item>
+      <item id="r2" line="82" tag="L">  wotoko  ga  ari    ki</item>
+      <item id="r3" line="83" tag="G">  man    NOM  is     PERSONAL.PAST</item>
+      <item id="r4" line="84" tag="T">  `There was a man (and I knew him).'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="81" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="82" tag="L">  wotoko  ga  ari    ki</item>
+      <item id="c3" alignment="r3" line="83" tag="G">  man    NOM  is     PERSONAL.PAST</item>
+      <item id="c4" alignment="r4" line="84" tag="T">  `There was a man (and I knew him).'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="81" tag="M">t</item>
+      <item id="n2" alignment="c2" line="82" tag="L">wotoko  ga  ari    ki</item>
+      <item id="n3" alignment="c3" line="83" tag="G">man    NOM  is     PERSONAL.PAST</item>
+      <item id="n4" alignment="c4" line="84" tag="T">There was a man (and I knew him).</item>
+    </tier>
+  </igt>
+  <igt id="igt9" doc-id="lgcol:jpn" line-range="89-91" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="89" tag="M">  a vetted: t</item>
+      <item id="r2" line="90" tag="L">  hito    ya   aru</item>
+      <item id="r3" line="91" tag="G">  person  ?    is    </item>
+      <item id="r4" line="92" tag="T">  `Is there anyone here?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="89" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="90" tag="L">  hito    ya   aru</item>
+      <item id="c3" alignment="r3" line="91" tag="G">  person  ?    is    </item>
+      <item id="c4" alignment="r4" line="92" tag="T">  `Is there anyone here?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="89" tag="M">t</item>
+      <item id="n2" alignment="c2" line="90" tag="L">hito    ya   aru</item>
+      <item id="n3" alignment="c3" line="91" tag="G">person  ?    is</item>
+      <item id="n4" alignment="c4" line="92" tag="T">Is there anyone here?</item>
+    </tier>
+  </igt>
+  <igt id="igt10" doc-id="lgcol:jpn" line-range="101-103" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="101" tag="M">  author vetted: f</item>
+      <item id="r2" line="102" tag="L">  ware  ga  mesi   wo   tabe   zu</item>
+      <item id="r3" line="103" tag="G">  I     NOM rice   ACC  eat   NEG</item>
+      <item id="r4" line="104" tag="T">  `I don't eat rice.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="101" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="102" tag="L">  ware  ga  mesi   wo   tabe   zu</item>
+      <item id="c3" alignment="r3" line="103" tag="G">  I     NOM rice   ACC  eat   NEG</item>
+      <item id="c4" alignment="r4" line="104" tag="T">  `I don't eat rice.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="101" tag="M">f</item>
+      <item id="n2" alignment="c2" line="102" tag="L">ware  ga  mesi   wo   tabe   zu</item>
+      <item id="n3" alignment="c3" line="103" tag="G">I     NOM rice   ACC  eat   NEG</item>
+      <item id="n4" alignment="c4" line="104" tag="T">I don't eat rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt11" doc-id="lgcol:jpn" line-range="117-119" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="117" tag="M">  author vetted: f</item>
+      <item id="r2" line="118" tag="L">  ware  ga    mesi    wo    tabu</item>
+      <item id="r3" line="119" tag="G">  I     NOM   rice    ACC    eat.PRESENT</item>
+      <item id="r4" line="120" tag="T">  `I eat rice.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="117" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="118" tag="L">  ware  ga    mesi    wo    tabu</item>
+      <item id="c3" alignment="r3" line="119" tag="G">  I     NOM   rice    ACC    eat.PRESENT</item>
+      <item id="c4" alignment="r4" line="120" tag="T">  `I eat rice.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="117" tag="M">f</item>
+      <item id="n2" alignment="c2" line="118" tag="L">ware  ga    mesi    wo    tabu</item>
+      <item id="n3" alignment="c3" line="119" tag="G">I     NOM   rice    ACC    eat.PRESENT</item>
+      <item id="n4" alignment="c4" line="120" tag="T">I eat rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt12" doc-id="lgcol:jpn" line-range="125-127" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="125" tag="M">  author vetted: f</item>
+      <item id="r2" line="126" tag="L">  ware  ga    mesi    wo    tabe        ma</item>
+      <item id="r3" line="127" tag="G">  I     NOM   rice    ACC   eat        FUTURE</item>
+      <item id="r4" line="128" tag="T">  `I will eat rice.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="125" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="126" tag="L">  ware  ga    mesi    wo    tabe        ma</item>
+      <item id="c3" alignment="r3" line="127" tag="G">  I     NOM   rice    ACC   eat        FUTURE</item>
+      <item id="c4" alignment="r4" line="128" tag="T">  `I will eat rice.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="125" tag="M">f</item>
+      <item id="n2" alignment="c2" line="126" tag="L">ware  ga    mesi    wo    tabe        ma</item>
+      <item id="n3" alignment="c3" line="127" tag="G">I     NOM   rice    ACC   eat        FUTURE</item>
+      <item id="n4" alignment="c4" line="128" tag="T">I will eat rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt13" doc-id="lgcol:jpn" line-range="133-135" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="133" tag="M">  author vetted: f</item>
+      <item id="r2" line="134" tag="L">  ware  ga    mesi    wo    tabe  ri</item>
+      <item id="r3" line="135" tag="G">  I     NOM   rice    ACC    eat  CONTINUATIVE</item>
+      <item id="r4" line="136" tag="T">  `I am eating rice.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="133" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="134" tag="L">  ware  ga    mesi    wo    tabe  ri</item>
+      <item id="c3" alignment="r3" line="135" tag="G">  I     NOM   rice    ACC    eat  CONTINUATIVE</item>
+      <item id="c4" alignment="r4" line="136" tag="T">  `I am eating rice.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="133" tag="M">f</item>
+      <item id="n2" alignment="c2" line="134" tag="L">ware  ga    mesi    wo    tabe  ri</item>
+      <item id="n3" alignment="c3" line="135" tag="G">I     NOM   rice    ACC    eat  CONTINUATIVE</item>
+      <item id="n4" alignment="c4" line="136" tag="T">I am eating rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt14" doc-id="lgcol:jpn" line-range="145-147" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="145" tag="M">  author vetted: f</item>
+      <item id="r2" line="146" tag="L">  ware  ga    mesi    wo    tabe   tari</item>
+      <item id="r3" line="147" tag="G">  I     NOM   rice    ACC    eat   RESULTATIVE</item>
+      <item id="r4" line="148" tag="T">  `I had been eating rice.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="145" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="146" tag="L">  ware  ga    mesi    wo    tabe   tari</item>
+      <item id="c3" alignment="r3" line="147" tag="G">  I     NOM   rice    ACC    eat   RESULTATIVE</item>
+      <item id="c4" alignment="r4" line="148" tag="T">  `I had been eating rice.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="145" tag="M">f</item>
+      <item id="n2" alignment="c2" line="146" tag="L">ware  ga    mesi    wo    tabe   tari</item>
+      <item id="n3" alignment="c3" line="147" tag="G">I     NOM   rice    ACC    eat   RESULTATIVE</item>
+      <item id="n4" alignment="c4" line="148" tag="T">I had been eating rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt15" doc-id="lgcol:jpn" line-range="157-159" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="157" tag="M">  author vetted: f</item>
+      <item id="r2" line="158" tag="L">  kono       mesi    wo    ware  ga    eat.PRES</item>
+      <item id="r3" line="159" tag="G">  that.DEM   rice    ACC   I     NOM   eat</item>
+      <item id="r4" line="160" tag="T">  `I eat that rice.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="157" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="158" tag="L">  kono       mesi    wo    ware  ga    eat.PRES</item>
+      <item id="c3" alignment="r3" line="159" tag="G">  that.DEM   rice    ACC   I     NOM   eat</item>
+      <item id="c4" alignment="r4" line="160" tag="T">  `I eat that rice.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="157" tag="M">f</item>
+      <item id="n2" alignment="c2" line="158" tag="L">kono       mesi    wo    ware  ga    eat.PRES</item>
+      <item id="n3" alignment="c3" line="159" tag="G">that.DEM   rice    ACC   I     NOM   eat</item>
+      <item id="n4" alignment="c4" line="160" tag="T">I eat that rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt16" doc-id="lgcol:jpn" line-range="165-167" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="165" tag="M">  author vetted: f</item>
+      <item id="r2" line="166" tag="L">  mesi    wo  kono      ware  ga    eat.PRES</item>
+      <item id="r3" line="167" tag="G">  rice    ACC that.DEM  I     NOM   eat</item>
+      <item id="r4" line="168" tag="T">  `I eat that rice.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="165" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="166" tag="L">  mesi    wo  kono      ware  ga    eat.PRES</item>
+      <item id="c3" alignment="r3" line="167" tag="G">  rice    ACC that.DEM  I     NOM   eat</item>
+      <item id="c4" alignment="r4" line="168" tag="T">  `I eat that rice.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="165" tag="M">f</item>
+      <item id="n2" alignment="c2" line="166" tag="L">mesi    wo  kono      ware  ga    eat.PRES</item>
+      <item id="n3" alignment="c3" line="167" tag="G">rice    ACC that.DEM  I     NOM   eat</item>
+      <item id="n4" alignment="c4" line="168" tag="T">I eat that rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt17" doc-id="lgcol:jpn" line-range="181-183" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="181" tag="M">  b vetted: t</item>
+      <item id="r2" line="182" tag="L">  ureshiki mono</item>
+      <item id="r3" line="183" tag="G">  pleasing  things</item>
+      <item id="r4" line="184" tag="T">  `Pleasing things.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="181" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="182" tag="L">  ureshiki mono</item>
+      <item id="c3" alignment="r3" line="183" tag="G">  pleasing  things</item>
+      <item id="c4" alignment="r4" line="184" tag="T">  `Pleasing things.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="181" tag="M">t</item>
+      <item id="n2" alignment="c2" line="182" tag="L">ureshiki mono</item>
+      <item id="n3" alignment="c3" line="183" tag="G">pleasing  things</item>
+      <item id="n4" alignment="c4" line="184" tag="T">Pleasing things.</item>
+    </tier>
+  </igt>
+  <igt id="igt18" doc-id="lgcol:jpn" line-range="189-191" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="189" tag="M">  author vetted: f</item>
+      <item id="r2" line="190" tag="L">  ureshiki mono   wo    ware  ga    miru</item>
+      <item id="r3" line="191" tag="G">  pleasing things ACC   I     ACC   see</item>
+      <item id="r4" line="192" tag="T">  `I see pleasing things.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="189" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="190" tag="L">  ureshiki mono   wo    ware  ga    miru</item>
+      <item id="c3" alignment="r3" line="191" tag="G">  pleasing things ACC   I     ACC   see</item>
+      <item id="c4" alignment="r4" line="192" tag="T">  `I see pleasing things.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="189" tag="M">f</item>
+      <item id="n2" alignment="c2" line="190" tag="L">ureshiki mono   wo    ware  ga    miru</item>
+      <item id="n3" alignment="c3" line="191" tag="G">pleasing things ACC   I     ACC   see</item>
+      <item id="n4" alignment="c4" line="192" tag="T">I see pleasing things.</item>
+    </tier>
+  </igt>
+  <igt id="igt19" doc-id="lgcol:jpn" line-range="197-199" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="197" tag="M">  author vetted: f</item>
+      <item id="r2" line="198" tag="L">  mono   wo   ureshiki  ware  ga    miru</item>
+      <item id="r3" line="199" tag="G">  things ACC  pleasing  I     ACC   see</item>
+      <item id="r4" line="200" tag="T">  `I see pleasing things.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="197" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="198" tag="L">  mono   wo   ureshiki  ware  ga    miru</item>
+      <item id="c3" alignment="r3" line="199" tag="G">  things ACC  pleasing  I     ACC   see</item>
+      <item id="c4" alignment="r4" line="200" tag="T">  `I see pleasing things.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="197" tag="M">f</item>
+      <item id="n2" alignment="c2" line="198" tag="L">mono   wo   ureshiki  ware  ga    miru</item>
+      <item id="n3" alignment="c3" line="199" tag="G">things ACC  pleasing  I     ACC   see</item>
+      <item id="n4" alignment="c4" line="200" tag="T">I see pleasing things.</item>
+    </tier>
+  </igt>
+  <igt id="igt20" doc-id="lgcol:jpn" line-range="205-207" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="205" tag="M">  author vetted: f</item>
+      <item id="r2" line="206" tag="L">  ureshikara zu</item>
+      <item id="r3" line="207" tag="G">  happy      NEG</item>
+      <item id="r4" line="208" tag="T">  `(That person) would not be happy.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="205" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="206" tag="L">  ureshikara zu</item>
+      <item id="c3" alignment="r3" line="207" tag="G">  happy      NEG</item>
+      <item id="c4" alignment="r4" line="208" tag="T">  `(That person) would not be happy.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="205" tag="M">f</item>
+      <item id="n2" alignment="c2" line="206" tag="L">ureshikara zu</item>
+      <item id="n3" alignment="c3" line="207" tag="G">happy      NEG</item>
+      <item id="n4" alignment="c4" line="208" tag="T">(That person) would not be happy.</item>
+    </tier>
+  </igt>
+  <igt id="igt21" doc-id="lgcol:jpn" line-range="209-211" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="209" tag="M">  author vetted: f</item>
+      <item id="r2" line="210" tag="L">  mesi     wo   tabu</item>
+      <item id="r3" line="211" tag="G">  rice     ACC  eat.PRESENT</item>
+      <item id="r4" line="212" tag="T">  `(I/you/he/she/it) eat rice.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="209" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="210" tag="L">  mesi     wo   tabu</item>
+      <item id="c3" alignment="r3" line="211" tag="G">  rice     ACC  eat.PRESENT</item>
+      <item id="c4" alignment="r4" line="212" tag="T">  `(I/you/he/she/it) eat rice.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="209" tag="M">f</item>
+      <item id="n2" alignment="c2" line="210" tag="L">mesi     wo   tabu</item>
+      <item id="n3" alignment="c3" line="211" tag="G">rice     ACC  eat.PRESENT</item>
+      <item id="n4" alignment="c4" line="212" tag="T">(I/you/he/she/it) eat rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt22" doc-id="lgcol:jpn" line-range="213-215" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="213" tag="M">  author vetted: f</item>
+      <item id="r2" line="214" tag="L">  ware  ga  tabu</item>
+      <item id="r3" line="215" tag="G">  I     NOM eat.PRESENT</item>
+      <item id="r4" line="216" tag="T">  `I eat (rice/sushi/meat/whatever).'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="213" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="214" tag="L">  ware  ga  tabu</item>
+      <item id="c3" alignment="r3" line="215" tag="G">  I     NOM eat.PRESENT</item>
+      <item id="c4" alignment="r4" line="216" tag="T">  `I eat (rice/sushi/meat/whatever).'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="213" tag="M">f</item>
+      <item id="n2" alignment="c2" line="214" tag="L">ware  ga  tabu</item>
+      <item id="n3" alignment="c3" line="215" tag="G">I     NOM eat.PRESENT</item>
+      <item id="n4" alignment="c4" line="216" tag="T">I eat (rice/sushi/meat/whatever).</item>
+    </tier>
+  </igt>
+  <igt id="igt23" doc-id="lgcol:jpn" line-range="217-219" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="217" tag="M">  author vetted: f</item>
+      <item id="r2" line="218" tag="L">  nanji   ga    tabu</item>
+      <item id="r3" line="219" tag="G">  you     NOM   eat.PRESENT</item>
+      <item id="r4" line="220" tag="T">  `You eat (rice/sushi/meat/whatever).'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="217" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="218" tag="L">  nanji   ga    tabu</item>
+      <item id="c3" alignment="r3" line="219" tag="G">  you     NOM   eat.PRESENT</item>
+      <item id="c4" alignment="r4" line="220" tag="T">  `You eat (rice/sushi/meat/whatever).'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="217" tag="M">f</item>
+      <item id="n2" alignment="c2" line="218" tag="L">nanji   ga    tabu</item>
+      <item id="n3" alignment="c3" line="219" tag="G">you     NOM   eat.PRESENT</item>
+      <item id="n4" alignment="c4" line="220" tag="T">You eat (rice/sushi/meat/whatever).</item>
+    </tier>
+  </igt>
+  <igt id="igt24" doc-id="lgcol:jpn" line-range="221-223" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="221" tag="M">  a vetted: t</item>
+      <item id="r2" line="222" tag="L">  ware wa       gakusei  nari</item>
+      <item id="r3" line="223" tag="G">  I    SUBJECT  student  COPULA.PRESENT</item>
+      <item id="r4" line="224" tag="T">  `I am a student.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="221" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="222" tag="L">  ware wa       gakusei  nari</item>
+      <item id="c3" alignment="r3" line="223" tag="G">  I    SUBJECT  student  COPULA.PRESENT</item>
+      <item id="c4" alignment="r4" line="224" tag="T">  `I am a student.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="221" tag="M">t</item>
+      <item id="n2" alignment="c2" line="222" tag="L">ware wa       gakusei  nari</item>
+      <item id="n3" alignment="c3" line="223" tag="G">I    SUBJECT  student  COPULA.PRESENT</item>
+      <item id="n4" alignment="c4" line="224" tag="T">I am a student.</item>
+    </tier>
+  </igt>
+  <igt id="igt25" doc-id="lgcol:jpn" line-range="233-235" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="233" tag="M">  b vetted: t</item>
+      <item id="r2" line="234" tag="L">  kokoro  mo  shizukara  zu</item>
+      <item id="r3" line="235" tag="G">  heart   ?   quiet      NEG</item>
+      <item id="r4" line="236" tag="T">  `The heart is unsettled.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="233" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="234" tag="L">  kokoro  mo  shizukara  zu</item>
+      <item id="c3" alignment="r3" line="235" tag="G">  heart   ?   quiet      NEG</item>
+      <item id="c4" alignment="r4" line="236" tag="T">  `The heart is unsettled.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="233" tag="M">t</item>
+      <item id="n2" alignment="c2" line="234" tag="L">kokoro  mo  shizukara  zu</item>
+      <item id="n3" alignment="c3" line="235" tag="G">heart   ?   quiet      NEG</item>
+      <item id="n4" alignment="c4" line="236" tag="T">The heart is unsettled.</item>
+    </tier>
+  </igt>
+  <igt id="igt26" doc-id="lgcol:jpn" line-range="249-251" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="249" tag="M">  a vetted: t</item>
+      <item id="r2" line="250" tag="L">  Edo  naru   tera   ni        mawiri   tari</item>
+      <item id="r3" line="251" tag="G">  Edo  COPULA temple LOCATION  go.PAST  RESULTATIVE</item>
+      <item id="r4" line="252" tag="T">  `I went to a temple in Edo.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="249" tag="M">  a vetted: t</item>
+      <item id="c2" alignment="r2" line="250" tag="L">  Edo  naru   tera   ni        mawiri   tari</item>
+      <item id="c3" alignment="r3" line="251" tag="G">  Edo  COPULA temple LOCATION  go.PAST  RESULTATIVE</item>
+      <item id="c4" alignment="r4" line="252" tag="T">  `I went to a temple in Edo.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="249" tag="M">t</item>
+      <item id="n2" alignment="c2" line="250" tag="L">Edo  naru   tera   ni        mawiri   tari</item>
+      <item id="n3" alignment="c3" line="251" tag="G">Edo  COPULA temple LOCATION  go.PAST  RESULTATIVE</item>
+      <item id="n4" alignment="c4" line="252" tag="T">I went to a temple in Edo.</item>
+    </tier>
+  </igt>
+  <igt id="igt27" doc-id="lgcol:jpn" line-range="261-263" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="261" tag="M">  author vetted: f</item>
+      <item id="r2" line="262" tag="L">  ryofu        satsusatsu              tari</item>
+      <item id="r3" line="263" tag="G">  cool.breeze  blow.refreshingly.PAST  ADVERB</item>
+      <item id="r4" line="264" tag="T">  `A cool breeze blew refreshingly.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="261" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="262" tag="L">  ryofu        satsusatsu              tari</item>
+      <item id="c3" alignment="r3" line="263" tag="G">  cool.breeze  blow.refreshingly.PAST  ADVERB</item>
+      <item id="c4" alignment="r4" line="264" tag="T">  `A cool breeze blew refreshingly.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="261" tag="M">f</item>
+      <item id="n2" alignment="c2" line="262" tag="L">ryofu        satsusatsu              tari</item>
+      <item id="n3" alignment="c3" line="263" tag="G">cool.breeze  blow.refreshingly.PAST  ADVERB</item>
+      <item id="n4" alignment="c4" line="264" tag="T">A cool breeze blew refreshingly.</item>
+    </tier>
+  </igt>
+  <igt id="igt28" doc-id="lgcol:jpn" line-range="277-279" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="277" tag="M">  b vetted: t</item>
+      <item id="r2" line="278" tag="L">  omae          ni        mo    esa           wa       araji        to       oboshimeshi  tari</item>
+      <item id="r3" line="279" tag="G">  Her.Highness  LOCATION  ALSO  that.long     SUBJECT  cannot.last  CLAUSE  think.PAST   RESULTATIVE</item>
+      <item id="r4" line="280" tag="T">  `Even when it came to Her Highness, Her Highness thought, "(the hill of snow) cannot last that long (without melting)."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="277" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="278" tag="L">  omae          ni        mo    esa           wa       araji        to       oboshimeshi  tari</item>
+      <item id="c3" alignment="r3" line="279" tag="G">  Her.Highness  LOCATION  ALSO  that.long     SUBJECT  cannot.last  CLAUSE  think.PAST   RESULTATIVE</item>
+      <item id="c4" alignment="r4" line="280" tag="T">  `Even when it came to Her Highness, Her Highness thought, "(the hill of snow) cannot last that long (without melting)."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="277" tag="M">t</item>
+      <item id="n2" alignment="c2" line="278" tag="L">omae          ni        mo    esa           wa       araji        to       oboshimeshi  tari</item>
+      <item id="n3" alignment="c3" line="279" tag="G">Her.Highness  LOCATION  ALSO  that.long     SUBJECT  cannot.last  CLAUSE  think.PAST   RESULTATIVE</item>
+      <item id="n4" alignment="c4" line="280" tag="T">Even when it came to Her Highness, Her Highness thought, "(the hill of snow) cannot last that long (without melting).</item>
+    </tier>
+  </igt>
+  <igt id="igt29" doc-id="lgcol:jpn" line-range="285-287" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="285" tag="M">  author vetted: f</item>
+      <item id="r2" line="286" tag="L">  mesi    wo   ware  ga   shizukani  tabu</item>
+      <item id="r3" line="287" tag="G">  rice    ACC  I     NOM  quietly    eat</item>
+      <item id="r4" line="288" tag="T">  `I quietly eat rice.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="285" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="286" tag="L">  mesi    wo   ware  ga   shizukani  tabu</item>
+      <item id="c3" alignment="r3" line="287" tag="G">  rice    ACC  I     NOM  quietly    eat</item>
+      <item id="c4" alignment="r4" line="288" tag="T">  `I quietly eat rice.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="285" tag="M">f</item>
+      <item id="n2" alignment="c2" line="286" tag="L">mesi    wo   ware  ga   shizukani  tabu</item>
+      <item id="n3" alignment="c3" line="287" tag="G">rice    ACC  I     NOM  quietly    eat</item>
+      <item id="n4" alignment="c4" line="288" tag="T">I quietly eat rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt30" doc-id="lgcol:jpn" line-range="293-295" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="293" tag="M">  author vetted: f</item>
+      <item id="r2" line="294" tag="L">  mesi    wo    hito    ni     ware  ga   aduke</item>
+      <item id="r3" line="295" tag="G">  rice    ACC   man     DAT    I     NOM  give </item>
+      <item id="r4" line="296" tag="T">  `I give rice to the man.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="293" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="294" tag="L">  mesi    wo    hito    ni     ware  ga   aduke</item>
+      <item id="c3" alignment="r3" line="295" tag="G">  rice    ACC   man     DAT    I     NOM  give </item>
+      <item id="c4" alignment="r4" line="296" tag="T">  `I give rice to the man.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="293" tag="M">f</item>
+      <item id="n2" alignment="c2" line="294" tag="L">mesi    wo    hito    ni     ware  ga   aduke</item>
+      <item id="n3" alignment="c3" line="295" tag="G">rice    ACC   man     DAT    I     NOM  give</item>
+      <item id="n4" alignment="c4" line="296" tag="T">I give rice to the man.</item>
+    </tier>
+  </igt>
+  <igt id="igt31" doc-id="lgcol:jpn" line-range="297-299" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="297" tag="M">  author vetted: f</item>
+      <item id="r2" line="298" tag="L">  hito    ni    mesi    wo     ware  ga   aduke</item>
+      <item id="r3" line="299" tag="G">  man     DAT   rice    ACC     I     NOM  give </item>
+      <item id="r4" line="300" tag="T">  `I give rice to the man.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="297" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="298" tag="L">  hito    ni    mesi    wo     ware  ga   aduke</item>
+      <item id="c3" alignment="r3" line="299" tag="G">  man     DAT   rice    ACC     I     NOM  give </item>
+      <item id="c4" alignment="r4" line="300" tag="T">  `I give rice to the man.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="297" tag="M">f</item>
+      <item id="n2" alignment="c2" line="298" tag="L">hito    ni    mesi    wo     ware  ga   aduke</item>
+      <item id="n3" alignment="c3" line="299" tag="G">man     DAT   rice    ACC     I     NOM  give</item>
+      <item id="n4" alignment="c4" line="300" tag="T">I give rice to the man.</item>
+    </tier>
+  </igt>
+  <igt id="igt32" doc-id="lgcol:jpn" line-range="309-311" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="309" tag="M">  author vetted: f</item>
+      <item id="r2" line="310" tag="L">  hito    ni     ware  ga   aduke</item>
+      <item id="r3" line="311" tag="G">  man     DAT    I     NOM  give </item>
+      <item id="r4" line="312" tag="T">  `I give the man (something).'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="309" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="310" tag="L">  hito    ni     ware  ga   aduke</item>
+      <item id="c3" alignment="r3" line="311" tag="G">  man     DAT    I     NOM  give </item>
+      <item id="c4" alignment="r4" line="312" tag="T">  `I give the man (something).'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="309" tag="M">f</item>
+      <item id="n2" alignment="c2" line="310" tag="L">hito    ni     ware  ga   aduke</item>
+      <item id="n3" alignment="c3" line="311" tag="G">man     DAT    I     NOM  give</item>
+      <item id="n4" alignment="c4" line="312" tag="T">I give the man (something).</item>
+    </tier>
+  </igt>
+  <igt id="igt33" doc-id="lgcol:jpn" line-range="313-315" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="313" tag="M">  author vetted: f</item>
+      <item id="r2" line="314" tag="L">  mesi    wo    ware  ga   aduke</item>
+      <item id="r3" line="315" tag="G">  rice    ACC   I     NOM  give </item>
+      <item id="r4" line="316" tag="T">  `I give rice (to somebody).'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="313" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="314" tag="L">  mesi    wo    ware  ga   aduke</item>
+      <item id="c3" alignment="r3" line="315" tag="G">  rice    ACC   I     NOM  give </item>
+      <item id="c4" alignment="r4" line="316" tag="T">  `I give rice (to somebody).'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="313" tag="M">f</item>
+      <item id="n2" alignment="c2" line="314" tag="L">mesi    wo    ware  ga   aduke</item>
+      <item id="n3" alignment="c3" line="315" tag="G">rice    ACC   I     NOM  give</item>
+      <item id="n4" alignment="c4" line="316" tag="T">I give rice (to somebody).</item>
+    </tier>
+  </igt>
+  <igt id="igt34" doc-id="lgcol:jpn" line-range="317-319" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="317" tag="M">  author vetted: f</item>
+      <item id="r2" line="318" tag="L">  mesi    wo    hito    ni     aduke</item>
+      <item id="r3" line="319" tag="G">  rice    ACC   man     DAT    give </item>
+      <item id="r4" line="320" tag="T">  `(Somebody) gives rice to the man.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="317" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="318" tag="L">  mesi    wo    hito    ni     aduke</item>
+      <item id="c3" alignment="r3" line="319" tag="G">  rice    ACC   man     DAT    give </item>
+      <item id="c4" alignment="r4" line="320" tag="T">  `(Somebody) gives rice to the man.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="317" tag="M">f</item>
+      <item id="n2" alignment="c2" line="318" tag="L">mesi    wo    hito    ni     aduke</item>
+      <item id="n3" alignment="c3" line="319" tag="G">rice    ACC   man     DAT    give</item>
+      <item id="n4" alignment="c4" line="320" tag="T">(Somebody) gives rice to the man.</item>
+    </tier>
+  </igt>
+  <igt id="igt35" doc-id="lgcol:jpn" line-range="321-323" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="321" tag="M">  author vetted: f</item>
+      <item id="r2" line="322" tag="L">  miyako  wo   noboru  to   omohu</item>
+      <item id="r3" line="323" tag="G">  capital ACC  go.PRES EMB  think.PRES</item>
+      <item id="r4" line="324" tag="T">  `(I) think (I) go to the capital.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="321" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="322" tag="L">  miyako  wo   noboru  to   omohu</item>
+      <item id="c3" alignment="r3" line="323" tag="G">  capital ACC  go.PRES EMB  think.PRES</item>
+      <item id="c4" alignment="r4" line="324" tag="T">  `(I) think (I) go to the capital.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="321" tag="M">f</item>
+      <item id="n2" alignment="c2" line="322" tag="L">miyako  wo   noboru  to   omohu</item>
+      <item id="n3" alignment="c3" line="323" tag="G">capital ACC  go.PRES EMB  think.PRES</item>
+      <item id="n4" alignment="c4" line="324" tag="T">think (I) go to the capital.</item>
+    </tier>
+  </igt>
+  <igt id="igt36" doc-id="lgcol:jpn" line-range="333-335" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="333" tag="M">  author vetted: f</item>
+      <item id="r2" line="334" tag="L">  hito     ya-ari</item>
+      <item id="r3" line="335" tag="G">  person   Q-is    </item>
+      <item id="r4" line="336" tag="T">  `Is there anyone here?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="333" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="334" tag="L">  hito     ya-ari</item>
+      <item id="c3" alignment="r3" line="335" tag="G">  person   Q-is    </item>
+      <item id="c4" alignment="r4" line="336" tag="T">  `Is there anyone here?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="333" tag="M">f</item>
+      <item id="n2" alignment="c2" line="334" tag="L">hito     ya-ari</item>
+      <item id="n3" alignment="c3" line="335" tag="G">person   Q-is</item>
+      <item id="n4" alignment="c4" line="336" tag="T">Is there anyone here?</item>
+    </tier>
+  </igt>
+  <igt id="igt37" doc-id="lgcol:jpn" line-range="349-351" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="349" tag="M">  author vetted: f</item>
+      <item id="r2" line="350" tag="L">  koko  wo   ya-imasu  to  tofu</item>
+      <item id="r3" line="351" tag="G">  here  ACC  UNKNOWN-live    EMB ask</item>
+      <item id="r4" line="352" tag="T">  `[They] ask such questions as: `Does [he] live here?''</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="349" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="350" tag="L">  koko  wo   ya-imasu  to  tofu</item>
+      <item id="c3" alignment="r3" line="351" tag="G">  here  ACC  UNKNOWN-live    EMB ask</item>
+      <item id="c4" alignment="r4" line="352" tag="T">  `[They] ask such questions as: `Does [he] live here?''</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="349" tag="M">f</item>
+      <item id="n2" alignment="c2" line="350" tag="L">koko  wo   ya-imasu  to  tofu</item>
+      <item id="n3" alignment="c3" line="351" tag="G">here  ACC  UNKNOWN-live    EMB ask</item>
+      <item id="n4" alignment="c4" line="352" tag="T">[They] ask such questions as: `Does [he] live here?</item>
+    </tier>
+  </igt>
+  <igt id="igt38" doc-id="lgcol:jpn" line-range="361-363" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="361" tag="M">  author vetted: f</item>
+      <item id="r2" line="362" tag="L">  ware  ga   UNKNOWN        wo   tabe  re</item>
+      <item id="r3" line="363" tag="G">  I    nom   glass     acc  eat   can</item>
+      <item id="r4" line="364" tag="T">  `I can eat glass.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="361" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="362" tag="L">  ware  ga   UNKNOWN        wo   tabe  re</item>
+      <item id="c3" alignment="r3" line="363" tag="G">  I    nom   glass     acc  eat   can</item>
+      <item id="c4" alignment="r4" line="364" tag="T">  `I can eat glass.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="361" tag="M">f</item>
+      <item id="n2" alignment="c2" line="362" tag="L">ware  ga   UNKNOWN        wo   tabe  re</item>
+      <item id="n3" alignment="c3" line="363" tag="G">I    nom   glass     acc  eat   can</item>
+      <item id="n4" alignment="c4" line="364" tag="T">I can eat glass.</item>
+    </tier>
+  </igt>
+  <igt id="igt39" doc-id="lgcol:jpn" line-range="373-375" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="373" tag="M">  author vetted: f</item>
+      <item id="r2" line="374" tag="L">  UNKNOWN     wo  tabe  re</item>
+      <item id="r3" line="375" tag="G">  glass  acc  eat  can</item>
+      <item id="r4" line="376" tag="T">  `(I) can eat glass.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="373" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="374" tag="L">  UNKNOWN     wo  tabe  re</item>
+      <item id="c3" alignment="r3" line="375" tag="G">  glass  acc  eat  can</item>
+      <item id="c4" alignment="r4" line="376" tag="T">  `(I) can eat glass.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="373" tag="M">f</item>
+      <item id="n2" alignment="c2" line="374" tag="L">UNKNOWN     wo  tabe  re</item>
+      <item id="n3" alignment="c3" line="375" tag="G">glass  acc  eat  can</item>
+      <item id="n4" alignment="c4" line="376" tag="T">can eat glass.</item>
+    </tier>
+  </igt>
+  <igt id="igt40" doc-id="lgcol:jpn" line-range="377-379" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="377" tag="M">  author vetted: f</item>
+      <item id="r2" line="378" tag="L">  sore  ga   ware wo   UNKNOWN.tsuka  zu</item>
+      <item id="r3" line="379" tag="G">  it    nom  I    acc  hurt     not</item>
+      <item id="r4" line="380" tag="T">  `It doesn't hurt me.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="377" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="378" tag="L">  sore  ga   ware wo   UNKNOWN.tsuka  zu</item>
+      <item id="c3" alignment="r3" line="379" tag="G">  it    nom  I    acc  hurt     not</item>
+      <item id="c4" alignment="r4" line="380" tag="T">  `It doesn't hurt me.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="377" tag="M">f</item>
+      <item id="n2" alignment="c2" line="378" tag="L">sore  ga   ware wo   UNKNOWN.tsuka  zu</item>
+      <item id="n3" alignment="c3" line="379" tag="G">it    nom  I    acc  hurt     not</item>
+      <item id="n4" alignment="c4" line="380" tag="T">It doesn't hurt me.</item>
+    </tier>
+  </igt>
+  <igt id="igt41" doc-id="lgcol:jpn" line-range="381-383" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="381" tag="M">  author vetted: f</item>
+      <item id="r2" line="382" tag="L">  ware wo   UNKNOWN.tsuka  zu</item>
+      <item id="r3" line="383" tag="G">  I    acc  hurt     not</item>
+      <item id="r4" line="384" tag="T">  `It doesn't hurt me.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="381" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="382" tag="L">  ware wo   UNKNOWN.tsuka  zu</item>
+      <item id="c3" alignment="r3" line="383" tag="G">  I    acc  hurt     not</item>
+      <item id="c4" alignment="r4" line="384" tag="T">  `It doesn't hurt me.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="381" tag="M">f</item>
+      <item id="n2" alignment="c2" line="382" tag="L">ware wo   UNKNOWN.tsuka  zu</item>
+      <item id="n3" alignment="c3" line="383" tag="G">I    acc  hurt     not</item>
+      <item id="n4" alignment="c4" line="384" tag="T">It doesn't hurt me.</item>
+    </tier>
+  </igt>
+  <igt id="igt42" doc-id="lgcol:jpn" line-range="385-387" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="385" tag="M">  author vetted: f</item>
+      <item id="r2" line="386" tag="L">  sore  ga   UNKNOWN.tsuka  zu</item>
+      <item id="r3" line="387" tag="G">  it    nom  hurt     not</item>
+      <item id="r4" line="388" tag="T">  `It doesn't hurt me.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="385" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="386" tag="L">  sore  ga   UNKNOWN.tsuka  zu</item>
+      <item id="c3" alignment="r3" line="387" tag="G">  it    nom  hurt     not</item>
+      <item id="c4" alignment="r4" line="388" tag="T">  `It doesn't hurt me.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="385" tag="M">f</item>
+      <item id="n2" alignment="c2" line="386" tag="L">sore  ga   UNKNOWN.tsuka  zu</item>
+      <item id="n3" alignment="c3" line="387" tag="G">it    nom  hurt     not</item>
+      <item id="n4" alignment="c4" line="388" tag="T">It doesn't hurt me.</item>
+    </tier>
+  </igt>
+  <igt id="igt43" doc-id="lgcol:jpn" line-range="397-399" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="397" tag="M">  author vetted: f</item>
+      <item id="r2" line="398" tag="L">  ware  wa     mesi    wo    tabu</item>
+      <item id="r3" line="399" tag="G">  I     TOPIC  rice    acc   eat.PRES</item>
+      <item id="r4" line="400" tag="T">  `I eat rice.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="397" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="398" tag="L">  ware  wa     mesi    wo    tabu</item>
+      <item id="c3" alignment="r3" line="399" tag="G">  I     TOPIC  rice    acc   eat.PRES</item>
+      <item id="c4" alignment="r4" line="400" tag="T">  `I eat rice.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="397" tag="M">f</item>
+      <item id="n2" alignment="c2" line="398" tag="L">ware  wa     mesi    wo    tabu</item>
+      <item id="n3" alignment="c3" line="399" tag="G">I     TOPIC  rice    acc   eat.PRES</item>
+      <item id="n4" alignment="c4" line="400" tag="T">I eat rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt44" doc-id="lgcol:jpn" line-range="401-403" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="401" tag="M">  author vetted: f</item>
+      <item id="r2" line="402" tag="L">  ware  wa     tabu</item>
+      <item id="r3" line="403" tag="G">  I     TOPIC  eat.PRES</item>
+      <item id="r4" line="404" tag="T">  `I eat rice.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="401" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="402" tag="L">  ware  wa     tabu</item>
+      <item id="c3" alignment="r3" line="403" tag="G">  I     TOPIC  eat.PRES</item>
+      <item id="c4" alignment="r4" line="404" tag="T">  `I eat rice.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="401" tag="M">f</item>
+      <item id="n2" alignment="c2" line="402" tag="L">ware  wa     tabu</item>
+      <item id="n3" alignment="c3" line="403" tag="G">I     TOPIC  eat.PRES</item>
+      <item id="n4" alignment="c4" line="404" tag="T">I eat rice.</item>
+    </tier>
+  </igt>
+  <igt id="igt45" doc-id="lgcol:jpn" line-range="405-407" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="405" tag="M">  author vetted: f</item>
+      <item id="r2" line="406" tag="L">  kokoro  ga  shizuka  nara</item>
+      <item id="r3" line="407" tag="G">  heart  nom   quiet  be.ATTR</item>
+      <item id="r4" line="408" tag="T">  `The heart is settled.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="405" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="406" tag="L">  kokoro  ga  shizuka  nara</item>
+      <item id="c3" alignment="r3" line="407" tag="G">  heart  nom   quiet  be.ATTR</item>
+      <item id="c4" alignment="r4" line="408" tag="T">  `The heart is settled.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="405" tag="M">f</item>
+      <item id="n2" alignment="c2" line="406" tag="L">kokoro  ga  shizuka  nara</item>
+      <item id="n3" alignment="c3" line="407" tag="G">heart  nom   quiet  be.ATTR</item>
+      <item id="n4" alignment="c4" line="408" tag="T">The heart is settled.</item>
+    </tier>
+  </igt>
+  <igt id="igt46" doc-id="lgcol:jpn" line-range="413-415" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="413" tag="M">  author vetted: f</item>
+      <item id="r2" line="414" tag="L">  kokoro  ga  shizuka   nara    zu</item>
+      <item id="r3" line="415" tag="G">  heart  nom   quiet   be.ATTR  NEG</item>
+      <item id="r4" line="416" tag="T">  `The heart is unsettled.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="413" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="414" tag="L">  kokoro  ga  shizuka   nara    zu</item>
+      <item id="c3" alignment="r3" line="415" tag="G">  heart  nom   quiet   be.ATTR  NEG</item>
+      <item id="c4" alignment="r4" line="416" tag="T">  `The heart is unsettled.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="413" tag="M">f</item>
+      <item id="n2" alignment="c2" line="414" tag="L">kokoro  ga  shizuka   nara    zu</item>
+      <item id="n3" alignment="c3" line="415" tag="G">heart  nom   quiet   be.ATTR  NEG</item>
+      <item id="n4" alignment="c4" line="416" tag="T">The heart is unsettled.</item>
+    </tier>
+  </igt>
+  <igt id="igt47" doc-id="lgcol:jpn" line-range="417-419" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="417" tag="M">  author vetted: f</item>
+      <item id="r2" line="418" tag="L">  ware ga   yama      ni   ari</item>
+      <item id="r3" line="419" tag="G">  I    nom  mountain  LOC  be.ATTR</item>
+      <item id="r4" line="420" tag="T">  `I am in the mountains.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="417" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="418" tag="L">  ware ga   yama      ni   ari</item>
+      <item id="c3" alignment="r3" line="419" tag="G">  I    nom  mountain  LOC  be.ATTR</item>
+      <item id="c4" alignment="r4" line="420" tag="T">  `I am in the mountains.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="417" tag="M">f</item>
+      <item id="n2" alignment="c2" line="418" tag="L">ware ga   yama      ni   ari</item>
+      <item id="n3" alignment="c3" line="419" tag="G">I    nom  mountain  LOC  be.ATTR</item>
+      <item id="n4" alignment="c4" line="420" tag="T">I am in the mountains.</item>
+    </tier>
+  </igt>
+  <igt id="igt48" doc-id="lgcol:jpn" line-range="421-423" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="421" tag="M">  author vetted: f</item>
+      <item id="r2" line="422" tag="L">  ware  ga      gakusei nari</item>
+      <item id="r3" line="423" tag="G">  I    SUBJECT  student COPULA.PRESENT</item>
+      <item id="r4" line="424" tag="T">  `I am a student.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="421" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="422" tag="L">  ware  ga      gakusei nari</item>
+      <item id="c3" alignment="r3" line="423" tag="G">  I    SUBJECT  student COPULA.PRESENT</item>
+      <item id="c4" alignment="r4" line="424" tag="T">  `I am a student.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="421" tag="M">f</item>
+      <item id="n2" alignment="c2" line="422" tag="L">ware  ga      gakusei nari</item>
+      <item id="n3" alignment="c3" line="423" tag="G">I    SUBJECT  student COPULA.PRESENT</item>
+      <item id="n4" alignment="c4" line="424" tag="T">I am a student.</item>
+    </tier>
+  </igt>
+  <igt id="igt49" doc-id="lgcol:jpn" line-range="429-431" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="429" tag="M">  author vetted: f</item>
+      <item id="r2" line="430" tag="L">  ware  ga      gakusei nari</item>
+      <item id="r3" line="431" tag="G">  I    SUBJECT  student COPULA.PRESENT</item>
+      <item id="r4" line="432" tag="T">  `I am a student.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="429" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="430" tag="L">  ware  ga      gakusei nari</item>
+      <item id="c3" alignment="r3" line="431" tag="G">  I    SUBJECT  student COPULA.PRESENT</item>
+      <item id="c4" alignment="r4" line="432" tag="T">  `I am a student.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="429" tag="M">f</item>
+      <item id="n2" alignment="c2" line="430" tag="L">ware  ga      gakusei nari</item>
+      <item id="n3" alignment="c3" line="431" tag="G">I    SUBJECT  student COPULA.PRESENT</item>
+      <item id="n4" alignment="c4" line="432" tag="T">I am a student.</item>
+    </tier>
+  </igt>
+  <igt id="igt50" doc-id="lgcol:jpn" line-range="433-435" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="433" tag="M">  author vetted: f</item>
+      <item id="r2" line="434" tag="L">  ware  ga      gakusei  nara            mu</item>
+      <item id="r3" line="435" tag="G">  I    SUBJECT  student  COPULA          FUTURE</item>
+      <item id="r4" line="436" tag="T">  `I will be a student.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="433" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="434" tag="L">  ware  ga      gakusei  nara            mu</item>
+      <item id="c3" alignment="r3" line="435" tag="G">  I    SUBJECT  student  COPULA          FUTURE</item>
+      <item id="c4" alignment="r4" line="436" tag="T">  `I will be a student.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="433" tag="M">f</item>
+      <item id="n2" alignment="c2" line="434" tag="L">ware  ga      gakusei  nara            mu</item>
+      <item id="n3" alignment="c3" line="435" tag="G">I    SUBJECT  student  COPULA          FUTURE</item>
+      <item id="n4" alignment="c4" line="436" tag="T">I will be a student.</item>
+    </tier>
+  </igt>
+  <igt id="igt51" doc-id="lgcol:jpn" line-range="437-439" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="437" tag="M">  author vetted: f</item>
+      <item id="r2" line="438" tag="L">  ware  ga      gakusei  nari      keri</item>
+      <item id="r3" line="439" tag="G">  I    SUBJECT  student  COPULA    HEARSAY.PAST</item>
+      <item id="r4" line="440" tag="T">  `(someone said) I was a student.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="437" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="438" tag="L">  ware  ga      gakusei  nari      keri</item>
+      <item id="c3" alignment="r3" line="439" tag="G">  I    SUBJECT  student  COPULA    HEARSAY.PAST</item>
+      <item id="c4" alignment="r4" line="440" tag="T">  `(someone said) I was a student.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="437" tag="M">f</item>
+      <item id="n2" alignment="c2" line="438" tag="L">ware  ga      gakusei  nari      keri</item>
+      <item id="n3" alignment="c3" line="439" tag="G">I    SUBJECT  student  COPULA    HEARSAY.PAST</item>
+      <item id="n4" alignment="c4" line="440" tag="T">(someone said) I was a student.</item>
+    </tier>
+  </igt>
+  <igt id="igt52" doc-id="lgcol:jpn" line-range="441-443" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="441" tag="M">  author vetted: f</item>
+      <item id="r2" line="442" tag="L">  ware  ga      gakusei nari      ki</item>
+      <item id="r3" line="443" tag="G">  I    SUBJECT  student COPULA    PERSONAL.PAST</item>
+      <item id="r4" line="444" tag="T">  `I was a student.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="441" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="442" tag="L">  ware  ga      gakusei nari      ki</item>
+      <item id="c3" alignment="r3" line="443" tag="G">  I    SUBJECT  student COPULA    PERSONAL.PAST</item>
+      <item id="c4" alignment="r4" line="444" tag="T">  `I was a student.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="441" tag="M">f</item>
+      <item id="n2" alignment="c2" line="442" tag="L">ware  ga      gakusei nari      ki</item>
+      <item id="n3" alignment="c3" line="443" tag="G">I    SUBJECT  student COPULA    PERSONAL.PAST</item>
+      <item id="n4" alignment="c4" line="444" tag="T">I was a student.</item>
+    </tier>
+  </igt>
+  <igt id="igt53" doc-id="lgcol:jpn" line-range="445-447" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="445" tag="M">  author vetted: f</item>
+      <item id="r2" line="446" tag="L">  ware  ga      gakusei  nara      ri</item>
+      <item id="r3" line="447" tag="G">  I    SUBJECT  student  COPULA    CONTINUATIVE</item>
+      <item id="r4" line="448" tag="T">  `I am being a student.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="445" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="446" tag="L">  ware  ga      gakusei  nara      ri</item>
+      <item id="c3" alignment="r3" line="447" tag="G">  I    SUBJECT  student  COPULA    CONTINUATIVE</item>
+      <item id="c4" alignment="r4" line="448" tag="T">  `I am being a student.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="445" tag="M">f</item>
+      <item id="n2" alignment="c2" line="446" tag="L">ware  ga      gakusei  nara      ri</item>
+      <item id="n3" alignment="c3" line="447" tag="G">I    SUBJECT  student  COPULA    CONTINUATIVE</item>
+      <item id="n4" alignment="c4" line="448" tag="T">I am being a student.</item>
+    </tier>
+  </igt>
+  <igt id="igt54" doc-id="lgcol:jpn" line-range="449-451" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="449" tag="M">  author vetted: f</item>
+      <item id="r2" line="450" tag="L">  ware  ga      gakusei  nari      tari</item>
+      <item id="r3" line="451" tag="G">  I    SUBJECT  student  COPULA    RESULTATIVE</item>
+      <item id="r4" line="452" tag="T">  `I have completed the state of being a student.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="449" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="450" tag="L">  ware  ga      gakusei  nari      tari</item>
+      <item id="c3" alignment="r3" line="451" tag="G">  I    SUBJECT  student  COPULA    RESULTATIVE</item>
+      <item id="c4" alignment="r4" line="452" tag="T">  `I have completed the state of being a student.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="449" tag="M">f</item>
+      <item id="n2" alignment="c2" line="450" tag="L">ware  ga      gakusei  nari      tari</item>
+      <item id="n3" alignment="c3" line="451" tag="G">I    SUBJECT  student  COPULA    RESULTATIVE</item>
+      <item id="n4" alignment="c4" line="452" tag="T">I have completed the state of being a student.</item>
+    </tier>
+  </igt>
+  <igt id="igt55" doc-id="lgcol:jpn" line-range="453-455" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="453" tag="M">  author vetted: f</item>
+      <item id="r2" line="454" tag="L">  ware  ga      gakusei  nari      to     omofu</item>
+      <item id="r3" line="455" tag="G">  I    SUBJECT  student  COPULA    EMB    think</item>
+      <item id="r4" line="456" tag="T">  `I think I am a student.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="453" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="454" tag="L">  ware  ga      gakusei  nari      to     omofu</item>
+      <item id="c3" alignment="r3" line="455" tag="G">  I    SUBJECT  student  COPULA    EMB    think</item>
+      <item id="c4" alignment="r4" line="456" tag="T">  `I think I am a student.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="453" tag="M">f</item>
+      <item id="n2" alignment="c2" line="454" tag="L">ware  ga      gakusei  nari      to     omofu</item>
+      <item id="n3" alignment="c3" line="455" tag="G">I    SUBJECT  student  COPULA    EMB    think</item>
+      <item id="n4" alignment="c4" line="456" tag="T">I think I am a student.</item>
+    </tier>
+  </igt>
+  <igt id="igt56" doc-id="lgcol:jpn" line-range="457-459" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="457" tag="M">  author vetted: f</item>
+      <item id="r2" line="458" tag="L">  kokoro  ga  shizuka  nara    ma</item>
+      <item id="r3" line="459" tag="G">  heart  nom   quiet   copula  FUTURE</item>
+      <item id="r4" line="460" tag="T">  `The heart will be settled.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="457" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="458" tag="L">  kokoro  ga  shizuka  nara    ma</item>
+      <item id="c3" alignment="r3" line="459" tag="G">  heart  nom   quiet   copula  FUTURE</item>
+      <item id="c4" alignment="r4" line="460" tag="T">  `The heart will be settled.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="457" tag="M">f</item>
+      <item id="n2" alignment="c2" line="458" tag="L">kokoro  ga  shizuka  nara    ma</item>
+      <item id="n3" alignment="c3" line="459" tag="G">heart  nom   quiet   copula  FUTURE</item>
+      <item id="n4" alignment="c4" line="460" tag="T">The heart will be settled.</item>
+    </tier>
+  </igt>
+  <igt id="igt57" doc-id="lgcol:jpn" line-range="461-463" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="461" tag="M">  author vetted: f</item>
+      <item id="r2" line="462" tag="L">  kokoro  ga  shizuka  nari    keri</item>
+      <item id="r3" line="463" tag="G">  heart  nom   quiet   copula  HEARSAY.PAST</item>
+      <item id="r4" line="464" tag="T">  `(someone said)The heart was be settled.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="461" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="462" tag="L">  kokoro  ga  shizuka  nari    keri</item>
+      <item id="c3" alignment="r3" line="463" tag="G">  heart  nom   quiet   copula  HEARSAY.PAST</item>
+      <item id="c4" alignment="r4" line="464" tag="T">  `(someone said)The heart was be settled.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="461" tag="M">f</item>
+      <item id="n2" alignment="c2" line="462" tag="L">kokoro  ga  shizuka  nari    keri</item>
+      <item id="n3" alignment="c3" line="463" tag="G">heart  nom   quiet   copula  HEARSAY.PAST</item>
+      <item id="n4" alignment="c4" line="464" tag="T">(someone said)The heart was be settled.</item>
+    </tier>
+  </igt>
+  <igt id="igt58" doc-id="lgcol:jpn" line-range="465-467" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="465" tag="M">  author vetted: f</item>
+      <item id="r2" line="466" tag="L">  kokoro  ga  shizuka  nari    ki</item>
+      <item id="r3" line="467" tag="G">  heart  nom   quiet   copula  PERSONAL.PAST</item>
+      <item id="r4" line="468" tag="T">  `(I know that)The heart was be settled.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="465" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="466" tag="L">  kokoro  ga  shizuka  nari    ki</item>
+      <item id="c3" alignment="r3" line="467" tag="G">  heart  nom   quiet   copula  PERSONAL.PAST</item>
+      <item id="c4" alignment="r4" line="468" tag="T">  `(I know that)The heart was be settled.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="465" tag="M">f</item>
+      <item id="n2" alignment="c2" line="466" tag="L">kokoro  ga  shizuka  nari    ki</item>
+      <item id="n3" alignment="c3" line="467" tag="G">heart  nom   quiet   copula  PERSONAL.PAST</item>
+      <item id="n4" alignment="c4" line="468" tag="T">(I know that)The heart was be settled.</item>
+    </tier>
+  </igt>
+  <igt id="igt59" doc-id="lgcol:jpn" line-range="469-471" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="469" tag="M">  author vetted: f</item>
+      <item id="r2" line="470" tag="L">  kokoro  ga  shizuka  nara    ri</item>
+      <item id="r3" line="471" tag="G">  heart  nom   quiet   copula  CONTINUATIVE</item>
+      <item id="r4" line="472" tag="T">  `The heart continues to be settled.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="469" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="470" tag="L">  kokoro  ga  shizuka  nara    ri</item>
+      <item id="c3" alignment="r3" line="471" tag="G">  heart  nom   quiet   copula  CONTINUATIVE</item>
+      <item id="c4" alignment="r4" line="472" tag="T">  `The heart continues to be settled.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="469" tag="M">f</item>
+      <item id="n2" alignment="c2" line="470" tag="L">kokoro  ga  shizuka  nara    ri</item>
+      <item id="n3" alignment="c3" line="471" tag="G">heart  nom   quiet   copula  CONTINUATIVE</item>
+      <item id="n4" alignment="c4" line="472" tag="T">The heart continues to be settled.</item>
+    </tier>
+  </igt>
+  <igt id="igt60" doc-id="lgcol:jpn" line-range="473-475" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="473" tag="M">  author vetted: f</item>
+      <item id="r2" line="474" tag="L">  kokoro  ga  shizuka  nara    tari</item>
+      <item id="r3" line="475" tag="G">  heart  nom   quiet   copula  RESULTATIVE</item>
+      <item id="r4" line="476" tag="T">  `The heart has finished being settled.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="473" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="474" tag="L">  kokoro  ga  shizuka  nara    tari</item>
+      <item id="c3" alignment="r3" line="475" tag="G">  heart  nom   quiet   copula  RESULTATIVE</item>
+      <item id="c4" alignment="r4" line="476" tag="T">  `The heart has finished being settled.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="473" tag="M">f</item>
+      <item id="n2" alignment="c2" line="474" tag="L">kokoro  ga  shizuka  nara    tari</item>
+      <item id="n3" alignment="c3" line="475" tag="G">heart  nom   quiet   copula  RESULTATIVE</item>
+      <item id="n4" alignment="c4" line="476" tag="T">The heart has finished being settled.</item>
+    </tier>
+  </igt>
+  <igt id="igt61" doc-id="lgcol:jpn" line-range="477-479" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="477" tag="M">  author vetted: f</item>
+      <item id="r2" line="478" tag="L">  kokoro  ga  shizuka  nara    COMP  omofu</item>
+      <item id="r3" line="479" tag="G">  heart  nom   quiet   copula  COMP  think</item>
+      <item id="r4" line="480" tag="T">  `I think the heart is settled.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="477" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="478" tag="L">  kokoro  ga  shizuka  nara    COMP  omofu</item>
+      <item id="c3" alignment="r3" line="479" tag="G">  heart  nom   quiet   copula  COMP  think</item>
+      <item id="c4" alignment="r4" line="480" tag="T">  `I think the heart is settled.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="477" tag="M">f</item>
+      <item id="n2" alignment="c2" line="478" tag="L">kokoro  ga  shizuka  nara    COMP  omofu</item>
+      <item id="n3" alignment="c3" line="479" tag="G">heart  nom   quiet   copula  COMP  think</item>
+      <item id="n4" alignment="c4" line="480" tag="T">I think the heart is settled.</item>
+    </tier>
+  </igt>
+  <igt id="igt62" doc-id="lgcol:jpn" line-range="481-483" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="481" tag="M">  author vetted: f</item>
+      <item id="r2" line="482" tag="L">  ware ga   yama      ni   ari</item>
+      <item id="r3" line="483" tag="G">  I    nom  mountain  LOC  be.ATTR</item>
+      <item id="r4" line="484" tag="T">  `I am in the mountains.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="481" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="482" tag="L">  ware ga   yama      ni   ari</item>
+      <item id="c3" alignment="r3" line="483" tag="G">  I    nom  mountain  LOC  be.ATTR</item>
+      <item id="c4" alignment="r4" line="484" tag="T">  `I am in the mountains.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="481" tag="M">f</item>
+      <item id="n2" alignment="c2" line="482" tag="L">ware ga   yama      ni   ari</item>
+      <item id="n3" alignment="c3" line="483" tag="G">I    nom  mountain  LOC  be.ATTR</item>
+      <item id="n4" alignment="c4" line="484" tag="T">I am in the mountains.</item>
+    </tier>
+  </igt>
+  <igt id="igt63" doc-id="lgcol:jpn" line-range="485-487" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="485" tag="M">  author vetted: f</item>
+      <item id="r2" line="486" tag="L">  ware ga   yama      ni   ara      ma</item>
+      <item id="r3" line="487" tag="G">  I    nom  mountain  LOC  be.ATTR  FUTURE</item>
+      <item id="r4" line="488" tag="T">  `I will be in the mountains.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="485" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="486" tag="L">  ware ga   yama      ni   ara      ma</item>
+      <item id="c3" alignment="r3" line="487" tag="G">  I    nom  mountain  LOC  be.ATTR  FUTURE</item>
+      <item id="c4" alignment="r4" line="488" tag="T">  `I will be in the mountains.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="485" tag="M">f</item>
+      <item id="n2" alignment="c2" line="486" tag="L">ware ga   yama      ni   ara      ma</item>
+      <item id="n3" alignment="c3" line="487" tag="G">I    nom  mountain  LOC  be.ATTR  FUTURE</item>
+      <item id="n4" alignment="c4" line="488" tag="T">I will be in the mountains.</item>
+    </tier>
+  </igt>
+  <igt id="igt64" doc-id="lgcol:jpn" line-range="489-491" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="489" tag="M">  author vetted: f</item>
+      <item id="r2" line="490" tag="L">  ware ga   yama      ni   ari      kere</item>
+      <item id="r3" line="491" tag="G">  I    nom  mountain  LOC  be.ATTR  HEARSAY.PAST</item>
+      <item id="r4" line="492" tag="T">  `I was in the mountains. (and I know it)'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="489" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="490" tag="L">  ware ga   yama      ni   ari      kere</item>
+      <item id="c3" alignment="r3" line="491" tag="G">  I    nom  mountain  LOC  be.ATTR  HEARSAY.PAST</item>
+      <item id="c4" alignment="r4" line="492" tag="T">  `I was in the mountains. (and I know it)'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="489" tag="M">f</item>
+      <item id="n2" alignment="c2" line="490" tag="L">ware ga   yama      ni   ari      kere</item>
+      <item id="n3" alignment="c3" line="491" tag="G">I    nom  mountain  LOC  be.ATTR  HEARSAY.PAST</item>
+      <item id="n4" alignment="c4" line="492" tag="T">I was in the mountains. (and I know it)</item>
+    </tier>
+  </igt>
+  <igt id="igt65" doc-id="lgcol:jpn" line-range="493-495" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="493" tag="M">  author vetted: f</item>
+      <item id="r2" line="494" tag="L">  ware ga   yama      ni    ari      ki</item>
+      <item id="r3" line="495" tag="G">  I    nom  mountain  LOC   be      PERSONAL.PAST</item>
+      <item id="r4" line="496" tag="T">  `I was in the mountains. (and I know it)'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="493" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="494" tag="L">  ware ga   yama      ni    ari      ki</item>
+      <item id="c3" alignment="r3" line="495" tag="G">  I    nom  mountain  LOC   be      PERSONAL.PAST</item>
+      <item id="c4" alignment="r4" line="496" tag="T">  `I was in the mountains. (and I know it)'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="493" tag="M">f</item>
+      <item id="n2" alignment="c2" line="494" tag="L">ware ga   yama      ni    ari      ki</item>
+      <item id="n3" alignment="c3" line="495" tag="G">I    nom  mountain  LOC   be      PERSONAL.PAST</item>
+      <item id="n4" alignment="c4" line="496" tag="T">I was in the mountains. (and I know it)</item>
+    </tier>
+  </igt>
+  <igt id="igt66" doc-id="lgcol:jpn" line-range="497-499" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="497" tag="M">  author vetted: f</item>
+      <item id="r2" line="498" tag="L">  ware ga   yama      ni   are      ri</item>
+      <item id="r3" line="499" tag="G">  I    nom  mountain  LOC  be.ATTR  CONTINUATIVE</item>
+      <item id="r4" line="500" tag="T">  `I am currently being located in the mountains.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="497" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="498" tag="L">  ware ga   yama      ni   are      ri</item>
+      <item id="c3" alignment="r3" line="499" tag="G">  I    nom  mountain  LOC  be.ATTR  CONTINUATIVE</item>
+      <item id="c4" alignment="r4" line="500" tag="T">  `I am currently being located in the mountains.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="497" tag="M">f</item>
+      <item id="n2" alignment="c2" line="498" tag="L">ware ga   yama      ni   are      ri</item>
+      <item id="n3" alignment="c3" line="499" tag="G">I    nom  mountain  LOC  be.ATTR  CONTINUATIVE</item>
+      <item id="n4" alignment="c4" line="500" tag="T">I am currently being located in the mountains.</item>
+    </tier>
+  </igt>
+  <igt id="igt67" doc-id="lgcol:jpn" line-range="501-503" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="501" tag="M">  author vetted: f</item>
+      <item id="r2" line="502" tag="L">  ware ga   yama      ni   aru      tari</item>
+      <item id="r3" line="503" tag="G">  I    nom  mountain  LOC  be.ATTR  RESULTATIVE</item>
+      <item id="r4" line="504" tag="T">  `I am currently being located in the mountains.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="501" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="502" tag="L">  ware ga   yama      ni   aru      tari</item>
+      <item id="c3" alignment="r3" line="503" tag="G">  I    nom  mountain  LOC  be.ATTR  RESULTATIVE</item>
+      <item id="c4" alignment="r4" line="504" tag="T">  `I am currently being located in the mountains.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="501" tag="M">f</item>
+      <item id="n2" alignment="c2" line="502" tag="L">ware ga   yama      ni   aru      tari</item>
+      <item id="n3" alignment="c3" line="503" tag="G">I    nom  mountain  LOC  be.ATTR  RESULTATIVE</item>
+      <item id="n4" alignment="c4" line="504" tag="T">I am currently being located in the mountains.</item>
+    </tier>
+  </igt>
+  <igt id="igt68" doc-id="lgcol:jpn" line-range="505-507" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="505" tag="M">  author vetted: f</item>
+      <item id="r2" line="506" tag="L">  ware ga   yama      ni   aru      to    omofu</item>
+      <item id="r3" line="507" tag="G">  I    nom  mountain  LOC  be.ATTR  COMP  think</item>
+      <item id="r4" line="508" tag="T">  `I think I am in the mountains.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="505" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="506" tag="L">  ware ga   yama      ni   aru      to    omofu</item>
+      <item id="c3" alignment="r3" line="507" tag="G">  I    nom  mountain  LOC  be.ATTR  COMP  think</item>
+      <item id="c4" alignment="r4" line="508" tag="T">  `I think I am in the mountains.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="505" tag="M">f</item>
+      <item id="n2" alignment="c2" line="506" tag="L">ware ga   yama      ni   aru      to    omofu</item>
+      <item id="n3" alignment="c3" line="507" tag="G">I    nom  mountain  LOC  be.ATTR  COMP  think</item>
+      <item id="n4" alignment="c4" line="508" tag="T">I think I am in the mountains.</item>
+    </tier>
+  </igt>
+</xigt-corpus>

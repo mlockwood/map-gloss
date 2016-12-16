@@ -1,0 +1,4643 @@
+# $Id: pbt-testsuite.txt 12271 2010-03-06 06:47:00Z jscott42 $
+Language:  Pashto, Southern
+Language code:  pbt
+Author:  Justin Kauhl (kauhl.at.uw.edu), Jeffry Scott (jscott42.at.uw.edu)
+Date:  $Date:: 2010-03-05 22:47:00#$
+Source a: Shafeev, D. 1964. A short grammatical outline of Pashto.
+Source b: Roberts, Taylor. 2001. Split-agreement and ergativity in Pashto.
+Source c: Babrakzai, F. 1999. Topics in Pashto syntax. University of Hawaii.
+Source d: Khan, Mohammad A., and Fatima T. Zuhra. 2006b. A Computation-Based Study of the Past Tense Verbs in Pashto.
+Source e: Khan, Mohammad A., and Fatima T. Zuhra. 2007. The Computational Morphology of Pashto Nouns.
+Source f: Rosetta Project 1000 Language Archive. 2002. Pashto, Southern Grammar. The Long Now Foundation.
+
+
+
+
+
+###################################################################
+# 01. Basic Word Order
+
+Id:   1.  01.01 SOV word order-  intransitive SV
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  word order
+pisho         natsi
+pisho         nats-i
+cat:F.SG.ABS  dance:INTR-3SG.PRS
+'Cat dances.'
+
+Id:   2.  01.02  SOV word order-  intransitive VS ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  word order
+* natsi               pisho
+* nats-i              pisho
+* dance:INTR-3SG.PRS  cat:F.SG.ABS
+'* Dances cat.'
+
+Id:   3.  01.03  SOV word order-  grammatical
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  word order
+pisho         spe           taqibawi
+pisho         sp-e          taqibaw-i
+cat:F.SG.ABS  dog:M-SG.ABS  chase:TR-3SG.PRS
+'Cat chases dog.'
+
+Id:   4.  01.04  SOV word order-  transitive SVO ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  word order
+* pisho         taqibawi          spe
+* pisho         taqibaw-i         sp-e
+* cat:F.SG.ABS  chase:TR-3SG.PRS  dog:M-SG.ABS
+'* Cat chases dog.'
+
+Id:   5.  01.05  SOV word order-  transitive OVS ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  word order
+* spe           taqibawi          pisho
+* sp-e          taqibaw-i         pisho
+* dog:M-SG.ABS  chase:TR-3SG.PRS  cat-F.SG.ABS
+'* Dog chases cat.'
+
+Id:   6.  01.06  SOV word order-  transitive SV, missing Object, grammatical w/ argument optionality
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  word order
+pisho         taqibawi
+pisho         taqibaw-i
+cat-F.SG.ABS  chase:TR-3SG.PRS
+'Cat chases.'
+
+Id:   7.  01.07  SOV word order-  transitive VO, missing Subject, grammatical
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  word order
+spe           taqibawi
+sp-e          taqibaw-i
+dog:M-SG.ABS  chase:TR-3SG.PRS
+'Dog chases (him/her).'
+
+Id:   8.  01.08  SOV word order-  transitive VS, missing Object ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  word order
+* taqibawi          pisho
+* taqibaw-i         pisho
+* chase:TR-3SG.PRS  cat-F.SG.ABS
+'* Chases cat.'
+
+Id:   9.  01.09 SOV word order-  transitive VO, missing Subject ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  word order
+* taqibawi          spe
+* taqibaw-i         sp-e
+* chase:TR-3SG.PRS  dog:M-SG.ABS
+'* Chases dog.'
+
+Id:  10.  01.10  SOV word order-  transitive VOS ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  word order
+* taqibawi          spe           pisho
+* taqibaw-i         sp-e          pisho
+* chase:TR-3SG.PRS  dog:M-SG.ABS  cat:F.SG.ABS
+'* Chases dog cat.'
+
+Id:  11.  01.11  SOV word order-  transitive VS0 ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  word order
+* taqibawi          pisho         spe
+* taqibaw-i         pisho         sp-e
+* chase:TR-3SG.PRS  cat:F.SG.ABS  dog:M-SG.ABS
+'* Chases cat dog.'
+
+
+
+
+###################################################################
+# 02. Pronouns
+
+Id:  12.  02.01  Pronoun Use - Subject Position 3rd person
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  pronouns
+day               liki
+day               lik-i
+pronoun:M.SG.ABS  write:INTR-3SG.PRS
+'He writes.'
+
+Id:  13.  02.02 Pronoun Use - Object Position 3rd person
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  pronouns
+spe           day                taqibawi
+sp-e          day                taqibaw-i
+dog:M-SG.ABS  pronoun:M.3SG.ABS  chase:TR-3SG.PRS
+'(The) dog chases him.'
+
+Id:  14.  02.03  Pronoun Use - Agent Position/Present 3rd person
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  pronouns
+day                spe            taqibawi
+day                sp-e           taqibaw-i
+pronoun:M.3SG.ABS  dog:M-3SG.ABS  chase:TR-3SG.PRS
+'He chases (the) dog.'
+
+Id:  15.  02.04  Pronoun Use - Subject Position 2nd person
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  pronouns
+te               like
+te               lik-e
+pronoun:2SG.ABS  write:INTR-2SG.PRS
+'You write.'
+
+Id:  16.  02.05  Pronoun Use - Object Position 2nd person
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  pronouns
+spe           te               taqibawi
+sp-e          te               taqibaw-i
+dog:M-SG.ABS  pronoun:2SG.ABS  chase:TR-3SG.PRS
+'(The) dog chases you.'
+
+Id:  17.  02.06  Pronoun Use - Agent Position/Present 2nd person
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  pronouns
+te               spe           taqibawe
+te               sp-e          taqibaw-e
+pronoun:2SG.ABS  dog:M-SG.ABS  chase:TR-2SG.PRS
+'You chase (the) dog.'
+
+
+Id:  18.  02.07  Pronoun Use - Subject Position 1st person
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  pronouns
+ze               likem
+ze               lik-em
+pronoun:1SG.ABS  write:INTR-1SG.PRS
+'I write.'
+
+Id:  19.  02.08  Pronoun Use - Object Position 1st person
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  pronouns
+spe           ze               taqibawi
+sp-e          ze               taqibaw-i
+dog:M-SG.ABS  pronoun:1SG.ABS  chase:TR-3SG.PRS
+'(The) dog chases me.'
+
+Id:  20.  02.09 Pronoun Use - Agent Position/Present 1st person  #### TODO:  check on 3 overparses
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  pronouns
+ze               spe           taqibawem
+ze               sp-e          taqibaw-em
+pronoun:1SG.ABS  dog:M-SG.ABS  chase:TR-1SG.PRS
+'I chase (the) dog.'
+
+
+
+
+###################################################################
+# 03. The Rest of the NP
+
+# 03. Determiners:  determiners are opitional, there is no
+#       case where determiners are required or prohibited.
+
+Id:  21.  03.01  Determiners - Indefinite D-N position  #### TODO: Jeff, should parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+ze               yaw          spe           taqibawem
+ze               yaw          sp-e          taqibaw-em
+pronoun:1SG.ABS  one(a):M.SG  dog:M-SG.ABS  chase:TR-1SG.PRS
+'I chase one(a) dog.'
+
+Id:  22.  03.02  Determiners - Indefinite N-D position
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* ze               spe           yaw          taqibawem
+* ze               sp-e          yaw          taqibaw-em
+* pronoun:1SG.ABS  dog:M-SG.ABS  one(a):M.SG  chase:TR-1SG.PRS
+'* I chase one(a) dog.'
+
+Id:  23.  03.03 Determiners - Quantifier position  #### TODO:  Jeff, fix declension for har
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+ze               har          spe           taqibawem
+ze               har          sp-e          taqibaw-em
+pronoun:1SG.ABS  each:SG.ABS  dog:M-SG.ABS  chase:TR-1SG.PRS
+'I chase each dog.'
+
+Id:  24.  03.04  Determiners -  Multiple determiners D-D-N
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* ze               har          yaw          spe           taqibawem
+* ze               har          yaw          sp-e          taqibaw-em
+* pronoun:1SG.ABS  each:SG.ABS  one(a):M.SG  dog:M-SG.ABS  chase:TR-1SG.PRS
+'* I chase each dog.'
+
+Id:  25.  03.05  Determiners -  Multiple determiners D-N-D
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* ze               har          spe           yaw          taqibawem
+* ze               har          sp-e          yaw          taqibaw-em
+* pronoun:1SG.ABS  each:SG.ABS  dog:M-SG.ABS  one(a):M.SG  chase:TR-1SG.PRS
+'* I chase each dog.'
+
+Id:  26.  03.06 Determiners -  Multiple determiners N-D-D
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* ze               spe           har          yaw          taqibawem
+* ze               sp-e          har          yaw          taqibaw-em
+* pronoun:1SG.ABS  dog:M-SG.ABS  each:SG.ABS  one(a):M.SG  chase:TR-1SG.PRS
+'* I chase each dog.'
+
+Id:  27.  03.07  Determiners - Absent Determiner
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+ze               spe           taqibawem
+ze               sp-e          taqibaw-em
+pronoun:1SG.ABS  dog:M-SG.ABS  chase:TR-1SG.PRS
+'I chase (the) dog.'
+
+Id:  28.  03.08  Determiners - Determiners and Pronouns
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* ze               har          likem
+* ze               har          lik-em
+* pronoun:1SG.ABS  each:SG.ABS  write:INTR-1SG.PRS
+'* Each I write.'
+
+Id:  29.  03.09  Determiners - Determiners and Pronouns
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* har          ze               likem
+* har          ze               lik-em
+* each:SG.ABS  pronoun:1SG.ABS  write:INTR-1SG.PRS
+'* Each I write.'
+
+
+# 03.1xx  Adjectives:
+
+#### Id: 03.101  Adjectives:
+#### Source: c:1
+#### Vetted: f
+#### Judgment: g
+#### Phenomena:  adjective
+#### haye          yaw          Xaista     as     waxeesto
+#### haye          yaw          Xaista     as     waxeest-o
+#### pronoun:M.3SG.ERG  one(a):M.SG  beautiful  horse  bought:TR-M.3SG.PRS.ABS
+#### 'He bought a(one) beautiful horse.'
+
+
+
+
+###################################################################
+# 04. Argument Optionality
+
+Id:  30.  04.01 Argument Optionality:  tverb o
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Subject Optionality Present Tense Transitive
+* taqibawi          ze
+* taqibaw-i         ze
+* chase:TR-3SG.PRS  pronoun:1SG.ABS
+'* He chases me.'
+
+Id:  31.  04.02 Argument Optionality:  tverb o s  ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Subject Optionality Present Tense Transitive
+* taqibawi          ze               day
+* taqibaw-i         ze               day
+* chase:TR-3SG.PRS  pronoun:1SG.ABS  pronoun:M-3SG.ABS
+'* He chases me.'
+
+Id:  32.  04.03 Argument Optionality:  s  o  tverb
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Subject Optionality Present Tense Transitive
+day                ze               taqibawi
+day                ze               taqibaw-i
+pronoun:M-3SG.ABS  pronoun:1SG.ABS  chase:TR-3SG.PRS
+'He chases me.'
+
+Id:  33.  04.04 Argument Optionality #### TODO:  couldn't this also be 'She chases me.'  Why not two parses?
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Subject Optionality Present Tense Transitive
+ze               taqibawi
+ze               taqibaw-i
+pronoun:1SG.ABS  chase:TR-3SG.PRS
+'(He) chases me.'
+
+Id:  34.  04.05 Argument Optionality
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Subject Optionality Past Tense Transitive
+ze               taqibawem
+ze               taqibaw-em
+pronoun:1SG.ABS  chase:TR-1SG.PST
+'I chased (me).'
+
+Id:  35.  04.06 Argument Optionality
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Subject Optionality Past Tense Intransitive
+natsa
+nats-a
+dance:INTR-F.3SG.PRS
+'(She) dances.'
+
+Id:  36.  04.07 Argument Optionality:  baseline, no missing arguments
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Object Optionality Past Tense Transitive
+de                 ze               taqibawem
+de                 ze               taqibaw-em
+pronoun:M-3SG.ERG  pronoun:1SG.ABS  chase:TR-1SG.PST
+'He chased me.'
+
+Id:  37.  04.08 Argument Optionality
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Object Optionality Past Tense Transitive
+de                 taqibawem
+de                 taqibaw-em
+pronoun:M-3SG.ERG  chase:TR-1SG.PST
+'He chased (me).'
+
+Id:  38.  04.09 Argument Optionality:  optional object.ABS-verb.PST CASE mismatch ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Object Optionality Present Tense Transitive
+* de                 taqibawi
+* de                 taqibaw-i
+* pronoun:M-3SG.ERG  chase:TR-3SG.PST
+'* He chased (me).'
+
+Id:  39.  04.10 Argument Optionality:  dropped subject and object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Subject Optionality
+natsi
+nats-i
+dance:INTR-F.3SG.PRS
+'(She) dances.'
+
+
+
+###################################################################
+# 05. Agreement
+
+Id:  40.  05.01  Subject/Verb Agreement
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Subject/Verb Agreement Intrans 3sg Subject
+day               liki
+day               lik-i
+pronoun:M.SG.ABS  write:INTR-3SG.PRS
+'He writes.'
+
+
+Id:  41.  05.02  Subject/Verb Agreement:  pronoun-verb NUMBER mismatch ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Subject/Verb Agreement Intrans 3sg Subject
+* day               likem
+* day               lik-em
+* pronoun:M.SG.ABS  write:INTR-1SG.PRS
+'* He writes.'
+
+
+Id:  42.  05.03  Subject/Verb Agreement:  pronoun-verb NUMBER mismatch ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Subject/Verb Agreement Intrans 3sg Subject
+* day               liku
+* day               lik-u
+* pronoun:M.SG.ABS  write:INTR-1PL.PRS
+'* He writes.'
+
+
+Id:  43.  05.04  Subject/Verb Agreement:  pronoun-verb NUMBER mismatch ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Subject/Verb Agreement Intrans 3sg Subject
+* day               like
+* day               lik-e
+* pronoun:M.SG.ABS  write:INTR-2SG.PRS
+'* He writes.'
+
+
+Id:  44.  05.05  Subject/Verb Agreement:  pronoun-verb.PST
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Subject/Verb Agreement Intrans 3sg Subject
+day               likey
+day               lik-ey
+pronoun:M.SG.ABS  write:INTR-M.3SG.PST
+'He wrote.'
+
+
+Id:  45.  05.06  Subject/Verb Agreement:  pronoun-object.3SG-verb.PRS
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Subject/Verb Agreement Trans 1sg Subject
+ze               spe           taqibawem
+ze               sp-e          taqibaw-em
+pronoun:1SG.ABS  dog:M-SG.ABS  chase:TR-1SG.PRS
+'I chase (the) dog.'
+
+
+Id:  46.  05.07  Subject/Verb Agreement:  pronoun-verb NUMBER mismatch ***  #### TODO: Justin should not parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Subject/Verb Agreement Trans 1sg Subject
+* ze               spe           taqibawu
+* ze               sp-e          taqibaw-u
+* pronoun:1SG.ABS  dog:M-SG.ABS  chase:TR-1PL.PRS
+'* I chase (the) dog.'
+
+
+Id:  47.  05.08  Subject/Verb Agreement:  pronoun-verb CASE mismatch ***  #### TODO: Justin should not parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Subject/Verb Agreement Trans 1sg Subject
+* ze               spe           taqibawe
+* ze               sp-e          taqibaw-e
+* pronoun:1SG.ABS  dog:M-SG.ABS  chase:TR-2SG.PRS
+'* I chase (the) dog.'
+
+
+Id:  48.  05.09  Subject/Verb Agreement:  pronoun-verb NUMBER mismatch ***  #### TODO: Justin should not parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Subject/Verb Agreement Trans 1sg Subject
+* ze               spe           taqibawey
+* ze               sp-e          taqibaw-ey
+* pronoun:1SG.ABS  dog:M-SG.ABS  chase:TR-2PL.PRS
+'* I chase (the) dog.'
+
+
+Id:  49.  05.10  Subject/Verb Agreement:  pronoun-verb NUMBER mismatch   **** TODO Justin should not parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Subject/Verb Agreement Trans 1sg Subject
+* ze               spe           taqibawi
+* ze               sp-e          taqibaw-i
+* pronoun:1SG.ABS  dog:M-SG.ABS  chase:TR-3P.PRS
+'* I chase (the) dog.'
+
+
+Id:  50.  05.11  Subject/Verb Agreement
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Subject/Verb Agreement Itr 3pl Subject abs-pres
+pishoganee     liki
+pisho-ganee    lik-i
+cat:F-3PL.ABS  write:ITR-3PL.PRS
+'(the) Cats write.'
+
+
+Id:  51.  05.12  Subject/Verb Agreement, CASE mismatch ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Subject/Verb Agreement Itr 3pl Subject erg-pres
+* pishogano      liki
+* pisho-gano     lik-i
+* cat:F-3PL.ERG  write:ITR-3PL.PRS
+'* (The) cats write.'
+
+
+Id:  52.  05.13  Noun/Det Agreement
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Noun/Det Agreement
+da            pisho        liki
+da            pisho        lik-i
+this:3SG.ABS  cat:3SG.ABS  write:ITR-PRS.3SG
+'This cat writes'
+
+
+Id:  53.  05.14  Noun/Det Agreement, CASE mismatch ***  #### TODO Jeff should not parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Noun/Det Agreement
+* de            pisho        liki
+* de            pisho        lik-i
+* this:3SG.ERG  cat:3SG.ABS  write:ITR-3SG.PRS
+'* This cat writes.'
+
+
+Id:  54.  05.15  Noun/Verb Agreement
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Noun/verb Agreement
+pishogano     spi           taqibawelay  se
+pisho-gano    sp-i          taqibawelay  se
+cat:F-PL.ERG  dog-M.PL.ABS  chase-POT    can:AUX.3PL.PST
+'Cats could chase dogs.'
+
+
+Id:  55.  05.16  Noun/Verb Agreement
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Noun/Verb Agreement
+spo           pishoganee    taqibawelay  se
+sp-o          pisho-ganee   taqibawelay  se
+dog-M.PL.ERG  cat:F-PL.ABS  chase-POT    can:AUX.3PL.PST
+'Dogs could chase cats.'
+
+
+
+
+###################################################################
+# 06. Case
+
+# Intransitive verb:  'natsel' (to dance) present
+Id:  56.  06.1.1.1  Agreement, Intransitive Verb, Case- N:M.SG.ABS-V:M.3SG.PRS.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Agreement, Case, Number
+spe           natsi
+sp-e          nats-i
+spe-M.SG.ABS  dance:ITR-3SG.PRS
+'(A) dog dances.'
+
+
+Id:  57.  06.1.1.2 Agreement, Intransitive Verb, Case- N:F.SG.ABS-V:F.3SG.PRS.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Agreement, Case, Number
+pisho         natsi
+pisho         nats-i
+cat:F.SG.ABS  dance:ITR-3SG.PRS
+'(A) cat dances.'
+
+
+Id:  58.  06.1.1.3  Agreement, Intransitive Verb, Case- N:M.PL.ABS-V:3PL.PRS.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Agreement, Case, Number
+spi           natsi
+sp-i          nats-i
+dog-M.PL.ABS  dance:ITR-3PL.PRS
+'Dogs dance.'
+
+
+Id:  59.  06.1.1.4  Agreement, Intransitive Verb, Case- N:F.PL.ABS-V:3PL.PRS.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Agreement, Case, Number
+pishoganee    natsi
+pisho-ganee   nats-i
+cat:F.PL.ABS  dance:ITR-3PL.PRS
+'Cats dance.'
+
+
+Id:  60.  06.1.1.5  Agreement, Intransitive Verb, Case- N:F.PL.ERG-V:3PL.PRS.ABS ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Agreement, Case
+* pishogano     natsi
+* pisho-gano    nats-i
+* cat:F.PL.ERG  dance:ITR-3PL.PRS
+'* Cats dance.'
+
+
+Id:  61.  06.1.2.1  Agreement, Case- N:M.SG.ABS-V:M.3SG.PST.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Agreement, Case, Number
+spe           natsey
+sp-e          nats-ey
+dog-M.SG.ABS  dance:ITR-M.3SG.PST
+'(A) dog dances.'
+
+#### TODO:  57.2  06.1.2.2  * sp-i M.PL.ABS  nats-ey  ITR-M.3SG.PST
+
+Id:  62.  06.1.2.3  Agreement, Case- N:F.SG.ABS-V:M.3SG.PST.ABS ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Agreement, Number
+* pisho         natsey
+* pisho         nats-ey
+* cat:F-SG.ABS  dance:ITR-M.3SG.PST
+'* (A) cat dances.'
+
+#### TODO:  57.4  06.1.2.4  * pisho-ganee F.PL.ABS  nats-ey  ITR-M.3SG.PST
+#### TODO:  57.5  06.1.2.5  * pisho-gano F.PL.ERG  nats-ey  ITR-M.3SG.PST
+
+Id:  63.  06.1.2.6  Agreement, Case- N:F.SG.ABS-V:3SG.PST.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Agreement, Case
+pisho         natsa
+pisho         nats-a
+cat:F-SG.ABS  dance:ITR-F.3SG.PST
+'(A) cat dances.'
+
+
+Id:  64.  06.1.2.7  Agreement, Case- N:M.SG.ABS-V:3SG.PST.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Agreement, Number
+* spe           natsa
+* sp-e          nats-a
+* dog-M.PL.ABS  dance:ITR-F.3SG.PST
+'* (A) dog dances.'
+
+#### TODO:  * sp-i M.PL.ABS  nats-a  ITR-F.3SG.PST
+
+Id:  65.  06.1.2.8  Agreement, Case- N:F.PL.ABS-V:3SG.PST.ABS ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Agreement, Number
+* pishoganee    natsa
+* pisho-ganee   nats-a
+* cat:F-PL.ABS  dance:ITR-3SG.PST
+'* Cats dance.'
+
+
+Id:  66.  06.1.2.9  Agreement, Case- N:F.PL.ERG-V:3SG.PST.ABS ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Agreement, Case
+* pishogano     natsa
+* pisho-gano    nats-a
+* cat:F-PL.ERG  dance:ITR-3PL.PST
+'* Cats dance.'
+
+
+Id:  67.  06.1.2.10  Agreement, Case- N:M.PL.ABS-V:M.3PL.PST.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Agreement, Case
+spi           natsel
+sp-i          nats-el
+dog:M-PL.ABS  dance:ITR-M.3PL.PST
+'Dogs danced.'
+
+#### TODO:  61.2  06.1.2.11  * sp-e M.SG.ABS  nats-el  ITR-M.3PL.PST
+#### TODO:  61.3  06.1.2.12  * pisho F.SG.ABS  nats-el  ITR-M.3PL.PST
+#### TODO:  61.4  06.1.2.13  * pisho-ganee F.PL.ABS  nats-el  ITR-M.3PL.PST
+#### TODO:  61.5  06.1.2.14  * pisho-gano F.PL.ERG  nats-el  ITR-M.3PL.PST
+
+Id:  68.  06.1.2.15  Agreement, Case- N:F.PL.ABS-V:F.3PL.PST.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Agreement, Case
+pishoganee    natse
+pisho-ganee   nats-e
+cat:F-PL.ABS  dance:ITR-F.3PL.PST
+'Cats danced.'
+
+#### 61.7  06.1.2.16  TODO:  * sp-e M.SG.ABS  nats-e  ITR-F.3PL.PST
+#### 61.8  06.1.2.16  TODO:  * sp-i M.PL.ABS  nats-e  ITR-F.3PL.PST
+
+Id:  69.  06.1.2.17  Agreement, Case- N:F.SG.ABS-V:F.3PL.PST.ABS ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Agreement, Number
+* pisho         natse
+* pisho         nats-e
+* cat:F-SG.ABS  dance:ITR-F.3PL.PST
+'* (A) cat danced.'
+
+
+Id:  70.  06.1.2.18  Agreement, Case- N:F.PL.ERG-V:3PL.PST.ABS ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Agreement, Case
+* pishogano     natse
+* pisho-gano    nats-e
+* cat:F-PL.ERG  dance:ITR-3PL.PST
+'* Cats danced.'
+
+
+Id:  71.  06.3.1  Agreement, Case- N:M.SG.ABS-V:3SG.FUT.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Agreement, Case
+spe           vunatsi
+sp-e          vu-nats-i
+dog-M.SG.ABS  FUT-dance:ITR-M.3SG.PRS
+'(A) dog will dance.'
+
+
+Id:  72.  06.3.2  Agreement, Case- N:F.SG.ABS-V:3SG.FUT.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Agreement, Case
+pisho         vunatsi
+pisho         vu-nats-i
+cat:F.SG.ABS  FUT-dance:ITR-F.3SG.PRS
+'(A) cat will dance.'
+
+
+Id:  73.  06.3.3  Agreement, Case- N:M.PL.ABS-V:PL.FUT.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Agreement, Case
+spi           vunatsi
+sp-i          vu-nats-i
+dog:M-PL.ABS  FUT-dance:ITR-3PL.PRS
+'Dogs will dance.'
+
+
+Id:  74.  06.3.4  Agreement, Case- N:F.PL.ABS-V:3PL.FUT.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Agreement, Case
+pishoganee    vunatsi
+pisho-ganee   vu-nats-i
+cat:F-PL.ABS  FUT-dance:ITR-3PL.PRS
+'Cats will dance.'
+
+
+Id:  75.  06.3.5  Agreement, Case- N:F.PL.ERG-V:3PL.FUT.ABS ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Agreement, Case
+* pishogano     vunatsi
+* pisho-gano    vu-nats-i
+* cat:F-PL.ERG  FUT-dance:ITR-3PL.PRS
+'* Cats will dance.'
+
+
+#### TODO Id: 06.2.01  Case:  noun-abs noun-abs trans-verb-prs
+#### TODO Id: 06.2.02  Case: *noun-abs noun-erg trans-verb-prs
+#### TODO Id: 06.2.03  Case: *noun-erg noun-abs trans-verb-prs
+#### TODO Id: 06.2.04  Case: *noun-erg noun-erg trans-verb-prs
+
+#### TODO Id: 06.3.01  Case:  noun-erg noun-abs trans-verb-pst
+#### TODO Id: 06.3.02  Case: *noun-abs noun-abs trans-verb-pst
+#### TODO Id: 06.3.03  Case: *noun-abs noun-erg trans-verb-pst
+#### TODO Id: 06.3.04  Case: *noun-erg noun-erg trans-verb-pst
+
+
+
+
+
+
+###################################################################
+# 07. Sentential Negation
+
+Id:  76.  07.01  Sentenial Negation Intransitive Neg-V
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  negation
+day               na            liki
+day               na            lik-i
+pronoun:M.SG.ABS  not:negation  write:INTR-3SG.PRS
+'He doesn''t write.'
+
+Id:  77.  07.02  Sentenial Negation Intransitive Neg.V, naliki is not recognized ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  negation
+* day               naliki
+* day               nalik-i
+* pronoun:M.SG.ABS  NEG-write:INTR-3SG.PRS
+'* He doesn''t write.'
+
+Id:  78.  07.03  Sentenial Negation Intransitive VP-Neg, bad word order ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  negation
+* day               liki                na
+* day               lik-i               na
+* pronoun:M.SG.ABS  write:INTR-3SG.PRS  not:NEG
+'* He doesn''t write.'
+
+Id:  79.  07.04  Sentenial Negation Intransitive Neg-S, bad word order ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  negation
+* na       day               liki
+* na       day               lik-i
+* not:NEG  pronoun:M.SG.ABS  write:INTR-3SG.PRS
+'* He doesn''t write.'
+
+Id:  80.  07.05  Sentenial Negation Transitive Neg-VP, bad word order ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  negation
+* ze               na       spe           taqibawem
+* ze               na       sp-e          taqibaw-em
+* pronoun:1SG.ABS  not:NEG  dog:M-SG.ABS  chase:TR-1SG.PRS
+'* I don''t chase (the) dog.'
+
+
+Id:  81.  07.06  Sentenial Negation Transitive Neg-V  #### TODO:  Justin, check on overgeneration (4)
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  negation
+ze               spe           na       taqibawem
+ze               sp-e          na       taqibaw-em
+pronoun:1SG.ABS  dog:M-SG.ABS  not:NEG  chase:TR-1SG.PRS
+'I don''t chase (the) dog.'
+
+Id:  82.  07.07  Negation Transitive Perfective Negation  #### TODO:  Justin, check on overgeneration (3)
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  negation
+ze               spe           vunataqibawem
+ze               sp-e          vu-na-taqibaw-em
+pronoun:1SG.ABS  dog:M-SG.ABS  PER-NEG-chase:TR-1SG.PRS
+'I haven''t been chasing the dog.'
+
+Id:  83.  07.08  Sentenial Negation Transitive Perfective Negation, missing token NAVUTAQIBAWE ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  negation
+* ze               spe           navutaqibawem
+* ze               sp-e          na-vu-taqibaw-em
+* pronoun:1SG.ABS  dog:M-SG.ABS  NEG-PER-chase:TR-1SG.PRS
+'* I haven''t been chasing the dog.'
+
+Id:  84.  07.09  Sentenial Negation Transitive Perfective Neg-V, xxxx ***  #### TODO:  Justin, should not parse, also, why ungrammatical?
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  negation
+* ze               spe           na       vutaqibawem
+* ze               sp-e          na       vu-taqibaw-em
+* pronoun:1SG.ABS  dog:M-SG.ABS  not:NEG  PER-chase:TR-1SG.PRS
+'* I haven''t been chasing the dog.'
+
+
+
+
+###################################################################
+# 08. Matrix yes-no questions
+
+Id:  85.  08.01  Matrix Yes/No Question: rising intonation
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  q
+spe           natsi                  ?
+sp-e          nats-i                 ?
+dog-M.SG.ABS  dance:ITR-3SG.PRS.ABS  ?
+'(Does the) dog dance?'
+
+Id:  86.  08.02  Matrix Yes/No Question: tag question
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  q
+spe            natsi                  ka_na       ?
+sp-e           nats-i                 ka_na       ?
+dog:M-3SG.ABS  dance:ITR-3SG.PRS.ABS  if+not:TAG  ?
+'(The) dog dances, doesn''t he?'
+
+Id:  87.  08.03  Matrix Yes/No Question: tag question, bad word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  q
+* ka_na       spe            natsi                  ?
+* ka_na       sp-e           nats-i                 ?
+* if+not:TAG  dog:M-3SG.ABS  dance:ITR-3SG.PRS.ABS  ?
+'* (The) dog dances, doesn''t he?'
+
+Id:  88.  08.04  Matrix Yes/No Question: tag question, bad word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  q
+* spe            ka_na       natsi                  ?
+* sp-e           ka_na       nats-i                 ?
+* dog:M-3SG.ABS  if+not:TAG  dance:ITR-3SG.PRS.ABS  ?
+'* (The) dog dances, doesn''t he?'
+
+Id:  89.  08.05  Matrix Yes/No Question: tag question
+Source:     author:scott    # Based on c:68
+Vetted:     f
+Judgment:   g
+Phenomena:  q
+xpel                    wrar              parun          ravi           ka_na       ?
+xpel                    wrar              parun          rav-i          ka_na       ?
+ones+own:PN.POSS-M.3SG  brother:M-SG.ABS  yesterday:ADV  come:TR-M.3SG  if+not:TAG  ?
+'Your brother came yesterday, didn''t he?'
+
+Id:  90.  08.06  Matrix Yes/No Question: tag question, bad word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  q
+* sta                 wrar              parun          ka_na       ravi           ?
+* st-a                wrar              parun          ka_na       rav-i          ?
+* your:PN.POSS-M.3SG  brother:M-SG.ABS  yesterday:ADV  if+not:TAG  come:TR-M.3SG  ?
+'* Your brother came yesterday, didn''t he?'
+
+Id:  91.  08.07  Matrix Yes/No Question: tag question, bad word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  q
+* sta                 wrar              ka_na       parun          ravi           ?
+* st-a                wrar              ka_na       parun          rav-i          ?
+* your:PN.POSS-M.3SG  brother:M-SG.ABS  if+not:TAG  yesterday:ADV  come:TR-M.3SG  ?
+'* Your brother came yesterday, didn''t he?'
+
+Id:  92.  08.08  Matrix Yes/No Question: tag question, bad word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  q
+* sta                 ka_na       wrar              parun          ravi           ?
+* st-a                ka_na       wrar              parun          rav-i          ?
+* your:PN.POSS-M.3SG  if+not:TAG  brother:M-SG.ABS  yesterday:ADV  come:TR-M.3SG  ?
+'* Your brother came yesterday, didn''t he?'
+
+Id:  93.  08.09  Matrix Yes/No Question: tag question, bad word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  q
+* ka_na       sta                 wrar              parun          ravi           ?
+* ka_na       st-a                wrar              parun          rav-i          ?
+* if+not:TAG  your:PN.POSS-M.3SG  brother:M-SG.ABS  yesterday:ADV  come:TR-M.3SG  ?
+'* Your brother came yesterday, didn''t he?'
+
+Id:  94.  08.10  Matrix Yes/No Question: tag question
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+te           natse                ka_na        ?
+te           nats-e               ka+na        ?
+pronoun:2SG  dance:ITRAN-2SG.PRS  if+not:CONJ  ?
+'(Don''t) you dance?'
+
+Id:  95.  08.11  Matrix Yes/No Question: tag question, bad word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Present Tense
+* ka_na        te           natse                ?
+* ka_na        te           nats-e               ?
+* if+not:CONJ  pronoun:2SG  dance:ITRAN-2SG.PRS  ?
+'* (Don''t) you dance?'
+
+Id:  96.  08.12  Matrix Yes/No Question: tag question, incorrect conjunction ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Present Tense
+* te           natse                ce         ?
+* te           nats-e               ce         ?
+* pronoun:2SG  dance:ITRAN-2SG.PRS  that:CONJ  ?
+'* (Don''t) you dance?'
+
+Id:  97.  08.13  Matrix Yes/No Question: tag question, incorrect conjunction ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Present Tense
+* ce         te           natse                ?
+* ce         te           nats-e               ?
+* that:CONJ  pronoun:2SG  dance:ITRAN-2SG.PRS  ?
+'* (Don''t) you dance?'
+
+
+
+
+
+
+###################################################################
+# 09. Embedded clauses
+
+#### TODO: Fix ambiguity with the interaction between bare-NP's and embedded clauses.
+
+
+Id:  98.  09.01  Embedded clauses
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Embedded clauses (Object position)
+spe           angeri              ce         pisho         natsa
+sp-e          anger-i             ce         pisho         nats-a
+dog:M-SG.ABS  think:TRAN-3SG.PRS  that:CONJ  cat:F.SG.ABS  dance:INTR-3SG.PST
+'(the) dog thinks [that the cat danced].'
+
+Id:  99.  09.01.1  Embedded clauses:  main clause of 09.01, test of verb marked as embedded enabled, should not work as 'think' requires subordinate clause ***#### TODO: Jeff should not parse, remove bogus lexical entry
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Embedded clauses (Object position)
+* spe           angeri
+* sp-e          anger-i
+* dog:M-SG.ABS  think:TRAN-3SG.PRS
+'* (the) dog thinks.'
+
+Id: 100.  09.01.2  Embedded clauses:  subordinate clause of 09.01, missing main clause ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  Embedded clauses (Object position)
+* ce         pisho         natsa
+* ce         pisho         nats-a
+* that:COMP  cat:F.SG.ABS  dance:INTR-3SG.PST
+'* That (The) cat danced].'
+
+####    # Id: 09.02  Embedded clauses  #### TODO:  removed paticle 'da'.  Change grammar and allow 'da'
+####    Source:     author:kauhl
+####    Vetted:     f
+####    Judgment:   g
+####    Phenomena:  Embedded clauses (Object position)
+####    spe           da        angeri              ce         pisho         natsi
+####    sp-e          da        anger-i             ce         pisho         nats-i
+####    dog:M-SG.ABS  this:ABS  think:TRAN-3SG.PRS  that:CONJ  cat:F.SG.ABS  dance:INTR-3SG.PRS
+####    '(the) dog thinks [that the cat dances].'
+
+Id: 101.  09.03  Embedded clauses, angerel is verb requiring subordinate clause ***  #### TODO: Justin should not parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Embedded clauses (Object position)
+* spe           ce         pisho         natsa               angeri
+* sp-e          ce         pisho         nats-a              anger-i
+* dog:M-SG.ABS  that:CONJ  cat:F.SG.ABS  dance:INTR-3SG.PST  think:TRAN-3SG.PRS
+'* (the) dog thinks [that the cat danced].'
+
+Id: 102.  09.04  Embedded clauses, bad word order ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Embedded clauses (Object position)
+* spe           angeri              pisho         ce         natsi
+* sp-e          anger-i             pisho         ce         nats-i
+* dog:M-SG.ABS  think:TRAN-3SG.PRS  cat:F.SG.ABS  that:CONJ  dance:INTR-3SG.PRS
+'* (the) dog thinks [that the cat dances].'
+
+Id: 103.  09.05  Embedded clauses, bad word order ***  #### TODO: Justin should not parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Embedded clauses (Object position)
+* spe           angeri              pisho         natsa               ce
+* sp-e          anger-i             pisho         nats-a              ce
+* dog:M-SG.ABS  think:TRAN-3SG.PRS  cat:F.SG.ABS  dance:INTR-3SG.PST  that:CONJ
+'* (the) dog thinks [that the cat danced].'
+
+##### Id: 09.06  Embedded clauses  #### TODO: not clear dase is implemented as ADV properly. Is ADV-V licensed as a sentence?
+####Source:     author:kauhl
+####Vetted:     f
+####Judgment:   g
+####Phenomena:  Embedded clauses (Subject position) {Modeled from Babrakzai pp212 #8}
+####+ dase      xkari                ce         pisho          najori            da
+####+ dase      xkar-i               ce         pisho          najor-i           da
+####+ such:ADJ  appear:TRAN-3SG.PRS  that:CONJ  cat:F.3SG.ABS  sick:INT-3SG.PRS  that:PART
+####'+ It appears that (the) cat is sick.'
+
+#### TODO: 09.07  is ze najorem da licensed?  Using najorem as an adjective, need verb-2-adj-lex-rule.
+#### TODO: 09.07  Add an embedded clause rule for intransitives
+#### TODO: 09.07  try   xkar-i ce ze najor-em
+Id: 104.  09.07  Embedded clauses    #### TODO:  Jeff, complete gloss, add 'dase' to lexicon, rules
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Embedded clauses (Subject position) {Modeled from Babrakzai pp212 #8}
++ dase      xkari               ce         ze           najorem       da
++ dase      xkar-i              ce         ze           najor-em      da
++ such:ADJ  appear:INT-3SG.PRS  that:CONJ  pronoun:1SG  sick:ADJ-1ST  that:PART
+'+ It appears that I am sick.'
+
+#### TODO:  09.08  Justin, Jeff, is piso najori da licensed?  I don't think so.  We need verb-2-adj-lex-rule.
+#### TODO:  09.08  Add an embedded clause rule for intransitives
+#### TODO:  09.08  Try:   xkar-i ce pisho najor-i
+Id: 105.  09.08  Embedded clauses, dropped subject 'it'     #### TODO:  Jeff, complete gloss, license sentence
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Embedded clauses (Subject position) {Modeled from Babrakzai pp212 #8}
+xkari               ce         pisho          najori            da
+xkar-i              ce         pisho          najor-i           da
+appear:INT-3SG.PRS  that:CONJ  cat:F.3SG.ABS  sick:ADJ-3SG.PRS  be:TR.3SG.PRS
+'It appears that (the) cat is sick.'
+
+
+Id: 106.  09.09  Embedded clauses: missing clause ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Embedded clauses (Object position)
+* spe           angeri                 ce
+* sp-e          anger-i                ce
+* dog:M-SG.ABS  think:TRAN-PRS.3RD.SG  that:CONJ
+'* (the) dog thinks ([that the cat danced])'
+
+#### TODO: need verb-2-adj-lex-rule
+#### TODO:   + * ce         pisho          najori        da             xkari
+#### TODO:   + * ce         pisho          najor-i       da             xkar-i
+#### TODO:   + * that:CONJ  cat:F.3SG.ABS  sick:ADJ-3SG  be:TR.3SG.PRS  appear:TRAN-3SG.PRS
+#### TODO:   '+ * It appears that (the) cat is sick.'
+
+Id: 107.  09.10  Embedded clauses, bad word order ***  #### TODO: Justin should not parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Embedded clauses (Subject position)
+* ce         pisho          najori        xkari
+* ce         pisho          najor-i       xkar-i
+* that:CONJ  cat:F.3SG.ABS  sick:ADJ-3SG  appear:TRAN-3SG.PRS
+'* It appears that (the) cat is sick.'
+
+#### # Id: 09.11  Embedded clauses  #### TODO:  JAS complete the gloss
+#### Source:     a:43
+#### Vetted:     f
+#### Judgment:   u
+#### Phenomena:  Embedded clauses
+#### * ka       kay  ragey               no      tse             be   vuku            ?
+#### * ka       kay  rag-ey              no      tse             be   vu-ku           ?
+#### * if:CONJ  XXX  come:ITR-M.3SG.PST  so:ADV  what:DET.INTRR  FUT  FUT-do:ITR.3PL  ?
+#### '* If he came, what would we do?'
+
+Id: 108.  09.12  Embedded clauses
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Embedded clauses
+daga      pisho     angeri            ce         da             spe       da
+dag-a     pisho     anger-i           ce         da             sp-e      da
+this:ABS  cat:F.SG  think:TR-3SG.PRS  that:COMP  pronoun:F.3SG  dog:M-SG  be:F.3SG.PRS
+'This cat thinks that she is a dog.'
+
+#### '* This cat thought that she was a dog.'    #### TODO:  JAS try to implement embedded clause
+
+####    # Id: 09.13  Embedded clauses  #### TODO:  implement dase, da
+####    Source:     author:kauhl
+####    Vetted:     f
+####    Judgment:   g
+####    Phenomena:  Interrogative embedded clause
+####    ma           da        pukhtel       ce         pisho         natsa
+####    ma           da        pukht-el      ce         pisho         nats-a
+####    I:M-1SG.ERG  this:ABS  ask:TRAN-PST  that:CONJ  cat:F.SG.ABS  dance:INTR-3SG.PST
+####    'I asked whether (the) cat danced.'
+
+Id: 109.  09.13  Embedded clauses:  interrogative embedded clause
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Interrogative embedded clause
+ze           pukhtem         ce         pisho         natsa
+ze           pukht-em        ce         pisho         nats-a
+I:M-1SG.ERG  ask:TR-1SG.PRS  that:CONJ  cat:F.SG.ABS  dance:INTR-3SG.PST
+'I ask whether (the) cat danced.'
+
+
+
+
+
+
+###################################################################
+# 10. Modals
+
+
+
+
+###################################################################
+# 11. Coordination
+
+#### Sentence coordination without markers
+#### Verb coordination without markers
+#### need to add 'aw' (and) to the lexicon
+
+Id: 110.  11.01  NP coordination with markers
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PRES Intransitive) 3rd person only
+pisho         aw        spe           natsi
+pisho         aw        sp-e          nats-i
+cat:F.SG.ABS  and:CONJ  dog:M-SG.ABS  dance:INTR-3PL.PRS
+'(the) cat and (the) dog dances.'
+
+Id: 111.  11.02  NP coordination with markers, missing arg for conjunction ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Coordination (PRES Intransitive) 3rd person only
+* aw        pisho         aw        spe           natsi
+* aw        pisho         aw        sp-e          nats-i
+* and:CONJ  cat:F.SG.ABS  and:CONJ  dog:M-SG.ABS  dance:INTR-3PL.PRS
+'* (the) cat and (the) dog dances.'
+
+Id: 112.  11.03  NP coordination with markers, bad word order, too many conjunctions ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Coordination (PRES Intransitive) 3rd person only
+* pisho         aw        spe           aw        natsi
+* pisho         aw        sp-e          aw        nats-i
+* cat:F.SG.ABS  and:CONJ  dog:M-SG.ABS  and:CONJ  dance:INTR-3PL.PRS
+'* (the) cat and (the) dog dances.'
+
+Id: 113.  11.04  NP coordination with markers, mismatched agreement ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Coordination (PRES Intransitive) 3rd person only
+* pisho         spe           aw        natsi
+* pisho         sp-e          aw        nats-i
+* cat:F.SG.ABS  dog:M-SG.ABS  and:CONJ  dance:INTR-3PL.PRS
+'* (the) cat and (the) dog dances.'
+
+Id: 114.  11.05  NP coordination without markers, dropped conjunction (will generate two parses)
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PRES Intransitive) 3rd person only
+pisho         spe           natsi
+pisho         sp-e          nats-i
+cat:F.SG.ABS  dog:M-SG.ABS  dance:INTR-3PL.PRS
+'(the) cat and (the) dog dances.'
+
+Id: 115.  11.06  NP coordination with markers, pronoun for arg2
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PRES Intransitive) 3rd and 2nd person
+pisho         aw        te               natsey
+pisho         aw        te               nats-ey
+cat:F.SG.ABS  and:CONJ  pronoun:2SG.ABS  dance:INTR-2PL.PRS
+'(the) cat and you dances.'
+
+Id: 116.  11.07  NP coordination with markers, pronoun for arg1
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PRES Intransitive) 2nd and 3rd person
+te               aw        pisho         natsey
+te               aw        pisho         nats-ey
+pronoun:2SG.ABS  and:CONJ  cat:F.SG.ABS  dance:INTR-2PL.PRS
+'You and (the) cat dances.'
+
+Id: 117.  11.08  NP coordination with markers, verb NUMBER mismatch ***  #### TODO: Justin should not parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Coordination (PRES Intransitive) 2nd and 3rd person
+* te               aw        pisho         natsi
+* te               aw        pisho         nats-i
+* pronoun:2SG.ABS  and:CONJ  cat:F.SG.ABS  dance:INTR-3PL.PRS
+'* You and (the) cat dances.'
+
+Id: 118.  11.09  NP coordination with markers, verb NUMBER mismatch ***  #### TODO: Justin should not parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Coordination (PRES Intransitive) 3rd and 2nd person
+* pisho         aw        te               natsi
+* pisho         aw        te               nats-i
+* cat:F.SG.ABS  and:CONJ  pronoun:2SG.ABS  dance:INTR-3PL.PRS
+'* (the) cat and you dances.'
+
+Id: 119.  11.10  NP coordination with markers
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PRES Intransitive) 3rd, 2nd and 1st person
+pisho         aw        te               aw        ze               natsu
+pisho         aw        te               aw        ze               nats-u
+cat:F.SG.ABS  and:CONJ  pronoun:2SG.ABS  and:CONJ  pronoun:1SG.ABS  dance:INTR-1PL.PRS
+'(the) cat, you, and me dance.'
+
+Id: 120.  11.11  NP coordination with markers, NP CASE agreement mismatch ***  #### TODO: Justin should not parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Coordination (PRES Intransitive) 3rd person only - ABS and ERG conjunction
+* pisho         aw        spo           natsi
+* pisho         aw        sp-o          nats-i
+* cat:F.SG.ABS  and:CONJ  dog:M-SG.ERG  dance:INTR-3PL.PRS
+'* (the) cat and (the) dog dances.'
+
+Id: 121.  11.12  NP coordination with markers, conjunction in objectn  #### TODO:  check for overgeneration, if OK, mark in test suite
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PRES Transitive)
+ze               pisho         aw        spe           taqibawem
+ze               pisho         aw        sp-e          taqibaw-em
+pronoun:1SG.ABS  cat:F.SG.ABS  and:CONJ  dog:M-SG.ABS  chase:TRAN-1SG.PRS
+'I chase (the) cat and (the) dog.'
+
+Id: 122.  11.13  NP coordination without markers, dropped conjunction in object  #### TODO:  check for overgeneration, if OK, mark in test suite
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PRES Transitive)
+ze               pisho         spe           taqibawem
+ze               pisho         sp-e          taqibaw-em
+pronoun:1SG.ABS  cat:F.SG.ABS  dog:M-SG.ABS  chase:TRAN-1SG.PRS
+'I chase (the) cat and (the) dog.'
+
+Id: 123.  11.14  NP coordination without markers, dropped conjunction in subject  #### TODO:  check for overgeneration, if OK, mark in test suite
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PRES Transitive)
+ze               pisho         spe           taqibawu
+ze               pisho         sp-e          taqibaw-u
+pronoun:1SG.ABS  cat:F.SG.ABS  dog:M-SG.ABS  chase:TRAN-1PL.PRS
+'Me and (the) cat chase (the) dog.'
+
+Id: 124.  11.15  NP coordination with markers, conjunction in object  #### TODO:  check for overgeneration, if OK, mark in test suite
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (Past Transitive) 3rd person Masc dominant
+ma               pisho         aw        spe           taqibawey
+ma               pisho         aw        sp-e          taqibaw-ey
+pronoun:1SG.ERG  cat:F.SG.ABS  and:CONJ  dog:M-SG.ABS  chase:TRAN-M.3SG.PST
+'I chase (the) cat and (the) dog.'
+
+Id: 125.  11.16  NP coordination with markers, past tense- conjunction in object
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (Past Transitive) 3rd person Masc dominant
+ma               pisho         aw        spe           taqibawel
+ma               pisho         aw        sp-e          taqibaw-el
+pronoun:1SG.ERG  cat:F.SG.ABS  and:CONJ  dog:M-SG.ABS  chase:TRAN-M.3PL.PST
+'I chased (the) cat and (the) dog.'
+
+
+Id: 126.  11.17  NP coordination with markers:  object-verb CASE mismatch ***  #### TODO: Justin should not parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Coordination (Past Transitive) 3rd person FEM dominant
+* ma               pisho         aw        spe           taqibawe
+* ma               pisho         aw        sp-e          taqibaw-e
+* pronoun:1SG.ERG  cat:F.SG.ABS  and:CONJ  dog:M-SG.ABS  chase:TRAN-F.3PL.PST
+'* I chase (the) cat and (the) dog.'
+
+Id: 127.  11.18  NP coordination without markers, Multiple 3RD person nouns in both object and subject positions
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Multiple 3RD person nouns in both object and subject positions
+* pisho         sere          spe           karye         taqibawi
+* pisho         ser-e         sp-e          kary-e        taqibaw-i
+* cat:F.SG.ABS  man:M-SG.ABS  dog:M-SG.ABS  cow:M-SG.ABS  chase:TRAN-3PL.PRES
+'* (the) cat and (the) man chase (the) dog and (the) cow.'
+#### TODO: isn't this really:  'cat, man, dog (and) cow chase.'?  Therefore grammatical?
+
+
+Id: 128.  11.19  NP coordination with markers, Multiple 3RD person nouns in both object and subject positions
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Multiple 3RD person nouns in both object and subject positions
+pisho         aw        sere          spe           aw        karye         taqibawi
+pisho         aw        ser-e         sp-e          aw        kary-e        taqibaw-i
+cat:F.SG.ABS  and:CONJ  man:M-SG.ABS  dog:M-SG.ABS  and:CONJ  cow:M-SG.ABS  chase:TRAN-3PL.PRES
+'(the) cat and (the) man chase (the) dog and (the) cow.'
+
+Id: 129.  11.20  Sentence coordination with markers, Coordination (PRES Intransitive) + (PRES Intransitive)
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PRES Intransitive) + (PRES Intransitive)
+spe           natsi               aw        pisho         xandi
+sp-e          nats-i              aw        pisho         xand-i
+dog:M-SG.ABS  dance:INTR-3SG.PRS  and:CONJ  cat:F-SG.ABS  laugh:INTR-3SG.PST
+'(the) dog dances and (the) cat laughs.'
+
+Id: 130.  11.21  Sentence coordination with markers, coordination (Past Transitive) + (PST Intransitive)
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PRES Intransitive) + (PRES Transitive)
+spe           natsi               aw        ze               pisho         taqibawe
+sp-e          nats-i              aw        ze               pisho         taqibaw-e
+dog:M-SG.ABS  dance:INTR-3SG.PRS  and:CONJ  pronoun:1SG.ABS  cat:F-SG.ABS  chase:TRAN-1SG.PRS
+'(the) dog dances and I chase (the) cat.'
+
+Id: 131.  11.22  Sentence coordination with markers, coordination (Past Transitive) + (PST Intransitive) ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Coordination (PRES Intransitive) + (Past Transitive)
+* spe           natsi               aw        ma               pisho         taqibawa
+* sp-e          nats-i              aw        ma               pisho         taqibaw-a
+* dog:M-SG.ABS  dance:INTR-3SG.PRS  and:CONJ  pronoun:1SG.ERG  cat:F-SG.ABS  chase:TRAN-3SG.PST
+'* (the) dog dances and I chased (the) cat.'
+
+Id: 132.  11.23  Verb coordination with markers, coordination (Past Transitive) + (PST Intransitive)
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PRES Intransitive) + (PRES Intransitive)
+spe           natsi               aw        xandi
+sp-e          nats-i              aw        xand-i
+dog:M-SG.ABS  dance:INTR-3SG.PRS  and:CONJ  laugh:INTR-3SG.PRES
+'(the) dog dances and laughs.'
+
+Id: 133.  11.24  Verb coordination with markers, coordination (Past Transitive) + (PST Intransitive)
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PRES Intransitive) + (PRES Transitive)
+spe           natsi               aw        pisho         taqibawi
+sp-e          nats-i              aw        pisho         taqibaw-i
+dog:M-SG.ABS  dance:INTR-3SG.PRS  and:CONJ  cat:F.SG.ABS  chase:TRAN-3SG.PRES
+'(the) dog dances and chases the cat.'
+
+Id: 134.  11.25  Verb coordination with markers, coordination (Past Transitive) + (PST Intransitive) xxx ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Coordination (PRES Intransitive) + (Past Transitive)
+* spe           natsi               aw        pisho         taqibawa
+* sp-e          nats-i              aw        pisho         taqibaw-a
+* dog:M-SG.ABS  dance:INTR-3SG.PRS  and:CONJ  cat:F.SG.ABS  chase:TRAN-F.3SG.PST
+'* (the) dog dances and chases the cat.'
+
+Id: 135.  11.26  Verb coordination with markers, coordination (Past Transitive) + (PST Intransitive)
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (PST Intransitive) + (Past Transitive)
+spe           xandey              aw        pisho         taqibawa
+sp-e          xand-ey             aw        pisho         taqibaw-a
+dog:M-SG.ABS  laugh:INTR-3SG.PST  and:CONJ  cat:F.SG.ABS  chase:TRAN-F.3SG.PST
+'(the) dog laughed and chased the cat.'
+
+Id: 136.  11.27  Verb coordination with markers, coordination (Past Transitive) + (PST Intransitive)
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Coordination (Past Transitive) + (PST Intransitive)
+spo           pisho         taqibawa              aw        xandey
+sp-o          pisho         taqibaw-a             aw        xand-ey
+dog:M-SG.ERG  cat:F.SG.ABS  chase:TRAN-F.3SG.PST  and:CONJ  laugh:INTR-3SG.PST
+'(the) dog chased the cat and laughed.'
+
+
+
+###################################################################
+# 12. Tense/aspect
+
+Id: 137.  12.01 Tense/Aspect - Present Intransitive
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+pisho         natsi
+pisho         nats-i
+cat:F.SG.ABS  dance:INTR-3SG.PRS
+'Cat dances.'
+
+
+Id: 138.  12.02 Tense/Aspect - PST Intransitive
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+pisho         natsa
+pisho         nats-a
+cat:F.SG.ABS  dance:INTR-F.3SG.PST
+'Cat danced.'
+
+
+Id: 139.  12.03  Tense/Aspect
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+ze               spe           taqibawem
+ze               sp-e          taqibaw-em
+pronoun:1SG.ABS  dog:M-SG.ABS  chase:TR-1SG.PRS
+'I chase (the) dog.'
+
+
+Id: 140.  12.04  Tense/Aspect
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+ma               spe           taqibawey
+ma               sp-e          taqibaw-ey
+pronoun:1SG.ERG  dog:M-SG.ABS  chase:TR-M.3SG.PST
+'I chased (the) dog.'
+
+
+Id: 141.  12.05 Tense/Aspect - Perfective
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense / Perfective Aspect
+pisho         vunatsi
+pisho         vu-nats-i
+cat:F.SG.ABS  PER-dance:INTR-3SG.PRS
+'Cat has danced.'
+
+
+Id: 142.  12.06 Tense/Aspect - Perfective, natsivu is not recognized ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Present Tense / Perfective Aspect Intrans
+* pisho         natsivu
+* pisho         nats-i-vu
+* cat:F.SG.ABS  dance:INTR-3SG.PRS-PER
+'* Cat has danced.'
+
+
+Id: 143.  12.07 Tense/Aspect - Perfective, perfective morepheme is free standing ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Present Tense / Perfective Aspect Trans
+* pisho         vu   natsi
+* pisho         vu   nats-i
+* cat:F.SG.ABS  PER  dance:INTR-3SG.PRS
+'* Cat has danced.'
+
+
+Id: 144.  12.09 Tense/Aspect - Present Transitive, incorrect ERG form ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Present Transitive (incorrect OBL form on O noun)
+* spe           ma               taqibawey
+* sp-e          ma               taqibaw-ey
+* dog:M-SG.ABS  pronoun:1SG.ERG  chase:TR-1SG.PST.
+'* I chased (the) dog.'
+
+
+Id: 145.  12.10 Tense/Aspect - Present Transitive, subject-verb CASE mismatch ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Present Transitive
+* ma               spo           taqibawey
+* ma               sp-o          taqibaw-ey
+* pronoun:1SG.ERG  dog:M-SG.ERG  chase:TR-1SG.PST.
+'* I chased (the) dog.'
+
+
+Id: 146.  12.12 Tense/Aspect - Past Transitive
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Transitive
+ma               spe           taqibawey
+ma               sp-e          taqibaw-ey
+pronoun:1SG.ERG  dog:M-SG.ABS  chase:TR-1SG.PST.
+'I chased (the) dog.'
+
+
+Id: 147.  12.13 Tense/Aspect - Past Transitive, subject-object-verb CASE mismatch ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Past Transitive
+* spe           ma               taqibawey
+* sp-e          ma               taqibaw-ey
+* dog:M-SG.ABS  pronoun:1SG.ERG  chase:TR-1SG.PST.
+'* I chased (the) dog.'
+
+
+Id: 148.  12.14 Tense/Aspect - Past Transitive, object CASE mismatch ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Past Transitive
+* ma               spo           taqibawey
+* ma               sp-o          taqibaw-ey
+* pronoun:1SG.ERG  dog:M-SG.ERG  chase:TR-1SG.PST.
+'* I chased (the) dog.'
+
+
+# Id:  12.15 Tense/Aspect - ### TBD  Should this be "driving" or "is driving"?
+#### Source: c:3
+#### Vetted: f
+#### Judgment: g
+#### Phenomena:  TBD
+#### sere  gade  jelewi
+#### sere  gade  jelew-i
+#### man-ABS  car-ABS  drive:TR-3sg-XXX  #### TBD Determine proper tense, aspect
+#### '(The) man is driving (a) car.'
+
+
+#### Id:  12.16 Tense/Aspect - TBD
+#### Source: c:3
+#### Vetted: f
+#### Judgment: g
+#### Phenomena:  Past Transitive
+#### gadi sere  wewehelo
+#### gadi sere  we-wehel-o
+#### car:ERG  man:ABS  XXX-hit:TR-3SG.PST  #### Determine POS for XXX
+#### '(A) car hit (the) man.'
+
+
+#### Id:  12.17 Tense/Aspect - TBD  #### Determine tense, aspect- future imperfect?
+#### Source: c:3
+#### Vetted: f
+#### Judgment: g
+#### Phenomena:  Past Transitive
+#### sere     zi
+#### sere     zi
+#### man:ABS  go:ITRAN.3SG.XXX
+#### '(The) man is going.'
+
+
+#### Id:  12.18 Tense/Aspect - TBD
+#### Source: c:3
+#### Vetted: f
+#### Judgment: g
+#### Phenomena:  Past Transitive
+#### sere     laro
+#### sere     lar-o
+#### man:ABS  go:ITRAN-3SG.PST
+#### '(The) man went.'
+
+
+Id: 149.  12.19 Tense/Aspect - Future
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+ze               spe           be        taqibawem
+ze               sp-e          be        taqibaw-em
+pronoun:1SG.ABS  dog:M-SG.ABS  will:FUT  chase:TR-1SG.PRS
+'I will chase (the) dog.'
+
+
+Id: 150.  12.20 Tense/Aspect - Future, bad auxiliary word order ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Future Tense
+* ze               spe           taqibawem         be
+* ze               sp-e          taqibaw-em        be
+* pronoun:1SG.ABS  dog:M-SG.ABS  chase:TR-1SG.PRS  FUT
+'* I will chase (the) dog.'
+
+
+Id: 151.  12.21 Tense/Aspect - Future, verb conjugation ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Future Tense
+* ze               spe           betaqibawem
+* ze               sp-e          be-taqibaw-em
+* pronoun:1SG.ABS  dog:M-SG.ABS  FUT-chase:TR-1SG
+'* I will chase (the) dog.'
+
+
+Id: 152.  12.22 Tense/Aspect - Future, bad auxiliary word order ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Future Tense
+* ze               be        spe           taqibawem
+* ze               be        sp-e          taqibaw-em
+* pronoun:1SG.ABS  will:FUT  dog:M-SG.ABS  chase:TR-1SG.PRS
+'* I will chase (the) dog.'
+
+
+Id: 153.  12.23 Tense/Aspect - Future, bad auxiliary word order ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Future Tense
+* be        ze               spe           taqibawem
+* be        ze               sp-e          taqibaw-em
+* will:FUT  pronoun:1SG.ABS  dog:M-SG.ABS  chase:TR-1SG.PRS
+'* I will chase (the) dog.'
+
+
+Id: 154.  12.24 Tense/Aspect - Irregular Prefective: not covered by grammar ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Irregular perfective
++* ze               neenavot
++* ze               neenavot
++* pronoun:1SG.ABS  enter:TR-1SG.PRS.PRE
+'+* I entered.'
+
+
+Id: 155.  12.25 Tense/Aspect - Present tense, subject-verb CASE mismatch ***
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Past Tense verb used
+* ze               spe           taqibawey
+* ze               sp-e          taqibaw-ey
+* pronoun:1SG.ABS  dog:M-SG.ABS  chase:TR-M.3SG.PST
+'* I chased (the) dog.'
+
+
+Id: 156.  12.26 Tense/Aspect - Present Intransitive
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+pisho         be        natsi
+pisho         be        nats-i
+cat:F.SG.ABS  will:FUT  dance:INTR-3SG.PRS
+'(the) Cat will dance.'
+
+
+Id: 157.  12.27 Tense/Aspect - Perfective, negative
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense / Perfective Aspect
+pisho         vunanatsi
+pisho         vu-na-nats-i
+cat:F.SG.ABS  PER-NEG-dance:INTR-3SG.PRS
+'(the) Cat has not danced.'
+
+
+Id: 158.  12.28 Tense/Aspect - Perfective, negative, bad word order ****
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Present Tense / Perfective Aspect
+* pisho         na       vunatsi
+* pisho         na       vu-nats-i
+* cat:F.SG.ABS  not:NEG  PER-dance:INTR-3SG.PRS
+'* (the) Cat has not danced.'
+
+
+Id: 159.  12.29 Tense/Aspect - Perfective, double negative ****
+Source:     author:kauhl
+Vetted:     f
+Judgment:   u
+Phenomena:  Present Tense / Perfective Aspect
+* pisho         na       vunanatsi
+* pisho         na       vu-na-nats-i
+* cat:F.SG.ABS  not:NEG  PER-NEG-dance:INTR-3SG.PRS
+'* (the) Cat has not danced.'
+
+
+
+
+###################################################################
+# 13. Demonstratives/definitess
+
+###################################################################
+# 13.1  Demonstratives
+
+Id: 160.  13.1.01  Demonstratives: this, male, singular
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+da        spe            natsi
+da        sp-e           nats-i
+this:ABS  dog:M-3SG.ABS  dance:INTR-3SG.PRS
+'This dog dances.'
+
+# Id:  13.1.02  Demonstratives: this, female, singular
+# Source:  author:scott
+# Vetted:  f
+# Judgment:  g
+# Phenomena:   determiners
+# da           pisho          natsi
+# da           pisho          nats-i
+# this:ABS  cat:F.3SG.ABS  dance:INTR-3SG.PRS
+# 'This cat dances.'
+#
+# Id:  13.1.03  Demonstratives: these, male, plural
+# Source:  author:scott
+# Vetted:  f
+# Judgment:  g
+# Phenomena:   determiners
+# da            spi            natsi
+# da            sp-i           nats-i
+# this:ABS  dog:M-3PL.ABS  dance:INTR-3SG.PRS
+# 'These dogs dance.'
+
+Id: 161.  13.1.04  Demonstratives: these, female, plural
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+da        pishoganee     natsi
+da        pisho-ganee    nats-i
+this:ABS  cat:F-3PL.ABS  dance:INTR-3SG.PRS
+'These cats dance.'
+
+Id: 162.  13.1.05  Demonstratives: noun-det order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* pishoganee     da        natsi
+* pisho-ganee    da        nats-i
+* cat:F-3PL.ABS  this:ABS  dance:INTR-3SG.PRS
+'* These cats dance.'
+
+# Id:  13.1.06  Demonstratives: this, male, singular, Past Tense
+# Source:  author:scott
+# Vetted:  f
+# Judgment:  g
+# Phenomena:   determiners
+# de           spe            natsey
+# de           sp-e           nats-ey
+# this:ERG  dog:M-3SG.ABS  dance:INTR-M.3SG.PST
+# 'This dog danced.'
+
+Id: 163.  13.1.07  Demonstratives: this, female, singular, Past Tense   parses
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+da        pisho          natsa
+da        pisho          nats-a
+this:ABS  cat:F.3SG.ABS  dance:INTR-F.3SG.PST
+'This cat danced.'
+
+Id: 164.  13.1.08  Demonstratives: this, bad word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* pisho          da            natsa
+* pisho          da            nats-a
+* cat:F.3SG.ABS  this:DEM.ABS  dance:INTR-F.3SG.PST
+'* This cat danced.'
+
+Id: 165.  13.1.09  Demonstratives: these, male, plural, Past Tense
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+da        spi            natsel
+da        sp-i           nats-el
+this:ABS  dog:M-3PL.ABS  dance:INTR-M.3PL.PST
+'These dogs danced.'
+
+# Source:  author:scott
+# Vetted:  f
+# Judgment:  g
+# Phenomena:   determiners
+# de            pishoganee          natse
+# de            pisho-ganee          nats-e
+# this:ERG  cat:F-3PL.ABS  dance:INTR-F.3PL.PST
+# 'These cats danced.'
+
+Id: 166.  13.1.11  Demonstratives: this, male, singular
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+daga      spe            natsi
+daga      sp-e           nats-i
+this:ABS  dog:M-3SG.ABS  dance:INTR-3SG.PRS
+'This dog dances.'
+
+Id: 167.  13.1.13  Demonstratives: noun-det order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* spe            daga         natsi
+* sp-e           daga         nats-i
+* dog:M-3SG.ABS  this:SG.ABS  dance:INTR-3SG.PRS
+'* This dog dances.'
+
+Id: 168.  13.1.14  Demonstratives: these, male, plural, Past Tense
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+haga      spi            natsel
+hag-a     sp-i           nats-el
+that-ABS  dog:M-3PL.ABS  dance:INTR-M.3PL.PST
+'Those dogs danced.'
+
+Id: 169.  13.1.15  Demonstratives: this, female, singular, Past Tense
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+hage      pisho          daga      spe            taqibawey
+hag-e     pisho          dag-a     sp-e           taqibaw-ey
+this-ERG  cat:F.3SG.ERG  this-ABS  dog:M-3SG.ABS  chase:TR-M.3SG.PST
+'That cat chased this dog.'
+
+Id: 170.  13.1.16  Demonstratives: these, male, plural, Past Tense
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+hago      spi            daga      pishoganee     taqibawe
+hag-o     sp-i           dag-a     pisho-ganee    taqibaw-e
+that-ERG  dog:M-3PL.ERG  this-ABS  cat:F-3PL.ABS  chased:INTR-F.3PL.PST
+'Those dogs chased these cats.'
+
+Id: 171.  13.1.17  Demonstratives: bad case
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* haga      karyuno        daga      pishoganee     taqibawey
+* hag-a     kary-uno       dag-a     pisho-ganee    taqibaw-ey
+* that-ABS  cow:M-3PL.ERG  this-ABS  cat:F-3PL.ABS  chased:INTR-F.3PL.PST
+'* Those cows chased these cats.'
+
+
+
+
+###################################################################
+# 13.2  Indefinites
+
+Id: 172.  13.2.01  Definiteness:  one cat    #### TODO:  Jeff, should parse  #### TODO:  correct indefinite det
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  word order
+yawa          pisho         spi           taqibawi
+yaw-a         pisho         sp-i          taqibaw-i
+one:SG.ABS-F  cat:F.SG.ABS  dog:M-PL.ABS  chase:TR-3SG.PRS
+'One cat chases dogs.'
+
+Id: 173.  13.2.02  Definiteness:  one cat, subject-verb CASE mismatch ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  word order
+* pisho         yawa          spi           taqibawi
+* pisho         yaw-a         sp-i          taqibaw-i
+* cat:F.SG.ABS  one:SG.ABS-F  dog:M-PL.ABS  chase:TR-3SG.PRS
+'* One cat chases dogs.'
+
+Id: 174.  13.2.03  Definiteness: one cat, wrong case ***  #### TODO:  Jeff should not parse
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  word order
+* yaw           pisho         spi           taqibawi
+* yaw           pisho         sp-i          taqibaw-i
+* one:M.SG.ABS  cat:F.SG.ABS  dog:M-PL.ABS  chase:TR-3SG.PRS
+'* One cat chases dogs.'
+
+Id: 175.  13.2.04  Definiteness:  some cat    #### TODO:  Jeff, should parse #### TODO:  correct determiner
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  word order
+dzini  pisho         spi           taqibawi
+dzini  pisho         sp-i          taqibaw-i
+some   cat:F.SG.ABS  dog:M-PL.ABS  chase:TR-3SG.PRS
+'Some cat chases dogs.'
+
+
+
+
+
+# 13.5  Possessives
+
+Id: 176.  13.5.01  Possessives:  my dogs, present tense  #### TODO:  Fix parse, 'xpeli  spi  pisho  taqibawi' -does- parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiner
+xpeli              spi            xpela              pishoganee     taqibawi
+xpel-i             sp-i           xpel-a             pisho-ganee    taqibaw-i
+ones+own-M.PL.ABS  dog:M-3PL.ABS  ones+own-F.PL.ABS  cat:F-3PL.ABS  chase:TR-3PL.PRS
+'My(one''s own) dogs chase my(one''s own) cats.'
+
+Id: 177.  13.5.02  Possessives:  my dogs, Past Tense  #### TODO:  Jeff, overgenerates, 8 parses
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+xpeli            spi            da           pishoganee     taqibawe
+xpel-i           sp-i           da           pisho-ganee    taqibaw-e
+ones.own:PL-ERG  dog:M-3PL.ERG  this:PL.ABS  cat:F-3PL.ABS  chase:TR-3PL.PST
+'My(one''s own) dogs chased these cats.'
+
+Id: 178.  13.5.03  Possessives:  my dogs, present tense, wrong case ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  determiner
+* xpeli            spe            da           pishoganee     taqibawi
+* xpel-i           sp-e           da           pisho-ganee    taqibaw-i
+* ones.own:SG-ERG  dog:M-3SG.ABS  this:PL.ABS  cat:F-3PL.ABS  chase:TR-3SG.PRS
+'* My(one''s own) dogs chase these cats.'
+
+Id: 179.  13.5.04  Possessives:  my dogs, Past Tense, word order ***      #### TODO:  should parse, past tense plural feminine for cats
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* spo            xpelo            da           pishoganee     taqibawe
+* sp-i           xpel-i           da           pisho-ganee    taqibaw-e
+* dog:M-3PL.ERG  ones.own:PL-ERG  this:PL.ABS  cat:F-3PL.ABS  chase:TR-3SG.PST
+'* My(one''s own) dogs chased these cats.'
+
+Id: 180.  13.2.05  Definiteness:  some cat, word order    #### TODO:  Jeff, should parse #### TODO:  correct indefinit determiner
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  word order
+pisho         dzini  spi           taqibawi
+pisho         dzini  sp-i          taqibaw-i
+cat:F.SG.ABS  some   dog:M-PL.ABS  chase:TR-3SG.PRS
+'Some cat chases dogs.'
+
+
+
+###################################################################
+# 13.3  Determinatives
+
+Id: 181.  13.3.01  Determinatives: all, every, Past Tense
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+tolo        spo            hara            pisho          taqibawa
+tol-o       sp-o           har-a           pisho          taqibaw-a
+all:PL.ERG  dog:M-3PL.ERG  every:F.SG.ABS  cat:F.3SG.ABS  chased:INTR-F.3SG.PST
+'All dogs chased every cat.'
+
+Id: 182.  13.3.01  Determinatives: all, every, wrong verb tense ***    #### TODO: Justin should not parse  #### TODO: fix verb-arg disagreement
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* tolo        spo            hara            pisho          taqibawi
+* tol-o       sp-o           har-a           pisho          taqibaw-i
+* all:PL.ERG  dog:M-3PL.ERG  every:F.SG.ABS  cat:F.3SG.ABS  chased:INTR-F.3SG.PST
+'* All dogs chased every cat.'
+
+Id: 183.  13.3.02  Determinatives: all, every, Past Tense, word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* spo            tolo        hara          pisho          taqibawi
+* sp-o           tol-o       har-a         pisho          taqibaw-i
+* dog:M-3PL.ERG  all:PL.ERG  every:SG.ABS  cat:F.3SG.ABS  chased:INTR-F.3SG.PST
+'* All dogs chased every cat.'
+
+Id: 184.  13.3.037  Determinatives: all, every, Past Tense, bad case ***  #### TODO:  Jeff, should not parse
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* tol         spo            hara          pisho          taqibawa
+* tol         sp-o           har-a         pisho          taqibaw-a
+* all:PL.ABS  dog:M-3PL.ERG  every:SG.ABS  cat:F.3SG.ABS  chased:INTR-F.3SG.PST
+'* All dogs chased every cat.'
+
+
+###################################################################
+# 13.4  Cardinal numbers
+
+#### # Id:  13.4.01  Cardinal Numbers:  two, eight, present tense
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  determiners
+#### dva         spi            ate           pishoganee          taqibawi
+#### dv-a        sp-i           ate           pisho-ganee          taqibaw-i
+#### two:PL.ABS  dog:M-3PL.ABS  eight:PL.ABS  cat:F-3PL.ABS  chase:TR-3SG.PRS
+#### 'Two dogs chase eight cats.'
+
+#### # Id:  13.4.02  Cardinal Numbers:  two, eight, Past Tense
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  determiners
+#### dvo         spo            ate           pishoganee          taqibawel
+#### dv-o        sp-o           ate           pisho-ganee          taqibaw-el
+#### two:PL.ERG  dog:M-3PL.ERG  eight:PL.ABS  cat:F-3PL.ABS  chased:INTR-3SG.PST
+#### 'Two dogs chased eight cats.'
+
+#### # Id:  13.4.03  Cardinal Numbers:  two, eight, bad case
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   u
+#### Phenomena:  determiners
+#### * dvo         spi            ate           pishoganee          taqibawi
+#### * dv-o        sp-i           ate           pisho-ganee          taqibaw-i
+#### * two:PL.ERG  dog:M-3PL.ABS  eight:PL.ABS  cat:F-3PL.ABS  chased:INTR-3SG.PST
+#### '* Two dogs chase eight cats.'
+
+#### # Id:  13.4.04  Cardinal Numbers:  two, eight, word order, ungrammitical
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   u
+#### Phenomena:  determiners
+#### * spo            dvo         ate           pishoganee          taqibawe
+#### * sp-o           dv-o        ate           pisho-ganee          taqibaw-e
+#### * dog:M-3PL.ERG  two:PL.ERG  eight:PL.ABS  cat:F-3PL.ABS  chased:INTR-3SG.PST
+#### '* Two dogs chased eight cats.'
+
+
+
+###################################################################
+# 13.5  Possessives
+
+Id: 185.  13.5.01  Possessives:  my dogs, present tense  #### TODO:  Jeff, overgenerates 4 parses
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiner
+xpela            spi            da           pishoganee     taqibawi
+xpel-a           sp-i           da           pisho-ganee    taqibaw-i
+ones.own-PL.ABS  dog:M-3PL.ABS  this:PL.ABS  cat:F-3PL.ABS  chase:TR-3SG.PRS
+'My(one''s own) dogs chase these cats.'
+
+Id: 186.  13.5.02  Possessives:  my dogs, Past Tense  #### TODO:  Jeff, overgenerates 4 parses
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  determiners
+xpeli            spi            da           pishoganee     taqibawel
+xpel-i           sp-i           da           pisho-ganee    taqibaw-el
+ones.own:PL.ERG  dog:M-3PL.ERG  this:PL.ABS  cat:F-3PL.ABS  chase:TR-3SG.PST
+'My(one''s own) dogs chased these cats.'
+
+Id: 187.  13.5.03  Possessives:  my dogs, present tense, wrong case ***  #### TODO: Jeff, should not parse
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  determiner
+* xpeli            spi            da           pishoganee     taqibawi
+* xpel-i           sp-i           da           pisho-ganee    taqibaw-i
+* ones.own:PL.ERG  dog:M-3PL.ABS  this:PL.ABS  cat:F-3PL.ABS  chase:TR-3SG.PRS
+'* My(one''s own) dogs chase these cats.'
+
+Id: 188.  13.5.04  Possessives:  my dogs, Past Tense, word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  determiners
+* spi            xpeli            da           pishoganee     taqibawe
+* sp-i           xpel-i           da           pisho-ganee    taqibaw-e
+* dog:M-3PL.ERG  ones.own:PL.ERG  this:PL.ABS  cat:F-3PL.ABS  chase:TR-3SG.PST
+'* My(one''s own) dogs chased these cats.'
+
+
+
+
+###################################################################
+# 14. Attributive adjectives
+
+Id: 189.  14.01  Adjective:  F.3SG.ABS  #### TODO:  correct adjective
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  adjective
+haga         loya            pisho          natsi
+hag-a        loy-a           pisho          nats-i
+that-SG.ABS  large-F.SG.ABS  cat:F.3SG.ABS  dance:INTR-F.3SG.PRS
+'That large cat dances.'
+
+Id: 190.  14.02  Adjective:  F.PL.ERG, M.PL.ABS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  adjective
+bado          pishogano      zargune       spi         taqibawel
+bad-o         pisho-gano     zargun-e      sp-i        taqibaw-el
+bad-F.PL.ERG  cat:F-3PL.ERG  green-PL.ABS  dog-PL.ABS  chase:TR-PL.PST.ABS
+'Bad cats chased green dogs.'
+
+Id: 191.  14.03  Adjective:  F.3SG.ABS, bad word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  adjective
+* loya            haga         pisho          natsi
+* loy-a           hag-a        pisho          nats-i
+* large-F.SG.ABS  that-SG.ABS  cat:F.3SG.ABS  dance:INTR-F.3SG.PRS
+'* That large cat dances.'
+
+#### TODO:  this example show ungrammaticality for DET, not ADJ.  Fix it or remove it.
+Id: 192.  14.04  Adjective:  F.3SG.ABS, bad word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  adjective
+* loya            pisho          haga         natsi
+* loy-a           pisho          hag-a        nats-i
+* large-F.SG.ABS  cat:F.3SG.ABS  that-SG.ABS  dance:INTR-F.3SG.PRS
+'* That large cat dances.'
+
+Id: 193.  14.05  Adjective:  F.3SG.ABS, N-ADJ-DET ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  adjective
+* pisho          loya            haga         natsi
+* pisho          loy-a           hag-a        nats-i
+* cat:F.3SG.ABS  large-F.SG.ABS  that-SG.ABS  dance:INTR-F.3SG.PRS
+'* That large cat dances.'
+
+Id: 194.  14.06  Adjective:  F.3SG.ABS, DET-N-ADJ ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  adjective
+* haga         pisho          loya            natsi
+* hag-a        pisho          loy-a           nats-i
+* that-SG.ABS  cat:F.3SG.ABS  large-F.SG.ABS  dance:INTR-F.3SG.PRS
+'* That large cat dances.'
+
+Id: 195.  14.07  Adjective:  F.3SG.ABS, bad word order *****
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  adjective
+* pisho          haga         loya            natsi
+* pisho          hag-a        loy-a           nats-i
+* cat:F.3SG.ABS  that-SG.ABS  large-F.SG.ABS  dance:INTR-F.3SG.PRS
+'* That large cat dances.'
+
+Id: 196.  14.08  Adjective:  F.3SG.ABS, bad word order, verb first ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  adjective
+* natsi                 haga         loya            pisho
+* nats-i                hag-a        loy-a           pisho
+* dance:INTR-F.3SG.PST  that-SG.ABS  large-F.SG.ABS  cat:F.3SG.PRS
+'* That large cat dances.'
+
+Id: 197.  14.09  Adjective:  F.PL.ERG, M.PL.ABS, case disagreement ***  #### TODO:  Jeff, should not parse
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  adjective
+* zargune       spi         bado          pishogano      taqibawey
+* zargun-e      sp-i        bad-o         pisho-gano     taqibaw-ey
+* green-PL.ABS  dog-PL.ABS  bad-F.PL.ERG  cat:F-3PL.ERG  chase:TR-PL.PST.ABS
+'* Bad cats chased green dogs.'
+
+Id: 198.  14.10  Adjective:  F.PL.ERG, M.PL.ABS, bad word order N-ADJ  ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  adjective
+* pishogano      bado          spi         zargune       taqibawey
+* pisho-gano     bad-o         sp-i        zargun-e      taqibaw-ey
+* cat:F-3PL.ABS  bad-F.PL.ERG  dog-PL.ABS  green-PL.ABS  chase:TR-PL.PST.ABS
+'* Bad cats chased old dogs.'
+
+Id: 199.  14.11  Adjective:  F.PL.ERG, M.PL.ABS, bad word order VSO ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  adjective
+* taqibawey            bado          pishogano      zargune       spi
+* taqibaw-ey           bad-o         pisho-gano     zargun-e      sp-i
+* chase:TR-PL.PST.ABS  bad-F.PL.ERG  cat:F-3PL.ABS  green-PL.ABS  dog-PL.ABS
+'* Bad cats chased old dogs.'
+
+Id: 200.  14.12  Adjective:  ADJ-N CASE mismatch ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  adjective
+* badi          pishogano   zargune     spi         taqibawey
+* bad-i         pisho-gano  zargun-e    sp-i        taqibaw-ey
+* bad-F.PL.ABS  cat:PL.ERG  old-PL.ABS  dog-PL.ABS  chase:TR-PL.PST.ABS
+'* Bad cats chased old dogs.'
+
+
+###################################################################
+# 15. Adverbs
+
+Id: 201.  15.1  Adverb: adverb of time. ADV-S  #### TODO:  check for overgeneration, if OK, mark in test suite
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  adverb
+parun          spi            pishoganee     taqibawe
+parun          sp-i           pisho-ganee    taqibaw-e
+yesterday:ADV  dog:M-3PL.ERG  cat:F-3PL.ABS  chase:TR-3SG.PST
+'Yesterday (the) dogs chased (the) cats.'
+
+Id: 202.  15.2  Adverb:  adverb of time. N-ADV-N
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  adverb
+spi            parun          pishoganee     taqibawe
+sp-i           parun          pisho-ganee    taqibaw-e
+dog:M-3PL.ERG  yesterday:ADV  cat:F-3PL.ABS  chase:TR-3SG.PST
+'(The) dogs yesterday chased (the) cats.'
+
+Id: 203.  15.3  Adverb:  adverb of time. ADV-V  #### TODO:  Jeff, overgenerates 6  #### TODO:  check for overgeneration, if OK, mark in test suite
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  adverb
+spi            pishoganee     parun          taqibawe
+sp-i           pisho-ganee    parun          taqibaw-e
+dog:M-3PL.ERG  cat:F-3PL.ABS  yesterday:ADV  chase:TR-3SG.PST
+'(The) dogs chased (the) cats yesterday.'
+
+Id: 204.  15.4  Adverb:  multiple adverbs  #### TODO:  Jeff, overgenerates 7  #### TODO:  check for overgeneration, if OK, mark in test suite
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  adverb
+spi            pishoganee     zest      natsapa       taqibawe
+sp-i           pisho-ganee    zest      natsapa       taqibaw-i
+dog:M-3PL.ABS  cat:F-3PL.ABS  very:ADV  suddenly:ADV  chase:TR-3SG.PRS
+'(The) dogs very suddenly chase (the) cats .'
+
+Id: 205.  15.5  Adverb: adverb of time. ADV-S
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  adverb
+parun          hago         spi            daga         pishoganee     zest      natsapa       taqibawa
+parun          hag-o        sp-i           dag-a        pisho-ganee    zest      natsapa       taqibaw-a
+yesterday:ADV  this:PL.ERG  dog:M-3PL.ERG  that:PL.ABS  cat:F-3PL.ABS  very:ADV  suddenly:ADV  chase:TR-3SG.PST
+'Yesterday those dogs very suddenly chased these cats.'
+
+Id: 206.  15.6  Adverb: adverb of time. S-ADV bad word order ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  adverb
+* spo            pishoganee     taqibawe          parun
+* sp-o           pisho-ganee    taqibaw-e         parun
+* dog:M-3PL.ERG  cat:F-3PL.ABS  chase:TR-3SG.PST  yesterday:ADV
+'* Yesterday (the) dogs chased (the) cats.'
+
+
+Id: 207.  15.7  Adverb:  adverb agreement in NP.  #### TODO:  Jeff, should parse
+Source:     a:49
+Vetted:     f
+Judgment:   g
+Phenomena:  adverb
+da       kor      der         loy          day
+da       kor      der         loy          day
+this:SG  house:M  very:ADV-M  large:ADJ-M  be:TR.M.3SG.PRS
+'This house is very large.'
+
+Id: 208.  15.8  Adverb:  adverb agreement in NP.F  #### TODO:  Jeff, should parse
+Source:     a:49
+Vetted:     f
+Judgment:   g
+Phenomena:  adverb
+da       kota    dera        loya         da
+da       kot-a   der-a       loy-a        da
+this:SG  room-F  very:ADV-F  large:ADJ-F  be:TR.F.3SG.PRS
+'This room is very large.'
+
+Id: 209.  15.9  Adverb:  non-predicate use
+Source:     a:50
+Vetted:     f
+Judgment:   g
+Phenomena:  adverb
+da       der       se        day
+da       der       se        day
+this:SG  very:ADV  good:ADJ  be:3SG.PRS
+'This is very good.'
+
+Id: 210.  15.10  Adverb:  ADV-ADV-N mismatch ***
+Source:     a:49
+Vetted:     f
+Judgment:   u
+Phenomena:  adverb
+* da       kor      dera        loy          day
+* da       kor      der-a       loy          day
+* this:SG  house:M  very:ADV-F  large:ADJ-M  be:TR.M.3SG.PRS
+'* This house is very large.'
+
+Id: 211.  15.11  Adverb:  adverb of measure, xxx *** #### TODO: Jeff, why is ungrammatical
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  adverb
+* zest      bado              spo            pishoganee     taqibawe
+* zest      bad-o             sp-o           pisho-ganee    taqibaw-e
+* very:ADV  bad:ADJ-M.PL.ERG  dog:M-3PL.ERG  cat:F-3PL.ABS  chase:TR-3SG.PST
+'* (The) very bad dogs chased (the) cats.'
+
+
+
+###################################################################
+# 16. Non-verbal predicates
+
+Id: 212.  16.1.01  Non-Verbal Predicates:  NP-NP-COP    #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  non-verbal predicates (cop)
+da        pisho         spe           da
+da        pisho         sp-e          da
+this:ABS  cat:F.SG.ABS  dog:M-SG.ABS  be:COP.3SG.PRS
+'This cat is (a) dog.'
+
+Id: 213.  16.1.02  Non-Verbal Predicates:  NP-AP-COP
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  non-verbal predicates (cop)
+daga      pisho         khoshala      di
+dag-a     pisho         khoshala      di
+this:ABS  cat:F.SG.ABS  khoshala:ADJ  be:COP.3PL.PRS
+'This cat is happy.'
+
+Id: 214.  16.1.03  Non-Verbal Predicates:  NP-AP-COP
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  non-verbal predicates (cop)
+daga      pishoganee    khoshala      di
+dag-a     pisho-ganee   khoshala      di
+this:ABS  cat:F-PL.ABS  khoshala:ADJ  be:COP.3PL.PRS
+'These cats are happy.'
+
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  non-verbal predicates (cop)
+#### dago      tor        pishogano     zest      khoshala   ve
+#### dag-o     tor        pisho-gano    zest      khoshala   ve
+#### this:ERG  black:ADJ  cat:F-PL.ERG  very:ADV  happy:ADJ  be:COP.3PL.PST
+#### 'These black cats were very happy.'
+
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  non-verbal predicates (cop)
+#### dago      tor        pishogano     khoshala   zest      ve
+#### dag-o     tor        pisho-gano    khoshala   zest      ve
+#### this:ERG  black:ADJ  cat:F-PL.ERG  happy:ADJ  very:ADV  be:COP.3PL.PST
+#### 'These black cats were very happy.'
+
+####    # Id:  16.1.06  Non-Verbal Predicates:  NP-JP-COP  #### TODO:  doesn't parse
+####    Source:     author:scott
+####    Vetted:     f
+####    Judgment:   g
+####    Phenomena:  non-verbal predicates (cop)
+####    ze     natsapa       zest      bide        be      yem
+####    ze     natsapa       zest      bide        be      yem
+####    pronoun:1SG  suddenly:ADV  very:ADV  sleepy:ADJ  be:AUX  be:COP.1SG.FUT
+####    'I will be suddenly very sleepy.'
+
+Id: 215.  16.1.07  Non-Verbal Predicates:  NP-PP-COP  #### TODO:  need PP, won't parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  non-verbal predicates (cop)
++ dago      pishoganee    pe    kor             ki         day
++ dag-o     pisho-ganee   pe-   kor             -ki        day
++ this:ERG  cat:F-PL.ERG  PREP  house:M.SG.ABS  into:PREP  be:COP.3SG.PST
+'+ These cats were inside (the) house.'
+
+Id: 216.  16.1.08  Non-Verbal Predicates:  NP-COP-NP, bad word order, SVO  ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  non-verbal predicates (cop)
+* da        pisho         da              spe
+* da        pisho         da              sp-e
+* this:ABS  cat:F.SG.ABS  be:COP.3SG.PRS  dog:M-SG.ABS
+'* This cat is (a) dog.'
+
+Id: 217.  16.1.09  Non-Verbal Predicates:  bad word order, AP-DET-N-COP ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  non-verbal predicates (cop)
+* khoshala      daga      pishoganee    di
+* khoshala      dag-a     pisho-ganee   di
+* khoshala:ADJ  this:ABS  cat:F-PL.ABS  be:COP.3PL.PRS
+'* These cats are happy.'
+
+Id: 218.  16.1.10  Non-Verbal Predicates:  NP-PP-COP, case agreement mismatch ***
+Source:     author:scott
+Vetted:     f
+Judgment:   u
+Phenomena:  non-verbal predicates (cop)
++* daga      pishoganee    pe    kor             ki         day
++* dag-a     pisho-ganee   pe-   kor             -ki        day
++* this:ABS  cat:F-PL.ABS  PREP  house:M.SG.ABS  into:PREP  be:TR.3SG.PST
+'+* These cats were inside (the) house.'
+
+
+
+
+###################################################################
+# 17. Information Structure
+
+#### Focus of sentence always preceeds the verb.
+#### Normal focus is on the direct object but in certian cases others can move to that position.
+#### Examples of this are adverbial positioning or various indirect objects in ditransitives
+
+#### Topic is typically sentence initial meaning it is most often the subject
+#### Exceptions occur when there are sentence initial clauses.
+#### little literature on topic however so this is mostly an educated guess
+
+#### Need an example of adverbial focus and clausal topic if included in grammar.
+
+Id: 219.  17.01  Information Structure, SUBJ>Topic, OBJ>Focus
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Topic/Focus
+pisho                spe                  taqibawi
+pisho                sp-e                 taqibaw-i
+cat:F.SG.ABS(Topic)  dog:M-SG.ABS(Focus)  chase:TR-3SG.PRS
+'Cat chases dog.'
+
+Id: 220.  17.02 Information Structure, SUB>Topic, V>Focus, lack of direct object makes the verb the focus  #### provided that cat was already in the discourse?
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Topic/Focus {Lack of direct object makes the verb the focus}
+pisho                natsi
+pisho                nats-i
+cat:F.SG.ABS(Topic)  dance:INTR-3SG.PRS(Focus)
+'Cat dances.'
+
+Id: 221.  17.03  Information Structure, lack of da emphasis in the direct object position
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Embedded clauses (Object position) {Lack of da emphasis in the direct object position}
+spe           angeri              ce         pisho         natsi
+sp-e          anger-i             ce         pisho         nats-i
+dog:M-SG.ABS  think:TRAN-3SG.PRS  that:CONJ  cat:F.SG.ABS  dance:INTR-3SG.PRS
+'(the) dog thinks that the cat dances.'
+
+Id: 222.  17.04  Information Structure, da emphasis means focus is on the direct object embedded clause   #### TODO:  Jeff, should parse. problem with da  #### TODO: Jeff, complete gloss
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Embedded clauses (Object position) {da emphasis means focus is on the direct object embedded clause}
+spe           da        angeri              ce         pisho         natsi
+sp-e          da        anger-i             ce         pisho         nats-i
+dog:M-SG.ABS  this:XXX  think:TRAN-3SG.PRS  that:CONJ  cat:F.SG.ABS  dance:INTR-3SG.PRS
+'(the) dog(topic) thinks [that the cat dances](focus)'
+
+Id: 223.  17.05  Information Structure, PN>TOPIC NEG-V>FOCUS
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Sentenial Negation
+day               na       liki
+day               na       lik-i
+pronoun:M.SG.ABS  not:NEG  write:INTR-3SG.PRS
+'He(TOPIC) doesn''t(FOCUS) write.'
+
+Id: 224.  17.06  Information Structure, SUBJ>TOPIC OBJ>FOCUS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Adverb adverb of time. N-ADV-N
+spo            parun          pishoganee     taqibawe
+sp-o           parun          pisho-ganee    taqibaw-e
+dog:M-3PL.ERG  yesterday:ADV  cat:F-3PL.ABS  chase:TR-3SG.PST
+'(The) dogs(TOPIC) chased (the) cats(FOCUS) yesterday.'
+
+Id: 225.  17.07  Information Structure, SUBJ>TOPIC ADV>FOCUS #### TODO:  Jeff, overgenerates 10  #### TODO:  check for overgeneration, if OK, mark in test suite
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Adverb adverb of time. ADV-V
+spo            pishoganee     parun          taqibawe
+sp-o           pisho-ganee    parun          taqibaw-e
+dog:M-3PL.ERG  cat:F-3PL.ABS  yesterday:ADV  chase:TR-3SG.PST
+'(The) dogs(TOPIC) chased (the) cats yesterday(FOCUS).'
+
+Id: 226.  17.08  Information Structure, xxx #### TODO: Jeff, Justin, what behavior?
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  adjective
+haga         loya            pisho          natsa
+hag-a        loy-a           pisho          nats-a
+that-SG.ABS  large-F.SG.ABS  cat:F.3SG.ABS  dance:INTR-F.3SG.PRS
+'That large cat dances.'
+
+Id: 227.  17.09  Information Structure, xxx #### TODO: Jeff, Justin, what behavior?
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  adjective
+loya            pisho          natsa
+loy-a           pisho          nats-a
+large-F.SG.ABS  cat:F.3SG.ABS  dance:INTR-F.3SG.PRS
+'Large cat dances.'
+
+Id: 228.  17.10  Information Structure, ADV.FOCUS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Information Structure
+spo            pishoganee     parun                taqibawe
+sp-o           pisho-ganee    parun                taqibaw-e
+dog:M-3PL.ERG  cat:F-3PL.ABS  yesterday:ADV.FOCUS  chase:TR-3SG.PST
+'(The) dogs chased (the) cats yesterday(FOCUS).'
+
+Id: 229.  17.11  Information Structure, no focus
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Information Structure
+parun          spo            pishoganee     taqibawe
+parun          sp-o           pisho-ganee    taqibaw-e
+yesterday:ADV  dog:M-3PL.ERG  cat:F-3PL.ABS  chase:TR-3SG.PST
+'Yesterday (The) dogs chased (the) cats.'
+
+
+Id: 230.  17.12  Information Structure, focus prosody SUBJ, intransitive verb
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Topic/Focus
+pisho-FP            natsi
+pisho-FP            nats-i
+cat:F.SG.ABS.FOCUS  dance:INTR-3SG.PRS
+'Cat(FOCUS) dances.'
+
+
+Id: 231.  17.13  Information Structure, focus prosody SUBJ, transitive verb
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Information Structure
+spo-FP               pishoganee     taqibawe
+sp-o-FP              pisho-ganee    taqibaw-e
+dog:M-3PL.ERG.FOCUS  cat:F-3PL.ABS  chase:TR-3SG.PST
+'(The) dogs(FOCUS) chased (the) cats yesterday.'
+
+
+Id: 232.  17.14  Information Structure, focus prosody OBJ, transitive verb
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Information Structure
+spo            pishoganee-FP        taqibawe
+sp-o           pisho-ganee-FP       taqibaw-e
+dog:M-3PL.ERG  cat:F-3PL.ABS.FOCUS  chase:TR-3SG.PST
+'(The) dogs chased (the) cats(FOCUS) yesterday.'
+
+
+Id: 233.  17.15  Information Structure, dual focus
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Information Structure
+spo-FP               pishoganee     parun                taqibawe
+sp-o-FP              pisho-ganee    parun                taqibaw-e
+dog:M-3PL.ERG.FOCUS  cat:F-3PL.ABS  yesterday:ADV.FOCUS  chase:TR-3SG.PST
+'(The) dogs(FOCUS) chased (the) cats yesterday(FOCUS).'
+
+
+
+
+###################################################################
+# 18. 'I can eat glass.  It doesn't hurt me.'
+
+Id: 234.  18.01  'I can eat glass', main sentence
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+ze               shisha           khwarrelay      sem
+ze               shish-a          khwarr-el-ay    s-em
+pronoun:1SG.ABS  glass:F.3SG.ABS  eat:TR-INF-POT  can:AUX-1SG.PRS
+'I can eat glass.'
+
+
+Id: 235.  18.02  'I can eat glass', second sentence
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+_   ze           na       khozhdi
+0   ze           na       khozhd-i
+it  pronoun:1SG  not:NEG  hurt:TR-3SG.PRS
+"(It) doesn't hurt me."
+
+Id: 236.  18.03  'I can eat glass', second sentence
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+duy          ze           na       khozhdi
+duy          ze           na       khozhd-i
+pronoun:3PL  pronoun:1SG  not:NEG  hurt:TR-3SG.PRS
+" They don't hurt me."
+
+Id: 237.  18.03  'I can eat glass', 1ST.PRS, no object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+ze               khwarrem
+ze               khwarr-em
+pronoun:1SG.ABS  eat:TR-1SG.PRS
+'I eat.'
+
+Id: 238.  18.04  'I can eat glass', NEG 1ST.PRS, no object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+ze               na       khwarrem
+ze               na       khwarr-em
+pronoun:1SG.ABS  not:NEG  eat:TR-1SG.PRS
+'I eat not.'
+
+
+Id: 239.  18.05  'I can eat glass', 1ST.PRS w/ object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+ze               shisha           khwarrem
+ze               shish-a          khwarr-em
+pronoun:1SG.ABS  glass:F.3SG.ABS  eat:TR-1SG.PRS
+'I eat glass.'
+
+
+Id: 240.  18.06  'I can eat glass', NEG 1ST.PRS w/ object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+ze               shisha           na       khwarrem
+ze               shish-a          na       khwarr-em
+pronoun:1SG.ABS  glass:F.3SG.ABS  not:NEG  eat:TR-1SG.PRS
+'I eat glass not.'
+
+
+Id: 241.  18.07  'I can eat glass', 1SG.POT w/ no object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+ze               khwarrelay      sem
+ze               khwarr-el-ay    s-em
+pronoun:1SG.ABS  eat:TR-INF-POT  can:AUX-1SG.PRS
+'I can eat.'
+
+
+Id: 242.  18.08  'I can eat glass', NEG 1SG.POT w/ no object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+ze               na       khwarrelay      sem
+ze               na       khwarr-el-ay    s-em
+pronoun:1SG.ABS  not:NEG  eat:TR-INF-POT  can:AUX-1SG.PRS
+'I cannot eat.'
+
+
+Id: 243.  18.09 'I can eat glass', 3SG.PRS w/ no object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+da        spe          khozhdi
+da        sp-e         khozhd-i
+that:ABS  dog:3SG.ABS  hurt:TR-3SG.PRS
+'That dog hurts.'
+
+
+Id: 244.  18.10 'I can eat glass', NEG 3SG.PRS w/ no object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+da        spe          na       khozhdi
+da        sp-e         na       khozhd-i
+that:ABS  dog:3SG.ABS  not:NEG  hurt:TR-3SG.PRS
+'That dog hurts not.'
+
+
+Id: 245.  18.11 'I can eat glass', 3SG.PRS w/ object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+da        spe          ze               khozhdi
+da        sp-e         ze               khozhd-i
+that:ABS  dog:3SG.ABS  pronoun:1SG.ABS  hurt:TR-3SG.PRS
+'That dog hurts me.'
+
+Id: 246.  18.12 'I can eat glass', NEG 3SG.PRS w/ object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+da        spe          ze               na       khozhdi
+da        sp-e         ze               na       khozhd-i
+that:ABS  dog:3SG.ABS  pronoun:1SG.ABS  not:NEG  hurt:TR-3SG.PRS
+'That dog hurts me not.'
+
+
+Id: 247.  18.13 'I can eat glass', 3SG.POT w/ no object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+da        spe          ze               khozhdelay       sem
+da        sp-e         ze               khozhd-el-ay     s-em
+that:ABS  dog:3SG.ABS  pronoun:1SG.ABS  hurt:TR-INF-POT  can:AUX-1SG.PRS
+'That dog can hurt.'
+
+
+Id: 248.  18.14 'I can eat glass', NEG 3SG.POT w/ no object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+da        spe          ze               na       khozhdelay       sem
+da        sp-e         ze               na       khozhd-el-ay     s-em
+that:ABS  dog:3SG.ABS  pronoun:1SG.ABS  not:NEG  hurt:TR-INF-POT  can:AUX-1SG.PRS
+'That dog cannot hurt.'
+
+
+Id: 249.  18.15 'I can eat glass', 3SG.POT w/ object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+da        spe          ze               khozhdelay       sem
+da        sp-e         ze               khozhd-el-ay     s-em
+that:ABS  dog:3SG.ABS  pronoun:1SG.ABS  hurt:TR-INF-POT  can:AUX-1SG.PRS
+'That dog can hurt me.'
+
+
+Id: 250.  18.16 'I can eat glass', NEG 3SG.POT w/ object
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  aux
+da        spe          ze               na       khozhdelay       sem
+da        sp-e         ze               na       khozhd-el-ay     s-em
+that:ABS  dog:3SG.ABS  pronoun:1SG.ABS  not:NEG  hurt:TR-INF-POT  can:AUX-1SG.PRS
+'That dog cannot hurt me.'
+
+
+
+
+
+###################################################################
+# 19. Matrix WH questions
+
+# Id: 18.1  Matrix Yes/No Question:  who
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  q
+#### tsok              haga      spe           taqibawem         ?
+#### tsok              hag-a     sp-e          taqibaw-em        ?
+#### who:PN.INTRR.ABS  that-ABS  dog:M-SG.ABS  chase:TR-1SG.PRS  ?
+#### 'Who chases that dog?'
+
+
+# Id: 18.2  Matrix Yes/No Question:  valid change in word order, different semantics
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  q
+#### haga      spe           tsok              taqibawem         ?
+#### hag-a     sp-e          tsok              taqibaw-em        ?
+#### that-ABS  dog:M-SG.ABS  who:PN.INTRR.ABS  chase:TR-1SG.PRS  ?
+#### 'That dog chases who?'  ('Whom does that dog chase?')
+
+# Id: 18.3  Matrix Yes/No Question:
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  q
+#### kuma            pishogano         spi           taqibawey
+#### kum-a           pisho-gano         sp-i          taqibaw-ey
+#### which:PN.INTRR  cat:F-PL.ERG  dog:M-PL.ABS  chase:TR-3PL.PST
+#### 'Which cats chased (the) dogs?'
+
+# Id:  18.4  Matrix Yes/No Question:  how many
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  q
+#### haga         pisho          tso                spi            taqibawi
+#### hag-a        pisho          tso                sp-i           taqibaw-i
+#### that:SG.ABS  cat:F.3SG.ABS  how+many:PN.INTRR  dog:M-3PL.ABS  chase:TR-F.3SG.PRS
+#### 'That cat chases how many dogs?'
+
+# Id: 18.5  Matrix Yes/No Question:  DET-PN:INTRR-N bad word order *****
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   u
+#### Phenomena:  u
+#### * haga      tsok              spe           taqibawe
+#### * hag-a     tsok              sp-e          taqibaw-e
+#### * that-ABS  who:PN.INTRR.ABS  dog:M-SG.ABS  chase:TR-1SG.PRS
+#### '* Who chases that dog?'
+
+# Id:  18.6  Matrix Yes/No Question:  PN.POSS-DET-N, bad word order *****
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   u
+#### Phenomena:  u
+#### * tso                haga         pisho          spi            taqibawi
+#### * tso                hag-a        pisho          sp-i           taqibaw-i
+#### * how+many:PN.INTRR  that:SG.ABS  cat:F.3SG.ABS  dog:M-3PL.ABS  chase:TR-F.3SG.PRS
+#### '* That cat chases how many dogs?'
+
+######tsok     hag-a     pisho-ganee    taqibaw-i
+######who:ABS  that-ABS  cat:F-3PL.ABS  chase:TR.PRS
+######'Who chases those cats?'
+######
+######ca       hag-a     pisho-ganee    taqibaw-i
+######who:ERG  that-ABS  cat:F-3PL.ABS  chase:TR-3PL.PST
+######'Who chased those cats?'
+######
+######hag-a     pisho-ganee   tsok     taqibaw-i
+######that-ABS  cat:F-PL.ABS  who:ABS  chase:TR-3PL.PRS
+######'Those cats chase who?'
+######
+######hag-o     pisho-gano    tsok     taqibaw-i
+######that:ERG  cat:F-PL.ERG  who:ABS  chase:TR.3PL.PRS
+######'Those cats chased who?'
+
+
+
+
+###################################################################
+# 20. OTHER
+
+
+
+
+###################################################################
+###################################################################
+###################################################################
+# LEXICON EXERCISE
+
+
+###################################################################
+# 21.  ADJECTIVES
+
+
+
+
+
+###################################################################
+# 22.  ADVERBS
+
+
+
+
+
+
+###################################################################
+# 23.  DETERMINERS
+
+
+
+
+
+
+
+
+###################################################################
+# 24.  NOUNS
+
+#### TODO:  full declension for each class
+#### TODO:  Declension over verbs.  Use det, adjective that will declense.
+#### TODO:    - sg.abs
+#### TODO:    - pl.abs
+#### TODO:    - sg.erg
+#### TODO:    - pl.erg
+#### TODO:  for each new noun, add sg.abs for
+
+# 24.01.  Pronouns
+
+
+Id: 251.  24.01.2.1.1  Pronoun:  me
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  pronoun
+spe           ze               taqibawi
+sp-e          ze               taqibaw-i
+dog-M.SG.ABS  pronoun:1SG.ABS  chase:TR-3SG.PRS
+'(a) dog chases me.'
+
+
+
+# 24.02.  1m nouns
+
+
+
+
+
+
+# 24.03.  2m nouns
+
+
+
+
+
+
+# 24.04.  3m nouns
+
+
+
+
+
+
+# 24.05.  4m nouns
+
+
+
+
+
+
+# 24.06.  5m nouns
+
+
+
+
+
+
+# 24.07.  6m nouns
+
+
+
+
+
+
+# 24.08.  7m nouns
+
+
+
+
+
+
+
+# 24.09.  1f nouns
+
+
+
+
+
+
+# 24.10.  2f nouns
+
+
+
+
+
+
+# 24.11.  3f nouns
+
+Id: 252.  24.11.01.01  3m noun:  F.SG.ABS PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  noun
+da        pisho         natsi
+da        pisho         nats-i
+this:ABS  cat:F.SG.ABS  dance:INTR-3SG.PRS
+'This cat dances.'
+
+Id: 253.  24.11.01.02  3m noun:  F.PL.ABS PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  noun
+da        pishoganee    natsi
+da        pisho-ganee   nats-i
+this:ABS  cat:F-PL.ABS  dance:INTR-F.3PL.PRS
+'These cats dance.'
+
+Id: 254.  24.11.01.03  3m noun:  F.SG.ABS PST
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  noun
+da        pisho         natsa
+da        pisho         nats-a
+this:ABS  cat:F.SG.ABS  dance:INTR-F.3SG.PST
+'This cat danced.'
+
+Id: 255.  24.11.01.04  3m noun:  F.PL.ABS PST  #### TODO:  Jeff, should parse
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  noun
+da        pishoganee    natsa
+da        pisho-ganee   nats-a
+this:ABS  cat:F-PL.ABS  dance:INTR-F.3PL.PST
+'These cats danced.'
+
+Id: 256.  24.11.01.05  Verb: chase:F.3SG.PRS  #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+da        pisho         yaw           spe           taqibawi
+da        pisho         yaw           sp-e          taqibaw-i
+this:ABS  cat:F.SG.ABS  one:M.SG.ABS  dog-M.SG.ABS  chase:TR-3SG.PRS
+'This cat chases one dog.'
+
+Id: 257.  24.11.01.06 Verb: chase:F.PLG.PRS  #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+da        pishoganee    yaw           spe           taqibawi
+da        pisho-ganee   yaw           sp-e          taqibaw-i
+this:ABS  cat:F-PL.ABS  one:M.SG.ABS  dog-M.SG.ABS  chase:TR-3PL.PRS
+'These cats chase one dog.'
+
+Id: 258.  24.11.01.07 Verb: chase:F.3SG.PST  #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+da        pisho         yaw           spe           taqibawi
+da        pisho         yaw           sp-e          taqibaw-i
+this:ABS  cat:F.SG.ABS  one:M.SG.ABS  dog-M.SG.ABS  chase:TR-3SG.PST
+'This cat chased one dog.'
+
+Id: 259.  24.11.01.08 Verb: chase:F.3SG.PST  #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+da        pishoganee    yaw           spe           taqibawi
+da        pisho-ganee   yaw           sp-e          taqibaw-i
+this:ABS  cat:F-PL.ABS  one:M.SG.ABS  dog-M.SG.ABS  chase:TR-3PL.PST
+'These cats chased one dog.'
+
+Id: 260.  24.11.01.09 Verb: chase:F.3SG.PRS  #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+yaw           spe           da        pisho         taqibawi
+yaw           sp-e          da        pisho         taqibaw-i
+one:M.SG.ABS  dog-M.SG.ABS  this:ABS  cat:F.SG.ABS  chase:TR-F.3SG.PRS
+'One dog chases this cat.'
+
+Id: 261.  24.11.01.10 Verb: chase:F.3SG.PRS  #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+yaw           spe           da        pishoganee    taqibawi
+yaw           sp-e          da        pisho-ganee   taqibaw-i
+one:M.SG.ABS  dog-M.SG.ABS  this:ABS  cat:F-PL.ABS  chase:TR-3SG.PRS
+'One dog chases these cats.'
+
+# Id:  24.11.01.11 Verb: chase:F.3SG.PST  #### TODO:  Jeff, add yawe, 'one' M.SG.ERG
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  Present Tense
+#### yave          spo           da        pisho         taqibawi
+#### yave          sp-o          da        pisho         taqibaw-i
+#### one:M.SG.ERG  dog-M.SG.ERG  this:ABS  cat:F.SG.ABS  chase:TR-3SG.PST
+#### 'One dog chased this cat.'
+
+# Id:  24.11.01.12 Verb: chase:F.3SG.PST
+#### Source:     author:scott
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  Present Tense
+#### yave          spe           da        pishoganee    taqibawi
+#### yave          sp-e          da        pisho-ganee   taqibaw-i
+#### one:M.SG.ERG  dog-M.SG.ERG  this:ABS  cat:F-SG.ABS  chase:TR-3SG.PST
+#### 'One dog chased these cats.'
+
+
+
+
+
+
+
+# 24.12.  4f nouns
+
+
+
+
+
+
+# 24.13.  5f nouns
+
+
+
+
+
+
+# 24.14.  6f nouns
+
+
+
+
+
+# 24.15.  7f nouns
+
+
+
+
+
+
+
+
+
+###################################################################
+# 25.  PREPOSITIONS
+
+
+
+
+
+
+
+
+
+
+###################################################################
+# 26.  VERBS
+
+
+# 26.01  Intransitive Verbs
+
+# 26.01.1  Verb 'dance', present
+
+Id: 262.  26.01.1.1.1  Verb: dance:1SG.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+ze               natsem
+ze               nats-em
+pronoun:1SG.ABS  dance:ITRAN-1SG.PRS
+'I dance.'
+
+Id: 263.  26.01.1.1.2  Verb: dance:2SG.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+te           natse
+te           nats-e
+pronoun:2SG  dance:ITRAN-2SG.PRS
+'You dance.'
+
+Id: 264.  26.01.1.1.3  Verb: dance:M.3SG.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+day                natsi
+day                nats-i
+pronoun:M.3SG.ABS  dance:INTR-M.3SG.PRS
+'He dances.'
+
+Id: 265.  26.01.1.1.4  Verb: dance:F.3SG.PRS  #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+da                 natsi
+da                 nats-i
+pronoun:F.3SG.ABS  dance:INTR-F.3SG.PRS
+'She dances.'
+
+Id: 266.  26.01.1.1.5  Verb: dance:1PL.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+muz     natsu
+muz     nats-u
+we:1PL  dance:1PL.PRS
+'We dance.'
+
+Id: 267.  26.01.1.1.6  Verb: dance:2PL.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+tasi     natsast
+tasi     nats-ast
+you:2PL  dance:2PL.PRS
+'You dance.'
+
+Id: 268.  26.01.1.1.7  Verb: dance:3PL.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+duy          natsi
+duy          nats-i
+pronoun:3PL  dance-3PL.PRS
+'They dance.'
+
+
+
+# 26.01.1.2  Verb 'natsel' (to dance), Past
+
+Id: 269.  26.01.1.2.1  Verb: dance:1SG.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+ze               natsem
+ze               nats-em
+pronoun:1SG.ABS  dance:ITRAN-1SG.PST
+'I danced.'
+
+Id: 270.  26.01.1.2.2  Verb: dance:2SG.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+te           natse
+te           nats-e
+pronoun:2SG  dance:ITRAN-2SG.PST
+'You danced.'
+
+Id: 271.  26.01.1.2.3  Verb: dance:M.3SG.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+day                natsey
+day                nats-ey
+pronoun:M.3SG.ABS  dance:INTR-M.3SG.PST
+'He danced.'
+
+Id: 272.  26.01.1.2.4  Verb: dance:F.3SG.PST  #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+da                 natsa
+da                 nats-a
+pronoun:F.3SG.ABS  dance:INTR-F.3SG.PST
+'She danced.'
+
+Id: 273.  26.01.1.2.5  Verb: dance:1PL.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+muz     natsu
+muz     nats-u
+we:1PL  dance:1PL.PST
+'We danced.'
+
+#### TODO: does not parset properly
+Id: 274.  26.01.1.2.6  Verb: dance:2PL.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+tasi     natsast
+tasi     nats-ast
+you:2PL  dance:2PL.PST
+'You danced.'
+
+Id: 275.  26.01.1.2.7  Verb: dance:3PL.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+duy          natsel
+duy          nats-el
+pronoun:3PL  dance-M.3PL.PST
+'They (masc.) danced.'
+
+Id: 276.  26.01.1.2.8  Verb: dance:3PL.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+duy          natse
+duy          nats-e
+pronoun:3PL  dance:F.3PL.PST
+'They (fem.) danced.'
+
+
+
+# 26.01.1.3  Verb 'dance', future
+
+Id: 277.  26.01.1.3.1  Verb: dance:1SG.FUT
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+ze               be   vunatsem
+ze               be   vu-nats-em
+pronoun:1SG.ABS  FUT  FUT-dance:ITRAN-1SG
+'I will dance.'
+
+Id: 278.  26.01.1.3.2  Verb: dance:2SG.FUT
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+te               be   vunatse
+te               be   vu-nats-e
+pronoun:2SG.ABS  FUT  FUT-dance:ITRAN-2SG
+'You will dance.'
+
+Id: 279.  26.01.1.3.3  Verb: dance:M.3SG.FUT
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+day                be   vunatsi
+day                be   vu-nats-i
+pronoun:M.3SG.ABS  FUT  FUT-dance:INTR-M.3SG
+'He will dance.'
+
+Id: 280.  26.01.1.3.4  Verb: dance:F.3SG.FUT  #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+da                 be   vunatsi
+da                 be   vu-nats-i
+pronoun:F.3SG.ABS  FUT  FUT-dance:INTR-F.3SG
+'She will dance.'
+
+Id: 281.  26.01.1.3.5  Verb: dance:1PL.FUT
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+muz         be   vunatsu
+muz         be   vu-nats-u
+we:1PL.ABS  FUT  FUT-dance:1PL
+'We will dance.'
+
+Id: 282.  26.01.1.3.6  Verb: dance:2PL.FUT  #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+tasi         be   vunatsast
+tasi         be   vu-nats-ast
+you:2PL.ABS  FUT  FUT-dance:2PL
+'You will dance.'
+
+Id: 283.  26.01.1.3.7  Verb: dance:3PL.FUT
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+duy              be   vunatsi
+duy              be   vu-nats-i
+pronoun:3PL.ABS  FUT  FUT-dance-3PL
+'They will dance.'
+
+
+
+# 26.02  Transitive Verbs
+
+# 26.01.2  Verb 'chase', present
+
+Id: 284.  26.01.2.1.1  Verb: chase:1SG.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+ze               spe           taqibawem
+ze               sp-e          taqibaw-em
+pronoun:1SG.ABS  dog-M.SG.ABS  chase:TR-1SG.PRS
+'I chase (a) dog.'
+
+Id: 285.  26.01.2.1.2  Verb: chase:2SG.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+te               spe           taqibawe
+te               sp-e          taqibaw-e
+pronoun:2SG.ABS  dog-M.SG.ABS  chase:TR-2SG.PRS
+'You chase (a) dog.'
+
+Id: 286.  26.01.2.1.3  Verb: chase:M.3SG.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+day                spe           taqibawi
+day                sp-e          taqibaw-i
+pronoun:M.3SG.ABS  dog-M.SG.ABS  chase:TR-3SG.PRS
+'He chases (a) dog.'
+
+Id: 287.  26.01.2.1.4  Verb: chase:F.3SG.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+da                spe           taqibawi
+da                sp-e          taqibaw-i
+pronoun:f.SG.ABS  dog-M.SG.ABS  chase:TR-3SG.PRS
+'She chases (a) dog.'
+
+Id: 288.  26.01.2.1.5  Verb: chase:1PL.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+muz         spe           taqibawu
+muz         sp-e          taqibaw-u
+we:1PL.ABS  dog-M.SG.ABS  chase:TR-1PL.PRS
+'We chase (a) dog.'
+
+Id: 289.  26.01.2.1.6  Verb: chase:2PL.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+tasi         spe           taqibawey
+tasi         sp-e          taqibaw-ey
+you:2PL.ABS  dog-M.SG.ABS  chase:TR-2PL.PRS
+'You chase (a) dog.'
+
+Id: 290.  26.01.2.1.7  Verb: chase:3PL.PRS
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Present Tense
+duy              spe           taqibawi
+duy              sp-e          taqibaw-i
+pronoun:3PL.ABS  dog-M.SG.ABS  chase:TR-3PL.PRS
+'They chase (a) dog.'
+
+
+
+Id: 291.  26.01.2.2.01  Verb: chase:1SG.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+ma               spe           taqibawem
+ma               sp-e          taqibaw-em
+pronoun:1SG.ERG  dog-M.SG.ABS  chase:TR-1SG.PST
+'I chased (a) dog.'
+
+Id: 292.  26.01.2.2.02  Verb: chase:2SG.PST      #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+ta               spe           taqibawe
+ta               sp-e          taqibaw-e
+pronoun:2SG.ERG  dog-M.SG.ABS  chase:TR-2SG.PST
+'You chased (a) dog.'
+
+Id: 293.  26.01.2.2.03  Verb: chase:M.3SG.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+de                 spe           taqibawi
+de                 sp-e          taqibaw-i
+pronoun:M.3SG.ERG  dog-M.SG.ABS  chase:TR-3SG.PST
+'He chased (a) dog.'
+
+Id: 294.  26.01.2.2.04  Verb: chase:F.3SG.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+de                spe           taqibawi
+de                sp-e          taqibaw-i
+pronoun:f.SG.ERG  dog-M.SG.ABS  chase:TR-3SG.PST
+'She chased (a) dog.'
+
+Id: 295.  26.01.2.2.05  Verb: chase:1PL.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+muz         spe           taqibawu
+muz         sp-e          taqibaw-u
+we:1PL.ERG  dog-M.SG.ABS  chase:TR-1PL.PST
+'We chased (a) dog.'
+
+Id: 296.  26.01.2.2.06  Verb: chase:2PL.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+tasi         spe           taqibawey
+tasi         sp-e          taqibaw-ey
+you:2PL.ERG  dog-M.SG.ABS  chase:TR-2PL.PST
+'You chased (a) dog.'
+
+Id: 297.  26.01.2.2.07  Verb: chase:3PL.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+duy              spe           taqibawi
+duy              sp-e          taqibaw-i
+pronoun:3PL.ERG  dog-M.SG.ABS  chase:TR-3PL.PST
+'They chased (a) dog.'
+
+Id: 298.  26.01.2.2.08  Verb: chase:1SG.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+spo           ze               taqibawem
+sp-o          ze               taqibaw-em
+dog-M.SG.ERG  pronoun:1SG.ABS  chase:TR-1SG.PST
+'(a) dog chased me.'
+
+Id: 299.  26.01.2.2.09  Verb: chase:2SG.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+spo           te               taqibawe
+sp-o          te               taqibaw-e
+dog-M.SG.ERG  pronoun:2SG.ABS  chase:TR-2SG.PST
+'(a) dog chased you.'
+
+Id: 300.  26.01.2.2.10  Verb: chase:M.3SG.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+spo           day                taqibawey
+sp-o          day                taqibaw-ey
+dog-M.SG.ERG  pronoun:M.3SG.ABS  chase:TR-3SG.PST
+'(a) dog chased him.'
+
+Id: 301.  26.01.2.2.11  Verb: chase:F.3SG.PST  #### TODO:  Jeff, should parse
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+spo           da                taqibawa
+sp-o          da                taqibaw-a
+dog-M.SG.ERG  pronoun:f.SG.ABS  chase:TR-3SG.PST
+'(a) dog chased her.'
+
+Id: 302.  26.01.2.2.12  Verb: chase:1PL.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+spo           muz         taqibawu
+sp-o          muz         taqibaw-u
+dog-M.SG.ERG  we:1PL.ABS  chase:TR-1PL.PST
+'(a) dog chased us.'
+
+Id: 303.  26.01.2.2.13  Verb: chase:2PL.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+spo           tasi         taqibawey
+sp-o          tasi         taqibaw-ey
+dog-M.SG.ERG  you:2PL.ABS  chase:TR-2PL.PST
+'(a) dog chased you.'
+
+Id: 304.  26.01.2.2.14  Verb: chase:M.3PL.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+spo           duy              taqibawel
+sp-o          duy              taqibaw-el
+dog-M.SG.ERG  pronoun:3PL.ABS  chase:TR-M.3PL.PST
+'(a) dog chased them (masc.).'
+
+Id: 305.  26.01.2.2.15 Verb: chase:F.3PL.PST
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Tense
+spo           duy              taqibawe
+sp-o          duy              taqibaw-e
+dog-M.SG.ERG  pronoun:3PL.ABS  chase:F.TR-3PL.PST
+'(a) dog chased them (fem.).'
+
+
+
+#### # 26.01.2.3  Verb 'chase', future
+
+Id: 306.  26.01.2.3.1  Verb: chase:1SG.FUT
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+ze               spe           be   vutaqibawem
+ze               sp-e          be   vu-taqibaw-em
+pronoun:1SG.ABS  dog-M.SG.ABS  FUT  FUT-chase:TR-1SG
+'I chase (a) dog.'
+
+Id: 307.  26.01.2.3.2  Verb: chase:2SG.FUT
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+te               spe           be   vutaqibawem
+te               sp-e          be   vu-taqibaw-em
+pronoun:2SG.ABS  dog-M.SG.ABS  FUT  FUT-chase:TR-2SG
+'You chase (a) dog.'
+
+Id: 308.  26.01.2.3.3  Verb: chase:M.3SG.FUT
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+day                spe           be   vutaqibawi
+day                sp-e          be   vu-taqibaw-i
+pronoun:M.3SG.ABS  dog-M.SG.ABS  FUT  FUT-chase:TR-3SG
+'He chases (a) dog.'
+
+Id: 309.  26.01.2.3.4  Verb: chase:F.3SG.FUT
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+da                spe           be   vutaqibawi
+da                sp-e          be   vu-taqibaw-i
+pronoun:f.SG.ABS  dog-M.SG.ABS  FUT  FUT-chase:TR-3SG
+'She chases (a) dog.'
+
+Id: 310.  26.01.2.3.5  Verb: chase:1PL.FUT
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+muz         spe           be   vutaqibawu
+muz         sp-e          be   vu-taqibaw-u
+we:1PL.ABS  dog-M.SG.ABS  FUT  FUT-chase:TR-1PL
+'We chase (a) dog.'
+
+Id: 311.  26.01.2.3.6  Verb: chase:2PL.FUT
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+tasi         spe           be   vutaqibawey
+tasi         sp-e          be   vu-taqibaw-ey
+you:2PL.ABS  dog-M.SG.ABS  FUT  FUT-chase:TR-2PL
+'You chase (a) dog.'
+
+Id: 312.  26.01.2.3.7  Verb: chase:3PL.FUT
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  Future Tense
+duy              spe           be   vutaqibawi
+duy              sp-e          be   vu-taqibaw-i
+pronoun:3PL.ABS  dog-M.SG.ABS  FUT  FUT-chase:TR-3PL
+'They chase (a) dog.'
+
+
+
+# Id:  26.01.2.4  Verb: chase:PRS Transitive
+
+
+
+# Id:  26.01.2.5  Verb: chase:Past Transitive
+
+Id: 313.  26.01.2.5.1  Verb: chase:1SG.Past Transitive
+Source:     author:kauhl
+Vetted:     f
+Judgment:   g
+Phenomena:  Past Transitive
+ma               spe           taqibawey
+ma               sp-e          taqibaw-ey
+pronoun:1SG.ERG  dog:M-SG.ABS  chase:TR-1SG.PST.
+'I chased (the) dog.'
+
+
+
+
+
+
+
+
+# 26.03  Auxiliary/Helper Verbs
+
+# 26.03.1.  Verb 'be'
+
+# 26.03.1.1.  Verb 'be', present
+
+Id: 314.  26.03.1.1.1  Verb: be:TR.1SG.PRS
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+ze           yem
+ze           yem
+pronoun:1SG  be:TR.1SG.PRS
+'I am.'
+
+
+Id: 315.  26.03.1.1.2  Verb: be:TR.2SG.PRS
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+te           ye
+te           ye
+pronoun:2SG  be:TR.2SG.PRS
+'You are.'
+
+
+Id: 316.  26.03.1.1.3  Verb: be:TR.M.3SG.PRS  #### TODO:  Jeff, should parse
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+day            dey
+day            dey
+pronoun:M.3SG  be:TR.M.3SG.PRS
+'He is.'
+
+
+Id: 317.  26.03.1.1.4  Verb: be:TR.F.3SG.PRS  #### TODO:  Jeff, should parse
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+da             da
+da             da
+pronoun:F.3SG  be:TR.TR.F.3SG.PRS
+'She is.'
+
+
+Id: 318.  26.03.1.1.5  Verb: be:TR.1PL.PRS
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+muz     yu
+muz     yu
+we:1PL  be:TR.1PL.PRS
+'We are.'
+
+
+Id: 319.  26.03.1.1.6  Verb: be:TR.2PL.PRS
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+tasi     yast
+tasi     yast
+you:2PL  be:TR.2PL.PRS
+'You are.'
+
+
+Id: 320.  26.03.1.1.7  Verb: be:TR.3PL.PRS
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+duy          di
+duy          di
+pronoun:3PL  be:TR.3PL.PRS
+'They are.'
+
+
+
+# 26.03.1.2  Verb 'be', past
+
+Id: 321.  26.03.1.2.01  Verb: be:TR.1SG.PST
+Source:     a:43
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+ze           vem
+ze           vem
+pronoun:1SG  be:TR.1SG.PST
+'I was.'
+
+
+Id: 322.  26.03.1.2.02  Verb: be:TR.2SG.PST
+Source:     a:43
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+te           ve
+te           ve
+pronoun:2SG  be:TR.2SG.PST
+'You were.'
+
+
+Id: 323.  26.03.1.2.03  Verb: be:TR.M.3SG.PST  #### TODO:  Jeff, should parse
+Source:     a:43
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+day            vu
+day            vu
+pronoun:M.3SG  be:TR.M.3SG.PST
+'He was.'
+
+
+Id: 324.  26.03.1.2.04  Verb: be:TR.M.3SG.PST
+Source:     a:43
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+day            ve
+day            ve
+pronoun:M.3SG  be:TR.M.3SG.PST
+'He was.'
+
+
+Id: 325.  26.03.1.2.05  Verb: be:TR.F.3SG.PST  #### TODO:  Jeff, should parse
+Source:     a:43
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+da             va
+da             va
+pronoun:F.3SG  be:TR.F.3SG.PST
+'She was.'
+
+
+Id: 326.  26.03.1.2.06  Verb: be:TR.1PL.PST
+Source:     a:43
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+muz     vu
+muz     vu
+we:1PL  be:TR.1PL.PST
+'We were.'
+
+
+Id: 327.  26.03.1.2.07  Verb: be:TR.2PL.PST
+Source:     a:43
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+tasi     vey
+tasi     vey
+you:2PL  be:TR.2PL.PST
+'You were.'
+
+
+Id: 328.  26.03.1.2.08  Verb: be:TR.2PL.PST
+Source:     a:43
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+tasi     vast
+tasi     vast
+you:2PL  be:TR.2PL.PST
+'You were.'
+
+
+Id: 329.  26.03.1.2.09  Verb: be:TR.M.3PL.PST
+Source:     a:43
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+duy          vu
+duy          vu
+pronoun:3PL  be:TR.M.3PL.PST
+'They were.'
+
+
+Id: 330.  26.03.1.2.10  Verb: be:TR.F.3PL.PST
+Source:     a:43
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+duy          ve
+duy          ve
+pronoun:3PL  be:TR.F.3PL.PST
+'They were.'
+
+
+
+# 26.03.1.3  Verb 'be', future
+
+Id: 331.  26.03.1.3.1  Verb: be:TR.1SG.FUT
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+ze           be        yem
+ze           be        yem
+pronoun:1SG  will:FUT  be:TR.1SG.FUT
+'I will be.'
+
+
+Id: 332.  26.03.1.3.2  Verb: be:TR.2SG.FUT
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+te           be        ye
+te           be        ye
+pronoun:2SG  will:FUT  be:TR.2SG.FUT
+'You will be.'
+
+
+Id: 333.  26.03.1.3.3  Verb: be:TR.M.3SG.FUT  #### TODO:  Jeff, overgenerates 95  #### TODO:  check for overgeneration, if OK, mark in test suite
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+day            be        vi
+day            be        vi
+pronoun:M.3SG  will:FUT  be:TR.M.3SG.FUT
+'He will be.'
+
+
+Id: 334.  26.03.1.3.4  Verb: be:TR.F.3SG.FUT    #### TODO:  Jeff, should parse
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+da             be        vi
+da             be        vi
+pronoun:F.3SG  will:FUT  be:TR.F.3SG.FUT
+'She will be.'
+
+
+Id: 335.  26.03.1.3.5  Verb: be:TR.1PL.FUT
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+muz     be        yu
+muz     be        yu
+we:1PL  will:FUT  be:TR.1PL.FUT
+'We will be.'
+
+
+Id: 336.  26.03.1.3.6  Verb: be:TR.2PL.FUT
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+tasi     be        yast
+tasi     be        yast
+you:2PL  will:FUT  be:TR.2PL.FUT
+'You will be.'
+
+
+Id: 337.  26.03.1.3.7  Verb: be:TR.3PL.FUT  #### TODO:  check for overgeneration, if OK, mark in test suite
+Source:     a:39
+Vetted:     f
+Judgment:   g
+Phenomena:  u
+duy          be        vi
+duy          be        vi
+pronoun:3PL  will:FUT  be:TR.3PL.FUT
+'They will be.'
+
+
+
+
+# 26.03.2  Verb 'svel' (to become)
+
+# 26.03.2.1  Verb 'svel' (to become), present
+
+# svel can only be used as an auxiliary
+
+####Id:  326.    26.03.1.1.1  Verb: becoI:TR.1SG.PRS
+####Source:     author:scott
+####Vetted:     f
+####Judgment:   g
+####Phenomena:  u
+####ze     sem
+####ze     sem
+####pronoun:1SG  become:TR.1SG.PRS
+####'I become.'
+####
+####
+####Id:  327.    26.03.1.1.2  Verb: become:TR.2SG.PRS
+####Source:     author:scott
+####Vetted:     f
+####Judgment:   g
+####Phenomena:  u
+####te       se
+####te       se
+####pronoun:2SG  become:TR.2SG.PRS
+####'You become.'
+####
+####
+####Id:  328.    26.03.1.1.3  Verb: become:TR.M.3SG.PRS
+####Source:     author:scott
+####Vetted:     f
+####Judgment:   g
+####Phenomena:  u
+####day       si
+####day       si
+####he:M.3SG  become:TR.M.3SG.PRS
+####'He becomes.'
+####
+####
+####Id:  329.    26.03.1.1.4  Verb: become:TR.F.3SG.PRS  #### TODO:  Jeff, should parse
+####Source:     author:scott
+####Vetted:     f
+####Judgment:   g
+####Phenomena:  u
+####da         si
+####da         si
+####she:F.3SG  become:TR.TR.F.3SG.PRS
+####'She becomes.'
+####
+####
+####Id:  330.    26.03.1.1.5  Verb: become:TR.1PL.PRS
+####Source:     author:scott
+####Vetted:     f
+####Judgment:   g
+####Phenomena:  u
+####muz     su
+####muz     su
+####we:1PL  become:TR.1PL.PRS
+####'We become.'
+####
+####
+####Id:  331.    26.03.1.1.6  Verb: become:TR.2PL.PRS
+####Source:     author:scott
+####Vetted:     f
+####Judgment:   g
+####Phenomena:  u
+####tasi     sey
+####tasi     sey
+####you:2PL  become:TR.2PL.PRS
+####'You become.'
+####
+####
+####Id:  332.    26.03.1.1.7  Verb: become:TR.3PL.PRS
+####Source:     author:scott
+####Vetted:     f
+####Judgment:   g
+####Phenomena:  u
+####duy       si
+####duy       si
+####pronoun:3PL  become:TR.3PL.PRS
+####'They become.'
+
+
+
+
+
+# 26.03.2.2  Verb 'become', past
+
+
+
+
+
+
+
+# 26.03.2.3  Verb 'become', future
+
+# Id:  26.03.2.3.1  Verb: become:1SG.FUT
+#### Source:     a:40
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  u
+#### ze     be        vuse
+#### ze     be        vu-se
+#### pronoun:1SG  will:FUT  FUT-become:1SG
+#### 'I will become.'
+
+# Id:  26.03.2.3.2  Verb: become:2SG.FUT
+#### Source:     a:40
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  u
+#### te       be        vuse
+#### te       be        vu-se
+#### pronoun:2SG  will:FUT  FUT-become:2SG
+#### 'You will become.'
+
+# Id:  26.03.2.3.3  Verb: become:M.3SG.FUT
+#### Source:     a:40
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  u
+#### day       be        vusi
+#### day       be        vu-si
+#### pronoun:M.3SG  will:FUT  FUT-become:3SG
+#### 'He will become.'
+
+# Id:  26.03.2.3.4  Verb: become:F.3SG.FUT
+#### Source:     a:40
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  u
+#### da         be        vusi
+#### da         be        vu-si
+#### pronoun:F.3SG  will:FUT  FUT-become:3SG
+#### 'She will become.'
+
+# Id:  26.03.2.3.5  Verb: become:1PL.FUT
+#### Source:     a:40
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  u
+#### muz     be        vusu
+#### muz     be        vu-su
+#### we:3PL  will:FUT  FUT-become:1PL
+#### 'We will become.'
+
+# Id:  26.03.2.3.6  Verb: become:2PL.FUT
+#### Source:     a:40
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  u
+#### tasi     be        vusey
+#### tasi     be        vu-sey
+#### you:2PL  will:FUT  FUT-become:2PL
+#### 'You will become.'
+
+# Id:  26.03.2.3.7  Verb: become:3PL.FUT
+#### Source:     a:40
+#### Vetted:     f
+#### Judgment:   g
+#### Phenomena:  u
+#### duy       be        vusi
+#### duy       be        vu-si
+#### pronoun:3PL  will:FUT  FUT-become:3PL
+#### 'They will become.'
+
+
+
+###################################################################
+# 27.  MMT
+
+Id: 338.  27.01  'Dogs sleep.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+spi           widedi
+sp-i          wided-i
+dog:M-PL.ABS  sleep:ITR-3PL.PRS
+'Dogs sleep.'
+
+
+Id: 339.  27.02  'Dogs chase cars.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+spi           motaruna      taqibawi
+sp-i          motar-una     taqibaw-i
+dog:M-PL.ABS  car:M-PL.ABS  chase:TR-3PL.PRS
+'Dogs chase cars.'
+
+
+Id: 340.  27.03  'I chase you.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+ze           te           taqibawem
+ze           te           taqibaw-em
+pronoun:1SG  pronoun:2SG  chase:TR-1PL.PRS
+'I chase you.'
+
+
+Id: 341.  27.04  'These dogs sleep.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+da        spi           widedi
+da        sp-i          wided-i
+this:ABS  dog:M-PL.ABS  sleep:ITR-3PL.PRS
+'These dogs sleep.'
+
+
+Id: 342.  27.05  'Dogs eat.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+spi           khwarri
+sp-i          khwarr-i
+dog:M-PL.ABS  eat:TR-3PL-PRS
+'Dogs eat.'
+
+
+Id: 343.  27.06  'I can eat glass'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+ze               shisha           khwarrelay      sem
+ze               shish-a          khwarr-el-ay    s-em
+pronoun:1SG.ABS  glass:F.3SG.ABS  eat:TR-INF-POT  can:AUX-1SG.PRS
+'I can eat glass.'
+
+
+Id: 344.  27.07  (It) doesn''t hurt me.
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+_   ze           na       khozhdi
+0   ze           na       khozhd-i
+it  pronoun:1SG  not:NEG  hurt:TR-3SG.PRS
+"(It) doesn't hurt me."
+
+
+Id: 345.  27.08  'The dogs chase cars.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+spi           motaruna      taqibawi
+sp-i          motar-una     taqibaw-i
+dog:M-PL.ABS  car:M-PL.ABS  chase:TR-3PL.PRS
+'The dogs chase cars.'
+
+
+Id: 346.  27.09  'I think that you know that dogs chase cars.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+ze           angerem             ce         te           pezhande           ce         spi           motaruna      taqibawi
+ze           anger-em            ce         te           pezhand-em         ce         sp-i          motar-una     taqibaw-i
+pronoun:1SG  think:TRAN-1SG.PRS  that:CONJ  pronoun:2SG  know:TRAN-1SG.PRS  that:CONJ  dog:M-PL.ABS  car:M-PL.ABS  chase:TR-3PL.PRS
+'I think that you know that dogs chase cars.'
+
+
+Id: 347.  27.10  'I ask whether you know that dogs chase cars.
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+ze           pukhtem         chih          te           pezhande           ce         spi           motaruna      taqibawi
+ze           pukht-em        chih          te           pezhand-e          ce         sp-i          motar-una     taqibaw-i
+pronoun:1SG  ask:TR-1SG.PRS  whether:CONJ  pronoun:2SG  know:TRAN-1SG.PRS  that:CONJ  dog:M-PL.ABS  car:M-PL.ABS  chase:TR-3PL.PRS
+'I ask whether you know that dogs chase cars.'
+
+
+Id: 348.  27.11  'Cats and dogs chase cars.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+pishoganee     aw        spi           motaruna      taqibawi
+pisho-ganee    aw        sp-i          motar-una     taqibaw-i
+cat:F-3PL.ABS  and:CONJ  dog:M-PL.ABS  car:M-PL.ABS  chase:TR-3PL.PRS
+'Cats and dogs chase cars.'
+
+
+Id: 349.  27.12  'Dogs chase cars and cats chase dogs.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+spi           motaruna      taqibawi          aw        pishoganee     spi           taqibawi
+sp-i          motar-una     taqibaw-i         aw        pisho-ganee    sp-i          taqibaw-i
+dog:M-PL.ABS  car:M-PL.ABS  chase:TR-3PL.PRS  and:CONJ  cat:F-3PL.ABS  dog:M-PL.ABS  chase:TR-3PL.PRS
+'Dogs chase cars and cats chase dogs.'
+
+
+Id: 350.  27.13  'Cats chase dogs and sleep.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+pishoganee     spi           taqibawi          aw        widedi
+pisho-ganee    sp-i          taqibaw-i         aw        wided-i
+cat:F-3PL.ABS  dog:M-PL.ABS  chase:TR-3PL.PRS  and:CONJ  sleep:ITR-3PL.PRS
+'Cats chase dogs and sleep.'
+
+
+Id: 351.  27.14  'Do cats chase dogs?'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+pishoganee     spi           taqibawi          ka_na        ?
+pisho-ganee    sp-i          taqibaw-i         ka_na        ?
+cat:F-3PL.ABS  dog:M-PL.ABS  chase:TR-3PL.PRS  if+not:CONJ  ?
+'Do cats chase dogs?'
+
+
+Id: 352.  27.15  'Hungry dogs eat.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+vezi           spi           khwarri
+vez-i          sp-i          khwarr-i
+hungry-PL.ABS  dog:M-PL.ABS  eat:TR-3PL-PRS
+'Hungry dogs eat.'
+
+
+Id: 353.  27.16  'Dogs eat quickly.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+spi           zer          khwarri
+sp-i          zer          khwarr-i
+dog:M-PL.ABS  quickly:ADV  eat:TR-3PL-PRS
+'Dogs eat quickly.'
+
+
+Id: 354.  27.17  'The dogs are hungry.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+spi           vezi           di
+sp-i          vez-i          di
+dog:M-PL.ABS  hungry:PL.ABS  be:TR-3PL.PRS
+'The dogs are hungry.'
+
+
+Id: 355.  27.18  'The dogs are in the park.' ;;;; TODO:  add PP
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+spi           pe    park       ki             di
+sp-i          pe-   park       -ki            di
+dog:M-PL.ABS  PREP  park:M-SG  in:POSTADP???  be:TR-3PL.PRS
+'The dogs are in the park.'
+
+
+Id: 356.  27.19  'The dogs are the cats.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+spi           pishoganee     di
+sp-i          pisho-ganee    di
+dog:M-PL.ABS  cat:F-3PL.ABS  be:TR-3PL.PRS
+'The dogs are the cats.'
+
+
+Id: 357.  27.20  'The dogs-FP chase the cats.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+spi-FP              pishoganee     taqibawi
+sp-i-FP             pisho-ganee    taqibaw-i
+dog:M-PL.ABS.FOCUS  cat:F-3PL.ABS  chase:TR-3PL.PRS
+'The dogs-FP chase the cats.'
+
+
+Id: 358.  27.21  'The dogs chase-FP the cats.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+spi           pishoganee     taqibawi-FP
+sp-i          pisho-ganee    taqibaw-i-FP
+dog:M-PL.ABS  cat:F-3PL.ABS  chase:TR-3PL.PRS.FOCUS
+'The dogs chase-FP the cats.'
+
+
+Id: 359.  27.22  'The dogs chase the cats-FP.'
+Source:     author:scott
+Vetted:     f
+Judgment:   g
+Phenomena:  mmt
+spi           pishoganee-FP        taqibawi
+sp-i          pisho-ganee-FP       taqibaw-i
+dog:M-PL.ABS  cat:F-3PL.ABS.FOCUS  chase:TR-3PL.PRS
+'The dogs chase the cats-FP.'
+
+
+
+###################################################################
+# EXAMPLE TEMPLATE
+#### #Ex number and optional comment
+#### Source: {a:page, b:page, author, elicited, attested}
+#### Vetted: {t, f, s}
+#### Judgment: {g, u}
+#### Phenomena: {word order, case, agreement, ...}
+#### <Example in standard orthography> (optional)
+#### <Example in transliteration> (optional)
+#### <Example with morpheme boundaries noted and morpheme forms regularized>
+#### <Morpheme-by-morpheme glosses>
+#### <Free translation>

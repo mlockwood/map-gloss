@@ -1,0 +1,351 @@
+Language: Thai
+Language code: tha
+Author: Glenn Slayden
+Date: January 20, 2009
+Lines: orth translit orth-seg gloss translat
+Source a: Iwasaki, Shoichi., & Horie, Ingkaphirom. P. (2005). A reference grammar of Thai. New York: Cambridge University Press.
+Source b: Higbie, James., & Thinsan, Snea. (2002). Thai reference grammar: The structure of spoken Thai. Bangkok: Orchid Press.
+Source c: Smyth, David. (2002). Thai: An essential grammar. Routledge essential grammars. London: Routledge.
+Source d: Noss, R. B. (1964). Thai reference grammar. Washington: Foreign Service Institute, Dept. of State.
+Source e: Kuo, W. (1982). Teaching grammar of Thai. Berkeley, Calif: Center for South and Southeast Asia Studies, University of California.
+Source f: Slayden, Glenn, ed. (2009) http://www.thai-language.com
+
+# Test Suite source file for Thai
+# This is an UTF-8 file with a byte-order-mark of EF BB BF
+# auto-generated from thai-language database version 16 revision 6221 on 1/20/2009 2:17:45 PM
+
+# example 1
+# tldb id 219163 http://www.thai-language.com/id/219163
+# shows S-V-O word order
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: wo
+เด็กกินข้าว
+dèk kin kʰâːw
+เด็ก กิน ข้าว
+child eat rice
+The child eats rice.
+
+# example 2
+# tldb id 219164
+# V-S-O word order is ungrammatical
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: wo
+กินเด็กข้าว
+kin dèk kʰâːw
+กิน เด็ก ข้าว
+eat child rice
+[ungrammatical: ~The child eats rice.]
+
+# example 3
+# tldb id 219165
+# V-O-S word order is ungrammatical
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: wo
+เด็กข้าวกิน
+dèk kʰâːw kin
+เด็ก ข้าว กิน
+child rice eat
+[ungrammatical: ~The child eats rice.]
+
+# example 4
+# tldb id 219166 http://www.thai-language.com/id/219166
+# shows S-V-DO-IO word order
+Source: c:80
+Vetted: t
+Judgment: g
+Phenomena: wo
+ฉันให้หนังสือเขา
+tɕʰǎn hɑ̂j nǎŋsɯ̌ː kʰǎw
+ฉัน ให้ หนังสือ เขา
+I give book he
+I gave him the book.
+
+# example 5
+# tldb id 219167
+# V-S-DO-IO word order is ungrammatical
+Source: c:80
+Vetted: t
+Judgment: u
+Phenomena: wo
+ให้ฉันหนังสือเขา
+hɑ̂j tɕʰǎn nǎŋsɯ̌ː kʰǎw
+ให้ ฉัน หนังสือ เขา
+give I book he
+[ungrammatical: ~I gave him the book.]
+
+# example 6
+# tldb id 219168
+# S-DO-V-IO word order is ungrammatical
+Source: c:80
+Vetted: t
+Judgment: u
+Phenomena: wo
+ฉันหนังสือให้เขา
+tɕʰǎn nǎŋsɯ̌ː hɑ̂j kʰǎw
+ฉัน หนังสือ ให้ เขา
+I book give he
+[ungrammatical: ~I gave him the book.]
+
+# example 7
+# tldb id 219169
+# S-DO-IO-V word order is ungrammatical
+Source: c:80
+Vetted: t
+Judgment: u
+Phenomena: wo
+ฉันหนังสือเขาให้
+tɕʰǎn nǎŋsɯ̌ː kʰǎw hɑ̂j
+ฉัน หนังสือ เขา ให้
+I book he give
+[ungrammatical: ~I gave him the book.]
+
+# example 8
+# tldb id 219170 http://www.thai-language.com/id/219170
+# shows S-V word order (transitive verb, optional argument omitted)
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: wo
+เด็กกิน
+dèk kin
+เด็ก กิน
+child eat
+The child eats.
+
+# example 9
+# tldb id 219171
+# V-S word order is ungrammatical
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: wo
+กินเด็ก
+kin dèk
+กิน เด็ก
+eat child
+[ungrammatical: ~The child eats.]
+
+# example 10
+# tldb id 219172 http://www.thai-language.com/id/219172
+# shows modal auxiliary after verb
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: m
+ฉันกินกระจกได้
+tɕʰǎn kin kràʔtɕòk dɑ̂j
+ฉัน กิน กระจก ได้
+I eat glass can
+I can eat glass.
+
+# example 11
+# tldb id 219173 http://www.thai-language.com/id/219173
+# shows S-V-V-V-V sequential
+Source: b:81
+Vetted: t
+Judgment: g
+Phenomena: svc
+เขาไปซื้อมากิน
+kʰǎw pɑj sɯ́ː maː kin
+เขา ไป ซื้อ มา กิน
+he go buy come eat
+He went out to buy something and brought it back to eat.
+
+# example 12
+# tldb id 219174 http://www.thai-language.com/id/219174
+# shows S-V-V-V-V sequential
+Source: b:82
+Vetted: t
+Judgment: g
+Phenomena: svc
+เขารีบวิ่งข้ามไป
+kʰǎw rîːp wîŋ kʰâːm pɑj
+เขา รีบ วิ่ง ข้าม ไป
+he hurry run cross go
+He hurriedly ran across.
+
+# example 13
+# tldb id 219175 http://www.thai-language.com/id/219175
+# shows S-V-V-V-V-V-V-V sequential
+Source: b:82
+Vetted: t
+Judgment: g
+Phenomena: svc
+ต้องรีบกลับไปเรียกให้มาบอก
+tɔ̂ŋ rîːp klàp pɑj rîːak hɑ̂j maː bɔ̀ːk
+ต้อง รีบ กลับ ไป เรียก ให้ มา บอก
+must hurry return go call give come speak
+You must hurry back and call him to come and tell me.
+
+# example 14
+# tldb id 219176 http://www.thai-language.com/id/219176
+# shows subordination-type verb serial verb construction
+Source: a:232
+Vetted: t
+Judgment: g
+Phenomena: svc
+ไม่ยอมกินอะไรเลย
+mɑ̂j jɔːm kin ʔàʔrɑj lɤːj
+ไม่ ยอม กิน อะไร เลย
+not allow eat anything at.all
+I wasn't willing to eat anything at all.
+
+# example 15
+# tldb id 219177 http://www.thai-language.com/id/219177
+# shows S-V word order with intransitive verb
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: wo
+แมวตาย
+mɛːw taːj
+แมว ตาย
+cat die
+The cat died.
+
+# example 16
+# tldb id 219178
+# V-S word order is ungrammatical (intransitive verb)
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: wo
+ตายแมว
+taːj mɛːw
+ตาย แมว
+die cat
+[ungrammatical: ~The cat died.]
+
+# example 17
+# tldb id 219179 http://www.thai-language.com/id/219179
+# shows S-V-[AUX-ได้] word order with intransitive verb
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: m
+ผู้ชายไปได้
+pʰûːtɕʰaːj pɑj dɑ̂j
+ผู้ชาย ไป ได้
+man go can
+The man can go.
+
+# example 18
+# tldb id 219180 http://www.thai-language.com/id/219180
+# S-[AUX-ได้]-V
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: m
+ผู้ชายได้ไป
+pʰûːtɕʰaːj dɑ̂j pɑj
+ผู้ชาย ได้ ไป
+man can go
+The man went.
+
+# example 19
+# tldb id 219181 http://www.thai-language.com/id/219181
+# shows S-[AUX-ต้อง]-V word order with intransitive verb
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: m
+ผู้ชายต้องไป
+pʰûːtɕʰaːj tɔ̂ŋ pɑj
+ผู้ชาย ต้อง ไป
+man must go
+The man must go.
+
+# example 20
+# tldb id 219182
+# S-V-[AUX-ต้อง] is ungrammatical
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: m
+ผู้ชายไปต้อง
+pʰûːtɕʰaːj pɑj tɔ̂ŋ
+ผู้ชาย ไป ต้อง
+man go must
+[ungrammatical: ~The man must go.]
+
+# example 21
+# tldb id 219183 http://www.thai-language.com/id/219183
+# shows S-V-[AUX-ไหว] word order with transitive verb and missing optional argument
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: m
+ผู้ชายไปไหว
+pʰûːtɕʰaːj pɑj wɑ̌j
+ผู้ชาย ไป ไหว
+man go able
+The man is able to go.
+
+# example 22
+# tldb id 219184
+# S-[AUX-ไหว]-V is ungrammatical
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: m
+ผู้ชายไหวไป
+pʰûːtɕʰaːj wɑ̌j pɑj
+ผู้ชาย ไหว ไป
+man able go
+[ungrammatical: ~The man is able to go.]
+
+# example 23
+# tldb id 219289 http://www.thai-language.com/id/219289
+# shows S-(V-DO)-[AUX-ไหว] word order with transitive verb
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: m
+ผู้ชายไปตลาดไหว
+pʰûːtɕʰaːj pɑj tàlàːt wɑ̌j
+ผู้ชาย ไป ตลาด ไหว
+man go market able
+The man is able to go to the market.
+
+# placeholder material in orth-seg line, commenting out 23apr2013 jdc
+# example 24
+# Source: author
+# Vetted: t
+# Judgment: g
+# Phenomena: m
+# ผู้ชายไปตลาดไหว
+# pʰûːtɕʰaːj pɑj tàlàːt wɑ̌j
+# abcdefghijklmnopqrstuvwxyz
+# man go market able
+# The man is able to go to the market.
+
+# placeholder material in orth-seg line, commenting out 23apr2013 jdc
+# example 25
+# Source: author
+# Vetted: t
+# Judgment: g
+# Phenomena: m
+# ผู้ชายไปตลาดไหว
+# pʰûːtɕʰaːj pɑj tàlàːt wɑ̌j
+# ABCDEFGHIJKLMNOPQRSTUVWXYZ
+# man go market able
+# The man is able to go to the market.
+
+# placeholder material in orth-seg line, commenting out 23apr2013 jdc
+# example 26
+# Source: author
+# Vetted: t
+# Judgment: g
+# Phenomena: m
+# ผู้ชายไปตลาดไหว
+# pʰûːtɕʰaːj pɑj tàlàːt wɑ̌j
+# $%&*{}!
+# man go market able
+# The man is able to go to the market.
+

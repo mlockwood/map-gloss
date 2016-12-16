@@ -1,0 +1,2524 @@
+<xigt-corpus xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <igt id="igt1" doc-id="lgcol:ojb" line-range="1-3" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="1" tag="M">  a:776 vetted: s</item>
+      <item id="r2" line="2" tag="L">  Waagaakwad w-wii-giinboodeg</item>
+      <item id="r3" line="3" tag="G">  axe.IN.3SG 3-FUT-be+sharpened.3SG</item>
+      <item id="r4" line="4" tag="T">  'The axe needs sharpening'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="1" tag="M">  a:776 vetted: s</item>
+      <item id="c2" alignment="r2" line="2" tag="L">  Waagaakwad w-wii-giinboodeg</item>
+      <item id="c3" alignment="r3" line="3" tag="G">  axe.IN.3SG 3-FUT-be+sharpened.3SG</item>
+      <item id="c4" alignment="r4" line="4" tag="T">  'The axe needs sharpening'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="1" tag="M">a:776 vetted: s</item>
+      <item id="n2" alignment="c2" line="2" tag="L">Waagaakwad w-wii-giinboodeg</item>
+      <item id="n3" alignment="c3" line="3" tag="G">axe.IN.3SG 3-FUT-be+sharpened.3SG</item>
+      <item id="n4" alignment="c4" line="4" tag="T">The axe needs sharpening</item>
+    </tier>
+  </igt>
+  <igt id="igt2" doc-id="lgcol:ojb" line-range="5-7" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="5" tag="M">  author vetted: f</item>
+      <item id="r2" line="6" tag="L">  w-wii-giinboodeg waagaakwad </item>
+      <item id="r3" line="7" tag="G">  3-FUT-be+sharpened.3SG axe.IN.3SG </item>
+      <item id="r4" line="8" tag="T">  'The axe needs sharpening'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="5" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="6" tag="L">  w-wii-giinboodeg waagaakwad </item>
+      <item id="c3" alignment="r3" line="7" tag="G">  3-FUT-be+sharpened.3SG axe.IN.3SG </item>
+      <item id="c4" alignment="r4" line="8" tag="T">  'The axe needs sharpening'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="5" tag="M">f</item>
+      <item id="n2" alignment="c2" line="6" tag="L">w-wii-giinboodeg waagaakwad</item>
+      <item id="n3" alignment="c3" line="7" tag="G">3-FUT-be+sharpened.3SG axe.IN.3SG</item>
+      <item id="n4" alignment="c4" line="8" tag="T">The axe needs sharpening</item>
+    </tier>
+  </igt>
+  <igt id="igt3" doc-id="lgcol:ojb" line-range="9-11" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="9" tag="M">  a:542 vetted: s</item>
+      <item id="r2" line="10" tag="L">  W-doo-baatiinak wiiyaas</item>
+      <item id="r3" line="11" tag="G">  3-PRES-be+plentiful.3SG meat.IN.3SG</item>
+      <item id="r4" line="12" tag="T">  'There is plenty of meat'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="9" tag="M">  a:542 vetted: s</item>
+      <item id="c2" alignment="r2" line="10" tag="L">  W-doo-baatiinak wiiyaas</item>
+      <item id="c3" alignment="r3" line="11" tag="G">  3-PRES-be+plentiful.3SG meat.IN.3SG</item>
+      <item id="c4" alignment="r4" line="12" tag="T">  'There is plenty of meat'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="9" tag="M">a:542 vetted: s</item>
+      <item id="n2" alignment="c2" line="10" tag="L">W-doo-baatiinak wiiyaas</item>
+      <item id="n3" alignment="c3" line="11" tag="G">3-PRES-be+plentiful.3SG meat.IN.3SG</item>
+      <item id="n4" alignment="c4" line="12" tag="T">There is plenty of meat</item>
+    </tier>
+  </igt>
+  <igt id="igt4" doc-id="lgcol:ojb" line-range="13-15" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="13" tag="M">  author vetted: f</item>
+      <item id="r2" line="14" tag="L">  Wiiyaas w-doo-baatiinak</item>
+      <item id="r3" line="15" tag="G">  meat.IN.3SG 3-PRES-be+plentiful.3SG</item>
+      <item id="r4" line="16" tag="T">  'There is plenty of meat'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="13" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="14" tag="L">  Wiiyaas w-doo-baatiinak</item>
+      <item id="c3" alignment="r3" line="15" tag="G">  meat.IN.3SG 3-PRES-be+plentiful.3SG</item>
+      <item id="c4" alignment="r4" line="16" tag="T">  'There is plenty of meat'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="13" tag="M">f</item>
+      <item id="n2" alignment="c2" line="14" tag="L">Wiiyaas w-doo-baatiinak</item>
+      <item id="n3" alignment="c3" line="15" tag="G">meat.IN.3SG 3-PRES-be+plentiful.3SG</item>
+      <item id="n4" alignment="c4" line="16" tag="T">There is plenty of meat</item>
+    </tier>
+  </igt>
+  <igt id="igt5" doc-id="lgcol:ojb" line-range="17-19" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="17" tag="M">  a:548 vetted: s</item>
+      <item id="r2" line="18" tag="L">  W-gii-zegzid Nenbozh</item>
+      <item id="r3" line="19" tag="G">  3-PAST-be+frightened.3SG Nenabush.AN.3SG</item>
+      <item id="r4" line="20" tag="T">  'Nenabush was frightened'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="17" tag="M">  a:548 vetted: s</item>
+      <item id="c2" alignment="r2" line="18" tag="L">  W-gii-zegzid Nenbozh</item>
+      <item id="c3" alignment="r3" line="19" tag="G">  3-PAST-be+frightened.3SG Nenabush.AN.3SG</item>
+      <item id="c4" alignment="r4" line="20" tag="T">  'Nenabush was frightened'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="17" tag="M">a:548 vetted: s</item>
+      <item id="n2" alignment="c2" line="18" tag="L">W-gii-zegzid Nenbozh</item>
+      <item id="n3" alignment="c3" line="19" tag="G">3-PAST-be+frightened.3SG Nenabush.AN.3SG</item>
+      <item id="n4" alignment="c4" line="20" tag="T">Nenabush was frightened</item>
+    </tier>
+  </igt>
+  <igt id="igt6" doc-id="lgcol:ojb" line-range="21-23" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="21" tag="M">  author vetted: s</item>
+      <item id="r2" line="22" tag="L">  Nenbozh w-gii-zegzid</item>
+      <item id="r3" line="23" tag="G">  Nenabush.AN.3SG 3-PAST-be+frightened.3SG</item>
+      <item id="r4" line="24" tag="T">  'Nenabush was frightened'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="21" tag="M">  author vetted: s</item>
+      <item id="c2" alignment="r2" line="22" tag="L">  Nenbozh w-gii-zegzid</item>
+      <item id="c3" alignment="r3" line="23" tag="G">  Nenabush.AN.3SG 3-PAST-be+frightened.3SG</item>
+      <item id="c4" alignment="r4" line="24" tag="T">  'Nenabush was frightened'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="21" tag="M">s</item>
+      <item id="n2" alignment="c2" line="22" tag="L">Nenbozh w-gii-zegzid</item>
+      <item id="n3" alignment="c3" line="23" tag="G">Nenabush.AN.3SG 3-PAST-be+frightened.3SG</item>
+      <item id="n4" alignment="c4" line="24" tag="T">Nenabush was frightened</item>
+    </tier>
+  </igt>
+  <igt id="igt7" doc-id="lgcol:ojb" line-range="25-27" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="25" tag="M">  a:935 vetted: s</item>
+      <item id="r2" line="26" tag="L">  W-doo-ntaa-gshkigwaasod nnahaangnikwem</item>
+      <item id="r3" line="27" tag="G">  3-PRES-HAB.be+good+at-sew.3SG my+daughter+in+law.AN.3SG</item>
+      <item id="r4" line="28" tag="T">  'My daughter-in-law sews well'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="25" tag="M">  a:935 vetted: s</item>
+      <item id="c2" alignment="r2" line="26" tag="L">  W-doo-ntaa-gshkigwaasod nnahaangnikwem</item>
+      <item id="c3" alignment="r3" line="27" tag="G">  3-PRES-HAB.be+good+at-sew.3SG my+daughter+in+law.AN.3SG</item>
+      <item id="c4" alignment="r4" line="28" tag="T">  'My daughter-in-law sews well'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="25" tag="M">a:935 vetted: s</item>
+      <item id="n2" alignment="c2" line="26" tag="L">W-doo-ntaa-gshkigwaasod nnahaangnikwem</item>
+      <item id="n3" alignment="c3" line="27" tag="G">3-PRES-HAB.be+good+at-sew.3SG my+daughter+in+law.AN.3SG</item>
+      <item id="n4" alignment="c4" line="28" tag="T">My daughter-in-law sews well</item>
+    </tier>
+  </igt>
+  <igt id="igt8" doc-id="lgcol:ojb" line-range="29-31" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="29" tag="M">  author vetted: f</item>
+      <item id="r2" line="30" tag="L">  Nnahaangnikwem w-doo-ntaa-gshkigwaasod</item>
+      <item id="r3" line="31" tag="G">  my+daughter+in+law.AN.3SG 3-PRES-HAB.be+good+at-sew.3SG</item>
+      <item id="r4" line="32" tag="T">  'My daughter-in-law sews well'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="29" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="30" tag="L">  Nnahaangnikwem w-doo-ntaa-gshkigwaasod</item>
+      <item id="c3" alignment="r3" line="31" tag="G">  my+daughter+in+law.AN.3SG 3-PRES-HAB.be+good+at-sew.3SG</item>
+      <item id="c4" alignment="r4" line="32" tag="T">  'My daughter-in-law sews well'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="29" tag="M">f</item>
+      <item id="n2" alignment="c2" line="30" tag="L">Nnahaangnikwem w-doo-ntaa-gshkigwaasod</item>
+      <item id="n3" alignment="c3" line="31" tag="G">my+daughter+in+law.AN.3SG 3-PRES-HAB.be+good+at-sew.3SG</item>
+      <item id="n4" alignment="c4" line="32" tag="T">My daughter-in-law sews well</item>
+    </tier>
+  </igt>
+  <igt id="igt9" doc-id="lgcol:ojb" line-range="33-35" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="33" tag="M">  author vetted: f</item>
+      <item id="r2" line="34" tag="L">  Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem</item>
+      <item id="r3" line="35" tag="G">  Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG</item>
+      <item id="r4" line="36" tag="T">  'Nenabush saw my daughter-in-law'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="33" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="34" tag="L">  Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem</item>
+      <item id="c3" alignment="r3" line="35" tag="G">  Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG</item>
+      <item id="c4" alignment="r4" line="36" tag="T">  'Nenabush saw my daughter-in-law'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="33" tag="M">f</item>
+      <item id="n2" alignment="c2" line="34" tag="L">Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem</item>
+      <item id="n3" alignment="c3" line="35" tag="G">Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG</item>
+      <item id="n4" alignment="c4" line="36" tag="T">Nenabush saw my daughter-in-law</item>
+    </tier>
+  </igt>
+  <igt id="igt10" doc-id="lgcol:ojb" line-range="37-39" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="37" tag="M">  author vetted: f</item>
+      <item id="r2" line="38" tag="L">  W-gii-waabmaad-igw-an Nenbozh-oon nnahaangnikwem</item>
+      <item id="r3" line="39" tag="G">  3SG.GL-PAST-see-INV.THM-3.OBV.AC Nenabush.AN-3.OBV my+daughter+in+law.AN.3SG</item>
+      <item id="r4" line="40" tag="T">  'Nenabush saw my daughter-in-law'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="37" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="38" tag="L">  W-gii-waabmaad-igw-an Nenbozh-oon nnahaangnikwem</item>
+      <item id="c3" alignment="r3" line="39" tag="G">  3SG.GL-PAST-see-INV.THM-3.OBV.AC Nenabush.AN-3.OBV my+daughter+in+law.AN.3SG</item>
+      <item id="c4" alignment="r4" line="40" tag="T">  'Nenabush saw my daughter-in-law'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="37" tag="M">f</item>
+      <item id="n2" alignment="c2" line="38" tag="L">W-gii-waabmaad-igw-an Nenbozh-oon nnahaangnikwem</item>
+      <item id="n3" alignment="c3" line="39" tag="G">3SG.GL-PAST-see-INV.THM-3.OBV.AC Nenabush.AN-3.OBV my+daughter+in+law.AN.3SG</item>
+      <item id="n4" alignment="c4" line="40" tag="T">Nenabush saw my daughter-in-law</item>
+    </tier>
+  </igt>
+  <igt id="igt11" doc-id="lgcol:ojb" line-range="41-43" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="41" tag="M">  author vetted: f</item>
+      <item id="r2" line="42" tag="L">  W-gii-waabmaad-igw-an nnahaangnikwem Nenbozh-oon</item>
+      <item id="r3" line="43" tag="G">  3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.SG Nenabush.AN-3.OBV</item>
+      <item id="r4" line="44" tag="T">  'Nenabush saw my daughter-in-law'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="41" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="42" tag="L">  W-gii-waabmaad-igw-an nnahaangnikwem Nenbozh-oon</item>
+      <item id="c3" alignment="r3" line="43" tag="G">  3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.SG Nenabush.AN-3.OBV</item>
+      <item id="c4" alignment="r4" line="44" tag="T">  'Nenabush saw my daughter-in-law'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="41" tag="M">f</item>
+      <item id="n2" alignment="c2" line="42" tag="L">W-gii-waabmaad-igw-an nnahaangnikwem Nenbozh-oon</item>
+      <item id="n3" alignment="c3" line="43" tag="G">3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.SG Nenabush.AN-3.OBV</item>
+      <item id="n4" alignment="c4" line="44" tag="T">Nenabush saw my daughter-in-law</item>
+    </tier>
+  </igt>
+  <igt id="igt12" doc-id="lgcol:ojb" line-range="45-47" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="45" tag="M">  author vetted: f</item>
+      <item id="r2" line="46" tag="L">  W-gii-bizhaamgak jiimaan</item>
+      <item id="r3" line="47" tag="G">  3-PAST-come.3SG boat.IN.3SG</item>
+      <item id="r4" line="48" tag="T">  "The canoe came"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="45" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="46" tag="L">  W-gii-bizhaamgak jiimaan</item>
+      <item id="c3" alignment="r3" line="47" tag="G">  3-PAST-come.3SG boat.IN.3SG</item>
+      <item id="c4" alignment="r4" line="48" tag="T">  "The canoe came"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="45" tag="M">f</item>
+      <item id="n2" alignment="c2" line="46" tag="L">W-gii-bizhaamgak jiimaan</item>
+      <item id="n3" alignment="c3" line="47" tag="G">3-PAST-come.3SG boat.IN.3SG</item>
+      <item id="n4" alignment="c4" line="48" tag="T">The canoe came</item>
+    </tier>
+  </igt>
+  <igt id="igt13" doc-id="lgcol:ojb" line-range="49-51" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="49" tag="M">  author vetted: f</item>
+      <item id="r2" line="50" tag="L">  W-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="r3" line="51" tag="G">  3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="r4" line="52" tag="T">  "The canoes came"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="49" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="50" tag="L">  W-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="c3" alignment="r3" line="51" tag="G">  3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="c4" alignment="r4" line="52" tag="T">  "The canoes came"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="49" tag="M">f</item>
+      <item id="n2" alignment="c2" line="50" tag="L">W-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="n3" alignment="c3" line="51" tag="G">3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="n4" alignment="c4" line="52" tag="T">The canoes came</item>
+    </tier>
+  </igt>
+  <igt id="igt14" doc-id="lgcol:ojb" line-range="53-55" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="53" tag="M">  author vetted: f</item>
+      <item id="r2" line="54" tag="L">  Waagosh w-doo-waannosed</item>
+      <item id="r3" line="55" tag="G">  fox.AN.3SG 3-PRES-walk.in.a.circle.3SG</item>
+      <item id="r4" line="56" tag="T">  'The fox walks in a circle'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="53" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="54" tag="L">  Waagosh w-doo-waannosed</item>
+      <item id="c3" alignment="r3" line="55" tag="G">  fox.AN.3SG 3-PRES-walk.in.a.circle.3SG</item>
+      <item id="c4" alignment="r4" line="56" tag="T">  'The fox walks in a circle'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="53" tag="M">f</item>
+      <item id="n2" alignment="c2" line="54" tag="L">Waagosh w-doo-waannosed</item>
+      <item id="n3" alignment="c3" line="55" tag="G">fox.AN.3SG 3-PRES-walk.in.a.circle.3SG</item>
+      <item id="n4" alignment="c4" line="56" tag="T">The fox walks in a circle</item>
+    </tier>
+  </igt>
+  <igt id="igt15" doc-id="lgcol:ojb" line-range="57-59" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="57" tag="M">  author vetted: f</item>
+      <item id="r2" line="58" tag="L">  Waagosh-ag w-doo-waannosed-wag</item>
+      <item id="r3" line="59" tag="G">  fox.AN-PL 3-PRES-walk.in.a.circle-3PL</item>
+      <item id="r4" line="60" tag="T">  'the foxes walk in a circle'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="57" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="58" tag="L">  Waagosh-ag w-doo-waannosed-wag</item>
+      <item id="c3" alignment="r3" line="59" tag="G">  fox.AN-PL 3-PRES-walk.in.a.circle-3PL</item>
+      <item id="c4" alignment="r4" line="60" tag="T">  'the foxes walk in a circle'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="57" tag="M">f</item>
+      <item id="n2" alignment="c2" line="58" tag="L">Waagosh-ag w-doo-waannosed-wag</item>
+      <item id="n3" alignment="c3" line="59" tag="G">fox.AN-PL 3-PRES-walk.in.a.circle-3PL</item>
+      <item id="n4" alignment="c4" line="60" tag="T">the foxes walk in a circle</item>
+    </tier>
+  </igt>
+  <igt id="igt16" doc-id="lgcol:ojb" line-range="61-63" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="61" tag="M">  author vetted: f</item>
+      <item id="r2" line="62" tag="L">  Nmamaa w-gii-zhitood-oo-n jiimaan</item>
+      <item id="r3" line="63" tag="G">  my+mother.AN.3SG 3-PAST-make-THM2.VTI-GL.SG boat.IN.3SG</item>
+      <item id="r4" line="64" tag="T">  'My mother made the boat'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="61" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="62" tag="L">  Nmamaa w-gii-zhitood-oo-n jiimaan</item>
+      <item id="c3" alignment="r3" line="63" tag="G">  my+mother.AN.3SG 3-PAST-make-THM2.VTI-GL.SG boat.IN.3SG</item>
+      <item id="c4" alignment="r4" line="64" tag="T">  'My mother made the boat'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="61" tag="M">f</item>
+      <item id="n2" alignment="c2" line="62" tag="L">Nmamaa w-gii-zhitood-oo-n jiimaan</item>
+      <item id="n3" alignment="c3" line="63" tag="G">my+mother.AN.3SG 3-PAST-make-THM2.VTI-GL.SG boat.IN.3SG</item>
+      <item id="n4" alignment="c4" line="64" tag="T">My mother made the boat</item>
+    </tier>
+  </igt>
+  <igt id="igt17" doc-id="lgcol:ojb" line-range="65-67" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="65" tag="M">  author vetted: f</item>
+      <item id="r2" line="66" tag="L">  Nmamaa w-gii-zhitood-oo-nan jiimaan-an</item>
+      <item id="r3" line="67" tag="G">  my+mother.AN.3SG 3-PAST-make-THM2.VTI-GL.PL boat.IN-3PL</item>
+      <item id="r4" line="68" tag="T">  'My mother made the boats'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="65" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="66" tag="L">  Nmamaa w-gii-zhitood-oo-nan jiimaan-an</item>
+      <item id="c3" alignment="r3" line="67" tag="G">  my+mother.AN.3SG 3-PAST-make-THM2.VTI-GL.PL boat.IN-3PL</item>
+      <item id="c4" alignment="r4" line="68" tag="T">  'My mother made the boats'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="65" tag="M">f</item>
+      <item id="n2" alignment="c2" line="66" tag="L">Nmamaa w-gii-zhitood-oo-nan jiimaan-an</item>
+      <item id="n3" alignment="c3" line="67" tag="G">my+mother.AN.3SG 3-PAST-make-THM2.VTI-GL.PL boat.IN-3PL</item>
+      <item id="n4" alignment="c4" line="68" tag="T">My mother made the boats</item>
+    </tier>
+  </igt>
+  <igt id="igt18" doc-id="lgcol:ojb" line-range="69-71" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="69" tag="M">  author vetted: f</item>
+      <item id="r2" line="70" tag="L">  Nmamaa-g w-gii-zhitood-oo-naawaan jiimaan-an</item>
+      <item id="r3" line="71" tag="G">  my+mother.AN-3PL 3-PAST-make-THM2.VTI-GL.PL boat.IN-3PL</item>
+      <item id="r4" line="72" tag="T">  'My mothers made the boats'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="69" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="70" tag="L">  Nmamaa-g w-gii-zhitood-oo-naawaan jiimaan-an</item>
+      <item id="c3" alignment="r3" line="71" tag="G">  my+mother.AN-3PL 3-PAST-make-THM2.VTI-GL.PL boat.IN-3PL</item>
+      <item id="c4" alignment="r4" line="72" tag="T">  'My mothers made the boats'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="69" tag="M">f</item>
+      <item id="n2" alignment="c2" line="70" tag="L">Nmamaa-g w-gii-zhitood-oo-naawaan jiimaan-an</item>
+      <item id="n3" alignment="c3" line="71" tag="G">my+mother.AN-3PL 3-PAST-make-THM2.VTI-GL.PL boat.IN-3PL</item>
+      <item id="n4" alignment="c4" line="72" tag="T">My mothers made the boats</item>
+    </tier>
+  </igt>
+  <igt id="igt19" doc-id="lgcol:ojb" line-range="73-75" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="73" tag="M">  author vetted: f</item>
+      <item id="r2" line="74" tag="L">  Nmamaa-g w-gii-zhitood-oo-naawaan jiimaan</item>
+      <item id="r3" line="75" tag="G">  my+mother.AN-3PL 3-PAST-make-THM2.VTI-GL.SG boat.IN.3SG</item>
+      <item id="r4" line="76" tag="T">  'My mothers made the boat'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="73" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="74" tag="L">  Nmamaa-g w-gii-zhitood-oo-naawaan jiimaan</item>
+      <item id="c3" alignment="r3" line="75" tag="G">  my+mother.AN-3PL 3-PAST-make-THM2.VTI-GL.SG boat.IN.3SG</item>
+      <item id="c4" alignment="r4" line="76" tag="T">  'My mothers made the boat'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="73" tag="M">f</item>
+      <item id="n2" alignment="c2" line="74" tag="L">Nmamaa-g w-gii-zhitood-oo-naawaan jiimaan</item>
+      <item id="n3" alignment="c3" line="75" tag="G">my+mother.AN-3PL 3-PAST-make-THM2.VTI-GL.SG boat.IN.3SG</item>
+      <item id="n4" alignment="c4" line="76" tag="T">My mothers made the boat</item>
+    </tier>
+  </igt>
+  <igt id="igt20" doc-id="lgcol:ojb" line-range="77-79" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="77" tag="M">  author vetted: f</item>
+      <item id="r2" line="78" tag="L">  Zhiishiib-an w-doo-mnopwaad-aa-an gaag</item>
+      <item id="r3" line="79" tag="G">  duck.3-OBV 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG porcupine.AN.3SG</item>
+      <item id="r4" line="80" tag="T">  "The porcupine likes to eat the duck(s)"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="77" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="78" tag="L">  Zhiishiib-an w-doo-mnopwaad-aa-an gaag</item>
+      <item id="c3" alignment="r3" line="79" tag="G">  duck.3-OBV 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG porcupine.AN.3SG</item>
+      <item id="c4" alignment="r4" line="80" tag="T">  "The porcupine likes to eat the duck(s)"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="77" tag="M">f</item>
+      <item id="n2" alignment="c2" line="78" tag="L">Zhiishiib-an w-doo-mnopwaad-aa-an gaag</item>
+      <item id="n3" alignment="c3" line="79" tag="G">duck.3-OBV 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG porcupine.AN.3SG</item>
+      <item id="n4" alignment="c4" line="80" tag="T">The porcupine likes to eat the duck(s)</item>
+    </tier>
+  </igt>
+  <igt id="igt21" doc-id="lgcol:ojb" line-range="81-83" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="81" tag="M">  author vetted: f</item>
+      <item id="r2" line="82" tag="L">  Zhiishiib-an w-doo-mnopwaad-aa-waa-an gaag-og</item>
+      <item id="r3" line="83" tag="G">  duck.3-OBV 3PL.AC-PRES-like+the+taste+of-DIR.THM-AC.3PL-GL.3SG porcupine.AN-3PL</item>
+      <item id="r4" line="84" tag="T">  "Porcupines like to eat the duck"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="81" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="82" tag="L">  Zhiishiib-an w-doo-mnopwaad-aa-waa-an gaag-og</item>
+      <item id="c3" alignment="r3" line="83" tag="G">  duck.3-OBV 3PL.AC-PRES-like+the+taste+of-DIR.THM-AC.3PL-GL.3SG porcupine.AN-3PL</item>
+      <item id="c4" alignment="r4" line="84" tag="T">  "Porcupines like to eat the duck"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="81" tag="M">f</item>
+      <item id="n2" alignment="c2" line="82" tag="L">Zhiishiib-an w-doo-mnopwaad-aa-waa-an gaag-og</item>
+      <item id="n3" alignment="c3" line="83" tag="G">duck.3-OBV 3PL.AC-PRES-like+the+taste+of-DIR.THM-AC.3PL-GL.3SG porcupine.AN-3PL</item>
+      <item id="n4" alignment="c4" line="84" tag="T">Porcupines like to eat the duck</item>
+    </tier>
+  </igt>
+  <igt id="igt22" doc-id="lgcol:ojb" line-range="85-87" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="85" tag="M">  author vetted: f</item>
+      <item id="r2" line="86" tag="L">  Zhiishiib w-doo-mnopwaad-igw-an gaag-wan</item>
+      <item id="r3" line="87" tag="G">  duck.3SG GL.3SG-PRES-like+the+taste+of-INV.THM-AC.OBV porcupine.AN-3Obv</item>
+      <item id="r4" line="88" tag="T">  "Porcupines like to eat the duck"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="85" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="86" tag="L">  Zhiishiib w-doo-mnopwaad-igw-an gaag-wan</item>
+      <item id="c3" alignment="r3" line="87" tag="G">  duck.3SG GL.3SG-PRES-like+the+taste+of-INV.THM-AC.OBV porcupine.AN-3Obv</item>
+      <item id="c4" alignment="r4" line="88" tag="T">  "Porcupines like to eat the duck"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="85" tag="M">f</item>
+      <item id="n2" alignment="c2" line="86" tag="L">Zhiishiib w-doo-mnopwaad-igw-an gaag-wan</item>
+      <item id="n3" alignment="c3" line="87" tag="G">duck.3SG GL.3SG-PRES-like+the+taste+of-INV.THM-AC.OBV porcupine.AN-3Obv</item>
+      <item id="n4" alignment="c4" line="88" tag="T">Porcupines like to eat the duck</item>
+    </tier>
+  </igt>
+  <igt id="igt23" doc-id="lgcol:ojb" line-range="89-91" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="89" tag="M">  author vetted: f</item>
+      <item id="r2" line="90" tag="L">  Zhiishiib-ag w-doo-mnopwaad-aa-waa-an gaag-wan</item>
+      <item id="r3" line="91" tag="G">  duck-3PL GL.3PL-PRES-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV</item>
+      <item id="r4" line="92" tag="T">  "Porcupines like to eat ducks"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="89" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="90" tag="L">  Zhiishiib-ag w-doo-mnopwaad-aa-waa-an gaag-wan</item>
+      <item id="c3" alignment="r3" line="91" tag="G">  duck-3PL GL.3PL-PRES-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV</item>
+      <item id="c4" alignment="r4" line="92" tag="T">  "Porcupines like to eat ducks"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="89" tag="M">f</item>
+      <item id="n2" alignment="c2" line="90" tag="L">Zhiishiib-ag w-doo-mnopwaad-aa-waa-an gaag-wan</item>
+      <item id="n3" alignment="c3" line="91" tag="G">duck-3PL GL.3PL-PRES-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV</item>
+      <item id="n4" alignment="c4" line="92" tag="T">Porcupines like to eat ducks</item>
+    </tier>
+  </igt>
+  <igt id="igt24" doc-id="lgcol:ojb" line-range="113-115" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="113" tag="M">  author vetted: f</item>
+      <item id="r2" line="114" tag="L">  Waagaakwad w-gii-giinboodeg</item>
+      <item id="r3" line="115" tag="G">  axe.AN.3SG 3-PAST-be+sharpened.3SG</item>
+      <item id="r4" line="116" tag="T">  'The axe was needed to be sharpened'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="113" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="114" tag="L">  Waagaakwad w-gii-giinboodeg</item>
+      <item id="c3" alignment="r3" line="115" tag="G">  axe.AN.3SG 3-PAST-be+sharpened.3SG</item>
+      <item id="c4" alignment="r4" line="116" tag="T">  'The axe was needed to be sharpened'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="113" tag="M">f</item>
+      <item id="n2" alignment="c2" line="114" tag="L">Waagaakwad w-gii-giinboodeg</item>
+      <item id="n3" alignment="c3" line="115" tag="G">axe.AN.3SG 3-PAST-be+sharpened.3SG</item>
+      <item id="n4" alignment="c4" line="116" tag="T">The axe was needed to be sharpened</item>
+    </tier>
+  </igt>
+  <igt id="igt25" doc-id="lgcol:ojb" line-range="117-119" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="117" tag="M">  author vetted: f</item>
+      <item id="r2" line="118" tag="L">  Waagaakwad w-doo-giinboodeg</item>
+      <item id="r3" line="119" tag="G">  axe.AN.SG 3-PRES-be+sharpened.3SG</item>
+      <item id="r4" line="120" tag="T">  'The axe needs sharpening'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="117" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="118" tag="L">  Waagaakwad w-doo-giinboodeg</item>
+      <item id="c3" alignment="r3" line="119" tag="G">  axe.AN.SG 3-PRES-be+sharpened.3SG</item>
+      <item id="c4" alignment="r4" line="120" tag="T">  'The axe needs sharpening'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="117" tag="M">f</item>
+      <item id="n2" alignment="c2" line="118" tag="L">Waagaakwad w-doo-giinboodeg</item>
+      <item id="n3" alignment="c3" line="119" tag="G">axe.AN.SG 3-PRES-be+sharpened.3SG</item>
+      <item id="n4" alignment="c4" line="120" tag="T">The axe needs sharpening</item>
+    </tier>
+  </igt>
+  <igt id="igt26" doc-id="lgcol:ojb" line-range="121-123" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="121" tag="M">  a:16.56/775 vetted: s</item>
+      <item id="r2" line="122" tag="L">  W-wii-gsinaag</item>
+      <item id="r3" line="123" tag="G">  3-FUT-be+cold.3SG</item>
+      <item id="r4" line="124" tag="T">  "It will be cold"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="121" tag="M">  a:16.56/775 vetted: s</item>
+      <item id="c2" alignment="r2" line="122" tag="L">  W-wii-gsinaag</item>
+      <item id="c3" alignment="r3" line="123" tag="G">  3-FUT-be+cold.3SG</item>
+      <item id="c4" alignment="r4" line="124" tag="T">  "It will be cold"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="121" tag="M">a:16.56/775 vetted: s</item>
+      <item id="n2" alignment="c2" line="122" tag="L">W-wii-gsinaag</item>
+      <item id="n3" alignment="c3" line="123" tag="G">3-FUT-be+cold.3SG</item>
+      <item id="n4" alignment="c4" line="124" tag="T">It will be cold</item>
+    </tier>
+  </igt>
+  <igt id="igt27" doc-id="lgcol:ojb" line-range="125-127" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="125" tag="M">  a:16.3/760 vetted: s</item>
+      <item id="r2" line="126" tag="L">  N-doo-mmaangshkiinzhgwed</item>
+      <item id="r3" line="127" tag="G">  1SG-PRES-have+big+eyes.1SG</item>
+      <item id="r4" line="128" tag="T">  "I have big eyes"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="125" tag="M">  a:16.3/760 vetted: s</item>
+      <item id="c2" alignment="r2" line="126" tag="L">  N-doo-mmaangshkiinzhgwed</item>
+      <item id="c3" alignment="r3" line="127" tag="G">  1SG-PRES-have+big+eyes.1SG</item>
+      <item id="c4" alignment="r4" line="128" tag="T">  "I have big eyes"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="125" tag="M">a:16.3/760 vetted: s</item>
+      <item id="n2" alignment="c2" line="126" tag="L">N-doo-mmaangshkiinzhgwed</item>
+      <item id="n3" alignment="c3" line="127" tag="G">1SG-PRES-have+big+eyes.1SG</item>
+      <item id="n4" alignment="c4" line="128" tag="T">I have big eyes</item>
+    </tier>
+  </igt>
+  <igt id="igt28" doc-id="lgcol:ojb" line-range="129-131" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="129" tag="M">  author vetted: f</item>
+      <item id="r2" line="130" tag="L">  N-wii-mmaangshkiinzhgwed</item>
+      <item id="r3" line="131" tag="G">  1SG-FUT-have+big+eyes</item>
+      <item id="r4" line="132" tag="T">  "I will have big eyes"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="129" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="130" tag="L">  N-wii-mmaangshkiinzhgwed</item>
+      <item id="c3" alignment="r3" line="131" tag="G">  1SG-FUT-have+big+eyes</item>
+      <item id="c4" alignment="r4" line="132" tag="T">  "I will have big eyes"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="129" tag="M">f</item>
+      <item id="n2" alignment="c2" line="130" tag="L">N-wii-mmaangshkiinzhgwed</item>
+      <item id="n3" alignment="c3" line="131" tag="G">1SG-FUT-have+big+eyes</item>
+      <item id="n4" alignment="c4" line="132" tag="T">I will have big eyes</item>
+    </tier>
+  </igt>
+  <igt id="igt29" doc-id="lgcol:ojb" line-range="133-135" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="133" tag="M">  author vetted: f</item>
+      <item id="r2" line="134" tag="L">  N-gii-mmaangshkiinzhgwed</item>
+      <item id="r3" line="135" tag="G">  1SG-PAST-have+big+eyes</item>
+      <item id="r4" line="136" tag="T">  "I had big eyes"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="133" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="134" tag="L">  N-gii-mmaangshkiinzhgwed</item>
+      <item id="c3" alignment="r3" line="135" tag="G">  1SG-PAST-have+big+eyes</item>
+      <item id="c4" alignment="r4" line="136" tag="T">  "I had big eyes"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="133" tag="M">f</item>
+      <item id="n2" alignment="c2" line="134" tag="L">N-gii-mmaangshkiinzhgwed</item>
+      <item id="n3" alignment="c3" line="135" tag="G">1SG-PAST-have+big+eyes</item>
+      <item id="n4" alignment="c4" line="136" tag="T">I had big eyes</item>
+    </tier>
+  </igt>
+  <igt id="igt30" doc-id="lgcol:ojb" line-range="137-139" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="137" tag="M">  a:16.1/759 vetted: s</item>
+      <item id="r2" line="138" tag="L">  N-doo-waabmdang-am-n jiimaan</item>
+      <item id="r3" line="139" tag="G">  1SG-see-THM1.VTI-INAN-GL boat.IN.3SG</item>
+      <item id="r4" line="140" tag="T">  "I see the boat"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="137" tag="M">  a:16.1/759 vetted: s</item>
+      <item id="c2" alignment="r2" line="138" tag="L">  N-doo-waabmdang-am-n jiimaan</item>
+      <item id="c3" alignment="r3" line="139" tag="G">  1SG-see-THM1.VTI-INAN-GL boat.IN.3SG</item>
+      <item id="c4" alignment="r4" line="140" tag="T">  "I see the boat"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="137" tag="M">a:16.1/759 vetted: s</item>
+      <item id="n2" alignment="c2" line="138" tag="L">N-doo-waabmdang-am-n jiimaan</item>
+      <item id="n3" alignment="c3" line="139" tag="G">1SG-see-THM1.VTI-INAN-GL boat.IN.3SG</item>
+      <item id="n4" alignment="c4" line="140" tag="T">I see the boat</item>
+    </tier>
+  </igt>
+  <igt id="igt31" doc-id="lgcol:ojb" line-range="141-143" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="141" tag="M">  author vetted: f</item>
+      <item id="r2" line="142" tag="L">  N-gii-waabmdang-am-n jiimaan</item>
+      <item id="r3" line="143" tag="G">  1SG-see-THM1.VTI-INAN-GL boat.IN.3SG</item>
+      <item id="r4" line="144" tag="T">  "I saw the boat"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="141" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="142" tag="L">  N-gii-waabmdang-am-n jiimaan</item>
+      <item id="c3" alignment="r3" line="143" tag="G">  1SG-see-THM1.VTI-INAN-GL boat.IN.3SG</item>
+      <item id="c4" alignment="r4" line="144" tag="T">  "I saw the boat"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="141" tag="M">f</item>
+      <item id="n2" alignment="c2" line="142" tag="L">N-gii-waabmdang-am-n jiimaan</item>
+      <item id="n3" alignment="c3" line="143" tag="G">1SG-see-THM1.VTI-INAN-GL boat.IN.3SG</item>
+      <item id="n4" alignment="c4" line="144" tag="T">I saw the boat</item>
+    </tier>
+  </igt>
+  <igt id="igt32" doc-id="lgcol:ojb" line-range="145-147" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="145" tag="M">  author vetted: f</item>
+      <item id="r2" line="146" tag="L">  N-wii-waabmdang-am-n jiimaan</item>
+      <item id="r3" line="147" tag="G">  1SG-see-THM1.VTI-INAN-GL boat.IN.3SG</item>
+      <item id="r4" line="148" tag="T">  "I will see the boat"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="145" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="146" tag="L">  N-wii-waabmdang-am-n jiimaan</item>
+      <item id="c3" alignment="r3" line="147" tag="G">  1SG-see-THM1.VTI-INAN-GL boat.IN.3SG</item>
+      <item id="c4" alignment="r4" line="148" tag="T">  "I will see the boat"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="145" tag="M">f</item>
+      <item id="n2" alignment="c2" line="146" tag="L">N-wii-waabmdang-am-n jiimaan</item>
+      <item id="n3" alignment="c3" line="147" tag="G">1SG-see-THM1.VTI-INAN-GL boat.IN.3SG</item>
+      <item id="n4" alignment="c4" line="148" tag="T">I will see the boat</item>
+    </tier>
+  </igt>
+  <igt id="igt33" doc-id="lgcol:ojb" line-range="149-151" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="149" tag="M">  author vetted: f</item>
+      <item id="r2" line="150" tag="L">  Zhiishiib-ag w-wii-mnopwaad-aa-waa-an gaag-wan</item>
+      <item id="r3" line="151" tag="G">  duck-3PL GL.3PL-FUT-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV</item>
+      <item id="r4" line="152" tag="T">  "Porcupines will like to eat ducks"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="149" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="150" tag="L">  Zhiishiib-ag w-wii-mnopwaad-aa-waa-an gaag-wan</item>
+      <item id="c3" alignment="r3" line="151" tag="G">  duck-3PL GL.3PL-FUT-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV</item>
+      <item id="c4" alignment="r4" line="152" tag="T">  "Porcupines will like to eat ducks"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="149" tag="M">f</item>
+      <item id="n2" alignment="c2" line="150" tag="L">Zhiishiib-ag w-wii-mnopwaad-aa-waa-an gaag-wan</item>
+      <item id="n3" alignment="c3" line="151" tag="G">duck-3PL GL.3PL-FUT-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV</item>
+      <item id="n4" alignment="c4" line="152" tag="T">Porcupines will like to eat ducks</item>
+    </tier>
+  </igt>
+  <igt id="igt34" doc-id="lgcol:ojb" line-range="153-155" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="153" tag="M">  author vetted: f</item>
+      <item id="r2" line="154" tag="L">  Zhiishiib-ag w-gii-mnopwaad-aa-waa-an gaag-wan</item>
+      <item id="r3" line="155" tag="G">  duck-3PL GL.3PL-PAST-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV</item>
+      <item id="r4" line="156" tag="T">  "Porcupines liked to eat ducks"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="153" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="154" tag="L">  Zhiishiib-ag w-gii-mnopwaad-aa-waa-an gaag-wan</item>
+      <item id="c3" alignment="r3" line="155" tag="G">  duck-3PL GL.3PL-PAST-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV</item>
+      <item id="c4" alignment="r4" line="156" tag="T">  "Porcupines liked to eat ducks"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="153" tag="M">f</item>
+      <item id="n2" alignment="c2" line="154" tag="L">Zhiishiib-ag w-gii-mnopwaad-aa-waa-an gaag-wan</item>
+      <item id="n3" alignment="c3" line="155" tag="G">duck-3PL GL.3PL-PAST-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV</item>
+      <item id="n4" alignment="c4" line="156" tag="T">Porcupines liked to eat ducks</item>
+    </tier>
+  </igt>
+  <igt id="igt35" doc-id="lgcol:ojb" line-range="165-167" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="165" tag="M">  a:18.53/952 vetted: s</item>
+      <item id="r2" line="166" tag="L">  W-gii-bizhaamgak-noon nswi jiimaan-an</item>
+      <item id="r3" line="167" tag="G">  3-PAST-come-PL three boat-PL</item>
+      <item id="r4" line="168" tag="T">  "Three canoes came"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="165" tag="M">  a:18.53/952 vetted: s</item>
+      <item id="c2" alignment="r2" line="166" tag="L">  W-gii-bizhaamgak-noon nswi jiimaan-an</item>
+      <item id="c3" alignment="r3" line="167" tag="G">  3-PAST-come-PL three boat-PL</item>
+      <item id="c4" alignment="r4" line="168" tag="T">  "Three canoes came"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="165" tag="M">a:18.53/952 vetted: s</item>
+      <item id="n2" alignment="c2" line="166" tag="L">W-gii-bizhaamgak-noon nswi jiimaan-an</item>
+      <item id="n3" alignment="c3" line="167" tag="G">3-PAST-come-PL three boat-PL</item>
+      <item id="n4" alignment="c4" line="168" tag="T">Three canoes came</item>
+    </tier>
+  </igt>
+  <igt id="igt36" doc-id="lgcol:ojb" line-range="169-171" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="169" tag="M">  author vetted: f</item>
+      <item id="r2" line="170" tag="L">  W-doo-ntaa-gshkigwaasod waagosh</item>
+      <item id="r3" line="171" tag="G">  3-PRES-HAB-be.good.at.sewing fox.AN.3SG</item>
+      <item id="r4" line="172" tag="T">  'The fox is good at sewing'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="169" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="170" tag="L">  W-doo-ntaa-gshkigwaasod waagosh</item>
+      <item id="c3" alignment="r3" line="171" tag="G">  3-PRES-HAB-be.good.at.sewing fox.AN.3SG</item>
+      <item id="c4" alignment="r4" line="172" tag="T">  'The fox is good at sewing'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="169" tag="M">f</item>
+      <item id="n2" alignment="c2" line="170" tag="L">W-doo-ntaa-gshkigwaasod waagosh</item>
+      <item id="n3" alignment="c3" line="171" tag="G">3-PRES-HAB-be.good.at.sewing fox.AN.3SG</item>
+      <item id="n4" alignment="c4" line="172" tag="T">The fox is good at sewing</item>
+    </tier>
+  </igt>
+  <igt id="igt37" doc-id="lgcol:ojb" line-range="173-175" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="173" tag="M">  a:16.130/795 vetted: s</item>
+      <item id="r2" line="174" tag="L">  N-gii-booni-zhooshkwaaded-min</item>
+      <item id="r3" line="175" tag="G">  1-PAST-END-skate-1PL</item>
+      <item id="r4" line="176" tag="T">  "We quit skating"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="173" tag="M">  a:16.130/795 vetted: s</item>
+      <item id="c2" alignment="r2" line="174" tag="L">  N-gii-booni-zhooshkwaaded-min</item>
+      <item id="c3" alignment="r3" line="175" tag="G">  1-PAST-END-skate-1PL</item>
+      <item id="c4" alignment="r4" line="176" tag="T">  "We quit skating"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="173" tag="M">a:16.130/795 vetted: s</item>
+      <item id="n2" alignment="c2" line="174" tag="L">N-gii-booni-zhooshkwaaded-min</item>
+      <item id="n3" alignment="c3" line="175" tag="G">1-PAST-END-skate-1PL</item>
+      <item id="n4" alignment="c4" line="176" tag="T">We quit skating</item>
+    </tier>
+  </igt>
+  <igt id="igt38" doc-id="lgcol:ojb" line-range="177-179" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="177" tag="M">  a:16.130/795 vetted: s</item>
+      <item id="r2" line="178" tag="L">  N-gii-maajii-zhooshkwaaded-min</item>
+      <item id="r3" line="179" tag="G">  1-PAST-BEGIN-skate-1PL</item>
+      <item id="r4" line="180" tag="T">  "We began skating"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="177" tag="M">  a:16.130/795 vetted: s</item>
+      <item id="c2" alignment="r2" line="178" tag="L">  N-gii-maajii-zhooshkwaaded-min</item>
+      <item id="c3" alignment="r3" line="179" tag="G">  1-PAST-BEGIN-skate-1PL</item>
+      <item id="c4" alignment="r4" line="180" tag="T">  "We began skating"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="177" tag="M">a:16.130/795 vetted: s</item>
+      <item id="n2" alignment="c2" line="178" tag="L">N-gii-maajii-zhooshkwaaded-min</item>
+      <item id="n3" alignment="c3" line="179" tag="G">1-PAST-BEGIN-skate-1PL</item>
+      <item id="n4" alignment="c4" line="180" tag="T">We began skating</item>
+    </tier>
+  </igt>
+  <igt id="igt39" doc-id="lgcol:ojb" line-range="181-183" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="181" tag="M">  a:16.130/795 vetted: s</item>
+      <item id="r2" line="182" tag="L">  N-gii-webi-zhooshkwaaded-min</item>
+      <item id="r3" line="183" tag="G">  1-PAST-BEGIN-skate-1PL</item>
+      <item id="r4" line="184" tag="T">  "We started skating"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="181" tag="M">  a:16.130/795 vetted: s</item>
+      <item id="c2" alignment="r2" line="182" tag="L">  N-gii-webi-zhooshkwaaded-min</item>
+      <item id="c3" alignment="r3" line="183" tag="G">  1-PAST-BEGIN-skate-1PL</item>
+      <item id="c4" alignment="r4" line="184" tag="T">  "We started skating"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="181" tag="M">a:16.130/795 vetted: s</item>
+      <item id="n2" alignment="c2" line="182" tag="L">N-gii-webi-zhooshkwaaded-min</item>
+      <item id="n3" alignment="c3" line="183" tag="G">1-PAST-BEGIN-skate-1PL</item>
+      <item id="n4" alignment="c4" line="184" tag="T">We started skating</item>
+    </tier>
+  </igt>
+  <igt id="igt40" doc-id="lgcol:ojb" line-range="185-187" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="185" tag="M">  a:16.130/795 vetted: s</item>
+      <item id="r2" line="186" tag="L">  N-gii-giizhi-zhooshkwaaded-min</item>
+      <item id="r3" line="187" tag="G">  1-PAST-END-skate-1PL</item>
+      <item id="r4" line="188" tag="T">  "We finished skating"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="185" tag="M">  a:16.130/795 vetted: s</item>
+      <item id="c2" alignment="r2" line="186" tag="L">  N-gii-giizhi-zhooshkwaaded-min</item>
+      <item id="c3" alignment="r3" line="187" tag="G">  1-PAST-END-skate-1PL</item>
+      <item id="c4" alignment="r4" line="188" tag="T">  "We finished skating"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="185" tag="M">a:16.130/795 vetted: s</item>
+      <item id="n2" alignment="c2" line="186" tag="L">N-gii-giizhi-zhooshkwaaded-min</item>
+      <item id="n3" alignment="c3" line="187" tag="G">1-PAST-END-skate-1PL</item>
+      <item id="n4" alignment="c4" line="188" tag="T">We finished skating</item>
+    </tier>
+  </igt>
+  <igt id="igt41" doc-id="lgcol:ojb" line-range="189-191" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="189" tag="M">  a:16.130/795 vetted: s</item>
+      <item id="r2" line="190" tag="L">  N-gii-shkwaa-zhooshkwaaded-min</item>
+      <item id="r3" line="191" tag="G">  1-PAST-END-skate-1PL</item>
+      <item id="r4" line="192" tag="T">  "We quit skating"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="189" tag="M">  a:16.130/795 vetted: s</item>
+      <item id="c2" alignment="r2" line="190" tag="L">  N-gii-shkwaa-zhooshkwaaded-min</item>
+      <item id="c3" alignment="r3" line="191" tag="G">  1-PAST-END-skate-1PL</item>
+      <item id="c4" alignment="r4" line="192" tag="T">  "We quit skating"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="189" tag="M">a:16.130/795 vetted: s</item>
+      <item id="n2" alignment="c2" line="190" tag="L">N-gii-shkwaa-zhooshkwaaded-min</item>
+      <item id="n3" alignment="c3" line="191" tag="G">1-PAST-END-skate-1PL</item>
+      <item id="n4" alignment="c4" line="192" tag="T">We quit skating</item>
+    </tier>
+  </igt>
+  <igt id="igt42" doc-id="lgcol:ojb" line-range="201-203" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="201" tag="M">  author vetted: s</item>
+      <item id="r2" line="202" tag="L">  Waagaakwad w-doo-giinboodeg-sii</item>
+      <item id="r3" line="203" tag="G">  axe 3-PRES-be.sharpened-SG</item>
+      <item id="r4" line="204" tag="T">  'The axe doesn't need sharpening'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="201" tag="M">  author vetted: s</item>
+      <item id="c2" alignment="r2" line="202" tag="L">  Waagaakwad w-doo-giinboodeg-sii</item>
+      <item id="c3" alignment="r3" line="203" tag="G">  axe 3-PRES-be.sharpened-SG</item>
+      <item id="c4" alignment="r4" line="204" tag="T">  'The axe doesn't need sharpening'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="201" tag="M">s</item>
+      <item id="n2" alignment="c2" line="202" tag="L">Waagaakwad w-doo-giinboodeg-sii</item>
+      <item id="n3" alignment="c3" line="203" tag="G">axe 3-PRES-be.sharpened-SG</item>
+      <item id="n4" alignment="c4" line="204" tag="T">The axe doesn't need sharpening</item>
+    </tier>
+  </igt>
+  <igt id="igt43" doc-id="lgcol:ojb" line-range="205-207" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="205" tag="M">  a:12.315/620 vetted: s</item>
+      <item id="r2" line="206" tag="L">  Gaawii w-gii-nbaad-sii wiin</item>
+      <item id="r3" line="207" tag="G">  not 3-PAST-sleep-NEG 3.ANIM.SG</item>
+      <item id="r4" line="208" tag="T">  "He did not sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="205" tag="M">  a:12.315/620 vetted: s</item>
+      <item id="c2" alignment="r2" line="206" tag="L">  Gaawii w-gii-nbaad-sii wiin</item>
+      <item id="c3" alignment="r3" line="207" tag="G">  not 3-PAST-sleep-NEG 3.ANIM.SG</item>
+      <item id="c4" alignment="r4" line="208" tag="T">  "He did not sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="205" tag="M">a:12.315/620 vetted: s</item>
+      <item id="n2" alignment="c2" line="206" tag="L">Gaawii w-gii-nbaad-sii wiin</item>
+      <item id="n3" alignment="c3" line="207" tag="G">not 3-PAST-sleep-NEG 3.ANIM.SG</item>
+      <item id="n4" alignment="c4" line="208" tag="T">He did not sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt44" doc-id="lgcol:ojb" line-range="209-211" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="209" tag="M">  a:16.305/838 vetted: s</item>
+      <item id="r2" line="210" tag="L">  Gaawii w-gii-naagzid-sii</item>
+      <item id="r3" line="211" tag="G">  not 3-PAST-be.visible-NEG</item>
+      <item id="r4" line="212" tag="T">  "He was not visible"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="209" tag="M">  a:16.305/838 vetted: s</item>
+      <item id="c2" alignment="r2" line="210" tag="L">  Gaawii w-gii-naagzid-sii</item>
+      <item id="c3" alignment="r3" line="211" tag="G">  not 3-PAST-be.visible-NEG</item>
+      <item id="c4" alignment="r4" line="212" tag="T">  "He was not visible"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="209" tag="M">a:16.305/838 vetted: s</item>
+      <item id="n2" alignment="c2" line="210" tag="L">Gaawii w-gii-naagzid-sii</item>
+      <item id="n3" alignment="c3" line="211" tag="G">not 3-PAST-be.visible-NEG</item>
+      <item id="n4" alignment="c4" line="212" tag="T">He was not visible</item>
+    </tier>
+  </igt>
+  <igt id="igt45" doc-id="lgcol:ojb" line-range="213-215" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="213" tag="M">  a:16.1/759 vetted: s</item>
+      <item id="r2" line="214" tag="L">  N-doo-waabmdang-am-sii-n jiimaan</item>
+      <item id="r3" line="215" tag="G">  1SG-PRES-see-THM1.VTI-NEG-INAN.GL boat.IN.3SG</item>
+      <item id="r4" line="216" tag="T">  "I did not see the boat"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="213" tag="M">  a:16.1/759 vetted: s</item>
+      <item id="c2" alignment="r2" line="214" tag="L">  N-doo-waabmdang-am-sii-n jiimaan</item>
+      <item id="c3" alignment="r3" line="215" tag="G">  1SG-PRES-see-THM1.VTI-NEG-INAN.GL boat.IN.3SG</item>
+      <item id="c4" alignment="r4" line="216" tag="T">  "I did not see the boat"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="213" tag="M">a:16.1/759 vetted: s</item>
+      <item id="n2" alignment="c2" line="214" tag="L">N-doo-waabmdang-am-sii-n jiimaan</item>
+      <item id="n3" alignment="c3" line="215" tag="G">1SG-PRES-see-THM1.VTI-NEG-INAN.GL boat.IN.3SG</item>
+      <item id="n4" alignment="c4" line="216" tag="T">I did not see the boat</item>
+    </tier>
+  </igt>
+  <igt id="igt46" doc-id="lgcol:ojb" line-range="217-219" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="217" tag="M">  author vetted: f</item>
+      <item id="r2" line="218" tag="L">  Zhiishiib-ag w-gii-mnopwaad-aa-sii-waa-an gaag-wan</item>
+      <item id="r3" line="219" tag="G">  duck-3PL GL.3PL-PAST-like+the+taste+of-INV.THM-GL-3PL-AC.OBV porcupine.AN-OBV</item>
+      <item id="r4" line="220" tag="T">  "Porcupines liked to eat ducks"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="217" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="218" tag="L">  Zhiishiib-ag w-gii-mnopwaad-aa-sii-waa-an gaag-wan</item>
+      <item id="c3" alignment="r3" line="219" tag="G">  duck-3PL GL.3PL-PAST-like+the+taste+of-INV.THM-GL-3PL-AC.OBV porcupine.AN-OBV</item>
+      <item id="c4" alignment="r4" line="220" tag="T">  "Porcupines liked to eat ducks"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="217" tag="M">f</item>
+      <item id="n2" alignment="c2" line="218" tag="L">Zhiishiib-ag w-gii-mnopwaad-aa-sii-waa-an gaag-wan</item>
+      <item id="n3" alignment="c3" line="219" tag="G">duck-3PL GL.3PL-PAST-like+the+taste+of-INV.THM-GL-3PL-AC.OBV porcupine.AN-OBV</item>
+      <item id="n4" alignment="c4" line="220" tag="T">Porcupines liked to eat ducks</item>
+    </tier>
+  </igt>
+  <igt id="igt47" doc-id="lgcol:ojb" line-range="221-223" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="221" tag="M">  a:16.315/840 vetted: s</item>
+      <item id="r2" line="222" tag="L">  Ganda gaawii w-gii-waabmaad-aa-sii-waa-an</item>
+      <item id="r3" line="223" tag="G">  3.ANIM.PL.these not 3-PAST-see-DIR.THM-NEG-3.OBV-GL</item>
+      <item id="r4" line="224" tag="T">  "These men did not see him"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="221" tag="M">  a:16.315/840 vetted: s</item>
+      <item id="c2" alignment="r2" line="222" tag="L">  Ganda gaawii w-gii-waabmaad-aa-sii-waa-an</item>
+      <item id="c3" alignment="r3" line="223" tag="G">  3.ANIM.PL.these not 3-PAST-see-DIR.THM-NEG-3.OBV-GL</item>
+      <item id="c4" alignment="r4" line="224" tag="T">  "These men did not see him"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="221" tag="M">a:16.315/840 vetted: s</item>
+      <item id="n2" alignment="c2" line="222" tag="L">Ganda gaawii w-gii-waabmaad-aa-sii-waa-an</item>
+      <item id="n3" alignment="c3" line="223" tag="G">3.ANIM.PL.these not 3-PAST-see-DIR.THM-NEG-3.OBV-GL</item>
+      <item id="n4" alignment="c4" line="224" tag="T">These men did not see him</item>
+    </tier>
+  </igt>
+  <igt id="igt48" doc-id="lgcol:ojb" line-range="225-227" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="225" tag="M">  author vetted: f</item>
+      <item id="r2" line="226" tag="L">  w-doo-giinboodeg</item>
+      <item id="r3" line="227" tag="G">  3-FUT-be+sharpened.3SG</item>
+      <item id="r4" line="228" tag="T">  'it(IN.SG) needs sharpening'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="225" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="226" tag="L">  w-doo-giinboodeg</item>
+      <item id="c3" alignment="r3" line="227" tag="G">  3-FUT-be+sharpened.3SG</item>
+      <item id="c4" alignment="r4" line="228" tag="T">  'it(IN.SG) needs sharpening'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="225" tag="M">f</item>
+      <item id="n2" alignment="c2" line="226" tag="L">w-doo-giinboodeg</item>
+      <item id="n3" alignment="c3" line="227" tag="G">3-FUT-be+sharpened.3SG</item>
+      <item id="n4" alignment="c4" line="228" tag="T">it(IN.SG) needs sharpening</item>
+    </tier>
+  </igt>
+  <igt id="igt49" doc-id="lgcol:ojb" line-range="229-231" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="229" tag="M">  author vetted: f</item>
+      <item id="r2" line="230" tag="L">  w-doo-giinboodeg-noon</item>
+      <item id="r3" line="231" tag="G">  3-FUT-be+sharpened-3PL</item>
+      <item id="r4" line="232" tag="T">  'they(IN.PL) need sharpening'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="229" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="230" tag="L">  w-doo-giinboodeg-noon</item>
+      <item id="c3" alignment="r3" line="231" tag="G">  3-FUT-be+sharpened-3PL</item>
+      <item id="c4" alignment="r4" line="232" tag="T">  'they(IN.PL) need sharpening'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="229" tag="M">f</item>
+      <item id="n2" alignment="c2" line="230" tag="L">w-doo-giinboodeg-noon</item>
+      <item id="n3" alignment="c3" line="231" tag="G">3-FUT-be+sharpened-3PL</item>
+      <item id="n4" alignment="c4" line="232" tag="T">they(IN.PL) need sharpening</item>
+    </tier>
+  </igt>
+  <igt id="igt50" doc-id="lgcol:ojb" line-range="233-235" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="233" tag="M">  author vetted: f</item>
+      <item id="r2" line="234" tag="L">  W-gii-bizhaamgak</item>
+      <item id="r3" line="235" tag="G">  3-PAST-come.3SG</item>
+      <item id="r4" line="236" tag="T">  "They (IN.3SG) came"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="233" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="234" tag="L">  W-gii-bizhaamgak</item>
+      <item id="c3" alignment="r3" line="235" tag="G">  3-PAST-come.3SG</item>
+      <item id="c4" alignment="r4" line="236" tag="T">  "They (IN.3SG) came"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="233" tag="M">f</item>
+      <item id="n2" alignment="c2" line="234" tag="L">W-gii-bizhaamgak</item>
+      <item id="n3" alignment="c3" line="235" tag="G">3-PAST-come.3SG</item>
+      <item id="n4" alignment="c4" line="236" tag="T">They (IN.3SG) came</item>
+    </tier>
+  </igt>
+  <igt id="igt51" doc-id="lgcol:ojb" line-range="237-239" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="237" tag="M">  author vetted: f</item>
+      <item id="r2" line="238" tag="L">  W-gii-bizhaamgak-noon</item>
+      <item id="r3" line="239" tag="G">  3-PAST-come-3PL</item>
+      <item id="r4" line="240" tag="T">  "They (IN.3PL) came"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="237" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="238" tag="L">  W-gii-bizhaamgak-noon</item>
+      <item id="c3" alignment="r3" line="239" tag="G">  3-PAST-come-3PL</item>
+      <item id="c4" alignment="r4" line="240" tag="T">  "They (IN.3PL) came"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="237" tag="M">f</item>
+      <item id="n2" alignment="c2" line="238" tag="L">W-gii-bizhaamgak-noon</item>
+      <item id="n3" alignment="c3" line="239" tag="G">3-PAST-come-3PL</item>
+      <item id="n4" alignment="c4" line="240" tag="T">They (IN.3PL) came</item>
+    </tier>
+  </igt>
+  <igt id="igt52" doc-id="lgcol:ojb" line-range="241-243" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="241" tag="M">  author vetted: s</item>
+      <item id="r2" line="242" tag="L">  w-doo-giinboodeg</item>
+      <item id="r3" line="243" tag="G">  3SG-INAM.FUT-be.sharpened.SG</item>
+      <item id="r4" line="244" tag="T">  'INSG needs sharpening'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="241" tag="M">  author vetted: s</item>
+      <item id="c2" alignment="r2" line="242" tag="L">  w-doo-giinboodeg</item>
+      <item id="c3" alignment="r3" line="243" tag="G">  3SG-INAM.FUT-be.sharpened.SG</item>
+      <item id="c4" alignment="r4" line="244" tag="T">  'INSG needs sharpening'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="241" tag="M">s</item>
+      <item id="n2" alignment="c2" line="242" tag="L">w-doo-giinboodeg</item>
+      <item id="n3" alignment="c3" line="243" tag="G">3SG-INAM.FUT-be.sharpened.SG</item>
+      <item id="n4" alignment="c4" line="244" tag="T">INSG needs sharpening</item>
+    </tier>
+  </igt>
+  <igt id="igt53" doc-id="lgcol:ojb" line-range="245-247" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="245" tag="M">  author vetted: f</item>
+      <item id="r2" line="246" tag="L">  n-doo-waannosed</item>
+      <item id="r3" line="247" tag="G">  1-PRES-walk+in+a+circle.1SG</item>
+      <item id="r4" line="248" tag="T">  'I walk in a circle'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="245" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="246" tag="L">  n-doo-waannosed</item>
+      <item id="c3" alignment="r3" line="247" tag="G">  1-PRES-walk+in+a+circle.1SG</item>
+      <item id="c4" alignment="r4" line="248" tag="T">  'I walk in a circle'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="245" tag="M">f</item>
+      <item id="n2" alignment="c2" line="246" tag="L">n-doo-waannosed</item>
+      <item id="n3" alignment="c3" line="247" tag="G">1-PRES-walk+in+a+circle.1SG</item>
+      <item id="n4" alignment="c4" line="248" tag="T">I walk in a circle</item>
+    </tier>
+  </igt>
+  <igt id="igt54" doc-id="lgcol:ojb" line-range="249-251" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="249" tag="M">  a:12.67/549 vetted: s</item>
+      <item id="r2" line="250" tag="L">  W-gii-baatiinhaadaawaaan binoojiinh-an</item>
+      <item id="r3" line="251" tag="G">  3-PAST-have+many child-3.OBV</item>
+      <item id="r4" line="252" tag="T">  "They had many children"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="249" tag="M">  a:12.67/549 vetted: s</item>
+      <item id="c2" alignment="r2" line="250" tag="L">  W-gii-baatiinhaadaawaaan binoojiinh-an</item>
+      <item id="c3" alignment="r3" line="251" tag="G">  3-PAST-have+many child-3.OBV</item>
+      <item id="c4" alignment="r4" line="252" tag="T">  "They had many children"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="249" tag="M">a:12.67/549 vetted: s</item>
+      <item id="n2" alignment="c2" line="250" tag="L">W-gii-baatiinhaadaawaaan binoojiinh-an</item>
+      <item id="n3" alignment="c3" line="251" tag="G">3-PAST-have+many child-3.OBV</item>
+      <item id="n4" alignment="c4" line="252" tag="T">They had many children</item>
+    </tier>
+  </igt>
+  <igt id="igt55" doc-id="lgcol:ojb" line-range="253-255" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="253" tag="M">  a:12.209/590 vetted: s</item>
+      <item id="r2" line="254" tag="L">  W-gii-dbaajmaad-aa-an niw shkiniigkwe-n</item>
+      <item id="r3" line="255" tag="G">  3-PAST-tell.about-DIR.THM-3.OBV.GL 3.ANIM.OBV.that young.woman-3.OBV</item>
+      <item id="r4" line="256" tag="T">  "He talked about that young woman"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="253" tag="M">  a:12.209/590 vetted: s</item>
+      <item id="c2" alignment="r2" line="254" tag="L">  W-gii-dbaajmaad-aa-an niw shkiniigkwe-n</item>
+      <item id="c3" alignment="r3" line="255" tag="G">  3-PAST-tell.about-DIR.THM-3.OBV.GL 3.ANIM.OBV.that young.woman-3.OBV</item>
+      <item id="c4" alignment="r4" line="256" tag="T">  "He talked about that young woman"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="253" tag="M">a:12.209/590 vetted: s</item>
+      <item id="n2" alignment="c2" line="254" tag="L">W-gii-dbaajmaad-aa-an niw shkiniigkwe-n</item>
+      <item id="n3" alignment="c3" line="255" tag="G">3-PAST-tell.about-DIR.THM-3.OBV.GL 3.ANIM.OBV.that young.woman-3.OBV</item>
+      <item id="n4" alignment="c4" line="256" tag="T">He talked about that young woman</item>
+    </tier>
+  </igt>
+  <igt id="igt56" doc-id="lgcol:ojb" line-range="257-259" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="257" tag="M">  a:12.163/577 vetted: s</item>
+      <item id="r2" line="258" tag="L">  W-gii-waabmaad-am-aa-an niw zhiishiib-an</item>
+      <item id="r3" line="259" tag="G">  3-PAST-see-DIR.THM-3.OBV-GL 3.ANIM.OBV.that duck-3.OBV</item>
+      <item id="r4" line="260" tag="T">  "He saw those ducks"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="257" tag="M">  a:12.163/577 vetted: s</item>
+      <item id="c2" alignment="r2" line="258" tag="L">  W-gii-waabmaad-am-aa-an niw zhiishiib-an</item>
+      <item id="c3" alignment="r3" line="259" tag="G">  3-PAST-see-DIR.THM-3.OBV-GL 3.ANIM.OBV.that duck-3.OBV</item>
+      <item id="c4" alignment="r4" line="260" tag="T">  "He saw those ducks"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="257" tag="M">a:12.163/577 vetted: s</item>
+      <item id="n2" alignment="c2" line="258" tag="L">W-gii-waabmaad-am-aa-an niw zhiishiib-an</item>
+      <item id="n3" alignment="c3" line="259" tag="G">3-PAST-see-DIR.THM-3.OBV-GL 3.ANIM.OBV.that duck-3.OBV</item>
+      <item id="n4" alignment="c4" line="260" tag="T">He saw those ducks</item>
+    </tier>
+  </igt>
+  <igt id="igt57" doc-id="lgcol:ojb" line-range="261-263" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="261" tag="M">  a:12.346/629 vetted: s</item>
+      <item id="r2" line="262" tag="L">  N-gii-nbwaachhaad-igw</item>
+      <item id="r3" line="263" tag="G">  1-PAST-visit-INV.THM</item>
+      <item id="r4" line="264" tag="T">  "He visited me"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="261" tag="M">  a:12.346/629 vetted: s</item>
+      <item id="c2" alignment="r2" line="262" tag="L">  N-gii-nbwaachhaad-igw</item>
+      <item id="c3" alignment="r3" line="263" tag="G">  1-PAST-visit-INV.THM</item>
+      <item id="c4" alignment="r4" line="264" tag="T">  "He visited me"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="261" tag="M">a:12.346/629 vetted: s</item>
+      <item id="n2" alignment="c2" line="262" tag="L">N-gii-nbwaachhaad-igw</item>
+      <item id="n3" alignment="c3" line="263" tag="G">1-PAST-visit-INV.THM</item>
+      <item id="n4" alignment="c4" line="264" tag="T">He visited me</item>
+    </tier>
+  </igt>
+  <igt id="igt58" doc-id="lgcol:ojb" line-range="265-267" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="265" tag="M">  a:13.1/648 vetted: s</item>
+      <item id="r2" line="266" tag="L">  Aankonaanh-an n-gii-miijid-am-nan</item>
+      <item id="r3" line="267" tag="G">  cracker-3.INAN.PL 1-PAST-eat-THM1.VTI-3.INAN.PL.GL</item>
+      <item id="r4" line="268" tag="T">  "I ate crackers"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="265" tag="M">  a:13.1/648 vetted: s</item>
+      <item id="c2" alignment="r2" line="266" tag="L">  Aankonaanh-an n-gii-miijid-am-nan</item>
+      <item id="c3" alignment="r3" line="267" tag="G">  cracker-3.INAN.PL 1-PAST-eat-THM1.VTI-3.INAN.PL.GL</item>
+      <item id="c4" alignment="r4" line="268" tag="T">  "I ate crackers"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="265" tag="M">a:13.1/648 vetted: s</item>
+      <item id="n2" alignment="c2" line="266" tag="L">Aankonaanh-an n-gii-miijid-am-nan</item>
+      <item id="n3" alignment="c3" line="267" tag="G">cracker-3.INAN.PL 1-PAST-eat-THM1.VTI-3.INAN.PL.GL</item>
+      <item id="n4" alignment="c4" line="268" tag="T">I ate crackers</item>
+    </tier>
+  </igt>
+  <igt id="igt59" doc-id="lgcol:ojb" line-range="269-271" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="269" tag="M">  a:101 vetted: f</item>
+      <item id="r2" line="270" tag="L">  Maaba waagosh w-doo-waannosed</item>
+      <item id="r3" line="271" tag="G">  this.3.SG fox 3-PRES-walk.in.a.circle</item>
+      <item id="r4" line="272" tag="T">  'this fox walks in a circle'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="269" tag="M">  a:101 vetted: f</item>
+      <item id="c2" alignment="r2" line="270" tag="L">  Maaba waagosh w-doo-waannosed</item>
+      <item id="c3" alignment="r3" line="271" tag="G">  this.3.SG fox 3-PRES-walk.in.a.circle</item>
+      <item id="c4" alignment="r4" line="272" tag="T">  'this fox walks in a circle'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="269" tag="M">a:101 vetted: f</item>
+      <item id="n2" alignment="c2" line="270" tag="L">Maaba waagosh w-doo-waannosed</item>
+      <item id="n3" alignment="c3" line="271" tag="G">this.3.SG fox 3-PRES-walk.in.a.circle</item>
+      <item id="n4" alignment="c4" line="272" tag="T">this fox walks in a circle</item>
+    </tier>
+  </igt>
+  <igt id="igt60" doc-id="lgcol:ojb" line-range="273-275" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="273" tag="M">  a:125 vetted: f</item>
+      <item id="r2" line="274" tag="L">  Nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an</item>
+      <item id="r3" line="275" tag="G">  my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL</item>
+      <item id="r4" line="276" tag="T">  'My mother made these boats'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="273" tag="M">  a:125 vetted: f</item>
+      <item id="c2" alignment="r2" line="274" tag="L">  Nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an</item>
+      <item id="c3" alignment="r3" line="275" tag="G">  my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL</item>
+      <item id="c4" alignment="r4" line="276" tag="T">  'My mother made these boats'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="273" tag="M">a:125 vetted: f</item>
+      <item id="n2" alignment="c2" line="274" tag="L">Nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an</item>
+      <item id="n3" alignment="c3" line="275" tag="G">my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL</item>
+      <item id="n4" alignment="c4" line="276" tag="T">My mother made these boats</item>
+    </tier>
+  </igt>
+  <igt id="igt61" doc-id="lgcol:ojb" line-range="277-279" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="277" tag="M">  author vetted: f</item>
+      <item id="r2" line="278" tag="L">  Maaba nishnaabe w-doo-moonhashkiwed</item>
+      <item id="r3" line="279" tag="G">  this.3.SG Indian 3-PRES-weed</item>
+      <item id="r4" line="280" tag="T">  'This Indian is weeding'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="277" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="278" tag="L">  Maaba nishnaabe w-doo-moonhashkiwed</item>
+      <item id="c3" alignment="r3" line="279" tag="G">  this.3.SG Indian 3-PRES-weed</item>
+      <item id="c4" alignment="r4" line="280" tag="T">  'This Indian is weeding'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="277" tag="M">f</item>
+      <item id="n2" alignment="c2" line="278" tag="L">Maaba nishnaabe w-doo-moonhashkiwed</item>
+      <item id="n3" alignment="c3" line="279" tag="G">this.3.SG Indian 3-PRES-weed</item>
+      <item id="n4" alignment="c4" line="280" tag="T">This Indian is weeding</item>
+    </tier>
+  </igt>
+  <igt id="igt62" doc-id="lgcol:ojb" line-range="281-283" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="281" tag="M">  author vetted: f</item>
+      <item id="r2" line="282" tag="L">  W-gii-zegzid maaba nishnaabe</item>
+      <item id="r3" line="283" tag="G">  3-PAST-be.frightened this.3.SG Indian</item>
+      <item id="r4" line="284" tag="T">  'This Indian was frightened'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="281" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="282" tag="L">  W-gii-zegzid maaba nishnaabe</item>
+      <item id="c3" alignment="r3" line="283" tag="G">  3-PAST-be.frightened this.3.SG Indian</item>
+      <item id="c4" alignment="r4" line="284" tag="T">  'This Indian was frightened'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="281" tag="M">f</item>
+      <item id="n2" alignment="c2" line="282" tag="L">W-gii-zegzid maaba nishnaabe</item>
+      <item id="n3" alignment="c3" line="283" tag="G">3-PAST-be.frightened this.3.SG Indian</item>
+      <item id="n4" alignment="c4" line="284" tag="T">This Indian was frightened</item>
+    </tier>
+  </igt>
+  <igt id="igt63" doc-id="lgcol:ojb" line-range="285-287" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="285" tag="M">  author vetted: f</item>
+      <item id="r2" line="286" tag="L">  Niin giwi kwe-wag n-wii-gnawenmaad-aa-ag</item>
+      <item id="r3" line="287" tag="G">  I that.3.PL woman-PL 1-FUT-take.charge.of-DIR.THM-3.PL.GL</item>
+      <item id="r4" line="288" tag="T">  'I will take charge of those women'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="285" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="286" tag="L">  Niin giwi kwe-wag n-wii-gnawenmaad-aa-ag</item>
+      <item id="c3" alignment="r3" line="287" tag="G">  I that.3.PL woman-PL 1-FUT-take.charge.of-DIR.THM-3.PL.GL</item>
+      <item id="c4" alignment="r4" line="288" tag="T">  'I will take charge of those women'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="285" tag="M">f</item>
+      <item id="n2" alignment="c2" line="286" tag="L">Niin giwi kwe-wag n-wii-gnawenmaad-aa-ag</item>
+      <item id="n3" alignment="c3" line="287" tag="G">I that.3.PL woman-PL 1-FUT-take.charge.of-DIR.THM-3.PL.GL</item>
+      <item id="n4" alignment="c4" line="288" tag="T">I will take charge of those women</item>
+    </tier>
+  </igt>
+  <igt id="igt64" doc-id="lgcol:ojb" line-range="289-291" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="289" tag="M">  a:613 vetted: s</item>
+      <item id="r2" line="290" tag="L">  Giin g-gii-maazhiiwiid</item>
+      <item id="r3" line="291" tag="G">  you 2-PAST-do.poorly</item>
+      <item id="r4" line="292" tag="T">  'You did poorly'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="289" tag="M">  a:613 vetted: s</item>
+      <item id="c2" alignment="r2" line="290" tag="L">  Giin g-gii-maazhiiwiid</item>
+      <item id="c3" alignment="r3" line="291" tag="G">  you 2-PAST-do.poorly</item>
+      <item id="c4" alignment="r4" line="292" tag="T">  'You did poorly'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="289" tag="M">a:613 vetted: s</item>
+      <item id="n2" alignment="c2" line="290" tag="L">Giin g-gii-maazhiiwiid</item>
+      <item id="n3" alignment="c3" line="291" tag="G">you 2-PAST-do.poorly</item>
+      <item id="n4" alignment="c4" line="292" tag="T">You did poorly</item>
+    </tier>
+  </igt>
+  <igt id="igt65" doc-id="lgcol:ojb" line-range="293-295" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="293" tag="M">  a:216 vetted: s</item>
+      <item id="r2" line="294" tag="L">  W-doo-jiigdahang-am-n wi wiigwaam wa kwe</item>
+      <item id="r3" line="295" tag="G">  3-PRES-sweep.out-THM1-VTI that.3.SG house that.3.SG woman</item>
+      <item id="r4" line="296" tag="T">  'That women is sweeping out that house'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="293" tag="M">  a:216 vetted: s</item>
+      <item id="c2" alignment="r2" line="294" tag="L">  W-doo-jiigdahang-am-n wi wiigwaam wa kwe</item>
+      <item id="c3" alignment="r3" line="295" tag="G">  3-PRES-sweep.out-THM1-VTI that.3.SG house that.3.SG woman</item>
+      <item id="c4" alignment="r4" line="296" tag="T">  'That women is sweeping out that house'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="293" tag="M">a:216 vetted: s</item>
+      <item id="n2" alignment="c2" line="294" tag="L">W-doo-jiigdahang-am-n wi wiigwaam wa kwe</item>
+      <item id="n3" alignment="c3" line="295" tag="G">3-PRES-sweep.out-THM1-VTI that.3.SG house that.3.SG woman</item>
+      <item id="n4" alignment="c4" line="296" tag="T">That women is sweeping out that house</item>
+    </tier>
+  </igt>
+  <igt id="igt66" doc-id="lgcol:ojb" line-range="297-299" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="297" tag="M">  author vetted: f</item>
+      <item id="r2" line="298" tag="L">  W-gii-waabmaad-aa-an wa kwe niwi binoojiinh-an</item>
+      <item id="r3" line="299" tag="G">  3-PAST-see-DIR.THM-3.OBV.GL that.3.SG woman that.3.PL child-OBV</item>
+      <item id="r4" line="300" tag="T">  'That woman saw the children'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="297" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="298" tag="L">  W-gii-waabmaad-aa-an wa kwe niwi binoojiinh-an</item>
+      <item id="c3" alignment="r3" line="299" tag="G">  3-PAST-see-DIR.THM-3.OBV.GL that.3.SG woman that.3.PL child-OBV</item>
+      <item id="c4" alignment="r4" line="300" tag="T">  'That woman saw the children'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="297" tag="M">f</item>
+      <item id="n2" alignment="c2" line="298" tag="L">W-gii-waabmaad-aa-an wa kwe niwi binoojiinh-an</item>
+      <item id="n3" alignment="c3" line="299" tag="G">3-PAST-see-DIR.THM-3.OBV.GL that.3.SG woman that.3.PL child-OBV</item>
+      <item id="n4" alignment="c4" line="300" tag="T">That woman saw the children</item>
+    </tier>
+  </igt>
+  <igt id="igt67" doc-id="lgcol:ojb" line-range="301-303" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="301" tag="M">  author vetted: f</item>
+      <item id="r2" line="302" tag="L">  Nanda kwe-wag w-gii-waabmaad-aa-waa-an niwi binoojiinh-ag</item>
+      <item id="r3" line="303" tag="G">  this.3.SG woman-OBV 3-PAST-see-INV.THM-3.OBV-GL that.3.PL child-PL</item>
+      <item id="r4" line="304" tag="T">  'Those children saw the woman'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="301" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="302" tag="L">  Nanda kwe-wag w-gii-waabmaad-aa-waa-an niwi binoojiinh-ag</item>
+      <item id="c3" alignment="r3" line="303" tag="G">  this.3.SG woman-OBV 3-PAST-see-INV.THM-3.OBV-GL that.3.PL child-PL</item>
+      <item id="c4" alignment="r4" line="304" tag="T">  'Those children saw the woman'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="301" tag="M">f</item>
+      <item id="n2" alignment="c2" line="302" tag="L">Nanda kwe-wag w-gii-waabmaad-aa-waa-an niwi binoojiinh-ag</item>
+      <item id="n3" alignment="c3" line="303" tag="G">this.3.SG woman-OBV 3-PAST-see-INV.THM-3.OBV-GL that.3.PL child-PL</item>
+      <item id="n4" alignment="c4" line="304" tag="T">Those children saw the woman</item>
+    </tier>
+  </igt>
+  <igt id="igt68" doc-id="lgcol:ojb" line-range="305-307" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="305" tag="M">  author vetted: f</item>
+      <item id="r2" line="306" tag="L">  Bezhig wa nishnaabe w-gii-waabmaad-aa-an binoojiinh-an</item>
+      <item id="r3" line="307" tag="G">  one that.3.SG Indian 3-PAST-see-DIR.THM-3.OBV.GL child-OBV</item>
+      <item id="r4" line="308" tag="T">  'This one Indian saw children'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="305" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="306" tag="L">  Bezhig wa nishnaabe w-gii-waabmaad-aa-an binoojiinh-an</item>
+      <item id="c3" alignment="r3" line="307" tag="G">  one that.3.SG Indian 3-PAST-see-DIR.THM-3.OBV.GL child-OBV</item>
+      <item id="c4" alignment="r4" line="308" tag="T">  'This one Indian saw children'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="305" tag="M">f</item>
+      <item id="n2" alignment="c2" line="306" tag="L">Bezhig wa nishnaabe w-gii-waabmaad-aa-an binoojiinh-an</item>
+      <item id="n3" alignment="c3" line="307" tag="G">one that.3.SG Indian 3-PAST-see-DIR.THM-3.OBV.GL child-OBV</item>
+      <item id="n4" alignment="c4" line="308" tag="T">This one Indian saw children</item>
+    </tier>
+  </igt>
+  <igt id="igt69" doc-id="lgcol:ojb" line-range="309-311" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="309" tag="M">  author vetted: f</item>
+      <item id="r2" line="310" tag="L">  Bezhig nishnaabe w-gii-waabmaad-aa-an binoojiinh-an</item>
+      <item id="r3" line="311" tag="G">  one Indian 3-PAST-see-DIR.THM-3.OBV.GL child-OBV</item>
+      <item id="r4" line="312" tag="T">  'One Indian saw children'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="309" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="310" tag="L">  Bezhig nishnaabe w-gii-waabmaad-aa-an binoojiinh-an</item>
+      <item id="c3" alignment="r3" line="311" tag="G">  one Indian 3-PAST-see-DIR.THM-3.OBV.GL child-OBV</item>
+      <item id="c4" alignment="r4" line="312" tag="T">  'One Indian saw children'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="309" tag="M">f</item>
+      <item id="n2" alignment="c2" line="310" tag="L">Bezhig nishnaabe w-gii-waabmaad-aa-an binoojiinh-an</item>
+      <item id="n3" alignment="c3" line="311" tag="G">one Indian 3-PAST-see-DIR.THM-3.OBV.GL child-OBV</item>
+      <item id="n4" alignment="c4" line="312" tag="T">One Indian saw children</item>
+    </tier>
+  </igt>
+  <igt id="igt70" doc-id="lgcol:ojb" line-range="313-315" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="313" tag="M">  author vetted: f</item>
+      <item id="r2" line="314" tag="L">  W-gii-maajaad bezhig nishnaabe</item>
+      <item id="r3" line="315" tag="G">  3-PAST-leave one Indian</item>
+      <item id="r4" line="316" tag="T">  'An Indian left'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="313" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="314" tag="L">  W-gii-maajaad bezhig nishnaabe</item>
+      <item id="c3" alignment="r3" line="315" tag="G">  3-PAST-leave one Indian</item>
+      <item id="c4" alignment="r4" line="316" tag="T">  'An Indian left'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="313" tag="M">f</item>
+      <item id="n2" alignment="c2" line="314" tag="L">W-gii-maajaad bezhig nishnaabe</item>
+      <item id="n3" alignment="c3" line="315" tag="G">3-PAST-leave one Indian</item>
+      <item id="n4" alignment="c4" line="316" tag="T">An Indian left</item>
+    </tier>
+  </igt>
+  <igt id="igt71" doc-id="lgcol:ojb" line-range="317-319" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="317" tag="M">  a:12.15/534 vetted: s</item>
+      <item id="r2" line="318" tag="L">  Waya w-wii-nbod</item>
+      <item id="r3" line="319" tag="G">  3.SG.PROX 3-FUT-die</item>
+      <item id="r4" line="320" tag="T">  "Someone will die"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="317" tag="M">  a:12.15/534 vetted: s</item>
+      <item id="c2" alignment="r2" line="318" tag="L">  Waya w-wii-nbod</item>
+      <item id="c3" alignment="r3" line="319" tag="G">  3.SG.PROX 3-FUT-die</item>
+      <item id="c4" alignment="r4" line="320" tag="T">  "Someone will die"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="317" tag="M">a:12.15/534 vetted: s</item>
+      <item id="n2" alignment="c2" line="318" tag="L">Waya w-wii-nbod</item>
+      <item id="n3" alignment="c3" line="319" tag="G">3.SG.PROX 3-FUT-die</item>
+      <item id="n4" alignment="c4" line="320" tag="T">Someone will die</item>
+    </tier>
+  </igt>
+  <igt id="igt72" doc-id="lgcol:ojb" line-range="321-323" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="321" tag="M">  a:12.110/562 vetted: s</item>
+      <item id="r2" line="322" tag="L">  W-gii-nshkaadzid maaba gchibne</item>
+      <item id="r3" line="323" tag="G">  3-PAST-be.angry 3.ANIM.SG.this big.partridge</item>
+      <item id="r4" line="324" tag="T">  "This big partridge was angry"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="321" tag="M">  a:12.110/562 vetted: s</item>
+      <item id="c2" alignment="r2" line="322" tag="L">  W-gii-nshkaadzid maaba gchibne</item>
+      <item id="c3" alignment="r3" line="323" tag="G">  3-PAST-be.angry 3.ANIM.SG.this big.partridge</item>
+      <item id="c4" alignment="r4" line="324" tag="T">  "This big partridge was angry"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="321" tag="M">a:12.110/562 vetted: s</item>
+      <item id="n2" alignment="c2" line="322" tag="L">W-gii-nshkaadzid maaba gchibne</item>
+      <item id="n3" alignment="c3" line="323" tag="G">3-PAST-be.angry 3.ANIM.SG.this big.partridge</item>
+      <item id="n4" alignment="c4" line="324" tag="T">This big partridge was angry</item>
+    </tier>
+  </igt>
+  <igt id="igt73" doc-id="lgcol:ojb" line-range="325-327" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="325" tag="M">  a:13.132/700 vetted: s</item>
+      <item id="r2" line="326" tag="L">  Aw kwe w-doo-zhitood-am-n nbabgiwyaan</item>
+      <item id="r3" line="327" tag="G">  3.ANIM.SG.that woman 1-PRES-make.for-INV-THM my.shirt</item>
+      <item id="r4" line="328" tag="T">  "That woman is making me a shirt"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="325" tag="M">  a:13.132/700 vetted: s</item>
+      <item id="c2" alignment="r2" line="326" tag="L">  Aw kwe w-doo-zhitood-am-n nbabgiwyaan</item>
+      <item id="c3" alignment="r3" line="327" tag="G">  3.ANIM.SG.that woman 1-PRES-make.for-INV-THM my.shirt</item>
+      <item id="c4" alignment="r4" line="328" tag="T">  "That woman is making me a shirt"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="325" tag="M">a:13.132/700 vetted: s</item>
+      <item id="n2" alignment="c2" line="326" tag="L">Aw kwe w-doo-zhitood-am-n nbabgiwyaan</item>
+      <item id="n3" alignment="c3" line="327" tag="G">3.ANIM.SG.that woman 1-PRES-make.for-INV-THM my.shirt</item>
+      <item id="n4" alignment="c4" line="328" tag="T">That woman is making me a shirt</item>
+    </tier>
+  </igt>
+  <igt id="igt74" doc-id="lgcol:ojb" line-range="329-331" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="329" tag="M">  a:12.352/631 vetted: s</item>
+      <item id="r2" line="330" tag="L">  Niw kwe-wan w-gii-gnawenmaad-igw-waa-an giw binoojiinh-ag</item>
+      <item id="r3" line="331" tag="G">  3.ANIM.OBV.that woman-OBV 3-PAST-take.care.of-INV.THM-PL.AC-3.PL.GL 3.ANIM.PL.those child-PL</item>
+      <item id="r4" line="332" tag="T">  "The women took care of the children"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="329" tag="M">  a:12.352/631 vetted: s</item>
+      <item id="c2" alignment="r2" line="330" tag="L">  Niw kwe-wan w-gii-gnawenmaad-igw-waa-an giw binoojiinh-ag</item>
+      <item id="c3" alignment="r3" line="331" tag="G">  3.ANIM.OBV.that woman-OBV 3-PAST-take.care.of-INV.THM-PL.AC-3.PL.GL 3.ANIM.PL.those child-PL</item>
+      <item id="c4" alignment="r4" line="332" tag="T">  "The women took care of the children"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="329" tag="M">a:12.352/631 vetted: s</item>
+      <item id="n2" alignment="c2" line="330" tag="L">Niw kwe-wan w-gii-gnawenmaad-igw-waa-an giw binoojiinh-ag</item>
+      <item id="n3" alignment="c3" line="331" tag="G">3.ANIM.OBV.that woman-OBV 3-PAST-take.care.of-INV.THM-PL.AC-3.PL.GL 3.ANIM.PL.those child-PL</item>
+      <item id="n4" alignment="c4" line="332" tag="T">The women took care of the children</item>
+    </tier>
+  </igt>
+  <igt id="igt75" doc-id="lgcol:ojb" line-range="333-335" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="333" tag="M">  a:12.351/631 vetted: s</item>
+      <item id="r2" line="334" tag="L">  Giw kwe-wag w-gii-gnawenmaad-aa-waa-an niw binoojiinh-an</item>
+      <item id="r3" line="335" tag="G">  3.ANIM.PL.those woman-PL 3-PAST-take.care.of-DIR.THM-PL.AC-3.OBV.GL 3.ANIM.OBV.that child-OBV</item>
+      <item id="r4" line="336" tag="T">  "The women took care of the children"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="333" tag="M">  a:12.351/631 vetted: s</item>
+      <item id="c2" alignment="r2" line="334" tag="L">  Giw kwe-wag w-gii-gnawenmaad-aa-waa-an niw binoojiinh-an</item>
+      <item id="c3" alignment="r3" line="335" tag="G">  3.ANIM.PL.those woman-PL 3-PAST-take.care.of-DIR.THM-PL.AC-3.OBV.GL 3.ANIM.OBV.that child-OBV</item>
+      <item id="c4" alignment="r4" line="336" tag="T">  "The women took care of the children"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="333" tag="M">a:12.351/631 vetted: s</item>
+      <item id="n2" alignment="c2" line="334" tag="L">Giw kwe-wag w-gii-gnawenmaad-aa-waa-an niw binoojiinh-an</item>
+      <item id="n3" alignment="c3" line="335" tag="G">3.ANIM.PL.those woman-PL 3-PAST-take.care.of-DIR.THM-PL.AC-3.OBV.GL 3.ANIM.OBV.that child-OBV</item>
+      <item id="n4" alignment="c4" line="336" tag="T">The women took care of the children</item>
+    </tier>
+  </igt>
+  <igt id="igt76" doc-id="lgcol:ojb" line-range="337-339" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="337" tag="M">  a:3.60/154 vetted: s</item>
+      <item id="r2" line="338" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n</item>
+      <item id="r3" line="339" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL</item>
+      <item id="r4" line="340" tag="T">  "He made a sailboat"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="337" tag="M">  a:3.60/154 vetted: s</item>
+      <item id="c2" alignment="r2" line="338" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n</item>
+      <item id="c3" alignment="r3" line="339" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL</item>
+      <item id="c4" alignment="r4" line="340" tag="T">  "He made a sailboat"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="337" tag="M">a:3.60/154 vetted: s</item>
+      <item id="n2" alignment="c2" line="338" tag="L">Gaasmoonijiimaan w-gii-wzhitaatood-oo-n</item>
+      <item id="n3" alignment="c3" line="339" tag="G">sailboat 3-PAST-make-THM2.VTI-INAN.GL</item>
+      <item id="n4" alignment="c4" line="340" tag="T">He made a sailboat</item>
+    </tier>
+  </igt>
+  <igt id="igt77" doc-id="lgcol:ojb" line-range="341-343" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="341" tag="M">  author vetted: f</item>
+      <item id="r2" line="342" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n gye nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an</item>
+      <item id="r3" line="343" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL</item>
+      <item id="r4" line="344" tag="T">  'He made a sailboat and my mother made these boats'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="341" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="342" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n gye nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an</item>
+      <item id="c3" alignment="r3" line="343" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL</item>
+      <item id="c4" alignment="r4" line="344" tag="T">  'He made a sailboat and my mother made these boats'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="341" tag="M">f</item>
+      <item id="n2" alignment="c2" line="342" tag="L">Gaasmoonijiimaan w-gii-wzhitaatood-oo-n gye nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an</item>
+      <item id="n3" alignment="c3" line="343" tag="G">sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL</item>
+      <item id="n4" alignment="c4" line="344" tag="T">He made a sailboat and my mother made these boats</item>
+    </tier>
+  </igt>
+  <igt id="igt78" doc-id="lgcol:ojb" line-range="345-347" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="345" tag="M">  author vetted: f</item>
+      <item id="r2" line="346" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, gye w-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="r3" line="347" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="r4" line="348" tag="T">  'He made a sailboat, my mother made these boats, and the canoes came'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="345" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="346" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, gye w-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="c3" alignment="r3" line="347" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="c4" alignment="r4" line="348" tag="T">  'He made a sailboat, my mother made these boats, and the canoes came'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="345" tag="M">f</item>
+      <item id="n2" alignment="c2" line="346" tag="L">Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, gye w-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="n3" alignment="c3" line="347" tag="G">sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="n4" alignment="c4" line="348" tag="T">He made a sailboat, my mother made these boats, and the canoes came</item>
+    </tier>
+  </igt>
+  <igt id="igt79" doc-id="lgcol:ojb" line-range="349-351" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="349" tag="M">  author vetted: f</item>
+      <item id="r2" line="350" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n miinwaa nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an miinwaa w-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="r3" line="351" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="r4" line="352" tag="T">  'He made a sailboat, my mother made these boats, and the canoes came'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="349" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="350" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n miinwaa nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an miinwaa w-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="c3" alignment="r3" line="351" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="c4" alignment="r4" line="352" tag="T">  'He made a sailboat, my mother made these boats, and the canoes came'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="349" tag="M">f</item>
+      <item id="n2" alignment="c2" line="350" tag="L">Gaasmoonijiimaan w-gii-wzhitaatood-oo-n miinwaa nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an miinwaa w-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="n3" alignment="c3" line="351" tag="G">sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="n4" alignment="c4" line="352" tag="T">He made a sailboat, my mother made these boats, and the canoes came</item>
+    </tier>
+  </igt>
+  <igt id="igt80" doc-id="lgcol:ojb" line-range="353-355" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="353" tag="M">  author vetted: f</item>
+      <item id="r2" line="354" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, w-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="r3" line="355" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL 3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="r4" line="356" tag="T">  'He made a sailboat, my mother made these boats, and the canoes came'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="353" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="354" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, w-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="c3" alignment="r3" line="355" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL 3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="c4" alignment="r4" line="356" tag="T">  'He made a sailboat, my mother made these boats, and the canoes came'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="353" tag="M">f</item>
+      <item id="n2" alignment="c2" line="354" tag="L">Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, w-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="n3" alignment="c3" line="355" tag="G">sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL 3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="n4" alignment="c4" line="356" tag="T">He made a sailboat, my mother made these boats, and the canoes came</item>
+    </tier>
+  </igt>
+  <igt id="igt81" doc-id="lgcol:ojb" line-range="357-359" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="357" tag="M">  author vetted: f</item>
+      <item id="r2" line="358" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n miinwaa nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an</item>
+      <item id="r3" line="359" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL</item>
+      <item id="r4" line="360" tag="T">  'He made a sailboat and my mother made these boats'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="357" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="358" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n miinwaa nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an</item>
+      <item id="c3" alignment="r3" line="359" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL</item>
+      <item id="c4" alignment="r4" line="360" tag="T">  'He made a sailboat and my mother made these boats'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="357" tag="M">f</item>
+      <item id="n2" alignment="c2" line="358" tag="L">Gaasmoonijiimaan w-gii-wzhitaatood-oo-n miinwaa nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an</item>
+      <item id="n3" alignment="c3" line="359" tag="G">sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL</item>
+      <item id="n4" alignment="c4" line="360" tag="T">He made a sailboat and my mother made these boats</item>
+    </tier>
+  </igt>
+  <igt id="igt82" doc-id="lgcol:ojb" line-range="361-363" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="361" tag="M">  author vetted: f</item>
+      <item id="r2" line="362" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, miinwaa w-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="r3" line="363" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="r4" line="364" tag="T">  'He made a sailboat, my mother made these boats, and the canoes came'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="361" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="362" tag="L">  Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, miinwaa w-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="c3" alignment="r3" line="363" tag="G">  sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="c4" alignment="r4" line="364" tag="T">  'He made a sailboat, my mother made these boats, and the canoes came'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="361" tag="M">f</item>
+      <item id="n2" alignment="c2" line="362" tag="L">Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, miinwaa w-gii-bizhaamgak-noon jiimaan-an</item>
+      <item id="n3" alignment="c3" line="363" tag="G">sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL</item>
+      <item id="n4" alignment="c4" line="364" tag="T">He made a sailboat, my mother made these boats, and the canoes came</item>
+    </tier>
+  </igt>
+  <igt id="igt83" doc-id="lgcol:ojb" line-range="365-367" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="365" tag="M">  author (cf 18.223/996) vetted: f</item>
+      <item id="r2" line="366" tag="L">  N-doo-mnopwaad-aa bkwezhigan miinwaa doodooshaaboo</item>
+      <item id="r3" line="367" tag="G">  1-PRES-like+the+taste+of-DIR.THM bread COORD milk</item>
+      <item id="r4" line="368" tag="T">  'I like bread and milk'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="365" tag="M">  author (cf 18.223/996) vetted: f</item>
+      <item id="c2" alignment="r2" line="366" tag="L">  N-doo-mnopwaad-aa bkwezhigan miinwaa doodooshaaboo</item>
+      <item id="c3" alignment="r3" line="367" tag="G">  1-PRES-like+the+taste+of-DIR.THM bread COORD milk</item>
+      <item id="c4" alignment="r4" line="368" tag="T">  'I like bread and milk'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="365" tag="M">author (cf 18.223/996) vetted: f</item>
+      <item id="n2" alignment="c2" line="366" tag="L">N-doo-mnopwaad-aa bkwezhigan miinwaa doodooshaaboo</item>
+      <item id="n3" alignment="c3" line="367" tag="G">1-PRES-like+the+taste+of-DIR.THM bread COORD milk</item>
+      <item id="n4" alignment="c4" line="368" tag="T">I like bread and milk</item>
+    </tier>
+  </igt>
+  <igt id="igt84" doc-id="lgcol:ojb" line-range="373-375" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="373" tag="M">  author vetted: f</item>
+      <item id="r2" line="374" tag="L">  Niin miinwaa niizh kwe-wag n-doo-ntaa-gshkigwaasod</item>
+      <item id="r3" line="375" tag="G">  I COORD two woman-PL 1-PRES-HAB-be.good.at.sewing</item>
+      <item id="r4" line="376" tag="T">  'Two women and I are good at sewing'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="373" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="374" tag="L">  Niin miinwaa niizh kwe-wag n-doo-ntaa-gshkigwaasod</item>
+      <item id="c3" alignment="r3" line="375" tag="G">  I COORD two woman-PL 1-PRES-HAB-be.good.at.sewing</item>
+      <item id="c4" alignment="r4" line="376" tag="T">  'Two women and I are good at sewing'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="373" tag="M">f</item>
+      <item id="n2" alignment="c2" line="374" tag="L">Niin miinwaa niizh kwe-wag n-doo-ntaa-gshkigwaasod</item>
+      <item id="n3" alignment="c3" line="375" tag="G">I COORD two woman-PL 1-PRES-HAB-be.good.at.sewing</item>
+      <item id="n4" alignment="c4" line="376" tag="T">Two women and I are good at sewing</item>
+    </tier>
+  </igt>
+  <igt id="igt85" doc-id="lgcol:ojb" line-range="377-379" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="377" tag="M">  author vetted: f</item>
+      <item id="r2" line="378" tag="L">  Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem gye nmamaa</item>
+      <item id="r3" line="379" tag="G">  Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG COORD my.mother</item>
+      <item id="r4" line="380" tag="T">  'Nenabush saw my daughter-in-law and my mother'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="377" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="378" tag="L">  Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem gye nmamaa</item>
+      <item id="c3" alignment="r3" line="379" tag="G">  Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG COORD my.mother</item>
+      <item id="c4" alignment="r4" line="380" tag="T">  'Nenabush saw my daughter-in-law and my mother'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="377" tag="M">f</item>
+      <item id="n2" alignment="c2" line="378" tag="L">Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem gye nmamaa</item>
+      <item id="n3" alignment="c3" line="379" tag="G">Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG COORD my.mother</item>
+      <item id="n4" alignment="c4" line="380" tag="T">Nenabush saw my daughter-in-law and my mother</item>
+    </tier>
+  </igt>
+  <igt id="igt86" doc-id="lgcol:ojb" line-range="381-383" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="381" tag="M">  author vetted: f</item>
+      <item id="r2" line="382" tag="L">  Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem gye aw nmamaa</item>
+      <item id="r3" line="383" tag="G">  Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG COORD that.3.SG my.mother</item>
+      <item id="r4" line="384" tag="T">  'Nenabush saw my daughter-in-law and my mother'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="381" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="382" tag="L">  Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem gye aw nmamaa</item>
+      <item id="c3" alignment="r3" line="383" tag="G">  Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG COORD that.3.SG my.mother</item>
+      <item id="c4" alignment="r4" line="384" tag="T">  'Nenabush saw my daughter-in-law and my mother'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="381" tag="M">f</item>
+      <item id="n2" alignment="c2" line="382" tag="L">Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem gye aw nmamaa</item>
+      <item id="n3" alignment="c3" line="383" tag="G">Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG COORD that.3.SG my.mother</item>
+      <item id="n4" alignment="c4" line="384" tag="T">Nenabush saw my daughter-in-law and my mother</item>
+    </tier>
+  </igt>
+  <igt id="igt87" doc-id="lgcol:ojb" line-range="385-387" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="385" tag="M">  author vetted: f</item>
+      <item id="r2" line="386" tag="L">  Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem miinwaa nmamaa</item>
+      <item id="r3" line="387" tag="G">  Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG COORD my.mother</item>
+      <item id="r4" line="388" tag="T">  'Nenabush saw my daughter-in-law and my mother'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="385" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="386" tag="L">  Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem miinwaa nmamaa</item>
+      <item id="c3" alignment="r3" line="387" tag="G">  Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG COORD my.mother</item>
+      <item id="c4" alignment="r4" line="388" tag="T">  'Nenabush saw my daughter-in-law and my mother'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="385" tag="M">f</item>
+      <item id="n2" alignment="c2" line="386" tag="L">Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem miinwaa nmamaa</item>
+      <item id="n3" alignment="c3" line="387" tag="G">Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG COORD my.mother</item>
+      <item id="n4" alignment="c4" line="388" tag="T">Nenabush saw my daughter-in-law and my mother</item>
+    </tier>
+  </igt>
+  <igt id="igt88" doc-id="lgcol:ojb" line-range="389-391" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="389" tag="M">  author vetted: f</item>
+      <item id="r2" line="390" tag="L">  Waagaakwad na w-wii-giinboodeg</item>
+      <item id="r3" line="391" tag="G">  axe.IN.3SG QUES 3-FUT-be+sharpened.3SG</item>
+      <item id="r4" line="392" tag="T">  'Does the axe need sharpening?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="389" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="390" tag="L">  Waagaakwad na w-wii-giinboodeg</item>
+      <item id="c3" alignment="r3" line="391" tag="G">  axe.IN.3SG QUES 3-FUT-be+sharpened.3SG</item>
+      <item id="c4" alignment="r4" line="392" tag="T">  'Does the axe need sharpening?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="389" tag="M">f</item>
+      <item id="n2" alignment="c2" line="390" tag="L">Waagaakwad na w-wii-giinboodeg</item>
+      <item id="n3" alignment="c3" line="391" tag="G">axe.IN.3SG QUES 3-FUT-be+sharpened.3SG</item>
+      <item id="n4" alignment="c4" line="392" tag="T">Does the axe need sharpening?</item>
+    </tier>
+  </igt>
+  <igt id="igt89" doc-id="lgcol:ojb" line-range="393-395" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="393" tag="M">  author vetted: f</item>
+      <item id="r2" line="394" tag="L">  W-gii-zegzid na Nenbozh</item>
+      <item id="r3" line="395" tag="G">  3-PAST-be+frightened.3SG QUES Nenabush.AN.3SG</item>
+      <item id="r4" line="396" tag="T">  'Was Nenabush frightened?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="393" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="394" tag="L">  W-gii-zegzid na Nenbozh</item>
+      <item id="c3" alignment="r3" line="395" tag="G">  3-PAST-be+frightened.3SG QUES Nenabush.AN.3SG</item>
+      <item id="c4" alignment="r4" line="396" tag="T">  'Was Nenabush frightened?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="393" tag="M">f</item>
+      <item id="n2" alignment="c2" line="394" tag="L">W-gii-zegzid na Nenbozh</item>
+      <item id="n3" alignment="c3" line="395" tag="G">3-PAST-be+frightened.3SG QUES Nenabush.AN.3SG</item>
+      <item id="n4" alignment="c4" line="396" tag="T">Was Nenabush frightened?</item>
+    </tier>
+  </igt>
+  <igt id="igt90" doc-id="lgcol:ojb" line-range="397-399" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="397" tag="M">  author vetted: f</item>
+      <item id="r2" line="398" tag="L">  Nenbozh na w-gii-zegzid</item>
+      <item id="r3" line="399" tag="G">  Nenabush.AN.3SG QUES 3-PAST-be+frightened.3SG</item>
+      <item id="r4" line="400" tag="T">  'Was it Nenabush who was frightened?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="397" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="398" tag="L">  Nenbozh na w-gii-zegzid</item>
+      <item id="c3" alignment="r3" line="399" tag="G">  Nenabush.AN.3SG QUES 3-PAST-be+frightened.3SG</item>
+      <item id="c4" alignment="r4" line="400" tag="T">  'Was it Nenabush who was frightened?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="397" tag="M">f</item>
+      <item id="n2" alignment="c2" line="398" tag="L">Nenbozh na w-gii-zegzid</item>
+      <item id="n3" alignment="c3" line="399" tag="G">Nenabush.AN.3SG QUES 3-PAST-be+frightened.3SG</item>
+      <item id="n4" alignment="c4" line="400" tag="T">Was it Nenabush who was frightened?</item>
+    </tier>
+  </igt>
+  <igt id="igt91" doc-id="lgcol:ojb" line-range="401-403" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="401" tag="M">  author vetted: f</item>
+      <item id="r2" line="402" tag="L">  Zhiishiib-an na w-doo-mnopwaad-aa-an gaag</item>
+      <item id="r3" line="403" tag="G">  duck-3.OBV QUES 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG porcupine.AN.3SG</item>
+      <item id="r4" line="404" tag="T">  'Is it ducks that porcupines like to eat?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="401" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="402" tag="L">  Zhiishiib-an na w-doo-mnopwaad-aa-an gaag</item>
+      <item id="c3" alignment="r3" line="403" tag="G">  duck-3.OBV QUES 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG porcupine.AN.3SG</item>
+      <item id="c4" alignment="r4" line="404" tag="T">  'Is it ducks that porcupines like to eat?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="401" tag="M">f</item>
+      <item id="n2" alignment="c2" line="402" tag="L">Zhiishiib-an na w-doo-mnopwaad-aa-an gaag</item>
+      <item id="n3" alignment="c3" line="403" tag="G">duck-3.OBV QUES 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG porcupine.AN.3SG</item>
+      <item id="n4" alignment="c4" line="404" tag="T">Is it ducks that porcupines like to eat?</item>
+    </tier>
+  </igt>
+  <igt id="igt92" doc-id="lgcol:ojb" line-range="405-407" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="405" tag="M">  author vetted: f</item>
+      <item id="r2" line="406" tag="L">  Gaag na zhiishiib-an w-doo-mnopwaad-aa-an</item>
+      <item id="r3" line="407" tag="G">  porcupine.AN.3SG QUES duck-3.OBV 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG</item>
+      <item id="r4" line="408" tag="T">  'Is it porcupines that like to eat ducks?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="405" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="406" tag="L">  Gaag na zhiishiib-an w-doo-mnopwaad-aa-an</item>
+      <item id="c3" alignment="r3" line="407" tag="G">  porcupine.AN.3SG QUES duck-3.OBV 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG</item>
+      <item id="c4" alignment="r4" line="408" tag="T">  'Is it porcupines that like to eat ducks?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="405" tag="M">f</item>
+      <item id="n2" alignment="c2" line="406" tag="L">Gaag na zhiishiib-an w-doo-mnopwaad-aa-an</item>
+      <item id="n3" alignment="c3" line="407" tag="G">porcupine.AN.3SG QUES duck-3.OBV 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG</item>
+      <item id="n4" alignment="c4" line="408" tag="T">Is it porcupines that like to eat ducks?</item>
+    </tier>
+  </igt>
+  <igt id="igt93" doc-id="lgcol:ojb" line-range="409-411" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="409" tag="M">  author vetted: f</item>
+      <item id="r2" line="410" tag="L">  W-doo-mnopwaad-aa-an na zhiishiib-an gaag</item>
+      <item id="r3" line="411" tag="G">  3GS.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG QUES duck-3.OBV porcupine.AN.3SG</item>
+      <item id="r4" line="412" tag="T">  'Is eating something that porcupines like to do to ducks?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="409" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="410" tag="L">  W-doo-mnopwaad-aa-an na zhiishiib-an gaag</item>
+      <item id="c3" alignment="r3" line="411" tag="G">  3GS.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG QUES duck-3.OBV porcupine.AN.3SG</item>
+      <item id="c4" alignment="r4" line="412" tag="T">  'Is eating something that porcupines like to do to ducks?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="409" tag="M">f</item>
+      <item id="n2" alignment="c2" line="410" tag="L">W-doo-mnopwaad-aa-an na zhiishiib-an gaag</item>
+      <item id="n3" alignment="c3" line="411" tag="G">3GS.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG QUES duck-3.OBV porcupine.AN.3SG</item>
+      <item id="n4" alignment="c4" line="412" tag="T">Is eating something that porcupines like to do to ducks?</item>
+    </tier>
+  </igt>
+  <igt id="igt94" doc-id="lgcol:ojb" line-range="413-415" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="413" tag="M">  author vetted: f</item>
+      <item id="r2" line="414" tag="L">  N-doo-mmaangshkiinzhgwed na</item>
+      <item id="r3" line="415" tag="G">  1SG-PRES-have+big+eyes.1SG QUES</item>
+      <item id="r4" line="416" tag="T">  'Do I have big eyes?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="413" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="414" tag="L">  N-doo-mmaangshkiinzhgwed na</item>
+      <item id="c3" alignment="r3" line="415" tag="G">  1SG-PRES-have+big+eyes.1SG QUES</item>
+      <item id="c4" alignment="r4" line="416" tag="T">  'Do I have big eyes?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="413" tag="M">f</item>
+      <item id="n2" alignment="c2" line="414" tag="L">N-doo-mmaangshkiinzhgwed na</item>
+      <item id="n3" alignment="c3" line="415" tag="G">1SG-PRES-have+big+eyes.1SG QUES</item>
+      <item id="n4" alignment="c4" line="416" tag="T">Do I have big eyes?</item>
+    </tier>
+  </igt>
+  <igt id="igt95" doc-id="lgcol:ojb" line-range="421-423" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="421" tag="M">  author vetted: f</item>
+      <item id="r2" line="422" tag="L">  Maaba na nishnaabe w-doo-moonhashkiwed</item>
+      <item id="r3" line="423" tag="G">  this.3.SG QUES Indian 3-PRES-weed</item>
+      <item id="r4" line="424" tag="T">  'Is it this Indian who is weeding?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="421" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="422" tag="L">  Maaba na nishnaabe w-doo-moonhashkiwed</item>
+      <item id="c3" alignment="r3" line="423" tag="G">  this.3.SG QUES Indian 3-PRES-weed</item>
+      <item id="c4" alignment="r4" line="424" tag="T">  'Is it this Indian who is weeding?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="421" tag="M">f</item>
+      <item id="n2" alignment="c2" line="422" tag="L">Maaba na nishnaabe w-doo-moonhashkiwed</item>
+      <item id="n3" alignment="c3" line="423" tag="G">this.3.SG QUES Indian 3-PRES-weed</item>
+      <item id="n4" alignment="c4" line="424" tag="T">Is it this Indian who is weeding?</item>
+    </tier>
+  </igt>
+  <igt id="igt96" doc-id="lgcol:ojb" line-range="429-431" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="429" tag="M">  author vetted: f</item>
+      <item id="r2" line="430" tag="L">  W-doo-moonhashkiwed na maaba nishnaabe</item>
+      <item id="r3" line="431" tag="G">  3-PRES-weed QUES this.3.SG Indian</item>
+      <item id="r4" line="432" tag="T">  'Is it weeding that this Indian is doing?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="429" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="430" tag="L">  W-doo-moonhashkiwed na maaba nishnaabe</item>
+      <item id="c3" alignment="r3" line="431" tag="G">  3-PRES-weed QUES this.3.SG Indian</item>
+      <item id="c4" alignment="r4" line="432" tag="T">  'Is it weeding that this Indian is doing?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="429" tag="M">f</item>
+      <item id="n2" alignment="c2" line="430" tag="L">W-doo-moonhashkiwed na maaba nishnaabe</item>
+      <item id="n3" alignment="c3" line="431" tag="G">3-PRES-weed QUES this.3.SG Indian</item>
+      <item id="n4" alignment="c4" line="432" tag="T">Is it weeding that this Indian is doing?</item>
+    </tier>
+  </igt>
+  <igt id="igt97" doc-id="lgcol:ojb" line-range="473-475" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="473" tag="M">  author (cf. 18.7/933) vetted: f</item>
+      <item id="r2" line="474" tag="L">  Zhiishiib-an w-doo-mnopwaad-igw-waa-an giw gaag-og</item>
+      <item id="r3" line="475" tag="G">  duck-3.OBV 3-PRES-like.the.taste.of-DIR.THM-PL.AC-3.OBV.GL 3.ANIM.PL.those porcupine-PL</item>
+      <item id="r4" line="476" tag="T">  "Porcupines like to eat ducks"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="473" tag="M">  author (cf. 18.7/933) vetted: f</item>
+      <item id="c2" alignment="r2" line="474" tag="L">  Zhiishiib-an w-doo-mnopwaad-igw-waa-an giw gaag-og</item>
+      <item id="c3" alignment="r3" line="475" tag="G">  duck-3.OBV 3-PRES-like.the.taste.of-DIR.THM-PL.AC-3.OBV.GL 3.ANIM.PL.those porcupine-PL</item>
+      <item id="c4" alignment="r4" line="476" tag="T">  "Porcupines like to eat ducks"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="473" tag="M">author (cf. 18.7/933) vetted: f</item>
+      <item id="n2" alignment="c2" line="474" tag="L">Zhiishiib-an w-doo-mnopwaad-igw-waa-an giw gaag-og</item>
+      <item id="n3" alignment="c3" line="475" tag="G">duck-3.OBV 3-PRES-like.the.taste.of-DIR.THM-PL.AC-3.OBV.GL 3.ANIM.PL.those porcupine-PL</item>
+      <item id="n4" alignment="c4" line="476" tag="T">Porcupines like to eat ducks</item>
+    </tier>
+  </igt>
+</xigt-corpus>

@@ -1,0 +1,101 @@
+
+Notes
+-------------------------------------------------------
+
+  In the customization system, we chose monosyndeton; then we said
+  that there is a word mark of coordination that appears before its
+  coordinand and coordinates nouns, noun phrases, verb phrases, and
+  sentences. We did this three times, for "ha", "pe", and "na" (and,
+  or, nor).
+
+The customzation system has given you a grammar where these
+all mean "and".  You need to edit the tdl to make "pe" introduce
+_or_coord_rel, and the rules that go with "pe" to do the same.  I think
+"nor" is probably a negative polarity item, and therefore outside the scope.
+
+  In the customization system, we said that there is a
+  sentence-initial particle "ha" that is used in forming a
+  question. Obviously, this does not capture all the above data; there
+  was no way in the customization to specify more than one
+  particle. As it stands, our grammar will not recognize the correct
+  negative question, and it will accept the incorrect example where a
+  negative is preceded only by "ha" to form a question. We will fix
+  this when we start editing the tdl files.
+
+You can add the other particle in tdl like this:
+
+daoust-ha := qpart-lex-item &
+  [ STEM < "daoust-ha" > ].
+
+... or if you want to change the spelling to leave the white space,
+you should even be able to do this:
+
+daoust-ha := qpart-lex-item &
+  [ STEM < "daoust", "ha" > ].
+
+  It is also worth noting that Breton prefers to use a noun as an
+  adjective rather than a derived adjective form. We have one sentence
+  in our test suite with this usage.
+
+I'm not sure what you mean here.  Are you talking about a particular
+class of nouns/adjectives, or more generally? 
+
+  All adjectives but one have a single stem for both plural and
+  singular. We aren't covering the one ("kaezh/keizh", _poor_) that
+  does, since it is a unique case. However, number, as well as gender,
+  agrees with the noun by causing a mutation of the initial consonant
+  of the adjective (but only when the adjective follows the noun.)
+  Specifically, feminine singular and masculine human plural nouns
+  cause the soft mutation on the adjective. In our transliteration, we
+  are removing mutations, because they are very extensive and there
+  are lots of exceptions, and generally it is a morphophonological
+  process, although there are a few cases when it has a syntactic
+  purpose, as here with the adjectives.  Instead of showing the
+  mutation in our transliteration, we are adding a suffix, attached to
+  the adjective with a hyphen, that reflects number and gender. In the
+  cases where the human status of the noun is shown in the adjective
+  mutation, we are adding that as a suffix as well. (This only shows
+  up in masculine plural forms.) It wasn't in the Liepzig rules, but
+  we are using "HUM" for it.
+
+If the mutation is at the start of the word, it might make more
+sense to model it as a prefix :)  
+
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ra ar belegoù ul levr liorzh.
+Klaskiñ a-gr ar belegoù ul levr liorzh
+Klask-iñ a-gr ar beleg-où ul levr liorzh
+seek-INF PRT-do.3SG.PRS the priest-PL a book garden
+'The priests are seeking a book about gardens.'
+
+Is this a compound noun structure?  (Note that the English translation
+doesn't use an adjective either!)   This class of examples probably isn't
+relevant for the space of phenomena we'll be exploring.
+
+  Adverbs of manner can appear before or after a verb they
+  modify. Adjectives in this location can also be used as
+  adverbs. When adjectives are used as adverbs, they can be preceded
+  by the particle "e/ez" but it does not seem to be necessary.
+
+The two examples you give show the adverb attaching to the left
+or to the right of the *sentence*, which is different than attaching
+to the left or to the right of the *verb*.
+
+  I had a lot of trouble finding information about these types of
+  embedded clauses, because none of the grammars mentioned this type
+  of verb specifically.  Therefore, all the data I have is examples of
+  correct usage, both from the sources and the web, which makes it
+  difficult to come up with ungrammatical examples.
+
+I think it's fantastic that you're finding data from the web.  How are
+you doing this?  
+
+How about examples of non-verbal predicates that lack the
+copula (as ungrammatical examples)?
+
+What happens for PP predicates (He is in the park)?
+
+

@@ -1,0 +1,3330 @@
+<xigt-corpus xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <igt id="igt1" doc-id="lgcol:vie" line-range="1-3" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="1" tag="M">  author vetted: f</item>
+      <item id="r2" line="2" tag="L">  Tôi ngủ.</item>
+      <item id="r3" line="3" tag="G">  1SG sleep</item>
+      <item id="r4" line="4" tag="T">  I sleep</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="1" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="2" tag="L">  Tôi ngủ.</item>
+      <item id="c3" alignment="r3" line="3" tag="G">  1SG sleep</item>
+      <item id="c4" alignment="r4" line="4" tag="T">  I sleep</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="1" tag="M">f</item>
+      <item id="n2" alignment="c2" line="2" tag="L">Tôi ngủ.</item>
+      <item id="n3" alignment="c3" line="3" tag="G">1SG sleep</item>
+      <item id="n4" alignment="c4" line="4" tag="T">I sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt2" doc-id="lgcol:vie" line-range="9-11" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="9" tag="M">  author vetted: f</item>
+      <item id="r2" line="10" tag="L">  Tôi thích nó.</item>
+      <item id="r3" line="11" tag="G">  1SG like 3SG</item>
+      <item id="r4" line="12" tag="T">  I like him/her/it.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="9" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="10" tag="L">  Tôi thích nó.</item>
+      <item id="c3" alignment="r3" line="11" tag="G">  1SG like 3SG</item>
+      <item id="c4" alignment="r4" line="12" tag="T">  I like him/her/it.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="9" tag="M">f</item>
+      <item id="n2" alignment="c2" line="10" tag="L">Tôi thích nó.</item>
+      <item id="n3" alignment="c3" line="11" tag="G">1SG like 3SG</item>
+      <item id="n4" alignment="c4" line="12" tag="T">I like him/her/it.</item>
+    </tier>
+  </igt>
+  <igt id="igt3" doc-id="lgcol:vie" line-range="13-15" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="13" tag="M">  author vetted: f</item>
+      <item id="r2" line="14" tag="L">  Nó thích tôi.</item>
+      <item id="r3" line="15" tag="G">  3SG like 1SG</item>
+      <item id="r4" line="16" tag="T">  He/she/it likes me</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="13" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="14" tag="L">  Nó thích tôi.</item>
+      <item id="c3" alignment="r3" line="15" tag="G">  3SG like 1SG</item>
+      <item id="c4" alignment="r4" line="16" tag="T">  He/she/it likes me</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="13" tag="M">f</item>
+      <item id="n2" alignment="c2" line="14" tag="L">Nó thích tôi.</item>
+      <item id="n3" alignment="c3" line="15" tag="G">3SG like 1SG</item>
+      <item id="n4" alignment="c4" line="16" tag="T">He/she/it likes me</item>
+    </tier>
+  </igt>
+  <igt id="igt4" doc-id="lgcol:vie" line-range="17-19" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="17" tag="M">  author vetted: f</item>
+      <item id="r2" line="18" tag="L">  Tôi thích mày.</item>
+      <item id="r3" line="19" tag="G">  1SG like 2SG</item>
+      <item id="r4" line="20" tag="T">  I like you.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="17" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="18" tag="L">  Tôi thích mày.</item>
+      <item id="c3" alignment="r3" line="19" tag="G">  1SG like 2SG</item>
+      <item id="c4" alignment="r4" line="20" tag="T">  I like you.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="17" tag="M">f</item>
+      <item id="n2" alignment="c2" line="18" tag="L">Tôi thích mày.</item>
+      <item id="n3" alignment="c3" line="19" tag="G">1SG like 2SG</item>
+      <item id="n4" alignment="c4" line="20" tag="T">I like you.</item>
+    </tier>
+  </igt>
+  <igt id="igt5" doc-id="lgcol:vie" line-range="41-43" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="41" tag="M">  author vetted: f</item>
+      <item id="r2" line="42" tag="L">  Chúng-nó thích mày</item>
+      <item id="r3" line="43" tag="G">  PL-3 like 2SG</item>
+      <item id="r4" line="44" tag="T">  They like you</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="41" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="42" tag="L">  Chúng-nó thích mày</item>
+      <item id="c3" alignment="r3" line="43" tag="G">  PL-3 like 2SG</item>
+      <item id="c4" alignment="r4" line="44" tag="T">  They like you</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="41" tag="M">f</item>
+      <item id="n2" alignment="c2" line="42" tag="L">Chúng-nó thích mày</item>
+      <item id="n3" alignment="c3" line="43" tag="G">PL-3 like 2SG</item>
+      <item id="n4" alignment="c4" line="44" tag="T">They like you</item>
+    </tier>
+  </igt>
+  <igt id="igt6" doc-id="lgcol:vie" line-range="45-47" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="45" tag="M">  author vetted: f</item>
+      <item id="r2" line="46" tag="L">  Chúng-nó thích Chúng-mày</item>
+      <item id="r3" line="47" tag="G">  PL-3 like PL-2</item>
+      <item id="r4" line="48" tag="T">  They like you guys</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="45" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="46" tag="L">  Chúng-nó thích Chúng-mày</item>
+      <item id="c3" alignment="r3" line="47" tag="G">  PL-3 like PL-2</item>
+      <item id="c4" alignment="r4" line="48" tag="T">  They like you guys</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="45" tag="M">f</item>
+      <item id="n2" alignment="c2" line="46" tag="L">Chúng-nó thích Chúng-mày</item>
+      <item id="n3" alignment="c3" line="47" tag="G">PL-3 like PL-2</item>
+      <item id="n4" alignment="c4" line="48" tag="T">They like you guys</item>
+    </tier>
+  </igt>
+  <igt id="igt7" doc-id="lgcol:vie" line-range="49-51" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="49" tag="M">  author vetted: f</item>
+      <item id="r2" line="50" tag="L">  Chúng-tôi thích nó</item>
+      <item id="r3" line="51" tag="G">  PL-1.EXCL like 3SG</item>
+      <item id="r4" line="52" tag="T">  We (exclusive) like him/her/it.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="49" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="50" tag="L">  Chúng-tôi thích nó</item>
+      <item id="c3" alignment="r3" line="51" tag="G">  PL-1.EXCL like 3SG</item>
+      <item id="c4" alignment="r4" line="52" tag="T">  We (exclusive) like him/her/it.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="49" tag="M">f</item>
+      <item id="n2" alignment="c2" line="50" tag="L">Chúng-tôi thích nó</item>
+      <item id="n3" alignment="c3" line="51" tag="G">PL-1.EXCL like 3SG</item>
+      <item id="n4" alignment="c4" line="52" tag="T">We (exclusive) like him/her/it.</item>
+    </tier>
+  </igt>
+  <igt id="igt8" doc-id="lgcol:vie" line-range="53-55" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="53" tag="M">  author vetted: f</item>
+      <item id="r2" line="54" tag="L">  Chúng-ta thích nó</item>
+      <item id="r3" line="55" tag="G">  PL-1.INCL like 3SG</item>
+      <item id="r4" line="56" tag="T">  We (inclusive) like him/her/it.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="53" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="54" tag="L">  Chúng-ta thích nó</item>
+      <item id="c3" alignment="r3" line="55" tag="G">  PL-1.INCL like 3SG</item>
+      <item id="c4" alignment="r4" line="56" tag="T">  We (inclusive) like him/her/it.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="53" tag="M">f</item>
+      <item id="n2" alignment="c2" line="54" tag="L">Chúng-ta thích nó</item>
+      <item id="n3" alignment="c3" line="55" tag="G">PL-1.INCL like 3SG</item>
+      <item id="n4" alignment="c4" line="56" tag="T">We (inclusive) like him/her/it.</item>
+    </tier>
+  </igt>
+  <igt id="igt9" doc-id="lgcol:vie" line-range="57-59" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="57" tag="M">  author vetted: f</item>
+      <item id="r2" line="58" tag="L">  Y ngủ</item>
+      <item id="r3" line="59" tag="G">  3SG.abs sleep</item>
+      <item id="r4" line="60" tag="T">  He/she/it sleeps</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="57" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="58" tag="L">  Y ngủ</item>
+      <item id="c3" alignment="r3" line="59" tag="G">  3SG.abs sleep</item>
+      <item id="c4" alignment="r4" line="60" tag="T">  He/she/it sleeps</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="57" tag="M">f</item>
+      <item id="n2" alignment="c2" line="58" tag="L">Y ngủ</item>
+      <item id="n3" alignment="c3" line="59" tag="G">3SG.abs sleep</item>
+      <item id="n4" alignment="c4" line="60" tag="T">He/she/it sleeps</item>
+    </tier>
+  </igt>
+  <igt id="igt10" doc-id="lgcol:vie" line-range="61-63" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="61" tag="M">  author vetted: f</item>
+      <item id="r2" line="62" tag="L">  Min thích bậu</item>
+      <item id="r3" line="63" tag="G">  1SG.abs like 2SG.abs</item>
+      <item id="r4" line="64" tag="T">  I like you</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="61" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="62" tag="L">  Min thích bậu</item>
+      <item id="c3" alignment="r3" line="63" tag="G">  1SG.abs like 2SG.abs</item>
+      <item id="c4" alignment="r4" line="64" tag="T">  I like you</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="61" tag="M">f</item>
+      <item id="n2" alignment="c2" line="62" tag="L">Min thích bậu</item>
+      <item id="n3" alignment="c3" line="63" tag="G">1SG.abs like 2SG.abs</item>
+      <item id="n4" alignment="c4" line="64" tag="T">I like you</item>
+    </tier>
+  </igt>
+  <igt id="igt11" doc-id="lgcol:vie" line-range="77-79" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="77" tag="M">  author vetted: f</item>
+      <item id="r2" line="78" tag="L">  Tôi ăn phở</item>
+      <item id="r3" line="79" tag="G">  1SG eat noodle</item>
+      <item id="r4" line="80" tag="T">  I eat noodle soup</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="77" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="78" tag="L">  Tôi ăn phở</item>
+      <item id="c3" alignment="r3" line="79" tag="G">  1SG eat noodle</item>
+      <item id="c4" alignment="r4" line="80" tag="T">  I eat noodle soup</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="77" tag="M">f</item>
+      <item id="n2" alignment="c2" line="78" tag="L">Tôi ăn phở</item>
+      <item id="n3" alignment="c3" line="79" tag="G">1SG eat noodle</item>
+      <item id="n4" alignment="c4" line="80" tag="T">I eat noodle soup</item>
+    </tier>
+  </igt>
+  <igt id="igt12" doc-id="lgcol:vie" line-range="81-83" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="81" tag="M">  author vetted: f</item>
+      <item id="r2" line="82" tag="L">  Tôi ăn các phở</item>
+      <item id="r3" line="83" tag="G">  1SG eat ART.PL noodle</item>
+      <item id="r4" line="84" tag="T">  I ate all the noodle soup</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="81" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="82" tag="L">  Tôi ăn các phở</item>
+      <item id="c3" alignment="r3" line="83" tag="G">  1SG eat ART.PL noodle</item>
+      <item id="c4" alignment="r4" line="84" tag="T">  I ate all the noodle soup</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="81" tag="M">f</item>
+      <item id="n2" alignment="c2" line="82" tag="L">Tôi ăn các phở</item>
+      <item id="n3" alignment="c3" line="83" tag="G">1SG eat ART.PL noodle</item>
+      <item id="n4" alignment="c4" line="84" tag="T">I ate all the noodle soup</item>
+    </tier>
+  </igt>
+  <igt id="igt13" doc-id="lgcol:vie" line-range="85-87" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="85" tag="M">  author vetted: f</item>
+      <item id="r2" line="86" tag="L">  tôi cần ngủ</item>
+      <item id="r3" line="87" tag="G">  1SG need sleep</item>
+      <item id="r4" line="88" tag="T">  "I need to sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="85" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="86" tag="L">  tôi cần ngủ</item>
+      <item id="c3" alignment="r3" line="87" tag="G">  1SG need sleep</item>
+      <item id="c4" alignment="r4" line="88" tag="T">  "I need to sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="85" tag="M">f</item>
+      <item id="n2" alignment="c2" line="86" tag="L">tôi cần ngủ</item>
+      <item id="n3" alignment="c3" line="87" tag="G">1SG need sleep</item>
+      <item id="n4" alignment="c4" line="88" tag="T">I need to sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt14" doc-id="lgcol:vie" line-range="97-99" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="97" tag="M">  author vetted: f</item>
+      <item id="r2" line="98" tag="L">  tôi cần phải ngủ</item>
+      <item id="r3" line="99" tag="G">  1SG need should sleep</item>
+      <item id="r4" line="100" tag="T">  "I must sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="97" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="98" tag="L">  tôi cần phải ngủ</item>
+      <item id="c3" alignment="r3" line="99" tag="G">  1SG need should sleep</item>
+      <item id="c4" alignment="r4" line="100" tag="T">  "I must sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="97" tag="M">f</item>
+      <item id="n2" alignment="c2" line="98" tag="L">tôi cần phải ngủ</item>
+      <item id="n3" alignment="c3" line="99" tag="G">1SG need should sleep</item>
+      <item id="n4" alignment="c4" line="100" tag="T">I must sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt15" doc-id="lgcol:vie" line-range="105-107" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="105" tag="M">  author vetted: f</item>
+      <item id="r2" line="106" tag="L">  tôi muốn ngủ</item>
+      <item id="r3" line="107" tag="G">  1SG want sleep</item>
+      <item id="r4" line="108" tag="T">  "I want to sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="105" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="106" tag="L">  tôi muốn ngủ</item>
+      <item id="c3" alignment="r3" line="107" tag="G">  1SG want sleep</item>
+      <item id="c4" alignment="r4" line="108" tag="T">  "I want to sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="105" tag="M">f</item>
+      <item id="n2" alignment="c2" line="106" tag="L">tôi muốn ngủ</item>
+      <item id="n3" alignment="c3" line="107" tag="G">1SG want sleep</item>
+      <item id="n4" alignment="c4" line="108" tag="T">I want to sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt16" doc-id="lgcol:vie" line-range="109-111" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="109" tag="M">  author vetted: f</item>
+      <item id="r2" line="110" tag="L">  tôi phải ngủ</item>
+      <item id="r3" line="111" tag="G">  1SG should sleep</item>
+      <item id="r4" line="112" tag="T">  "I should sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="109" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="110" tag="L">  tôi phải ngủ</item>
+      <item id="c3" alignment="r3" line="111" tag="G">  1SG should sleep</item>
+      <item id="c4" alignment="r4" line="112" tag="T">  "I should sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="109" tag="M">f</item>
+      <item id="n2" alignment="c2" line="110" tag="L">tôi phải ngủ</item>
+      <item id="n3" alignment="c3" line="111" tag="G">1SG should sleep</item>
+      <item id="n4" alignment="c4" line="112" tag="T">I should sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt17" doc-id="lgcol:vie" line-range="133-135" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="133" tag="M">  author vetted: f</item>
+      <item id="r2" line="134" tag="L">  tôi đã ngủ</item>
+      <item id="r3" line="135" tag="G">  1SG PST sleep</item>
+      <item id="r4" line="136" tag="T">  "I slept"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="133" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="134" tag="L">  tôi đã ngủ</item>
+      <item id="c3" alignment="r3" line="135" tag="G">  1SG PST sleep</item>
+      <item id="c4" alignment="r4" line="136" tag="T">  "I slept"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="133" tag="M">f</item>
+      <item id="n2" alignment="c2" line="134" tag="L">tôi đã ngủ</item>
+      <item id="n3" alignment="c3" line="135" tag="G">1SG PST sleep</item>
+      <item id="n4" alignment="c4" line="136" tag="T">I slept</item>
+    </tier>
+  </igt>
+  <igt id="igt18" doc-id="lgcol:vie" line-range="137-139" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="137" tag="M">  author vetted: f</item>
+      <item id="r2" line="138" tag="L">  tôi mới ngủ</item>
+      <item id="r3" line="139" tag="G">  1SG NEARPST sleep</item>
+      <item id="r4" line="140" tag="T">  "I slept (recently)"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="137" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="138" tag="L">  tôi mới ngủ</item>
+      <item id="c3" alignment="r3" line="139" tag="G">  1SG NEARPST sleep</item>
+      <item id="c4" alignment="r4" line="140" tag="T">  "I slept (recently)"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="137" tag="M">f</item>
+      <item id="n2" alignment="c2" line="138" tag="L">tôi mới ngủ</item>
+      <item id="n3" alignment="c3" line="139" tag="G">1SG NEARPST sleep</item>
+      <item id="n4" alignment="c4" line="140" tag="T">I slept (recently)</item>
+    </tier>
+  </igt>
+  <igt id="igt19" doc-id="lgcol:vie" line-range="141-143" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="141" tag="M">  author vetted: f</item>
+      <item id="r2" line="142" tag="L">  tôi sẽ ngủ</item>
+      <item id="r3" line="143" tag="G">  1SG FUT sleep</item>
+      <item id="r4" line="144" tag="T">  "I will sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="141" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="142" tag="L">  tôi sẽ ngủ</item>
+      <item id="c3" alignment="r3" line="143" tag="G">  1SG FUT sleep</item>
+      <item id="c4" alignment="r4" line="144" tag="T">  "I will sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="141" tag="M">f</item>
+      <item id="n2" alignment="c2" line="142" tag="L">tôi sẽ ngủ</item>
+      <item id="n3" alignment="c3" line="143" tag="G">1SG FUT sleep</item>
+      <item id="n4" alignment="c4" line="144" tag="T">I will sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt20" doc-id="lgcol:vie" line-range="145-147" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="145" tag="M">  author vetted: f</item>
+      <item id="r2" line="146" tag="L">  tôi sắp ngủ</item>
+      <item id="r3" line="147" tag="G">  1SG NEARFUT sleep</item>
+      <item id="r4" line="148" tag="T">  "I will sleep (in the near future)"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="145" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="146" tag="L">  tôi sắp ngủ</item>
+      <item id="c3" alignment="r3" line="147" tag="G">  1SG NEARFUT sleep</item>
+      <item id="c4" alignment="r4" line="148" tag="T">  "I will sleep (in the near future)"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="145" tag="M">f</item>
+      <item id="n2" alignment="c2" line="146" tag="L">tôi sắp ngủ</item>
+      <item id="n3" alignment="c3" line="147" tag="G">1SG NEARFUT sleep</item>
+      <item id="n4" alignment="c4" line="148" tag="T">I will sleep (in the near future)</item>
+    </tier>
+  </igt>
+  <igt id="igt21" doc-id="lgcol:vie" line-range="157-159" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="157" tag="M">  author vetted: f</item>
+      <item id="r2" line="158" tag="L">  tôi đã phải ngủ</item>
+      <item id="r3" line="159" tag="G">  1SG PST should sleep</item>
+      <item id="r4" line="160" tag="T">  "I should have slept"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="157" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="158" tag="L">  tôi đã phải ngủ</item>
+      <item id="c3" alignment="r3" line="159" tag="G">  1SG PST should sleep</item>
+      <item id="c4" alignment="r4" line="160" tag="T">  "I should have slept"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="157" tag="M">f</item>
+      <item id="n2" alignment="c2" line="158" tag="L">tôi đã phải ngủ</item>
+      <item id="n3" alignment="c3" line="159" tag="G">1SG PST should sleep</item>
+      <item id="n4" alignment="c4" line="160" tag="T">I should have slept</item>
+    </tier>
+  </igt>
+  <igt id="igt22" doc-id="lgcol:vie" line-range="173-175" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="173" tag="M">  author vetted: f</item>
+      <item id="r2" line="174" tag="L">  tôi đang ngủ</item>
+      <item id="r3" line="175" tag="G">  1SG PROG sleep</item>
+      <item id="r4" line="176" tag="T">  "I am sleeping"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="173" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="174" tag="L">  tôi đang ngủ</item>
+      <item id="c3" alignment="r3" line="175" tag="G">  1SG PROG sleep</item>
+      <item id="c4" alignment="r4" line="176" tag="T">  "I am sleeping"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="173" tag="M">f</item>
+      <item id="n2" alignment="c2" line="174" tag="L">tôi đang ngủ</item>
+      <item id="n3" alignment="c3" line="175" tag="G">1SG PROG sleep</item>
+      <item id="n4" alignment="c4" line="176" tag="T">I am sleeping</item>
+    </tier>
+  </igt>
+  <igt id="igt23" doc-id="lgcol:vie" line-range="177-179" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="177" tag="M">  author vetted: f</item>
+      <item id="r2" line="178" tag="L">  tôi đang đã ngủ</item>
+      <item id="r3" line="179" tag="G">  1SG PROG PST sleep</item>
+      <item id="r4" line="180" tag="T">  "I was sleeping"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="177" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="178" tag="L">  tôi đang đã ngủ</item>
+      <item id="c3" alignment="r3" line="179" tag="G">  1SG PROG PST sleep</item>
+      <item id="c4" alignment="r4" line="180" tag="T">  "I was sleeping"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="177" tag="M">f</item>
+      <item id="n2" alignment="c2" line="178" tag="L">tôi đang đã ngủ</item>
+      <item id="n3" alignment="c3" line="179" tag="G">1SG PROG PST sleep</item>
+      <item id="n4" alignment="c4" line="180" tag="T">I was sleeping</item>
+    </tier>
+  </igt>
+  <igt id="igt24" doc-id="lgcol:vie" line-range="181-183" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="181" tag="M">  author vetted: f</item>
+      <item id="r2" line="182" tag="L">  tôi ngủ rồi</item>
+      <item id="r3" line="183" tag="G">  1SG sleep already</item>
+      <item id="r4" line="184" tag="T">  "I slept already"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="181" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="182" tag="L">  tôi ngủ rồi</item>
+      <item id="c3" alignment="r3" line="183" tag="G">  1SG sleep already</item>
+      <item id="c4" alignment="r4" line="184" tag="T">  "I slept already"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="181" tag="M">f</item>
+      <item id="n2" alignment="c2" line="182" tag="L">tôi ngủ rồi</item>
+      <item id="n3" alignment="c3" line="183" tag="G">1SG sleep already</item>
+      <item id="n4" alignment="c4" line="184" tag="T">I slept already</item>
+    </tier>
+  </igt>
+  <igt id="igt25" doc-id="lgcol:vie" line-range="185-187" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="185" tag="M">  author vetted: f</item>
+      <item id="r2" line="186" tag="L">  tôi không ngủ</item>
+      <item id="r3" line="187" tag="G">  1SG NEG sleep</item>
+      <item id="r4" line="188" tag="T">  "I don't sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="185" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="186" tag="L">  tôi không ngủ</item>
+      <item id="c3" alignment="r3" line="187" tag="G">  1SG NEG sleep</item>
+      <item id="c4" alignment="r4" line="188" tag="T">  "I don't sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="185" tag="M">f</item>
+      <item id="n2" alignment="c2" line="186" tag="L">tôi không ngủ</item>
+      <item id="n3" alignment="c3" line="187" tag="G">1SG NEG sleep</item>
+      <item id="n4" alignment="c4" line="188" tag="T">I don't sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt26" doc-id="lgcol:vie" line-range="189-191" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="189" tag="M">  author vetted: f</item>
+      <item id="r2" line="190" tag="L">  tôi không phải ngủ</item>
+      <item id="r3" line="191" tag="G">  1SG NEG should sleep</item>
+      <item id="r4" line="192" tag="T">  "I should not sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="189" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="190" tag="L">  tôi không phải ngủ</item>
+      <item id="c3" alignment="r3" line="191" tag="G">  1SG NEG should sleep</item>
+      <item id="c4" alignment="r4" line="192" tag="T">  "I should not sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="189" tag="M">f</item>
+      <item id="n2" alignment="c2" line="190" tag="L">tôi không phải ngủ</item>
+      <item id="n3" alignment="c3" line="191" tag="G">1SG NEG should sleep</item>
+      <item id="n4" alignment="c4" line="192" tag="T">I should not sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt27" doc-id="lgcol:vie" line-range="193-195" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="193" tag="M">  author vetted: f</item>
+      <item id="r2" line="194" tag="L">  tôi phải không ngủ</item>
+      <item id="r3" line="195" tag="G">  1SG should NEG sleep</item>
+      <item id="r4" line="196" tag="T">  "I should not sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="193" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="194" tag="L">  tôi phải không ngủ</item>
+      <item id="c3" alignment="r3" line="195" tag="G">  1SG should NEG sleep</item>
+      <item id="c4" alignment="r4" line="196" tag="T">  "I should not sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="193" tag="M">f</item>
+      <item id="n2" alignment="c2" line="194" tag="L">tôi phải không ngủ</item>
+      <item id="n3" alignment="c3" line="195" tag="G">1SG should NEG sleep</item>
+      <item id="n4" alignment="c4" line="196" tag="T">I should not sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt28" doc-id="lgcol:vie" line-range="197-199" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="197" tag="M">  author vetted: f</item>
+      <item id="r2" line="198" tag="L">  tôi đã phải không ngủ</item>
+      <item id="r3" line="199" tag="G">  1SG PST should NEG sleep</item>
+      <item id="r4" line="200" tag="T">  "I should not have slept"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="197" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="198" tag="L">  tôi đã phải không ngủ</item>
+      <item id="c3" alignment="r3" line="199" tag="G">  1SG PST should NEG sleep</item>
+      <item id="c4" alignment="r4" line="200" tag="T">  "I should not have slept"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="197" tag="M">f</item>
+      <item id="n2" alignment="c2" line="198" tag="L">tôi đã phải không ngủ</item>
+      <item id="n3" alignment="c3" line="199" tag="G">1SG PST should NEG sleep</item>
+      <item id="n4" alignment="c4" line="200" tag="T">I should not have slept</item>
+    </tier>
+  </igt>
+  <igt id="igt29" doc-id="lgcol:vie" line-range="221-223" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="221" tag="M">  author vetted: f</item>
+      <item id="r2" line="222" tag="L">  tôi đã không ngủ</item>
+      <item id="r3" line="223" tag="G">  1SG PST NEG sleep</item>
+      <item id="r4" line="224" tag="T">  "I did not sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="221" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="222" tag="L">  tôi đã không ngủ</item>
+      <item id="c3" alignment="r3" line="223" tag="G">  1SG PST NEG sleep</item>
+      <item id="c4" alignment="r4" line="224" tag="T">  "I did not sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="221" tag="M">f</item>
+      <item id="n2" alignment="c2" line="222" tag="L">tôi đã không ngủ</item>
+      <item id="n3" alignment="c3" line="223" tag="G">1SG PST NEG sleep</item>
+      <item id="n4" alignment="c4" line="224" tag="T">I did not sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt30" doc-id="lgcol:vie" line-range="225-227" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="225" tag="M">  author vetted: f</item>
+      <item id="r2" line="226" tag="L">  tôi đã không phải ngủ</item>
+      <item id="r3" line="227" tag="G">  1SG PST NEG should sleep</item>
+      <item id="r4" line="228" tag="T">  "I should not have slept"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="225" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="226" tag="L">  tôi đã không phải ngủ</item>
+      <item id="c3" alignment="r3" line="227" tag="G">  1SG PST NEG should sleep</item>
+      <item id="c4" alignment="r4" line="228" tag="T">  "I should not have slept"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="225" tag="M">f</item>
+      <item id="n2" alignment="c2" line="226" tag="L">tôi đã không phải ngủ</item>
+      <item id="n3" alignment="c3" line="227" tag="G">1SG PST NEG should sleep</item>
+      <item id="n4" alignment="c4" line="228" tag="T">I should not have slept</item>
+    </tier>
+  </igt>
+  <igt id="igt31" doc-id="lgcol:vie" line-range="237-239" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="237" tag="M">  author vetted: f</item>
+      <item id="r2" line="238" tag="L">  tôi thích nhà</item>
+      <item id="r3" line="239" tag="G">  1SG like house</item>
+      <item id="r4" line="240" tag="T">  "I like the house"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="237" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="238" tag="L">  tôi thích nhà</item>
+      <item id="c3" alignment="r3" line="239" tag="G">  1SG like house</item>
+      <item id="c4" alignment="r4" line="240" tag="T">  "I like the house"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="237" tag="M">f</item>
+      <item id="n2" alignment="c2" line="238" tag="L">tôi thích nhà</item>
+      <item id="n3" alignment="c3" line="239" tag="G">1SG like house</item>
+      <item id="n4" alignment="c4" line="240" tag="T">I like the house</item>
+    </tier>
+  </igt>
+  <igt id="igt32" doc-id="lgcol:vie" line-range="241-243" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="241" tag="M">  author vetted: f</item>
+      <item id="r2" line="242" tag="L">  tôi thích căn nhà này</item>
+      <item id="r3" line="243" tag="G">  1SG like CLF.house house DEM.PROX</item>
+      <item id="r4" line="244" tag="T">  "I like this house"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="241" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="242" tag="L">  tôi thích căn nhà này</item>
+      <item id="c3" alignment="r3" line="243" tag="G">  1SG like CLF.house house DEM.PROX</item>
+      <item id="c4" alignment="r4" line="244" tag="T">  "I like this house"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="241" tag="M">f</item>
+      <item id="n2" alignment="c2" line="242" tag="L">tôi thích căn nhà này</item>
+      <item id="n3" alignment="c3" line="243" tag="G">1SG like CLF.house house DEM.PROX</item>
+      <item id="n4" alignment="c4" line="244" tag="T">I like this house</item>
+    </tier>
+  </igt>
+  <igt id="igt33" doc-id="lgcol:vie" line-range="245-247" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="245" tag="M">  author vetted: f</item>
+      <item id="r2" line="246" tag="L">  tôi thích căn nhà nấy</item>
+      <item id="r3" line="247" tag="G">  1SG like CLF.house house DEM.MEDIAL</item>
+      <item id="r4" line="248" tag="T">  "I like that house"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="245" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="246" tag="L">  tôi thích căn nhà nấy</item>
+      <item id="c3" alignment="r3" line="247" tag="G">  1SG like CLF.house house DEM.MEDIAL</item>
+      <item id="c4" alignment="r4" line="248" tag="T">  "I like that house"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="245" tag="M">f</item>
+      <item id="n2" alignment="c2" line="246" tag="L">tôi thích căn nhà nấy</item>
+      <item id="n3" alignment="c3" line="247" tag="G">1SG like CLF.house house DEM.MEDIAL</item>
+      <item id="n4" alignment="c4" line="248" tag="T">I like that house</item>
+    </tier>
+  </igt>
+  <igt id="igt34" doc-id="lgcol:vie" line-range="249-251" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="249" tag="M">  author vetted: f</item>
+      <item id="r2" line="250" tag="L">  tôi thích căn nhà kia</item>
+      <item id="r3" line="251" tag="G">  1SG like CLF.house house DEM.DIST</item>
+      <item id="r4" line="252" tag="T">  "I like the house over there"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="249" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="250" tag="L">  tôi thích căn nhà kia</item>
+      <item id="c3" alignment="r3" line="251" tag="G">  1SG like CLF.house house DEM.DIST</item>
+      <item id="c4" alignment="r4" line="252" tag="T">  "I like the house over there"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="249" tag="M">f</item>
+      <item id="n2" alignment="c2" line="250" tag="L">tôi thích căn nhà kia</item>
+      <item id="n3" alignment="c3" line="251" tag="G">1SG like CLF.house house DEM.DIST</item>
+      <item id="n4" alignment="c4" line="252" tag="T">I like the house over there</item>
+    </tier>
+  </igt>
+  <igt id="igt35" doc-id="lgcol:vie" line-range="253-255" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="253" tag="M">  author vetted: f</item>
+      <item id="r2" line="254" tag="L">  tôi thích căn nhà nọ</item>
+      <item id="r3" line="255" tag="G">  1SG like CLF.house house DEM.DIST.other</item>
+      <item id="r4" line="256" tag="T">  I like another house</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="253" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="254" tag="L">  tôi thích căn nhà nọ</item>
+      <item id="c3" alignment="r3" line="255" tag="G">  1SG like CLF.house house DEM.DIST.other</item>
+      <item id="c4" alignment="r4" line="256" tag="T">  I like another house</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="253" tag="M">f</item>
+      <item id="n2" alignment="c2" line="254" tag="L">tôi thích căn nhà nọ</item>
+      <item id="n3" alignment="c3" line="255" tag="G">1SG like CLF.house house DEM.DIST.other</item>
+      <item id="n4" alignment="c4" line="256" tag="T">I like another house</item>
+    </tier>
+  </igt>
+  <igt id="igt36" doc-id="lgcol:vie" line-range="257-259" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="257" tag="M">  author vetted: f</item>
+      <item id="r2" line="258" tag="L">  mày thích căn nhà nào</item>
+      <item id="r3" line="259" tag="G">  2SG like CLF.house house DEM.INDEF</item>
+      <item id="r4" line="260" tag="T">  "Whichever house you like"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="257" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="258" tag="L">  mày thích căn nhà nào</item>
+      <item id="c3" alignment="r3" line="259" tag="G">  2SG like CLF.house house DEM.INDEF</item>
+      <item id="c4" alignment="r4" line="260" tag="T">  "Whichever house you like"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="257" tag="M">f</item>
+      <item id="n2" alignment="c2" line="258" tag="L">mày thích căn nhà nào</item>
+      <item id="n3" alignment="c3" line="259" tag="G">2SG like CLF.house house DEM.INDEF</item>
+      <item id="n4" alignment="c4" line="260" tag="T">Whichever house you like</item>
+    </tier>
+  </igt>
+  <igt id="igt37" doc-id="lgcol:vie" line-range="261-263" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="261" tag="M">  author vetted: f</item>
+      <item id="r2" line="262" tag="L">  ngủ</item>
+      <item id="r3" line="263" tag="G">  sleep</item>
+      <item id="r4" line="264" tag="T">  "(Subj) sleep(s)"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="261" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="262" tag="L">  ngủ</item>
+      <item id="c3" alignment="r3" line="263" tag="G">  sleep</item>
+      <item id="c4" alignment="r4" line="264" tag="T">  "(Subj) sleep(s)"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="261" tag="M">f</item>
+      <item id="n2" alignment="c2" line="262" tag="L">ngủ</item>
+      <item id="n3" alignment="c3" line="263" tag="G">sleep</item>
+      <item id="n4" alignment="c4" line="264" tag="T">Subj) sleep(s</item>
+    </tier>
+  </igt>
+  <igt id="igt38" doc-id="lgcol:vie" line-range="265-267" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="265" tag="M">  author vetted: f</item>
+      <item id="r2" line="266" tag="L">  ăn phở</item>
+      <item id="r3" line="267" tag="G">  eat noodles</item>
+      <item id="r4" line="268" tag="T">  "(Subj) eat(s) noodles"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="265" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="266" tag="L">  ăn phở</item>
+      <item id="c3" alignment="r3" line="267" tag="G">  eat noodles</item>
+      <item id="c4" alignment="r4" line="268" tag="T">  "(Subj) eat(s) noodles"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="265" tag="M">f</item>
+      <item id="n2" alignment="c2" line="266" tag="L">ăn phở</item>
+      <item id="n3" alignment="c3" line="267" tag="G">eat noodles</item>
+      <item id="n4" alignment="c4" line="268" tag="T">(Subj) eat(s) noodles</item>
+    </tier>
+  </igt>
+  <igt id="igt39" doc-id="lgcol:vie" line-range="269-271" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="269" tag="M">  author vetted: f</item>
+      <item id="r2" line="270" tag="L">  Tôi ăn</item>
+      <item id="r3" line="271" tag="G">  1SG eat</item>
+      <item id="r4" line="272" tag="T">  "I eat (food)"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="269" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="270" tag="L">  Tôi ăn</item>
+      <item id="c3" alignment="r3" line="271" tag="G">  1SG eat</item>
+      <item id="c4" alignment="r4" line="272" tag="T">  "I eat (food)"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="269" tag="M">f</item>
+      <item id="n2" alignment="c2" line="270" tag="L">Tôi ăn</item>
+      <item id="n3" alignment="c3" line="271" tag="G">1SG eat</item>
+      <item id="n4" alignment="c4" line="272" tag="T">I eat (food)</item>
+    </tier>
+  </igt>
+  <igt id="igt40" doc-id="lgcol:vie" line-range="273-275" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="273" tag="M">  author vetted: f</item>
+      <item id="r2" line="274" tag="L">  ăn</item>
+      <item id="r3" line="275" tag="G">  eat</item>
+      <item id="r4" line="276" tag="T">  "(Subj) eat(s) (food)"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="273" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="274" tag="L">  ăn</item>
+      <item id="c3" alignment="r3" line="275" tag="G">  eat</item>
+      <item id="c4" alignment="r4" line="276" tag="T">  "(Subj) eat(s) (food)"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="273" tag="M">f</item>
+      <item id="n2" alignment="c2" line="274" tag="L">ăn</item>
+      <item id="n3" alignment="c3" line="275" tag="G">eat</item>
+      <item id="n4" alignment="c4" line="276" tag="T">Subj) eat(s) (food</item>
+    </tier>
+  </igt>
+  <igt id="igt41" doc-id="lgcol:vie" line-range="281-283" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="281" tag="M">  author vetted: f</item>
+      <item id="r2" line="282" tag="L">  Mai có ngủ không ngủ</item>
+      <item id="r3" line="283" tag="G">  Mai be sleep NEG sleep</item>
+      <item id="r4" line="284" tag="T">  "Does Mai sleep (or not sleep)?"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="281" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="282" tag="L">  Mai có ngủ không ngủ</item>
+      <item id="c3" alignment="r3" line="283" tag="G">  Mai be sleep NEG sleep</item>
+      <item id="c4" alignment="r4" line="284" tag="T">  "Does Mai sleep (or not sleep)?"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="281" tag="M">f</item>
+      <item id="n2" alignment="c2" line="282" tag="L">Mai có ngủ không ngủ</item>
+      <item id="n3" alignment="c3" line="283" tag="G">Mai be sleep NEG sleep</item>
+      <item id="n4" alignment="c4" line="284" tag="T">Does Mai sleep (or not sleep)?</item>
+    </tier>
+  </igt>
+  <igt id="igt42" doc-id="lgcol:vie" line-range="285-287" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="285" tag="M">  author vetted: f</item>
+      <item id="r2" line="286" tag="L">  Mai có ngủ không</item>
+      <item id="r3" line="287" tag="G">  Mai be sleep NEG</item>
+      <item id="r4" line="288" tag="T">  "Does Mai sleep (or not)?"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="285" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="286" tag="L">  Mai có ngủ không</item>
+      <item id="c3" alignment="r3" line="287" tag="G">  Mai be sleep NEG</item>
+      <item id="c4" alignment="r4" line="288" tag="T">  "Does Mai sleep (or not)?"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="285" tag="M">f</item>
+      <item id="n2" alignment="c2" line="286" tag="L">Mai có ngủ không</item>
+      <item id="n3" alignment="c3" line="287" tag="G">Mai be sleep NEG</item>
+      <item id="n4" alignment="c4" line="288" tag="T">Does Mai sleep (or not)?</item>
+    </tier>
+  </igt>
+  <igt id="igt43" doc-id="lgcol:vie" line-range="289-291" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="289" tag="M">  author vetted: f</item>
+      <item id="r2" line="290" tag="L">  Mai có cao không</item>
+      <item id="r3" line="291" tag="G">  Mai be tall NEG</item>
+      <item id="r4" line="292" tag="T">  "Is Mai tall (or not)?"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="289" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="290" tag="L">  Mai có cao không</item>
+      <item id="c3" alignment="r3" line="291" tag="G">  Mai be tall NEG</item>
+      <item id="c4" alignment="r4" line="292" tag="T">  "Is Mai tall (or not)?"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="289" tag="M">f</item>
+      <item id="n2" alignment="c2" line="290" tag="L">Mai có cao không</item>
+      <item id="n3" alignment="c3" line="291" tag="G">Mai be tall NEG</item>
+      <item id="n4" alignment="c4" line="292" tag="T">Is Mai tall (or not)?</item>
+    </tier>
+  </igt>
+  <igt id="igt44" doc-id="lgcol:vie" line-range="293-295" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="293" tag="M">  author vetted: f</item>
+      <item id="r2" line="294" tag="L">  Mai ngủ không</item>
+      <item id="r3" line="295" tag="G">  Mai sleep NEG</item>
+      <item id="r4" line="296" tag="T">  "Does Mai sleep (or not)?"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="293" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="294" tag="L">  Mai ngủ không</item>
+      <item id="c3" alignment="r3" line="295" tag="G">  Mai sleep NEG</item>
+      <item id="c4" alignment="r4" line="296" tag="T">  "Does Mai sleep (or not)?"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="293" tag="M">f</item>
+      <item id="n2" alignment="c2" line="294" tag="L">Mai ngủ không</item>
+      <item id="n3" alignment="c3" line="295" tag="G">Mai sleep NEG</item>
+      <item id="n4" alignment="c4" line="296" tag="T">Does Mai sleep (or not)?</item>
+    </tier>
+  </igt>
+  <igt id="igt45" doc-id="lgcol:vie" line-range="317-319" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="317" tag="M">  author vetted: f</item>
+      <item id="r2" line="318" tag="L">  Mai ngủ chứ?</item>
+      <item id="r3" line="319" tag="G">  Mai sleep TAG.affirmation</item>
+      <item id="r4" line="320" tag="T">  "Mai sleeps, doesn't she?"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="317" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="318" tag="L">  Mai ngủ chứ?</item>
+      <item id="c3" alignment="r3" line="319" tag="G">  Mai sleep TAG.affirmation</item>
+      <item id="c4" alignment="r4" line="320" tag="T">  "Mai sleeps, doesn't she?"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="317" tag="M">f</item>
+      <item id="n2" alignment="c2" line="318" tag="L">Mai ngủ chứ?</item>
+      <item id="n3" alignment="c3" line="319" tag="G">Mai sleep TAG.affirmation</item>
+      <item id="n4" alignment="c4" line="320" tag="T">Mai sleeps, doesn't she?</item>
+    </tier>
+  </igt>
+  <igt id="igt46" doc-id="lgcol:vie" line-range="329-331" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="329" tag="M">  author vetted: f</item>
+      <item id="r2" line="330" tag="L">  Mai không ngủ chứ</item>
+      <item id="r3" line="331" tag="G">  Mai NEG sleep TAG.affirmation</item>
+      <item id="r4" line="332" tag="T">  "Does Mai not sleep?"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="329" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="330" tag="L">  Mai không ngủ chứ</item>
+      <item id="c3" alignment="r3" line="331" tag="G">  Mai NEG sleep TAG.affirmation</item>
+      <item id="c4" alignment="r4" line="332" tag="T">  "Does Mai not sleep?"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="329" tag="M">f</item>
+      <item id="n2" alignment="c2" line="330" tag="L">Mai không ngủ chứ</item>
+      <item id="n3" alignment="c3" line="331" tag="G">Mai NEG sleep TAG.affirmation</item>
+      <item id="n4" alignment="c4" line="332" tag="T">Does Mai not sleep?</item>
+    </tier>
+  </igt>
+  <igt id="igt47" doc-id="lgcol:vie" line-range="353-355" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="353" tag="M">  author vetted: f</item>
+      <item id="r2" line="354" tag="L">  tôi ăn phở và đọc sách</item>
+      <item id="r3" line="355" tag="G">  1SG eat noodles and read book</item>
+      <item id="r4" line="356" tag="T">  "I eat noodles and read books."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="353" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="354" tag="L">  tôi ăn phở và đọc sách</item>
+      <item id="c3" alignment="r3" line="355" tag="G">  1SG eat noodles and read book</item>
+      <item id="c4" alignment="r4" line="356" tag="T">  "I eat noodles and read books."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="353" tag="M">f</item>
+      <item id="n2" alignment="c2" line="354" tag="L">tôi ăn phở và đọc sách</item>
+      <item id="n3" alignment="c3" line="355" tag="G">1SG eat noodles and read book</item>
+      <item id="n4" alignment="c4" line="356" tag="T">I eat noodles and read books.</item>
+    </tier>
+  </igt>
+  <igt id="igt48" doc-id="lgcol:vie" line-range="357-359" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="357" tag="M">  author vetted: f</item>
+      <item id="r2" line="358" tag="L">  tôi ăn phở đọc sách</item>
+      <item id="r3" line="359" tag="G">  1SG eat noodles read book</item>
+      <item id="r4" line="360" tag="T">  "I eat noodles and read books."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="357" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="358" tag="L">  tôi ăn phở đọc sách</item>
+      <item id="c3" alignment="r3" line="359" tag="G">  1SG eat noodles read book</item>
+      <item id="c4" alignment="r4" line="360" tag="T">  "I eat noodles and read books."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="357" tag="M">f</item>
+      <item id="n2" alignment="c2" line="358" tag="L">tôi ăn phở đọc sách</item>
+      <item id="n3" alignment="c3" line="359" tag="G">1SG eat noodles read book</item>
+      <item id="n4" alignment="c4" line="360" tag="T">I eat noodles and read books.</item>
+    </tier>
+  </igt>
+  <igt id="igt49" doc-id="lgcol:vie" line-range="361-363" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="361" tag="M">  author vetted: f</item>
+      <item id="r2" line="362" tag="L">  tôi rửa mặt ăn phở và đọc sách</item>
+      <item id="r3" line="363" tag="G">  1SG wash face eat noodles and read book</item>
+      <item id="r4" line="364" tag="T">  "I wash my face, eat noodles, and read books."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="361" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="362" tag="L">  tôi rửa mặt ăn phở và đọc sách</item>
+      <item id="c3" alignment="r3" line="363" tag="G">  1SG wash face eat noodles and read book</item>
+      <item id="c4" alignment="r4" line="364" tag="T">  "I wash my face, eat noodles, and read books."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="361" tag="M">f</item>
+      <item id="n2" alignment="c2" line="362" tag="L">tôi rửa mặt ăn phở và đọc sách</item>
+      <item id="n3" alignment="c3" line="363" tag="G">1SG wash face eat noodles and read book</item>
+      <item id="n4" alignment="c4" line="364" tag="T">I wash my face, eat noodles, and read books.</item>
+    </tier>
+  </igt>
+  <igt id="igt50" doc-id="lgcol:vie" line-range="365-367" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="365" tag="M">  author vetted: f</item>
+      <item id="r2" line="366" tag="L">  tôi rửa mặt và ăn phở và đọc sách</item>
+      <item id="r3" line="367" tag="G">  1SG wash face and eat noodle and read book</item>
+      <item id="r4" line="368" tag="T">  "I wash my face, eat noodles, and read books."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="365" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="366" tag="L">  tôi rửa mặt và ăn phở và đọc sách</item>
+      <item id="c3" alignment="r3" line="367" tag="G">  1SG wash face and eat noodle and read book</item>
+      <item id="c4" alignment="r4" line="368" tag="T">  "I wash my face, eat noodles, and read books."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="365" tag="M">f</item>
+      <item id="n2" alignment="c2" line="366" tag="L">tôi rửa mặt và ăn phở và đọc sách</item>
+      <item id="n3" alignment="c3" line="367" tag="G">1SG wash face and eat noodle and read book</item>
+      <item id="n4" alignment="c4" line="368" tag="T">I wash my face, eat noodles, and read books.</item>
+    </tier>
+  </igt>
+  <igt id="igt51" doc-id="lgcol:vie" line-range="369-371" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="369" tag="M">  author vetted: f</item>
+      <item id="r2" line="370" tag="L">  tôi rửa mặt ăn phở đọc sách</item>
+      <item id="r3" line="371" tag="G">  1SG wash face eat noodles read book</item>
+      <item id="r4" line="372" tag="T">  "I wash my face, eat noodles, and read books."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="369" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="370" tag="L">  tôi rửa mặt ăn phở đọc sách</item>
+      <item id="c3" alignment="r3" line="371" tag="G">  1SG wash face eat noodles read book</item>
+      <item id="c4" alignment="r4" line="372" tag="T">  "I wash my face, eat noodles, and read books."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="369" tag="M">f</item>
+      <item id="n2" alignment="c2" line="370" tag="L">tôi rửa mặt ăn phở đọc sách</item>
+      <item id="n3" alignment="c3" line="371" tag="G">1SG wash face eat noodles read book</item>
+      <item id="n4" alignment="c4" line="372" tag="T">I wash my face, eat noodles, and read books.</item>
+    </tier>
+  </igt>
+  <igt id="igt52" doc-id="lgcol:vie" line-range="373-375" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="373" tag="M">  author vetted: f</item>
+      <item id="r2" line="374" tag="L">  tôi ăn phở và bánh#mì</item>
+      <item id="r3" line="375" tag="G">  1SG eat noodles and bread</item>
+      <item id="r4" line="376" tag="T">  "I eat noodles and bread"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="373" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="374" tag="L">  tôi ăn phở và bánh#mì</item>
+      <item id="c3" alignment="r3" line="375" tag="G">  1SG eat noodles and bread</item>
+      <item id="c4" alignment="r4" line="376" tag="T">  "I eat noodles and bread"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="373" tag="M">f</item>
+      <item id="n2" alignment="c2" line="374" tag="L">tôi ăn phở và bánh#mì</item>
+      <item id="n3" alignment="c3" line="375" tag="G">1SG eat noodles and bread</item>
+      <item id="n4" alignment="c4" line="376" tag="T">I eat noodles and bread</item>
+    </tier>
+  </igt>
+  <igt id="igt53" doc-id="lgcol:vie" line-range="377-379" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="377" tag="M">  author vetted: f</item>
+      <item id="r2" line="378" tag="L">  tôi ăn phở bánh#mì</item>
+      <item id="r3" line="379" tag="G">  1SG eat noodles bread</item>
+      <item id="r4" line="380" tag="T">  "I eat noodles and bread"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="377" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="378" tag="L">  tôi ăn phở bánh#mì</item>
+      <item id="c3" alignment="r3" line="379" tag="G">  1SG eat noodles bread</item>
+      <item id="c4" alignment="r4" line="380" tag="T">  "I eat noodles and bread"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="377" tag="M">f</item>
+      <item id="n2" alignment="c2" line="378" tag="L">tôi ăn phở bánh#mì</item>
+      <item id="n3" alignment="c3" line="379" tag="G">1SG eat noodles bread</item>
+      <item id="n4" alignment="c4" line="380" tag="T">I eat noodles and bread</item>
+    </tier>
+  </igt>
+  <igt id="igt54" doc-id="lgcol:vie" line-range="389-391" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="389" tag="M">  author vetted: f</item>
+      <item id="r2" line="390" tag="L">  Mai ngủ và tôi ăn phở</item>
+      <item id="r3" line="391" tag="G">  Mai sleep and 1SG eat noodles</item>
+      <item id="r4" line="392" tag="T">  "Mai sleeps, and I eat noodles"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="389" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="390" tag="L">  Mai ngủ và tôi ăn phở</item>
+      <item id="c3" alignment="r3" line="391" tag="G">  Mai sleep and 1SG eat noodles</item>
+      <item id="c4" alignment="r4" line="392" tag="T">  "Mai sleeps, and I eat noodles"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="389" tag="M">f</item>
+      <item id="n2" alignment="c2" line="390" tag="L">Mai ngủ và tôi ăn phở</item>
+      <item id="n3" alignment="c3" line="391" tag="G">Mai sleep and 1SG eat noodles</item>
+      <item id="n4" alignment="c4" line="392" tag="T">Mai sleeps, and I eat noodles</item>
+    </tier>
+  </igt>
+  <igt id="igt55" doc-id="lgcol:vie" line-range="393-395" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="393" tag="M">  author vetted: f</item>
+      <item id="r2" line="394" tag="L">  Mai ngủ tôi ăn phở</item>
+      <item id="r3" line="395" tag="G">  Mai sleep 1SG eat noodles</item>
+      <item id="r4" line="396" tag="T">  "Mai sleeps, and I eat noodles"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="393" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="394" tag="L">  Mai ngủ tôi ăn phở</item>
+      <item id="c3" alignment="r3" line="395" tag="G">  Mai sleep 1SG eat noodles</item>
+      <item id="c4" alignment="r4" line="396" tag="T">  "Mai sleeps, and I eat noodles"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="393" tag="M">f</item>
+      <item id="n2" alignment="c2" line="394" tag="L">Mai ngủ tôi ăn phở</item>
+      <item id="n3" alignment="c3" line="395" tag="G">Mai sleep 1SG eat noodles</item>
+      <item id="n4" alignment="c4" line="396" tag="T">Mai sleeps, and I eat noodles</item>
+    </tier>
+  </igt>
+  <igt id="igt56" doc-id="lgcol:vie" line-range="405-407" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="405" tag="M">  author vetted: f</item>
+      <item id="r2" line="406" tag="L">  tôi thích chó</item>
+      <item id="r3" line="407" tag="G">  1SG like dog</item>
+      <item id="r4" line="408" tag="T">  "I like dogs"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="405" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="406" tag="L">  tôi thích chó</item>
+      <item id="c3" alignment="r3" line="407" tag="G">  1SG like dog</item>
+      <item id="c4" alignment="r4" line="408" tag="T">  "I like dogs"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="405" tag="M">f</item>
+      <item id="n2" alignment="c2" line="406" tag="L">tôi thích chó</item>
+      <item id="n3" alignment="c3" line="407" tag="G">1SG like dog</item>
+      <item id="n4" alignment="c4" line="408" tag="T">I like dogs</item>
+    </tier>
+  </igt>
+  <igt id="igt57" doc-id="lgcol:vie" line-range="409-411" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="409" tag="M">  author vetted: f</item>
+      <item id="r2" line="410" tag="L">  tôi thích con chó đen</item>
+      <item id="r3" line="411" tag="G">  1SG like CLF.animal dog black</item>
+      <item id="r4" line="412" tag="T">  "I like black dogs"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="409" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="410" tag="L">  tôi thích con chó đen</item>
+      <item id="c3" alignment="r3" line="411" tag="G">  1SG like CLF.animal dog black</item>
+      <item id="c4" alignment="r4" line="412" tag="T">  "I like black dogs"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="409" tag="M">f</item>
+      <item id="n2" alignment="c2" line="410" tag="L">tôi thích con chó đen</item>
+      <item id="n3" alignment="c3" line="411" tag="G">1SG like CLF.animal dog black</item>
+      <item id="n4" alignment="c4" line="412" tag="T">I like black dogs</item>
+    </tier>
+  </igt>
+  <igt id="igt58" doc-id="lgcol:vie" line-range="421-423" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="421" tag="M">  author vetted: f</item>
+      <item id="r2" line="422" tag="L">  tôi thích con chó đen này</item>
+      <item id="r3" line="423" tag="G">  1SG like CLF.animal dog black DEM.PROX</item>
+      <item id="r4" line="424" tag="T">  "I like this black dog"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="421" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="422" tag="L">  tôi thích con chó đen này</item>
+      <item id="c3" alignment="r3" line="423" tag="G">  1SG like CLF.animal dog black DEM.PROX</item>
+      <item id="c4" alignment="r4" line="424" tag="T">  "I like this black dog"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="421" tag="M">f</item>
+      <item id="n2" alignment="c2" line="422" tag="L">tôi thích con chó đen này</item>
+      <item id="n3" alignment="c3" line="423" tag="G">1SG like CLF.animal dog black DEM.PROX</item>
+      <item id="n4" alignment="c4" line="424" tag="T">I like this black dog</item>
+    </tier>
+  </igt>
+  <igt id="igt59" doc-id="lgcol:vie" line-range="429-431" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="429" tag="M">  author vetted: f</item>
+      <item id="r2" line="430" tag="L">  con chó này đen</item>
+      <item id="r3" line="431" tag="G">  CLF.animal dog DEM.PROX black</item>
+      <item id="r4" line="432" tag="T">  "This dog is black"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="429" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="430" tag="L">  con chó này đen</item>
+      <item id="c3" alignment="r3" line="431" tag="G">  CLF.animal dog DEM.PROX black</item>
+      <item id="c4" alignment="r4" line="432" tag="T">  "This dog is black"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="429" tag="M">f</item>
+      <item id="n2" alignment="c2" line="430" tag="L">con chó này đen</item>
+      <item id="n3" alignment="c3" line="431" tag="G">CLF.animal dog DEM.PROX black</item>
+      <item id="n4" alignment="c4" line="432" tag="T">This dog is black</item>
+    </tier>
+  </igt>
+  <igt id="igt60" doc-id="lgcol:vie" line-range="433-435" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="433" tag="M">  author vetted: f</item>
+      <item id="r2" line="434" tag="L">  con chó này rất đen</item>
+      <item id="r3" line="435" tag="G">  CLF.animal dog DEM.PROX very black</item>
+      <item id="r4" line="436" tag="T">  "This dog is very black"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="433" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="434" tag="L">  con chó này rất đen</item>
+      <item id="c3" alignment="r3" line="435" tag="G">  CLF.animal dog DEM.PROX very black</item>
+      <item id="c4" alignment="r4" line="436" tag="T">  "This dog is very black"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="433" tag="M">f</item>
+      <item id="n2" alignment="c2" line="434" tag="L">con chó này rất đen</item>
+      <item id="n3" alignment="c3" line="435" tag="G">CLF.animal dog DEM.PROX very black</item>
+      <item id="n4" alignment="c4" line="436" tag="T">This dog is very black</item>
+    </tier>
+  </igt>
+  <igt id="igt61" doc-id="lgcol:vie" line-range="441-443" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="441" tag="M">  author vetted: f</item>
+      <item id="r2" line="442" tag="L">  Tôi đọc cuốn sách này</item>
+      <item id="r3" line="443" tag="G">  1SG read CLF.book book DEM.PROX</item>
+      <item id="r4" line="444" tag="T">  "I read this book."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="441" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="442" tag="L">  Tôi đọc cuốn sách này</item>
+      <item id="c3" alignment="r3" line="443" tag="G">  1SG read CLF.book book DEM.PROX</item>
+      <item id="c4" alignment="r4" line="444" tag="T">  "I read this book."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="441" tag="M">f</item>
+      <item id="n2" alignment="c2" line="442" tag="L">Tôi đọc cuốn sách này</item>
+      <item id="n3" alignment="c3" line="443" tag="G">1SG read CLF.book book DEM.PROX</item>
+      <item id="n4" alignment="c4" line="444" tag="T">I read this book.</item>
+    </tier>
+  </igt>
+  <igt id="igt62" doc-id="lgcol:vie" line-range="445-447" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="445" tag="M">  author vetted: f</item>
+      <item id="r2" line="446" tag="L">  Cuốn sách này thì tôi đọc.</item>
+      <item id="r3" line="447" tag="G">  CLF.book book this TOP I read</item>
+      <item id="r4" line="448" tag="T">  "This is the book I read"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="445" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="446" tag="L">  Cuốn sách này thì tôi đọc.</item>
+      <item id="c3" alignment="r3" line="447" tag="G">  CLF.book book this TOP I read</item>
+      <item id="c4" alignment="r4" line="448" tag="T">  "This is the book I read"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="445" tag="M">f</item>
+      <item id="n2" alignment="c2" line="446" tag="L">Cuốn sách này thì tôi đọc.</item>
+      <item id="n3" alignment="c3" line="447" tag="G">CLF.book book this TOP I read</item>
+      <item id="n4" alignment="c4" line="448" tag="T">This is the book I read</item>
+    </tier>
+  </igt>
+  <igt id="igt63" doc-id="lgcol:vie" line-range="449-451" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="449" tag="M">  author vetted: f</item>
+      <item id="r2" line="450" tag="L">  tôi thì đọc cuốn sách này</item>
+      <item id="r3" line="451" tag="G">  1SG TOP read book book DEM.PROX</item>
+      <item id="r4" line="452" tag="T">  "I read this book"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="449" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="450" tag="L">  tôi thì đọc cuốn sách này</item>
+      <item id="c3" alignment="r3" line="451" tag="G">  1SG TOP read book book DEM.PROX</item>
+      <item id="c4" alignment="r4" line="452" tag="T">  "I read this book"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="449" tag="M">f</item>
+      <item id="n2" alignment="c2" line="450" tag="L">tôi thì đọc cuốn sách này</item>
+      <item id="n3" alignment="c3" line="451" tag="G">1SG TOP read book book DEM.PROX</item>
+      <item id="n4" alignment="c4" line="452" tag="T">I read this book</item>
+    </tier>
+  </igt>
+  <igt id="igt64" doc-id="lgcol:vie" line-range="465-467" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="465" tag="M">  author vetted: f</item>
+      <item id="r2" line="466" tag="L">  tôi thích cái con chó này</item>
+      <item id="r3" line="467" tag="G">  1SG like FOC CLF.animal dog DEM.PROX</item>
+      <item id="r4" line="468" tag="T">  "I like THIS dog"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="465" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="466" tag="L">  tôi thích cái con chó này</item>
+      <item id="c3" alignment="r3" line="467" tag="G">  1SG like FOC CLF.animal dog DEM.PROX</item>
+      <item id="c4" alignment="r4" line="468" tag="T">  "I like THIS dog"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="465" tag="M">f</item>
+      <item id="n2" alignment="c2" line="466" tag="L">tôi thích cái con chó này</item>
+      <item id="n3" alignment="c3" line="467" tag="G">1SG like FOC CLF.animal dog DEM.PROX</item>
+      <item id="n4" alignment="c4" line="468" tag="T">I like THIS dog</item>
+    </tier>
+  </igt>
+  <igt id="igt65" doc-id="lgcol:vie" line-range="477-479" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="477" tag="M">  author vetted: f</item>
+      <item id="r2" line="478" tag="L">  tôi thích các cái con chó này</item>
+      <item id="r3" line="479" tag="G">  1SG like all FOC CLF.animal dog DEM.PROX</item>
+      <item id="r4" line="480" tag="T">  "I like THESE dogs"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="477" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="478" tag="L">  tôi thích các cái con chó này</item>
+      <item id="c3" alignment="r3" line="479" tag="G">  1SG like all FOC CLF.animal dog DEM.PROX</item>
+      <item id="c4" alignment="r4" line="480" tag="T">  "I like THESE dogs"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="477" tag="M">f</item>
+      <item id="n2" alignment="c2" line="478" tag="L">tôi thích các cái con chó này</item>
+      <item id="n3" alignment="c3" line="479" tag="G">1SG like all FOC CLF.animal dog DEM.PROX</item>
+      <item id="n4" alignment="c4" line="480" tag="T">I like THESE dogs</item>
+    </tier>
+  </igt>
+  <igt id="igt66" doc-id="lgcol:vie" line-range="485-487" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="485" tag="M">  author vetted: f</item>
+      <item id="r2" line="486" tag="L">  tôi thích cái con chó đen</item>
+      <item id="r3" line="487" tag="G">  I like FOC CLF.animal dog black</item>
+      <item id="r4" line="488" tag="T">  "I like the black DOG"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="485" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="486" tag="L">  tôi thích cái con chó đen</item>
+      <item id="c3" alignment="r3" line="487" tag="G">  I like FOC CLF.animal dog black</item>
+      <item id="c4" alignment="r4" line="488" tag="T">  "I like the black DOG"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="485" tag="M">f</item>
+      <item id="n2" alignment="c2" line="486" tag="L">tôi thích cái con chó đen</item>
+      <item id="n3" alignment="c3" line="487" tag="G">I like FOC CLF.animal dog black</item>
+      <item id="n4" alignment="c4" line="488" tag="T">I like the black DOG</item>
+    </tier>
+  </igt>
+  <igt id="igt67" doc-id="lgcol:vie" line-range="489-491" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="489" tag="M">  author vetted: f</item>
+      <item id="r2" line="490" tag="L">  Tôi thật cao</item>
+      <item id="r3" line="491" tag="G">  1SG really tall</item>
+      <item id="r4" line="492" tag="T">  "I am really tall"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="489" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="490" tag="L">  Tôi thật cao</item>
+      <item id="c3" alignment="r3" line="491" tag="G">  1SG really tall</item>
+      <item id="c4" alignment="r4" line="492" tag="T">  "I am really tall"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="489" tag="M">f</item>
+      <item id="n2" alignment="c2" line="490" tag="L">Tôi thật cao</item>
+      <item id="n3" alignment="c3" line="491" tag="G">1SG really tall</item>
+      <item id="n4" alignment="c4" line="492" tag="T">I am really tall</item>
+    </tier>
+  </igt>
+  <igt id="igt68" doc-id="lgcol:vie" line-range="493-495" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="493" tag="M">  author vetted: f</item>
+      <item id="r2" line="494" tag="L">  Tôi cao thật</item>
+      <item id="r3" line="495" tag="G">  1SG tall really</item>
+      <item id="r4" line="496" tag="T">  "I am really tall"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="493" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="494" tag="L">  Tôi cao thật</item>
+      <item id="c3" alignment="r3" line="495" tag="G">  1SG tall really</item>
+      <item id="c4" alignment="r4" line="496" tag="T">  "I am really tall"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="493" tag="M">f</item>
+      <item id="n2" alignment="c2" line="494" tag="L">Tôi cao thật</item>
+      <item id="n3" alignment="c3" line="495" tag="G">1SG tall really</item>
+      <item id="n4" alignment="c4" line="496" tag="T">I am really tall</item>
+    </tier>
+  </igt>
+  <igt id="igt69" doc-id="lgcol:vie" line-range="497-499" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="497" tag="M">  author vetted: f</item>
+      <item id="r2" line="498" tag="L">  Tôi đọc sách nhanh#chóng</item>
+      <item id="r3" line="499" tag="G">  1SG read book quickly</item>
+      <item id="r4" line="500" tag="T">  "I read books quickly"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="497" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="498" tag="L">  Tôi đọc sách nhanh#chóng</item>
+      <item id="c3" alignment="r3" line="499" tag="G">  1SG read book quickly</item>
+      <item id="c4" alignment="r4" line="500" tag="T">  "I read books quickly"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="497" tag="M">f</item>
+      <item id="n2" alignment="c2" line="498" tag="L">Tôi đọc sách nhanh#chóng</item>
+      <item id="n3" alignment="c3" line="499" tag="G">1SG read book quickly</item>
+      <item id="n4" alignment="c4" line="500" tag="T">I read books quickly</item>
+    </tier>
+  </igt>
+  <igt id="igt70" doc-id="lgcol:vie" line-range="513-515" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="513" tag="M">  author vetted: f</item>
+      <item id="r2" line="514" tag="L">  Tôi đọc nhanh#chóng hai cuốn sách</item>
+      <item id="r3" line="515" tag="G">  1SG read quickly two CLF.book book</item>
+      <item id="r4" line="516" tag="T">  "I read two books quickly"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="513" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="514" tag="L">  Tôi đọc nhanh#chóng hai cuốn sách</item>
+      <item id="c3" alignment="r3" line="515" tag="G">  1SG read quickly two CLF.book book</item>
+      <item id="c4" alignment="r4" line="516" tag="T">  "I read two books quickly"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="513" tag="M">f</item>
+      <item id="n2" alignment="c2" line="514" tag="L">Tôi đọc nhanh#chóng hai cuốn sách</item>
+      <item id="n3" alignment="c3" line="515" tag="G">1SG read quickly two CLF.book book</item>
+      <item id="n4" alignment="c4" line="516" tag="T">I read two books quickly</item>
+    </tier>
+  </igt>
+  <igt id="igt71" doc-id="lgcol:vie" line-range="517-519" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="517" tag="M">  author vetted: f</item>
+      <item id="r2" line="518" tag="L">  Tôi nghĩ rằng Mai đã ngủ</item>
+      <item id="r3" line="519" tag="G">  1SG think COMP Mai PST sleep</item>
+      <item id="r4" line="520" tag="T">  "I think that Mai slept."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="517" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="518" tag="L">  Tôi nghĩ rằng Mai đã ngủ</item>
+      <item id="c3" alignment="r3" line="519" tag="G">  1SG think COMP Mai PST sleep</item>
+      <item id="c4" alignment="r4" line="520" tag="T">  "I think that Mai slept."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="517" tag="M">f</item>
+      <item id="n2" alignment="c2" line="518" tag="L">Tôi nghĩ rằng Mai đã ngủ</item>
+      <item id="n3" alignment="c3" line="519" tag="G">1SG think COMP Mai PST sleep</item>
+      <item id="n4" alignment="c4" line="520" tag="T">I think that Mai slept.</item>
+    </tier>
+  </igt>
+  <igt id="igt72" doc-id="lgcol:vie" line-range="521-523" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="521" tag="M">  author vetted: f</item>
+      <item id="r2" line="522" tag="L">  Tôi nghĩ Mai đã ngủ</item>
+      <item id="r3" line="523" tag="G">  1SG think Mai PST sleep</item>
+      <item id="r4" line="524" tag="T">  "I think Mai slept."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="521" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="522" tag="L">  Tôi nghĩ Mai đã ngủ</item>
+      <item id="c3" alignment="r3" line="523" tag="G">  1SG think Mai PST sleep</item>
+      <item id="c4" alignment="r4" line="524" tag="T">  "I think Mai slept."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="521" tag="M">f</item>
+      <item id="n2" alignment="c2" line="522" tag="L">Tôi nghĩ Mai đã ngủ</item>
+      <item id="n3" alignment="c3" line="523" tag="G">1SG think Mai PST sleep</item>
+      <item id="n4" alignment="c4" line="524" tag="T">I think Mai slept.</item>
+    </tier>
+  </igt>
+  <igt id="igt73" doc-id="lgcol:vie" line-range="525-527" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="525" tag="M">  author vetted: f</item>
+      <item id="r2" line="526" tag="L">  Tôi hỏi rằng Mai đã ngủ không ngủ</item>
+      <item id="r3" line="527" tag="G">  1SG ask COMP Mai PST sleep NEG sleep</item>
+      <item id="r4" line="528" tag="T">  "I asked whether Mai slept (or not)."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="525" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="526" tag="L">  Tôi hỏi rằng Mai đã ngủ không ngủ</item>
+      <item id="c3" alignment="r3" line="527" tag="G">  1SG ask COMP Mai PST sleep NEG sleep</item>
+      <item id="c4" alignment="r4" line="528" tag="T">  "I asked whether Mai slept (or not)."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="525" tag="M">f</item>
+      <item id="n2" alignment="c2" line="526" tag="L">Tôi hỏi rằng Mai đã ngủ không ngủ</item>
+      <item id="n3" alignment="c3" line="527" tag="G">1SG ask COMP Mai PST sleep NEG sleep</item>
+      <item id="n4" alignment="c4" line="528" tag="T">I asked whether Mai slept (or not).</item>
+    </tier>
+  </igt>
+  <igt id="igt74" doc-id="lgcol:vie" line-range="529-531" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="529" tag="M">  author vetted: f</item>
+      <item id="r2" line="530" tag="L">  Tôi là gái</item>
+      <item id="r3" line="531" tag="G">  1SG COP girl</item>
+      <item id="r4" line="532" tag="T">  "I am a girl"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="529" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="530" tag="L">  Tôi là gái</item>
+      <item id="c3" alignment="r3" line="531" tag="G">  1SG COP girl</item>
+      <item id="c4" alignment="r4" line="532" tag="T">  "I am a girl"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="529" tag="M">f</item>
+      <item id="n2" alignment="c2" line="530" tag="L">Tôi là gái</item>
+      <item id="n3" alignment="c3" line="531" tag="G">1SG COP girl</item>
+      <item id="n4" alignment="c4" line="532" tag="T">I am a girl</item>
+    </tier>
+  </igt>
+  <igt id="igt75" doc-id="lgcol:vie" line-range="537-539" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="537" tag="M">  author vetted: f</item>
+      <item id="r2" line="538" tag="L">  tôi là Mai</item>
+      <item id="r3" line="539" tag="G">  1SG COP Mai</item>
+      <item id="r4" line="540" tag="T">  "I am Mai"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="537" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="538" tag="L">  tôi là Mai</item>
+      <item id="c3" alignment="r3" line="539" tag="G">  1SG COP Mai</item>
+      <item id="c4" alignment="r4" line="540" tag="T">  "I am Mai"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="537" tag="M">f</item>
+      <item id="n2" alignment="c2" line="538" tag="L">tôi là Mai</item>
+      <item id="n3" alignment="c3" line="539" tag="G">1SG COP Mai</item>
+      <item id="n4" alignment="c4" line="540" tag="T">I am Mai</item>
+    </tier>
+  </igt>
+  <igt id="igt76" doc-id="lgcol:vie" line-range="545-547" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="545" tag="M">  author vetted: f</item>
+      <item id="r2" line="546" tag="L">  tôi cao</item>
+      <item id="r3" line="547" tag="G">  1SG tall</item>
+      <item id="r4" line="548" tag="T">  "I am tall"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="545" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="546" tag="L">  tôi cao</item>
+      <item id="c3" alignment="r3" line="547" tag="G">  1SG tall</item>
+      <item id="c4" alignment="r4" line="548" tag="T">  "I am tall"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="545" tag="M">f</item>
+      <item id="n2" alignment="c2" line="546" tag="L">tôi cao</item>
+      <item id="n3" alignment="c3" line="547" tag="G">1SG tall</item>
+      <item id="n4" alignment="c4" line="548" tag="T">I am tall</item>
+    </tier>
+  </igt>
+  <igt id="igt77" doc-id="lgcol:vie" line-range="549-551" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="549" tag="M">  author vetted: f</item>
+      <item id="r2" line="550" tag="L">  tôi rất cao</item>
+      <item id="r3" line="551" tag="G">  1SG very tall</item>
+      <item id="r4" line="552" tag="T">  "I am very tall"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="549" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="550" tag="L">  tôi rất cao</item>
+      <item id="c3" alignment="r3" line="551" tag="G">  1SG very tall</item>
+      <item id="c4" alignment="r4" line="552" tag="T">  "I am very tall"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="549" tag="M">f</item>
+      <item id="n2" alignment="c2" line="550" tag="L">tôi rất cao</item>
+      <item id="n3" alignment="c3" line="551" tag="G">1SG very tall</item>
+      <item id="n4" alignment="c4" line="552" tag="T">I am very tall</item>
+    </tier>
+  </igt>
+  <igt id="igt78" doc-id="lgcol:vie" line-range="569-571" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="569" tag="M">  author vetted: f</item>
+      <item id="r2" line="570" tag="L">  tôi ở Hà#Nội</item>
+      <item id="r3" line="571" tag="G">  1SG in Hanoi</item>
+      <item id="r4" line="572" tag="T">  "I am in Hanoi"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="569" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="570" tag="L">  tôi ở Hà#Nội</item>
+      <item id="c3" alignment="r3" line="571" tag="G">  1SG in Hanoi</item>
+      <item id="c4" alignment="r4" line="572" tag="T">  "I am in Hanoi"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="569" tag="M">f</item>
+      <item id="n2" alignment="c2" line="570" tag="L">tôi ở Hà#Nội</item>
+      <item id="n3" alignment="c3" line="571" tag="G">1SG in Hanoi</item>
+      <item id="n4" alignment="c4" line="572" tag="T">I am in Hanoi</item>
+    </tier>
+  </igt>
+  <igt id="igt79" doc-id="lgcol:vie" line-range="577-579" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="577" tag="M">  author vetted: f</item>
+      <item id="r2" line="578" tag="L">  tôi sống ở Hà#Nội</item>
+      <item id="r3" line="579" tag="G">  1SG live in Hanoi</item>
+      <item id="r4" line="580" tag="T">  "I live in Hanoi"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="577" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="578" tag="L">  tôi sống ở Hà#Nội</item>
+      <item id="c3" alignment="r3" line="579" tag="G">  1SG live in Hanoi</item>
+      <item id="c4" alignment="r4" line="580" tag="T">  "I live in Hanoi"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="577" tag="M">f</item>
+      <item id="n2" alignment="c2" line="578" tag="L">tôi sống ở Hà#Nội</item>
+      <item id="n3" alignment="c3" line="579" tag="G">1SG live in Hanoi</item>
+      <item id="n4" alignment="c4" line="580" tag="T">I live in Hanoi</item>
+    </tier>
+  </igt>
+  <igt id="igt80" doc-id="lgcol:vie" line-range="581-583" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="581" tag="M">  author vetted: f</item>
+      <item id="r2" line="582" tag="L">  Hôm#qua tôi ở Hà#Nội</item>
+      <item id="r3" line="583" tag="G">  yesterday 1SG in Hanoi</item>
+      <item id="r4" line="584" tag="T">  "Yesterday I was in Hanoi"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="581" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="582" tag="L">  Hôm#qua tôi ở Hà#Nội</item>
+      <item id="c3" alignment="r3" line="583" tag="G">  yesterday 1SG in Hanoi</item>
+      <item id="c4" alignment="r4" line="584" tag="T">  "Yesterday I was in Hanoi"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="581" tag="M">f</item>
+      <item id="n2" alignment="c2" line="582" tag="L">Hôm#qua tôi ở Hà#Nội</item>
+      <item id="n3" alignment="c3" line="583" tag="G">yesterday 1SG in Hanoi</item>
+      <item id="n4" alignment="c4" line="584" tag="T">Yesterday I was in Hanoi</item>
+    </tier>
+  </igt>
+  <igt id="igt81" doc-id="lgcol:vie" line-range="597-599" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="597" tag="M">  author vetted: f</item>
+      <item id="r2" line="598" tag="L">  tôi thích phở đen</item>
+      <item id="r3" line="599" tag="G">  1SG like noodles black</item>
+      <item id="r4" line="600" tag="T">  "I like black noodles"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="597" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="598" tag="L">  tôi thích phở đen</item>
+      <item id="c3" alignment="r3" line="599" tag="G">  1SG like noodles black</item>
+      <item id="c4" alignment="r4" line="600" tag="T">  "I like black noodles"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="597" tag="M">f</item>
+      <item id="n2" alignment="c2" line="598" tag="L">tôi thích phở đen</item>
+      <item id="n3" alignment="c3" line="599" tag="G">1SG like noodles black</item>
+      <item id="n4" alignment="c4" line="600" tag="T">I like black noodles</item>
+    </tier>
+  </igt>
+  <igt id="igt82" doc-id="lgcol:vie" line-range="601-603" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="601" tag="M">  author vetted: f</item>
+      <item id="r2" line="602" tag="L">  tôi không cao</item>
+      <item id="r3" line="603" tag="G">  1SG NEG tall</item>
+      <item id="r4" line="604" tag="T">  "I am not tall"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="601" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="602" tag="L">  tôi không cao</item>
+      <item id="c3" alignment="r3" line="603" tag="G">  1SG NEG tall</item>
+      <item id="c4" alignment="r4" line="604" tag="T">  "I am not tall"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="601" tag="M">f</item>
+      <item id="n2" alignment="c2" line="602" tag="L">tôi không cao</item>
+      <item id="n3" alignment="c3" line="603" tag="G">1SG NEG tall</item>
+      <item id="n4" alignment="c4" line="604" tag="T">I am not tall</item>
+    </tier>
+  </igt>
+  <igt id="igt83" doc-id="lgcol:vie" line-range="609-611" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="609" tag="M">  author vetted: f</item>
+      <item id="r2" line="610" tag="L">  Tôi thích bộ bài này</item>
+      <item id="r3" line="611" tag="G">  1SG like CLF.set card DEM.PROX</item>
+      <item id="r4" line="612" tag="T">  I like this (set of) card.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="609" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="610" tag="L">  Tôi thích bộ bài này</item>
+      <item id="c3" alignment="r3" line="611" tag="G">  1SG like CLF.set card DEM.PROX</item>
+      <item id="c4" alignment="r4" line="612" tag="T">  I like this (set of) card.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="609" tag="M">f</item>
+      <item id="n2" alignment="c2" line="610" tag="L">Tôi thích bộ bài này</item>
+      <item id="n3" alignment="c3" line="611" tag="G">1SG like CLF.set card DEM.PROX</item>
+      <item id="n4" alignment="c4" line="612" tag="T">I like this (set of) card.</item>
+    </tier>
+  </igt>
+  <igt id="igt84" doc-id="lgcol:vie" line-range="613-615" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="613" tag="M">  author vetted: f</item>
+      <item id="r2" line="614" tag="L">  Tôi thích bức màn này</item>
+      <item id="r3" line="615" tag="G">  1SG like CLF.flat curtain DEM.PROX</item>
+      <item id="r4" line="616" tag="T">  I like this curtain.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="613" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="614" tag="L">  Tôi thích bức màn này</item>
+      <item id="c3" alignment="r3" line="615" tag="G">  1SG like CLF.flat curtain DEM.PROX</item>
+      <item id="c4" alignment="r4" line="616" tag="T">  I like this curtain.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="613" tag="M">f</item>
+      <item id="n2" alignment="c2" line="614" tag="L">Tôi thích bức màn này</item>
+      <item id="n3" alignment="c3" line="615" tag="G">1SG like CLF.flat curtain DEM.PROX</item>
+      <item id="n4" alignment="c4" line="616" tag="T">I like this curtain.</item>
+    </tier>
+  </igt>
+  <igt id="igt85" doc-id="lgcol:vie" line-range="617-619" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="617" tag="M">  author vetted: f</item>
+      <item id="r2" line="618" tag="L">  Tôi thích cặp đũa này</item>
+      <item id="r3" line="619" tag="G">  1SG like CLF.pair chopsticks DEM.PROX</item>
+      <item id="r4" line="620" tag="T">  I like these chopsticks.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="617" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="618" tag="L">  Tôi thích cặp đũa này</item>
+      <item id="c3" alignment="r3" line="619" tag="G">  1SG like CLF.pair chopsticks DEM.PROX</item>
+      <item id="c4" alignment="r4" line="620" tag="T">  I like these chopsticks.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="617" tag="M">f</item>
+      <item id="n2" alignment="c2" line="618" tag="L">Tôi thích cặp đũa này</item>
+      <item id="n3" alignment="c3" line="619" tag="G">1SG like CLF.pair chopsticks DEM.PROX</item>
+      <item id="n4" alignment="c4" line="620" tag="T">I like these chopsticks.</item>
+    </tier>
+  </igt>
+  <igt id="igt86" doc-id="lgcol:vie" line-range="621-623" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="621" tag="M">  author vetted: f</item>
+      <item id="r2" line="622" tag="L">  Tôi thích cơn bão này</item>
+      <item id="r3" line="623" tag="G">  1SG like CLF.violent typhoon DEM.PROX</item>
+      <item id="r4" line="624" tag="T">  I like this typhoon.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="621" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="622" tag="L">  Tôi thích cơn bão này</item>
+      <item id="c3" alignment="r3" line="623" tag="G">  1SG like CLF.violent typhoon DEM.PROX</item>
+      <item id="c4" alignment="r4" line="624" tag="T">  I like this typhoon.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="621" tag="M">f</item>
+      <item id="n2" alignment="c2" line="622" tag="L">Tôi thích cơn bão này</item>
+      <item id="n3" alignment="c3" line="623" tag="G">1SG like CLF.violent typhoon DEM.PROX</item>
+      <item id="n4" alignment="c4" line="624" tag="T">I like this typhoon.</item>
+    </tier>
+  </igt>
+  <igt id="igt87" doc-id="lgcol:vie" line-range="625-627" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="625" tag="M">  author vetted: f</item>
+      <item id="r2" line="626" tag="L">  Tôi thích củ hành này</item>
+      <item id="r3" line="627" tag="G">  1SG like CLF.bulb onion DEM.PROX</item>
+      <item id="r4" line="628" tag="T">  I like this onion.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="625" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="626" tag="L">  Tôi thích củ hành này</item>
+      <item id="c3" alignment="r3" line="627" tag="G">  1SG like CLF.bulb onion DEM.PROX</item>
+      <item id="c4" alignment="r4" line="628" tag="T">  I like this onion.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="625" tag="M">f</item>
+      <item id="n2" alignment="c2" line="626" tag="L">Tôi thích củ hành này</item>
+      <item id="n3" alignment="c3" line="627" tag="G">1SG like CLF.bulb onion DEM.PROX</item>
+      <item id="n4" alignment="c4" line="628" tag="T">I like this onion.</item>
+    </tier>
+  </igt>
+  <igt id="igt88" doc-id="lgcol:vie" line-range="629-631" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="629" tag="M">  author vetted: f</item>
+      <item id="r2" line="630" tag="L">  Tôi thích cuộc đời này</item>
+      <item id="r3" line="631" tag="G">  1SG like CLF.interaction life DEM.PROX</item>
+      <item id="r4" line="632" tag="T">  I like this kind of life.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="629" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="630" tag="L">  Tôi thích cuộc đời này</item>
+      <item id="c3" alignment="r3" line="631" tag="G">  1SG like CLF.interaction life DEM.PROX</item>
+      <item id="c4" alignment="r4" line="632" tag="T">  I like this kind of life.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="629" tag="M">f</item>
+      <item id="n2" alignment="c2" line="630" tag="L">Tôi thích cuộc đời này</item>
+      <item id="n3" alignment="c3" line="631" tag="G">1SG like CLF.interaction life DEM.PROX</item>
+      <item id="n4" alignment="c4" line="632" tag="T">I like this kind of life.</item>
+    </tier>
+  </igt>
+  <igt id="igt89" doc-id="lgcol:vie" line-range="633-635" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="633" tag="M">  author vetted: f</item>
+      <item id="r2" line="634" tag="L">  Tôi thích đám mây này</item>
+      <item id="r3" line="635" tag="G">  1SG like CLF.compact cloud DEM.PROX</item>
+      <item id="r4" line="636" tag="T">  I like this cloud.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="633" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="634" tag="L">  Tôi thích đám mây này</item>
+      <item id="c3" alignment="r3" line="635" tag="G">  1SG like CLF.compact cloud DEM.PROX</item>
+      <item id="c4" alignment="r4" line="636" tag="T">  I like this cloud.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="633" tag="M">f</item>
+      <item id="n2" alignment="c2" line="634" tag="L">Tôi thích đám mây này</item>
+      <item id="n3" alignment="c3" line="635" tag="G">1SG like CLF.compact cloud DEM.PROX</item>
+      <item id="n4" alignment="c4" line="636" tag="T">I like this cloud.</item>
+    </tier>
+  </igt>
+  <igt id="igt90" doc-id="lgcol:vie" line-range="637-639" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="637" tag="M">  author vetted: f</item>
+      <item id="r2" line="638" tag="L">  Tôi thích tấm gương này</item>
+      <item id="r3" line="639" tag="G">  1SG like CLF.rect mirror DEM.PROX</item>
+      <item id="r4" line="640" tag="T">  I like this mirror.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="637" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="638" tag="L">  Tôi thích tấm gương này</item>
+      <item id="c3" alignment="r3" line="639" tag="G">  1SG like CLF.rect mirror DEM.PROX</item>
+      <item id="c4" alignment="r4" line="640" tag="T">  I like this mirror.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="637" tag="M">f</item>
+      <item id="n2" alignment="c2" line="638" tag="L">Tôi thích tấm gương này</item>
+      <item id="n3" alignment="c3" line="639" tag="G">1SG like CLF.rect mirror DEM.PROX</item>
+      <item id="n4" alignment="c4" line="640" tag="T">I like this mirror.</item>
+    </tier>
+  </igt>
+  <igt id="igt91" doc-id="lgcol:vie" line-range="641-643" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="641" tag="M">  author vetted: f</item>
+      <item id="r2" line="642" tag="L">  Tôi thích tờ giấy này</item>
+      <item id="r3" line="643" tag="G">  1SG like CLF.sheet paper DEM.PROX</item>
+      <item id="r4" line="644" tag="T">  I like this sheet of paper.</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="641" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="642" tag="L">  Tôi thích tờ giấy này</item>
+      <item id="c3" alignment="r3" line="643" tag="G">  1SG like CLF.sheet paper DEM.PROX</item>
+      <item id="c4" alignment="r4" line="644" tag="T">  I like this sheet of paper.</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="641" tag="M">f</item>
+      <item id="n2" alignment="c2" line="642" tag="L">Tôi thích tờ giấy này</item>
+      <item id="n3" alignment="c3" line="643" tag="G">1SG like CLF.sheet paper DEM.PROX</item>
+      <item id="n4" alignment="c4" line="644" tag="T">I like this sheet of paper.</item>
+    </tier>
+  </igt>
+  <igt id="igt92" doc-id="lgcol:vie" line-range="645-647" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="645" tag="M">  author vetted: f</item>
+      <item id="r2" line="646" tag="L">  Tôi thích trái chuối này</item>
+      <item id="r3" line="647" tag="G">  1SG like CLF.fruit banana DEM.PROX</item>
+      <item id="r4" line="648" tag="T">  I like this banana</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="645" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="646" tag="L">  Tôi thích trái chuối này</item>
+      <item id="c3" alignment="r3" line="647" tag="G">  1SG like CLF.fruit banana DEM.PROX</item>
+      <item id="c4" alignment="r4" line="648" tag="T">  I like this banana</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="645" tag="M">f</item>
+      <item id="n2" alignment="c2" line="646" tag="L">Tôi thích trái chuối này</item>
+      <item id="n3" alignment="c3" line="647" tag="G">1SG like CLF.fruit banana DEM.PROX</item>
+      <item id="n4" alignment="c4" line="648" tag="T">I like this banana</item>
+    </tier>
+  </igt>
+  <igt id="igt93" doc-id="lgcol:vie" line-range="649-651" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="649" tag="M">  author vetted: f</item>
+      <item id="r2" line="650" tag="L">  tôi thích hai cái con chó đen này</item>
+      <item id="r3" line="651" tag="G">  1SG like two FOCUS CLF.animal dog black DEM.PROX</item>
+      <item id="r4" line="652" tag="T">  "I like THESE two dogs" </item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="649" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="650" tag="L">  tôi thích hai cái con chó đen này</item>
+      <item id="c3" alignment="r3" line="651" tag="G">  1SG like two FOCUS CLF.animal dog black DEM.PROX</item>
+      <item id="c4" alignment="r4" line="652" tag="T">  "I like THESE two dogs" </item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="649" tag="M">f</item>
+      <item id="n2" alignment="c2" line="650" tag="L">tôi thích hai cái con chó đen này</item>
+      <item id="n3" alignment="c3" line="651" tag="G">1SG like two FOCUS CLF.animal dog black DEM.PROX</item>
+      <item id="n4" alignment="c4" line="652" tag="T">I like THESE two dogs</item>
+    </tier>
+  </igt>
+  <igt id="igt94" doc-id="lgcol:vie" line-range="653-655" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="653" tag="M">  author vetted: f</item>
+      <item id="r2" line="654" tag="L">  tôi có thể ăn thủy_tinh</item>
+      <item id="r3" line="655" tag="G">  1SG be able eat glass</item>
+      <item id="r4" line="656" tag="T">  "I am able to eat glass"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="653" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="654" tag="L">  tôi có thể ăn thủy_tinh</item>
+      <item id="c3" alignment="r3" line="655" tag="G">  1SG be able eat glass</item>
+      <item id="c4" alignment="r4" line="656" tag="T">  "I am able to eat glass"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="653" tag="M">f</item>
+      <item id="n2" alignment="c2" line="654" tag="L">tôi có thể ăn thủy_tinh</item>
+      <item id="n3" alignment="c3" line="655" tag="G">1SG be able eat glass</item>
+      <item id="n4" alignment="c4" line="656" tag="T">I am able to eat glass</item>
+    </tier>
+  </igt>
+  <igt id="igt95" doc-id="lgcol:vie" line-range="657-659" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="657" tag="M">  author vetted: f</item>
+      <item id="r2" line="658" tag="L">  Nó không làm_đau tôi</item>
+      <item id="r3" line="659" tag="G">  3SG NEG hurt 1SG</item>
+      <item id="r4" line="660" tag="T">  "It does not hurt me"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="657" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="658" tag="L">  Nó không làm_đau tôi</item>
+      <item id="c3" alignment="r3" line="659" tag="G">  3SG NEG hurt 1SG</item>
+      <item id="c4" alignment="r4" line="660" tag="T">  "It does not hurt me"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="657" tag="M">f</item>
+      <item id="n2" alignment="c2" line="658" tag="L">Nó không làm_đau tôi</item>
+      <item id="n3" alignment="c3" line="659" tag="G">3SG NEG hurt 1SG</item>
+      <item id="n4" alignment="c4" line="660" tag="T">It does not hurt me</item>
+    </tier>
+  </igt>
+  <igt id="igt96" doc-id="lgcol:vie" line-range="661-663" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="661" tag="M">  author vetted: f</item>
+      <item id="r2" line="662" tag="L">  tôi không ăn và ngủ</item>
+      <item id="r3" line="663" tag="G">  1SG NEG eat and sleep</item>
+      <item id="r4" line="664" tag="T">  "I don't eat and (I) sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="661" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="662" tag="L">  tôi không ăn và ngủ</item>
+      <item id="c3" alignment="r3" line="663" tag="G">  1SG NEG eat and sleep</item>
+      <item id="c4" alignment="r4" line="664" tag="T">  "I don't eat and (I) sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="661" tag="M">f</item>
+      <item id="n2" alignment="c2" line="662" tag="L">tôi không ăn và ngủ</item>
+      <item id="n3" alignment="c3" line="663" tag="G">1SG NEG eat and sleep</item>
+      <item id="n4" alignment="c4" line="664" tag="T">I don't eat and (I) sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt97" doc-id="lgcol:vie" line-range="665-667" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="665" tag="M">  author vetted: f</item>
+      <item id="r2" line="666" tag="L">  tôi không ăn và không ngủ</item>
+      <item id="r3" line="667" tag="G">  1SG NEG eat and NEG sleep</item>
+      <item id="r4" line="668" tag="T">  "I don't eat and don't sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="665" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="666" tag="L">  tôi không ăn và không ngủ</item>
+      <item id="c3" alignment="r3" line="667" tag="G">  1SG NEG eat and NEG sleep</item>
+      <item id="c4" alignment="r4" line="668" tag="T">  "I don't eat and don't sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="665" tag="M">f</item>
+      <item id="n2" alignment="c2" line="666" tag="L">tôi không ăn và không ngủ</item>
+      <item id="n3" alignment="c3" line="667" tag="G">1SG NEG eat and NEG sleep</item>
+      <item id="n4" alignment="c4" line="668" tag="T">I don't eat and don't sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt98" doc-id="lgcol:vie" line-range="669-671" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="669" tag="M">  author vetted: f</item>
+      <item id="r2" line="670" tag="L">  hai con chó ngủ</item>
+      <item id="r3" line="671" tag="G">  two CLF.animal dog sleep</item>
+      <item id="r4" line="672" tag="T">  "Two dogs sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="669" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="670" tag="L">  hai con chó ngủ</item>
+      <item id="c3" alignment="r3" line="671" tag="G">  two CLF.animal dog sleep</item>
+      <item id="c4" alignment="r4" line="672" tag="T">  "Two dogs sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="669" tag="M">f</item>
+      <item id="n2" alignment="c2" line="670" tag="L">hai con chó ngủ</item>
+      <item id="n3" alignment="c3" line="671" tag="G">two CLF.animal dog sleep</item>
+      <item id="n4" alignment="c4" line="672" tag="T">Two dogs sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt99" doc-id="lgcol:vie" line-range="677-679" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="677" tag="M">  author vetted: f</item>
+      <item id="r2" line="678" tag="L">  hai con chó đen ngủ</item>
+      <item id="r3" line="679" tag="G">  two CLF.animal dog black sleep</item>
+      <item id="r4" line="680" tag="T">  "Two black dogs sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="677" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="678" tag="L">  hai con chó đen ngủ</item>
+      <item id="c3" alignment="r3" line="679" tag="G">  two CLF.animal dog black sleep</item>
+      <item id="c4" alignment="r4" line="680" tag="T">  "Two black dogs sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="677" tag="M">f</item>
+      <item id="n2" alignment="c2" line="678" tag="L">hai con chó đen ngủ</item>
+      <item id="n3" alignment="c3" line="679" tag="G">two CLF.animal dog black sleep</item>
+      <item id="n4" alignment="c4" line="680" tag="T">Two black dogs sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt100" doc-id="lgcol:vie" line-range="681-683" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="681" tag="M">  author vetted: f</item>
+      <item id="r2" line="682" tag="L">  hai con chó đen này ngủ</item>
+      <item id="r3" line="683" tag="G">  two CLF.animal dog black DEM.PROX sleep</item>
+      <item id="r4" line="684" tag="T">  "These two black dogs sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="681" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="682" tag="L">  hai con chó đen này ngủ</item>
+      <item id="c3" alignment="r3" line="683" tag="G">  two CLF.animal dog black DEM.PROX sleep</item>
+      <item id="c4" alignment="r4" line="684" tag="T">  "These two black dogs sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="681" tag="M">f</item>
+      <item id="n2" alignment="c2" line="682" tag="L">hai con chó đen này ngủ</item>
+      <item id="n3" alignment="c3" line="683" tag="G">two CLF.animal dog black DEM.PROX sleep</item>
+      <item id="n4" alignment="c4" line="684" tag="T">These two black dogs sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt101" doc-id="lgcol:vie" line-range="685-687" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="685" tag="M">  author vetted: f</item>
+      <item id="r2" line="686" tag="L">  Tôi nghĩ rằng tôi nghĩ rằng Mai đã ngủ</item>
+      <item id="r3" line="687" tag="G">  1SG think COMP 1SG think COMP Mai PST sleep</item>
+      <item id="r4" line="688" tag="T">  "I think that I think that Mai slept."</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="685" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="686" tag="L">  Tôi nghĩ rằng tôi nghĩ rằng Mai đã ngủ</item>
+      <item id="c3" alignment="r3" line="687" tag="G">  1SG think COMP 1SG think COMP Mai PST sleep</item>
+      <item id="c4" alignment="r4" line="688" tag="T">  "I think that I think that Mai slept."</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="685" tag="M">f</item>
+      <item id="n2" alignment="c2" line="686" tag="L">Tôi nghĩ rằng tôi nghĩ rằng Mai đã ngủ</item>
+      <item id="n3" alignment="c3" line="687" tag="G">1SG think COMP 1SG think COMP Mai PST sleep</item>
+      <item id="n4" alignment="c4" line="688" tag="T">I think that I think that Mai slept.</item>
+    </tier>
+  </igt>
+  <igt id="igt102" doc-id="lgcol:vie" line-range="689-691" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="689" tag="M">  author vetted: f</item>
+      <item id="r2" line="690" tag="L">  Mai ăn phở</item>
+      <item id="r3" line="691" tag="G">  Mai eat noodles</item>
+      <item id="r4" line="692" tag="T">  "Mai eats noodles"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="689" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="690" tag="L">  Mai ăn phở</item>
+      <item id="c3" alignment="r3" line="691" tag="G">  Mai eat noodles</item>
+      <item id="c4" alignment="r4" line="692" tag="T">  "Mai eats noodles"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="689" tag="M">f</item>
+      <item id="n2" alignment="c2" line="690" tag="L">Mai ăn phở</item>
+      <item id="n3" alignment="c3" line="691" tag="G">Mai eat noodles</item>
+      <item id="n4" alignment="c4" line="692" tag="T">Mai eats noodles</item>
+    </tier>
+  </igt>
+  <igt id="igt103" doc-id="lgcol:vie" line-range="693-695" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="693" tag="M">  author vetted: f</item>
+      <item id="r2" line="694" tag="L">  Mai thì ăn phở</item>
+      <item id="r3" line="695" tag="G">  Mai TOP.CONT eat noodles</item>
+      <item id="r4" line="696" tag="T">  "As for Mai, she eats noodles"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="693" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="694" tag="L">  Mai thì ăn phở</item>
+      <item id="c3" alignment="r3" line="695" tag="G">  Mai TOP.CONT eat noodles</item>
+      <item id="c4" alignment="r4" line="696" tag="T">  "As for Mai, she eats noodles"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="693" tag="M">f</item>
+      <item id="n2" alignment="c2" line="694" tag="L">Mai thì ăn phở</item>
+      <item id="n3" alignment="c3" line="695" tag="G">Mai TOP.CONT eat noodles</item>
+      <item id="n4" alignment="c4" line="696" tag="T">As for Mai, she eats noodles</item>
+    </tier>
+  </igt>
+  <igt id="igt104" doc-id="lgcol:vie" line-range="697-699" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="697" tag="M">  author vetted: f</item>
+      <item id="r2" line="698" tag="L">  phở thì Mai ăn</item>
+      <item id="r3" line="699" tag="G">  noodles TOP.CONT Mai eat</item>
+      <item id="r4" line="700" tag="T">  "As for noodles, Mai eats them (but not something else)"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="697" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="698" tag="L">  phở thì Mai ăn</item>
+      <item id="c3" alignment="r3" line="699" tag="G">  noodles TOP.CONT Mai eat</item>
+      <item id="c4" alignment="r4" line="700" tag="T">  "As for noodles, Mai eats them (but not something else)"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="697" tag="M">f</item>
+      <item id="n2" alignment="c2" line="698" tag="L">phở thì Mai ăn</item>
+      <item id="n3" alignment="c3" line="699" tag="G">noodles TOP.CONT Mai eat</item>
+      <item id="n4" alignment="c4" line="700" tag="T">As for noodles, Mai eats them (but not something else)</item>
+    </tier>
+  </igt>
+  <igt id="igt105" doc-id="lgcol:vie" line-range="701-703" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="701" tag="M">  author vetted: f</item>
+      <item id="r2" line="702" tag="L">  phở Mai ăn</item>
+      <item id="r3" line="703" tag="G">  noodles Mai eat</item>
+      <item id="r4" line="704" tag="T">  "Noodles, Mai eats"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="701" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="702" tag="L">  phở Mai ăn</item>
+      <item id="c3" alignment="r3" line="703" tag="G">  noodles Mai eat</item>
+      <item id="c4" alignment="r4" line="704" tag="T">  "Noodles, Mai eats"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="701" tag="M">f</item>
+      <item id="n2" alignment="c2" line="702" tag="L">phở Mai ăn</item>
+      <item id="n3" alignment="c3" line="703" tag="G">noodles Mai eat</item>
+      <item id="n4" alignment="c4" line="704" tag="T">Noodles, Mai eats</item>
+    </tier>
+  </igt>
+  <igt id="igt106" doc-id="lgcol:vie" line-range="713-715" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="713" tag="M">  author vetted: f</item>
+      <item id="r2" line="714" tag="L">  cái gái ăn phở</item>
+      <item id="r3" line="715" tag="G">  FOC girl eat noodles</item>
+      <item id="r4" line="716" tag="T">  "GIRLS eat noodles"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="713" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="714" tag="L">  cái gái ăn phở</item>
+      <item id="c3" alignment="r3" line="715" tag="G">  FOC girl eat noodles</item>
+      <item id="c4" alignment="r4" line="716" tag="T">  "GIRLS eat noodles"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="713" tag="M">f</item>
+      <item id="n2" alignment="c2" line="714" tag="L">cái gái ăn phở</item>
+      <item id="n3" alignment="c3" line="715" tag="G">FOC girl eat noodles</item>
+      <item id="n4" alignment="c4" line="716" tag="T">GIRLS eat noodles</item>
+    </tier>
+  </igt>
+  <igt id="igt107" doc-id="lgcol:vie" line-range="717-719" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="717" tag="M">  author vetted: f</item>
+      <item id="r2" line="718" tag="L">  Mai ăn cái phở</item>
+      <item id="r3" line="719" tag="G">  Mai eat FOC noodles</item>
+      <item id="r4" line="720" tag="T">  "Mai eats NOODLES"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="717" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="718" tag="L">  Mai ăn cái phở</item>
+      <item id="c3" alignment="r3" line="719" tag="G">  Mai eat FOC noodles</item>
+      <item id="c4" alignment="r4" line="720" tag="T">  "Mai eats NOODLES"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="717" tag="M">f</item>
+      <item id="n2" alignment="c2" line="718" tag="L">Mai ăn cái phở</item>
+      <item id="n3" alignment="c3" line="719" tag="G">Mai eat FOC noodles</item>
+      <item id="n4" alignment="c4" line="720" tag="T">Mai eats NOODLES</item>
+    </tier>
+  </igt>
+  <igt id="igt108" doc-id="lgcol:vie" line-range="721-723" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="721" tag="M">  author vetted: f</item>
+      <item id="r2" line="722" tag="L">  cái Mai ăn phở</item>
+      <item id="r3" line="723" tag="G">  FOC Mai eat noodles</item>
+      <item id="r4" line="724" tag="T">  "MAI eats noodles"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="721" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="722" tag="L">  cái Mai ăn phở</item>
+      <item id="c3" alignment="r3" line="723" tag="G">  FOC Mai eat noodles</item>
+      <item id="c4" alignment="r4" line="724" tag="T">  "MAI eats noodles"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="721" tag="M">f</item>
+      <item id="n2" alignment="c2" line="722" tag="L">cái Mai ăn phở</item>
+      <item id="n3" alignment="c3" line="723" tag="G">FOC Mai eat noodles</item>
+      <item id="n4" alignment="c4" line="724" tag="T">MAI eats noodles</item>
+    </tier>
+  </igt>
+  <igt id="igt109" doc-id="lgcol:vie" line-range="725-727" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="725" tag="M">  author vetted: f</item>
+      <item id="r2" line="726" tag="L">  Mai thì ăn cái phở</item>
+      <item id="r3" line="727" tag="G">  Mai TOP.CONT eat FOC noodles</item>
+      <item id="r4" line="728" tag="T">  "As for Mai, she eats NOODLES"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="725" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="726" tag="L">  Mai thì ăn cái phở</item>
+      <item id="c3" alignment="r3" line="727" tag="G">  Mai TOP.CONT eat FOC noodles</item>
+      <item id="c4" alignment="r4" line="728" tag="T">  "As for Mai, she eats NOODLES"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="725" tag="M">f</item>
+      <item id="n2" alignment="c2" line="726" tag="L">Mai thì ăn cái phở</item>
+      <item id="n3" alignment="c3" line="727" tag="G">Mai TOP.CONT eat FOC noodles</item>
+      <item id="n4" alignment="c4" line="728" tag="T">As for Mai, she eats NOODLES</item>
+    </tier>
+  </igt>
+  <igt id="igt110" doc-id="lgcol:vie" line-range="733-735" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="733" tag="M">  author vetted: f</item>
+      <item id="r2" line="734" tag="L">  cái phở Mai ăn</item>
+      <item id="r3" line="735" tag="G">  FOC noodles Mai eat</item>
+      <item id="r4" line="736" tag="T">  "NOODLES, Mai eats"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="733" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="734" tag="L">  cái phở Mai ăn</item>
+      <item id="c3" alignment="r3" line="735" tag="G">  FOC noodles Mai eat</item>
+      <item id="c4" alignment="r4" line="736" tag="T">  "NOODLES, Mai eats"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="733" tag="M">f</item>
+      <item id="n2" alignment="c2" line="734" tag="L">cái phở Mai ăn</item>
+      <item id="n3" alignment="c3" line="735" tag="G">FOC noodles Mai eat</item>
+      <item id="n4" alignment="c4" line="736" tag="T">NOODLES, Mai eats</item>
+    </tier>
+  </igt>
+  <igt id="igt111" doc-id="lgcol:vie" line-range="737-739" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="737" tag="M">  author vetted: f</item>
+      <item id="r2" line="738" tag="L">  ở Hà_Nội tôi sống</item>
+      <item id="r3" line="739" tag="G">  in Hanoi 1SG live</item>
+      <item id="r4" line="740" tag="T">  "In Hanoi, I live"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="737" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="738" tag="L">  ở Hà_Nội tôi sống</item>
+      <item id="c3" alignment="r3" line="739" tag="G">  in Hanoi 1SG live</item>
+      <item id="c4" alignment="r4" line="740" tag="T">  "In Hanoi, I live"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="737" tag="M">f</item>
+      <item id="n2" alignment="c2" line="738" tag="L">ở Hà_Nội tôi sống</item>
+      <item id="n3" alignment="c3" line="739" tag="G">in Hanoi 1SG live</item>
+      <item id="n4" alignment="c4" line="740" tag="T">In Hanoi, I live</item>
+    </tier>
+  </igt>
+  <igt id="igt112" doc-id="lgcol:vie" line-range="741-743" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="741" tag="M">  author vetted: f</item>
+      <item id="r2" line="742" tag="L">  ở Hà_Nội thì tôi sống</item>
+      <item id="r3" line="743" tag="G">  in Hanoi TOP 1SG live</item>
+      <item id="r4" line="744" tag="T">  "As for Hanoi, I live there" </item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="741" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="742" tag="L">  ở Hà_Nội thì tôi sống</item>
+      <item id="c3" alignment="r3" line="743" tag="G">  in Hanoi TOP 1SG live</item>
+      <item id="c4" alignment="r4" line="744" tag="T">  "As for Hanoi, I live there" </item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="741" tag="M">f</item>
+      <item id="n2" alignment="c2" line="742" tag="L">ở Hà_Nội thì tôi sống</item>
+      <item id="n3" alignment="c3" line="743" tag="G">in Hanoi TOP 1SG live</item>
+      <item id="n4" alignment="c4" line="744" tag="T">As for Hanoi, I live there</item>
+    </tier>
+  </igt>
+  <igt id="igt113" doc-id="lgcol:vie" line-range="745-747" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="745" tag="M">  author vetted: f</item>
+      <item id="r2" line="746" tag="L">  chó đuổi xe</item>
+      <item id="r3" line="747" tag="G">  dog chase car</item>
+      <item id="r4" line="748" tag="T">  "Dogs chase cars"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="745" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="746" tag="L">  chó đuổi xe</item>
+      <item id="c3" alignment="r3" line="747" tag="G">  dog chase car</item>
+      <item id="c4" alignment="r4" line="748" tag="T">  "Dogs chase cars"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="745" tag="M">f</item>
+      <item id="n2" alignment="c2" line="746" tag="L">chó đuổi xe</item>
+      <item id="n3" alignment="c3" line="747" tag="G">dog chase car</item>
+      <item id="n4" alignment="c4" line="748" tag="T">Dogs chase cars</item>
+    </tier>
+  </igt>
+  <igt id="igt114" doc-id="lgcol:vie" line-range="749-751" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="749" tag="M">  author vetted: f</item>
+      <item id="r2" line="750" tag="L">  Tôi đuổi mày</item>
+      <item id="r3" line="751" tag="G">  1SG chase 2SG</item>
+      <item id="r4" line="752" tag="T">  "I chase you"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="749" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="750" tag="L">  Tôi đuổi mày</item>
+      <item id="c3" alignment="r3" line="751" tag="G">  1SG chase 2SG</item>
+      <item id="c4" alignment="r4" line="752" tag="T">  "I chase you"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="749" tag="M">f</item>
+      <item id="n2" alignment="c2" line="750" tag="L">Tôi đuổi mày</item>
+      <item id="n3" alignment="c3" line="751" tag="G">1SG chase 2SG</item>
+      <item id="n4" alignment="c4" line="752" tag="T">I chase you</item>
+    </tier>
+  </igt>
+  <igt id="igt115" doc-id="lgcol:vie" line-range="753-755" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="753" tag="M">  author vetted: f</item>
+      <item id="r2" line="754" tag="L">  con chó này ngủ</item>
+      <item id="r3" line="755" tag="G">  CLF.animal dog DEM.PROX sleep</item>
+      <item id="r4" line="756" tag="T">  "These dogs sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="753" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="754" tag="L">  con chó này ngủ</item>
+      <item id="c3" alignment="r3" line="755" tag="G">  CLF.animal dog DEM.PROX sleep</item>
+      <item id="c4" alignment="r4" line="756" tag="T">  "These dogs sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="753" tag="M">f</item>
+      <item id="n2" alignment="c2" line="754" tag="L">con chó này ngủ</item>
+      <item id="n3" alignment="c3" line="755" tag="G">CLF.animal dog DEM.PROX sleep</item>
+      <item id="n4" alignment="c4" line="756" tag="T">These dogs sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt116" doc-id="lgcol:vie" line-range="757-759" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="757" tag="M">  author vetted: f</item>
+      <item id="r2" line="758" tag="L">  Tôi nghĩ rằng mày biết rằng chó đuổi xe</item>
+      <item id="r3" line="759" tag="G">  1SG think COMP 2SG know COMP dog chase car</item>
+      <item id="r4" line="760" tag="T">  "I think that you know that dogs chase cars"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="757" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="758" tag="L">  Tôi nghĩ rằng mày biết rằng chó đuổi xe</item>
+      <item id="c3" alignment="r3" line="759" tag="G">  1SG think COMP 2SG know COMP dog chase car</item>
+      <item id="c4" alignment="r4" line="760" tag="T">  "I think that you know that dogs chase cars"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="757" tag="M">f</item>
+      <item id="n2" alignment="c2" line="758" tag="L">Tôi nghĩ rằng mày biết rằng chó đuổi xe</item>
+      <item id="n3" alignment="c3" line="759" tag="G">1SG think COMP 2SG know COMP dog chase car</item>
+      <item id="n4" alignment="c4" line="760" tag="T">I think that you know that dogs chase cars</item>
+    </tier>
+  </igt>
+  <igt id="igt117" doc-id="lgcol:vie" line-range="761-763" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="761" tag="M">  author vetted: f</item>
+      <item id="r2" line="762" tag="L">  Tôi hỏi rằng mày biết rằng chó đuổi xe</item>
+      <item id="r3" line="763" tag="G">  1SG ask COMP 2SG know COMP dog chase car</item>
+      <item id="r4" line="764" tag="T">  "I ask whether you know that dogs chase cars"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="761" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="762" tag="L">  Tôi hỏi rằng mày biết rằng chó đuổi xe</item>
+      <item id="c3" alignment="r3" line="763" tag="G">  1SG ask COMP 2SG know COMP dog chase car</item>
+      <item id="c4" alignment="r4" line="764" tag="T">  "I ask whether you know that dogs chase cars"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="761" tag="M">f</item>
+      <item id="n2" alignment="c2" line="762" tag="L">Tôi hỏi rằng mày biết rằng chó đuổi xe</item>
+      <item id="n3" alignment="c3" line="763" tag="G">1SG ask COMP 2SG know COMP dog chase car</item>
+      <item id="n4" alignment="c4" line="764" tag="T">I ask whether you know that dogs chase cars</item>
+    </tier>
+  </igt>
+  <igt id="igt118" doc-id="lgcol:vie" line-range="765-767" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="765" tag="M">  author vetted: f</item>
+      <item id="r2" line="766" tag="L">  mèo và chó đuổi xe</item>
+      <item id="r3" line="767" tag="G">  cat and dog chase car</item>
+      <item id="r4" line="768" tag="T">  "Cats and dogs chase cars"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="765" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="766" tag="L">  mèo và chó đuổi xe</item>
+      <item id="c3" alignment="r3" line="767" tag="G">  cat and dog chase car</item>
+      <item id="c4" alignment="r4" line="768" tag="T">  "Cats and dogs chase cars"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="765" tag="M">f</item>
+      <item id="n2" alignment="c2" line="766" tag="L">mèo và chó đuổi xe</item>
+      <item id="n3" alignment="c3" line="767" tag="G">cat and dog chase car</item>
+      <item id="n4" alignment="c4" line="768" tag="T">Cats and dogs chase cars</item>
+    </tier>
+  </igt>
+  <igt id="igt119" doc-id="lgcol:vie" line-range="769-771" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="769" tag="M">  author vetted: f</item>
+      <item id="r2" line="770" tag="L">  chó đuổi xe và mèo đuổi chó</item>
+      <item id="r3" line="771" tag="G">  dog chase car and cat chase dog</item>
+      <item id="r4" line="772" tag="T">  "Dogs chase cars and cats chase dogs"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="769" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="770" tag="L">  chó đuổi xe và mèo đuổi chó</item>
+      <item id="c3" alignment="r3" line="771" tag="G">  dog chase car and cat chase dog</item>
+      <item id="c4" alignment="r4" line="772" tag="T">  "Dogs chase cars and cats chase dogs"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="769" tag="M">f</item>
+      <item id="n2" alignment="c2" line="770" tag="L">chó đuổi xe và mèo đuổi chó</item>
+      <item id="n3" alignment="c3" line="771" tag="G">dog chase car and cat chase dog</item>
+      <item id="n4" alignment="c4" line="772" tag="T">Dogs chase cars and cats chase dogs</item>
+    </tier>
+  </igt>
+  <igt id="igt120" doc-id="lgcol:vie" line-range="773-775" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="773" tag="M">  author vetted: f</item>
+      <item id="r2" line="774" tag="L">  mèo đuổi chó và ngủ</item>
+      <item id="r3" line="775" tag="G">  cat chase dog and sleep</item>
+      <item id="r4" line="776" tag="T">  "Cats chase dogs and sleep"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="773" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="774" tag="L">  mèo đuổi chó và ngủ</item>
+      <item id="c3" alignment="r3" line="775" tag="G">  cat chase dog and sleep</item>
+      <item id="c4" alignment="r4" line="776" tag="T">  "Cats chase dogs and sleep"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="773" tag="M">f</item>
+      <item id="n2" alignment="c2" line="774" tag="L">mèo đuổi chó và ngủ</item>
+      <item id="n3" alignment="c3" line="775" tag="G">cat chase dog and sleep</item>
+      <item id="n4" alignment="c4" line="776" tag="T">Cats chase dogs and sleep</item>
+    </tier>
+  </igt>
+  <igt id="igt121" doc-id="lgcol:vie" line-range="777-779" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="777" tag="M">  author vetted: f</item>
+      <item id="r2" line="778" tag="L">  con chó đói ăn</item>
+      <item id="r3" line="779" tag="G">  CLF.animal dog hungry eat</item>
+      <item id="r4" line="780" tag="T">  "Hungry dogs eat"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="777" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="778" tag="L">  con chó đói ăn</item>
+      <item id="c3" alignment="r3" line="779" tag="G">  CLF.animal dog hungry eat</item>
+      <item id="c4" alignment="r4" line="780" tag="T">  "Hungry dogs eat"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="777" tag="M">f</item>
+      <item id="n2" alignment="c2" line="778" tag="L">con chó đói ăn</item>
+      <item id="n3" alignment="c3" line="779" tag="G">CLF.animal dog hungry eat</item>
+      <item id="n4" alignment="c4" line="780" tag="T">Hungry dogs eat</item>
+    </tier>
+  </igt>
+  <igt id="igt122" doc-id="lgcol:vie" line-range="781-783" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="781" tag="M">  author vetted: f</item>
+      <item id="r2" line="782" tag="L">  chó đói</item>
+      <item id="r3" line="783" tag="G">  dog hungry</item>
+      <item id="r4" line="784" tag="T">  "The dogs are hungry"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="781" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="782" tag="L">  chó đói</item>
+      <item id="c3" alignment="r3" line="783" tag="G">  dog hungry</item>
+      <item id="c4" alignment="r4" line="784" tag="T">  "The dogs are hungry"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="781" tag="M">f</item>
+      <item id="n2" alignment="c2" line="782" tag="L">chó đói</item>
+      <item id="n3" alignment="c3" line="783" tag="G">dog hungry</item>
+      <item id="n4" alignment="c4" line="784" tag="T">The dogs are hungry</item>
+    </tier>
+  </igt>
+  <igt id="igt123" doc-id="lgcol:vie" line-range="785-787" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="785" tag="M">  author vetted: f</item>
+      <item id="r2" line="786" tag="L">  chó ở công_viên</item>
+      <item id="r3" line="787" tag="G">  dog in park</item>
+      <item id="r4" line="788" tag="T">  "The dogs are in the park"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="785" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="786" tag="L">  chó ở công_viên</item>
+      <item id="c3" alignment="r3" line="787" tag="G">  dog in park</item>
+      <item id="c4" alignment="r4" line="788" tag="T">  "The dogs are in the park"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="785" tag="M">f</item>
+      <item id="n2" alignment="c2" line="786" tag="L">chó ở công_viên</item>
+      <item id="n3" alignment="c3" line="787" tag="G">dog in park</item>
+      <item id="n4" alignment="c4" line="788" tag="T">The dogs are in the park</item>
+    </tier>
+  </igt>
+  <igt id="igt124" doc-id="lgcol:vie" line-range="789-791" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="789" tag="M">  author vetted: f</item>
+      <item id="r2" line="790" tag="L">  chó là mèo</item>
+      <item id="r3" line="791" tag="G">  dog COP cat</item>
+      <item id="r4" line="792" tag="T">  "The dogs are the cats"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="789" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="790" tag="L">  chó là mèo</item>
+      <item id="c3" alignment="r3" line="791" tag="G">  dog COP cat</item>
+      <item id="c4" alignment="r4" line="792" tag="T">  "The dogs are the cats"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="789" tag="M">f</item>
+      <item id="n2" alignment="c2" line="790" tag="L">chó là mèo</item>
+      <item id="n3" alignment="c3" line="791" tag="G">dog COP cat</item>
+      <item id="n4" alignment="c4" line="792" tag="T">The dogs are the cats</item>
+    </tier>
+  </igt>
+  <igt id="igt125" doc-id="lgcol:vie" line-range="793-795" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="793" tag="M">  author vetted: f</item>
+      <item id="r2" line="794" tag="L">  chó-FP đuổi mèo</item>
+      <item id="r3" line="795" tag="G">  dog-FP chase cat</item>
+      <item id="r4" line="796" tag="T">  "The DOGS chase the cats"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="793" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="794" tag="L">  chó-FP đuổi mèo</item>
+      <item id="c3" alignment="r3" line="795" tag="G">  dog-FP chase cat</item>
+      <item id="c4" alignment="r4" line="796" tag="T">  "The DOGS chase the cats"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="793" tag="M">f</item>
+      <item id="n2" alignment="c2" line="794" tag="L">chó-FP đuổi mèo</item>
+      <item id="n3" alignment="c3" line="795" tag="G">dog-FP chase cat</item>
+      <item id="n4" alignment="c4" line="796" tag="T">The DOGS chase the cats</item>
+    </tier>
+  </igt>
+  <igt id="igt126" doc-id="lgcol:vie" line-range="797-799" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="797" tag="M">  author vetted: f</item>
+      <item id="r2" line="798" tag="L">  chó đuổi-FP mèo</item>
+      <item id="r3" line="799" tag="G">  dog chase-FP cat</item>
+      <item id="r4" line="800" tag="T">  "The dogs CHASE the cats"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="797" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="798" tag="L">  chó đuổi-FP mèo</item>
+      <item id="c3" alignment="r3" line="799" tag="G">  dog chase-FP cat</item>
+      <item id="c4" alignment="r4" line="800" tag="T">  "The dogs CHASE the cats"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="797" tag="M">f</item>
+      <item id="n2" alignment="c2" line="798" tag="L">chó đuổi-FP mèo</item>
+      <item id="n3" alignment="c3" line="799" tag="G">dog chase-FP cat</item>
+      <item id="n4" alignment="c4" line="800" tag="T">The dogs CHASE the cats</item>
+    </tier>
+  </igt>
+  <igt id="igt127" doc-id="lgcol:vie" line-range="801-803" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="801" tag="M">  author vetted: f</item>
+      <item id="r2" line="802" tag="L">  chó đuổi mèo-FP</item>
+      <item id="r3" line="803" tag="G">  dog chase cat-FP</item>
+      <item id="r4" line="804" tag="T">  "The dogs chase the CATS"</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="801" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="802" tag="L">  chó đuổi mèo-FP</item>
+      <item id="c3" alignment="r3" line="803" tag="G">  dog chase cat-FP</item>
+      <item id="c4" alignment="r4" line="804" tag="T">  "The dogs chase the CATS"</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="801" tag="M">f</item>
+      <item id="n2" alignment="c2" line="802" tag="L">chó đuổi mèo-FP</item>
+      <item id="n3" alignment="c3" line="803" tag="G">dog chase cat-FP</item>
+      <item id="n4" alignment="c4" line="804" tag="T">The dogs chase the CATS</item>
+    </tier>
+  </igt>
+  <igt id="igt128" doc-id="lgcol:vie" line-range="805-807" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="805" tag="M">  author vetted: f</item>
+      <item id="r2" line="806" tag="L">  chó ăn nhanh_chóng</item>
+      <item id="r3" line="807" tag="G">  dog eat quickly</item>
+      <item id="r4" line="808" tag="T">  "Dogs eat quickly" </item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="805" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="806" tag="L">  chó ăn nhanh_chóng</item>
+      <item id="c3" alignment="r3" line="807" tag="G">  dog eat quickly</item>
+      <item id="c4" alignment="r4" line="808" tag="T">  "Dogs eat quickly" </item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="805" tag="M">f</item>
+      <item id="n2" alignment="c2" line="806" tag="L">chó ăn nhanh_chóng</item>
+      <item id="n3" alignment="c3" line="807" tag="G">dog eat quickly</item>
+      <item id="n4" alignment="c4" line="808" tag="T">Dogs eat quickly</item>
+    </tier>
+  </igt>
+</xigt-corpus>

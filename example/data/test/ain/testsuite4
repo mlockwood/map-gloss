@@ -1,0 +1,1173 @@
+Language: Ainu
+Language code: ain
+Author: Mami Sasaki
+Date: January 16, 2009
+Source a: <Complete predicate formation to Ainu>
+Source b: <The Ainu Language by Kirsten Refsing>
+Source c: <Ainu-go hou gaisetsu>
+Source d: <Ainu-go kou vol.4>
+Source e: <Ainu-go kou vol.5>
+Source f: <The Ainu Language by Suzuko Tamura>
+
+#Ex 1-6 
+#The word order of transitive verbs
+#Ex1
+#Grammatical sentence
+Source: a:18
+Vetted: t
+Judgment: g
+Phenomena: wo
+seta cape kesanpa.
+seta cape kesanpa
+dog cat chase
+`A dog chased a cat.'
+
+#Ex 2
+#Ungrammatical sentence
+Source: a:18
+Vetted: t
+Judgment: u
+Phenomena: wo
+seta kesanpa cape.
+seta kesanpa cape
+dog  chase cat
+`A dog chased a cat.'
+
+#Ex 3
+#Ungrammatical sentence
+Source: a:18
+Vetted: t
+Judgment: u
+Phenomena: wo
+kesanpa seta cape.
+kesanpa seta cape
+chase dog cat
+`A dog chased a cat.'
+
+#Ex 4
+#Ungrammatical sentence
+Source: a:18
+Vetted: t
+Judgment: u
+Phenomena: wo
+kesanpa cape seta.
+kesanpa cape seta
+chase cat dog
+`A dog chased a cat.'
+
+#Ex 5
+#Grammatical sentence
+Source: a:18
+Vetted: t
+Judgment: g
+Phenomena: wo
+cape seta kesanpa.
+cape seta kesanpa
+cat dog chase
+`A cat chased a dog.'
+
+
+#Ex 6
+#Ungrammatical sentence
+Source: a:18
+Vetted: f
+Judgment: u
+Phenomena: wo
+cape kesanpa seta.
+cape kesanpa seta
+cat chase dog
+`A cat chased a dog.'
+
+
+#Ex 7-8
+#For the word order of intransitive verbs
+#Ex 7
+#Grammatical sentence
+Source: e:233
+Vetted: f
+Judgment: g
+Phenomena: wo
+hekaci mina.
+hekaci mina
+boy laugh
+`A boy laughed.'
+
+#Ex 8
+#Ungrammatical sentence
+Source: e:233
+Vetted: f
+Judgment: u
+Phenomena: wo
+mina hekaci.
+mina hekaci
+laugh boy
+`A boy laughed.'
+
+
+#Ex 9-10
+#For the word order of definite articles
+#Nouns optionally allow determiners
+#Ex 9
+#Grammatical sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+nea hekaci mina.
+nea hekaci mina
+that boy laugh
+`that boy laughed.'
+
+#Ex 10
+#Ungrammatical sentence
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {det, wo}
+hekaci nea mina.
+hekaci nea mina
+boy that laugh
+`that boy laughed.'
+
+#Ex 11-12
+#For the word order of personal nouns.
+#Personal nouns disallow determiners.
+#Ex 11
+#Grammatical sentence
+Source: e:236
+Vetted: f
+Judgment: g
+Phenomena: wo
+ku mina.
+ku mina
+1sg-NOM laugh
+`I laughed.' 
+
+#Ex 12
+#Ungrammatical sentence 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+nea ku mina.
+nea ku mina
+that 1sg-NOM laugh
+`that I laughed.' 
+
+#Ex 13
+#For the 1sg pronoun + 1sg nom. noun + intrans verb.
+#Personal pronouns are optional.
+#Grammatical sentence
+Source: e:236
+Vetted: f
+Judgment: g
+Phenomena: wo
+kani ku mina.
+kani ku mina
+1sg-PRON 1sg-NOM laugh
+`I laughed.'
+
+#Ex 14-32
+#For the case
+#For the 1sg pronoun + 1sg nom. + trans. verb.
+#Grammatical sentence
+Source: e:236
+Vetted: f
+Judgment: g
+Phenomena: c
+kani hekaci ku nukar.
+kani hekaci ku nukar
+1sg-PRON boy 1sg-NOM see
+`I see a boy.'
+
+#Ex 15
+#For the 1sg pronoun + 1sg acc. + trans. verb.
+#Grammatical sentence
+Source: e:236
+Vetted: f
+Judgment: g
+Phenomena: wo
+hekaci kani en nukar.
+hekaci kani en nukar
+boy 1sg-PRON 1sg-OBJ see
+`A boy sees me.'
+
+#Ex 16
+#Ungrammatical sentence
+#en is 1sg acc. noun.
+Source: e:236
+Vetted: f
+Judgment: u
+Phenomena: c
+en mina.
+en mina
+1sg-OBJ laugh
+`I laughed.'
+
+#Ex 17
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: g
+Phenomena: c
+eci nukar.
+ku-e nukar
+1sg-NOM 2sg-OBJ see
+`I see you.'
+
+#Ex 18
+#Ungrammatical sentence
+Source: d:225
+Vetted: f
+Judgment: u
+Phenomena: c
+e nukar.
+ku-e nukar
+1sg-NOM 2sg-OBJ see
+`I see you.'
+
+#Ex 19
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: g
+Phenomena: c
+eci nukar.
+ku-eci nukar
+1sg-NOM 2pl-OBJ see
+`I see you guys.'
+
+#Ex 20
+#Ungrammatical sentence
+Source: d:225
+Vetted: f
+Judgment: u
+Phenomena: c
+e nukar.
+ku-eci nukar
+1sg-NOM 2pl-OBJ see
+`I see you guys.'
+
+#Ex 21
+#Grammatical sentence 
+Source: d:225
+Vetted: f
+Judgment: g
+Phenomena: c
+eci nukar.
+ci-e nukar
+1pl-NOM 2sg-OBJ see
+`we see you.'
+
+#Ex 22
+#Ungrammatical sentence 
+Source: d:225
+Vetted: f
+Judgment: u
+Phenomena: c
+e nukar.
+ci-e nukar
+1pl-NOM 2sg-OBJ see
+`we see you.'
+
+#Ex 23
+#Grammatical sentence 
+Source: d:225
+Vetted: f
+Judgment: g
+Phenomena: c
+eci nukar.
+ci-eci nukar
+1pl-NOM 2pl-OBJ see
+`we see you guys.'
+
+#Ex 24
+#Ungrammatical sentence 
+Source: d:225
+Vetted: f
+Judgment: u
+Phenomena: c
+e nukar.
+ci-eci nukar
+1pl-NOM 2pl-OBJ see
+`we see you guys.'
+
+#Ex 25
+#Grammatical sentence
+Source: d:227
+Vetted: f
+Judgment: g
+Phenomena: c
+en nukar.
+e-en nukar
+2sg-NOM 1sg-OBJ see
+`you see me.'
+
+#Ex 26
+#Ungrammatical sentence
+Source: d:227
+Vetted: f
+Judgment: u
+Phenomena: c
+ku nukar.
+e-en nukar
+2sg-NOM 1sg-OBJ see
+`you see me.'
+
+#Ex 27
+#Grammatical sentence
+Source: d:227
+Vetted: f
+Judgment: g
+Phenomena: c
+un nukar.
+e-un nukar
+2sg-NOM 1pl-OBJ see
+`you see us.'
+
+#Ex 28
+#Ungrammatical sentence
+Source: d:227
+Vetted: f
+Judgment: u
+Phenomena: c
+ci nukar.
+e-un nukar
+2sg-NOM 1pl-OBJ see
+`you see us.'
+
+#Ex 29
+#Grammatical sentence
+Source: d:228
+Vetted: f
+Judgment: g
+Phenomena: c
+eci en nukar.
+eci en nukar
+2pl-NOM 1sg-OBJ see
+`you guys see me.'
+
+#Ex 30
+#Ungrammatical sentence
+Source: d:228
+Vetted: f
+Judgment: u
+Phenomena: c
+eci ku nukar.
+eci en nukar
+2pl-NOM 1sg-OBJ see
+`you guys see me.'
+
+#Ex 31
+#Grammatical sentence
+Source: d:228
+Vetted: f
+Judgment: g
+Phenomena: c
+eci un nukar.
+eci un nukar
+2pl-NOM 1pl-OBJ see
+`you guys see us.'
+
+#Ex 32
+#Ungrammatical sentence
+Source: d:228
+Vetted: f
+Judgment: u
+Phenomena: c
+eci ci nukar.
+eci un nukar
+2pl-NOM 1pl-OBJ see
+`you guys see us.'
+
+
+#Ex 33-36
+#For the agreement
+#Ex 33
+#Grammatical sentence
+Source: {c:151, e:236}
+Vetted: f
+Judgment: g
+Phenomena: agr
+hekaci ahun.
+hekaci ahun
+boy enter-sg
+`A boy entered.'
+
+#Ex 34
+#Ungrammatical sentence
+Source: {c:151, e:236}
+Vetted: f
+Judgment: g
+Phenomena: agr
+hekaci ahup.
+hekaci ahup
+boy enter-pl
+`(more than 2)boys entered.'
+
+#Ex 35
+#Grammatical sentence
+Source: {c:151, e:236}
+Vetted: f
+Judgment: g
+Phenomena: agr
+inne hekaci ahup.
+inne hekaci ahup
+many boy enter
+`Many boys entered.'
+
+#Ex 36
+#Ungrammatical sentence
+Source: {c:151, e:236}
+Vetted: f
+Judgment: u
+Phenomena: agr
+inne hekaci ahun.
+inne hekaci ahun
+many boy enter
+`Many boys entered.'
+
+#Ex 37
+#tense/aspect
+#Grammatical sentence
+#Source: e:235
+#Vetted: f
+#Judgment: u
+#Phenomena: agr
+#acapo numan ek.
+#acapo numan ek
+#uncle yesterday come
+#`An uncle came yesterday.'
+
+#Ex 38
+#Grammatical sentence
+#Source: e:235
+#Vetted: f
+#Judgment: u
+#Phenomena: agr
+#acapo nisatta ek.
+#acapo nisatta ek
+#uncle tomorrow come
+#`An uncle will come tomorrow.'
+
+#Ex 37-42
+#For the negation
+#Ex 37
+#Grammatical sentence
+Source: e:235
+Vetted: f
+Judgment: g
+Phenomena: neg
+hekaci somo ek.
+hekaci somo ek
+boy not come
+`A boy doesn't come.'
+
+#Ex 38
+#Ungrammatical sentence
+Source: e:235
+Vetted: f
+Judgment: u
+Phenomena: neg
+hekaci ek somo.
+hekaci ek somo
+boy come no
+`A boy doesn't come.'
+
+#Ex 39
+#Ungrammatical sentence
+Source: e:235
+Vetted: f
+Judgment: u
+Phenomena: neg
+ek hekaci somo.
+ek hekaci somo
+come boy no
+`A boy doesn't come.'
+
+#Ex 40
+#Ungrammatical sentence
+Source: e:235
+Vetted: f
+Judgment: u
+Phenomena: neg
+ek somo hekaci.
+ek somo hekaci
+come no boy
+`A boy doesn't come.'
+
+#Ex 41
+#Ungrammatical sentence
+Source: e:235
+Vetted: f
+Judgment: u
+Phenomena: neg
+somo ek hekaci. 
+somo ek hekaci
+no come boy
+`A boy doesn't come.'
+
+#Ex 42
+#Ungrammatical sentence
+Source: e:235
+Vetted: f
+Judgment: u
+Phenomena: neg
+somo hekaci ek.
+somo hekaci ek
+no boy come
+`A boy doesn't come.'
+
+#Ex 43-48
+#For the yes/no questions
+#Ex 43
+#Grammatical sentence
+Source: e:147
+Vetted: f
+Judgment: g
+Phenomena: q
+hekaci ek ya?
+hekaci ek ya
+boy come QUES
+`Does a boy come?'
+
+#Ex 44
+#Ungrammatical sentence
+Source: e:147
+Vetted: f
+Judgment: u
+Phenomena: q
+hekaci ya ek?
+hekaci ya ek
+boy QUES come
+`Does a boy come?'
+
+#Ex 45
+#Ungrammatical sentence
+Source: e:147
+Vetted: f
+Judgment: u
+Phenomena: q
+ek hekaci ya?
+ek hekaci ya
+come boy QUES
+`Does a boy come?'
+
+#Ex 46
+#Ungrammatical sentence
+Source: e:147
+Vetted: f
+Judgment: u
+Phenomena: q
+ek ya hekaci?
+ek ya hekaci
+come QUES boy
+`Does a boy come?'
+
+#Ex 47
+#Ungrammatical sentence
+Source: e:147
+Vetted: f
+Judgment: u
+Phenomena: q
+ya hekaci ek?
+ya hekaci ek
+QUES boy come
+`Does a boy come?'
+
+#Ex 48
+#Ungrammatical sentence
+Source: e:147
+Vetted: f
+Judgment: u
+Phenomena: q
+ya ek hekaci?
+ya ek hekaci
+QUES come boy
+`Does a boy come?'
+
+#Ex 49-58
+#For the coordination
+#Ex 49
+#Grammatical sentence
+Source: b:162
+Vetted: f
+Judgment: g
+Phenomena: crd
+seta ka cape ek.
+seta ka cape ek
+dog and cat come
+`A dog and a cat come.'
+
+#Ex 50
+#Ungrammatical sentence
+Source: b:162
+Vetted: f
+Judgment: u
+Phenomena: crd
+seta cape ka ek.
+seta cape ka ek
+dog cat and come
+`A dog and a cat come.'
+
+#Ex 51
+#Ungrammatical sentence
+Source: b:162
+Vetted: f
+Judgment: u
+Phenomena: crd
+ka seta cape ek.
+ka seta cape ek
+and dog cat come
+`A dog and a cat come.'
+
+#Ex 52
+#Grammatical sentence
+Source: f:148
+Vetted: f
+Judgment: g
+Phenomena: crd
+seta ek wa cape ahun.
+seta ek wa cape ahun
+dog come and cat enter
+`A dog comes and a cat enters.'
+
+#Ex 53
+#Ungrammatical sentence
+Source: f:148
+Vetted: f
+Judgment: u
+Phenomena: crd
+seta ek cape ahun wa.
+seta ek cape ahun wa
+dog come cat enter and
+`A dog comes and a cat enters.'
+
+#Ex 54
+#Ungrammatical sentence
+Source: f:148
+Vetted: f
+Judgment: u
+Phenomena: crd
+seta wa cape ek.
+seta wa cape ek
+dog and cat come
+`A dog and a cat come.'
+
+#Ex 55
+#Ungrammatical sentence
+Source: f:148
+Vetted: f
+Judgment: u
+Phenomena: crd
+wa seta ek cape ahun.
+wa seta ek cape ahun
+and dog come cat come
+`A dog come and a cat come.'
+
+#Ex 56
+#Grammatical sentence
+Source: f:148
+Vetted: f
+Judgment: g
+Phenomena: crd
+hekaci ek wa mina.
+hekaci ek wa mina
+boy come and laugh
+`A boy come and laugh.'
+
+#Ex 57
+#Ungrammatical sentence
+Source: f:148
+Vetted: f
+Judgment: u
+Phenomena: crd
+hekaci ek ka mina.
+hekaci ek ka mina
+boy come and laugh
+`A boy come and laugh.'
+
+#Ex 58
+#Ungrammatical sentence
+Source: f:148
+Vetted: f
+Judgment: u
+Phenomena: crd
+hekaci ek mina wa.
+hekaci ek mina wa
+boy come laugh and
+`A boy come and laugh.'
+
+#Ex 59
+#Ungrammatical sentence
+Source: f:148
+Vetted: f
+Judgment: u
+Phenomena: crd
+wa hekaci ek mina.
+wa hekaci ek mina
+and boy come laugh
+`A boy come and laugh.'
+
+#Ex 60-64
+#For ditranstive verbs
+#Ex 60
+#Grammatical sentence
+Source: f:181
+Vetted: f
+Judgment: g
+Phenomena: wo
+hekaci poyson icen kore.
+hekaci poyson icen kore
+boy child money give
+`A boy gives money to the child.'
+
+#Ex 61
+#For ditranstive verbs
+#Ungrammatical sentence
+Source: f:181
+Vetted: f
+Judgment: u
+Phenomena: wo
+hekaci poyson kore icen.
+hekaci poyson kore icen
+boy child give money
+`A boy gives money to the child.'
+
+#Ex 62
+#For ditranstive verbs
+#Ungrammatical sentence
+Source: f:181
+Vetted: f
+Judgment: u
+Phenomena: wo
+kore hekaci poyson icen.
+kore hekaci poyson icen
+give boy child money
+`A boy gives money to the child.'
+
+#Ex 63
+#For ditranstive verbs
+#Ungrammatical sentence
+Source: f:181
+Vetted: f
+Judgment: u
+Phenomena: wo
+hekaci kore poyson icen.
+hekaci kore poyson icen
+boy give child money
+`A boy gives money to the child.'
+
+#Ex 64
+#For ditranstive verbs
+#Ungrammatical sentence
+Source: f:181
+Vetted: f
+Judgment: u
+Phenomena: wo
+hekaci poyson kore icen.
+hekaci poyson kore icen
+boy child give money
+`A boy gives money to the child.'
+
+#Ex 65-70
+#For the aspect
+#Ex 65
+#Grammatical sentence
+Source: c:115
+Vetted: f
+Judgment: g
+Phenomena: tam
+hekaci mina kane.
+hekaci mina kane
+boy laugh asp-DUR
+`A boy is laughing.'
+
+#Ex 66
+#Ungrammatical sentence
+Source: c:115
+Vetted: f
+Judgment: u
+Phenomena: tam
+hekaci kane mina.
+hekaci kane mina
+boy asp-DUR laugh
+`A boy is laughing.'
+
+#Ex 67
+#Ungrammatical sentence
+Source: c:115
+Vetted: f
+Judgment: u
+Phenomena: tam
+kane hekaci mina.
+kane hekaci mina
+asp-DUR boy laugh
+`A boy is laughing.'
+
+#Ex 68
+#Ungrammatical sentence
+Source: c:115
+Vetted: f
+Judgment: u
+Phenomena: tam
+kane mina hekaci.
+kane mina hekaci
+asp-DUR laugh boy
+`A boy is laughing.'
+
+#Ex 69
+#Ungrammatical sentence
+Source: c:115
+Vetted: f
+Judgment: u
+Phenomena: tam
+mina kane hekaci.
+mina kane hekaci
+laugh asp-DUR boy
+`A boy is laughing.'
+
+#Ex 70
+#Ungrammatical sentence
+Source: c:115
+Vetted: f
+Judgment: u
+Phenomena: tam
+mina hekaci kane.
+mina hekaci kane
+laugh boy asp-DUR
+`A boy is laughing.'
+
+#Ex 71
+#Grammatical sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: c
+hekaci cape nukar.
+hekaci cape nukar
+boy cat see
+'A boy sees a cat.'
+
+#Ex 72
+#Grammatical sentence
+Source: e:236
+Vetted: f
+Judgment: g
+Phenomena: wo
+hekaci en nukar.
+hekaci en nukar
+boy 1sg-PRON 1sg-OBJ see
+`A boy sees me.'
+
+#Ex 73-76
+#For argument optionality
+#Ex 73
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+eci kikkik.
+ku-e kikkik
+1sg-NOM 2sg-OBJ hit
+`I hit you.'
+
+#Ex 74
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: u
+Phenomena: pro-d
+ku eci kikkik.
+ku-e kikkik
+1sg-NOM 2sg-OBJ hit
+`I hit you.'
+
+#Ex 75
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: u
+Phenomena: pro-d
+ku kikkik.
+ku-e kikkik
+1sg-NOM 2sg-OBJ hit
+`I hit you.'
+
+#Ex 76
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: u
+Phenomena: pro-d
+kikkik.
+ku-e kikkik
+1sg-NOM 2sg-OBJ hit
+`I hit you.'
+
+#Ex 77
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+eci kikkik.
+ku-e kikkik
+1sg-NOM 2sg-OBJ hit
+`I hit you.'
+
+#Ex 78-79
+#For demonstratives(also #9-10)
+#Nouns optionally allow determiners
+#Ex 78
+#Grammatical sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+nerok hekaci mina.
+nerok hekaci mina
+that-pl boy laugh
+`those boys laughed.'
+
+#Ex 79
+#Ungrammatical sentence
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: det
+hekaci nerok mina.
+hekaci nerok mina
+boy that-pl laugh
+`those boys laughed.'
+
+#Ex 80-84
+#For adjectives
+#Ex 80
+#Grammatical sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+pirka seta ek.
+pirka seta ek
+beautiful dog come
+`A beautiful dog comes.'
+
+#Ex 81
+#Ungrammatical sentence
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+seta pirka ek.
+seta pirka ek
+boy that-pl laugh
+`A beautiful dog comes.'
+
+#Ex 82
+#Grammatical sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+pirka seta ka pirka cape ek.
+pirka seta ka pirka cape ek
+beautiful dog and beautiful cat come
+`A beautiful dog and a beautiful cat come.'
+
+#Ex 83
+#Grammatical sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+pirka seta ek wa pirka cape ahun.
+pirka seta ek wa pirka cape ahun
+beautiful dog come and beautiful cat enter
+`A beautiful dog comes and a beautiful cat enters.'
+
+#Ex 84
+#Ungrammatical sentence
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+seta cape nukar pirka.
+seta cape nukar pirka
+dog cat see beautiful
+`A beautiful dog looks at a cat.'
+
+#Ex 85-86
+#For adverbs
+#Ex 85
+#Grammatical sentence
+Source: f:26
+Vetted: f
+Judgment: g
+Phenomena: adv
+hekaci tunas ek.
+hekaci tunas ek
+boy early come
+`The boy came early.'
+
+#Ex 86
+#Ungrammatical sentence
+Source: f:26
+Vetted: f
+Judgment: u
+Phenomena: adv
+hekaci ek tunas.
+hekaci ek tunas
+boy come early
+`The boy came early.'
+
+#Ex 87-93
+#Non-verbal predicates
+#Ex 87
+#Grammatical sentence
+Source: f:26
+Vetted: f
+Judgment: g
+Phenomena: cop
+cise pirka.
+cise pirka
+house beautiful
+`The house is beautiful.'
+
+#Ex 88
+#Ungrammatical sentence
+Source: f:26
+Vetted: f
+Judgment: u
+Phenomena: cop
+pirka cise.
+pirka cise
+beautiful house
+`The house is beautiful.'
+
+#Ex 89
+#Grammatical sentence
+Source: e:46
+Vetted: f
+Judgment: g
+Phenomena: cop
+cape cise or ta an.
+cape cise or ta an
+cat house place in to-be
+`The cat is in the house.'
+
+#Ex 90
+#Ungrammatical sentence
+Source: e:46
+Vetted: f
+Judgment: u
+Phenomena: {cop, wo}
+cape cise or ta.
+cape cise or ta
+cat house place in
+`The cat is in the house.'
+
+#Ex 91
+#Ungrammatical sentence
+Source: e:46
+Vetted: f
+Judgment: u
+Phenomena: {cop, wo}
+ta cape cise or an.
+ta cape cise or an
+in cat house place to-be
+`The cat is in the house.'
+
+#Ex 92
+#Grammatical sentence
+Source: e:236
+Vetted: f
+Judgment: g
+Phenomena: cop
+kani menoko ku-ne.
+kani menoko ku-ne
+1sg-PRON girl COP
+`I am a girl.'
+
+#Ex 93
+#Ungrammatical sentence
+Source: e:236
+Vetted: f
+Judgment: u
+Phenomena: cop
+kani menoko.
+kani menoko
+1sg-PRON woman
+`I am a girl.'
+
+#Ex 94-99
+#For embedded clauses
+#Ex 94
+#Grammatical sentence
+Source: {c:193, author}
+Vetted: t
+Judgment: g
+Phenomena: emb-d
+seta cape kesanpa kuni ku ramu.
+seta cape kesanpa kuni ku ramu
+dog cat chase that 1sg-NOM think
+`I think that the dog chases the cat.'
+
+#Ex 95
+#Ungrammatical sentence
+Source: {c:193, author}
+Vetted: t
+Judgment: u
+Phenomena: {emb-d, wo}
+ku ramu seta cape kesanpa kuni.
+ku ramu seta cape kesanpa kuni 
+1sg-NOM think dog cat chase that
+`I think that the dog chases the cat.'
+
+#Ex 96
+#Ungrammatical sentence
+Source: {c:193, author}
+Vetted: t
+Judgment: u
+Phenomena: {emb-d, c}
+seta cape kesanpa kuni en ramu.
+seta cape kesanpa kuni en ramu
+dog cat chase that 1sg-OBJ think
+`I think that the dog chases the cat.'
+
+
+#Ex 97
+#Grammatical sentence
+Source: {f:162, author}
+Vetted: t
+Judgment: g
+Phenomena: emb-d
+hekaci ek ya ku konu.
+hekaci ek ya ku konu
+boy come if 1sg-NOM ask
+'I asked if the boy came.'
+
+#Ex 98
+#Ungrammatical sentence
+Source: {f:235, author}
+Vetted: t
+Judgment: u
+Phenomena: {emb-d, wo}
+ku konu ya hekaci ek.
+ku konu ya hekaci ek
+1sg-NOM ask if boy come
+'I asked if the boy came.'
+
+#Ex 99
+#Ungrammatical sentence
+Source: {f:235, author}
+Vetted: t
+Judgment: u
+Phenomena: {emb-d, wo}
+ya ku konu hekaci ek.
+ya ku konu hekaci ek
+if 1sg-NOM ask boy comes
+'I asked if the boy came.'
+

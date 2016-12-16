@@ -1,0 +1,121 @@
+Clean up:
+We fixed the passive rules, the lexical rule for can, the lexical rules for demonstratives, and the verb hierarchy to allow for verbs that take PPs as arguments.
+
+Passive rules:
+passive-lex-rule := objpernum-lex-rule & val-change-only-lex-rule & infl-ltol-rule &
+  [ SYNSEM.LOCAL.CAT.VAL [ SPR < >,
+			   SUBJ < >,
+			   SPEC < >,
+			   COMPS < [ OPT - ], [ OPT - ] > ] ].
+
+obj-final-passive-lex-rule := passive-lex-rule &
+  [ SYNSEM.LOCAL.CAT [ HEAD [ QUES #q,
+			      CONJOINED #c ],
+		       VAL [ COMPS < [ LOCAL [ CONT.HOOK.INDEX #subj-idx & [ INFO-STR focus ],
+					       CAT.HEAD adp & [ PARTICLE -,
+								QUES #q,
+								CONJOINED #c,
+								RAISED - ] ] ],
+				     [ LOCAL [ CONT.HOOK.INDEX #comps-idx,
+                                             CAT.HEAD noun & [ QUES - ] ] ] > ] ],
+    DTR.SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX #subj-idx,
+                               COMPS.FIRST.LOCAL.CONT.HOOK.INDEX #comps-idx ] ].
+
+obj-initial-passive-lex-rule := passive-lex-rule &
+  [ SYNSEM.LOCAL.CAT [ HEAD [ QUES #q,
+			      CONJOINED #c ],
+		       VAL [ COMPS < [ LOCAL [ CONT.HOOK.INDEX #comps-idx & [ INFO-STR focus ],
+					       CAT.HEAD noun & [ QUES - ] ] ],
+				     [ LOCAL [ CONT.HOOK.INDEX #subj-idx,
+					       CAT.HEAD adp & [ PARTICLE -,
+								QUES #q,
+								CONJOINED #c,
+								RAISED - ] ] ] > ] ],
+    DTR.SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX #subj-idx,
+                               COMPS.FIRST.LOCAL.CONT.HOOK.INDEX #comps-idx ] ].
+
+part-first-passive-lex-rule := passive-lex-rule &
+  [ SYNSEM.LOCAL.CAT [ HEAD [ QUES #q,
+			      CONJOINED #c ],
+		       VAL [ COMPS < [ LOCAL [ CONT.HOOK.INDEX #subj-idx,
+                                             CAT.HEAD adp & [ PARTICLE +,
+							      QUES #q,
+							      CONJOINED #c,
+							      RAISED - ] ] ],
+                                   [ LOCAL [ CONT.HOOK.INDEX #comps-idx,
+                                             CAT.HEAD noun & [ QUES - ] ] ] > ] ],
+    DTR.SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX #subj-idx,
+                               COMPS.FIRST.LOCAL.CONT.HOOK.INDEX #comps-idx ] ].
+
+
+Lexical Rule for can:
+can-lex-rule := aspect1-unspec-ccont-lex-rule &
+  [ C-CONT [ RELS <! arg1-ev-relation &
+                   [ PRED "_can_v_rel",
+		     LBL #ltop,
+                     ARG1 #harg ] !>,
+             HCONS <! qeq &
+                    [ HARG #harg,
+                      LARG #larg ] !>,
+             HOOK [ LTOP #larg,
+                    INDEX #arg0,
+                    XARG #xarg ] ],
+    DTR aspect1-rule-dtr &
+           [ SYNSEM.LOCAL [ CONT.HOOK [ LTOP #larg,
+                                        XARG #xarg,
+                                        INDEX #arg0 ],
+			    CAT.HEAD verb ] ],
+    SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop ].
+
+Demonstratives:
+location-lex-rule := inflecting-lex-rule & lexeme-to-lexeme-rule & cont-change-only-lex-rule &
+  [ SYNSEM [ LOCAL [ CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ DEFINITENESS def,
+                                                                    ATTENTION directed ],
+                     CAT.VAL [ SPR < >,
+                               COMPS < >,
+                               SUBJ < >,
+                               SPEC < [ LOCAL.CONT.HOOK [ INDEX #idx &
+                                                                [ COG-ST activ+fam,
+                                                                  PNG [ DEFINITENESS def,
+                                                                        ATTENTION directed ] ],
+                                                          LTOP #ltop ] ] > ],
+		     CONT.HOOK.INDEX #ind ],
+	     LKEYS [ ALTKEYREL #altkeyrel & arg1-ev-relation &
+			       [ LBL #ltop,
+				 ARG1 #idx ],
+		     KEYREL #keyrel ] ],
+    DTR attention-lex-rule & [ SYNSEM [ LKEYS.KEYREL #keyrel,
+					LOCAL.CONT.HOOK.INDEX #ind ] ],
+    C-CONT [ HOOK.INDEX.COG-ST activ+fam,
+             RELS <! #altkeyrel !> ] ].
+
+
+here-lex-rule := location-lex-rule &
+  [ SYNSEM.LKEYS.ALTKEYREL.PRED proximal+dem_a_rel ].
+
+there-lex-rule := location-lex-rule &
+  [ SYNSEM.LKEYS.ALTKEYREL.PRED distal+dem_a_rel ].
+
+For the verb hierarchy, we simply made two children of tr-verb-lex, one for NP objects, and one for PP objects, specifying the head types of the arguments appropriately.
+
+Transfer Rules Instantiated:
+pronoun-delete-mtr
+pro-arg1-insert-mtr
+This allows us to translate sentences such as "I chase you"/"ti-insegu-o", where lushootseed has overt subjects but dropped objects
+
+Further Transfer Rules:
+None
+
+Current Coverage:
+English: 13
+Italian: 10
+
+Multiple Generation:
+For all sentences with two full NP arguments, the arguments can appear in either order, so all of these have two parses.
+Further, because the only transitive construction with two full NPs as arguments puts focus on the first, we had to leave inputs specified as "focus" as "focus", instead of changing them to "unmarked".  This means that we get the same parses for the different focus examples, because all of them are compatible with focus on any given word.  Translation out of Lushootseed will mark focus correctly.
+When transitive verbs with dropped objects appear, there is ambiguity both in whether or not the subject is focused, and whether the head-subj or head-opt-comp rule applies first.
+In the english sentence "I chase you", one of the combination of transfer rule applications leads to a large number of strange outputs.
+
+Lack of full coverage:
+All sentences involving conjunction and embedded clauses are running out of edges, and thus not translating.
+The semantics for "It doesn't hurt me" and "The dogs are the cats" are not quite right, and we do not have predicative PPs.

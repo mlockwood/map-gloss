@@ -58,7 +58,7 @@ def find_iso_directories(path):
     """
     iso_list = {}
     for iso in [x for x in os.listdir(path) if os.path.isdir(os.path.join(path, x)) and len(x) <= 3]:
-        iso_list[iso] = find_files_in_subdirectories(path)
+        iso_list[iso] = find_files_in_subdirectories('{}/{}'.format(path, iso))
     return iso_list
 
 

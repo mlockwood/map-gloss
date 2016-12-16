@@ -1,0 +1,687 @@
+Language: Tagalog
+Language code: TGL
+Author: David Landan
+Date: January 25, 2008
+Lines: orth orth-seg gloss translat
+Source a: Martin, JR. (1996). Transitivity in Tagalog: A Functional Interpretation of Case, in Berry, Butler, Fawcett, and Huang, eds. Meaning and Form: Systemic Functional Interpretations, vol. LVII. New Jersey: Ablex Publishing Corp.
+Source b: De Guzman, VP, and B Bender. (2000). Grammatical Analysis. Honolulu: University of Hawai'i Press
+
+#1 VSO with transitive AV-verb
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: word order
+Kumain ang batae ng mangga
+<um>kain   ang         batae ng          mangga
+AV.PFV.eat NPRS.SG.ABS woman NPRS.SG.ERG mango
+The woman ate the mango.
+
+#2 VOS with transitive AV-verb
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: word order
+Kumain ng mangga ang batae.
+<um>kain   ng          mangga ang         batae
+AV.PFV.eat NPRS.SG.ERG mango  NPRS.SG.ABS woman
+The woman ate the mango.
+
+#3 *SVO with transitive AV-verb
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: word order
+*Ang batae kumain ng mangga.
+ang         batae <um>kain   ng          mangga
+NPRS.SG.ABS woman AV.PFV.eat NPRS.SG.ERG mango
+The woman ate the mango.
+
+#4 *OVS with transitive AV-verb
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: word order
+*Ng mangga kumain ang batae.
+ng          mangga <um>kain   ang         batae
+NPRS.SG.ERG mango  AV.PFV.eat NPRS.SG.ABS woman
+The woman ate the mango.
+
+#5 *SOV with transitive AV-verb
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: word order
+*Ang batae ng mangga kumain.
+ang         batae ng          mangga <um>kain
+NPRS.SG.ABS woman NPRS.SG.ERG mango  AV.PFV.eat
+The woman ate the mango.
+
+#6 *OSV with transitive AV-verb
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: word order
+Ng mangga ang batae kumain.
+ng          mangga ang         batae <um>kain
+NPRS.SG.ERG mango  NPRS.SG.ABS woman AV.PFV.eat
+The woman ate the mango.
+
+#7 SVO with AV-verb and fronting marker
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: word order
+Ang batae ay kumain ng mangga.
+ang         batae ay  <um>kain   ng          mangga
+NPRS.SG.ABS woman INV AV.PFV.eat NPRS.SG.ERG mango
+The woman ate the mango.
+
+#8 1sg & 2pl pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns
+Nakita ako ninyo.
+na-kita    ako     ninyo
+AV.PFV-see 1SG.ABS 2PL.ERG
+I saw you(pl).
+
+#9 1dual & 3pl pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Nakita kita nila.
+na-kita    kita      nila
+AV.PFV-see 1DUAL.ABS 3PL.ERG
+We (you & I) saw them.
+
+#10 2sg & 1plx pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Nakita ikaw namin.
+na-kita    ikaw    namin
+AV.PFV-see 2SG.ABS 1PLX.ERG
+You(pl) saw us.
+
+#11 3sg & 1pln pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Nakita sila natin.
+na-kita    sila    natin
+AV.PFV-see 3PL.ABS 1PLN.ERG
+They saw (all of)us.
+
+#12 1plx & 3sg pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Nakita kami mo.
+na-kita    kami     mo
+AV.PFV-see 1PLX.ABS 2SG.ERG
+We saw you(sg).
+
+#13 1pln & 3sg pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Nakita tayo niya.
+na-kita    tayo     niya
+AV.PFV-see 1PLN.ABS 3SG.ERG
+We(all) saw them.
+
+#14 2pl & 1sg pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Nakita kayo ko.
+na-kita    kayo    ko
+AV.PFV-see 2PL.ABS 1SG.ERG
+You(pl) saw me.
+
+#15 3pl & 1dual pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Nakita sila nita.
+na-kita    sila    nita
+AV.PFV-see 3PL.ABS 1DUAL.ERG
+They saw us(you&me).
+
+#16 1pl oblique with OV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Ibinigay mo siya sa akin.
+i<in>bigay  mo      siya    sa          akin
+OV.PFV.give 2SG.ERG 3SG.ABS NPRS.SG.OBL 1SG.OBL
+You gave it to me.
+
+#17 1dual oblique with OV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Ibinigay nila siya sa kanita.
+i<in>bigay  nila    siya    sa          kanita
+OV.PFV.give 3PL.ERG 3SG.ABS NPRS.SG.OBL 1DUAL.OBL
+They gave it to us(you&me).
+
+#18 2sg oblique with OV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Ibinigay nila siya sa iyo.
+i<in>bigay  nila    siya    sa          iyo
+OV.PFV.give 3PL.ERG 3SG.ABS NPRS.SG.OBL 2SG.OBL
+They gave it to you(sg).
+
+#19 3sg oblique with OV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Ibinigay nila siya sa kaniya.
+i<in>bigay  nila    siya    sa          kaniya
+OV.PFV.give 3PL.ERG 3SG.ABS NPRS.SG.OBL 3SG.OBL
+They gave it to him/her.
+
+#20 1pln oblique with OV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Ibinigay nila siya sa mga atin.
+i<in>bigay  nila    siya    sa=mga      atin
+OV.PFV.give 3PL.ERG 3SG.ABS NPRS=PL.OBL 1PLN.OBL
+They gave it to us(all).
+
+#21 1plx oblique with OV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Ibinigay nila siya sa mga amin.
+i<in>bigay  nila    siya    sa=mga      amin
+OV.PFV.give 3PL.ERG 3SG.ABS NPRS=PL.OBL 1PLX.OBL
+They gave it to us(not you).
+
+#22 2pl oblique with OV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Ibinigay nila siya sa mga inyo.
+i<in>bigay  nila    siya    sa=mga      inyo
+OV.PFV.give 3PL.ERG 3SG.ABS NPRS=PL.OBL 2PL.OBL
+They gave it to you(pl).
+
+#23 3pl oblique with OV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pronouns, case
+Ibinigay ko siya sa mga kanila.
+i<in>bigay  ko      siya    sa=mga      kanila
+OV.PFV.give 1SG.ERG 3SG.ABS NPRS=PL.OBL 3PL.OBL
+I gave it to them.
+
+#24 *1sg & 2pl (both ABS) pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Nakita ako kayo.
+na-kita   ako     kayo
+AV.PFV-see 1SG.ABS 2PL.ABS
+I saw you(pl).
+
+#25 *1dual & 3pl (both ABS) pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Nakita kita sila.
+na-kita   kita      sila
+AV.PFV-see 1DUAL.ABS 3PL.ABS
+We (you & I) saw them.
+
+#26 *2sg & 1plx (both ABS) pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Nakita ikaw kami.
+<um>kina   ikaw    kami
+AV.PFV.see 2SG.ABS 1PLX.ABS
+You(pl) saw us.
+
+#27 *3sg & 1pln (both ABS) pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Nakita sila tayo.
+na-kita   sila    tayo
+AV.PFV-see 3PL.ABS 1PLN.ABS
+They saw (all of)us.
+
+#28 *1plx & 2sg (both ERG) pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Nakita namin mo.
+na-kita   namin    mo
+AV.PFV-see 1PLX.ERG 2SG.ERG
+We saw you(sg).
+
+#29 *1pln & 3sg (both ERG) pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Nakita natin niya.
+na-kita   natin    niya
+AV.PFV-see 1PLN.ERG 3SG.ERG
+We(all) saw them.
+
+#30 *2pl & 1sg (both ERG) pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Nakita ninyo ko.
+na-kita   ninyo   ko
+AV.PFV-see 2PL.ERG 1SG.ERG
+You(pl) saw me.
+
+#31 *3pl & 1dual (both ERG) pronouns with AV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Nakita nila nita.
+na-kita   nila    nita
+AV.PFV-see 3PL.ERG 1DUAL.ERG
+They saw us(you&me).
+
+#32 *1pl ABS in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay mo siya ako.
+i<in>bigay  mo      siya    ako
+OV.PFV.give 2SG.ERG 3SG.ABS 1SG.ABS
+You gave it to me.
+
+#33 *1dual ABS in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay nila siya kita.
+i<in>bigay  nila    siya    kita
+OV.PFV.give 3PL.ERG 3SG.ABS 1DUAL.ABS
+They gave it to us(you&me).
+
+#34 *2sg ABS in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay nila siya ikaw.
+i<in>bigay  nila    siya    ikaw
+OV.PFV.give 3PL.ERG 3SG.ABS 2SG.ABS
+They gave it to you(sg).
+
+#35 *3sg ABS in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay nila siya siya.
+i<in>bigay  nila    siya    siya
+OV.PFV.give 3PL.ERG 3SG.ABS 3SG.ABS
+They gave it to him/her.
+
+#36 *1pln ABS in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+Ibinigay nila siya tayo.
+*i<in>bigay  nila    siya    tayo
+OV.PFV.give  3PL.ERG 3SG.ABS 1PLN.ABS
+They gave it to us(all).
+
+#37 *1plx ABS in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay nila siya kami.
+i<in>bigay  nila    siya    kami
+OV.PFV.give 3PL.ERG 3SG.ABS 1PLX.ABS
+They gave it to us(not you).
+
+#38 *2pl ABS in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay nila siya kayo.
+i<in>bigay  nila    siya    kayo
+OV.PFV.give 3PL.ERG 3SG.ABS 2PL.ABS
+They gave it to you(pl).
+
+#39 *3pl ABS in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay ko siya sila.
+i<in>bigay  ko      siya    sila
+OV.PFV.give 1SG.ERG 3SG.ABS 3PL.OBL
+I gave it to them.
+
+#40 *1pl ERG in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay mo siya ko.
+i<in>bigay  mo      siya    ko
+OV.PFV.give 2SG.ERG 3SG.ABS 1SG.ERG
+You gave it to me.
+
+#41 *1dual ERG in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay nila siya nita.
+i<in>bigay  nila    siya    nita
+OV.PFV.give 3PL.ERG 3SG.ABS 1DUAL.ERG
+They gave it to us(you&me).
+
+#42 *2sg ERG in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay nila siya mo.
+i<in>bigay  nila    siya    mo
+OV.PFV.give 3PL.ERG 3SG.ABS 2SG.ERG
+They gave it to you(sg).
+
+#43 *3sg ERG in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay nila siya niya.
+i<in>bigay  nila    siya    niya
+OV.PFV.give 3PL.ERG 3SG.ABS 3SG.ERG
+They gave it to him/her.
+
+#44 *1pln ERG in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+Ibinigay nila siya natin.
+*i<in>bigay  nila    siya    natin
+OV.PFV.give  3PL.ERG 3SG.ABS 1PLN.ERG
+They gave it to us(all).
+
+#45 *1plx ERG in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay nila siya namin.
+i<in>bigay  nila    siya    namin
+OV.PFV.give 3PL.ERG 3SG.ABS 1PLX.ERG
+They gave it to us(not you).
+
+#46 *2pl ERG in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay nila siya ninyo.
+i<in>bigay  nila    siya    ninyo
+OV.PFV.give 3PL.ERG 3SG.ABS 2PL.ERG
+They gave it to you(pl).
+
+#47 *3pl ERG in oblique position with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, pronouns
+*Ibinigay ko siya nila.
+i<in>bigay  ko      siya    nila
+OV.PFV.give 1SG.ERG 3SG.ABS 3PL.ERG
+I gave it to them.
+
+#48 case marker agreement NPRS with OV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: case, agreement
+Ibinigay ng lalaki ang babae sa mga libro.
+i<in>bigay  ng          lalaki ang         babae sa=mga      libro
+OV.PFV.give NPRS.SG.ERG man    NPRS.SG.ABS woman NPRS=PL.OBL book
+The man gave the woman books.
+
+#49 *PRS for NPRS case marker with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, agreement
+*Ibinigay ni lalaki ang babae sa mga libro.
+i<in>bigay  ni         lalaki ang         babae sa=mga      libro
+OV.PFV.give PRS.SG.ERG man    NPRS.SG.ABS woman NPRS=PL.OBL book
+The man gave the woman books
+
+#50 *PRS for NPRS case marker with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, agreement
+*Ibinigay ng lalaki si babae sa mga libro.
+i<in>bigay  ng          lalaki si         babae sa=mga      libro
+OV.PFV.give NPRS.SG.ERG man    PRS.SG.ABS woman NPRS=PL.OBL book
+The man gave the woman books.
+
+#51 case marker agreement PRS with OV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: case
+Ibinigay ni Juan si Maria sa mga libro.
+i<in>bigay  ni         Juan si         Maria sa=mga      libro.
+OV.PFV.give PRS.SG.ERG Juan PRS.SG.ABS Maria NPRS=PL.OBL book
+John gave Maria books.
+
+#52 *NPRS for PRS case marker with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, agreement
+Ibinigay ng Juan si Maria sa mga libro.
+i<in>bigay  ng          Juan si         Maria sa=mga      libro.
+OV.PFV.give NPRS.SG.ERG Juan PRS.SG.ABS Maria NPRS=PL.OBL book
+John gave Maria books.
+
+#53 *NPRS for PRS case marker with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, agreement
+Ibinigay ni Juan ang Maria sa mga libro.
+i<in>bigay  ni         Juan ang         Maria sa=mga      libro
+OV.PFV.give PRS.SG.ERG Juan NPRS.SG.ABS Maria NPRS=PL.OBL book
+John gave Maria books.
+
+#54 NPRS.PL case markers with OV-verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: case
+Ibinigay ng mga lalaki ang mga babae sa libro
+i<in>bigay  ng=mga      lalaki ang=mga     babae sa    libro
+OV.PFV.give NPRS=PL.ERG man    NPRS=PL.ABS woman NPRS.SG.OBL book
+The men gave the women a book.
+
+#55 *PRS for NPRS case marker with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, agreement
+Ibinigay nina lalaki ang mga babae sa libro.
+i<in>bigay  nina       lalaki ang=mga     babae sa          libro
+OV.PFV.give PRS.PL.ERG man    NPRS=PL.ABS woman NPRS.SG.OBL book
+The men gave the women a book.
+
+#56 *PRS for NPRS case marker with OV-verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case, agreement
+Ibinigay ng mga lalaki sina babae sa libro.
+i<in>bigay  ng=mga      lalaki sina       babae sa          libro
+OV.PFV.give NPRS=PL.ERG man    PRS.PL.ABS woman NPRS.SG.OBL libro
+The men gave the women a book.
+
+#57 negation
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: negation
+Hindi kumain ang batae ng mangga
+hindi <um>kain   ang         batae ng          mangga
+NEG   AV.PFV.eat NPRS.SG.ABS woman NPRS.SG.ERG mango
+The woman didn't eat the mango.
+
+#57 negation with SVO
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: negation, word order
+Hindi ang batae kumain ng mangga
+hindi ang         batae <um>kain   ng          mangga
+NEG   NPRS.SG.ABS woman AV.PFV.eat NPRS.SG.ERG mango
+The woman didn't eat the mango.
+
+#58 infinitive aspect
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: aspect
+Inayaw ang batae kumain ng mangga.
+<in>ayaw      ng          batae sa <um>kain   ng          mangga
+OV.PFV.refuse NPRS.SG.ERG woman NPRS.SG.OBL   AV.INF.eat NPRS.SG.ERG mango
+The woman refused to eat the mango.
+
+#59 contemplative aspect
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: aspect
+Kakain ang batae ng mangga
+RCV-kain   ang         batae ng          mangga
+AV.FUT-eat NPRS.SG.ABS woman NPRS.SG.ERG mango
+The woman will eat the mango.
+
+#60 progressive aspect
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: aspect
+Kumakain ang batae ng mangga.
+RCV<um>kain ang         batae ng          mangga
+AV.PROG.eat NPRS.SG.ABS woman NPRS.SG.ERG mango
+The woman is eating the mango.
+
+#61 quantifiers
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: determiners
+Kumain lahat ang mga batae ng mga mangga.
+<um>kain   lahat ang=mga     batae ng=mga      mangga
+AV.PFV.eat all   NPRS=PL.ABS woman NPRS=PL.ERG mango
+All the women ate mangos.
+
+#62 quantifiers
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: determiners
+Kumain ang mga batae lahat ng mga mangga.
+<um>kain   ang=mga     batae lahat ng=mga      mangga
+AV.PFV.eat NPRS=PL.ABS woman all   NPRS=PL.erg mango
+The woman ate all the mangos.
+
+#63 *quantifier after ang, before N
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: determiners
+Kumain ang mga lahat batae ng mga mangga.
+<um>kain   ang=mga     lahat batae ng=mga      mangga
+AV.PFV.eat NPRS=PL.ABS all   woman NPRS=PL.ERG mango.
+All the women ate mangos.
+
+#64 demonstrative determiners
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: determiners
+Kumain itong batae nitong mangga.
+<um>kain   ito-ng      batae nito-ng     mangga
+AV.PFV.eat ABS.this-LK woman ERG.this-LK mango
+This woman ate this mango
+
+#65 demonstrative determiners
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: determiners
+Kumain iyang batae niyang mangga.
+<um>kain   iyan-ng     batae niyan-ng    mangga
+AF.PFV.eat ABS.that-LK woman ERG.that-LK mango
+That woman ate that mango.
+
+#66 demonstrative determiners
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: determiners
+Kumain yung batae niyong mangga.
+<um>kain   iyon-ng    batae niyon-ng   mangga
+AF.PFV.eat ABS.yon-LK woman ERG.yon-LK mango
+Yon woman ate yonder mango.
+
+#67 demonstrative postpositional
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: determiners
+Kumain ang batae na ito ng mangga.
+<um>kain   ang         batae na ito      ng          mangga
+AF.PFV.eat NPRS.SG.ABS woman LK ABS.this NPRS.SG.ERG mango
+This woman ate a mango.

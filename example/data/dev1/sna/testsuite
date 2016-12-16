@@ -1,0 +1,1123 @@
+Language: Shona
+Language code: sna
+Tiers: orth orth-seg gloss translat
+Author: Joshua Crowgey & Edward Pham
+Date: January 12, 2010
+Source a: Fortune. Shona Grammatical Constructions.
+Source b: Fortune. Shona Grammar.
+Source c: Odden. Dissertation.
+Source d: Mberi article
+Source e: Carmela Toews, The Expression of Tense and Aspect in Shona
+Source f: Konig and Siemund "Speech Act Distinctions in Grammar"
+Source p: Peter Masundire
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tense}
+Ndinofamba
+ndi-no-famb-a
+SBJ.1sg-PRS.Hab-walk-FV
+`I walk.'
+
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tense}
+Ndifamba
+ndi-famb-a
+SBJ.1sg-walk-FV
+`I walk.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tense}
+Tinofamba
+ti-no-famb-a
+SBJ.1pl-PRS.Hab-walk-FV
+`We walk.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tense}
+Vanofamba
+va-no-famb-a
+SBJ.CL2-PRS.HAB-walk-FV
+`They walk.'
+
+#2pl used as honorific
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tense}
+Munofamba
+mu-no-famb-a
+SBJ.2pl-PRS.Hab-walk-FV
+`You walk.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tense}
+Unofamba
+u-no-famb-a
+SBJ.2sg-PRS.Hab-walk-FV
+`You walk.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tense}
+Anofamba
+a-no-famb-a
+SBJ.CL1-PRS.hab-walk-FV
+`He walks.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {word order, tense}
+Munhu anofamba
+mu-nhu a-no-famb-a
+CL1-person SBJ.CL1-PRS-walk-FV
+`A person walks.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {word order, tense}
+Mukadzi anofamba
+mu-kadzi a-no-famb-a
+CL1-woman SBJ.CL1-PRS-walk-FV
+`A woman walks.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {word order, tense}
+Ndinotenga muchero
+ndi-no-teng-a mu-chero
+SBJ.1sg-PRS-buy-FV CL3-fruit
+`I buy a fruit.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {word order, tense}
+Anotenga muchero
+a-no-teng-a mu-chero
+SBJ.CL1-PRS-buy-FV CL3-fruit
+`He buys a fruit.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {word order, tense}
+Tinotenga muchero
+ti-no-teng-a mu-chero
+SBJ.1pl-PRS-buy-FV CL3-fruit
+`We buy a fruit.'
+
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {word order}
+Muchero tinotenga
+mu-chero ti-no-teng-a
+CL3-fruit SBJ.1pl-PRS-buy-FV
+`We buy fruit.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {word order, tense}
+Munhu anotenga muchero
+mu-nhu a-no-teng-a mu-chero
+CL1-person SBJ.3sg-PRS-buy-FV CL3-fruit
+`A person buys fruit.'
+
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {word order}
+Munhu muchero anotenga
+mu-nhu mu-chero a-no-teng-a
+CL1-person CL3-fruit SBJ.3sg-PRS-buy-FV
+`A person buys fruit.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tense}
+Munhu afamba
+mu-nhu a-a-famb-a
+CL1-person SBJ.3sg-RP-walk-FV
+`A person (just) walked.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {argument optionality}
+Mu-nhu anotenga
+mu-nhu a-no-teng-a
+CL1-person SBJ.3sg-PRS-buy-FV
+`A person buys.'
+
+#Keep an eye on this one...
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {negation}
+Handifamba
+ha-ndi-famb-a
+NEG-SBJ.1sg-walk-FV
+`I did not walk.'
+
+#Mberi has this example:
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {negation, FV}
+Handifambi
+ha-ndi-famb-i
+NEG-SBJ.1s-walk-FV
+`I do not walk.'
+
+#Mberi translates the next two items identically, ask Peter about this, maybe this dialectical variation.
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {mood, gender, FV}
+Hatifambe
+ha-ti-famb-e
+HORT-SBJ.1sg-walk-FV
+'Let us walk.'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {mood, gender, FV}
+Hatifambe
+ha-ti-famb-e
+HORT-SBJ.1sg-walk-FV
+'Let us walk.'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {obj concord, FV}
+Anozviziva
+a-no-zvi-ziv-a
+SBJ.Cl1-PRES.CONT-OBJ.Cl8-know-FV
+'He/she knows them (the things).'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {negation}
+Handiendi
+ha-ndi-end-i
+NEG-SBJ.1sg-go-FV
+'I will not go.'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {negation, mood}
+Vasaende
+va-sa-end-e
+SBJ.Cl2-NEG/Mood-go-FV
+'They should not go.'
+
+#The next 8 example are Mberi's mood examples
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {mood-imperative}
+Famba
+famb-a
+walk-FV
+'Walk'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {mood-indicative, habitual}
+Ndinoenda
+ndi-no-end-a
+SBJ.1sg-HAB-go-FV
+'I normally go.'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {mood-potential}
+Ndingafamba
+ndi-nga-famb-a
+SBJ.1sg-MOOD-walk-FV
+'I can/may walk.'
+
+#not a stand alone sentence
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {mood-participial}
+Ndichitamba
+ndi-chi-tamb-a
+SBJ.1sg-ASP-dance-FV
+'I (while) dancing.'
+
+#Mberi describes this mood as 'actual but qualificative'
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {mood-relative}
+Ini ndisingafare
+ini ndi-si-nga-far-e
+1sg.PRO SBJ.1sg-NEG-nga-happy-FV
+'I who is not happy.'
+
+#commenting this one out for now, it's seems like a dependent clause to me.
+#Source: d
+#Vetted: s
+#Judgment: g
+#Phenomena: {mood-subjective}
+#Kuti ndiende
+#kuti ndi-end-e
+#that SBJ.1sg-go-FV
+#'So that I go.'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {mood-hortative}
+Ngaafambe
+nga-a-famb-e
+HORT-SBJ.Cl1-walk-FV
+'Let him/her walk.'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {mood-imperative, agreement}
+fambai
+famb-a-i
+walk-FV-pl
+'You (plural) walk.'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {aux}
+ndiri kuenda
+ndi-ri ku-end-a
+SBJ.1sg-AUX INF-go-FV
+'I am going'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {tense, aspect, agreement}
+Ndinomuda
+ndi-no-mu-d-a
+SBJ.1sg-PRES.CONT-OBJ.CL1-love-FV
+'I love him/her'
+
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {negation}
+Hafamba
+ha-a-famb-a
+NEG-SBJ.CL1-walk-FV
+`He does not walk.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {negation}
+Haana kufamba.
+ha-a-a-na ku-famb-a
+neg-SBJ.3sg-rp-AUX INF-walk-FV
+`He did not walk.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {aspect}
+Ndakafamba
+ndi-aka-famb-a
+SBJ.1sg-RP-walk-FV
+`I walked (some time ago).'
+
+Source: author
+Vetted: u
+Judgment: u
+Phenomena: {negation}
+Handifamba
+ha-ti-famb-a
+NEG-SBJ.1pl-walk-FV
+`We did not walk.'
+
+Source: author
+Vetted: t 
+Judgment: g
+Phenomena: {negation}
+hatina kufamba
+ha-ti-na ku-famb-a
+NEG-SBJ.2pl-AUX INF-walk-FV
+`We did not walk.'
+
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {word order, negation}
+Handitenga muchero
+ha-ndi-teng-a mu-chero
+NEG-SBJ.1sg-buy-FV CL3-fruit
+`I did not buy fruit.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {word order}
+Mukadzi anotenga tichero
+mu-kadzi a-no-teng-a mi-chero
+CL1-woman SBJ.CL1-PRS-buy-FV CL4-fruit
+`A woman buys fruits.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {word order, agreement}
+Vakazdi vanofamba
+va-kadzi va-no-famb-a
+CL2-woman SBJ.CL2-PRS-walk-FV
+`Women walk.'
+
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {agreement}
+Vakadzi anofamba
+va-kadzi a-no-famb-a
+CL2-woman SBJ.CL1-PRS-walk-FV
+`Women walk.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {word order, agreement}
+Vanhu vanofamba
+va-nhu va-no-famb-a
+CL2-person SBJ.CL2-PRS-walk-FV
+`People walk.'
+
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {word order, agreement}
+Vanhu vanotenga michero
+va-nhu va-no-teng-a mi-chero
+CL2-person SBJ.CL2-PRS-buy-FV CL4-fruit
+`People buy fruits.'
+
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {agreement}
+Ndiri famba
+ndi-ri famb-a
+SBJ.1sg-AUX walk-FV
+`I am walking.'
+
+Source: e 32
+Vetted: t
+Judgment: g
+Phenomena: {tense}
+Wakafamba
+u-aka-famb-a
+SBJ.2sg-RP-walk-FV
+`You walked (some time ago).'
+
+Source: e 32
+Vetted: t
+Judgment: g
+Phenomena: {tense}
+Watenga muchero
+u-a-teng-a mu-chero
+SBJ.2sg-REC.PAST-buy-FV CL3-fruit
+`You just recently bought fruit.'
+
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tense}
+Tenga muchero
+u-teng-a mu-chero
+SBJ.2sg-buy-FV CL3-fruit
+`You buy fruit.'
+
+Source: e 32
+Vetted: t
+Judgment: g
+Phenomena: {tense}
+Uchafamba
+u-cha-famb-a
+SBJ.2sg-FUT-walk-FV
+`You will walk.'
+
+Source: e 34
+Vetted: t
+Judgment: g
+Phenomena: {tense, agreement}
+Ndakanga ndakatenga muchero
+ndi-aka-nga ndi-aka-teng-a mu-chero
+SBJ.1sg-RP-AUX SBJ.1sg-RP-buy-FV CL3-fruit
+`I had bought fruit.'
+
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tense}
+Ri kufamba
+ri ku-famb-a
+AUX INF-walk-FV
+"I am walking."
+
+Source: e 36
+Vetted: t
+Judgment: g
+Phenomena: {tense, aspect}
+Akanga atenga muchero
+a-aka-nga a-a-teng-a mu-chero
+SBJ.CL1-RP(TNS)-AUX SBJ.CL1-RECP(ASP)-buy-FV CL3-fruit
+`(Sometime ago) He had bought fruit (just a bit earlier).'
+
+Source: e 36
+Vetted: t
+Judgment: g
+Phenomena: {tense, aspect}
+Ndanga ndatenga mu-chero
+ndi-a-nga ndi-a-teng-a mu-chero
+SBJ.1sg-RECP(TNS)-AUX SBJ.1sg-RECP-buy-FV CL3-fruit
+`(Recently) I had bought fruit (just a bit earlier).'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense, cognitive status, word order, agreement}
+Munhu uyu afamba
+mu-nhu u-yu a-a-famb-a
+CL1-person CL1-this SBJ.3sg-RP-walk-FV
+`This person (just) walked.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense, cognitive status, word order, agreement}
+Munhu uyo afamba
+mu-nhu u-yo a-a-famb-a
+CL1-person CL1-that SBJ.3sg-RP-walk-FV
+`That person (just) walked.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+Munhu afamba uyo
+mu-nhu a-a-famb-a u-yo
+CL1-person SBJ.3sg-RP-walk-FV CL1-that
+`That person (just) walked.'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {aspect}
+Ndinoenda kuchidoro
+ndi-no-end-a ku-chi-koro
+SBJ.1sg-PRES.HAB-go-FV to-CL7-school
+`I go to school'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {tense, aspect}
+Ndaienda kuchikoro
+ndi-ai-end-a ku-chi-koro
+SBJ.1sg-PAST.HAB-go-FV to-CL7-school
+`I used to go to school'
+
+#Mberi isn't really clear about how this is different from present progressive
+#without the chi-,  ie `ari kudya'  We should ask Peter about this.  
+#Peter confirmed that the chi- adds a 'still' flavor, he is still eating. 
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {tense, aspect}
+Achiri kudya
+a-chi-ri ku-dy-a
+SBJ.3sg-still-AUX.CONT INF-eat-FV
+`He/she is still eating'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {tense, aspect,mood}
+Ngatichienda
+nga-ti-chi-end-a
+HORT-SBJ.1pl-INCEPTIVE-go-FV
+`Let us (start) to go now'
+
+#This is a great example of multiple TMA morphemes in one verb.  
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {tense, aspect,mood}
+Ndinochienda
+ndi-no-chi-end-a
+SBJ.1sg-PRES.HAB-FREQ-go-FV
+`I often go'
+
+#Mberi introduces the `monosyllabic auxiliaries' mbo- `already, at first`, go- `be able to do`
+#ndo- `go and'
+#ngo- `only'
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {adverbial, tense, aspect, mood}
+Ndamboenda kumba
+ndi-a-mbo-end-a ku-mba
+SBJ.1sg-REC.PAST-at.first-go-FV CL17.Loc-home
+`I first went home'
+
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {adverbial, tense, aspect, mood}
+Achachimbidzofamba
+a-cha-chimbidz-o-famb-a
+SBJ.3sg-FUT-do.quickly-o-walk-FV
+`He/she will quickly walk.'
+
+Source: f
+Vetted: s
+Judgment: g
+Phenomena: {aspect}
+Ndinotaura
+ndi-no-taur-a
+SBJ.1sg-HAB-speak-FV
+`I speak.'
+
+Source: f
+Vetted: s
+Judgment: g
+Phenomena: {question}
+Ndinotaura here?
+ndi-no-taur-a here
+SBJ.1sg-HAB-speak-FV Q 
+`Do I speak?'
+
+#//Note that Peter used the cl16 concord on the possive.  This is interesting because supposedly the ku on house should have been 'to' not the homophonous cl16 concord.  Ask Calisto about this.  I would have expected: ku-i-mba.  
+Source: p
+Vetted: t
+Judgment: g
+Phenomena: {embedded question with matrix scope}
+Ndabvunza here kuti wafamba kumba kwako?
+Ndi-a-bvunz-a here kuti u-a-famb-a ku-mba kwa-ko
+SBJ.1sg-REC.PAST-ask-FV Q that SBJ.2sg-REC.PAST-walk-FV to-house cl16.POSSD-2sg.POSSR
+`Did I ask you if you walked to your house?'
+
+#//See note on item above.
+Source: p
+Vetted: t
+Judgment: g
+Phenomena: {embedded question with low scope}
+Ndabvunza kuti wafamba kumba kwako here.
+Ndi-a-bvunz-a kuti u-a-famb-a ku-mba kwa-ko here.
+SBJ.1sg-REC.PAST-ask-FV that SBJ.2sg-REC.PAST-walk-FV to-house cl16.POSSD-2sg.POSSR Q 
+`I asked if you walked to your house.'
+
+#muSeattle is prolly class 1, but its homophonous with cl3, we could ask one of our informants to check by placing seattle in sub position and seeing which concord it gets.  
+Source: p
+Vetted: t
+Judgment: g
+Phenomena: {trans, agr}
+Vanogara muSeattle.
+va-no-gar-a mu-Seattle.
+SBJ.cl3-PRES.HAB-stay-FV cl1-Seattle.
+`They live in Seattle.'
+
+Source: p
+Vetted: t
+Judgment: g
+Phenomena: {q}
+Vanogara muSeattle here?
+va-no-gar-a mu-Seattle here
+SBJ.cl3-PRES.HAB-stay-a cl1-Seattle Q
+`Do they live in Seattle?'
+
+#note the lack of cl9 prefix on cat, Peter pointed this out.  
+Source: p
+Vetted: t
+Judgment: g
+Phenomena: {declarative embedded C}
+Imbwa yaifunga kuti katsi yaifara
+i-mbwa i-ai-fung-a kuti katsi i-ai-far-a
+cl9-dog SBJ.cl9-PAST.HAB-think-FV that cat SBJ.cl9-PAST.HAB-be.happy-FV
+`The dog used to think that the cat was happy.'
+
+#No judgment on here. Put g for now since it was taken from [a]. --EP 1/29
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {double neg}
+Handisatora.
+ha-ndi-sa-tor-a
+NEG-SBJ.1sg-NEG-take-FV
+`I did not take.'
+
+Source: b
+Vetted: s
+Judgment: g
+Phenomena: {conjunction}
+Sadza naGutu vauya
+Sadza na-Gutu va-a-uy-a
+Sadza with-Gutu CL2-REC.PAST-come-FV
+`Sazda and-Gutu have come.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {crd}
+Sadza Gutu vauya
+Sadza Gutu va-a-uy-a
+Sadza Gutu CL2-REC.PAST-come-FV
+'Sadza and Gutu have come.'
+
+Source: b
+Vetted: s
+Judgment: g
+Phenomena: {demonstratives, conj}
+Ndakavaona vose asi Sadza chete.
+Ndi-aka-va-on-a va-se asi Sadza chete.
+SBJ.1sg-REM.PAST-OBJ.3pl-see-FV cl4-all but Sadza chete.
+`I saw them all except only Sadza'
+
+# should no- be "and" or "with"? --EP 1/28
+# don't have a good way of answering that.  it seems that they mean the same thing and have the same pronunciation in Shona. --JC 29JAN
+Source: b
+Vetted: s
+Judgment: g
+Phenomena: {conjunction}
+Ini nomukadzi wangu tiri kurwara
+Ini no-mu-kadzi wa-ngu ti-ri ku-rwar-a
+1sg AND-CL1-woman/wife CL1.POSSD-1sg.POSSR SBJ.2PL-AUX INF-ill-FV
+`My wife and I, we are ill.'
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cogst, cop}
+Hoyo mwana wenyu
+ha-u-yo mw-ana wen-yu
+there-CL1-UNKNOWN CL1-child POSS-CL1.that
+'There is your child'
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop, agreement, adverbial}
+Murume uyu miZezuru sesu
+mu-rume u-yu mi-Zezuru se-su
+CL1-man CL1-this CL4-Zezuru like-1pl
+'This man is a Zezuru like us'
+
+#Why is pamwe glossed as cl16?  There are no class16 nouns in this sentence.  --JC 28JAN
+#Not sure. Could be an error in the book. --EP 1/28
+#//The book didn't provide the gloss.  What do you mean? --JC 29JAN
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop, agreement, adverbial}
+Uyu munhu pamwe neni
+u-yu mu-nhu pa-mwe ne-ni
+CL1-this CL1-person CL16-same with-1sg
+'This is a person like me'
+
+#//Morpheme by morpheme gloss is wrong here.  There's no 1-1 correspondence and I don't think ida- is a cl1 prefix.  --JC 28JAN
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: 
+Mwana uyu idangwe ramambo
+mw-ana u-yu ida-ngwe ra-ma-mbo
+CL1-child CL1-this POSSD.CL1-POSSR.CL5 CL5-UNKNOWN-chief
+'This child is the chief's first born'
+
+# What does the morpheme reko mean? (Or at least re- since I think "-ko" refers to the demonstrative.
+# -ko is second person sg posesive stem, re- should be a class9 agr prefix.  Fixing this. --JC 28JAN
+#// Where did you find that 'ani' is a Q particle? How is it different than 'here'?  --JC 28JAN 
+#// Seems like 'ani' has to be a wh- word, right? Fixing this --JC 28JAN 
+#// Turns out that 'ani' is 'who', I'm not sure if we'll get to wh questions this quarter, though. --JC 28JAN
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: 
+Zita reko ndiwe ani?
+zita re-ko ndi-iwe ani 
+UNKNOWN CL9-name CL9.POSSD-2sgPOSSR who
+'What is your name?'
+
+#//The gloss here is wrong.  -ko is the possessive stem for 2sg. Fixing. --JC 28JAN
+#//FORMATIVE isn't an informative gloss.  Should this be a demonstrative formative? --JC JAN28
+#//T
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop, agreement}
+Hezvi zvako
+ha-zvi zvi-ko
+COP.CL8-here.CL8 POSSD.CL8-POSSR.2sg
+'Here are your things.'
+
+#//The class prefixes here are most likely incorrect.  --JC 29JAN
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adj, tense}
+Huru mombe ndinoitenga
+kuru mombe ndi-no-i-teng-a
+CL9.big CL9.ox SBJ.1sg-PRES.CONT-HAB-buy-FV
+'I'll buy the big ox'
+
+#//As above, the class prefixes here are incorrect.  --JC 29JAN  
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop, agreement}
+Huru mombe ndiCharuveki
+kuru mombe ndi-Charuveki
+CL9.big CL9.ox cl9.COP-Charuveki
+'The big ox is Charuveki'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+Huru mombe Charuveki
+kuru mombe Charuveki
+CL9.big CL9.ox Charuveki
+'The big ox is Charuveki.'
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cogst, tense}
+Iri banga ndinoritenga
+Iri banga ndi-no-ri-teng-a
+CL5.this CL5.knife SBJ.1sg-PRES.CONT-OBJ.PRE-buy-FV
+'I'll buy this knife'
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cogst}
+Uyu mwana wangu
+u-yu mu-ana wa-ngu
+CL1-this CL1-child POSSESSED.CL1-POSSESSOR.1sg
+'This is my child'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+Uyu mwana mungu
+u-yu mu-ana mu-ngu
+CL1-this CL1-child CL1-POSSESSOR.1sg
+'This is my child.'
+
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: {adv}
+Vaifamba zvishoma 
+va-ai-famb-a zvi-shoma 
+SBJ.2pl-PAST.HAB-walk-FV CL8-slowly
+'They walked slowly.'
+
+#// What does the prefix "a-" mean?
+#// What does the stem kare mean, for that matter? --JC
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adv, tense}
+Ndinoda mabhiza mamwe akarewo
+ndi-no-d-a ma-bhiza ma-mwe a-kare-wo
+SBJ.1sg-PRES.CONT-want-FV CL6-horses CL6-some/same {..}-same-also
+'I want the very same horses.'
+
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {cop, q}
+Idombo here?
+i-dombo here
+COP-stone Q
+'Is it a stone?'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+Here idombo?
+here i-dombo
+Q COP-stone
+'Is it a stone?
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+Idombohere?
+i-dombo-here
+COP-stone-Q
+'Is it a stone?' 
+
+#// I think chi-do means love. Also forgot what "ku-" means.
+#// ku- is a prepositional prefix which means 'to' or by --JC
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {adv}
+Havana chido kuvakadzi vavo
+Ha-va-n-a chi-do ku-va-kadzi va-vo
+NEG-SBJ.CL2-have-FV [love-?] to-CL2-wives CL2-CL2.PRO
+'They have no love towards their wives'
+
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: [adv}
+Ndaudzwa ndibaba
+ndi-a-udz-w-a ndi-baba
+SBJ.1sg-REC.PAST-tell-PASS-FV COP-father
+'I was told by father'
+
+#//incomplete
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {adv}
+Wakaudzwa ndini
+u-aka-udz-w-a ndi-ini
+SUB.CL1-REM.PAST-tell-PASS-FV COP-father
+'He was told by me'
+
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {imp, adv}
+Ita seni!
+i-t-a se-ni
+IMP-act-FV like-1sg.PRO
+'Act like me!'
+
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {imp, adv}
+Ita saye!
+i-t-a sa-ye
+IMP-act-FV like-CL1.PRO
+'Act like him!'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+Saye ita!
+sa-ye i-t-a
+like-CL1.PRO IMP-act-FV
+'Act like him!'
+
+#// Look to see what the prefix "ru-" is, as well as k-uno.
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {adv, tense}
+Unovuya kuno ruzhinji
+u-no-vuy-a ku-uno ru-zhinji
+SBJ.CL1-PRES.CONT-comes-FV to-here [ru]-often
+'He comes here often.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+Ruzhiniji unovuya kuno
+ru-zhinji u-no-vuy-a ku-uno
+[ru]-often SBJ.CL1-PRES.CONT-comes-FV to-here
+'Often he comes here.'
+
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {adv, tense}
+Wakanyatsopfava
+u-aka-nyatso-pfav-a
+SBJ.CL1-REM.PAST-well-be.tender-FV
+'He is graciously kind'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+Unyatsoakapfava
+U-nyatso-aka-pfav-a
+SBJ.CL1-well-REM.PAST-be.tender-FV
+'He is graciously kind'
+
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {adv, tense}
+Wafumomuka
+u-a-fuma-muk-a
+SBJ.CL1-REC.PAST-early-wake.up-FV
+'He got up early'
+
+#// Look up the morpheme for dzedu. Is it d-zesu (with zesu being reduplication?)
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {adv, cop}
+Nhumbi dzedu hupfu chete
+nhumbi d-zesu hu-upfu chete
+CL9.possesion POSS-1pl CL14-flour only
+'Our possessions are flour only.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+Nhumbi dzedu chete hupfu
+nhumbi d-zesu chete hu-upfu
+CL9.possession POSS-1pl only CL14-flour
+'Our possessions are flour only. (Or our only possession is flour)'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+Nhumbi chete dzedu hupfu
+nhumbi chete d-zesu hu-upfu
+CL9.possession only POSS-1pl CL14-flour 
+'Our possession are flour only'
+
+#//what is cogst? --JC 29JAN 
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {cop, cogst}
+Mukadzi uyu mukuru
+mu-kadzi u-yu mu-kuru
+CL1-woman CL1-this CL1-big
+'This woman is big.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+Mukadzi uyu kuru
+mu-kadzi u-yu kuru
+CL1-woman CL-this big
+'This woman is big'
+
+#// The morpheme boundaries for the last word need to be examined!
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {emb-d, cop}
+Mucero uyu ndounodigutisa
+mu-chero u-yu ndi-uno-digo-tisa
+CL1-fruit CL1-this [?-?-?-?]
+'This fruit is one which makes me full.'
+
+# FORMATIVE.CONJ needs to be changed? --EP 1/28
+# actually FORMATIVE.CONJ was the verb 'have'.  I fixed this. -JC 29JAN
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {cop, neg}
+Handinababa
+ha-ndi-na-baba
+NEG-SBJ.1sg-have-father
+'I have no father'
+
+#//FORMATIVE is not an informative gloss, changing this.  --JC 28JAN
+#//Not sure if SBJ.1sg is the right gloss either for a copulative like this, but I can't think of anything else at the moment. Used FORMATIVE as a placeholder for the time being. --EP 1/28
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+Ndinababa
+ndi-na-baba
+SBJ.1sg-CONJ-father
+'I am with a father'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+Nandibaba
+na-ndi-baba
+CONJ-SBJ.1sg-father
+'I am with father.'
+
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {q}
+Wakatenga banga here?
+wa-aka-teng-a banga here
+SBJ.2sg-REM.PAST-buy-FV knife Q
+'Did you buy a knife?'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {q}
+Wakatenga here banga?
+wa-aka-teng-a here banga
+SBJ.2sg-REM.PAST-buy-FV Q knife
+'Did you buy a knife?'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adj, tense, agreement}
+Ndakatenga zibanga guru
+ndi-aka-teng-a zi-banga kuru
+SBJ.1sg-REM.PAST-buy-FV CL9-knife CL9.big
+'I bought a huge knife.'
+
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {adj, cop, cogst}
+Vamwe vasikana varefu, vamwe vapfupi
+va-mwe va-sikana va-refu va-mwe va-pfupi
+CL2-some CL2-girls CL2-tall CL2-some CL2-short
+'Some girls are tall, some are short.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+Vamwe vasikana refu
+va-mwe va-sikana refu
+CL2-some CL2-girls refu
+'Some girls are tall'

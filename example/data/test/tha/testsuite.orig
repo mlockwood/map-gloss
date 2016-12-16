@@ -1,0 +1,1730 @@
+﻿Language: Thai
+Language code: tha
+Author: Glenn Slayden
+Date: February 1, 2009
+Source a: Iwasaki, Shoichi., & Horie, Ingkaphirom. P. (2005). A reference grammar of Thai. New York: Cambridge University Press.
+Source b: Higbie, James., & Thinsan, Snea. (2002). Thai reference grammar: The structure of spoken Thai. Bangkok: Orchid Press.
+Source c: Smyth, David. (2002). Thai: An essential grammar. Routledge essential grammars. London: Routledge.
+Source d: Noss, R. B. (1964). Thai reference grammar. Washington: Foreign Service Institute, Dept. of State.
+Source e: Kuo, W. (1982). Teaching grammar of Thai. Berkeley, Calif: Center for South and Southeast Asia Studies, University of California.
+Source f: Slayden, Glenn, ed. (2009) http://www.thai-language.com
+Source g: Koenig, J.-P., & Muansuwan, N. (2005). The Syntax of Aspect in Thai. Natural Language & Linguistic Theory. 23 (2), 335-380.
+Source h: Muansuwan, N. (2002). Verb complexes in Thai. Thesis (Ph. D.)--State University of New York at Buffalo, 2002.
+Source i: Koenig, J.-P., & Muansuwan, N. (2000). How to End Without Ever Finishing: Thai Semi-Perfectivity. JOURNAL OF SEMANTICS. 17, 147-184.
+Source j: Muansuwan, N. Directional serial verb constructions in Thai. Proceedings of the 7th International HPSG Conference, UC Berkeley (22-23 July, 2000). Dan Flickinger and Andreas Kathol (Editors). Stanford, California: 2001. CSLI Publications.
+Source k: James, Helen. (2001). Thai reference grammar. Bangkok: D.K. Editions.
+
+# Test Suite source file for Thai
+# This is an UTF-8 file with a byte-order-mark of EF BB BF
+# auto-generated from thai-language database version 16 revision 6360 on 2/1/2009 10:12:15 PM
+
+# http://www.thai-language.com/id/219435
+# adjective follows the noun
+# 219435
+Id: 100219435
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: adj
+เด็กเล็กกินข้าว
+dèk lék kin kʰâːw
+เด็ก เล็ก กิน ข้าว
+child small eat rice
+The small child eats rice.
+
+# adjective cannot precede the noun
+# 219436
+Id: 101219436
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: adj
+เล็กเด็กกินข้าว
+lék dèk kin kʰâːw
+เล็ก เด็ก กิน ข้าว
+small child eat rice
+[ungrammatical: ~The small child eats rice.]
+
+# misplaced adjective
+# 219480
+Id: 102219480
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+เด็กกินเล็กข้าว
+dèk kin lék kʰâːw
+เด็ก กิน เล็ก ข้าว
+child eat small rice
+[ungrammatical: ~The small child eats rice.]
+
+# http://www.thai-language.com/id/219475
+# adjective and adverb
+# 219475
+Id: 103219475
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj, adv
+ม้าสีขาววิ่งเร็ว
+máː sǐːkʰǎːw wîŋ rew
+ม้า สีขาว วิ่ง เร็ว
+horse white run fast
+The white horse runs fast.
+
+# adjective cannot precede noun
+# 219476
+Id: 104219476
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+สีขาวม้าวิ่งเร็ว
+sǐːkʰǎːw máː wîŋ rew
+สีขาว ม้า วิ่ง เร็ว
+white horse run fast
+[ungrammatical: ~The white horse runs fast.]
+
+# adjective must have a noun to modify
+# 219477
+Id: 105219477
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+สีขาววิ่งเร็ว
+sǐːkʰǎːw wîŋ rew
+สีขาว วิ่ง เร็ว
+white run fast
+[ungrammatical: ~The white horse runs fast.]
+
+# http://www.thai-language.com/id/219438
+# shows obligatory ordering: noun + adjective + number + classifier + demonstrative.
+# 219438
+Id: 106219438
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: adj, dmnst, numcl
+สนิทซื้อรถสีเขียวสามคันนี้
+sànìt sɯ́ː rót sǐːkʰǐːo sǎːm kʰan níː
+สนิท ซื้อ รถ สีเขียว สาม คัน นี้
+NAME buy vehicle green three CLAS this
+Sanit bought these three green cars.
+
+# misplaced classifier-expression; must follow adjective
+# 219464
+Id: 107219464
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj, dmnst, numcl
+สนิทซื้อรถสามคันสีเขียวนี้
+sànìt sɯ́ː rót sǎːm kʰan sǐːkʰǐːo níː
+สนิท ซื้อ รถ สาม คัน สีเขียว นี้
+NAME buy vehicle three CLAS green this
+[ungrammatical: ~Sanit bought these three green cars.]
+
+# demonstrative disables non-verbal predicate, resulting in bare NP
+# 219465
+Id: 108219465
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj, dmnst, numcl
+รถสีเขียวสามคันนี้
+rót sǐːkʰǐːo sǎːm kʰan níː
+รถ สีเขียว สาม คัน นี้
+vehicle green three CLAS this
+[ungrammatical: ~Sanit bought these three green cars.]
+
+# http://www.thai-language.com/id/219437
+# classifier-expression must follow the adjective 
+# 219437
+Id: 109219437
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: adj, numcl
+สนิทมีรถสีเขียวสามคัน
+sànìt miː rót sǐːkʰǐːo sǎːm kʰan
+สนิท มี รถ สีเขียว สาม คัน
+NAME have vehicle green three CLAS
+Sanit has three green cars.
+
+# misplaced adjective w.r.t. classifier-expression
+# 219481
+Id: 110219481
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj, numcl
+สนิทมีรถสามคันสีเขียว
+sànìt miː rót sǎːm kʰan sǐːkʰǐːo
+สนิท มี รถ สาม คัน สีเขียว
+NAME have vehicle three CLAS green
+[ungrammatical: ~Sanit has three green cars.]
+
+# http://www.thai-language.com/id/215868
+# adverb follows the verb it modifies
+# 215868
+Id: 111215868
+Source: f:215868
+Vetted: f
+Judgment: g
+Phenomena: adv
+ม้าวิ่งเร็ว
+máː wîŋ rew
+ม้า วิ่ง เร็ว
+horse run fast
+The horse gallops fast.
+
+# mispositioned adverb
+# 219446
+Id: 112219446
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+ม้าเร็ววิ่ง
+máː rew wîŋ
+ม้า เร็ว วิ่ง
+horse fast run
+[ungrammatical: ~The horse gallops fast.]
+
+# mispositioned adverb
+# 219447
+Id: 113219447
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+เร็วม้าวิ่ง
+rew máː wîŋ
+เร็ว ม้า วิ่ง
+fast horse run
+[ungrammatical: ~The horse gallops fast.]
+
+# misplaced adverb and verb
+# 219482
+Id: 114219482
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+เร็ววิ่งม้า
+rew wîŋ máː
+เร็ว วิ่ง ม้า
+fast run horse
+[ungrammatical: ~The horse gallops fast.]
+
+# http://www.thai-language.com/id/219313
+# classifier-less sentence is underspecified for number
+# 219313
+Id: 115219313
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+เด็กกินแอปเปิ้ล
+dèk kin ʔ&aelig;̀ːppɤ̂ːn
+เด็ก กิน แอปเปิ้ล
+child eat apple
+The child/children eat/eats an/the apple(s).
+
+# http://www.thai-language.com/id/210869
+# attributive copula
+# 210869
+Id: 116210869
+Source: f:210869
+Vetted: f
+Judgment: g
+Phenomena: cop
+เด็กสบาย
+dèk sàbaːj
+เด็ก สบาย
+child content
+The child is content.
+
+# wrong word order for attributive copula
+# 219452
+Id: 117219452
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+สบายเด็ก
+sàbaːj dèk
+สบาย เด็ก
+content child
+[ungrammatical: ~The child is content.]
+
+# http://www.thai-language.com/id/219434
+# non-verbal predicate
+# 219434
+Id: 118219434
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: cop
+รถสีเขียว
+rót sǐːkʰǐːo
+รถ สีเขียว
+vehicle green
+The car is green.
+
+# http://www.thai-language.com/id/219443
+# NP copula. Same example in b:8
+# 219443
+Id: 119219443
+Source: a:15
+Vetted: s
+Judgment: g
+Phenomena: cop
+เขาเป็นครู
+kʰǎw pen kʰruː
+เขา เป็น ครู
+he COP teacher
+He is a teacher.
+
+# http://www.thai-language.com/id/219444
+# ADJ copula
+# 219444
+Id: 120219444
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+ตะกร้าใหญ่
+tàʔkrâː jɑ̀j
+ตะกร้า ใหญ่
+basket big
+The basket is big.
+
+# http://www.thai-language.com/id/219445
+# locational copula?
+# 219445
+Id: 121219445
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+สนิทอยู่บ้าน
+sànìt jùː bâːn
+สนิท อยู่ บ้าน
+NAME located home
+Sanit is at home.
+
+# http://www.thai-language.com/id/219453
+# NP copula using คือ
+# 219453
+Id: 122219453
+Source: b:8
+Vetted: f
+Judgment: g
+Phenomena: cop
+นี่คือดอกกุหลาบ
+nîː kʰɯː dɔ̀ːkkùʔlàːp
+นี่ คือ ดอกกุหลาบ
+this COP rose
+This is a rose.
+
+# http://www.thai-language.com/id/219454
+# NP copula with dropped optional คือ
+# 219454
+Id: 123219454
+Source: b:8
+Vetted: f
+Judgment: g
+Phenomena: cop
+นี่ดอกกุหลาบ
+nîː dɔ̀ːkkùʔlàːp
+นี่ ดอกกุหลาบ
+this rose
+This is a rose.
+
+# http://www.thai-language.com/id/219458
+# pseudo-PP copula, based on b:263
+# 219458
+Id: 124219458
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+หนังสือนี้เกี่ยวกับประวัติศาสตร์
+nǎŋsɯ̌ː níː kìːokàp pràʔwàtsàːt
+หนังสือ นี้ เกี่ยวกับ ประวัติศาสตร์
+book this concerned-with history
+This book concerns history.
+
+# http://www.thai-language.com/id/219460
+# pseudo-PP copula, based on b:262
+# 219460
+Id: 125219460
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+หนังสือนี้เรื่องประวัติศาสตร์
+nǎŋsɯ̌ː níː rɯ̂ːaŋ pràʔwàtsàːt
+หนังสือ นี้ เรื่อง ประวัติศาสตร์
+book this about history
+This book is about history.
+
+# http://www.thai-language.com/id/219461
+# PP copula
+# 219461
+Id: 126219461
+Source: b:280
+Vetted: f
+Judgment: g
+Phenomena: cop
+รูปอยู่บนโต๊ะ
+rûːp jùː bon tóʔ
+รูป อยู่ บน โต๊ะ
+picture located on table
+The pictures are on the table.
+
+# http://www.thai-language.com/id/219462
+# PP copula (adapted from source)
+# 219462
+Id: 127219462
+Source: b:280
+Vetted: f
+Judgment: g
+Phenomena: cop
+กระจกอยู่ติดฝาห้อง
+kràʔtɕòk jùː tìt fǎːhɔ̂ːŋ
+กระจก อยู่ ติด ฝาห้อง
+glass located attached wall
+The mirror is on the wall.
+
+# http://www.thai-language.com/id/219456
+# negative NP copula
+# 219456
+Id: 128219456
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop, neg
+ดินสอไม่ใช่ปากกา
+dinsɔ̌ː mɑ̂jtɕʰɑ̂j pàːkkaː
+ดินสอ ไม่ใช่ ปากกา
+pencil NEG-COP pen
+A pencil is not a pen.
+
+# missing copula
+# 219457
+Id: 129219457
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+ดินสอปากกา
+dinsɔ̌ː pàːkkaː
+ดินสอ ปากกา
+pencil pen
+[ungrammatical: ~A pencil is not a pen.]
+
+# http://www.thai-language.com/id/219333
+# monosyndeton coordination
+# 219333
+Id: 130219333
+Source: f:213233
+Vetted: f
+Judgment: g
+Phenomena: crd
+ฉันทานอาหารทะเล ไก่ และ ไก่งวง
+tɕʰǎn tʰaːn ʔaːhǎːntʰáʔleː kɑ̀j l&aelig;́ʔ kɑ̀jŋuːaŋ
+ฉัน ทาน อาหารทะเล ไก่ และ ไก่งวง
+I eat seafood chicken and turkey
+I eat seafood, chicken, and turkey.
+
+# monosyndeton coordination without และ
+# 219310
+Id: 131219310
+Source: f:213233
+Vetted: f
+Judgment: u
+Phenomena: crd
+ฉันทานอาหารทะเลไก่ไก่งวง
+tɕʰǎn tʰaːn ʔaːhǎːntʰáʔleː kɑ̀j kɑ̀jŋuːaŋ
+ฉัน ทาน อาหารทะเล ไก่ ไก่งวง
+I eat seafood chicken turkey
+[ungrammatical: ~I eat seafood, chicken, and turkey.]
+
+# monosyndeton coordination with misplaced และ
+# 219311
+Id: 132219311
+Source: f:213233
+Vetted: f
+Judgment: u
+Phenomena: crd
+ฉันทานและอาหารทะเลไก่ไก่งวง
+tɕʰǎn tʰaːn l&aelig;́ʔ ʔaːhǎːntʰáʔleː kɑ̀j kɑ̀jŋuːaŋ
+ฉัน ทาน และ อาหารทะเล ไก่ ไก่งวง
+I eat and seafood chicken turkey
+[ungrammatical: ~I eat seafood, chicken, and turkey.]
+
+# http://www.thai-language.com/id/219441
+# verbal coordination
+# 219441
+Id: 133219441
+Source: k:133
+Vetted: s
+Judgment: g
+Phenomena: crd
+เขาไปซื้อดอกไม้ที่ตลาดและไปเยี่ยมเพื่อน
+kʰǎw pɑj sɯ́ː dɔ̀ːkmɑ́ːj tʰîː tàlàːt l&aelig;́ʔ pɑj jîːam pʰɯ̂ːan
+เขา ไป ซื้อ ดอกไม้ ที่ ตลาด และ ไป เยี่ยม เพื่อน
+he go buy flower at market and go visit friend
+She bought flowers at the market and went to visit a friend.
+
+# misplaced 'and' coordinator
+# 219442
+Id: 134219442
+Source: k:133
+Vetted: s
+Judgment: u
+Phenomena: crd
+เขาไปซื้อดอกไม้ที่ตลาดไปเยี่ยมเพื่อนและ
+kʰǎw pɑj sɯ́ː dɔ̀ːkmɑ́ːj tʰîː tàlàːt pɑj jîːam pʰɯ̂ːan l&aelig;́ʔ
+เขา ไป ซื้อ ดอกไม้ ที่ ตลาด ไป เยี่ยม เพื่อน และ
+he go buy flower at market go visit friend and
+[ungrammatical: ~She bought flowers at the market and went to visit a friend.]
+
+# misplaced coordinator และ
+# 219472
+Id: 135219472
+Source: k:133
+Vetted: f
+Judgment: u
+Phenomena: q
+เขาและไปซื้อดอกไม้ที่ตลาดไปเยี่ยมเพื่อน
+kʰǎw l&aelig;́ʔ pɑj sɯ́ː dɔ̀ːkmɑ́ːj tʰîː tàlàːt pɑj jîːam pʰɯ̂ːan
+เขา และ ไป ซื้อ ดอกไม้ ที่ ตลาด ไป เยี่ยม เพื่อน
+he and go buy flower at market go visit friend
+[ungrammatical: ~She bought flowers at the market and went to visit a friend.]
+
+# http://www.thai-language.com/id/219490
+# verbal coordination
+# 219490
+Id: 136219490
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: crd
+เขาซื้อดอกไม้และเยี่ยมเพื่อน
+kʰǎw sɯ́ː dɔ̀ːkmɑ́ːj l&aelig;́ʔ jîːam pʰɯ̂ːan
+เขา ซื้อ ดอกไม้ และ เยี่ยม เพื่อน
+he buy flower and visit friend
+She buys flowers and visits her friend.
+
+# misplaced coordinator และ
+# 219491
+Id: 137219491
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+เขาซื้อดอกไม้เยี่ยมเพื่อนและ
+kʰǎw sɯ́ː dɔ̀ːkmɑ́ːj jîːam pʰɯ̂ːan l&aelig;́ʔ
+เขา ซื้อ ดอกไม้ เยี่ยม เพื่อน และ
+he buy flower visit friend and
+[ungrammatical: ~She buys flowers and visits her friend.]
+
+# misplaced coordinator และ
+# 219492
+Id: 138219492
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+เขาและซื้อดอกไม้เยี่ยมเพื่อน
+kʰǎw l&aelig;́ʔ sɯ́ː dɔ̀ːkmɑ́ːj jîːam pʰɯ̂ːan
+เขา และ ซื้อ ดอกไม้ เยี่ยม เพื่อน
+he and buy flower visit friend
+[ungrammatical: ~She buys flowers and visits her friend.]
+
+# misplaced coordinator และ, can't coordinate noun with verb
+# 219493
+Id: 139219493
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+เขาซื้อและดอกไม้เยี่ยมเพื่อน
+kʰǎw sɯ́ː l&aelig;́ʔ dɔ̀ːkmɑ́ːj jîːam pʰɯ̂ːan
+เขา ซื้อ และ ดอกไม้ เยี่ยม เพื่อน
+he buy and flower visit friend
+[ungrammatical: ~She buys flowers and visits her friend.]
+
+# http://www.thai-language.com/id/219432
+# demonstrative with non-verbal predicate
+# 219432
+Id: 140219432
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: dmnst, cop
+รถนี้สีเขียว
+rót níː sǐːkʰǐːo
+รถ นี้ สีเขียว
+vehicle this green
+This car is green.
+
+# demonstrative blocks non-verbal predicate
+# 219433
+Id: 141219433
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: dmnst, cop
+รถสีเขียวนี้
+rót sǐːkʰǐːo níː
+รถ สีเขียว นี้
+vehicle green this
+[ungrammatical: ~This car is green.]
+
+# http://www.thai-language.com/id/219448
+# embedded declarative
+# 219448
+Id: 142219448
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-d
+เด็กคิดว่าแมวน่ารัก
+dèk kʰít wâː mɛːw nâːrák
+เด็ก คิด ว่า แมว น่ารัก
+child think COMP cat cute
+The child thinks (that) the cat is cute.
+
+# embedded declarative is missing its complementizer
+# 219451
+Id: 143219451
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+เด็กคิดแมวน่ารัก
+dèk kʰít mɛːw nâːrák
+เด็ก คิด แมว น่ารัก
+child think cat cute
+[ungrammatical: ~The child thinks (that) the cat is cute.]
+
+# misplaced complementizer
+# 219483
+Id: 144219483
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+เด็กว่าคิดแมวน่ารัก
+dèk wâː kʰít mɛːw nâːrák
+เด็ก ว่า คิด แมว น่ารัก
+child COMP think cat cute
+[ungrammatical: ~The child thinks (that) the cat is cute.]
+
+# http://www.thai-language.com/id/219449
+# embedded interrogative uses same complementizer as declarative. Author's rewrite of a:262
+# 219449
+Id: 145219449
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-q
+เด็กถามว่าถึงบ้านหรือยัง
+dèk tʰǎːm wâː tʰɯ̌ŋ bâːn rɯ̌ːjaŋ
+เด็ก ถาม ว่า ถึง บ้าน หรือยัง
+child ask COMP arrive home QUES3
+The child asked whether (we) had arrived home yet, or not.
+
+# embedded interrogative missing a complementizer
+# 219450
+Id: 146219450
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+เด็กถามถึงบ้านหรือยัง
+dèk tʰǎːm tʰɯ̌ŋ bâːn rɯ̌ːjaŋ
+เด็ก ถาม ถึง บ้าน หรือยัง
+child ask arrive home QUES3
+[ungrammatical: ~The child asked whether (we) had arrived home yet, or not.]
+
+# misplaced complementizer
+# 219484
+Id: 147219484
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+เด็กว่าถามถึงบ้านหรือยัง
+dèk wâː tʰǎːm tʰɯ̌ŋ bâːn rɯ̌ːjaŋ
+เด็ก ว่า ถาม ถึง บ้าน หรือยัง
+child COMP ask arrive home QUES3
+[ungrammatical: ~The child asked whether (we) had arrived home yet, or not.]
+
+# http://www.thai-language.com/id/219172
+# shows modal auxiliary after verb
+# 219172
+Id: 148219172
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: m
+ฉันกินกระจกได้
+tɕʰǎn kin kràʔtɕòk dɑ̂j
+ฉัน กิน กระจก ได้
+I eat glass POT-CAN
+I can eat glass.
+
+# misplaced auxiliary of potential
+# 219334
+Id: 149219334
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: m
+ฉันกินได้กระจก
+tɕʰǎn kin dɑ̂j kràʔtɕòk
+ฉัน กิน ได้ กระจก
+I eat POT-CAN glass
+[ungrammatical: ~I can eat glass.]
+
+# misplaced auxiliary of potential
+# 219335
+Id: 150219335
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: m
+ได้ฉันกินกระจก
+dɑ̂j tɕʰǎn kin kràʔtɕòk
+ได้ ฉัน กิน กระจก
+POT-CAN I eat glass
+[ungrammatical: ~I can eat glass.]
+
+# http://www.thai-language.com/id/219179
+# shows S-V-[AUX-ได้] word order with intransitive verb
+# 219179
+Id: 151219179
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: m
+ผู้ชายไปได้
+pʰûːtɕʰaːj pɑj dɑ̂j
+ผู้ชาย ไป ได้
+man go POT-CAN
+The man can go.
+
+# http://www.thai-language.com/id/219180
+# S-[AUX-ได้]-V
+# 219180
+Id: 152219180
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: m
+ผู้ชายได้ไป
+pʰûːtɕʰaːj dɑ̂j pɑj
+ผู้ชาย ได้ ไป
+man can go
+The man went.
+
+# invalid word order for modal aux and main verb
+# 219466
+Id: 153219466
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+ได้ไปผู้ชาย
+dɑ̂j pɑj pʰûːtɕʰaːj
+ได้ ไป ผู้ชาย
+POT-CAN go man
+[ungrammatical: ~The man went.]
+
+# invalid word order for modal aux and main verb
+# 219467
+Id: 154219467
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+ไปผู้ชายได้
+pɑj pʰûːtɕʰaːj dɑ̂j
+ไป ผู้ชาย ได้
+go man POT-CAN
+[ungrammatical: ~The man went.]
+
+# misplaced NP
+# 219470
+Id: 155219470
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+ไปได้ผู้ชาย
+pɑj dɑ̂j pʰûːtɕʰaːj
+ไป ได้ ผู้ชาย
+go POT-CAN man
+[ungrammatical: ~The man went.]
+
+# http://www.thai-language.com/id/219181
+# shows S-[AUX-ต้อง]-V word order with intransitive verb
+# 219181
+Id: 156219181
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: m
+ผู้ชายต้องไป
+pʰûːtɕʰaːj tɔ̂ŋ pɑj
+ผู้ชาย ต้อง ไป
+man must go
+The man must go.
+
+# S-V-[AUX-ต้อง] is ungrammatical
+# 219182
+Id: 157219182
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: m
+ผู้ชายไปต้อง
+pʰûːtɕʰaːj pɑj tɔ̂ŋ
+ผู้ชาย ไป ต้อง
+man go must
+[ungrammatical: ~The man must go.]
+
+# cannot have two auxiliaries and no main verb
+# 219468
+Id: 158219468
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+ผู้ชายต้องได้
+pʰûːtɕʰaːj tɔ̂ŋ dɑ̂j
+ผู้ชาย ต้อง ได้
+man must POT-CAN
+[ungrammatical: ~The man must go.]
+
+# cannot have two auxiliaries and no main verb
+# 219469
+Id: 159219469
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+ได้ผู้ชายต้อง
+dɑ̂j pʰûːtɕʰaːj tɔ̂ŋ
+ได้ ผู้ชาย ต้อง
+POT-CAN man must
+[ungrammatical: ~The man must go.]
+
+# http://www.thai-language.com/id/219183
+# shows S-V-[AUX-ไหว] word order with transitive verb and missing optional argument
+# 219183
+Id: 160219183
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: m
+ผู้ชายไปไหว
+pʰûːtɕʰaːj pɑj wɑ̌j
+ผู้ชาย ไป ไหว
+man go POT-ABLE
+The man is able to go.
+
+# S-[AUX-ไหว]-V is ungrammatical
+# 219184
+Id: 161219184
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: m
+ผู้ชายไหวไป
+pʰûːtɕʰaːj wɑ̌j pɑj
+ผู้ชาย ไหว ไป
+man POT-ABLE go
+[ungrammatical: ~The man is able to go.]
+
+# http://www.thai-language.com/id/219289
+# shows S-(V-DO)-[AUX-ไหว] word order with transitive verb
+# 219289
+Id: 162219289
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: m
+ผู้ชายไปตลาดไหว
+pʰûːtɕʰaːj pɑj tàlàːt wɑ̌j
+ผู้ชาย ไป ตลาด ไหว
+man go market POT-ABLE
+The man is able to go to the market.
+
+# misplaced auxiliary of potential
+# 219336
+Id: 163219336
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: m
+ผู้ชายตลาดไปไหว
+pʰûːtɕʰaːj tàlàːt pɑj wɑ̌j
+ผู้ชาย ตลาด ไป ไหว
+man market go POT-ABLE
+[ungrammatical: ~The man is able to go to the market.]
+
+# misplaced auxiliary of potential
+# 219337
+Id: 164219337
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: m
+ผู้ชายไปไหวตลาด
+pʰûːtɕʰaːj pɑj wɑ̌j tàlàːt
+ผู้ชาย ไป ไหว ตลาด
+man go POT-ABLE market
+[ungrammatical: ~The man is able to go to the market.]
+
+# misplaced auxiliary of potential
+# 219338
+Id: 165219338
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: m
+ไหวผู้ชายไปตลาด
+wɑ̌j pʰûːtɕʰaːj pɑj tàlàːt
+ไหว ผู้ชาย ไป ตลาด
+POT-ABLE man go market
+[ungrammatical: ~The man is able to go to the market.]
+
+# http://www.thai-language.com/id/208070
+# basic negation
+# 208070
+Id: 166208070
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+สนิทไม่อยู่
+sànìt mɑ̂j jùː
+สนิท ไม่ อยู่
+NAME NEG present
+Sanit is not in.
+
+# misplaced negator particle
+# 219315
+Id: 167219315
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg
+ไม่สนิทอยู่
+mɑ̂j sànìt jùː
+ไม่ สนิท อยู่
+NEG NAME present
+[ungrammatical: ~Sanit is not in.]
+
+# misplaced negator particle
+# 219319
+Id: 168219319
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg
+ไม่อยู่สนิท
+mɑ̂j jùː sànìt
+ไม่ อยู่ สนิท
+NEG present NAME
+[ungrammatical: ~Sanit is not in.]
+
+# misplaced negator particle
+# 219320
+Id: 169219320
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg
+อยู่ไม่สนิท
+jùː mɑ̂j sànìt
+อยู่ ไม่ สนิท
+present NEG NAME
+[ungrammatical: ~Sanit is not in.]
+
+# misplaced negator particle
+# 219321
+Id: 170219321
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg
+อยู่สนิทไม่
+jùː sànìt mɑ̂j
+อยู่ สนิท ไม่
+present NAME NEG
+[ungrammatical: ~Sanit is not in.]
+
+# misplaced negator particle
+# 219322
+Id: 171219322
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg
+สนิทอยู่ไม่
+sànìt jùː mɑ̂j
+สนิท อยู่ ไม่
+NAME present NEG
+[ungrammatical: ~Sanit is not in.]
+
+# http://www.thai-language.com/id/219314
+# basic negation
+# 219314
+Id: 172219314
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+สนิทไม่ไปตลาด
+sànìt mɑ̂j pɑj tàlàːt
+สนิท ไม่ ไป ตลาด
+NAME NEG go market
+Sanit doesn't go to the market
+
+# misplaced negator particle
+# 219316
+Id: 173219316
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg
+สนิทไปไม่ตลาด
+sànìt pɑj mɑ̂j tàlàːt
+สนิท ไป ไม่ ตลาด
+NAME go NEG market
+[ungrammatical: ~Sanit doesn't go to the market]
+
+# misplaced negator particle
+# 219317
+Id: 174219317
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg
+สนิทไปตลาดไม่
+sànìt pɑj tàlàːt mɑ̂j
+สนิท ไป ตลาด ไม่
+NAME go market NEG
+[ungrammatical: ~Sanit doesn't go to the market]
+
+# misplaced negator particle
+# 219318
+Id: 175219318
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg
+ไม่สนิทไปตลาด
+mɑ̂j sànìt pɑj tàlàːt
+ไม่ สนิท ไป ตลาด
+NEG NAME go market
+[ungrammatical: ~Sanit doesn't go to the market]
+
+# misplaced negator particle; bad word order
+# 219323
+Id: 176219323
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, wo
+ตลาดไม่สนิทไป
+tàlàːt mɑ̂j sànìt pɑj
+ตลาด ไม่ สนิท ไป
+market NEG NAME go
+[ungrammatical: ~Sanit doesn't go to the market]
+
+# misplaced negator particle; bad word order
+# 219324
+Id: 177219324
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, wo
+สนิทตลาดไปไม่
+sànìt tàlàːt pɑj mɑ̂j
+สนิท ตลาด ไป ไม่
+NAME market go NEG
+[ungrammatical: ~Sanit doesn't go to the market]
+
+# misplaced negator particle; bad word order
+# 219325
+Id: 178219325
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, wo
+สนิทตลาดไม่ไป
+sànìt tàlàːt mɑ̂j pɑj
+สนิท ตลาด ไม่ ไป
+NAME market NEG go
+[ungrammatical: ~Sanit doesn't go to the market]
+
+# misplaced negator particle; bad word order
+# 219326
+Id: 179219326
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, wo
+ไม่ไปสนิทตลาด
+mɑ̂j pɑj sànìt tàlàːt
+ไม่ ไป สนิท ตลาด
+NEG go NAME market
+[ungrammatical: ~Sanit doesn't go to the market]
+
+# misplaced negator particle; bad word order
+# 219327
+Id: 180219327
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, wo
+ไปไม่สนิทตลาด
+pɑj mɑ̂j sànìt tàlàːt
+ไป ไม่ สนิท ตลาด
+go NEG NAME market
+[ungrammatical: ~Sanit doesn't go to the market]
+
+# misplaced negator particle; bad word order
+# 219328
+Id: 181219328
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, wo
+ไปตลาดไม่สนิท
+pɑj tàlàːt mɑ̂j sànìt
+ไป ตลาด ไม่ สนิท
+go market NEG NAME
+[ungrammatical: ~Sanit doesn't go to the market]
+
+# http://www.thai-language.com/id/219312
+# negator 
+# 219312
+Id: 182219312
+Source: a:228
+Vetted: f
+Judgment: g
+Phenomena: neg, tam
+ก่อนเก็บมีดเช็ดให้แห้งด้วย จะได้ไม่เป็นสนิม
+kɔ̀ːn kèp mîːt tɕʰét hɑ̂j h&aelig;̂ːŋ dûɛj tɕàʔ dɑ̂j mɑ̂j pen sànǐm
+ก่อน เก็บ มีด เช็ด ให้ แห้ง ด้วย จะ ได้ ไม่ เป็น สนิม
+before put.away knife wipe give dry PP ASP-SOON ASP-GET NEG COP rust
+Before you put away the knife, dry it well, so it won't get rusty.
+
+# http://www.thai-language.com/id/219440
+# classifier example
+# 219440
+Id: 183219440
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: numcl
+สนิทซื้อหนังสือสามเล่ม
+sànìt sɯ́ː nǎŋsɯ̌ː sǎːm lêm
+สนิท ซื้อ หนังสือ สาม เล่ม
+NAME buy book three CLAS
+Sanit bought three books.
+
+# cannot have classifier without either demonstrative (after) or number (before)
+# 219439
+Id: 184219439
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: numcl
+สนิทซื้อหนังสือเล่ม
+sànìt sɯ́ː nǎŋsɯ̌ː lêm
+สนิท ซื้อ หนังสือ เล่ม
+NAME buy book CLAS
+[ungrammatical: ~Sanit bought three books.]
+
+# http://www.thai-language.com/id/219473
+# this type of thing happens when trying to make 219445 ungrammatical. full version: 219474
+# 219473
+Id: 185219473
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+พ่อสนิทอยู่
+pʰɔ̂ː sànìt jùː
+พ่อ สนิท อยู่
+father NAME present
+Sanit's father is home.
+
+# http://www.thai-language.com/id/219474
+# non-drop version of 219473
+# 219474
+Id: 186219474
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+พ่อของสนิทอยู่
+pʰɔ̂ː kʰɔ̌ːŋ sànìt jùː
+พ่อ ของ สนิท อยู่
+father of NAME located
+Sanit's father is home.
+
+# http://www.thai-language.com/id/219300
+# question
+# 219300
+Id: 187219300
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: q
+เด็กไปตลาดไหม
+dèk pɑj tàlàːt mɑ̌j
+เด็ก ไป ตลาด ไหม
+child go market QUES1
+Did the child go to the market?
+
+# misplaced question particle
+# 219329
+Id: 188219329
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: q
+ไหมเด็กไปตลาด
+mɑ̌j dèk pɑj tàlàːt
+ไหม เด็ก ไป ตลาด
+QUES1 child go market
+[ungrammatical: ~Did the child go to the market?]
+
+# misplaced question particle
+# 219330
+Id: 189219330
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: q
+เด็กไหมไปตลาด
+dèk mɑ̌j pɑj tàlàːt
+เด็ก ไหม ไป ตลาด
+child QUES1 go market
+[ungrammatical: ~Did the child go to the market?]
+
+# misplaced question particle
+# 219331
+Id: 190219331
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: q
+เด็กไปไหมตลาด
+dèk pɑj mɑ̌j tàlàːt
+เด็ก ไป ไหม ตลาด
+child go QUES1 market
+[ungrammatical: ~Did the child go to the market?]
+
+# invalid word order for question
+# 219332
+Id: 191219332
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: wo
+เด็กตลาดไปไหม
+dèk tàlàːt pɑj mɑ̌j
+เด็ก ตลาด ไป ไหม
+child market go QUES1
+[ungrammatical: ~Did the child go to the market?]
+
+# http://www.thai-language.com/id/219302
+# factual past verbal predicate question must use หรือเปล่า
+# 219302
+Id: 192219302
+Source: a:283
+Vetted: t
+Judgment: g
+Phenomena: q
+เมื่อวานไปดูหนังหรือเปล่า
+mɯ̂ːawaːn pɑj duː nǎŋ rɯ̌ːplàːw
+เมื่อวาน ไป ดู หนัง หรือเปล่า
+yesterday go look movie QUES2
+Did you see a movie yesterday?
+
+# factual past verbal predicate question cannot use ไหม
+# 219301
+Id: 193219301
+Source: a:281
+Vetted: t
+Judgment: u
+Phenomena: q
+เมื่อวานไปดูหนังไหม
+mɯ̂ːawaːn pɑj duː nǎŋ mɑ̌j
+เมื่อวาน ไป ดู หนัง ไหม
+yesterday go look movie QUES1
+[ungrammatical: ~Did you see a movie yesterday?]
+
+# http://www.thai-language.com/id/219303
+# negative question must use หรือเปล่า
+# 219303
+Id: 194219303
+Source: a:283
+Vetted: t
+Judgment: g
+Phenomena: q
+สนิทไม่สบายหรือเปล่า
+sànìt mɑ̂j sàbaːj rɯ̌ːplàːw
+สนิท ไม่ สบาย หรือเปล่า
+NAME NEG content QUES2
+Is Sanit not feeling well?
+
+# Iwasaki et al.: negative proposition cannot use question particle ไหม
+# 219471
+Id: 195219471
+Source: a:283
+Vetted: f
+Judgment: u
+Phenomena: q
+สนิทไม่สบายไหม
+sànìt mɑ̂j sàbaːj mɑ̌j
+สนิท ไม่ สบาย ไหม
+NAME not content QUES1
+[ungrammatical: ~Is Sanit not feeling well?]
+
+# http://www.thai-language.com/id/219173
+# shows S-V-V-V-V sequential
+# 219173
+Id: 196219173
+Source: b:81
+Vetted: t
+Judgment: g
+Phenomena: svc
+เขาไปซื้อมากิน
+kʰǎw pɑj sɯ́ː maː kin
+เขา ไป ซื้อ มา กิน
+he go buy come eat
+He went out to buy something and brought it back to eat.
+
+# http://www.thai-language.com/id/219174
+# shows S-V-V-V-V sequential
+# 219174
+Id: 197219174
+Source: b:82
+Vetted: t
+Judgment: g
+Phenomena: svc
+เขารีบวิ่งข้ามไป
+kʰǎw rîːp wîŋ kʰâːm pɑj
+เขา รีบ วิ่ง ข้าม ไป
+he hurry run cross go
+He hurriedly ran across.
+
+# http://www.thai-language.com/id/219175
+# shows S-V-V-V-V-V-V-V sequential
+# 219175
+Id: 198219175
+Source: b:82
+Vetted: t
+Judgment: g
+Phenomena: svc
+ต้องรีบกลับไปเรียกให้มาบอก
+tɔ̂ŋ rîːp klàp pɑj rîːak hɑ̂j maː bɔ̀ːk
+ต้อง รีบ กลับ ไป เรียก ให้ มา บอก
+must hurry return go call give come speak
+You must hurry back and call him to come and tell me.
+
+# http://www.thai-language.com/id/219176
+# shows subordination-type verb serial verb construction
+# 219176
+Id: 199219176
+Source: a:232
+Vetted: t
+Judgment: g
+Phenomena: svc
+ไม่ยอมกินอะไร
+mɑ̂j jɔːm kin ʔàʔrɑj
+ไม่ ยอม กิน อะไร
+NEG allow eat anything
+I wasn't willing to eat anything.
+
+# http://www.thai-language.com/id/219489
+# when before a main verb, TAM2 takes on verbal function and we get SVC
+# 219489
+Id: 200219489
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: svc
+สุรีขึ้นแต่งกลอน
+sùʔriː kʰɯ̂n t&aelig;̀ŋ klɔːn
+สุรี ขึ้น แต่ง กลอน
+NAME rise compose poem
+Suree goes up and composes a poem.
+
+# http://www.thai-language.com/id/219494
+# basic serial verb construction
+# 219494
+Id: 201219494
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: svc
+เขาไปซื้อกลับ
+kʰǎw pɑj sɯ́ː klàp
+เขา ไป ซื้อ กลับ
+he go buy return
+He went to buy (it) and returned.
+
+# http://www.thai-language.com/id/219304
+# responding to lpoulson's inquiry for a sentence with both inchoative and perfective
+# 219304
+Id: 202219304
+Source: a:151
+Vetted: t
+Judgment: g
+Phenomena: tam
+พอได้เต็มกระเป๋าสองช่องแล้วเขาก็ลงมา
+pʰɔː dɑ̂j tem kràʔpǎw sɔ̌ːŋ tɕʰɔ̂ːŋ lɛ́ːw kʰǎw kɔ̂ː loŋ maː
+พอ ได้ เต็ม กระเป๋า สอง ช่อง แล้ว เขา ก็ ลง มา
+enough ASP-GET fill bag two CLS ASP-FINISH he LP down DIR
+When he finished filling two bags, he came down.
+
+# http://www.thai-language.com/id/219307
+# aspect markers after main verb, synonymous with 219308
+# 219307
+Id: 203219307
+Source: g:343
+Vetted: t
+Judgment: g
+Phenomena: tam
+วิลาศเย็บผ้ากำลังจะเสร็จ
+wíʔlâːt jép pʰâː kamlaŋ tɕàʔ sèt
+วิลาศ เย็บ ผ้า กำลัง จะ เสร็จ
+NAME sew cloth ASP-PROG ASP-SOON finish
+Wilat is about to finish sewing the cloth.
+
+# http://www.thai-language.com/id/219308
+# aspect markers before main verb, synonymous with 219307
+# 219308
+Id: 204219308
+Source: g:343
+Vetted: t
+Judgment: g
+Phenomena: tam
+วิลาศกำลังจะเย็บผ้าเสร็จ
+wíʔlâːt kamlaŋ tɕàʔ jép pʰâː sèt
+วิลาศ กำลัง จะ เย็บ ผ้า เสร็จ
+NAME ASP-PROG ASP-SOON sew cloth finished
+Wilat is about to finish sewing the cloth.
+
+# http://www.thai-language.com/id/219427
+# semi-perfective TAM2 marker
+# 219427
+Id: 205219427
+Source: i:167
+Vetted: t
+Judgment: g
+Phenomena: tam
+สุรีแต่งกลอนขึ้น
+sùʔriː t&aelig;̀ŋ klɔːn kʰɯ̂n
+สุรี แต่ง กลอน ขึ้น
+NAME compose poem TAM2
+Suree compose-SEMI-PERF a poem.
+
+# incorrect position for TAM2 aspect marker
+# 219488
+Id: 206219488
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+สุรีแต่งขึ้นกลอน
+sùʔriː t&aelig;̀ŋ kʰɯ̂n klɔːn
+สุรี แต่ง ขึ้น กลอน
+NAME compose TAM2 poem
+[ungrammatical: ~Suree compose-SEMI-PERF a poem.]
+
+# http://www.thai-language.com/id/219428
+# semi-perfective TAM2 marker with aux-of-potential
+# 219428
+Id: 207219428
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: tam
+สุรีแต่งกลอนขึ้นได้
+sùʔriː t&aelig;̀ŋ klɔːn kʰɯ̂n dɑ̂j
+สุรี แต่ง กลอน ขึ้น ได้
+NAME compose poem TAM2 POT-CAN
+Suree can/could compose-SEMI-PERF a poem.
+
+# incorrect ordering of aux-of-potential and TAM2 aspect marker
+# 219487
+Id: 208219487
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+สุรีแต่งกลอนได้ขึ้น
+sùʔriː t&aelig;̀ŋ klɔːn dɑ̂j kʰɯ̂n
+สุรี แต่ง กลอน ได้ ขึ้น
+NAME compose poem POT-CAN TAM2
+[ungrammatical: ~Suree can/could compose-SEMI-PERF a poem.]
+
+# http://www.thai-language.com/id/219305
+# responding to lpoulson's inquiry for a sentence with both perfective and imperfective?
+# 219305
+Id: 209219305
+Source: a:157
+Vetted: t
+Judgment: g
+Phenomena: tam, dmnst
+แมวตัวนี้ตายอยู่แล้วตั้งแต่เช้า
+mɛːw tuːa níː taːj jùː lɛ́ːw tâŋt&aelig;̀ː tɕʰáːw
+แมว ตัว นี้ ตาย อยู่ แล้ว ตั้งแต่ เช้า
+cat CLS this die ASP-PROG ASP-FINISH from morning
+This cat was already dead this morning.
+
+# http://www.thai-language.com/id/219163
+# shows S-V-O word order
+# 219163
+Id: 210219163
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: wo
+เด็กกินข้าว
+dèk kin kʰâːw
+เด็ก กิน ข้าว
+child eat rice
+The child eats rice.
+
+# V-S-O word order is ungrammatical
+# 219164
+Id: 211219164
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: wo
+กินเด็กข้าว
+kin dèk kʰâːw
+กิน เด็ก ข้าว
+eat child rice
+[ungrammatical: ~The child eats rice.]
+
+# S-O-V word order is ungrammatical
+# 219165
+Id: 212219165
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: wo
+เด็กข้าวกิน
+dèk kʰâːw kin
+เด็ก ข้าว กิน
+child rice eat
+[ungrammatical: ~The child eats rice.]
+
+# http://www.thai-language.com/id/219166
+# shows S-V-DO-IO word order
+# 219166
+Id: 213219166
+Source: c:80
+Vetted: t
+Judgment: g
+Phenomena: wo
+ฉันให้หนังสือเขา
+tɕʰǎn hɑ̂j nǎŋsɯ̌ː kʰǎw
+ฉัน ให้ หนังสือ เขา
+I give book he
+I gave him the book.
+
+# V-S-DO-IO word order is ungrammatical
+# 219167
+Id: 214219167
+Source: c:80
+Vetted: t
+Judgment: u
+Phenomena: wo
+ให้ฉันหนังสือเขา
+hɑ̂j tɕʰǎn nǎŋsɯ̌ː kʰǎw
+ให้ ฉัน หนังสือ เขา
+give I book he
+[ungrammatical: ~I gave him the book.]
+
+# S-DO-V-IO word order is ungrammatical
+# 219168
+Id: 215219168
+Source: c:80
+Vetted: t
+Judgment: u
+Phenomena: wo
+ฉันหนังสือให้เขา
+tɕʰǎn nǎŋsɯ̌ː hɑ̂j kʰǎw
+ฉัน หนังสือ ให้ เขา
+I book give he
+[ungrammatical: ~I gave him the book.]
+
+# S-DO-IO-V word order is ungrammatical
+# 219169
+Id: 216219169
+Source: c:80
+Vetted: t
+Judgment: u
+Phenomena: wo
+ฉันหนังสือเขาให้
+tɕʰǎn nǎŋsɯ̌ː kʰǎw hɑ̂j
+ฉัน หนังสือ เขา ให้
+I book he give
+[ungrammatical: ~I gave him the book.]
+
+# http://www.thai-language.com/id/219177
+# shows S-V word order with intransitive verb
+# 219177
+Id: 217219177
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: wo
+แมวตาย
+mɛːw taːj
+แมว ตาย
+cat die
+The cat died.
+
+# V-S word order is ungrammatical (intransitive verb)
+# 219178
+Id: 218219178
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: wo
+ตายแมว
+taːj mɛːw
+ตาย แมว
+die cat
+[ungrammatical: ~The cat died.]
+
+# doubled intransitive verb is nonsense
+# 219478
+Id: 219219478
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+ตายตาย
+taːj taːj
+ตาย ตาย
+die die
+[ungrammatical: ~The cat died.]
+
+# http://www.thai-language.com/id/219429
+# aux-of-potential
+# 219429
+Id: 220219429
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: wo
+สุรีแต่งกลอนได้
+sùʔriː t&aelig;̀ŋ klɔːn dɑ̂j
+สุรี แต่ง กลอน ได้
+NAME compose poem POT-CAN
+Suree can compose a poem.
+
+# http://www.thai-language.com/id/219430
+# aux-of-potential
+# 219430
+Id: 221219430
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: wo
+สุรีแต่งกลอน
+sùʔriː t&aelig;̀ŋ klɔːn
+สุรี แต่ง กลอน
+NAME compose poem
+Suree composes/composed a poem.
+
+# http://www.thai-language.com/id/219485
+# N N V word order can be grammatical
+# 219485
+Id: 222219485
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo
+บ้านฉันทลาย
+bâːn tɕʰǎn tʰálaːj
+บ้าน ฉัน ทลาย
+home I collapse
+My house collapsed.
+
+# http://www.thai-language.com/id/219170
+# shows S-V word order (transitive verb, optional argument omitted)
+# 219170
+Id: 223219170
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: wo, pro-d
+เด็กกิน
+dèk kin
+เด็ก กิน
+child eat
+The child eats.
+
+# bare NP is ungrammatical
+# 219479
+Id: 224219479
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo, pro-d
+เด็ก
+dèk
+เด็ก
+child
+[ungrammatical: ~The child eats.]
+
+# http://www.thai-language.com/id/219171
+# V-S word order is grammatical in the case of an implied subject
+# 219171
+Id: 225219171
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: wo, pro-d
+กินทุเรียน
+kin tʰúʔriːan
+กิน ทุเรียน
+eat durian
+(I) eat durian.
+
+# http://www.thai-language.com/id/219431
+# both subject and object of a transitive verb are dropped
+# 219431
+Id: 226219431
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: wo, pro-d
+กิน
+kin
+กิน
+eat
+(I) eat.

@@ -1,0 +1,143 @@
+version=14
+
+section=general
+language=Thai
+iso-code=tha
+archive=yes
+email=glenn@thai-language.com
+affiliation=University of Washington
+motivation=Ling567
+
+section=word-order
+word-order=svo
+has-dets=yes
+noun-det-order=noun-det
+has-aux=yes
+aux-comp-order=after
+aux-comp=vp
+v-cluster=no
+
+section=number
+  number1_name=sg
+  number2_name=pl
+
+section=person
+person=1-2-3
+first-person=none
+
+section=gender
+  gender1_name=masculine
+    gender1_supertype1_name=gender
+  gender2_name=feminine
+    gender2_supertype1_name=gender
+
+section=other-features
+
+section=case
+case-marking=none
+
+section=direct-inverse
+
+section=tense-aspect
+  fin-subform1_name=mv-form
+  fin-subform2_name=tam2-form
+  fin-subform3_name=pot-form
+
+section=sentential-negation
+adv-neg=on
+neg-mod=v
+neg-order=before
+neg-adv-orth=ไม่
+
+section=coordination
+cs1=on
+cs1_n=on
+cs1_np=on
+cs1_vp=on
+cs1_s=on
+cs1_pat=mono
+cs1_mark=word
+cs1_orth=และ
+cs1_order=before
+cs2=on
+cs2_vp=on
+cs2_pat=a
+
+section=matrix-yes-no
+q-part=on
+q-part-order=after
+q-part-orth=ไหม
+
+section=lexicon
+  noun1_name=base
+  noun1_det=opt
+    noun1_stem1_orth=เด็ก
+    noun1_stem1_pred=_child_n_rel
+  noun2_name=m1sg
+    noun2_feat1_name=person
+    noun2_feat1_value=1st
+    noun2_feat2_name=number
+    noun2_feat2_value=sg
+    noun2_feat3_name=gender
+    noun2_feat3_value=masculine
+  noun2_det=imp
+    noun2_stem1_orth=ผม
+    noun2_stem1_pred=_I_pron_rel
+  noun3_name=f1sg
+    noun3_feat1_name=person
+    noun3_feat1_value=1st
+    noun3_feat2_name=number
+    noun3_feat2_value=sg
+    noun3_feat3_name=gender
+    noun3_feat3_value=feminine
+  noun3_det=imp
+    noun3_stem1_orth=ฉัน
+    noun3_stem1_pred=_I_pron_rel
+  noun4_name=2sg
+    noun4_feat1_name=person
+    noun4_feat1_value=2nd
+  noun4_det=imp
+    noun4_stem1_orth=คุณ
+    noun4_stem1_pred=_you_pron_rel
+  noun5_name=3sg
+    noun5_feat1_name=person
+    noun5_feat1_value=3rd
+  noun5_det=imp
+    noun5_stem1_orth=เขา
+    noun5_stem1_pred=_he_pron_rel
+  noun6_name=1pl
+    noun6_feat1_name=person
+    noun6_feat1_value=1st
+    noun6_feat2_name=number
+    noun6_feat2_value=pl
+  noun6_det=imp
+    noun6_stem1_orth=เรา
+    noun6_stem1_pred=_we_pron_rel
+  verb1_name=t
+  verb1_valence=trans
+    verb1_stem1_orth=กิน
+    verb1_stem1_pred=_eat_v_rel
+  verb2_name=i
+  verb2_valence=intrans
+    verb2_stem1_orth=ตาย
+    verb2_stem1_pred=_die_v_rel
+  aux1_name=pot
+  aux1_sem=add-pred
+    aux1_stem1_orth=ไหว
+    aux1_stem1_pred=_able_auxv_rel
+  aux1_compform=finite
+  aux1_subj=np
+  aux2_name=tam2
+  aux2_sem=no-pred
+    aux2_stem1_orth=ขึ้น
+  aux2_compform=mv-form
+  aux2_subj=np
+  det1_name=base
+    det1_stem1_orth=นี้
+    det1_stem1_pred=_this_det_rel
+    det1_stem2_orth=นั้น
+    det1_stem2_pred=_that_det_rel
+    det1_stem3_orth=โน้น
+    det1_stem3_pred=_xthat_det_rel
+
+section=test-sentences

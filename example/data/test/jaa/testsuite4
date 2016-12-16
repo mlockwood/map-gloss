@@ -1,0 +1,1785 @@
+Language: Jamamadi
+Language code: jaa
+Author: Ryan Cross, David Wax
+Date: January 14, 2010
+Source a: The Jawawara Language of Southern Amazonia by R.M.W. Dixon
+Source b: "A-Construction and B-Construction in Jawawara" by R.M.W. Dixon
+Source c:  "Jawawara Verb Classes" by Alan R. Vogel [dissertation]
+Source d: Jawawara-English Dictionary by Alan R. Vogel
+Source e: "The eclectic morphology of Jarawara, and the status of word" by R.M.W. Dixon
+
+# N.B. Implemented lexical items in the grammar so far:
+# nouns
+# masculine animate nouns: jomee 'jaguar', makiti 'man'
+# feminine animate nouns: kerewe 'sloth', fanawi 'woman'
+# feminine inanimate nouns: jifari 'banana'
+# masculine inanimate nouns: marakosa 'passion fruit'
+# verbs (f/m)
+# intransitive-nominative verbs: tafa/tafe 'eat', jaka na 'walk, go for a walk' 
+# transitive verbs: awa 'see', kose na/kose ne 'bite'
+
+# For author-created sentences, we will reawahaference a source if it has
+# a similar sentence attested that we have simplified here
+
+# WORD ORDER
+
+# 001 intransitive SV
+# cf a:81
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: {wo, agr}
+Fanawi tafa.
+fanawi tafa
+woman eat.f
+`The woman eats.'
+
+# 002 intransitive SV
+# cf a:81
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: {wo, agr}
+Makiti tafe.
+makiti tafe
+man eat.m
+`The man eats.'
+
+# 003 *intransitive VS
+# cf a:81
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+*Tafa fanawi.
+tafa fanawi
+eat.f woman
+`The woman eats.'
+
+# 004 *intransitive VS
+# cf a:81
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+*Tafa makiti
+tafa makiti
+eat.m man
+`The man eats.'
+
+# 005 *intransitive (two many arguments)
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+*Makiti jomee tafe.
+makiti jomee tafe
+man.m jaguar.m eat.m
+`The man eats the jaguar.'
+
+# 006 transitive SOV
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: {wo, agr}
+Jomee kerewe kose ne.
+jomee kerewe kose ne
+jaguar.m sloth.f bite AUX.m
+`The jaguar bites the sloth.'
+
+# 007 transitive OSV
+Source: author:cross
+Vetted: m
+Judgment: g
+Phenomena: {wo, agr}
+Kerewe jomee kosene.
+kerewe jomee kose ne
+sloth.f jaguar.m bite AUX.m
+`The jaguar bites the sloth.'
+
+# 008 transitive SOV
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: {wo, agr}
+Kerewe jomee kose na.
+kerewe jomee kose na
+sloth.f jaguar.m bite AUX.f
+`The sloth bites the jaguar.'
+
+# 009 transitive OSV
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: {wo, agr}
+Jomee kerewe kose na.
+jomee kerewe kose na
+jaguar.m sloth.f eat AUX.f
+`The sloth bites the jaguar.'
+
+# 010 *transitive SVO
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+*Jomee kose ne kerewe.
+jomee kose ne kerewe
+jaguar.m eat-AUX.m sloth.f
+`The jaguar bites the sloth.'
+
+# 011 *transitive OVS
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+*Kerewe kose ne jomee.
+kerewe kose ne jomee
+sloth.f eat AUX.m jaguar.m
+`The jaguar bites the sloth.'
+
+# 012 *transitive VSO
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+*Kose ne jomee kerewe.
+kose ne jomee kerewe
+eat AUX.m jaguar.m sloth.f
+`The jaguar bites the sloth.'
+
+# 013 *transitive VOS
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+*Kose ne kerewe jomee
+kose ne kerewe jomee
+eat AUX.m sloth.f jaguar.m
+`The jaguar bites the sloth.'
+
+# 014 *transitive NP-S-O-V (too many subjects)
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+*Makiti jomee kerewe kose ne.
+makiti jomee kerewe kose ne
+man.m jaguar.m sloth.f bite AUX.m
+??`The man or the jaguar bites the sloth.'
+
+# 015 *transitive NP-O-S-V (too many subjects)
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+*Makiti kerewe jomee kose ne.
+makiti kerewe jomee kose ne
+man.m sloth.f jaguar.m bite AUX.m
+??`The man or the jaguar bites the sloth.'
+
+# 016 *transitive NP-O-S-V (too many objects)
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+*Makiti jomee kerewe kose na.
+makiti jomee kerewe kose na
+man.m jaguar.m sloth.f bite AUX.f
+??`The sloth bites the man or jaguar.'
+
+# 017 *transitive S-O-NP-V (too many objects)
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+*Kerewe makiti jomee kose na.
+kerewe makiti jomee kose na
+sloth.f man.m jaguar.m bite AUX.f
+??`The sloth bites the man or jaguar.'
+
+# 018 transitive w/ inanimate object (SOV)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: {wo, agr}
+Makiti jifari kose ne.
+makiti jifari kose ne
+man.m banana.f bite AUX.m
+`The man bites the banana.'
+
+# 019 transitive w/ inanimate object (OSV)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: {wo, agr}
+Jifari makiti kose ne
+jifari makiti kose ne
+banana.f man.m bite AUX.m
+`The man bites the banana.'
+
+# 020 *transitive w/ inanimate object (SVO)
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+Makiti kose ne jifari.
+makiti kose ne jifari
+man.m bite AUX.m banana.f
+`The man bites the banana.'
+
+# 021 transitive w/ inanimate object (OVS)
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+Jifari kose ne makiti.
+jifari kose ne makiti
+banana.f bite AUX.m man.m
+`The man bites the banana.'
+
+# 022 transitive w/ inanimate object (VSO)
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+Kose ne makiti jifari.
+kose ne makiti jifari
+bite-AUX.m man.m banana.f
+`The man bites the banana.'
+
+# 023 transitive w/ inanimate object (VOS)
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {wo}
+Kose na jifari makiti.
+kose na jifari makiti
+bite AUX.m banana.f man.m
+`The man bites the banana.'
+
+# 024 transitive w/ ambiguous S and O (since nouns are both masculine)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: {wo, agr}
+Jomee makiti kose ne.
+jomee makiti kose ne
+jaguar.m man.m bite AUX.m
+`The jaguar bites the man. / The man bites the jaguar.'
+
+# 025 transitive w/ ambiguous S and O (since nouns are both masculine)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: {wo, agr}
+Makiti jomee kose ne.
+makiti jomee kose ne
+man.m jaguar.m bite AUX.m
+`The jaguar bites the man. / The man bites the jaguar.'
+
+# 026 transitive w/ ambiguous S and O (since nouns are both feminine)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: {wo, agr}
+Kerewe fanawi kose na.
+kerewe fanawi kose na
+sloth.f woman.f bite AUX.f
+`The sloth bites the woman. / The woman bites the sloth.'
+
+# 027 transitive w/ ambiguous S and O (since nouns are both feminine)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: {wo, agr}
+Fanawi kerewe kose na.
+fanawi kerewe kose na
+woman.f sloth.f bite AUX.f
+`The sloth bites the woman. / The woman bites the sloth.'
+
+# 028 transitive w/ no parses (since neither noun matches verb in gender)
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: {agr}
+Fanawi kerewe kose ne.
+fanawi kerewe kose ne
+woman.f sloth.f bite AUX.m
+?`The sloth bites the woman / The woman bites the sloth.'
+
+# Tense (cf. a:197, for gender agreement issues cf a:100)
+# Gloss: IP immediate past, RP recent past, FP far past, e eyewitness, n non-eyewitness
+# N.B. the verb does not inflect for gender in non-verb-final position (it occurs in feminine form when followed by affixes)
+# N.B. tense suffixes always inflect for gender (whether they are verb-final or not)
+# N.B. the vowels immediately preceding a tense suffix are sometimes changed and the initial /hV/ of a tense suffix is sometimes dropped, depending on morphophonological rules. These are reflected in our transliteration, but our morpheme-glossed lines regularizes the morphemes. (cf. e:128, a:196-8)
+
+
+# 029 intransitive inflecting IPe feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Fanawi tafahara.
+fanawi tafa-hara
+woman.f eat.u-IPe.f
+'The woman just ate.'
+
+# 030 intransitive inflecting IPe masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Makiti tafahare.
+makiti tafa-hare
+man.m eat.u-IPe.m
+'The man just ate.'
+
+# 031 intransitive inflecting IPe masculine subject, incorrect agreement
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Makiti tafahara.
+makiti tafa-hara
+man.m eat.u-IPe.f
+*'The man just ate.'
+
+# 032 intransitive inflecting IPe feminine subject, incorrect agreement 
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Fanawi tafahare.
+fanawi tafa-hare
+woman.f eat.u-IPe.m
+*'The woman just ate.'
+
+# 033 intransitive inflecting IPe masculine, verb root incorrectly agrees in gender
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+* Makiti tafehare.
+makiti tafe-hare
+man.m eat.m-IPe.m
+*'The man just ate.'
+
+# 034 intransitive auxiliary IPe feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Fanawi jaka nara.
+fanawi jaka na-hara
+woman.f walk AUX.u-IPe.f
+'The woman just went for a walk.'
+
+# 035 intransitive auxiliary IPe masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Makiti jaka nare.
+makiti jaka na-hare
+man.m walk AUX.u-IPe.m
+'The man just went for a walk.'
+
+# 036 intransitive auxiliary IPe feminine subject, wrong agreement
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Fanawi jaka nare.
+fanawi jaka na-hare
+woman.f walk AUX.u-IPe.m
+*'The woman just went for a walk.'
+
+# 035 intransitive auxiliary IPe masculine subject, wrong agreement
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Makiti jaka nara.
+makiti jaka na-hara
+man.m walk AUX.u-IPe.f
+*'The man just went for a walk.'
+
+# 036 intransitive auxiliary IPe masculine subject, auxiliary root incorrectly agrees in gender
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Makiti jaka nehare.
+makiti jaka ne-hare
+man.m walk AUX.m-IPe.m
+*'The man just went for a walk.'
+
+# 037 intransitive inflecting IPe masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Kerewe makiti awahare.
+kerewe makiti awa-hare
+sloth.f man.m see.u-IPe.m
+'The man just saw the sloth.'
+
+# 038 transitive auxiliary IPe masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Jomee fanawi kose nare.
+jomee fanawi kose na-hare
+jaguar.m woman.f bite AUX.u-IPe.f
+'(I saw that) the jaguar just bit the woman.' 
+
+# 039 intransitive inflecting RPe feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Kerewe tafaharo.
+kerewe tafa-haro
+sloth.f eat.u-RPe.m
+'The sloth ate recently.'
+
+# 040 intransitive auxiliary RPe feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Fanawi jaka naro.
+fanawi jaka na-haro
+woman.f walk AUX.u-RPe.f
+'The woman went for a walk recently.'
+
+# 041 transitive auxiliary RPe masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Makiti jomee awehiri.
+makiti jomee awa-hiri
+man.m jaguar.m see.u-RPe.m
+'The man saw the jaguar (recently). / The jaguar saw the man (recently).'
+
+# 042 transitive auxiliary RPe masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Kerewe jomee kose neri.
+kerewe jomee kose na-hiri
+sloth.f jaguar.m bite AUX.u-RPe.m
+'The jaguar bit the sloth recently.'
+
+# 043 intransitive auxiliary RPe feminine subject, wrong agreement
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Fanawi jaka neri.
+fanawi jaka na-hiri
+woman.f walk AUX.u-RPe.m
+*'The woman went for a walk recently.'
+
+# 044 intransitive inflecting FPe masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Jomee tafehimari.
+makiti tafa-himari
+man.m eat.u-FPe.m
+'The jaguar ate (long ago, which I witnessed).'
+
+# 045 intransitive auxiliary FPe feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Fanawi jaka nahamaro.
+fanawi jaka na-hamaro
+woman.f walk AUX.u-FPe.f
+'(Long ago, I saw that) the woman went for a walk.'
+
+# 046 transitive inflecting FPe feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Fanawi jomee awahamaro.
+fanawi jomee awa-hamaro
+woman.f jaguar.m see.u-FPe.f
+'(Long ago, I saw that) the woman saw a jaguar.'
+
+# 047 transitive auxiliary FPe masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Jomee makiti kose nemari.
+jomee makiti kose na-himari
+jaguar.m man.m bite AUX.u-FPe.m
+'The jaguar bit the man long ago. / The man bit the jaguar long ago.'
+
+# 048 transitive inflecting FPe feminine subject/object, wrong agreement
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Fanawi kerewe awehimari.
+fanawi kerewe awa-himari
+woman.f sloth.f see.u-FPe.m
+*'The woman saw the sloth (long ago). / The sloth saw the woman (long ago).'
+
+# 049 intransitive inflecting IPn masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Makiti tafehino.
+makiti tafa-hino
+man.m eat-IPn.m
+'The man just ate.'
+
+# 050 intransitive auxililary IPn feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Fanawi jaka nahani.
+fanawi jaka na-hani
+woman.f walk AUX.u-IPn.f
+'The woman just went for a walk.'
+
+# 051 transitive inflecting IPn feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Makiti fanawi awahani.
+makiti fanawi awa-hani
+man.m woman.f see.u-IPn.f
+'The woman just saw the man.'
+
+# 052 transitive auxiliary IPn masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Jomee fanawi kose neno.
+jomee fanawi kose na-hino
+jaguar.m woman.f bit AUX.u-IPn.m
+'The jaguar just bit the woman.'
+
+# 053 intransitive auxiliary IPn masculine subject, wrong agreement
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Makiti jaka nani.
+makiti jaka na-hani
+man.m walk AUX.u-IPn.f
+*'The man just went for a walk.'
+
+# 054 intransitive inflecting RPn masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Jomee tafehita.
+jomee tafa-hita
+jaguar.m eat.u-RPn.m
+'The jaguar ate recently.'
+
+# 055 transitive auxiliary RPn feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Kerewe makiti kose nehete.
+kerewe makiti kose na-hete
+sloth.f man.m bit AUX.u-RPn.f
+'The sloth recently bit the man.'
+
+# 056 intransitive auxiliary RPn feminine subject, wrong agreement
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Fanawi jaka neta.
+fanawi jaka na-hita
+woman.f walk AUX.u-RPn.m
+*'The woman recently went for a walk.'
+
+# 057 intransitive auxiliary FPn feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Fanawi jaka nehemete.
+fanawi jaka na-hemete
+woman.f walk AUX.u-FPn
+'The woman went for a walk long ago.'
+
+# 058 transitive inflecting FPn masculine subject 
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: tense, wo, agr
+Fanawi makiti awemata.
+fanawi makiti awa-himata
+woman.f man.m see.u-FPn
+'The man saw the woman long ago.'
+
+# 059 transitive inflecting FPn masculine subject, wrong agreement
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Jomee makiti awehemete.
+Jomee makiti awa-hemete
+jaguar.m man.m see.u-FPn.f
+*'The man saw a jaguar long ago. / The jaguar saw a man long ago.'
+
+# 060 verb root incorrectly inflects for masculine gender when followed by a tense suffix
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Makiti fanawi awehare.
+makiti fanawi awe-hare
+man.m woman.f see.m-IPe.m
+*'The man just saw the woman.'
+
+# 061 auxiliary incorrectly inflect for masculine gender when followed by a tense suffix
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Jomee kerewe kose nere.
+jomee kerewe kose ne-hare
+jaguar.m sloth.f bite AUX.m-IPe.m
+'The jaguar just bit the sloth.'
+
+# Pronominal prefixes
+
+# 062 1sg.nom prefix with intransitive inflecting
+Source: e:129
+Vetted: s
+Judgment: g
+Phenomena: tense, agr
+Otafara.
+o-tafa-hara
+1sg.nom-eat.u-IPe.f
+'I just ate.'
+
+# 063 1sg.nom prefix with intransitive auxiliary
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, tam
+Jaka onahara.
+jaka o-na-hara
+walk 1sg.nom-AUX.u-IPe.f
+'I've just went for a walk.'
+
+# 064 1sg.nom prefix with intransitive auxiliary, incorrectly on verb instead of auxiliary
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Ojaka nara
+o-jaka na-hara
+1sg.nom AUX.u-IPe.f
+*I've just went for a walk.'
+
+# 065 1sg.nom prefix with intransitive inflecting, incorrectly a suffix
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Tafao.
+tafa-o
+eat.f-1sg.nom
+*'I eat.'
+
+#066 2sg.nom prefix with intransitive inflecting
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, tense, wo
+Titafaro.
+ti-tafa-haro
+2pl.nom-eat.u-RPe.f
+'You ate (recently).'
+
+#067 2sg.nom prefix with intransitive auxiliary
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, tense, wo
+Jaka tinahara.
+jaka ti-na-hara
+walk 2sg.nom-AUX.u-IPe.f
+'You went for a walk (recently).'
+
+#068 2sg.nom prefix with intransitive auxiliary, incorrectly on verb root
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Ojaka na.
+o-jaka na
+1sg.nom-walk AUX.f
+*'I go for a walk.'
+
+#069 2sg.nom prefix with intransitive inflecting verb, incorrectly masculine (non-umarked gender form)
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Titafe.
+ti-tafe
+2pl.nom-eat.m
+*'You eat.'
+
+#070 1sg.nom prefix with intransitive inflecting verb, incorrectly masculine (non-unmarked gender form)
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Otafare.
+o-tafa-hare
+1sg.nom-eat.u-IPe.m
+*'I just ate.'
+
+#Pronominal Clitics
+
+#071 1sg.acc clitic with transitive inflecting verb
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo
+Tiwa owa.
+tiwa-o-awa
+2sg.acc-1sg.nom-see
+'I see you.'
+
+#072 1sg.acc clitic with transitive auxiliary verb
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo
+Tiwa kose ona.
+tiwa-kose o-na
+2sg.acc-bite 1sg.nom-AUX.f
+'I bite you.'
+
+#073 2sg.acc prefix with transitive auxiliary verb, inccorrectly attaching to auxiliary instead of verb root
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Kose tiwa o-na.
+kose tiwa-o-na
+eat 2sg.acc-1sg.nom-AUX.f
+*'I bite you.'
+
+#074 2sg.acc prefix with 3sg NP object
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo
+Jifari tiwa.
+jifari ti-awa
+banana.f 2sg.nom-see
+'You see a banana.'
+
+#075 1sg.acc clitic with 2sg.nom subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo, tense
+Owa tiwaro.
+owa-ti-awa-haro
+1sg.acc 2sg.nom-see-RPe.f
+'You saw me recently.'
+
+#076 1sg.acc clitic with transitive auxiliary, overt NP subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo, tense
+Jomee owa kose nemari.
+jomee owa-kose na-himari
+jaguar.m 2sg.acc-bite AUX.f-FPe.f
+'(Long ago) a jaguar bit me.'
+
+#077 1sg.acc clitic incorrectly used as if it were a prefix attaching to the auxiliary
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Jomee kose owa namaro.
+jomee kose owa-na-hamaro
+jaguar.m bite 1sg.acc-AUX.u-FUT.f
+*'(Long ago) a jaguar bit me.'
+
+#078 1pl.inc.nom intransitive inflecting verb
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo
+Ee tafa.
+ee-tafa
+1pl.inc.nom-eat.f
+'We eat.'
+
+#079 1pl.inc.nom intransitive inflecting verb; verb incorrectly takes masculine gender with the pronoun
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Ee tafe.
+ee-tafe
+1pl.in.nom-eat.m
+*'We eat.'
+
+#080 1pl.inc.nom transitive verb
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo, tense
+Marakosa ee awahara.
+marakosa ee-awa-hara
+passion.fruit.m 1pl.inc.nom-see.u-IPe
+'We just saw a passion fruit.'
+
+#081 1pl.inc.acc as object
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo, tense
+Kerewe era awa.
+kerewe era-awa
+sloth.f 1pl.inc.acc-see.f
+'The sloth sees us.'
+
+#082 1pl.exc.nom
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo, tense
+Otaa jaka naro.
+otaa-jaka na-haro
+1pl.exc.nom-walk AUX.u-RPe.f
+'We went for a walk recently.'
+
+#083 1pl.excl.nom with suffix incorrectly taking masculine gender
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Otaa jaka neri.
+otaa-jaka na-hiri
+1pl.excl.nom-walk AUX.u-RPe.m
+*'We went for a walk recently.'
+
+#084 1pl.exc.acc
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo
+Otara tiwa.
+otara-ti-awa
+1pl.exc.acc-2sg.nom-see.f
+'You see us.'
+
+#085 1pl.exc.acc incorrectly used after pronominal prefix
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Tiotara awa.
+ti-otara-awa
+2sg.nom-1pl.exc.acc-see.f
+*'You see us.'
+
+#086 2pl.nom
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr
+Tee tafahani.
+tee-tafa-hani.
+2pl.nom-eat-RPn
+'You (all) just ate.'
+
+#087 2pl.acc
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr
+Jomee tera kose neta.
+jomee tera-kose na-hita
+jaguar.m 2pl.acc-bite AUX.u-RPn
+'A jaguar bit you (all) recently.'
+
+#088a 3pl.anim.nom (no overt NPs)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo
+Tiwa mee awa.
+tiwa-mee-awa
+2sg.acc-3pl.anim.nom-see.f
+'They see you.'
+
+#088b 3pl.anim.acc (no overt NPs)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo
+Mera awe.
+mera-awe
+3pl.anim.acc-see.m
+'He see us.'
+
+#089 3pl.anim.nom (no overt subject NP)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo
+Jomee mee awa.
+jomee mee-awa
+jaguar.m 3pl.anim.nom-see.f
+'We see the jaguar.'
+
+#090 3pl.anim.acc (no overt object NP)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo
+Jomee mera awe.
+jomee mera-awe
+jaguar.m 3pl.anim.acc-see.m
+'The jaguar see us.'
+
+#091 3pl.anim.nom (to mark plural NP subject), auxiliary takes feminine agreement
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr
+Jomee owa mee kose na.
+jomee owa-mee-kose na.
+jaguar.m 1sg.acc-3pl.anim.nom-bite AUX.f 
+'The jaguars bite me.'
+
+#092 3pl.anim.nom (to mark plural NP subject), auxiliary incorrectly takes masculine agreement
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Jomee mee owa kose ne.
+jomee mee-owa-kose ne
+jaguar.m 3pl.anim.nom-1sg.acc-bite AUX.m
+*'The jaguars bite me.'
+
+#093 3pl.anim.nom NOT used (inanimate subject)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, wo
+Jifari owa kose na.
+jifari owa-kose na
+banana.f 1sg.acc-bite AUX.f
+'The banana bites me. / The bananas bite me.'
+
+#094 3pl.anim.nom incorrectly used to mark inanimate subject
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Jifari mee owa kose na.
+jifari mee-owa-kose na
+banana.f 3pl.anim.nom-1pl.acc-bite AUX.f
+*'The bananas bite me.'
+
+#095 3pl.anim.acc (to mark plural NP object)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, tense, wo
+Kerewe mera owahara.
+kerewe mera-o-awa-hara
+sloth.f 3pl.anim.acc-1sg.nom-see-IPe
+'I just saw the sloths.
+
+#096 3pl.anim.acc NOT used (inanimate object)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, tense, wo
+Marakosa kose ona.
+marakosa kose o-na
+passion.fruit.m bite 1sg.nom-AUX.f
+'I bite the passion fruit(s).'
+
+#097 3pl.anim.acc incorrectly used to mark inanimate object
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Marakosa mera kose ona.
+marakosa mera-kose o-na
+passion.fruit.m 3pl.anim.acc-bite 1sg.nom-AUX.f
+*'I bite the passion fruits.'
+
+#098 3pl.anim.nom (to mark plural NP subject) and 3pl.anim.acc (to mark plural NP object)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: agr, tense, wo
+Fanawi kerewe mera mee awahara.
+fanawi kerewe mera-mee-awa-hara
+woman.f sloth.f 3pl.anim.acc-3pl.anim.nom-see-IPe
+'The women just saw the sloths. / The sloths just saw the women.'
+
+# Aspect (to be added)
+# cf a:207 sixth echelon misc suffix -ne 'continuous'
+# cf a:187 for continuous, a:191 for habitual
+# cf a:223 for nouns potentially used to indicate aspect
+# cf. a:129 for when auxiliary /na/ is dropped with these aspect suffixes
+
+#099 Continuous aspect suffix, pronoun subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: aspect, agr, wo
+Otafine.
+o-tafa-ne
+1sg.nom-eat-CONT.f
+'I am eating.'
+
+#100 Continuous aspect suffix, NP feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: aspect, agr, wo
+Fanawi jaka nine.
+fanawi jaka na-ne.
+woman walk AUX.u-CONT.f
+'The woman is going for a walk.'
+
+#101 Continuous aspect suffix, NP masculine subject
+# CONT.m is 0, which results in the verb or auxiliary occuring in its unmarked form (i.e feminine) with a masculine subject NP even though no suffix follows it
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: aspect, agr, wo
+Makiti jaka na.
+makiti jaka na
+man.m walk AUX.u(-CONT.m)
+'The man is walking.'
+
+#102 Continuous aspect suffix, NP masculine subject incorrectly takes CONT.f
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Makiti jaka nine.
+makiti jaka na-ne
+man.m walk AUX.u-CONT.f
+*The man is walking.'
+
+#103 Continuous aspect suffix, incorrectly has tense suffix following it
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: aspect
+*Otafineharo.
+o-tafa-ne-haro
+1sg.nom-eat-CONT.f-RPe.f
+*'I was eating recently.'
+
+#104 Habitual aspect suffix with feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: aspect, agr, wo
+Fanawi jaka tee.
+fanawi jaka na-tee
+woman.f walk AUX.u-HABIT
+'The woman often goes for walks.'
+
+#105 Habitual aspect suffix with masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: aspect, agr, wo
+Makiti jaka tee.
+makiti jaka na-tee
+man.m walk AUX.u-HABIT
+'The man often goes for walks.'
+
+#106 Habitual aspect suffix with tense suffix following it
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: aspect, tense, agr, wo
+Fanawi jaka teehemete.
+fanawi jaka na-tee-hemete
+woman.f walk AUX.u-HABIT-FPn
+'The woman often went for walks.'
+
+#107 Habitual aspect suffix incorrectly following tense
+# n.b. research more thoroughly to make sure this is indeed ungrammatical
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: aspect
+*Fanawi jaka nehemetetee.
+fanawi jaka na-hemete-tee
+woman.f walk AUX.u-FPn-HABIT
+*'The woman often went for walks.'
+
+# Negation
+# cf. 245
+
+#108 Negation on inflecting verb with no tense suffix, feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: neg, agr, wo
+Fanawi tafara.
+fanawi tafa-ra
+woman.f eat-NEG.f
+'The woman doesn't eat.'
+
+#109 Negation on inflecting verb with no tense suffix, masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: neg, agr, wo
+Makiti tafare.
+makiti tafa-re
+man.m eat-NEG.m
+'The man doesn't eat.'
+
+#110 Negation on auxiliary verb with no tense suffix, feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: neg, agr, wo
+Fanawi jaka nara.
+fanawi jaka na-ra
+woman.f walk AUX.u-NEG.f
+'The woman doesn't go for a walk.'
+
+#111 Negation on auxiliary verb with no tense suffix,  masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: neg, agr, wo
+Makiti jaka nare.
+makiti jaka na-re
+man.m walk AUX.u-NEG.m
+'The man doesn't go for a walk.'
+
+#112 Negation on inflecting verb with tense suffix, feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: neg, agr, wo
+Fanawi tafarara.
+fanawi tafa-ra-hara.
+woman.f eat.u-NEG.u-IPe.f
+'The woman didn't just eat.'
+
+#116 Negation on auxiliary verb with tense suffix, masculine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: neg, agr, wo
+Makiti tafarare.
+makiti tafa-ra-hare
+man.m eat-NEG.u-IPe.m
+'The man didn't just eat.'
+
+#117 Negation suffix incorrectly inflecting for masculine gender when followed by a tense suffix 
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: agr
+*Makiti tafarere.
+makiti tafa-re-hare
+man.m eat.f-NEG.m-IPe.m
+*'The man didn't just eat.'
+
+#118 Negation incorrectly coming after tense suffix, masculine subject
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: neg
+*Makiti tafaharere.
+makiti tafa-hare-re
+man.m eat-IPe.m-NEG.m
+*'The man didn't just eat.'
+
+# Argument Optionality (to be added)
+
+#119 optionality (no NP subject or object), masculine verb
+Source: author:wax
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+tafe.
+tafe
+eat.m
+'He eats.'
+
+#120 optionality (no NP subject or object), feminine verb
+Source: author:wax
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+tafa.
+tafa
+eat.f
+'She eats.'
+
+#121 optionality (no explicit NP subject)
+Source: author:wax
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+Jomee mee awa.
+jomee mee-awa
+jaguar.m 3pl.nom-see.f
+'The jaguars sees him/her. / They see the jaguar.'
+
+#122 optionality
+Source: author:wax
+Vetted: f
+Judgment: g
+Phenomena: tense pro-d
+Kerewe awehamaro.
+kerewe awa-himari
+sloth.f see.u-FPe.m
+'He saw the sloth.'
+
+# Polar Interrogative: immediate past non-continuous
+# utilizes f suffix /-ni(hi)/ (triggers raising of preceding /a/ and dropping of immediately preceding aux /na/)
+# no m form (does not block final gender agreement); m interrogatives of this type use intonation only
+# PINT = polar interrogative
+# cf a:411-413
+
+#123 immediate past question 2sg subj
+Source: a:412
+Vetted: s
+Judgment: g
+Phenomena: q, agr
+Owa tiwini?
+owa-ti-awa-ni
+1sg.acc 2sg.nom-see-PINT.f
+'Did you see me?'
+
+#124 immediate past question 1sg subj
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, agr
+Jaka orini?
+jaka o-na-ra-ni
+walk 1sg.nom-AUX-NEG-PINT.f
+'Didn't I go for a walk?'
+
+#125 immediate past question 3sg subj
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, agr, wo
+Fanawi jomee awini?
+fanawi jomee awa-ni
+woman.f jaguar.m see-PINT.f
+'Did the woman see a jaguar?'
+
+#126 immediate past question with m 3sg subj
+# intonation signals question
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, agr, wo
+Makiti kerewe awe?
+makiti kerewe awe
+man.m sloth.f see.m
+'Did the man see the sloth?'
+
+#127 immediate past question with m 3sg subj, incorrectly uses f suffix
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: q, agr, wo
+*Okomobi makiti awini?
+Okomobi makiti awa-ni
+Okomobi.m man.m see-PINT.f
+*'Did Okomobi see the man?'
+
+#128 immediate past question with 3pl animate subj, correctly uses f suffix (since 3pl animate takes f agreement)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, agr, wo
+Makiti kerewe mee awini?
+makiti kerewe mee-awa-ni
+man.m sloth.f 3pl.anim.nom-see-PINT.f
+'Did the men see the sloth?'
+
+#129 immediate past question, incorrectly occurs with a tense suffix
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: q
+*Owa tiwihanini?
+owa-ti-awa-hani-ni
+1sg.acc 2sg.nom-see-IPn-PINT.f
+*'Did you see mee (recently)?'
+
+#Polar Interrogatives: present continuous
+#CONT suffix -ne/-0 and PINT suffix -ni/nothing
+#cf. a:411-413
+
+#130 present continuous question, requiring third pronominal position with 2sg subject/pivot
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, aspect, agr
+Titafine tini?
+ti-tafa-ne-ti-ni
+2sg.nom-eat-CONT.f-2sg.nom-PINT.f
+'Are you eating?'
+
+#131 present continuous question with 2sg subject/pivot, vowel lengthened form of suffix
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, aspect, agr
+Titafine tii?
+ti-tafa-ne-ti-i
+2sg.nom-eat.CONT.f-2sg.nom-PINT.f
+'Are you eating?'
+
+#132 present continuous question, requiring third pronominal position with 2sg subject/pivot
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, aspect, agr
+Jifari kose one oni?
+jifari kose o-na-ne-o-ni
+banana.f bite 1sg.nom-AUX-CONT.f-1sg.nom-PINT.f
+'Am I biting the banana?'
+
+#133 present continuous question with 1sg subject/pivot, vowel lengthened form of suffix
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, aspect, agr
+Jifari kose one oo?
+jifari kose o-na-ne-o-o
+banana.f bite 1sg.nom-AUX-CONT.f-1sg.nom-PINT.f
+'Am I biting the banana?'
+
+#134 present continuous question with 1sg subject/pivot, incorrectly taking 2sg lengthened form of suffix
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: q
+*Jifari kose one oi?
+jifari kose o-na-ne-o-i
+banana.f bite 1sg.nom-AUX-CONT.f-1sg.nom-PINT.f
+*'Am I biting the banana?'
+
+#135 present continuous question with 2sg subject/pivot, incorrectly not using third pronominal position
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: q
+*Titafineni?
+ti-tafa-ne-ni
+2sg.nom-eat-CONT.f-PINT.f
+*'Are you eating?'
+
+#136 present continuous question with 2pl subject/pivot, correctly not using third pronominal position
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, aspect, agr
+Tee tafineni?
+tee-tafa-ne-ni
+2pl.nom-eat-CONT.f-PINT.f
+'Are you (all) eating?'
+
+#137 present continuous question with 2pl subject/pivot, incorrectly using third pronominal position
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: q
+*Tee tafine teeni?
+tee-tafa-ne-tee-ni
+2pl.nom-eat-CONT.f-2pl.nom-PINT.f
+*'Are you (all) eating?'
+
+#138 present continuous question with 3sg subject/pivot
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, aspect, agr
+Kerewe tiwa awineni?
+kerewe tiwa-awa-ne-ni
+sloth.f 2sg.acc-see AUX-CONT.f-PINT.f
+'Does the sloth see you?'
+
+# Polar Interrogative: future
+# -bana/-bana (f. triggers raising of preceding /a/)
+#PFutINT = Polar future interrogative
+
+#139 future question with 2sg subject/pivot
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, tense, agr
+Jaka tibana?
+jaka ti-na-bana
+walk 2sg.nom-AUX-PFutINT.f
+'Will you go for a walk?'
+
+#140 future question with 1pl.inc subject/pivot
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, tense, agr
+Ee tafibana?
+ee-tafa-bana
+1pl.inc.nom-eat-PFutINT.f
+'Will we eat?'
+
+#141 future question transitive
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, tense, agr
+Kerewe tee awibana?
+kerewe tee-awa-bana
+sloth.f 2pl.nom-see-PFutINT.f
+'Will we see a sloth?'
+
+#142 future question 3sg subject/pivot
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, tense, agr
+Makiti tafabana?
+makiti tafa-bana
+man.m eat-PFutINT.m
+'Will the man eat?'
+
+#143 negative future question
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, neg, tense, agr
+Tee jaka naribana? 
+tee-jaka na-ra-bana
+2pl-walk AUX-NEG-PFutINT.f
+'Won't you all go for a walk?'
+
+#144 negative future question, with the negative incorrectly coming before the question
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: q
+*Tee jaka nabanara?
+tee-jaka na-bana-ra
+2pl-walk AUX-PFutINT-NEG.f
+*'Won't you all go for a walk?'
+
+#Clausal Coordination by juxtaposition
+#one example cf. d:54
+# Okomobi kame owa awe mera ha ne. 'Okobomobi came and saw me, and called the others.'
+
+#145 Coordination through juxtaposition
+Source: d:145
+Vetted: s
+Judgment: g
+Phenomena: coordination, wo
+Okomobi kame, owa awe, mera ha ne.
+Okomobi kame, owa-awe, mera-ha ne
+Okobomi.m come.back, 1pl.exc.acc-see, 3pl.anim.acc-call AUX.m
+'Okomobi came back, saw me, and called the others.'
+
+#Clausal Coordination with /faja/ 'then, and'
+#cf d:37
+#cf d:150 Wakari towehiba faya sawimare. 'He became the Paumaris, and he didn't stay any longer.'
+
+#146 Coordination with faja
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: coordination, wo
+Mee kameharo faja mee tafeharo.
+mee-kama-haro faja mee-tafa-haro
+3pl.anim-come.back-RPe.f CONJ.and 3pl.anim-eat-RPe.f
+'They came back and they ate.'
+
+#146b #incorrect coordination at the beginning of sentence.
+Source: author:wax
+Vetted: f
+Judgment: u
+Phenomena: coordination, wo
+*Faja mee kameharo, mee tafeharo.
+faja mee-kama-haro mee-tafa-haro
+CONJ.and 3pl.anim-come.back-RPe.f 3pl.anim-eat-RPe.f
+'*They came back and they ate.'
+
+# Clausal Coordination through List Construction
+#cf a:517
+
+#147 Coordination through list construction using aux /na/
+Source: a:522
+Vetted: s
+Judgment: g
+Phenomena: coordination, wo
+Kafe otaa fawa; otaa tafa na
+kafe otaa-fawa; otaa-tafa na
+coffee 1pl.excl.nom-drink 1pl.excl.nom-eat AUX.f
+'We drink cofee, and we eat.'
+
+#147b Coordination through list construction using aux /na/
+Source: author:wax
+Vetted: f
+Judgment: g
+Phenomena: coordination, wo
+kafa otaa fawa; otaa jaka na
+Kafe otaa-fawa; otaa-jaka na
+coffee 1pl.excl.nom-drink 1pl.excl.nom.walk AUX.f
+'We drink coffee, and we walk.'
+
+#148 Coordination through list construction using aux /na/
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: coordination, wo
+Marakosa jome; jifari jome; kafe fawa; onahare.
+marakosa jome; jifari jome; kafe fawa; o-na-hare 
+passion.fruit eat.without.chewing; banana eat.without.chewing; coffee drink; 1sg.nom-AUX-IPe.f
+'I just ate a passion fruit, ate a banana, and drank coffee.'
+
+# NP Coordination through List Construction
+# I'm not yet satisfied this shouldn't be treated more as a subtype of verbal list constructions
+# NP Coordination with oblique /jaa/
+# need to find more examples in the sources
+
+# Attributive Adjectives
+# cf. a:335-343
+
+#149 Adjective, occuring after the head noun it modifies, cf a:338(11.57)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: adj, wo
+Makiti botee era ha ne.
+makiti botee era-ha ne
+man.m old 1pl.inc.acc-call.out AUX.m
+'The old man calls out to us.'
+
+#150 Adjective, incorrectly preceding the head noun its modifies; tentatively considered ungrammatical
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: adj
+Botee makiti era ha ne.
+botee makiti era-ha ne
+old man.m 1pl.inc.acc-call.out AUX.m
+'The old man called out. <!!!>'
+
+#151 Multiple adjectives modifying a single NP
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: adj, wo
+Fanawi botee one otaa awa-hara.
+fanawi botee one otaa-awa-hara
+woman.f old another 1pl.exc-see-IPe.f
+'We just saw another old woman.'
+
+#152 Adjective + N in copula clause
+Source: a:339
+Vetted: f
+Judgment: g
+Phenomena: adj, wo
+Jifari tati amake.
+jifari tati ama-ke
+banana.f unripe be-DEC.f
+'The banana is unripe. / (It) is an unripe banana.'
+
+#153 Adjective only in a copula clause
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: adj, wo
+Botee amaka.
+botee ama-ka
+old be-DEC.m
+'He is old.'
+
+# Embedded Clauses
+# cf. 91-93
+# embedded clause fills an NP role in the main clause (S, A, or sometimes O)
+# verbs ending in /a/ end in /i/ instead, e.g. /tafa/ to /tafi/, /na/ to /ni/
+# N.B. embedded clauses cannot take negation, aspect, or tense-mood markers
+# they also cannot take o- or ti- prefixes, using clause-initial /oko/ 'my' and /tika/ 'your' instead
+# Only declarative embedded clauses are possible
+# Finite interrogative clauses can only follow the verb /aati na/ 'ask' as a quotation of direct speech (cf. 394)
+
+#154 embedded clause as O with 'know'
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: emb-, wo
+Kafe fawi watohamaro.
+kafe faw-i wato-hemete
+coffee.f drink-COMP know-FPn
+'She knew how to drink coffee (long ago).'
+
+#155 embedded clause as O with 'want'
+Source: a:92
+Vetted: s
+Judgment: g
+Phenomena: emb-d, wo
+Owa awi nofahareka.
+owa-aw-i nofa-hare-ka
+1sg.acc-see-COMP want-IPe.m-DEC.m 
+'He wanted to see me.'
+
+#156 embedded clause as S with 'be good', f subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: emb-d, wo, agr
+Marakosa jome tini amasa.
+marakosa jome n-i amasa
+passion.fruit eat.without.chewing 2sg.nom-AUX-COMP be.good.f
+'It's good that she eats passion fruit. (That she eats passion fruit is good.)'
+
+#157 embedded clause as S with 'be good', m subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: emb-d, wo, agr
+Marakosa jome tini amase.
+marakosa jome n-i amase
+passion.fruit eat.without.chewing 2sg.nom-AUX-COMP be.good.m
+'It's good that he eats passion fruit. (That he eats passion fruit is good.)'
+
+#158 embedded clause incorrectly takes negation
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+*Owa awarai nofahareka
+owa-awa-ra-i nofa-hare-ka
+1sg.acc-see-NEG-COMP want-IPE.m-DEC.m
+*'He wanted to not see me.'
+
+#159 embedded clause incorrectly takes tense suffix
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+*Owa awahari nofahareka.
+owa-awa-hari-i nofa-hare-ka
+1sg.acc-see-IPe.m-COMP want-IPE.m-DEC.m
+*'He wanted to have just seen me.'
+
+# Adverbs
+# use of embedded clauses + verbs in lieu of adverbs, cf. a:93
+
+#160
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: emb-d, wo
+Tafi hahata raro.
+taf-i hahata na-ra-haro
+eat-COMP be.fast AUX-NEG-RPe.f
+'She ate quickly. (Her eating was fast.)'
+
+# Non-Verbal Predicates: Copula
+# cf. a:377-383
+# ama 'be' can one argument as a subject: NP or adjective
+# PP cannot follow the copula; verbs like kafoya 'be inside' are used instead
+# Requires the mood suffix ke/ka 'DECL (declarative)'
+# o- and -ti never attach ama, instead they occur in third pronominal position before ke/ka
+
+#161 Copula with AP complement
+Source: a:378
+Vetted: s
+Judgment: g
+Phenomena: cop, wo
+Botee ama oke.
+botee ama-o-ke
+old be-1sg.nom-DECL.f
+'I am old.'
+ 
+#162 Copula with an NP complement
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: cop, wo
+Makiti amaka.
+makiti ama-ka
+man.m be-DECL.m
+'He is a man.'
+
+#163 Copula with an NP complement, 2sg subj
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: cop, wo, agr
+Makiti ama tike.
+makiti ama-ti-ke
+man.m be-2sg.nom-DECL.f
+'You are a man.'
+
+#164 Copula with an NP complement, 2sg subj incorrectly comes before ama
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: cop, wo, agr
+*Makiti tiamake.
+makiti ti-ama-ke
+man.m 2sg.nom-be-DECL.f
+*'You are a man.
+
+# Information Structure
+
+# New Vocabulary:
+# [nouns]
+# kafe			'coffee'				noun f inanim
+# Okomobi		'Okomobi'				proper noun m
+# [Verbs]
+# fawa			'drink'					transitive inflecting verb
+# kama			'come back'				intransitive inflecting verb	
+# ha na			'call.out'				intransitive uninflecting verb
+# jome na		'eat.without.chewing'	transitive inflecting verb
+# wato			'know'					transitive inflecting verb
+# nofa			'want'					transitive inflecting verb
+# amosa			'be.good'				intransitive inflecting verb
+# hahata na-ra	'be.fast'				intransitive non-inflecting verb (must have negative suffix)
+# [adjectives]
+# botee			'old'					adjective
+# tati			'unripe'				adjective
+# one			'another'				adjective

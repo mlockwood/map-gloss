@@ -1,0 +1,20 @@
+-------------------------------------------------------
+Comments
+
+ For example 'nankumoo siinoo' means '(the) cat sleeps'.  The stem form
+ of this noun is 'nankumu', although I never found any attested sources
+ that showed this root form.  The inflected form 'nankumu-oo' is
+ described as having a built in determiner.  However, when adjectives
+ or numerals are added to the noun, the -o suffix moves to the last
+ word of the NP.
+
+I think you want to treat it as a clitic, which means segmenting
+it off in your target representation.  That way it *is* an independent
+determiner, and it appears after the noun (and any modifiers that
+follow it).
+
+ It is not clear to me what the overgeneration window is trying to say.
+ The number in the lower right corner (total overall coverage) is 0.0.
+
+How many of your ungrammatical examples parse.
+

@@ -1,0 +1,439 @@
+=== Translation Overhead ===
+
+* Added the following to my lexicon: 
+
+chien := masc-noun-lex &
+  [ STEM < "chien" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dog_n_rel" ] .
+
+chat := masc-noun-lex &
+  [ STEM < "chat" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cat_n_rel" ] .
+
+voiture := fem-noun-lex &
+  [ STEM < "voiture" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_car_n_rel" ] .
+
+faim := posthead-adjective-lex &
+  [ INFLECTED - ] &
+  [ STEM < "faim" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hungry_a_rel" ] .
+
+rapidement := adverb-lex &
+   [ STEM < "rapidement" >,
+     SYNSEM.LKEYS.KEYREL.PRED "_quickly_a_rel" ].
+
+The latter was actually already there, I just haven't used it in any test suite sentences.  
+
+* Added a new verb paradigm for "dormir" (to sleep): 
+
+transitive-ir-verb-lex := inanimate_obj_pronoun-rule-dtr & negation_prefix-rule-dtr & future_perfect_endings-rule-dtr & past_imperfect_endings-rule-dtr & ir-verb-conjugations-rule-dtr & transitive-verb-lex &
+  [ INFLECTED - ].
+
+intransitive-ir-verb-lex := inanimate_obj_pronoun-rule-dtr & negation_prefix-rule-dtr & future_perfect_endings-rule-dtr & past_imperfect_endings-rule-dtr & ir-verb-conjugations-rule-dtr & intransitive-verb-lex &
+  [ INFLECTED - ].
+
+opt-transitive-ir-verb-lex := inanimate_obj_pronoun-rule-dtr & negation_prefix-rule-dtr & future_perfect_endings-rule-dtr & past_imperfect_endings-rule-dtr & ir-verb-conjugations-rule-dtr & transitive-verb-lex &
+  [ INFLECTED - ].
+
+And the lex rules:
+
+ir-verb-conjugations-rule-dtr := avm .
+
+ir-verb-conjugations-lex-rule := negation_prefix-rule-dtr & infl-ltow-rule & add-only-no-ccont-rule & ne-rule-dtr & negation_prefix-rule-dtr & inanimate_obj_pronoun-rule-dtr & 
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM finite ] & 
+  [ DTR ir-verb-conjugations-rule-dtr ].
+
+ir-verb-conjugation := ir-verb-conjugations-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ TENSE present ] ]. 
+
+non3SG-ir-lex-rule := ir-verb-conjugation &
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM singular ] ].
+
+3SG-ir-lex-rule := ir-verb-conjugation &
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular,
+                                                                  PER 3rd ] ] ].
+
+1PL-ir-lex-rule := ir-verb-conjugation &
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                  PER 1st ] ] ].
+
+2PL-ir-lex-rule := ir-verb-conjugation &
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                  PER 2nd ] ] ].
+
+3PL-ir-lex-rule := ir-verb-conjugation &
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                  PER 3rd ] ] ].
+
+The endings:
+
+non3SG-ir-suffix :=
+%suffix (* s)
+non3SG-ir-lex-rule.
+
+
+3SG-ir-suffix :=
+%suffix (* t)
+3SG-ir-lex-rule.
+
+
+1PL-ir-suffix :=
+%suffix (* ons)
+1PL-ir-lex-rule.
+
+
+2PL-ir-suffix :=
+%suffix (* ez)
+2PL-ir-lex-rule.
+
+3PL-ir-suffix :=
+%suffix (* ent)
+3PL-ir-lex-rule.
+
+And an instance of the verb:
+
+dormir := intransitive-ir-verb-lex & 
+ [ STEM < "dor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sleep_v_rel" ] .
+
+dormir_1 := intransitive-ir-verb-lex &
+ [ STEM < "dorm" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sleep_v_rel" ] .
+
+* Added the verb "savoir" (to know):
+
+embedded_declarative_cc_oir_verb-lex := declarative-embedded-clause-lex & negation_prefix-rule-dtr .
+
+non3SG-savoir-lex := embedded_declarative_cc_oir_verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular ] ] ].
+
+3SG-savoir-lex := embedded_declarative_cc_oir_verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular,
+                                                                  PER 3rd ] ] ] .
+
+1PL-savoir-lex := embedded_declarative_cc_oir_verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                  PER 1st ] ] ] .
+
+2PL-savoir-lex := embedded_declarative_cc_oir_verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural, 
+                                                                  PER 2nd ] ] ] .
+
+3PL-savoir-lex := embedded_declarative_cc_oir_verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                  PER 3rd ] ] ] . 
+
+
+sais := non3SG-savoir-lex &
+  [ STEM < "sais" >, 
+    SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ] .
+
+sait := 3SG-savoir-lex &
+  [ STEM < "sait" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ] .
+
+savons := 1PL-savoir-lex & 
+  [ STEM < "savons" >, 
+    SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ] .
+
+savez := 2PL-savoir-lex &
+  [ STEM < "savez" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ] .
+
+savent := 3PL-savoir-lex &
+  [ STEM < "savent" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ] .
+
+
+* As for "to chase", I have another dilemma - do I choose the verb that more closely reflects the intended meaning, or the verb that is easier to implement?  
+
+I have cheated and implemented 'courir après' (to run after) as single lexical items, rather than as a verb paradigm:
+
+courir-après-verb-lex := transitive-verb-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE present ] .
+
+non3SG_courir_après-lex := courir-après-verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular ] ] ] .
+
+3SG_courir_après-lex := courir-après-verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular,
+                                                                  PER 3rd ] ] ] .
+
+1PL_courir_après-lex := courir-après-verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                  PER 1st ] ] ] .
+
+2PL_courir_après-lex := courir-après-verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                  PER 2nd ] ] ] .
+
+3PL_courir_après-lex := courir-après-verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                  PER 3rd ] ] ] .
+
+
+non3SG_courir_après := non3SG-courir-après-verb-lex & 
+  [ STEM < "cours", "après" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ] .
+
+3SG_courir_après := 3SG_courir_après-lex & 
+  [ STEM < "court", "après" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ] .
+
+1PL_courir_après := 1PL_courir_après-lex &
+  [ STEM < "courons", "après" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ] .
+
+2PL_courir_après := 2PL_courir_après-lex &
+  [ STEM < "courez", "après" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ] .
+
+3PL_courir_après := 3PL_courir_après-lex & 
+  [ STEM < "courent", "après" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ] .
+
+I know this won't negate, nor undergo any tense changes in this form, so I have also planned to implement poursuivre (to pursue) should these be needed.
+
+== Spurious Ambiguity ==
+
+My embedding verbs weren't demanding [ SPR < > ] on its subject.  Fixed this, and it cut down on _a lot_ of my ambiguity:
+
+embedded-clause-verb-lex := verb-lex & clausal-second-arg-trans-lex-item & norm-sem-lex-item &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SUBJ < #subj &
+                                      [ LOCAL.CAT.VAL [ SPR < > ] ] >,
+                             COMPS < #comps &
+                                      [ LOCAL [ CAT.HEAD comp,
+                                                CONT.HOOK.INDEX.SF prop-or-ques ] ] > ]] ,
+    ARG-ST < #subj, #comps > ].
+
+They were also licensing 2 trees, one of which was a S > S S kind of tree.  Making the COMPS of the COMPS < > fixed this: 
+
+embedded-clause-verb-lex := verb-lex & clausal-second-arg-trans-lex-item & norm-sem-lex-item &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SUBJ < #subj &
+                                      [ LOCAL.CAT.VAL [ SPR < > ] ] >,
+                             COMPS < #comps &
+                                      [ LOCAL [ CAT.HEAD comp,
+                                                CAT.VAL [ COMPS < > ],
+                                                CONT.HOOK.INDEX.SF prop-or-ques ] ] > ]] ,
+    ARG-ST < #subj, #comps > ].
+
+
+* added NUM pl and PER 3rd to my NP and N coordination rules, so now sentences like "le chat et la fille mange" no longer parse.  When I'd just added NUM pl, the sentence le chat et la fille mangent/mangez/mangeons was generating!  
+
+n1-top-coord-rule := basic-n-top-coord-rule & monopoly-top-coord-rule &
+  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+                   CONT.HOOK.INDEX.PNG [ PER 3rd,
+                                         NUM plural ] ] ] .
+
+np1-top-coord-rule := basic-np-top-coord-rule & monopoly-top-coord-rule &
+  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+                   CONT.HOOK.INDEX.PNG[ NUM plural,
+                                        PER 3rd ] ] ] .
+
+* My "Dogs chase cars and cats chase dogs" was giving 2 parses, one with an S > S-T node, and one with just an S-T node.  Going on the assumption that the English S-T root node was correct, I poked through both grammars to see where they differed.  It turned out to be in the s1-top-coord rule.  I edited mine to look like the English, and voila!
+
+s1-top-coord-rule := basic-s-top-coord-rule & apoly-top-coord-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD [ INV -,
+                              FORM #form ],
+                   COORD-STRAT "1" ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM #form,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM #form ] .
+
+The one thing that did confuse me, though, was that the INV - is what made it work (I'd tried to phase in parts of the rule from the English). Of all the features there, INV - is the last one I'd think would have made the difference.
+
+* In translating the sentence "I can eat glass" I was getting "je peux mangerai" and "Je peux mangeais".  I knew this was because my modal-verb-lex wanted a COMPS with the [ FORM infinitive ] and that these tenses were underspecified for FORM.  I added the past_perfective and future_tense to my FORM hierarchy: 
+
+nonfinite := form.
+finite := form.
+past_participle := nonfinite.
+infinitive := nonfinite.
+past_perfective := finite.
+future_tense := finite.
+
+and added those forms to the relevant tense. 
+
+past_imperfect_endings-lex-rule := inanimate_obj_pronoun-rule-dtr & infl-ltow-rule & add-only-no-ccont-rule & ne-rule-dtr &
+   [ SYNSEM.LOCAL.CAT.HEAD.FORM past_imp ] &
+   [ DTR past_imperfect_endings-rule-dtr ] .
+
+future_perfect_endings-lex-rule := inanimate_obj_pronoun-rule-dtr & negation_prefix-rule-dtr & infl-ltow-rule & add-only-no-ccont-rule & ne-rule-dtr &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM future_tense ] &
+  [ DTR future_perfect_endings-rule-dtr ].
+
+* "I can eat glass" was also parsing as every determiner _but_ my partitive determiner.  
+
+Fixed the PRED value as per your suggestion:
+
+artitive-determiner-lex := determiner-lex &
+  [ SYNSEM [ LKEYS.KEYREL.PRED "exist_q_rel",
+             LOCAL.CONT.HOOK.INDEX.COG-ST type-id ] ] .
+
+Unfortunately, it's still parsing un verre and les verres.  I don't know what else I can do to make 'du' stand out from the other determiners.. 
+
+* Added CASE to my pronouns:
+
+3SG_masc_pronoun-noun-lex := no-spr-noun-lex &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.PNG [ NUM singular,
+                                       GEND masc,
+                                       PER 3rd ],
+                   CAT.HEAD.CASE nom ] ] .
+
+3SG_fem_pronoun-noun-lex := no-spr-noun-lex &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.PNG [ NUM singular,
+                                       GEND fem,
+                                       PER 3rd ],
+                   CAT.HEAD.CASE nom ] ] .
+
+
+1SG_pronoun-noun-lex := no-spr-noun-lex &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.PNG [ NUM singular,
+                                         PER 1st ],
+                   CAT.HEAD.CASE nom ] ] .
+
+2SG_pronoun-noun-lex := no-spr-noun-lex &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.PNG [ NUM singular,
+                                         PER 2nd ],
+                   CAT.HEAD.CASE nom ] ] .
+
+1PL_pronoun-noun-lex := no-spr-noun-lex &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.PNG [ NUM plural,
+                                         PER 1st ],
+                   CAT.HEAD.CASE nom ] ] .
+
+2PL_pronoun-noun-lex := no-spr-noun-lex &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.PNG [ NUM plural,
+                                       PER 2nd ],
+                   CAT.HEAD.CASE nom ] ] .
+
+3PL_masc_pronoun-noun-lex := no-spr-noun-lex &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.PNG [ NUM plural,
+                                         PER 3rd,
+                                         GEND masc ],
+                    CAT.HEAD.CASE nom ] ] .
+
+3PL_fem_pronoun-noun-lex := no-spr-noun-lex &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.PNG [ NUM plural,
+                                         PER 3rd,
+                                         GEND fem ],
+                    CAT.HEAD.CASE nom ] ] .
+
+demonstrative_pronoun-lex := no-spr-noun-lex &
+ [ SYNSEM.LOCAL [ CONT.HOOK.INDEX [ COG-ST in-foc,
+                                    PNG [ NUM singular,
+                                          PER 3rd ] ],
+                   CAT.HEAD.CASE nom ] ]  .
+
+which necessitated that I add the concept of case to my grammar:
+
+noun :+ [ CASE case ].
+
+case := *top* .
+nom := case.
+acc := case.
+
+and then designate where each case should go (i.e. nom on the SUBJ and acc on the COMPS of a transitive verb:
+
+intransitive-verb-lex := main-verb-lex & intransitive-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < >,
+    ARG-ST.FIRST.LOCAL.CAT [ HEAD noun &
+                           [ CASE nom ] ] ]  .
+
+transitive-verb-lex := main-verb-lex & transitive-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
+    ARG-ST < [ LOCAL.CAT [ HEAD noun &
+                                [ CASE nom ] ] ],
+             #comps &
+             [ LOCAL.CAT [ VAL [ SPR < >,
+                                 COMPS < > ],
+                           HEAD noun &
+                                [ CASE acc ] ] ] > ].
+
+
+embedded-clause-verb-lex := verb-lex & clausal-second-arg-trans-lex-item & norm-sem-lex-item &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SUBJ < #subj &
+                                      [ LOCAL.CAT [ VAL [ SPR < > ],
+                                                    HEAD [ CASE nom ] ] ] >,
+                             COMPS < #comps &
+                                      [ LOCAL [ CAT.HEAD comp,
+                                                CAT.VAL [ COMPS < > ],
+                                                CONT.HOOK.INDEX.SF prop-or-ques ] ] > ]] ,
+    ARG-ST < #subj  , #comps > ].
+
+modal-verb-lex := verb-lex & trans-first-arg-raising-lex-item-1 &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ < [ LOCAL.CAT.HEAD.CASE nom ] >,  
+                           COMPS.FIRST.LOCAL [ CAT.HEAD  verb,  
+                                               CAT.HEAD.FORM infinitive ] ] ] .
+.. and, of course, make some acc pronouns:
+
+;; only adding 1st and 2nd person here.  3SG = lui, elle, 1PL = nous, 2PL vous, 3PL = eux, elles
+
+1SG-pronoun-after-preposition-lex := no-spr-noun-lex &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX [ COG-ST in-foc,
+                                     PNG [ NUM singular,
+                                           PER 1st ] ],
+                   CAT.HEAD.CASE acc ] ] .
+
+
+2SG-pronoun-after-preposition-lex := no-spr-noun-lex &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX [ COG-ST in-foc,
+                                     PNG [ NUM singular,
+                                           PER 2nd ] ],
+                   CAT.HEAD.CASE acc ] ] .
+
+Of course, this only gives a totally accurate translation for "I chase you" since these forms, moi/toi, can only appear after a preposition (in this case, après).  Ça ne blesse pas moi, I think, is an anglicism, and would be more correctly translated 'Ça ne-me-blesse pas' but I don't know how to enforce case on a dropped object verbal prefix.  I tried, but it didn't seem to take:
+
+1SG_animate_obj_pronoun_prefix-lex-rule := animate_dropped_object_marker &
+  [ SYNSEM.LOCAL.CAT.HEAD [ CASE acc ] ] .
+
+
+=== Translation Results === 
+
+== English > French ==  14 / 22 
+
+* I have no FP, so it was really 14/19 
+
+* In the 'dormir' (sleep)  verbs, the ending appends to both my dor and dorm stems.  I used 2 stems instead of putting the m on the er verb endings for scalability - if I had to make a new ending for every consonant that was dropped for part of the ir verb conjugation, I'd have _a lot_ of them.  To polish, I guess I could have split the verb conjugation into 2 - those with the m on the stem and those without.  I consider this a spelling issue, and not really a grammar issue, however.  
+
+* "I can eat glass", as I said earlier, translates with du verre, le verre and les verres.  I didn't know how else to differentiate du from the other determiners in my implementation of pseudo partitives.  
+
+* In "It doesn't hurt me", it translates with ça, il and elle, but, I believe the system doesn't handle the difference between those.  
+
+* "Do cats chase dogs" doesn't translate with the est-ce que question particle.  I poked through the English grammar to see if "do" was what added it, but it seemed to be higher up. 
+
+= Sentences that didn't translate =
+* "I think that you know that dogs chase cars" / "I ask whether you know that dogs chase cars" - With 4000 edges, it gave me the edge limit exhausted error, so I increased it to 8000 edges.  It then gave me 0 parses. In Italian > French, it gives me the 0 parses.  It's likely a transfer rule thing.
+
+* "Dogs eat quickly" - adverbs have been problematic all along.  I did get it down to a single parse, but no translation.  Comparing the Input to the monolingual MRS, the difference looks to be the COG-ST type id.  I poked around English to see where it picked that up, and couldn't find it. 
+
+* "The dogs are hungry" / "The dogs are in the park" - Both these give 0 generatiion results.  Comparing the MRS, it seems to be the COG-ST again.  Input has uniq+fam+act and I could't find where it picked it up. 
+
+ == Italian > French == 9 / 16
+
+On first go, without me touching anything, I had 9 sentences translating, albeit ambiguously.  I looked in the Italian grammar for things to put into my semi.vpm, and really the only thing I had to add was the:
+
+plural <> non-sg 
+
+everything else lined up nicely.  After I added that, the 9 sentences translated unambiguously.  :)  
+
+= Sentences that didn't translate =
+
+* "ti-insegu-o" - wow, that's a lean input MRS.  I assume the first sg is in the conjugation of the verb, and second sg is a prefix of the verb, similar to French.  It would have required a transfer rule to suppress all the pronouns and determiners.
+
+"Posso mangi-are il vetro" 
+
+"non mi-f-a male" - I avoided this mostly because of the "make" and "harm" rels.  I knew it would require a transfer rule.  
+
+"Pens-o che sai che cani insegu-ono macchine", "domand-o se sai che cani insegu-ono macchine" - These likely didn't translate for the same reason the English > French embedded clauses didn't parse.
+
+"cani mangi-ano velocemente" - Ditto this.  There is something wrong with my adverbs.  Your lab 8 comments gave a solution, but it looks like i'd have to edit a hairy rule in matrix.tdl, and I prefer not to unless I have to!  
+ 
+"gatti insegu-ono cani e dorm-ono" 
+
+Sorry I didn't go for the higher hanging fruit, but I had a bit of a scare today when I went back to check the Italian translations after polishing up the French all day, and _none_ of the Italian sentences translated!  I tried to reverse engineer what I'd done today, but then they magically started to translate again (I still think this grammar is sentient is likes to cause me undue stress!).  Anyway, it's made it a little gun shy to change things drastically!   
+
+== Transfer Rules == 
+
+I didn't need to instantiate nor write any transfer rules.  The only change I made to the English and Italian grammars is to change quickly_r_rel to quickly_a_rel, so I am including just my fra directory in my zip! 
+
+

@@ -1,0 +1,2645 @@
+﻿Language: Ingush
+Language code: inh
+Author: Schneider, Labarre
+Date: January 2012
+Lines: orth orth-seg gloss translat
+Source a: Ingush Grammar (University of California Publications in Linguistics) Johanna Nichols, University of California Press, 2011
+Source b: wals.info
+Source c: 2003, Les différentes structures syntaxiques de l'ingouche, La linguistique, n°39, Paris, PUF, p. 67-86.
+Source d: Ingush inflectional verb morphology: a synchronic classification and historical analysis with comparison to Chechen, Zev Handel
+
+
+##############################################
+# WORD ORDER
+##############################################
+#1.0 Word Order (correct)
+Source: a:142
+Vetted: s
+Judgment: g
+Phenomena: wo
+jett aarabealar
+jett aara-b-oal-ar
+cow  out-B-go-WP
+`the/a cow went out'
+
+
+#2.0 Word Order (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+aarabealar jett
+aara-b-oal-ar jett
+out-B-go-WP  cow
+`went out the/a cow'
+
+
+#3.0 Word Order (correct)
+Source: a:671
+Vetted: s
+Judgment: g
+Phenomena: wo
+Muusaa cy qea voaqqa sagaca vaxar
+Muusaa cy qo-a v-oaqqa sag-ca v-uoda-r
+Musa DEM.OBL three-OBL V-old person-INS V-go-WP
+`Musa left with those three old men.'
+
+
+#4.0 Word Order (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+Muusaa cy voaqqa qea sagaca vaxar
+Muusaa cy v-oaqqa qo-a sag-ca v-uoda-r
+Musa DEM.OBL V-old three-OBL person-INS V-go-WP
+`Musa left with those old three men.'
+
+
+#5.0 Word Order - V2 (correct)
+Source: a:322
+Vetted: s
+Judgment: g
+Phenomena: wo
+So jeizar cynna
+So j-oudz-ar cynna
+1s J-know-WP 3s.DAT
+He recognized me.
+
+
+#6.0 Word Order - V2 (correct)
+Source: a:322
+Vetted: s
+Judgment: g
+Phenomena: wo
+So j-oudz cynna
+So j-oudz cynna
+1s J-know.PRS 3s.DAT
+He knows me. He is acquainted with me.
+
+
+##############################################
+# PRONOUNS
+##############################################
+#7.0 Pronouns 1sg (correct)
+Source: a:439
+Vetted: s
+Judgment: g
+Phenomena: pn
+aaz jaax
+aaz joax
+1s.ERG say
+`I say'
+
+
+#8.0 Pronouns (incorrect) Obligatory pronouns in subject position
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pn
+jiilxar
+j-elx-ar
+J-cry-WP
+`I cried.'
+
+
+#9.0 Pronouns 1pl inclusive (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pn
+vai jaax
+vai joax
+1plincl.ERG say
+`We (and you) say'
+
+
+#10.0 Pronouns 1pl exclusive (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pn
+oaxa jaax
+oaxa joax
+1plexcl.ERG say
+`We (but not you) say'
+
+
+#11.0 Pronouns 2sg (correct)
+Source: a:439
+Vetted: s
+Judgment: g
+Phenomena: pn
+wa jaax
+wa joax
+2s.ERG say
+`You say'
+
+
+#12.0 Pronouns 2pl (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pn
+oasha jaax
+oasha joax
+2pl.ERG say
+`You say'
+
+
+#13.0 Pronouns 3sg (correct) only verb with person agreement
+Source: a:439
+Vetted: s
+Judgment: g
+Phenomena: pn
+cuo joax
+cuo joax
+3s.ERG say
+`He says.'
+
+
+#14.0 Pronouns 3sg (correct) only verb with person agreement
+Source: c:6
+Vetted: s
+Judgment: g
+Phenomena: pn, agr
+cuo joagh
+cuo j-oagha
+3s.ERG J-come
+`She comes.'
+
+
+#15.0 Pronouns 3sg (correct) only verb with person agreement
+Source: c:5
+Vetted: s
+Judgment: g
+Phenomena: pn, agr
+cuo voagh
+cuo v-oagha
+3s.ERG V-come
+`He comes.'
+
+
+#16.0 Pronouns 3sg (incorrect) only verb with person agreement
+Source: c:6
+Vetted: s
+Judgment: u
+Phenomena: pn, agr
+joagh
+j-oagha
+J-come
+`She comes.'
+
+
+#17.0 Pronouns 3sg (incorrect) only verb with person agreement
+Source: c:5
+Vetted: s
+Judgment: u
+Phenomena: pn, agr
+voagh
+v-oagha
+V-come
+`He comes.'
+
+
+#18.0 Pronouns 3pl (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pn
+caar jaax
+caar joax
+3pl.ERG say
+`They say'
+
+
+##############################################
+# INTRANSITIVE : S only
+##############################################
+#19.0 Case nom (nominative) with intransitive verb (correct)
+Source: a:463
+Vetted: s
+Judgment: g
+Phenomena: c
+So jiilxar
+So j-elx-ar
+1sg.NOM J-cry-WP
+`I cried.'
+
+
+#20.0 Case nom (nominative) with intransitive verb (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Sy jiilxar
+Sy j-elx-ar
+1sg.GEN J-cry-WP
+`I cried.'
+
+
+#21.0 Case nom (nominative) with intransitive verb (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Suona jiilxar
+Suona j-elx-ar
+1sg.DAT J-cry-WP
+`I cried.'
+
+
+#22.0 Case nom (nominative) with intransitive verb (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Aaz jiilxar
+Aaz j-elx-ar
+1sg.ERG J-cry-WP
+`I cried.'
+
+
+##############################################
+# GENITIVE TRANSITIVE : Genitive A and Nominative O
+##############################################
+#23.0 Case gen (genitive) Genitive transitive (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: c
+Sy axcha dou
+Sy axcha d-ou
+1s.GEN money.NOM D-lose.PRS
+`I often lose money.'
+
+
+#24.0 Case gen (genitive) Genitive transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+So axcha dou
+So axcha d-ou
+1s.NOM money.NOM D-lose.PRS
+`I lose money.'
+
+
+#25.0 Case gen (genitive) Genitive transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+So axcha dou
+So axcha d-ou
+1s.NOM money.NOM D-lose.PRS
+`I lose money.'
+
+
+#26.0 Case gen (genitive) Genitive transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Suona axcha dou
+Suona axcha d-ou
+1s.DAT money.NOM D-lose.PRS
+`I lose money.'
+
+
+#27.0 Case gen (genitive) Genitive transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Aaz axcha dou
+Aaz axcha d-ou
+1s.ERG money.NOM D-lose.PRS
+`I lose money.'
+
+
+#28.0 Case gen (genitive) Genitive transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Sy axchaa dou
+Sy axcha-a d-ou
+1s.GEN money-DAT D-lose.PRS
+`I lose money.'
+
+
+#29.0 Case gen (genitive) Genitive transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Sy axchuo dou
+Sy axcha-uo d-ou
+1s.GEN money-ERG D-lose.PRS
+`I lose money.'
+
+
+##############################################
+# DATIVE TRANSITIVE : Dative A and Nominative O
+##############################################
+#30.0 Case dat (dative) dative transitive (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: c
+Cynna so jeizar
+Cynna so j-oudz-ar
+3s.DAT 1s.NOM J-know-WP
+`He recognized me.'
+
+
+#31.0 Case dat (dative) dative transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Yz so jeizar
+Yz so j-oudz-ar
+3s.NOM 1s.NOM J-know-WP
+`He recognized me.'
+
+
+#32.0 Case dat (dative) dative transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Cyn so jeizar
+Cyn so j-oudz-ar
+3s.GEN 1s.NOM J-know-WP
+`He recognized me.'
+
+
+#33.0 Case dat (dative) dative transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Cuo so jeizar
+Cuo so j-oudz-ar
+3s.ERG 1s.NOM J-know-WP
+`He recognized me.'
+
+
+#34.0 Case dat (dative) dative transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Cynna sy jeizar
+Cynna sy j-oudz-ar
+3s.DAT 1s.GEN J-know-WP
+`He recognized me.'
+
+
+#35.0 Case dat (dative) dative transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Cynna suona jeizar
+Cynna suona j-oudz-ar
+3s.DAT 1s.DAT J-know-WP
+`He recognized me.'
+
+
+#36.0 Case dat (dative) dative transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Cynna aaz jeizar
+Cynna aaz j-oudz-ar
+3s.DAT 1s.ERG J-know-WP
+`He recognized me.'
+
+
+##############################################
+# CANONICAL TRANSITIVE : Ergative A and Nominative O
+##############################################
+#37.0 Case erg (ergative) Canonical transitive (correct)
+Source: b:http://wals.info/datapoint/98A/wals_code_ing
+Vetted: {t, f, s}
+Judgment: g
+Phenomena: c
+cuo yz vuu
+cuo yz v-uu
+he.ERG he.NOM V-kill.PRS
+`He kills him.'
+
+
+#38.0 Case erg (ergative) Canonical transitive (correct)
+Source: a:493
+Vetted: s
+Judgment: g
+Phenomena: c
+Cuo gaalii hwadeastar
+Cuo gaalii hwa-d-oast-ar
+3s.ERG sack DX-D-untie-WP
+`He untied the sack.'
+
+
+#39.0 Case erg (ergative) Canonical transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Cuo gaalii hwadeastar
+Cuo gaalii hwa-d-oast-ar
+3s.NOM sack DX-D-untie-WP
+`He untied the sack.'
+
+
+#40.0 Case erg (ergative) Canonical transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Cuo gaalii hwadeastar
+Cuo gaalii hwa-d-oast-ar
+3s.GEN sack DX-D-untie-WP
+`He untied the sack.'
+
+
+#41.0 Case erg (ergative) Canonical transitive (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Cuo gaalii hwadeastar
+Cuo gaalii hwa-d-oast-ar
+3s.DAT sack DX-D-untie-WP
+`He untied the sack.'
+
+
+#42.0 Case erg (ergative) Canonical transitive (correct)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: c
+Cyskuo shura mol
+Cysjk-uo shura mol
+cat-ERG milk.NOM drink
+`The cat drinks the milk.'
+
+
+#15 Case all (allative)
+#16 Case abl (ablative)
+#17 Case instr (instructive)
+#18 Case lat (lative)
+#19 Case csn (comparative)
+
+
+##############################################
+# DETERMINERS
+##############################################
+
+
+#43.0 Determiner order (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+cwa tenna sag viilxar
+cwa tenna sag v-elx-ar
+a fat person.NOM V-cry-WP
+`A fat man cried.'
+
+
+#44.0 Determiner order (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+tenna sag viilxar
+tenna sag v-elx-ar
+fat person.NOM V-cry-WP
+`A/The fat guy cried.'
+
+
+#45.0 Determiner order (correct) is grammatical but no longer a determiner
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+tenna cwa sag jiilxar
+tenna cwa sag j-elx-ar
+fat one person.NOM J-cry-WP
+`One fat person cried.'
+
+
+##############################################
+# TENSE
+##############################################
+#   (present stem): present, imperfect, future
+
+
+#46.0 Tense Present (correct) simple example
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+cisjkuo kinashjka loac
+cisjk-uo kinashjka loac
+cat-ERG book.NOM catch.PRS
+`The cat catches a mouse.'
+
+
+#47.0 Tense Present (incorrect) simple example
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+cisjkuo kinashjka laac
+cisjk-uo kinashjka loac
+cat-ERG book.NOM catch.INF
+`The cat catches a mouse.'
+
+
+#48.0 Tense Present (incorrect) simple example
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+cisjkuo kinashjka leac
+cisjk-uo kinashjka loac
+cat-ERG book.NOM catch.PST
+`The cat catches a mouse.'
+
+
+#49.0 Tense Imperfect (correct) simple example
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+cisjkuo kinashjka loacar
+cisjk-uo kinashjka loac-ar
+cat-ERG book.NOM catch.PRS-IMPF
+`The cat used to catch a mouse.'
+
+
+#50.0 Tense Imperfect (incorrect) simple example
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+cisjkuo kinashjka laacar
+cisjk-uo kinashjka loac-ar
+cat-ERG book.NOM catch.INF-IMPF
+`The cat used to catch a mouse.'
+
+
+#51.0 Tense Imperfect (incorrect) simple example
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+cisjkuo kinashjka leacar
+cisjk-uo kinashjka loac-ar
+cat-ERG book.NOM catch.PST-IMPF
+`The cat used to catch a mouse.'
+
+
+#52.0 Tense Future (correct) simple example
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+cisjkuo kinashjka loacagjy
+cisjk-uo kinashjka loac-arg
+cat-ERG book.NOM catch.PRS-FUT
+`The cat will catch a mouse.'
+
+
+#53.0 Tense Future (incorrect) simple example
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+cisjkuo kinashjka laacagjy
+cisjk-uo kinashjka loac-arg
+cat-ERG book.NOM catch.INF-FUT
+`The cat will catch a mouse.'
+
+
+#54.0 Tense Future (incorrect) simple example
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+cisjkuo kinashjka leacagjy
+cisjk-uo kinashjka loac-arg
+cat-ERG book.NOM catch.PST-FUT
+`The cat will catch a mouse.'
+
+
+#   (infinitive stem): imperative, infinitive
+
+
+#55.0 Tense (correct)
+Source: a:288
+Vetted: s
+Judgment: g
+Phenomena: tam
+Doaqqa gata wouda xala dy
+D-oaqqa gata woud-a xala d-y
+D-big towel wring-INF difficult D-be.PRS
+`It's hard to wring out a big towel.'
+
+
+#56.0 Tense (correct)
+Source: a:275
+Vetted: s
+Judgment: g
+Phenomena: tam
+Dwaaxuo vaala!
+Dwaaxuo v-oal-a!
+aside V-go-IMPV
+`Get out of the way!'
+
+
+#   (past stem): witnessed past
+
+
+#57.0 Tense (correct) simple example
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+cisjkuo kinashjka leacar
+cisjk-uo kinashjka loac-ar
+cat-ERG book.NOM catch.PST-WP
+`The cat will catch a mouse.'
+
+
+#58.0 Tense (incorrect) simple example
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+cisjkuo kinashjka loacar
+cisjk-uo kinashjka loac-ar
+cat-ERG book.NOM catch.PRS-WP
+`The cat caught a mouse.'
+
+
+#59.0 Tense (incorrect) simple example
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+cisjkuo kinashjka laacar
+cisjk-uo kinashjka loac-ar
+cat-ERG book.NOM catch.INF-WP
+`The cat caught a mouse.'
+
+
+##############################################
+# GENDER AGREEMENT
+##############################################
+
+
+# (1)   1st/2nd person human    V (male), J (female)    dog(D) me(J)
+
+
+#60.0 Gender Agreement (correct)
+Source: a:222
+Vetted: s
+Judgment: g
+Phenomena: agr
+So doaqqagh dolcha zhwaliena bwarjgajeira
+So d-oaqqa-gh d-olcha zhwalii-na bwarjga-j-ei-ar
+me D-big-CMP D-be.PPL.OBL dog-DAT eye-J-see-WP
+`The bigger dog saw me (female)'
+
+
+#61.0 Gender Agreement (correct) me (V)  dog(D)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+So doaqqagh dolcha zhwaliena bwarjgaveira
+So d-oaqqa-gh d-olcha zhwalii-na bwarjga-v-ei-ar
+me D-big-CMP D-be.PPL.OBL dog-DAT eye-V-see-WP
+`The bigger dog saw me (male)'
+
+
+# (2)   human               J (female)      B
+
+
+#62.0 Gender Agreement (correct)
+Source: c:5
+Vetted: s
+Judgment: g
+Phenomena: agr
+cuo siesag jahw
+cuo siesag j-ahw
+He.ERG woman J-carry
+`He carries a woman.'
+
+
+#63.0 Gender Agreement (correct)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+cuo siesag vahw
+cuo siesag v-ahw
+He.ERG woman V-carry
+`He carries a woman.'
+
+
+# (2)   human               V (male)        B
+
+
+#64.0 Gender Agreement (correct)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+cuo sag jahw
+cuo sag j-ahw
+He.ERG man J-carry
+`He carries a man.'
+
+
+#65.0 Gender Agreement (correct)
+Source: c:5
+Vetted: s
+Judgment: g
+Phenomena: agr
+cuo sag vahw
+cuo sag v-ahw
+He.ERG man V-carry
+`He carries a man.'
+
+
+# (3)   (various non-human)     B           B
+
+
+#66.0 Gender Agreement (correct) Apple = B
+Source: a:146
+Vetted: s
+Judgment: g
+Phenomena: agr
+Mista c_alx bar yz wazh
+Mista c_alx b-ar yz wazh
+sour sour_fruit B-be.PST DEM apple
+'That apple was a very sour one'
+
+
+#67.0 Gender Agreement (correct)
+Source: c:5
+Vetted: s
+Judgment: g
+Phenomena: agr
+cuo mott bahw
+cuo mott b-ahw
+He.ERG bed B-carry
+`He carries a bed.'
+
+
+#68.0 Gender Agreement (correct) Apples = B
+Source: a:146
+Vetted: s
+Judgment: g
+Phenomena: agr
+Mista c_alxazh bar yzh wazhazh
+Mista c_alx-azh b-ar yzh wazh-azh
+sour sour_fruit-PL B-be.PST DEM.PL apple-PL
+'Those apples were very sour ones'
+
+
+# (4)   (various non-human)     B           D
+
+
+#69.0 Gender Agreement (correct) Scythe = B
+Source: a:146
+Vetted: s
+Judgment: g
+Phenomena: agr
+Maangal gilavodzh baxaab
+Maangal gilavodzh b-uoda-aab
+scythe crooked B-go-NW.B
+`The scythe blade is uneven (from improper sharpening).'
+
+
+#70.0 Gender Agreement (correct) Scythes = D
+Source: a:146
+Vetted: s
+Judgment: g
+Phenomena: agr
+Maangalazh gilavodzh daxaad
+Maangal-azh gilavodzh d-uoda-aad
+scythe-PL crooked D-go-NW.D
+`The scythe blades are uneven.'
+
+
+# (5)   (various non-human)     D           D
+
+
+#71.0 Gender Agreement (correct)
+Source: c:5
+Vetted: s
+Judgment: g
+Phenomena: agr
+cuo shu dahw
+cuo shu d-ahw
+He.ERG table D-carry
+`He carries a table.'
+
+
+#72.0 Gender Agreement (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+cuo shunazh dahw
+cuo shu-azh d-ahw
+He.ERG table-PL D-carry
+`He carries tables.'
+
+
+# (6)   (various non-human)     J           J
+
+
+#73.0 Gender Agreement (correct)
+Source: c:5
+Vetted: s
+Judgment: g
+Phenomena: agr
+cuo ga jahw
+cuo ga j-ahw
+He.ERG tree J-carry
+`He carries a tree.'
+
+
+#74.0 Gender Agreement (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+cuo geanazh jahw
+cuo ga-azh j-ahw
+He.ERG tree-PL J-carry
+`He carries trees.'
+
+
+#75.0 Gender Agreement (correct) four = V
+Source: a:441
+Vetted: s
+Judgment: g
+Phenomena: agr
+yzh vi_ ezar sag c_avaxar
+yzh v-i_ ezar sag c_a-v-uoda-r
+DEM.PL V-four 1000 person home-V-go-WP
+`Those 4000 men went home.'
+
+
+#76.0 Gender Agreement (correct) book = D
+Source: a:443
+Vetted: s
+Judgment: g
+Phenomena: agr
+Cuo kinashjka desh
+Cuo kinashjka d-iesh
+3s.ERG book D-read.PRS
+`He reads a book.'
+
+
+##############################################
+# NUMBER AGREEMENT
+##############################################
+#77.0 Number Agreement (correct)
+Source: a:313
+Vetted: s
+Judgment: g
+Phenomena: agr
+Yz waxeira
+Yz waxou-ra
+3s down_sit-WP
+`He sat down'
+
+
+#78.0 Number Agreement (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Yz waxeishar
+Yzh waxoush-ar
+3s down_sit.PL-WP
+`He sat down'
+
+
+#79.0 Number Agreement (correct)
+Source: a:313
+Vetted: s
+Judgment: g
+Phenomena: agr
+Yzh waxeishar
+Yzh waxoush-ar
+3pl down_sit.PL-WP
+`They sat down'
+
+
+#80.0 Number Agreement (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Yzh waxeira
+Yzh waxou-ra
+3pl down_sit-WP
+`They sat down'
+
+
+#81.0 Number Agreement (correct)
+Source: a:313
+Vetted: s
+Judgment: g
+Phenomena: agr
+Yzh pxi sag waxeira
+Yzh pxi sag waxou-ra
+DEM.PL five person down_sit-WP
+`Those five people sat down.'
+
+
+#82.0 Number Agreement (incorrect)
+Source: a:313
+Vetted: s
+Judgment: u
+Phenomena: agr
+Yzh pxi sag waxeishar
+Yzh pxi sag waxoush-ar
+DEM.PL five person down_sit.PL-WP
+`Those five people sat down.'
+
+
+##############################################
+# CASE AGREEMENT
+##############################################
+
+
+##############################################
+# ARGUMENT OPTIONALITY
+##############################################
+
+
+#83.0 Argument optionality (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d
+Cuo hwadeastar
+Cuo hwa-d-oast-ar
+3s.ERG DX-D-untie-WP
+`He untied.'
+
+
+#84.0 Argument optionality (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d
+So dou
+So d-ou
+1s.NOM D-lose.PRS
+`I lose.'
+
+
+#85.0 Argument optionality ambitransitive (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+Cuo so vuu
+Cuo so v-uu
+3s.ERG 1s.NOM V-kill
+`He kills me.'
+
+
+#86.0 Argument optionality ambitransitive (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+So vuu
+So v-uu
+1s.NOM V-kill
+`I am killed.'
+
+
+#87.0 Argument optionality (correct)
+Source: a:493
+Vetted: v
+Judgment: g
+Phenomena: pro-d
+Suona yz kinashjka dika d-iesh-a-lu
+Suona yz kinashjka dika d-iesh-a-lu
+1s.DAT DEM book well D-read-PRS-INCP
+I can read this book well. This book is easy for me to read.
+
+
+#88.0 Argument optionality (correct)
+Source: a:493
+Vetted: v
+Judgment: g
+Phenomena: pro-d
+Yz kinashjka dika d-iesh-a-lu
+Yz kinashjka dika d-iesh-a-lu
+DEM book well D-read-PRS-INCP
+This book reads well/easily.
+
+
+##############################################
+# NEGATION
+##############################################
+#89.0 Negation (correct)
+Source: a:308
+Vetted: s
+Judgment: g
+Phenomena: neg
+Cynna hama xazac
+Cynna hama xodz-c
+3s.DAT anything hear-NEG
+`He doesn't/can't hear anything'
+
+
+#90.0 Negation (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg
+Cynna hamac xoz
+Cynna hama-c xodz
+3s.DAT anything-NEG hear
+`He doesn't/can't hear anything'
+
+
+##############################################
+# DEMONSTRATIVES/DEFINITIVES[a]
+##############################################
+#91.0 Demonstratives (correct) proximity
+Source: a:190
+Vetted: s
+Judgment: g
+Phenomena: det
+Mollaghcha hweaq_al dolcha saguo je kinashjka dwaqossaddy
+Mollagh-cha hweaq_al d-olcha sag-uo je kinashjka dwa-qoss-arg
+any-OBL intelligence D-be.PPL.OBL person-ERG DEM book DX-throw-FUT
+`Any intelligent person would throw this book away.'
+
+
+#92.0 Demonstratives (correct) proximity
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+aaz je kinashjka diishar
+aaz je kinashjka d-iesh-ar
+I.ERG DEM book.NOM D-read-WP
+`I read this (close) book.'
+
+
+#93.0 Demonstratives (incorrect) proximity
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: det
+aaz kinashjka je diishar
+aaz kinashjka je d-iesh-ar
+I.ERG book.NOM DEM D-read-WP
+`I read this (close) book.'
+
+
+#94.0 Demonstratives (correct) neutral
+Source: a:146
+Vetted: s
+Judgment: g
+Phenomena: det
+Mista c_alx jar yz limon
+Mista c_alx j-ar yz limon
+sour sour_fruit J-be.PST DEM lemon
+`That lemon was a very sour one'
+
+
+#95.0 Demonstratives (correct) neutral
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+aaz yz kinashjka diishar
+aaz yz kinashjka d-iesh-ar
+I.ERG DEM book.NOM D-read-WP
+`I read this (neutral) book.'
+
+
+#96.0 Demonstratives (incorrect) neutral
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: det
+aaz kinashjka yz diishar
+aaz kinashjka yz d-iesh-ar
+I.ERG book.NOM DEM D-read-WP
+`I read this (neutral) book.'
+
+
+#97.0 Demonstratives (correct) distal
+Source: a:288
+Vetted: s
+Judgment: g
+Phenomena: det
+T_aaqqa dwaara Oushaneaq_aan juxa t_ybeaxkaab lata
+T_aaqqa dwaara Oushaneaq_aan juxa t_y-b-oagha-aab lat-a
+so DEM Oushaneaq_aan back at-B-come.PL-NW.B fight-INF
+`Then the Oushaneaq'aan came back to fight. (0392B.1)'
+
+
+#98.0 Demonstratives (correct) neutral
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+aaz dwaara kinashjka diishar
+aaz dwaara kinashjka d-iesh-ar
+I.ERG DEM book.NOM D-read-WP
+`I read this (distal) book.'
+
+
+#99.0 Demonstratives (incorrect) neutral
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: det
+aaz kinashjka dwaara diishar
+aaz kinashjka dwaara d-iesh-ar
+I.ERG book.NOM DEM D-read-WP
+`I read this (distal) book.'
+
+
+#100.0 Demonstratives (correct)
+Source: a:401
+Vetted: s
+Judgment: g
+Phenomena: det
+Cu xaana den so zhwalegh qer
+Cy xa-na den so zhwalii-gh qier
+DEM.OBL time-DAT since 1s dog.PL-LAT fear.PRS
+`Ever since that time (then) I've been afraid of dogs.'
+
+
+##############################################
+# YES/NO QUESTIONS
+##############################################
+#101.0 Yes/No Questions (correct)
+Source: a:710
+Vetted: s
+Judgment: g
+Phenomena: q
+dieshii wa?
+d-iesh=ii wa?
+D-read.PRS=Q 2s.ERG
+'do you read?'
+
+
+#102.0 Yes/No Questions (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: q
+wa dieshii?
+wa d-iesh=ii?
+2s.ERG D-read.PRS=Q
+'do you read?'
+
+
+#103.0 Yes/No Questions (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: q
+diesh waii?
+d-iesh wa=ii?
+D-read.PRS 2s.ERG=Q
+'do you read?'
+
+
+#104.0 Yes/No Questions (correct)
+Source: a:710
+Vetted: s
+Judgment: g
+Phenomena: q
+diisharii wa?
+d-iesh-ar=ii wa?
+D-read-WP=Q 2s.ERG
+'did you read?'
+
+
+#105.0 Yes/No Questions (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: q
+wa diesharii?
+wa d-iesh-ar=ii?
+2s.ERG D-read-WP=Q
+'did you read?'
+
+
+#106.0 Yes/No Questions (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: q
+dieshar waii?
+d-iesh-ar wa=ii?
+D-read-WP 2s.ERG=Q
+'did you read?'
+
+
+#107.0 Yes/No Questions (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: q
+dieshiiar wa?
+d-iesh=ii-ar wa?
+D-read=Q-WP 2s.ERG
+'did you read?'
+
+
+#108.0 Yes/No Questions (correct)
+Source: a:710
+Vetted: s
+Judgment: g
+Phenomena: q
+Ingal mott xoi hwuona?
+Ingal mott xou=ii hwuona?
+English language know=Q 2s.DAT
+Do you know English?
+
+
+#109.0 Yes/No Questions (correct)
+Source: a:679
+Vetted: s
+Judgment: g
+Phenomena: q, wo
+Xii mol=ii wa?
+Xii mol=ii wa?
+water drink=Q 2s.ERG
+Would you like a drink of water?
+
+
+#110.0 Yes/No Questions (correct)
+Source: a:124
+Vetted: s
+Judgment: g
+Phenomena: q, wo
+Ahwmad oalii cynagh? 
+Ahwmad oal=ii cogh? 
+Ahmed say.PRS=Q 3s.LAT 
+Is his name Ahmed? Is he called Ahmed? 
+
+
+##############################################
+# COORDINATION
+##############################################
+#111.0 Coordination - and (exhaustive listing) (correct)
+Source: a:524
+Vetted: s
+Judgment: g
+Phenomena: crd
+Cwa diiji biisiiji tq_ea di_ sahwat dy
+Cwa di=ji biisa=ji tq_o-cha d-i_ sahwat d-y
+one day=& night=& 20-OBL D-4 hour D-be.PRS
+One day and night is 24 hours.
+
+
+#112.0 Coordination - and (exhaustive listing) (correct)
+Source: a:524
+Vetted: s
+Judgment: g
+Phenomena: crd
+Daazji naanazji suona cq_azahw axcha deit
+Daa-z=ji naana-z=ji suona cq_azahw axcha d-eit
+father-ERG=& mother-ERG=& 1s.DAT sometimes money D-send
+My parents sometimes send me money.
+
+
+#113.0 Coordination - and (exhaustive listing) (correct) simplified
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: crd
+Daazji naanazji suona cq_azahw axcha deit
+Daa-z=ji naana-z=ji suona cq_azahw axcha d-eit
+father-ERG=& mother-ERG=& 1s.DAT money UNKNOWN D-send
+My parents send me money.
+
+
+#114.0 Coordination - and (exhaustive listing) (incorrect) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Daaz naanazji suona cq_azahw axcha deit
+Daa-z naana-z=ji suona cq_azahw axcha d-eit
+father-ERG mother-ERG=& 1s.DAT money UNKNOWN D-send
+My parents send me money.
+
+
+#115.0 Coordination - and (exhaustive listing) (correct) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Daazji naanaz suona cq_azahw axcha deit
+Daa-z=ji naana-z suona cq_azahw axcha d-eit
+father-ERG=& mother-ERG 1s.DAT money UNKNOWN D-send
+My parents send me money.
+
+
+#116.0 Coordination - and (exhaustive listing) (correct) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Daaz naanaz suona cq_azahw axcha deit
+Daa-z naana-z suona cq_azahw axcha d-eit
+father-ERG mother-ERG 1s.DAT money UNKNOWN D-send
+My parents send me money.
+
+
+#117.0 Coordination - and (non-exhaustive/non-grouped) (correct)
+Source: a:525
+Vetted: s
+Judgment: g
+Phenomena: crd
+Duwazh_a saaghazh_a dead
+Duwa=_a saagha=_a d-u-aad
+prayer=& charity=& D-do-NW.D
+The prayers and charity offerings have been done.
+
+
+#118.0 Coordination - and (non-exhaustive/non-grouped) (correct)
+Source: a:526
+Vetted: s
+Judgment: g
+Phenomena: crd
+Shi__a, qy duqagh_a louza jish jyq
+Shi_=_a, qy duqagh=_a louz-a jish j-y=q
+two=& moreover more=& play-INF possibility J-be.PRS=CUM
+Two or more can play.
+
+
+#119.0 Coordination - and (non-exhaustive) (correct)
+Source: a:527
+Vetted: s
+Judgment: g
+Phenomena: crd
+Ahwmad_a, Mahwmada_a jaazdead keaxat
+Ahwmad-a=_a, Mahwmad-a=_a jaaz-d-u-aad keaxat
+A-ERG=& M-ERG=& write-D-VZ-NW.D letter
+Ahmed and Mohamed each wrote a letter.
+
+
+#120.0 Coordination - and (non-exhaustive) (correct) simplified
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: crd
+Ahwmad_a, Mahwmada_a xii mol
+Ahwmad-a=_a, Mahwmad-a=_a xii mol
+A-ERG=& M-ERG=& water drink.PRS
+Ahmed and Mohamed each drink water.
+
+
+#121.0 Coordination - and (non-exhaustive) (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Ahwmad, Mahwmada_a xii mol
+Ahwmad-a, Mahwmad-a=_a xii mol
+A-ERG M-ERG=& water drink.PRS
+Ahmed and Mohamed each drink water.
+
+
+#122.0 Coordination - and (non-exhaustive) (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Ahwmad_a, Mahwmada xii mol
+Ahwmad-a=_a, Mahwmad-a xii mol
+A-ERG=& M-ERG water drink.PRS
+Ahmed and Mohamed each drink water.
+
+
+#123.0 Coordination - and (non-exhaustive) (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Ahwmad, Mahwmada mol xii
+Ahwmad-a, Mahwmad-a mol xii
+A-ERG M-ERG drink.PRS water
+Ahmed and Mohamed each drink water.
+
+
+#124.0 Coordination - and (exhaustive) (correct)
+Source: a:527
+Vetted: s
+Judgment: g
+Phenomena: crd
+Ahwmadaji Mahwmadaji jaaz-dead keaxat
+Ahwmad-a=ji Mahwmad-a=ji jaaz-d-u-aad keaxat
+A-ERG=& M-ERG=& write-D-VZ-NW.D letter
+Ahmed and Mohamed wrote the letter. (together).
+
+
+#125.0 Coordination - and (exhaustive) (correct) simplified
+Source: a:527
+Vetted: s
+Judgment: g
+Phenomena: crd
+Ahwmadaji Mahwmadaji xii mol
+Ahwmad-a=ji Mahwmad-a=ji xii mol
+A-ERG=& M-ERG=& water drink.PRS
+Ahmed and Mohamed drink water (together).
+
+
+#126.0 Coordination - and (exhaustive) (incorrect) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Ahwmada Mahwmadaji xii mol
+Ahwmad-a Mahwmad-a=ji xii mol
+A-ERG M-ERG=& water drink.PRS
+Ahmed and Mohamed drink water (together).
+
+
+#127.0 Coordination - and (exhaustive) (incorrect) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Ahwmadaji Mahwmada xii mol
+Ahwmad-a=ji Mahwmad-a xii mol
+A-ERG=& M-ERG water drink.PRS
+Ahmed and Mohamed drink water (together).
+
+
+#128.0 Coordination - and (exhaustive) (incorrect) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Ahwmada Mahwmada xii mol
+Ahwmad-a Mahwmad-a xii mol
+A-ERG M-ERG water drink.PRS
+Ahmed and Mohamed drink water (together).
+
+
+#129.0 Coordination - and (non-exhaustive) (correct)
+Source: a:528
+Vetted: s
+Judgment: g
+Phenomena: crd
+Oaxa gatagh_a, kisegh_a, dearegh_a ju axkan koch
+Oaxa gata-gh=_a, kisii-gh=_a, dearii-gh=_a j-u axka-n koch
+1pEX.ERG linen-LAT=& muslin-LAT=& silk-LAT=& J-make.PRS summer-GEN dress
+We make summer dresses from linen, muslin, silk, etc.
+
+
+#130.0 Coordination - and (exhaustive) (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Oaxa gatagh_a, kisegh_a, ju axkan dearegh_a koch
+Oaxa gata-gh=_a, kisii-gh=_a, j-u axka-n dearii-gh=_a koch
+1pEX.ERG linen-LAT=& muslin-LAT=& J-make.PRS summer-GEN silk-LAT=&  dress
+We make summer dresses from linen, muslin, and silk (only).
+
+
+#131.0 Coordination - and (exhaustive) (correct)
+Source: a:528
+Vetted: s
+Judgment: g
+Phenomena: crd
+Oaxa gataghji, kiseghji, deareghji ju axkan koch
+Oaxa gata-gh=ji, kisii-gh=ji, dearii-gh=ji j-u axka-n koch
+1pEX.ERG linen-LAT=& muslin-LAT=& silk-LAT=& J-make.PRS summer-GEN dress
+We make summer dresses from linen, muslin, and silk (only).
+
+
+#132.0 Coordination - and (exhaustive) (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Oaxa gatagh, kiseghji, deareghji ju axkan koch
+Oaxa gata-gh, kisii-gh=ji, dearii-gh=ji j-u axka-n koch
+1pEX.ERG linen-LAT muslin-LAT=& silk-LAT=& J-make.PRS summer-GEN dress
+We make summer dresses from linen, muslin, and silk (only).
+
+
+#133.0 Coordination - and (exhaustive) (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Oaxa gataghji, kisegh, deareghji ju axkan koch
+Oaxa gata-gh=ji, kisii-gh, dearii-gh=ji j-u axka-n koch
+1pEX.ERG linen-LAT=& muslin-LAT silk-LAT=& J-make.PRS summer-GEN dress
+We make summer dresses from linen, muslin, and silk (only).
+
+
+#134.0 Coordination - and (exhaustive) (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Oaxa gatagh, kisegh, dearegh ju axkan koch
+Oaxa gata-gh, kisii-gh, dearii-gh j-u axka-n koch
+1pEX.ERG linen-LAT muslin-LAT silk-LAT J-make.PRS summer-GEN dress
+We make summer dresses from linen, muslin, and silk (only).
+
+
+#135.0 Coordination - or (correct)
+Source: a:528
+Vetted: s
+Judgment: g
+Phenomena: crd
+Yz kor myshta dellalu, je hwadellalu je dwa-dellalu?
+Yz kor myshta d-ell-alu, je hwa-d-ell-lu je dwa-d-ell-alu?
+DEM window how D-open-INCP, or DX-D-open-INCP or DX-D-open-INCP
+How does this window open, in or out?
+
+
+#136.0 Coordination - neither/nor (correct)
+Source: a:528
+Vetted: s
+Judgment: g
+Phenomena: crd
+Yz_a daac je vozh_a daac
+Yz=_a d-y-c je vozh=_a d-y-c
+DEM=& D-be-NEG or other=& D-be-NEG
+Neither one. ('It's neither that one nor the other.')
+
+
+#137.0 Coordination - neither/nor (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Yz_a je vozh_a daac
+Yz=_a je vozh=_a d-y-c
+DEM=& or other=& D-be-NEG
+Neither one. ('It's neither that one nor the other.')
+
+
+#138.0 Coordination - neither/nor (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Yz_a daac je vozh daac
+Yz=_a d-y-c je vozh d-y-c
+DEM=& D-be-NEG or other D-be-NEG
+Neither one. ('It's neither that one nor the other.')
+
+
+#139.0 Coordination - neither/nor (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Yz daac je vozh_a daac
+Yz d-y-c je vozh=_a d-y-c
+DEM D-be-NEG or other=& D-be-NEG
+Neither one. ('It's neither that one nor the other.')
+
+
+#140.0 Coordination - neither/nor (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Yz daac je vozh daac
+Yz d-y-c je vozh d-y-c
+DEM D-be-NEG or other D-be-NEG
+Neither one. ('It's neither that one nor the other.')
+
+
+#141.0 Coordination - neither/nor (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Yz_a daac je vozh_a
+Yz=_a d-y-c je vozh=_a
+DEM=& D-be-NEG or other=&
+Neither one. ('It's neither that one nor the other.')
+
+
+#142.0 Coordination - neither/nor (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+Yz_a daac vozh_a daac
+Yz=_a d-y-c vozh=_a d-y-c
+DEM=& D-be-NEG other=& D-be-NEG
+Neither one. ('It's neither that one nor the other.')
+
+
+##############################################
+# ATTRIBUTIVE ADJECTIVES
+##############################################
+#143.0 Attributive adjectives (correct)
+Source: a:384
+Vetted: s
+Judgment: g
+Phenomena: adj
+Belggala dika sag my xannav=ii yz
+Belggala dika sag my xul-aav=ii yz
+especially good person EMPH be-NW.V=Q 3s
+He was a very good person. He was an especially good person.
+
+
+#144.0 Attributive adjectives (correct) simplified
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+Dika sag xannav=ii yz
+Dika sag xul-aav=ii yz
+good person be-NW.V=Q 3s
+He was a good person.
+
+
+#145.0 Attributive adjectives (incorrect) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+Sag dika xannav=ii yz
+Sag dika xul-aav=ii yz
+person good be-NW.V=Q 3s
+He was a good person.
+
+
+#146.0 Attributive adjectives (incorrect) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+Sag xannav=ii dika yz
+Sag xul-aav=ii dika yz
+person be-NW.V=Q good 3s
+He was a good person.
+
+
+#147.0 Attributive adjectives (incorrect) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+Sag xannav=ii yz dika
+Sag xul-aav=ii yz dika
+person be-NW.V=Q 3s good
+He was a good person.
+
+
+#148.0 Attributive adjectives (with gender agreement) (correct)
+Source: a:442
+Vetted: s
+Judgment: g
+Phenomena: adj
+Jitq_a shi_ ikkaljg juuxar suona t_y
+J-itq_a shi_ ikk-aljg j-uux-ar suona t_y
+J-thin two boot-DIM J-wear-IMPF 1s.DAT on
+I was wearing very light boots ('two very light boots').
+
+
+#149.0 Attributive adjectives (with gender agreement) (correct)
+Source: a:526
+Vetted: s
+Judgment: g
+Phenomena: adj, crd
+Bweaxa_a bitq_iga_a qiera bar yz
+B-weaxa=_a b-itq_a=_a qiera b-ar yz
+B-long=& B-thin=& stone B-be.PST 3s
+It was a long, flat stone.
+
+
+#150.0 Attributive adjectives (gender agreement) (correct) simplified
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+Bweaxa_iga qiera bar yz
+B-weaxa qiera b-ar yz
+B-long stone B-be.PST 3s
+It was a long stone.
+
+
+#151.0 Attributive adjectives (gender agreement) (incorrect) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+Dweaxa_iga qiera bar yz
+D-weaxa qiera b-ar yz
+D-long stone B-be.PST 3s
+It was a long stone.
+
+
+#152.0 Attributive adjectives (gender agreement) (incorrect) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+Jweaxa_iga qiera bar yz
+J-weaxa qiera b-ar yz
+J-long stone B-be.PST 3s
+It was a long stone.
+
+
+#153.0 Attributive adjectives (gender agreement) (incorrect) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+Vweaxa_iga qiera bar yz
+V-weaxa qiera b-ar yz
+V-long stone B-be.PST 3s
+It was a long stone.
+
+
+# Number agreement shown in examples 22.3 (elders) and 1.3 (old person)
+
+
+#154.0 Attributive adjectives (with gender agreement) (correct)
+Source: a:251
+Vetted: s
+Judgment: g
+Phenomena: adj
+Boaqqii naxm xug my bii yzh
+B-oaqqii nax=m xul-g my b=ii yzh
+B-old.PL people=FOC be-FUT EMPH B.=Q 3p
+Well, they will be elders someday.
+
+
+##############################################
+# ADVERBS
+##############################################
+#155.0 Adverbs (correct)
+Source: a:377
+Vetted: s
+Judgment: g
+Phenomena: adv
+Aaz sou sixa q_ameal duuc
+Aaz sou sixa q_ameal d-uuc
+1s.ERG too fast conversation D-tell.PRS
+I talk too fast.
+
+
+#156.0 Adverbs (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+Aaz sixa sou q_ameal duuc
+Aaz sixa sou q_ameal d-uuc
+1s.ERG fast too conversation D-tell.PRS
+I talk too fast.
+
+
+#157.0 Adverbs (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+Aaz sou q_ameal sixa duuc
+Aaz sou q_ameal sixa d-uuc
+1s.ERG too conversation fast D-tell.PRS
+I talk too fast.
+
+
+#158.0 Adverbs (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+Aaz q_ameal sou sixa duuc
+Aaz q_ameal sou sixa d-uuc
+1s.ERG conversation too fast D-tell.PRS
+I talk too fast.
+
+
+#159.0 Adverbs (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+Aaz q_ameal duuc sou sixa
+Aaz q_ameal d-uuc sou sixa
+1s.ERG conversation D-tell.PRS too fast
+I talk too fast.
+
+
+#160.0 Adverbs (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+sou sixa aaz q_ameal duuc
+sou sixa aaz q_ameal d-uuc
+too fast 1s.ERG conversation D-tell.PRS
+I talk too fast.
+
+
+#161.0 Adverbs (correct)
+Source: a:493
+Vetted: s
+Judgment: g
+Phenomena: adv
+Yz kinashjka dika dieshalu
+Yz kinashjka dika d-iesh-lu
+DEM book well D-read-INCP
+This book reads well/easily.
+
+
+#162.0 Adverbs (correct)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+Yz kinashjka dieshalu dika
+Yz kinashjka d-iesh-lu dika
+DEM book D-read-INCP well
+This book reads well/easily.
+
+
+#163.0 Adverbs (correct)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+Yz dika kinashjka dieshalu
+Yz dika kinashjka d-iesh-lu
+DEM well book D-read-INCP
+This book reads well/easily.
+
+
+#164.0 Adverbs (correct)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+dika yz kinashjka dieshalu
+dika yz kinashjka d-iesh-lu
+well DEM book D-read-INCP
+This book reads well/easily.
+
+
+##############################################
+# EMBEDDED CLAUSES - Finite Interrogative
+##############################################
+#165.0 Embedded Clauses - Finite Interrogative (correct)
+Source: a:543
+Vetted: s
+Judgment: g
+Phenomena: emb-q
+Shoana xazadii xaac suona
+Shoana xodz-aad=ii xaa-c suona
+2p.DAT hear-NW.D=Q know.PRS-NEG 1s.DAT
+I don't know if you've heard this.
+
+
+#166.0 Embedded Clauses - Finite Interrogative (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+xaac suona shoana xazadii
+xaa-c suona shoana xodz-aad=ii
+know.PRS-NEG 1s.DAT 2p.DAT hear-NW.D=Q
+I don't know if you've heard this.
+
+
+#167.0 Embedded Clauses - Finite Interrogative (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+suona xaac shoana xazadii
+suona xaa-c shoana xodz-aad=ii
+1s.DAT know.PRS-NEG 2p.DAT hear-NW.D=Q
+I don't know if you've heard this.
+
+
+#168.0 Embedded Clauses - Finite Interrogative (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+suona xaac shoana xazad
+suona xaa-c shoana xodz-aad
+1s.DAT know.PRS-NEG 2p.DAT hear-NW.D
+I don't know if you've heard this.
+
+
+#169.0 Embedded Clauses - Finite Interrogative (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+Shoana xazadii suona xaac
+Shoana xodz-aad=ii suona xaa-c
+2p.DAT hear-NW.D=Q 1s.DAT know.PRS-NEG
+I don't know if you've heard this.
+
+
+#170.0 Embedded Clauses - Finite Interrogative (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+Shoana xazadii suona xaa
+Shoana xodz-aad=ii suona xaa
+2p.DAT hear-NW.D=Q 1s.DAT know.PRS
+I don't know if you've heard this.
+
+
+#171.0 Embedded Clauses - Finite Interrogative (correct) simplified
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-q
+Ahwmad jish loq laattii hwazha
+Ahwmad jish loq laatt=ii hwozh-a
+A. song sing.PRS stand=Q look-IMPV
+Go look whether Ahmed sings.
+
+
+#172.0 Embedded Clauses - Finite Interrogative (incorrect) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+Ahwmad jish loq laatt hwazha
+Ahwmad jish loq laatt hwozh-a
+A. song sing.PRS stand look-IMPV
+Go look whether Ahmed sings.
+
+
+#173.0 Embedded Clauses - Finite Interrogative (incorrect) simplified
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+hwazha Ahwmad jish loq laattii
+hwozh-a Ahwmad jish loq laatt=ii
+look-IMPV A. song sing.PRS stand=Q
+Go look whether Ahmed sings.
+
+
+#174.0 Embedded Clauses - Finite Interrogative (correct) simplified
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-q
+Waishietaa bierazh kino daxaadii xaa
+Waishiet-aa ber-azh kino d-uoda-aad=ii xaa
+Aisha-DAT child-PL movie D-go-NW.D=Q know.PRS
+Aisha knows whether the children went to the movies.
+
+
+##############################################
+# EMBEDDED CLAUSES - Finite Declarative
+##############################################
+#175.0 Embedded Clauses - Finite Declarative (correct)
+Source: a:544
+Vetted: s
+Judgment: g
+Phenomena: emb-d
+Waishet latq_ar, Muusaaz ghar ju eanna
+Waishet latq_-ar, Muusaa-z ghar j-u eanna
+Aishet complain-WP M-ERG noise J-make.PRS SUB
+Aishet complained that Musa was making noise.
+
+
+#176.0 Embedded Clauses - Finite Declarative (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+Waishet latq_ar eanna, Muusaaz ghar ju
+Waishet latq_-ar eanna, Muusaa-z ghar j-u
+Aishet complain-WP SUB M-ERG noise J-make.PRS
+*Aishet complained that Musa was making noise.
+
+
+#177.0 Embedded Clauses - Finite Declarative (correct)
+Source: a:544
+Vetted: s
+Judgment: g
+Phenomena: emb-d
+Cuo benziin xii dy eanna qeika-dyr
+Cuo benziin xii d-y eanna qeika-d-u-r
+3s.ERG gasoline water D-be.PRS SUB call-D-CS-WP
+He claimed [the] gasoline was water.
+
+
+#178.0 Embedded Clauses - Finite Declarative (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+Cuo benziin xii eanna dy qeika-dyr
+Cuo benziin xii eanna d-y qeika-d-u-r
+3s.ERG gasoline water SUB D-be.PRS call-D-CS-WP
+*He claimed [the] gasoline was water.
+
+
+#179.0 Embedded Clauses - Finite Declarative (correct)
+Source: a:546
+Vetted: s
+Judgment: g
+Phenomena: emb-d
+Suona gha deira sie Los_Angelesie volazh sanna
+Suona gha d-ei-ra sie Los_Angelesie v-olazh sanna
+1s.DAT dream D-see-WP 1sRFL L.A.ADV V-be.CVsim like
+I dreamed I was in Los Angeles.
+
+
+#180.0 Embedded Clauses - Finite Declarative (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+Suona gha deira sie Los_Angelesie sanna volazh
+Suona gha d-ei-ra sie Los_Angelesie sanna v-olazh
+1s.DAT dream D-see-WP 1sRFL L.A.ADV like V-be.CVsim
+*I dreamed I was in Los Angeles.
+
+
+##############################################
+# NON-VERBAL PREDICATES
+##############################################
+#181.0 Non-Verbal Predicates: Noun (correct)
+Source: a:417
+Vetted: s
+Judgment: g
+Phenomena: wo
+Yz cwa bordz jy
+Yz cwa bordz j-y
+3s one wolf J-be.PRS
+`He's a wolf.'
+
+
+#182.0 Non-Verbal Predicates: PP (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+Yz jaashjkaa=chy jy
+Yz jeashjka-aa=chy j-y
+3s box-DAT=in J-be.PRS
+`*He's in a box.'
+
+
+##############################################
+# INFORMATION STRUCTURE
+##############################################
+#183.0 Information Structure - Contrastive Focus (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: info
+Suonam hwo xaa, hwuona so xaac
+Suona=m hwo xaa, hwuona so xaa-c
+1s.DAT=FOC 2s.NOM know.PRS, 2s.DAT 1s.NOM know.PRS-NEG
+You don’t know me, but I know you.
+
+
+#184.0a Information Structure - Contrastive Focus (incorrect)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: info
+Suona hwo xaa, hwuonam so xaac
+Suona hwo xaa, hwuona=m so xaa-c
+1s.DAT 2s.NOM know.PRS, 2s.DAT=FOC 1s.NOM know.PRS-NEG
+You don’t know me, but I know you.
+
+
+#185.0 Information Structure - Cumulative Focus (correct)
+# (The speaker is asked for the name of the ravine behind her childhood house.)
+Source: a:285
+Vetted: s
+Judgment: g
+Phenomena: info
+Ealii oalarq oaxa cynagh
+Ealii oal-ar=q oaxa cogh
+gully say-IMPF=CUM 1pEX.ERG 3s.LAT
+We just called it the gully.
+
+
+#186.0a Information Structure - Cumulative Focus (incorrect)
+# (The speaker is asked for the name of the ravine behind her childhood house.)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: info
+Ealiiq oalar oaxa cynagh
+Ealii=q oal-ar oaxa cogh
+gully=CUM say-IMPF 1pEX.ERG 3s.LAT
+We just called it the gully.
+
+
+#187.0 Information Structure - Normal Argument Focus (correct)
+Source: a:687
+Vetted: s
+Judgment: g
+Phenomena: info
+Cuo diicar suona jerazh
+Cuo d-uuc-ar suona jerazh
+3s.ERG D-tell-WP 1s.DAT these
+She told them [=stories] to me (focus on she)
+
+
+#188.0 Information Structure - Normal Argument Focus (correct)
+Source: a:687
+Vetted: s
+Judgment: g
+Phenomena: info
+Suona diicar cuo yzh
+Suona d-uuc-ar cuo yzh
+1s.DAT D-tell-WP 3s.ERG 3p
+She told them to me. It was me she told. (focus on me)
+
+
+#188.1 Information Structure - Normal Argument Focus OR Topic (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: info
+Sy dou axcha
+Sy d-ou axcha
+1s.GEN D-lose.PRS money.NOM
+`I lose money.' (focus OR topic is I)
+
+
+#188.2 Information Structure - Normal Argument Focus OR Topic (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: info
+Axcha dou sy
+Axcha d-ou sy
+money.NOM D-lose.PRS 1s.GEN
+`I lose money.' (focus OR topic is money)
+
+
+#188.5 Information Structure - Normal Argument Topic AND Focus (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: info
+So cynna jeizar
+So cynna j-oudz-ar
+1s 3s.DAT J-know-WP
+He recognized me. (topic on me, focus on he)
+
+
+
+
+#189.0 Information Structure - Normal Verb Focus (correct)
+Source: a:686
+Vetted: s
+Judgment: g
+Phenomena: info
+Vaac so hwa dottagh
+V-y-c so hwa dottagh
+V-be.PRS-NEG 1s 2s.GEN friend
+I'm not your friend. I'm no friend of yours.
+
+
+#190.0 Information Structure - Normal Pure Contrastive Focus (correct)
+Source: a:690
+Vetted: s
+Judgment: g
+Phenomena: info
+Pacchahw uqazahw hwa-voagha
+Pacchahw uqazahw hwa-v-oagha
+king here DX-V-come.PRS
+The king is coming here (he was expected to go somewhere else)
+
+
+#191.0 Information Structure - Normal Pure Contrastive Focus (correct)
+#  Pragmatically neutral; every word equally new, no focus
+Source: a:690
+Vetted: s
+Judgment: g
+Phenomena: info
+Cuo suona yzh diicar
+Cuo suona yzh d-uuc-ar
+3s.ERG 1s.DAT 3p D-tell-WP
+She told these (and not those) to me.
+
+
+#192.0 Information Structure - Normal Pure Contrastive Focus (correct)
+#  Pragmatically neutral
+Source: a:690
+Vetted: s
+Judgment: g
+Phenomena: info
+Cuo yzh diicar suona
+Cuo yzh d-uuc-ar suona
+3s.ERG 3p D-tell-WP 1s.DAT
+She told these to me
+
+
+#193.0 Information Structure - Normal Pure Contrastive Focus (incorrect)
+Source: a:690
+Vetted: s
+Judgment: u
+Phenomena: info
+Suona yzh diicar cuo
+Suona yzh d-uuc-ar cuo
+1s.DAT 3p D-tell-WP 3s.ERG
+*She told these to me
+
+
+#194.0 Information Structure - Normal Pure Contrastive Focus (incorrect)
+Source: a:690
+Vetted: s
+Judgment: u
+Phenomena: info
+Suona yzh cuo diicar
+Suona yzh cuo d-uuc-ar
+1s.DAT 3p 3s.ERG D-tell-WP
+*She told these to me
+
+
+#195.0 Information Structure - Normal Pure Contrastive Focus (incorrect)
+Source: a:690
+Vetted: s
+Judgment: u
+Phenomena: info
+Cuo yzh suona diicar
+Cuo yzh suona d-uuc-ar
+3s.ERG 3p 1s.DAT D-tell-WP
+*She told these to me
+
+
+#196.0 Information Structure - Normal Pure Contrastive Focus (correct) Focus on these
+Source: a:690
+Vetted: s
+Judgment: g
+Phenomena: info
+Yzh diicar cuo suona
+Yzh d-uuc-ar cuo suona
+3p D-tell-WP 3s.ERG 1s.DAT
+These are what she told me.
+
+
+#197.0 Information Structure - Topicalization (& Focus) (correct)
+# topic: Jurta  focus: joaqqa
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: info
+Jurta jistie joaqqa sag ull
+Jurt-a jistie j-oaqqa sag ull
+town-GEN nearby J-old person lie.PRS
+In the next town an old woman lies.
+
+
+#198.0 Clefting (correct)
+Source: a:627
+Vetted: s
+Judgment: g
+Phenomena: info
+Maluu yz loqar? eanna
+Maluu=v yz loq-ar? eanna
+who=V 3s play.PPL-NZ say.CVant
+Who's that playing? he said.
+
+
+#199.0a Clefting (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: info
+eanna Maluu yz loqar?
+eanna Maluu=v yz loq-ar?
+say.CVant who=V 3s play.PPL-NZ
+*Who's that playing? he said.
+
+
+#200.0 Clefting (correct)
+Source: a:627
+Vetted: s
+Judgment: g
+Phenomena: info
+Wajiezhaar fii?
+Wa-j-uozha-ar fii?
+down-J-fall.PPL-NZ what.J.be.PRS
+What fell?
+
+
+#201.0 Clefting (correct)
+Source: a:627
+Vetted: s
+Judgment: g
+Phenomena: info
+Waviezhaar maluu?
+Wa-v-uozha-ar mala=v-y?
+down-V-fall.PPL-NZ who=V-be.PRS
+Who fell?
+
+
+#202.0 Clefting (correct)
+Source: a:628
+Vetted: s
+Judgment: g
+Phenomena: info
+Je kinashjka jaaz-dear maluu?
+Je kinashjka jaaz-d-u-ar mala=v-y?
+this book write-D-VZ.PPL-NZ who=V-be.PRS
+Who wrote this book?
+
+
+#203.0 Clefting with yes/no questions (correct)
+Source: a:629
+Vetted: s
+Judgment: g
+Phenomena: info
+Hwoanal jy cynca joallar?
+Hwoanal j-y cynca j-oall-ar?
+grease J-be.PRS 3s.INS J-be_contained-NZ
+Is there grease in it?
+
+
+#204.0 Clefting with yes/no questions (correct)
+Source: a:629
+Vetted: s
+Judgment: g
+Phenomena: info
+Hwaai top jar wa chana tiexaar?
+Hwaai top j-ar wa cha-na tox-ar?
+1s.RFL.GEN gun J-be.PST 2s.ERG bear-DAT strike-NZ
+Was it your own gun you shot the bear with?
+
+
+#205.0 Clefting with non-questions (correct)
+Source: a:629
+Vetted: s
+Judgment: g
+Phenomena: info
+yz ghaala jezh veallaar gurzhie xannuu hwuona
+yz ghaala j-u-zh v-ealla-ar gurzhie xul-aav hwuona
+DEM tower J-make-CVsim V-PROG.PPL-NZ Georgian be-NW.V MIR
+The contractor who had been building the tower was Georgian.
+
+
+#206.0 Clefting with non-questions (correct)
+Source: a:630
+Vetted: s
+Judgment: g
+Phenomena: info
+Aaz top tiexaar jer cha jy
+Aaz top tox-ar jer cha j-y
+1s.ERG gun strike-NZ DEM bear J-be.PRS
+It's this bear I shot (at). (The one I shot is this bear.)
+
+
+#############################################################
+# NON VERBAL PREDICATES & ADJECTIVAL GENDER AGREEMENT
+#############################################################
+#207.0 (correct)
+Source: author
+Vetted: v
+Judgment: g
+Phenomena: adj, agr
+Sigalie siina jy
+Sigalie siina j-y
+Sky blue J-be.PRS
+The sky is blue.
+
+
+#208.0 (correct)
+Source: author
+Vetted: v
+Judgment: g
+Phenomena: adj, agr
+Yz zhwalii doaqqa dy
+Yz zhwalii d-oaqqa d-y
+This dog D-big D-be.PRS
+This dog is big.
+
+
+#209.0 (correct)
+Source: author
+Vetted: v
+Judgment: g
+Phenomena: adj, agr
+Yz jett boaqqa by
+Yz jett b-oaqqa b-y
+This cow B-big B-be.PRS
+This cow is big.
+
+
+#210.0 (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj, agr
+gaaliin t_y kinashjka ullar
+gaalii-n t_y kinashjka ull-ar
+Sack-GEN on book.NOM lie-WP
+The book lies on the sack.
+
+
+##############################################
+# SIMPLE EXAMPLES
+##############################################
+
+
+#211.0 (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo
+naanaz wazh lox
+naana-z wazh lox
+mother-ERG apple.NOM search.PRS
+Mother is searching the apple.
+
+
+#212.0 (correct)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+daaz wazh lox
+daa-z wazh lox
+father-ERG apple.NOM search.PRS
+Father is searching the apple.
+
+
+#213.0 (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo
+naanaz cwa wazh lox
+naana-z cwa wazh lox
+mother-ERG a apple.NOM search.PRS
+Mother is searching an apple.
+
+
+#214.0 (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, adj
+naanaz wazhagha wazh lox
+naana-z wazhagha wazh lox
+mother-ERG yellow apple.NOM search.PRS
+Mother is searching the yellow apple.
+
+
+#215.0 (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, adj
+naanaz beaccara wazh lox
+naana-z beaccara wazh lox
+mother-ERG green apple.NOM search.PRS
+Mother is searching the green apple.
+
+
+#216.0 (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+naanaz wazh ju_
+naana-z wazh j-u_
+mother-ERG apple.NOM J-eat.PRS
+Mother eats the apple.
+
+
+#217.0 (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+naanaz wazh vu_
+naana-z wazh v-u_
+mother-ERG apple.NOM V-eat.PRS
+Mother eats the apple.
+
+
+#218.0 (correct)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+daaz wazh ju_
+daa-z wazh j-u_
+father-ERG apple.NOM J-eat.PRS
+Father eats the apple.
+
+
+#219.0 (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo
+daaz wazh vu_
+daa-z wazh v-u_
+father-ERG apple.NOM V-eat.PRS
+Father eats the apple.
+
+
+#220.0 (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, adj
+naanaz beaccara wazh ju_
+naana-z beaccara wazh j-u_
+mother-ERG green apple.NOM J-eat.PRS
+Mother eats the green apple.
+
+
+##############################################
+# COMPLICATED EXAMPLES
+##############################################
+
+
+#42[e].13 Information Structure - Topicalization (& Focus) (correct)
+# topic: cu=chy  focus: loamii
+Source: a:682
+Vetted: s
+Judgment: g
+Phenomena: info
+Dwachybealcha, t_aaqqa cuchy seanchy gholla loamii my laattii hwal
+Dwa=chy-b-oal-cha, t_aaqqa cu=chy sean=chy gholla loamii my laatt=ii hwal
+DX=in-B-go-CVtemp then DEM=in corner=in along ladder EMPH stand.PRS=Q up
+They went in, and in the corner stood a ladder.
+
+
+#221.0 Information Structure - Topicalization (& Focus) (correct)
+# topic: Jurta  focus: joaqqa
+Source: a:683
+Vetted: s
+Judgment: g
+Phenomena: info
+Jurta jistie joaqqa sag ull cymogazh jolazh
+Jurt-a jistie j-oaqqa sag ull cymog-azh j-olazh
+town-GEN nearby J-old person lie.PRS sick-CVsim J-PROG.CVsim
+In the next town an old woman is sick ('is lying sick').
+
+
+##############################################
+# LAB 7
+##############################################
+#222.0 I can eat glass (correct) 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: info
+Aaz woaq_anjgazh ju_a mog
+Aaz woaq_anjg-azh j-u_-a mog
+I.ERG glass-PL.NOM J-eat-INF can.PRS
+I can eat glass.
+
+
+#223.0 It doesn’t hurt me (correct)  -- waiting on final confirmation from Johanna vs “it”
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: info
+Cuo so loza-jyc
+Cuo so loza-j-u-c
+It me hurt-J-CS-NEG
+It doesn’t hurt me.

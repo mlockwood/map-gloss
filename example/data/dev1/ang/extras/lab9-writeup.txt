@@ -1,0 +1,534 @@
+												Meg Mitchell
+												Ling 567
+												8.March.2008
+
+						LAB 9 Write-up
+
+## GRAMMAR CLEAN UP ##
+
+irules:
+	My female plural form adds an -e, but for the word "catte", "cat", the plural and singular are identical.  
+	Because of this, I had a rule like this:
+	%suffix (* e) (!e !e), 
+	where the !e variable was defined as either "e" or "a".  But this still got me catte-e, sometimes.
+	So I changed it to (* e) (!e e).  I also tried using a variable !b instead of the wildcard, like this:
+	%(letter-set (!b bcdfghijklmnopqrstuvwxyz))
+	and instantiated with %suffix (!b e) (!e e), but I got weird errors about legacy mode, !b treated as wildcard,
+	so I stopped trying that.
+
+other files:
+
+	I realized my complementizers were sometimes selecting for nonfinite verbs, so I added [ FORM fin ] to this guy:
+
+	complementizer-lex-item := raise-sem-lex-item & basic-one-arg &
+	  [ SYNSEM.LOCAL.CAT [ HEAD comp,
+			       VAL [ COMPS < #comp &
+					     [LOCAL.CAT.HEAD verb & 
+							     [ FORM fin ]] >,
+				     SPR < >,
+				     SUBJ < >,
+			 	     SPEC < > ] ],	
+		  ARG-ST < #comp > ].
+
+	I also was having difficulties with the fact that my past tense is lexicon-based, so I made subtypes that
+	were inflected for tense for all the verbs:
+
+	- intransitive verbs ... -
+
+	intransitive-verb-lex := verb-lex & intransitive-lex-item &
+	  [ SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
+
+	nonpast-intransitive-verb-lex := intransitive-verb-lex &
+	  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ TENSE nonpast ] ].
+
+	past-intransitive-verb-lex := intransitive-verb-lex &
+	  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ TENSE past ] ].
+
+	- transitive verbs ... -
+
+	transitive-verb-lex := verb-lex & transitive-lex-item &
+	  [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
+	    ARG-ST < [  ],
+             #comps &
+             [ LOCAL.CAT [ VAL [ SPR < >,
+                                 COMPS < > ],
+                           HEAD noun &
+                                [ CASE non-nom ] ] ] > ].
+
+	obj-drop-trans-verb-lex := transitive-verb-lex &
+	 [ SYNSEM.LOCAL.CAT.VAL [ COMPS < [ OPT +,
+				    OPT-CS type-id ] > ] ].
+
+	nonpast-obj-drop-trans-verb-lex := transitive-verb-lex &
+	 [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ TENSE nonpast ] ].
+
+	past-obj-drop-trans-verb-lex := transitive-verb-lex &
+	 [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ TENSE past ] ].
+
+	trans-verb-lex := transitive-verb-lex &
+	 [ SYNSEM.LOCAL.CAT.VAL.COMPS < [OPT - ] > ].
+
+	nonpast-trans-verb-lex := trans-verb-lex &
+	  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ TENSE nonpast ] ].
+
+	past-trans-verb-lex := trans-verb-lex &
+	  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ TENSE past ] ].
+
+
+
+	embed-clause-ques := embed-clause-verb &
+	  [ SYNSEM.LOCAL [ CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX.SF ques] >,
+			   CONT.HOOK.INDEX.SF prop-or-ques ] ].
+
+	nonpast-embed-clause-ques := embed-clause-verb &
+	  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX [ TENSE.E nonpast ] ] ].
+
+	past-embed-clause-ques := embed-clause-verb &
+	  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX [ TENSE.E past ] ] ].
+
+	embed-clause-prop := embed-clause-verb &
+	  [ SYNSEM.LOCAL [ CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX.SF prop] >,
+			   CONT.HOOK.INDEX.SF prop-or-ques ] ].
+
+	nonpast-embed-clause-prop := embed-clause-verb &
+	  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX [ TENSE.E nonpast ] ] ].
+
+	past-embed-clause-prop := embed-clause-verb &
+	  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX [ TENSE.E past ] ] ].
+
+	I spent awhile trying to create just a type that could stick in past and nothing else, like this:
+
+	past-tense-lex := sign-min &
+	  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ TENSE past ] ].
+
+	past-tense-lex := lex-item &
+	  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE past ].
+
+	nonpast-tense-lex := norm-hook-lex-item &
+	  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE nonpast ].
+
+	The idea was that, that way, I could have entries in my lexicon specified as trans-verb-lex & past-tense-lex, say.
+	None of those things worked, though.  And so now I have types with the tense information already specified:
+
+	bidan := nonpast-trans-verb-lex &
+	  [ STEM < "bid" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_await_v_rel" ].
+
+	bad := past-trans-verb-lex &
+	  [ STEM < "bad" >,
+	    SYNSEM [ LOCAL [ CAT.HEAD.FORM fin ] ] ].
+
+	bedrif := nonpast-trans-verb-lex &
+	  [ STEM < "bedrif" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ].
+
+	hycg := nonpast-embed-clause-prop &
+	  [ STEM < "hycge" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_think_v_rel" ].
+
+	can := nonpast-embed-clause-prop &
+	  [ STEM < "can" >,
+	    SYNSEM [ LKEYS.KEYREL.PRED "_know_v_rel" ] ].
+
+
+
+	I also spent a long time trying to make the cognitive status of everything act appropriately.  After much fumbling, I decided
+	to create two types of the bare-np-phrase that formed NPs from Ns.  One was for common nouns, which give a COG-ST of type-id, and the
+	other was for pronouns, and merely passed up the N to an NP, since pronouns have COG-ST associated with them earlier on in the grammar.
+
+	Thusly:
+	bare-np-phrase-common-nouns := basic-bare-np-phrase &
+	  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.COG-ST type-id,
+	    C-CONT.RELS <! [ PRED "exist_q_rel" ] !> ].
+
+	bare-np-phrase := basic-bare-np-phrase & 
+	   [ C-CONT.RELS <! [ PRED "exist_q_rel" ] !>,
+	     HEAD-DTR.SYNSEM.LOCAL.CONT.RELS <! [ PRED "_pronoun_n_rel" ] !> ].
+
+	These were instantiated in lrules.tdl:
+
+	bare-np := bare-np-phrase.
+
+	bare-np-common-noun := bare-np-phrase-common-nouns.
+	
+	I tried to make COG-ST a feature of common nouns, but this just broke stuff.  For example:
+
+	common-noun-lex := noun-lex &
+	  [ SYNSEM.LOCAL [ CAT.VAL [ SPR < #spr &
+	                                 [ LOCAL.CAT.HEAD det ] > ],
+	     		   CONT.HOOK.INDEX [ COG-ST type-id,
+					     PNG.PER third ] ],
+	    ARG-ST < #spr > ].
+
+	This was eventually abandoned in favou of using the bare-np phrase rules to attach the COG-ST because nouns needed to be
+	underspecified for COG-ST until they either associated with a determiner/demonstrative or did not...That is, nouns need to 
+	have the same COG-ST as their determiners/demonstratives, to form an NP (DP) with one COG-ST.  So, the bare-np phrase was 
+	used to give a type-id reading to nouns that otherwise did not have an activ+fam reading from their definite 
+	demonstrative-determiner-thingies.
+
+	Along with this, I changed my pronoun type to have a COG-ST of in-foc instead of activ-or-more.  This was just a move to 
+	parallel the English semantics:
+
+	pronoun-lex := noun-lex-supertype &
+	  [ SYNSEM [ LOCAL [ CAT.VAL.SPR < [ OPT + ] >,
+			     CONT [ HOOK.INDEX [ COG-ST in-foc,
+					         SPECI + ], 
+	                            RELS <! noun-relation &
+	                                    [ PRED "_pronoun_n_rel" ] !> ] ],
+		     LKEYS.KEYREL.PRED "_pronoun_n_rel" ],
+	    INFLECTED + ].
+
+	I also worked on my determiners/demonstratives type.  For some reason, it had an extra #adj-rel in its CONT.RELS, meaning it was 
+	creating three items on the relations list, instead of two.  I coindexed ARG1 on the CONT.RELS to match up with the index
+	of the SPEC, mandating a COG-ST of activ+fam.  I also changed arg1-ev-relation to arg1-relation, to match up with the English
+	grammar, but then this had to be changed back.  This led to this final form:
+
+	demonstrative-determiner-lex := determiner-lex-supertype &
+ 	 [ SYNSEM [ LOCAL [ CAT.VAL.SPEC [ FIRST.LOCAL.CONT [ HOOK [ INDEX #ind &
+									    [ COG-ST activ+fam ], 
+								      LTOP #adj-rel-lbl ] ] ],
+			     CONT.RELS <! [ PRED "exist_q_rel"],
+					  #adj-rel &
+				          arg1-ev-relation &
+					  [ LBL #adj-rel-lbl,
+					    ARG1 #ind ] !> ], 
+		     LKEYS.ALTKEYREL #adj-rel ] ].
+
+	I also changed specifications on my negative-inflecting lex rule, because it was inflecting forms that did not have their proper
+	agreement attached yet, giving me neg-STEM forms in the syntax.  As such, I made it a lexeme-to-lexeme-rule, and experimented with
+	taking out various constraints.  I finally settled on this:
+
+	neg-infl-lex-rule := cont-change-only-lex-rule & lexeme-to-lexeme-rule & inflecting-lex-rule &
+	  [ C-CONT [ HOOK [ XARG #xarg,
+	                    LTOP #ltop,
+	                    INDEX #ind ],
+	             RELS <! event-relation &
+	                     [ PRED "_neg_r_rel",
+	                       LBL #ltop,
+	                       ARG1 #harg ] !>,
+	             HCONS <! qeq &
+	                      [ HARG #harg,
+	                        LARG #larg ] !> ],
+	    SYNSEM.LKEYS #lkeys,
+	    DTR lex-item &
+		[ SYNSEM [ LKEYS #lkeys,
+	                   LOCAL [ CONT.HOOK [ XARG #xarg,
+	                                       INDEX #ind,
+	                                       LTOP #larg ],
+	                           CAT.HEAD verb &
+	                                    [ AUX - ] ] ] ] ].
+
+	I was also getting subj-head attachments for verbs that were nonfinite, for example:
+
+		Ic 	  bedrif-ende Tec
+		I.1sg.NOM chase-CONT  you.2sg.ACC
+		"I chasing you"
+
+	These verbs should only be complements to auxiliary verbs, not heads in an np-vp configuration.  
+	So, I changed by subj-head rule to only take things of FORM fin:
+
+	subj-head-phrase := decl-head-subj-phrase & head-final &
+	  [ HEAD-DTR.SYNSEM.LOCAL.CAT [ HEAD.FORM fin,
+					VAL.COMPS < > ],
+	    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [ CASE nom ] ].
+
+	I had to do a lot of work on coordination, and I'm still not sure how far I got.
+	For one thing, although I thought I had redone this part, I had the wrong specification of where the coordinating conjunction attaches -
+	I said 'after' when I meant 'before'.  So, I went back through the customization system and did all my coordination over again.
+
+	Still, the forms were pretty underspecified.  For example, the forms of the verbs in VP-coordination
+	weren't being copied up properly, resulting in coordination of VPs that didn't make much sense.
+
+	*docgas 	 bedrif-ende catte 	     and slaep-aT
+	*Dog.masc-NOM.pl chase-CONT  cats.fem.ACC.pl and sleep-pl
+	*"Dogs chasing cats and sleep"
+
+	Even though the non-coordinated phrase corresponding to the ungrammatical bit did *not* parse:
+
+	*docgas 	 bedrifende catte
+	*Dog.masc-NOM.pl chase-CONT cats.fem.ACC.pl
+	*"Dogs chasing cats"
+
+	To handle this and other coordination problems, I did a bunch of things to my coordination rules.  For Ns and NPs, I declare
+	[NUM pl].  That is, if two (or more) nouns are being coordinated, then they'll receive a plural marking.  This will keep verbs
+	from agreeing in some other NUM value, as well.
+	For Ss, Vs and VPs, I declare that they must all have the same FORM value, and that this is copied up to the final coordinated VP.
+
+	;;; Coordination Strategy 1
+	
+	n1-top-coord-rule := basic-n-top-coord-rule & apoly-top-coord-rule &
+	  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+			   CONT.HOOK.INDEX.PNG [ NUM pl ] ] ].
+
+	n1-bottom-coord-rule := conj-first-bottom-coord-rule & n-bottom-coord-phrase &
+	  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+			   CONT.HOOK.INDEX.PNG [ NUM pl ] ],
+	    ARGS.FIRST.KEY-ARG + ].
+
+	;;; Coordination Strategy 1
+
+	; Lab 9:  Need a way to change the person, so we can't get stuff like "bedrife catte and docgas carbuncle", but I dunno how.
+	np1-top-coord-rule := basic-np-top-coord-rule & apoly-top-coord-rule &
+	  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+			   CONT.HOOK.INDEX.PNG [ NUM pl ] ] ].
+
+	np1-bottom-coord-rule := conj-first-bottom-coord-rule & np-bottom-coord-phrase &
+	  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+			   CONT.HOOK.INDEX.PNG [ NUM pl ] ],
+	    ARGS.FIRST.KEY-ARG + ].
+
+	;;; Coordination Strategy 1
+	
+	vp1-top-coord-rule := basic-vp-top-coord-rule & apoly-top-coord-rule &
+	  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+		   CAT [ HEAD [FORM #form],
+			 VAL.SUBJ #subj ] ],
+	    LCOORD-DTR.SYNSEM.LOCAL.CAT [ HEAD [FORM #form],
+					  VAL.SUBJ #subj ],
+	    RCOORD-DTR.SYNSEM.LOCAL.CAT [ HEAD [FORM #form],
+					  VAL.SUBJ #subj ] ].
+
+	vp1-bottom-coord-rule := conj-first-bottom-coord-rule & vp-bottom-coord-phrase &
+	  [ SYNSEM.LOCAL [ CAT.HEAD.FORM #form,
+			   COORD-STRAT "1" ],
+	    NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD [FORM #form],
+	    ARGS.FIRST.KEY-ARG + ].
+
+	;;; Coordination Strategy 1
+
+	s1-top-coord-rule := basic-s-top-coord-rule & apoly-top-coord-rule &
+	  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+	    		   CAT [ HEAD [FORM #form] ] ],
+	    LCOORD-DTR.SYNSEM.LOCAL.CAT [ HEAD [FORM #form] ],
+	    RCOORD-DTR.SYNSEM.LOCAL.CAT [ HEAD [FORM #form] ] ].
+
+	s1-bottom-coord-rule := conj-first-bottom-coord-rule & s-bottom-coord-phrase &
+	  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+			   CAT.HEAD.FORM #form ],
+	    NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD [ FORM #form ],
+	    ARGS.FIRST.KEY-ARG + ].
+
+	I also added the constraint of ARGS.FIRST.KEY-ARG +, that is, that I mark coordination with an overt word, in order to avoid
+	the bottom-coord rules from applying everywhere they can.
+
+
+
+
+## OTHER COMMENTS ##
+
+	I hadn't instituted the obj-dropping types appropriately, so I did that in this lab.  I made an obj-dropping type:
+	obj-drop-trans-verb-lex := transitive-verb-lex &
+	 [ SYNSEM.LOCAL.CAT.VAL [ COMPS < [ OPT +,
+				    OPT-CS type-id ] > ] ].
+
+	which was a subtype of transitive verb-lex, and further split into the tenses (discussed above).
+	In addition to this, I instantiated the type for object dropping in rules.tdl:
+
+	head-opt-comp := basic-head-opt-comp-phrase.
+
+
+	For "dogs chase cars", the English marks 'dogs' as type-id, and then italian marks 'dogs' as uniq+fam+act.  I think those two
+	are mutually exclusive, so it's a question of which translation I want to have work...I chose the English one, with type-id.
+
+	I also realized that the verb I had chosen for eat, "abrucan", did not actually have an intransitive reading.  But there was a word
+	from which our current word "eat" is derived, "etan", that did have transitive and instransitive usages.  So I switched over to 
+	that one.
+
+	Aaand...my coverage jumped from 6.6 to 17.0%!  Woohoo!  I think most of the missing stuff is just missing vocabulary, so that's good.
+
+
+
+## SENTENCES ##
+
+	For both languages, I do not have the sentences with complementizers working.  This is because the LBL of the verb in a complementizer
+	phrase must be qeq with the ARG2 of the complementizer-selecting verb, but I'm not sure how to do that.  Everything else matches up,
+	though!
+
+English Sentences:  (13)
+
+	In Old English, demonstratives are identical to determiners, so they should carry the semantics of activ+fam.  But,
+	in English, determiners don't have any semantics.  So, as you know, we tried to make a rule to be instantiated in acm.mtr:
+
+	the-that-mtr := monotonic_mtr &
+	 [ CONTEXT [ RELS <! [ PRED "exist_q_rel",
+	                       LBL #rel-lbl,
+	                       ARG0 #x,
+	                       RSTR #harg ] !>,
+	                  HCONS <! [ HARG #harg,
+	                             LARG #larg ] !> ],
+	   FILTER.RELS <! [ PRED distal+dem_a_rel,
+	                    LARG #larg,
+	                    ARG1 #x ] !>,
+	   INPUT.RELS <! !>,
+	   OUTPUT.RELS <! arg1-ev-relation &
+	          [ PRED distal+dem_a_rel,
+	            LBL #rel-lbl,
+	            ARG1 #x ] !> ].
+
+	This didn't work, though, so I had to scrap translating any English sentences with "the" in them.
+	However, I did institute the pro-drop rule in acm.mtr, since Old English is pro-drop.  That worked great.
+
+Dogs sleep.
+	Expected parses:  slaepeT docgas, docgas slaepeT
+	What I get:	  the same
+
+Dogs chase cars.
+	Expected parses:  bedrifaT docgas carbuncle, docgas bedrifaT carbuncle
+	What I get:	  the same
+
+I chase you.
+	Expected parses:  bedrife Dec, bedrife Tec, bedrife eowic, bedrife eowic, and then the same 4 with "ic" before and after the verb.
+	What I get:	  the same
+
+These dogs sleep.
+	Expected parses:  das docgas slaepaT, slaepaT das docgas
+	What I get:	  the same
+
+Dogs eat.
+	Expected parses:  docgas etaT, etaT docgas
+	What I get:	  the same
+
+I can eat glass.
+	Expected parses:  ic mot etan glaes, mot ic etan glaes, mot etan glaes
+	What I get:	  the same
+
+It doesnt hurt me.
+	Expected parses:  NeadereT me, ne aderieT me, neaderieT me, ne adereT me, and then the pronouns "he" (he), "heo" (she), and "hit"
+		          (it) appearing before and after the verb.
+	What I get:	  the same
+
+The dogs chase cars.
+	Expected parses:  Da docgas bedrifaT carbuncle, with altnerations of S and V.
+	What I get:	  --
+
+I think that you know that dogs chase cars.
+	Expected parses:  Ic hycge Taet Tu canst Taet docgas bedrifaT carbuncle, with alternations of S and V.
+	What I get:	  --
+
+I ask whether you know that dogs chase cars.
+	Expected parses:  Ic fraege hwaeDer Tu canst Taet docgas bedrifaT carbuncle, with altnerations of S and V.
+	What I get:	  --
+
+Cats and dogs chase cars.
+	Expected parses:  catte and docgas bedrifaT carbuncle, catte ond docgas bedrifaT carbuncle, bedrifaT catte and docgas carbuncle,
+			  bedrifaT catte ond docgas carbuncle
+	What I get:	  the same
+
+Dogs chase cars and cats chase dogs.
+	Expected parses:  docgas bedrifaT carbuncle and catte bedrifaT docgas, docgas bedrifaT carbuncle ond catte bedrifaT docgas,
+			  bedrifaT docgas carbuncle and bedrifaT catte docgas, bedrifaT docgas carbuncle ond bedrifaT catte docgas,
+			  docgas bedrifaT carbuncle and bedrifaT catte docgas, bedrifaT docgas carbuncle ond catte bedrifaT docgas,
+			  bedrifaT docgas carbuncle and catte bedrifaT docgas, docgas bedrifaT carbuncle ond bedrifaT catte docgas,
+			  done through various coord strategies.
+	What I get:	  the same
+
+Cats chase dogs and sleep.
+	Expected parses:  catte bedrifaT docgas and slaepaT, catte bedrifaT docgas ond slaepaT
+	What I get:	  the same
+
+Do cats chase dogs?
+	Expected parses:  bedrifaT catte docgas, catte bedrifaT docgas
+	What I get:	  the same
+
+Chase the dog.  (imperative not instantiated)
+
+Hungry dogs eat.
+	Expected parses:  etaT hungrige docgas, hungrige docgas etaT
+	What I get:	  the same
+
+Hungry dogs eat quickly.
+	Expected parses:  etaT gearwe hungrige docgas, etaT hungrige docgas gearwe, hungrige docgas etaT gearwe
+	What I get:	  the same
+
+
+
+Italian Sentences:  (11)
+	Since Old English is pro-drop, and I wanted to get pro-drop readings from Italian sentences with the subject included,
+	I instantiated the pro-drop rule in acm.mtr.
+
+	pro-drop := pronoun-delete-mtr.
+
+	Since Italian can take away objects, as long as their agreement markings are there, but Old English cannot, I instituted the
+	two pro-insert rules:
+
+	pro-insert-arg2 := pro-insert-arg2-mtr.
+	pro-insert-arg3 := pro-insert-arg3-mtr.
+
+	Also, since italian says "make harm" for "hurt" and may say "make pursuit" for "chase", I added the two corresponding rules
+	to map one to the other:
+
+	make-harm := make-harm-mtr.
+	make-pursuit := make-pursuit-mtr.
+
+
+Cani dorm-ono
+	Expected parses:  slaepeT docgas, docgas slaepeT
+	What I get:	  the same
+
+Cani insegu-ono macchine
+	Expected parses:  bedrifaT docgas carbuncle, docgas bedrifaT carbuncle
+	What I get:	  the same
+
+Ti-insegu-o
+	Expected parses:  bedrife Dec, bedrife Tec
+	What I get:	  the same
+
+Questi cani dorm-ono
+	Expected parses:  das docgas slaepaT, slaepaT das docgas
+	What I get:	  the same
+
+Cani mangi-ano
+	Expected parses:  docgas etaT, etaT docgas
+	What I get:	  the same
+
+Posso mangi-are il vetro
+	Expected parses:  ic mot etan glaes, mot ic etan glaes, mot etan glaes
+	What I get:	  --
+
+Non mi-f-a male
+	Expected parses:  NeadereT me, ne aderieT me, neaderieT me, ne adereT me, and then the pronouns "he" (he), "heo" (she), and "hit"
+		          (it) appearing before and after the verb.
+	What I get:	  NeadereT me, ne adereT me
+
+I cani insegu-ono macchine
+	Expected parses:  Se docgas bedrifaT carbuncle, bedrifaT se docgas
+	What I get:	  --
+
+Pens-o che sai che cani insegu-ono macchine
+	Expected parses:  Ic hycge Taet Tu canst Taet docgas bedrifaT carbuncle, with alternations of S and V.
+	What I get:	  --
+
+Domand-o se sai che cani insegu-ono macchine
+	Expected parses:  Ic fraege hwaeDer Tu canst Taet docgas bedrifaT carbuncle, with altnerations of S and V.
+	What I get:	  --
+
+Cani e gatti insegu-ono macchine
+	Expected parses:  catte and docgas bedrifaT carbuncle, catte ond docgas bedrifaT carbuncle, bedrifaT catte and docgas carbuncle,
+			  bedrifaT catte ond docgas carbuncle
+	What I get:	  --
+
+Cani insegu-ono macchine e gatti insegu-ono cani
+	Expected parses:  docgas bedrifaT carbuncle and catte bedrifaT docgas, docgas bedrifaT carbuncle ond catte bedrifaT docgas,
+			  bedrifaT docgas carbuncle and bedrifaT catte docgas, bedrifaT docgas carbuncle ond bedrifaT catte docgas,
+			  docgas bedrifaT carbuncle and bedrifaT catte docgas, bedrifaT docgas carbuncle ond catte bedrifaT docgas,
+			  bedrifaT docgas carbuncle and catte bedrifaT docgas, docgas bedrifaT carbuncle ond bedrifaT catte docgas,
+			  done through various coord strategies.
+	What I get:	  the same
+
+Gatti insegu-ono cani e dorm-ono
+	Expected parses:  catte bedrifaT docgas and slaepaT, catte bedrifaT docgas ond slaepaT
+	What I get:	  the same
+
+Gatti insegu-ono cani
+	Expected parses:  bedrifaT catte docgas, catte bedrifaT docgas
+	What I get:	  the same
+
+insegu-i il cane (imperative not instantiated)
+
+Cani affamat-i mangi-ano
+	Expected parses:  etaT hungrige docgas, hungrige docgas etaT
+	What I get:	  the same
+
+Cani affamat-i mangi-ano velocemente
+	Expected parses:  etaT gearwe hungrige docgas, etaT hungrige docgas gearwe, hungrige docgas etaT gearwe
+	What I get:	  the same

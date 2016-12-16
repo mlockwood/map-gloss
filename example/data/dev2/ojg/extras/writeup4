@@ -1,0 +1,184 @@
+Jason Shaw (author), Prescott Klassen
+LING 567
+Lab 4
+1/29/10
+
+CHANGES VIA THE CUSTOMIZATION SYSTEM
+*******************
+	The range of phenomena covered by this lab was significantly narrower than in previous weeks, and as a result we have only made a few changes to the customization system.  First of all, we considered coordination.  In Nishnaabemwin, there are two words which serve as coordinating conjunctions, "gye" (sometimes realized as "gye go") and "miinwaa".  These are both used to coordinate noun phrases, verb phrases, and entire sentences, with no apparent difference in meanings.  Additionally, Nishnaabemwin can coordinate the above categories simply by juxtaposition.  Finally, when conjuctions are used, they can be used either in a monosyndeton or a polysyndeton fashion.  As a result we specified five coordination strategies in the customization system:
+	1) Monosyndeton coordination with conjunction "gye" before the coordinand
+	2) Monosyndeton coordination with conjunction "miinwaa" before the coordinand
+	3) Polysyndeton coordination with conjunction "gye" before all but the first coordinand
+	4) Polysyndeton coordination with conjunction "miinwaa" before all but the first coordinand
+	5) Asyndeton coordination (juxtaposition)
+
+In our test suite we devised examples of all of these patterns.  All examples parsed except for one pair which were meant to demonstrate a pattern not accounted for by the customization system (see section on unimplemented phenomena).  Here are a few examples:
+
+----------
+#105 monosyndeton
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: mono coord
+Gassmoonijiimaan wgiiwzhitoon, nmamaa giizhitoonan maamin jiimaanan, gye giibizhaamgadoon jiimaanan
+Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, gye w-gii-bizhaamgak-noon jiimaan-an
+sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL
+'He made a sailboat, my mother made these boats, and the canoes came'
+
+#106 polysyndeton
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: poly coord
+Gassmoonijiimaan wgiiwzhitoon miinwaa nmamaa giizhitoonan maamin jiimaanan miinwaa giibizhaamgadoon jiimaanan
+Gaasmoonijiimaan w-gii-wzhitaatood-oo-n miinwaa nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an miinwaa w-gii-bizhaamgak-noon jiimaan-an
+sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL
+'He made a sailboat, my mother made these boats, and the canoes came'
+
+#114
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: coord with pronon
+Niin miinwaa niizh kwewag ndoontaagshkigwaaso
+Niin miinwaa niizh kwe-wag n-doo-ntaa-gshkigwaasod
+I COORD two woman-PL 1-PRES-HAB-be.good.at.sewing
+'Two women and I are good at sewing'
+----------
+
+	The next phenomenon to consider was the behavior of matrix yes/no questions.  In Nishnaabemwin, this is very simple: the particle "na" appears in second position in the sentence.  The item which is being questioned appears first, and "na" attaches to it.  Interestingly, for multi-word NPs (for example, "maaba nishnaabe" meaning "this Indian"), the particle intervenes in order to appear in second position: "Maaba na nishnaabe... ".  Of course, since the customization only allows sentence-initial or sentence-final positions for the question particle, we got zero parses of grammatical examples of this phenomenon (and one parse of an ungrammatical example, in which the particle appeared first).  For the sake of making a choice, we elected to say that the question particle comes first in the sentence, but this obviously will need to be adjusted later.  Here are some examples of yes/no questions:
+
+----------
+#119
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: yn
+Zhiishiiban na wminpawaawaan gaag?
+Zhiishiib-an na w-doo-mnopwaad-aa-an gaag
+duck-3.OBV QUES 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG porcupine.AN.3SG
+'Is it ducks that porcupines like to eat?'
+
+#120
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: yn
+Gaag na zhiishiiban wminpawaawaan?
+Gaag na zhiishiib-an w-doo-mnopwaad-aa-an
+porcupine.AN.3SG QUES duck-3.OBV 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG
+'Is it porcupines that like to eat ducks?'
+
+#125
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: yn
+Maaba na nishnaabe moonshkwed?
+Maaba na nishnaabe w-doo-moonhashkiwed
+this.3.SG QUES 3-PRES-weed
+'Is it this Indian who is weeding?'
+----------
+
+*******************
+UNIMPLEMENTED PHENOMENA
+*******************
+
+As mentioned before, the customization system is not sufficient to capture the facts of coordination and yes/no questions in Nishnaabemwin.  Yes/no questions should be an easy fix.  Rather than insist on sentence-initial position for the question particle, we will insist on second position.  However, this will require manual editing of the grammar files, as the customization system does not allow such specifications.
+
+The situation is more complex with coordination, as there are a range of facts that are not acknowledged by the customization system.  Agreement is manifested in many areas of Nishnaabemwin grammar, so it comes as no surprise that it must be considered in coordination as well.  In particular, the way noun phrases behave as arguments of verbs requires a more precise grammar.  When nouns are coordinated in Nishnaabemwin, the phrase assumes the agreement properties -- person, number, gender, obviation -- of the first coordinand.  Therefore, in our test suite we have illustrated that a grammatical sentence can become ungrammatical simply by reversing the order of the nouns in the coordination structure:
+
+----------
+#112 coordinands need not agree, but verb agrees with first one
+Source: author (cf 18.223/996)
+Vetted: f
+Judgment: g
+Phenomena: agr coord
+Ndamnopwaa bkwezhigan miinwaa doodooshaaboo
+N-doo-mnopwaad-aa bkwezhigan miinwaa doodooshaaboo
+1-PRES-like+the+taste+of-DIR.THM bread COORD milk
+'I like bread and milk'
+
+#113 coordinands need not agree but verb agrees with first one
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr coord
+Ndamnopwaa doodooshaaboo miinwaa bkwezhigan
+N-doo-mnopwaad-aa doodooshaaboo miinwaa bkwezhigan
+1-PRES-like+the+taste+of-DIR.THM milk COORD bread
+'I like milk and bread'
+----------
+
+The word for bread is animate while the word for milk is inanimate, so the suffixes on the verb must be altered if the inanimate object, milk, is made first in the coordination structure.
+
+*******************
+COVERAGE OVER THE TEST SUITE
+*******************
+
+The changes made to the grammar this week gave mixed results.  As mentioned, coordination was handled well, although important facts are missing: 10 of 11 grammatical sentences parsed, and the 1 ungrammatical example did not parse.  The performance over yes/no questions was unavoidably abysmal: 0 of 9 grammatical examples parsed, while 2 of 5 ungrammatical examples did parse.  The grammar as it stands simply cannot handle the method of question formation in Nishnaabemwin.  Overall results are much improved from last week (see next section):
+
+Coverage
+Total items: 129
+Positive items: 97
+Word string: 3.05
+Lexical items: 7.23
+Distinct analyses: 1.83
+Total results: 72
+Overall coverage: 74.2%
+
+Overgeneration
+Total items: 129
+Negative items: 32
+Word string: 2.72
+Lexical items: 7.10
+Distinct analyses: 2.14
+Total results: 7
+Overall coverage: 21.9%
+
+*******************
+IMPROVEMENTS MADE TO THE COVERAGE
+*******************
+
+The class of verbs referred to as VTA (transitive with animate object) show extremely complicated morphology, so as a result we had trouble getting everything implemented and working.  A major project this week was to redo our analysis of VTA inflection, taking account of the direct-inverse nature of these verbs.  The pattern of inflection is as follows;
+
+(actor/goal person prefix) (tense) (aspect) (verb stem) (theme) (negation) (pron/nominal suffix) (actor/goal person suffix)
+
+There are four theme suffixes:
+
+aa        DIRECT: 3rd person involved, action is down the hierarchy
+igw      INVERSE: 3rd person involved, action is up the hierarchy
+i           1st GOAL (and 2nd person ACTOR in independent order)
+iN        2nd GOAL (and 1st person ACTOR in independent order)
+
+The solution for this week is a "brute force" approach that doesn't take advantage of the built-in features of direct/inverse and the scale hierarchy in the questionnaire/customization system. Instead, feature constraints are added based on the theme suffix, actor/goal person prefix and actor/goal pronominal/nominal suffix and person suffix, where the prefixes and suffixes apply explicit constraints on the verb, subject, and object NPs and do not use the lowest/highest ranking NP feature constraints of the scale hierarchy.
+
+This approch has not been entirely successful and many of the positive items that do not parse or are reported ungrammatical in the test suite are VTA sentences in which non-3rd person actors and goals are featured (no explicit word for goal or actor -- implied by inflection). We will be focusing on these sentences in the next week, perhaps implementing the direct/inverse and scale hierarchy constraints in the matrix.
+
+A major hurdle to overcome in implementing VTA was analyzing the paradigms in Valentine, 2001, which conflate the theme, pronominal/nominal and actor/goal suffixes into one morphophonological puzzle. We created a chart that breaks them apart into regularized morphemes, in order to leverage them in both our inflection pipeline and the regularized morpheme to morpheme lines in our test suite.
+
+The chart is located on our Common View site: https://catalysttools.washington.edu/workspace/klassp/10369/53814
+
+The Inflection Pipeline
+
+All of our verbs pass through the same inflection pipeline:
+
+Step 1: VII, VAI, VTI, and VTA verb types are defined with animacy constraints and lexical entries are created for the verbs in our test suite.
+
+Step 2: Transitive verbs input to the Theme suffix slot. VTI and VTA theme morphemes are matched and direct/inverse constraints are added for VTAs
+
+Step 3: VII, VAI and Theme suffix slot results are input to the Negation slot. If the negation morpheme is a match, negation plus constraint is applied
+
+Step 4: Negation slot results are input to Aspect prefix slot. If Aspect prefixes match, asp contraint is applied
+
+Step 5: Aspect results are input to Tense prefix slot. This is a required morpheme and a tense constraint is added for all verbs
+
+Step 6: Tense prefix results are input to person prefix slot. This is a required morpheme and person prefix constraints are added for all verbs consisting of pernum, gender, and obviation specified on subjects and in the case of VTA verbs actor/goal roles depending on direct/inverse relations.
+
+Step 7: Person prefix results are input to person suffix slot. This is a required morpheme and person suffix constraints are applied for all verbs consisting of pernum, gender, and obviation specified on subjects and objects (in the case of VTA verbs additional pronominal/nominal suffixes are combined - a hyphen is used to delimit them - with actor//goal roles depending on direct/inverse relations.
+
+Refactoring the Test Suite
+
+We added a header to our testsuite.txt file to explain some of the decisions we have had to make regarding orthography, regularized morpheme to morpheme lines, and our morpheme to morpheme glosses. We have included a table of abbreviations and an explanation of the special characters we are using in our morpheme to morpheme gloss.
+
+In order to test the coverage of our lexical rules, we have tried this week to augment our test suite with non-vetted test sentences that are based on sentences in our reference grammar but include our own combinations of morphemes. The goal is to test key combinations of words and inflections against our lexical rules. For example, for some of the types of phenomena in our test suite, like tense, we have included sentences for each of the four verb types.

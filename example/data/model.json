@@ -1,0 +1,18 @@
+[
+  {
+    "name": "main",
+    "train": ["dev1", "dev2"],
+    "test": ["test"],
+    "classifiers": {
+      "tbl": 1.0
+    }
+  },
+  {
+    "name": "russian",
+    "train": ["dev1!rus", "dev2", "test"],
+    "test": ["dev1-rus"],
+    "classifiers": {
+      "tbl": 1.0
+    }
+  }
+]

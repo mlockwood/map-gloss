@@ -1,0 +1,490 @@
+INH.TXT
+Copied below is the content of our inh.txt file (also in the ingush main folder):
+
+Zhwalii-zh tweisaa-all
+
+Zhwalii-zh-ta mashen t_ehwa_ud
+
+Suona hwo t_ehwa_ud
+
+Je zhwalii-zh tweisaa-all
+
+Zhwalii-zh da_ar d-u_
+
+Aaz woaq_anjg-azh j-u_-a mog
+
+Cuo so loza-j-u-c
+
+Zhwalii-zh-ta mashen t_ehwa_ud
+
+Zhwalii-zh-ta mashen t_ehwa_ud xaa hwuona xet suona
+
+Aaz xeattar zhwalii-zh-ta mashen t_ehwa_ud xaa hwuona
+
+Cisjk-zh=ji zhwalii-zh=ji mashen t_ehwa_ud
+
+zhwalii-zh mashen-zh-ta t_ehwa_ud cisjk-zh zhwalii-zh-ta t_ehwa_ud
+
+cisjk-zh zhwalii-zh-ta t_ehwa_ud='a tweisaa-all='a
+
+Zhwalii-zh-ta cisjk-zh t_ehwa_ud=ii
+
+Meca zhwalii-zh da_ar d-u_
+
+Zhwalii-zh da_ar chaxka d-u_
+
+Zhwalii-zh meca d-y
+
+zhwalii-zh paark =chy j-y
+
+Zhwalii-zh cisjk-zh d-y
+
+=== CLEANUP ===
+SEMI.VPM
+We corrected a few glitches in semi.vpm:
+
+remapped PNG.PERNUM : PERS NUM to the correct PNG.PERNUM : PNG.PER PNG.NUM
+
+removed aspect <> aspect from E.ASPECT : ASPECT
+
+Added witnessed << [e] to EVID : EVID
+
+We also added non-sg alongside all of the plurals:
+1pl <> first non-sg
+2pl <> second non-sg
+etc
+
+COMMENTED OUT
+For the purpose of this lab, we decided to comment out some of the features of our grammars that were not involved in the tranlsation corpus but that would have cause ambiguity or overgeneration.
+This is an exhaustive list of the features we commented out:
+
+--- Information structure ---
+Since Information structure is not translation at this point, we commented our additions to the grammar related to it:
+- the contrastive-focus-lex-rule
+- the focus and topic rules for the grammar rules
+
+--- Imperative Mirative lex rule ---
+
+We had edited this rule in the previous lab to allow it to have an optional argument. We had done so by adding the head-opt-comp rule to rules.tdl
+That revealed that some of our COMPS lists weren’t constrained enough.
+For the purpose of this lab, we decided to comment out both the head-opt-comp rule and the imperative-mirative-lex rule.
+
+--- in/on ---
+Our rules for in and on did not work as expected and need further analyses. So we commented them out for the purposes of this lab
+
+; in-noun-suffix :=
+; %suffix (* =chy)
+; in-noun-lex-rule.
+
+; on-noun-suffix :=
+; %suffix (* =t_y)
+; on-noun-lex-rule.
+
+and
+
+;in-verb-prefix :=
+;%prefix (* chy-)
+;in-verb-lex-rule.
+
+;on-verb-prefix :=
+;%prefix (* t_y-)
+;on-verb-lex-rule.
+
+VERB RESTRICTIONS
+
+We restricted the lexical rule daughters on the various types (on the verbs and the lexical rules). For brevity only the changed portions are shown here, to show the new inheritance structure.
+
+verb-lex := basic-verb-lex & non-mod-lex-item & adverb-prefix-rule-dtr & clitic-prefix-rule-dtr & compound-verb-rule-dtr & deixis-rule-dtr & tense-rule-dtr & [...].
+
+no-prefix-verb-lex := basic-verb-lex & non-mod-lex-item & compound-verb-rule-dtr & tense-rule-dtr & [...].
+
+tense-lex-rule-super := add-only-no-ccont-rule & compound-verb-rule-dtr & neg-suffix-rule-dtr & question-rule-dtr & causative-verb-rule-dtr & [..(tense-rule-dtr)..].
+
+gend-verb-lex-rule-super := add-only-no-ccont-rule & adverb-prefix-rule-dtr & clitic-prefix-rule-dtr & compound-verb-rule-dtr & deixis-rule-dtr & infl-lex-rule & tense-rule-dtr & [..(gend-verb-rule-dtr)..].
+
+gend-suffix-verb-lex-rule-super := add-only-no-ccont-rule & compound-verb-rule-dtr & infl-lex-rule & neg-suffix-rule-dtr & question-rule-dtr & causative-verb-rule-dtr & [..(gend-suffix-verb-rule-dtr)..].
+
+deixis-lex-rule-super := add-only-no-ccont-rule & compound-verb-rule-dtr & infl-lex-rule & tense-rule-dtr & [..(deixis-rule-dtr)..].
+
+adverb-prefix-lex-rule-super := add-only-no-ccont-rule & clitic-prefix-rule-dtr & compound-verb-rule-dtr & deixis-rule-dtr & infl-lex-rule & tense-rule-dtr & [..(adverb-prefix-rule-dtr)..].
+
+question-lex-rule-super := add-only-no-ccont-rule & compound-verb-rule-dtr & [..(question-rule-dtr)..].
+
+clitic-prefix-lex-rule-super := add-only-no-ccont-rule & compound-verb-rule-dtr & deixis-rule-dtr & infl-lex-rule & tense-rule-dtr & [..(clitic-prefix-rule-dtr)..].
+
+compound-verb-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & [..(compound-verb-rule-dtr)..].
+
+This greatly reduced the overgeneration in some of the sentences.
+
+In addition, every single verb type which had SUBJ.FIRST or COMPS.FIRST with the exception of the imperative-mirative-lex-rule and many of the gendered verb rules (which are restricted by their parents but still reference FIRST on themselves) now uses SUBJ < [...] > or COMPS < [...] >. This reduced generation in many cases, though overgeneration is still an ongoing problem for several of the parses.
+
+As an example of this change, the original form was:
+gend-ambitransitive-verb-lex := transitive-verb-lex & gend-verb-rule-dtr &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE erg,
+                                                       CASE-MARKED + ],
+                           COMPS.FIRST [ OPT -,
+                                         LOCAL.CAT.HEAD [ CASE nom,
+                                                          CASE-MARKED + ] ] ], …
+and the new form is:
+gend-ambitransitive-verb-lex := transitive-verb-lex & gend-verb-rule-dtr &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ < [ OPT -,
+                                    LOCAL.CAT.HEAD [ CASE erg,
+                                                     CASE-MARKED + ] ] >,
+                           COMPS < [ OPT -,
+                                     LOCAL.CAT.HEAD [ CASE nom,
+                                                      CASE-MARKED + ] ] > ],…
+
+For “chase” (“t’ehwa’ud”) we added the type:
+
+nom-dat-monotransitive-verb-lex := transitive-verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ COMPS < [ OPT -,
+                                     LOCAL.CAT.HEAD [ CASE dat,
+                                                      CASE-MARKED + ] ] >,
+                           SUBJ < [ OPT -,
+                                    LOCAL.CAT.HEAD [ CASE nom,
+                                                     CASE-MARKED + ] ] > ],
+    INFLECTED [ U+JAAZ-FLAG na-or--,
+                TENSE-FLAG -,
+                SF-FLAG -,
+                UODA+C_A-FLAG na-or--,
+                EI+BWARJGA_2-FLAG na-or--,
+                GEND-NEUTRAL-BE-PAST-STEM-VERB-FLAG na-or-- ] ].
+
+and in lexicon.tdl:
+
+t_ehwa_ud := nom-dat-monotransitive-verb-lex &
+  [ STEM < "t_ehwa_ud" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel",
+    INFLECTED.EI+BWARJGA_1-FLAG na-or-- ].
+
+Several verbs were previously allowed to take any oblique tense for their object; these were more properly restricted with:
+
+erg-all-semitransitive-verb-lex := transitive-verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ < [ OPT -,
+                                    LOCAL.CAT.HEAD [ CASE erg,
+                                                     CASE-MARKED + ] ] >,
+                           COMPS < [ OPT -,
+                                     LOCAL.CAT.HEAD [ CASE all,
+                                                      CASE-MARKED + ] ] > ],
+    INFLECTED [ U+JAAZ-FLAG na-or--,
+                EI+BWARJGA_1-FLAG na-or--,
+                UODA+C_A-FLAG na-or--,
+                EI+BWARJGA_2-FLAG na-or--,
+                GEND-NEUTRAL-BE-PAST-STEM-VERB-FLAG na-or--,
+                SF-FLAG -,
+                TENSE-FLAG - ] ].
+
+nom-lat-semitransitive-verb-lex := transitive-verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ < [ OPT -,
+                                    LOCAL.CAT.HEAD [ CASE nom,
+                                                     CASE-MARKED + ] ] >,
+                           COMPS < [ OPT -,
+                                     LOCAL.CAT.HEAD [ CASE lat,
+                                                      CASE-MARKED + ] ] > ],
+    INFLECTED [ U+JAAZ-FLAG na-or--,
+                EI+BWARJGA_1-FLAG na-or--,
+                UODA+C_A-FLAG na-or--,
+                EI+BWARJGA_2-FLAG na-or--,
+                GEND-NEUTRAL-BE-PAST-STEM-VERB-FLAG na-or--,
+                SF-FLAG -,
+                TENSE-FLAG - ] ].
+
+This affected verbs such as these:
+xaatt := erg-all-semitransitive-verb-lex &
+  [ STEM < "xaatt" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ask_v_rel" ].
+
+qier := nom-lat-semitransitive-verb-lex &
+  [ STEM < "qier" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fear_v_rel" ].
+
+hwog := nom-lat-semitransitive-verb-lex &
+  [ STEM < "hwog" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_crave_v_rel" ].
+
+tiesh := nom-lat-semitransitive-verb-lex &
+  [ STEM < "tiesh" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_believe_in_v_rel" ].
+
+ghiert := nom-lat-semitransitive-verb-lex &
+  [ STEM < "ghiert" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_strain_v_rel" ].
+
+kad := nom-lat-semitransitive-verb-lex &
+  [ STEM < "kad" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_complain_v_1_rel" ].
+
+
+SLEEP
+The verb “sleep” (“be asleep”) in Ingush is “tweisaa all”, which takes no additional prefixes. To accomodate this properly we added several no-prefix verb forms:
+
+no-prefix-verb-lex := basic-verb-lex & non-mod-lex-item & compound-verb-rule-dtr & tense-rule-dtr &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SPR < >,
+                             SPEC < >,
+                             SUBJ < #subj > ],
+                   CONT.HOOK.XARG #xarg ],
+    ARG-ST.FIRST #subj &
+                 [ LOCAL [ CAT [ VAL [ SPR < >,
+                                       COMPS < > ],
+                                 HEAD.MIRATIVE - ],
+                           CONT.HOOK.INDEX #xarg ] ],
+    INFLECTED [ GEND-VERB-D-PL-OR-GEND-VERB-D-SG-FLAG na-or--,
+                GEND-VERB-B-PL-OR-GEND-VERB-B-SG-FLAG na-or--,
+                GEND-VERB-V-SG-FLAG na-or--,
+                TENSE-FLAG -,
+                GEND-VERB-J-PL-OR-GEND-VERB-J-SG-FLAG na-or-- ] ].
+
+no-prefix-intransitive-verb-lex := no-prefix-verb-lex & intransitive-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < >,
+    ARG-ST.FIRST.LOCAL.CAT.HEAD +np,
+    INFLECTED [ GEND-NEUTRAL-BE-PAST-STEM-VERB-FLAG na-or--,
+                EI+BWARJGA_1-FLAG na-or--,
+                UODA+C_A-FLAG na-or--,
+                EI+BWARJGA_2-FLAG na-or--,
+                U+JAAZ-FLAG na-or-- ] ].
+
+no-prefix-nom-intransitive-verb-lex := no-prefix-intransitive-verb-lex &
+  [ ARG-ST.FIRST.LOCAL.CAT.HEAD +np &
+                                [ CASE nom ],
+    SYNSEM.LOCAL.CAT.VAL.SUBJ < [ OPT -,
+                                  LOCAL.CAT.HEAD.CASE-MARKED + ] > ].
+
+no-prefix-intransitive-nom-verb-lex := no-prefix-nom-intransitive-verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
+                                                     CASE-MARKED + ],
+    INFLECTED [ OAL+AARA-FLAG na-or--,
+                Y+QEIKA-FLAG na-or--,
+                OAGHA+T_Y-FLAG na-or--,
+                GEND-SUFFIX-VERB-FLAG na-or--,
+                SF-FLAG -,
+                TENSE-FLAG - ] ].
+
+and to lexicon.tdl:
+
+tweisaa_all := no-prefix-intransitive-nom-verb-lex &
+  [ STEM < "tweisaa-all" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sleep_v_rel" ].
+
+
+PROP/QUES LIMITATION
+
+In previous versions of the grammar prop/ques was left largely underspecified except in the case of the explicit question clitic (applied by question-marker-lex-rule, the daughter of question-lex-rule-super). For generation this failed to properly limit questions to containing only SF ques with the clitic =ii (or =i). We fixed this by adding a sister rule:
+
+prop-marker-lex-rule := const-lex-rule & question-lex-rule-super &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.SF prop ].
+
+and in lrules.tdl:
+prop-marker-lex := prop-marker-lex-rule.
+
+Which also required the previous verb restriction changes. This also changed question-lex-rule-super into a required rule, so there is a flag SF-FLAG in INFLECTED for all relevant verb types, and question-lex-rule-super sets it to +. The verb types which also have TENSE - (which is basically all of them) also have SF-FLAG -.
+This resulted in properly limiting the parses for “Do cats chase dogs?”.
+
+
+NOUN RESTRICTION
+
+Since dative and ergative singular have the same form, we added the dat+erg CASE type and:
+dat-erg-sg-lex-rule := declension-lex-rule-super & infl-lex-rule &
+  [ DTR.INFLECTED.SINGULAR-FLAG +,
+    SYNSEM.LOCAL [ CAT.HEAD [ CASE dat+erg,
+                              CASE-MARKED + ],
+                   CONT.HOOK.INDEX.PNG.PERNUM sg ] ].
+
+OTHER LEXICON
+
+To accommodate the parses we had to add:
+
+da_ar := root-D-D-noun-lex &
+  [ STEM < "da_ar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_food_n_rel" ].
+
+paark := root-J-J-noun-lex &
+  [ STEM < "paark" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_park_n_rel" ].
+
+mashen := root-J-J-noun-lex &
+  [ STEM < "mashen" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_car_n_rel" ].
+
+y_4 := gend-neutral-be-pres-stem-verb-lex &
+  [ STEM < "y" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel" ].
+
+meca := adjective-lex &
+  [ STEM < "meca" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hungry_a_rel" ].
+
+chaxka := adverb-lex &
+  [ STEM < "chaxka" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_quickly_a_rel" ].
+
+chy := basic-postposition-lex &
+  [ STEM < "=chy" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_in_p_rel" ].
+
+and changed loza’s PRED from hurt_v_rel to _feel+hurt_v_rel:
+loza := intransitive-nom-verb-lex &
+   [ STEM < "loza" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_feel+hurt_v_rel" ].
+
+and we removed:
+
+cysjk := root-D-D-noun-lex &
+  [ STEM < "cysjk" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cat_n_rel" ].
+(in favor of ‘cisjk’ which is the other accepted spelling of cat)
+
+TRIGGER.MTR
+
+We added the copula rule to trigger.mtr for adjectives and prepositions:
+y_3_gr := generator_rule &
+[ CONTEXT.RELS <! [ PRED "~_[pa]_rel" ] !>,
+   FLAGS.TRIGGER "y_3" ].
+
+
+=== TRANSFER RULES ===
+INSTANTIATION OF TRANSFER RULES
+--- Dogs eat ---
+We instantiated eat-ini := eat-ini-mtr. both for English and Italian to account for the fact that there is no intransitive eat verb in Ingush.
+
+Dogs eat. is translated into Zhwalii-zh da_ar d-u_. literally Dogs eat food.
+
+--- Pronoun drop from Italian ---
+Italian allows pronouns to drop. This does not happen in Ingush. To map the difference, we instantiated the following transfer rules in the Italian acm.mtr:
+
+pro-insert-arg1 := pro-insert-arg1-mtr.
+
+pro-insert-arg2 := pro-insert-arg2-mtr.
+
+pro-insert-arg3 := pro-insert-arg3-mtr.
+
+We also commented the following transfer rule:
+
+;pro-drop := pronoun-delete-mtr.
+
+ADDED TRANSFER RULES
+--- It doesn’t hurt me ---
+In Ingush, ‘It doesn’t hurt me’ is translated by a causative (CS).
+
+#223.0 It doesn’t hurt me (correct)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: info
+Cuo so loza-jyc
+Cuo so loza-j-u-c
+It me hurt-J-CS-NEG
+It doesn’t hurt me.
+
+To map the difference from English and Italian, we added transfer rules (see below). A conflict in the PRED value causing the transfer rule to be circular was resolved by renaming the Ingush loza PRED value from _hurt_v_rel to _feel+hurt_v_rel.
+
+Added to acm.mtr in eng:
+
+eat-ini := eat-ini-mtr.
+
+cause-hurt-mtr := monotonic_mtr &
+[ INPUT [ RELS <! [ PRED "_hurt_v_rel",
+           LBL #lbl,
+           ARG0 #arg0,
+           ARG1 #arg1,
+           ARG2 #arg2 ] !>,
+      HCONS <! !> ],
+  OUTPUT [ RELS <! [ PRED "cause_rel",
+            LBL #lbl,
+            ARG0 #arg0,
+            ARG1 #arg1,
+            ARG2 #harg ],
+          [ PRED "_feel+hurt_v_rel",
+            LBL #larg,
+            ARG1 #arg2 ] !>,
+       HCONS <! [ HARG #harg,
+             LARG #larg ] !> ]].
+
+
+Added to acm.mtr in ita:
+
+eat-ini := eat-ini-mtr.
+
+pro-insert-arg1 := pro-insert-arg1-mtr.
+
+pro-insert-arg2 := pro-insert-arg2-mtr.
+
+pro-insert-arg3 := pro-insert-arg3-mtr.
+
+cause-hurt-mtr := monotonic_mtr &
+[ INPUT [ RELS <! [ PRED "_make_v_rel",
+                    LBL #lbl,
+                    ARG0 #arg0,
+                    ARG1 #arg1,
+                    ARG2 #arg2,
+                    ARG3 #arg3 ],
+                  [ PRED "_harm_n_rel",
+                    ARG0 #arg2,
+                    LBL #larg ],
+                  [ PRED "exist_q_rel",
+                    ARG0 #arg2 ]!>,
+          HCONS <! [ LARG #larg ] !> ],
+  OUTPUT [ RELS <! [ PRED "cause_rel",
+                     LBL #lbl,
+                     ARG0 #arg0,
+                     ARG1 #arg1,
+                     ARG2 #harg ],
+                   [ PRED "_feel+hurt_v_rel",
+                     LBL #larg,
+                     ARG1 #arg2 ] !>,
+           HCONS <! [ HARG #harg,
+                      LARG #larg ] !> ]].
+
+
+
+=== COVERAGE ===
+CURRENT COVERAGE OF MMT SENTENCES
+--- English ---
+Current coverage is at 9 sentences out of 19.
+
+SENTENCE						CURRENT STATUS
+Dogs sleep.						DONE
+Dogs chase cars.					DONE
+I chase you.						DONE
+These dogs sleep.					DONE
+Dogs eat.						DONE
+I can eat glass.					edge limit exhausted 
+It doesnt hurt me.					edge limit exhausted
+The dogs chase cars.					DONE
+I think that you know that dogs chase cars.		Embedded clause overgeneration
+I ask whether you know that dogs chase cars.	Embedded clause overgeneration
+Cats and dogs chase cars.				Needs more constraining on coordination
+Dogs chase cars and cats chase dogs.		Coordination overgeneration
+Cats chase dogs and sleep.				Coordination overgeneration
+Do cats chase dogs?					DONE
+Hungry dogs eat.					edge limit; due to adjective nonrestriction
+Dogs eat quickly.					0 parses
+The dogs are hungry.					0 parses
+The dogs are in the park.				edge limit
+The dogs are the cats.				DONE
+
+--- Italian ---
+Current coverage is at 7 sentences out of 16.
+
+SENTENCE						CURRENT STATUS
+Cani dorm-ono					DONE
+Cani insegu-ono macchine				DONE
+Ti-insegu-o						DONE
+Questi cani dorm-ono					DONE
+Cani mangi-ano					DONE
+Posso mangi-are il vetro				edge limit exhausted
+Non mi-f-a male					0 results
+I cani insegu-ono macchine				DONE
+Pens-o che sai che cani insegu-ono macchine	Embedded clause overgeneration
+Domand-o se sai che cani insegu-ono macchine	Embedded clause overgeneration
+Cani e gatti insegu-ono macchine			Needs more constraining on coordination
+Cani insegu-ono macchine e gatti insegu-ono cani	Type of coordination overgeneration
+Gatti insegu-ono cani e dorm-ono			Type of coordination overgeneration
+Gatti insegu-ono cani					DONE
+Cani affamat-i mangi-ano				edge limit; adjective issues
+Cani mangi-ano velocemente				max number of edges
+
+SOURCES OF VARIATION
+Word order (normal word order vs focus word order) and ambiguity as to whether “food” is singular or plural (it is underspecified) lead to extra valid parses. In addition we have ambiguity from V-2 and V-final word order rules (subj-head, comp-head), so the absolute minimum number of parses for any of our sentences is 2 (and that is only if it has no different word order available for subject/object focus).
+
+NOT FULL COVERAGE
+We had to focus on repairing generation on our sentences which took a lot of time. Some of the sentences need more constraining work. Adjectives need a great deal more restriction, as do adverbs. Coordination and embedded clauses, while generating fairly small numbers of parses from LKB, do not generate. “It doesn’t hurt me” and “I can eat glass” run into similar issues.

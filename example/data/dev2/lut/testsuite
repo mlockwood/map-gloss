@@ -1,0 +1,1906 @@
+Language: Lushootseed
+Language code: lut
+Tiers: orth orth-seg gloss translat
+Author: C.J. Adams-Collier and Daniel Mills
+Date: Jan 13, 2010
+Source a: Snohomish Grammatical Structure.pdf (snohomish_grammatical_structure.pdf, Hess)
+Source b: Patterns of nominalization in Bella Coola and Lushootseed (nominals.pdf, Beck)
+Source c: Transitivity and Causation in Lushootseed Morphology (CAUS.pdf, Beck)
+Source d: phonological_phrasing.pdf
+Source e: Lushootseed Dictionary (Bates, Hess, Hilbert)
+Source f: Zalmai Zahir
+
+#----Word Order----#
+
+#1
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {wo}
+ʔux̣ʷil̕ ti č̓ač̓as
+ʔu-x̣ʷil̕ t-i č̓ač̓as
+completive-get.lost det.def-dir child
+'the child got lost'
+
+#2 Incorrect word order: VS instead of SV
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ti č̓ač̓as ʔux̣ʷil̕
+t-i č̓ač̓as ʔu-x̣ʷil̕
+det.def-dir child completive-get.lost
+'The child got lost'
+
+#3
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {wo}
+ʔuʔik̕ʷid čəd ti ʔalʔəl
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl
+completive-sweep ind.pred-I det.def-dir house
+'I swept the house'
+
+#4 Incorrect, cannot have two full NPs as args of a transitive verb
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ʔuʔik̕ʷid ti č̓ač̓as ti ʔalʔəl
+ʔu-ʔik̕ʷid t-i č̓ač̓as t-i ʔalʔəl
+completive-sweep det.def-dir child det.def-dir house
+'the child swept the house'
+
+#5 Incorrect, cannot have two full NPs as args of a transitive verb
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ʔuʔik̕ʷid ti ʔalʔəl ti č̓ač̓as
+ʔu-ʔik̕ʷid t-i ʔalʔəl t-i č̓ač̓as
+completive-sweep det.def-dir house det.def-dir child
+'the house swept the child'
+
+#6 Incorrect word order: OVS instead of VSO
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ti ʔalʔəlʔ ʔuʔik̕ʷid čəd
+t-i ʔalʔəl ʔu-ʔik̕ʷid č-əd
+det.def-dir house completive-sweep ind.pred-I
+'I swept the house'
+
+#7 Incorrect word order: SVO instead of VSO
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+čəd ʔuʔik̕ʷid ti ʔalʔəlʔ
+č-əd ʔu-ʔik̕ʷid t-i ʔalʔəl
+ind.pred-I completive-sweep det.def-dir house
+'I swept the house'
+
+#8 Incorrect word order: SOV instead of VSO
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+čəd ti ʔalʔəlʔ ʔuʔik̕ʷid
+č-əd t-i ʔalʔəl ʔu-ʔik̕ʷid
+ind.pred-I det.def-dir house completive-sweep
+'I swept the house'
+
+#9 Incorrect word order: OSV instead of VSO
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ti ʔalʔəlʔ čəd ʔuʔik̕ʷid
+t-i ʔalʔəl č-əd ʔu-ʔik̕ʷid
+det.def-dir house ind.pred-I completive-sweep
+'I swept the house'
+
+#10 Incorrect, non-particles do not raise
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ck̕ʷáqid ti č̓ač̓as ʔəsx̣ʷil̕
+ck̕ʷáqid t-i č̓ač̓as ʔəs-x̣ʷil̕
+always det.def-dir child static-get.lost
+'The child is always lost'
+
+#11
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {wo}
+ck̕ʷáqid ʔəsx̣ʷil̕ ti č̓ač̓as
+ck̕ʷáqid ʔəs-x̣ʷil̕ t-i č̓ač̓as
+always static-get.lost det.def-dir child
+'The child is always lost'
+
+#12
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {wo}
+ck̕ʷáqid čəd ʔəsʔik̕ʷid ti ʔalʔəl
+ck̕ʷáqid č-əd ʔəs-ʔik̕ʷid t-i ʔalʔəl
+always ind.pred-I static-sweep det.def-dir house
+'I always sweep the house'
+
+#13 Incorrect, object was raised, leaving a particle in the object position
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ck̕ʷáqid ti ʔalʔəl ʔəsʔik̕ʷid čəd
+ck̕ʷáqid t-i ʔalʔəl ʔəs-ʔik̕ʷid č-əd
+always det.def-dir house static-sweep ind.pred-I
+'the house always sweeps the child'
+
+#14 - incorrect, particle subject should be raised
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ck̕ʷáqid ʔəsx̣ʷil̕ čəd
+ck̕ʷáqid ʔəs-x̣ʷil̕ č-əd
+always static-get.lost ind.pred-I
+'I am always lost'
+
+#15 - incorrect, particle subject should be raised
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ck̕ʷáqid ʔəsʔik̕ʷid čəd ti ʔalʔəl
+ck̕ʷáqid ʔəs-ʔik̕ʷid č-əd t-i ʔalʔəl
+always static-sweep ind.pred-I det.def-dir house
+'I always sweep the house'
+
+#16 - incorrect, aux should be first word
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ʔəsx̣ʷil̕ ck̕ʷáqid čəd
+ʔəs-x̣ʷil̕ ck̕ʷáqid č-əd
+staticget.lost always ind.pred-I
+'I am always lost'
+
+#17 - incorrect, particle subject should be raised
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ʔəsʔik̕ʷid ck̕ʷáqid čəd ti ʔalʔəl
+ʔəs-ʔik̕ʷid ck̕ʷáqid č-əd t-i ʔalʔəl
+static-sweep always ind.pred-I det.def-dir house
+'I always sweep the house'
+
+#----Pronouns----#
+#Note: There is not agreement morphology with pronouns, so everything in this section is grammatical
+
+#18
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pn}
+ʔux̣ʷil̕ čəd
+ʔu-x̣ʷil̕ č-əd
+completive-get.lost ind.pred-I
+'I got lost'
+
+#19
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pn}
+ʔux̣ʷil̕ čəɬi
+ʔu-x̣ʷil̕ č-əɬi
+completive-get.lost ind.pred-we
+'We got lost'
+
+#20
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pn}
+ʔux̣ʷil̕ čəxʷ
+ʔu-x̣ʷil̕ č-əxʷ
+completive-get.lost ind.pred-you
+'You got lost'
+
+#21
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pn}
+ʔux̣ʷil̕ čələp
+ʔu-x̣ʷil̕ č-ələp
+completive-get.lost ind.pred-yall
+'Y'all got lost'
+
+#22 Incorrect, 3rd person particle cannot be used in matrix clause
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {pn}
+ʔux̣ʷil̕ čas
+ʔu-x̣ʷil̕ č-as
+completive-get.lost ind.pred-it
+'he/she/it/them got lost'
+
+#23 Incorrect, particles in matrix clauses require the independent-predicate prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {pn}
+ʔux̣ʷil̕ əd
+ʔu-x̣ʷil̕ əd
+completive-get.lost I
+'I got lost'
+
+#24 Incorrect, particles in matrix clauses require the independent-predicate prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {pn}
+ʔux̣ʷil̕ əɬi
+ʔu-x̣ʷil̕ əɬi
+completive-get.lost we
+'We got lost'
+
+#25 Incorrect, particles in matrix clauses require the independent-predicate prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {pn}
+ʔux̣ʷil̕ əxʷ
+ʔu-x̣ʷil̕ əxʷ
+completive-get.lost you
+'You got lost'
+
+#26 Incorrect, particles in matrix clauses require the independent-predicate prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {pn}
+ʔux̣ʷil̕ ələp
+ʔu-x̣ʷil̕ ələp
+completive-get.lost ind.pred-yall
+'Y'all got lost'
+
+#27 Incorrect, 3rd person particle cannot be used in matrix clause
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {pn}
+ʔux̣ʷil̕ as
+ʔu-x̣ʷil̕ as
+completive-get.lost it
+'he/she/it/them got lost'
+
+#28 Incorrect, particles cannot be objects
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ʔuʔik̕ʷid ti č̓ač̓as čəd
+ʔu-ʔik̕ʷid t-i č̓ač̓as č-əd
+completive-sweep det.def-dir child ind.pred-I
+'the child swept me'
+
+
+#Lushootseed does not have case, so this section is omitted#
+
+#----The rest of the NP----#
+
+#29
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {det}
+ʔux̣ʷil̕ ti č̓ač̓as
+ʔu-x̣ʷil̕ t-i č̓ač̓as
+completive-get.lost det.def-dir child
+'the child (masc) got lost'
+
+#30
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {det}
+ʔux̣ʷil̕ tsi č̓ač̓as
+ʔu-x̣ʷil̕ t-s-i č̓ač̓as
+completive-get.lost det.def-FEM-dir child
+'the child (fem) got lost'
+
+#31 Incorrect: Missing determiner
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {det}
+ʔux̣ʷil̕ č̓ač̓as
+ʔu-x̣ʷil̕ č̓ač̓as
+completive-get.lost child
+'the child got lost'
+
+#32 Incorrect: Determiner should precede noun
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {det}
+ʔux̣ʷil̕ č̓ač̓as ti
+ʔu-x̣ʷil̕ č̓ač̓as t-i
+completive-get.lost child det.def-dir
+'the child got lost'
+
+#33 Incorrect: Particles do not take determiners
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {det}
+ʔux̣ʷil̕ ti čəd
+ʔu-x̣ʷil̕ t-i č-əd
+completive-get.lost det.def-dir ind.pred-I
+'I got lost'
+
+#34 Incorrect: Pronouns do not take determiners in this structure
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {det}
+ʔux̣ʷil̕ ti ʔəcá
+ʔu-x̣ʷil̕ t-i ʔəcá
+completive-get.lost det.def-dir I
+'I got lost'
+
+#35 - Incorrect, house is non-feminine
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ʔuʔik̕ʷid ti č̓ač̓as tsi ʔalʔəl
+ʔu-ʔik̕ʷid t-i č̓ač̓as t-s-i ʔalʔəl
+completive-sweep det.def-dir child det.def-fem-dir house
+'the child swept the female house'
+
+#36 - incorrect, wife is feminine and determiner is non-fem
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+ʔux̣ʷil̕ ti čəgʷás
+ʔu-x̣ʷil̕ t-i čəgʷás
+completive-get.lost det.def-dir wife
+'the wife got lost'
+
+#----Tense and aspect----#
+
+#37 Incorrect, at least one tense/aspect marker must be present
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+x̣ʷil̕ ti č̓ač̓as
+x̣ʷil̕ t-i č̓ač̓as
+get.lost det.def-dir child
+'the child got lost'
+
+#38
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+ʔəsx̣ʷil̕ ti č̓ač̓as
+ʔəs-x̣ʷil̕ t-i č̓ač̓as
+static-get.lost det.def-dir child
+'the child is lost'
+
+#39
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+ʔux̣ʷil̕ ti č̓ač̓as
+ʔu-x̣ʷil̕ t-i č̓ač̓as
+completive-get.lost det.def-dir child
+'the child has become lost'
+
+#40
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+ləʔəsx̣ʷil̕ ti č̓ač̓as
+lə-ʔəs-x̣ʷil̕ t-i č̓ač̓as
+progressive-static-get.lost det.def-dir child
+'the child is getting lost'
+
+#41
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+ləx̣ʷil̕ ti č̓ač̓as
+lə-x̣ʷil̕ t-i č̓ač̓as
+progressive-get.lost det.def-dir child
+'the child is getting lost'
+
+#42 - incorrect, aspect is marked as a prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+x̣ʷil̕-ʔəs ti č̓ač̓as
+x̣ʷil̕-ʔəs t-i č̓ač̓as
+get.lost-static det.def-dir child
+'the child is lost'
+
+#43 - incorrect, aspect is marked as a prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+x̣ʷil̕ʔu ti č̓ač̓as
+x̣ʷil̕-ʔu t-i č̓ač̓as
+get.lost-completive det.def-dir child
+'the child has become lost'
+
+#44 - incorrect, aspect is marked as a prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+x̣ʷil̕ləʔəs ti č̓ač̓as
+x̣ʷil̕-lə-ʔəs t-i č̓ač̓as
+get.lost-progressive-static det.def-dir child
+'the child is lost while going'
+
+#45 - incorrect, aspect is marked as a prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+x̣ʷil̕lə ti č̓ač̓as
+x̣ʷil̕-lə t-i č̓ač̓as
+get.lost-progressive det.def-dir child
+'the child is getting lost'
+
+#46 - incorrect, order is progressive-static, not static-progressive
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ʔəsləx̣ʷil̕ ti č̓ač̓as
+ʔəs-lə-x̣ʷil̕ t-i č̓ač̓as
+static-progressive-get.lost det.def-dir child
+'the child is lost while going'
+
+#47 - incorrect, completive is mutually exclusive with static
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ʔuʔəsx̣ʷil̕ ti č̓ač̓as
+ʔu-ʔəs-x̣ʷil̕ t-i č̓ač̓as
+completive-static-get.lost det.def-dir child
+'the child has become lost'
+
+#48 - incorrect, completive is mutually exclusive with static
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ʔəsʔux̣ʷil̕ ti č̓ač̓as
+ʔəs-ʔu-x̣ʷil̕ t-i č̓ač̓as
+static-completive-get.lost det.def-dir child
+'the child has become lost'
+
+#49 - incorrect, completive is mutually exclusive with progressive
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ʔuləx̣ʷil̕ ti č̓ač̓as
+ʔu-lə-x̣ʷil̕ t-i č̓ač̓as
+completive-progressive-get.lost det.def-dir child
+'the child is getting lost'
+
+#50 - incorrect, completive is mutually exclusive with progressive
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ləʔux̣ʷil̕ ti č̓ač̓as
+lə-ʔu-x̣ʷil̕ t-i č̓ač̓as
+progressive-completive-get.lost det.def-dir child
+'the child is getting lost'
+
+#51
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+tuʔəsx̣ʷil̕ ti č̓ač̓as
+tu-ʔəs-x̣ʷil̕ t-i č̓ač̓as
+past-static-get.lost det.def-dir child
+'the child was lost and still is lost'
+
+#52
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+tuləx̣ʷil̕ ti č̓ač̓as
+tu-lə-x̣ʷil̕ t-i č̓ač̓as
+past-progressive-get.lost det.def-dir child
+'the child had gotten lost'
+
+#53
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+tuləʔəsx̣ʷil̕ ti č̓ač̓as
+tu-lə-ʔəs-x̣ʷil̕ t-i č̓ač̓as
+past-progressive-static-get.lost det.def-dir child
+'the child had gotten lost and still is lost'
+
+#54 Technically correct, but infrequently used
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+tuʔux̣ʷil̕ ti č̓ač̓as
+tu-ʔu-x̣ʷil̕ t-i č̓ač̓as
+past-completive-get.lost det.def-dir child
+'the child had become lost'
+
+#55
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+ɬuʔəsx̣ʷil̕ ti č̓ač̓as
+ɬu-ʔəs-x̣ʷil̕ t-i č̓ač̓as
+future-static-get.lost det.def-dir child
+'the child is lost and will be lost'
+
+#56
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+ɬuləx̣ʷil̕ ti č̓ač̓as
+ɬu-lə-x̣ʷil̕ t-i č̓ač̓as
+future-progressive-get.lost det.def-dir child
+'the child will become lost'
+
+#57
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+ɬuləʔəsx̣ʷil̕ ti č̓ač̓as
+ɬu-lə-ʔəs-x̣ʷil̕ t-i č̓ač̓as
+future-progressive-static-get.lost det.def-dir child
+'the child will become lost (mental state)'
+
+#58 Grammatical, but not used
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {tam}
+ɬuʔux̣ʷil̕ ti č̓ač̓as
+ɬu-ʔu-x̣ʷil̕ t-i č̓ač̓as
+future-completive-get.lost det.def-dir child
+'the child will become lost'
+
+#59 - incorrect, tu is a prefix, not suffix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ʔəsx̣ʷil̕tu ti č̓ač̓as
+ʔəs-x̣ʷil̕-tu t-i č̓ač̓as
+static-get.lost-past det.def-dir child
+'the child was lost'
+
+#60 - incorrect, tu is a prefix, not suffix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ləx̣ʷil̕tu ti č̓ač̓as
+lə-x̣ʷil̕-tu t-i č̓ač̓as
+progressive-get.lost-past det.def-dir child
+'the child had gotten lost'
+
+#61 - incorrect, tu is a prefix, not suffix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ləʔəsx̣ʷil̕tu ti č̓ač̓as
+lə-ʔəs-x̣ʷil̕-tu t-i č̓ač̓as
+progressive-static-get.lost-past det.def-dir child
+'the child was lost while going'
+
+#62 - incorrect, tu is a prefix, not suffix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ʔux̣ʷil̕tu ti č̓ač̓as
+ʔu-x̣ʷil̕-tu t-i č̓ač̓as
+completive-get.lost-past det.def-dir child
+'the child had become lost'
+
+#63 - incorrect, ɬu is a prefix, not suffix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ʔəsx̣ʷil̕ɬu ti č̓ač̓as
+ʔəs-x̣ʷil̕-ɬu t-i č̓ač̓as
+static-get.lost-future det.def-dir child
+'the child will be lost'
+
+#64 - incorrect, ɬu is a prefix, not suffix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ləx̣ʷil̕ɬu ti č̓ač̓as
+lə-x̣ʷil̕-ɬu t-i č̓ač̓as
+progressive-get.lost-future det.def-dir child
+'the child will get lost'
+
+#65 - incorrect, ɬu is a prefix, not suffix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ləʔəsx̣ʷil̕ɬu ti č̓ač̓as
+lə-ʔəs-x̣ʷil̕-ɬu t-i č̓ač̓as
+progressive-static-get.lost-future det.def-dir child
+'the child will be lost while going'
+
+#66 - incorrect, ɬu is a prefix, not suffix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ʔux̣ʷil̕ɬu ti č̓ač̓as
+ʔu-x̣ʷil̕-ɬu t-i č̓ač̓as
+completive-get.lost-future det.def-dir child
+'the child will become lost'
+
+#67 - incorrect, tu is the initial prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ʔəstux̣ʷil̕ ti č̓ač̓as
+ʔəs-tu-x̣ʷil̕ t-i č̓ač̓as
+static-past-get.lost det.def-dir child
+'the child was lost'
+
+#68 - incorrect, tu is the initial prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+lətux̣ʷil̕ ti č̓ač̓as
+lə-tu-x̣ʷil̕ t-i č̓ač̓as
+progressive-past-get.lost det.def-dir child
+'the child had gotten lost'
+
+#69 - incorrect, tu is the initial prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ləʔəstux̣ʷil̕ ti č̓ač̓as
+lə-ʔəs-tu-x̣ʷil̕ t-i č̓ač̓as
+progressive-static-past-get.lost det.def-dir child
+'the child was lost while going'
+
+#70 - incorrect, tu is the initial prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ʔutux̣ʷil̕ ti č̓ač̓as
+ʔu-tu-x̣ʷil̕ t-i č̓ač̓as
+completive-past-get.lost det.def-dir child
+'the child had become lost'
+
+#71 - incorrect, ɬu is the initial prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ʔəsɬux̣ʷil̕ ti č̓ač̓as
+ʔəs-ɬu-x̣ʷil̕ t-i č̓ač̓as
+static-future-get.lost det.def-dir child
+'the child will be lost'
+
+#72 - incorrect, ɬu is the initial prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ləɬux̣ʷil̕ ti č̓ač̓as
+lə-ɬu-x̣ʷil̕ t-i č̓ač̓as
+progressive-future-get.lost det.def-dir child
+'the child will get lost'
+
+#73 - incorrect, ɬu is the initial prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ləʔəsɬux̣ʷil̕ ti č̓ač̓as
+lə-ʔəs-ɬu-x̣ʷil̕ t-i č̓ač̓as
+progressive-static-future-get.lost det.def-dir child
+'the child will be lost while going'
+
+#74 - incorrect, ɬu is the initial prefix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {tam}
+ʔuɬux̣ʷil̕ ti č̓ač̓as
+ʔu-ɬu-x̣ʷil̕ t-i č̓ač̓as
+completive-future-get.lost det.def-dir child
+'the child will become lost'
+
+#----Argument optionality----#
+
+#75
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+ʔux̣ʷil̕
+ʔu-x̣ʷil̕
+completive-get.lost
+'he/she/it/them got lost'
+
+#76
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+ʔuʔik̕ʷid ti ʔalʔəl
+ʔu-ʔik̕ʷid t-i ʔalʔəl
+completive-sweep det.def-dir house
+'he/she/it/them swept the house'
+
+#77
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+ʔuʔik̕ʷid ti č̓ač̓as
+ʔu-ʔik̕ʷid t-i č̓ač̓as
+completive-sweep det.def-dir child
+'The child swept it/them'
+
+#78
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+ʔuʔik̕ʷids ti č̓ač̓as
+ʔu-ʔik̕ʷid-S t-i č̓ač̓as
+completive-sweep-sg det.def-dir child
+'The child swept me'
+
+#79
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+ʔuʔik̕ʷidL ti č̓ač̓as
+ʔu-ʔik̕ʷid-L t-i č̓ač̓as
+completive-sweep-pl det.def-dir child
+'The child swept us'
+
+#80
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+ʔuʔik̕ʷidsid ti č̓ač̓as
+ʔu-ʔik̕ʷid-S-id t-i č̓ač̓as
+completive-sweep-sg-2nd det.def-dir child
+'The child swept you'
+
+#81
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+ʔuʔik̕ʷidLid ti č̓ač̓as
+ʔu-ʔik̕ʷid-L-id t-i č̓ač̓as
+completive-sweep-sg-2nd det.def-dir child
+'The child swept y'all'
+
+#----Sentential negation----#
+
+#82
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {neg}
+xʷíʔ čəd ʔuʔik̕ʷid ti ʔalʔəl
+xʷíʔ č-əd ʔu-ʔik̕ʷid t-i ʔalʔəl
+not ind.pred-I completive-sweep det.def-dir house
+'I did not sweep the house'
+
+#83
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {neg}
+xʷíʔ ləx̣ʷil̕ ti č̓ač̓as
+xʷíʔ lə-x̣ʷil̕ t-i č̓ač̓as
+not progressive-get.lost det.def-dir child
+'the child is not lost'
+
+#84 Incorrect, non-particle subjects do not raise
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {neg}
+xʷíʔ ti č̓ač̓as ləx̣ʷil̕
+xʷíʔ t-i č̓ač̓as lə-x̣ʷil̕
+not det.def-dir child progressive-get.lost
+'the child is not lost'
+
+#85 - incorrect, particle subject should be raised
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {neg}
+xʷíʔ ʔuʔik̕ʷid čəd ti ʔalʔəl
+xʷíʔ ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl
+not completive-sweep ind.pred-I det.def-dir house
+'I did not sweep the house'
+
+#86 - incorrect, negation is an aux, so should be first word
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {neg}
+ʔuʔik̕ʷid xʷíʔ čəd ti ʔalʔəl
+ʔu-ʔik̕ʷid xʷíʔ č-əd t-i ʔalʔəl
+completive-sweep not ind.pred-I det.def-dir house
+'I did not sweep the house'
+
+#87 - incorrect, negation is an aux, so should be first word
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {neg}
+ləx̣ʷil̕ xʷíʔ ti č̓ač̓as
+lə-x̣ʷil̕ xʷíʔ t-i č̓ač̓as
+progressive-get.lost not det.def-dir child
+'the child is not lost'
+
+#88
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {neg}
+xʷíʔ čəd ʔuʔik̕ʷid ti ʔalʔəl
+xʷíʔ č-əd ʔu-ʔik̕ʷid t-i ʔalʔəl
+not ind.pred-I completive-sweep det.def-dir house
+'I did not sweep the house'
+
+#89 - incorrect, negation is subject raising, not object
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {neg}
+xʷíʔ ti ʔalʔəl ʔuʔik̕ʷid čəd
+xʷíʔ t-i ʔalʔəl ʔu-ʔik̕ʷid č-əd
+not det.def-dir house completive-sweep ind.pred-I
+'I did not sweep the house'
+
+#90
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {neg}
+xʷíʔ čəd ləʔik̕ʷid ti ʔalʔəl
+xʷíʔ č-əd lə-ʔik̕ʷid t-i ʔalʔəl
+not ind.pred-I progressive-sweep det.def-dir house
+'I do not sweep the house'
+
+#91 Static aspect is not used in negated phrases
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {neg}
+xʷíʔ čəd ʔəsʔik̕ʷid ti ʔalʔəl
+xʷíʔ č-əd ʔəs-ʔik̕ʷid t-i ʔalʔəl
+not ind.pred-I static-sweep det.def-dir house
+'I do not sweep the house'
+
+#----Demonstratives / Definiteness----#
+
+#92
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ ti č̓ač̓as
+ʔu-x̣ʷil̕ t-i č̓ač̓as
+completive-get.lost det.def-dir child
+'the child got lost'
+
+#93
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ tsi č̓ač̓as
+ʔu-x̣ʷil̕ t-s-i č̓ač̓as
+completive-get.lost det.def-fem-dir child
+'the young girl got lost'
+
+#94
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ kʷi č̓ač̓as
+ʔu-x̣ʷil̕ kʷ-i č̓ač̓as
+completive-get.lost det.indef-dir child
+'a child got lost'
+
+#95 Incorrect, indefinite article cannot be used in this/that
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {cogst}
+ʔux̣ʷil̕ kʷiʔaʔ č̓ač̓as
+ʔu-x̣ʷil̕ kʷ-i-ʔaʔ č̓ač̓as
+completive-get.lost det.indef-dir-here child
+'this child got lost'
+
+#96 Incorrect, indefinite article cannot be used in this/that
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {cogst}
+ʔux̣ʷil̕ kʷiʔiɬ č̓ač̓as
+ʔu-x̣ʷil̕ kʷ-i-ʔiɬ č̓ač̓as
+completive-get.lost det.indef-dir-there child
+'this child got lost'
+
+#97
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ kʷsi č̓ač̓as
+ʔu-x̣ʷil̕ kʷ-s-i č̓ač̓as
+completive-get.lost det.indef-fem-dir child
+'a young girl got lost'
+
+#98
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ kʷə č̓ač̓as
+ʔu-x̣ʷil̕ kʷ-ə č̓ač̓as
+completive-get.lost det.indef-indir child
+'a child got lost'
+
+#99
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ kʷsə č̓ač̓as
+ʔu-x̣ʷil̕ kʷ-s-ə č̓ač̓as
+completive-get.lost det.indef-fem-indir child
+'a young girl got lost'
+
+#100
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ tə č̓ač̓as
+ʔu-x̣ʷil̕ t-ə č̓ač̓as
+completive-get.lost det.def-indir child
+'the child got lost'
+
+#101
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ tsə č̓ač̓as
+ʔu-x̣ʷil̕ t-s-ə č̓ač̓as
+completive-get.lost det.def-fem-indir child
+'the young girl got lost'
+
+#102 Incorrect, this/that only occurs with directed attention
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {cogst}
+ʔux̣ʷil̕ təʔaʔ č̓ač̓as
+ʔu-x̣ʷil̕ t-ə-ʔaʔ č̓ač̓as
+completive-get.lost det.def-indir-here child
+'this child got lost'
+
+#103 Incorrect, this/that only occurs with directed attention
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {cogst}
+ʔux̣ʷil̕ təʔiɬ č̓ač̓as
+ʔu-x̣ʷil̕ t-ə-ʔiɬ č̓ač̓as
+completive-get.lost det.def-indir-there child
+'this child got lost'
+
+#104
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ tsiʔaʔ č̓ač̓as
+ʔu-x̣ʷil̕ t-s-i-ʔaʔ č̓ač̓as
+completive-get.lost det.def-fem-dir-here child
+'this child got lost'
+
+#105
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ tiʔiɬ č̓ač̓as
+ʔu-x̣ʷil̕ t-i-ʔiɬ č̓ač̓as
+completive-get.lost det.def-dir-there child
+'that child got lost'
+
+#106
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ tsiʔiɬ č̓ač̓as
+ʔu-x̣ʷil̕ t-s-i-ʔiɬ č̓ač̓as
+get.lost det.def-fem-dir-there child
+'that child got lost'
+
+#107
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ tsiʔiɬ čəgʷás
+ʔu-x̣ʷil̕ t-s-i-ʔiɬ čəgʷás
+completive-get.lost det.def-fem-dir-there wife
+'that wife got lost'
+
+#108
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cogst}
+ʔux̣ʷil̕ tiʔiɬ bád
+ʔu-x̣ʷil̕ t-i-ʔiɬ bád
+completive-get.lost det.def-dir-there father
+'that father got lost'
+
+#----Matrix yes/no questions----#
+
+#109
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {q}
+ʔəstágʷəxʷ ʔu
+ʔəs-tágʷəxʷ ʔu
+static-hungry Q
+'Is/are he/she/it/they hungry?'
+
+#110
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {q}
+híkʷ čəxʷ ʔu ƛ̕uʔəsxəɬqìd
+híkʷ č-əxʷ ʔu ƛ̕u-ʔəs-xəɬqìd
+very ind.pred-you Q habitual-stative-get.headache
+'Do you generally get severe headaches?'
+
+#111
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {q}
+híkʷ čəxʷ ƛ̕uʔəsxəɬqìd ʔu
+híkʷ č-əxʷ ƛ̕u-ʔəs-xəɬqìd ʔu
+very ind.pred-you habitual-stative-get.headache Q
+'You generally get severe headaches, don't you?'
+
+#112 - incorrect, when there is both an auxilliary and an overt
+#      subject, the question particle follows the subject
+Source: a
+Vetted: t
+Judgment: u
+Phenomena: {q}
+híkʷ ʔu čəxʷ ƛ̕uʔəsxəɬqìd
+híkʷ ʔu č-əxʷ ƛ̕u-ʔəs-xəɬqìd
+very Q ind.pred-you habitual-stative-get.headache
+'Do you generally get severe headaches?'
+
+#113
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {q}
+ƛ̕uʔəsáʔɬ ʔu
+ƛ̕u-ʔəs-áʔɬ ʔu
+habitual-stative-well Q
+'Is/are he/she/it/they habitually well?'
+
+#114 - {ʔu} occurs after either auxilliary or verb in accord with the
+#      meaning.
+Source: a
+Vetted: t
+Judgment: u
+Phenomena: {q}
+ʔu ƛ̕uʔəsáʔɬ
+ʔu ƛ̕u-ʔəs-áʔɬ
+Q habitual-stative-well
+'Is/are he/she/it/they habitually well?'
+
+#115
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {q}
+təɬ ʔu dəgʷí
+təɬ ʔu dəgʷí
+true Q you
+'Is it really you?'
+
+#116
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {q}
+təɬ dəgʷí ʔu
+təɬ dəgʷí ʔu
+true you Q
+'It is really you, isn't it?'
+
+#117 - {ʔu} occurs after either auxilliary or verb in accord with the
+#      meaning.
+Source: a
+Vetted: t
+Judgment: u
+Phenomena: {q}
+ʔu təɬ dəgʷí
+ʔu təɬ dəgʷí
+Q true you
+'Is it really you?'
+
+#----Coordination----#
+
+#118
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {crd}
+ʔux̣ʷil̕ čəd ʔi ti č̓ač̓as
+ʔu-x̣ʷil̕ č-əd ʔi t-i č̓ač̓as
+completive-get.lost ind.pred-I and det.def-dir child
+'the child and I got lost'
+
+#119 Incorrect, particles occur first in NP coordination
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔux̣ʷil̕ ti č̓ač̓as ʔi čəd
+ʔu-x̣ʷil̕ t-i č̓ač̓as ʔi č-əd
+completive-get.lost det.def-dir child and ind.pred-I
+'the child and I got lost'
+
+#120
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {crd}
+ʔux̣ʷil̕ čəd ʔi čəxʷ ʔi ti č̓ač̓as
+ʔu-x̣ʷil̕ č-əd ʔi č-əxʷ ʔi t-i č̓ač̓as
+completive-get.lost ind.pred-I and ind.pred-you and det.def-dir child
+'the child, you, and I got lost'
+
+#121 Incorrect, particles occur first in NP coordination
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔux̣ʷil̕ čəd ʔi ti č̓ač̓as ʔi čəxʷ
+ʔu-x̣ʷil̕ č-əd ʔi t-i č̓ač̓as ʔi č-əxʷ
+completive-get.lost ind.pred-I and det.def-dir child and ind.pred-you
+'the child, you, and I got lost'
+
+#122 Incorrect, the NP coordination marker is polysyndeton, not monosyndeton
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔux̣ʷil̕ čəd čəxʷ ʔi ti č̓ač̓as
+ʔu-x̣ʷil̕ č-əd č-əxʷ ʔi t-i č̓ač̓as
+completive-get.lost ind.pred-I ind.pred-you and det.def-dir child
+'the child, you, and I got lost'
+
+#123 Incorrect, the NP coordination marker is polysyndeton, not omnisyndeton
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔux̣ʷil̕ ʔi čəd ʔi ti č̓ač̓as
+ʔu-x̣ʷil̕ ʔi č-əd ʔi t-i č̓ač̓as
+completive-get.lost and ind.pred-I and det.def-dir child
+'the child and I got lost'
+
+#124 Incorrect, the NP coordination marker occurs before the NP
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔux̣ʷil̕ čəd ti č̓ač̓as ʔi
+ʔu-x̣ʷil̕ č-əd t-i č̓ač̓as ʔi
+completive-get.lost ind.pred-I det.def-dir child and
+'the child and I got lost'
+
+#125
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {crd}
+ʔux̣ʷil̕ čəɬi ʔi ti č̓ač̓as
+ʔu-x̣ʷil̕ č-əɬi ʔi t-i č̓ač̓as
+completive-get.lost ind.pred-we and det.def-dir child
+'We, the child and I, got lost'
+
+#126
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {crd}
+ʔuʔik̕ʷid čəd ti ʔalʔəl čəxʷa ʔux̣ʷil̕
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl č-əxʷ-a ʔu-x̣ʷil̕
+completive-sweep ind.pred-I det.def-dir house ind.pred-you-and completive-get.lost
+'I swept the house and you got lost'
+
+#127 - S-coordination is polysyndeton, not omnisyndeton (not marked on the first conjunct)
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔuʔik̕ʷid čəda ti ʔalʔəl čəxʷa ʔux̣ʷil̕
+ʔu-ʔik̕ʷid č-əd-a t-i ʔalʔəl č-əxʷ-a ʔu-x̣ʷil̕
+completive-sweep ind.pred-I-and det.def-dir house ind.pred-you-and completive-get.lost
+'I swept the house and you got lost'
+
+#128 - S-coordination must be marked with -a on all but the first conjunct
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔuʔik̕ʷid čəd ti ʔalʔəl čəxʷ ʔux̣ʷil̕
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl č-əxʷ ʔu-x̣ʷil̕
+completive-sweep ind.pred-I det.def-dir house ind.pred-you completive-get.lost
+'I swept the house and you got lost'
+
+#129 - S-coordination must be marked with -a on all but the first conjunct
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔuʔik̕ʷid čəda ti ʔalʔəl čəxʷ ʔux̣ʷil̕
+ʔu-ʔik̕ʷid č-əd-a t-i ʔalʔəl č-əxʷ ʔu-x̣ʷil̕
+completive-sweep ind.pred-I-and det.def-dir house ind.pred-you comepletive-get.lost
+'I swept the house and you got lost'
+
+#130 - S-coordination is marked with -a on the subject; it is not a stand-alone word
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔuʔik̕ʷid čəd ti ʔalʔəl a čəxʷ ʔux̣ʷil̕
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl a č-əxʷ ʔu-x̣ʷil̕
+completive-sweep ind.pred-I det.def-dir house and ind.pred-you completive-get.lost
+'I swept the house and you got lost'
+
+#131 - incorrect, coordination with the -a suffix only occurs with particle subjects
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔuʔik̕ʷid čəd ti ʔalʔəl ti č̓ač̓asa ʔux̣ʷil̕
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl t-i č̓ač̓as-a ʔu-x̣ʷil̕
+completive-sweep ind.pred-I det.def-dir house det.def-dir child-and completive-get.lost
+'I swept the house and the child got lost'
+
+#132 - incorrect, S-coordination causes all clauses but first to be SVO
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔuʔik̕ʷid čəd ti ʔalʔəl ʔux̣ʷil̕ čəxʷa
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl ʔu-x̣ʷil̕ č-əxʷ-a
+completive-sweep ind.pred-I det.def-dir house completive-get.lost ind.pred-you-and
+'I swept the house and you got lost'
+
+#133 - incorrect, S-coordination causes all clauses but first to be SVO
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+čəd ʔuʔik̕ʷid ti ʔalʔəl čəxʷa ʔux̣ʷil̕
+č-əd ʔu-ʔik̕ʷid t-i ʔalʔəl č-əxʷ-a ʔu-x̣ʷil̕
+ind.pred-I completive-sweep det.def-dir house ind.pred-you-and completive-get.lost
+'I swept the house and you got lost'
+
+#134
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {crd}
+ʔuʔik̕ʷid čəd ti ʔalʔəl gʷəl ʔux̣ʷil̕
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl gʷəl ʔu-x̣ʷil̕
+completive-sweep ind.pred-I det.def-dir house and completive-get.lost
+'I swept the house and he/she/it/them got lost'
+
+#135 Incorrect, when gʷəl is used, it should fall where the pronoun subject would have been
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔuʔik̕ʷid čəd ti ʔalʔəl ʔux̣ʷil̕ gʷəl
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl ʔu-x̣ʷil̕ gʷəl
+completive-sweep ind.pred-I det.def-dir house and completive-get.lost
+'I swept the house and he/she/it/them got lost'
+
+#136
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {crd}
+ʔuʔik̕ʷid čəd ti ʔalʔəl gʷəl ʔux̣ʷil̕ ti č̓ač̓as
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl gʷəl ʔu-x̣ʷil̕ t-i č̓ač̓as
+completive-sweep ind.pred-I det.def-dir house and completive-get.lost det.def-dir child
+'I swept the house and the child got lost'
+
+#137 Incorrect, non-particles do not raise
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔuʔik̕ʷid čəd ti ʔalʔəl gʷəl ti č̓ač̓as ʔux̣ʷil̕
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl gʷəl t-i č̓ač̓as ʔu-x̣ʷil̕
+completive-sweep ind.pred-I det.def-dir house and det.def-dir child completive-get.lost
+'I swept the house and the child got lost'
+
+#138
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {crd}
+ʔuʔik̕ʷid čəd ti ʔalʔəl čəxʷa ʔux̣ʷil̕ gʷəl ʔux̣ʷil ti č̓ač̓as
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl č-əxʷ-a ʔu-x̣ʷil̕ gʷəl ʔu-x̣ʷil̕ t-i č̓ač̓as
+completive-sweep ind.pred-I det.def-dir house ind.pred-you-and completive-get.lost and completive-get.lost det.def-dir child
+'I swept the house, you got lost, and the child got lost'
+
+#139 Incorrect, S coordination is polysyndeton, not monosyndeton
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+ʔuʔik̕ʷid čəd ti ʔalʔəl čəxʷ ʔux̣ʷil̕ gʷəl ʔux̣ʷil ti č̓ač̓as
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl č-əxʷ ʔu-x̣ʷil̕ gʷəl ʔu-x̣ʷil̕ t-i č̓ač̓as
+completive-sweep ind.pred-I det.def-dir house ind.pred-you completive-get.lost and completive-get.lost det.def-dir child
+'I swept the house, you got lost, and the child got lost'
+
+#----Attributive Adjectives----#
+
+#140
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {adj}
+ʔuʔik̕ʷid čəd ti hìkʷ ʔalʔəl
+ʔu-ʔik̕ʷid č-əd t-i hìkʷ ʔalʔəl
+completive-sweep ind.pred-I det.def-dir big house
+'I swept the big house'
+
+#141 Incorrect, adjectives modify nouns, not NPs
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {adj}
+ʔuʔik̕ʷid čəd hìkʷ ti ʔalʔəl
+ʔu-ʔik̕ʷid č-əd hìkʷ t-i ʔalʔəl
+completive-sweep ind.pred-I big det.def-dir house
+'I swept the big house'
+
+#142 Incorrect, adjectives precede nouns
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {adj}
+ʔuʔik̕ʷid čəd ti ʔalʔəl hìkʷ
+ʔu-ʔik̕ʷid č-əd t-i ʔalʔəl hìkʷ
+completive-sweep ind.pred-I det.def-dir house big
+'I swept the big house'
+
+#----Adverbs----#
+
+#143
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {adv}
+ck̕ʷáqid ʔəsx̣ʷil̕ ti č̓ač̓as
+ck̕ʷáqid ʔəs-x̣ʷil̕ t-i č̓ač̓as
+always static-get.lost det.def-dir child
+'the child is always lost'
+
+#144
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {adv}
+təɬ čəd ʔəsx̣ʷil̕
+təɬ č-əd ʔəs-x̣ʷil̕
+truly static-get.lost det.def-dir child
+'the child is truly lost'
+
+#145 Incorrect, adjectives are auxiliaries, not modifiers of verbs
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {adv}
+ti č̓ač̓as ck̕ʷáqid ʔəsx̣ʷil̕
+t-i č̓ač̓as ck̕ʷáqid ʔəs-x̣ʷil̕
+det.def-dir child always static-get.lost
+'the child is always lost'
+
+#146 Incorrect, adjectives are auxiliaries, not modifiers of verbs
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {adv}
+ti č̓ač̓as ʔəsx̣ʷil̕ ck̕ʷáqid
+t-i č̓ač̓as ʔəs-x̣ʷil̕ ck̕ʷáqid
+det.def-dir child static-get.lost always
+'the child is always lost'
+
+#----Embedded clauses----#
+
+#147
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+ʔəsxə́c čəd ʔəsx̣ʷil̕ ti č̓ač̓as
+ʔəs-xə́c č-əd ʔəs-x̣ʷil̕ t-i č̓ač̓as
+static-fear ind.pred-I static-get.lost det.def-dir child
+'I fear that the child is lost'
+
+#148
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+ʔəsxə́c ti č̓ač̓as ʔəsx̣ʷil̕ əd
+ʔəs-xə́c t-i č̓ač̓as ʔəs-x̣ʷil̕ əd
+static-fear det.def-dir child static-get.lost I
+'The child fears that I am lost'
+
+#149 Incorrect, particles in dependant clauses must not have the ind. pred. marker
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {emb-d}
+ʔəsxə́c ti č̓ač̓as ʔəsx̣ʷil̕ čəd
+ʔəs-xə́c t-i č̓ač̓as ʔəs-x̣ʷil̕ č-əd
+static-fear det.def-dir child static-get.lost ind.pred-I
+'The child fears that I am lost'
+
+#150 Incorrect, embedded clauses function as the object, not subject, of fear
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {emb-d}
+ʔəsxə́c ʔəsx̣ʷil̕ čəd ti č̓ač̓as
+ʔəs-xə́c ʔəs-x̣ʷil̕ č-əd t-i č̓ač̓as
+static-fear static-get.lost ind.pred-I det.def-dir child
+'The child fears that I am lost'
+
+#151 The third person particle may appear in dependant clauses
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+ʔəsxə́c ti č̓ač̓as ʔəsx̣ʷil̕ as
+ʔəs-xə́c t-i č̓ač̓as ʔəs-x̣ʷil̕ as
+stati-fear det.def-dir child static-get.lost 3rd
+'The child fears that he/she/it/them get(s) lost'
+
+#152 The third person particle never takes the ind. pred. marker
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {emb-d}
+ʔəsxə́c ti č̓ač̓as ʔəsx̣ʷil̕ čas
+ʔəs-xə́c t-i č̓ač̓as ʔəs-x̣ʷil̕ č-as
+static-fear det.def-dir child static-get.lost ind.pred-3rd
+'The child fears that he/she/it/them is lost'
+
+#153
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {emb-q}
+ʔəsxʷscut čəd ʔəsx̣ʷil̕ ʔu ti č̓ač̓as
+ʔəs-xʷscut č-əd ʔəs-x̣ʷil̕ ʔu t-i č̓ač̓as
+static-wonder ind.pred-I static-get.lost Q det.def-dir child
+'I wonder if the child is lost'
+
+#154 Question particle must precede the embedded subject
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {emb-q}
+ʔəsxʷscut čəd ʔəsx̣ʷil̕ ti č̓ač̓as ʔu
+ʔəs-xʷscut č-əd ʔəs-x̣ʷil̕ t-i č̓ač̓as ʔu
+stative-wonder ind.pred-I static-get.lost det.def-dir child Q
+'I wonder if the child is lost'
+
+#----Non-verbal predicates----#
+
+#155
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+sʔuladxʷ tiʔiɬ
+sʔuladxʷ t-i-ʔiɬ
+salmon det.def-dir-there
+'That is a salmon'
+
+#156
+Source: a
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+hìkʷ tiʔiɬ sʔuladxʷ
+hìkʷ t-i-ʔiɬ sʔuladxʷ
+big det.def-dir-there salmon
+'That salmon is big'
+
+#157 Incorrect, non-verbal predicates precede their subjects
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {cop}
+tiʔiɬ sʔuladxʷ
+t-i-ʔiɬ sʔuladxʷ
+det.def-dir-there salmon
+'That is a salmon'
+
+#158
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+sʔuladxʷ čəd
+sʔuladxʷ č-əd
+salmon ind.pred-I
+'I am a salmon'
+
+#159
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+tusʔuladxʷ čəd
+tu-sʔuladxʷ č-əd
+past-salmon ind.pred-I
+'I was a salmon'
+
+#160
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+ɬusʔuladxʷ čəd
+ɬu-sʔuladxʷ č-əd
+future-salmon ind.pred-I
+'I will be a salmon'
+
+#161 Incorrect, tense in non-verbal clauses is marked on the predicate
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {cop}
+sʔuladxʷ ɬučəd
+sʔuladxʷ ɬu-č-əd
+salmon future-ind.pred-I
+'I will be a salmon'
+
+#162
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cop,emb-d}
+ʔəsxə́c čəd sʔuladxʷ əd
+ʔəs-xə́c č-əd sʔuladxʷ əd
+stative-fear ind.pred-I salmon I
+'I fear that I am a salmon'
+
+#163 Incorrect, subjects of embedded non-verbal predicates do not take the ind. pred. marker
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {cop,emb-d}
+ʔəsxə́c čəd sʔuladxʷ čəd
+ʔəs-xə́c č-əd sʔuladxʷ č-əd
+stative-fear ind.pred-I salmon ind.pred-I
+'I fear that I am a salmon'
+
+#164
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {cop,pro-d}
+sʔuladxʷ ti
+sʔuladxʷ t-i
+salmon det.def-dir
+'He/she/it/them is a salmon'
+
+#----Information Structure----#
+
+#165
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {wo,info}
+ʔəsx̣ʷil̕ ti č̓ač̓as ck̕ʷáqid̕
+ʔəs-x̣ʷil̕ t-i č̓ač̓as ck̕ʷáqid
+static-get.lost det.def-dir child always
+'the child is \emph{always} lost'
+
+#166
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {wo,info}
+ʔəsx̣ʷil̕ čəd ck̕ʷáqid̕
+ʔəs-x̣ʷil̕ č-əd ck̕ʷáqid
+static-get.lost ind.pred-I always
+'I am \emph{always} lost'
+
+#167
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pn,info}
+ʔəcá ʔux̣ʷil̕
+ʔəcá ʔu-x̣ʷil̕
+I completive-get.lost
+'It is I that got lost'
+
+#168
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pn,info}
+díbəɬ ʔux̣ʷil̕
+díbəɬ ʔu-x̣ʷil̕
+We completive-get.lost
+'It is we that got lost'
+
+#169
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pn,info}
+dəgʷí ʔux̣ʷil̕
+dəgʷí ʔu-x̣ʷil̕
+You completive-get.lost
+'It is you that got lost'
+
+#170
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pn}
+gʷəlápu ʔux̣ʷil̕
+gʷəlápu ʔu-x̣ʷil̕
+Y'all completive-get.lost
+'It is y'all that got lost'
+
+#171
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {pn}
+díɬ ʔux̣ʷil̕
+díɬ ʔu-x̣ʷil̕
+he/she/it/them completive0get.lost
+'It is he/she/it/them that got lost'
+
+#172 Formal pronouns always precede the verb they are the subject of
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {pn}
+ʔux̣ʷil̕ ʔəcá
+ʔu-x̣ʷil̕ ʔəcá
+completive-get.lost I
+'I got lost'
+
+#173 Formal pronouns always precede the verb they are the subject of
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {pn}
+ʔux̣ʷil̕ díbəɬ
+ʔu-x̣ʷil̕ díbəɬ
+completive-get.lost we
+'We got lost'
+
+#174 Formal pronouns always precede the verb they are the subject of
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {pn}
+ʔux̣ʷil̕ dəgʷí
+ʔu-x̣ʷil̕ dəgʷí
+completive-get.lost you
+'You got lost'
+
+#175 Formal pronouns always precede the verb they are the subject of
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {pn}
+ʔux̣ʷil̕ gʷəlápu
+ʔu-x̣ʷil̕ gʷəlápu
+completive-get.lost y'all
+'Y'all got lost'
+
+#176 Formal pronouns always precede the verb they are the subject of
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {pn}
+ʔux̣ʷil̕ díɬ
+ʔu-x̣ʷil̕ díɬ
+completive-get.lost 3rd.pro
+'He/she/it/them got lost'
+
+#177
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {wo,info}
+ʔuʔik̕ʷidb ʔə ti č̓ač̓as ti ʔalʔəl
+ʔu-ʔik̕ʷid-b ʔə t-i č̓ač̓as t-i ʔalʔəl
+completive-sweep-pass P det.def-dir child det.def-dir house
+'the house was swept by the \emph{child}'
+
+#178 Passives constructions must have the passive suffix
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo,info}
+ʔuʔik̕ʷid ʔə ti č̓ač̓as ti ʔalʔəl
+ʔu-ʔik̕ʷid ʔə t-i č̓ač̓as t-i ʔalʔəl
+completive-sweep P det.def-dir child det.def-dir house
+'the house was swept by the child'
+
+#179 Passives constructions must have the passive determiner
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo,info}
+ʔuʔik̕ʷidb ti č̓ač̓as ti ʔalʔəl
+ʔu-ʔik̕ʷid-b t-i č̓ač̓as t-i ʔalʔəl
+completive-sweep-pass det.def-dir child det.def-dir house
+'the house was swept by the child'
+
+#180 
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {wo,info}
+ʔuʔik̕ʷidb ti ʔalʔəl ʔə ti č̓ač̓as
+ʔu-ʔik̕ʷid-b t-i ʔalʔəl ʔə t-i č̓ač̓as
+completive-sweep-pass P det.def-dir child det.def-dir house
+'the \emph{house} was swept by the child'
+
+#181
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {wo,info}
+ʔuʔik̕ʷidb ʔə čəd ti ʔalʔəl
+ʔu-ʔik̕ʷid-b ʔə č-əd t-i ʔalʔəl
+completive-sweep-pass P ind.pred-I det.def-dir house
+'the \emph{house} was swept by the me'
+
+#182
+Source: author
+Vetted: t
+Judgment: g
+Phenomena: {wo,info}
+ʔuʔik̕ʷidb ʔə ʔəcá ti ʔalʔəl
+ʔu-ʔik̕ʷid-b ʔə ʔəcá t-i ʔalʔəl
+completive-sweep-pass P I det.def-dir house
+'the house was swept by the \emph{me}'
+
+#183 When a particle is the subject of a passive construction, it must appear before the object
+Source: author
+Vetted: t
+Judgment: u
+Phenomena: {wo,info}
+ʔuʔik̕ʷidb ti ʔalʔəl ʔə čəd
+ʔu-ʔik̕ʷid-b t-i ʔalʔəl ʔə č-əd
+completive-sweep-pass det.def-dir house P ind.pred-I
+'the \emph{house} was swept by the me'
+
+#184
+Source: f
+Vetted: s
+Judgment: g
+Phenomena: {m}
+gʷəʔəɬəd čəd ʔə tə gʷistalb
+gʷə-ʔəɬəd č-əd ʔə t-ə gʷistalb
+can-eat ind.pred-I P det.def-indir sand
+'I can eat sand.'
+
+#185
+Source: f
+Vetted: s
+Judgment: g
+Phenomena: {neg}
+xʷíʔ ləq̕íƛ̕dxʷS
+xʷíʔ lə-q̕íƛ̕dxʷ-S
+not progressive-hurt-sg
+'It doesn't hurt me'
+
+#186
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {info}
+dəgʷí ti ʔuʔik̕ʷid ti ʔalʔəl
+dəgʷí t-i ʔu-ʔik̕ʷid t-i ʔalʔəl
+you det.def-dir completive-sweep det.def-dir house
+'It is \emph{you} who swept the house'

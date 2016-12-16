@@ -1,0 +1,177 @@
+Lab 9 writeup
+
+##################
+The coverage lowered because I removed the juxtaposition variant of coordinations
+##################
+
+
+1: see qub.txt
+
+2: 
+
+1) The main clauses and substantivized clauses were distinguished by MC +/-, and the parser side was ok with it, but the generator wasn't. I was getting sentences with no tense marker (which is required in Quechua), but with a substantivizer. So, my solution was to create a feature called MV, and added to head, and I changed the root condition to be MV +. All S with MV + would be main clauses. 
+
+2) the semantics of demonstrative-determiner-lex wasn't quite right, so I modified the RELS and  LKEYS. 
+
+3) I added INFECTED - in common-noun-lex
+
+4) I didn't have any ARG-ST in clausal-trans-verb-lex-supertype and can-verb, so I wasn't getting the right semantics. I modified the structure of my clausal-trans-verb-lex-supertype and can-verb so that its supertype can grab the semantics from the ARG-ST.
+
+5) I added COG-ST in-foc in my non-3rd person object agreement rules so that when I translate "dogs eat", I wouldn't get sentences like "dogs eat me". 
+
+6) In order to differentiate the infinitive marker from the substantivizer (both are comp), I added FORM inf in the infinitive marker, and FORM fin in the substantivizer. 
+
+7) Intransitive rules were applying on transitive verbs because I had a supertype for intransitives and clausal complement verbs in the agreement rules, which underspecified the COMPS value. So, I created a supertype for these types, and the intransitive rule can now take this supertype as its daughter. 
+
+8) in adjective-lex, I made it inherit from  basic-int-mod-adj-lex. 
+
+9) I didn't have any rule that can combine a specifier and its head, so I instantiated a type for determiners which inherits from basic-head-spec-phrase and head-final, and I added it in rules.tdl
+
+10) I added arg1-ev-relation in neg-adverb so that the semantics of negative 'complement' can show up in parsed trees. 
+
+11) In Quechua, the negative complement 'mana' can only appear sentence initially, but I was getting it in the sentence final position as well, so I modified the head-comp rule so that it won't take it. 
+
+
+
+
+3. 
+
+In the English acm.mtr, I added pro-drop := pronoun-delete-mtr. because Quechua doesn't have to have any overt subject or object. 
+
+In the Italian side, I also added pro-drop, and also, I added make-harm-mtr because the semantics of 'it doesn't hurt me' in Italian had '_make_v_rel' and '_harm_n_rel', which Quechua doesn't have. These two needed to become '_hurt_v_rel' so that my grammar can traslate this sentence. 
+
+4. I didn't add any other transfer rules.
+
+5. 
+
+English 
+
+1: dogs sleep
+It generates 4 sentences, all legitimate. In Quechua, the plural marker is optional, so if a noun appears without this plural marker, the number is underspecified. 
+
+2: dogs chase cars
+It generates 24 because of the plural/singular nouns and free word order. 
+
+3: I chase you
+
+It generates 1+4+4+12 because Quechua is a free-word-order language, and also, the subject and the object do not have to appear overtly.
+
+4: These dogs sleep
+
+It generates 4 sentences beause the noun can appear with or without the plural marker. Also, the word order can be SV or VS.
+
+5: Dogs eat
+In English, the object doesn't appear in this sentence because the object is underspecied, but in Quechua, there are two ways of dropping the object: object-drop and underspecified object. It spits out 8 sentences because of the object-drop vs underspecified object and the optinality of the plural marker.
+
+6: I can eat glass
+
+I don't even know if it generates. The generator runs for about 40 minutes so I killed the process...
+
+7: It doesn't hurt me
+
+It generates 1+2+4+6 sentences because of the Quechua word order and overt/covert pronouns. 
+
+8: The dogs chase cars
+
+It generates 24 sentences because of the word order and singular/plural. 
+
+9: I think that you know that dogs chase cars.
+
+My grammar doesn't parse this sentence, so it won't generate...
+
+10: I ask whether you know that dogs chase cars.
+
+The same as 9
+
+11: Cats and dogs chase cars.
+
+When I try to generate this sentence (in Quechua), it *does* generate if you wait for 20-30 minutes. But when I try to translate, it runs for about 40 minutes and spits out the following message:
+
+Memory allocation problem: an explict gc call caused tenuring ..... because of a lack of swap space or memory mapping collision
+
+
+12: Dogs chase cars and cats chase dogs.
+
+the same as 11
+
+13: Cats chase dogs and sleep.
+
+I didn't even try translating this sentence because I just couldn't spend 40 minutes waiting for the generation process to finish.
+
+
+14: Do cats chase dogs?
+It does generate, but the output sentences are not quite the ones I expected. I expected them to have the question marker -chu at the end of the sentence, but it generated sentences without it. The MRS of the English one and the Quechua one is pretty much the same except that the English one speicifies that it's a question sentence. ?????????
+
+
+15: Chase the dog
+
+It won't generate because we didn't do imperatives.
+
+16: Hungry dogs eat.
+
+It spits out 8 sentences because of the obj-drop/indefinite object and word order. 
+
+
+17: Hungry dogs eat quickly
+It outputs 24 sentences. Some of them look the same but the adverb attachment is different. They are all legitimate in Quechua. 
+
+
+
+Italian
+
+1: cani dorm-ono
+The same as English, the same number of outputs
+
+2: cani insegu-ono macchine
+The same as English, the same number of outputs
+
+3: Ti-insegu-o
+It only outputs one, because Italian has pro-drop. There's no overt pronouns in this sentece, and Quechua is happy with it.
+
+4: Questi cani dorm-ono
+The same as English, the same number of outputs
+
+5: Cani mangi-ano
+the same as English
+
+6: Posso mangi-are il vitro
+my computer froze twice when I tried to translate this sentence, but the MRS looks the same...  
+
+7. Non mi-f-a male
+Since it doesn't have any over pronoun, it only outputs one sentence. 
+
+8: I cani insegu-ono macchine
+The same as English
+
+9: Pens-o che sai che cani insegu-ono macchine
+As mentioned above, my grammar cannot parse this sentence in Quechua.
+
+10: domand-o se sai che cani insegu-ono macchine
+Same as 9
+
+11: Cani e gatti insegu-ono macchine
+I didn't wait for 40 minutes to see what it would spit out.
+
+12: cani insegu-ono macchine e gatti insegu-ono cani
+
+same as 11
+
+13: gatti insegu-ono cani e dorm-ono
+same as 11
+
+14: gatti insegu-ono cani
+The same as English
+
+15: Insegu-i il cane
+The English counterpart didn't generate, but the Italian version does generate something although the outputs are not something I expected. I think the Italian MRS doesn't have the right semantics, so the Quechua grammar interprets it as 'you chase the dog' without the imperative reading.
+
+16: Cani affamat-i mangi-ano
+The same as English
+
+17: cani affamat-i mangi-ano velocement
+The same as English
+
+
+
+
+6. I can't translate anything with a coordinating conjunction and 'I can't eat glass'. I don't even know if it can translate or not because it can run for more than 30 min without spitting out anything. It takes up to 90% of the CPU on my computer when I try to translate these sentences, so I needed to kill the operation everytime I tried to translate. A possible reason for this is that Quechua has 5 way person distinction, and verbs have to agree with the person of the subject and the person of the object, and also there are 12 different combinations of aspect markers, so the generator has to try every possible combination of agreement and aspect. On top of this, Quechua has two different coordination strategies (overt conjunction marker and juxtaposition). So, this made the generation harder.  But I think there's some other problems as well, since I simplified the coordination rules by removing the juxtaposition variant, but didn't solve the generation problem. I still haven't figured out what exactly is causing this problem. 

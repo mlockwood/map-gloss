@@ -1,0 +1,1445 @@
+Language: Nishnaabemwin
+Language code: ojb
+Tiers: orth orth-seg gloss translat
+Author: Prescott Klassen, Jason Shaw
+Date: January 13, 2010
+Source a: Nishnaabemwin Reference Grammar, Valentine, 2001 
+
+################################################################################
+# The format of the lines for each sentence in the test suite is:
+#
+# - standard orthography
+# - regularized morpheme to morpheme delimited
+# - morpheme to morpheme gloss
+# - free translation
+#
+# The orthography may be inaccurate in the sentences not sourced from 
+# Valentine, 2001. These sentences have been created by non-native-speakers 
+# of Nishnaabemwin to demonstrate syntax features of the language and have 
+# not been vetted by native speakers.
+# 
+# Valentine, 2001 uses bold and hyphens to highlight morphemes that are
+# being discussed, they have been removed for the standard orthography of
+# the test suite.
+#
+# The morpheme used in the regularized morpheme to morpheme gloss are
+# interpreted from noun and verb inflection paradigms and prefix/suffix 
+# pattern charts in Valentine, 2001. Where there was no information, a best
+# guess was made based on Valentine's explanation of the morphophonology of
+# Nishnaabemwin.
+#
+# Where Valentine uses variations of words or morphemes based on community
+# dialects in the orthography, these words or morphemes are mapped in the
+# regularized morpheme to morpheme line with a single representation from
+# the lexicon, which encodes only one version and considers it canonical.
+# The comments for these sentences will call this out.
+#
+# In the morpheme to morpheme gloss, the following symbols are used:
+#
+#   -  a hyphen delimits morphemes and should line up one for one with the
+#      regularized morpheme to morpheme line that precedes it.
+#
+#   +  a plus sign delimits the words in an English multi-word translation
+#      of a Nishnaabemwin word in the regularized morpheme to morpheme line
+#      that precedes it.
+#
+#   .  a period delimits a word or morpheme from its gloss
+#
+#   Nishnaabemwin Grammar abbreviations used in the gloss and comments:
+#
+#   vii   verb intransitive inanimate subject
+#   vai   verb intransitive animate subject
+#   vti   verb transitive inanimate object
+#   vta   verb transitive animate object
+#
+#   AN    animate 
+#   IN    inanimate
+#
+#   OBV   obviate
+#   PROX  proximate
+#
+#   AC    Actor
+#   GL    Goal
+#
+#   THM   theme
+#   INV   inverse
+#   DIR   direct
+#
+####
+
+#### Word Order - Grammatical (Nishnaabemwin is free order) - wo
+
+#### 
+# Source refers to this example as desiderative, no other examples 
+# of desiderative are provided in the text. Q: what are the implications 
+# of inflection in this sentence, does future imply 'needs' when the subject
+# is inanimate?
+####
+
+#1 vii - wo SV
+Source: a:776
+Vetted: s
+Judgment: g
+Phenomena: wo
+Waagaakwad wiigiinboode
+Waagaakwad w-wii-giinboodeg
+axe.IN.3SG 3-FUT-be+sharpened-3SG
+'The axe needs sharpening'
+
+#2 vii - wo VS
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo
+Wiigiinboode waagaakwad
+w-wii-giinboodeg waagaakwad 
+3-FUT-be+sharpened-3SG axe.IN.3SG 
+'The axe needs sharpening'
+
+#3 vii - wo VS
+Source: a:542
+Vetted: s
+Judgment: g
+Phenomena: wo
+Baatiinad wiiyaas
+W-doo-baatiinak wiiyaas
+3-PRES-be+plentiful-3SG meat.IN.3SG
+'There is plenty of meat'
+
+#4 vii - wo SV
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo
+Wiiyaas baatiinad 
+Wiiyaas w-doo-baatiinak
+meat.IN.3SG 3-PRES-be+plentiful-3SG
+'There is plenty of meat'
+
+####
+# An adaptation of source, original line was:
+# Giizegzi dash aw Nenbozh (that Nenabush was frightened)
+####
+
+#5 vai - wo VS
+Source: a:548
+Vetted: s
+Judgment: g
+Phenomena: wo
+Giizegzi Nenbozh
+W-gii-zegzid Nenbozh
+3-PAST-be+frightened-3SG Nenabush.AN.3SG
+'Nenabush was frightened'
+
+#6 vai - wo SV
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: wo
+Nenbozh giizegzi 
+Nenbozh w-gii-zegzid
+Nenabush.AN.3SG 3-PAST-be+frightened-3SG
+'Nenabush was frightened'
+
+####
+# possessed noun prefix n- is not delimited in this sentence
+# Analysis of possessed nouns is not covered by the current grammar
+####
+
+#7 vai - wo VS - asp HAB
+Source: a:935
+Vetted: s
+Judgment: g
+Phenomena: wo, asp
+Ntaagshkigwaaso nnahaangnikwem
+W-doo-ntaa-gshkigwaasod nnahaangnikwem
+3-PRES-HAB.be+good+at-sew-3SG my+daughter+in+law.AN.3SG
+'My daughter-in-law sews well'
+
+#8 vai - wo SV - asp HAB
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, asp
+Nnahaangnikwem Ntaagshkigwaaso
+Nnahaangnikwem w-doo-ntaa-gshkigwaasod
+my+daughter+in+law.AN.3SG 3-PRES-HAB.be+good+at-sew-3SG
+'My daughter-in-law sews well'
+
+#9 vta (actor 3OBV goal 3SG INV.THM) - wo SVO
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, agr
+Nenbozhoon giiwwabmigoon nnahaangnikwem
+Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem
+Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG
+'Nenabush saw my daughter-in-law'
+
+#10 vta (actor 3OBV goal 3SG INV.THM) - wo VSO
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, agr
+Giiwwabmigoon Nenbozhoon nnahaangnikwem
+W-gii-waabmaad-igw-an Nenbozh-oon nnahaangnikwem
+3SG.GL-PAST-see-INV.THM-3.OBV.AC Nenabush.AN-3.OBV my+daughter+in+law.AN.3SG
+'Nenabush saw my daughter-in-law'
+
+#11 vta (actor 3OBV goal 3SG INV.THM) - wo VOS
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, agr
+Giiwwabmigoon nnahaangnikwem Nenbozhoon
+W-gii-waabmaad-igw-an nnahaangnikwem Nenbozh-oon
+3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.SG Nenabush.AN-3.OBV
+'Nenabush saw my daughter-in-law'
+
+#### Person/Number/Gender Agreement- agr - Grammatical
+
+####
+# vii verbs 3SG, 3PL, INAN
+####
+
+#12 vii, noun and verb agr IN.3SG
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Giibizhaamgad jiimaanan
+W-gii-bizhaamgak jiimaan
+3-PAST-come-3SG boat.IN.3SG
+"The canoe came"
+
+#13 vii, noun and verb agr IN.3PL
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Giibizhaamgadoon jiimaanan
+W-gii-bizhaamgak-noon jiimaan-an
+3-PAST-come-3PL boat.IN-3PL
+"The canoes came"
+
+####
+# vii verbs 3SG, 3PL, INAN
+####
+
+#14 vai, noun and verb agr AN, 3SG
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Waagosh waannose
+Waagosh w-doo-waannosed
+fox.AN.3SG 3-PRES-walk.in.a.circle.3SG
+'The fox walks in a circle'
+
+####
+# orthography is a guess for foxes
+####
+
+#15 vai, noun and verb agr AN, 3PL
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Waagoshag waannoseag
+Waagosh-ag w-doo-waannosed-wag
+fox.AN.PL 3-PRES-walk.in.a.circle.3PL
+'the foxes walk in a circle'
+
+#16 vti, noun and verb agr IN object, 3SG AN subject 3SG
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Nmamaa giizhitoon jiimaan
+Nmamaa w-gii-zhitood-oo-n jiimaan
+my+mother.AN.3SG 3-PAST-make-THM2.VTI-GL.SG boat.IN.3SG
+'My mother made the boat'
+
+#17 vti, noun and verb agr IN object, 3PL AN subject 3SG
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Nmamaa giizhitoonan jiimaanan
+Nmamaa w-gii-zhitood-oo-nan jiimaan-an
+my+mother.AN.3SG 3-PAST-make-THM2.VTI-GL.PL boat.IN-3PL
+'My mother made the boats'
+
+#18 vti, noun and verb agr IN object, 3PL, subject 3PL
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Nmamaag giizhitoonaawaan jiimaanan
+Nmamaa-g w-gii-zhitood-oo-naawaan jiimaan-an
+my+mother.AN.3PL 3-PAST-make-THM2.VTI-GL.PL boat.IN-3PL
+'My mothers made the boats'
+
+#19 vti, noun and verb agr IN object, 3SG AN subject 3PL
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Nmamaag giizhitoonaawaan jiimaan
+Nmamaa-g w-gii-zhitood-oo-naawaan jiimaan
+my+mother.AN.3PL 3-PAST-make-THM2.VTI-GL.SG boat.IN.3SG
+'My mothers made the boat'
+
+#20 vta goal, noun and verb agr AN 3OBV object, AN 3SG subject
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Zhiishiiban wminpawaawaan gaag
+Zhiishiib-an w-doo-mnopwaad-aa-an gaag
+duck.3.OBV 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG porcupine.AN-3SG
+"The porcupine likes to eat the duck(s)"
+
+#21 vta goal, noun and verb agr AN 3OBV object, AN 3PL subject
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Zhiishiib-an wminpawaawaawaan gaag-og
+Zhiishiib-an w-doo-mnopwaad-aa-waa-an gaag-og
+duck.3.OBV 3PL.AC-PRES-like+the+taste+of-DIR.THM-AC.3PL-GL.3SG porcupine.AN-3PL
+"Porcupines like to eat the duck"
+
+#22 vta goal, noun and verb agr AN 3SG object, AN 3OBV subject
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Zhiishiib wminpawaagigoon gaagwan
+Zhiishiib w-doo-mnopwaad-igw-an gaag-wan
+duck.3SG GL.3SG-PRES-like+the+taste+of-INV.THM-AC.OBV porcupine.AN-3Obv
+"Porcupines like to eat the duck"
+
+#23 vta goal, noun and verb agr AN 3PL object, AN 3OBV subject
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr
+Zhiishiibag wminpawaawaan gaagwan
+Zhiishiib-ag w-doo-mnopwaad-aa-waa-an gaag-wan
+duck-3PL GL.3PL-PRES-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV
+"Porcupines like to eat ducks"
+
+#### Person/Number/Gender Agreement- agr - Ungrammatical
+
+#24 vii, animate subject in inanimate intransitive verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Nenbozh wiigiinboode
+Nenbozh w-wii-giinboodeg
+Nenabush 3-FUT-want.sharpening
+'Nenabush needs sharpening'
+
+#25 vai, inanimate subject in animate intransitive verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Giizegzi wiiyaas
+W-gii-zegzid wiiyaas
+3-PAST-be.frightened meat
+'The meat was frightened'
+
+#26 vai, inanimate plural subject in animate intransitive verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Giizegzi maamin jiimaanan
+W-gii-zegzid maamin jiimaan-an
+3-PAST-be.frightened this.3.PL boat-PL
+'These boats was frightened'
+
+#27 vti incorrect determiner for plural inanimate noun
+Source: a:125
+Vetted: f
+Judgment: u
+Phenomena: agr
+Nmamaa giizhitoonan wi jiimaanan
+Nmamaa w-gii-zhitood-oo-nan wi jiimaan-an
+my.mother 3-PAST-make-THM2.VTI-PL.GL that.3.SG boat-PL
+'My mother made that boats'
+
+#28 vta, 2SG actor 3PL goal
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr
+Giin giwi kwewag nwiignawenmaag
+giin giwi kwe-wag n-wii-gnawenmaad-aa-ag
+you that.3.PL woman-PL 1-FUT-take.charge.of-DIR.THM-3.PL.GL
+'You will take charge of those women'
+
+
+#### Tense - tam - Grammatical
+
+#29 vii past tense
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Waagaakwad wgiigiinboode
+Waagaakwad w-gii-giinboodeg
+axe.AN.3SG 3-PAST-be+sharpened.3SG
+'The axe was needed to be sharpened'
+
+#30 vii present tense
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Waagaakwad wdoogiinboode
+Waagaakwad w-doo-giinboodeg
+axe.AN.SG 3-PRES-be+sharpened.3SG
+'The axe needs sharpening'
+
+#31 vii future tense
+Source: a:16.56/775
+Vetted: s
+Judgment: g
+Phenomena: tam
+Wiigsinaamgad
+W-wii-gsinaag
+3-FUT-be+cold.3SG
+"It will be cold"
+
+#32 vai present tense
+Source: a:16.3/760
+Vetted: s
+Judgment: g
+Phenomena: tam
+Ndoommaangshkiinzhgwe
+N-doo-mmaangshkiinzhgwed
+1SG-PRES-have+big+eyes.1SG
+"I have big eyes"
+
+#33 vai future tense
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Nwiimmaangshkiinzhgwe
+N-wii-mmaangshkiinzhgwed
+1SG-FUT-have+big+eyes
+"I will have big eyes"
+
+#34 vai past tense
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Ngiimmaangshkiinzhgwe
+N-gii-mmaangshkiinzhgwed
+1SG-PAST-have+big+eyes
+"I had big eyes"
+
+#35 vti present tense
+Source: a:16.1/759
+Vetted: s
+Judgment: g
+Phenomena: tam
+Nwaabndaan jiimaan
+N-doo-waabmdang-am-n jiimaan
+1SG-see-THM1.VTI-INAN.GL boat.IN.3SG
+"I see the boat"
+
+#36 vti past tense
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Ngiiwaabndaan jiimaan
+N-gii-waabmdang-am-n jiimaan
+1SG-see-THM1.VTI-INAN.GL boat.IN.3SG
+"I saw the boat"
+
+#37 vti future tense
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Nwiiwaabndaan jiimaan
+N-wii-waabmdang-am-n jiimaan
+1SG-see-THM1.VTI-INAN.GL boat.IN.3SG
+"I will see the boat"
+
+#38 vta  AN 3PL object, AN 3OBV subject future tense
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Zhiishiibag wwiiminpawaawaan gaagwan
+Zhiishiib-ag w-wii-mnopwaad-aa-waa-an gaag-wan
+duck-3PL GL.3PL-FUT-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV
+"Porcupines will like to eat ducks"
+
+#39 vta  AN 3PL object, AN 3OBV subject past tense
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Zhiishiibag wgiiminpawaawaan gaagwan
+Zhiishiib-ag w-gii-mnopwaad-aa-waa-an gaag-wan
+duck-3PL GL.3PL-PAST-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV
+"Porcupines liked to eat ducks"
+
+
+#### Tense - tam - Ungrammatical
+
+#40 vta goal
+Source: author (cf. 18.7/933)
+Vetted: f
+Judgment: u
+Phenomena: vta, pres, pl
+Zhiishiiban wminpawaawaan giw gaagog
+Zhiishiib-an w-mnopwaad-aa-waa-an giw gaag-og
+duck-3.OBV 3-like.the.taste.of-DIR.THM-PL.AC-3.OBV.GL 3.ANIM.PL.those porcupine-PL
+"Porcupines like to eat ducks"
+
+
+#41 vta, Past tense morpheme must not precede personal prefix
+Source: author (cf a:12.209/590)
+Vetted: s
+Judgment: u
+Phenomena: vta, past
+Giiwdbaajmaan niw shkiniigkwen
+Gii-w-dbaajmaad-aa-an niw shkiniigkwe-n
+PAST-3-tell.about-DIR.THM-3.OBV.GL 3.ANIM.OBV.that young.woman-3.OBV
+"He talked about that young woman"
+
+#### Determiners det Grammatical ####
+
+#42 vii 
+Source: a:18.53/952
+Vetted: s
+Judgment: g
+Phenomena: det
+Giibizhaamgadoon nswi jiimaanan
+W-gii-bizhaamgak-noon nswi jiimaan-an
+3-PAST-come-PL three boat-PL
+"Three canoes came"
+
+
+#### Aspect - asp - Grammatical
+
+#43 vai asp 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: asp
+Ntaagshkigwaaso waagosh
+W-doo-ntaa-gshkigwaasod waagosh
+3-PRES-HAB-be.good.at.sewing fox.AN.3SG
+'The fox is good at sewing'
+
+#44 vai
+Source: a:16.130/795
+Vetted: s
+Judgment: g
+Phenomena: asp
+Ngiiboonizhooshkwaademin
+N-gii-booni-zhooshkwaaded-min
+1-PAST-END-skate-1PL
+"We quit skating"
+
+#45 vai
+Source: a:16.130/795
+Vetted: s
+Judgment: g
+Phenomena: asp
+Ngiimaajiizhooshkwaademin
+N-gii-maajii-zhooshkwaaded-min
+1-PAST-BEGIN-skate-1PL
+"We began skating"
+
+#46 vai
+Source: a:16.130/795
+Vetted: s
+Judgment: g
+Phenomena: asp
+Ngiiwebizhooshkwaademin
+N-gii-webi-zhooshkwaaded-min
+1-PAST-BEGIN-skate-1PL
+"We started skating"
+
+#47 vai
+Source: a:16.130/795
+Vetted: s
+Judgment: g
+Phenomena: asp
+Ngiigiizhizhooshkwaademin
+N-gii-giizhi-zhooshkwaaded-min
+1-PAST-END-skate-1PL
+"We finished skating"
+
+#48 vai
+Source: a:16.130/795
+Vetted: s
+Judgment: g
+Phenomena: asp
+Ngiishkwaazhooshkwaademin
+N-gii-shkwaa-zhooshkwaaded-min
+1-PAST-END-skate-1PL
+"We quit skating"
+
+#### Aspect - tam - Ungrammatical
+
+#49 vai asp ntaa must be next to the verb stem
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: asp
+Ntaagshkigwaaso nnahaangnikwem
+W-ntaa-doo-gshkigwaasod nnahaangnikwem
+3-HAB-PRES-be.good.at.sewing my.daughter.in.law
+'My daughter-in-law is good at sewing'
+
+#50 was 2.28 in Lab 3 aspect marker must be adjacent to verb
+Source: author (cf a:935)
+Vetted: f
+Judgment: u
+Phenomena: asp
+Ntaagshkigwaaso nnahaangnikwem
+Ntaa-w-doo-gshkigwaasod nnahaangnikwem
+HAB-3-PRES-be.good.at.sewing my.daughter.in.law
+'My daughter-in-law is good at sewing'
+
+#### Negation
+
+#51 vii neg
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: neg
+Waagaakwad giinboodesii
+Waagaakwad w-doo-giinboodeg-sii
+axe PRES-be.sharpened.SG
+'The axe doesn't need sharpening'
+
+#52 vai
+Source: a:12.315/620
+Vetted: s
+Judgment: g
+Phenomena: neg
+Gaa giinbaasii wiin
+Gaawii w-gii-nbaad-sii wiin
+not 3-PAST-sleep-NEG 3.ANIM.SG
+"He did not sleep"
+
+#53 vai neg
+Source: a:16.305/838
+Vetted: s
+Judgment: g
+Phenomena: neg
+Gaa wii giinaagzisii
+Gaawii w-gii-naagzid-sii
+not 3-PAST-be.visible-NEG
+"He was not visible"
+
+#54 vti neg
+Source: a:16.1/759
+Vetted: s
+Judgment: g
+Phenomena: tam
+Nwaabndaan jiimaan
+N-doo-waabmdang-am-sii-n jiimaan
+1SG-PRES-see-THM1.VTI-NEG-INAN.GL boat.IN.3SG
+"I did not see the boat"
+
+#55 vta  AN 3PL object, AN 3OBV subject past tense neg
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+Zhiishiibag wgiiminpawaawaan gaagwan
+Zhiishiib-ag w-gii-mnopwaad-aa-sii-waa-an gaag-wan
+duck-3PL GL.3PL-PAST-like+the+taste+of-INV.THM-GL.3PL-AC.OBV porcupine.AN-OBV
+"Porcupines liked to eat ducks"
+
+
+#### Argument optionality
+
+#56 vta, actor 3PL goal 3SG OBV
+Source: a:16.315/840
+Vetted: s
+Judgment: g
+Phenomena: neg
+Gonda gaa wii wgiiwaabmaasiiwaan
+Ganda gaawii w-gii-waabmaad-aa-sii-waa-an
+3.ANIM.PL.these not 3-PAST-see-DIR.THM-NEG-3.OBV.GL
+"These men did not see him"
+
+
+#57 vii, pro-d argument optionality IN.SG 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+giinboode
+w-doo-giinboodeg
+3-FUT-be+sharpened.3SG
+'it(IN.SG) needs sharpening'
+
+####
+# orthography is a guess
+####
+
+#58 vii 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+giinboodnoon
+w-doo-giinboodeg-noon
+3-FUT-be+sharpened.3PL
+'they(IN.PL) need sharpening'
+
+#59 vii, pro-d argument optionality - 3SG
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, pro-d
+Giibizhaamgad
+W-gii-bizhaamgak
+3-PAST-come-3SG
+"They (IN.3SG) came"
+
+####
+# orthography is a guess just added noon to the end of the word
+####
+
+#60 vii, pro-d argument optionality - 3SG
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, pro-d
+Giibizhaamgadnoon
+W-gii-bizhaamgak-noon
+3-PAST-come-3PL
+"They (IN.3PL) came"
+
+
+
+#61 vii 
+Source: author
+Vetted: s
+Judgment: g
+Phenomena: pro-d
+giinboode
+w-doo-giinboodeg
+3SG-INAM.FUT-be.sharpened.SG
+'INSG needs sharpening'
+
+
+#62 vai, noun and verb agr AN, pro-d arg optionality 1SG
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, pro-d
+waannose
+n-doo-waannosed
+1-PRES-walk+in+a+circle.1SG
+'I walk in a circle'
+
+#63 vta actor 3PL goal 3OBV
+Source: a:12.67/549
+Vetted: s
+Judgment: g
+Phenomena: tam
+Wgiibaatiina'haawaan binoojiinyan
+W-gii-baatiinhaad-aa-waa-an binoojiinh-an
+3-PAST-have+many child-3.OBV
+"They had many children"
+
+#64 vta, actor 3SG goal 3SG OBV
+Source: a:12.209/590
+Vetted: s
+Judgment: g
+Phenomena: vta, past
+Wgiidbaajmaan niw shkiniigkwen
+W-gii-dbaajmaad-aa-an niw shkiniigkwe-n
+3-PAST-tell.about-DIR.THM-3.OBV.GL 3.ANIM.OBV.that young.woman-3.OBV
+"He talked about that young woman"
+
+#65 vta actor 3SG goal 3PL OBV
+Source: a:12.163/577
+Vetted: s
+Judgment: g
+Phenomena: vta, past
+Wgiiwaabmaan niw zhiishiiban
+W-gii-waabmaad-am-aa-an niw zhiishiib-an
+3-PAST-see-DIR.THM-3.OBV.GL 3.ANIM.OBV.that duck-3.OBV
+"He saw those ducks"
+
+#66 vta actor 3SG goal 1SG
+Source: a:12.346/629
+Vetted: s
+Judgment: g
+Phenomena: vta, past
+Ngiimbwaachhig
+N-gii-nbwaachhaad-igw
+1-PAST-visit-INV.THM
+"He visited me"
+
+
+#67 vti
+Source: a:13.1/648
+Vetted: s
+Judgment: g
+Phenomena: vti, past
+Aankonaanyan ngiimiijnan
+Aankonaanh-an n-gii-miijid-am-nan
+cracker-3.INAN.PL 1-PAST-eat-THM1.VTI-3.INAN.PL.GL
+"I ate crackers"
+
+
+#### Demonstratives/Definiteness - Pronouns - pn
+
+#68 vai
+Source: a:101
+Vetted: f
+Judgment: g
+Phenomena: pn, agr
+Maaba waagosh waannose
+Maaba waagosh w-doo-waannosed
+this.3.SG fox 3-PRES-walk.in.a.circle
+'this fox walks in a circle'
+
+#69 vti
+Source: a:125
+Vetted: f
+Judgment: g
+Phenomena: wo, pn
+Nmamaa giizhitoonan maamin jiimaanan
+Nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an
+my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL
+'My mother made these boats'
+
+#70 vai was 9 in Lab 3
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, pn
+Maaba nishnaabe moonshkwed
+Maaba nishnaabe w-doo-moonhashkiwed
+this.3.SG Indian 3-PRES-weed
+'This Indian is weeding'
+
+#71 vai, changed to det-noun
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, pn
+Giizegzi maaba nishnaabe
+W-gii-zegzid maaba nishnaabe
+3-PAST-be.frightened this.3.SG Indian
+'This Indian was frightened'
+
+#72 vta, actor 1SG goal 3PL edited with new suffix chart
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, pn
+Niin giwi kwewag nwiignawenmaag
+Niin giwi kwe-wag n-wii-gnawenmaad-aa-ag
+I that.3.PL woman-PL 1-FUT-take.charge.of-DIR.THM-3.PL.GL
+'I will take charge of those women'
+
+#73 vai
+Source: a:613
+Vetted: s
+Judgment: g
+Phenomena: wo, pn
+Giin ggiimmaazhiiwii
+Giin g-gii-maazhiiwiid
+you 2-PAST-do.poorly
+'You did poorly'
+
+#74 vti
+Source: a:216
+Vetted: s
+Judgment: g
+Phenomena: wo, pn, def
+Wjiigdahaan wi wiigwaam wa kwe
+W-doo-jiigdahang-am-n wi wiigwaam wa kwe
+3-PRES-sweep.out-THM1.VTI that.3.SG house that.3.SG woman
+'That women is sweeping out that house'
+
+#75 vta, actor 3SG goal 3PL OBV edited with new suffix chart
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, pn, def
+Wgiiwwabmaan wa kwe niwi binoojiinyan
+W-gii-waabmaad-aa-an wa kwe niwi binoojiinh-an
+3-PAST-see-DIR.THM-3.OBV.GL that.3.SG woman that.3.PL child-OBV
+'That woman saw the children'
+
+#76 vta, actor 3PL goal 3SG OBV NEEDS EDITING
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, pn, def
+Nanda kwewag wgiiwwabmigoon niwi binoojiinyan
+Nanda kwe-wag w-gii-waabmaad-aa-waa-an niwi binoojiinh-ag
+this.3.SG woman-OBV 3-PAST-see-INV.THM-3.OBV.GL that.3.PL child-PL
+'Those children saw the woman'
+
+#77 vta, actor 3SG goal 3PL OBV
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, pn, indef
+Bezhig wa nishnaabe wgiiwwababmaan binoojiinyan
+Bezhig wa nishnaabe w-gii-waabmaad-aa-an binoojiinh-an
+one that.3.SG Indian 3-PAST-see-DIR.THM-3.OBV.GL child-OBV
+'This one Indian saw children'
+
+#78 vta, actor 3SG goal 3PL OBV
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, pn, indef
+Bezhig nishnaabe wgiiwwababmaan binoojiinyan
+Bezhig nishnaabe w-gii-waabmaad-aa-an binoojiinh-an
+one Indian 3-PAST-see-DIR.THM-3.OBV.GL child-OBV
+'One Indian saw children'
+
+#79 vai
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo, pn, indef
+Giimaajaad bezhig nishnaabe
+W-gii-maajaad bezhig nishnaabe
+3-PAST-leave one Indian
+'An Indian left'
+
+#80 vai
+Source: a:12.15/534
+Vetted: s
+Judgment: g
+Phenomena: vai, fut, indef
+Waya danbo
+Waya w-wii-nbod
+3.SG.PROX 3-FUT-die
+"Someone will die"
+
+#81 vai
+Source: a:12.110/562
+Vetted: s
+Judgment: g
+Phenomena: vai, past, pn
+Giinshkaadzi maaba gchibne
+W-gii-nshkaadzid maaba gchibne
+3-PAST-be.angry 3.ANIM.SG.this big.partridge
+"This big partridge was angry"
+
+#82 vti
+Source: a:13.132/700
+Vetted: s
+Judgment: g
+Phenomena: vti, pres, def
+Aw kwe ndazhtamaag nbabgiwyaan
+Aw kwe w-doo-zhitood-am-n nbabgiwyaan
+3.ANIM.SG.that woman 1-PRES-make.for-INV.THM my.shirt
+"That woman is making me a shirt"
+
+#83 vta, NEEDS EDITING
+Source: a:12.352/631
+Vetted: s
+Judgment: g
+Phenomena: vta, past, def
+Niw kwewan wgiignawenmigwaan giw binoojiinyag
+Niw kwe-wan w-gii-gnawenmaad-igw-waa-an giw binoojiinh-ag
+3.ANIM.OBV.that woman-OBV 3-PAST-take.care.of-INV.THM-PL.AC-3.PL.GL 3.ANIM.PL.those child-PL
+"The women took care of the children"
+
+#84 vta, NEEDS EDITING
+Source: a:12.351/631
+Vetted: s
+Judgment: g
+Phenomena: vta, past, def
+Giw kwewag wgiignawenmaawaan niw binoojiinyan
+Giw kwe-wag w-gii-gnawenmaad-aa-waa-an niw binoojiinh-an
+3.ANIM.PL.those woman-PL 3-PAST-take.care.of-DIR.THM-PL.AC-3.OBV.GL 3.ANIM.OBV.that child-OBV
+"The women took care of the children"
+
+#85 vti
+Source: a:3.60/154
+Vetted: s
+Judgment: g
+Phenomena: vti, past
+Gaasmoonijiimaan wgiiwzhitoon
+Gaasmoonijiimaan w-gii-wzhitaatood-oo-n
+sailboat 3-PAST-make-THM2.VTI-INAN.GL
+"He made a sailboat"
+
+#############################
+# Coordinated constructions #
+#############################
+
+# Sentences
+
+#104 coordination
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: mono coord
+Gassmoonijiimaan wgiiwzhitoon gye go nmamaa giizhitoonan maamin jiimaanan
+Gaasmoonijiimaan w-gii-wzhitaatood-oo-n gye nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an
+sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL
+'He made a sailboat and my mother made these boats'
+
+#105 monosyndeton
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: mono coord
+Gassmoonijiimaan wgiiwzhitoon, nmamaa giizhitoonan maamin jiimaanan, gye giibizhaamgadoon jiimaanan
+Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, gye w-gii-bizhaamgak-noon jiimaan-an
+sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL
+'He made a sailboat, my mother made these boats, and the canoes came'
+
+#106 polysyndeton
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: poly coord
+Gassmoonijiimaan wgiiwzhitoon miinwaa nmamaa giizhitoonan maamin jiimaanan miinwaa giibizhaamgadoon jiimaanan
+Gaasmoonijiimaan w-gii-wzhitaatood-oo-n miinwaa nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an miinwaa w-gii-bizhaamgak-noon jiimaan-an
+sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL
+'He made a sailboat, my mother made these boats, and the canoes came'
+
+#106B asyndeton
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: poly coord
+Gassmoonijiimaan wgiiwzhitoon, nmamaa giizhitoonan maamin jiimaanan, giibizhaamgadoon jiimaanan
+Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, w-gii-bizhaamgak-noon jiimaan-an
+sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL 3-PAST-come-3PL boat.IN-3PL
+'He made a sailboat, my mother made these boats, and the canoes came'
+
+#107 coordination
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: mono coord
+Gassmoonijiimaan wgiiwzhitoon miinwaa nmamaa giizhitoonan maamin jiimaanan
+Gaasmoonijiimaan w-gii-wzhitaatood-oo-n miinwaa nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an
+sailboat 3-PAST-make-THM2.VTI-INAN.GL COORD my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL
+'He made a sailboat and my mother made these boats'
+
+#108 monosyndeton
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: mono coord
+Gassmoonijiimaan wgiiwzhitoon, nmamaa giizhitoonan maamin jiimaanan, miinwaa giibizhaamgadoon jiimaanan
+Gaasmoonijiimaan w-gii-wzhitaatood-oo-n, nmamaa w-gii-zhitood-oo-nan maamin jiimaan-an, miinwaa w-gii-bizhaamgak-noon jiimaan-an
+sailboat 3-PAST-make-THM2.VTI-INAN.GL my.mother 3-PAST-make-THM2.VTI-INAN.PL.GL this.3.PL boat-PL COORD 3-PAST-come-3PL boat.IN-3PL
+'He made a sailboat, my mother made these boats, and the canoes came'
+
+# Nouns
+
+#112 coordinands need not agree, but verb agrees with first one
+Source: author (cf 18.223/996)
+Vetted: f
+Judgment: g
+Phenomena: agr coord
+Ndamnopwaa bkwezhigan miinwaa doodooshaaboo
+N-doo-mnopwaad-aa bkwezhigan miinwaa doodooshaaboo
+1-PRES-like+the+taste+of-DIR.THM bread COORD milk
+'I like bread and milk'
+
+#113 coordinands need not agree but verb agrees with first one
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr coord
+Ndamnopwaa doodooshaaboo miinwaa bkwezhigan
+N-doo-mnopwaad-aa doodooshaaboo miinwaa bkwezhigan
+1-PRES-like+the+taste+of-DIR.THM milk COORD bread
+'I like milk and bread'
+
+#114
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: coord with pronon
+Niin miinwaa niizh kwewag ndoontaagshkigwaaso
+Niin miinwaa niizh kwe-wag n-doo-ntaa-gshkigwaasod
+I COORD two woman-PL 1-PRES-HAB-be.good.at.sewing
+'Two women and I are good at sewing'
+
+#115
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: coord
+Nenbozhoon giiwwabmigoon nnahaangnikwem gye nmamaa
+Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem gye nmamaa
+Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG COORD my.mother
+'Nenabush saw my daughter-in-law and my mother'
+
+#116
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: coord
+Nenbozhoon giiwwabmigoon nnahaangnikwem gye aw nmamaa
+Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem gye aw nmamaa
+Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG COORD that.3.SG my.mother
+'Nenabush saw my daughter-in-law and my mother'
+
+#117
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: coord
+Nenbozhoon giiwwabmigoon nnahaangnikwem miinwaa nmamaa
+Nenbozh-oon w-gii-waabmaad-igw-an nnahaangnikwem miinwaa nmamaa
+Nenabush.AN-3.OBV 3SG.GL-PAST-see-INV.THM-3.OBV.AC my+daughter+in+law.AN.3SG COORD my.mother
+'Nenabush saw my daughter-in-law and my mother'
+
+#####
+# Yes/No Questions
+#####
+
+#115 particle comes second
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: yn
+Waagaakwad na wiigiinboode?
+Waagaakwad na w-wii-giinboodeg
+axe.IN.3SG QUES 3-FUT-be+sharpened-3SG
+'Does the axe need sharpening?'
+
+#116 particle does not come first
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: yn
+Na waagaakwad wiigiinboode?
+Na waagaakwad w-gii-giinboodeg
+QUES axe.IN.3SG 3-FUT-be+sharpened-3SG
+'Does the axe need sharpening?'
+
+#117
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: yn
+Giizegzi na Nenbozh?
+W-gii-zegzid na Nenbozh
+3-PAST-be+frightened.3SG QUES Nenabush.AN.3SG
+'Was Nenabush frightened?'
+
+#118
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: yn
+Nenbozh na giizegzi?
+Nenbozh na w-gii-zegzid
+Nenabush.AN.3SG QUES 3-PAST-be+frightened.3SG
+'Was it Nenabush who was frightened?'
+
+#119
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: yn
+Zhiishiiban na wminpawaawaan gaag?
+Zhiishiib-an na w-doo-mnopwaad-aa-an gaag
+duck-3.OBV QUES 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG porcupine.AN.3SG
+'Is it ducks that porcupines like to eat?'
+
+#120
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: yn
+Gaag na zhiishiiban wminpawaawaan?
+Gaag na zhiishiib-an w-doo-mnopwaad-aa-an
+porcupine.AN.3SG QUES duck-3.OBV 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG
+'Is it porcupines that like to eat ducks?'
+
+#121
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: yn
+Wminpawaawaan na zhiishiiban gaag?
+W-doo-mnopwaad-aa-an na zhiishiib-an gaag
+3GS.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG QUES duck-3.OBV porcupine.AN.3SG
+'Is eating something that porcupines like to do to ducks?'
+
+#122
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: yn
+Zhiishiiban wminpawaawaan na gaag?
+Zhiishiib-an w-doo-mnopwaad-aa-an
+duck-3.OBV 3SG.AC-PRES-like+the+taste+of-DIR.THM-GL.3SG QUES porcupine.AN-3SG
+'Is eating something that porcupines like to do to ducks?'
+
+#123
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: yn
+Ndoommaangshkiinzhgwe na?
+N-doo-mmaangshkiinzhgwed na
+1SG-PRES-have+big+eyes.1SG QUES
+'Do I have big eyes?'
+
+#124
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: yn
+Na ndoommaangshkiinzhgwe?
+Na n-doo-mmaangshkiinzhgwed
+QUES 1SG-PRES-have+big+eyes.1SG
+'Do I have big eyes?'
+
+#125
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: yn
+Maaba na nishnaabe moonshkwed?
+Maaba na nishnaabe w-doo-moonhashkiwed
+this.3.SG QUES 3-PRES-weed
+'Is it this Indian who is weeding?'
+
+#126
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: yn
+Maaba nishnaabe na moonshkwed
+Maaba nishnaabe na w-doo-moonhashkiwed
+this.3SG.Indian QUES 3-PRES-weed
+'Is it this Indian who is weeding?'
+
+#127
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: yn
+Moonshkwed na maaba nishnaabe?
+W-doo-moonhashkiwed na maaba nishnaabe
+3-PRES-weed QUES this.3.SG Indian
+'Is it weeding that this Indian is doing?'
+
+#128
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: yn
+Maaba nishnaabe moonshkwed na?
+Maaba nishnaabe w-doo-moonhashkiwed na
+this.3.Sg Indian 3-PRES-weed QUES
+'Is it weeding that this Indian is doing?'
+
+#####
+# UNGRAMMATICAL EXAMPLES
+#####
+
+#86 vta Pronoun does not agree with duck in obviation, and both arguments are proximate
+Source: author (cf a:12.163/577)
+Vetted: f
+Judgment: u
+Phenomena: vta, past
+Wgiiwaabmaan niw zhiishiibag
+W-gii-waabmaad-am-aa-an niw zhiishiib-ag
+3-PAST-see-DIR.THM-3.OBV.GL 3.ANIM.OBV.that duck-PL
+"He saw those ducks"
+
+#87 vta, Past tense morpheme must not precede personal prefix
+Source: author (cf a:12.346/629)
+Vetted: f
+Judgment: u
+Phenomena: vta, past
+Giinmbwaachhig
+Gii-n-nbwaachhaad-igw
+PAST-1-visit-INV.THM
+"He visited me"
+
+#88 vai, Verb must show negative inflection
+Source: author (cf a:16.305/838)
+Vetted: s
+Judgment: u
+Phenomena: vai, neg, past
+Gaa wii giinaagzi
+Gaawii w-gii-naagzid
+not 3-PAST-be.visible
+"He was not visible"
+
+#89 vai Must have negative adverb
+Source: author (cf a:16.305/838)
+Vetted: s
+Judgment: u
+Phenomena: vai, neg, past
+Giinaagzisii
+W-gii-naagzid-sii
+3-PAST-be.visible-NEG
+"He was not visible"
+
+#90 vii, Personal prefix required
+Source: author (cf a:16.56/775)
+Vetted: s
+Judgment: u
+Phenomena: vii, fut
+Wiigsinaamgad
+Wii-gsinnag
+FUT-be.cold
+"It will be cold"
+
+#91 vti, vti verbs cannot take animate objects
+Source: author (cf a:16.1/759)
+Vetted: s
+Judgment: u
+Phenomena: vti, pres
+Nwaabndaan binoojinh
+N-waabmdang-and-am-n binoojiinh
+1-see-THM1.VTI-INAN.GL child
+"I see a child"
+
+#92 vai, Present tense prefix required
+Source: author (cf a:16.3/760)
+Vetted: s
+Judgment: u
+Phenomena: vai, pres
+Nmmaangshkiinzhgwe
+N-mmaangshkiinzhgwed
+1-have.big.eyes
+"I have big eyes"
+
+#93 vta, Both subject and object are proximate
+Source: author (cf a:12.67/549)
+Vetted: s
+Judgment: u
+Phenomena: vta, past
+Wgiibaatiin'haawaan binoojiinyag
+W-gii-baatiinhaad-aa-waa-an binoojiinh-ag
+3-PAST-have.many child-PL
+"They had many children"
+
+#94 vta, Negative suffix required
+Source: author (cf a:16.315/840)
+Vetted: s
+Judgment: u
+Phenomena: vta, past, neg
+Gonda gaa wii wgiiwaabmaan
+Gonda gaawii w-gii-waabmaad-aa-an
+3.ANIM.PL.these not 3-PAST-see-DIR.THM-3.OBV.GL
+"These men did not see him"
+
+#95 vta actor 3OBV goal 3PL need proper feature constraints on gaag
+Source: author (cf. 18.7/933)
+Vetted: f
+Judgment: g
+Phenomena: vta, pres, pl
+Zhiishiiban wminpawaawaan giw gaagog
+Zhiishiib-an w-doo-mnopwaad-igw-waa-an giw gaag-og
+duck-3.OBV 3-PRES-like.the.taste.of-DIR.THM-PL.AC-3.OBV.GL 3.ANIM.PL.those porcupine-PL
+"Porcupines like to eat ducks"
+
+#96 vta, Must have personal prefix
+Source: author (cf a:13.1/648)
+Vetted: s
+Judgment: u
+Phenomena: vti, past
+Aankonaanyan giimiijnan
+Aankonaanh-an gii-miijid-am-an
+cracker-3.INAN.PL PAST-eat-THM1.VTI-3.INAN.PL.GL
+"I ate crackers"
+
+#97 vii, Must have personal prefix
+Source: author (cf a:18.53/952)
+Vetted: s
+Judgment: u
+Phenomena: vii, past, asp, pl, quant
+Nswi giibizhaamgadoon jiimaanan
+Nswi gii-bizhaamgak-oon jiimaan-an
+three PAST-come-PL boat-PL
+"Three canoes came"
+
+#98 vii, Pronoun giw does not agree in obviation with kwewan
+Source: author (cf a:12.352/631)
+Vetted: s
+Judgment: u
+Phenomena: vta, past
+Giw kwewan wgiignawenmigwaan giw binoojiinyag
+Giw kwe-wan w-gii-gnawenmaad-igw-waa-an giw binoojiinh-ag
+3.ANIM.PL.that woman-OBV 3-PAST-take.care.of-INV.THM-PL.AC-3.PL.GL 3.ANIM.PL.those child-PL
+"The women took care of the children"
+
+#99 vta, Pronoun niw does not agree in obviation with binoojiinyag
+Source: author (cf a:12.351/631)
+Vetted: s
+Judgment: u
+Phenomena: vta, past
+Giw kwewag wgiignawenmaawaan niw binoojiinyag
+Giw kwe-wag w-gii-gnawenmaad-aa-waa-an niw binoojiinh-ag
+3.ANIM.PL.those woman-PL 3-PAST-take.care.of-DIR.THM-PL.AC-3.OBV.GL 3.ANIM.OBV.that child-PL
+"The women took care of the children"
+
+#100 vta Must have negative adverb
+Source: author (cf a:12.315/620)
+Vetted: s
+Judgment: u
+Phenomena: vai, past, neg
+Giinbaasii wiin
+W-gii-nbaad-sii wiin
+3-PAST-sleep-NEG 3.ANIM.SG
+"He did not sleep"
+
+#101 vai, Must have personal prefix
+Source: author (cf a:12.110/562)
+Vetted: s
+Judgment: u
+Phenomena: vai, past, pn
+Giinshkaadzi maaba gchibne
+gii-nshkaadzid maaba gchibne
+PAST-be.angry 3.ANIM.SG.this big.partridge
+"This big partridge was angry"
+
+#102 vta,  Incorrect personal prefix -- since first person is involved it should be n-
+Source: author (cf a:13.132/700)
+Vetted: s
+Judgment: u
+Phenomena: vta, pres
+Aw kwe dazhtamaag nbabgiwyaan
+Aw kwe w-doo-zhitood-mawaad-igw nbabgiwyaan
+3.ANIM.SG.that woman 3-PRES-make.for-INV.THM my.shirt
+"That woman is making me a shirt"
+
+#103 was 3.40 in Lab 3 Missing inanimate goal suffix at the end
+Source: author (cf a:3.60/154)
+Vetted: s
+Judgment: u
+Phenomena: vti, past
+Gaasmoonijiimaan wgiiwzhitoon
+Gaasmoonijiimaan w-gii-wzhitaatood-oo
+sailboat 3-PAST-make-THM2.VTI
+"He made a sailboat"
+

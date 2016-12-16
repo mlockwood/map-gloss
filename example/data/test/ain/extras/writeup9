@@ -1,0 +1,185 @@
+
+**********************
+
+Mami Sasaki
+Lab9 write-up
+8 Mar 2009
+
+**********************
+
+
+1)Clean-up
+
+1.Added [INFLECTED +] to modal-aux-lex to prevent prefix pronouns to be applied to modal-verbs.
+
+2. Added more lexicons.
+   - to sleep
+mokor := intrans-sleep-verb-lex &
+[ STEM < "mokor" >,
+  SYNSEM.LKEYS.KEYREL.PRED "_sleep_v_rel" ].
+    
+   - car (it actually means either boat or transportation)
+cip := common-boat-noun-lex &
+  [ STEM < "cip" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_car_n_rel" ].
+
+   - glass (Finally found it!)
+tuki := common-glass-noun-lex &
+  [ STEM < "tuki" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_glass_n_rel" ].
+ 
+   - to know
+eraman := clausal-embed-prop-verb-lex &
+  [ STEM < "eraman" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ].
+
+   - hungry
+iperusuy := adjective-lex &
+  [ STEM < "iperusuy" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hungry_a_rel"].
+
+3. In semi.vpm, I added the following:
+
+PNG.PER : PNG.PER
+  first  <> 1st
+  second <> 2nd
+  third  <> 3rd
+ *      <> !
+
+E.TENSE : TENSE
+   tense <> tense
+
+PNG.PERNUM : PNG.PER PNG.NUM
+1sing <> first sg
+2sing <> second sg
+3sing <> third sg
+1plu <> first pl
+1plu_incl <> first pl
+1plu_excl <> first pl
+2plu <> second pl
+3plu <> third pl
+*   >> ! !
+!   << * *
+
+4.Commented out pass-lex-rule as we don't implement passive now.
+
+5.Changed the [ OPT-CS activ-or-more ] to type-id on prodrop-transitive-verb otherwise eat verb didn't work.
+
+6.When prodrop is happening in the sentences like eci-kesanpa "I chase you" or somo en-arka "it doesn't hurt me",  prodrop-transitive-verb-lex with OPT-CS constraints didn't work. So changed the supertype of chase and hurt verbs from prodrop-transitive-verb-lex to regular-transitive-verb-lex as it is not constrained by OPT-CS.
+
+7.Fixed both types of clausal-embed-verb-lex. Instead of constraining the SF value of complement, I used to constraint that of verbs itself.
+
+8. Further, in addtion to 7, needed to change the constraints of SF on the comp-ques-lex and comp-prop-lex.
+
+9.Added [ MC - ] for comp-prop-lex and comp-ques-lex so that they won't be attached at the end of the sentence.
+
+10.In this-near-pl-determiner-lex, found a bug on 3sing->3plu  
+this-near-pl-determiner-lex := demonstrative-determiner-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PERNUM 3plu ].
+
+11.Changed the name of comp-ques-lex from ya to ya2 to diffrentiate it from the question marker ya.
+
+ ya := qpart-lex-item &
+  [ STEM < "ya" > ].
+
+ya2 := comp-ques-lex &
+  [ STEM < "ya" > ].
+
+
+2) Transfer rules
+
+Eng->Ainu
+
+1. I needed pro-drop rule as Ainu can allow to omit both subject and object pronouns.
+
+pro-drop := pronoun-delete-mtr.
+
+2. Added a rule to transfer from exist_q_rel to exist_q_rel on demonstrative_a_rel as Ainu had unspec_q_rel on bare-np-phrase where English has exist_q_rel.
+
+
+exist-unspec-mtr := monotonic_mtr &
+ [ INPUT [ RELS < ! [ PRED "exist_q_rel",
+		   ARG0 #x,
+		   RSTR #harg ] ! > ],
+   OUTPUT [ RELS < ! [ PRED "unspec_q_rel",
+		   ARG0 #x,
+		   RSTR #harg ] ! > ],
+    FILTER [ RELS < ! [ PRED demonstrative_a_rel,
+              ARG1 #x] ! > ] ].
+
+
+3.Added a rule to transfer from proximal+dem_a_rel to near+dem_a_rel on proximal+dem_a_rel in English because Ainu has near+dem_a_rel on the word, "these" and not proximal+dem_a_rel.
+
+proximal-near-mtr := monotonic_mtr &
+ [ INPUT [ RELS < ! [ PRED "proximal+dem_a_rel",
+		   ARG0 #x,
+		   RSTR #harg ] ! > ],
+   OUTPUT [ RELS < ! [ PRED "near+dem_a_rel",
+		   ARG0 #x,
+		   RSTR #harg ] ! > ],
+    FILTER [ RELS < ! [ PRED proximal+dem_a_rel,
+              ARG1 #x] ! > ] ].
+
+
+Ita->Ainu
+1. Added a rule to transfer from exist_q_rel to exist_q_rel on demonstrative_a_rel as Ainu had unspec_q_rel on bare-np-phrase where English has exist_q_rel.
+
+
+exist-unspec-mtr := monotonic_mtr &
+ [ INPUT [ RELS < ! [ PRED "exist_q_rel",
+		   ARG0 #x,
+		   RSTR #harg ] ! > ],
+   OUTPUT [ RELS < ! [ PRED "unspec_q_rel",
+		   ARG0 #x,
+		   RSTR #harg ] ! > ],
+    FILTER [ RELS < ! [ PRED demonstrative_a_rel,
+              ARG1 #x] ! > ] ].
+
+2.Added hurt := make-harm-mtr rule as Italian usage of hurt is different from Ainu.
+
+3.More required transfer rules
+
+1. I also wanted to develop a rule that can transfer the value on COG-ST as when they don't match on the verbs and prodrop occurs, it didn't translate properly. 
+2. And the last rule I needed was from non-sg to pl. The sentence these dogs sleep didn't translate as I couldn't figure out how to match these 2 values.
+
+
+4. Coverage
+
+Eng->Ainu
+16/17 sentences are translated.
+
+Ita->Ainu
+15/17 sentences are translated.
+
+But still overgerating some setences by adding pesonal pronouns like e-, en-.
+
+Overall more constraints are needed on:
+a. adverbs being applied to S as well as VP.
+
+b. personal pronouns as: 
+   1pl-nom-prefix-lex-rule
+   1sg-obj-prefix-lex-rule
+   2-obj-prefix-lex-rule
+   2sg-obj-prefix-lex-rule
+
+
+5. Missing coverage
+
+Eng->Ainu
+
+1)These dogs sleep.
+
+English had three non-sg and Ainu had three pl on these. I tried to match them thru semi.vpm or by changing the constraint value on the this-near-pl-determiner-lex from plu to 3plu to non3sg, I just couldn't figure out how to match these 2 values.
+ 
+this-near-pl-determiner-lex := demonstrative-determiner-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PERNUM 3plu ].
+
+
+Ita->Ainu
+
+1)Same as above.
+2)cani e gatti insegu-ono macchine "dogs and cats chase cars."
+"and" has third non-sg in Italian where third plu for Ainu. 
+
+3)Cani affamat-i mangi-ano "DO cats chase dogs?" 
+It generated just a regular sentence, cats chase dogs and didn't add the question marker at the end to convert the sentence to a question.

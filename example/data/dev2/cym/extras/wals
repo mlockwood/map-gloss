@@ -1,0 +1,10 @@
+note: cym maps to two wals 'languages' welsh and welsh (colloquial)
+
+from 'welsh':
+features-no;feature-name;value;ref
+---------------------------------
+49A;Number of Cases;No morphological case-marking;King 1993a (80-83, 90-93)
+50A;Asymmetrical Case-Marking No case-marking;King 1993a (80-83, 90-93)
+51A;Position of Case Affixes;No case affixes or adpositional clitics;Williams 1980b (passim)
+
+no case info on 'welsh (colloquial)'

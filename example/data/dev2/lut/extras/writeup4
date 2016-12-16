@@ -1,0 +1,297 @@
+=== 1. Changes to choices file ===
+
+The changes to the choices file were relatively minor this time around.
+We changed the behavior of the determiners/demonstratives to better reflect the phenomena in the language.
+We added coordination between NPs.  This is done with a polysyndeton coordination scheme, with a word that precedes the coordinand.
+Examples:
+
+#118
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {crd}
+Pronoun must come first
+x̣ʷil̕ ti č̓ač̓as ʔi čad
+x̣ʷil̕ t-i č̓ač̓as ʔi č-ad
+get.lost det.def-dir child and ind.pred-I
+'the child and I get lost'
+
+We added adverbs. Because they function like auxiliaries, we were able to put them in the customization system.
+Examples:
+
+#135
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adv}
+ck̕ʷáqid ti č̓ač̓as ?ux̣ʷil̕
+ck̕ʷáqid t-i č̓ač̓as x̣ʷil̕
+always det.def-dir child get.lost
+'the child always gets lost'
+
+=== 2. Properties exclusively in Test suite ===
+
+Matrix yes/no questions are formed in Lushootseed by adding a question particle whose position varies according to the sentence structure.  If the subject has raised past the verb, the particle goes after the subject, and if the subject has not raised, it goes after the subject.  The particle can also go at the end of the sentence to make a question such as "It is really you, isn't it?"
+Examples:
+
+#109
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+ʔəstágʷəxʷ ʔu
+ʔəs-tágʷəxʷ ʔu
+static-hungry Q
+'Is/are he/she/it/they hungry?'
+
+#110
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+híkʷ čəxʷ ʔu ɬuʔəsxəɬqìd
+híkʷ čəxʷ ʔu ɬu-ʔəs-xəɬqìd
+very ind.pred-you Q past-stative-get.headache
+'Do you generally get severe headaches?'
+
+#111
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+híkʷ čəxʷ ɬuʔəsxəɬqìd ʔu
+híkʷ čəxʷ ɬu-ʔəs-xəɬqìd ʔu
+very ind.pred-you past-stative-get.headache Q
+'You generally get severe headaches, don't you?'
+
+#112 - incorrect, when there is both an auxilliary and an overt
+#      subject, the question particle follows the subject
+Source: a
+Vetted: f
+Judgment: u
+Phenomena: {q}
+híkʷ ʔu čəxʷ ɬuʔəsxəɬqìd
+híkʷ ʔu čəxʷ ɬu-ʔəs-xəɬqìd
+very Q ind.pred-you past-stative-get.headache
+'Do you generally get severe headaches?'
+
+#113
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+ɬuʔəsháʔɬ ʔu
+ɬu-ʔəs-háʔɬ ʔu
+past-stative-well Q
+'Is/are he/she/it/they habitually well?'
+
+#114 - {ʔu} occurs after either auxilliary or verb in accord with the
+#      meaning.
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {q}
+ʔu ƛ̕asáʔɬ
+ʔu ƛ̕asáʔɬ
+Q well
+'Is/are he/she/it/they well?'
+
+#115
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+təɬ ʔu dəgʷí
+təɬ ʔu dəgʷí
+true Q you
+'Is it really you?'
+
+#116
+Source: a
+Vetted: f
+Judgment: g
+Phenomena: {q}
+təɬ dəgʷí ʔu
+təɬ dəgʷí ʔu
+true you Q
+'It is really you, isn't it?'
+
+#117 - {ʔu} occurs after either auxilliary or verb in accord with the
+#      meaning.
+Source: a
+Vetted: f
+Judgment: u
+Phenomena: {q}
+ʔu təɬ dəgʷí
+ʔu təɬ dəgʷí
+Q true you
+'Is it really you?'
+
+Attributive adjectives are very simple in Lushootseed.  They always immediately precede the noun, and show no agreement morphology.
+Examples:
+
+#132
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adj}
+ʔik̕ʷid čad ti hìkʷ ʔalʔəl
+ʔik̕ʷid č-ad t-i hìkʷ ʔalʔəl
+sweep ind.pred-I det.def-dir big house
+'I sweep the big house'
+
+Embedded clauses are likewise simple.  The embedded clause is a normal S, except that the particles used in it do not have the independent predication marker, and the third-person particle is admissable.
+Examples:
+
+#138
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-d}
+ʔəsxə́c čad x̣ʷil ti č̓ač̓as
+ʔəs-xə́c č-ad x̣ʷil t-i č̓ač̓as
+stative-fear ind.pred-I get.lost det.def-dir child
+'I fear that the child is lost'
+
+#139
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-d}
+ʔəsxə́c ti č̓ač̓as x̣ʷil ad
+ʔəs-xə́c t-i č̓ač̓as x̣ʷil ad
+stative-fear det.def-dir child get.lost I
+'The child fears that I am lost'
+
+#140 Incorrect, particles in dependant clauses must not have the ind. pred. marker
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {emb-d}
+ʔəsxə́c ti č̓ač̓as x̣ʷil čad
+ʔəs-xə́c t-i č̓ač̓as x̣ʷil č-ad
+stative-fear det.def-dir child get.lost ind.pred-I
+'The child fears that I get lost'
+
+#141 Incorrect, embedded clauses function as the object, not subject, of fear
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {emb-d}
+ʔəsxə́c x̣ʷil čad ti č̓ač̓as
+ʔəs-xə́c x̣ʷil č-ad t-i č̓ač̓as
+stative-fear get.lost ind.pred-I det.def-dir child
+'The child fears that I get lost'
+
+#142 The third person particle may appear in dependant clauses
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {emb-d}
+ʔəsxə́c ti č̓ač̓as x̣ʷil as
+ʔəs-xə́c t-i č̓ač̓as x̣ʷil as
+stative-fear det.def-dir child get.lost 3rd
+'The child fears that he/she/it/them get(s) lost'
+
+Non-verbal predicates are formed by placing a subject after a noun or adjective.  The subject may be dropped if it is third person, and the noun/adjective can take the past/future markers.
+Examples:
+
+#146
+Source: d
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+sʔuladxʷ tiʔiɬ
+sʔuladxʷ t-i-ʔiɬ
+salmon det.def-dir-there
+'That is a salmon'
+
+#147 Incorrect, non-verbal predicates precede their subjects
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+tiʔiɬ sʔuladxʷ
+t-i-ʔiɬ sʔuladxʷ
+det.def-dir-there salmon
+'That is a salmon'
+
+#148
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+sʔuladxʷ čad
+sʔuladxʷ č-ad
+salmon ind.pred-I
+'I am a salmon'
+
+#149
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+tusʔuladxʷ čad
+tu-sʔuladxʷ č-ad
+past-salmon ind.pred-I
+'I was a salmon'
+
+There are several interesting information structure phenomena.
+First, adverbs can be moved to the end of the sentence to emphasize them.
+
+#155
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {wo,info}
+x̣ʷil ti č̓ač̓as ck̕ʷáqid̕
+x̣ʷil̕ t-i č̓ač̓as ck̕ʷáqid
+det.def-dir child get.lost always
+'the child \emph{always} gets lost'
+
+The second is the system of pronouns.  If a pronoun subject (not a particle) occurs before the verb, then it changes the meaning of the sentence to emphasize the pronoun.
+
+#156
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {pn,info}
+ʔəcá x̣ʷil̕
+ʔəcá x̣ʷil̕
+I get.lost
+'It is I that gets lost'
+
+Finally, in passive constructions (which only occur with transitive verbs), the order of the arguments determines which has focus, and the subject is marked with a preposition.  Whichever argument appears first has focus.
+
+#161
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {wo,info}
+ʔik̕ʷidb ʔə ti č̓ač̓as ti ʔalʔəl
+ʔik̕ʷid-b ʔə t-i č̓ač̓as t-i ʔalʔəl
+sweep-pass P det.def-dir child det.def-dir house
+'the house is swept by the child'
+
+#164 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {wo,info}
+ʔik̕ʷidb ti ʔalʔəl ʔə ti č̓ač̓as
+ʔik̕ʷid-b t-i ʔalʔəl ʔə t-i č̓ač̓as
+sweep-pass P det.def-dir child det.def-dir house
+'the house is swept by the child'
+
+=== 3. Coverage ===
+
+All of the examples whose phenomena we have implemented parse.  There are a handful of incorrect sentences that do parse, due to not restricting verbs to only a single full NP argument.
+
+=== 4. Limitations of Customization System ===
+
+Our interrogative particle is neither sentence initial or sentence final, so we have not implemented matrix yes/no questions.
+We have not been able to restrict transitive verbs to only one full NP with the customization system.
+The S coordination pattern in Lushootseed is not marked with an independent word, so we cannot implement it with the Matrix.  The word order changes that result are also not implementable.
+Adjectives and non-verbal predicates are not included in the Matrix, so we have yet to implement them.
+Passives require the use of prepositional phrases, so they are not implementable with the Matrix.
+The word-order change with pronouns that occurs in order to focus the pronoun will require a new phrase-structure rule, so we cannot implement it yet.

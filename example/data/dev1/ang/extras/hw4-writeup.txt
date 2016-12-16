@@ -1,0 +1,115 @@
+﻿											Meg Mitchell
+											Ling 567
+
+					HW 4 WRITEUP
+
+## DOCUMENTATION OF CHOICE ##
+
+CASE
+     I specified case-marking as nominative-accusative, where the affix used was specified as “unmarked”, for now.  There were two reasons for this:
+1.The nominative-accusative case marking varies by gender, so there was no one affix that would be correct.
+2.In the nominative-accusative case for masculine and neuter nouns, the case is unmarked.  In the nominative case for feminine nouns, the noun is also unmarked.  
+     So, “unmarked” seemed the most generalizable designation.
+
+WORD ORDER
+	The predominant word order in Old English is SVO, so that's the order I chose.  The language has determiners, where determiners precede their noun, and so I specified that as well.
+
+SENTENTIAL NEGATION
+	There are lots of words for negation in Old English, so I chose the most common one, “ne”, used like “not” today.  This word appears both as a word that stands on its own, appearing before the thing it modifies, and as a prefix, attaching to a verb it's negating.  Perhaps it's a clitic.  So far is appears that inflectional and adverbial negation are used in complementary distribution.
+
+COORDINATION
+	There's actually a lot going on with coordination, more than I originally realized.  The language is basically polysyndeton, where the patterns A and B, A and B and C, A and B and C and D are all grammatical.  However, there's more to it.  There's not just one word for coordination, there are two - “and” and “ond”.  When “and” is used, the list is enumerative.  When “old” is used, the list is cumulative.  Items grouped together within a larger list seem to occur with “ond”, and so I find patterns of the form:  
+A ond B, C ond D.
+	Interestingly, although the pattern A, B and C is allowed, A, B, C and D is not allowed.  I think the key to understanding this is the coordinand chosen for this grouping – it's the word “ond”, not “and”.  As such, I think the pattern A, B ond C reflects a cumulative grouping, where B and C stand together, separate from A.  We may use a colon or hypen to express this today.
+
+
+
+	Ex:
+				Tegne gesealde
+	geongum garwigan     goldfahne helm,
+	beah ond byrnan,	het hyne brucan well
+				“(to the) thane gave --
+	(to the) young spear-warrior	gold-gleaming helmet,
+	ring and mail-shirt,	(and) bade him use-them well.”	
+
+	The idea here is that, although Modern English translations may translate things of the form “helm beah ond byrnan” as equivalent to “helmet, ring and mail-shirt”, this coordination is actually more poetic, expressing something more like a hierarchy, where the first element is separated as perhaps being higher than the following two.  So, the fact that we don't see anything of the form A, B, C and D is not surprising – this grouping would not express a comparable relationship.  
+	I've decided to not say that Old English allows a monosyndeton pattern, but instead two polysyndeton patterns – one with “and” and one with “ond”
+
+MATRIX YES/NO QUESTIONS
+	Since Old English doesn't have any question particles or verbal inflection to mark questions, I think questions were mostly distinguished by prosody.  Similar to today, the word order for questions was VSO.  But in contrast to Modern English, Old English had a relatively free word order.  Because of this, the order VSO could also be used for statements.  Therefore, with no prosody information, the orthographic ? is maybe necessary in order to distinguish questions from statements.  But that's not part of the ascii alphanumerics, so I suppose for now I'll just assume that, given a VSO sentence, that sentence is a question.  VSO statements will have to be dealt with later...  
+
+BASIC LEXICON
+	The nouns I chose were “stan”, “stone”, and “giefu”, “gift”.  “stan” is masculine and “giefu” is feminine.  Both words are unmarked in the nominative case, so I figured these forms would work for now.  In the accusative case, “stan” remains unmarked, but “giefu” becomes “giefe”.  Go figure.
+	The verbs I chose were, in their root form, “sl@p”; “sleep”, and “lufi”; “love”.  I chose their 3rd-singular form, “sl@peT” and “lufaT”.  Unfortunately, the @ character didn't go over well, so I changed it to ae.  @ is supposed to represent the sound in “hat”, and in Old English was identical to the phonetic character for that sound – a little ae combined.  So I switched the character to ae.  Viewing my word list from tsdb() in emacs showed the words as slaep-et and luf-at.  So I guess capital letters are out, too?  Wait, they're only out for some thing.  Which thing?  I've now played around with adding them as th and T but I don't expand my coverage.  I'm going to keep them as “slaepeT” and “lufaT”.
+	The auxiliary verb I chose was the verb “will”.  Auxiliary verbs act as independent predicates, so when “will” is used an auxiliary, it gets inflected for person and number, and the following verb appears uninflected.  I specified these forms as “slaep” and “lufi”.  Further, I specified that the auxiliary verb takes as its complement a VP, appearing before it and taking as subject an NP.
+	As far as determiners go, I decided to try the ones that sounded the most like Modern English ones.  They're all marked for case and gender, so choosing one isn't that easy.  I chose “Taet”, “that”, which occurs with neuter nouns, and “Ta”, “the” in accusative feminine singular and nominative/accusative feminine/masculine plural.  
+
+## SENTENCE PARSING ##
+	Worked great!  Returned the expected structures!
+	I tried parsing “Taet stan slaepeT”, “that stone sleeps”.  That actually isn't grammatical, “Taet” is a neuter determiner and “stone” is masculine, so I added the neuter nominative determiner, “se”.  That parsed fine.  Then I expanded my lexical coverage to take a noun that could occur with “Ta” - I chose the feminine plural form of “giefu”, “giefe”, so then I expanded my lexical coverage to the plural form of “lufi”, “lufiaT”, and tried to parse the sentence “Ta giefe lufiaT Taet stan”, “the gifts love that stone”.  That worked, too!  But again, Taet is actually just the Neuter determiner.  So I added a neuter noun, “ban”, “bone”, and parsed the sentence “Ta giefe lufiaT Taet ban”, “the gifts love that bone”.  That worked. =)
+
+## COVERAGE/OVERGENERATION ##
+	Before I expanded my vocabulary, I got 0% coverage and 0% overgeneration.  After I expanded my vocabulary, I included words that I saw appearing the most often – pronouns, and some forms of the verbs.  But 0% coverage/overgeneration is still what I got.  I think this has something to do with how the words appear in emacs.  Instead of “slaepeT”, say, it is “slaep-et”.  I don't want to go through and drop my capital letters if I don't have to.  I also don't quite understand whether this means that they have to be morpheme-separated in lexicon.tdl or not.  I have them both ways in the test-suite, although when doing make_item.pl I said I wanted them separated by morpheme boundaries, so maybe that's why?  Does this mean I have to morpheme-separate them in lexicon.tdl?  But that dash isn't an ascii alphanumeric, so I don't want to add it like that to my lexicon...I'm really confused as to what can be capital, what can't, where, why, and how to incorporate the changes properly.  But it is possible I just don't have any sentences that show this limited phenomena – again, determiners and nouns belong to different gender classes, inflecting different ways depending on number and case.  I've already spent 15 hours on this getting everything to run properly, though, so I'm assuming that 0% coverage and overgeneration is okay for now, until we can start getting a better grammar set up.
+
+
+
+
+
+
+
+
+
+
+
+## BIGGEST BANG FOR BUCK ##
+
+	I need to deal with inflections.  All the gender and case and
+	number interaction is really important to encode rules for.  I
+	have some fully inflected forms in my lexicon.tdl, but this
+	doesn't match the morpheme-separation provided by the
+	make_item script, but I think lexicon.tdl has to have all
+	alphanumerics, so I'm kind of confused about what to do.  I'm
+	not inspired to simplify any of my sentences, no, because most
+	of my sentences right now are extremely simple sentences.
+	However, the fact that there is so much agreement going on
+	makes it hard to parse straight off the bat.  Things are also
+	complicated by the fact that I'm marking unvoiced
+	“th” with T and voiced
+	“th” with D.  I need to figure out where
+	capital letters are allowed and where they're not, and how
+	things should change.  I also still have yet to figure out
+	when T is used and when D is used.  It seems that different
+	grammar books use one or the other, to illustrate the same
+	determiners.  It appears that they were allophones, and
+	spelling wasn't too regularized, so maybe that's why.  Still,
+	it makes sentence parsing hard – if I'm inputting
+	Ta but all I have written is Da, there will be no parses
+	returned.  Perhaps I should make a T = D rule.
+
+	But the gender/number/case marking is the biggest problem.  As mentioned in second homework, we have a paradigm like this for nouns with their determiners:
+	Masculine
+	se stan = "the stone";	se daeg = "the day"
+		Singular		Plural
+	N.	se stan / d@g		Da stanas / dagas
+	A.	Done stan / d@g	Da stanas / dagas
+	D.	D@m stane / d@ge	D@m stanum / dagum
+	G.	D@s stanes / d@ges	Dara stana / daga
+	I.	Dy stane / d@ge	D@m stanum / dagum
+	Neuter
+	D@t ban = "the bone"; D@t tungol = "the star"
+		Singular		Plural
+	N.	D@t ban / tungol	Da ban / tungol
+	A.	D@t ban / tungol	Da ban / tungol
+	D.	D@m bane / tungle	D@m banum / tunglum
+	G.	D@s banes / tungles	Dara bana / tungla
+	I.	Dy bane / tungle	D@m banum / tunglum
+	Feminine
+	Seo giefu = "the gift"; seo sawol = "the soul".
+		Singular		Plural
+	N.	seo giefu / sawol	Da giefa / sawla
+	A.	Da giefe / sawle	Da giefa / sawle
+	D.	D@re giefe / sawle	D@m giefum / sawlum
+	G.	D@re	giefe / sawle	Dara giefa / sawla
+	I.	D@re giefe / sawle	D@m giefum / sawlum
+	
+	And whether, given a noun, the determiner starts with a T or a D is beyond me and seems to switch around randomly.

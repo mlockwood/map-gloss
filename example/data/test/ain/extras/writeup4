@@ -1,0 +1,413 @@
+***write-up***
+
+1.
+1)Added plural demostratives.
+
+e.g. 
+
+#Grammatical sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+nerok hekaci mina.
+nerok hekaci mina
+that-pl boy laugh
+`those boys laughed.'
+
+
+#Ex 79
+#Ungrammatical sentence
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: det
+hekaci nerok mina.
+hekaci nerok mina
+boy that-pl laugh
+`those boys laughed.'
+
+
+2)Added new nouns, place.
+
+#Ex 89
+#Grammatical sentence
+Source: e:46
+Vetted: f
+Judgment: g
+Phenomena: cop
+cape cise or ta an.
+cape cise or ta an
+cat house place in to-be
+`The cat is in the house.'
+
+3)Added new noun house just to quote the example from the grammar book.
+
+#Ex 87
+#Grammatical sentence
+Source: f:26
+Vetted: f
+Judgment: g
+Phenomena: cop
+cise pirka.
+cise pirka
+house beautiful
+`The house is beautiful.'
+
+#Ex 92
+#Grammatical sentence
+Source: e:236
+Vetted: f
+Judgment: g
+Phenomena: cop
+kani menoko ku-ne.
+kani menoko ku-ne
+1sg-PRON girl COP
+`I am a girl.'
+
+4)Added new verb 'think' and 'ask' to show the examples of embedded clauses.
+
+#Ex 94
+#Grammatical sentence
+Source: {c:193, author}
+Vetted: t
+Judgment: g
+Phenomena: emb-d
+seta cape kesanpa kuni ku ramu.
+seta cape kesanpa kuni ku ramu
+dog cat chase that 1sg-NOM think
+`I think that the dog chases the cat.'
+
+#Ex 97
+#Grammatical sentence
+Source: {f:162, author}
+Vetted: t
+Judgment: g
+Phenomena: emb-d
+hekaci ek ya ku konu.
+hekaci ek ya ku konu
+boy come if 1sg-NOM ask
+'I asked if the boy came.'
+
+
+2.
+
+2)Added attributive adjectives.
+
+#Ex 80
+#Grammatical sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+pirka seta ek.
+pirka seta ek
+beautiful dog come
+`A beautiful dog comes.'
+
+#Ex 82
+#Grammatical sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+pirka seta ka pirka cape ek.
+pirka seta ka pirka cape ek
+beautiful dog and beautiful cat come
+`A beautiful dog and a beautiful cat come.'
+
+3)Added adverbs.
+
+Source: e:235
+Vetted: f
+Judgment: g
+Phenomena: neg
+hekaci somo ek.
+hekaci somo ek
+boy not come
+`A boy doesn't come.'#Ex 85
+#Grammatical sentence
+Source: f:26
+Vetted: f
+Judgment: g
+Phenomena: adv
+hekaci tunas ek.
+hekaci tunas ek
+boy early come
+`The boy came early.'
+
+
+4)Added non-verbal predicates
+
+type 1
+
+#Ex 87
+#Grammatical sentence
+Source: f:26
+Vetted: f
+Judgment: g
+Phenomena: cop
+cise pirka.
+cise pirka
+house beautiful
+`The house is beautiful.'
+
+type 2
+
+#Ex 89
+#Grammatical sentence
+Source: e:46
+Vetted: f
+Judgment: g
+Phenomena: cop
+cape cise or ta an.
+cape cise or ta an
+cat house place in to-be
+`The cat is in the house.'
+
+type 3
+
+#Ex 92
+#Grammatical sentence
+Source: e:236
+Vetted: f
+Judgment: g
+Phenomena: cop
+kani menoko ku-ne.
+kani menoko ku-ne
+1sg-PRON girl COP
+`I am a girl.'
+
+
+5)Added embedded clauses.
+
+relative clause
+
+#Ex 94
+#Grammatical sentence
+Source: {c:193, author}
+Vetted: t
+Judgment: g
+Phenomena: emb-d
+seta cape kesanpa kuni ku ramu.
+seta cape kesanpa kuni ku ramu
+dog cat chase that 1sg-NOM think
+`I think that the dog chases the cat.'
+
+
+yes-no question type
+
+#Ex 97
+#Grammatical sentence
+Source: {f:162, author}
+Vetted: t
+Judgment: g
+Phenomena: emb-d
+hekaci ek ya ku konu.
+hekaci ek ya ku konu
+boy come if 1sg-NOM ask
+'I asked if the boy came.'
+
+6)Added argument optionality.
+
+#Ex 73
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+eci kikkik.
+ku-e kikkik
+1sg-NOM 2sg-OBJ hit
+`I hit you.'
+
+#Ex 74
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: u
+Phenomena: pro-d
+ku eci kikkik.
+ku-e kikkik
+1sg-NOM 2sg-OBJ hit
+`I hit you.'
+
+
+3.
+For total, overall coverage is 67.6%.
+For i-length in [5 .. 10] is 100%.
+For [0..5] is 64.5%.
+
+1)unanalyzed grammatical examples
+
+The following examples weren't analyzed. 
+It could be because 2pl-OBJ is also eci so it might be misleading parser.
+
+#Ex 77
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+eci kikkik.
+ku-e kikkik
+1sg-NOM 2sg-OBJ hit
+`I hit you.'
+
+
+Haven't implemented the rule for copula yet.
+
+#Ex 87
+#Grammatical sentence
+Source: f:26
+Vetted: f
+Judgment: g
+Phenomena: cop
+cise pirka.
+cise pirka
+house beautiful
+`The house is beautiful.'
+
+#Ex 89
+#Grammatical sentence
+Source: e:46
+Vetted: f
+Judgment: g
+Phenomena: cop
+cape cise or ta an.
+cape cise or ta an
+cat house place in to-be
+`The cat is in the house.'
+
+#Ex 92
+#Grammatical sentence
+Source: e:236
+Vetted: f
+Judgment: g
+Phenomena: cop
+kani menoko ku-ne.
+kani menoko ku-ne
+1sg-PRON girl COP
+`I am a girl.'
+
+Haven't implemented the rule for the embedded clauses.
+
+#Ex 94
+#Grammatical sentence
+Source: {c:193, author}
+Vetted: t
+Judgment: g
+Phenomena: emb-d
+seta cape kesanpa kuni ku ramu.
+seta cape kesanpa kuni ku ramu
+dog cat chase that 1sg-NOM think
+`I think that the dog chases the cat.'
+
+#Ex 97
+#Grammatical sentence
+Source: {f:162, author}
+Vetted: t
+Judgment: g
+Phenomena: emb-d
+hekaci ek ya ku konu.
+hekaci ek ya ku konu
+boy come if 1sg-NOM ask
+'I asked if the boy came.'
+
+
+2)analyzed ungrammatical examples
+
+Haven't implemented the rule for the personal pronouns yet.
+
+#Ex 74
+#Grammatical sentence
+Source: d:225
+Vetted: f
+Judgment: u
+Phenomena: pro-d
+ku eci kikkik.
+ku-e kikkik
+1sg-NOM 2sg-OBJ hit
+`I hit you.'
+
+Haven't implemented the rule for the noun modifiers yet.
+
+#Ex 81
+#Ungrammatical sentence
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+seta pirka ek.
+seta pirka ek
+boy that-pl laugh
+`A beautiful dog comes.
+
+#Ex 84
+#Ungrammatical sentence
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+seta cape nukar pirka.
+seta cape nukar pirka
+dog cat see beautiful
+`A beautiful dog looks at a cat.'
+
+
+3)surprising parses
+
+There showed 24 parses for the following sentence.
+
+#Ex 82
+#Grammatical sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+pirka seta ka pirka cape ek.
+pirka seta ka pirka cape ek
+beautiful dog and beautiful cat come
+`A beautiful dog and a beautiful cat come.'
+
+And 76 parses for the following:
+
+#Ex 83
+#Grammatical sentence
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+pirka seta ek wa pirka cape ahun.
+pirka seta ek wa pirka cape ahun
+beautiful dog come and beautiful cat enter
+`A beautiful dog comes and a beautiful cat enters.'
+
+
+4.
+1)I found a bug in the lexicon.tdl.
+For the overlapping coordination problem I mentioned in the previous lab was caused by the same numbering for both methods as follows:
+
+wa_1 := conj-lex &
+  [ STEM < "wa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "1" ].
+
+ka_1 := conj-lex &
+  [ STEM < "ka" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "1" ].
+
+So after I changed the 2nd rule to ka_2 and CFORM "2", both coordination examples were parsed correctly.
+
+2)
+I contacted the foundation for research and promotion of ainu culture and found someone who could help me to verify the grammaticality of the sentences I generated. Althought he is not a native speaker of Ainu, he has been working on this language for many years and he also publishes the only Ainu newspaper in Japan. He suggested some good reference books and explained the basic grammar of Ainu. It was extremely helpful and I made a correction to some of my sentences.
+
+e.g.
+cat
+meeko -> cepa
+
+seta meeko hospa.
+ -> seta cepa kes-anpa.
+
+"A dog chases (after) a cat."

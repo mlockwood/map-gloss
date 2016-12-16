@@ -1,0 +1,124 @@
+Michael Wayne Goodman
+ling567
+lab4 writeup
+
+Starter Grammar Choices
+
+    __Language__
+    Taiwanese_Min_Nan.  I felt that it was necessary to include the Min_Nan in
+    order to distinguish it from other languages that are primarily Taiwanese,
+    and also because Min Nan is the language family it belongs to (as well as
+    "nan" being the 3-letter code used by ethnologue).
+
+    __Features__
+    None.  There seems to be no case or agreement in the language.
+
+    __Word Order__
+    SVO, has determiners, det-noun.  Other orders are possible with the addition
+    of some particles, but the main ordering is SVO.  Also, determiners exist,
+    and always appear before the noun.  However the system of classifiers used
+    in conjunction with determiners will likely have to be hand written.
+
+    __Sentential Negation__
+    An adverb, independent modifier of V, appears before, spelled 'm7'.  While
+    there are other words capable of negating a sentence (any negated verb,
+    apparently), 'm7' seems to be the most general one.  It might modify VPs
+    instead of Vs, but I have not seen enough data to conclude this yet.
+
+    __Coordination__
+    1: nouns & NPs, monosyndeton, word, spelled 'kap1', comes before.
+    2: VPs, monosyndeton, word, spelled 'koh1', comes before
+    These two mark most of the coordination strategies, although there is also
+    an optional asyndeton strategy for commonly occuring nouns (ie small and
+    big ones).  The second one might apply to sentences as well, but I am not
+    sure yet.  Also, the first one apparently applies to a few verbs, but I
+    did not include verbs since this is a fringe case.
+
+    __Matrix Yes/No Questions__
+    Separate question particle, sentence final, spelled 'bo5'.
+    Despite what I had said in previous labs, a new book that I have acquired
+    shows sentences that have matrix questions with only a negative particle at
+    the end, and not the positive form.  While I'm not sure if this is truly
+    sentence final, or merely VP-final, the only examples I have seen show it
+    at the end of a sentence, so I will treat it as such.  An example is:
+        Goa2 an2-ne1 kong2, tioh8 bo5?
+        I like-this say, correct not-have?
+        'Did I say it correctly?'
+
+    __Basic Lexicon__
+    kau2, _dog_n_rel, optional specifier
+    niau1, _cat_n_rel, optional specifier
+    khun3, _sleep_v_rel
+    khoa*3-ki*3, _see_v_rel
+    e7-tang3, _can_v_rel
+    
+    __Test Sentences__
+    kau2 khun3
+    dog  sleep
+    'dogs sleep.'
+
+    kau2 e7-tang3 khoa*3-ki*3 niau1
+    dog can see cat
+    'dogs can see cats.'
+
+Loading the Starter Grammar
+
+    I had no problem loading the starter grammar.  It was able to parse the
+    first test sentence, and it was even able to handle some changes (like
+    'cats sleep' or 'dogs can sleep.'), but it failed on any sentence with the
+    verb khoa*3-ki*3 (to see).  After I looked at the LKB output for the parse,
+    I noticed it says "No analysis found corresponding to token 2-3 KHOA" (and
+    "...3-4 3-KI" and "...4-5 3").  Apparently the asterisk is being used as a
+    word delimiter.  From a post on GoPost, I found that I needed to edit
+    lkb/globals.lsp.  I removed * from the list of punctuation and reloaded the
+    grammar, and all worked as it should, including all test sentences.
+
+Loading the Test Suite
+
+   There were some issues using itsdb on my home computer, but I had no problems
+   on the Treehouse machines.  After loading and parsing my testsuite, I was
+   able to get 2 correct parses (out of 58).  The first one was one of the 17
+   sentences you asked us to provide ('Dogs sleep.'), and another was one that
+   I added (the same as one I put in during the customization step).
+
+   I added lexical entries for more nouns and verbs (I'll wait to do determiners
+   since I don't have a good example, even though the lexical type is in there).
+   I also had to correct a mistake I made when I did the customization step.  I
+   had marked the words for and ('kap4'/'koh4') with the first tone instead of
+   the fourth (the only difference is that the fourth tone ones end in p, t, k,
+   or h, so it is easy to make this mistake).  However I don't think that there
+   were any sentences in the original set that would have parsed had this been
+   fixed, as there were more words not in the vocabulary for these sentences.
+
+   On the second run, I was able to parse 5 sentences and have 15.2% overall
+   coverage.  Looking at the chart of all parses, it looks like most of the ones
+   that didn't parse did so because they had pronouns, and I didn't have a
+   pronoun class represented in lexicon.tdl.  A good number of those were also
+   ungrammatical, so it is good that they didn't parse.  Overgeneration says
+   that it's 0% (word string is 4.04 and lexical items is 4.40, but I'm not sure
+   what that means).  However, when I look at the chart of parses, there are two
+   or three that have 2 readings (and sometimes they are exactly the same tree).
+
+Future Improvements
+
+    I think the single largest thing blocking parsing of test items is pronouns.
+    This shouldn't be hard to implement, so maybe I can do it next time.  After
+    that, particles, determiners, and classifiers (I guess that is three
+    things).  The third thing was stative verbs.
+
+    Over all sentences (grammatical and ungrammatical), there were 20 that had
+    pronouns.  12 of them had determiners, classifiers, or particles.  And about
+    7 of them had stative verbs.  Other things causing problems were quantifiers
+    and a sentence pattern or two (such as the conjoining of sentences, which
+    as far as I can tell is just to splice them with a comma).
+
+    I put all nouns and verbs that were in the test suite into the lexicon, but
+    I did not put any other word types.  Thus, there is probably about 15 more
+    words that need to be put into the vocabulary.  However, as I only have 58
+    sentences in the test suite, I will need to add more in the next few labs.
+
+    While I tried to stay away from long and complex sentences, I think I am
+    still inspired to make simple sentences with only one phenomenon.  This
+    would make it easier when I am trying to pick apart something that is
+    causing a problem, because otherwise I might have other problems sneaking
+    in and complicating things.

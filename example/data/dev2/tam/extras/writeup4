@@ -1,0 +1,504 @@
+Safiyyah Saleem
+Ling 567
+Winter 2009
+Lab 4
+
+1. I made the following changes in the customization system.
+   A. I changed the name of noun type 1 to "masculine" instead of "masc." The latter was also used as the name of a gender.
+   B. I added a feminine noun type and added one stem to that--the name "Lakshmi." I did this in order to better test verb-subject agreement.  Previously I only tested this with feminine pronouns.
+   C. I changed the spelling the single modal auxliary from "mudi" to "mudiyum." This was motivated by the fact that I could not find a description of what the suffix "-um"'s role.  The other modals end in this form as well, but I could not find an explantion for it. It is probably marking the verb as finite/complete and may have a habitual meaning.  
+   D. I change the negation rule so that it is now two rules with two different slots.  The first rule, no_png-neg, is for negatives that are not marked for person, number, gender.  The ordinary negative falls into this category.  I made this rule mandatory for verbs of the infinitive type that is not actually marked as FORM infinitive. The following example did not parse last week and now it parses.
+
+#Example 51 demonstrates a grammatical, ordinary (non-future, non-habitual) negative statement.  Formation of the infinitive came from (b:73).  Formation of the negative came from (b:142).
+Source: author
+Vetted:f
+Judgment:g
+Phenomena: {case,agreement,neg}
+naan naDakkalle
+naan naDa-kka-lle
+I.NOM walk-INF-NEG
+'I did not walk.'
+
+
+The second rule,"png-neg", applies to the same input as the first rule; however the results of this rule are required to be marked for person,number, and gender.  When I attempted to place this rule as one of the inputs for the png slot, errors about cycles were created and so I removed it as input.  This results in a grammar which incorrectly parses sentences with no png on future negatives as correct and those with it as ungrammatical.  On Go Post we discussed that I would have to change the tdl file to fix this problem. The following example parses when it should not.
+
+# Example 63 deomontrates an ungrammatical future negative statement.  The future negative is formed by  adding the future negative morpheme (-maaTT) to the infinitive.  PNG markers are then added. They are required. (b:144) Here the PNG is (incorrectly) not included
+Source: author
+Vetted:f
+Judgment:u
+Phenomena: {neg}
+naan naDakkamaaTT
+naan naDa-kka-maaTT
+I.NOM walk-INF-NEG.FUT
+'I will not walk.'
+
+   E. I added another verb slot for a second infinitive that is marked as FORM infinitive so that stand alone modal verbs are able to select for them. This change was part of a series of changes that I made to eliminate the type cycle errors.  Those errors do not occur; however the grammar still did not work properly and I had to change the tamil.tdl file based on Emily's instructions.  After those changes (details are given in number 4), the following example parses correctly. 
+
+#Example 116 demonstrates a modal auxiliary
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: m
+naan naDakka muDiyum
+naan naDa-kka muDiyum
+I walk-INF ABIL
+I can walk.
+
+  F. I changed the spelling of two determiners.  After reading over the section about demonstratives again, I realized that I had included demonstrative pronouns which cannot come before a noun instead of demonstrative adjectives which can. I change "adu" to "andu" and "idu" to "indu"
+
+2. Arugment Optionality
+
+Tamil is a rampant pro-drop language.  Given the proper context subjects, direct objects and indirect objects can all be dropped.  This is true even for verbs which do not mark person,number,gender such as modals and some negatives.  In the test suite, I gave examples of subject dropping for intrasitives and transitives and direct object dropping for transitives.  Since we are not handling ditransitives, I did not give examples of dropping indirect objects; although, this is also possible.
+
+#Example 112 demonstrates subject dropping of an intransitive verb.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+naDandeen
+naDa-nd-een
+walk-PAST-1sg
+(I) walked.
+
+#Example 113 demonstrates subject dropping of a transitive verb.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+naaye paatteen 
+naay-e paaru-tt-een
+dog-ACC see-PAST 1sg
+I saw the dog.
+
+#Example 114 demonstrates direct object dropping of a transitive verb.  In this case the dropped information must be recoverable from context (a:54)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+naan paatteen 
+naan paaru-tt-een
+I see-PAST-1sg
+'He saw the dog.'
+
+#Example 115 demonstrates subject and direct object dropping of a transitive verb. In this case the dropped information must be recoverable from the context(a:54)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+paatteen 
+paaru-tt-een
+see-PAST-1sg
+(I) saw (it)
+
+    Demonstratives
+Tamil has demonstrative pronouns and adjectives.  Being proximite is marked by (i-) at the beginning of the demonstrative and being distant is marked by an "-a" at the beginning of the demonstrative.  Demonstrative pronouns "adu" and "idu" do not appear before nouns.  Demonstrative adjectives are optional and when used appear before a noun.  These are "indu" and "andu." Adjectives may come between the demonstrative adjectives and the noun.  I was not able to glean a clear answer as to whether this is strictly required, i.e., are attributive adjectives allowed to precede the demonstrative pronouns.  I could not find a definitive answer to this in either grammar book.  
+
+The grammar is able to handle these two because I but them in the determiner slot, but I am not sure that this is all that we have to do to handle these types of determiners and so I included it in this section.
+
+#Ex 81 demonstrates the proximate demonstrative determiner "inda"(b:125,a:139).
+Source:author 
+Vetted:f
+Judgment: g
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga inda naaye paattanga
+tiruDa-nga inda naay-e paaru-tt-aanga
+thief.NOM-pl this dog-ACC see-past-3pl
+'Thieves saw this dog.'
+
+
+#Ex 82 demonstrates the distant(relative to the speaker) demonstrative determiner "anda"(b:125,a:139).
+Source:author 
+Vetted:f
+Judgment: g
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga anda naaye paattanga
+tiruDa-nga anda naay-e paaru-tt-aanga
+thief.NOM-pl that dog-ACC see-past-3pl
+'Thieves saw that dog.'
+
+#Ex 83 demonstrates and ungrammatical use of the proximate demonstrative determiner "inda"(b:125,a:139). Here :inda" comes after the noun.  It should come before.
+Source:author 
+Vetted:f
+Judgment: u
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga naaye inda paattanga
+tiruDa-nga naay-e inda paaru-tt-aanga
+thief.NOM-pl dog-ACC this see-past-3pl
+'Thieves saw this dog.'
+
+#Ex 84 demonstrates and ungrammatical use of the demonstrative determiner "anda"(b:125,a:139).  Here "anda" comes after the noun.  It should come before.
+Source:author 
+Vetted:f
+Judgment: u
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga naaye anda paattanga
+tiruDa-nga naay-e anda paaru-tt-aanga
+thief.NOM-pl dog-ACC that see-past-3pl
+'Thieves saw that dog.'
+
+#Ex 85 demonstrates the ungrammatical use of the proximate demonstrative determiner "inda" without the required noun (b:125,a:139).
+Source:author 
+Vetted:f
+Judgment: g
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga inda paattanga
+tiruDa-nga inda paaru-tt-aanga
+thief.NOM-pl this see-past-3pl
+'Thieves saw this.'
+
+One form of indefiteness was handled previously.  "Oru" means one, but it can also be used to indicate the equivalent of the English indefinite article "a." Examples were included in previous versions of the test suite and were/are covered by the grammar.  There is another way of indicating indefiniteness.  "oNNU" can be placed after a noun.  One of the books mentions that this form is actual nominal as it can be inflected, but no further information on exactly how the inflection occurs is given.  Presumably it takes the exact same case-ending in the same situations as other nouns, but I am not sure about this and decided not to incude examples with different case-markings in the test suite as they were not demonstrated in either of the grammars--only alluded to.  The examples for oNNu include grammatical examples were it is placed after the noun and ungrammatical examples were it appears before the noun.  This is a departure from the other determiners which always come before the noun.  I did not include it in the customization system for this reason.
+
+#Ex 86 demonstrates the indefinite marker oNNu which, unlike the other determiners, comes after the noun(a:140).
+Source:author 
+Vetted:f
+Judgment: g
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga naaye oNNu paattanga
+tiruDa-nga naay-e oNNu paaru-tt-aanga
+thief.NOM-pl dog-ACC a see-past-3pl
+'Thieves saw a dog.'
+
+#Ex 87 demonstrates an ungrammatical use of the indefinite marker oNNu which, unlike the other determiners, comes after the noun(a:140). Here oNNu occurs before the noun.
+Source:author 
+Vetted:f
+Judgment: u
+Phenomena:{word order,case,agreement,cogst}
+tiruDanga oNNu  naaye  paattanga
+tiruDa-nga oNNu naay-e paaru-tt-aanga
+thief.NOM-pl a dog-ACC  see-past-3pl
+'Thieves saw a dog.'
+
+	 Atrributive Adjectives
+There is some debate about whether adjectives actually constitute a separate word class as the vast majority are derived from nouns or verbs.  The non-derived adjectives form a small class of about nine words including "periya" big, "cinna" small, and "nalla" good.  Some of the other ajdectives are formed from nouns by adding the suffix "-aana." Thus, "aRuhu" beauty becomes "aRuhaana" beautiful.  These adjectives are indeclinable and do not vary for person, number, or gender. 
+
+#Example 88 demonstrates a grammatical use of an attributive adjective.  
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+tiruDanga periya naaye  paattanga
+tiruDa-nga periya naay-e paaru-tt-aanga
+thief.NOM-pl big dog-ACC  see-past-3pl
+'Thieves saw a big dog.'
+
+#Example 89 demonstrates an ungrammatical use of an attributive adjective. Here the adjective comes after the noun.  It should come before.  
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj
+tiruDanga  naaye periya paattanga
+tiruDa-nga naay-e periya paaru-tt-aanga
+thief.NOM-pl big dog-ACC  see-past-3pl
+'Thieves saw a big dog.'
+
+
+Another way to use a noun to describe another noun is use the oblique stem and place it before the noun.  "viiTTu" house + "kaaran" one who does s.t becomes "viiTTukaaran" landlord/husband. I did not include any examples of these in the test suite as they do not appear to be noun-noun modifiers instead of adjectives.  
+
+Adjectives can also be derived from verbs by taking the removing the png-marker from past and present tense verbs and then adding the suffix "-a."  These forms are called Adjectival Participles (AJP).
+
+#Example 121 demonstrates a grammatical use of the adjectival participle(AJT).  The AJT is formed by removing the png-marker from a present or past tense verb and then adding the suffix "-a."  AJTs appear before the noun that they modify. Modified from (b:128).
+Source: auhtor
+Vetted: f
+Judgment: g
+naan vaanguna paNam paatteen
+naan vaangu-n-a paNam paaru-tt-een
+I buy-PAST-ADJ money see-PAST-1sg
+I saw the money that was taken(borrowed).
+
+#Example 123 demonstrates an ungrammatical use of the adjectival participle(AJT).  The AJT is formed by removing the png-marker from a present or past tense verb and then adding the suffix "-a."  AJTs appear before the noun that they modify. Modified from (b:128). Here the AJT is formed with the future tense. 
+Source: author
+Vetted: f
+Judgment: u
+naan vaanguva paNam paatteen
+naan vaangu-v-a paNam paaru-tt-een
+I buy-FUT-ADJ money see-PAST-1sg
+I saw the money that was taken(borrowed).
+
+#Example 124 demonstrates an ungrammatical use of the adjectival participle(AJT).  The AJT is formed by removing the png-marker from a present or past tense verb and then adding the suffix "-a."  AJTs appear before the noun that they modify. Modified from (b:128). Here the AJT comes (incorrectly) after the noun. 
+Source: author
+Vetted: f
+Judgment: u
+naan paNam vaanguna paatteen
+naan paNam vaangu-in-a paaru-tt-een
+I money buy-PAST-ADJ see-PAST-1sg
+I saw the money that was taken(borrowed).
+
+  Adverbs
+Adverbs can be derived from nouns (an in some rare cases adjectives) or can be underived.  The suffix "-aa" is added to nouns to derive adverbs. "veekam" is a noun and in order to use it as an adveb "-aa" must be added.  "molla" slowly is an underived adverb and does not take the suffix "-aa" 
+
+#Example 108 demonstrates a grammatical use of an adverb derived from a noun.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adv
+naan veekamaa naDandeen
+naan veekam-aa naDa-nd-een
+I.NOM speed-ADV walk-PAST-1sg
+I walked quickly. 
+
+#Example 109 demonstrates an ungrammatical use of an noun as and adverb without the suffix (-aa).
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+naan veekam naDandeen
+naan veekam naDa-nd-een
+I.NOM speed walk-PAST-1sg
+I walked quickly. 
+
+#Example 110 demonstrates a grammatical use of a simple underived adverb.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adv
+naan molla naDandeen
+naan molla naDa-nd-een
+I.NOM slowly walk-PAST-1sg
+I walked slowly. 
+
+#Example 111 demonstrates an ungrammatical use of an simple adverb that (incorrectly) has an adverial derivatiomal suffix attached.
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+naan mollaaa naDandeen
+naan molla-aa naDa-nd-een
+I.NOM slowly-ADV walk-PAST-1sg
+I walked slowly. 
+
+  Embedded Clauses 
+
+Embedded clauses are formed by adding the quotative particle "-NNu" to the end of a verb. If an embedded clause is embedded into another embedded clause "I said that I said that I would walk." The subjects of the two embedded clauses must be different.  The example given above is awkward but grammatical in English.  In Tamil it is ungrammatical.  Interrogative embedded clauses are formed in the same way.  
+
+
+#Example 77 demonstrates a grammatical embedded clause.  -NNu is used to mark that something is embedded.  Usually -NNu is preceded by a complete sentence (b:174)
+Source: author
+Vetted:f
+Judgment:g
+Phenomena:emb-d
+naan naDappeenNNu sonneen
+naan naDa-pp-een-NNu sollu-nn-een
+I.NOM walk-FUT-1sg-EMB say-PAST-1sg
+I said that I would walk.
+
+
+# Example 78 demonstrates an ungrammatical embedded clause.  "A sentence containing the embedded marker (-NNu) cannot be embeddd with (-NNu) before another finite verb if th the subjects of the two verbs is the same.  Here the subject of the two embedded clauses is "I."
+Source: author
+Vetted:f
+Judgment:u
+Phenomena: emb-d
+naan naDappeen NNu sonneen NNu sonneen.
+naan naDa-pp-een NNu sollu-nn-een NNu sollu-nn-een
+I walk-FUT-1sg QTV say-PAST-1sg QTV say-PAST-1sg.
+'I said that I said that I would come.'
+
+# Example 79 demonstrates a grammatical sentence with two embedded clauses.  As required for sentences of this structure, the subjects of the two embedded clauses are different from each other.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-d
+naan naDappeen NNu sonnaan NNu sonneen
+naan naDa-pp-een NNu sollu-nn-aan NNu sollu-nn-een
+I walk-FUT-1sg QTV say-PAST-3sgm QTV say-PAST-1sg.
+I said that he said that I would walk. 
+
+# Example 80 demonstrates a grammatical setence with an interrogative embedded clause. (b:152-153).  The form of the question does not change.  The only thing that changes is the pronoun concord.
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-q
+raaman naan naDappeen NNu keeTTaan
+raaman naan naDa-pp-een NNu keelu-TT-aan
+Raman I.Nom walk-FUT-1sg QTV ask-PAST-3sgm
+Raman asked if I would walk.
+
+
+  Non-Verbal Predicates
+
+In Tamil non-verbal predicates are usually nominals.  The copula "iru" is optional.  If the copula is used the complement must be marked by "-aa"
+
+
+# Example 90 demonstrates a copular sentence without the optional be-copula "iru."(a:49)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+avaru DakTar
+avaru DakTar
+He.POL doctor
+He is a doctor.
+
+# Example 91 demonstrates a copular sentence with the optional be-copula "iru."The copula tends to be used more in the past tense and for contrastive purposes the present tense.  For example, he used to be a director.  Now, he is a doctor.(a:50).  When the copula "iru" is used, the complement must cary an adverbial marker (-aa)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+avaru irukkaraaru DakTaraa
+avaru iru-kkr-aaru DakTar-aa
+He.POL be-PRES-3msg.POL doctor-ADVL
+He is a doctor.
+
+
+# Example 97 demonstrates an ungrammatical copular sentence with the optional be-copula "iru."(a:50).  When the copula "iru" is used, the complement must cary an adverbial marker (-aa).  Here (-aa) is missing
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+avaru irukkaraaru DakTar
+avaru iru-kkr-aaru DakTar
+He.POL be-PRES-3msg.POL doctor
+He is a doctor.
+
+Nouns in the locative case can also serve as predicates.
+
+# Example 98 deomonstrates a grammatical copular sentence without the optional be-copula "iru" that uses an NP in the locative case as the predicate.  The locative case is marked on inanimate nouns as (-le) and on animate nouns as (-kiTTe).(puune from a:141)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+puune marattule
+puune maram-le
+cat tree-LOC
+The cat is in the tree.
+
+# Example 101 deomonstrates an  ungrammatical copular sentence with the optional be-copula "iru" that uses an NP in the locative case as the predicate.  The locative case is marked on inanimate nouns as (-le) and on animate nouns as (-kiTTe).(puune from a:141).  Here the locative case marker is omitted.
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+puune maram irukkudu
+puune maram iru-kkr-adu
+cat tree be-PReS-3sn
+The cat is in the tree.
+
+
+Adjectives are not allowed to be predicates without first undergoing nominalization. This is done by adding a number/gender-marker to the adjective e.g. "avan" for masculine, "adu" for neuter, "-aanga" for plural(rational).
+
+#Example 92 demonstrates a grammatical copular sentence with a masculine subject that uses a nominal form derived from an adjective as the predicate.  Pure adjectives cannot appear as the predicate of a copular sentence.  They must be nominalized first. (a:50)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+raaman nallavan
+raaman nalla-avan
+Raman good-sm
+'Raman is a good person.'
+
+#Example 94 demonstrates an ungrammatical copular sentence that uses an adjective as a predicate.  Pure adjectives cannot appear as the predicate of a copular sentence.  They must be nominalized first. (a:50)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+raaman nalla
+raaman nalla
+Raman good
+'Raman is good.'
+
+3. My test suite now includes 124 items.  Of these 66 are marked as grammatical.  Of the 65 that are marked as grammatical, 31 parsed. The overall coverage is 47.7% There is less overgeneration for this grammar and test suite than there was for the previous one.  Previously overgeneration was 11/4% and now it is 5.1%  The decrease is no doubt partially due to the fact that the vast majority of the items entered into the test suite this week did not parse at all.  
+
+
+The first overgeneration is the following example.
+
+# Ex 44 demonstrates ungrammatical continuous aspect for a Form II verb. The verb is taken from (a:250) the name of the form from (b:63). AVP is being used here to denote that this marker is the same as the past tense marker but does not actually assign tense.  Instead it is used to form the adverbial participle (AVP). Here the aspectual verb is attached without the AVP being formed.  The AVP marker is missing.
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena:{tam}
+naan viZakiTTirukkreen
+naan viZu-kiTTiru-kkr-een
+I fall-cont-PRS-1sg
+'I am falling.'
+
+The avp-marker is not optional and yet it is still being left off.
+
+The second overgeneration issue deals with the future negative whis is formed by adding the suffix "-maaTT" to an infinitive and then adding person, number, gender.  I have not yet edited the tdl files to reflect this.
+
+# Example 63 deomontrates an ungrammatical future negative statement.  The future negative is formed by  adding the future negative morpheme (-maaTT) to the infinitive.  PNG markers are then added. They are required. (b:144) Here the PNG is (incorrectly) not included
+Source: author
+Vetted:f
+Judgment:u
+Phenomena: {neg}
+naan naDakkamaaTT
+naan naDa-kka-maaTT
+I.NOM walk-INF-NEG.FUT
+'I will not walk.'
+
+The third overgeneration issue is coordinating NPs.  The masculine singular "raaman" and the feminine 3sg pronoun aval do not agree the the png on the ver "paaru" "-aal" is used when the subject is feminine singular.  A coordinated NP takes plural marking.  
+
+# Ex 72 demonstrates ungrammatical agreement with coordinated NP. The PNG on the verb should agree with the combined number--plural.  
+Source:author 
+Vetted:f
+Judgment:u
+Phenomena: {agreement}
+raamanum avalum en naaye paattaal
+raaman-um aval-um en naay-e paaru-tt-aal
+Raman.NOM-and she.NOM-and my dog-acc see-PST-3fsg
+'She and Raman saw my dog.'
+
+Most of the sentences that were marked as grammatical and did not parse were from the additions this week which are not covered at all by the grammar.  For example, the embedded quotative marker is not covered by the grammar generated by the customization system and thus all the sentences with this particle are classified as error because the system was not even able to associate the words with lexical entries
+
+I mentioned earlier that the future negative was not covered. The grammar is also unable to handle modal verbs as in 
+
+naan naDa-kka muDiyum
+I walk-INF able
+
+I can walk.
+
+
+4.
+In addition to the changes to the customization page explained in number 1, I also made a few changes to the tdl file.
+
+   A. I changed the definitions for noun types one  and two.  Previously, they inherited from case_marker-rule-dtr.  I deleted this so that they now read
+
+masculine-noun-lex := number-rule-dtr & noun-lex &
+  [ INFLECTED -,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.GEND masc ].
+
+anim_neut-noun-lex := number-rule-dtr & noun-lex &
+  [ INFLECTED -,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.GEND anim-non-rat ].
+This was done to remove the ambiguity that resulted from case markers being able to attach to  nouns that were unmarked for number.  Sentences like Example 1, previously, had two different readings. Now they get only one.  
+
+
+#Ex 1 based on { a, 87, b, 90} demonstrates the unmarked word order SOV
+Source:author 
+Vetted:f
+Judgment: g
+Phenomena:{word order,case,agreement}
+tiruDanga en naaye paattanga
+tiruDa-nga en naay-e paaru-tt-aanga
+thief.NOM-pl my dog-ACC see-past-3pl
+'Thieves saw my dog.' 
+
+
+As suggested by Emily on GoPost/feedback to Lab 3, I changed the negative lex rules.  In the beginning I had only rule, but after making changes in the customization system I had two negative rules.  
+
+no_png_neg-lex-rule := infl-ltow-rule &
+  [ TRACK.neg -,
+    DTR infinitive-lex-rule &
+        [ TRACK.neg + ] ].
+
+png_neg-lex-rule := infl-ltow-rule &
+  [ TRACK.neg -,
+    DTR infinitive-lex-rule &
+        [ TRACK.neg + ] ].
+
+These changed to the folowing:
+
+no_png_neg-lex-rule := cont-change-only-lex-rule & inflecting-lex-rule &
+  [ INFLECTED +, TRACK.no_png_neg -,
+    DTR infinitive-lex-rule &
+        [ TRACK.no_png_neg + ] ].
+
+
+png_neg-lex-rule := cont-change-only-lex-rule & inflecting-lex-rule  &
+  [ INFLECTED +, TRACK #track,
+    DTR infinitive-lex-rule &
+        [ TRACK #track ] ].
+
+In order to have the modal auxliary combine properly with its complement, I changed deleted the [INFLECTED +] feature from verb-lex, a supertype for aux-lex.  The new  feature structue is given below.
+
+verb-lex := lex-item &
+  [ TRACK.no_png_neg +,
+    SYNSEM.LOCAL.CAT [ HEAD verb,
+                       HC-LIGHT - ] ].

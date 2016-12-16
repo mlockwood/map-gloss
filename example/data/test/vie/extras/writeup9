@@ -1,0 +1,211 @@
+                                                                     
+                                                                     
+                                                                     
+                                             
+Lab 9 writeup
+
+Changes to grammar:
+
+We've added and modified several parts of our grammar to assist with the MMT sentences, and to make
+general corrections. First of all, we've added several lexical items to cover the vocabulary in the
+MT demo. All of them fit into categories that we've already established, so there were no troubles
+there. Test suite items 190-204 cover various sentences from the MMT list.
+
+We've also fixed an issue with demonstrative predications, which we previously had as a string,
+but parsing through English reveals that it is treated as a feature instead. Thus, what we previously
+had as "_this_a_rel" is now proximal+demonstrative_a_rel. We basically took the demonstrative type
+hierarchy straight from the English grammar, because it fits well enough here.
+
+này := dem-adj-lex & 
+  [ STEM < "này" >,
+    SYNSEM.LKEYS.KEYREL.PRED proximal+dem_a_rel ]. 
+
+demonstrative_a_rel := predsort.
+proximal+dem_a_rel := demonstrative_a_rel.	
+distal+dem_a_rel := demonstrative_a_rel.
+remote+dem_a_rel := distal+dem_a_rel.
+
+We've modified the focus marker cái to be an adjective rather than a determiner (despite appearing
+with the determiners and away from the other adjectives). This allows it to constrain the INFO-STR
+feature on its MOD list:
+
+foc-mkr := intersective-mod-lex & lex-noprd
+  [ SYNSEM.LOCAL [ CAT [ MKD fc,
+						 POSTHEAD -,
+						 HEAD adj & [ MOD < [ LOCAL [ CAT [ MKD fc-only,
+															HEAD noun ],											  
+ 													  CONT.HOOK.INDEX.INFO-STR focus ] ] > ],
+						 VAL [ SUBJ < >,
+							   COMPS < > ] ],
+				   CONT.RELS <! !> ] ].
+	
+We've also added a focus prosody (FP) suffix, as intonation/stress is a valid way of conveying
+focus. This suffix (-FP) can attach to pretty much any word.
+
+fp-lr-1 :=
+%suffix (* -fp)
+fp-lex-ltol-rule.
+
+fp-lr-2 :=
+%suffix (* -fp)
+fp-lex-ltow-rule.
+
+fp-lex-rule := cat-change-only-lex-rule & 
+ 			   same-head-lex-rule &
+ 			   same-val-lex-rule &
+ 			   same-hc-light-lex-rule &
+ 			   same-posthead-lex-rule &
+ 			   same-mc-lex-rule &
+ [ SYNSEM [ OPT #opt,
+			LOCAL [ CAT.MKD fc-only,
+					CONT.HOOK.INDEX.INFO-STR focus ] ],
+   DTR fp-rule-dtr & [ SYNSEM.OPT #opt ] ].
+   
+fp-rule-dtr := word-or-lexrule.
+
+fp-lex-ltol-rule := fp-lex-rule & infl-ltol-rule & 
+ [ DTR.SYNSEM.LOCAL.CAT.HEAD +vj ].
+
+fp-lex-ltow-rule := fp-lex-rule & infl-ltow-rule &	   
+ [ DTR.SYNSEM.LOCAL.CAT.HEAD +nrm ].
+
+
+
+semi.vpm
+
+Because Vietnamese is a relatively analytic language, most words in English have one or two
+words in Vietnamese that more or less directly correspond to them. Also, the argument structure
+is relatively similar (with small differences in word order), so it was relatively simple to
+map the English argument structure onto the Vietnamese. Other things, such as a lack of "true"
+grammatical number or definiteness among common nouns, meant that we could safely ignore some
+of the distinctions.
+
+We found that the vast majority of the trouble with translation arose from underspecification,
+that is that the English input was either providing too little information (causing overgeneration),
+or using feature values that our Vietnamese grammar could not use, causing generation failure.
+A particularly notorious example was "I chase you", in which "you" only specified person, not
+number or anything else. This failed to map onto the Vietnamese, causing it to generate all
+Vietnamese pronouns we have implemented, regardless of person or number.
+
+Because this involved specifying underspecification, and mapping corresponding feature names
+between languages, we found that we could correct most of the proplems just by editing semi.vpm,
+rather than utilizing transfer rules. Using some generalizing assumptions, we managed to map most
+combinations into what is required by the grammars, such as the following (CNT is countability,
+one way we use to make a distinction between pronouns/proper nouns and common nouns, and here
+used to provide context to keep it from overapplying):
+
+PNG.PERNUM PNG.CNT : PNG.PER PNG.NUM
+   1sg uncnt <> first sg
+   3sg cntbl <> third sg
+   1pl_excl uncnt <> first pl
+   2nd uncnt <> second pl	
+   pernum cntbl >> third pl
+   2nd uncnt <> second !
+   
+Some of these generalizations were specially tailored for the MMT, such as the underspecified
+PERNUM value for countable (common) nouns mapping to third person plural (assuming that all
+common nouns are third person), specifically because while a common noun by itself in Vietnamese
+can be translated into either a plural or singular noun in English, these MMT sentences appear to
+only use plural common nouns.
+
+We also implemented some mappings in the COG-ST, mainly to control argument optionality (with
+"eat"), because Vietnamese seems to be much looser in its cognitive status requirements for
+dropping arguments. This maps the cognitive status for English dropped arguments to the
+Vietnamese cognitive status for dropped arguments.
+
+COG-ST : COG-ST
+uniq-or-more << type-id
+uniq+fam+act << uniq-or-more
+
+
+
+Transfer rules:
+
+Italian proved trickier than English. While we were able to correct virtually all discrepencies 
+between English and Vietnamese through semi.vpm, Italian required a few transfer rules. First off,
+there are a few discrepencies in the predication names. We used several of these rules to "correct"
+the names such that they conform with the English.
+
+
+hurt := make-harm-mtr.
+think := think-mtr.
+thouhgt := make-thought-mtr.
+
+quickly-mtr := monotonic_mtr &
+[ INPUT.RELS <! [ PRED "_quickly_r_rel",
+                           LBL #larg,
+                           ARG0 #arg0,
+                           ARG1 #arg1 ] !>,
+  OUTPUT [ RELS <! [ PRED "_quickly_a_rel",
+                                 ARG0 #arg0,
+                                 ARG1 #arg1,
+                                 LBL #larg ] !> ] ].
+
+
+The pro-drop rule was already present, and apparently is meant to handle the pro-drop sentences
+such as "It doesn't hurt me", by assigning person and number information to the non-overt
+arguments.
+								 
+pro-drop := pronoun-delete-mtr.
+								 
+Unfortunately, this is where we ran into a dead end. For some reason, we cannot figure out
+how to map these values to our Vietnamese grammar, whether by mapping to default values or
+mapping them to nothing (underspecificatoin) altogether. This is the primary source of our
+non-coverage of Italian sentences. See below for more detail.								 
+
+
+MMT Coverage:
+
+For the English, most sentences have only a single translation, due to our control of ambiguity
+and underspecification in semi.vpm. Notably, however, there are three situations where ambiguity
+seems inevitable (and valid). First is the aforementioned 2nd person situation. We noticed that
+all 2nd person pronouns in the English parses are underspecified for number. We assume this means
+that "you" can refer to either singular or plural entities. Thus, we allowed generation that
+produced both the singular and plural forms of the 2nd person pronoun in Vietnamese.
+
+The second is the complementizer. The complementizer is optional in Vietnamese (like in English),
+and the fact that it is semantically empty means that its appearance cannot be controlled by the
+MRS argument structure. Thus, all possible combinations of them appearing and not appearing
+are produced in generation. We consider these valid.
+
+Third is the question particle chứ. This appears as one of the possible generated constructions,
+because we set the sentencial force of the "ask" example to be "ques", which chứ also contributes.
+As we've mentioned before, we currently have no evidence for or against this particle appearing
+inside an embedded clause. Because of potential complications from ruling this out (it is treated
+as a complementizer), we've decided to leave it alone, unless we can find evidence for or against
+the construction.
+
+The fact that these three pontential ambiguities co-occur in the embedded clause examples, they
+generated a significantly larger number of parses (all possible combinations of optionality).
+
+We're ignoring number and definiteness among common nouns, as Vietnamese does not display such
+distinctions, except indirectly through quantification. As a result, "a dog", "the dog", "dogs"
+and "the dogs" all produce the same Vietnamese output: chó (dog).
+
+Argument dropping is very common in Vietnamese, so other than the mismatch between the COG-ST's
+values mentioned above, this was handled without much issue.
+
+All English sentences produce generate at least one Vietnamese output.
+
+11 out of the 16 Italian sentences parse. All of the 11 parsed sentences have overt arguments,
+and thus are relatively easily mapped into our Vietnamese grammar, as the English was. The
+5 non-translating sentences ("it doesn't hurt me", "I chase you", "I can eat glass" and
+the two embedded clause examples) all involve pro-drop (non-overt arguments) which we cannot 
+figure out how to handle, and are now out of time to solve.
+
+All Italian sentences that do translate generate only one output.
+
+
+Overall coverage of test suite:
+
+Some of the changes we made this week affected our overall coverage. We added a few test-suite
+items just to it (translations of the MMT sentences) bringing our total up to 202. This raised
+our coverage slightly to 95.3% (up from 94.6%), but the items from previous labs remain unchanged 
+in terms of parsability.
+
+We did get a slight increase in overgeneration, though, as the change of the focus marker from
+a determiner to an adjective broke some of our phrase structure rules that constrained the
+ordering of the focus marker relative to the other elements of the NP.
+
+The baseline's coverage is the same with lab8's, but the overgeneration grows (9.5% -> 14.9%).
+

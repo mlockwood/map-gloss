@@ -1,0 +1,1450 @@
+Language: Mandinka
+Language Code: mnk
+Tiers: orth orth-seg gloss translat
+Author: Bob New
+Date: February 8, 2008
+
+#Source a: A Grammar of Gambian Mandinka, E. C. Rowlands, University of London, 1935.
+Source a: Rowlands
+#Source b: Mandinka Grammar Manual, Peace Corps of the Gambia, 1995
+Source b: PeaceCorpsGrammar
+#Source c: Mandinka-English Dictionary, Peace Corps of the Gambia, 1995
+Source c: PeaceCorpsDict
+
+
+# 1
+Source: a:38
+Vetted: s
+Judgement: g
+Phenomena: det,neg
+k`ambaanoolu m'an n`aa
+k`ambaan-oo-lu   m'an      n`aa
+youth-DET-PL     have.not  come
+the youths have not come
+
+# 2
+Source: a:87
+Vetted: s
+Judgement: g
+Phenomena: pn,neg
+a m'an n`aa
+a        m'ang     n`aa
+he/she   not      come
+'he/she has not come'
+
+# 3
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: det,neg
+k`eo f'aa m'an n`aa
+kee-o    f'aa     m'ang  n`aa
+man-DET father  not   come
+'the man's father has not come'
+
+# 4
+# missing determiner
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+k`ee f'aa m'an n`aa
+k`ee f'aa     m'ang n`aa
+man father  not  come
+'man's father has not come'
+
+# 5
+# This sample shows a nominal extension after the verb.
+Source: a:28
+Vetted: s
+Judgement: g
+Phenomena: pn,neg,wo
+a m'an n`aa D`imaasoo
+a       m'ang n`aa  D`imaasoo
+he/she  not  come Sunday
+'he/she did not come on Sunday'
+
+#6
+Source: a:57
+Vetted: s
+Judgement: g
+Phenomena: wo,pn
+'m b'ota B`anjunu k`unung ne
+'m b'ota  B`anjunu k`unung   ne
+i  depart Banjunu  yesterday EMPH
+'i left banjunu yesterday'
+
+#7
+# missing subject
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+b'ota B`anjunu k`unung ne
+b'ota  B`anjunu k`unung   ne
+depart Banjunu  yesterday EMPH
+'left  banjunu yesterday'
+
+#8
+Source: a:58
+Vetted: s
+Judgement: g
+Phenomena: wo,pn
+a t'aata B`anjunu k`unung ne
+a      t'aata B`anjunu k`unung   ne
+he/she went   Banjunu  yesterday EMPH
+'he/she went to Banjunu yesterday'
+
+#9
+# missing verb
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+a B`anjunu k`unung ne
+a      B`anjunu k`unung    ne
+he/she Banjunu yesterday EMPH
+'he/she to Banjunu yesterday'
+
+#10
+Source: a:28
+Vetted: s
+Judgement: g
+Phenomena: wo,pn
+a t'aata B`anjunu
+a      t'aata B`anjunu
+he/she went   Banjunu
+'he/she went to Banjunu'
+
+#11
+# extra subject before verb.
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+a a t'aata B`anjunu
+a      a      t'aata B`anjunu
+he/she he/she went   Banjunu
+'he/she he/she went to Banjunu'
+
+#12
+Source: a:28
+Vetted: s
+Judgement: g
+Phenomena: wo,pn
+a t'aata B'aabaa
+a      t'aata B'aabaa
+he/she went  overseas
+'he went overseas'
+
+#13
+Source: a:95,118
+Vetted: s
+Judgement: g
+Phenomena: pn,neg
+a t'i j`ang
+a  t'i  j`ang
+he not  here
+'he is not here'
+
+#14
+# extra negation operator.
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+a t'i  t'i j`ang
+a      t'i  t'i j`ang
+he/she not  not here
+'he/she is not not here'
+
+#15
+Source: a:95
+Vetted: s
+Judgement: g
+Phenomena: pn,wo
+a be B`anjunu le
+a  be B`anjunu le
+he is B'anjunu EMPH
+'he is at Banjunu'
+
+#16
+# extra verb
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+a be be B`anjunu le
+a       be be B`anjunu le
+he/she  is is Banjunu EMPH
+'he/she is is at Banjunu'
+
+#17
+# Rowlands p. 76 has ref to -ta extension
+Source: a:117
+Vetted: s
+Judgement: g
+Phenomena: pn,wo
+'m b'ota B`anjunu le
+'m b'ota     B`anjunu le
+I  come_from Banjunu  EMPH
+'I have come from Banjunu'
+
+#18
+Source: a:28,95
+Vetted: s
+Judgement: g
+Phenomena: pn,wo
+a be b'ungo k'ono
+a  be b'ungo k'ono
+he is house inside
+'he is in the house'
+
+#19
+Source: a:22
+Vetted: s
+Judgement: g
+Phenomena: wo,neg
+s'unkutoo m'an t'aa f'oloo 
+s'unkutoo mang   t'aa   f'oloo 
+girl      hasnot depart yet
+'the girl has not gone yet'
+# Note: s'unkutoo 'girl', p. 26.
+# Not sure if the O-Suffix is being used here or not.
+
+#20
+Source: a:23
+Vetted: s
+Judgement: g
+Phenomena: neg,wo
+k`ambanoo m'an n`aa f'oloo
+k`ambanoo m'ang n`aa  f'oloo
+boy       not   come  yet
+'the boy has not come yet'
+
+#21
+Source: a:28
+Vetted: s
+Judgement: g
+Phenomena: wo
+d'indingo t'aata k'unkoo to
+d'indingo t'aata k'unkoo to
+child     went   farm POSTP
+'the boy went to the farm'
+
+#22
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: det
+suo t'aata k'unkoo to
+suu-o         t'aata k'unkoo to
+horse-DET    went   farm    POSTP
+'the horse went to the farm'
+
+#23
+# missing determiner
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+suu t'aata k'unkoo to
+suu    t'aata k'unkoo to
+horse  went   farm    POSTP
+'horse went to the farm'
+
+#24
+Source: a:23
+Vetted: s
+Judgement: g
+Phenomena: neg
+B'aakari f'aa m'an n`aa
+B'aakari f'aa    m'ang   n`aa
+Baakari father not    come
+'Baakari's father has not come'
+
+#25
+Source: a:23
+Vetted: s
+Judgement: g
+Phenomena: wo,neg
+L`anding f'aa m'an t'aa j'ee
+L`anding f'aa    m'ang   t'aa    j'ee
+Landing father not    depart there
+'Landing's father did not go there'
+
+#26
+Source: a:95
+Vetted: s
+Judgement: g
+Phenomena: wo,pn
+k'onkoo le be 'n na
+k'onkoo le    be   'n  na
+hunger  EMPH  is   I   inside
+'I am hungry'
+
+#27
+Source: a:57
+Vetted: s
+Judgement: g
+Phenomena: pn
+'nna b'ungo j`amfata le
+'nna b'ungo j`amfata le
+my   house  far      EMPH
+'my house is far'
+
+#28
+Source: a:58
+Vetted: s
+Judgement: g
+Phenomena: neg,pn
+`nna b'ungo m'an j`amfa
+`nna b'ungo m'ang j`amfa
+our  house  not   far
+'our house is not far'
+
+#29
+# missing verb
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+`nna b'ungo m'ang
+`nna b'ungo m'ang
+our house not
+'our house is not'
+
+#30
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: neg,det
+k`eo la k'unkoo m'an j`amfa
+kee-o   la   k'unkoo m'ang j`amfa
+man-DET GEN  farm    not   far
+'the man's farm is not far'
+
+#31
+Source: a:58,118
+Vetted: s
+Judgement: g
+Phenomena: wo,pn
+'m bi t'aa s'uu
+'m bi t'aa s'uu
+i  be go   home
+'I am going home'
+
+#32
+Source: a:60
+Vetted: s
+Judgement: g
+Phenomena: wo,pn
+'m bi taa n k`uu le
+'m bi taa n k`uu le
+I  be go  ? wash  EMPH
+'I am going for a wash'
+
+#33
+Source: a:39
+Vetted: s
+Judgement: g
+Phenomena: wo,gen
+m`usoo le la k'odoo f`ilita
+m`usoo le    la    k'odoo f`ilita
+woman  EMPH  GEN   money  lose
+'it is the woman's money which is lost'
+
+
+#34
+Source: a:60
+Vetted: s
+Judgement: g
+Phenomena: wo,pn
+`m bi t'aa n k`uu  le
+`m bi  t'aa n k`uu  le
+we be  go   ? wash  EMPH
+'we are going for a wash'
+
+#35
+Source: a:61
+Vetted: s
+Judgement: g
+Phenomena: pn
+`i ye 'n k`uu  le
+`i     ye  'n   k`uu  le
+they   PST  me  wash  EMPH
+'they have washed me'
+
+#36
+Source: a:61
+Vetted: s
+Judgement: g
+Phenomena: pn,wo
+`i ye 'n j'oo le
+`i     ye  'n   j'oo  le
+they   PST me  pay    EMPH
+'they have paid me'
+
+#37
+Source: a:61
+Vetted: s
+Judgement: g
+Phenomena: pn,wo
+a ye `n j'oo le
+a      ye  `n j'oo le
+he/she PT  us pay  EMPH
+'he has paid us'
+
+#38
+Source: a:63
+Vetted: s
+Judgement: g
+Phenomena: pn
+`ate t'oo mu B'aakari le ti
+`ate     t'oo  mu B'aakari le    ti
+his/her  name  is Baakari  EMPH  SENTENCE_COMPLEMENT
+'his/her name is Bakari'
+
+#39
+Source: a:103
+Vetted: s
+Judgement: g
+Phenomena: neg,pn
+'m m'aa d'omo d`oo
+'m m'ang d'omo d`oo
+I  not   eat   able
+'I could not eat it'
+
+
+#40
+Source: a:103
+Vetted: s
+Judgement: g
+Phenomena: pn,pro-d
+a be t'abiroo le la
+a       be t'abi-roo   le    la    
+he/she  is cook-INTR   EMPH  EMPH
+'he/she is cooking'
+
+#41
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: pn,pro-d
+a be d'omoroo le la
+a       be domoo-ri  le    la    
+he/she  is eat-INTR  EMPH  EMPH
+'he/she is eating'
+
+
+#42
+Source: a:129
+Vetted: s
+Judgement: g
+Phenomena: pn,wo,rel
+i          ye   m'en    t'ara l'ooring,      'i   si  w`o   t`aa
+i          ye   meng    t'ara l'oo-ring,     'i   si  w`o   t`aa
+you.UNEMPH PT  NOM.REL find stand-STATIVE    you IMP  that take
+'the one you find standing, you must take that one'
+
+#43
+Source: a:64
+Vetted: s
+Judgement: g
+Phenomena: pn
+'i ye  'nna d`endikoo n`ondi   le
+'i      ye  'nna d`endikoo n`ondi   le
+you.SG  PT  my   clothes   dirty.V  EMPH
+'you have dirtied my clothes'
+
+#44
+Source: a:61
+Vetted: s
+Judgement: g
+Phenomena: pn
+'i      y'aa m'oyi le
+'i      y'aa m'oyi le
+you.SG  PT   hear  EMPH
+'you have heard'
+
+#45
+Source: a:58
+Vetted: s
+Judgement: g
+Phenomena: pn
+`m m'an t'aa n`oo
+`m m'an t'aa   n`oo
+we not  depart able
+'we cannot go'
+
+#46
+# Compare with #47.  Accent changes meaning.
+Source: a:58
+Vetted: s
+Judgement: g
+Phenomena: pn
+`n so kodoo la
+`n  so   kodoo la
+us  give money EMPH
+'give us money'
+
+#47
+# Compare with #46.  Accent changes meaning.
+Source: a:57
+Vetted: s
+Judgement: g
+Phenomena: pn
+'n s'o k'odoo la
+'n  s'o   k'odoo la
+me  give  money  EMPH
+'give me money'
+
+#48
+Source: a:57
+Vetted: s
+Judgement: g
+Phenomena: pn
+i si taa jee
+i      si   taa    jee
+you.SG  IMP  depart  there
+'you must go there'
+
+#49
+Source: a:48
+Vetted: s
+Judgement: g
+Phenomena: wo
+s'oli kiling ne bi j'ee
+s'oli    kiling ne    bi j'ee
+leopard  one    EMPH  be there
+'there is one leopard there'
+
+#50
+# attempt to use determiner form
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: det
+s'oloo ne bi j'ee
+s'oli-oo      ne    bi j'ee
+leopard-DET   EMPH  be there
+'there is a leopard there'
+
+#51
+# Lack of determiner on bung 'house'.
+Source: a:48
+Vetted: s
+Judgement: g
+Phenomena: wo
+b'ung  n'aani le    bi jee
+b'ung  n'aani le    bi jee
+house  four   EMPH  be there
+"there are four houses there"
+
+# *************************************************************************
+# The following section was added as part of Lab 3.  (25-jan-2008)
+# *************************************************************************
+
+
+# *************************************************************************
+# MMT Required sentences.
+# *************************************************************************
+
+#52
+# Ref #70, #69
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,wo
+wulu olu siinoo
+wulu olu siinoo
+dog DET.PL   sleep
+"the dogs sleep"
+
+#52a
+# missing determiner
+Source: author
+Vetted: f
+Judgement: u
+Phenomena:
+wulu siinoo
+wulu siinoo
+dog   sleep
+"dog sleeps"
+
+#52b
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+wulu o siinoo
+wulu o siinoo
+dog DET   sleep
+"the dog sleeps"
+
+#52c
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+wulu fing o siinoo
+wulu fing o     siinoo
+dog  black DET  sleep
+"the black dog sleeps"
+
+#52d
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+wulu fing olu siinoo
+wulu fing  olu     siinoo
+dog  black DET.PL  sleep
+"the black dogs sleep"
+
+#52e
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+wulu fing konkota olu siinoo
+wulu fing  konkota olu     siinoo
+dog  black hungry  DET.PL  sleep
+"the hungry black dogs sleep"
+
+#52f
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+wulu fing konkota olu siinoo katabake
+wulu fing  konkota olu     siinoo katabake
+dog  black hungry  DET.PL  sleep  quickly
+"the hungry black dogs sleep quickly"
+
+#52g
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+wulu o siinoo katabake
+wulu o    siinoo katabake
+dog  DET  sleep  quickly
+"the dog sleeps quickly"
+
+
+#53
+# ref #71
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,wo
+wuloolu motoolu bayindi
+wuloo-lu motoo-lu bayindi
+dog-PL   car-PL   chase
+"dogs chase cars"
+
+# 54
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,wo
+n i bayindi
+n i   bayindi
+i you chase
+"I chase you"
+
+#55
+# Ref #69
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,wo
+ninnu wuloolu siinoo
+ninnu wuloo-lu siinoo
+these dog-PL sleep
+"these dogs sleep"
+
+#56
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,wo
+wuloolu d'omo
+wuloo-lu d'omo
+dog-PL   eat
+"dogs eat"
+
+#57
+# Ref #39, #45, #80 - noo (can, able)
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,wo,m
+n weere o domo noo
+n weere o   domo noo
+I glass DET eat  can
+"I can eat glass"
+
+#58
+# Ref #81,#82
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,neg
+a buka m baram
+a  buka   m  baram
+it doesn't me harm
+"it doesn't hurt me"
+
+#58-b
+# 'buka' in wrong position.
+Source: author
+Vetted: f
+Judgement: u
+Phenomena:
+buka a m baram
+buka    a  m  baram
+doesn't it me harm
+"it doesn't hurt me"
+
+#58-c
+# 'buka' in wrong position.
+Source: author
+Vetted: f
+Judgement: u
+Phenomena:
+a m buka baram
+a  m  buka    baram
+it me doesn't harm
+"it doesn't hurt me"
+
+#58-d
+# 'buka' in wrong position.
+Source: author
+Vetted: f
+Judgement: u
+Phenomena:
+a m baram buka
+a  m  baram buka
+it  me harm doesn't
+"it doesn't hurt me"
+
+
+#59
+# Note this sentence is the same as "dogs chase cars", #53
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,wo
+wuloolu motoolu bayindi
+wuloo-lu motoo-lu bayindi
+dog-PL   car-PL   chase
+"the dogs chase cars"
+
+#60-a
+# Supplement to 60-b
+# Ref #93 - that
+# Ref #92 - know
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: emb-d
+i ye a long ko wuloolu motoolu bayindi
+i   ye  a  long ko   wuloo-lu motoo-lu bayindi
+you PST it know that dog-PL   car-PL   chase
+"you know that dogs chase cars"
+
+#60-b
+# Ref #74 - think
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,emb-d
+m ye a jiibee ko i ye a long ko wuloolu motoolu bayindi
+m ye  a  jiibee ko   i   ye  a  long ko   wuloo-lu motoo-lu bayindi
+I PST it think  that you PST it know that dog-PL  car-PL  chase
+I think that you know that dogs chase cars
+
+#60-c
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+i ye a long ko wulu olu motu olu bayindi
+i   ye  a  long ko   wulu olu    motu olu     bayindi
+you PST it know that dog  DET.PL car  DET.PL  chase
+you know that dogs chase cars
+
+#60-d
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+i ye a long
+i   ye  a  long
+you COMPL it know
+you know it
+
+
+#61
+# Ref #75 - ask
+# Ref #94 - question marker (fo)
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,emb-d
+m a nininkaa fo i ye a long ko wuloolu motoolu bayindi
+m a  nininkaa fo i   ye  a  long ko   wuloo-lu motoo-lu bayindi
+i it ask      Q  you PST it know that dog-PL   car-PL   chase
+"I ask whether you know that dogs chase cars"
+
+#62
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,crd
+nankumoolu ning wuloolu motoolu bayindi
+nankumoo-lu ming wuloo-lu motoo-lu bayindi
+cat-PL      and  dog-PL   car-PL   chase
+"cats and dogs chase cars"
+
+#63
+# I only found one sentence that has two VPs joined
+# to make a sentence (see #84).  However, that example
+# is not well described and has some words that are
+# not used anywhere else in the available resources.
+# I have no way of making an informed attempt at
+# forging this sentence in Mandinka.
+#Source: author
+#Vetted: f
+#Judgement: 
+#Phenomena: MMT,crd
+#xxxxx  Place holder so script doesn't get confused.
+#xxxxx  Place holder so script doesn't get confused.
+#xxxxx  Place holder so script doesn't get confused.
+#"dogs chase cars and cats chase dogs"
+
+#64
+# See #63.  I have no example sentences that join
+# two VPs into a sentence.
+#Source: author
+#Vetted: f
+#Judgement: crd
+#Phenomena: MMT,crd
+#xxxxx  Place holder so script doesn't get confused.
+#xxxxx  Place holder so script doesn't get confused.
+#xxxxx  Place holder so script doesn't get confused.
+#"cats chase dogs and sleep"
+
+#65
+# Ref #85 (b`ang)
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,q
+nankumu olu wulu olu bayindi bang
+nankumu olu    wulu olu    bayindi bang
+cat     DET.PL dog  DET.PL chase   Q
+"do cats chase dogs?"
+
+#65-a
+# Move question word to wrong position
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+nankumoolu  b`ang wuloolu bayindi?
+nankumoo-lu b`ang wuloo-lu bayindi?
+cat-PL      Q     dog-PL   chase
+"do cats chase dogs?"
+
+#66
+# ref #86,87
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,imp
+wuloo bayindi
+wuloo bayindi
+dog   chase
+"chase the dog"
+
+#67
+# Ref #90
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,adj
+wulu konkotalu d'omo
+wulu konkota-lu d'omo
+dog  hungry-PL  eat
+"hungry dogs eat"
+
+#68
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,adv
+wulu konkotalu d'omo katabake
+wulu konkota-lu d'omo katabake
+dog  hungry-PL  eat   quickly
+"hungry dogs eat quickly"
+
+#68-b
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,adv
+wulu fingo domo katabake
+wulu fing-o    domo  katabake
+dog  black-DET eat   quickly
+"the black dog eats quickly"
+
+#68-c
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: MMT,adv
+wulu fingo domo
+wulu fing-o    domo
+dog  black-DET eat
+"the black dog eats"
+
+
+# *************************************************************************
+# other sentences using the vocabulary in the MMT Required Sentences.
+# *************************************************************************
+
+#69
+# siinoo - sleep
+Source: c:86
+Vetted: s
+Judgement: g
+Phenomena: imp,neg
+kana siinoo jang
+kana siinoo jang
+don't sleep here
+"don't sleep here"
+
+#70
+# wuloo - dog, liar, forest.
+# wulu is a noun that means lie.
+Source: c:106
+Vetted: s
+Judgement: g
+Phenomena: wo
+ite mu wuloo le ti
+ite         mu wuloo le   ti
+you.SG.EMPH is dog   EMPH SENTENCE_COMP
+"you are a liar"
+
+
+#71
+# motoo - car, truck
+Source: c:64
+Vetted: s
+Judgement: g
+Phenomena: q
+ila motoo lee
+i-la    motoo lee
+you-GEN car   where.Q
+"where is your car?"
+
+#71-a
+# Ref 71.
+# move question word to wrong position.
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+ila lee motoo 
+i-la    lee     motoo
+you-GEN where.Q car
+"where is your car?"
+
+#72
+# weeroo - glass
+Source: c:105
+Vetted: s
+Judgement: g
+Phenomena: wo
+weeroo teyita le
+weeroo teyita le
+glass  broken EMPH
+"the glass is broken"
+
+#73
+# barama - to wound, hurt, injure
+Source: c:6
+Vetted: s
+Judgement: g
+Phenomena: imp,neg
+kana a baram
+kana a   baram
+dont him wound
+"don't wound him"
+
+#74
+# jibee - to look, think, inspect
+Source: c:33
+Vetted: s
+Judgement: g
+Phenomena: imp,neg
+kana n jiibee
+kana  n       jiibee
+don't me.REFL look
+"don't look at me"
+
+#75
+# nininkaa - ask
+Source: c:73
+Vetted: s
+Judgement: g
+Phenomena: imp,pro-d
+a nininkaa
+a nininkaa
+him ask
+"ask him"
+
+#76
+# nankumoo - cat  (african cats?)
+Source: c:72
+Vetted: s
+Judgement: g
+Phenomena: wo
+Nankumoo ye basoo muta
+Nankumoo ye basoo muta
+cat      PST lizard catch
+"the cat caught a lizard"
+
+#77
+# katabake - quickly
+# An adverb coming after the verb.
+Source: c:42
+Vetted: s
+Judgement: g
+Phenomena: imp
+taa katabake
+taa katabake
+go  quickly
+"go quickly"
+
+#78
+# konkota - hungry
+# baake - very, much
+Source: c:47
+Vetted: s
+Judgement: g
+Phenomena: adj
+n konkota baake
+n konkota baake
+I hungry  very
+"I am very hungry"
+
+#79
+# ninnu - these
+Source: c:73
+Vetted: s
+Judgement: g
+Phenomena: wo
+ninnu mu bukoolu le ti
+ninnu mu bukoo-lu le   ti
+these is book-PL  EMPH SENTENCE_COMPLEMENT
+"these are books"
+
+#80
+# noo - can, able
+# 'ye' (PST) also means completion.
+Source: c:70
+Vetted: s
+Judgement: g
+Phenomena: q,m
+I ye munne noo?
+i   ye  munne  noo
+you PST what.Q can
+"what can you do?"
+
+#80-a
+# Swap order of question word and modal.
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: 
+I ye noo munne ?
+i   ye  noo munne  
+you PST can what.Q
+"can what you do?"
+
+#81
+# buka - negates a habitual operator (Rowlands, p. 89)
+Source: a:89
+Vetted: s
+Judgement: g
+Phenomena: neg,pro-d
+`m buka domo
+`m buka  domo
+we not   eat
+"we do not eat it"
+
+#82
+# buka - negates a habitual operator
+# This example shows a transitive verb being
+# negated - 'not eat meat'
+# For this sample, I believe the source had a typo
+# on the first word because the original word was
+# not found anywhere else.   So the original 'mem'
+# was changed to 'meng'.  (The source has frequent
+# typos because it was generated on a manual typewriter).
+Source: a:89
+Vetted: s
+Judgement: g
+Phenomena: neg,q
+m'eng b'uka s`uboo d'omo, w`o si m`unne d'omo a n'oo to?
+m'eng   b'uka s`uboo d'omo, w`o  si  m`unne d'omo a  n'oo to?
+the_one not   meat   eat,   that IMP WHAT   eat   he can  from
+the one who does not eat meat, what will he eat instead of it?
+
+#83
+# ning - conjunction: when, if, and
+Source: c:69
+Vetted: s
+Judgement: g
+Phenomena: crd,neg
+moo ning beeyango mang kilinyaa
+moo         ning beeyango mang kilinyaa
+human_being and  beast    not  same
+"a human being and a beast are not the same"
+
+#84
+# This is the only example I found that shows two VP joined
+# to a make a sentence.  Also, this sentence uses 'nyin' and
+# 'nyim' which I did find anywhere else in any of the resources.
+# 
+# I can only guess at two possibilities here:
+# 1. The words 'nyin' and 'nyim' are part of the individual VP
+#    and have nothing to do with the conjunction process.  In
+#    this case, the conjunction is formed just by putting two
+#    VP next to each other.
+# 2. The two words are actually conjunctions.  If this is the
+#    case then I would be very hesitant to form another sentence
+#    from the example.  The other unusual word "ng'a" may or may
+#    not be interacting with the conjunction words.
+#
+Source: a:139
+Vetted: s
+Judgement: g
+Phenomena: crd
+'m be nyin t`atoo t`ee la le ng'a nyim m`usoo f'utuu
+'m be nyin t`atoo t`ee      la   le    nye  nyim m`usoo f'utuu
+I  am UNKNOWN   fort   chop_down EMPH EMPH  COMPL UNKNOWN   woman  marry
+"I am going to destroy this fortress and marry this woman"
+
+#85
+Source: a:137
+Vetted: s
+Judgement: g
+Phenomena: q
+`i b'uk'aa d'omo b`ang?
+`i  b'uka a  d'omo b`ang?
+you don't it eat   Q
+"don't you eat it?"
+
+#85-a
+# move question word to incorrect spot.
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+`i b'uk'aa b`ang d'omo 
+`i  b'uka a  b`ang d'omo 
+you don't it Q eat
+"don't you eat it?"
+
+#86
+Source: a:83
+Vetted: s
+Judgement: g
+Phenomena: imp
+n`aa j`ang
+n`aa j`ang
+come here
+"come here"
+
+#87
+Source: a:83
+Vetted: s
+Judgement: g
+Phenomena: imp
+a t'u j'ee
+a  t'u   j'ee
+it leave there
+"leave it there"
+
+#88
+Source: a:47
+Vetted: s
+Judgement: g
+Phenomena: adj
+w`ulu f`ing b'aa le y' aa k'ing
+w`ulu f`ing b'aa le   ye  aa  k'ing
+dog   black big  EMPH PST him bite
+"a big black dog bit him"
+
+#88-a
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: wo
+w`ulu le y' aa k'ing
+w`ulu le   ye  aa  k'ing
+dog   EMPH PST him bite
+"a dog bit him"
+
+
+#89
+Source: a:151
+Vetted: s
+Judgement: g
+Phenomena: adj
+ng'a d`endika koyoo le s`ang
+n-ye  d`endika koy-oo    le   s`ang
+I-PST gown     white-DET EMPH buy
+"I bought a white gown"
+
+#90
+# I did not find any sentences that used adjectives
+# on plural nouns.  I did find a noun phrase
+# "d`endika k'oyoolu" or "white clothes".  This shows
+# the -o suffix followed by the -lu plural - both
+# on the adjective.
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: adj,det
+ng'a d`endika koyoolu le s`ang
+n-ye  d`endika koy-oo-lu    le   s`ang
+I-PST gown     white-DET-PL EMPH buy
+"I bought the white gowns"
+
+#91
+# Another example showing an adverb coming
+# after the verb.
+Source: c:45
+Vetted: s
+Judgement: g
+Phenomena: adverb
+A wulita kiribit
+A wulita kiribit
+He/she got_up suddenly
+"He/she got up suddenly"
+
+#92
+Source: c:58
+Vetted: s
+Judgement: g
+Phenomena: q
+I ye n long ne bang?
+I   ye  n  long ne   bang?
+you PST me know EMPH Q
+"Do you know me?"
+
+#92-a
+# move question word to wrong position.
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+I ye n long bang ne?
+I   ye  n  long bang ne?
+you PST me know Q    EMPH
+"Do you know me?"
+
+#93
+Source: c:46
+Vetted: s
+Judgement: g
+Phenomena: imp,emb-d
+A fo a ye ko n be naa la le
+A       fo   a  ye  ko   n be   naa  la   le
+him/her tell it PST that I will come EMPH EMPH
+"Tell him that I'll come"
+
+#94
+Source: c:23
+Vetted: s
+Judgement: g
+Phenomena: q
+fo i be taa la le saama?
+fo i   be   taa la   le   saama
+Q  you will go  EMPH EMPH tomorrow
+"Will you go tomorrow?"
+
+#94-a
+# move question word to wrong position.
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: u
+i fo be taa la le saama?
+i   fo be   taa la   le   saama
+you Q  will go  EMPH EMPH tomorrow
+"Will you go tomorrow?"
+
+#95
+Source: a:131
+Vetted: s
+Judgement: g
+Phenomena: emb-q
+a ye d'indingo ny`ininkaa m'eng ye k'unkoo t`inyaa
+a   ye d'indingo ny`ininkaa m'eng    ye  k'unkoo t`inyaa
+he PST boy       ask        who_what PST farm    destroy
+"he asked the boy who/what had spoiled the farm"
+
+# ***************************************************************
+#  Pronoun usages.
+# ***************************************************************
+
+#96
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+ng siinoo
+ng siinoo
+I  sleep
+"I sleep"
+
+#96b
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+`ng siinoo
+`ng         siinoo
+I.SG_OR_PL  sleep
+"I/we sleep"
+
+#96c
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+m siinoo
+m   siinoo
+we  sleep
+"we sleep"
+
+#96d
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+i siinoo
+i      siinoo
+you.PL sleep
+"you sleep"
+
+#96e
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+ali siinoo
+ali     siinoo
+you.pl  sleep
+"you sleep"
+
+#96f
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+al siinoo
+al      siinoo
+you.pl  sleep
+"you sleep"
+
+#96g
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+a siinoo
+a       siinoo
+he/she  sleep
+"he/she sleeps"
+
+# *******************************************
+#  Added for lab 6
+# *******************************************
+
+#97
+Source: a:66
+Vetted: t
+Judgement: g
+Phenomena:
+n si wo ke
+n  si  wo   ke
+we EMP that do
+"we must do that"
+
+#97-b
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+n wo ke
+n  wo   ke
+we that do
+"we will do that"
+
+#98
+Source: a:66
+Vetted: t
+Judgement: g
+Phenomena:
+wo le mu i taa ti
+wo   le mu i   taa  ti
+that UNKNOWN is you POSS SENTENCE_COMPLEMENT
+"That is yours"
+
+#99
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+i a long ko wulu olu siinoo
+i   a  long ko   wulu olu    siinoo
+you it know that dog  DET.PL sleep
+"you know that dogs sleep"
+
+#100
+# Missing tense marker 'ye'.
+Source: author
+Vetted: f
+Judgement: g
+Phenomena:
+i a long
+i   a  long
+you it know
+"you know it"
+
+# **************************************************
+#  Added for lab 7
+# **************************************************
+
+#101
+# 'noo' in wrong place.
+Source: author
+Vetted: f
+Judgement: u
+Phenomena:
+n weere o noo domo
+n weere o   noo domo
+I glass DET can eat
+"I can eat glass"
+
+
+
+

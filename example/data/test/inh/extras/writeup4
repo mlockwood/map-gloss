@@ -1,0 +1,383 @@
+﻿Lab 4 Writeup
+
+
+
+
+MATRIX YES-NO QUESTIONS
+Ingush marks Yes-No questions with the clitic =ii on the verb.
+
+
+#35.1 Yes/No Questions (correct)
+Source: a:710
+Vetted: s
+Judgment: g
+Phenomena: q
+dieshii wa?
+d-iesh=ii wa?
+D-read.PRS=Q 2s.ERG
+'do you read?'
+
+
+This is the only way to mark such questions that we have found.
+
+
+
+
+COORDINATION
+Coordination is marked in several ways.
+The clitic =ji (“and”) occurs on each word/phrase (usually words but also NPs and PPs). It is normally used for two items and exhaustive listings and implies word or phrase coordination. On longer lists or for emphasis it is optional on the last element. For the purposes of simplicity we are only modeling the first behavior and plan to add in the second behavior when we are modifying the rules directly, since the matrix does not allow for adding both and the first behavior appears to be more common.
+
+
+#36.6 Coordination - and (exhaustive) (correct)
+Source: a:527
+Vetted: s
+Judgment: g
+Phenomena: crd
+Ahwmadaji Mahwmadaji jaaz-dead keaxat
+Ahwmad-a=ji Mahwmad-a=ji jaaz-d-u-aad keaxat
+A-ERG=& M-ERG=& write-D-VZ-NW.D letter
+Ahmed and Mohamed wrote the/a letter (together).
+
+
+The clitic =’a (“and”) has the same distribution as =ji but is used when the coordinates do not form a group or are an incomplete or exemplifying listing. It implies VP or clause coordination instead or word or phrase coordination.
+
+
+#36.5 Coordination - and (non-exhaustive) (correct)
+Source: a:527
+Vetted: s
+Judgment: g
+Phenomena: crd
+Ahwmad'a, Mahwmada'a jaazdead keaxat
+Ahwmad-a='a, Mahwmad-a='a jaaz-d-u-aad keaxat
+A-ERG=& M-ERG=& write-D-VZ-NW.D letter
+Ahmed and Mohamed each wrote a letter.
+
+
+The preposed particle je (“or”) has a similar distribution; it occurs before all of the coordinates or all but the first. It usually does not coordinate phrases.
+
+
+#36.9 Coordination - or (correct)
+Source: a:528
+Vetted: s
+Judgment: g
+Phenomena: crd
+Yz kor myshta dellalu, je hwadellalu je dwa-dellalu?
+Yz kor myshta d-iell-alu, je hwa-d-iell-alu je dwa-d-iell-alu?
+DEM window how D-open-INCP, or DX-D-open-INCP or DX-D-open-INCP
+How does this window open, in or out?
+
+
+Neither/nor uses both je and =’a.
+
+
+#36.10 Coordination - neither/nor (correct)
+Source: a:528
+Vetted: s
+Judgment: g
+Phenomena: crd
+Yz'a daac je vozh'a daac
+Yz='a d-y-c je vozh='a d-y-c
+DEM=& D-be-NEG or other=& D-be-NEG
+Neither one. ('It's neither that one nor the other.')
+
+
+
+
+ATTRIBUTIVE ADJECTIVES
+Adjectives occur before the nouns they are modifying. Superlative and comparative forms are created with suffixes (though that is not covered in the current lab). Multiple adjectives can modify the same noun. In 1.4 further below in this section, “three” and “old” both count as adjectives. Numbers function as adjectives in Ingush.
+Less than 10% agree with their nouns in gender.
+
+
+#37.3 Attributive adjectives (with gender agreement) (correct)
+Source: a:526
+Vetted: s
+Judgment: g
+Phenomena: adj
+Bweaxa'a bitq'iga'a qiera bar yz
+B-weaxa='a b-itq'a='a qiera b-ar yz
+B-long=& B-thin=& stone B-be.PST 3s
+It was a long, flat stone.
+
+
+Only two agree in number with their nouns (big/old, small). These are covered by examples already in the system.
+
+
+#37.4 Attributive adjectives (with gender agreement) (correct)
+Source: a:251
+Vetted: s
+Judgment: g
+Phenomena: adj
+Boaqqii naxm xug my bii yzh
+B-oaqqii nax=m xug my b=ii yzh
+B-old.PL people=FOC be.FUT EMPH B.=Q 3p
+Well, they will be elders someday.
+
+
+#1.4 Word Order (incorrect)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+Muusaa cy voaqqa qea sagaca vaxar
+Muusaa cy v-oaqqa qo-a sag-ca v-uoda-ar
+Musa DEM.OBL V-old three-OBL person-INS V-go-WP
+`Musa left with those old three men.'
+
+
+
+
+ADVERBS
+Adverbs occur before what they are modifying (V or VP) and do not inflect.
+
+
+#38.1 Adverbs (correct)
+Source: a:377
+Vetted: s
+Judgment: g
+Phenomena: adv
+Aaz sou sixa q'ameal duuc
+Aaz sou sixa q'ameal d-uuc
+1s.ERG too fast conversation D-tell.PRS
+I talk too fast.
+
+
+#38.2 Adverbs (correct)
+Source: a:493
+Vetted: s
+Judgment: g
+Phenomena: adv
+Yz kinashjka dika dieshalu
+Yz kinashjka dika d-iesh-alu
+DEM book well D-read-INCP
+This book reads well/easily.
+
+
+
+
+EMBEDDED CLAUSES
+Embedded interrogative clauses can be formed with several verbs, usually of speech or cognition. These take a finite complement and an interrogative word, which comes before the verb root and after any prefixes.
+
+
+#39.4 Embedded Clauses - Finite Interrogative (correct)
+Source: a:543
+Vetted: s
+Judgment: g
+Phenomena: emb-q
+Ahwmad jish loqazh laattii hwazhal
+Ahwmad jish loqazh laatt=ii hwazhal
+A. song sing.CVsim stand=Q look.IMPVmild
+Go look whether Ahmed is singing.
+
+
+Embedded declarative clauses are formed with the converb eanna. It is clause-final and used with verbs of speech or perception.
+
+
+#40.1 Embedded Clauses - Finite Declarative (correct)
+Source: a:544
+Vetted: s
+Judgment: g
+Phenomena: emb-d
+Waishet latq'ar, Muusaaz ghar ju eanna
+Waishet latq'-ar, Muusaa-z ghar j-u eanna
+Aishet complain.WP M.ERG noise J.make.PRS SUB
+Aishet complained that Musa was making noise.
+
+
+Embedded declarative clauses can also be formed with the conjunctions sanna or muo “like, as”.
+
+
+#40.3 Embedded Clauses - Finite Declarative (correct)
+Source: a:546
+Vetted: s
+Judgment: g
+Phenomena: emb-d
+Suona gha deira sie Los Angelesie volazh sanna
+Suona gha d-ei-ra sie Los Angelesie v-oal-azh sanna
+1s.DAT dream D-see-WP 1sRFL L.A.ADV V.be.CVsim like
+I dreamed I was in Los Angeles.
+
+
+
+
+NON-VERBAL PREDICATES
+Non-verbal predicates are allowed for nouns but do not seem to occur for any other class. We have an open question to our field linguist for more information on this. They behave like normal nouns for placement and marking, and are used with the neutral form of be.
+
+
+#41.1 Non-Verbal Predicates: Noun (correct)
+Source: a:417
+Vetted: s
+Judgment: g
+Phenomena: wo
+Yz cwa bordz jy
+Yz cwa bordz j-y
+3s one wolf J-be.PRS
+`He's a wolf.'
+
+
+
+
+INFORMATION STRUCTURE
+By default, topics in Ingush are in clause-initial position. Focus (of word or phrase) follows the topic but precedes the rest of the clause.
+
+
+#42.15 Information Structure - Topicalization (& Focus) (correct)
+# topic: Mista  focus: myshta
+Source: a:683
+Vetted: s
+Judgment: g
+Phenomena: info
+Mista xudar myshta duora?
+Mista xudar myshta d-uo-ra?
+sour porridge how D-make-IMPF
+How did they make sour porridge? How was sour porridge made? (A traditional Ingush food.) 
+
+
+#42.3 Information Structure - Normal Argument Focus (correct)
+Source: a:687
+Vetted: s
+Judgment: g
+Phenomena: info
+Cuo diicar suona jerazh.
+Cuo d-iic-ar suona jerazh.
+3s.ERG D-tell-WP 1s.DAT these
+She told them [=stories] to me (focus on she)
+
+
+#42.4 Information Structure - Normal Argument Focus (correct)
+Source: a:687
+Vetted: s
+Judgment: g
+Phenomena: info
+Suona diicar cuo yzh.
+Suona d-iic-ar cuo yzh.
+1s.DAT D-tell-WP 3s.ERG 3p
+She told them to me. It was me she told. (focus on me)
+
+
+Contrastive focus is marked by the clitic =m.
+
+
+#42.1 Information Structure - Contrastive Focus (correct)
+Source: a:721
+Vetted: s
+Judgment: g
+Phenomena: info
+Suonam xoza di xet, hwuona myshta dy xaac suona
+Suona=m xoza di xet, hwuona myshta d-y xaac suona
+1s.DAT=FOC nice day think, 2s.DAT how D-be.PRS know.PRS 1s.DAT
+I don't know what you think, but I think it's a nice day.
+
+
+Normal (unmarked) contrastive focus is also done by word order; it is immediately preverbal and not fronted.
+
+
+Here comes the king: Pacchahw voagha uqazahw hwa.
+        vs
+#42.6 Information Structure - Normal Pure Contrastive Focus (correct)
+Source: a:690
+Vetted: s
+Judgment: g
+Phenomena: info
+Pacchahw uqazahw hwa-voagha
+Pacchahw uqazahw hwa-v-oagha
+king here DX-V-come.PRS
+The king is coming here (he was expected to go somewhere else)
+
+
+Cumulative focus is marked by the clitic =q.
+
+
+#42.2 Information Structure - Cumulative Focus (correct)
+# (The speaker is asked for the name of the ravine behind her childhood house.)
+Source: a:285
+Vetted: s
+Judgment: g
+Phenomena: info
+Ealii oalarq oaxa cynagh
+Ealii eal-ar=q oaxa cynagh
+gully say.IMPF=CUM 1pEX.ERG 3s.LAT
+We just called it the gully.
+
+
+Clefting is common in questions, but is not exclusive to them. In these cases the focus is on the interrogative word and the rest of the clause is nominalized. This is particularly common when the question word would be in an oblique case, or when the questioned word would be in nominative or ergative case.
+
+
+#42.16 Clefting (correct)
+Source: a:627
+Vetted: s
+Judgment: g
+Phenomena: info
+Kto tut igraet? Maluu yz loqar? eanna
+Kto tut igraet? Maluu=v yz loq-ar? eanna
+(Russ.) who=V 3s play.PPL-NZ say.CVant
+Who's that playing? he said.
+
+
+#42.17 Clefting (correct)
+Source: a:627
+Vetted: s
+Judgment: g
+Phenomena: info
+Wajiezhaar fii?
+Wa-j-iezha-ar fii?
+down-J-fall.PPL-NZ what=J.be.PRS
+What fell?
+
+
+Clefting in non-questions is triggered by focus. The focused word moves to the end of the clause and the rest of the clause (the verb and arguments) is nominalized.
+
+
+#42.22 Clefting with non-questions (correct)
+Source: a:629
+Vetted: s
+Judgment: g
+Phenomena: info
+yz ghaala jezh veallaar gurzhie xannuu hwuona
+yz ghaala j-e-zh v-ealla-ar gurzhie xannuu hwuona
+DEM tower J-make-CVsim V-PROG.PPL-NZ Georgian be.NW.V MIR
+The contractor who had been building the tower was Georgian.
+
+
+#42.23 Clefting with non-questions (correct)
+Source: a:630
+Vetted: s
+Judgment: g
+Phenomena: info
+Aaz top tiexaar jer cha jy
+Aaz top tiexa-ar jer cha j-y
+1s.ERG gun strike-NZ DEM bear J-be.PRS
+It's this bear I shot (at). (The one I shot is this bear.)
+
+
+Note that since most of the unmarked focus categories depend on word order they do not actually have negative examples; rearranging the nouns or verbs also rearranges focus.
+
+
+
+
+ADDITIONAL NOTES
+The only sections above that are covered by the grammar in addition to being in the test suite are coordination and yes-no questions.
+We chose to represent clitics as affixes instead of entirely separate words, because clitics are two of the slots that can be filled for the various affixes that are attached to the verb and are not necessarily outermost.
+The compound verbs that are represented as one word are still not parsing correctly; this is because they need a hand-written rule in order to properly combine (since each part of the compound verb can take an explicit gender prefix).
+In order to improve accuracy we added many more stems to the lexicon and fixed some of the bugs that were discussed in the notes and in class (not properly restricting gender, not properly restricting singular vs plural). We also found a few typos and corrected these (correctly stemmed but with the wrong verb root, etc).
+We also still have issues with the ‘ character; it is not being ignored as it should be, so some words and affixes are not properly parsing.
+
+
+
+
+RESULTS
+Coverage:
+Aggregate                total                positive        word        lexical        distinct                total        overall
+items                items        string        items        analyses        results        coverage
+#                #                                                %
+i-length in [5 .. 10|        49                32        6.19        0.00        0.00                0        0.0
+i-length in [0 .. 5|        145                68        3.13        6.43        4.76                21        30.9
+Total                        194                100        4.11        6.43        4.76                21        21.0
+
+
+Overgeneration:
+Aggregate                total                negative        word        lexical        distinct                total        overall
+items                items        string        items        analyses        results        coverage
+#                #                                                %
+i-length in [5 .. 10|        49                17        6.06        0.00        0.00                0        0.0
+i-length in [0 .. 5|        145                77        3.18        6.56        5.71                14        18.2
+Total                        194                94        3.70        6.56        5.71                14        14.9

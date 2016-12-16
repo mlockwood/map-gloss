@@ -1,0 +1,669 @@
+Matt Todd, Mike Foster
+January 29, 2010
+LING 567 Lab 4 Writeup
+
+1. Choices File
+-------Coordination-------
+Coordination in Breton seems to be very much like coordination in English or 
+other Indo-European langauges. There is a freestanding word "ha" (or "hag" 
+before vowels) meaning _and_ that appears between the two coordinands. We also
+added the words for _or_ ("pe") and _nor_ ("na), since they appear to have 
+the same behavior. We were unable to find any evidence with more than two
+coordinands to see if the language strategy follows monosyndeton or 
+polysyndeton, but are assuming that Breton is like most IE languages and uses
+monosyndeton, requiring the coordinator to appear only before the last 
+coordinand. However, we haven't put any examples with more than two in our test
+suite, as we don't have any data as to the grammaticality of such constructions.
+
+Here are some examples:
+NP coordiation
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: crd
+Me hag ar beleg a ganomp.
+Me ha ar beleg a-kanomp
+Me ha ar beleg a-kan-omp
+I.ACC and the priest PRT-SING-1PL.PRS
+'Me and the priest are singing.'
+
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: crd
+Me ar beleg hag a ganomp.
+Me ar beleg ha a-kanomp
+Me ar beleg ha a-kan-omp
+I.ACC the priest and PRT-SING-1PL.PRS
+'Me and the priest are singing.'
+
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: crd
+Me a welis al levr ul liorzh pe.
+Me a-gwelis al levr ul liorzh pe
+Me a-gwel-is al levr ul liorzh pe
+I.ACC PRT-see-1SG.PST the book a garden or
+'I saw the book or a garden.'
+
+VP coordination
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: crd
+Me a ganen hag a c'hoarzhen.
+Me a-kanen ha a-cchoarzhen
+Me a-kan-en ha a-cchoarzh-en
+I.NOM PRT-sing-1SG.PST.IPFV and PRT-laugh-1SG.PST.IPFV
+'I was singing and laughing.'
+
+S coordination
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: crd
+Me a welan da ha te a welez va.
+Me a-gwelan da ha te a-gwelez va
+Me a-gwel-an da ha te a-gwel-ez va
+I.NOM PRT-see-1SG.PRS you.SG.ACC and you.SG.NOM PRT-see-2SG.PRS I.ACC
+'I see you and you see me.'
+
+In the customization system, we chose monosyndeton; then we said that there is
+a word mark of coordination that appears before its coordinand and coordinates
+nouns, noun phrases, verb phrases, and sentences. We did this three times, for
+"ha", "pe", and "na" (and, or, nor).
+
+-------Matrix Yes/No Questions-------
+A yes/no question can be formed in Breton either through intonation alone or
+by using a sentence-initial particle. There is a variation in the particle as
+follows:
+"ha" can be used before a positive statement
+"daoust ha" is used before a negative statement
+"daoust ha" can also be used before a positive statement, but this is emphatic
+There is no other change to a statement than to put the particle at the 
+beginning.
+
+Here are some examples:
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: q
+Hag a ganent?
+Ha a-kanent
+Ha a-kan-ent
+Q PRT-sing-2PL.PST.IPFV
+'Were you singing?'
+
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: q
+A ganent ha?
+A-kanent ha
+A-kan-ent ha
+PRT-sing-2PL.PST.IPFV Q
+'Were you singing?'
+
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: q
+Daoust ha debriñ a rez ur aval?
+Daoust-ha debriñ a-grez ur aval
+Daoust-ha debr-iñ a-grez ur aval
+Q eat-INF PRT-do.2SG.PRS ur aval
+'Are you eating an apple?'
+
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: q, neg
+Daoust ha debriñ ne rez ket ur aval?
+Daoust-ha debriñ ne-grez ket ur aval
+Daoust-ha debr-iñ ne-grez ket ur aval
+Q eat-INF NEG-do.2SG.PRS NEG a apple
+'Aren't you eating an apple?'
+
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: q
+Ha debriñ ne rez ket ur aval?
+Ha debriñ ne-grez ket ur aval
+Ha debr-iñ ne-grez ket ur aval
+Q eat-INF NEG-do.2SG.PRS NEG a apple
+'Aren't you eating an apple?'
+
+In the customization system, we said that there is a sentence-initial particle
+"ha" that is used in forming a question. Obviously, this does not capture all
+the above data; there was no way in the customization to specify more than one
+particle. As it stands, our grammar will not recognize the correct negative 
+question, and it will accept the incorrect example where a negative is preceded
+only by "ha" to form a question. We will fix this when we start editing the tdl
+files.
+
+2. Illustrated in test suite
+-------Attributive adjectives-------
+Generally adjectives follow the noun in Breton, but there are a few that don't.
+Also, there are some cases (superlative, emphatic, pejorative) where the 
+adjective precedes the noun.
+All adjectives but one have a single stem for both plural and singular. We
+aren't covering the one ("kaezh/keizh", _poor_) that does, since it is a unique
+case. However, number, as well as gender, agrees with the noun by causing a 
+mutation of the initial consonant of the adjective (but only when the adjective
+follows the noun.) Specifically, feminine singular and masculine human plural
+nouns cause the soft mutation on the adjective. In our transliteration, we are
+removing mutations, because they are very extensive and there are lots of
+exceptions, and generally it is a morphophonological process, although there 
+are a few cases when it has a syntactic purpose, as here with the adjectives.
+Instead of showing the mutation in our transliteration, we are adding a suffix,
+attached to the adjective with a hyphen, that reflects number and gender. In
+the cases where the human status of the noun is shown in the adjective mutation,
+we are adding that as a suffix as well. (This only shows up in masculine plural
+forms.) It wasn't in the Liepzig rules, but we are using "HUM" for it.
+
+It is also worth noting that Breton prefers to use a noun as an adjective 
+rather than a derived adjective form. We have one sentence in our test suite
+with this usage.
+
+Here are some examples:
+
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ra ar beleg mezh ul levr.
+Klaskiñ a-gr ar beleg mezh-msg ul levr
+Klask-iñ a-gr ar beleg mezh-msg ul levr
+seek-INF PRT-do.3SG.PRS the priest drunk-M a book
+'The drunk priest is seeking a book.'
+
+# gender of adjective should agree with noun
+# can see the "f" gender in surface string with the mutation of m to v
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: adj
+Klask a ra ar beleg vezv ul levr.
+Klaskiñ a-gr ar beleg mezv-fsg ul levr
+Klask-iñ a-gr ar beleg mezv-fsg ul levr
+seek-INF PRT-do.3SG.PRS the priest drunk-FSG a book
+'The drunk priest is seeking a book.'
+
+# i had marked this ungrammatical, but i think that this would actually
+# be grammatical in an emphatic sense
+# if it were not emphatic, it would be ungrammatical to get mezv before
+# the noun
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ra ar mezv beleg ul levr.
+Klaskiñ a-gr ar mezv-msg beleg ul levr
+Klask-iñ a-gr ar mezv-msg beleg ul levr
+seek-INF PRT-do.3SG.PRS the drunk-MSG priest a book
+'The drunk priest is seeking a book.'
+
+# gwall is one of a [rarer] class of adjectives that go before the noun
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ran ur gwall levr.
+Klaskiñ a-gran ur gwall levr
+Klask-iñ a-gr-an ur gwall levr
+seek-INF PRT-do-1SG.PRS a bad book
+'The priest is seeking a bad book.'
+
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ra ar belegoù vezv ul levr.
+Klaskiñ a-gr ar belegoù mezv-mpl-hum ul levr
+Klask-iñ a-gr ar beleg-où mezv-mpl-hum ul levr
+seek-INF PRT-do.3SG.PRS the priest-PL drunk-MPL-HUM a book
+'The drunk priests are seeking a book.'
+
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ra ar belegoù ul levr liorzh.
+Klaskiñ a-gr ar belegoù ul levr liorzh
+Klask-iñ a-gr ar beleg-où ul levr liorzh
+seek-INF PRT-do.3SG.PRS the priest-PL a book garden
+'The priests are seeking a book about gardens.'
+
+-------Adverbs-------
+Adverbs of manner can appear before or after a verb they modify. Adjectives
+in this location can also be used as adverbs. When adjectives are used as 
+adverbs, they can be preceded by the particle "e/ez" but it does not seem to
+be necessary.
+
+Here are some examples:
+
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {adv}
+Buan a glask gra ar beleg ul levr.
+Buan a-klask gra ar beleg ul levr
+Buan a-klask gr-a ar beleg ul levr
+quickly PRT-seek.INF do-PRS.3SG the priest.M a book.M
+'The priest seeks a book quickly.'
+
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {adv}
+A glask gra ar beleg ul levr buan.
+A-klask gra ar beleg ul levr buan
+A-klask gr-a ar beleg ul levr buan
+PRT-seek.INF do-PRS.3SG the priest.M a book.M quickly
+'The priest seeks a book quickly.'
+
+-------Embedded clauses-------
+I had a lot of trouble finding information about these types of embedded 
+clauses, because none of the grammars mentioned this type of verb specifically.
+Therefore, all the data I have is examples of correct usage, both from the 
+sources and the web, which makes it difficult to come up with ungrammatical 
+examples.
+
+I looked for cases where there was the verb "gouzout", _know_, or "goulenn", 
+_ask_ followed by a sentence. In all the cases that I found, the embedded
+sentences were directly after the verb that licensed them, with no 
+complementizer. In all the examples I found, the verb in the embedded sentence
+was first; in other words, they seemed to follow VSO order. However, I hesitate
+to say that anything else would be ungrammatical, because I just don't have 
+data. It's a distinct possibility, though, and we will continue searching for
+more definitive data about embedded S's. I found no difference between the way
+sentences after _ask_ behaved compared to sentences after _know_. 
+
+Here are some examples:
+
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: emb-d
+Gouzout a ran a c'hoarzhan.
+Gouziñ a-gran a-cchoarzhan
+Gouz-iñ a-gr-an a-cchoarzh-an
+know-INF PRT-do-1SG.PRS PRT-laugh-1SG.PRS
+'I know that I'm laughing.'
+
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: emb-q
+Goulenn a rejod a c'hoarzhes.
+Goulenniñ a-grjod a-cchoarzhes
+Goulenn-iñ a-gr-jod a-cchoarzh-es
+ask-INF PRT-do-3PL.PST.PFV PRT-laugh-2SG.PST.IPFV
+'They asked whether you were laughing.'
+
+# embedded clause should be in finite form
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+Gouzout a ran a c'hoarzhañ.
+Gouziñ a-gran a-cchoarzhiñ
+Gouz-iñ a-gr-an a-cchoarzh-iñ
+know-INF PRT-do-1SG.PRS PRT-laugh-INF
+'I know that I'm laughing.'
+
+# embedded clause should have preverbal particle
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+Gouzout a ran c'hoarzhan.
+Gouziñ a-gran cchoarzhan
+Gouz-iñ a-gr-an cchoarzh-an
+know-INF PRT-do-1SG.PRS laugh-1SG.PRS
+'I know that I'm laughing.'
+
+# embedded interrogative should not use question particle
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+Goulenn a rejod hag a c'hoarzhes.
+Goulenniñ a-grjod ha a-cchoarzhes
+Goulenn-iñ a-gr-jod ha a-cchoarzh-es
+ask-INF PRT-do-3PL.PST.PFV Q PRT-laugh-2SG.PST.IPFV
+'They asked whether you were laughing.'
+
+-------Non-verbal predicates-------
+The verb "bezañ", _be_, is used to form non-verbal predicates. The predicate can appear with "bezañ" in 
+several orders, depending on information structure. One way the text mentions of doing it is to use "bez' e",
+"bezañ" in a habitual form followed by the particle "e/ez", followed by a conjugated instance of "bezañ".
+
+It's worth noting that "bezañ", when used as an auxiliary to a main verb, precedes the verb, but in most of
+*these* cases, follows its subject. This isn't really a problem because in these sentences with non-verbal 
+predicates, it's just a main verb "bezañ" that happens to be homophonous with the auxiliary. 
+
+Here are some examples:
+
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {cop, info}
+Beleg a bez-eñ.
+Beleg a-bez-eñ
+Beleg a-bez-eñ
+priest.M PRT-be.3SG.PRS he
+'He is a priest.'
+
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {cop, info}
+Eñ a bez Beleg.
+Eñ a-bez Beleg
+Eñ a-bez Beleg
+he PRT-be.3SG.PRS priest.M
+'He is a priest.'
+
+# Ungrammatical nonverbal predicate of the form: verb + subject + complement
+# 'bezan' inflection is wrong 
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+Eñ a bezan beleg.
+Eñ a-bezan beleg
+Eñ a-bez-an beleg
+he PRT-be.3SG.PRS priest.M
+'He is a priest.'
+
+# Grammatical nonverbal predicate of the form: Bez' (e) + verb + subject + complement
+# 'bezan' must be sentence initial 
+Source: {author, Foster}
+Vetted: f
+Judgment: g
+Phenomena: {cop}
+Bez' e vez beleg eñ.
+Bez' e-bez beleg eñ
+Bez' e-bez beleg eñ
+be.3SG.PRS PRT-be.3SG.PRS priest.M he
+'He is a priest.'
+
+# Ungrammatical nonverbal predicate of the form: Bez' (e) + verb + subject + complement
+# Nominal predicate marking 'bezan' must be sentence initial 
+Source: {author, Foster}
+Vetted: f
+Judgment: u
+Phenomena: {cop}
+A bez bez' beleg eñ.
+A-bez bez' beleg eñ
+A-bez bez' beleg eñ
+PRT-be.3SG.PRS be.3SG.PRS priest.M he
+'He is a priest.'
+
+# Example 142
+# Grammatical adjectival predicate of the form: complement + verb + subject
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: {cop, info, adj}
+Mezv a bez-eñ.
+Mezv a-bez-eñ
+Mezv a-bez-eñ
+drunk-msg PRT-be.3SG.PRS he
+'He is drunk.'
+
+-------Information structure-------
+Breton handles emphasis and focus almost exclusively with word order. Our
+text says "Basically, the new information (rheme) seems to come first in 
+Breton. .. The known information (theme) seems to come after the rheme."
+With the word order being V2, the sentence-initial position almost always 
+carries some emphasis or the denotatin of new information. It is especially 
+emphatic if the subject or object is filling that slot; using a subject pronoun
+sentence-initially is even more so. Only one of our texts refers to the new
+information, and basically treats it as if it's the same or nearly the same as
+emphasis. The other texts all say that the sentence-initial position is 
+emphatic.
+
+This seems to happen within phrases as well; the adjective is normally found
+after the noun, for most adjectives, but it appears that it can go in front of
+the noun for emphasis.
+
+Another emphasis marker that we show in the test suite is a verbal-suffix form
+of the subject pronoun. This is the same as the freestanding subject pronoun,
+except that Breton orthography attaches it to the verb with a hyphen (and 
+presumably it is phonologically part of the verb, as well.) Using this suffix
+is more emphatic than subject-dropping, which is allowed, but less so than 
+using the freestanding subject pronoun at the front of the sentence.
+
+There is also an emphatic position available for the object, and apparently not
+the subject, that occurs in sentences with auxiliaries between the main verb
+and the auxiliary.
+
+Here are some examples:
+
+# Grammatical object emphasis. Object must come after the verb if infinitive
+# Emphasized elements come as early as possible in a sentence
+Source: {author, Foster} 
+Vetted: f
+Judgment: g
+Phenomena: {info, wo}
+Debriñ un aval a reont ar beleien.
+Debriñ un aval a-greont ar belegoù.
+Debriñ un aval a-gr-eont ar beleg-où
+eat.INF an apple.M.SG PRT-do-3PL.PRS the priest.M-PL 
+'The priests are eating an apple.'
+
+# Ungrammatical object emphasis. Nothing may precede the 
+# infinitive in an "ober" construction
+# Emphasized elements come as early as possible in a sentence
+Source: {author, Foster} 
+Vetted: f
+Judgment: u
+Phenomena: {info, wo}
+Un aval debriñ a reont ar beleien.
+Un aval debriñ a-greont ar belegoù.
+Un aval debriñ a-gr-eont ar beleg-où 
+an apple.M seek.INF PRT-do-3PL.PRS the priest.M-PL 
+'The priests are eating an apple.'
+
+# Grammatical object emphasis. Object may come sentence initially
+# if not in an 'ober' construction. This sentence is ambiguous and relies on intonation
+# for the intended meaning. 117 and 118 should be treated the same by the grammar
+Source: {author, Foster} 
+Vetted: f
+Judgment: g
+Phenomena: {info, wo}
+Un aval a debront ar beleien.
+Un aval a-debront ar belegoù.
+Un aval a-debront ar beleg-où
+an apple.M eat-3PL.PRS the priest.M-PL 
+'An apple, the priests eat.'
+
+# Grammatical subject emphasis. subject may come sentence initially
+# if not in an 'ober' construction. This sentence is ambiguous and 
+# relies on intonation
+# for the intended meaning. 117 and 118 should be treated the same 
+# by the grammar
+Source: {author, Foster} 
+Vetted: f
+Judgment: g
+Phenomena: {info, wo}
+Ar beleien a debront un aval.
+Ar belegoù a-debront un aval.
+Ar beleg-où a-debront un aval
+the priest.M-PL eat-3PL.PRS an apple.M
+'The priests eat an apple.'
+
+# Ungrammatical emphasis. Subject and object may not both precede the verb
+Source: {author, Foster} 
+Vetted: f
+Judgment: u
+Phenomena: {info, wo}
+Ar beleien un aval a debront.
+Ar belegoù un aval a-debront.
+Ar beleg-où un aval a-debront
+an apple.M the priest.M-PL eat-3PL.PRS 
+'The priests eat an apple.'
+
+# strong emphasis of subject
+# alternate translation might be "She's the one that seeks them."
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: {pn, c, info}
+Hi a glask o.
+Hi a-klask o
+Hi a-klask o
+she.NOM.SG PRT-seek.3SG.PRS them.ACC.PL
+'She seeks them.'
+
+
+3. Coverage over the test suite
+Summary:
+Total items: 148
+Positive items: 75 of which 41 parsed, yielding 54.7% coverage
+Negative items: 73 of which 7 parsed, yielding 9.6% overgeneration
+
+Obviously a lot of sentences failed, because our test suite has many more phenomena than we have implemented
+yet. Of our 148 sentences, 50 failed to parse because they had words that are not yet in our 
+lexicon (adjectives, adverbs, the verbs of asking and knowing, and various particles.) 25 of these were
+positive and 25 were negative (in other words, of the 34 positives that were incorrectly not licensed, only
+9 were failures to parse something that the grammar should already have been able to do.) 
+
+One of the false negatives:
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: q
+Ha gwelout a ra ar beleg al levr?
+Ha gweliñ a-gr ar beleg al levr
+Ha gwel-iñ a-gr ar beleg al levr
+Q see-INF PRT-do.3SG.PRS the priest the book
+'Does the priest see the book?'
+
+This uses the question particle to form a matrix yes/no question. It generates a CP with all the words in
+the sentence, but does not think that is able to be a sentence. I assume that the question particle is being
+treated as a complementizer, but I don't understand why it wouldn't be willing to license an S with the 
+structure it forms.
+
+There are several sentences our grammar doesn't parse because our grammar is looking for a V2 order, but in
+some cases Breton can have an order like this:  V O AUX S, or V S AUX O. Here's one of those:
+
+# Grammatical object emphasis. Object must come after the verb if infinitive
+Source: {author, Foster} 
+Vetted: f
+Judgment: g
+Phenomena: {info}
+Debriñ a reont beleien ar un aval.
+Debriñ a-gront belegoù ar un aval.
+Debriñ a-gr-ont beleg-où ar un aval
+eat.INF PRT-do-3PL.PRS the priest.M 
+'The priests are eating an apple.'
+
+The grammar also failed to parse the sentence with a noun used as an adjective, which is hardly surprising:
+Source: {author, Todd}
+Vetted: f
+Judgment: g
+Phenomena: adj
+Klask a ra ar belegoù ul levr liorzh.
+Klaskiñ a-gr ar belegoù ul levr liorzh
+Klask-iñ a-gr ar beleg-où ul levr liorzh
+seek-INF PRT-do.3SG.PRS the priest-PL a book garden
+'The priests are seeking a book about gardens.'
+
+The last failure to parse a grammatical sentence was with "be" as a main verb; really that should go in the 
+list of ones that fail to parse because we don't have their entry in the lexicon yet.
+
+Of the false positives (our areas of overgeneration), two examples of verb-subject disagreement are getting
+through, here is one:
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: {agr}
+Debriñ a ra ar beleien un aval.
+Debriñ a-gr ar belegoù un aval.
+Debriñ a-gr ar beleg-où un aval
+eat.INF PRT-do.3SG.PRS the priest.M-PL an apple.M.SG
+'The priests are eating an apple.'
+
+The verb is in a 3rd person singular form, but the subject is in a singular form. I think this is happening
+because of the V2 word order in the customization; Breton generally puts the subject before the object unless
+the object is being emphasized. So in this example, _apple_ is being treated as the grammatical subject.
+
+Here's another incorrect generation:
+# be goes before its complement
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: wo
+Kanañ a vezan.
+Kaniñ a-bezan
+Kan-iñ a-bezan
+sing-INF PRT-be.1SG.HBT.PRS
+'I usually sing.'
+
+This happens because our auxiliaries are listed as coming after their complement; however, bezañ has the 
+opposite order. This example is generated if we reverse that rule in the choices file.
+
+Two examples are being generated although they have a coordinator as the last word in the sentence.
+This has the same spelling as our question particle, but since the question particle comes sentence-
+initially, I still can't quite figure out why it would be okay with a coordinand or Q particle happening at
+the end.
+
+One was generated although it did not have a correct particle before the verb to put it into present 
+progressive form:
+# need the particle "o" to make present progressive
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: tam
+Eñ a emañ cchoarzhiñ.
+Eñ a-emañ cchoarzhiñ
+Eñ a-emañ cchoarzh-iñ
+he.NOM PRT-be.PNT.PRS laugh-INF
+"He is laughing."
+
+This is because we haven't actually gotten the present progressive form correct yet. It is the preverbal
+particle "o" + verb.INF. However, right now our grammar accepts the infinitive form as a present progressive
+because we haven't figured out how to require the preverbal particle for that particular form.
+
+We also license as grammatical a sentence that is attempting the demonstrative _that_ and doesn't have the 
+correct article preceding the noun. As far as I know, we don't have a way through the customization system
+to tell it that if a noun has a certain suffix, it requires a certain determiner.
+
+# ungrammatical because indefinite rather than definite article is used
+# with the demonstrative suffix
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: cogst
+Klask a ran me ul levr-se
+Klaskiñ a-gran me ul levr-se
+Klask-iñ a-gr-an me ul levr-se
+seek-INF PRT-do-1SG.PRS a book-that
+'I'm seeking that book.'
+
+
+4. We changed the punctual forms of _be_ to require a present participle. We think this is required, and can
+only find examples of these forms followed by a present participle, but we have no negative data to tell us
+if that is the only form that can be used. However, it seems that the punctual forms are used pretty
+specifically this way.
+
+The sentence that was overgenerated was this:
+# need the particle "o" to make present progressive
+Source: {author, Todd}
+Vetted: f
+Judgment: u
+Phenomena: tam
+Eñ a emañ cchoarzhiñ.
+Eñ a-emañ cchoarzhiñ
+Eñ a-emañ cchoarzh-iñ
+he.NOM PRT-be.PNT.PRS laugh-INF
+"He is laughing."
+
+We realized that since _be_ was accepting all nonfinite forms, that of course this would be allowed.
+The change we made did not actually improve our performance, because of the reasons listed above in the 
+discussion of the false positive we get with that sentence.

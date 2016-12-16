@@ -1,0 +1,3905 @@
+Language: French
+Language code: fra
+Tiers: orth orth-seg gloss translat
+Author: Leanne Rolston
+Date: 19 Feb, 2010 
+Source a: 
+Source b: 
+
+# Word Order
+
+#1 Correct word order - S V O 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo
+le garçon mange le gâteau 
+le           garçon       mang.e   le           gâteau
+The.3SG-masc boy.3SG-masc eats.3SG the.3SG-masc cake.3SG-masc 
+'The boy eats the cake' 
+
+#2 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo
+le garçon mange les biscuits 
+le           garçon       mang.e   les     biscuits 
+The.3SG-masc boy.3SG-masc eats.3SG the.3PL cookies.3PL-masc 
+'The boy eats the cookies' 
+
+#3
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo
+le garçon mange la pomme 
+le           garçon       mang.e   la          pomme
+The.3SG-masc boy.3SG-masc eats.3SG the.3SG-fem apple.3SG-fem
+'the boy eats the apple.' 
+
+#4
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo 
+la fille mange le gâteau 
+la           fille         mang.e   le           gâteau
+The.3SG-fem  girl.3SG-masc eats.3SG the.3SG-masc cake.3SG-masc 
+'The girl eats the cake' 
+
+#5
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo 
+la fille mange les biscuits 
+la           fille         mang.e   les     biscuits 
+The.3SG-fem  girl.3SG-masc eats.3SG the.3PL cookies.3PL-masc 
+'The girl eats the cookies' 
+
+#6
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo  
+la fille mange la pomme 
+la           fille        mang.e   la          pomme
+The.3SG-fem  girl.3SG-fem eats.3SG the.3SG-fem apple.3SG-fem
+'the girl eats the apple.' 
+
+#7
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo 
+les enfants mangent le gâteau 
+les      enfants       mang.ent   le           gâteau
+The.3pl  children.3PL  eat.3PL    the.3SG-masc cake.3SG-masc 
+'The children eat the cake' 
+
+#8
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo 
+les enfants mangent les biscuits 
+les     enfants       mang.ent   les     biscuits 
+The.3PL children.3PL  eats.3PL the.3PL cookies.3PL-masc 
+'The children eat the cookies' 
+
+#9
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo 
+les enfants mangent la pomme 
+les     enfants       mang.ent   la          pomme
+The.3PL children.3PL  eats.3PL   the.3SG-fem apple.3SG-fem
+'the children eat the apple.' 
+
+## Determiner-Noun out or order:
+
+#10 Determiner/noun out of order in subject
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+*garçon le mange le gâteau 
+*garçon       le            mang.e   le           gâteau
+boy.3SG-masc The.3SG-masc  eats.3SG the.3SG-masc cake.3SG-masc 
+'The boy eats the cake' 
+
+#11 Det/Noun out of order Object.
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo 
+*le garçon mange biscuits les
+*le           garçon       mang.e   biscuits          les   
+The.3SG-masc boy.3SG-masc eats.3SG cookies.3PL-masc the.3PL 
+'The boy eats the cookies' 
+
+#12 Det/Noun out of order subject
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+*fille  la  mange le gâteau 
+*fille        la            mang.e   le           gâteau
+girl.3SG-fem The.3SG-fem   eats.3SG the.3SG-masc cake.3SG-masc 
+'The girl eats the cake' 
+
+#13 Det/Noun out or order in the object 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+*la fille mange pomme la 
+*la           fille        mang.e   pomme         la          
+The.3SG-fem  girl.3SG-fem eats.3SG apple.3SG-fem the.3SG-fem 
+'the girl eats the apple.' 
+
+#14 Det/Noun out of order in the subject 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo 
+*enfants les  mangent le gâteau 
+*enfants      les        mang.ent   le           gâteau
+children.3PL The.3pl    eat.3PL    the.3SG-masc cake.3SG-masc 
+'The children eat the cake' 
+
+#15 Det/Noun out of order in the object 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo
+*les enfants mangent biscuits  les 
+*les     enfants       mang.ent biscuits         les     
+The.3PL children.3PL  eats.3PL cookies.3PL-masc the.3PL  
+'The children eat the cookies' 
+
+## Pronoun-Verb agreement 
+
+#16
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+Je mange le gâteau 
+Je       mang.e     le           gâteau
+I.1SG    eat.non2SG the.3SG-masc cake.3SG-masc 
+'I eat the cake' 
+
+#17
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+Tu manges le gâteau 
+Tu         mang.es     le           gâteau
+You.2SG    eat.2SG     the.3SG-masc cake.3SG-masc 
+'you eat the cake' 
+
+#18
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+Il mange le gâteau 
+Il             mang.e     le           gâteau
+he.1SG-masc    eats.non2SG the.3SG-masc cake.3SG-masc 
+'he eats the cake' 
+
+#19
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+elle mange le gâteau 
+elle             mang.e     le           gâteau
+she.1SG-fem    eats.non2SG the.3SG-masc cake.3SG-masc 
+'she eats the cake' 
+
+#20
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+nous mangeons le gâteau 
+nous      mang.eons  le           gâteau
+we.1PL    eat.1PL    the.3SG-masc cake.3SG-masc 
+'we eat the cake' 
+
+#21
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+vous mangez le gâteau 
+vous       mang.ez    le           gâteau
+you.2PL    eat.2PL    the.3SG-masc cake.3SG-masc 
+'you eat the cake' 
+
+#22
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+ils mangent le gâteau 
+ils              mang.ent    le           gâteau
+they.2PL-masc    eat.2PL     the.3SG-masc cake.3SG-masc 
+'they eat the cake' 
+
+#23
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+elles mangent le gâteau 
+elles           mang.ent    le           gâteau
+they.2PL-fem    eat.2PL     the.3SG-masc cake.3SG-masc 
+'they eat the cake' 
+
+## Incorrect word order: 
+
+#24 Incorrect word order - V S O  - Valid for inverse questions 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo 
+mange le garçon le gâteau 
+mang.e   le            garcon       le            gâteau 
+eats.3SG the.3SG-masc  boy.3SG-masc the.3SG-masc  cake.3SG-masc
+'does the boy eats the cake?' 
+
+#25 Incorrect word order - V O S - Valid for inverse questions 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo 
+mange le gâteau  le garçon 
+mang.e   le            gâteau        le            garcon       
+eats.3SG the.3SG-masc  cake.3SG-masc the.3SG-masc  boy.3SG-masc 
+'does the cake eat the boy?' 
+
+#26 Incorrect word order -  O V S. 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo 
+le gâteau mange   le garçon 
+le            gâteau        mang.e    le            garcon       
+the.3SG-masc  cake.3SG-masc eats.3SG  the.3SG-masc  boy.3SG-masc 
+'the cake eats the boy' 
+
+#27 Incorrect word order - O S V 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo 
+*le gâteau le garçon  mange   
+le            gâteau        le            garcon         mang.e        
+the.3SG-masc  cake.3SG-masc the.3SG-masc  boy.3SG-masc   eats.3SG  
+'the boy eats the cake' 
+
+#28 Incorrect word order - S O V 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo 
+*le garçon le gâteau   mange   
+le            garcon       le            gâteau           mang.e        
+the.3SG-masc  boy.3SG-masc the.3SG-masc  cake.3SG-masc    eats.3SG  
+'the boy eats the cake' 
+
+#29 - Incorrect word order - VSO - Valid with inverse questions 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo 
+mange la fille  le gâteau 
+mang.e   la           fille          le           gâteau
+eats.3SG The.3SG-fem  girl.3SG-masc  the.3SG-masc cake.3SG-masc 
+'does the girl eat the cake?' 
+
+#30 - Incorrect word order - VOS valid with inverse questions 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo  
+mange   la pomme la fille   
+mang.e  la            pomme         la           fille           
+eats.3SG The.3SG-fem  apple.3SG-fem the.3SG-fem  girl.3SG-fem  
+'does the apple eat the girl?' 
+
+#31 - Incorrect word order - SOV 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo, agr 
+*les enfants les biscuits  mange 
+les     enfants       les     biscuits          mang.e   
+The.3PL children.3PL  the.3PL cookies.3PL-masc  eat.3PL 
+'The children eat the cookies' 
+
+#32 - Incorrect word order - OSV 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: wo  
+*la pomme les enfants  mangent  
+la          pomme         les     enfants        mang.ent   
+the.3SG-fem apple.3SG-fem The.3PL children.3PL   eats.3PL   
+'the children eat the apple.'
+
+# Dischord between Determiner and noun - definite article 
+
+#33 Det-Noun mismatch in the subject
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*la garçon mange le gâteau 
+la           garçon       mang.e   le           gâteau
+The.3SG-masc boy.3SG-masc eats.3SG the.3SG-masc cake.3SG-masc 
+'The boy eats the cake' 
+
+#34 - Det-noun mismatch in the subject  
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*le fille mange le gâteau 
+le           fille         mang.e   le           gâteau
+The.3SG-fem  girl.3SG-masc eats.3SG the.3SG-masc cake.3SG-masc 
+'The girl eats the cake' 
+
+#35 - Det-noun mismatch in the object 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*la fille mange le pomme 
+la           fille        mang.e   le          pomme
+The.3SG-fem  girl.3SG-fem eats.3SG the.3SG-fem apple.3SG-fem
+'the girl eats the apple.' 
+
+#36 - Det-noun mismatch in the subject
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*la enfants mangent le gâteau 
+la       enfants       mang.ent   le           gâteau
+The.3pl  children.3PL  eat.3PL    the.3SG-masc cake.3SG-masc 
+'The children eat the cake' 
+
+#37 - det-noun mismatch in the object 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*la fille mange le biscuits 
+la           fille         mang.e   le      biscuits 
+The.3SG-fem  girl.3SG-masc eats.3SG the.3PL cookies.3PL-masc 
+'The girl eats the cookies' 
+
+#38 - det-noun mismatch in the subject 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*les fille mange les biscuits 
+les       fille         mang.e   les      biscuits 
+The.3PL   girl.3SG-fem  eats.3SG the.3PL cookies.3PL-masc 
+'The girl eats the cookies' 
+
+#39 - det-noun mismatch in the object 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*les garçon  mange les biscuits 
+les      garçon       mang.e   les      biscuits 
+The.3PL  boy.3SG-masc eats.3SG the.3PL cookies.3PL-masc 
+'The boy eats the cookies' 
+
+## Indefinite Articles: 
+
+#40 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+un garçon mange le gâteau 
+un           garçon       mang.e   le           gâteau
+a.3SG-masc boy.3SG-masc eats.3SG   the.3SG-masc cake.3SG-masc 
+'a boy eats the cake' 
+
+#41
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+le garçon mange un gâteau 
+le           garçon       mang.e   un           gâteau
+The.3SG-masc boy.3SG-masc eats.3SG a.3SG-masc cake.3SG-masc 
+'The boy eats a cake' 
+
+#42
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+le garçon mange une pomme 
+le           garçon       mang.e   une          pomme
+The.3SG-masc boy.3SG-masc eats.3SG a.3SG-fem    apple.3SG-fem
+'the boy eats an apple.' 
+
+#44
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+une fille mange le gâteau 
+une           fille         mang.e   le           gâteau
+A.3SG-fem  girl.3SG-masc eats.3SG the.3SG-masc cake.3SG-masc 
+'A girl eats the cake' 
+
+#45  
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+la fille mange des biscuits 
+la           fille         mang.e   des     biscuits 
+The.3SG-fem  girl.3SG-masc eats.3SG the.3PL cookies.3PL-masc 
+'The girl eats the cookies' 
+
+#46
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+une fille mange une pomme 
+une           fille        mang.e   une          pomme
+a.3SG-fem  girl.3SG-fem eats.3SG   an.3SG-fem apple.3SG-fem
+'a girl eats an apple.' 
+
+#47
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+les enfants mangent un gâteau 
+les      enfants       mang.ent   un           gâteau
+The.3pl  children.3PL  eat.3PL    a.3SG-masc cake.3SG-masc 
+'The children eat a cake' 
+
+#48 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+les enfants mangent les biscuits 
+les     enfants       mang.ent   des     biscuits 
+The.3PL children.3PL  eats.3PL the.3PL cookies.3PL-masc 
+'The children eat the cookies' 
+
+#49
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+les enfants mangent une pomme 
+les     enfants       mang.ent   une          pomme
+The.3PL children.3PL  eats.3PL   une.3SG-fem apple.3SG-fem
+'the children eat an apple.' 
+
+#50 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+nous mangeons une pomme 
+nous     mang.eons   une          pomme
+we.1PL   eat.1PL     une.3SG-fem apple.3SG-fem
+'we eat an apple.' 
+
+#51
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+vous mangez un biscuit 
+vous       mang.ez   un          biscuit
+you.2PL    eat.3PL   un.3SG-masc cookie.3SG-masc
+'you eat a cookie.' 
+
+## Dischord between Indefinite Article and noun
+
+#52 - Det/N dischord in the subject
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*une garçon mange le gâteau 
+une           garçon       mang.e   le           gâteau
+a.3SG-fem boy.3SG-masc eats.3SG   the.3SG-masc cake.3SG-masc 
+'a boy eats the cake' 
+
+#53 Det/N dischord in the object 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*le garçon mange une gâteau 
+le           garçon       mang.e   une       gâteau
+The.3SG-masc boy.3SG-masc eats.3SG a.3SG-fem cake.3SG-masc 
+'The boy eats a cake' 
+
+#54 Det/N dischord in the subject 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*un fille mange le gâteau 
+un           fille         mang.e   le           gâteau
+A.3SG-masc  girl.3SG-masc eats.3SG the.3SG-masc cake.3SG-masc 
+'A girl eats the cake' 
+
+#55  Det/N dischord in the object 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*la fille mange le biscuits 
+la           fille         mang.e   le           biscuits 
+The.3SG-fem  girl.3SG-masc eats.3SG the.3SG-masc cookies.3PL-masc 
+'The girl eats the cookies' 
+
+#56 Det/N dischord in the object 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*une fille mange des pomme 
+une           fille     mang.e     des    pomme
+a.3SG-fem  girl.3SG-fem eats.3SG   an.3PL apple.3SG-fem
+'a girl eats an apple.' 
+
+#57 Det/N Dischord in the subject 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*une enfants mangent un gâteau 
+une          enfants       mang.ent   un           gâteau
+The.3SG-fem  children.3PL  eat.3PL    a.3SG-masc cake.3SG-masc 
+'The children eat a cake' 
+
+#58 Det/N Dischord in the subject 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*le enfants mangent une pomme 
+le      enfants       mang.ent   une          pomme
+The.3SG children.3PL  eat.3PL   une.3SG-fem apple.3SG-fem
+'the children eat an apple.' 
+
+## Demonstratives 
+
+#59 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst 
+ce garçon mange le gâteau 
+ce           garçon       mang.e   le           gâteau
+this.3SG-masc boy.3SG-masc eats.3SG   the.3SG-masc cake.3SG-masc 
+'a boy eats the cake' 
+
+#60
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst 
+le garçon mange ce gâteau 
+le           garçon       mang.e   ce           gâteau
+The.3SG-masc boy.3SG-masc eats.3SG this.3SG-masc cake.3SG-masc 
+'The boy eats this cake' 
+
+#61
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst
+le garçon mange cette pomme 
+le           garçon       mang.e   cette          pomme
+The.3SG-masc boy.3SG-masc eats.3SG this.3SG-fem    apple.3SG-fem
+'the boy eats an apple.' 
+
+#62
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst 
+cette fille mange le gâteau 
+cette           fille         mang.e   le           gâteau
+this.3SG-fem  girl.3SG-masc eats.3SG the.3SG-masc cake.3SG-masc 
+'this girl eats the cake' 
+
+#63  
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst 
+la fille mange ces biscuits 
+la           fille         mang.e   ces        biscuits 
+The.3SG-fem  girl.3SG-masc eats.3SG these.3PL cookies.3PL-masc 
+'The girl eats these cookies' 
+
+#64
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst 
+les enfants mangent ce gâteau 
+les      enfants       mang.ent   ce           gâteau
+The.3pl  children.3PL  eat.3PL    this.3SG-masc cake.3SG-masc 
+'The children eat a cake' 
+
+#65 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst 
+ces enfants mangent ces biscuits 
+ces     enfants       mang.ent   ces     biscuits 
+The.3PL children.3PL  eats.3PL the.3PL cookies.3PL-masc 
+'These children are eating these cookies' 
+
+#66 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst 
+ce garçon-là mange le gâteau 
+ce           garçon-là          mang.e     le           gâteau
+this.3SG-masc boy.3SG-masc-there eats.3SG   the.3SG-masc cake.3SG-masc 
+'this boy there is eating the cake' 
+
+#67
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst 
+le garçon mange ce gâteau-ci 
+le           garçon       mang.e   ce           gâteau-ci 
+The.3SG-masc boy.3SG-masc eats.3SG this.3SG-masc cake.3SG-masc-here  
+'The boy eats this cake here' 
+
+#68
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst 
+le garçon mange cette pomme-là 
+le           garçon       mang.e   cette          pomme-là
+The.3SG-masc boy.3SG-masc eats.3SG this.3SG-fem    apple.3SG-fem-there
+'the boy eats this apple there.' 
+
+#69
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst 
+cette fille-ci mange le gâteau 
+cette           fille-ci         mang.e   le           gâteau
+this.3SG-fem  girl.3SG-masc-here eats.3SG the.3SG-masc cake.3SG-masc 
+'this girl here is eating the cake' 
+
+#70 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst 
+la fille mange ces biscuits-là 
+la           fille         mang.e   ces        biscuits-là
+The.3SG-fem  girl.3SG-masc eats.3SG these.3PL cookies.3PL-masc-there
+'The girl eats these cookies-there' 
+
+#71 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr, cogst 
+ces enfants mangent ces biscuits 
+ces     enfants       mang.ent   ces     biscuits 
+The.3PL children.3PL  eats.3PL the.3PL cookies.3PL-masc 
+'These children are eating these cookies' 
+
+## Dischord in Demonstratives: 
+
+#72 Det/N dischord in the subject
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*ces garçon mange le gâteau 
+ces      garçon       mang.e   le           gâteau
+this.3PL boy.3SG-masc eats.3SG   the.3SG-masc cake.3SG-masc 
+'this boy eats the cake' 
+
+#73 Det/N dischord in the object
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*le garçon mange ces gâteau 
+le           garçon       mang.e   cette        gâteau
+The.3SG-masc boy.3SG-masc eats.3SG this.3SG-fem cake.3SG-masc 
+'The boy eats this cake' 
+
+#74 Det/N dischord in the object
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*le garçon mange cet pomme 
+le           garçon       mang.e   cet              pomme
+The.3SG-masc boy.3SG-masc eats.3SG this.3SG-masc    apple.3SG-fem
+'the boy eats this apple.' 
+
+#75 Det/N dischord in the subject
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*ces fille mange le gâteau 
+ces           fille         mang.e   le           gâteau
+this.3PL  girl.3SG-masc eats.3SG the.3SG-masc cake.3SG-masc 
+'this girl eats the cake' 
+
+#76 Det/N dischord in the object
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*la fille mange ce biscuits 
+la           fille         mang.e   ce            biscuits 
+The.3SG-fem  girl.3SG-masc eats.3SG these.3SG-masc cookies.3PL-masc 
+'The girl eats these cookies' 
+
+#77 Det/N dischord in the subject
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agr 
+cette enfant mange ces biscuits 
+cette        enfant          mang.e      ces     biscuits 
+This.3SG-fem child.3SG-masc  eats.non2SG the.3PL cookies.3PL-masc 
+'This child  is eating these cookies' 
+
+#78 -ci used without a demonstrative determiner 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cogst 
+*Le garçon-ci mange le biscuit 
+le                   garçon-ci         mang.e     le          biscuit
+le.3SG-masc-definite boy.3SG-masc-here eat.non2SG le.3SG-masc cookie.3SG-masc
+'this boy here eats the cookie' 
+
+#79 -là used without a demonstrative determiner
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cogst 
+*Le garçon mange la pomme-là
+Le           garçon       mange   la                   pomme-là
+the.3SG-masc boy.3SG-masc eat.3SG the.3SG-fem-definite apple.3SG-fem-there  
+'the boy eats that apple there' 
+
+#Lack of N-V agreement.
+
+#80 - 1SG subject with 2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*Je manges le gâteau 
+Je       mang.es     le           gâteau
+I.1SG    eat.2SG the.3SG-masc cake.3SG-masc 
+'I eat the cake' 
+
+#81 1SG subject with 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*Je mangeons le gâteau 
+Je       mang.eons    le           gâteau
+I.1SG    eat.1PL      the.3SG-masc cake.3SG-masc 
+'I eat the cake' 
+
+#82 1SG subject with 2PL verb: 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*Je mangez le gâteau 
+Je       mang.ez     le           gâteau
+I.1SG    eat.2PL     the.3SG-masc cake.3SG-masc 
+'I eat the cake' 
+
+#83 - 1SG subject with 3PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*Je manges le gâteau 
+Je       mang.ent     le           gâteau
+I.1SG    eat.3PL      the.3SG-masc cake.3SG-masc 
+'I eat the cake' 
+
+#84 - 2SG subject with non2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*Tu mange le gâteau 
+Tu         mang.e      le           gâteau
+You.2SG    eat.non2SG     the.3SG-masc cake.3SG-masc 
+'you eat the cake' 
+
+#85 - 2SG subject with 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*Tu mangeons un gâteau 
+Tu         mang.eons   un         gâteau
+You.2SG    eat.1PL     a.3SG-masc cake.3SG-masc 
+'you eat a cake' 
+
+#86 - 2SG subject with 2PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*Tu mangez ce gâteau 
+Tu         mang.ez     ce           gâteau
+You.2SG    eat.2PL     this.3SG-masc cake.3SG-masc 
+'you eat the cake' 
+
+#87 - 2SG subject with 3PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*Tu mangent le gâteau 
+Tu         mang.ent    le           gâteau
+You.2SG    eat.3PL     the.3SG-masc cake.3SG-masc 
+'you eat the cake' 
+
+#88 3PL subject with 2SG verb:
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*il manges le gâteau 
+il         mang.es    le           gâteau
+he.3SG     eat.2SG    the.3SG-masc cake.3SG-masc 
+'you eat the cake' 
+
+#89 3SG subject with 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*elle mangeons le gâteau 
+elle       mang.eons   le           gâteau
+she.3SG    eat.3PL     the.3SG-masc cake.3SG-masc 
+'she eats the cake' 
+
+#90 3SG subject with 2PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*il mangez le gâteau 
+il         mang.ez     le           gâteau
+he.3SG     eat.2PL     the.3SG-masc cake.3SG-masc 
+'he eats the cake' 
+
+#91 - 3SG subject wth 3PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*elle mangent le gâteau 
+elle           mang.ent     le           gâteau
+she.1SG-fem    eats.3PL     the.3SG-masc cake.3SG-masc 
+'she eats the cake' 
+
+#92 1PL subject with non2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*nous mange le gâteau 
+nous      mang.e       le           gâteau
+we.1PL    eat.non2SG   the.3SG-masc cake.3SG-masc 
+'she eats the cake' 
+
+#93 1PL subject with 2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*nous manges le gâteau 
+nous      mang.es   le           gâteau
+we.1PL    eat.2SG   the.3SG-masc cake.3SG-masc 
+'we eat the cake' 
+
+#94 - 1PL subject with 2PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*nous mangez le gâteau 
+nous      mang.ez  le           gâteau
+we.1PL    eat.2PL    the.3SG-masc cake.3SG-masc 
+'we eat the cake' 
+
+#95 - 1PL subject with 3PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*nous mangent le gâteau 
+nous      mang.ent  le           gâteau
+we.1PL    eat.3PL   the.3SG-masc cake.3SG-masc 
+'we eat the cake' 
+
+#96 - 2PL subject with non2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*vous mange le gâteau 
+vous      mang.e        le           gâteau
+you.2PL   eat.non2SG    the.3SG-masc cake.3SG-masc 
+'you eat the cake' 
+
+#97 - 2PL subject with 2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*vous manges le gâteau 
+vous      mang.es    le           gâteau
+you.2PL   eat.2SG    the.3SG-masc cake.3SG-masc 
+'you eat the cake' 
+
+#98 - 2PL subject with 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*vous mangeons le gâteau 
+vous      mang.eons    le           gâteau
+you.2PL   eat.2SG    the.3SG-masc cake.3SG-masc 
+'you eat the cake' 
+
+#99 - 2PL subject with 3PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*vous mangent le gâteau 
+vous      mang.ent   le           gâteau
+you.2PL   eat.3PL    the.3SG-masc cake.3SG-masc 
+'you eat the cake' 
+
+#100 - 3PL subject with non2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*ils mange le gâteau 
+ils      mang.e         le           gâteau
+you.3PL   eat.non2SG    the.3SG-masc cake.3SG-masc 
+'they eat the cake' 
+
+#101 - 3PL subject with 2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*elles manges le gâteau 
+elles      mang.es         le           gâteau
+they.3PL   eat.2SG    the.3SG-masc cake.3SG-masc 
+'they eat the cake' 
+
+#102 - 3PL subject with 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*ils mangeons le gâteau 
+ils      mang.eons     le           gâteau
+they.3PL   eat.3PL    the.3SG-masc cake.3SG-masc 
+'they eat the cake' 
+
+#103 - 3PL subject with 2PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agr 
+*elles mangez le gâteau 
+elles      mang.ez     le           gâteau
+they.3PL   eat.2PL    the.3SG-masc cake.3SG-masc 
+'they eat the cake' 
+
+## Argument Optionality
+
+#104 masc, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+le garçon le-mange 
+le           garçon        le-mang.e             
+The.3SG-masc boy.3SG-masc  it.3SG-masc-eats.3SG   
+'The boy eats it' 
+
+#105 masc, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+il le-mange 
+il          le-mang.e             
+he.3SG-masc it.3SG-masc-eats.3SG   
+'The boy eats it' 
+
+#106 fem, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+le garçon la-mange 
+le           garçon        la-mang.e             
+The.3SG-masc boy.3SG-masc  it.3SG-fem-eats.3SG   
+'The boy eats it' 
+
+#107 fem, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+il la-mange 
+il          la-mang.e             
+he.3SG-masc it.3SG-fem-eats.3SG   
+'he eats it' 
+
+#108 plur, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+le garçon les-mange 
+le            garçon       les-mang.e             
+the.3SG-masc  boy.3SG-masc it.3PL-eats.3SG   
+'The boy eats them' 
+
+#109 plur, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+il les-mange 
+il          les-mang.e             
+he.3SG-masc it.3SG-fem-eats.3SG   
+'he eats them' 
+
+#110 masc, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+la fille le-mange 
+la          fille         le-mang.e             
+The.3SG-fem girl.3SG-fem  it.3SG-masc-eats.3SG   
+'The boy eats it' 
+
+#111 masc, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+elle le-mange 
+elle         le-mang.e             
+she.3SG-fem it.3SG-masc-eats.3SG   
+'she eats it' 
+
+#112 fem, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+la fille la-mange 
+la           fille        la-mang.e             
+The.3SG-fem girl.3SG-fem  it.3SG-fem-eats.3SG   
+'The girl eats it' 
+
+#113 fem, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+elle la-mange 
+elle          la-mang.e             
+he.3SG-fem it.3SG-fem-eats.3SG   
+'she eats it' 
+
+#114 plur, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+la fille les-mange 
+la           fille          les-mang.e             
+the.3SG-fem  girl.3SG-masc  them.3PL-eats.3SG   
+'The boy eats them' 
+
+#115 plur, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+elle les-mange 
+elle          les-mang.e             
+she.3SG-masc  them.3SG-fem-eats.3SG   
+'she eats them' 
+
+#116 masc, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+je le-mange 
+je      le-mang.e             
+I.1SG   it.3SG-masc-eat.non2SG   
+'I eat it' 
+
+#117 fem, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+je la-mange 
+Je        la-mang.e             
+I.1SG     it.3SG-fem-eats.non2SG   
+'I eat it' 
+
+#118 plur, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+Je les-mange 
+Je         les-mang.e             
+I.1SG      them.3PL-eats.non2SG   
+'I eat them' 
+
+#119 masc, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+je le-mange 
+je      le-mang.e             
+I.1SG   it.3SG-masc-eat.non2SG   
+'I eat it' 
+
+#120 fem, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+je la-mange 
+Je        la-mang.e             
+I.1SG     it.3SG-fem-eats.non2SG   
+'I eat it' 
+
+#121 plur, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+Je les-mange 
+Je         les-mang.e             
+I.1SG      them.3PL-eats.non2SG   
+'I eat them' 
+
+#122 masc, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+je le-mange 
+je      le-mang.e             
+I.1SG   it.3SG-masc-eat.non2SG   
+'I eat it' 
+
+#123 fem, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+je la-mange 
+Je        la-mang.e             
+I.1SG     it.3SG-fem-eats.non2SG   
+'I eat it' 
+
+#124 plur, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+Je les-mange 
+Je         les-mang.e             
+I.1SG      them.3PL-eats.non2SG   
+'I eat them' 
+
+#125 masc, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+tu le-manges 
+tu          le-mang.es            
+you.2SG     it.3SG-masc-eat.2SG   
+'you eat it' 
+
+#126 fem, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+tu la-manges 
+tu        la-mang.es             
+you.2SG   it.3SG-fem-eats.2SG   
+'you eat it' 
+
+#127 plur, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+tu les-manges 
+tu           les-mang.es             
+you.2SG      them.3PL-eats.2SG   
+'you eat them' 
+
+#128 masc, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+nous le-mangeons
+nous   le-mang.eons             
+we.1PL it.3SG-masc-eat.1PL   
+'we eat it' 
+
+#129 fem, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+nous la-mangeons 
+nous      la-mang.eons             
+I.1PL     it.3SG-fem-eats.1PL   
+'we eat it' 
+
+#130 plur, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+nous les-mangeons 
+nous       les-mang.eons             
+we.1PL     them.3PL-eats.1PL   
+'we eat them' 
+
+#131 masc, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+vous le-mangez 
+vous          le-mang.ez            
+you.2PL     it.3SG-masc-eat.2PL   
+'you eat it' 
+
+#132 fem, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+vous la-mangez 
+vous        la-mang.ez             
+you.2PL     it.3SG-fem-eats.2PL   
+'you eat it' 
+
+#133 plur, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+vous les-mangez
+vous      les-mang.ez             
+you.2PL   them.3PL-eats.2PL   
+'you eat them' 
+
+#134 masc, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+ils le-mangent 
+ils          le-mang.ent            
+they.3PL     it.3SG-masc-eat.3PL   
+'they eat it' 
+
+#135 fem, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+elles la-mangent 
+elles        la-mang.ent            
+they.3PL     it.3SG-fem-eat.3PL   
+'you eat it' 
+
+#136 plur, inanimate, pronominal object 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: pro-d
+ils les-mangent
+ils        les-mang.ent             
+they.3PL   them.3PL-eats.3PL   
+'you eat them' 
+
+## Ungrammatical: 
+
+#137 SG subject, PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*le garçon le-mangent 
+le           garçon        le-mang.ent             
+The.3SG-masc boy.3SG-masc  it.3SG-masc-eats.3PL   
+'The boy eats it' 
+
+#138 SG subject, PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*il le-mangeons 
+il          le-mang.eons             
+he.3SG-masc it.3SG-masc-eats.1PL   
+'The boy eats it' 
+
+#139 1SG sub, 2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*je le-manges 
+je      le-mang.es             
+I.1SG   it.3SG-masc-eat.2SG   
+'I eat it' 
+
+#140 1SG sub, 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*je la-mangeons 
+Je        la-mang.eons            
+I.1SG     it.3SG-fem-eats.1PL   
+'I eat it' 
+
+#141 1SG subject, 2PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*Je les-mangez 
+Je         les-mang.ez             
+I.1SG      them.3PL-eats.2PL  
+'I eat them' 
+
+#142 1SG subject, 3PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*je le-mangent 
+je      le-mang.ent             
+I.1SG   it.3SG-masc-eat.3PL  
+'I eat it' 
+
+#143 2SG subject, 1SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*tu le-mange 
+tu          le-mang.e            
+you.2SG     it.3SG-masc-eat.non2SG  
+'you eat it' 
+
+#144 2SG subject, 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*tu la-mangeons 
+tu        la-mang.eons             
+you.2SG   it.3SG-fem-eats.1PL   
+'you eat it' 
+
+#145 2SG subject, 2PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*tu les-mangez 
+tu           les-mang.ez             
+you.2SG      them.3PL-eats.2PL   
+'you eat them' 
+
+#146 1PL subject, 3PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*nous le-mangent
+nous   le-mang.ent            
+we.1PL it.3SG-masc-eat.3PL   
+'we eat it' 
+
+#147 1PL subject, 1SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*nous la-mange
+nous      la-mang.e           
+I.1PL     it.3SG-fem-eats.non2SG   
+'we eat it' 
+
+#148 2PL verb, 2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*vous la-manges 
+vous        la-mang.es             
+you.2PL     it.3SG-fem-eats.2SG   
+'you eat it' 
+
+#149 3PL subject, 1SG verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: pro-d, agr
+*ils le-mange 
+ils          le-mang.e           
+they.3PL     it.3SG-masc-eat.non2SG   
+'they eat it' 
+
+## Negation
+
+#150
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+La fille ne-mange pas le biscuit 
+la         fille    ne-mang.e pas  le      biscuit
+the.non2SG girl.3SG not eat.3SG-not the.3SG cookie.3SG 
+'The girl does mot eat the cookie' / 'the girl is not eating the cookie' 
+
+#151 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+Le garçon ne-mange pas la pomme 
+le         garçon    ne-mang.e pas  la          pomme
+the.non2SG boy.3SG   not eat.3SG-not the.3SG-fem apple.3SG-fem  
+'the boy does not eat the apple' / 'the boy is not eating the apple' 
+
+#152
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+Les garçons ne-mangent pas les biscuits 
+les         garçons    ne-mang.ent pas  les      biscuits
+the.3PL     boys.3PL   not eat.3PL-not   the.3SG cookies.3PL 
+'The boys are not eating the cookies' 
+
+#153
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+Je ne-mange pas les biscuits 
+Je    ne-mang.e pas       les      biscuits
+I.1SG not eat.non2SG-not   the.3SG cookies.3PL 
+'I do not eat the cookies' / 'I am not eating the cookies'  
+
+#154
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+tu ne-manges pas le gâteau 
+tu      ne-mang.es pas   le      gâteau
+you.2SG not eat.2SG-not   the.3SG cake.3SG 
+'you are not eating the cake' / 'you do not eat the cake' 
+
+#155
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+ils ne-mangent pas le gâteau 
+ils           ne-mang.ent pas   le      gâteau
+they.3PL-masc not eat.3PL-not   the.3SG cake.3SG 
+'you are not eating the cake' / 'you do not eat the cake' 
+
+#156
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+elles ne-mangent pas le gâteau 
+elles        ne-mang.ent pas   le      biscuit
+they.3PL-fem not-eat.3PL-not   the.3SG cookie.3SG 
+'you are not eating the cookie' / 'you do not eat the cookie' 
+
+#157
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+nous ne-mangeons pas la pomme
+nous      ne-mang.eons pas   la      pomme
+we.1PL    not-eat.1PL-not    the.3SG apple.3SG 
+'we are not eating the apple' / 'we do not eat the apple' 
+
+#158
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+vous ne-mangez pas la pomme
+vous      ne-mang.ez pas     la      pomme
+we.2PL    not-eat.2PL-not    the.3SG apple.3SG 
+'we are not eating the apple' / 'we do not eat the apple' 
+
+## Negation & Agreement 
+
+#159 3SG subject 2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, agr
+*La fille ne-manges pas le biscuit 
+la         fille    ne-mang.es pas  le      biscuit
+the.non2SG girl.3SG not eat.2SG-not the.3SG cookie.3SG 
+'The girl does not eat the cookie' / 'the girl is not eating the cookie' 
+
+#160 3SG subject 3PL verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, agr
+*Le garçon ne-mangent pas la pomme 
+le         garçon    ne-mang.ent pas  la          pomme
+the.non2SG boy.3SG   not eat.3PL-not the.3SG-fem apple.3SG-fem  
+'the boy does not eat the apple' / 'the boy is not eating the apple' 
+
+#161 3PL subject, non2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, agr
+*Les garçons ne-mange pas les biscuits 
+les         garçons    ne-mang.e pas  les      biscuits
+the.3PL     boys.3PL   not eat.non2SG-not   the.3SG cookies.3PL 
+'The boys are not eating the cookies' 
+
+#162 1SG subject, 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, agr
+*Je ne-mangeons pas les biscuits 
+Je    ne-mang.eons pas       les      biscuits
+I.1SG not eat.1PL-not   the.3SG cookies.3PL 
+'I do not eat the cookies' / 'I am not eating the cookies'  
+
+#163 2SG subject, 2PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, agr
+*tu ne-mangez pas le gâteau 
+tu      ne-mang.ez pas   le      gâteau
+you.2SG not eat.2PL-not   the.3SG cake.3SG 
+'you are not eating the cake' / 'you do not eat the cake' 
+
+#164 3PL subject, 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, agr
+*elles ne-mangeons pas le gâteau 
+elles        ne-mang.eons pas   le      biscuit
+they.3PL-fem not-eat.1PL-not   the.3SG cookie.3SG 
+'you are not eating the cookie' / 'you do not eat the cookie' 
+
+#165 1PL subject 2PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, agr
+*nous ne-mangez pas la pomme
+nous      ne-mang.ez pas   la      pomme
+we.1PL    not-eat.2PL-not    the.3SG apple.3SG 
+'we are not eating the apple' / 'we do not eat the apple' 
+
+#166 2PL subject, 2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg, agr
+*vous ne-manges pas la pomme
+vous      ne-mang.es pas     la      pomme
+we.2PL    not-eat.2SG-not    the.3SG apple.3SG 
+'we are not eating the apple' / 'we do not eat the apple' 
+
+## Tenses
+
+## Future perfective
+
+#167
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Le garçon mangera le gâteau 
+Le         garçon  manger.a        le      gâteau
+the.non2SG boy.3SG eat.3SG-FUT-PFV the.3SG cake.3SG 
+'the boy will eat the cake' 
+
+#168
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Les garçons mangeront le gâteau 
+Les     garçons  manger.ont        le      gâteau
+the.3PL boys.3SG eat.3PL-FUT-PFV   the.3SG cake.3SG 
+'the boys will eat the cake' 
+
+#169
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Je mangerai le biscuit
+Je    manger.ai       le      biscuit
+I.1SG eat.1SG-FUT-PFV the.3SG cookie.3SG
+'I will eat the cookie' 
+
+#170
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+tu mangeras le biscuit
+tu      manger.as       le      biscuit
+you.2SG eat.2SG-FUT-PFV the.3SG cookie.3SG
+'you will eat the cookie' 
+
+#171
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+elle mangera la pomme 
+elle      manger.a        la      pomme
+she.3SG   eat.3SG-FUT-PFV the.3SG apple.3SG
+'she will eat the apple' 
+
+#172 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+nous mangerons la pomme 
+nous      manger.ons        la      pomme
+we.1PL    eat.1PL-FUT-PFV   the.3SG apple.3SG
+'we will eat the apple' 
+
+#173 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+vous mangerez les biscuits 
+vous       manger.ez         les     biscuits
+you.2PL    eat.2PL-FUT-PFV   the.3PL cookies.3PL
+'you will eat the cookies' 
+
+## Ungrammatical
+
+#174 1SG subject with 1PL verb:
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+*je mangerons les biscuits 
+je       manger.ons         les     biscuits
+I.1SG    eat.1PL-FUT-PFV    the.3PL cookies.3PL
+'I will eat the cookies'
+
+#175 3SG subject with 3PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+*la fille mangeront le biscuit
+la          fille         manger.ont         le           biscuit
+the.3SG-fem girl.3SG-fem  eat.3PL-FUT-PFV    the.3SG-masc cookie.3SG-masc 
+'the girl will eat the cookie' 
+
+#176 2SG subject with 2PL verb:
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+*tu mangerez la pomme 
+tu       manger.ez        la           pomme
+you.2SG  eat.2PLFUT-PFV   the.3SG-fem  apple.3SG-fem 
+'you will eat the apple' 
+
+#177 1SG subject with 2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+*je mangeras la pomme 
+je     manger.as         la           pomme
+i.1SG  eat.2SG-FUT-PFV   the.3SG-fem  apple.3SG-fem 
+'I will eat the apple' 
+
+#178 1SG subject with 3SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+*je mangera la pomme 
+je     manger.a               la           pomme
+i.1SG  eat.3SG-FUT-PFV   the.3SG-fem  apple.3SG-fem 
+'I will eat the apple' 
+
+### Past imperfect 
+
+#179
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Le garçon mangeait le gâteau 
+Le         garçon  mang.eait        le      gâteau
+the.non2SG boy.3SG eat.3SG-PST-IPFV the.3SG cake.3SG 
+'the boy was eating the cake' 
+
+#180
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Les garçons mangeaient le gâteau 
+Les     garçons  mang.aient         le      gâteau
+the.3PL boys.3SG eat.3PL-PST-IPFV   the.3SG cake.3SG 
+'the boys were eating the cake' 
+
+#181
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+Je mangeais le biscuit
+Je    mange.ais        le      biscuit
+I.1SG eat.1SG-PST-IPFV the.3SG cookie.3SG
+'I was eating the cookie' 
+
+#182
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+tu mangeais le biscuit
+tu      mange.ais         le      biscuit
+you.2SG eat.2SG-PST-IPFV the.3SG cookie.3SG
+'you were eating the cookie' 
+
+#183
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+elle mangeait la pomme 
+elle      mange.ait        la      pomme
+she.3SG   eat.3SG-PST-IPFV the.3SG apple.3SG
+'she was eating the apple' 
+
+#184
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+nous mangions la pomme 
+nous      mange.ions         la      pomme
+we.1PL    eat.1PL-PST-IPFV   the.3SG apple.3SG
+'we was eating the apple' 
+
+#185
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+vous mangiez les biscuits 
+vous       mang.iez           les     biscuits
+you.2PL    eat.2PL-PST-IPFV   the.3PL cookies.3PL
+'you were eating the cookies' 
+
+## Ungrammatical
+
+#186 1SG subject with 1PL verb:
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+*je mangeaient les biscuits 
+je       mange.aient         les     biscuits
+I.1SG    eat.1PL-PST-IPFV    the.3PL cookies.3PL
+'I was-eating the cookies'
+
+#187 3SG subject with 3PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+*la fille mangeaient le biscuit
+la          fille         mange.aient         le           biscuit
+the.3SG-fem girl.3SG-fem  eat.3PL-PST-IPFV    the.3SG-masc cookie.3SG-masc 
+'the girl was eating the cookie' 
+
+#188 2SG subject with 2PL verb:
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+*tu mangiez la pomme 
+tu       mang.iez           la           pomme
+you.2SG  eat.2PL-PST-IPFV   the.3SG-fem  apple.3SG-fem 
+'you were eating the apple' 
+
+#189 1SG subject with 3SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+*je mangeait la pomme 
+je     mange.ait          la           pomme
+i.1SG  eat.3SG-PST-IPFV   the.3SG-fem  apple.3SG-fem 
+'I was eating the apple' 
+
+#190 1SG subject with 3SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam
+*je mangeait la pomme 
+je     mange.ait          la           pomme
+i.1SG  eat.3SG-PST-IPFV   the.3SG-fem  apple.3SG-fem 
+'I will eat the apple' 
+
+## Past Perfect 
+
+#191
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam 
+Le garçon a mangé le gâteau 
+le           garçon       a               mang.é         le           gâteau 
+the.3SG-masc boy.3SG-masc has.3SG-PST-PFV eat.PST-PTCP the.3SG-masc cake.
+'the boy has eaten the cake ' 'the boy ate the cake' 
+
+#192
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam
+la fille a mangé les biscuits 
+la          fille        a               mang.é       les    biscuits 
+the.3SG-fem girl.3SG-fem has.3SG-PST-PFV eat.PST-PTCP the.3PL cookies.3PL-masc
+'the girl has eaten the cookies' / 'the girl ate the cookies' 
+
+#193
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam 
+je ai mangé la pomme
+je    ai               mang.é       la          pomme
+I.1SG have.1SG-PST-PFV eat.PST-PTCP the.3SG-fem apple.3SG-fem 
+'I have eaten the apple' / 'I ate the apple'
+
+#194
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam 
+tu as mangé un gâteau 
+tu      as               mang.é       un         gâteau 
+you.2SG have.2SG-PST-PFV eat.PST-PTCP a.3SG-masc cake.3SG-masc 
+'you have eaten a cake' / 'you ate a cake' 
+
+#195
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam 
+nous avons mangé cette pomme 
+nous   avons            mang.é       cette        pomme
+we.1PL have.1PL-PST-PFV eat.PST-PTCP this.3SG-fem apple.3SG-fem 
+'we have eaten this apple' / 'we ate this apple' 
+
+#196
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam 
+vous avez mangé le gâteau 
+vous    avez             mang.é       le          gâteau 
+you.2PL have.1PL-PST-PFV eat.PST-PTCP the.3SG-masc cake.3SG-masc 
+'you have eaten the cake' / 'you ate the cake' 
+
+## Dischord in Past Perfect 
+
+#197 3SG subject 2SG verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, agr 
+*Le garçon as mangé le gâteau 
+le           garçon       as              mang.é       le           gâteau 
+the.3SG-masc boy.3SG-masc has.2SG-PST-PFV eat.PST-PTCP the.3SG-masc cake.
+'the boy has eaten the cake ' 'the boy ate the cake' 
+
+#198 3SG subject 2PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, agr
+*la fille avez mangé les biscuits 
+la          fille        avez            mang.é       les    biscuits 
+the.3SG-fem girl.3SG-fem has.2PL-PST-PFV eat.PST-PTCP the.3PL cookies.3PL-masc
+'the girl has eaten the cookies' / 'the girl ate the cookies' 
+
+#199 1SG subject 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, agr 
+*je avons mangé la pomme
+je    avons            mang.é       la          pomme
+I.1SG have.1PL-PST-PFV eat.PST-PTCP the.3SG-fem apple.3SG-fem 
+'I have eaten the apple' / 'I ate the apple'
+
+#200 2SG subject, 2PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, agr 
+*tu avez mangé un gâteau 
+tu      avez             mang.é       un         gâteau 
+you.2SG have.2PL-PST-PFV eat.PST-PTCP a.3SG-masc cake.3SG-masc 
+'you have eaten a cake' / 'you ate a cake' 
+
+#201 1PL subject 1SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, agr
+*nous a mangé cette pomme 
+nous   a                mang.é       cette        pomme
+we.1PL have.1SG-PST-PFV eat.PST-PTCP this.3SG-fem apple.3SG-fem 
+'we have eaten this apple' / 'we ate this apple' 
+
+#202 2PL subject, 2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, agr
+*vous as mangé le gâteau 
+vous    as               mang.é       le          gâteau 
+you.2PL have.1SG-PST-PFV eat.PST-PTCP the.3SG-masc cake.3SG-masc 
+'you have eaten the cake' / 'you ate the cake' 
+
+## Negation & the Tenses 
+
+#203 - Future perfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+le garçon ne-mangera pas les biscuits 
+le           garçon       ne-mang.era         pas les     biscuits
+the.3SG-male boy.3SG-male not.eat-3SG-FUT-PFV not the.3PL cookies.3PL 
+'The boy will not eat the cookies' 
+
+#204 Future perfect
+Source: author 
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+la fille ne-mangera pas un gâteau 
+la          fille        ne-mang.era         pas  un         gâteau 
+the.3SG-fem girl.3SG-fem not.eat-3SG-FUT-PFV not  a.3SG-masc cake.3SG-masc 
+'the girl will bot eat a cake' 
+
+#205
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+je ne-mangerai pas la pomme
+je    ne-mang.erai         pas la          pomme
+i.1SG not.eat-1SG-FUT-PFV  not the.3SG-fem apple.3SG-fem 
+'I will not eat the apple' 
+
+#206 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+tu ne-mangeras pas un biscuit 
+tu      ne-mang.eras       pas un         biscuit
+you.2SG not.eat-2G-FUT-PFV not a.3SG-masc cookie.3SG-masc  
+'you will not eat a cookie' 
+
+#207
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+il ne-mangera pas ce gâteau 
+il          ne-mang.era         pas ce            gâteau
+he.3SG-masc not.eat-3SG-FUT-PFV not this.3SG-masc cake.3SG-masc 
+'he will not eat this cake' 
+
+#208 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+Nous ne-mangerons pas les pommes 
+nous   ne-mang.erons         pas ces       pommes
+we.1PL not.eat-1PL-FUT-PFV   not these.3PL apples.3PL-fem 
+'we will not eat these apples' 
+
+#209 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+vous ne-mangerez pas les biscuits 
+vous    ne-mang.erez         pas les       biscuits
+you.2PL not.eat-2PL-FUT-PFV  not the.3PL cookies.3PL-masc 
+'you will not eat the cookies' 
+
+#210
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+elles ne-mangeront pas ces biscuits  
+elles        ne-mang.eront       pas ces       biscuits
+they.3PL-fem not.eat.3PL-FUT-PFV not these.3PL cookies.3PL-masc 
+'they will not eat these cookies' 
+
+## Future Perfect Noun/Verb disagreement: 
+
+#211 - 3SG subject with 2SG verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*le garçon ne-mangeras pas les biscuits 
+le           garçon       ne-mang.eras        pas les     biscuits
+the.3SG-male boy.3SG-male not.eat.2SG-FUT-PFV not the.3PL cookies.3PL 
+'The boy will not eat the cookies' 
+
+#212 3SG subject with 3PL verb
+Source: author 
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*la fille ne-mangeront pas un gâteau 
+la          fille        ne-mang.eront       pas  un         gâteau 
+the.3SG-fem girl.3SG-fem not.eat.3PL-FUT-PFV not  a.3SG-masc cake.3SG-masc 
+'the girl will not eat a cake' 
+
+#213 1SG subject with 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*je ne-mangerons pas la pomme
+je    ne-mang.erons         pas la          pomme
+i.1SG not.eat.1PL-FUT-PFV   not the.3SG-fem apple.3SG-fem 
+'I will not eat the apple' 
+
+#214 2SG subject with 3PL verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*tu ne-mangeront pas un biscuit 
+tu      ne-mang.eront        pas un         biscuit
+you.2SG not.eat.3PL-FUT-PFV  not a.3SG-masc cookie.3SG-masc  
+'you will not eat a cookie' 
+
+#215 1PL subject with 1SG verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*Nous ne-mangerai pas les pommes 
+nous   ne-mang.erai          pas ces       pommes
+we.1PL not.eat.1SG-FUT-PFV   not these.3PL apples.3PL-fem 
+'we will not eat these apples' 
+
+#216 2PL subject with 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*vous ne-mangerons pas les biscuits 
+vous    ne-mang.erons        pas les       biscuits
+you.2PL not.eat.1PL-FUT-PFV  not the.3PL cookies.3PL-masc 
+'you will not eat the cookies' 
+
+#217 3PL subject with 3SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*ils ne-mangera pas ces biscuits  
+elles        ne-mang.era           pas ces       biscuits
+they.3PL-fem not.eat.3SG-FUT-PFV   not these.3PL cookies.3PL-masc 
+'they will not eat these cookies' 
+
+## Negation and Past Imperfect 
+
+#218 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+le garçon ne-mangeait pas les biscuits 
+le           garçon       ne-mange.ait.3SG      pas les     biscuits
+the.3SG-male boy.3SG-male not.eat.3SG-PST-IPFV  not the.3PL cookies.3PL 
+'The boy wasn't eating the cookies' 
+
+#219 
+Source: author 
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+la fille ne-mangeait pas un gâteau 
+la          fille        ne-mange.ait         pas  un         gâteau 
+the.3SG-fem girl.3SG-fem not.eat.3SG-PST-IPFV not  a.3SG-masc cake.3SG-masc 
+'the girl was not eating a cake' 
+
+#220
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+je ne-mangeais pas la pomme
+je    ne-mange.ais          pas la          pomme
+i.1SG not.eat.1SG-PST-IPFV  not the.3SG-fem apple.3SG-fem 
+'I was not eating the apple' 
+
+#221 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+tu ne-mangeais pas un biscuit 
+tu      ne-mange.ais          pas un         biscuit
+you.2SG not.eat.2SG-PST-IPFV  not a.3SG-masc cookie.3SG-masc  
+'you were not eating a cookie' 
+
+#222 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+elle ne-mangeait pas ce gâteau 
+elle        ne-mang.eait          pas ce            gâteau
+he.3SG-masc not.eat-3SG-PST-IPFV  not this.3SG-masc cake.3SG-masc 
+'he was not eating this cake' 
+
+#223
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+Nous ne-mangions pas ces pommes 
+nous   ne-mang.ions          pas ces       pommes
+we.1PL not.eat.1PL-PST-IPFV   not these.3PL apples.3PL-fem 
+'we were not eating these apples' 
+
+#224
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+vous ne-mangiez pas les biscuits 
+vous    ne-mang.iez           pas les       biscuits
+you.2PL not.eat.2PL-PST-IPFV  not the.3PL cookies.3PL-masc 
+'you were not eating the cookies' 
+
+#225
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+elles ne-mangeaient pas ces biscuits  
+elles        ne-mang.eaient         pas ces       biscuits
+they.3PL-fem not.eat.3PL-PST-IPFV   not these.3PL cookies.3PL-masc 
+'they were not eating these cookies' 
+
+## Past Imperfect & Negation Noun/Verb disagreement: 
+
+#226 - 3SG subject with 2Sg verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*le garçon ne-mangeais pas les biscuits 
+le           garçon       ne-mang.eais         pas les     biscuits
+the.3SG-male boy.3SG-male not.eat.2SG-PST-IPFV not the.3PL cookies.3PL 
+'The boy will not eat the cookies' 
+
+#227 3SG subject with 3PL verb
+Source: author 
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*la fille ne-mangeaient pas un gâteau 
+la          fille        ne-mang.eaient       pas  un         gâteau 
+the.3SG-fem girl.3SG-fem not.eat.3PL-PST-IPFV not  a.3SG-masc cake.3SG-masc 
+'the girl will not eat a cake' 
+
+#228 1SG subject with 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*je ne-mangions pas la pomme
+je    ne-mang.ions           pas la          pomme
+i.1SG not.eat.1PL-PST-IPFV   not the.3SG-fem apple.3SG-fem 
+'I will not eat the apple' 
+
+#229 1PL subject with 1SG verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*Nous ne-mangais pas les pommes 
+nous   ne-mang.ais            pas ces       pommes
+we.1PL not.eat.1SG-PST-IPFV   not these.3PL apples.3PL-fem 
+'we will not eat these apples' 
+
+#230 2PL subject with 1PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*vous ne-mangions pas les biscuits 
+vous    ne-mang.ions          pas les       biscuits
+you.2PL not.eat.1PL-PST-IPFV  not the.3PL cookies.3PL-masc 
+'you will not eat the cookies' 
+
+#231 3PL subject with 3SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*elles ne-mangait pas ces biscuits  
+elles        ne-mang.ait          pas ces       biscuits
+they.3PL-fem not.eat.3SG-PST-IPFV   not these.3PL cookies.3PL-masc 
+'they were not eating these cookies' 
+
+## Negation &  Past Perfect
+
+#232 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+le garçon ne-a pas mangé le gâteau
+le           garçon       ne-a        pas mang.é        le           gâteau
+the.3SG-masc boy.3SG-masc not-did.3SG not eat.PST-PTCP  the.3SG-masc cake.3SG-masc 
+'the boy did not eat the cake' 
+
+#233
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+la fille ne-a pas mangé les biscuits 
+la          fille        ne-a        pas mang.é       les     biscuits
+the.3SG-fem girl.3SG-fem not-did.3SG not eat.PST-PTCP the.3PL cookies.3PL 
+'the girl did not eat the cookies' 
+
+#234
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+je ne-ai pas mangé la pomme
+je     ne-ai      pas mang.é       la          pomme
+I.1SG not-did.1SG not eat.PST-PTCP the.3SG-fem apple.3SG-fem 
+'I did not eat the apple' 
+
+#235
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg
+tu ne-as pas mangé un gâteau
+tu      ne-as       pas mang.é       un         gâteau 
+you.2SG not-did.2SG not eat.PST-PTCP a.3SG-masc cake.3SG-masc 
+'you did not eat a cake' 
+
+#236
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg
+il ne-a pas mangé un biscuit
+il          ne-a       pas mang.é       un         biscuit 
+he.3SG-masc not-did.3SG not eat.PST-PTCP a.3SG-masc cookie.3SG-masc 
+'he did not eat a cookie' 
+
+#237 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg
+nous ne-avons pas mangé une pomme
+nous   ne-avons    pas mang.é       une       pomme
+we.1PL not-did.1PL not eat.PST-PTCP an.3SG-fem apple.3SG-fem 
+'we did not eat an apple' 
+
+#238 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+vous ne-avez pas mangé les biscuits 
+vous    ne-avez     pas mang.é        les     biscuits
+you.2PL not-did.2PL not eat.PST-PTCP  the.3PL cookies.3PL-masc 
+'you did not eat the cookies'
+
+#239 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg 
+elles ne-ont pas mangé les pommes
+elles        ne-ont      pas mang.é       les     pommes
+they.3PL-fem not-did.3PL not eat.PST-PTCP the.3PL apples.3PL-fem  
+'they did not eat the apples' 
+
+## Past Perfect & Negation Noun/verb disagreement 
+
+#240 3SG subject, 2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*le garçon ne-as pas mangé le gâteau
+le           garçon       ne-as        pas mang.é        le           gâteau
+the.3SG-masc boy.3SG-masc not-did.2SG not eat.PST-PTCP  the.3SG-masc cake.3SG-masc 
+'the boy did not eat the cake' 
+
+#241 1SG subject, 1PL verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*je ne-avons pas mangé la pomme
+je     ne-avons   pas mang.é       la          pomme
+I.1SG not-did.1PL not eat.PST-PTCP the.3SG-fem apple.3SG-fem 
+'I did not eat the apple' 
+
+#242 2SG subject and 2PL verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr
+*tu ne-avez pas mangé un gâteau
+tu      ne-avez       pas mang.é       un         gâteau 
+you.2SG not-did.2PL not eat.PST-PTCP   a.3SG-masc cake.3SG-masc 
+'you did not eat a cake' 
+
+#243 1PL subject, 2SG verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr
+*nous ne-as pas mangé une pomme
+nous   ne-as       pas mang.é       une       pomme
+we.1PL not-did.2SG not eat.PST-PTCP an.3SG-fem apple.3SG-fem 
+'we did not eat an apple' 
+
+#244 2PL subject 2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*vous ne-as pas mangé les biscuits 
+vous    ne-as     pas mang.é           les     biscuits
+you.2PL not-did.2SG not eat.PST-PTCP   the.3PL cookies.3PL-masc 
+'you did not eat the cookies'
+
+#245 3L subject 3SG verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tam, neg, agr 
+*elles ne-a pas mangé les pommes
+elles        ne-a        pas mang.é       les     pommes
+they.3PL-fem not-did.3SG not eat.PST-PTCP the.3PL apples.3PL-fem  
+'they did not eat the apples' 
+
+## Tenses, negation, and dropped objects
+
+#246 Future Perfect
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg, pro-d
+La fille ne-le-mangera pas
+la          fille        ne-le-mang.era          pas
+the.3SG-fem girl.3SG-fem not-it-eat.3SG-FUT-PFV not 
+'the girl will not eat it' 
+
+#247 Future Perfect
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg, pro-d
+Vous ne-les-mangerez pas.
+Vous    ne-les-mang.erez       pas.
+you.2PL no-it-eat.3PL-FUT-PFV not
+'you will not eat it'
+
+#248 Past Imperfect
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg, pro-d
+Je ne-la-mangeais pas
+Je    ne-la-mang.eais         pas
+I.1SG not-it-eat.1SG-PST-IPVF not
+'I was not eating it' 
+
+#249 Past Imperfect
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg, pro-d 
+Les enfants ne-la-mangeaient pas. 
+Les     enfants   ne-la-mangeaient pas
+the-3PL child.3PL not-it-eat       not.
+'the childten were not eating it' 
+
+#250 Past Perfect
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg, pro-d
+tu ne-le-as pas mangé.
+tu      ne-le-as       pas mangé.
+you.2SG not-it-did.2SG not eat.PST-PTCP
+'you did not eat it' 
+
+#251 Past Perfect
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, neg, pro-d
+La fille ne-les-a pas mangé 
+La          fille         ne-les-a pas      mangé
+the.3SG-fem girl.3SG-fem not-it-did.3SG not eat.PST-PTCP
+'the girl did not eat them' 
+
+## Matrix yes/no questions 
+
+## Present tense
+
+#252  
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+mange le garçon le gâteau?
+mang.e   le           garçon       le           gâteau?
+eat.non2SG the.3SG-masc boy.3SG-masc the.3SG-masc cake.3SG-masc 
+'is the boy eating the cake?' 
+
+#253
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+est-ce que le garçon mange le gâteau?
+est-ce que le           garçon       mang.e  le           gâteau?
+is         the.3SG-masc boy.3SG-masc eat.3SG the.3SG-masc cake.3SG-masc
+'is the boy eating the cake?' 
+
+#254
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+mange la fille le gâteau?
+mang.e     la          fille        le           gâteau?
+eat.non2SG the.3SG-fem girl.3SG-fem the.3SG-masc cake.3SG-cake 
+'is the girl eating the cake?' 
+
+#255
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+est-ce que la fille mange le gâteau? 
+est-ce que la          fille        mange   le           biscuit? 
+is         the.3SG-fem girl-3SG-fem eat.3SG the.3SG-masc cookie.3SG-masc 
+'is the girl eating the cookie?'
+
+#256
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+mange je la pomme?
+mang.e  je    la          pomme?
+eat.1SG i.1SG the.3SG-fem apple.3SG-fem 
+'am I eating the apple? 
+
+#257
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+est-ce que je mange la pomme?
+est-ce que je    mang.e   la          pomme?
+am         i.1SG eat.1SG  the.3SG-fem apple.3SG-fem 
+'am I eating the apple? 
+
+#258
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+manges tu les biscuits?
+mang.es tu      les     biscuits?
+eat.2SG you.2SG the.3PL cookies.3PL-masc 
+'are you eating the cookies?' 
+
+#259
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+est-ce que tu manges les biscuits?
+est-ce que tu      mang.es  les     biscuits?
+are        you.2SG eat.2SG  the.3PL cookies.3PL-masc 
+'are you eating the cookies?' 
+
+#260
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+mangeons nous le gâteau?
+mang.eons nous   le           gâteau
+eat.1PL   we.1PL the.3SG-masc cake.3SG-masc 
+'are we eating the cake?' 
+
+#261
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+Est-ce que nous mangeons le gâteau? 
+est-ce que nous   mang.eons le           gâteau? 
+are        we.1SG eat.1SG   the.3SG-masc cake.3SG-cake
+'are we eating the cake?' 
+
+#262
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+mangez vous ces biscuits?
+mang.ez vous    ces       biscuits 
+eat.2PL you.2PL these.3PL cookies.3PL-masc 
+'are you eating these cookies?' 
+
+#263
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+est-ce que vous mangez ces biscuits?
+eat-ce que vous    mang.ez ces       biscuits?
+are        you.2PL eat.2PL these.3PL cookies.3PL
+'are you eating these cookies?' 
+
+#264 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+mangent  ils la pomme?
+mang.ent ils           la          pomme?
+eat.3PL  they.3PL-masc the.3SG-fem apple.3SG-fem 
+'are they eating the apple?' 
+
+#265
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q
+est-ce que elles mangent la pomme 
+est-ce que elle     mang.ent la          pomme
+are        they.3PL eat.3PL  the.3SG-fem apple.3SG-fem  
+'are they eating the apple?' 
+
+## Ungrammatical Matrix yes/no 
+
+#266 With both est-ce que and S-V inversion  
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: q
+*est-ce que mangez vous les biscuits?
+est-ce que mang.ez vous    les     biscuits 
+are        eat.3PL you.2PL the.3PL cookies.3PL-masc 
+'are you eating the cookies?' 
+
+#267 2SG subject with non2SG verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: q, agr
+*mange tu le gâteau?
+mang.e  tu      le           gâteau 
+eat.2SG you.2SG the.3SG-masc cake.3SG-masc 
+'Are you eating the cake?' 
+
+#268 1SG subject, 2PL verb 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: q, agr
+*mangez je la pomme
+mang.ez je    la          pomme
+eat.2PL i.1SG the.3SG-fem apple.3SG-fem 
+'am I eating the apple?' 
+
+## Matrix yes/no with tenses
+
+#269 Past imperfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q, tam
+mangeais tu le gâteau?
+mange.ais        tu     le           gâteau?
+eat.2SG-PST-IPFV tu.2SG the.3SG-masc cake.3SG-masc 
+'were you eating the cake?' / 'did you (habitally) eat the cake?' 
+
+#270
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q, tam
+est-ce que vous mangiez le gâteau?
+est-ce que vous    mang.iez         le           gâteau?
+did        you.2PL eat.2PL.PST-IPFV the.3SG-masc cake.3SG-masc
+'did you eat the cake?' 
+
+#271 future perfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q, tam 
+mangerons nous les biscuits 
+mang.erons nous les biscuits
+eat.1PL-FUT-PFV we.1PL the.3PL cookies.3PL-masc
+'will we eat the cookies?' / 'Are we going to eat the cookies?' 
+
+#272 future perfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q, tam 
+est-ce que nous mangerons les biscuits 
+est-ce que nous   mang.erons      les     biscuits
+will       we.1PL eat.1PL-FUT-PFV the.3PL cookies.3PL-masc
+'will we eat the cookies?' / 'Are we going to eat the cookies?' 
+
+#273 Past Perfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q, tam 
+as tu mangé la pomme?
+as               tu      mang.é       la          pomme?
+have.2SG-PST-PFV you.2SG eat.PST-PTCP the.3SG-fem apple.3SG-fem 
+'have you eaten the apple?' 
+
+#274 Past Perfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: q, tam 
+est-ce que tu as mangé la pomme?
+est-ce que tu       as           mang.é       la          pomme?
+have       you.2SG  did.2SG      eat.PST-PTCP the.3SG-fem apple.3SG-fem 
+'have you eaten the apple?' 
+
+## Coordination
+
+#275 Coordinating the subject 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: crd
+la fille et le garçon mangent les biscuits 
+la          fille        et  le           garçon       mang.ent les     biscuits
+the.3SG-fem girl.3SG-fem and the.3SG-masc boy.3SG-masc eat.3PL  the.3PL cookies.3PL-masc 
+'the girl and the boy are eating the cookies' 
+
+#276 Coordinating the object
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: crd
+je mange les biscuits et la pomme
+je    mang.e     les     biscuits     et  la          pomme
+i.1SG eat.non2SG the.3PL cookies.3PL  and the.3SG-fem apple.3SG-fem
+'I am eating the cookies and an apple.' 
+
+#277 Coordinating VPs
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: crd 
+Tu manges le biscuit et penses
+tu  mang.es le           biscuit         et  penses.
+you eat.2SG the.3SG-masc cookie.3SG-masc and think.2SG
+'you are eating the cookie and thinking' 
+
+#278
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: crd
+*le garçon et le enfant mange le gâteau
+le           garçon       et  le           enfant    mang.e     le           gâteau
+the.3SG-masc boy.3SG-masc and the.3SG-masc child.3SG eat.non2SG the.3SG-masc cake.3SG-masc 
+'the boy and the child are eating the cake' 
+
+#279 Coordinating sentences 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: crd
+nous mangeons les biscuits et tu manges une pomme
+nous   mang.eons les     biscuits         et  tu      mang.es une        pomme
+we.1PL eat.1PL   the.3PL cookies.3PL-masc and you.2SG eat.2SG an.3SG-fem apple.3SG-fem 
+'we eat the cookie and you eat the apple.' 
+
+#280
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: crd
+Je mange et mange et mange 
+je     mang.e    et  mang.e     et  mang.e 
+I.1SG eat.non2SG and eat.non2SG and eat.non2SG
+'I eat and eat and eat' 
+
+#281
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: crd
+Un garçon, une fille, et un enfant mangeaient un gâteau 
+un         garçon,      une       fille,       et  un         enfant    mang.eaient      un         gâteau
+a.3SG-masc boy.3SG-masc a.3SG-fem girl.3SG-fem and a.3SG-masc child.3SG eat.3PL-PST-IPFV a.3SG-masc cake.3SG-masc
+'a boy, a girl, and a child we eating a cake' 
+
+## Adjectives
+
+#282 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+La petite fille mange la pomme
+la          petite         fille         mang.e     la          pomme
+the.3SG-fem small.SG-gem fille.3SG-fem eat.non2SG the.3SG-fem apple.3SG-fem
+'the small girl eats an apple'
+
+#283
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj 
+Le petit garçon mange
+le petit garçon mang.e
+the.3SG-masc small.SG-masc boy.3SG-masc eat.non2SG
+'the small boy eats.
+
+#284 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj 
+les grands enfants mangent 
+les      grand.s enfant.s    mang.ent 
+the.3PL big.PL   children.PL eat.3PL 
+'the big children eat' 
+
+#285
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+la fille mange un petit biscuit
+la          fille        mang.e      un         petit         biscuit
+the.3SG-fem girl.3SG-fem eats.non2SG a.3PL-masc small.SG-masc cookie.3SG-masc 
+'the girl eats a small cookie'
+
+#286 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj
+je mange un petit gâteau
+je    mang.e     un         petit          gâteau
+i.1SG eat.non2SG a.3SG-masc little.SG-masc cake.3SG-masc 
+'I eat a little cake.' 
+
+#287
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj 
+les petits garçons mangent.
+les petit.s garçon.s mangent
+the.3PL little.3PL-masc boys.3PLmasc eat.3PL 
+'the little boys eat' 
+
+#288
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adj 
+Les petites filles ont mangé
+les     petit.es       filles        ont              mangé
+the.3PL little.3PL-fem girls.3PL-fem did.3PL-PAST-PFV eat.PST-PTCP
+'the little girls ate' 
+
+#289 Dischord between adj and noun 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj, agr
+*les grand enfants mangent 
+les      grand. enfant.s    mang.ent 
+the.3PL big.SG  children.PL eat.3PL 
+'the big children eat' 
+
+#290 Dischord between adj and noun 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj, agr
+*la fille mange un petite biscuit
+la          fille        mang.e      un         petite         biscuit
+the.3SG-fem girl.3SG-fem eats.non2SG a.3PL-masc small.SG-fem cookie.3SG-masc 
+'the girl eats a small cookie'
+
+#291 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj, agr
+*je mange un petite gâteau
+je    mang.e     un         petite          gâteau
+i.1SG eat.non2SG a.3SG-masc little.SG-fem cake.3SG-masc 
+'I eat a little cake.' 
+
+#292 Word Order
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adj, wo
+*la fille mange petit un biscuit
+la          fille        mang.e        petit      un         biscuit
+the.3SG-fem girl.3SG-fem eats.non2SG  small.SG-masc a.3PL-masc cookie.3SG-masc 
+'the girl eats a small cookie'
+
+## Adverbs
+
+#293 Sentence final adverb - slightly adjusts the meaning 
+Source: author
+Vetted: f 
+Judgment: u
+Phenomena: adv
+*je mange le biscuit lentement 
+je mang.e le biscuit lentement
+i.1SG eat.non2SG the.3SG-masc cookie.3SG-masc slowly.ADV
+'I am eating the cookie slowly' 
+
+#294 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: adv
+je ai lentement mangé le biscuit 
+je ai lentement   mang.é le biscuit
+I.1SG did.1SG-PFV slowly.ADV eat.PST-PTCP the.3SG-masc cookie.3SG-masc 
+'I slowly ate the cookie' 
+
+#295 - Prehead adverb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv
+*tu lentement manges la pomme
+tu lentement       mang.es la pomme
+you.2SG slowly.ADV eat.2SG the.3SG-fem apple.3SG-fem 
+'you are eating the apple slowly'
+
+#296 Word order
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv, wo
+*je lentement ai mangé 
+je lentement ai mangé 
+I.1SG slowly.ADV did.1SG-PFV eat.PST-PTSP
+'I ate slowly' 
+
+#297 - sentence final adverb alters the meaning
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: adv, wo 
+*je ai mangé lentement
+je    ai      mang.é       lentement
+I.1SG did.1SG-PFV eat.PST-PTCP slowly.ADV 
+'I ate slowly' 
+
+#298 Future perfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, adj 
+Nous mangerons lentement.
+nous   mang.erons      lentement
+we.1PL eat.1PL-FUT-PFV slowly.ADV
+'we will eat slowly.' 
+
+#299 Future Perfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, adj 
+vous mangerez lentement les biscuits
+vous    mang.erez       lentement  les          biscuits
+you.2PL eat.2PL-FUT-PFV slowly.ADV the.3PL-masc cookies.3PL-masc
+'you will eat the cookies slowly' 
+
+#300 Past Imperfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, adj 
+Le enfant mangeait lentement la pomme.
+le      enfant    mang.eais        lentement  la          pomme
+the.3SG child.3SG eat.3SG-PST-IPFV slowly.ADV the.3SG-fem apple.3SG-fem 
+'the child slowly eats the apples' 
+
+#301 Past Imperfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, adj
+Je mange lentement le gâteau
+je    mang.e     lentement  le           gâteau
+I.1SG eat.non2SG slowly.ADV the.3SG-masc cake.3SG-masc
+'I slowly eat the cake' 
+
+## Embedded Clauses - 
+
+#302 Declarative 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-d
+Je pense que elle mange les biscuits 
+je pens.e que elle mang.e les biscuits 
+1.1SG think.1SG that she.3SG-fem eat.3SG the.3PL cookies.3PL 
+'I think she is eating the cookies' 
+
+#303 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-d
+Nous pensons que vous mangez le gâteau
+nous   pens.ons  que  vous    mang.ez le           gâteau
+we.1PL think.1PL that you.2PL eat.2PL the.3SG-masc cake.3SG-masc
+'we think that you are eating the cake' 
+
+#304 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-q, tam 
+La fille demande si vous avez mangé les biscuits 
+le fille demand.e si vous avez mang.é les biscuits
+the.3SG-fem girl.3SG-fem wonder.3SG if you.2PL have.2PL eat.PST-PTCP the.3PL cookies.3PL 
+'the girl wodners if you have eaten the cookies' 
+
+#305
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-d, tam 
+Je pensais que tu manges lentement
+je    pens.ais           que  tu      mang.es lentement
+I.1SG think.1SG-PST-IPFV that you.2SG eat.2SG slow.ADV
+'I used to think that you eat slowly.' 
+
+#306 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-q, tam
+Il demande si la fille mange la pomme
+Il     se demand.e si la          fille        mang.e      la          pomme
+he.3SG wonders.3SF if the.3SG-fem girl.3SG-fem eats.non2SG the.3SG-fem apple.3SG-fem.
+'he wonders if she eats the apple' 
+
+#307
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-d, tam 
+Elle pense que tu as mangé le gâteau
+elle        pens.e    que  tu      as       mang.é       le           gâteau
+she.3SG-fem think.3SG that you.2SG have.2SG eat.PST-PTCP the.3SG-masc cake.3SG-masc
+'she thinks that you have eaten the cake.  
+
+#308
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-q, tam 
+Nous demanderons si vous avez mangé les biscuits
+nous   demand.erons    si vous    avez    mang.é       les     biscuits 
+we.1PL ask.1PL-FUT-PFV if you.2PL did.2PL eat.PST-PTCP the.3PL cookies.3PL
+'we will ask if you have eaten the cookies' 
+
+#309 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-q
+Je demandais si vous mangiez. 
+Je demand.ais si vous mang.iez
+I.1SG wonder.1SG-PST-IPFV if you.2PL eat.2PL-PST-IPFV
+'I was wondering if you were eating.' 
+
+#310 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-d, tam
+je pense que tu mangeais les biscuits
+je pens.e que tu mang.eais les biscuits
+I.1SG think.non2SG the you eat.2SG-PST-IPFV les.3PL cookies.3PL
+'I think that you were eating the cookies'
+
+#311
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-d, tam
+Il a pensé que elle mange une pomme 
+il          a       pens.é         que  elle        mang.e  une       pomme
+he.3SG-masc did.3SG think.PST-PTCP that she.3SG-fem eat.3SG a.3SG-fem apple.3SG-fem 
+'he thought that she is eating an apple' 
+
+## Ungrammatical
+
+#312 Without the que 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-d, tam
+*je pense    tu mangeais les biscuits
+je    pens.e tu mang.eais les biscuits
+I.1SG think.non2SG you eat.2SG-PST-IPFV les.3PL cookies.3PL
+'I think that you were eating the cookies'
+
+#313 Without the si  
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-q, tam 
+*La fille demande vous avez mangé les biscuits 
+le          fille        demand.e   vous    avez     mang.é       les     biscuits
+the.3SG-fem girl.3SG-fem wonder.3SG you.2PL have.2PL eat.PST-PTCP the.3PL cookies.3PL 
+'the girl wodners if you have eaten the cookies' 
+
+#314 Si instead of que 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-d, tam
+je pense si tu mangeais les biscuits
+je    pens.e       si   tu  mang.eais        les     biscuits
+I.1SG think.non2SG that you eat.2SG-PST-IPFV les.3PL cookies.3PL
+'I think that you were eating the cookies'
+
+#315 Que instead of si  
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: emb-q
+*Je demandais que vous mangiez. 
+Je    demand.ais          que vous    mang.iez
+I.1SG wonder.1SG-PST-IPFV if  you.2PL eat.2PL-PST-IPFV
+'I was wondering if you were eating.' 
+
+## Non-Verbal Predicates
+
+#316 - NP predicate
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+Le garçon est un enfant
+le           garçon       est    un    enfant
+the.3SG-masc boy.3SG-masc is.3SG a.3SG child.3SG-masc 
+'the boy is a child' 
+
+#317 - 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+*Le garçon est enfant
+le           garçon       est    enfant
+the.3SG-masc boy.3SG-masc is.3SG child.3SG-masc 
+'the boy is a child' 
+
+#318 - Adjectival Predicate
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop 
+La fille est petite
+la          fille        est    petit.e
+the.3SG-fem girl.3SG-fem is.3SG small.3SG-fem 
+'the girl is little' 
+
+#319 - without the copula.
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+*La fille petite
+La fille petit.e
+the.3SG-fem girl.3SG-fem small.3SG-fem 
+'the girl is little' 
+
+#320 - Prepositional Phrase Predicate
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop
+Les garçons sont dans le parc 
+les     garçons       sont   dans    le           parc
+the.3PL boys.3PL-masc be.3PL in.PREP the.3SG-masc park.3SG-masc
+'the boys are in the park' 
+
+#321 without the copula.  Becomes a noun phrase
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: cop
+* les garçons dans le parc 
+les     garçon.s      dans    le           parc
+the.3PL boys.3PL-masc in.PREP the.3SG-masc park.3SG-masc
+'the boys are in the park' 
+
+#322
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-d, cop
+Je pense que la fille est petite
+je    pens.e       que  la          fille        est    petite
+I.1SG think.non2SG that the.3SG-fem girl.3SG-fem is.3SG small 
+'I think that the girl is small.'
+
+#323
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: emb-q, cop
+Je demande si la fille est petite
+je    demand.e   si la          fille        est    petit.e 
+I.1SG ask.non2SG if the.3SG-fem girl.3SG-fem is.3SG small
+'I ask if the girl is small' 
+
+#324 - NP predicate
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop, emb-d
+Nous pensons que le garçon est un enfant
+nous     pens.ons  que  le           garçon       est    un    enfant
+nous.1PL think.3PL that the.3SG-masc boy.3SG-masc is.3SG a.3SG child.3SG-masc 
+'we think that the boy is a child' 
+
+#325 - NP predicate
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop, emb-q
+Nous demandons si le garçon est un enfant
+nous     demand.ons  si  le           garçon       est    un    enfant
+nous.1PL ask.3PL     if the.3SG-masc boy.3SG-masc is.3SG a.3SG child.3SG-masc 
+'we ask if the boy is a child' 
+
+#326 - Prepositional Phrase Predicate
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop, emb-d
+Je pense que les garçons sont dans le parc 
+je    pense        que les     garçons        sont   dans    le           parc
+I.1SG think.non2SG that the.3PL boys.3PL-masc be.3PL in.PREP the.3SG-masc park.3SG-masc
+'the boys are in the park' 
+
+#327 - Prepositional Phrase Predicate
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: cop, emb-q
+Je demande si les garçons sont dans le parc 
+je    demande       si les     garçons        sont   dans    le           parc
+I.1SG wonder.non2SG if the.3PL boys.3PL-masc be.3PL in.PREP the.3SG-masc park.3SG-masc
+'I wonder if the boys are in the park' 
+
+## Information Structure 
+
+#328 - focus on agent
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: info
+C'est moi qui a mangé les biscuits!
+c'est moi     qui a       mang.é           les     biscuits
+it-is 1SG.ACC who has.3SG eat.3SG-PST-PTCP the.3PL cookies.3PL-masc 
+'It is me who ate the cookies' 
+
+#329 Focus on agent, wrong case
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: info
+*C'est je qui a mang.é les biscuits
+c'est je      qui  a       mang.é           les     biscuits
+it-is 1SG.NOM who  has.3SG eat.3SG-PST-PTCP the.3PL cookies.3PL-masc 
+'It is me who ate the cookies' 
+
+#330 Focus on patient 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: info
+C'est une pomme que je mange
+C'est une        pomme           que  je    mang.e
+it-is an.3SG-fem apple.3SG-apple that I.1SG eat.non2SG 
+'It's an apple that I am eating!' 
+
+## ARG-OPT in the various tenses: 
+
+#331 Arg-Opt with future perfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, pro-d
+Je le-mangerai 
+Je le-mang.erai 
+i.1SG it-eat.1SG-FUT-PFV
+'I will eat it' 
+
+#332 Arg-Opt with future perfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, pro-d 
+le garçon le-mangera 
+le garçon le mang.era
+the.3SG-masc boy.3SG-masc it-eat.3SG-FUT-PFV
+'the boy will eat it' 
+
+#333 ArgOpt with past imperfective
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tam, pro-d
+je la-mangeais
+je la-mang.eais
+i.1SG it-eat.1SG-PST-IPFV
+'I was eating it' 
+
+#334 ArgOpt with past imperfective
+Source: author 
+Vetted: f
+Judgment: g
+Phenomena: tam, pro-d
+les enfants les-mangaient 
+les enfants les-mang.aient
+the.3PL child.3PL it-eat.3PL-PAST-IPFV
+'the children were eating them.'
+
+## Test of optional transitivity / intransitivity 
+
+#335 Argument-less
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: arg-st
+Je mange
+Je mang.e
+i.1SG eat.non2SG
+'I am eating' / 'I eat' 
+
+#336 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: arg-st
+tu manges
+tu mang.es
+you.2SG eat.2SG
+'you eat' 
+
+#337 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: arg-st
+nous mangeons
+nous mang.eons
+we.1PL eat.1PL 
+'we eat' 
+
+#338 Strict transitive
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: arg-st 
+Je prends le biscuit 
+je    pren.ds     le           biscuit
+I.1SG take.non3SG the.3SG-masc cookie.3SG-masc 
+'I take the cookie' 
+
+#339
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: arg-st
+*Nous prenons
+nous pren.ons
+we.1PL take.1PL
+'we take ..' 
+
+#340 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: arg-st 
+Les enfants prennent les biscuits 
+les enfants pren.nnent les biscuits
+the.3PL child.3PL take.3PL the.3PL cookies.3PL 
+'the children take the cookies. 
+
+#341
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: m 
+Je peux manger
+je peux manger
+I.1SG can.non3SG eat.INF
+'i can eat' 
+
+#342
+Source: author 
+Vetted: f
+Judgment: g
+Phenomena: m 
+je peux manger la pomme
+je peux manger la pomme
+I.1SG can.non3SG eat.INF
+'I can eat the apple'
+
+#343 Modal with a non infinitive 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m 
+* Je peux mange
+* je peux mange
+I.1SG can.non3SG eat.INF
+'i can eat' 
+
+#344 
+Source: author 
+Vetted: f
+Judgment: u
+Phenomena: m 
+* je peux mange la pomme
+* je peux mange la pomme
+I.1SG can.non3SG eat.INF
+'I can eat the apple'
+
+#345
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: m 
+tu peux manger
+tu peux manger
+I.1SG can.non3SG eat.INF
+'you can eat' 
+
+#346
+Source: author 
+Vetted: f
+Judgment: g
+Phenomena: m 
+tu peux manger la pomme
+tu peux manger la pomme
+I.1SG can.non3SG eat.INF
+'you can eat the apple'
+
+#347 Modal with non-inf 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m 
+* tu peux mange
+* tu peux mange
+I.1SG can.non3SG eat.INF
+'you can eat' 
+
+#348
+Source: author 
+Vetted: f
+Judgment: u
+Phenomena: m 
+* tu peux mange la pomme
+* tu peux mange la pomme
+I.1SG can.non3SG eat.INF
+'you can eat the apple'
+
+#349
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: m 
+il peut manger
+il peut manger
+I.1SG can.non3SG eat.INF
+'he can eat' 
+
+#350
+Source: author 
+Vetted: f
+Judgment: g
+Phenomena: m 
+elle peut manger la pomme
+elle peut manger la pomme
+I.1SG can.non3SG eat.INF
+'she can eat the apple'
+
+#351 modal with non infinitive 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m  
+* elle peut mange
+* elle peut mange
+I.1SG can.non3SG eat.INF
+'she can eat' 
+
+#352 modal with non inf
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m 
+* il peut mange la pomme
+* it peut mange la pomme
+I.1SG can.non3SG eat.INF
+'he can eat the apple'
+
+#353
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: m 
+nous pouvons manger
+nous pouvons manger
+I.1SG can.non3SG eat.INF
+'we can eat' 
+
+#354
+Source: author 
+Vetted: f
+Judgment: g
+Phenomena: m 
+nous pouvons manger la pomme
+nous pouvons manger la pomme
+I.1SG can.non3SG eat.INF
+'we can eat the apple'
+
+#355 modal with non inf
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m 
+* nous pouvons mange
+* nous pouvons mange
+I.1SG can.non3SG eat.INF
+'i can eat' 
+
+#356 modal with non inf 
+Source: author 
+Vetted: f
+Judgment: u
+Phenomena: m 
+* nous pouvons mange la pomme
+* nous pouvons mange la pomme
+I.1SG can.non3SG eat.INF
+'I can eat the apple'
+
+#357
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: m 
+vous pouvez manger
+vous pouvez manger
+I.1SG can.non3SG eat.INF
+'i can eat' 
+
+#358
+Source: author 
+Vetted: f
+Judgment: g
+Phenomena: m 
+vous pouvez manger la pomme
+vous pouvez manger la pomme
+I.1SG can.non3SG eat.INF
+'I can eat the apple'
+
+#359 modal with non inf 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+* vous pouvez mange
+* vous pouvez mange
+I.1SG can.non3SG eat.INF
+'i can eat' 
+
+#360 modal with non inf 
+Source: author 
+Vetted: f
+Judgment: u
+Phenomena: m 
+* vous pouvez mange la pomme
+* vous pouvez mange la pomme
+I.1SG can.non3SG eat.INF
+'I can eat the apple'
+
+#361
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: m 
+ils peuvent manger
+ils peuvent manger
+I.1SG can.non3SG eat.INF
+'i can eat' 
+
+#362
+Source: author 
+Vetted: f
+Judgment: g
+Phenomena: m 
+elles peuvent manger la pomme
+elles peuvent manger la pomme
+I.1SG can.non3SG eat.INF
+'I can eat the apple'
+
+#363 modal with non inf 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m 
+* elles peuvent mange
+* elles peuvent mange
+I.1SG can.non3SG eat.INF
+'i can eat' 
+
+#364 modal with non inf 
+Source: author 
+Vetted: f
+Judgment: u
+Phenomena: m 
+* ils peuvent mange la pomme
+* ils peuvent mange la pomme
+I.1SG can.non3SG eat.INF
+'I can eat the apple'
+
+#366 Modal over an embedding clause  
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: m, emb-d
+Je peux penser que la fille est petite.
+je     peux       pens.er  que  la          fille        est     petite
+I.1SG can.non3SG think.INF that the.3SG-fem girl.3SG-fem is.3SG small.SG-fem 
+"I can think that the girl is small' 
+
+#367 Modal over an embedding clause without infinitive  
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+* Je peux pense que la fille est petite.
+* je   peux       pens.e       que  la          fille        est     petite
+I.1SG can.non3SG  think.non2SG that the.3SG-fem girl.3SG-fem is.3SG small.SG-fem 
+"I can think that the girl is small' 
+
+#368 Modal over an embedding clause
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: m, emb-q
+Il peut demander si la fille mange la pomme
+il          peut    demand.er si la          fille        mang.e     la          pomme
+he.3SG-masc can.3SG ask.INF   if the.3SG-fem girl.3SG-fem eat.non2SG the.3SG-fem apple.3SG-fem 
+'he can wonder if the girl is eating the apple.' 
+
+#369 - Modal over an embedding clause without the infinitive:
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+* Il peut demande si la fille mange la pomme
+* il          peut    demand.e     si la          fille        mang.e     la          pomme
+he.3SG-masc   can.3SG ask.non2SG   if the.3SG-fem girl.3SG-fem eat.non2SG the.3SG-fem apple.3SG-fem 
+'he can wonder if the girl is eating the apple.' 
+
+#370 Modal inside the embedded clause 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: m, emb-d
+Le garçon pense que il peut manger le gâteau 
+Le           garçon       pens.e       que  il          peut    mang.er le           gâteau
+the.3SG-masc boy.3SG-masc think.non2SG that he.3SG-masc can.3SG eat.INF the.3SG-masc cake.3SG-masc 
+'the boy thinks that he can eat the cake' 
+
+#371 Modal inside embedded clause without inf: 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+Le garçon pense que il peut mange le gâteau 
+Le           garçon       pens.e       que  il          peut    mang.e le           gâteau
+the.3SG-masc boy.3SG-masc think.non2SG that he.3SG-masc can.3SG eat.3SG the.3SG-masc cake.3SG-masc 
+'the boy thinks that he can eat the cake' 
+
+#372 Modal inside embedded clause
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: m, emb-q
+Nous demandons si vous pouvez manger lentement. 
+nous demand.ons si vous pouvez mang.er lentement
+we.1PL wonder.1PL if you.2PL can.2PL eat.INF slowly.ADV
+'we wonder if you can eat slowly' 
+
+#373 Modal inside embedded clause without infinitive 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: m
+Nous demandons si vous pouvez mange lentement. 
+nous demand.ons si vous pouvez mang.e lentement
+we.1PL wonder.1PL if you.2PL can.2PL eat.non2SG slowly.ADV
+'we wonder if you can eat slowly' 
+
+## Use of the demonstrative pronoun ça 
+
+#374 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Je mange ça.
+je mang.e ça 
+I.1SG eat.non2SG it.DEM
+'I am eating it' 
+
+#375 Je peux manger du verre 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: 
+Je peux manger du verre
+Je    peux         mang.er  du            verre 
+I.1SG can.non3SG   eat.INF some.masc-sing glass.masc-sing 
+'I can eat glass' 
+
+## the use of the partitive
+
+#376 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Je mange du gâteau 
+Je    mang.e     du             gâteau
+I.1SG eat.non2SG some.masc-sing cake.3SG-masc 
+'I eat some cake' 
+
+#377 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+Il mange de la pomme 
+il           mang.e    de la         pomme
+he.3SG-masc eat.non2SG some-fem-sing apple.fem-sing
+'he eats some of the apple' 
+
+#378 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: det
+nous mangeons des biscuits 
+nous   mang.eons des     biscuits
+we.1PL eat.1PL   some.PL cookie.PL 
+'we are eating some of the cookies' 
+
+#379 Agreement dischord 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: det
+* ils mangent du pomme 
+* ils      mang.ent du             pomme
+they.3PL eat.3PL  some.masc-sing apple.fem-sing
+'they eat some of the apple' 
+
+#380 Agreement dischord 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: det
+* elle mange de la biscuits
+* elle    mang.e     de la         biscuits
+she.3SG eat.non2SG some.fem-sing cookies.plur
+'she is eating some of the cookies' 
+
+#381 Ne without pas 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg
+* La fille ne-mange le biscuit 
+* la         fille    ne-mang.e   le      biscuit
+the.non2SG girl.3SG not eat.3SG the.3SG cookie.3SG 
+'The girl does mot eat the cookie' / 'the girl is not eating the cookie' 
+
+#382 Pas without ne 
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: neg
+* Le garçon mange pas la pomme 
+* le         garçon    mang.e pas  la          pomme
+the.non2SG boy.3SG   eat.3SG-not the.3SG-fem apple.3SG-fem  
+'the boy does not eat the apple' / 'the boy is not eating the apple' 
+
+#383 Ça ne me blesse pas 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: neg
+Ça ne-blesse pas je 
+Ça ne-bless.e pas je 
+It.DEM not-harm not me.1SG
+'it does not hurt me' 
+
+

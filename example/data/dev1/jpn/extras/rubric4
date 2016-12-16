@@ -1,0 +1,141 @@
+Notes
+
+# 42 this is an example of improper use of a demonstrative (wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {cogst}
+飯      を   この       われ   が    たぶ
+mesi    wo  kono      ware  ga    eat-PRES
+rice    ACC that-DEM  I     NOM   eat
+`I eat that rice.'
+
+Actually, I bet this is grammatical.  In modern Japanese at least,
+you can say "この　私".
+
+# 50 this is an example of an adjective separated by other elements (wrong place)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+物     を    うれしき   われ   が     みる 
+mono   wo   ureshiki  ware  ga    miru
+things ACC  pleasing  I     ACC   see
+`I see pleasing things.'
+
+Likewise for this one.
+
+# 66 this is an example of an adverb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {adv}
+涼風          さつさつ                 たり
+ryofu        satsusatsu              tari
+cool breeze  blow refreshingly-PAST  ADVERB
+`A cool breeze blew refreshingly.'
+
+Is there a verb in this example?  Is it in fact "たり"?  Based on what
+I know of modern Japanese, さつさつ looks like an adverb, but I don't
+see how you're getting "blow refreshingly" out of it.  From what you
+say below, it seems like たり is a copula or auxiliary verb, and that's
+what's being modified by さつさつ.  Can you find examples where there
+is (also) a content verb in the sentence?
+
+You should construct some simpler examples of embedded clauses,
+based on the descriptions in your sources.  What form does the embedded
+verb take?  Are there any other constraints?  Also, you could construct
+ungrammatical examples by putting the と at the beginning of the clause
+instead of the end, putting in multiple とs, etc.
+
+# 59 this is an example of a non-verbal predicate (non-copular adjective)
+Source: b
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+心      も   静かなら    ず
+kokoro  mo  shizukara  zu
+heart   ?   quiet      NEG
+`The heart is unsettled.'
+
+You'll need to figure out what　も is or (probably better) replace
+it with an appropriate case marker to make these examples usable.
+
+# 63 this is an example of a non-verbal predicate (locative copular)
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: {cop}
+江戸  なる     寺     に        参り      たり
+Edo  naru   tera   ni        mawiri   tari
+Edo  COPULA temple LOCATION  go-PAST  RESULTATIVE
+`I went to a temple in Edo.'
+
+The trouble here is that that locative is serving as a modifier
+instead of a predicate (some kind of relative clause, probably).
+What you need is something liek "The temple is in Edo."
+
+  However, I do know that it is wrong in one case. For the verb たべる,
+  I originally only had the inflection change for this one verb. But,
+  its verb class - shimo-nidan - actually has another verb that
+  conjugates in a different way, because it doesn't end with the same
+  character. When I added this additional conjugation, that introduced
+  more ambiguity. Without the additional conjugation, I was getting
+  only 4 readings for the example mentioned before, instead of 16.
+
+You should always include IGT in these cases so I can test things
+out and give better feedback.  This sounds like a case where what
+you need are extra subrules in the irule definition, but I can't tell
+without looking at examples.  I also see that in your grammar as turned
+in you still have subrules with "" in them, instead of *. Have you fixed this?
+
+  It appears that literally none of my test items I added this week
+  have any readings. This isn't too surprising though, as many involve
+  words that haven't entered the lexicon - adjectives and adverbs. And
+  examples that use words contained in the lexicon are portraying
+  phenomena that haven't been modeled yet.
+
+Right ... this is expected.
+
+Regarding ambiguity, it seems that you haven't fixed the case problem
+that I noted last week.  From your classical-japanese.tdl file:
+
+yodan-itv-verb-lex := yodan-rule-dtr & intransitive-verb-lex.
+
+yodan-tv-verb-lex := yodan-rule-dtr & transitive-verb-lex.
+
+intransitive-verb-lex := main-verb-lex & intransitive-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < >,
+    ARG-ST.FIRST.LOCAL.CAT.HEAD +np ].
+
+transitive-verb-lex := main-verb-lex & transitive-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
+    ARG-ST < [ LOCAL.CAT.HEAD +np ],
+             #comps &
+             [ LOCAL.CAT [ VAL [ SPR < >,
+                                 COMPS < > ],
+                           HEAD +np ] ] > ].
+
+nom-intransitive-verb-lex := intransitive-verb-lex &
+  [ ARG-ST.FIRST.LOCAL.CAT.HEAD +np &
+                                [ CASE nom ] ].
+
+nom-acc-transitive-verb-lex := transitive-verb-lex &
+  [ ARG-ST < [ LOCAL.CAT.HEAD +np &
+                              [ CASE nom ] ],
+             [ LOCAL.CAT.HEAD adp &
+                              [ CASE acc ] ] > ].
+
+If your lexical entries don't inherit from nom-intransitive-verb-lex
+or nom-acc-transitive verb lex, you don't really have a case system.
+That's why you're getting two parses of this example:
+
+# 34 this is an example of proper use of aspect (continuative, present)
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+われ    が     飯     を     たべ  り         
+ware  ga    mesi    wo    tabe  ri
+I     NOM   rice    ACC    eat  CONTINUATIVE
+`I am eating rice.'

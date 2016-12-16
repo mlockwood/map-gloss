@@ -1,0 +1,576 @@
+There are 3 major ways to ask Yes-No questions. Declarative sentences marked by intonation alone can form a yes-no question:
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+Slavko vidi Olgu?
+Slavk-o vid-i Olg-u ?
+see-1.SG.PRS see-3.SG.PRS Olga.F-SG.ACC ?
+'Does Slavko see Olga?'
+
+Enclitic particle 'li' is another way to form a yes-no question. The finite verb (auxiliary if there is one, otherwise the main verb) precedes li immediately and is thus sentence-initial:
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+Vidi li Slavko Olgu?
+vid-i li Slavk-o Olg-u ?
+see-1.SG.PRS li.Q Slavko-M.SG.NOM Olga.F-SG.ACC ?
+'Does Slavko see Olga?'
+
+Note that an enclitic finite verb is replaced in yes-no questions formed with 'li' by its non-enclitic (full) form. See in the example below, hoce is used instead of ce:
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q, tam}
+Hoce li Slavko vidjeti Olgu?
+hoc-e li Slavk-o vidje-ti Olg-u ?
+AUX.FUT-3.SG li.Q Slavko-M.SG.NOM see-INF Olga.F-SG.ACC ?
+'Will Slavko see Olga?'
+
+A third way to form yes-no questions is by using sentence-initial sequence 'Da li', which may be regarded as the full form of li, gets the enclitic form od the AUX right after it, and does not constrain the order of the remaining elements:
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {q}
+Da li ce Slavko vidjeti Olgu?
+da li c-e Slavk-o vidje-ti Olg-u ?
+da.Q li.Q AUX.FUT.3.SG Slavko-M.SG.NOM see-INF Olga.F-SG.ACC ?
+'Will Slavko see Olga?'
+
+As one can see, yes-no questions in hbs allow a lot of variation and have not been an easy fit for the grammar matrix. For this grammar iteration, we have selected  the sentence-initial separate question particle spelled 'da li' (it's actually two particles, but the customization system allowed a space in between).
+
+Subject-verb inversion would have also been a good choice, but it requires the 'li' particle after the verb, and so was not a complete match. This is one more area we will need to  further customize  manually.
+
+
+COORDINATION
+
+Hbs is tolerating a variety of coordination strategy - mono-, poly- and omnisyndeton for nouns, NPs, VPs and entire clauses. The most typical coordination marker is the word "i". A few illustrations below:
+
+# Two-noun coordinated subj; predicate agreement with PL
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+Slavko i Ivan vide Olgu
+Slavk-o i Ivan vid-e Olg-u
+Slavko-M.SG.NOM and Ivan-M.SG.NOM see-PRS.3.PL Olga.F-SG.ACC
+'Slavko and Ivan see Olga'
+
+# Two-noun coordinated subj; repeated markers; predicate agreement with PL
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+I Slavko i Ivan vide Olgu
+i Slavk-o i Ivan vid-e Olg-u
+And Slavko-M.SG.NOM and Ivan-M.SG.NOM see-PRS.3.PL Olga.F-SG.ACC
+'Slavko and Ivan see Olga'
+
+# Three-noun coordinated subj; predicate agreement with PL
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+Slavko, Ivan i Zoran vide Olgu
+Slavk-o , Ivan-0 i Zoran-0 vid-e Olg-u
+Slavko-M.SG.NOM , Ivan-M.SG.NOM and Zoran-M.SG.NOM see-PRS.3.PL Olga.F-SG.ACC
+'Slavko, Ivan and Zoran see Olga'
+
+# Three-noun coordinated subj; repeated markers; predicate agreement with PL
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+Slavko i Ivan i Zoran vide Olgu
+Slavk-o i Ivan-0 i Zoran-0 vid-e Olg-u
+Slavko-M.SG.NOM and Ivan-M.SG.NOM and Zoran-M.SG.NOM see-PRS.3.PL Olga.F-SG.ACC
+'Slavko, Ivan and Zoran see Olga'
+
+# Verb coordination - "i" marker
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {crd}
+citam i govorim
+cita-m i govori-m
+read-1.SG and speak-1.SG.PRS
+'I read and speak'
+
+A coordinated noun phrase acting as a subject requires the verb to agree with PL. Gender agreement rules are interesting: if the coordinated group is all Fem, the verb takes on Fem ending; if the group is all Neut, the verb is Neut; otherwise the verb is Masc by default.
+
+# Gender agreement resolution: F is all coordinates are F.
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+Marija i Olga su vidjele Slavka
+Marij-a i Olg-a s-u vidje-le Slavk-a
+Marija-F.SG.NOM and Olga-F.SG.NOM AUX.3.PL.PST see-L.F.PL Slavko.M-SG.ACC
+'Maria and Olga saw Slavko'
+
+# Gender agreement resolution: M if coordinates gender are mixed.
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {crd, agr}
+Marija i Ivan su vidjeli Slavka
+Marij-a i Ivan-0 s-u vidje-li Slavk-a
+Marija-F.SG.NOM and Ivan-M.SG.NOM AUX.3.PL.PST see-L.M.PL Slavko.M-SG.ACC
+'Maria and Ivan saw Slavko'
+
+We have also included an example of coordinated clauses with the marker "a", which has the semantics of a mild contrast:
+
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {crd}
+Slavko spava, a Olga cita
+Slavk-o spa-va a Olg-a cit-a
+Slavko-M.SG.NOM sleep-3.SG.PRS and Olga-F.SG.NOM read-3.SG.PRS
+'Slavko is sleeping and(while) Olga is reading'
+
+ATTRIBUTIVE ADJECTIVES
+
+Attributive adjectives usually precede the nouns and agree with them in gender, number and case.
+Some exceptions include terms of endearment with the attribute possessive pronouns, like 'ruža moja' (my rose) - we have not modeled those at this time.
+We will only model the Adj preceding the noun pattern, including the following examples:
+
+# Attributive adjective - agreement
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adj, agr}
+Olga pije crveno vino
+Olg-a pi-je crven-o vin-o
+Olga-F.SG.NOM drink-3.SG.PRS red.N.SG.ACC vine-N.ACC.SG
+'Olga is drinking red wine'
+
+# Attributive adjective - agreement
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adj, agr}
+Marija pije zeleni caj
+Marij-a pi-je zelen-i caj-0
+Marija-F.SG.NOM drink-3.SG.PRS green-M.SG.ACC tea-M.ACC.SG
+'Maria is drinking green tea'
+
+ADVERBS
+Two of our sources were noting that single-word adverbs modifying a verb *tend* to precede it,
+but may sometimes follow it. It is not clear when exactly adverbs are allowed to follow Vs they modify.
+We are including the examples in the test suite of grammatical adverb constructions quoted in our source materials (or trivially derived from those):
+
+# Adverbs - preceding a transitive verb.
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adv}
+Slavko jasno vidi Olgu.
+Slavk-o jasn-o vid-i Olg-u
+Slavko-M.SG.NOM clearly see-PRS.3.SG Olga.F-SG.ACC
+'Slavko sees Olga clearly'
+
+# Adverbs - preceding an intransitive verb.
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adv}
+Olga dobro govori
+Olg-a dobr-o govor-i
+Olga-F.SG.NOM well speak-3.SG.PRS
+'Olga speaks well'
+
+# Adverbs - following an intransitive verb.
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {adv}
+Olga radi brzo
+Olg-a rad-i brz-o
+Olga-F.SG.NOM work-3.SG.PRS fast
+'Olga works fast'
+
+We are not sure if the following examples are acceptable:
+# ? Slavko vidi jasno Olgu.
+# ? Slavko vidi Olgu jasno.
+
+This is something we should vet with a native speaker.
+
+EMBEDDED CLAUSES
+                                                                     
+Embedded clauses are marked with the complementizer 'da'. Some verbs can either take both declarative and interrogative, while other verbs
+can only take one or the other. Embedded questions must be marked with a clause-initial 'da li'. The verb 'know' can embed both types of clauses while 'ask' can only embed questions and 'think' can only embed statements. The examples below illustate these points:
+
+#embed clauses, know
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {emb-q}
+znam da li Slavko vidi Olgu
+zn-am da li Slavk-o vid-i Olg-u
+know-1.SG COMP Q Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC
+'I know whether Slavko sees Olgu.'
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {emb-d}
+znam da Slavko vidi Olgu
+zn-am da Slavk-o vid-i Olg-u
+know-1.SG COMP Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC
+'I know that Slavko sees Olgu.'
+
+#ask
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {emb-q}
+pitam da li Slavko vidi Olgu
+pit-am da li Slavk-o vid-i Olg-u
+ask-1.SG COMP Q Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC
+'I ask whether Slavko sees Olga.'
+
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {emb-d}
+pitam da Slavko vidi Olgu
+pit-am da Slavk-o vid-i Olg-u
+ask-1.SG COMP Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC
+'I ask that Slavko sees Olgu.'
+
+#think
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {emb-d}
+mislim da Slavko vidi Olgu
+misl-im da Slavk-o vid-i Olg-u
+think-1.SG COMP Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC
+'I think that Slavko sees Olgu.'
+
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {emb-q}
+mislim da li Slavko vidi Olgu
+misl-im da li Slavk-o vid-i Olg-u
+think-1.SG COMP Q Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC
+'I think whether Slavko sees Olgu.'
+
+Word order is free in both the main clause and the embedded clause. The only restriction is that 'da' and 'da li' must be clause-initial.
+
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {emb-q}
+znam Slavko vidi Olgu da li
+zn-am Slavk-o vid-i Olg-u da li
+know-1.SG Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC COMP Q
+'I know whether Slavko sees Olgu.'
+
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {emb-d}
+znam Slavko vidi Olgu da
+zn-am Slavk-o vid-i Olg-u da
+know-1.SG COMP Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC COMP
+'I know that Slavko sees Olgu.'
+
+#different word order in the main clause
+#embedded clause-S
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {emb-q}
+da li Slavko vidi Olgu znam
+da li Slavk-o vid-i Olg-u zn-am
+COMP Q Slavk.M-3.SG.NOM see-3.SG Olg.F-3.SG.ACC know-1.SG 
+'I know whether Slavko sees Olgu.'
+
+#different word in the embedded clause
+#S-OVS-clause
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {emb-d}
+znam da Olgu vidi Slavko
+zn-am da Olg-u vid-i Slavk-o
+know-1.SG COMP  Olg.F-3.SG.ACC see-3.SG  Slavk.M-3.SG.NOM
+'I know that Slavko sees Olgu.'
+
+NON-VERBAL PREDICATES
+
+NPs, adjectives, and PPs can be predicates in hbs. A copular is required for NP predicate, but not the others.
+The copular varies in person and number, agreeing with the subject.  
+
+#NP with cop
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+ona je moja zena
+ona je moj-a zen-a
+3.F.SG.NOM be.3.SG my-SG.F.NOM wife-SG.F.NOM
+
+#adj with cop
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+ona je nov-a
+ona je nov-a
+3.F.SG.NOM be.3.SG new-SG.F.NOM
+'She is new.'
+
+#pp with cop
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+koncert je u osam
+koncert je u osam
+concert.3.SG.NOM be.3.SG at eight
+'The concert is at eight o'clock.'
+
+#NP without cop
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona moja nova
+ona moj-a nova-a
+3.F.SG.NOM my-SG.F.NOM wife-SG.F.NOM
+
+#adj without cop
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+ona nova
+ona nov-a
+3.F.SG.NOM new-SG.F.NOM
+'She is new.'
+
+#pp without cop 
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+koncert u osam
+koncert u osam
+concert.3.SG.NOM at eight
+'The concert is at 8 o'clock.'
+
+#variations of copular in person and number
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+ja jesam nova
+ja jesam nov-a
+1.SG.NOM be.1.SG new.F-SG.NOM
+'I am new.'
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+ti jesi nova
+ti jesi nov-a
+2.SG.NOM be.2.SG new.F-SG.NOM
+'You are new.'
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+mi jesmo nova
+mi jesmo nov-a
+1.PL.NOM be.1.PL new.F-SG.NOM
+'We are new.'
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+vi jeste nova
+vi jeste nov-a
+2.PL.NOM be.2.PL new.F-SG.NOM
+'You guys are new.'
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+oni jesu nova
+oni jesu nov-a
+3.M.PL.NOM be.3.PL new.F-SG.NOM
+'They are new.'
+
+NP and adjective predicates can either be nom or gen case.
+
+#NP with gen case
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+ona je mojee zenee
+ona je moj-ee zen-ee
+3.F.SG.NOM be.3.SG my-SG.F.GEN wife-SG.F.GEN
+'She is my wife.'
+
+#adj with gen case
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {cop}
+ona je novee
+ona je nov-ee
+3.F.SG.NOM be.3.SG new-SG.F.GEN
+'She is new.'
+
+#NP with acc case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona je moju zenu
+ona je moj-u zen-u
+3.F.SG.NOM be.3.SG my-SG.F.ACC wife-SG.F.ACC
+'She is my wife.'
+
+#adj with acc case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona je novu
+ona je nov-u
+3.F.SG.NOM be.3.SG new-SG.F.ACC
+'She is new.'
+
+#NP with dat case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona je mojoj zeni
+ona je moj-oj zen-i
+3.F.SG.NOM be.3.SG my-SG.F.DAT wife-SG.F.DAT
+'She is my wife.'
+
+#adj with dat case
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {cop}
+ona je novoj
+ona je nov-oj
+3.F.SG.NOM be.3.SG new-SG.F.DAT
+'She is new.'
+
+INFORMATION STRUCTURE
+
+hbs' information structure is captured by word order and prosody. The focus of a sentence is sentence-final.
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {wo, c,info} 
+Slavko Olgu vidi
+Slavk-o Olg-u vid-i
+Slavko.M-SG.NOM Olga.F-SG.ACC see-3.SG
+'Slavko sees Olga.'
+
+The answer to a wh-question is also sentence-final. For example, the answer to 'tko vidi Olgu?' 'who sees Olga.' is:
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {wo, c}
+Olgu vidi Slavko
+Olg-u vid-i Slavk-o
+Olga.F-SG.ACC see-3.SG Slavko.M-SG.NOM
+'Slavko sees Olga.'
+
+Focus can also be marked with 'to' in the cleft construction:
+
+#cleft
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {info}
+to Slavko vidi Olgu
+to Slavk-o vid-i Olg-u
+that Slavo-3.M.SG.NOM see-3.SG Olg-3.F.SG.ACC
+'It was Slavko who sees Olgu.'
+
+The topic of a sentence is sentence-initial. For example, if Olga is the focus of  'Slavko vidi Olgu.' then the topicalized element is put first in the following sentence: 
+
+Source: a
+Vetted: s
+Judgment: g
+Phenomena: {info}
+Olgu vidimo i mi
+Olg-u vid-imo i mi
+Olg.F-3.SG.ACC see-1.PL AND 1.PL.NOM
+'We too see Olga.'
+
+
+TEST COVERAGE
+
+We have 34% coverage. About 20+ uncovered positive examples come from the agreement section where adjectives are used, which were not
+covered by the customization system.
+
+Of the covered sentences, many tree structures are incorrect where the subject and object are in the wrong positions. That is,
+the subject is the complement of V while the object is in the specifer of S. In order to fix this we need to revise our head-comp to require
+a non-nominative case for its object and our head-subj to require nominative case for its subject.
+
+A lot of the grammatical examples that don't have parses are the result of errors in test suite or the lexicon. For example, in some sentences we need to
+change slavko to slavk-o in the morpheme gloss. We also need fine tune our lexicon and inflection rules to account for irregularities.
+For example there were no lexical entries for nju, tebe, spa-vam, and spa-vate.
+
+There were two cases of ungrammatical examples having parses. One for negation and two for pro drop. For negation, example 50, NEG ne
+is sentence-intial where it should be adjacent to vidi.
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+ne Slavko vidi  Olgu
+ne Slavk-o vid-i  Olg-u
+NEG Slavko-M.SG.NOM see-3.SG Olga.F-SG.ACC
+'Slavko does see not Olga.'
+
+84 and 85 in the pro-drop section:
+
+#84 *dropped obj - tv
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn}
+Vidim
+vid-im
+see-1.SG.PRS
+'I see'
+
+#85 *dropped obj - tv
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {pn}
+Ja vidim
+Ja vid-im
+1.SG.NOM see-1.SG.PRS
+'I see'
+
+There is a missing object that is required by the verb. This can fixed with a rule that requires a verb to have a certain number 
+of arguments in its ARG-ST.
+
+Overall, a lot of uncovered grammatical examples come from errors in our lexicon and inflection rules.

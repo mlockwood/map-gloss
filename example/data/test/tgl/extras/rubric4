@@ -1,0 +1,56 @@
+-------------------------------------------------------
+Comments
+
+This is lab 4, but your write up was hidden in a file
+called lab3.
+
+It is very helpful to me (as I try to get the grading done
+efficiently and provide timely feedback) if you can organize
+your write up to match the items requested, providing headings
+for each.  Thanks.
+
+ When filling out the web questionnaire, I selected erg/abs for
+ case-marking, though there seems to be a special case-structure unique
+ to (at least) Philippine languages that doesn't quite fit the normal
+ paradigm.  This, combined with the fact that many of my sentences use
+ the actor-focus forms of aspect markers, leads to a situation where
+ those sentences aren't parsing.  Normally, in an erg/abs language, the
+ agent in a transitive verb sentence would be in the ergative case.
+ But the focus system allows for agent, patient, or goal to be
+ "promoted" to the absolutive case.  Bearing this in mind, if I were to
+ run the setup again, I might choose "verb-initial" rather than VSO for
+ basic word order.
+
+I'd like to you to consult with Scott (sfd@u) about how to analyze
+this for Tagalog.  If the word order is fixed for any given 
+form of the verb, verb-initial might not be the solution.  (When
+an agent gets "promoted" to the so-called absolutive case, what
+case does the patient appear in?  And what happens with
+intransitives anyway?  What about verbs like "go"... are they
+treated like agent-goal verbs, and do they take the goal-focus
+form?)
+
+ Sentential negation: I chose adverb as independent modifier of S.  It
+ usually appears before, though negated matrix questions have it at the
+ end.  
+
+Interesting that the order is dependent on the sentential force.  I
+think you'll want to negative adverbs. One is prehead ([POSTHEAD -]),
+and constrains the INDEX.SF of its complement to prop.  The other
+is posthead, and cosntrains the INDEX.SF of its complement to ques.
+
+ I also filled out the coordination section, choosing
+ Polysyndenton for all types, as a word following the coordinand.
+
+A and B and C and?
+A B and C and?
+
+Maybe you word preceding the coordinand would be better.
+
+ I probably should have skipped the matrix yes/no questions section
+ given that the question particle is neither sentence initial nor
+ sentence final.  But I felt compelled to fill out the entire
+ questionnaire.
+
+So what did you put in then, and how wrong is it?
+

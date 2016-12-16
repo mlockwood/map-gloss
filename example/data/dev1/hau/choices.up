@@ -1,0 +1,81 @@
+
+version=28
+
+section=general
+language=Hausa
+
+section=word-order
+word-order=svo
+has-dets=yes
+noun-det-order=det-noun
+has-aux=no
+aux-comp-order=before
+
+section=number
+
+section=person
+person=none
+
+section=gender
+
+section=case
+case-marking=none
+
+section=direct-inverse
+
+section=tense-aspect-mood
+
+section=other-features
+
+section=sentential-negation
+neg-exp=1
+vpc-0-neg=create
+adv-neg=on
+neg-mod=s
+neg-order=either
+neg-adv-orth=baa
+
+section=coordination
+  cs1_n=on
+  cs1_np=on
+  cs1_vp=on
+  cs1_pat=poly
+  cs1_mark=word
+  cs1_orth=da
+  cs1_order=after
+
+section=matrix-yes-no
+
+section=info-str
+
+section=arg-opt
+
+section=lexicon
+  noun1_det=opt
+    noun1_stem1_orth=yaarinyaa
+    noun1_stem1_pred=_girl_f_sg
+  noun2_det=opt
+    noun2_stem1_orth=miyaa
+    noun2_stem1_pred=_soup_f_sg
+  verb1_valence=intrans
+    verb1_stem1_orth=taazoo
+    verb1_stem1_pred=_came_v_itr
+  verb2_valence=trans
+    verb2_stem1_orth=taadafa
+    verb2_stem1_pred=_cook_v_tr
+    det1_stem1_orth=wata
+    det1_stem1_pred=_some_f_sg
+    det2_stem1_orth=waccan
+    det2_stem1_pred=_demonst_f_sg
+
+section=morphology
+
+section=toolbox-import
+
+section=test-sentences
+  sentence1_orth=wata yaarinyaa taazoo
+  sentence2_orth=yaarinyaa taadafa miyaa
+
+section=gen-options
+
+section=ToolboxLexicon

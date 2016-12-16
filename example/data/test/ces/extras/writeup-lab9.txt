@@ -1,0 +1,89 @@
+Lab 9
+Nate Sternberg
+
+***Things I changed ***
+
+I fixed a couple of things for this lab.  Mostly things that weren't causing parse failures, but that were subtlely affecting the semantics.
+
+1. Fixed coordination, which had never worked.  When I originally went through the customization system, I said that my conjunctions come before rather than after my coordinand.  That created rules that never worked correctly, so I went through the customization system a second time, chose the right answer, figured out what the differences were, and applied them to my working grammar.  It came down to changing all coordinations rules, such as:
+
+n1-bottom-coord-rule := conj-last-bottom-coord-rule & n-bottom-coord-phrase &
+
+to
+
+n1-bottom-coord-rule := conj-first-bottom-coord-rule & n-bottom-coord-phrase &
+
+I also had to have the coordination rule for S copy the non-coord daughter's INV value up, to reduce the duplicate analysis count.
+
+2. Updated lots of PRED values.  I hadn't added the "_v_rel" stuff to most of my verbs, and had lots of spelling errors.  Added a few irules.
+
+3. Fixed the problem where my clausal complement verbs weren't selecting for appropriate prop vs. ques complements.  There were a couple things wrong here: I wasn't identifying the SUBJ or COMPS value of my clausal complement verbs with the appropriate locations on ARG-ST, and they also weren't constraining the SF value on their complements.  I suspect it was just the second fix that really solved the problem, though I applied them in order so I can't be sure.
+
+4. Changed my adjectives to inherit from basic-int-mod-adj-lex rather than basic-adjective-lex & intersective-mod-lex.  This was required to make the MRS match the forms generated in English and Italian.
+
+5. Changed my OPT-CS value for optional-complement verbs to be type-id (for the same reason as above).
+
+6. Added ten newt suite entries to exercise all combinations of tense and aspect.
+
+***Transfer rules instantiated***
+
+Just one: make-harm := make-harm-mtr.  This was to accomodate Italian's 'make harm' construction.  Everything else just worked.  I think it helped that Czech is an IE language, so there's weren't too many weird paraphrastic constructions to accomodate.
+
+***Additional transfer rules developed***
+
+None!
+
+***MMT coverage, Italian***
+13.5 out of 17 translate.  The .5 is for 'non me fa male' which translates oddly into Czech.
+
+						Status	# res.	Correct	Incorrect
+Cani dorm-ono					Works!	1	1	0
+Cani insegu-ono macchine			Works!	2	1	1
+Ti-insegu-o					Fails			
+Questi cani dorm-ono				Works!	1	1	0
+Cani mangi-ano					Works!	1	1	0
+Posso mangi-are il vetro			Works!	2	1	1
+Non mi-f-a male					Sorta	2	0	2
+I cani insegu-ono macchine			Works!	2	1	1
+Pens-o che sai che cani insegu-ono macchine	Works!	18	2	16
+Domand-o se sai che cani insegu-ono macchine	Works!	30	3	27
+Cani e gatti insegu-ono macchine		Works!	12	1	11
+Cani insegu-ono machine e gatti insegu-ono cani	Works!	72	1	71
+Gatti insegu-ono cani e dorm-ono		Fails	
+Gatti insegu-ono cani				Works!	2	1	1
+insegu-i il cane				Skip			
+Cani affamat-i mangi-ano			Works!	1	1	0
+Cani affamat-i mangi-ano velocemente		Works!	2	2	0
+
+***MMT coverage, English***
+14.5 out of 17 translate.  The .5 is for 'It doesn't hurt me' which translates oddly into Czech.
+
+						Status	# res.	Correct	Incorrect
+Dogs sleep. 					Works!	1	1	0
+Dogs chase cars. 				Works!	2	1	1
+I chase you. 					Works!	4	4	0
+These dogs sleep.			 	Works!	1	1	0
+Dogs eat.					Works!	1	1	0
+I can eat glass.			 	Works!	2	1	1
+It doesn't hurt me.			 	Sort of	2	0	2
+The dogs chase cars.			 	Works!	2	1	1
+I think that you know that dogs chase cars. 	Works!	30	2	28
+I ask whether you know that dogs chase cars. 	Works!	48	46	46
+Cats and dogs chase cars.		 	Works!	36	1	35
+Dogs chase cars and cats chase dogs.	 	Works!	36	1	35
+Cats chase dogs and sleep.		 	Fails	
+Do cats chase dogs?			 	Works!	5	2	3
+Chase the dog!				 	Skip			
+Hungry dogs eat.			 	Works!	1	1	0
+Hungry dogs eat quickly.		 	Works! 	2	2	0
+
+Notes:
+* The embedded clause examples only worked if I set the maximum edge count to 16,000. :)  They also have the highest number of spurious translations.  
+* I'm not sure why, but the Czech translations of the embedded clause and coordination examples seemed very promiscuous about word order, in ways that the simple sentences were not.
+* The 'it doesn't hurt me' example translates in both cases to 'neškodí', which is just the verb (correctly negated and inflected).  But without the pronoun complement.  Maybe this is a case of pro-drop overextending?
+* The "I can eat glass" example allows both the correct translation, and a version with the auxillary in the infinitive ("to be able to eat glass").  Not sure why that's happening, either.
+* Many of the examples generate in the past as well as present tense.  But some don't, which is odd.
+
+**Test suite performance***
+* Tsdb reports 87.8% coverage.
+* It also reports 1.51 average distinct analyses.  That's rather high, but a lot of that is genuine ambiguity.  A lot of my examples have 'chase cars' in them, and 'cars' in Czech is ambiguously singular or plural.

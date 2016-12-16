@@ -1,0 +1,761 @@
+﻿                                                                     
+                                                                     
+                                                                     
+                                             
+                                                                     
+                                                                     
+                                                                     
+                                             
+                                                                     
+                                                                     
+                                                                     
+                                             
+                                                                     
+                                                                     
+                                                                     
+                                             
+Language: Hupdeh
+Language Code: jup
+Tiers: orth orth-seg gloss translat
+Author: Tristan Bodding-Long
+Date: January 12,2012
+Source a: A Grammar of Hup by Patricia Epps
+
+#1= tone 1
+#2= tone 2
+#0= Vowel in affix that harmonizes on top level representation
+#First time through, examples will try to use verbs just with the DECL #tense, will expand to source sentences when the Verb Affixes are #fleshed out
+#REP= "semantically empty" affix full grammar shows that the ingormation came from a source not the speaker
+
+
+#1, transitive SV 1pl (lay in terms of setting a path, ie laying brick)
+Source: a
+Vetted: f
+Judgment: g
+Phenomena: wo, pn, c
+13in 2tiw 1y5at-1ah
+13in 2tiw 1y5at-10h
+1pl.SUBJ path.3sg lie-DECL
+We lay down a path
+
+#2, intransitive *VS order 1sg
+Source: a
+Vetted: f
+Judgment: u
+Phenomena: wo, pn, c
+3eg-eh 1~3ah
+3eg-10h 1~3ah
+drink-DECL 1sg.SUBJ
+*I drank
+
+#3 transitive SOV, cases 3sgSUBJ 3sgOBJ
+Source: a:167
+Vetted: s
+Judgment: g
+Phenomena: wo, pn, c,
+tih=~tah13in-2an=mah tih 1mah-1~ah
+1tih=~tah13in-2an=mah 1tih 1mah-10h
+3sg=child.mother-OBJ=REP 3sg.SUBJ hit-DECL
+He beats his wife, it is said
+
+#4 transitive OSV, Proper Noun.OBJ, 1sgSUBJ
+Source: a:173
+Vetted: s
+Judgment: g
+Phenomena: c, wo, pn
+2hat-2an ~3ah 1d5o3-1oh
+2hat-2an 1~3ah 1d5o3-10h
+Alligator.3sg-OBJ 1sg.SUBJ take-DECL
+I took Alligator
+
+#5 *SVO, proper cases, animalOBJw/case, 2sgSUBJ
+Source: a
+Vetted: f
+Judgment: u
+Phenomena: c, wo, pn, pro-d
+3am wad-1ah ~ya31am-2an 
+13am wad-10h ~ya31am-2an 
+You.2sg.SUBJ eat-DECL jaguar.3sg-OBJ
+*You ate jaguar
+
+#6 *VSO, proper cases, animalOBJw/outcase, 2plSUBJ
+source: a
+Vetted: f
+Judgment: u
+Phenomena: c, wo, pn, pro-d
+wad-1ah 1niŋ ~ya31am
+wad-10h 1niŋ ~ya31am
+eat-DECL 2pl.SUBJ jaguar.3sg.OBJ
+*You all ate jaguar
+
+#7 Too Complex ditransitive OOSV, plInanimateOBJ, 3pl.OBJ, Telic ASP (currently Empty), DYNAMIC (ongoing)
+#Source: a:167
+#Vetted: s
+#Judgment: g
+#Phenomena: c, wo, pn
+#1hid-2an, 1huptok 1g5op=n52an, hid wad-~hu3-yi3-1iy
+#1hid-2an, 1huptok 1g5op=d5eh-2an, 1hid wad.~hu3-yi3-10y
+#3pl-OBJ caxiri.3sg.OBJ scoop.3=PL-OBJ 3pl.SUBJ eat-finish-TEL-DYNM
+#5They ate up all of them, those who were serving the caxiri
+
+#8 ditransitive OOSV; *OBJ mark on inanimate, Fem human marker
+Source: a
+Vetted: f
+Judgment: u
+Phenomena: c,wo,pn, pro-d
+teg~ho=~3ay-2an da1danya-2an 3in du-wad-1ah
+teg~ho=1~3ay-2an da1danya-2an 3in du-wad-10h
+Non.Indian=FEM.3sg-OBJ orange.3sg-OBJ 1pl.SUBJ sell-eat-DECL
+*Lets sell oranges to the non-indian girl
+
+#9 transitive SOV, humanw/o OBJ marker takes indefinite, compare w/3, cases 3sgSUBJ 3sgOBJ
+Source: a:1ŋa
+Vetted: f
+Judgment: g
+Phenomena: wo, pn, c
+tih=~tah13in=mah tih 1mah-1~ah
+1tih=~tah13in=mah 1tih 1mah-10h
+3sg=child.mother=REP 3sg.SUBJ hit-DECL
+He beats a wife, it is said
+
+#10 SOV, demonstrative, human.SUBJ, Inanimate.Sing.OBJ, indefiniteness
+Source: a
+Vetted: f
+judgment: g
+Phenomena: det
+3a2yup 1nup=g5at-2an du-y
+3a2yup 1nu-p=g5at-2an du-10h
+Someone.3sg.SUBJ proximal-DEP=Leaf.3sg-OBJ sell-DECL
+Somebody sold that book
+
+#11 SOV, demonstratives; distal correct-that Person, *intangible incorrect order
+Source: a
+Vetted: f
+judgment: u
+Phenomena: det
+1n5ip=1hup g5at-2an-yup du-y
+1n5i-p=1hup g5at-2an-yu-p du-10h
+distal-DEP=man.3sg.SUBJ book.3sg.OBJ-intangible-DEP sell.DECL
+*That person sold that book
+
+#12 SOOV, *inanimate obj.Tree w/out case marker as recipient, Verb require OBJ marker
+Source: a:168
+Vetted: f
+judgment: u
+Phenomena: c, pro-d
+ti2yi3 teg1d5uh 2deh 1no3-~1oy
+ti2yi3 teg1d5uh 2deh 1no3-10y
+man.3sg.SUBJ tree.3sg.OBJ water.3sg.OBJ give-DECL
+*The man gives water to the tree
+
+#13 SOOV *animate obj.Chicken MUST have OBJ case- usually optional.
+Source: a:168
+Vetted:f
+judgment: u
+Phenomena: c, pro-d
+ti2yi3 cadak2a3 pihit1yum 1no3-~1oy
+ti2yi3 cadak2a3 pihit1yum 1no3-10y
+man.3sg.SUBJ corn.3sg.OBJ chicken.3sg.OBJ give-DECL
+*The man gives corn to the Chicken
+
+
+#14 directional case, ex1: before verb, 1sg OBJ case
+Source: a
+Vetted: f
+judgment: g
+Phenomena: c, wo
+2moy-an 23an hid 1y5at-1ah
+2moy-an 23an 1hid 1y5at-10h
+house.3sg-DIR 1sg.OBJ 3pl.SUBJ leave-DECL
+You all left me at the house
+
+
+#15 directional case, ex1: after verb
+Source: a:214
+Vetted: s
+judgment: g
+Phenomena: c, wo
+1hid-2an 2ked tih 1y5at=mah-~1ah 2moy-an
+1hid-2an 2ked 1tih 1y5at=mah-10h 2moy-an
+3pl-OBJ bench.3sg.OBJ 3sg.SUBJ leave=REP-DECL House.3sg-DIR
+He left them on a bench, it is said, in the house
+
+
+#16 Oblique Case Communitative, proper suffix
+Source: a
+Vetted: f
+judgment: g
+Phenomena: c, wo
+13am 1y5at-1ay 13in-1~it
+13am 1y5at-10y 13in-10t
+2sg.SUBJ leave-DYNM 1pl-OBL
+You leave with us
+
+#17 Oblique Case Locative
+Source: a:1oa
+Vetted: s
+judgment: g
+Phenomena: c, wo
+~3ah yamhi1do3-1oh ~caw-yu1ce-1et
+1~3ah yamhi1do3-10h ~cawyu1ce-10t
+1sg.SUBJ sing-DECL SanJose.3sg-OBL
+I sang at SaoJose
+
+#18 Obj last
+source: a
+vetted: f
+judgment: g
+phenomena: c, wo
+3a2yup-2an ~3ah 1key-1ey 2tiw-2an
+3a2yup-2an 1~3ah 1key-10y 2tiw-2an
+someone.masc.3sg 1sg.SUBJ saw-DECL path.3sg.OBJ
+I saw the man on the path
+                                           
+#New test sentences
+
+#Showing verb-stem formation; compund stems syntactically lexicalized
+#19 Dropped Dobj, massive compound vb stem, Nom-Tel, Verb INCH
+Source: a:396
+Vetted: s
+judgment: g
+Phenomena: crd, tam, pro-d
+hid mah-b5uy-d5eh-ham-2yi3-ay-1ah
+1hid mah.b5uy.d5eh.ham-2yi3-0y-10h
+3pl.subj kill.throw.send.go-TEL-INCH-DECL
+they killed them and threw them out
+
+#20 Future form- boundry suffix, normal stem- w/multi-part sem meaning
+Source: a
+Vetted: f
+judgment: g
+Phenomena: tam, pn, 
+1~3ah piniŋ-1teg
+1~3ah piniŋ-1teg
+1sg.subj tell.story-FUT
+I'll tell a story
+
+#21 Future form-inner suffix
+Source: a
+Vetted: f
+judgment: g
+phenomena: tam, info
+hid keweg-d5eh ~wot-1te-ay-1ah
+1hid keweg-d5eh ~wot-1teg-0y-10h
+3pl.subj eyes.obj-PL pull.out-FUT-INCH-DECL
+they are pulling eyes out
+
+#22 *Future form-both suffixes boundry suff that can be inner cannot appear 2x
+Source: a
+Vetted: f
+judgment: u
+phenomena: tam
+1~3ah piniŋ-1te-1teg
+1~3ah piniŋ-1teg-1teg
+1sg.subj tell.story-FUT-FUT
+*I will tell a story
+
+#23 *Future tense w/Neg (proper takes INCH) When teg=PURP (subord clause) this is grammatical
+Source: a: 5e1
+Vetted: s
+judgment: u
+phenomena: tam
+1~3ah ham-2nih-1teg
+1~3ah ham-2nih-1teg
+1sg.SUBJ go-NEG-FUT
+*I'm not going.
+
+#24 Future subtype Proximal-about to happen
+Source: a:5eo
+Vetted: s
+judgment: g
+phenomena: tam
+2deh d5oj-1tu-y
+2deh d5oj-1tuk-10y
+water.OBJ rain-WANT-DYNM
+It's about to rain
+
+#25 Inchoative, boundry suffix, Focus on event5s onset dropped subject on intrans verb.
+Source: a:533
+Vetted: s
+judgment: g
+phenomena: tam, pro-d
+2b5eh-ay
+2b5eh-ay
+cross.stream-INCH
+I'm going across the stream
+
+#26 Inchoative, inner suffix
+source: a:536
+vetted: s
+judgment: g
+phenomena: tam, pn, agr
+13in 1~3oh-ay-1ah
+13in 1~3oh-ay-10h
+1pl.SUBJ sleep-INCH-DECL
+We are going to sleep
+
+#27 PERF aspect-inner suffic; focus action as a single act rather than actions over time,  dropped subj on trans verb
+source: a:5i2
+vetted: s
+judgment: g
+phenomena: tam, pro-d
+2yud j5id-23e-y
+2yud j5id-23e3-10y
+clothes.3pl.OBJ wash-PERF-DYNM
+I'm washing clothes (right now; almost done)
+
+#28 Completive aspect-inner suffic; focus on the action5s completion
+Source: a:550
+vetted: f
+judgment: g
+phenomena: tam
+13edia hi~pah-1~ciw-1iy
+13edia hi~pah-1~cip-10y
+3sg.SUBJ knows-COMP-DYNM
+Elias already knows
+
+#29 Telic aspect-inner; focus on wold knowledge endpoint to activity, 
+Source: a:555
+Vetted: s
+judgment: g
+phenomena: tam 
+1~3ah 3eg-na3-1yi3-2iy
+1~3ah 3eg.na3-1yi3-10y
+1sg.SUBJ drink.lose.consciouness-TEL-DYNM
+I drank until I passed out
+
+#30 Venitive-inner; activity changes spatial location. Habitual-inner;action happens repeatedly
+Source: a
+Vetted: f
+judgment: g
+phenomena: tam
+~3ah j5om-2big-13ay-1ay
+~3ah j5om-2big-13ay-10y
+1sg.SUBJ bathe-HAB-VENT-DYNM
+I always go bathe (and return)
+
+#31 OBJ dropping on ditrans verb, TEL, INCH
+Source: a:401
+Vetted: s
+judgment: g
+phenomena: tam, pro-d
+2teghod-1ot hid d5o3-~yah-2yi3-ay-1ah
+2teghod-10t 1hid d5o3.~yah-2yi3-0y-10h
+wood.hearth.3sg-OBL 3pl.SUBJ take.roast-TEL-INCH-DECL
+they put (clay) into the fire to bake
+
+#32 OBJ dropping on trans. verb, FUT, PL
+Source: a
+Vetted: f
+judgment: g
+phenomena: tam, pro-d
+ba32tib=d5eh 1cet-1teg
+ba32tib=d5eh 1cet-1teg
+Evil.Sprits.SUBJ=pl carry-FUT
+Evil spirits carry off (children)
+
+#33 neg-boundry suffix on simple stem vb, lack of DECL
+Source: a:a2ŋ
+Vetted: s
+judgment: g
+phenomena: neg
+maŋ2ga 1hid-2an tew-2nih
+maŋ2ga 1hid-2an tew-2nih
+Margarita.3sg.SUBJ 3pl-OBJ scold-NEG
+Margarita didn't yell at them
+
+#34 neg on complex step vb, negative spreads to all verbs in the complex-vb, lack of DYNM
+Source: a
+vetted: f
+judgment: g
+phenomena: neg
+1~3ah 3eg-pam-2nih
+1~3ah 3eg.pam-2nih
+1sg.SUBJ drink.sit-NEG
+I'm neither sitting nor drinking
+
+#35 neg-inner suffix
+source: a
+vetted: f
+judgment: g
+phenomena: neg, tam
+1tih piniŋ-2nih-ay
+1tih piniŋ-2nih-ay
+3.pl.SUBJ tell.story-NEG-INCH
+He won't tell us a story
+
+
+#36 *neg on vb + dynm in ord. clause, can be allowed in subord.
+Source: a
+vetted: f
+judgment: u
+phenomena: neg, tam
+13edia hi~pah-2nih-1ih
+13edia hi~pah-2nih-10h
+Elias.3sg.SUBJ know-NEG-DECL
+*Elias didn't know (it)
+
+#37 swapping inner suffixes around; this is grammatical, but will fail
+Source: a
+Vetted: f
+judgment: g
+phenomena: tam, info
+hid keweg-d5eh ~wot-ay-te-1ah
+1hid keweg-d5eh ~wot-ay-1teg-10h
+3pl.subj eyes.obj-PL pull.out-INCH-FUT-DECL
+they are pulling eyes out
+
+
+
+
+#Polar questions
+
+#SUbj. Final
+#Subject may only be a pronoun
+#No interrog marker on verb.
+
+#38
+Source: a:784
+Vetted: s
+Judgment: g
+phenomena: pn, wo, q, tam
+3eg-na3-2yi3-iy 2niŋ
+3eg.na3-2yi3-10y 2niŋ
+drink.lose.consciousness-TEL-DYNM 2pl.SUBJ
+did you all get drunk?
+
+#39 Must use a pronoun
+Source: a
+Vetted: f
+Judgment: u
+phenomena: pn, wo, q, tam
+3eg-na3-2yi3-iy 2hat
+3eg.na3-2yi3-10y 2hat
+drink.lose.consciousness-TEL-DYNM Alligator.SUBJ
+*did Alligator get drunk?
+
+#40 Topic raising on SUBJ puts it post V
+Source: a
+Vetted: f
+Judgment: g
+phenomena: pn, wo, q, tam
+3eg-na3-2yi3-iy 2niŋ-10h
+3eg.na3-2yi3-10y 2niŋ-10h
+drink.lose.consciousness-TEL-DYNM 2pl.SUBJ-DECL
+You all got drunk.
+
+#41 Question w/negative is no different
+Source: a
+Vetted: f
+Judgment: g
+phenomena: pn, wo, q, tam
+ham-2nih-ay 13am
+ham-2nih-ay 13am
+go-NEG-INCH 2sg.SUBJ
+Are you not going?
+
+#MWG: copied morph line to lang line
+#42 To topic raise in a question, a 2nd focus strategy is used.
+Source: a: 785
+Vetted: s
+Judgment: g
+phenomena: pn, wo, q, tam
+ham-pog-1teg niŋ-1ah
+ham-pog-1teg niŋ-1ah
+go-EMPH1-FUT 2pl.SUBJ-FOC
+Will you really go
+
+
+#43 strategy 2, Interrogative boundry suffix marker. WO stays V-final
+Source: a
+Vetted: f
+judgment: u
+phenomena: wo, q, tam
+j5eb-1a=yi3 1y5at-aw-1a3
+j5eb-1a=yi3 1y5at-aw.03
+night.still=TEL he.SUBJ lay-FLR.INT
+He layed it down this morning?
+
+#44 correct Verb-affix-question.
+source: a
+vetted: f
+judgment: g
+phenomena: wo, q, tam
+2hat-2an wah-1a3
+2hat-2an wah-03
+Alligator-OBJ sell-INT
+He sold Alligator?
+
+#45 Coordination type 1. Inside the compound
+Source: a: 829
+vetted: s
+judgment: g
+phenomena: crd
+3eg-yam1hido3-23e-h
+3eg.yam1hido3-3e3-10h
+Drink.Sing-PERF-DECL
+They were drinking and singing.
+
+#46 zero strategy coordination
+source: a
+vetted: f
+judgment: g
+phenomena: crd
+tih 3eg-10h tih yam1hido3-10h
+1tih 3eg-10h 1tih yam1hido3-10h
+3sg.SUBJ drink-DECL 3sg.SUBJ sing-DECL
+He is singing and she is drinking
+
+
+#47 coordinating nouns
+source: a
+vetted: f
+judgment: g
+phenomena: crd, pn, c
+hid 1tih-2an 2m5ah mo2~hoy d5eh-10y
+hid 1tih-2an 2m5ah mo2~hoy d5eh-10y
+3pl.SUBJ 3sg-OBJ snake.OBJ deer.OBJ send-DYNM
+They are sending snake and deer to him
+
+#48 coordinants must be "next" to each other
+source: a
+vetted: f
+judgment: u
+phenomena: crd
+tih tih 3eg-10h yam1hido3-10h
+1tih 1tih 3eg-10h  yam1hido3-10h
+3sg.SUBJ 3sg.SUBJ drink-DECL  sing-DECL
+*He is singing and she is drinking
+
+#49 coordinating nouns
+source: a
+vetted: f
+judgment: u
+phenomena: crd, pn, c
+hid mo2~hoy 1tih-2an 2m5ah  d5eh-10y
+hid mo2~hoy 1tih-2an 2m5ah  d5eh-10y
+3pl.SUBJ deer.OBJ 3sg-OBJ snake.OBJ  send-DYNM
+*They are sending snake and deer to him
+
+#50 ungrammatical neg-dynm verb
+source: a
+vetted: f
+judgment: u
+phenomena: tam
+tih ~3oh-2nih-10y
+1tih ~3oh-2nih-10y
+3sg.SUBJ sleep-NEG-DYNM
+*He didn't sleep
+
+#51 grammatical neg-dyn as a coordinated phrase
+source: a: 809
+vetted: f
+judgment: g
+phenomena: tam, prod
+tih ~3oh-2nih-10y tih 1mah-10h
+1tih ~3oh-2nih-10y 1tih 1mah-10h
+3sg.SUBJ sleep-NEG-DYNM 3sg.SUBJ kill-DECL
+He didn't sleep and he killed (fish)
+
+#52 Adj as NP
+source: a: 443
+vetted: s
+judgment: g
+phenomena: adj 
+1tih=2pog noy-1yi3-1iy
+1tih=2pog noy-1yi3-10y
+3sg=big.SUBJ fall-TEL-DYNM
+The big one fell
+
+#53 Adj must have 3sg clitic
+source: a
+vetted: f
+judgment: u
+phenomena: adj 
+2pog noy-1yi3-1iy
+2pog noy-1yi3-10y
+big.SUBJ fall-TEL-DYNM
+*The big one fell
+
+#54
+source: a
+vetted: f
+judgment: u
+phenomena: adj 
+1hid=2pog noy-1yi3-1iy
+1hid=2pog noy-1yi3-10y
+3pl=big.SUBJ fall-TEL-DYNM
+*The big ones fell
+
+
+
+#55 normal adj placement
+source: a
+vetted: f
+judgment: g
+phenomena: adj 
+pog mo2~hoy ~3oh-10y
+pog mo2~hoy ~3oh-10y
+big deer.subj sleep-DYNM
+The large deer slept.
+
+#56 Adj doesn5t go after the noun
+source: a
+vetted: f
+judgment: u
+phenomena: adj 
+ mo2~hoy pog ~3oh-10y
+mo2~hoy pog ~3oh-10y
+deer.subj big sleep-DYNM
+*The large deer slept.
+
+#57 Predicate adj goes after the noun
+source: a
+vetted: f
+judgment: g
+phenomena: adj 
+ mo2~hoy pog 
+mo2~hoy pog 
+deer.subj big 
+The deer is big
+
+#58 
+source: a
+vetted: f
+judgment: u
+phenomena: adj 
+ pog mo2~hoy 
+pog mo2~hoy 
+big deer.subj 
+*The deer is big
+
+#59 ADV goes before verb, can go before subj.
+source: a:447
+vetted: s
+judgment: g
+phenomena: adv
+1pib 1tih way-2yi3-1iy
+1pib 1tih way-2yi3-10y
+fast 3sg.SUBJ go.out-TEL-DYNM
+He went out fast
+
+#60 ADV cannot go after the V
+source: a
+vetted: f
+judgment: u
+phenomena: adv
+ 1tih way-2yi3-1iy 1pib
+ 1tih way-2yi3-10y 1pib
+3sg.SUBJ go.out-TEL-DYNM fast 
+*He went out fast
+
+#61 ADV MUST take suffix if it is after the subj
+source: a
+vetted: f
+judgment: g
+phenomena: adv
+1tih 1pib=yi3 way-2yi3-1iy
+1tih 1pib=yi3 way-2yi3-10y
+3sg.SUBJ fast=TEL go.out-TEL-DYNM
+He went out fast
+
+#62 Without the telic, this is ungrammatical.
+source: a
+vetted: f
+judgment: u
+phenomena: adv
+1tih 1pib way-2yi3-1iy
+1tih 1pib way-2yi3-10y
+3sg.SUBJ fast go.out-TEL-DYNM
+*He went out fast
+
+#63 
+source: a:728
+vetted: s
+judgment: g
+phenomena: emb-d
+~3ah hi1~pah-1~ay 1yup wid-ye-2nih-~ih-2an
+~3ah hi1~pah-10y yu-p wid.ye.2nih.~ih-2an
+1sg.SUBJ know-DYNM that arrive.enter.not.FLR-OBJ
+I know the one who didn't arrive
+
+#64 embedded question
+source: a
+vetted: f
+judgment: g
+phenomena: emb-q
+1tih no-1oh 1nup ~3ah hup-1cud-uw-an woy-2nih 13am
+1tih no-10h nu-p ~3ah hup.1cud.uw-an woy-2nih 13am
+3sg.SUBJ say-DECL this 1sg unborn.child-OBJ love-NEG 2sg.SUBJ
+She was saying, "Don't you love this unborn child?"
+
+#65 more pred. adj.
+source: a
+vetted: f
+judgment: g
+phenomena: adj
+1hid 1naw
+1hid 1naw
+3pl.SUBJ good
+They are handsome
+
+#66
+source: a
+vetted: f
+judgment: u
+phenomena: adj
+1naw 1hid 
+1naw 1hid 
+good 3pl.SUBJ 
+*They are handsome
+
+
+#67 normal sentence
+source: a
+vetted: f
+judgment: g
+phenomena: info, tam
+1~3ah mo2~hoy-2an wad-10y
+1~3ah mo2~hoy-2an wad-10y
+1sg.SUBJ deer-OBJ eat-DECL
+I eat deer
+
+#68 Topicalized sentence
+source: a
+vetted: f
+judgment: g
+phenomena: info, tam
+mo2~hoy-2an wad-10y 1~3ah-10y
+mo2~hoy-2an wad-10y 1~3ah-10y
+deer-OBJ eat-DECL 1sg-DECL
+I eat deer
+
+#69 must have movement to behind verb
+source: a
+vetted: f
+judgment: u
+phenomena: info, tam
+1~3ah-10y mo2~hoy-2an wad-10y
+1~3ah-10y mo2~hoy-2an wad-10y
+1sg.SUBJ-DECL deer-OBJ eat-DECL
+*I eat deer
+
+#70 Must also have DECL
+source: a
+vetted: f
+judgment: u
+phenomena: info, tam
+mo2~hoy-2an wad-10y 1~3ah
+mo2~hoy-2an wad-10y 1~3ah
+deer-OBJ eat-DECL 1sg
+*I eat deer
+
+#71 
+source: a
+vetted: f
+judgment: g
+phenomena: adj
+1tih=2pog=d5eh noy-1yi3-1iy
+1tih=2pog=d5eh noy-1yi3-10y
+3sg=big.SUBJ=PL fall-TEL-DYNM
+The big ones fell

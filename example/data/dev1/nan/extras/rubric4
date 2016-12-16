@@ -1,0 +1,63 @@
+-------------------------------------------------------
+Comments
+
+    __Coordination__
+    1: nouns & NPs, monosyndeton, word, spelled 'kap1', comes before.
+    2: VPs, monosyndeton, word, spelled 'koh1', comes before
+    These two mark most of the coordination strategies, although there is also
+    an optional asyndeton strategy for commonly occuring nouns (ie small and
+    big ones).  The second one might apply to sentences as well, but I am not
+    sure yet.  Also, the first one apparently applies to a few verbs, but I
+    did not include verbs since this is a fringe case.
+
+The "small and big ones" example is possibly a form of
+compounding.
+
+    __Matrix Yes/No Questions__
+    Separate question particle, sentence final, spelled 'bo5'.
+    Despite what I had said in previous labs, a new book that I have acquired
+    shows sentences that have matrix questions with only a negative particle at
+    the end, and not the positive form.  While I'm not sure if this is truly
+    sentence final, or merely VP-final, the only examples I have seen show it
+    at the end of a sentence, so I will treat it as such.  An example is:
+        Goa2 an2-ne1 kong2, tioh8 bo5?
+        I like-this say, correct not-have?
+        'Did I say it correctly?'
+
+This sentence looks more complicated, especially given the
+comma before correct.  Do you have simpler examples?
+
+ (word string is 4.04 and lexical items is 4.40, but I'm not sure
+  what that means).  
+
+4.04 average words per input string, 4.40 average lexical edges per input
+string.
+
+ However, when I look at the chart of parses, there are two
+ or three that have 2 readings (and sometimes they are exactly the
+ same tree).
+
+Ambiguity != overgeneration, though they are similar.  Ambiguity is
+multiple parses per input string, and it can be legitimate (though need
+not be).  Overgeneration is accepting ungrammatical strings.  A grammar
+with spurious ambiguity is liable to overgenerate as well.
+
+I suspect that your overgeneration is due to the customization system
+throwing in double lexical entries for all of your verbs, finite and
+non-finite, because of the presence of the aux.  This is a bug in the
+system (which I hope to address soon).  Meanwhile, you should get
+rid of all of the non-finite lexical entries, as well as the types
+for finite v non-finite and have your verbs inherit directly from
+intransitive-verb-lex etc.
+
+   (such as the conjoining of sentences, which
+   as far as I can tell is just to splice them with a comma).
+
+This suggests adding the juxtaposition coordination strategy
+for sentences.
+
+ sio1-khi3 := finite-intrans-verb-lex &
+   [ STEM < "sio1-khi3" >,
+     SYNSEM.LKEYS.KEYREL.PRED "_burn-up_v_rel" ].
+
+The convention for pred names would give _burn+up_v_rel.

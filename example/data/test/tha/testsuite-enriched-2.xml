@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="igt1" line-range="1-3" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="1">  author vetted: t</item>
+    <item id="r2" tag="L" line="2">  เด็ก กิน ข้าว</item>
+    <item id="r3" tag="G" line="3">  child eat rice</item>
+    <item id="r4" tag="T" line="4">  The child eats rice.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="1">  author vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="2">  เด็ก กิน ข้าว</item>
+    <item id="c3" alignment="r3" tag="G" line="3">  child eat rice</item>
+    <item id="c4" alignment="r4" tag="T" line="4">  The child eats rice.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="1">t</item>
+    <item id="n2" alignment="c2" tag="L" line="2">เด็ก กิน ข้าว</item>
+    <item id="n3" alignment="c3" tag="G" line="3">child eat rice</item>
+    <item id="n4" alignment="c4" tag="T" line="4">The child eats rice.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:4]"/>
+    <item id="w2" segmentation="p1[5:8]"/>
+    <item id="w3" segmentation="p1[9:13]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:3]"/>
+    <item id="tw2" segmentation="t1[4:9]"/>
+    <item id="tw3" segmentation="t1[10:14]"/>
+    <item id="tw4" segmentation="t1[15:19]"/>
+    <item id="tw5" segmentation="t1[19:20]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:5]"/>
+    <item id="gw2" alignment="w2" content="n3[6:9]"/>
+    <item id="gw3" alignment="w3" content="n3[10:14]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+    <item id="g3" alignment="m3" content="gw3"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+    <item id="m3" segmentation="w3"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:45-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">NOUN</item>
+    <item id="gw-pos2" alignment="gw2">VERB</item>
+    <item id="gw-pos3" alignment="gw3">NOUN</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:45-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">DET</item>
+    <item id="tw-pos2" alignment="tw2">NOUN</item>
+    <item id="tw-pos3" alignment="tw3">VERB</item>
+    <item id="tw-pos4" alignment="tw4">NOUN</item>
+    <item id="tw-pos5" alignment="tw5">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:45-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w1">NOUN</item>
+    <item id="w-pos2" alignment="w3">NOUN</item>
+    <item id="w-pos3" alignment="w2">VERB</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:44-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw2"/>
+    <item id="a2" target="g2" source="tw3"/>
+    <item id="a3" target="g3" source="tw4"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">DT</item>
+    <item id="tw-ps2" alignment="tw2">NN</item>
+    <item id="tw-ps3" alignment="tw3">VBZ</item>
+    <item id="tw-ps4" alignment="tw4">NN</item>
+    <item id="tw-ps5" alignment="tw5">.</item>
+    <item id="tw-ps6" children="tw-ps7">ROOT</item>
+    <item id="tw-ps7" children="tw-ps8 tw-ps9 tw-ps5">S</item>
+    <item id="tw-ps8" children="tw-ps1 tw-ps2">NP</item>
+    <item id="tw-ps9" children="tw-ps3 tw-ps10">VP</item>
+    <item id="tw-ps10" children="tw-ps4">NP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">NN</item>
+    <item id="w-ps2" alignment="w2">VBZ</item>
+    <item id="w-ps3" alignment="w3">NN</item>
+    <item id="w-ps4" children="w-ps5">ROOT</item>
+    <item id="w-ps5" children="w-ps6 w-ps7">S</item>
+    <item id="w-ps6" children="w-ps1">NP</item>
+    <item id="w-ps7" children="w-ps2 w-ps8">VP</item>
+    <item id="w-ps8" children="w-ps3">NP</item>
+  </tier>
+</igt>
+<igt id="igt2" line-range="13-15" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="13">  c:80 vetted: t</item>
+    <item id="r2" tag="L" line="14">  ฉัน ให้ หนังสือ เขา</item>
+    <item id="r3" tag="G" line="15">  I give book he</item>
+    <item id="r4" tag="T" line="16">  I gave him the book.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="13">  c:80 vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="14">  ฉัน ให้ หนังสือ เขา</item>
+    <item id="c3" alignment="r3" tag="G" line="15">  I give book he</item>
+    <item id="c4" alignment="r4" tag="T" line="16">  I gave him the book.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="13">c:80 vetted: t</item>
+    <item id="n2" alignment="c2" tag="L" line="14">ฉัน ให้ หนังสือ เขา</item>
+    <item id="n3" alignment="c3" tag="G" line="15">I give book he</item>
+    <item id="n4" alignment="c4" tag="T" line="16">I gave him the book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:3]"/>
+    <item id="w2" segmentation="p1[4:7]"/>
+    <item id="w3" segmentation="p1[8:15]"/>
+    <item id="w4" segmentation="p1[16:19]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:1]"/>
+    <item id="tw2" segmentation="t1[2:6]"/>
+    <item id="tw3" segmentation="t1[7:10]"/>
+    <item id="tw4" segmentation="t1[11:14]"/>
+    <item id="tw5" segmentation="t1[15:19]"/>
+    <item id="tw6" segmentation="t1[19:20]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:1]"/>
+    <item id="gw2" alignment="w2" content="n3[2:6]"/>
+    <item id="gw3" alignment="w3" content="n3[7:11]"/>
+    <item id="gw4" alignment="w4" content="n3[12:14]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+    <item id="g3" alignment="m3" content="gw3"/>
+    <item id="g4" alignment="m4" content="gw4"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+    <item id="m3" segmentation="w3"/>
+    <item id="m4" segmentation="w4"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">PRON</item>
+    <item id="gw-pos2" alignment="gw3">NOUN</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">PRON</item>
+    <item id="tw-pos2" alignment="tw2">VERB</item>
+    <item id="tw-pos3" alignment="tw3">PRON</item>
+    <item id="tw-pos4" alignment="tw4">DET</item>
+    <item id="tw-pos5" alignment="tw5">NOUN</item>
+    <item id="tw-pos6" alignment="tw6">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w1">PRON</item>
+    <item id="w-pos2" alignment="w3">NOUN</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:44-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw1"/>
+    <item id="a2" target="g3" source="tw5"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">PRP</item>
+    <item id="tw-ps2" alignment="tw2">VBD</item>
+    <item id="tw-ps3" alignment="tw3">PRP</item>
+    <item id="tw-ps4" alignment="tw4">DT</item>
+    <item id="tw-ps5" alignment="tw5">NN</item>
+    <item id="tw-ps6" alignment="tw6">.</item>
+    <item id="tw-ps7" children="tw-ps8">ROOT</item>
+    <item id="tw-ps8" children="tw-ps9 tw-ps10 tw-ps6">S</item>
+    <item id="tw-ps9" children="tw-ps1">NP</item>
+    <item id="tw-ps10" children="tw-ps2 tw-ps11 tw-ps12">VP</item>
+    <item id="tw-ps11" children="tw-ps3">NP</item>
+    <item id="tw-ps12" children="tw-ps4 tw-ps5">NP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">PRP</item>
+    <item id="w-ps2" alignment="w2">UNK</item>
+    <item id="w-ps3" alignment="w3">NN</item>
+    <item id="w-ps4" alignment="w4">UNK</item>
+    <item id="w-ps5" children="w-ps6">ROOT</item>
+    <item id="w-ps6" children="w-ps7 w-ps2 w-ps8">S</item>
+    <item id="w-ps7" children="w-ps1">NP</item>
+    <item id="w-ps8" children="w-ps9">VP</item>
+    <item id="w-ps9" children="w-ps3 w-ps4">NP</item>
+  </tier>
+</igt>
+<igt id="igt3" line-range="29-31" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="29">  author vetted: t</item>
+    <item id="r2" tag="L" line="30">  เด็ก กิน</item>
+    <item id="r3" tag="G" line="31">  child eat</item>
+    <item id="r4" tag="T" line="32">  The child eats.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="29">  author vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="30">  เด็ก กิน</item>
+    <item id="c3" alignment="r3" tag="G" line="31">  child eat</item>
+    <item id="c4" alignment="r4" tag="T" line="32">  The child eats.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="29">t</item>
+    <item id="n2" alignment="c2" tag="L" line="30">เด็ก กิน</item>
+    <item id="n3" alignment="c3" tag="G" line="31">child eat</item>
+    <item id="n4" alignment="c4" tag="T" line="32">The child eats.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:4]"/>
+    <item id="w2" segmentation="p1[5:8]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:3]"/>
+    <item id="tw2" segmentation="t1[4:9]"/>
+    <item id="tw3" segmentation="t1[10:14]"/>
+    <item id="tw4" segmentation="t1[14:15]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:5]"/>
+    <item id="gw2" alignment="w2" content="n3[6:9]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">NOUN</item>
+    <item id="gw-pos2" alignment="gw2">VERB</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">DET</item>
+    <item id="tw-pos2" alignment="tw2">NOUN</item>
+    <item id="tw-pos3" alignment="tw3">VERB</item>
+    <item id="tw-pos4" alignment="tw4">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w1">NOUN</item>
+    <item id="w-pos2" alignment="w2">VERB</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:44-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw2"/>
+    <item id="a2" target="g2" source="tw3"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">DT</item>
+    <item id="tw-ps2" alignment="tw2">NN</item>
+    <item id="tw-ps3" alignment="tw3">VBZ</item>
+    <item id="tw-ps4" alignment="tw4">.</item>
+    <item id="tw-ps5" children="tw-ps6">ROOT</item>
+    <item id="tw-ps6" children="tw-ps7 tw-ps8 tw-ps4">S</item>
+    <item id="tw-ps7" children="tw-ps1 tw-ps2">NP</item>
+    <item id="tw-ps8" children="tw-ps3">VP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">NN</item>
+    <item id="w-ps2" alignment="w2">VBZ</item>
+    <item id="w-ps3" children="w-ps4">ROOT</item>
+    <item id="w-ps4" children="w-ps5 w-ps6">S</item>
+    <item id="w-ps5" children="w-ps1">NP</item>
+    <item id="w-ps6" children="w-ps2">VP</item>
+  </tier>
+</igt>
+<igt id="igt4" line-range="37-39" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="37">  author vetted: t</item>
+    <item id="r2" tag="L" line="38">  ฉัน กิน กระจก ได้</item>
+    <item id="r3" tag="G" line="39">  I eat glass can</item>
+    <item id="r4" tag="T" line="40">  I can eat glass.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="37">  author vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="38">  ฉัน กิน กระจก ได้</item>
+    <item id="c3" alignment="r3" tag="G" line="39">  I eat glass can</item>
+    <item id="c4" alignment="r4" tag="T" line="40">  I can eat glass.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="37">t</item>
+    <item id="n2" alignment="c2" tag="L" line="38">ฉัน กิน กระจก ได้</item>
+    <item id="n3" alignment="c3" tag="G" line="39">I eat glass can</item>
+    <item id="n4" alignment="c4" tag="T" line="40">I can eat glass.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:3]"/>
+    <item id="w2" segmentation="p1[4:7]"/>
+    <item id="w3" segmentation="p1[8:13]"/>
+    <item id="w4" segmentation="p1[14:17]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:1]"/>
+    <item id="tw2" segmentation="t1[2:5]"/>
+    <item id="tw3" segmentation="t1[6:9]"/>
+    <item id="tw4" segmentation="t1[10:15]"/>
+    <item id="tw5" segmentation="t1[15:16]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:1]"/>
+    <item id="gw2" alignment="w2" content="n3[2:5]"/>
+    <item id="gw3" alignment="w3" content="n3[6:11]"/>
+    <item id="gw4" alignment="w4" content="n3[12:15]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+    <item id="g3" alignment="m3" content="gw3"/>
+    <item id="g4" alignment="m4" content="gw4"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+    <item id="m3" segmentation="w3"/>
+    <item id="m4" segmentation="w4"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">PRON</item>
+    <item id="gw-pos2" alignment="gw4">VERB</item>
+    <item id="gw-pos3" alignment="gw2">VERB</item>
+    <item id="gw-pos4" alignment="gw3">NOUN</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">PRON</item>
+    <item id="tw-pos2" alignment="tw2">VERB</item>
+    <item id="tw-pos3" alignment="tw3">VERB</item>
+    <item id="tw-pos4" alignment="tw4">NOUN</item>
+    <item id="tw-pos5" alignment="tw5">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w4">VERB</item>
+    <item id="w-pos2" alignment="w1">PRON</item>
+    <item id="w-pos3" alignment="w3">NOUN</item>
+    <item id="w-pos4" alignment="w2">VERB</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:44-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw1"/>
+    <item id="a2" target="g4" source="tw2"/>
+    <item id="a3" target="g2" source="tw3"/>
+    <item id="a4" target="g3" source="tw4"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">PRP</item>
+    <item id="tw-ps2" alignment="tw2">MD</item>
+    <item id="tw-ps3" alignment="tw3">VB</item>
+    <item id="tw-ps4" alignment="tw4">NN</item>
+    <item id="tw-ps5" alignment="tw5">.</item>
+    <item id="tw-ps6" children="tw-ps7">ROOT</item>
+    <item id="tw-ps7" children="tw-ps8 tw-ps9 tw-ps5">S</item>
+    <item id="tw-ps8" children="tw-ps1">NP</item>
+    <item id="tw-ps9" children="tw-ps2 tw-ps10">VP</item>
+    <item id="tw-ps10" children="tw-ps3 tw-ps11">VP</item>
+    <item id="tw-ps11" children="tw-ps4">NP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">PRP</item>
+    <item id="w-ps2" alignment="w2">VB</item>
+    <item id="w-ps3" alignment="w3">NN</item>
+    <item id="w-ps4" alignment="w4">MD</item>
+    <item id="w-ps5" children="w-ps6">ROOT</item>
+    <item id="w-ps6" children="w-ps7 w-ps8">S</item>
+    <item id="w-ps7" children="w-ps1">NP</item>
+    <item id="w-ps8" children="w-ps9 w-ps4">VP</item>
+    <item id="w-ps9" children="w-ps2 w-ps10">VP</item>
+    <item id="w-ps10" children="w-ps3">NP</item>
+  </tier>
+</igt>
+<igt id="igt5" line-range="41-43" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="41">  b:81 vetted: t</item>
+    <item id="r2" tag="L" line="42">  เขา ไป ซื้อ มา กิน</item>
+    <item id="r3" tag="G" line="43">  he go buy come eat</item>
+    <item id="r4" tag="T" line="44">  He went out to buy something and brought it back to eat.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="41">  b:81 vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="42">  เขา ไป ซื้อ มา กิน</item>
+    <item id="c3" alignment="r3" tag="G" line="43">  he go buy come eat</item>
+    <item id="c4" alignment="r4" tag="T" line="44">  He went out to buy something and brought it back to eat.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="41">b:81 vetted: t</item>
+    <item id="n2" alignment="c2" tag="L" line="42">เขา ไป ซื้อ มา กิน</item>
+    <item id="n3" alignment="c3" tag="G" line="43">he go buy come eat</item>
+    <item id="n4" alignment="c4" tag="T" line="44">He went out to buy something and brought it back to eat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:3]"/>
+    <item id="w2" segmentation="p1[4:6]"/>
+    <item id="w3" segmentation="p1[7:11]"/>
+    <item id="w4" segmentation="p1[12:14]"/>
+    <item id="w5" segmentation="p1[15:18]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:2]"/>
+    <item id="tw2" segmentation="t1[3:7]"/>
+    <item id="tw3" segmentation="t1[8:11]"/>
+    <item id="tw4" segmentation="t1[12:14]"/>
+    <item id="tw5" segmentation="t1[15:18]"/>
+    <item id="tw6" segmentation="t1[19:28]"/>
+    <item id="tw7" segmentation="t1[29:32]"/>
+    <item id="tw8" segmentation="t1[33:40]"/>
+    <item id="tw9" segmentation="t1[41:43]"/>
+    <item id="tw10" segmentation="t1[44:48]"/>
+    <item id="tw11" segmentation="t1[49:51]"/>
+    <item id="tw12" segmentation="t1[52:55]"/>
+    <item id="tw13" segmentation="t1[55:56]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:2]"/>
+    <item id="gw2" alignment="w2" content="n3[3:5]"/>
+    <item id="gw3" alignment="w3" content="n3[6:9]"/>
+    <item id="gw4" alignment="w4" content="n3[10:14]"/>
+    <item id="gw5" alignment="w5" content="n3[15:18]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+    <item id="g3" alignment="m3" content="gw3"/>
+    <item id="g4" alignment="m4" content="gw4"/>
+    <item id="g5" alignment="m5" content="gw5"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+    <item id="m3" segmentation="w3"/>
+    <item id="m4" segmentation="w4"/>
+    <item id="m5" segmentation="w5"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">PRON</item>
+    <item id="gw-pos2" alignment="gw3">VERB</item>
+    <item id="gw-pos3" alignment="gw5">VERB</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">PRON</item>
+    <item id="tw-pos2" alignment="tw2">VERB</item>
+    <item id="tw-pos3" alignment="tw3">ADV</item>
+    <item id="tw-pos4" alignment="tw4">PRT</item>
+    <item id="tw-pos5" alignment="tw5">VERB</item>
+    <item id="tw-pos6" alignment="tw6">NOUN</item>
+    <item id="tw-pos7" alignment="tw7">CONJ</item>
+    <item id="tw-pos8" alignment="tw8">VERB</item>
+    <item id="tw-pos9" alignment="tw9">PRON</item>
+    <item id="tw-pos10" alignment="tw10">ADV</item>
+    <item id="tw-pos11" alignment="tw11">PRT</item>
+    <item id="tw-pos12" alignment="tw12">VERB</item>
+    <item id="tw-pos13" alignment="tw13">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w5">VERB</item>
+    <item id="w-pos2" alignment="w1">PRON</item>
+    <item id="w-pos3" alignment="w3">VERB</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:44-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw1"/>
+    <item id="a2" target="g3" source="tw5"/>
+    <item id="a3" target="g5" source="tw12"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">PRP</item>
+    <item id="tw-ps2" alignment="tw2">VBD</item>
+    <item id="tw-ps3" alignment="tw3">RP</item>
+    <item id="tw-ps4" alignment="tw4">TO</item>
+    <item id="tw-ps5" alignment="tw5">VB</item>
+    <item id="tw-ps6" alignment="tw6">NN</item>
+    <item id="tw-ps7" alignment="tw7">CC</item>
+    <item id="tw-ps8" alignment="tw8">VBD</item>
+    <item id="tw-ps9" alignment="tw9">PRP</item>
+    <item id="tw-ps10" alignment="tw10">RB</item>
+    <item id="tw-ps11" alignment="tw11">TO</item>
+    <item id="tw-ps12" alignment="tw12">VB</item>
+    <item id="tw-ps13" alignment="tw13">.</item>
+    <item id="tw-ps14" children="tw-ps15">ROOT</item>
+    <item id="tw-ps15" children="tw-ps16 tw-ps17 tw-ps13">S</item>
+    <item id="tw-ps16" children="tw-ps1">NP</item>
+    <item id="tw-ps17" children="tw-ps18 tw-ps7 tw-ps24">VP</item>
+    <item id="tw-ps18" children="tw-ps2 tw-ps19 tw-ps20">VP</item>
+    <item id="tw-ps19" children="tw-ps3">PRT</item>
+    <item id="tw-ps20" children="tw-ps21">S</item>
+    <item id="tw-ps21" children="tw-ps4 tw-ps22">VP</item>
+    <item id="tw-ps22" children="tw-ps5 tw-ps23">VP</item>
+    <item id="tw-ps23" children="tw-ps6">NP</item>
+    <item id="tw-ps24" children="tw-ps8 tw-ps25 tw-ps26 tw-ps27">VP</item>
+    <item id="tw-ps25" children="tw-ps9">NP</item>
+    <item id="tw-ps26" children="tw-ps10">ADVP</item>
+    <item id="tw-ps27" children="tw-ps28">S</item>
+    <item id="tw-ps28" children="tw-ps11 tw-ps29">VP</item>
+    <item id="tw-ps29" children="tw-ps12">VP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">PRP</item>
+    <item id="w-ps2" alignment="w2">UNK</item>
+    <item id="w-ps3" alignment="w3">VB</item>
+    <item id="w-ps4" alignment="w4">UNK</item>
+    <item id="w-ps5" alignment="w5">VB</item>
+    <item id="w-ps6" children="w-ps7">ROOT</item>
+    <item id="w-ps7" children="w-ps8 w-ps2 w-ps9">S</item>
+    <item id="w-ps8" children="w-ps1">NP</item>
+    <item id="w-ps9" children="w-ps10 w-ps4 w-ps14">VP</item>
+    <item id="w-ps10" children="w-ps11">VP</item>
+    <item id="w-ps11" children="w-ps12">S</item>
+    <item id="w-ps12" children="w-ps13">VP</item>
+    <item id="w-ps13" children="w-ps3">VP</item>
+    <item id="w-ps14" children="w-ps15">VP</item>
+    <item id="w-ps15" children="w-ps16">S</item>
+    <item id="w-ps16" children="w-ps17">VP</item>
+    <item id="w-ps17" children="w-ps5">VP</item>
+  </tier>
+</igt>
+<igt id="igt6" line-range="45-47" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="45">  b:82 vetted: t</item>
+    <item id="r2" tag="L" line="46">  เขา รีบ วิ่ง ข้าม ไป</item>
+    <item id="r3" tag="G" line="47">  he hurry run cross go</item>
+    <item id="r4" tag="T" line="48">  He hurriedly ran across.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="45">  b:82 vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="46">  เขา รีบ วิ่ง ข้าม ไป</item>
+    <item id="c3" alignment="r3" tag="G" line="47">  he hurry run cross go</item>
+    <item id="c4" alignment="r4" tag="T" line="48">  He hurriedly ran across.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="45">b:82 vetted: t</item>
+    <item id="n2" alignment="c2" tag="L" line="46">เขา รีบ วิ่ง ข้าม ไป</item>
+    <item id="n3" alignment="c3" tag="G" line="47">he hurry run cross go</item>
+    <item id="n4" alignment="c4" tag="T" line="48">He hurriedly ran across.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:3]"/>
+    <item id="w2" segmentation="p1[4:7]"/>
+    <item id="w3" segmentation="p1[8:12]"/>
+    <item id="w4" segmentation="p1[13:17]"/>
+    <item id="w5" segmentation="p1[18:20]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:2]"/>
+    <item id="tw2" segmentation="t1[3:12]"/>
+    <item id="tw3" segmentation="t1[13:16]"/>
+    <item id="tw4" segmentation="t1[17:23]"/>
+    <item id="tw5" segmentation="t1[23:24]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:2]"/>
+    <item id="gw2" alignment="w2" content="n3[3:8]"/>
+    <item id="gw3" alignment="w3" content="n3[9:12]"/>
+    <item id="gw4" alignment="w4" content="n3[13:18]"/>
+    <item id="gw5" alignment="w5" content="n3[19:21]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+    <item id="g3" alignment="m3" content="gw3"/>
+    <item id="g4" alignment="m4" content="gw4"/>
+    <item id="g5" alignment="m5" content="gw5"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+    <item id="m3" segmentation="w3"/>
+    <item id="m4" segmentation="w4"/>
+    <item id="m5" segmentation="w5"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">PRON</item>
+    <item id="gw-pos2" alignment="gw2">ADV</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">PRON</item>
+    <item id="tw-pos2" alignment="tw2">ADV</item>
+    <item id="tw-pos3" alignment="tw3">VERB</item>
+    <item id="tw-pos4" alignment="tw4">ADP</item>
+    <item id="tw-pos5" alignment="tw5">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w1">PRON</item>
+    <item id="w-pos2" alignment="w2">ADV</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:44-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw1"/>
+    <item id="a2" target="g2" source="tw2"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">PRP</item>
+    <item id="tw-ps2" alignment="tw2">RB</item>
+    <item id="tw-ps3" alignment="tw3">VBD</item>
+    <item id="tw-ps4" alignment="tw4">RP</item>
+    <item id="tw-ps5" alignment="tw5">.</item>
+    <item id="tw-ps6" children="tw-ps7">ROOT</item>
+    <item id="tw-ps7" children="tw-ps8 tw-ps9 tw-ps10 tw-ps5">S</item>
+    <item id="tw-ps8" children="tw-ps1">NP</item>
+    <item id="tw-ps9" children="tw-ps2">ADVP</item>
+    <item id="tw-ps10" children="tw-ps3 tw-ps11">VP</item>
+    <item id="tw-ps11" children="tw-ps4">PRT</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">PRP</item>
+    <item id="w-ps2" alignment="w2">RB</item>
+    <item id="w-ps3" alignment="w3">UNK</item>
+    <item id="w-ps4" alignment="w4">UNK</item>
+    <item id="w-ps5" alignment="w5">UNK</item>
+    <item id="w-ps6" children="w-ps7">ROOT</item>
+    <item id="w-ps7" children="w-ps8 w-ps9">S</item>
+    <item id="w-ps8" children="w-ps1">NP</item>
+    <item id="w-ps9" children="w-ps2 w-ps3 w-ps4 w-ps5">ADVP</item>
+  </tier>
+</igt>
+<igt id="igt7" line-range="49-51" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="49">  b:82 vetted: t</item>
+    <item id="r2" tag="L" line="50">  ต้อง รีบ กลับ ไป เรียก ให้ มา บอก</item>
+    <item id="r3" tag="G" line="51">  must hurry return go call give come speak</item>
+    <item id="r4" tag="T" line="52">  You must hurry back and call him to come and tell me.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="49">  b:82 vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="50">  ต้อง รีบ กลับ ไป เรียก ให้ มา บอก</item>
+    <item id="c3" alignment="r3" tag="G" line="51">  must hurry return go call give come speak</item>
+    <item id="c4" alignment="r4" tag="T" line="52">  You must hurry back and call him to come and tell me.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="49">b:82 vetted: t</item>
+    <item id="n2" alignment="c2" tag="L" line="50">ต้อง รีบ กลับ ไป เรียก ให้ มา บอก</item>
+    <item id="n3" alignment="c3" tag="G" line="51">must hurry return go call give come speak</item>
+    <item id="n4" alignment="c4" tag="T" line="52">You must hurry back and call him to come and tell me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:4]"/>
+    <item id="w2" segmentation="p1[5:8]"/>
+    <item id="w3" segmentation="p1[9:13]"/>
+    <item id="w4" segmentation="p1[14:16]"/>
+    <item id="w5" segmentation="p1[17:22]"/>
+    <item id="w6" segmentation="p1[23:26]"/>
+    <item id="w7" segmentation="p1[27:29]"/>
+    <item id="w8" segmentation="p1[30:33]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:3]"/>
+    <item id="tw2" segmentation="t1[4:8]"/>
+    <item id="tw3" segmentation="t1[9:14]"/>
+    <item id="tw4" segmentation="t1[15:19]"/>
+    <item id="tw5" segmentation="t1[20:23]"/>
+    <item id="tw6" segmentation="t1[24:28]"/>
+    <item id="tw7" segmentation="t1[29:32]"/>
+    <item id="tw8" segmentation="t1[33:35]"/>
+    <item id="tw9" segmentation="t1[36:40]"/>
+    <item id="tw10" segmentation="t1[41:44]"/>
+    <item id="tw11" segmentation="t1[45:49]"/>
+    <item id="tw12" segmentation="t1[50:52]"/>
+    <item id="tw13" segmentation="t1[52:53]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:4]"/>
+    <item id="gw2" alignment="w2" content="n3[5:10]"/>
+    <item id="gw3" alignment="w3" content="n3[11:17]"/>
+    <item id="gw4" alignment="w4" content="n3[18:20]"/>
+    <item id="gw5" alignment="w5" content="n3[21:25]"/>
+    <item id="gw6" alignment="w6" content="n3[26:30]"/>
+    <item id="gw7" alignment="w7" content="n3[31:35]"/>
+    <item id="gw8" alignment="w8" content="n3[36:41]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+    <item id="g3" alignment="m3" content="gw3"/>
+    <item id="g4" alignment="m4" content="gw4"/>
+    <item id="g5" alignment="m5" content="gw5"/>
+    <item id="g6" alignment="m6" content="gw6"/>
+    <item id="g7" alignment="m7" content="gw7"/>
+    <item id="g8" alignment="m8" content="gw8"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+    <item id="m3" segmentation="w3"/>
+    <item id="m4" segmentation="w4"/>
+    <item id="m5" segmentation="w5"/>
+    <item id="m6" segmentation="w6"/>
+    <item id="m7" segmentation="w7"/>
+    <item id="m8" segmentation="w8"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">VERB</item>
+    <item id="gw-pos2" alignment="gw2">VERB</item>
+    <item id="gw-pos3" alignment="gw5">VERB</item>
+    <item id="gw-pos4" alignment="gw7">VERB</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">PRON</item>
+    <item id="tw-pos2" alignment="tw2">VERB</item>
+    <item id="tw-pos3" alignment="tw3">VERB</item>
+    <item id="tw-pos4" alignment="tw4">ADV</item>
+    <item id="tw-pos5" alignment="tw5">CONJ</item>
+    <item id="tw-pos6" alignment="tw6">VERB</item>
+    <item id="tw-pos7" alignment="tw7">PRON</item>
+    <item id="tw-pos8" alignment="tw8">PRT</item>
+    <item id="tw-pos9" alignment="tw9">VERB</item>
+    <item id="tw-pos10" alignment="tw10">CONJ</item>
+    <item id="tw-pos11" alignment="tw11">VERB</item>
+    <item id="tw-pos12" alignment="tw12">PRON</item>
+    <item id="tw-pos13" alignment="tw13">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:53-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w5">VERB</item>
+    <item id="w-pos2" alignment="w7">VERB</item>
+    <item id="w-pos3" alignment="w2">VERB</item>
+    <item id="w-pos4" alignment="w1">VERB</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:45-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw2"/>
+    <item id="a2" target="g2" source="tw3"/>
+    <item id="a3" target="g5" source="tw6"/>
+    <item id="a4" target="g7" source="tw9"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">PRP</item>
+    <item id="tw-ps2" alignment="tw2">MD</item>
+    <item id="tw-ps3" alignment="tw3">VB</item>
+    <item id="tw-ps4" alignment="tw4">RP</item>
+    <item id="tw-ps5" alignment="tw5">CC</item>
+    <item id="tw-ps6" alignment="tw6">VB</item>
+    <item id="tw-ps7" alignment="tw7">PRP</item>
+    <item id="tw-ps8" alignment="tw8">TO</item>
+    <item id="tw-ps9" alignment="tw9">VB</item>
+    <item id="tw-ps10" alignment="tw10">CC</item>
+    <item id="tw-ps11" alignment="tw11">VB</item>
+    <item id="tw-ps12" alignment="tw12">PRP</item>
+    <item id="tw-ps13" alignment="tw13">.</item>
+    <item id="tw-ps14" children="tw-ps15">ROOT</item>
+    <item id="tw-ps15" children="tw-ps16 tw-ps17 tw-ps13">S</item>
+    <item id="tw-ps16" children="tw-ps1">NP</item>
+    <item id="tw-ps17" children="tw-ps2 tw-ps18">VP</item>
+    <item id="tw-ps18" children="tw-ps19 tw-ps5 tw-ps21">VP</item>
+    <item id="tw-ps19" children="tw-ps3 tw-ps20">VP</item>
+    <item id="tw-ps20" children="tw-ps4">PRT</item>
+    <item id="tw-ps21" children="tw-ps6 tw-ps22">VP</item>
+    <item id="tw-ps22" children="tw-ps23 tw-ps24">S</item>
+    <item id="tw-ps23" children="tw-ps7">NP</item>
+    <item id="tw-ps24" children="tw-ps8 tw-ps25">VP</item>
+    <item id="tw-ps25" children="tw-ps26 tw-ps10 tw-ps27">VP</item>
+    <item id="tw-ps26" children="tw-ps9">VP</item>
+    <item id="tw-ps27" children="tw-ps11 tw-ps28">VP</item>
+    <item id="tw-ps28" children="tw-ps12">NP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">MD</item>
+    <item id="w-ps2" alignment="w2">VB</item>
+    <item id="w-ps3" alignment="w3">UNK</item>
+    <item id="w-ps4" alignment="w4">UNK</item>
+    <item id="w-ps5" alignment="w5">VB</item>
+    <item id="w-ps6" alignment="w6">UNK</item>
+    <item id="w-ps7" alignment="w7">VB</item>
+    <item id="w-ps8" alignment="w8">UNK</item>
+    <item id="w-ps9" children="w-ps10">ROOT</item>
+    <item id="w-ps10" children="w-ps11">S</item>
+    <item id="w-ps11" children="w-ps1 w-ps12">VP</item>
+    <item id="w-ps12" children="w-ps13 w-ps3 w-ps4 w-ps14">VP</item>
+    <item id="w-ps13" children="w-ps2">VP</item>
+    <item id="w-ps14" children="w-ps5 w-ps6 w-ps15">VP</item>
+    <item id="w-ps15" children="w-ps16">S</item>
+    <item id="w-ps16" children="w-ps17">VP</item>
+    <item id="w-ps17" children="w-ps18">VP</item>
+    <item id="w-ps18" children="w-ps7 w-ps8">VP</item>
+  </tier>
+</igt>
+<igt id="igt8" line-range="53-55" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="53">  a:232 vetted: t</item>
+    <item id="r2" tag="L" line="54">  ไม่ ยอม กิน อะไร เลย</item>
+    <item id="r3" tag="G" line="55">  not allow eat anything at.all</item>
+    <item id="r4" tag="T" line="56">  I wasn't willing to eat anything at all.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="53">  a:232 vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="54">  ไม่ ยอม กิน อะไร เลย</item>
+    <item id="c3" alignment="r3" tag="G" line="55">  not allow eat anything at.all</item>
+    <item id="c4" alignment="r4" tag="T" line="56">  I wasn't willing to eat anything at all.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="53">a:232 vetted: t</item>
+    <item id="n2" alignment="c2" tag="L" line="54">ไม่ ยอม กิน อะไร เลย</item>
+    <item id="n3" alignment="c3" tag="G" line="55">not allow eat anything at.all</item>
+    <item id="n4" alignment="c4" tag="T" line="56">I wasn't willing to eat anything at all.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:3]"/>
+    <item id="w2" segmentation="p1[4:7]"/>
+    <item id="w3" segmentation="p1[8:11]"/>
+    <item id="w4" segmentation="p1[12:16]"/>
+    <item id="w5" segmentation="p1[17:20]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:1]"/>
+    <item id="tw2" segmentation="t1[2:8]"/>
+    <item id="tw3" segmentation="t1[9:16]"/>
+    <item id="tw4" segmentation="t1[17:19]"/>
+    <item id="tw5" segmentation="t1[20:23]"/>
+    <item id="tw6" segmentation="t1[24:32]"/>
+    <item id="tw7" segmentation="t1[33:35]"/>
+    <item id="tw8" segmentation="t1[36:39]"/>
+    <item id="tw9" segmentation="t1[39:40]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:3]"/>
+    <item id="gw2" alignment="w2" content="n3[4:9]"/>
+    <item id="gw3" alignment="w3" content="n3[10:13]"/>
+    <item id="gw4" alignment="w4" content="n3[14:22]"/>
+    <item id="gw5" alignment="w5" content="n3[23:29]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+    <item id="g3" alignment="m3" content="gw3"/>
+    <item id="g4" alignment="m4" content="gw4"/>
+    <item id="g5" alignment="m5" content="gw5[0:2]"/>
+    <item id="g6" alignment="m5" content="gw5[3:6]"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+    <item id="m3" segmentation="w3"/>
+    <item id="m4" segmentation="w4"/>
+    <item id="m5" segmentation="w5"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw3">VERB</item>
+    <item id="gw-pos2" alignment="gw4">NOUN</item>
+    <item id="gw-pos3" alignment="gw5">ADP</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">PRON</item>
+    <item id="tw-pos2" alignment="tw2">VERB</item>
+    <item id="tw-pos3" alignment="tw3">ADJ</item>
+    <item id="tw-pos4" alignment="tw4">PRT</item>
+    <item id="tw-pos5" alignment="tw5">VERB</item>
+    <item id="tw-pos6" alignment="tw6">NOUN</item>
+    <item id="tw-pos7" alignment="tw7">ADP</item>
+    <item id="tw-pos8" alignment="tw8">DET</item>
+    <item id="tw-pos9" alignment="tw9">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w5">ADP</item>
+    <item id="w-pos2" alignment="w4">NOUN</item>
+    <item id="w-pos3" alignment="w3">VERB</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:45-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g3" source="tw5"/>
+    <item id="a2" target="g4" source="tw6"/>
+    <item id="a3" target="g5" source="tw7"/>
+    <item id="a4" target="g6" source="tw8"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">PRP</item>
+    <item id="tw-ps2" alignment="tw2">VBP</item>
+    <item id="tw-ps3" alignment="tw3">JJ</item>
+    <item id="tw-ps4" alignment="tw4">TO</item>
+    <item id="tw-ps5" alignment="tw5">VB</item>
+    <item id="tw-ps6" alignment="tw6">NN</item>
+    <item id="tw-ps7" alignment="tw7">IN</item>
+    <item id="tw-ps8" alignment="tw8">DT</item>
+    <item id="tw-ps9" alignment="tw9">.</item>
+    <item id="tw-ps10" children="tw-ps11">ROOT</item>
+    <item id="tw-ps11" children="tw-ps12 tw-ps13 tw-ps9">S</item>
+    <item id="tw-ps12" children="tw-ps1">NP</item>
+    <item id="tw-ps13" children="tw-ps2 tw-ps14">VP</item>
+    <item id="tw-ps14" children="tw-ps3 tw-ps15">ADJP</item>
+    <item id="tw-ps15" children="tw-ps16">S</item>
+    <item id="tw-ps16" children="tw-ps4 tw-ps17">VP</item>
+    <item id="tw-ps17" children="tw-ps5 tw-ps18 tw-ps19">VP</item>
+    <item id="tw-ps18" children="tw-ps6">NP</item>
+    <item id="tw-ps19" children="tw-ps7 tw-ps20">PP</item>
+    <item id="tw-ps20" children="tw-ps8">NP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">UNK</item>
+    <item id="w-ps2" alignment="w2">UNK</item>
+    <item id="w-ps3" alignment="w3">VB</item>
+    <item id="w-ps4" alignment="w4">NN</item>
+    <item id="w-ps5" alignment="w5">IN+DT</item>
+    <item id="w-ps6" children="w-ps7">ROOT</item>
+    <item id="w-ps7" children="w-ps8">S</item>
+    <item id="w-ps8" children="w-ps9">VP</item>
+    <item id="w-ps9" children="w-ps10">ADJP</item>
+    <item id="w-ps10" children="w-ps11">S</item>
+    <item id="w-ps11" children="w-ps12">VP</item>
+    <item id="w-ps12" children="w-ps1 w-ps2 w-ps3 w-ps13 w-ps14">VP</item>
+    <item id="w-ps13" children="w-ps4">NP</item>
+    <item id="w-ps14" children="w-ps5">PP</item>
+  </tier>
+</igt>
+<igt id="igt9" line-range="57-59" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="57">  author vetted: t</item>
+    <item id="r2" tag="L" line="58">  แมว ตาย</item>
+    <item id="r3" tag="G" line="59">  cat die</item>
+    <item id="r4" tag="T" line="60">  The cat died.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="57">  author vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="58">  แมว ตาย</item>
+    <item id="c3" alignment="r3" tag="G" line="59">  cat die</item>
+    <item id="c4" alignment="r4" tag="T" line="60">  The cat died.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="57">t</item>
+    <item id="n2" alignment="c2" tag="L" line="58">แมว ตาย</item>
+    <item id="n3" alignment="c3" tag="G" line="59">cat die</item>
+    <item id="n4" alignment="c4" tag="T" line="60">The cat died.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:3]"/>
+    <item id="w2" segmentation="p1[4:7]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:3]"/>
+    <item id="tw2" segmentation="t1[4:7]"/>
+    <item id="tw3" segmentation="t1[8:12]"/>
+    <item id="tw4" segmentation="t1[12:13]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:3]"/>
+    <item id="gw2" alignment="w2" content="n3[4:7]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">NOUN</item>
+    <item id="gw-pos2" alignment="gw2">VERB</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">DET</item>
+    <item id="tw-pos2" alignment="tw2">NOUN</item>
+    <item id="tw-pos3" alignment="tw3">VERB</item>
+    <item id="tw-pos4" alignment="tw4">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w1">NOUN</item>
+    <item id="w-pos2" alignment="w2">VERB</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:45-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw2"/>
+    <item id="a2" target="g2" source="tw3"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">DT</item>
+    <item id="tw-ps2" alignment="tw2">NN</item>
+    <item id="tw-ps3" alignment="tw3">VBD</item>
+    <item id="tw-ps4" alignment="tw4">.</item>
+    <item id="tw-ps5" children="tw-ps6">ROOT</item>
+    <item id="tw-ps6" children="tw-ps7 tw-ps8 tw-ps4">S</item>
+    <item id="tw-ps7" children="tw-ps1 tw-ps2">NP</item>
+    <item id="tw-ps8" children="tw-ps3">VP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">NN</item>
+    <item id="w-ps2" alignment="w2">VBD</item>
+    <item id="w-ps3" children="w-ps4">ROOT</item>
+    <item id="w-ps4" children="w-ps5 w-ps6">S</item>
+    <item id="w-ps5" children="w-ps1">NP</item>
+    <item id="w-ps6" children="w-ps2">VP</item>
+  </tier>
+</igt>
+<igt id="igt10" line-range="65-67" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="65">  author vetted: t</item>
+    <item id="r2" tag="L" line="66">  ผู้ชาย ไป ได้</item>
+    <item id="r3" tag="G" line="67">  man go can</item>
+    <item id="r4" tag="T" line="68">  The man can go.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="65">  author vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="66">  ผู้ชาย ไป ได้</item>
+    <item id="c3" alignment="r3" tag="G" line="67">  man go can</item>
+    <item id="c4" alignment="r4" tag="T" line="68">  The man can go.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="65">t</item>
+    <item id="n2" alignment="c2" tag="L" line="66">ผู้ชาย ไป ได้</item>
+    <item id="n3" alignment="c3" tag="G" line="67">man go can</item>
+    <item id="n4" alignment="c4" tag="T" line="68">The man can go.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:6]"/>
+    <item id="w2" segmentation="p1[7:9]"/>
+    <item id="w3" segmentation="p1[10:13]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:3]"/>
+    <item id="tw2" segmentation="t1[4:7]"/>
+    <item id="tw3" segmentation="t1[8:11]"/>
+    <item id="tw4" segmentation="t1[12:14]"/>
+    <item id="tw5" segmentation="t1[14:15]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:3]"/>
+    <item id="gw2" alignment="w2" content="n3[4:6]"/>
+    <item id="gw3" alignment="w3" content="n3[7:10]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+    <item id="g3" alignment="m3" content="gw3"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+    <item id="m3" segmentation="w3"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">NOUN</item>
+    <item id="gw-pos2" alignment="gw3">VERB</item>
+    <item id="gw-pos3" alignment="gw2">VERB</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">DET</item>
+    <item id="tw-pos2" alignment="tw2">NOUN</item>
+    <item id="tw-pos3" alignment="tw3">VERB</item>
+    <item id="tw-pos4" alignment="tw4">VERB</item>
+    <item id="tw-pos5" alignment="tw5">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w1">NOUN</item>
+    <item id="w-pos2" alignment="w3">VERB</item>
+    <item id="w-pos3" alignment="w2">VERB</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:45-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw2"/>
+    <item id="a2" target="g3" source="tw3"/>
+    <item id="a3" target="g2" source="tw4"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">DT</item>
+    <item id="tw-ps2" alignment="tw2">NN</item>
+    <item id="tw-ps3" alignment="tw3">MD</item>
+    <item id="tw-ps4" alignment="tw4">VB</item>
+    <item id="tw-ps5" alignment="tw5">.</item>
+    <item id="tw-ps6" children="tw-ps7">ROOT</item>
+    <item id="tw-ps7" children="tw-ps8 tw-ps9 tw-ps5">S</item>
+    <item id="tw-ps8" children="tw-ps1 tw-ps2">NP</item>
+    <item id="tw-ps9" children="tw-ps3 tw-ps10">VP</item>
+    <item id="tw-ps10" children="tw-ps4">VP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">NN</item>
+    <item id="w-ps2" alignment="w2">VB</item>
+    <item id="w-ps3" alignment="w3">MD</item>
+    <item id="w-ps4" children="w-ps5">ROOT</item>
+    <item id="w-ps5" children="w-ps6 w-ps7">S</item>
+    <item id="w-ps6" children="w-ps1">NP</item>
+    <item id="w-ps7" children="w-ps8 w-ps3">VP</item>
+    <item id="w-ps8" children="w-ps2">VP</item>
+  </tier>
+</igt>
+<igt id="igt11" line-range="69-71" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="69">  author vetted: t</item>
+    <item id="r2" tag="L" line="70">  ผู้ชาย ได้ ไป</item>
+    <item id="r3" tag="G" line="71">  man can go</item>
+    <item id="r4" tag="T" line="72">  The man went.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="69">  author vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="70">  ผู้ชาย ได้ ไป</item>
+    <item id="c3" alignment="r3" tag="G" line="71">  man can go</item>
+    <item id="c4" alignment="r4" tag="T" line="72">  The man went.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="69">t</item>
+    <item id="n2" alignment="c2" tag="L" line="70">ผู้ชาย ได้ ไป</item>
+    <item id="n3" alignment="c3" tag="G" line="71">man can go</item>
+    <item id="n4" alignment="c4" tag="T" line="72">The man went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:6]"/>
+    <item id="w2" segmentation="p1[7:10]"/>
+    <item id="w3" segmentation="p1[11:13]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:3]"/>
+    <item id="tw2" segmentation="t1[4:7]"/>
+    <item id="tw3" segmentation="t1[8:12]"/>
+    <item id="tw4" segmentation="t1[12:13]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:3]"/>
+    <item id="gw2" alignment="w2" content="n3[4:7]"/>
+    <item id="gw3" alignment="w3" content="n3[8:10]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+    <item id="g3" alignment="m3" content="gw3"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+    <item id="m3" segmentation="w3"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">NOUN</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">DET</item>
+    <item id="tw-pos2" alignment="tw2">NOUN</item>
+    <item id="tw-pos3" alignment="tw3">VERB</item>
+    <item id="tw-pos4" alignment="tw4">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w1">NOUN</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:45-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw2"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">DT</item>
+    <item id="tw-ps2" alignment="tw2">NN</item>
+    <item id="tw-ps3" alignment="tw3">VBD</item>
+    <item id="tw-ps4" alignment="tw4">.</item>
+    <item id="tw-ps5" children="tw-ps6">ROOT</item>
+    <item id="tw-ps6" children="tw-ps7 tw-ps8 tw-ps4">S</item>
+    <item id="tw-ps7" children="tw-ps1 tw-ps2">NP</item>
+    <item id="tw-ps8" children="tw-ps3">VP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">NN</item>
+    <item id="w-ps2" alignment="w2">UNK</item>
+    <item id="w-ps3" alignment="w3">UNK</item>
+    <item id="w-ps4" children="w-ps5">ROOT</item>
+    <item id="w-ps5" children="w-ps6">S</item>
+    <item id="w-ps6" children="w-ps1 w-ps2 w-ps3">NP</item>
+  </tier>
+</igt>
+<igt id="igt12" line-range="73-75" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="73">  author vetted: t</item>
+    <item id="r2" tag="L" line="74">  ผู้ชาย ต้อง ไป</item>
+    <item id="r3" tag="G" line="75">  man must go</item>
+    <item id="r4" tag="T" line="76">  The man must go.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="73">  author vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="74">  ผู้ชาย ต้อง ไป</item>
+    <item id="c3" alignment="r3" tag="G" line="75">  man must go</item>
+    <item id="c4" alignment="r4" tag="T" line="76">  The man must go.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="73">t</item>
+    <item id="n2" alignment="c2" tag="L" line="74">ผู้ชาย ต้อง ไป</item>
+    <item id="n3" alignment="c3" tag="G" line="75">man must go</item>
+    <item id="n4" alignment="c4" tag="T" line="76">The man must go.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:6]"/>
+    <item id="w2" segmentation="p1[7:11]"/>
+    <item id="w3" segmentation="p1[12:14]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:3]"/>
+    <item id="tw2" segmentation="t1[4:7]"/>
+    <item id="tw3" segmentation="t1[8:12]"/>
+    <item id="tw4" segmentation="t1[13:15]"/>
+    <item id="tw5" segmentation="t1[15:16]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:3]"/>
+    <item id="gw2" alignment="w2" content="n3[4:8]"/>
+    <item id="gw3" alignment="w3" content="n3[9:11]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+    <item id="g3" alignment="m3" content="gw3"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+    <item id="m3" segmentation="w3"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">NOUN</item>
+    <item id="gw-pos2" alignment="gw2">VERB</item>
+    <item id="gw-pos3" alignment="gw3">VERB</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">DET</item>
+    <item id="tw-pos2" alignment="tw2">NOUN</item>
+    <item id="tw-pos3" alignment="tw3">VERB</item>
+    <item id="tw-pos4" alignment="tw4">VERB</item>
+    <item id="tw-pos5" alignment="tw5">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w1">NOUN</item>
+    <item id="w-pos2" alignment="w3">VERB</item>
+    <item id="w-pos3" alignment="w2">VERB</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:45-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw2"/>
+    <item id="a2" target="g2" source="tw3"/>
+    <item id="a3" target="g3" source="tw4"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">DT</item>
+    <item id="tw-ps2" alignment="tw2">NN</item>
+    <item id="tw-ps3" alignment="tw3">MD</item>
+    <item id="tw-ps4" alignment="tw4">VB</item>
+    <item id="tw-ps5" alignment="tw5">.</item>
+    <item id="tw-ps6" children="tw-ps7">ROOT</item>
+    <item id="tw-ps7" children="tw-ps8 tw-ps9 tw-ps5">S</item>
+    <item id="tw-ps8" children="tw-ps1 tw-ps2">NP</item>
+    <item id="tw-ps9" children="tw-ps3 tw-ps10">VP</item>
+    <item id="tw-ps10" children="tw-ps4">VP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">NN</item>
+    <item id="w-ps2" alignment="w2">MD</item>
+    <item id="w-ps3" alignment="w3">VB</item>
+    <item id="w-ps4" children="w-ps5">ROOT</item>
+    <item id="w-ps5" children="w-ps6 w-ps7">S</item>
+    <item id="w-ps6" children="w-ps1">NP</item>
+    <item id="w-ps7" children="w-ps2 w-ps8">VP</item>
+    <item id="w-ps8" children="w-ps3">VP</item>
+  </tier>
+</igt>
+<igt id="igt13" line-range="81-83" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="81">  author vetted: t</item>
+    <item id="r2" tag="L" line="82">  ผู้ชาย ไป ไหว</item>
+    <item id="r3" tag="G" line="83">  man go able</item>
+    <item id="r4" tag="T" line="84">  The man is able to go.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="81">  author vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="82">  ผู้ชาย ไป ไหว</item>
+    <item id="c3" alignment="r3" tag="G" line="83">  man go able</item>
+    <item id="c4" alignment="r4" tag="T" line="84">  The man is able to go.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="81">t</item>
+    <item id="n2" alignment="c2" tag="L" line="82">ผู้ชาย ไป ไหว</item>
+    <item id="n3" alignment="c3" tag="G" line="83">man go able</item>
+    <item id="n4" alignment="c4" tag="T" line="84">The man is able to go.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:6]"/>
+    <item id="w2" segmentation="p1[7:9]"/>
+    <item id="w3" segmentation="p1[10:13]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:3]"/>
+    <item id="tw2" segmentation="t1[4:7]"/>
+    <item id="tw3" segmentation="t1[8:10]"/>
+    <item id="tw4" segmentation="t1[11:15]"/>
+    <item id="tw5" segmentation="t1[16:18]"/>
+    <item id="tw6" segmentation="t1[19:21]"/>
+    <item id="tw7" segmentation="t1[21:22]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:3]"/>
+    <item id="gw2" alignment="w2" content="n3[4:6]"/>
+    <item id="gw3" alignment="w3" content="n3[7:11]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+    <item id="g3" alignment="m3" content="gw3"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+    <item id="m3" segmentation="w3"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">NOUN</item>
+    <item id="gw-pos2" alignment="gw3">ADJ</item>
+    <item id="gw-pos3" alignment="gw2">VERB</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">DET</item>
+    <item id="tw-pos2" alignment="tw2">NOUN</item>
+    <item id="tw-pos3" alignment="tw3">VERB</item>
+    <item id="tw-pos4" alignment="tw4">ADJ</item>
+    <item id="tw-pos5" alignment="tw5">PRT</item>
+    <item id="tw-pos6" alignment="tw6">VERB</item>
+    <item id="tw-pos7" alignment="tw7">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w1">NOUN</item>
+    <item id="w-pos2" alignment="w3">ADJ</item>
+    <item id="w-pos3" alignment="w2">VERB</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:45-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw2"/>
+    <item id="a2" target="g3" source="tw4"/>
+    <item id="a3" target="g2" source="tw6"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">DT</item>
+    <item id="tw-ps2" alignment="tw2">NN</item>
+    <item id="tw-ps3" alignment="tw3">VBZ</item>
+    <item id="tw-ps4" alignment="tw4">JJ</item>
+    <item id="tw-ps5" alignment="tw5">TO</item>
+    <item id="tw-ps6" alignment="tw6">VB</item>
+    <item id="tw-ps7" alignment="tw7">.</item>
+    <item id="tw-ps8" children="tw-ps9">ROOT</item>
+    <item id="tw-ps9" children="tw-ps10 tw-ps11 tw-ps7">S</item>
+    <item id="tw-ps10" children="tw-ps1 tw-ps2">NP</item>
+    <item id="tw-ps11" children="tw-ps3 tw-ps12">VP</item>
+    <item id="tw-ps12" children="tw-ps4 tw-ps13">ADJP</item>
+    <item id="tw-ps13" children="tw-ps14">S</item>
+    <item id="tw-ps14" children="tw-ps5 tw-ps15">VP</item>
+    <item id="tw-ps15" children="tw-ps6">VP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">NN</item>
+    <item id="w-ps2" alignment="w2">VB</item>
+    <item id="w-ps3" alignment="w3">JJ</item>
+    <item id="w-ps4" children="w-ps5">ROOT</item>
+    <item id="w-ps5" children="w-ps6 w-ps7">S</item>
+    <item id="w-ps6" children="w-ps1">NP</item>
+    <item id="w-ps7" children="w-ps8">VP</item>
+    <item id="w-ps8" children="w-ps9 w-ps3">ADJP</item>
+    <item id="w-ps9" children="w-ps10">S</item>
+    <item id="w-ps10" children="w-ps11">VP</item>
+    <item id="w-ps11" children="w-ps2">VP</item>
+  </tier>
+</igt>
+<igt id="igt14" line-range="89-91" tag-types="M L G T" doc-id="lgcol:tha">
+  <metadata>
+    <meta id="meta1">
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="und" xsi:type="olac:language" />
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ns2:code="en" xsi:type="olac:language">English</dc:language>
+    </meta>
+  </metadata>
+  <tier id="r" type="odin" state="raw">
+    <item id="r1" tag="M" line="89">  author vetted: t</item>
+    <item id="r2" tag="L" line="90">  ผู้ชาย ไป ตลาด ไหว</item>
+    <item id="r3" tag="G" line="91">  man go market able</item>
+    <item id="r4" tag="T" line="92">  The man is able to go to the market.</item>
+  </tier>
+  <tier id="c" type="odin" alignment="r" state="cleaned">
+    <item id="c1" alignment="r1" tag="M" line="89">  author vetted: t</item>
+    <item id="c2" alignment="r2" tag="L" line="90">  ผู้ชาย ไป ตลาด ไหว</item>
+    <item id="c3" alignment="r3" tag="G" line="91">  man go market able</item>
+    <item id="c4" alignment="r4" tag="T" line="92">  The man is able to go to the market.</item>
+  </tier>
+  <tier id="n" type="odin" alignment="c" state="normalized">
+    <item id="n1" alignment="c1" tag="M" line="89">t</item>
+    <item id="n2" alignment="c2" tag="L" line="90">ผู้ชาย ไป ตลาด ไหว</item>
+    <item id="n3" alignment="c3" tag="G" line="91">man go market able</item>
+    <item id="n4" alignment="c4" tag="T" line="92">The man is able to go to the market.</item>
+  </tier>
+  <tier id="p" type="phrases" content="n">
+    <item id="p1" content="n2"/>
+  </tier>
+  <tier id="t" type="translations" alignment="p" content="n">
+    <item id="t1" alignment="p1" content="n4"/>
+  </tier>
+  <tier id="w" type="words" segmentation="p">
+    <item id="w1" segmentation="p1[0:6]"/>
+    <item id="w2" segmentation="p1[7:9]"/>
+    <item id="w3" segmentation="p1[10:14]"/>
+    <item id="w4" segmentation="p1[15:18]"/>
+  </tier>
+  <tier id="tw" type="words" segmentation="t">
+    <item id="tw1" segmentation="t1[0:3]"/>
+    <item id="tw2" segmentation="t1[4:7]"/>
+    <item id="tw3" segmentation="t1[8:10]"/>
+    <item id="tw4" segmentation="t1[11:15]"/>
+    <item id="tw5" segmentation="t1[16:18]"/>
+    <item id="tw6" segmentation="t1[19:21]"/>
+    <item id="tw7" segmentation="t1[22:24]"/>
+    <item id="tw8" segmentation="t1[25:28]"/>
+    <item id="tw9" segmentation="t1[29:35]"/>
+    <item id="tw10" segmentation="t1[35:36]"/>
+  </tier>
+  <tier id="gw" type="glosses" alignment="w" content="n">
+    <item id="gw1" alignment="w1" content="n3[0:3]"/>
+    <item id="gw2" alignment="w2" content="n3[4:6]"/>
+    <item id="gw3" alignment="w3" content="n3[7:13]"/>
+    <item id="gw4" alignment="w4" content="n3[14:18]"/>
+  </tier>
+  <tier id="g" type="glosses" alignment="m" content="gw">
+    <item id="g1" alignment="m1" content="gw1"/>
+    <item id="g2" alignment="m2" content="gw2"/>
+    <item id="g3" alignment="m3" content="gw3"/>
+    <item id="g4" alignment="m4" content="gw4"/>
+  </tier>
+  <tier id="m" type="morphemes" segmentation="w">
+    <item id="m1" segmentation="w1"/>
+    <item id="m2" segmentation="w2"/>
+    <item id="m3" segmentation="w3"/>
+    <item id="m4" segmentation="w4"/>
+  </tier>
+  <tier id="gw-pos" type="pos" alignment="gw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="gw-pos1" alignment="gw1">NOUN</item>
+    <item id="gw-pos2" alignment="gw4">ADJ</item>
+    <item id="gw-pos3" alignment="gw2">VERB</item>
+    <item id="gw-pos4" alignment="gw3">NOUN</item>
+  </tier>
+  <tier id="tw-pos" type="pos" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-tagger" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-pos1" alignment="tw1">DET</item>
+    <item id="tw-pos2" alignment="tw2">NOUN</item>
+    <item id="tw-pos3" alignment="tw3">VERB</item>
+    <item id="tw-pos4" alignment="tw4">ADJ</item>
+    <item id="tw-pos5" alignment="tw5">PRT</item>
+    <item id="tw-pos6" alignment="tw6">VERB</item>
+    <item id="tw-pos7" alignment="tw7">PRT</item>
+    <item id="tw-pos8" alignment="tw8">DET</item>
+    <item id="tw-pos9" alignment="tw9">NOUN</item>
+    <item id="tw-pos10" alignment="tw10">.</item>
+  </tier>
+  <tier id="w-pos" type="pos" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="gw-pos" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-pos1" alignment="w4">ADJ</item>
+    <item id="w-pos2" alignment="w1">NOUN</item>
+    <item id="w-pos3" alignment="w3">NOUN</item>
+    <item id="w-pos4" alignment="w2">VERB</item>
+  </tier>
+  <tier id="a" type="bilingual-alignments" target="g" source="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="heur" date="2015-06-03 01:07:45-UTC" source="intent"/>
+    </metadata>
+    <item id="a1" target="g1" source="tw2"/>
+    <item id="a2" target="g4" source="tw4"/>
+    <item id="a3" target="g2" source="tw6"/>
+    <item id="a4" target="g3" source="tw9"/>
+  </tier>
+  <tier id="tw-ps" type="phrase-structure" children="tw-ps" alignment="tw">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="stanford-parser" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="tw-ps1" alignment="tw1">DT</item>
+    <item id="tw-ps2" alignment="tw2">NN</item>
+    <item id="tw-ps3" alignment="tw3">VBZ</item>
+    <item id="tw-ps4" alignment="tw4">JJ</item>
+    <item id="tw-ps5" alignment="tw5">TO</item>
+    <item id="tw-ps6" alignment="tw6">VB</item>
+    <item id="tw-ps7" alignment="tw7">TO</item>
+    <item id="tw-ps8" alignment="tw8">DT</item>
+    <item id="tw-ps9" alignment="tw9">NN</item>
+    <item id="tw-ps10" alignment="tw10">.</item>
+    <item id="tw-ps11" children="tw-ps12">ROOT</item>
+    <item id="tw-ps12" children="tw-ps13 tw-ps14 tw-ps10">S</item>
+    <item id="tw-ps13" children="tw-ps1 tw-ps2">NP</item>
+    <item id="tw-ps14" children="tw-ps3 tw-ps15">VP</item>
+    <item id="tw-ps15" children="tw-ps4 tw-ps16">ADJP</item>
+    <item id="tw-ps16" children="tw-ps17">S</item>
+    <item id="tw-ps17" children="tw-ps5 tw-ps18">VP</item>
+    <item id="tw-ps18" children="tw-ps6 tw-ps19">VP</item>
+    <item id="tw-ps19" children="tw-ps7 tw-ps20">PP</item>
+    <item id="tw-ps20" children="tw-ps8 tw-ps9">NP</item>
+  </tier>
+  <tier id="w-ps" type="phrase-structure" children="w-ps" alignment="w">
+    <metadata type="xigt-meta">
+      <meta type="data-provenance" method="projection" projected-from="tw-ps" date="2015-06-03 01:07:54-UTC" source="intent"/>
+    </metadata>
+    <item id="w-ps1" alignment="w1">NN</item>
+    <item id="w-ps2" alignment="w2">VB</item>
+    <item id="w-ps3" alignment="w3">NN</item>
+    <item id="w-ps4" alignment="w4">JJ</item>
+    <item id="w-ps5" children="w-ps6">ROOT</item>
+    <item id="w-ps6" children="w-ps7 w-ps8">S</item>
+    <item id="w-ps7" children="w-ps1">NP</item>
+    <item id="w-ps8" children="w-ps9">VP</item>
+    <item id="w-ps9" children="w-ps10 w-ps4">ADJP</item>
+    <item id="w-ps10" children="w-ps11">S</item>
+    <item id="w-ps11" children="w-ps12">VP</item>
+    <item id="w-ps12" children="w-ps2 w-ps13">VP</item>
+    <item id="w-ps13" children="w-ps14">PP</item>
+    <item id="w-ps14" children="w-ps3">NP</item>
+  </tier>
+</igt>
+</xigt-corpus>

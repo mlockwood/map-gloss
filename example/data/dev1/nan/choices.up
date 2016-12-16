@@ -1,0 +1,90 @@
+
+version=28
+
+section=general
+language=Taiwanese_Min_Nan
+
+section=word-order
+word-order=svo
+has-dets=yes
+noun-det-order=det-noun
+has-aux=yes
+aux-comp-order=before
+aux-comp=vp
+
+section=number
+
+section=person
+person=none
+
+section=gender
+
+section=case
+case-marking=none
+
+section=direct-inverse
+
+section=tense-aspect-mood
+
+section=other-features
+
+section=sentential-negation
+neg-exp=1
+adv-neg=on
+neg-mod=v
+neg-order=before
+neg-adv-orth=m7
+
+section=coordination
+  cs1_n=on
+  cs1_np=on
+  cs1_pat=mono
+  cs1_mark=word
+  cs1_orth=kap1
+  cs1_order=before
+  cs2_vp=on
+  cs2_pat=mono
+  cs2_mark=word
+  cs2_orth=koh1
+  cs2_order=before
+
+section=matrix-yes-no
+q-part=on
+q-part-order=after
+q-part-orth=bo5
+
+section=info-str
+
+section=arg-opt
+
+section=lexicon
+  noun1_det=opt
+    noun1_stem1_orth=kau2
+    noun1_stem1_pred=_dog_n_rel
+  noun2_det=opt
+    noun2_stem1_orth=niau1
+    noun2_stem1_pred=_cat_n_rel
+  verb1_valence=intrans
+    verb1_stem1_orth=khun3
+    verb1_stem1_pred=_sleep_v_rel
+  verb2_valence=trans
+    verb2_stem1_orth=khoa*3-ki*3
+    verb2_stem1_pred=_see_v_rel
+  aux1_sem=add-pred
+  aux1_subj=np
+    aux1_compfeature1_name=form
+    aux1_compfeature1_value=finite
+    aux1_stem1_orth=e7-tang3
+    aux1_stem1_pred=_can_v_rel
+
+section=morphology
+
+section=toolbox-import
+
+section=test-sentences
+  sentence1_orth=kau2 khun3
+  sentence2_orth=kau2 e7-tang3 khoa*3-ki*3 niau1
+
+section=gen-options
+
+section=ToolboxLexicon

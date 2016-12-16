@@ -1,0 +1,137 @@
+-------------------------------------------------------
+Comments
+
+CASE
+     I specified case-marking as nominative-accusative, where the
+ affix used was specified as âunmarkedâ, for now.
+ There were two reasons for this:
+
+ 1.The nominative-accusative case marking varies by gender, so there
+ was no one affix that would be correct.
+
+ 2.In the nominative-accusative case for masculine and neuter nouns,
+ the case is unmarked.  In the nominative case for feminine nouns, the
+ noun is also unmarked.
+     So, âunmarkedâ seemed the most generalizable designation.
+
+But: You can say that nominative is unmarked, while accusative is
+marked.  What do you mean by the "nominative-accusative" case?  Is it
+that there is only a case distinction in feminine nouns?  Really?  It
+would have been a better starting point to pick one such affix, and
+then create more lexical rules.  You might still want to go back and
+do this.  Then you can take a look at the grammar that you get out and
+at least make reference to the rules it defines. If the case markers
+are fused with the number markers (portmanteau morphemes), then you'll
+want to make lexical rule types for case and number and then cross
+classify them and have lexical rule instances for e.g., nom-sg etc.
+If the form of each of those varies based on declension class, then
+you add another dimension to your classification of rules, and
+restrict each one to only the right class of nouns...
+
+ MATRIX YES/NO QUESTIONS
+
+	Since Old English doesn't have any question particles or  
+ verbal inflection to mark questions, I think questions were mostly
+ distinguished by prosody.  Similar to today, the word order for
+ questions was VSO.  But in contrast to Modern English, Old English had
+ a relatively free word order.  Because of this, the order VSO could
+ also be used for statements.  Therefore, with no prosody information,
+ the orthographic ? is maybe necessary in order to distinguis h
+ questions from statements.  But that's not part of the ascii
+ alphanumerics, so I suppose for now I'll just assume that, given a VSO
+ sentence, that sentence is a question.  VSO statements will have to be
+ dealt with later...
+
+So VSO is more common for questions, but VSO statements are possible
+and so are SVO questions?  That's interesting, and would be tricky
+to model beyond just saying that all questions are marked by intonation
+and both SVO and VSO are possible.  (Though if there is some identifiable
+effect of VSO in statements, what we might really want is two separate
+VSO constructions, one for statements and one for questions.)
+
+	The verbs I chose were, in their root form,
+ âsl@pâ; âsleepâ, and
+ âlufiâ; âloveâ.  I chose their
+ 3rd-singular form, âsl@peTâ and
+ âlufaTâ.  Unfortunately, the @ character didn't go
+ over well, so I changed it to ae.  @ is supposed to represent the
+ sound in âhatâ, and in Old English was identical to
+ the phonetic character for that sound â a little ae combined.
+ So I switched the character to ae.  Viewing my word list from tsdb()
+ in emacs showed the words as slaep-et and luf-at.  So I guess capital
+ letters are out, too?  Wait, they're only out for some thing.  Which
+ thing?  I've now played around with adding them as th and T but I
+ don't expand my coverage.  I'm going to keep them as
+ âslaepeTâ and âlufaTâ.
+
+(I think all those funny characters are smart quotes... can you
+turn that off?)  My understanding is that the caps are all just
+normalized, so that you're not going to lose coverage by using caps,
+but you are going to have fewer distinction than you think you have.
+That is, T and t will be treated the same.
+
+	The auxiliary verb I chose was the verb
+ âwillâ.  Auxiliary verbs act as independent
+ predicates, so when âwillâ is used an auxiliary, it
+ gets inflected for person and number, and the following verb appears
+ uninflected.  I specified these forms as âslaepâ and
+ âlufiâ.  Further, I specified that the auxiliary verb
+ takes as its complement a VP, appearing before it and taking as
+ subject an NP.
+
+Actually, by "independent predicate" I mean semantically: Does
+`will' introduce a semantic relation, or just contribute tense/aspect
+information to the main verb's relation?
+
+	Before I expanded my vocabulary, I got 0% coverage and 0%
+ overgeneration.  After I expanded my vocabulary, I included words that
+ I saw appearing the most often â pronouns, and some forms of
+ the verbs.  But 0% coverage/overgeneration is still what I got.  I
+ think this has something to do with how the words appear in emacs.
+ Instead of âslaepeTâ, say, it is
+ âslaep-etâ.  I don't want to go through and drop my
+ capital letters if I don't have to.  I also don't quite understand
+ whether this means that they have to be morpheme-separated in
+ lexicon.tdl or not.  I have them both ways in the test-suite, although
+ when doing make_item.pl I said I wanted them separated by morpheme
+ boundaries, so maybe that's why?  
+
+Right --- it's not the capital letter, it's the hyphen.  If you want
+the morpheme segmented line, then you have to spell your lexical entries
+(and affixes) so that they include those hyphens.  Otherwise, it won't
+work!
+
+ Does this mean I have to morpheme-separate them in lexicon.tdl?  But
+ that dash isn't an ascii alphanumeric, so I don't want to add it like
+ that to my lexicon...I'm really confused as to what can be capital,
+ what can't, where, why, and how to incorporate the changes properly.
+ But it is possible I just don't have any sentences that show this
+ limited phenomena â again, determiners and nouns belong to
+ different gender classes, inflecting different ways depending on
+ number and case.  I've already spent 15 hours on this getting
+ everything to run properly, though, so I'm assuming that 0% coverage
+ and overgeneration is okay for now, until we can start getting a
+ better grammar set up.
+
+Yes, okay for now, but you should have been posting questions about
+this to GoPost!! 
+
+It's not the case that lexicon.tdl has to have only alphanumerics.
+That is an overstatement of the constraints on what you can put in
+to the customization script.  Inside the STEM value, hyphens and many
+other non-alphanumerics (but not ' or ", I think) are fine.
+
+ Still, it makes sentence parsing hard â if I'm inputting Ta
+ but all I have written is Da, there will be no parses returned.
+ Perhaps I should make a T = D rule.
+
+Actually, I think you just need a couple of extra lexical entries:
+Ta and Da with the same meaning, for example...
+
+	And whether, given a noun, the determiner starts with a T or a
+ D is beyond me and seems to switch around randomly.
+
+Yes, that does just sound like free variation/unregularized spelling.
+
+The instructions asked for exactly two tsdb profiles: you submitted
+three.

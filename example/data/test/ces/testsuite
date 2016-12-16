@@ -1,0 +1,1216 @@
+﻿Language: Czech
+Language code: CES
+Author: Nate Sternberg
+Lines: orth orth-seg gloss translat
+Date: January 18, 2008
+Source a: Remediosová & Čechová, "Do You Want to Speak Czech?", 2005
+Source b: Čermák, Holub, Hronek, Šára, and Short, "Czech, A multi-level course for advanced learners",1993
+Source c: Fronek, "Česko-Anglický Slovník", 2000
+Source d: http://en.wikipedia.org/wiki/Czech_language
+
+Source: author
+Vetted: t
+Judgement: g
+Phenomena: word order
+pták letí
+ptá-k let-í
+bird-NOM.SG flies-PRS.3SG
+"The bird flies"
+
+Source: author
+Vetted: t
+Judgement: g
+Phenomena: word order
+letí pták
+let-í ptá-k
+flies-PRS.SG bird-NOM.3SG 
+"The bird flies"
+
+Source: author
+Vetted: t
+Judgement: g
+Phenomena: word order
+pták neletí
+ptá-k ne-let-í
+bird-NOM.SG NEG-flies-PRS.3SG
+"The bird doesn't fly"
+
+Source: author
+Vetted: t
+Judgement: f
+Phenomena: word order
+neletí pták
+ne-let-í ptá-k 
+NEG-flies-PRS.SG bird-NOM.3SG
+"The bird doesn't fly"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: word order
+starý pták letí
+star-ý ptá-k let-í
+old-NOM.3SG bird-NOM.SG flies-PRS.3SG
+"The old bird flies"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: word order
+pták starý letí
+ptá-k star-ý let-í
+bird-NOM.SG old-NOM.3SG flies-PRS.3SG
+"The old bird flies" (adjective occurs after noun)
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: word order
+pták letí starý
+ptá-k let-í star-ý
+bird-NOM.SG flies-PRS.3SG old-NOM.3SG
+"The old bird flies" (adjective occurs after verb)
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: word order
+já dám knihu příteli
+já dá-m knih-u přítel-i
+1SG.NOM give-PRS.1SG book-ACC.SG friend-DAT.SG
+"I give a book to a friend"
+
+# Complement precedes the verb
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: word order
+já můžu řeka vidět
+já můž-u řek-a vid-ět
+1SG.NOM can-1SG.PRS river-ACC.SG see-INF
+"I can see the river" 
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: word order
+ty neseš psa můj
+ty nes-eš ps-a můj
+2SG.NOM carry-PRS.2SG dog-ACC.M.SG my.NOM.M.SG
+"You carry my dog"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: pronouns
+já nesu tě
+já nes-u tě
+1SG.NOM carry-PRS.1SG 2SG.ACC
+"I carry you"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: pronouns
+já nesu ty
+já nes-u ty
+1SG.NOM carry-PRS.1SG 2SG.NOM
+"I carry you"
+# Complement is in the wrong case (NOM, not ACC)
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: pronouns
+ty neseš mě
+ty nes-eš mě
+2SG.NOM carry-PRS.2SG 1SG.ACC
+"You carry me"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: pronouns
+ty neseš ho
+ty nes-eš ho
+2SG.NOM carry-PRS.2SG 1SG.ACC
+"You carry him"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: pronouns
+ty neseš nás
+ty nes-eš nás
+2SG.NOM carry-PRS.2SG 1SG.ACC
+"You carry us"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: pronouns
+ty neseš mého psa
+ty nes-eš mé-ho ps-a
+2SG.NOM carry-PRS.2SG my-ACC.M.SG dog-ACC.M.SG
+"You carry my dog"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: pronouns
+ty neseš mého sestru
+ty nes-eš mé-ho sestr-u
+2SG.NOM carry-PRS.2SG my-ACC.M.SG sister-ACC.F.SG
+"You carry my sister"
+# Possessive pronoun doesn't agree with its complement (masc pronoun, fem comp.)
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: pronouns
+ty neseš moji psa
+ty nes-eš moj-i ps-a
+2SG.NOM carry-PRS.2SG my-ACC.F.SG dog-ACC.M.SG
+"You carry my dog"
+# Possessive pronoun doesn't agree with its complement (Fem pronoun, masc comp.))
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: pronouns
+ty neseš moje psa
+ty nes-eš moj-e ps-a
+2SG.NOM carry-PRS.2SG my-ACC.M.PL dog-ACC.M.SG
+"You carry my dog"
+# Possessive pronoun doesn't agree with its complement (PL pronoun, SG noun)
+	
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: pronouns
+ty neseš nášeho psa
+ty nes-eš náš-eho ps-a
+2SG.NOM carry-PRS.2SG our-ACC.M.SG dog-ACC.M.SG
+"You carry our dog"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: pronouns
+ty neseš náše psy
+ty nes-eš náš-e ps-y
+2SG.NOM carry-PRS.2SG our-ACC.M.PL dog-ACC.M.PL
+"You carry our dogs"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: pronouns
+ty neseš náše psů
+ty nes-eš náš-e ps-ů
+2SG.NOM carry-PRS.2SG our-ACC.M.PL dog-DAT.M.PL
+"You carry our dogs" 
+# (Possessive pronoun doesn't agree with its complement (pronoun ACC.PL is noun in GEN.PL))
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+tento pes vidí řeku
+ten-to pes vid-í řek-u
+this-NOM.M.SG dog.NOM.M.SG see-PRS.3SG river-ACC.M.SG
+"This dog sees the river"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+tito psi vidí řeku
+ti-to ps-i vid-í řek-u
+this-NOM.M.PL dog-NOM.M.PL see-PRS.3SG river-ACC.M.SG
+"These dogs see the river"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+tato žena vidí řeku
+ta-to žen-a vid-í řek-u
+this-NOM.F.SG woman-NOM.F.SG see-PRS.3SG river-ACC.M.SG
+"This woman sees the river"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+tato žena vidí mého psa
+ta-to žen-a vid-í mé-ho ps-a
+this-NOM.F.SG woman-NOM.F.SG see-PRS.3SG my-ACC.M.SG dog-ACC.M.SG
+"This woman sees my dog"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+toto pes vidí řeku
+to-to pes vid-í řek-u
+this-NOM.N.SG dog.NOM.M.SG see-PRS.3SG river-ACC.M.SG
+"This dog sees the river"
+# Demonstrative pronoun doesn't agree with complement in gender (neuter pronoun, masc. noun)
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+tito pes vidí řeku
+ti-to pes vid-í řek-u
+this-NOM.M.PL dog.NOM.M.SG see-PRS.3SG river-ACC.M.SG
+"This dog sees the river" 
+# Demonstrative pronoun doesn't agree with complement in number (plural pronoun, singular noun)
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+tato žena vidí můj psa
+ta-to žen-a vid-í můj ps-a
+this-NOM.F.SG woman-NOM.F.SG see-PRS.3SG my.NOM.M.SG dog-ACC.M.SG
+"This woman sees my dog"  
+# (Demonstrative pronoun doesn't agree with complement in case (NOM pronoun, ACC noun))
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+staří ptáci letí
+stař-í ptá-ci let-í
+old-NOM.M.SG bird-NOM.M.SG flies-PRS.3SG
+"The old birds fly"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+starí pták letí
+star-í ptá-k let-í
+old-NOM.M.SG bird-NOM.M.SG flies-PRS.3SG
+"The old bird flies" 
+# (adjective doesn't agree with the noun in number (plu adj, sing noun))
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+stará pták letí
+star-á ptá-k let-í
+old-NOM.M.SG bird-NOM.M.SG flies-PRS.3SG
+"The old birds fly"
+# (adjective doesn't agree with the noun in gender (fem adj, masc noun))
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+starého pták letí
+staré-ho ptá-k let-í
+old-ACC.M.SG bird-NOM.M.SG flies-PRS.3SG
+"The old birds fly" 
+# (adjective doesn't agree with the noun in case (ACC adj, NOM noun))
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+ptáci letí
+ptá-ci let-í
+bird-NOM.M.PL flies-PRS.3PL
+"The birds fly"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+pták letíš
+ptá-k let-íš
+bird-NOM.M.SG flies-PRS.2SG
+"The bird flies"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+ptáci letíte
+ptá-ci let-íte
+bird-NOM.M.PL flies-PRS.2PL
+"The bird flies"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+já letím
+já let-ím
+1SG.NOM fly-PRS.1SG
+"I fly"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+ty letíš
+ty let-íš
+2SG.NOM fly-PRS.2SG
+"You fly"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+my letíme
+my let-íme
+1PL.NOM fly-PRS.1PL
+"We fly"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+vy letíte
+vy let-íte
+2PL.NOM fly-PRS.2PL
+"You (pl.) fly"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+já letíme
+já let-íme
+1SG.NOM fly-PRS.1PL
+"I fly"
+# Pronoun is singular, verb is plural
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+ty letíte
+ty let-íte
+2SG.NOM fly-PRS.2PL
+"You fly"
+# Pronoun is singular, verb is plural
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+já letí
+já let-í
+1SG.NOM fly-PRS.3SG
+"I fly"
+# Pronoun is 1SG, verb is 3SG
+
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: agreement
+ty letím
+ty let-ím
+2SG.NOM fly-PRS.1SG
+"I fly"
+# Pronoun is 2SG, verb is 1SG
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+já viděl jsem řeku
+já vid-ěl jsem řek-u
+1SG.NOM.M see-PP.M be.PRS.1SG river-ACC.M.SG
+"I (m.) saw the river"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+já viděla jsem řeku
+já vid-ěla jsem řek-u
+1SG.NOM.F see-PP.F be.PRS.1SG river-ACC.M.SG
+"I (f.) saw the river"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+já vidělo jsem řeku
+já vid-ělo jsem řek-u
+1SG.NOM.N see-PP.N be.PRS.1SG river-ACC.M.SG
+"I (n.) saw the river"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+já viděla jsem řeku
+já vid-ěla jsem řek-u
+1SG.NOM.M see-PP.F be.PRS.1SG river-ACC.M.SG
+"I (m.) saw the river"
+# past participle must agree in gender with subject
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: agreement
+tento pes viděl řeku
+ten-to pes vid-ěl řek-u
+this-NOM.M.SG dog.NOM.M.SG see-PP.3SG river-ACC.M.SG
+"This dog saw the river"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: agreement
+tento pes viděl je řeku
+ten-to pes vid-ěl je řek-u
+this-NOM.M.SG dog.NOM.M.SG see-PP.3SG be.PRS.3SG river-ACC.M.SG
+"This dog saw the river"
+# No auxillary required for 3rd person past tense
+
+Source: author
+Vetted: t
+Judgement: u
+Phenomena: case
+ptáka letí
+pták-a let-í
+bird-ACC.SG flies-PRS.3SG
+"The bird flies"
+# Subject should be NOM
+
+Source: author
+Vetted: t
+Judgement: u
+Phenomena: case
+ptáku letí
+pták-u let-í
+bird-DAT.SG flies-PRS.3SG
+"The bird flies"
+# Subject should be NOM
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: case
+pták vidí řeku
+ptá-k vid-í řek-u
+bird-NOM.M.SG see-PRS.3SG river-ACC.M.SG
+"The bird sees the river"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: case
+ptáka vidí řeku
+ptá-ka vid-í řek-u
+bird-ACC.M.SG see-PRS.3SG river-ACC.M.SG
+"The bird sees the river"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: case
+ptáku vidí řeku
+ptá-ku vid-í řek-u
+bird-DAT.M.SG see-PRS.3SG river-ACC.M.SG
+"The bird sees the river"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: case
+pták vidí řeka
+ptá-k vid-í řek-a
+bird-NOM.M.SG see-PRS.3SG river-NOM.M.SG
+"The bird sees the river"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: case
+pták vidí řece
+ptá-k vid-í řec-e
+bird-NOM.M.SG see-PRS.3SG river-DAT.M.SG
+"The bird sees the river"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: case
+já dám příteli knihu
+já dám přítel-i knih-u
+1SG.NOM give.PRS.1SG friend-DAT.SG book-ACC.SG
+"I give my friend a book"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: case
+mě dám příteli knihu
+mě dám přítel-i knih-u
+1SG.ACC give.PRS.1SG friend-DAT.SG book-ACC.SG
+"Me give my friend a book"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: case
+mi dám příteli knihu
+mi dám přítel-i knih-u
+1SG.DAT give.PRS.1SG friend-DAT.SG book-ACC.SG
+"Me give my friend a book"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: case
+já dám příteli kniha
+já dám přítel-i knih-a
+1SG.NOM give.PRS.1SG friend-DAT.SG book-NOM.SG
+"I give my friend a book"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: case
+já dám přítele knihu
+já dám přítel-e knih-u
+1SG.NOM give.PRS.1SG friend-ACC.SG book-ACC.SG
+"I give my friend a book"
+
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: case
+já dám přítel knihu
+já dám přítel knih-u
+1SG.NOM give.PRS.1SG friend.NOM.SG book-ACC.SG
+"I give my friend a book"
+
+Source: author
+Vetted: t
+Judgement: g
+Phenomena: modals
+pták může letět
+ptá-k může let-ět
+bird-NOM.SG can.PRS.3SG fly-INF
+"The bird can fly"
+
+# main verb is finite
+Source: author
+Vetted: t
+Judgement: u
+Phenomena: modals
+pták můž-e letí
+ptá-k můž-e let-í
+bird-NOM.SG can-PRS.3SG fly-PRS.3SG
+"The bird can fly" 
+
+# auxillary verb doesn't agree with noun in number
+Source: author
+Vetted: t
+Judgement: u
+Phenomena: modals
+pták můžou letět
+ptá-k můž-ou let-ět
+bird-NOM.SG can-PRS.3PL fly-INF
+"The bird can fly" 
+
+# auxillary verb doesn't agree with noun in person
+Source: author
+Vetted: t
+Judgement: u
+Phenomena: modals
+pták můžeš letět
+ptá-k můž-eš let-ět
+bird-NOM.SG can-PRS.2SG fly-INF
+"The bird can fly" 
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: modals
+oni můžou vidět řeku
+oni můž-ou vid-ět řek-u
+3PL.NOM can-PP see-INF river-ACC.M.SG
+"They can see the river"
+
+# verb's DO is in NOM, not ACC
+Source: author	
+Vetted: t
+Judgement: u
+Phenomena: modals
+oni můžou vidět řeka
+oni můž-ou vid-ět řek-a
+3PL.NOM can-PRS.3PL see-INF river-NOM.M.SG
+"They can see the river"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: modals
+já můžu jíst sklo
+já můž-u jí-st sklo
+1SG.NOM can-PRS.1SG eat-INF glass.ACC.M.SG
+"I can eat glass"
+
+Source: author	
+Vetted: t
+Judgement: g
+Phenomena: modals
+já musím jíst sklo
+já mus-ím jí-st sklo
+1SG.NOM must-PRS.1SG eat-INF glass.ACC.M.SG
+"I must eat glass"
+
+###### LAB 3 ######
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Argument optionality
+já pronásleduji auta
+já pronásled-uji aut-a
+1SG.NOM chase-PRS.1SG cars-ACC.N.PL
+"I chase cars"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Argument optionality
+pronásleduji auta
+pronásled-uji aut-a
+chase-PRS.1SG cars-ACC.N.PL
+"(I) chase cars"
+
+# verb is missing a complement
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Argument optionality
+já pronásleduji
+já pronásled-uji
+1SG.NOM chase-PRS.1SG
+"I chase [...]"
+
+# verb is missing a complement
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Argument optionality
+pronásleduji
+pronásled-uji
+chase-PRS.1SG
+"(I) chase [...]"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Argument optionality
+já dám příteli knihu
+já dám přítel-i knih-u
+1SG.NOM give.PRS.1SG friend-DAT.SG book-ACC.SG
+"I give my friend a book"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Argument optionality
+dám příteli knihu
+dám přítel-i knih-u
+give.PRS.1SG friend-DAT.SG book-ACC.SG
+"(I) give my friend a book"
+
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Argument optionality
+dám příteli
+dám přítel-i
+give.PRS.1SG friend-DAT.SG
+"(I) give my friend [...]"
+# ditransitive lacks its second complement
+
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Argument optionality
+dám knihu
+dám knih-u
+give.PRS.1SG book-ACC.SG
+"(I) give [...] a book"
+# ditransitive lacks its first complement
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Negation
+já vidím řeku
+já vid-ím řek-u
+1SG.NOM.M see-PRS.1SG river-ACC.M.SG
+"I see the river"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Negation
+já nevidím řeku
+já ne-vid-ím řek-u
+1SG.NOM.M NEG-see-PRS.1SG river-ACC.M.SG
+"I don't see the river"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Negation
+já můžu vidět řeku
+já můž-u vid-ět řek-u
+1SG.NOM.M can-1SG.PRS see-INF river-ACC.M.SG
+"I can see the river"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Negation
+já nemůžu vidět řeku
+já ne-můž-u vid-ět řek-u
+1SG.NOM.M NEG-can-1SG.PRS see-INF river-ACC.M.SG
+"I can't see the river"
+
+# negation prefix is attached to main verb, not modal
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Negation
+já můžu nevidět řeku
+já můž-u ne-vid-ět řek-u
+1SG.NOM.M can-1SG.PRS NEG-see-INF river-ACC.M.SG
+"I can't see the river"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Negation
+já neviděl jsem řeku
+já ne-vid-ěl jsem řek-u
+1SG.NOM.M NEG-see-INF be.1SG.PRS river-ACC.M.SG
+"I didn't see the river"
+
+# negation prefix is attached to auxillary, not main verb
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Negation
+já viděl nejsem řeku
+já vid-ěl ne-jsem řek-u
+1SG.NOM.M see-INF NEG-be.1SG.PRS river-ACC.M.SG
+"I didn't see the river"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Negation
+já nevidím řeku ani ptáka
+já ne-vid-ím řek-u ani pták-a
+1SG.NOM.M NEG-see-1SG.PRE river-ACC.M.SG nor bird-ACC.M.SG
+"I see neither the river nor the bird"
+
+# Uses a positive conjunct (and) rather than a negative (nor)
+# Not sure this example is relevant, though.
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Negation
+já nevidím řeku ani ptáka
+já ne-vid-ím řek-u i pták-a
+1SG.NOM.M NEG-see-1SG.PRE river-ACC.M.SG and bird-ACC.M.SG
+"I see neither the river and the bird"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Main clause yes-no questions
+vidí pes řeku?
+vid-í pes řek-u
+see-PRS.3SG dog.NOM.M.SG river-ACC.M.SG
+"Does the dog see the river?"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Main clause yes-no questions
+viděl pes řeku?
+vid-ěl pes řek-u
+see-PP.3SG dog.NOM.M.SG river-ACC.M.SG
+"Did the dog see the river?"
+
+# Negative question
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Main clause yes-no questions
+nevidí pes řeku?
+ne-vid-í pes řek-u
+NEG-see-PRS.3SG dog.NOM.M.SG river-ACC.M.SG
+"Doesn't the dog see the river?"
+
+# Negative question, past tense
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Main clause yes-no questions
+neviděl pes řeku?
+ne-vid-ěl pes řek-u
+NEG-see-PP.3SG dog.NOM.M.SG river-ACC.M.SG
+"Didn't the dog see the river?"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Embedded clauses
+pes pronásleduje ptáka, který letí
+pes pronásled-uje ptá-ka, který let-í
+dog.NOM.M.SG chase-PRS.3SG bird-ACC.1SG which fly-PRS.1SG
+"The dog chases the bird that flies."
+
+# embedded verb is in the infinitive
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Embedded clauses
+pes pronásleduje ptáka, který letět
+pes pronásled-uje ptá-ka, který let-ět
+dog.NOM.M.SG chase-PRS.3SG bird-ACC.1SG which fly-INF
+"The dog chases the bird that flies."
+
+# embedded clause repeats subject
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Embedded clauses
+pes pronásleduje ptáka, který ptáka letět
+pes pronásled-uje ptá-ka, který ptá-ka let-ět
+dog.NOM.M.SG chase-PRS.3SG bird-ACC.1SG which bird-ACC.1SG fly-INF
+"The dog chases the bird that [the bird] flies."
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Embedded clauses
+já nevím kdo je ta žena
+já ne-vím kdo je ta žen-a
+1SG.NOM.M NEG-know.PRS.1SG who be.PRS.3SG that.ACC.1SG.F woman-ACC.1SG.F
+"I don't know who that woman is"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Embedded clauses
+já nevím kdo je ta žena
+já ne-vím kdo ta žen-a je 
+1SG.NOM.M NEG-know.PRS.1SG who that.ACC.1SG.F woman-ACC.1SG.F be.PRS.3SG 
+"I don't know who that woman is"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Embedded clauses
+já se ptám, jestli pes vidí řeku
+já se ptá-m, jestli pes vid-í řek-u
+1SG.NOM.M REFL ask-1SG.PRS whether dog.NOM.M.SG see-PRS.1SG river-ACC.M.1SG
+"I ask whether the dog sees the river"
+
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Embedded clauses
+já se ptám, pes vidí řeku
+já se ptá-m, pes vid-í řek-u
+1SG.NOM REFL ask-1SG.PRS dog.NOM.M.SG see-PRS.1SG river-ACC.M.1SG
+"I ask [...] the dog sees the river"
+# complementizer missing
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Embedded clauses
+já myslim ze pták letí
+já mysl-im ze pták let-í
+1SG.NOM think-1SG.PRS that bird.ACC.1SG fly-PRS.3SG
+"I think that the bird flies"
+
+# complementizer missing
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Embedded clauses
+já myslim pták letí
+já mysl-im pták let-í
+1SG.NOM think-1SG.PRS bird.ACC.1SG fly-PRS.3SG
+"I think [...] the bird flies"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Coordination
+pták letí a pes vidí řeku
+ptá-k let-í a pes vid-í řek-u
+bird-NOM.SG flies-PRS.3SG and  dog.NOM.M.SG see-PRS.3SG river-ACC.M.SG
+"The bird flies and the dog sees the river."
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Coordination
+pták i pes vidí řeku
+ptá-k i pes vid-í řek-u
+bird-NOM.SG and dog.NOM.M.SG see-PRS.3PL river-ACC.M.SG
+"The bird and the dog see the river."
+
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Coordination
+pták letí a pes vidí řeku
+ptá-k let-í i pes vid-í řek-u
+bird-NOM.SG flies-PRS.3SG and  dog.NOM.M.SG see-PRS.3SG river-ACC.M.SG
+"The bird flies and the dog sees the river."
+# Wrong coordinator
+
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Coordination
+pták a pes vidí řeku
+ptá-k a pes vid-í řek-u
+bird-NOM.SG and dog.NOM.M.SG see-PRS.3PL river-ACC.M.SG
+"The bird and the dog see the river."
+# Wrong coordinator
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Tense / aspect
+pes pronásleduje auta
+pes pronásled-uje aut-a
+dog.NOM.M.SG chase-PRS.3SG car-ACC.N.SG
+The dog chases the car
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Tense / aspect
+pes pronásledoval auta
+pes pronásled-ovalo aut-a
+dog.NOM.M.SG chase-P.N.3SG car-ACC.N.SG
+The dog chased the car
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Tense / aspect
+pes bude pronásledovat auta
+pes bud-e pronásled-ovat aut-a
+dog.NOM.M.SG be-FUT.3SG chase-INF car-ACC.N.SG
+The dog will chase the car
+
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Tense / aspect
+pes pronásledovat bude auta
+pes pronásled-ovat bud-e aut-a
+dog.NOM.M.SG chase-INF be-FUT.3SG car-ACC.N.SG
+The dog will chase the car
+# main verb can't precede auxillary in future construction
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Tense / aspect
+já budu vidět řeku
+já bud-u vid-ět řek-u
+1SG.NOM be-FUT.1SG see-INF river-ACC.M.SG
+"I will see the river"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: Tense / aspect
+já uvidím řeku
+já u-vid-ím řek-u
+1SG.NOM PRF-see-PRS.1SG river-ACC.M.SG
+"I will see the river"
+
+Source: author	
+Vetted: f
+Judgement: u
+Phenomena: Tense / aspect
+já budu uvidět řeku
+já bud-u u-vid-ět řek-u
+1SG.NOM be-FUT.1SG PRF-see-INF river-ACC.M.SG
+"I will see the river"
+# This example mixes the two strategies for building a future tense: an auxillary, plus the present tense of the perfective version of the verb.
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+psi spí
+ps-i sp-í
+dog-NOM.PL sleep-PRS.3PL
+"The dogs sleep"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+psi pronásledujou auta
+ps-i pronásled-ujou aut-a
+dog-NOM.PL chase-PRS.3PL car-ACC.N.PL
+"Dogs chase cars"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+já pronásleduji tě
+já pronásled-uji tě
+1SG.NOM chase-PRS.1SG 2SG.ACC
+"I chase you"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+tito psi spí
+ti-to ps-i sp-í
+this-NOM.PL.M dog-NOM.PL.M sleep-PRS.3PL
+"The dogs sleep"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+psi jedí
+ps-i jed-í
+dog-NOM.PL eat-PRS.3PL
+"The dogs eat"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+já můžu jíst sklo
+já můž-u jí-st sklo
+1SG.NOM can-PRS.1SG eat-INF glass.ACC.M.SG
+"I can eat glass"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+to neškodí mi
+to ne-škod-í mi
+that.NOM.N.SG NEG-hurt-PRS.3SG 1SG.DAT
+It does not hurt me
+# I'm not sure why "me" has to be in the dative here, but that's what the "I can eat glass" page says.  Perhaps that's just an idiosyncrasy of the verb.
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+psi pronásledujou auta
+ps-i pronásled-ujou aut-a
+dog-NOM.PL chase-PRS.3PL car-ACC.N.PL
+"(The) dogs chase cars"
+# There are no articles in Czech, so this is equivalent to the previous sentence "dogs chase cars."
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+já myslim ze ty víš ze psi pronásledujou auta
+já mysl-im ze ty v-íš ze ps-i pronásled-ujou aut-a
+1SG.NOM think-1SG.PRS that 2SG.NOM know-PRS.2SG that dog-NOM.PL chase-PRS.3PL car-ACC.N.PL
+"I think you know that dogs chase cars"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+já se ptám jestli, ty víš ze psi pronásledujou auta
+já se pt-ám jestli, ty v-íš ze ps-i pronásled-ujou aut-a
+1SG.NOM.M REFL ask-1SG.PRS whether 2SG.NOM know-PRS.2SG that dog-NOM.PL chase-PRS.3PL car-ACC.N.PL
+"I ask whether you know that dogs chase cars"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+kočky i psi pronásledujou auta
+koč-ky i ps-i pronásled-ujou aut-a
+cat-NOM.PL and dog-NOM.PL chase-PRS.3PL car-ACC.N.PL
+"Cats and dogs chase cars"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+psi pronásledujou auta a kočky pronásledujou psy
+ps-i pronásled-ujou aut-a a koč-ky pronásled-ujou ps-y
+dog-NOM.PL chase-PRS.3PL car-ACC.N.PL and cat-NOM.PL chase-PRS.3PL dog-ACC.PL
+"Dogs chase cars and cats chase dogs"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+kočky pronásledujou psy a spí
+koč-ky pronásled-ujou ps-y a sp-í
+cat-NOM.PL chase-PRS.3PL dog-ACC.PL and sleep-PRS.3PL
+"Cats chase dogs and sleep"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+pronásledujou psy kočky?
+pronásled-ujou ps-y koč-ky?
+chase-PRS.3PL dog-ACC.PL cat-NOM.PL
+"Do cats chase dogs?"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+pronásledujte psa!
+pronásled-ujte ps-a!
+chase-IMP.SG dog-ACC.SG
+"Chase the dog!"
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+hladoví psi jedí
+hladov-í ps-i jed-í
+hungry-NOM.PL dog-NOM.PL eat-PRS.3PL
+"Hungry dogs eat."
+
+Source: author	
+Vetted: f
+Judgement: g
+Phenomena: MT examples
+hladoví psi jedí rychle
+hladov-í ps-i jed-í rychle
+hungry-NOM.PL dog-NOM.PL eat-PRS.3PL quickly
+"Hungry dogs eat quickly."

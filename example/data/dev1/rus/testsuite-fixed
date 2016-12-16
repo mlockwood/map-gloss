@@ -1,0 +1,2525 @@
+Language: Russian
+Language code: rus
+Tiers: orth orth-seg gloss translat
+Author: Gracheva, Suskic
+Date: January 13, 2009
+Source a: Cubberley (2002). Russian: A Linguistic Introduction. Cambridge University Press.
+Source b: Wade, Terence (1992). A Comprehensive Russian Grammar. Cambridge: Blackwell Publishers.
+
+
+#1 Comment: Russian is a free word order language, so we only have grammatical examples for this part.  
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: word order
+Ivan kupil        sobaku.
+Ivan kupi-l       sobak-u
+Ivan buy-3SG.PST  dog-ACC.SG
+Ivan bought a dog.
+
+#2
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: word order
+Sobaku      kupil       Ivan.
+sobak-u     kupi-l      Ivan
+Dog-ACC.SG  buy-3SG.PST Ivan
+Ivan bought a dog.
+
+#3
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: word order
+Kupil        Ivan sobaku.
+Kupi-l       Ivan sobak-u
+buy-3SG.PST  Ivan dog-ACC
+Ivan bought a dog.
+
+#4
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: word order
+Sobaku     kupil       Ivan.
+Sobak-u    kupi-l      Ivan
+Dog-ACC.SG buy-3SG.PST Ivan
+Ivan bought a dog.
+
+#5
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: word order
+Ivan sobaku      kupil.
+Ivan sobak-u     kupi-l
+Ivan dog-ACC.3SG buy-3SG.PST
+Ivan bought a dog.
+
+#6
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: word order
+Sobaku     Ivan kupil.
+Sobak-u    Ivan kupi-l
+Dog-ACC.SG Ivan buy-3SG.PST
+Ivan bought a dog.
+
+#7
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: word order
+Ivan kupil       knigu.
+Ivan kupi-l      knig-u
+Ivan buy-3SG.PST book-ACC.SG
+Ivan bought a book.
+
+#8
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: word order
+Knigu       kupil       Ivan.
+Knig-u      kupi-l      Ivan
+Book-ACC.SG buy-3SG.PST Ivan
+Ivan bought a book.
+
+#9
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: word order
+Ivan spit.
+Ivan sp-it
+Ivan sleep-3SG.PRS
+Ivan is sleeping.
+
+#10
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: word order
+Spit          Ivan.
+Sp-it         Ivan
+Sleep-3SG.PRS Ivan
+Ivan is sleeping.
+
+#11
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: word order
+Sobaka  spit.
+Sobaka  sp-it
+Dog.NOM sleep-3SG.PRS
+The doog is sleeping.
+
+#12
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: word order
+Spit          sobaka.
+Sp-it         sobaka
+Sleep-3SG.PRS dog.NOM
+The dog is sleeping.
+
+
+#13                                      
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Ja      splju.
+Ja      spl-ju
+1SG.NOM sleep-IMP.1SG.PRS
+I am sleeping.  
+
+
+#14                                      
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Sp-l-ju         ja.
+Sp-l-ju         ja     
+Sleep-1SG-PRS  1SG.NOM
+I am sleeping.  
+
+#15 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Ty      spishj.
+Ty      sp-ishj.
+2SG.NOM sleep-2SG.PRS
+You are sleeping. 
+
+# 16
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Spishj         ty.
+Sp-ishj        ty.
+Sleep-2SG.PRS  2SG.NOM
+You are sleeping. 
+
+# 17
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+On           spit.
+On           sp-it.
+3SG.MASC.NOM sleep-3SG.PRS
+He is sleeping. 
+
+#18 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Spit                on.
+Sp-it               on.
+Sleep-3SG.PRS       3SG.MASC.NOM
+He is sleeping. 
+
+#19 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Ona         spit.
+Ona         sp-it.
+3SG.NOM.FEM sleep-3SG.PRS
+She is sleeping. 
+
+#20 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Spit           ona.
+Sp-it          ona
+Sleep-3SG.PRS  3SG.FEM.NOM
+She is sleeping. 
+
+#21 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Ono          spit.
+Ono          sp-it.
+3SG.NOM.NEUT sleep-3SG.PRS
+It is sleeping. 
+
+#22 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Spit           ono.
+Sp-it          ono
+Sleep-3SG.PRS  3SG.NEUT.NOM
+It is sleeping. 
+
+
+#23 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+My      spim.
+My      sp-im.
+1PL.NOM sleep-1PL.PRS
+We are sleeping. 
+
+#24 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Spim           my.
+Sp-im          my.
+Sleep-1PL.PRS  1PL.NOM
+We are sleeping. 
+
+#25 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Vy      spite.
+Vy      sp-ite.
+2PL.NOM sleep-2PL.PRS
+You are sleeping. 
+
+#26 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Spite          vy.
+Sp-ite         vy.
+Sleep-2PL.PRS  2PL.NOM
+You are sleeping. 
+
+#27 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Oni      spjat.
+Oni      sp-jat.
+3PL.NOM sleep-3PL.PRS
+They are sleeping. 
+
+#28 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: pronoun
+Spjat          oni.
+Sp-jat         oni.
+Sleep-3PL.PRS  3PL.NOM
+They are sleeping. 
+
+#29 comment: nominative case (noun-nom intrans-verb)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: case
+Sobaka  spit.
+Sobak-a sp-i-t
+Dog-NOM sleep-3.SG-PRS
+The dog is sleeping.
+
+#30 comment: nominative case (intrans-verb noun-nom)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: case
+Spit            sobaka.
+Sp-it           sobak-a
+Sleep-3.SG.PRS  dog-NOM
+The dog is sleeping.
+
+#31 comment: nominative case (*noun-gen intrans-verb)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Sobaki   spit.
+Sobak-i  sp-it
+Dog-GEN sleep-PRS.3SG
+intended: The dog is sleeping.
+
+#32 comment: nominative case (*intrans-verb noun-gen )
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Spit            sobaki.
+Sp-it           sobak-i
+Sleep-3.SG.PRS  dog-GEN
+intended: the dog is sleeping.
+
+#33 comment: nominative case (*noun-dat intrans-verb)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Sobake spit.
+Sobak-e sp-it
+Dog-DAT sleep-PRS.3SG
+intended: The dog is sleeping.
+
+#34 comment: nominative case (*intrans-verb noun-dat)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Spit            sobake.
+Sp-it           sobak-e
+Sleep-3.SG.PRS  dog-DAT
+intended: the dog is sleeping.
+
+#35 comment: nominative case (*noun-acc intrans-verb)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Sobaku spit.
+Sobak-u sp-it
+Dog-ACC sleep-PRS.3SG
+intended: The dog is sleeping.
+
+#36 comment: nominative case (*intrans-verb noun-acc)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Spit            sobaku.
+Sp-it           sobak-u
+Sleep-3.SG.PRS  dog-ACC
+intended: the dog is sleeping.
+
+#37 comment: nominative case (*noun-inst intrans-verb)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Sobakoj   spit.
+Sobak-oj  sp-it
+Dog-INST sleep-PRS.3SG
+intended: The dog is sleeping.
+
+#38 comment: nominative case (*intrans-verb noun-inst)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Spit            sobakoj.
+Sp-it           sobak-oj
+Sleep-3.SG.PRS  dog-INST
+intended: the dog is sleeping.
+
+#39 comment: nominative case (*noun-prep intrans-verb)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+V   sobake   spit.
+V   sobak-e  sp-it
+In dog-PREP  sleep-PRS.3SG
+intended: The dog is sleeping.
+
+#40 comment: nominative case (*intrans-verb noun-prep)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Spit            v  sobake.
+Sp-it           v  sobak-e
+Sleep-3.SG.PRS  in dog-PREP
+intended: the dog is sleeping.
+
+#41 comment: genitive case (noun-nom noun-gen intrans-verb)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: case
+Sobaka  Ivana    spit.
+Sobak-a Ivan-a   sp-it
+Dog-NOM Ivan-GEN sleep-3.SG.PRS
+Ivan's dog is sleeping.
+
+#42 comment: genitive case (*noun-nom noun-dat intrans-verb)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Sobaka  Ivanu    spit.
+Sobak-a Ivan-u   sp-it
+Dog-NOM Ivan-DAT sleep-3.SG.PRS
+intended: Ivan's dog is sleeping.
+
+#43 comment: dative case (noun-nom ditrans-verb noun-dat noun-acc)    	
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: case
+Ivan     kupil         sobake   knigu.
+Ivan     kupi-l        sobak-e  knig-u
+Ivan.NOM buy-3.SG.PST  dog-DAT  book-ACC
+Ivan bought a book for the dog.  
+
+#44 comment: dative case (*noun-nom ditrans-verb noun-nom noun-acc)    				
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Ivan     kupil         sobaka   knigu.
+Ivan     kupi-l        sobak-a  knig-u
+Ivan.NOM buy-3.SG.PST  dog-NOM  book-ACC
+intended: Ivan bought a book for the dog. 
+
+#45 comment: accusative case (noun-nom trans-verb noun-acc)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: case
+Ivan       kupil         knigu.
+Ivan       kupi-l        knig-u
+Ivan.NOM   buy-3.SG.PST  book-ACC
+Ivan bought a book.  
+
+#46 comment: accusative case (noun-acc trans-verb noun-nom)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: case
+Knigu       kupil         Ivan.
+knig-u       kupi-l        Ivan
+book-ACC    buy-3.SG.PST  Ivan.NOM
+Ivan bought a book. 
+
+#47 comment: accusative case (*noun-acc trans-verb noun-acc)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Ivana      kupil         knigu.
+Ivana      kupi-l        knig-u
+Ivan.ACC   buy-3.SG.PST  book-ACC
+intended: Ivan bought a book.  
+
+#48 comment: accusative case (*noun-dat trans-verb noun-acc)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Ivanu      kupil         knigu.
+Ivanu      kupi-l        knig-u
+Ivan.DAT   buy-3.SG.PST  book-ACC
+intended: Ivan bought a book. 
+
+#49 comment: accusative case (*noun-nom trans-verb noun-nom)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Ivan       kupil         kniga.
+Ivan       kupi-l        knig-a
+Ivan.NOM   buy-3.SG.PST  book-NOM
+intended: Ivan bought a book.  
+
+#50 comment: accusative case (*noun-nom trans-verb noun-dat)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Ivan       kupil         knige.
+Ivan       kupi-l        knig-e
+Ivan.NOM   buy-3.SG.PST  book-DAT
+intended: Ivan bought a book.  
+
+#51 comment: instrumental case
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: case
+Ivan letit         samoljotom.
+Ivan let-it        samoljot-om
+Ivan fly-3.SG.PRS  plane-INST
+Ivan is flying by plane.
+
+#53 comment: instrumental case
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Ivan letit         samoljotu.
+Ivan let-it        samoljot-u
+Ivan fly-3.SG.PRS  plane-DAT
+intended: Ivan is flying by plane.  
+
+#54 comment: prepositional case
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: case
+Ivan letit         v  samoljote.
+Ivan let-i-t       v  samoljot-e
+Ivan fly-3.SG-PRS  in plane-PREP
+Ivan is flying in the plane.
+
+#55 comment: prepositional case (*preposition noun.NOM)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: case
+Ivan letit        v  samoljote.
+Ivan let-it       v  samoljot
+Ivan fly-3.SG.PRS in plane.NOM
+intended: Ivan is flying in the plane.   
+
+
+#56 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: determiners
+Jeta     sobaka  spit.
+Jet-a    sobak-a sp-it
+This-FEM dog-NOM sleep-3.SG.PRS
+This dog is sleeping.
+
+#57
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: determiners
+Sobaka  jeta   spit.
+Sobak-a jet-a  sp-it
+dog-NOM this-FEM sleep-3.SG.PRS
+This dog is sleeping.
+
+#58
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: determiners
+Jeta     ona     spit.
+Jet-a    ona     sp-it
+This-FEM 3SG.NOM sleep-3.SG.PRS
+intended: this she is sleeping.
+
+#59
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: determiners
+Ona      jeta     spit.
+Ona      jet-a    sp-it
+3.SG.NOM this-FEM sleep-3.SG.PRS
+intended: this she is sleeping.
+
+#60 comment: Imperfective Present
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: aspect
+Ivan               chitaet       knigu.
+Ivan               chita-et      knig-u 
+Ivan.MASC.3SG.NOM  read-3SG.PRS  book-FEM.3SG.ACC
+Ivan is reading a book. 
+
+#61 comment: Imperfective Present (Determinate Form)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: aspect
+Ona          hodit        v   shkolu.
+Ona          hod-it       v   shol-u 
+FEM.3SG.NOM  go-3SG.PRS   in  school-3SG.ACC
+She goes to school
+
+#62 comment: Imperfective Present (Indeterminate Form)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: aspect
+Ona          idjot        v   shkolu.
+Ona          id-jot       v   shol-u 
+FEM.3SG.NOM  go-3SG.PRS   in  school-3SG.ACC
+She is going to school
+
+#63 comment: Imperfective Past, cannot form an ungrammatical sentence, since if we use Perfective prefix here, it will be interpre
+#ted as grammatical Perfective form.
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: aspect
+Ivan               chital            knigu.
+Ivan               chita-l            knig-u 
+Ivan.MASC.3SG.NOM  read-IMP.PST.3SG   book-FEM.3SG.ACC
+Ivan was reading a book. 
+
+#64 comment: Perfective Past: often formed by addition of prefix; cannot form an ungrammatical sentence, since if we use 
+#Imperfective prefix here, it will be interpreted as grammatical Imperfective form.
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: aspect
+Ivan               prochital            knigu
+Ivan               pro.PERF-chit-al     knig-u 
+Ivan.MASC.3SG.NOM  read-PST-3SG    	book-FEM.3SG.ACC
+Ivan read a book. 
+
+#65 comment: Secondary Imperfective Past: 					
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: aspect
+Ivan               prochityval          knigu
+Ivan               pro-chit-yv-al       knig-u 
+Ivan.MASC.3SG.NOM  pro.PERF-read-IMP.PST-3SG    book-FEM.3SG.ACC
+Ivan read book
+
+#66 comment: (Secondary) Imperfective Past					
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: aspect
+Ivan               pokupal                   knigu
+Ivan               po-kupa-l                 knig-u 
+Ivan.MASC.3SG.NOM  po.IMP-buy-PERF.PST.3SG   book-FEM.3SG.ACC
+intended: Ivan was buying a book. 
+
+#67 comment: intended as Imperfective Past, but its suffix is for Perfective form.	//NOT USING THIS EXAMPLE
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: aspect
+Ivan               pokupil                   knigu
+Ivan               po-kup-i-l                knig-u 
+Ivan.MASC.3SG.NOM  po.IMP-buy-PERF.PST-3SG   book-FEM.3SG.ACC
+intended: Ivan was buying a book. 
+
+#68 comment: intended as Perfective Past, but its suffix is for the Imperfective form.    //NOT USING THIS EXAMPLE
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: aspect
+Ivan               kupal              knigu
+Ivan               kup-a-l            knig-u 
+Ivan.MASC.3SG.NOM  buy-IMP-PST.3SG    book-FEM.3SG.ACC
+intended: Ivan bought a book. 
+
+
+#69 comment: Perfective Future
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: aspect
+Ivan               kupit              knigu
+Ivan               kup-i-t            knig-u 
+Ivan.MASC.3SG.NOM  buy-PERF-FUT.3SG   book-FEM.3SG.ACC
+Ivan will buy a book. 
+
+#70 comment: Imperfective Future
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: aspect
+Ivan               budet        pokupatj              knigu
+Ivan               bud-e-t      po-kup-a-tj           knig-u 
+Ivan.MASC.3SG.NOM  be.FUT-SG-3  po.IMP-buy-IMP-INF    book-FEM.3SG.ACC
+Ivan will be buying a book. 
+
+#71 comment: intended is Imperfective, but its suffix is for Perfective form.
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: aspect
+Ivan               budet        pokupitj              knigu
+Ivan               bud-e-t      po-kup-i-tj           knig-u 
+Ivan.MASC.3SG.NOM  be.FUT-SG-3  po.IMP-buy-PERF-INF   book-FEM.3SG.ACC
+intended: Ivan will be buying a book. 
+
+#72 comment: intended is Perfective, but its suffix is for the Imperfective form.
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: aspect
+Ivan               budet        kupatj        knigu
+Ivan               bud-e-t      kup-a-tj      knig-u 
+Ivan.MASC.3SG.NOM  be.FUT-SG-3  buy-IMP-INF   book-FEM.3SG.ACC
+intended: Ivan will buy a book. 
+
+
+#73 comment: Present (1-conjugation verb)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: tense
+Ivan               chitaet        knigu
+Ivan               chita-et       knig-u 
+Ivan.MASC.3SG.NOM  read-3SG.PRS   book-FEM.3SG.ACC
+Ivan is reading a book. 
+
+#74 comment: Present (1-conjugation verb with the 2-conjugation verb suffix).
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: tense
+Ivan               chitait        knigu
+Ivan               chita-it       knig-u 
+Ivan.MASC.3SG.NOM  read-3SG.PRS   book-FEM.3SG.ACC
+intended: Ivan is reading a book. 
+
+#75 comment: Present (2-conjugation verb)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: tense
+Vy        govorite.  
+Vy        govor-ite
+2PL.NOM   speak-2PL.PRS
+You are speaking.
+
+#76 comment: Present (2-conjugation verb with the 1-conjugation verb suffix).
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: tense
+Vy        govorete.  
+Vy        govor-ete
+2PL.NOM   speak-2PL.PRS
+intended: you are speaking.
+
+
+#77 comment: Past Tense (masc)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: tense
+Ivan               spal.      
+Ivan               spa-l         
+Ivan.MASC.3SG.NOM  sleep-IMP.PST.3SG.MASC
+Ivan was sleeping. 
+
+#78 comment: Past Tense(fem)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: tense
+Ona          spala.      
+Ona          spa-l-a        
+3SG.FEM.NOM  sleep-IMP.PST.3SG-FEM 
+She was sleeping.
+
+#79 comment: Past Tense (neut)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: tense
+Ono           spalo.      
+Ono           spa-l-o        
+3SG.NEUT.NOM  sleep-IMP.PST.3SG-NEUT 
+It was sleeping.
+
+#80 comment: Past Tense (pl)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: tense
+Oni      spali.      
+Oni      spa-l-i        
+3PL.NOM  sleep-IMP.PST.3-PL 
+They were sleeping.
+
+
+#81 comment: Perfective Future
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: aspect
+Ivan               kupit              knigu
+Ivan               kup-it             knig-u 
+Ivan.MASC.3SG.NOM  buy-PERF.FUT.3SG   book-FEM.3SG.ACC
+Ivan will buy a book. 
+
+#82 comment: Imperfective Future (again this is a case where the prefix is added for the Imperfective, while the Perfective 
+#form "kupitj" is unprefixed)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: aspect
+Ivan               budet       pokupatj              knigu
+Ivan               bud-et      po-kup-atj            knig-u 
+Ivan.MASC.3SG.NOM  be.FUT-3SG  po.IMP-buy-IMP.INF    book-FEM.3SG.ACC
+Ivan will be buying a book. 
+
+#83 comment: Imperfective Future (compound without the verb "bytj")
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: aspect
+Ivan               pokupatj              knigu
+Ivan               po-kup-atj            knig-u 
+Ivan.MASC.3SG.NOM  po.IMP-buy-IMP.INF    book-FEM.3SG.ACC
+intended: Ivan will be buying a book. 
+
+
+#84 comment: Present (1SG verb.1SG)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Ja       spl-ju.      
+Ja       spl-ju.         
+1SG.NOM  sleep-IMP.PRS.1SG 
+I am sleeping.
+
+#85 comment: Present (*1SG verb.3SG )
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Ja       sp-it.      
+Ja       sp-it.         
+1SG.NOM  sleep-IMP.PRS.3SG 
+intended: I am sleeping.
+
+
+#86 comment: Present (1PL verb.1PL)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+My       spim      
+My       sp-im         
+1PL.NOM  sleep-IMP.PRS.1PL 
+We are sleeping.
+
+#87 comment: Present (*1PL verb.1SG)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+My       spish     
+My       sp-ish         
+1PL.NOM  sleep-IMP.PRS.1SG  
+intended: We are sleeping.
+
+
+#88 comment: Present (2SG verb.2SG)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Ty       spishj.      
+Ty       sp-ishj         
+2SG.NOM  sleep-IMP.PRS.2SG 
+You are sleeping. 
+
+#89 comment: Present (*2SG verb.2PL)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Ty       spite.      
+Ty       sp-ite         
+2SG.NOM  sleep-IMP.PRS.2PL 
+You are sleeping. 
+
+
+#90 comment: Present (2PL verb.2PL)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Vy       spite.      
+Vy       sp-ite         
+2PL.NOM  sleep-IMP.PRS.2PL 
+You are sleeping. 
+
+
+#91 comment: Present (3SG verb 2SG)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Ivan               spit.      
+Ivan               sp-i-t         
+Ivan.MASC.3SG.NOM  sleep-IMP-PRS.3SG 
+Ivan is sleeping. 
+
+#92 comment: Present (3PL verb.3PL)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Oni         spjat.      
+Oni         sp-jat         
+3SG.PL.NOM  sleep-IMP.PRS.3PL 
+They are sleeping.
+
+
+#93 comment: Past Tense (noun.3SG.MASC verb.3SG.MASC)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Ivan               spal.      
+Ivan               spa-l         
+Ivan.MASC.3SG.NOM  sleep-IMP.PST.3SG 
+Ivan was sleeping. 
+
+#94 comment: Past Tense (*noun.3SG.MASC verb.3SG.FEM)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Ivan               spala.      
+Ivan               spa-l-a         
+Ivan.MASC.3SG.NOM  sleep-IMP.PST.3SG-FEM
+intended: Ivan was sleeping. 
+
+
+#95 comment: Past Tense (noun.3SG.FEM verb.3SG.FEM)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Ona          spala.      
+Ona          spa-l-a        
+3SG.FEM.NOM  sleep-IMP.PST.3SG-FEM 
+She was sleeping.
+
+#96 comment: Past Tense (*noun.3SG.FEM verb.3PL)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Ona          spali.      
+Ona          spa-l-i        
+3SG.FEM.NOM  sleep-IMP.PST.3-PL 
+intended: She was sleeping.
+
+#97 comment: Past Tense (noun.3PL verb.3PL)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Oni          spali.      
+Oni          spa-l-i        
+3PL.NOM      sleep-IMP.PST.3-PL 
+They were sleeping.
+
+#98 comment: Past Tense (noun.2PL verb.2PL) // is the same for all plural forms, regardless of the PERSON.
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Vy          spali.      
+Vy          spa-l-i        
+2PL.NOM     sleep-IMP.PST.2-PL 
+You were sleeping.
+
+#99 comment: Past Tense (*noun.2SG verb.2PL) 
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Ty          spali.      
+Ty          spa-l-i        
+2SG.NOM     sleep-IMP.PST.2-PL 
+intended: You were sleeping.
+
+
+#100 comment: Perfective Future (noun.3SG verb.3SG)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Ivan               kupit              knigu
+Ivan               kupi-t             knig-u 
+Ivan.MASC.3SG.NOM  buy-PERF.FUT.3SG   book-FEM.3SG.ACC
+Ivan will buy a book. 
+
+#101 comment: Perfective Future (noun.1SG verb.1SG)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Ja 	 prochitaju 		  knigu.
+Ja       pro-chita-ju             knig-u
+1SG.NOM  pro.PERF-read-PERF1SG    book-FEM.3SG.ACC
+I will read a book. 
+
+#102 comment: Perfective Future (*noun.1SG verb.1PL)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Ja 	 prochitaem 		  knigu.
+Ja       pro-chita-em             knig-u
+1SG.NOM  pro.PERF-read-PERF1PL    book-FEM.3SG.ACC
+intended: I will read a book.  
+
+#103 comment: Perfective Future (*noun.1SG verb.3SG)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Ja 	 prochitaet 		  knigu.
+Ja       pro-chita-et             knig-u
+1SG.NOM  pro.PERF-read-PERF3SG    book-FEM.3SG.ACC
+intended: I will read a book.    
+
+#104 comment: Perfective Future (noun.3SG verb.3SG)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Ivan               prochitaet		    knigu
+Ivan               pro-chita-et             knig-u
+Ivan.MASC.3SG.NOM  pro.PERF-read-PERF3SG    book-FEM.3SG.ACC
+Ivan will read a book. 
+
+#105 comment: Perfective Future (*verb.1SG noun.3SG)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Ivan 	      prochitaju 	       knigu.
+Ivan          pro-chita-ju             knig-u
+Ivan.3SG.NOM  pro.PERF-read-PERF1SG    book-FEM.3SG.ACC
+intended: Ivan will read a book.    
+
+#106 comment: Imperfective Future (noun.3SG verb.3SG)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Ivan               budet        chitatj        knigu
+Ivan               bude-t       chit-atj        knig-u 
+Ivan.MASC.3SG.NOM  be-FUT.3SG   read-IMP.INF    book-FEM.3SG.ACC
+Ivan will read a book. 
+
+#107 comment: det-sg-nom n-sg-nom verb-3sgsubj adj-sg-acc n-sg-acc
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           chitaet        boljshuju         knigu
+Jet-a             devochk-a          chita-e-t      boljshu-ju        knig-u 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   read-3SG-PRS   big-FEM.3SG.ACC   book-FEM.3SG.ACC
+This girl is reading a large book.  
+
+#108 comment: *det-sg-acc n-sg-nom verb-3sgsubj adj-sg-acc n-sg-acc 
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Jetu              devochka           chitaet        boljshuju        knigu
+Jet-u             devochk-a          chita-e-t      boljsh-uju        knig-u 
+This-FEM.3SG.ACC  girl-FEM.3SG.NOM   read-3SG-PRS   big-FEM.3SG.ACC   book-FEM.3SG.ACC
+intended: This girl is reading a large book.
+
+#109 comment: det-pl-nom n-pl-nom verb-3plsubj adj-pl-acc n-pl-acc 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeti 		   devochki 	      chitajut 	      boljshie               knigi.  
+Jet-i              devochk-i          chita-ju-t      boljsh-ie              knig-i 
+These-FEM.3PL.NOM  girl-FEM.3PL.NOM   read-3PL-PRS    big-FEM.3PL.ACC        book-FEM.3PL.ACC
+These girls are reading large books.  
+
+#110 comment: *det-pl-nom n-sg-nom verb-3sgsubj adj-sg-acc n-sg-acc 
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Jeti               devochka           chitajut        boljshie               knigi.  
+Jet-i              devochk-a          chita-ju-t      boljsh-ie              knig-i 
+These-FEM.3PL.NOM  girl-FEM.3SG.NOM   read-3PL-PRS    big-FEM.3PL.ACC        book-FEM.3PL.ACC
+intended: These girls are reading large books.  
+
+#111 comment: *det-sg-nom n-pl-nom verb-3plsubj adj-pl-acc n-pl-acc  
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Jeta 		   devochki 	      chitajut        boljshie              knigi.  
+Jet-a              devochk-i          chita-ju-t      boljsh-ie              knig-i 
+These-FEM.3PL.NOM  girl-FEM.3PL.NOM   read-3PL-PRS    big-FEM.3PL.ACC        book-FEM.3PL.ACC
+intended: These girls are reading large books. 
+
+#112 comment: *det-pl-acc n-pl-nom verb-3plsubj adj-pl-acc n-pl-acc  
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Jetih              devochki           chitajut        boljshie               knigi.  
+Jet-ih             devochk-i          chita-ju-t      boljsh-ie              knig-i 
+These-FEM.3PL.ACC  girl-FEM.3PL.NOM   read-3PL-PRS    big-FEM.3PL.ACC        book-FEM.3PL.ACC
+intended: These girls are reading large books.
+
+#113 comment: *det-sg-nom n-sg-nom verb-3sgsubj adj-pl-acc n-sg-acc  
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Jeta 		   devochka 	      chitaet 	      boljshie 		     knigu.  
+Jet-a              devochk-a          chita-e-t       boljsh-ie              knig-u 
+This-FEM.3SG.NOM   girl-FEM.3SG.NOM   read-3SG-PRS    big-FEM.3PL.ACC        book-FEM.3SG.ACC
+intended: this girl is reading large books. 
+
+#114 comment: *det-sg-nom n-sg-nom verb-3sgsubj adj-sg-nom n-sg-acc 
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Jeta               devochka           chitaet         boljshaja              knigu.  
+Jet-a              devochk-a          chita-e-t        boljsh-aja             knig-u 
+This-FEM.3SG.NOM   girl-FEM.3SG.NOM   read-3SG-PRS    big-FEM.3SG.NOM        book-FEM.3SG.ACC
+intended: these girls are reading large books.  
+
+#115 comment: *det-pl-nom n-pl-nom verb-3plsubj adj-sg-acc n-pl-acc 
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Jeti 		    devochki 	       chitajut 	boljshuju              knigi.   
+Jet-i               devochk-i          chita-ju-t       boljsh-uju             knig-i 
+These-FEM.3PL.NOM   girl-FEM.3PL.NOM   read-3PL-PRS     big-FEM.3SG.ACC        book-FEM.3PL.ACC
+intended: these girls are reading large books.  
+ 
+#116 *det-pl-nom n-pl-nom verb-3plsubj adj-pl-inst n-pl-acc (we cannot use the 
+#(*det-pl-nom n-pl-nom verb-3plsubj adj-pl-nom n-pl-acc) construction for ungrammatical example
+#because adj-pl-nom has the same orthography as adj-pl-acc)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Jeti                devochki           chitajut         boljshimi               knigi.   
+Jet-i               devochk-i          chita-ju-t       boljsh-imi               knig-i 
+These-FEM.3PL.NOM   girl-FEM.3PL.NOM   read-3PL-PRS     big-FEM.3PL.INST        book-FEM.3PL.ACC
+intended: these girls are reading large books.  
+
+
+#117   det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-sg-acc-inanimate-fem n-sg-acc-inanimate-fem 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           ljubit         jetu                knigu.
+Jet-a             devochk-a          ljub-it        jet-u               knig-u 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   love-PRS.3SG   this-FEM.3SG.ACC    book-FEM.3SG.ACC
+This girl loves this book.
+
+
+#118 *det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-sg-acc-inanimate-masc n-sg-acc-inanimate-fem 
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Jeta              devochka           ljubit         jetot                          knigu.
+Jet-a             devochk-a          ljub-it        jet-ot               	   knig-u 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   love-PRS.3SG   this-MASC.3SG.ACC.INANIMATE    book-FEM.3SG.ACC.INANIMATE
+intended: this girl loves this book.
+
+
+
+#119 det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-pl-acc-inanimate n-pl-acc-inanimate 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           ljubit         jeti                knigi.
+Jet-a             devochk-a          ljub-it        jet-i               knig-i
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   love-PRS.3SG   this-FEM.3PL.ACC    book-FEM.3PL.ACC
+This girl loves these books.
+
+
+
+#120 det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-sg-acc-animate-fem n-sg-acc-animate-fem
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           ljubit         jetu                        sobaku
+Jet-a             devochk-a          ljub-it        jet-u                       sobak-u 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   love-PRS.3SG   this-FEM.3SG.ACC.ANIMATE    dog-FEM.3SG.ACC.ANIMATE
+This girl loves this book.  
+
+
+
+#121 det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-pl-acc-animate n-pl-acc-animate
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           ljubit         jetih                       sobak
+Jet-a             devochk-a          ljub-it        jet-ih                      sobak 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   love-PRS.3SG   this-FEM.3PL.ACC.ANIMATE    dog.FEM.3PL.ACC.ANIMATE
+This girl loves these dogs.  
+
+
+
+#122 *det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-pl-acc-inanimate n-pl-acc-animate
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Jeta              devochka           ljubit         jeti                          sobak
+Jet-a             devochk-a          ljub-it        jet-i                         sobak 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   love-PRS.3SG   this-FEM.3PL.ACC.INANIMATE    dog.FEM.3PL.ACC.ANIMATE
+intended: this girl loves these dogs.  
+
+
+
+#123 det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-sg-acc-inanimate n-sg-acc-inanimate
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           ljubit         jetot                         samoljot.
+Jet-a             devochk-a          ljub-it        jet-ot                        samoljot
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   love-PRS.3SG   this-MASC.3SG.ACC.INANIMATE   plane.MASC.3SG.ACC.INANIMATE
+This girl loves this plane. 
+
+
+
+#124 *det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-sg-acc-animate n-sg-acc-inanimate
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Jeta              devochka           ljubit         jetogo                      samoljot.
+Jet-a             devochk-a          ljub-it        jet-ogo                     samoljot
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   love-PRS.3SG   this-MASC.3SG.ACC.ANIMATE   plane.MASC.3SG.ACC.INANIMATE
+intended: this girl loves this plane.  
+ 
+
+
+#125 det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-sg-acc-animate n-sg-acc-animate
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           ljubit         jetogo                      maljchika
+Jet-a             devochk-a          ljub-it        jet-ogo                     maljchik-a 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   love-PRS.3SG   this-MASC.3SG.ACC.ANIMATE   boy-MASC.3SG.ACC.ANIMATE
+This girl loves this boy.  
+
+
+
+#126 det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-sg-inst-inanimate n-sg-inst-inanimate
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           letit         jetim                        samoljotom.
+Jet-a             devochk-a          let-it        jet-im                       samoljot-om 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   fly-PRS.3SG   this-MASC.3SG.ACC.INANIMATE  plane-MASC.3SG.ACC.INANIMATE
+This girl is flying by this plane.  
+
+
+
+#127 comment: *det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-sg-inst-inanimate-fem n-sg-inst-inanimate-masc
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Jeta              devochka           letit         jetoj                        samoljotom.
+Jet-a             devochk-a          let-it        jet-oj                       samoljot-om 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   fly-PRS.3SG   this-FEM.3SG.ACC.INANIMATE   plane-MASC.3SG.ACC.INANIMATE
+intended: this girl is flying by this plane.  
+
+
+
+#128 det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-sg-inst-animate n-sg-inst-animate
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           letit        s    jetim                        maljchikom.
+Jet-a             devochk-a          let-it       s    jet-im                       maljchik-om 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   fly-PRS.3SG  with this-MASC.3SG.ACC.ANIMATE    boy-MASC.3SG.ACC.ANIMATE
+This girl is flying with this boy.  
+
+
+
+#129 det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-sg-inst-inanimate-fem n-sg-inst-inanimate-fem
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           letit        s    jetoj                        knigoj.
+Jet-a             devochk-a          let-it       s    jet-oj                       knig-oj 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   fly-PRS.3SG  with this-FEM.3SG.INST.INANIMATE  book-FEM.3SG.INST.INANIMATE
+This girl is flying with this book.  
+
+
+
+#130 det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-sg-inst-animate-fem n-sg-inst-animate-fem
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           letit        s    jetoj                      sobakoj.
+Jet-a             devochk-a          let-it       s    jet-oj                     sobak-oj 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   fly-PRS.3SG  with this-FEM.3SG.INST.ANIMATE  dog-FEM.3SG.INST.ANIMATE
+This girl is flying with this dog.    
+
+
+
+#131 det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-pl-inst-animate-fem n-pl-inst-animate-pl
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           letit        s    jetimi                  sobakami.
+Jet-a             devochk-a          let-it       s    jet-imi                 sobak-ami
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   fly-PRS.3SG  with this-3PL.INST.ANIMATE   dog-3PL.INST.ANIMATE
+This girl is flying with these dogs.    
+
+
+
+#132 det-sg-nom-animate n-sg-nom-animate verb-3sgsubj det-pl-inst-animate-fem n-pl-inst-animate-pl
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Jeta              devochka           letit        s    jetimi                  maljchikami.
+Jet-a             devochk-a          let-it       s    jet-imi                 maljchik-ami
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   fly-PRS.3SG  with this-3PL.INST.ANIMATE   boy-3PL.INST.ANIMATE
+This girl is flying with these dogs.    
+
+#133 pronoun-1sg-nom verb-1sgsubj 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Ja    chitaju.
+Ja    chita-ju
+I.1SG read-1SG
+I am reading.
+
+#134 pronoun-2sg-nom verb-2sgsubj 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Ty      chitaeshj.
+Ty      chita-eshj
+You.2SG read-2SG
+You are reading.
+
+#135 pronoun-2pl-nom verb-2plsubj
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: agreement
+Vy      chitaete.
+Vy      chita-ete
+You.2PL read-2PL
+You are reading.
+
+#136 *pronoun-1sg-nom verb-1plsubj 
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Ja    chitaem.
+Ja    chita-em
+I.1SG read-1PL
+intended: I am reading.
+
+#137 *pronoun-1sg-nom verb-2plsubj 
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Ja      chitaete.
+Ja      chita-ete
+Ja.1SG  read-2PL
+intended: I am reading.
+
+#138 *pronoun-1pl-nom verb-2sgsubj 
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+My      chitaeshj.
+My      chita-eshj
+We.1PL  read-2SG
+intended: we are reading.
+
+#139 *pronoun-2sg-nom verb-1plsubj 
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Ty       chitaem.
+Ty       chita-em
+you.2SG  read-1PL
+intended: you are reading
+
+#140 *pronoun-2pl-nom verb-2sgsubj 
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: agreement
+Vy       chitaeshj.
+Vy       chita-eshj
+you.2PL  read-1SG
+intended: you (pl) are reading
+ 
+
+#141 negation (ne verb)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: negation
+Vy      ne  chitaete.
+Vy      ne  chita-ete
+You.2PL not read-2PL
+You are not reading.
+
+#142 negation (*verb ne)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: negation
+Vy      chitaete   ne.
+Vy      chita-ete  ne
+You.2PL read-2PL   not
+intended: you are not reading.
+
+#143 negation (neg-adv ne verb)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: negation
+Vy      nikogda ne  chitaete.
+Vy      nikogda ne  chita-ete
+You.2PL never   not read-2PL
+You never read.
+
+#144 negation (*ne neg-adv verb)
+Source: a, e
+Vetted: t
+Judgment: U
+Phenomena: negation
+Vy      ne 	nikogda  chitaete.
+Vy      not 	nikogda  chita-ete
+You.2PL not	never    read-2PL
+You never read.
+
+#145 negation (*neg-adv verb)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: negation
+Vy      nikogda chitaete.
+Vy      nikogda chita-ete
+You.2PL never   read-2PL
+intended: you never read.
+
+#146 negation (ne verb neg-adv)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: negation
+Vy      ne  chitaete  nikogda.
+Vy      ne  chita-ete never
+You.2PL not read-2PL  never
+You never read.
+
+#147 negation (*verb neg-adv)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: negation
+Vy      chitaete  nikogda.
+Vy      chita-ete never
+You.2PL read-2PL  never
+intended: you never read.
+
+#148 negation (neg-adv ne verb)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: negation
+On 	nikak   	ne 	mozhet		kupitj  	knig-u.  
+On    	nikak		ne	mozh-et		kup-itj		knig-u
+3SG.NOM	by.no.means     not 	can-IMP.3SG	buy-PERF.INF	book-ACC.
+He by no means can buy this book.  
+
+#149 negation (*neg-adv verb)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: negation
+On 	nikak   	mozhet		kupitj  	knig-u.  
+On    	nikak		mozh-et		kup-itj		knig-u
+3SG.NOM	by.no.means     can-IMP.3SG	buy-PERF.INF	book-ACC.
+intended: he by no means can buy this book.  
+
+#150 negation (*ne neg-adv verb)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: negation
+On 	ne	nikak   	mozhet		kupitj  	knig-u.  
+On    	ne	nikak		mozh-et		kup-itj		knig-u
+3SG.NOM	not	by.no.means     can-IMP.3SG	buy-PERF.INF	book-ACC.
+intended: he by no means can buy this book. 
+ 
+
+#151  //((personal pronoun) verb.PST.3SG)
+Source: a, e 
+Vetted: t
+Judgment: g
+Phenomena: arg
+Kupil 		boljshuju	sobaku.  
+Kupi-l 		boljshu-ju 	sobak-u.  
+Buy-3SG.PST     large-SG.ACC 	dog-ACC
+I bought a large dog.  
+
+
+#152  //((personal pronoun) verb.PRS.1SG)
+Source: a, e 
+Vetted: t
+Judgment: g
+Phenomena: arg
+Pokupaju	boljshuju	sobaku.  
+Pokupa-ju	boljshu-ju 	sobak-u.  
+Buy-1SG.PST     large-SG.ACC 	dog-ACC
+I am buying a large dog.  
+
+#153  //((personal pronoun) verb.FUT.3SG)
+Source: a, e 
+Vetted: t
+Judgment: g
+Phenomena: arg
+Kuplju		sobaku.  
+Kup-l-ju	sobak-u.  
+Buy-1SG-FUT     dog-ACC
+I will buy a dog.  
+
+#154   (*(personal pronoun) verb.INF)
+Source: a, e 
+Vetted: t
+Judgment: U
+Phenomena: arg
+Kupitj 		boljshuju	sobaku.  
+Kupi-tj 	boljshu-ju	sobak-u.  
+Buy-INF 	large-SG.ACC 	dog-ACC
+I bought a large dog.  
+
+
+#155 (pro-drop: dropping personal pronoun as a subject and dropping the object)
+Source: a, e 
+Vetted: t
+Judgment: g
+Phenomena: arg
+Kupit.
+Kup-it. 
+Buy-3SG.FUT
+She will buy the dog.
+
+#156 (pro-drop: dropping personal pronoun in the subject place and dropping the object)
+Source: a, e 
+Vetted: t
+Judgment: g
+Phenomena: arg
+Kupil.
+Kupi-l. 
+Buy-3SG.PST
+He bought.
+
+#157 (impersonal verb)
+Source: a, e 
+Vetted: t
+Judgment: g
+Phenomena: arg
+Svetaet.
+Sveta-et
+lighten-IMP.3SG
+It is getting lighter.
+
+#158 (*3SG.NOM impersonal verb)
+Source: a, e 
+Vetted: t
+Judgment: u
+Phenomena: arg
+Ono     svetaet.
+Ono     sveta-et
+3SG.NOM lighten-IMP.3SG
+intended: it is getting lighter
+
+#159 (*impersonal verb 3SG.NOM)
+Source: a, e 
+Vetted: t
+Judgment: u
+Phenomena: arg
+Svetaet ono.
+Sveta-et         ono
+Lighten-IMP.3SG  3SG.NOM 
+intended: it is getting lighter
+
+
+
+#160   (subj verb obj)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: Matrix yes-no questions
+Ivan kupil        sobaku?
+Ivan kupi-l       sobak-u
+Ivan buy-3SG.PST  dog-ACC.SG
+Did Ivan buy a dog?
+
+#161   (obj verb subj): this word order places the emphasis on the "dog")
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: Matrix yes-no questions
+Sobaku      kupil       Ivan?
+sobak-u     kupi-l      Ivan
+Dog-ACC.SG  buy-3SG.PST Ivan
+Did Ivan buy a dog? 
+
+#162    (verb subj obj: that sounds like a reconfirmation, i.e. describing a situation in which we know that 
+#	Ivan was going to buy a dog, and now we are asking to reconfirm that "Did Ivan buy a dog?")
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: Matrix yes-no questions
+Kupil        Ivan sobaku?
+Kupi-l       Ivan sobak-u
+buy-3SG.PST  Ivan dog-ACC
+Did Ivan buy a dog? 
+
+#163   (subj   li   verb   obj)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: Matrix yes-no questions
+Ivan li 	     kupil        sobaku?
+Ivan li 	     kupi-l       sobak-u
+Ivan INTERROGATIVE   buy-3SG.PST  dog-ACC.SG
+Did Ivan buy a dog?
+
+#164   (obj  li  verb  subj): that sounds like "was it the dog that Ivan bought?"
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: Matrix yes-no questions
+Sobaku      li			kupil       Ivan?
+sobak-u     li			kupi-l      Ivan
+Dog-ACC.SG  INTERROGATIVE	buy-3SG.PST Ivan
+Did Ivan buy a dog? 
+
+#165    (verb  li  subj  obj: that sounds like "Ivan was going to buy a dog, and now we are asking to reconfirm 
+#	that "Did Ivan buy a dog? as in "did Ivan end up buying a dog?"
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: Matrix yes-no questions
+Kupil        li			Ivan 	sobaku?
+Kupi-l       li			Ivan 	sobak-u
+buy-3SG.PST  INTERROGATIVE	Ivan 	dog-ACC
+Did Ivan buy a dog? 
+
+#166   (*li	subj	verb	obj)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: Matrix yes-no questions
+Li		Ivan  	kupil        sobaku?
+Li		Ivan    kupi-l       sobak-u
+Interrogative	Ivan 	buy-3SG.PST  dog-ACC.SG
+intended: did Ivan buy a dog?
+
+#167   (*obj	verb	subj	li)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: Matrix yes-no questions
+Sobaku      kupil       Ivan	li?
+sobak-u     kupi-l      Ivan	li
+Dog-ACC.SG  buy-3SG.PST Ivan	INTERROGATIVE
+intended: did Ivan buy a dog? 
+
+#168    (*verb	subj	li	obj)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: Matrix yes-no questions
+Kupil        Ivan 	li		sobaku?
+Kupi-l       Ivan 	li		sobak-u
+buy-3SG.PST  Ivan 	INTERROGATIVE	dog-ACC
+ungrammatical: did Ivan buy a dog? 
+
+#169    (N i N)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Maljchik i    devochka   letjat       samoljotom. 
+Maljchik i    devochk-a  let-jat      samoljot-om.  
+Boy.NOM  and  girl-NOM   fly-3PL.PRS  plane-INST.SG
+The boy and the girl are flying by airplane.  
+
+#170    (N i N (within a larger NP))
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Jeti     maljchik  i    devochka   letjat        samoljotom. 
+Jet-i    maljchik  i    devochk-a  let-jat       samoljot-om.  
+This-PL  boy.NOM   and  girl-NOM   fly-3PL.PRS   plane-INST.SG
+These boy and girl are flying by airplane. 
+
+#171    (NP i NP)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Jetot           maljchik  i     jeta          devochka    letjat        samoljotom. 
+Jet-ot          maljchik  i     jet-a         devochk-a   let-jat       samoljot-om.  
+This-3SG.MASC   boy.NOM   and   this-3SG.FEM  girl-NOM    fly-3PL.PRS   plane-INST.SG
+This boy and this girl are flying by airplane.
+
+#172    (S i S)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Jeta           devochka   letit        samoljotom     i     jetot          maljchik   letit         samoljotom.      
+Jet-a          devochk-a  let-it       samoljot-om    i     jet-ot         maljchik   let-it        samoljot-om.    
+This-3SG.FEM   girl-NOM   fly-3SG.PRS  plane-INST.SG  and   this-3SG.MASC  boy.NOM    fly-3SG.PRS   plane-INST.SG
+This girl is flying by airplane and this boy is flying by airplane.  
+
+#173    (*i S S)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: coordination
+I   jeta           devochka   letit        samoljotom     jetot          maljchik   letit         samoljotom.      
+I   jet-a          devochk-a  let-it       samoljot-om    jet-ot         maljchik   let-it        samoljot-om.    
+And This-3SG.FEM   girl-NOM   fly-3SG.PRS  plane-INST.SG  this-3SG.MASC  boy.NOM    fly-3SG.PRS   plane-INST.SG
+intended: This girl is flying by airplane and this boy is flying by airplane.
+
+#174    (N i N)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Maljchik i devochka    letjat       samoljotom. 
+Maljchik  i devochk-a  let-jat      samoljot-om.  
+Boy.NOM   and girl-NOM fly-3PL.PRS  plane-INST.SG
+The boy and the girl are flying by airplane.    
+
+#175    (NP i NP)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Jetot           maljchik i jeta           devochka     letjat       samoljotom. 
+Jet-ot          maljchik i jet-a          devochk-a    let-jat      samoljot-om.  
+This-3SG.MASC   boy.NOM    and this-3SG.FEM   girl-NOM fly-3PL.PRS  plane-INST.SG
+This boy and this girl are flying by airplane.    
+
+#176    (i N i N)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+I    maljchik,  i    devochka,    letjat       samoljotom. 
+I    maljchik   i    devochk-a    let-jat      samoljot-om.  
+And  boy.NOM    and  girl-NOM     fly-3PL.PRS  plane-INST.SG
+The boy and the girl are flying by airplane (more like "both, i.e. the boy, and the girl are flying").
+
+#177    (i V i V)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Maljchik  i   	letit    	i     	chitaet	 
+Maljchik  i   	let-it	   	i     	chita-et	  
+Boy.NOM   and 	fly-3SG.PRS  	and 	read-3SG.PRS    
+The boy is flying and reading.
+
+#178    (i VP i VP)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Maljchik 	i	letit        samoljotom,    i     chitaet   	knigu. 
+Maljchik 	i	let-it       samoljot-om,   i     chita-et  	knig-u.  
+Boy.NOM  	and	fly-3SG.PRS  plane-INST.SG  and   read-3SG.PRS  book-SG.ACC
+The boy is flying by plane, reading the book.
+
+#179    (V i V)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Maljchik  letit  	i 	spit	 
+Maljchik  let-it	i	sp-it	  
+Boy.NOM   fly-3SG.PRS	and	sleep-3SG.PRS    
+The boy is flying and sleeping.
+
+#180    (VP i VP)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Maljchik 	letit        samoljotom		i 	spit. 
+Maljchik 	let-it       samoljot-om      	i	sp-it.  
+Boy.NOM  	fly-3SG.PRS  plane-INST.SG	and 	sleep-3SG.PRS
+The boy is flying by plane and sleeping.
+
+#181    (V V)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Maljchik  letit    	chitaet	 
+Maljchik  let-it	chita-et	  
+Boy.NOM   fly-3SG.PRS  	read-3SG.PRS    
+The boy is flying and reading.
+
+#182    (VP VP)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Maljchik 	letit        samoljotom    	chitaet   	knigu. 
+Maljchik 	let-it       samoljot-om   	chita-et  	knig-u.  
+Boy.NOM  	fly-3SG.PRS  plane-INST.SG 	read-3SG.PRS    book-SG.ACC
+The boy is flying by plane and reading the book.
+
+#183    (i S i S)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+I   maljchik letit        samoljotom,    i     devochka   letit         samoljotom. 
+I   maljchik let-it       samoljot-om,   i     devochk-a  let-it        samoljot-om.  
+And boy.NOM  fly-3SG.PRS  plane-INST.SG  and   girl-NOM   fly-3SG.PRS   plane-INST.SG
+The boy is flying by plane and the girl is flying by plane.
+
+#184    (i N i N)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+I    maljchik,  i    devochka    letjat       samoljotom. 
+I    maljchik   i    devochk-a   let-jat      samoljot-om.  
+And  boy.NOM    and  girl-NOM    fly-3PL.PRS  plane-INST.SG
+The boy and the girl are flying by airplane (more like "both, i.e. the boy, the girl, are flying").
+
+#185    (N  N)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Maljchik,  devochka    letjat       samoljotom. 
+Maljchik   devochk-a   let-jat      samoljot-om.  
+Boy.NOM    girl-NOM    fly-3PL.PRS  plane-INST.SG
+The boy and the girl are flying by airplane.
+
+#186    (NP NP)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: coordination
+Jetot          maljchik,  jeta           devochka    letjat       samoljotom. 
+Jet-ot         maljchik   jet-a          devochk-a   let-jat      samoljot-om.  
+This-3SG.MASC  boy.NOM    this-3SG.FEM   girl-NOM    fly-3PL.PRS  plane-INST.SG
+This boy and this girl are flying by airplane.
+
+#187 comment: n-sg-nom verb-3sgsubj adj-sg-acc prep adj-sg-inst n-sg-inst n-sg-acc
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adjectives
+Devochka           chitaet        krasnuju          s     boljshim             perepljotom            knigu.
+Devochk-a          chita-et       krasnu-ju         s     boljsh-im            perepljot-om   	      knig-u
+Girl-FEM.3SG.NOM   read-3SG.PRS   red-FEM.SG.ACC    with  large-INST.SG.MASC   binding-INST.SG.MASC   book-FEM.SG.ACC
+The girl is reading a red book with a big binding.  
+
+#188 comment: *n-sg-nom verb-3sgsubj prep adj-sg-inst n-sg-inst adj-sg-acc n-sg-acc
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: adjectives
+Devochka           chitaet        s     boljshim             perepljotom            krasnuju	      knigu.
+Devochk-a          chita-et       s     boljsh-im            perepljot-om   	    krasnu-ju  	      knig-u
+Girl-FEM.3SG.NOM   read-3SG.PRS   with  large-INST.SG.MASC   binding-INST.SG.MASC   red-FEM.SG.ACC    book-FEM.SG.ACC
+The girl is reading a red book with a big binding.  
+
+
+#189   (det adj noun)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adjectives
+Ivan kupil        jetu 			boljshuju 	knigu.  
+Ivan kupi-l       jet-u			boljshu-ju	knig-u
+Ivan buy-3SG.PST  this-ACC.SG.FEM	large-ACC.SG.FM	book-ACC.SG
+Ivan bought this large book. 
+
+#190   (*adj det noun)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: adjectives
+Ivan kupil        boljshuju		jetu 		knigu.  
+Ivan kupi-l       boljshu-ju		jet-u		knig-u
+Ivan buy-3SG.PST  large-ACC.SG.FM	this-ACC.SG.FEM	book-ACC.SG
+Ivan bought this large book. 
+
+#191    (noun adv verb)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Samoljot bystro letit.
+Samoljot bystro let-it
+Plane.NOM quickly fly-3SG.PRS
+The plane is flying quickly.  
+
+#192   (noun adv verb)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Ivan       vsegda    spit. 
+Ivan       vsegda    sp-it
+Ivan.NOM   always    sleep-3SG.PRS
+Ivan always sleeps. 
+
+#193    (noun verb adv)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Samoljot   letit          bystro.
+Samoljot   let-it         bystro
+Plane.NOM  fly-3SG.PRS    quickly.  
+The plane is flying quickly. 
+
+#194    (noun adv verb, "less common way")   
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Ivan       spit		    vsegda.
+Ivan       sp-it	    vsegda
+Ivan.NOM   sleep-3SG.PRS    always
+Ivan always sleeps. 
+
+#195    (adv noun verb)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Bystro    samoljot   letit.
+Bystro    samoljot   let-it
+Quickly   plane.NOM  fly-3SG.PRS.  
+The plane is flying quickly. 
+
+#196    (adv VP)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Ivan      bystro   letit        samoljotom.  
+Ivan      bystro   let-it       samoljot-om
+Ivan.NOM  quickly  fly-3SG.PRS  plane-INST.SG
+Ivan is flying quickly by the plane.    
+
+#197    (VP adv)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Ivan      samoljotom        letit        bystro.  
+Ivan      samoljot-om        let-it       bystro   
+Ivan.NOM  plane-INST.SG     fly-3SG.PRS  quickly
+Ivan is flying quickly by the plane.   
+
+#198    (adv noun VP)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Ivan      bystro       samoljotom        letit.  
+Ivan      bystro       samoljot-om       let-it  
+Ivan.NOM  quickly      plane-INST.SG     fly-3SG.PRS
+Ivan is flying quickly by the plane.   
+
+
+#199    (adv S)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Ivan      kupil             knigu        i     bystro       prochital          ejo.  
+Ivan      kupi-l            knig-u       i     bystro       prochita-l         ejo   
+Ivan.NOM  buy-3SG.MASC.PST  book-ACC.SG  and   quickly      read-3SG.MASC.PSt  she.FEM.ACC.SG
+Ivan bought the book and quickly read it.   
+
+#200    (S adv)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: adverbs
+Ivan      kupil             knigu        i     prochital          ejo               bystro.  
+Ivan      kupi-l            knig-u       i     prochita-l         ejo               bystro 
+Ivan.NOM  buy-3SG.MASC.PST  book-ACC.SG  and   read-3SG.MASC.PSt  she.FEM.ACC.SG    quickly
+Ivan bought the book and quickly read it.   
+
+
+#201    (declarative clause: comp noun verb)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded clauses
+Ivan      dumaet          chto    sobaka      spit.   
+Ivan      duma-et   	  chto    sobak-a     sp-it.        
+Ivan.NOM  think-3SG.PRS   that    dog-SG.NOM  sleep-3SG.PRS  
+Ivan thinks that the dog is sleeping.  
+
+#202    (declarative clause: *noun verb)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: embedded clauses
+Ivan      dumaet          sobaka      spit.   
+Ivan      duma-et   	  sobak-a     sp-it.        
+Ivan.NOM  think-3SG.PRS   dog-SG.NOM  sleep-3SG.PRS  
+intended: Ivan thinks (that) the dog is sleeping.  
+
+#203    (declarative clause: comp verb noun)
+#    reading: Ivan thinks that the dog is sleeping (while in fact it's not sleeping)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded clauses
+Ivan      dumaet          chto    spit		 sobaka.   
+Ivan      duma-et   	  chto    sp-it		 sobak-a       
+Ivan.NOM  think-3SG.PRS   that    sleep-3SG.PRS  dog-SG.NOM  
+Ivan thinks that the dog is sleeping.  
+
+#204    (declarative clause: comp noun-nom tr-verb noun-acc)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded clauses
+Ivan      dumaet          chto    devochka		kupila 			knigu.   
+Ivan      duma-et   	  chto    devochk-a		kupi-l-a		knig-u     
+Ivan.NOM  think-3SG.PRS   that    girl-FEM.3SG		buy-3SG.FEM-PST  	book-SG.ACC  
+intended: Ivan thinks that the girl bought a book. 
+
+  
+#205    (declarative clause: comp noun-acc tr-verb noun-nom)
+#    reading: Ivan thinks that the girl bought the book (vs. stealing it)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded clauses
+Ivan      dumaet          chto    knigu		devochka		kupila.   
+Ivan      duma-et   	  chto    knig-u	devochk-a		kupi-l-a		     
+Ivan.NOM  think-3SG.PRS   that    book-SG.ACC	girl-FEM.3SG		buy-3SG.FEM-PST  	 
+intended: Ivan thinks that the girl bought a book (while in fact she stole it). 
+
+#206    (declarative clause: comp tr-verb noun-nom noun-acc)
+#    reading: Ivan thinks the girl bought the book (and not a pencil)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded clauses
+Ivan      dumaet          chto    kupila		devochka	knigu.   
+Ivan      duma-et   	  chto    kupi-l-a		devochk-a	knig-u		     
+Ivan.NOM  think-3SG.PRS   that    buy-3SG.FEM-PST	girl-FEM.3SG	book-SG.ACC	 	 
+Ivan thinks that the girl bought a book. 
+
+#207    (declarative clause: comp tr-verb noun-acc noun-nom)
+#    reading: Ivan thinks that the girl bought a book (and not a boy). 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded clauses
+Ivan      dumaet          chto    kupila		knigu		devochka.   
+Ivan      duma-et   	  chto    kupi-l-a		knig-u		devochk-a	     
+Ivan.NOM  think-3SG.PRS   that    buy-3SG.FEM-PST	book-3SG.ACC	girl-FEM.3SG	 	 
+Ivan thinks that the girl bought a book. 
+
+
+#208    (interrogative clause: tr-verb li noun-nom noun-acc)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded clauses
+Ivan      sprosil           kupila		li		devochka	knigu.   
+Ivan      sprosi-l   	    kupi-l-a		li		devochk-a	knig-u    
+Ivan.NOM  ask-3SG.MASC.PST  buy-3SG.FEM-PST	INTERROGATIVE	girl-FEM.3SG	book-3SG.ACC	 	 
+Ivan asked whether the girl bought a book.
+
+#209    (interrogative clause: noun-acc   li   tr-verb   noun-nom)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded clauses
+Ivan      sprosil           knigu		li		kupila		devochka.   
+Ivan      sprosi-l   	    knig-u		li		kupi-l-a	devochk-a   
+Ivan.NOM  ask-3SG.MASC.PST  book-3SG.ACC	INTERROGATIVE	buy-3SG.FEM-PST	girl-FEM.3SG	 	 
+Ivan asked whether the girl bought a book.
+
+#210    (interrogative clause: noun-nom   li  tr-verb   noun-acc)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded clauses
+Ivan      sprosil           devochka		li		kupila		knigu.   
+Ivan      sprosi-l   	    devochk-a		li		kupi-l-a	knig-u   
+Ivan.NOM  ask-3SG.MASC.PST  girl-FEM.3SG	INTERROGATIVE	buy-3SG.FEM-PST	book-3SG.ACC	 	 
+Ivan asked whether the girl bought a book.
+
+#211    (interrogative clause: *tr-verb chto li noun-nom noun-acc)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: embedded clauses
+Ivan      sprosil          chto		kupila			li		devochka	knigu.   
+Ivan      sprosi-l   	   chto		kupi-l-a		li		devochk-a	knig-u    
+Ivan.NOM  ask-3SG.MASC.PST that		buy-3SG.FEM-PST		INTERROGATIVE	girl-FEM.3SG	book-3SG.ACC	 	 
+intended: Ivan asked whether the girl bought a book.
+
+#212    (interrogative clause: UNKNOWNtr-verb noun-nom li noun-acc )
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: embedded clauses
+Ivan      sprosil           kupila		devochka	li		knigu.   
+Ivan      sprosi-l   	    kupi-l-a		devochk-a	li		knig-u 	   
+Ivan.NOM  ask-3SG.MASC.PST  buy-3SG.FEM-PST	girl-FEM.3SG	INTERROGATIVE	book-3SG.ACC	 
+intended: Ivan asked whether the girl bought a book.
+
+#213    (interrogative clause: *tr-verb noun-nom noun-acc li)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: embedded clauses
+Ivan      sprosil           kupila		devochka	knigu		li.   
+Ivan      sprosi-l   	    kupi-l-a		devochk-a	knig-u 		li   
+Ivan.NOM  ask-3SG.MASC.PST  buy-3SG.FEM-PST	girl-FEM.3SG	book-3SG.ACC	INTERROGATIVE	 	 
+intended: Ivan asked whether the girl bought a book.
+
+
+#214    (noun prep noun)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: non-verbal predicates
+Kniga			na	stole. 
+Knig-a			na	stol-e  
+book-FEM.SG.NOM  	on	table-SG.MASC.PREP 	 	 
+The book is on the table.  
+
+#215    (*noun be.PRS prep noun)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: non-verbal predicates
+Kniga			estj		na	stole. 
+Knig-a			estj		na	stol-e  
+book-FEM.SG.NOM  	be.3SG.PRS	on	table-SG.MASC.PREP 	 	 
+intended: the book is on the table.  
+
+#216    (noun noun)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: non-verbal predicates
+Ivan		doktor. 
+Ivan		doktor		 
+Ivan.NOM  	doctor.NOM.SG.MASC	 	 
+Ivan is a doctor.    
+
+#217    (*noun be.PRS noun)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: non-verbal predicates
+Ivan		estj		doktor. 
+Ivan		estj		doktor		 
+Ivan.NOM  	be.3SG.PRS	doctor.NOM.SG.MASC	 	 
+intended: Ivan is a doctor. 
+
+#218    (noun be.PST noun)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: non-verbal predicates
+Ivan		byl		doktorom. 
+Ivan		byl		doktor-om		 
+Ivan.NOM  	be.3SG.MASC.PST	doctor-SG.MASC.INST	 
+Ivan was a doctor.  
+
+#219    (noun be.FUT noun)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: non-verbal predicates
+Ivan		budet		doktorom. 
+Ivan		budet		doktor-om		 
+Ivan.NOM  	be.3SG.FUT	doctor-SG.MASC.INST	 
+Ivan will be a doctor.  
+
+#220    (noun adj)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: non-verbal predicates
+Kniga			boljshaja. 
+Knig-a			boljsh-aja		 
+Book-FEM.SG.NOM  	large-FEM.SG.NOM 	 
+The book is large.
+  
+#221    (*noun be.PRS adj)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: non-verbal predicates
+Kniga			estj		boljshaja. 
+Knig-a			estj		boljsh-aja		 
+Book-FEM.SG.NOM  	be.3SG.PRS	large-FEM.SG.NOM 	 
+intended: The book is large.
+
+#222    (noun be.PST adj)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: non-verbal predicates
+Kniga			byla		boljshaja. 
+Knig-a			byl-a		boljsh-aja		 
+Book-FEM.SG.NOM  	be-3SG.FEM.PST	large-FEM.SG.NOM 	 
+The book was large.
+
+#223    (noun be.FUT adj)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: non-verbal predicates
+Kniga			budet		boljshaja. 
+Knig-a			bud-et		boljsh-aja		 
+Book-FEM.SG.NOM  	be-3SG.FUT	large-FEM.SG.NOM 	 
+The book will be large.
+
+#224   SV
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Ivan spit.
+Ivan sp-it
+Ivan sleep-3SG.PRS
+Ivan is sleeping.
+
+#225 SVO 
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Ivan kupil        sobaku.
+Ivan kupi-l       sobak-u
+Ivan buy-3SG.PST  dog-ACC.SG
+Ivan bought a dog.
+
+
+
+#226  OVS
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Knigu       kupil       Ivan.
+Knig-u      kupi-l      Ivan
+Book-ACC.SG buy-3SG.PST Ivan
+Ivan bought a book.
+ 
+
+
+
+#227 SOV, the object is a weak basis
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Ivan sobaku      kupil.
+Ivan sobak-u     kupi-l
+Ivan dog-ACC.3SG buy-3SG.PST
+Ivan bought a dog.
+
+#228 OSV, the object is a strong basis
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Sobaku     Ivan kupil.
+Sobak-u    Ivan kupi-l
+Dog-ACC.SG Ivan buy-3SG.PST
+Ivan bought a dog.
+
+#229  VS(X)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Spit          Ivan.
+Sp-it         Ivan
+Sleep-3SG.PRS Ivan
+Ivan is sleeping.
+
+#230   VSO
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Kupil        Ivan sobaku.
+Kupi-l       Ivan sobak-u
+buy-3SG.PST  Ivan dog-ACC
+Ivan bought a dog.
+
+#231   VOS
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Kupil        sobaku	Ivan.
+Kupi-l       sobak-u	Ivan.NOM
+buy-3SG.PST  dog-ACC	Ivan.NOM
+Ivan bought a dog.
+
+#232   decl-emb-v COMP decl-emb-clause
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded questions
+Ja       dumal         chto   Ivan     kupil        sobaku.
+Ja       duma-l        chto   Ivan     kupi-l       sobak-u
+1.SG     think-1SG.PST that   Ivan.NOM buy-3SG.PST  dog-ACC	
+I thought that Ivan bought a dog.
+
+#233   *decl-emb-v decl-emb-clause
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: embedded questions
+Ja       dumal         Ivan     kupil        sobaku.
+Ja       duma-l        Ivan     kupi-l       sobak-u
+1.SG     think-1SG.PST Ivan.NOM buy-3SG.PST  dog-ACC	
+intended: I thought that Ivan bought a dog.
+
+
+
+#234   interrogative-embedded clause: v  li  subj obj
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded questions
+Ja       sprosil           kupil        li   Ivan        sobaku.
+Ja       sprosi-l          kupi-l       li   Ivan        sobak-u
+1.SG     ask-PERF.1SG.PST  buy-3SG.PST  Q    Ivan.NOM    dog-ACC	
+I asked whether Ivan bought a dog.
+
+#235   interrogative-embedded clause: *v subj obj
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: embedded questions
+Ja       sprosil            kupil         Ivan        sobaku.
+Ja       sprosi-l           kupi-l        Ivan        sobak-u
+1.SG     ask-PERF.1SG.PST   buy-3SG.PST   Ivan.NOM    dog-ACC	
+intended: I asked whether Ivan bought a dog.
+
+#236   decl-emb-v COMP decl-emb-clause
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: embedded questions
+Ja       dumal         chto   Ivan     spit.
+Ja       duma-l        chto   Ivan     sp-it
+1.SG     think-1SG.PST that   Ivan.NOM sleep-3SG.PRS	
+I thought that Ivan was sleeping.
+
+#237   (modal verb.inf)
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: modals
+Ja       mogu         estj     steklo.
+Ja       mo-gu        estj     stekl-o
+1.SG     can-1SG.PRS  eat.INF  glass-ACC
+I can eat glass.
+
+#238   (modal verb.finite)
+Source: a, e
+Vetted: t
+Judgment: u
+Phenomena: modals
+Ja       mogu         em           steklo.
+Ja       mo-gu        em           stekl-o
+1.SG     can-1SG.PRS  eat.1SG.PRS  glass-ACC 	
+intended: I can eat glass.
+
+#239   
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: negation
+Ono        menja        ne      rezhet.
+Ono 	   menja	ne	rezh-et.
+3.SG.NEUT  me.ACC       not     cut-3SG.PRS
+It doesn't hurt me.
+
+#240
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Ivan spit-FP.
+Ivan sp-it
+Ivan sleep-3SG.PRS
+Ivan is sleeping-FP.
+
+#241
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Ivan-FP spit.
+Ivan-FP sp-it
+Ivan-FP sleep-3SG.PRS
+Ivan-FP is sleeping.
+
+#242
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Jeta-FP    sobaka  spit.
+Jet-a-FP    sobak-a sp-it
+This-FEM-FP dog-NOM sleep-3.SG.PRS
+This-FP dog is sleeping.
+
+#243
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Jeta              devochka           chitaet        boljshuju-FP         knigu
+Jet-a             devochk-a          chita-e-t      boljsh-uju-FP        knig-u 
+This-FEM.3SG.NOM  girl-FEM.3SG.NOM   read-3SG-PRS   big-FEM.3SG.ACC-FP   book-FEM.3SG.ACC
+This girl is reading a large-FP book.
+
+#244
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Samoljot  bystro-FP letit.
+Samoljot  bystro-FP let-it
+Plane.NOM quickly-FP fly-3SG.PRS
+The plane is flying-FP quickly.  
+
+#245
+Source: a, e
+Vetted: t
+Judgment: g
+Phenomena: information structure
+Ona-FP         spit.
+Ona-FP         sp-it.
+3SG.NOM.FEM-FP sleep-3SG.PRS
+She-FP is sleeping. 
+

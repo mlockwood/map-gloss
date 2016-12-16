@@ -1,0 +1,44 @@
+I.  Clean-up
+
+From the start, the state that the grammar was in allowed translation of 11 of the 17 sentences from English, and 12 of the 17 sentences from Italian.  (The Italian grammar lacked the SF value of imperative, so I was able to generate based on a pro-drop proposition.)  Actually, this was true only after using the transfer rules as described below.
+
+Tense and aspect were not in place for this lab, nor was focus-marking; thus grammaticality is judged within the framework of the state of the grammar.  The sentences (in English) that did not translate correctly were:
+
+It doesn't hurt me.
+I ask whether you know that dogs chase cars.
+Cats and dogs chase cars.
+Cats chase dogs and sleep.
+Chase the dog!
+Hungry dogs eat.
+Hungry dogs eat quickly.
+
+While "It doesn't hurt me" generated, it had an overt pronoun for "it" whereas the form solicited from my informant omitted this pronoun.
+
+The issue with embedded questions was residual from lab 6 due to confusion of which verb had the SF value constrained.  I moved the SF ques from the main verb to the embedded verb.  Once this was addressed, all embedded clauses worked.
+
+"Cats and dogs chase cars" generated correctly given the interpretation and implementation of the plural marker "mga" as a prefix/prenominal enclitic, but this analysis is probably not correct for standard Tagalog.
+
+"Cats chase dogs and sleep" did not work without focus in place because a standard ergative/absolutive treatment of this sentence would require the actor to simultaneously have both ergative and absolutive case.  Tagalog does have a method of having agents be absolutive case in transitive verbs (actor-focus), but this was not implemented at the time of lab9.
+
+Imperatives were not covered in this course.
+
+The issue with the last two sentences alerted me to the fact that qeqs were not functioning correctly when adjectives/adverbs were involved.  Addition of LOCAL.CONT.HCONS <! !> to the adverb/adjective lexical item was all that was needed to take care of this issue.
+
+
+II.  Transfer rules instantiated
+
+I ended up using the same small set of rules for both English and Italian (though some were undoubtedly superfluous for English):
+
+pro-drop
+pro-insert-arg1
+pro-insert-arg2
+make-harm
+
+I chose "make-harm" for the obvious reason that Italian uses the special construction, whereas Tagalog does not.  And while you might be able to use a literal translation of "make harm" in Tagalog, neither of those words was in my lexicon.
+
+The pro-insert rules were also necessary to get generations from Italian to Tagalog since in transitive Tagalog constructions, at least one overt (pro-)nominal is required.  I used pro-drop in the hopes of dropping the "it" from "It doesn't hurt me" from English to Tagalog (to no avail).
+
+
+III.  Coverage
+
+Coverage at the time of submission was 15/17 sentences, but only 14/17 with grammaticality that I am happy with.  As mentioned above, imperatives don't work and the case assignments don't currently allow for "Cats chase dogs and sleep".  The last sentence (the one whose grammaticality I found questionable) was "It doesn't hurt me", again because I would have preferred a surface realization in Tagalog with "me" realized and "It" unrealized/pro-dropped.  In all, however, I was quite pleased with the coverage.

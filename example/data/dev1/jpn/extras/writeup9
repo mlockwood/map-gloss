@@ -1,0 +1,306 @@
+Tom Amundsen
+LING 567
+Lab 9
+
+_Grammar Clean Up_
+
+The first change I made was to add a new aspect value: no_aspect. I then edited semi.vpm so that the generation would not include sentences with aspect auxiliaries when they aren't supposed to be there.
+
+Somewhere along the lines of my debugging generation, I discovered that a lot of my lexical rules were never firing, and that most of my verb's FORM values were remaining as `form' which was very bad. In order to change this, I constrained the FORM and TENSE values of all of the verbal lexical rules. I have analyzed the different inflected forms as follows:
+
+mizenkei - non_past
+renyokei - non_future
+shushikei - present
+rentaikei - non_future
+izenkei - non_future
+
+I also completely removed all meireikei forms, because this is the imperative form.
+
+After making these changes, I discovered that all of my lexical rules were actually lexeme-to-lexeme lexical rules, which was not what I wanted. So, I changed them to lexeme-to-word lexical rules. But then, I found out that I had some lexical rules that were not changing the suffixes - they were not inflecting. So, I changed these to constant lexical rules. After I did that, my grammar's coverage was down in the gutter. Somewhere in the 20s! Here is an example for the yodan-type verbs of how I created these constant and inflecting lexical rules:
+
+yodan-infl-lex-rule := infl-ltow-rule &
+  [ DTR yodan-rule-dtr ].
+
+yodan-const-lex-rule := const-ltow-rule &
+  [ DTR yodan-rule-dtr ].
+
+I realized that most of my auxiliary verbs were able to "play in the syntax" because they did not have any lexical rules to turn them into words. So, I added a constant lexical rule for the negative-aux-lex:
+
+negative-lex-rule := const-ltow-rule &
+  [ DTR negative-aux-lex ].
+
+For my analysis of embedded clauses, I allow for two different kinds of embedded clauses, interrogative and declarative. I have a complementizer, と, that can embed either one. But I wanted to have each clause type be able to propagate up, so I needed to create two complementizers with the same STEM value. However, I had never added an interrogative clause complementizer, and somehow my examples were parsing before. With my changes to the FORM values, etc, this was no longer parsing, so I had to debug and added:
+
+と_i := interrogative-complementizer-lex-item &
+  [ STEM < "と" > ].
+
+I had to constrain the FORM values of the complements of auxiliary verbs:
+
+arg-comp-aux-no-pred := arg-comp-aux & raise-sem-lex-item &
+  [ ARG-ST < [  ],
+             [ LOCAL.CAT.HEAD verb &
+			      [ AUX - ] ] > ].
+
+hearsay-past-aux-lex := arg-comp-aux-no-pred & rahen-rule-dtr &
+  [ ARG-ST < [  ],
+             [ LOCAL [ CAT.HEAD.FORM renyokei,
+		       CONT.HOOK.INDEX.E.TENSE past ] ] > ].
+
+personal-past-aux-lex := arg-comp-aux-no-pred & rahen-rule-dtr &
+  [ ARG-ST < [  ],
+             [ LOCAL [ CAT.HEAD.FORM renyokei,
+		       CONT.HOOK.INDEX.E.TENSE past ] ] > ].
+
+
+continuative-aux-lex := arg-comp-aux-no-pred & rahen-rule-dtr &
+  [ ARG-ST < [  ],
+             [ LOCAL [ CAT.HEAD.FORM im,
+		       CONT.HOOK.INDEX.E.ASPECT continuative ]  ] > ].
+
+
+I noticed that none of propositions were actually pushing this fact up to the final sentence node, so I made the following type:
+
+prop-lex-rule := lexeme-to-word-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.SF prop ].
+
+and had all of my lexical rules inherit from this type. Now, all of my main verbs will make proposition sentences. This is no problem with questions, because the verb must go through an alternate lexical rule for question-inflection, which specifies [SF ques]. Here is the new tdl for these lexical rules, including my new analysis of the TENSE feature on these inflections:
+
+mizenkei-lex-rule := prop-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.FORM mizenkei,
+		   CONT.HOOK.INDEX.E.TENSE non_past ] ].
+
+renyokei-lex-rule := prop-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.FORM renyokei,
+		   CONT.HOOK.INDEX.E.TENSE non_future ] ].
+
+shushikei-lex-rule := prop-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.FORM shushikei,
+		   CONT.HOOK.INDEX.E.TENSE present ] ].
+
+rentaikei-lex-rule := prop-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.FORM rentaikei,
+		   CONT.HOOK.INDEX.E.TENSE non_future ] ].
+
+izenkei-lex-rule := prop-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.FORM izenkei,
+		   CONT.HOOK.INDEX.E.TENSE past ] ].
+
+I discovered that the normal lexical rules were not the only reason why I did not have the SF feature. It turned out that my auxiliaries were not propagating the SF up from the main verb they were attaching to. So, I encoded this constraint:
+
+arg-comp-aux := aux-lex & basic-two-arg &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SUBJ < #subj >,
+                             COMPS < #comps . #vcomps >,
+                             SPR < >,
+                             SPEC < > ],
+                   CONT.HOOK [ XARG #xarg,
+			       INDEX.SF #sf ] ],
+    ARG-ST < #subj &
+             [ LOCAL [ CONT.HOOK.INDEX #xarg,
+                       CAT [ VAL [ SPR < >,
+                                   COMPS < > ],
+                             HEAD adp & 
+				 [ CASE nom ] ] ] ],
+             #comps &
+             [ LIGHT +,
+               LOCAL [ CAT [ VAL [ SUBJ < [  ] >,
+                                   COMPS #vcomps ],
+                             HEAD verb  & 
+				 [ AUX - ] ],
+                       CONT.HOOK [ XARG #xarg,
+				   INDEX.SF #sf ] ] ] > ].
+
+I had a similar problem with 
+
+I was having problems with generation, in that case markers were optional in certain circumstances. This was because I hadn't constrained the SPR and/or COMPS of my verb lex's to be [CASE adp] - I had [CASE +np]. Here is the new tdl:
+
+nom-intransitive-verb-lex := intransitive-verb-lex &
+  [ ARG-ST.FIRST.LOCAL.CAT.HEAD adp &
+                                [ CASE nom ] ].
+
+nom-acc-transitive-verb-lex := transitive-verb-lex &
+  [ ARG-ST < [ LOCAL.CAT.HEAD adp &
+                              [ CASE nom ] ],
+             [ LOCAL.CAT.HEAD adp &
+                              [ CASE acc ] ] > ].
+
+
+nom-acc-dat-ditransitive-verb-lex := ditransitive-verb-lex &
+  [ ARG-ST < [ LOCAL.CAT.HEAD adp &
+                              [ CASE nom ] ],
+             [ LOCAL.CAT.HEAD adp &
+                              [ CASE acc-dat ] ],
+	     [ LOCAL.CAT.HEAD adp &
+			      [ CASE acc-dat ] ] > ].
+
+Where the updated heirarchy for case looks like:
+
+case := *top*.
+nom := case.
+acc-loc := case.
+acc-dat := case.
+acc := acc-loc & acc-dat.
+dat := acc-dat.
+loc := acc-loc.
+
+The English grammar encodes number, which I am not. This might be incorrect, but I didn't see anything about how to portray number in my reference grammars. In order to handle the translations, I haded to add the types:
+
+png :+ [ NUM number ].
+
+number := *top*.
+non-sg := number.
+sg := number.
+
+I had a minor bug with my demonstrative lexeme, because it's PRED value was misspelled, so I had to change that:
+
+demonstrative-det-lex := determiner-lex-supertype &
+  [ SYNSEM [ LOCAL [ CAT.VAL.SPEC.FIRST.LOCAL.CONT [ HOOK [ INDEX #arg1 & 
+								  [ COG-ST activ+fam ],
+							    LTOP #larg ] ],
+		     CONT.RELS <! [ PRED "exist_q_rel" ], #altkeyrel !> ],
+	     LKEYS.ALTKEYREL arg1-ev-relation & 
+		   [ LBL #larg,
+		     ARG1 #arg1],
+	     LKEYS.ALTKEYREL #altkeyrel ] ].
+
+I have updated my test suite so that the copular NP doesn't use case-marking for the accusative case. I implemented this by:
+
+nom-unmarked-acc-transitive-verb-lex := transitive-verb-lex &
+  [ ARG-ST < [ LOCAL.CAT.HEAD adp &
+                              [ CASE nom ] ],
+             [ LOCAL.CAT.HEAD noun &
+                              [ CASE acc ] ] > ].
+
+np-copula := yodan-rule-dtr & nom-unmarked-acc-transitive-verb-lex.
+
+I had to fix my coordination strategy to coordinate NPs instead of nouns. And I had to add VP coordination. Here is the tdl:
+
+;;; Coordination Strategy 1
+
+vp1-top-coord-rule := basic-vp-top-coord-rule & monopoly-top-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "1" ].
+
+vp1-mid-coord-rule := basic-vp-mid-coord-rule & monopoly-mid-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "1" ].
+
+vp1-bottom-coord-rule := conj-first-bottom-coord-rule & vp-bottom-coord-phrase &
+  [ SYNSEM.LOCAL.COORD-STRAT "1" ].
+
+;;; Coordination Strategy 2
+
+np2-top-coord-rule := basic-np-top-coord-rule & omni-top-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-mid-coord-rule := basic-np-mid-coord-rule & omni-mid-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-bottom-coord-rule := omni-conj-last-bottom-coord-rule & np-bottom-coord-phrase &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-left-coord-rule := omni-conj-last-left-coord-rule & np-bottom-coord-phrase.
+
+I was having problems where the coordination strategy for NPs was allowing both and to be used as a coordinator. I had to update the lexicon to change hte CFORM of the NP coordinator:
+
+も_1 := conj-lex &
+  [ STEM < "も" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "2" ].
+
+I also had a problem, where one of the coordination rules for NPs was not constraining which coordinator it could use, so I had to update the matrix, to identify the COORD-STRAT with the CFORM value of the CONJ-DTR:
+
+omni-binary-left-coord-rule := omni-left-coord-rule & binary-phrase &
+  [ SYNSEM.LOCAL [ CAT [ HEAD.MOD #mod,
+                         VAL #val ],
+                   COORD -,
+		   COORD-REL #crel, 
+		   COORD-STRAT #cstrat ],
+    C-CONT [ HOOK [ INDEX #rind ],
+	     RELS <! !>,
+	     HCONS <! !> ],
+    CONJ-DTR conj-lex & [ SYNSEM.LKEYS.KEYREL #crel,
+			  CFORM #cstrat ],
+    NONCONJ-DTR sign & [ SYNSEM.LOCAL [ CAT [ HEAD.MOD #mod,
+                                              VAL #val ],
+                                        COORD -,
+                                        CONT.HOOK [ INDEX #rind ]]]].
+
+I had to clean up my clause-embedding verbs, because the ARG2 of the relation they introduced was a qeq to a handle that was meaningless. To make it qeq the proper handle, I modified the tdl:
+
+clause-embedding-verb-lex-item := main-verb-lex & yodan-rule-dtr & clausal-second-arg-trans-lex-item &
+  [ SYNSEM [ LOCAL [ CAT.VAL [ COMPS < [ LOCAL [ CONT.HOOK.LTOP #ltop,
+					       CAT [ VAL [ SUBJ < >,
+							   COMPS < > ] ] ] ] > ],
+		     CONT.HCONS <! qeq & [ HARG [],
+					  LARG #ltop ] !> ] ] ].
+
+The last thing I had to do in order to fix translation from Classical
+Japanese -> Classical Japanese (i.e. generation) was a hack that made
+both my question inflection and negation inflection lexical rules
+contribute [TENSE present]. The thing I found that was because all of
+my inflected forms were contributing TENSE values that were not leaves
+in the heirarchy - i.e. they were non_past or non_future - the MRSs
+were underspecified for TENSE. This would allow any tense auxiliaries
+to attach to the sentence, because they were underspecified for
+tense. The reason why I made a hack to have all questions and
+negations be [TENSE present] was that the negation auxiliary follows a
+special conjugation, and that the question inflection is being
+modelled in a slightly inaccurate way. By that, I mean that the
+question particle isn't really an affix, so it shouldn't have it's own
+inflection. I now realize that this means that it should propagate up
+the verb it is modifying's TENSE value, but it is the 11th hour and I
+don't want to be fiddling with the grammar at this point to correct
+something that works for our purposes.
+
+_Transfer Rules_
+
+For English, I instantiated the following transfer rules:
+
+I needed this one, so that I would allow dropping of pronoun subjects/objects:
+
+pro-drop := pronoun-delete-mtr.
+
+I needed this one, so that I could use my "unspec_q_rel" predications that my grammar introduced, in place of "exist_q_rels." The one exception is with demonstratives, where I actually introduce an "exist_q_rel", so I filter those and keep them. Here is the tdl:
+
+exist-unspec-mtr := monotonic_mtr &
+ [ INPUT [ RELS < ! [ PRED "exist_q_rel",
+		   ARG0 #x,
+		   RSTR #harg ] ! > ],
+   OUTPUT [ RELS < ! [ PRED "unspec_q_rel",
+		   ARG0 #x,
+		   RSTR #harg ] ! > ],
+   FILTER [ RELS < ! [ PRED demonstrative_a_rel,
+              ARG1 #x] ! > ] ].
+
+For Italian, I instantiated the following transfer rules:
+
+Again, I needed this one so that we allow pro-drop:
+
+pro-drop := pronoun-delete-mtr.
+
+I needed this one, because Italian uses the "cause harm" construct instead of hurt":
+
+hurt := make-harm-mtr.
+
+Again, I needed this one so that I could use my "unspec_q_rel" predications that my grammar introduced, in place of "exist_q_rels." The one exception is with demonstratives, where I actually introduce an "exist_q_rel", so I filter those and keep them. Here is the tdl:
+
+exist-unspec-1-mtr := monotonic_mtr &
+ [ INPUT [ RELS < ! [ PRED "exist_q_rel",
+		   ARG0 #x,
+		   RSTR #harg ] ! > ],
+   OUTPUT [ RELS < ! [ PRED "unspec_q_rel",
+		   ARG0 #x,
+		   RSTR #harg ] ! > ],
+   FILTER [ RELS < ! [ PRED demonstrative_a_rel,
+              ARG1 #x] ! > ] ].
+
+
+_Translation Coverage_
+
+I have complete coverage in Italian. The only problem is that I have a bit of overgeneration with "I think that you know that dogs chase cars." and "Dogs eat quickly." There is overgeneration with "I think that you know that dogs chase cars." because of the pro-drop rules. By that, I mean that since we delete "I" and "you" we are left with possibilities like "The dog knows that someone knows that someone chases cars." and "Someone knows that the dog knows that someone chases cars."
+
+There is overgeneration with "Dogs eat quickly." because the OBJ-DROP rule is firing in multiple places, even though we constrained it to [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL [ SUBJ cons ] ]. I don't know why this is.
+
+In English, I can translate everything besides "Cats chase dogs and sleep." I find this fact quite perplexing, as I can translate this from Italian.
+
+_Coverage_
+
+I currently have 86.8% coverage and 8.5% overgeneration. Using last weeks grammar with this new test suite, I have 70.6% coverage and 6.8% overgeneration.

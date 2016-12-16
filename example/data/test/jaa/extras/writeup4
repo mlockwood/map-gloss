@@ -1,0 +1,319 @@
+LING 567
+Jamamadi
+Ryan Cross / David Wax
+
+Week 4 Write Up
+
+Question 1. Documentation of new and revised choices made in the customization system:
+
+[Lexicon]
+
+We added new word stems to our system:
+[nouns]
+kafe	'coffee'
+Okomobi	'Okomobi' (Name)
+
+[Verbs]
+fawa	'drink'
+kama	'come back'
+ha na	'call.out'
+jome na	'eat.without.chewing'
+nofa	'want'
+
+[Tense]
+We added the subtypes present and future tense of non-past tense. In a declarative sentence present and future tense are not distinguished from the various past tenses, but not one another; we call this the nonpast tense.  However, in interrogative constructions, there is a distinction between present and future tense: the suffix /-bana/ indicates future tense (e.g. #140) while the suffix /ni/ (usually combined with the continuous aspect suffix /ne/) indicates present tense (e.g. #130).
+
+#130 present continuous question, requiring third pronominal position with 2sg subject/pivot
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, aspect, agr
+Titafine tini?
+ti-tafa-ne-ti-ni
+2sg.nom-eat-CONT.f-2sg.nom-PINT.f
+'Are you eating?'
+
+#140 future question with 1pl.inc subject/pivot
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, tense, agr
+Ee tafibana?
+ee-tafa-bana
+1pl.inc.nom-eat-PFutINT.f
+'Will we eat?'
+
+[Coordination]
+Clausal coordination is straightforward in Jamamadi. Clauses occur follow one another (with an optional work 'faja' that may appear between any of the coordinated clauses). So we created two coordination strategies for sentences, one which combines sentences by juxtaposition, and the second which combines sentences polysyndeton with the word 'faja' appearing before coordinands. This allows for the 'faja' to be optional in all possitions and not appear at the beginning or ending of the sentence. An example of coordination is given in #146:
+
+#146 Coordination with faja
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: coordination, wo
+Mee kameharo faja mee tafeharo.
+mee-kama-haro faja mee-tafa-haro
+3pl.anim-come.back-RPe.f CONJ.and 3pl.anim-eat-RPe.f
+'They came back and they ate.'
+
+Verbal coordination is not as simple. Verbs can be combined with the auxiliary 'na'/'ne' appearing at the end of the verb list. Dixon refers to this construction as list construction. In this construction, noninflecting verbs do not occur with the auxiliary /na/ (save for the final /na/ of the sentence).  Inflecting verbs also freely occur in this construction; if an inflecting verb is the final verb in the construction it will be followed by the auxiliary /na/ (which it otherwise would never be).  An example of the list construction:
+
+#147 Coordination through list construction using aux /na/
+Source: a:522
+Vetted: s
+Judgment: g
+Phenomena: coordination, wo
+Kafe otaa fawa; otaa tafa na
+kafe otaa-fawa; otaa-tafa na
+coffee 1pl.exc.nom-drink 1pl.exl.nom-eat AUX.f
+'We drink cofee, and we eat.'
+
+We were able to correctly recognize most cases by creating a coordination strategy which just allows for verb juxtoposition. Although when actually analyzing the trees generated they would not correctly coordinate the structure of the sentence. To correctly model these setences we need a conjuction which can inflect for the gender, person, number, and animacy of the subject.
+
+[Yes/No Questions]
+Questions are created by adding affixes to the verb. So we selected questions are created by inflection in the customization system.
+
+Questions in future tense add the suffix -bana, which cannot appear with another tense marker.  This suffix often appears after the sentence negation marker -ra (but never before), and will not appear with the other question marker -ni or the aspect markers.  (In general, negative questions are more common in Jamamadi than positive questions.) Here are examples of the -bana question marker:
+
+#140 future question with 1pl.inc subject/pivot
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, tense, agr
+Ee tafibana?
+ee-tafa-bana
+1pl.inc.nom-eat-PFutINT.f
+'Will we eat?'
+
+#142 future question 3sg subject/pivot
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, tense, agr
+Makiti tafabana?
+makiti tafa-bana
+man.m eat-PFutINT.m
+'Will the man eat?'
+
+#143 negative future question
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, neg, tense, agr
+Tee jaka naribana? 
+tee-jaka na-ra-bana
+2pl-walk AUX-NEG-PFutINT.f
+'Won't you all go for a walk?'
+
+The other marked yes/no question in Jamamadi is marked with the affix -ni. This can take two semantic meanings. If it occurs with the continuous marker -ne, it will ask what is happening right now (present continuous interrogative). In this form it also takes the pronominal prefix o- or ti-, whenever the inflecting verb or the auxiliary also take the prefix.
+
+Note that when the continuous suffix /ne/ is followed by the polar interrogative suffix /ni/ and the subject is 1sg or 2sg, the pronominal prefix /o/ (1sg) or /ti/ (2sg) is repeated between /ne/ and /ni/.  Dixon refers to this as the "third pronominal position".  This phenomena is in fact very common in Jamamadi; it is also required when mood suffixes co-occur with tense suffixs.  (We have not yet treated mood.)  We analyze this as being alternative forms of the  polar interrogative suffix.
+
+The alternative forms /-o-o/ and /-ti-i/ also occur in free variation with /-o-ni/ and /-o-ti/. An example is found in #131 of our test suite:
+
+#131 present continuous question with 2sg subject/pivot, vowel lengthened form of suffix
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, aspect, agr
+Titafine tii?
+ti-tafa-ne-ti-i
+2sg.nom-eat.CONT.f-2sg.nom-PINT.f
+'Are you eating?'
+
+If it occurs without the continuous marker it generally means that it happened recently (immediate past), but may have a more general past meaning. Interestingly this -ni will also never occur with a 3rd singular masc subject or a 3rd non-singular inanimate masc subject, but instead the question is asked through intonation.  (The continuous suffix /ne/ has a m form of /0/, which is justified by that form blocking gender agreement on a verb root. This does not happen with the interrogative suffix /ni/, so we agree with our authors that there is simply no m counterpart to f /ni/.) Here are some examples from our test suite:
+
+#126 immediate past question with m 3sg subj
+# intonation signals question
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, agr, wo
+Makiti kerewe awe?
+makiti kerewe awe
+man.m sloth.f see.m
+'Did the man see the sloth?'
+
+#127 immediate past question with m 3sg subj, incorrectly uses f suffix
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: q, agr, wo
+*Okomobi makiti awini?
+Okomobi makiti awa-ni
+Okomobi.m man.m see-PINT.f
+*'Did Okomobi see the man?'
+
+#128 immediate past question with 3pl animate subj, correctly uses f suffix (since 3pl animate takes f agreement)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: q, agr, wo
+Makiti kerewe mee awini?
+makiti kerewe mee-awa-ni
+man.m sloth.f 3pl.anim.nom-see-PINT.f
+'Did the men see the sloth?'
+
+Question 2. Properties illustrated in the test suite but not the grammar
+
+[Adjectives]
+Our testsuite also contains examples of Adjective modification such as:
+
+#149 Adjective, occuring after the head noun it modifies, cf a:338(11.57)
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: adj, wo
+Makiti botee era ha ne.
+makiti botee era-ha ne
+man.m old 1pl.inc.acc-call.out AUX.m
+'The old man calls out to us.'
+
+#151 Multiple adjectives modifying a single NP
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: adj, wo
+Fanawi botee one otaa awa-hara.
+fanawi botee one otaa-awa-hara
+woman.f old another 1pl.exc-see-IPe.f
+'We just saw another old woman.'
+
+As can be seen above, adjectives simply follow the nouns they modify.
+
+[Embedded clauses]
+We also are not yet handling embedded clauses. In Jamamadi embedded clauses basically act as an NP and they are marked by an -i inflection on the root verb. So /fawa/ 'to drink' (from stem /faw-/) becomes /fawi/ in our example:
+
+#154 embedded clause as O with 'know'
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: emb-, wo
+Kafe fawi watohamaro.
+kafe faw-i wato-hemete
+coffee.f drink-COMP know-FPn
+'She knew how to drink coffee (long ago).'
+
+#157 embedded clause as S with 'be good', m subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: emb-d, wo, agr
+Marakosa jome tini amase.
+marakosa jome n-i amase
+passion.fruit eat.without.chewing 2sg.nom-AUX-COMP be.good.m
+'It's good that he eats passion fruit. (That he eats passion fruit is good.)'
+
+The embedded clause occurs in one of noun position (S, A, or O) and takes the required suffix. Note that the head verbs of embedded clauses cannot take all the suffixes normal verbs can: negation, tense, and mood suffixes are all disallowed (as in #158 and #159). 
+
+#158 embedded clause incorrectly takes negation
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+*Owa awarai nofahareka
+owa-awa-ra-i nofa-hare-ka
+1sg.acc-see-NEG-COMP want-IPE.m-DEC.m
+*'He wanted to not see me.'
+
+#159 embedded clause incorrectly takes tense suffix
+Source: author:cross
+Vetted: f
+Judgment: u
+Phenomena: emb-d
+*Owa awahari nofahareka.
+owa-awa-hari-i nofa-hare-ka
+1sg.acc-see-IPe.m-COMP want-IPE.m-DEC.m
+*'He wanted to have just seen me.'
+
+[Adverbs]
+Jamamadi does not have adverbs.  It does use embedded clauses to fill many of the functions that other languages use adverbs for. For example using the 'be fast' verb (which is lexically required to take a negative suffix) 'hahata na-ra':
+
+#160
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: emb-d, wo
+Tafi hahata raro.
+taf-i hahata na-ra-haro
+eat-COMP be.fast AUX-NEG-RPe.f
+'She ate quickly. (Her eating was fast.)'
+
+[Non-Verbal Predicates]
+The verb ama is used as the copula in Jamamadi. It only takes one arguement as a subject and it also requires the mood suffix -ke/-ka (declaritive mood).  This suffix is also extremely common (but optional) on other verbs in Jamamadi. Additionally the pronominal prefixes o- and ti- do not attach to the copula but instead attach to the declaritive marker. Here are the examples from our test suite:
+
+#161 Copula with AP complement
+Source: a:378
+Vetted: s
+Judgment: g
+Phenomena: cop, wo
+Botee ama oke.
+botee ama-o-ke
+old be-1sg.nom-DECL.f
+'I am old.'
+ 
+#162 Copula with an NP complement
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: cop, wo
+Makiti amaka.
+makiti ama-ka
+man.m be-DECL.m
+'He is a man.'
+
+#163 Copula with an NP complement, 2sg subj
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: cop, wo, agr
+Makiti ama tike.
+makiti ama-ti-ke
+man.m be-2sg.nom-DECL.f
+'You are a man.'
+
+[Information Structure]
+
+We have not had a chance to fully analyze how Jamamadi handles information structure.  It does have two types of sentences: A-construction and O-constructions. The A-construction has agreement between S/A and the verb, while the O-construction has agreement between O and the verb. (Dixon argues against analyzing O-constructions as passive or A-constructions as antipassive, since A and O are required in both constructions and occur in exactly the same forms and positions in both types of constructions.  However, the use of A-constructions and O-constructions does seem to fill similar functions to that of passive and antipassive constructions of other languages.)
+
+These constructions appear to alternate based on the "pivot" or "topic" of the discourse.  We will analyze this further next week.
+
+Question 3. Coverage of the grammar over the test suite.
+
+Out of 110 grammatical examples, 94 parsed (85.5% coverage).
+Out of 56 ungrammatical examples, 0 are parsed (0.0% overgeneration).
+
+Our test ran correctly over all the phonomena, except for those which are not being addressed in this lab. (Adjectives, embedded clauses, adverbs, and the copula)
+
+Although even we created a situation which allows everything to parse. The customization system is unable to correctly handle verb coordination in our language. The fact that it uses the auxiliary na/ne as a coordination final marker is troublesome. We also could have approximated a representation of this by coordinating verbs with the word na appearing coordination final. But this wouldn't allow the na to correctly agree with the subject of the entire coordination.
+
+Question 4. Document any changes to improve performance.
+
+[Gender/Verb-slots/Other features]
+We moved the gender feature back onto nouns exclusivly. To correctly only match the final affix with the subject of the sentence, we instead non-linearized all the verb slots. They now form a rather complicated tree system, where verbs go through affixes marking tense and aspect and then the pronominal prefixes which mark the subject and objects person, number, gender, and animacy. This fixed the issue we were having with either the prefixes or the affixes appearing.
+
+Finally we added a new feature verb_ending. Which has two forms a_e and ha_hi. The majority of verbs take the the ending -a when feminine and -e when masculine, but a few take a -ha and -hi affix unto the root verb. After the verb ending though they take the same affixes, so by creating this feature we will be able to account for -ha verbs. Currently none are in our lexicon due to their rarity though.
+
+Also we created two rules empty rules "aux_bypass_A" and "aux_bypass_O" which actually should be edited in the tdl to include the line [ SYNSEM.LOCAL.CAT.HEAD.AUX +], so that auxiliries will not take the verbslots required morphemes. These changes fixed the problems of generating too many trees and not being able to generate the correct parses for items in lab 3.
+
+The examples which motivated these changes were mostly failed parses from lab3 such as negation and no prefixes and affixes on the same verb:
+
+#108 Negation on inflecting verb with no tense suffix, feminine subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: neg, agr, wo
+Fanawi tafara.
+fanawi tafa-ra
+woman.f eat-NEG.f
+'The woman doesn't eat.'
+
+#099 Continuous aspect suffix, pronoun subject
+Source: author:cross
+Vetted: f
+Judgment: g
+Phenomena: aspect, agr, wo
+Otafine.
+o-tafa-ne
+1sg.nom-eat-CONT.f
+'I am eating.'

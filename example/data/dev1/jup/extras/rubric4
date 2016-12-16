@@ -1,0 +1,233 @@
+
+Notes
+-------------------------------------------------------
+
+Dynamic will add the dynamic feature, but does not introduce any feature of tense.
+
+EB> In that case, it sounds like an aspect. 
+
+Using "Stem-NEG-FUT" was noted as child's speech, it would have the intended meaning, but be judged ungrammatical. However a construction such as "Stem-NEG-FUT-DECL"  is vetted by the book. Syntactically the boundry suffixes decide that they can not affix onto NEG, but the same suffix as an inner suffix can.
+
+EB> I think this was in answer to the following:
+
+ As an inner suffix future does not forbid itself from suffixing after a negation suffix.
+
+As in you can see the same suffixes both before and after negation
+within one word?  Is there a meaning contrast?
+
+EB> It's a little hard to tell what you're answering if you
+don't quote it!  (And probably more efficient to put this stuff
+on GoPost anyway, so you don't have to wait until I get around
+to grading.)
+
+EB> Anyway, I'm still not really following.  Is there something
+that is not making sense/not working in the Matrix or customized
+grammar right now?
+
+Representative is a clitic feature that can cliticize onto all parts of speech and notes that the speaker did not experience the information they are presenting firsthand. The affix here is =mah
+
+EB> Since it's a clitic (i.e., a separate word), you'll be better off
+for generation if you represent the meaning with an elementary predication
+(a relation) rather than a feature.  Have a go a treating it as a scopal
+modifier, if you want to try to do something with it in this lab.
+
+Demonstratives are fine cliticizing to the noun they are modifying, as well as existing free. When there are adjectives (non-predicate) the NP structure is DEM-ADJ-N. 
+
+EB> I'd call these determiners then (separate words, occur at the end
+of the NP).  English the is actually a clitic, too, by the way.  We
+just happen to spell it with white space ;-)
+
+The verb system also had an overhaul. I had to abandon using only a single boundry suffix class. Each rule has been given its own class. The same affixes, features, and forbids are in place in each respective rule. A new obligatory "licensing" rule has been made, taking only the boundry classes as input. This ensures that only verbs with a boundry suffix will be licensed. Now the grammar can produce the complex verbs with inner and outer suffixes
+
+EB> It should be possible to put the outer ones all in a single
+class (and then move the forbids/requires constraints down to the
+lex rule types).  Are you up for trying that again?
+
+The human-obj rule is now unconstrained for gender (so that animate and inanimate can get the -2an suffix) The animate and inanimate obj rules both require a specific gender. This change is the workaround for the 2 Lexical instances not working. This means the grammar will produce:
+
+#47 coordinating nouns
+source: a
+vetted: f
+judgment: g
+phenomena: crd, pn, c
+hid 1tih-2an 2m5ah mo2~hoy d5eh-10y
+hid 1tih-2an 2m5ah mo2~hoy d5eh-10y
+3pl.SUBJ 3sg-OBJ snake.OBJ deer.OBJ send-DYNM
+They are sending snake and deer to him
+
+But it will fail to rule the following as ungrammatical, Chicken must have -OBJ here, but corn may not:
+#13 SOOV *animate obj.Chicken MUST have OBJ case- usually optional.
+Source: a:168
+Vetted:f
+judgment: u
+Phenomena: c, pro-d
+ti2yi3 cadak2a3 pihit1yum 1no3-~1oy
+ti2yi3 cadak2a3 pihit1yum 1no3-~10y
+man.3sg.SUBJ corn.3sg.OBJ chicken.3sg.OBJ give-DECL
+*The man gives corn to the Chicken
+ 
+EB> The customization system doesn't do ditransitive verbs.
+I just tried parsing this example, and in fact the grammar
+rejects it because it can't find any analysis for the verb
+(with either ~1oy or ~10y).  You should illustrate your points
+in your write up with the actual examples that you are testing.
+
+This is part of one Hup strategy for topicalizing a subject. The noun is inflected with DECL and then moved post verb.
+
+
+EB> Is DECL always on the last thing in the sentence?  (I'm
+wondering if maybe it's a clitic.)
+
+The noun-focus rule inflects any pronoun(this limitation is a feature of questions) with -1ah and is used to topicalize the inflected pronoun in a question;
+
+EB> I don't understand this. What do you mean by "limitation"?  Does
+this focus rule only apply to questions?
+
+The noun-verb inversion in this sentence is a result of the Question-making mechanism and is not related to focus.
+
+EB> As in, regardless of what is focused, you get noun-verb inversion
+in yes-no questions?
+
+The third added category is noun-telic, which adds the telic (=2yi3) clitic to any case noun. 
+#43 strategy 2, Interrogative boundry suffix marker. WO stays V-final
+Source: a
+Vetted: f
+judgment: u
+phenomena: wo, q, tam
+j5eb-1a=yi3 1y5at-aw-1a3
+j5eb-1a=yi3 1y5at-aw.103
+night.still=TEL he.SUBJ lay-FLR.INT
+He layed it down this morning?
+
+EB> What is the effect of the telic marker? (How does it
+change the meaning of the sentence, or when is it required?)
+Also, you should illustrate points like this with *grammatical*
+examples.
+
+The new verb classes are the outer-interogative and the emphatic and filler. Emphatic and filler are both inner classes. The outer interogative is a second strategy for creating questions in hup. A verb may simply take the INT affix (-03) and have no word structure movement and the Question: + feature will be applied to the verb.
+
+EB> Is outer-interrogative is incompatible with DECL? (I'd guess
+so.) How are you accounting for that?
+
+The filler feature is one of the two developed coordination strategies (however the matrix does not yet support affix-coordination). It is a monosyndeton strategy.
+
+EB> The matrix supports some affix coordination, just not of certain
+categories.  I suspect, however, that yours falls into one of the
+non-supported categories (coordination of VPs marked by an affix?).
+
+Verbs are not allowed to coordinate this way, they coordinate (in this grammar lexically) through the compounding of verb stems.
+Source: a: 829
+vetted: s
+judgment: g
+phenomena: crd
+3eg-yam1hido3-23e-h
+3eg.yam1hido3-3e3-10h
+Drink.Sing-PERF-DECL
+They were drinking and singing.
+
+EB> Does this mean that intransitive VPs can coordinate using
+ordinary VP coordination? (That would be somewhat surprising.)
+
+General adjective behavior is also documented in the test suite; Adjectives will precede the noun that they modify;
+source: a
+vetted: f
+judgment: u
+phenomena: crd, pn, c
+hid mo2~hoy 1tih-2an 2m5ah  d5eh-10y
+hid mo2~hoy 1tih-2an 2m5ah  d5eh-10y
+3pl.SUBJ deer.OBJ 3sg-OBJ snake.OBJ  send-DYNM
+*They are sending snake and deer to him
+
+EB> This example does not illustrate what you are talking
+about.
+
+Of course adjectives are not in the Matrix lexicon page, so the grammar does not have adj. support. I did add 1tih=2pog (the  big one) as  a noun in the lexicon, but a productive ADJ to N rule is the ideal way to create any such noun, rather than entering both the adj and its nouny form into the lexicon.
+
+EB> Can 1tih= appear without an adjective as a noun meaning
+just "one"?  If so, then I think the most straightforward analysis
+here is to treat 1tih= as a very generic noun (which is unmarked
+for number, apparently, and homophonous with the 3sg marker). 
+If it requires the adjective, then we'll have to work a little harder
+to get these, but one possibility is to have it select for
+a required adjectival complement.  (And then link it's COMP's MOD's
+HOOK and HEAD to its own HOOK and HEAD.)
+
+There is one exception to the relatively free order of the adverb. If it comes after the subject it must have the telic clitic (=yi3) to distinguish it as an adverb.
+
+EB> I think you can get this by making the telic clitic (probably
+not the same form as the one that attaches to other things, maybe
+an affix here, for convenience) affect the MOD value of the adverb.
+Without the clitic, the adverb wants to modify something that is
+SUBJ < >; with, it wants to modify something that is SUBJ < [ ] >.
+If the clitic is an affix, this would be an example of a head-change-only-lex-rule.  If it's a separate word, I'd call it an adverb with a required
+complement (the other adverb), and no semantics --- but that links
+its MOD's HOOK to its COMPS's MOD's HOOK.
+
+(That's pretty terse -- post on GoPost if you want more detail.)
+
+The test suite has few examples of embedded clauses; 
+#63 
+souce: a:728
+vetted: s
+judgment: g
+phenomena: emb-d
+~3ah hi1~pah-1~ay 1yup wid-ye-2nih-~ih-2an
+~3ah hi1~pah-10y yu-p wid.ye.2nih.~ih-2an
+1sg.SUBJ know-DYNM that arrive.enter.not.FLR-OBJ
+I know the one who didn't arrive
+
+EB> This is a relative clause, not the kind of embedded
+clause we'll be working on.
+
+Quotatives are common in the Hup grammar, but finding embedded clauses rather tha sequential clauses seem to be rare. However,  what I have found so far supports that embedding a clause is fairly similar to coordinating clauses, however the embedded clause requires a demonstrative as its first element.
+
+EB> Is the demonstrative actually functioning as a demonstrative
+in the embedded clause, or is it actually some sort of complementizer
+that happens to be homophonous with the demonstrative? 
+
+Topicalization has a few different strategies in Hup. Unsurprisingly most of them rely on affixes, but some also recruit word order movement in order to topicalize a noun. As the earlier example in questions shows nouns may be inflected with the focus inflection. This will note that the focus inflected noun is topicalized. Additionally the declarative suffix is also used to topicalize nouns, but this must be done in conjunction with a movement of the noun to a position after the verb.
+
+EB> It sounds like your descriptive grammar might not be very clear
+about what "topic" and "focus" means. (I blame mainstream syntax for
+this: the operation that puts an NP at the beginning of a sentence in
+English is called "topicalization", even though it serves to mark focus.)
+"Topic" is the constituent that the rest of the sentence is about and
+that serves as a link to the previous discourse.  "Focus" is the
+new or highlighted information in the sentence (which can be the whole
+thing).  "The focus inflected noun is topicalized" is suspicious to me.
+
+None of the sentences that require Subj-V inversion (questions and topicalization) will parse, due to the matrix not implementing inversion in V-final languages
+
+EB> Please post to GoPost about this, and we'll ask Antske (matrix developer
+working on word order) for her input.
+
+It looks like I was incorrect about ŋ parsing, I will have to change it back to either 4 or simply to n
+
+EB> IPA should not be this problematic.  I checked your lexicon.tdl
+file and your irules.tdl file, and I don't see any forms with ŋ,
+which would explain why the examples in the test suite that have ŋ
+aren't being recognized.  
+
+The demonstrative clitics are still causing nouns to not be recognized.
+
+EB> Have you entered them into the lexicon as determiners?  The idea
+with clitics is to instruct the lkb to split on = and then the clitics
+will end up being treated as separate words.
+
+
+#49 coordinating nouns
+source: a
+vetted: f
+judgment: u
+phenomena: crd, pn, c
+hid mo2~hoy 1tih-2an 2m5ah  d5eh-10y
+hid mo2~hoy 1tih-2an 2m5ah  d5eh-10y
+3pl.SUBJ deer.OBJ 3sg-OBJ snake.OBJ  send-DYNM
+*They are sending snake and deer to him
+
+EB> This one will end up grammatical, I bet, but with
+a silly reading: "They are sending him and deer to the snake."
+
+For embedded clauses, can you find examples of complements
+of verbs like "think", "believe" or "wonder"?
+

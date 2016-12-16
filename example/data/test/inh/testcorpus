@@ -1,0 +1,235 @@
+Language: Ingush
+Language code: inh
+Author: Schneider, Labarre
+Date: January 2012
+Source a: Ingush Grammar (University of California Publications in Linguistics) Johanna Nichols, University of California Press, 2011
+
+#1.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+C_esta ghumagh bie=_a jellaa, koa=t_y laattazh xannuu yz Oaldama Gheaza
+C_asta-a ghumagh bie=_a j-oal-aa, koa=t_y laatt-azh xul-aav yz Oaldama-a Gheaza
+copper-GEN water_pitcher hand.ADV=& J-be_located-CVant yard.ADV=on stand-CVsim be-NW.V DEM Oaldama.GEN Gheaza
+Oaldama Gheaza stood in his yard holding a copper water_pitcher in his hand.
+
+#2.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Ruzban-meazhdigie laamaz die diezazh xannuu yz
+Ruzban-meazhdigie laamaz d-ar-a d-ieza-zh xul-aav yz
+central_mosque.ADV prayer D-do-INF D-should-CVsim be-NW.V 3s
+It was time for him to go to Friday prayers in the central mosque.
+
+#3.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Xexkaa vienuu cwalxa cwa bearii
+Xexk-aa v-iera-aav cwalxa cwa bearii
+ride-CVant V-come-NW.V alone one horseman
+Up rode a lone horseman.
+
+#4.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Assalaam_waleikum, Oaldama Gheaza! eannad cuo
+Assalaam_waleikum, Oaldama Gheaza! eal-aad cuo
+hello O. G. say-NW.D 3s.ERG
+Hello, Oaldama Gheaza, he said.
+
+#5.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Va waleikum salaam, cwalxa cwa bearii
+Va waleikum salaam, cwalxa cwa bearii
+(response to greeting) lone one horseman
+Greetings, lone rider! [said Oaldama Gheaza]
+
+#6.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Fy xabar dienad wa suona, cwalxa cwa bearii?
+Fy xabar d-al-aad wa suona, cwalxa cwa bearii?
+what news D-bring-NW.D 2s.ERG 1s.DAT lone one horseman
+What news have you brought me, lone horseman?
+
+#7.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Hwa deagh vysaa dea dottagh chersii eala hwo volcha hwoashalgha voaghazh laatt
+Hwa daa-gh v-ytaa daa-a dottagh chersii eala hwo v-olcha hwoashalgha v-oagha-zh laatt
+2s.GEN father-LAT V-leave.PPL father-GEN friend Kabardian prince 2s V-be.PPL.OBL guest.ADV V-come-CVsim PROG.PRS
+Your father's friend inherited from your father, the Circassian prince, is coming to visit you.
+
+#8.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Hwuoga yzh xeita vienuu sie, eannad cuo
+Hwuoga yzh xeit-a v-iera-aav sie, eal-aad cuo
+2s.ALL 3p inform-INF V-come-NW 1s:RFL say-NW.D 3s.ERG
+I've come to inform you about this (lit. 'them'; mistake?).
+
+#9.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Cyl=_a chexkagh viena qeachaav shollagh bearii
+Cyl=_a sixa-gh v-iera-na qeach-aav shollagh bearii
+3s.CSN=& fast-CMP V-come-CVant arrive-NW.V second horseman
+Even faster, up came a second rider.
+
+#10.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Salaam=_a danna eannad cuo
+Salaam=_a d-al-na eal-aad cuo
+greeting=& D-give-CVant say-NW.D 3s.ERG
+He greeted him and said:
+
+#11.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Hwa daa viina wearzha moastagh taxan tirkii mexka vuodazh vy, Istmal vuodazh vy
+Hwa daa v-uu-na wearzha moastagha taxan tirk-i-a mexka v-uoda-zh v-y, Istmal v-uoda-zh v-y
+2s.GEN father V-kill-CV black enemy today Turk-PL-GEN land.ADV V-go-CVsim V.PROG Istanbul V-go-CVsim V-PROG.PRS
+The black enemy who killed your father is going to Turkey today, to Istanbul.
+
+#12.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Qoalagh=_a qeachaav cwalxa cwa bearii
+Qoalagh=_a qeach-aav cwalxa cwa bearii
+third=& arrive-NW.V alone one horseman
+A third lone rider arrived.
+
+#13.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Salaam=_a danna, eannad cuo
+Salaam=_a d-al-na, eal-aad cuo
+greeting=& D-give-CVant say-NW.D 3s.ERG
+He greeted him and said:
+
+#14.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+wa hwaaina learhaa Xaana T_uotii txousar mearie joxiitazh jy, jelxazh jy 
+wa hwaaina lierh-aa Xaan-a T_uotii txousar mearie j-axiit-azh j-y, j-elx-azh j-y 
+2s.ERG 2s:RFL.DAT intend-CVant Khan-GEN T_uotii this_evening in_marriage J-send-CVsim J-PROG.PRS J-weep-CVsim J-PROG.PRS
+Your intended Princess T_uotii is being married off tonight and is crying.
+
+#15.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+"Hwaaina so jiedzie, sixa qaacha" joax, eannad cuo
+"Hwaaina so j-iez-ie, sixa qaach-a" joax, eal-aad cuo
+2s:RFL.DAT 1s J-love-CVirr fast arrive-IMPV say.PRS say-NW.D 3s.ERG
+'She says, "If you love me, come quickly!",' he said. (Note /jiedzie/, modern /jiezie/.)
+
+#16.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+My eardagh bolx by hwo, eannad cuo
+My eardagh bolx b-y hwo, eal-aad cuo
+EMPH burdensome matter B-be.PRS 2s say-NW.D 3s.ERG
+What a difficult dilemma this is ('you are'), he (Gheaza) says.
+
+#17.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Fynnagh dalie=_a, laamaz dynza mycha voal shie! eanna meazhdiga=chy chy-veanna laamaz dead cuo
+Fynnagh d-y-ie=_a, laamaz d-ynza mycha v-oal shie! eal-na meazhdig-a=chy chy-v-oal-na laamaz d-y-aad cuo
+whatever D-be-CVirr=& prayer D-do.NEG.PPL NEG V-go 3sRFL say-CVant mosque-GEN=in in-V-go-CVant prayer D-do-NW.D 3s.ERG
+No matter what, I have to go pray, he said, and went to the mosque and prayed.
+
+#18.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Laamaz dea vealcha chy=vaxaav yz
+Laamaz d-ea v-ealcha chy=v-uoda-aav yz
+prayer D-LV.CVant V-finish.CVtemp in=V-go-NW.V 3s
+He finished his prayers and went home.
+
+#19.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Qo kog bolazh ghaand k_al=_a ottadea, qo pxa bola paandar bie=_a bellaa, txoughagh kuorta=_a ghortabea, ghiilla paandar lieqazh vaaghazh xannuu yz naana-c_agha
+Qo kog b-olazh ghaand k_al=_a ott-adea, qo pxa b-ola paandar bie=_a b-ell-aa, txougha-gh kuorta=_a ghortabea, ghiila paandar lieq-azh v-aagh-azh xul-aav yz naana-c_agha
+three leg B-be.CVsim stool under=& stand-D.CS.CVant three string B-be.PPL musical_instrument hand.ADV=& B-insert-CVant chimney-LAT head=& lean.B.CS.CVant sad:FOC musical_instrument play:PLC-CVsim V-sit-CVsim NARP-V 3s mother-room.ADV
+He pulled up a three-legged stool under himself, took his three-stringed instrument, leaned his head against the chimney, and sat sadly playing the pandar in his front room.
+
+#20.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Ghiila jish jy wa lieqar, cwa baala by hwa ker=chy, xeita shiiga, eannad cu q_eanacha Gichaz
+Ghiila jish j-y wa lieq-ar, cwa baala b-y hwa ker=chy, xeit-a shiiga, eal-aad cu q_eana-cha Gicha-z
+sad song J-be.PRS 2s.ERG play-PPL.NZ some grief B-be.PRS 2s.GEN inside=in know-CSind.IMPV 3s:RFL.ALL say-NW.D DEM.OBL old-OBL Gichi.ERG
+That's a sad song you're singing, you have some sorrow in your heart tell me (what it is), said old Gichi (his mother).
+
+#21.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Daga+vaala q_eana daa vaac shiin, baq_ahw+dar xaarcahwchogh q_oastuo q_eana dea-vosha vaac shiin, nouq_ost xyla naanaz vea vosha vaac shiin, cwalxa vy shie Ghalghaashta jiq_ie, xala dy shiina, eannad cuo
+Daga+v-al-a q_eana daa v-y-c shiin, baq_ahw+dar xaarcahwchogh q_oastuo q_eana dea-vosha v-y-c shiin, nouq_ost xul-a naana-z v-ea vosha v-y-c shiin, cwalxa v-y shie Ghalghaa-zh-ta jiq_ie, xala d-y shiina, eal-aad cuo
+confer+V-LV-INF old father V-be-NEG.PRS 3sRFL.GEN right.ADV+D.NZ false.ADV.NZ.LAT separate-CS.INF old uncle V-be-NEG.PRS 3s:RFL.GEN companion be-INF mother-ERG V-give_birth.PPL brother V-be-NEG.PRS 3s:RFL.GEN alone V-be.PRS 3s:RFL Ingush-PL-DAT among difficult D-be.PRS 3sRFL.DAT say-NW.D 3s.ERG
+I don't have an old father to give me advice, I don't have an older uncle to help me tell right from wrong, I don't have a brother to help me, I'm alone in Ingushetia, it's hard for me, he said.
+
+#22.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Xaatta hwei q_eanacha Gichiiga, baq_ahwdar aarddy q_eanacha Gichez
+Xaatt-a hwei q_eana-cha Gicha-ga, baq_ahwdar aarddy q_eana-cha Gicha-z
+ask-IMPV 2sMIR old-OBL Gichi.ALL truth say.D.FUT old-OBL Gichi.ERG
+Ask old Gichi, old Gichi will tell you the truth.
+
+#23.0 Sentence from corpus
+Source: a:754
+Vetted: v
+Judgment: g
+Phenomena: wo
+Fyn xaatta q_eanacha Gichiiga?
+Fyn xaatt-a q_eana-cha Gicha-ga?
+what ask-INF old-OBL Gichi-ALL
+What do you (want to/have to) ask old Gichi?

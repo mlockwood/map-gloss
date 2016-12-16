@@ -1,0 +1,44 @@
+
+Notes
+-------------------------------------------------------
+
+	Looking at the MRSs, I don't see any in particular that are incorrect.  There is a bit of ambiguity at the moment resulting in several charts identical sentences, this is because nouns are only specified for number if they are specifically marked as plural.  This wasn't actually an intentional feature of the grammar, but isn't incorrect as marking plurality in Georgian is in fact optional based on pragmatics.  If a noun is explicitly marked as plural, then it is in fact specified as plural and the verb should agree, if the noun isn't marked for plural then it still may or may not be plural, and the verb will agree with it as though it were singular.
+
+EB> It would help if you illustrate this with an example, so
+I can look and see.  I can see why this would lead to more
+strings being accepted than you might expect, but I don't see that
+ambiguity is warranted here.  Rather, I think what you want
+is underspecification of some sort.  Is this a correct summary
+of the pattern?
+
+N   V:sg	interpretation: sg or pl
+Npl V:pl	interpretation: pl
+Npl V:sg	ungrammatical
+N   V:pl	ungrammatical
+
+If so, then you probably want to treat this part of agreement
+relationship via the syntactic AGR feature (not the PNG on INDEX, like
+we've been doing), and further constrain the plural forms to
+be [INDEX.PNG.NUM pl] while leaving the INDEX.PNG.NUM of
+the singular forms alone.
+
+
+#Ex 49 - adjective agreement
+Source: author
+vetted: f
+Judgment: u
+Phenomena: word order
+სავარჯიშოს ქართულ ვწერთ.
+სავარჯიშო-ს ქართულ-0 0-ვ-0-წერ-PSF-0-თ
+exercise-DAT georgian-DAT NOPRE-1.SUBJ-3.OBJ-write-PSF-PRES/FUT-PL.SUBJ
+`We are writing the Georgian exercises.'
+
+EB> I suspect the gloss is wrong on this one.
+
+EB> For more ungrammatical examples of coordination: da in the wrong
+spot for the other categories, da on both conjuncts, lack of da...
+
+EB> No ungrammatical examples for embedded clauses?  How
+about dropping the complementizer and also putting it in
+the wrong place (e.g., other end of the clause).
+

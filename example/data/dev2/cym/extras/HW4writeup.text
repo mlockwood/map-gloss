@@ -1,0 +1,112 @@
+Eric Mead
+Ling567.Bender
+1/30/08
+HW4
+
+1.
+
+The following is the choices file I ended up with:
+
+version=3
+
+section=language
+language=Welsh
+
+section=features
+case-marking=none
+
+section=word-order
+word-order=vso
+has-dets=yes
+noun-det-order=det-noun
+
+section=sentential-negation
+adv-neg=on
+neg-adv=ind-adv
+neg-mod=vp
+neg-order=before
+neg-adv-orth=ddim
+
+section=coordination
+cs1=on
+cs1_s=on
+cs1_pat=poly
+cs1_mark=word
+cs1_orth=ac
+cs1_order=before
+cs2=on
+cs2_np=on
+cs2_pat=poly
+cs2_mark=word
+cs2_orth=ac
+cs2_order=before
+
+section=matrix-yes-no
+
+section=basic-lexicon
+noun1=cwn
+noun1_pred=_dogs_n_rel
+noun1_det=opt
+noun2=cathod
+noun2_pred=_cat_n_rel
+noun2_det=opt
+iverb=eisteddais
+iverb-pred=_sit_v_rel
+iverb-non-finite=eistedd
+tverb=dysgais
+tverb-pred=_read_v_rel
+tverb-non-finite=dysgu
+aux-verb=mae
+aux-sem=no-pred
+aux-comp=vp
+aux-order=after
+aux-subj=np
+
+section=test-sentences
+sentence1=Mae cwn yn eistedd.
+sentence2=Mae cathod yn dysgu.
+
+------------------------------------------------------------
+
+I chose no case marking as there basically is none. VSO word order because that's the prevailing pattern – many times with AUX, but still VSO. Welsh has DET, but they are not obligatory, and they come before the noun.
+
+I chose an adverbial sentential negation modifying the VP before the phrase, because the general negation strategy is VSnegO. There is some possibility that the verb changes form, but this seems to be more of a phonological mutation. This makes it very difficult to model, as we are not modeling phonological mutations. I decided to regularize the mutations (as they are regular all throughout the language), and treat negation as solely an adverbial addition.
+
+I chose poly- coordination, although I have been unable to come across a sentence containing more than two coordinands, so this is a bit of an assumption. I am still trying to locate a native speaker who would be able to help me in this regard. However, Irish is  a related language and seems to have poly- coordination, and my intuitions based on the way the issue is handled in my sources, say that this is probably also the case for Welsh.
+
+I chose to ignore Matrix Yes/No questions because most of those are handled with intonation, and the ones that aren't are more of a case of deleting an affirmative marker ("fe") which can appear (optionally) at the beginning of any affirmative statement. It is treated as a rythm aspect in the language sources I am using (and is completely optional), and it is because of this I have been hesitant to model it outright. I will most likely look at this closer in future labs.
+
+
+2.
+
+	When I tried parsing a sentence initially, it didn't work since I had neglected to add "yn", the INF marker to the lexicon. I added it (as the same type as the NEG marker just to get things working), and things started to work just fine. The structures were the right ones as far as I can tell, although I haven't been able to look at too many just yet, since I was (and am) struggling with the itsdb() system.
+	
+
+3.
+
+		Document the current coverage/overgeneration of your grammar on your test suite, per [incr tsdb()], before and after you expanded the vocabulary. 
+
+	My initial coverage gave me no distinct analyses, no results, and no overall coverage. The positive items, word string statistics were the same, and the lexical items column read, 1.24 – lower than the second pass.  The negative items was 101/165. However, I'm not sure what that all means just yet.
+	My second pass produced 1 distinct analysis, 4 results, and 4.0 for overall coverage. This was after I included many more lexical items and put the INF marker in as a NEG type. I know this is not what I am supposed to do, but without the INF marker, it would probably get nothing as it is so common in the language. I plan to rectify this later. The lexical items raised to 6.71.
+
+	In terms of overgeneration, the lexical items dropped to 0 from 1.19, and everything else stayed the same. Distinct analyses, results, and overall coverage were all zeros. The negative items was 64/165.
+
+	In looking over my errors, it immediately jumps out that my test suite needs some tweaking. I have been entering in things as clitics, which, in retrospect, are really probably just spelling conventions on determiners and such. For example:
+
+Dw i='n hoffi siocled.
+
+should really just be:
+
+Dw i yn hoffi siocled.
+
+	Either that, or I need to include 'n in the lexicon as another form of the INF marker (?).
+	In any case, I need to regularize the orthography in that regard – and also in terms of the phonological mutations that are SO widespread in Welsh. I will have to go through and make sure all the things that are just phonological issues are taken out. Otherwise, there will be about 57 forms for everything once you take into consideration real forms combined with phonological mutations!! For example, fynd becomes mynd at the beginning of a sentence for no apparent reason (or perhaps, it's that mynd becomes fynd elsewhere!!). The only issue with this, is that there is some indication that the mutation (along with other markers – like dropping an optional affirmative marker) signals questions and/or negation. I'm still trying to get my head around this (I still question how important/necessary it is) and figure out what to do about it. I'll keep you posted.
+
+4.
+	In general, AUX forms will give me the biggest improvement. AUXs are used in almost every sentence, and currently I am only handling things that use the 3rd person singular form. In addition to BE, modals and other AUX-like words will help. There are AUX markers for aspect, certain tenses, and others. So this will add a lot of coverage.
+	Also, adding the pronouns will help TONS. I have lots of sentences that have issues solely because the pronouns are not being recognized.
+	Additionally, adding coverage for the INF marker will help a LOT. Also, adding determiners to the lexicon and settling the phonological mutation issues will help a lot.
+	Proper nouns will help also, because I ended up using a few place names and first names in my test suite. Also, adverb handling will help – especially time and manner adverbs.
+	Things such as tense and fixing negation won't help all that much, because most of my example sentences don't deal with those, but they, of course, will be necessary.
+
+

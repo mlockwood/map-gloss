@@ -1,0 +1,2368 @@
+<xigt-corpus xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <igt id="igt1" doc-id="lgcol:sna" line-range="1-3" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="1" tag="M">  author vetted: t</item>
+      <item id="r2" line="2" tag="L">  ndi-no-famb-a</item>
+      <item id="r3" line="3" tag="G">  SBJ.1sg-PRS.Hab-walk-FV</item>
+      <item id="r4" line="4" tag="T">  `I walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="1" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="2" tag="L">  ndi-no-famb-a</item>
+      <item id="c3" alignment="r3" line="3" tag="G">  SBJ.1sg-PRS.Hab-walk-FV</item>
+      <item id="c4" alignment="r4" line="4" tag="T">  `I walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="1" tag="M">t</item>
+      <item id="n2" alignment="c2" line="2" tag="L">ndi-no-famb-a</item>
+      <item id="n3" alignment="c3" line="3" tag="G">SBJ.1sg-PRS.Hab-walk-FV</item>
+      <item id="n4" alignment="c4" line="4" tag="T">I walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt2" doc-id="lgcol:sna" line-range="9-11" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="9" tag="M">  author vetted: t</item>
+      <item id="r2" line="10" tag="L">  ti-no-famb-a</item>
+      <item id="r3" line="11" tag="G">  SBJ.1pl-PRS.Hab-walk-FV</item>
+      <item id="r4" line="12" tag="T">  `We walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="9" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="10" tag="L">  ti-no-famb-a</item>
+      <item id="c3" alignment="r3" line="11" tag="G">  SBJ.1pl-PRS.Hab-walk-FV</item>
+      <item id="c4" alignment="r4" line="12" tag="T">  `We walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="9" tag="M">t</item>
+      <item id="n2" alignment="c2" line="10" tag="L">ti-no-famb-a</item>
+      <item id="n3" alignment="c3" line="11" tag="G">SBJ.1pl-PRS.Hab-walk-FV</item>
+      <item id="n4" alignment="c4" line="12" tag="T">We walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt3" doc-id="lgcol:sna" line-range="13-15" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="13" tag="M">  author vetted: t</item>
+      <item id="r2" line="14" tag="L">  va-no-famb-a</item>
+      <item id="r3" line="15" tag="G">  SBJ.CL2-PRS.HAB-walk-FV</item>
+      <item id="r4" line="16" tag="T">  `They walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="13" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="14" tag="L">  va-no-famb-a</item>
+      <item id="c3" alignment="r3" line="15" tag="G">  SBJ.CL2-PRS.HAB-walk-FV</item>
+      <item id="c4" alignment="r4" line="16" tag="T">  `They walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="13" tag="M">t</item>
+      <item id="n2" alignment="c2" line="14" tag="L">va-no-famb-a</item>
+      <item id="n3" alignment="c3" line="15" tag="G">SBJ.CL2-PRS.HAB-walk-FV</item>
+      <item id="n4" alignment="c4" line="16" tag="T">They walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt4" doc-id="lgcol:sna" line-range="17-19" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="17" tag="M">  author vetted: t</item>
+      <item id="r2" line="18" tag="L">  mu-no-famb-a</item>
+      <item id="r3" line="19" tag="G">  SBJ.2pl-PRS.Hab-walk-FV</item>
+      <item id="r4" line="20" tag="T">  `You walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="17" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="18" tag="L">  mu-no-famb-a</item>
+      <item id="c3" alignment="r3" line="19" tag="G">  SBJ.2pl-PRS.Hab-walk-FV</item>
+      <item id="c4" alignment="r4" line="20" tag="T">  `You walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="17" tag="M">t</item>
+      <item id="n2" alignment="c2" line="18" tag="L">mu-no-famb-a</item>
+      <item id="n3" alignment="c3" line="19" tag="G">SBJ.2pl-PRS.Hab-walk-FV</item>
+      <item id="n4" alignment="c4" line="20" tag="T">You walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt5" doc-id="lgcol:sna" line-range="21-23" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="21" tag="M">  author vetted: t</item>
+      <item id="r2" line="22" tag="L">  u-no-famb-a</item>
+      <item id="r3" line="23" tag="G">  SBJ.2sg-PRS.Hab-walk-FV</item>
+      <item id="r4" line="24" tag="T">  `You walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="21" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="22" tag="L">  u-no-famb-a</item>
+      <item id="c3" alignment="r3" line="23" tag="G">  SBJ.2sg-PRS.Hab-walk-FV</item>
+      <item id="c4" alignment="r4" line="24" tag="T">  `You walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="21" tag="M">t</item>
+      <item id="n2" alignment="c2" line="22" tag="L">u-no-famb-a</item>
+      <item id="n3" alignment="c3" line="23" tag="G">SBJ.2sg-PRS.Hab-walk-FV</item>
+      <item id="n4" alignment="c4" line="24" tag="T">You walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt6" doc-id="lgcol:sna" line-range="25-27" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="25" tag="M">  author vetted: t</item>
+      <item id="r2" line="26" tag="L">  a-no-famb-a</item>
+      <item id="r3" line="27" tag="G">  SBJ.CL1-PRS.hab-walk-FV</item>
+      <item id="r4" line="28" tag="T">  `He walks.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="25" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="26" tag="L">  a-no-famb-a</item>
+      <item id="c3" alignment="r3" line="27" tag="G">  SBJ.CL1-PRS.hab-walk-FV</item>
+      <item id="c4" alignment="r4" line="28" tag="T">  `He walks.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="25" tag="M">t</item>
+      <item id="n2" alignment="c2" line="26" tag="L">a-no-famb-a</item>
+      <item id="n3" alignment="c3" line="27" tag="G">SBJ.CL1-PRS.hab-walk-FV</item>
+      <item id="n4" alignment="c4" line="28" tag="T">He walks.</item>
+    </tier>
+  </igt>
+  <igt id="igt7" doc-id="lgcol:sna" line-range="29-31" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="29" tag="M">  author vetted: t</item>
+      <item id="r2" line="30" tag="L">  mu-nhu a-no-famb-a</item>
+      <item id="r3" line="31" tag="G">  CL1-person SBJ.CL1-PRS-walk-FV</item>
+      <item id="r4" line="32" tag="T">  `A person walks.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="29" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="30" tag="L">  mu-nhu a-no-famb-a</item>
+      <item id="c3" alignment="r3" line="31" tag="G">  CL1-person SBJ.CL1-PRS-walk-FV</item>
+      <item id="c4" alignment="r4" line="32" tag="T">  `A person walks.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="29" tag="M">t</item>
+      <item id="n2" alignment="c2" line="30" tag="L">mu-nhu a-no-famb-a</item>
+      <item id="n3" alignment="c3" line="31" tag="G">CL1-person SBJ.CL1-PRS-walk-FV</item>
+      <item id="n4" alignment="c4" line="32" tag="T">A person walks.</item>
+    </tier>
+  </igt>
+  <igt id="igt8" doc-id="lgcol:sna" line-range="33-35" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="33" tag="M">  author vetted: t</item>
+      <item id="r2" line="34" tag="L">  mu-kadzi a-no-famb-a</item>
+      <item id="r3" line="35" tag="G">  CL1-woman SBJ.CL1-PRS-walk-FV</item>
+      <item id="r4" line="36" tag="T">  `A woman walks.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="33" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="34" tag="L">  mu-kadzi a-no-famb-a</item>
+      <item id="c3" alignment="r3" line="35" tag="G">  CL1-woman SBJ.CL1-PRS-walk-FV</item>
+      <item id="c4" alignment="r4" line="36" tag="T">  `A woman walks.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="33" tag="M">t</item>
+      <item id="n2" alignment="c2" line="34" tag="L">mu-kadzi a-no-famb-a</item>
+      <item id="n3" alignment="c3" line="35" tag="G">CL1-woman SBJ.CL1-PRS-walk-FV</item>
+      <item id="n4" alignment="c4" line="36" tag="T">A woman walks.</item>
+    </tier>
+  </igt>
+  <igt id="igt9" doc-id="lgcol:sna" line-range="37-39" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="37" tag="M">  author vetted: t</item>
+      <item id="r2" line="38" tag="L">  ndi-no-teng-a mu-chero</item>
+      <item id="r3" line="39" tag="G">  SBJ.1sg-PRS-buy-FV CL3-fruit</item>
+      <item id="r4" line="40" tag="T">  `I buy a fruit.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="37" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="38" tag="L">  ndi-no-teng-a mu-chero</item>
+      <item id="c3" alignment="r3" line="39" tag="G">  SBJ.1sg-PRS-buy-FV CL3-fruit</item>
+      <item id="c4" alignment="r4" line="40" tag="T">  `I buy a fruit.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="37" tag="M">t</item>
+      <item id="n2" alignment="c2" line="38" tag="L">ndi-no-teng-a mu-chero</item>
+      <item id="n3" alignment="c3" line="39" tag="G">SBJ.1sg-PRS-buy-FV CL3-fruit</item>
+      <item id="n4" alignment="c4" line="40" tag="T">I buy a fruit.</item>
+    </tier>
+  </igt>
+  <igt id="igt10" doc-id="lgcol:sna" line-range="41-43" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="41" tag="M">  author vetted: t</item>
+      <item id="r2" line="42" tag="L">  a-no-teng-a mu-chero</item>
+      <item id="r3" line="43" tag="G">  SBJ.CL1-PRS-buy-FV CL3-fruit</item>
+      <item id="r4" line="44" tag="T">  `He buys a fruit.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="41" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="42" tag="L">  a-no-teng-a mu-chero</item>
+      <item id="c3" alignment="r3" line="43" tag="G">  SBJ.CL1-PRS-buy-FV CL3-fruit</item>
+      <item id="c4" alignment="r4" line="44" tag="T">  `He buys a fruit.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="41" tag="M">t</item>
+      <item id="n2" alignment="c2" line="42" tag="L">a-no-teng-a mu-chero</item>
+      <item id="n3" alignment="c3" line="43" tag="G">SBJ.CL1-PRS-buy-FV CL3-fruit</item>
+      <item id="n4" alignment="c4" line="44" tag="T">He buys a fruit.</item>
+    </tier>
+  </igt>
+  <igt id="igt11" doc-id="lgcol:sna" line-range="45-47" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="45" tag="M">  author vetted: t</item>
+      <item id="r2" line="46" tag="L">  ti-no-teng-a mu-chero</item>
+      <item id="r3" line="47" tag="G">  SBJ.1pl-PRS-buy-FV CL3-fruit</item>
+      <item id="r4" line="48" tag="T">  `We buy a fruit.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="45" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="46" tag="L">  ti-no-teng-a mu-chero</item>
+      <item id="c3" alignment="r3" line="47" tag="G">  SBJ.1pl-PRS-buy-FV CL3-fruit</item>
+      <item id="c4" alignment="r4" line="48" tag="T">  `We buy a fruit.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="45" tag="M">t</item>
+      <item id="n2" alignment="c2" line="46" tag="L">ti-no-teng-a mu-chero</item>
+      <item id="n3" alignment="c3" line="47" tag="G">SBJ.1pl-PRS-buy-FV CL3-fruit</item>
+      <item id="n4" alignment="c4" line="48" tag="T">We buy a fruit.</item>
+    </tier>
+  </igt>
+  <igt id="igt12" doc-id="lgcol:sna" line-range="53-55" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="53" tag="M">  author vetted: t</item>
+      <item id="r2" line="54" tag="L">  mu-nhu a-no-teng-a mu-chero</item>
+      <item id="r3" line="55" tag="G">  CL1-person SBJ.3sg-PRS-buy-FV CL3-fruit</item>
+      <item id="r4" line="56" tag="T">  `A person buys fruit.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="53" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="54" tag="L">  mu-nhu a-no-teng-a mu-chero</item>
+      <item id="c3" alignment="r3" line="55" tag="G">  CL1-person SBJ.3sg-PRS-buy-FV CL3-fruit</item>
+      <item id="c4" alignment="r4" line="56" tag="T">  `A person buys fruit.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="53" tag="M">t</item>
+      <item id="n2" alignment="c2" line="54" tag="L">mu-nhu a-no-teng-a mu-chero</item>
+      <item id="n3" alignment="c3" line="55" tag="G">CL1-person SBJ.3sg-PRS-buy-FV CL3-fruit</item>
+      <item id="n4" alignment="c4" line="56" tag="T">A person buys fruit.</item>
+    </tier>
+  </igt>
+  <igt id="igt13" doc-id="lgcol:sna" line-range="61-63" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="61" tag="M">  author vetted: t</item>
+      <item id="r2" line="62" tag="L">  mu-nhu a-a-famb-a</item>
+      <item id="r3" line="63" tag="G">  CL1-person SBJ.3sg-RP-walk-FV</item>
+      <item id="r4" line="64" tag="T">  `A person (just) walked.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="61" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="62" tag="L">  mu-nhu a-a-famb-a</item>
+      <item id="c3" alignment="r3" line="63" tag="G">  CL1-person SBJ.3sg-RP-walk-FV</item>
+      <item id="c4" alignment="r4" line="64" tag="T">  `A person (just) walked.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="61" tag="M">t</item>
+      <item id="n2" alignment="c2" line="62" tag="L">mu-nhu a-a-famb-a</item>
+      <item id="n3" alignment="c3" line="63" tag="G">CL1-person SBJ.3sg-RP-walk-FV</item>
+      <item id="n4" alignment="c4" line="64" tag="T">A person (just) walked.</item>
+    </tier>
+  </igt>
+  <igt id="igt14" doc-id="lgcol:sna" line-range="65-67" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="65" tag="M">  author vetted: t</item>
+      <item id="r2" line="66" tag="L">  mu-nhu a-no-teng-a</item>
+      <item id="r3" line="67" tag="G">  CL1-person SBJ.3sg-PRS-buy-FV</item>
+      <item id="r4" line="68" tag="T">  `A person buys.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="65" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="66" tag="L">  mu-nhu a-no-teng-a</item>
+      <item id="c3" alignment="r3" line="67" tag="G">  CL1-person SBJ.3sg-PRS-buy-FV</item>
+      <item id="c4" alignment="r4" line="68" tag="T">  `A person buys.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="65" tag="M">t</item>
+      <item id="n2" alignment="c2" line="66" tag="L">mu-nhu a-no-teng-a</item>
+      <item id="n3" alignment="c3" line="67" tag="G">CL1-person SBJ.3sg-PRS-buy-FV</item>
+      <item id="n4" alignment="c4" line="68" tag="T">A person buys.</item>
+    </tier>
+  </igt>
+  <igt id="igt15" doc-id="lgcol:sna" line-range="73-75" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="73" tag="M">  d vetted: s</item>
+      <item id="r2" line="74" tag="L">  ha-ndi-famb-i</item>
+      <item id="r3" line="75" tag="G">  NEG-SBJ.1s-walk-FV</item>
+      <item id="r4" line="76" tag="T">  `I do not walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="73" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="74" tag="L">  ha-ndi-famb-i</item>
+      <item id="c3" alignment="r3" line="75" tag="G">  NEG-SBJ.1s-walk-FV</item>
+      <item id="c4" alignment="r4" line="76" tag="T">  `I do not walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="73" tag="M">s</item>
+      <item id="n2" alignment="c2" line="74" tag="L">ha-ndi-famb-i</item>
+      <item id="n3" alignment="c3" line="75" tag="G">NEG-SBJ.1s-walk-FV</item>
+      <item id="n4" alignment="c4" line="76" tag="T">I do not walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt16" doc-id="lgcol:sna" line-range="77-79" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="77" tag="M">  d vetted: s</item>
+      <item id="r2" line="78" tag="L">  ha-ti-famb-e</item>
+      <item id="r3" line="79" tag="G">  HORT-SBJ.1sg-walk-FV</item>
+      <item id="r4" line="80" tag="T">  'Let us walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="77" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="78" tag="L">  ha-ti-famb-e</item>
+      <item id="c3" alignment="r3" line="79" tag="G">  HORT-SBJ.1sg-walk-FV</item>
+      <item id="c4" alignment="r4" line="80" tag="T">  'Let us walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="77" tag="M">s</item>
+      <item id="n2" alignment="c2" line="78" tag="L">ha-ti-famb-e</item>
+      <item id="n3" alignment="c3" line="79" tag="G">HORT-SBJ.1sg-walk-FV</item>
+      <item id="n4" alignment="c4" line="80" tag="T">Let us walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt17" doc-id="lgcol:sna" line-range="81-83" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="81" tag="M">  d vetted: s</item>
+      <item id="r2" line="82" tag="L">  ha-ti-famb-e</item>
+      <item id="r3" line="83" tag="G">  HORT-SBJ.1sg-walk-FV</item>
+      <item id="r4" line="84" tag="T">  'Let us walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="81" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="82" tag="L">  ha-ti-famb-e</item>
+      <item id="c3" alignment="r3" line="83" tag="G">  HORT-SBJ.1sg-walk-FV</item>
+      <item id="c4" alignment="r4" line="84" tag="T">  'Let us walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="81" tag="M">s</item>
+      <item id="n2" alignment="c2" line="82" tag="L">ha-ti-famb-e</item>
+      <item id="n3" alignment="c3" line="83" tag="G">HORT-SBJ.1sg-walk-FV</item>
+      <item id="n4" alignment="c4" line="84" tag="T">Let us walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt18" doc-id="lgcol:sna" line-range="85-87" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="85" tag="M">  d vetted: s</item>
+      <item id="r2" line="86" tag="L">  a-no-zvi-ziv-a</item>
+      <item id="r3" line="87" tag="G">  SBJ.Cl1-PRES.CONT-OBJ.Cl8-know-FV</item>
+      <item id="r4" line="88" tag="T">  'He/she knows them (the things).'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="85" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="86" tag="L">  a-no-zvi-ziv-a</item>
+      <item id="c3" alignment="r3" line="87" tag="G">  SBJ.Cl1-PRES.CONT-OBJ.Cl8-know-FV</item>
+      <item id="c4" alignment="r4" line="88" tag="T">  'He/she knows them (the things).'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="85" tag="M">s</item>
+      <item id="n2" alignment="c2" line="86" tag="L">a-no-zvi-ziv-a</item>
+      <item id="n3" alignment="c3" line="87" tag="G">SBJ.Cl1-PRES.CONT-OBJ.Cl8-know-FV</item>
+      <item id="n4" alignment="c4" line="88" tag="T">He/she knows them (the things).</item>
+    </tier>
+  </igt>
+  <igt id="igt19" doc-id="lgcol:sna" line-range="89-91" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="89" tag="M">  d vetted: s</item>
+      <item id="r2" line="90" tag="L">  ha-ndi-end-i</item>
+      <item id="r3" line="91" tag="G">  NEG-SBJ.1sg-go-FV</item>
+      <item id="r4" line="92" tag="T">  'I will not go.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="89" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="90" tag="L">  ha-ndi-end-i</item>
+      <item id="c3" alignment="r3" line="91" tag="G">  NEG-SBJ.1sg-go-FV</item>
+      <item id="c4" alignment="r4" line="92" tag="T">  'I will not go.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="89" tag="M">s</item>
+      <item id="n2" alignment="c2" line="90" tag="L">ha-ndi-end-i</item>
+      <item id="n3" alignment="c3" line="91" tag="G">NEG-SBJ.1sg-go-FV</item>
+      <item id="n4" alignment="c4" line="92" tag="T">I will not go.</item>
+    </tier>
+  </igt>
+  <igt id="igt20" doc-id="lgcol:sna" line-range="93-95" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="93" tag="M">  d vetted: s</item>
+      <item id="r2" line="94" tag="L">  va-sa-end-e</item>
+      <item id="r3" line="95" tag="G">  SBJ.Cl2-NEG/Mood-go-FV</item>
+      <item id="r4" line="96" tag="T">  'They should not go.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="93" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="94" tag="L">  va-sa-end-e</item>
+      <item id="c3" alignment="r3" line="95" tag="G">  SBJ.Cl2-NEG/Mood-go-FV</item>
+      <item id="c4" alignment="r4" line="96" tag="T">  'They should not go.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="93" tag="M">s</item>
+      <item id="n2" alignment="c2" line="94" tag="L">va-sa-end-e</item>
+      <item id="n3" alignment="c3" line="95" tag="G">SBJ.Cl2-NEG/Mood-go-FV</item>
+      <item id="n4" alignment="c4" line="96" tag="T">They should not go.</item>
+    </tier>
+  </igt>
+  <igt id="igt21" doc-id="lgcol:sna" line-range="97-99" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="97" tag="M">  d vetted: s</item>
+      <item id="r2" line="98" tag="L">  famb-a</item>
+      <item id="r3" line="99" tag="G">  walk-FV</item>
+      <item id="r4" line="100" tag="T">  'Walk'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="97" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="98" tag="L">  famb-a</item>
+      <item id="c3" alignment="r3" line="99" tag="G">  walk-FV</item>
+      <item id="c4" alignment="r4" line="100" tag="T">  'Walk'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="97" tag="M">s</item>
+      <item id="n2" alignment="c2" line="98" tag="L">famb-a</item>
+      <item id="n3" alignment="c3" line="99" tag="G">walk-FV</item>
+      <item id="n4" alignment="c4" line="100" tag="T">Walk</item>
+    </tier>
+  </igt>
+  <igt id="igt22" doc-id="lgcol:sna" line-range="101-103" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="101" tag="M">  d vetted: s</item>
+      <item id="r2" line="102" tag="L">  ndi-no-end-a</item>
+      <item id="r3" line="103" tag="G">  SBJ.1sg-HAB-go-FV</item>
+      <item id="r4" line="104" tag="T">  'I normally go.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="101" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="102" tag="L">  ndi-no-end-a</item>
+      <item id="c3" alignment="r3" line="103" tag="G">  SBJ.1sg-HAB-go-FV</item>
+      <item id="c4" alignment="r4" line="104" tag="T">  'I normally go.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="101" tag="M">s</item>
+      <item id="n2" alignment="c2" line="102" tag="L">ndi-no-end-a</item>
+      <item id="n3" alignment="c3" line="103" tag="G">SBJ.1sg-HAB-go-FV</item>
+      <item id="n4" alignment="c4" line="104" tag="T">I normally go.</item>
+    </tier>
+  </igt>
+  <igt id="igt23" doc-id="lgcol:sna" line-range="105-107" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="105" tag="M">  d vetted: s</item>
+      <item id="r2" line="106" tag="L">  ndi-nga-famb-a</item>
+      <item id="r3" line="107" tag="G">  SBJ.1sg-MOOD-walk-FV</item>
+      <item id="r4" line="108" tag="T">  'I can/may walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="105" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="106" tag="L">  ndi-nga-famb-a</item>
+      <item id="c3" alignment="r3" line="107" tag="G">  SBJ.1sg-MOOD-walk-FV</item>
+      <item id="c4" alignment="r4" line="108" tag="T">  'I can/may walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="105" tag="M">s</item>
+      <item id="n2" alignment="c2" line="106" tag="L">ndi-nga-famb-a</item>
+      <item id="n3" alignment="c3" line="107" tag="G">SBJ.1sg-MOOD-walk-FV</item>
+      <item id="n4" alignment="c4" line="108" tag="T">I can/may walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt24" doc-id="lgcol:sna" line-range="109-111" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="109" tag="M">  d vetted: s</item>
+      <item id="r2" line="110" tag="L">  ndi-chi-tamb-a</item>
+      <item id="r3" line="111" tag="G">  SBJ.1sg-ASP-dance-FV</item>
+      <item id="r4" line="112" tag="T">  'I (while) dancing.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="109" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="110" tag="L">  ndi-chi-tamb-a</item>
+      <item id="c3" alignment="r3" line="111" tag="G">  SBJ.1sg-ASP-dance-FV</item>
+      <item id="c4" alignment="r4" line="112" tag="T">  'I (while) dancing.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="109" tag="M">s</item>
+      <item id="n2" alignment="c2" line="110" tag="L">ndi-chi-tamb-a</item>
+      <item id="n3" alignment="c3" line="111" tag="G">SBJ.1sg-ASP-dance-FV</item>
+      <item id="n4" alignment="c4" line="112" tag="T">I (while) dancing.</item>
+    </tier>
+  </igt>
+  <igt id="igt25" doc-id="lgcol:sna" line-range="113-115" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="113" tag="M">  d vetted: s</item>
+      <item id="r2" line="114" tag="L">  ini ndi-si-nga-far-e</item>
+      <item id="r3" line="115" tag="G">  1sg.PRO SBJ.1sg-NEG-nga-happy-FV</item>
+      <item id="r4" line="116" tag="T">  'I who is not happy.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="113" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="114" tag="L">  ini ndi-si-nga-far-e</item>
+      <item id="c3" alignment="r3" line="115" tag="G">  1sg.PRO SBJ.1sg-NEG-nga-happy-FV</item>
+      <item id="c4" alignment="r4" line="116" tag="T">  'I who is not happy.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="113" tag="M">s</item>
+      <item id="n2" alignment="c2" line="114" tag="L">ini ndi-si-nga-far-e</item>
+      <item id="n3" alignment="c3" line="115" tag="G">1sg.PRO SBJ.1sg-NEG-nga-happy-FV</item>
+      <item id="n4" alignment="c4" line="116" tag="T">I who is not happy.</item>
+    </tier>
+  </igt>
+  <igt id="igt26" doc-id="lgcol:sna" line-range="117-119" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="117" tag="M">  d vetted: s</item>
+      <item id="r2" line="118" tag="L">  nga-a-famb-e</item>
+      <item id="r3" line="119" tag="G">  HORT-SBJ.Cl1-walk-FV</item>
+      <item id="r4" line="120" tag="T">  'Let him/her walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="117" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="118" tag="L">  nga-a-famb-e</item>
+      <item id="c3" alignment="r3" line="119" tag="G">  HORT-SBJ.Cl1-walk-FV</item>
+      <item id="c4" alignment="r4" line="120" tag="T">  'Let him/her walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="117" tag="M">s</item>
+      <item id="n2" alignment="c2" line="118" tag="L">nga-a-famb-e</item>
+      <item id="n3" alignment="c3" line="119" tag="G">HORT-SBJ.Cl1-walk-FV</item>
+      <item id="n4" alignment="c4" line="120" tag="T">Let him/her walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt27" doc-id="lgcol:sna" line-range="121-123" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="121" tag="M">  d vetted: s</item>
+      <item id="r2" line="122" tag="L">  famb-a-i</item>
+      <item id="r3" line="123" tag="G">  walk-FV-pl</item>
+      <item id="r4" line="124" tag="T">  'You (plural) walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="121" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="122" tag="L">  famb-a-i</item>
+      <item id="c3" alignment="r3" line="123" tag="G">  walk-FV-pl</item>
+      <item id="c4" alignment="r4" line="124" tag="T">  'You (plural) walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="121" tag="M">s</item>
+      <item id="n2" alignment="c2" line="122" tag="L">famb-a-i</item>
+      <item id="n3" alignment="c3" line="123" tag="G">walk-FV-pl</item>
+      <item id="n4" alignment="c4" line="124" tag="T">You (plural) walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt28" doc-id="lgcol:sna" line-range="125-127" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="125" tag="M">  d vetted: s</item>
+      <item id="r2" line="126" tag="L">  ndi-ri ku-end-a</item>
+      <item id="r3" line="127" tag="G">  SBJ.1sg-AUX INF-go-FV</item>
+      <item id="r4" line="128" tag="T">  'I am going'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="125" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="126" tag="L">  ndi-ri ku-end-a</item>
+      <item id="c3" alignment="r3" line="127" tag="G">  SBJ.1sg-AUX INF-go-FV</item>
+      <item id="c4" alignment="r4" line="128" tag="T">  'I am going'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="125" tag="M">s</item>
+      <item id="n2" alignment="c2" line="126" tag="L">ndi-ri ku-end-a</item>
+      <item id="n3" alignment="c3" line="127" tag="G">SBJ.1sg-AUX INF-go-FV</item>
+      <item id="n4" alignment="c4" line="128" tag="T">I am going</item>
+    </tier>
+  </igt>
+  <igt id="igt29" doc-id="lgcol:sna" line-range="129-131" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="129" tag="M">  d vetted: s</item>
+      <item id="r2" line="130" tag="L">  ndi-no-mu-d-a</item>
+      <item id="r3" line="131" tag="G">  SBJ.1sg-PRES.CONT-OBJ.CL1-love-FV</item>
+      <item id="r4" line="132" tag="T">  'I love him/her'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="129" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="130" tag="L">  ndi-no-mu-d-a</item>
+      <item id="c3" alignment="r3" line="131" tag="G">  SBJ.1sg-PRES.CONT-OBJ.CL1-love-FV</item>
+      <item id="c4" alignment="r4" line="132" tag="T">  'I love him/her'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="129" tag="M">s</item>
+      <item id="n2" alignment="c2" line="130" tag="L">ndi-no-mu-d-a</item>
+      <item id="n3" alignment="c3" line="131" tag="G">SBJ.1sg-PRES.CONT-OBJ.CL1-love-FV</item>
+      <item id="n4" alignment="c4" line="132" tag="T">I love him/her</item>
+    </tier>
+  </igt>
+  <igt id="igt30" doc-id="lgcol:sna" line-range="137-139" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="137" tag="M">  author vetted: t</item>
+      <item id="r2" line="138" tag="L">  ha-a-a-na ku-famb-a</item>
+      <item id="r3" line="139" tag="G">  neg-SBJ.3sg-rp-AUX INF-walk-FV</item>
+      <item id="r4" line="140" tag="T">  `He did not walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="137" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="138" tag="L">  ha-a-a-na ku-famb-a</item>
+      <item id="c3" alignment="r3" line="139" tag="G">  neg-SBJ.3sg-rp-AUX INF-walk-FV</item>
+      <item id="c4" alignment="r4" line="140" tag="T">  `He did not walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="137" tag="M">t</item>
+      <item id="n2" alignment="c2" line="138" tag="L">ha-a-a-na ku-famb-a</item>
+      <item id="n3" alignment="c3" line="139" tag="G">neg-SBJ.3sg-rp-AUX INF-walk-FV</item>
+      <item id="n4" alignment="c4" line="140" tag="T">He did not walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt31" doc-id="lgcol:sna" line-range="141-143" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="141" tag="M">  author vetted: t</item>
+      <item id="r2" line="142" tag="L">  ndi-aka-famb-a</item>
+      <item id="r3" line="143" tag="G">  SBJ.1sg-RP-walk-FV</item>
+      <item id="r4" line="144" tag="T">  `I walked (some time ago).'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="141" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="142" tag="L">  ndi-aka-famb-a</item>
+      <item id="c3" alignment="r3" line="143" tag="G">  SBJ.1sg-RP-walk-FV</item>
+      <item id="c4" alignment="r4" line="144" tag="T">  `I walked (some time ago).'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="141" tag="M">t</item>
+      <item id="n2" alignment="c2" line="142" tag="L">ndi-aka-famb-a</item>
+      <item id="n3" alignment="c3" line="143" tag="G">SBJ.1sg-RP-walk-FV</item>
+      <item id="n4" alignment="c4" line="144" tag="T">I walked (some time ago).</item>
+    </tier>
+  </igt>
+  <igt id="igt32" doc-id="lgcol:sna" line-range="149-151" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="149" tag="M">  author vetted: t</item>
+      <item id="r2" line="150" tag="L">  ha-ti-na ku-famb-a</item>
+      <item id="r3" line="151" tag="G">  NEG-SBJ.2pl-AUX INF-walk-FV</item>
+      <item id="r4" line="152" tag="T">  `We did not walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="149" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="150" tag="L">  ha-ti-na ku-famb-a</item>
+      <item id="c3" alignment="r3" line="151" tag="G">  NEG-SBJ.2pl-AUX INF-walk-FV</item>
+      <item id="c4" alignment="r4" line="152" tag="T">  `We did not walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="149" tag="M">t</item>
+      <item id="n2" alignment="c2" line="150" tag="L">ha-ti-na ku-famb-a</item>
+      <item id="n3" alignment="c3" line="151" tag="G">NEG-SBJ.2pl-AUX INF-walk-FV</item>
+      <item id="n4" alignment="c4" line="152" tag="T">We did not walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt33" doc-id="lgcol:sna" line-range="157-159" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="157" tag="M">  author vetted: t</item>
+      <item id="r2" line="158" tag="L">  mu-kadzi a-no-teng-a mi-chero</item>
+      <item id="r3" line="159" tag="G">  CL1-woman SBJ.CL1-PRS-buy-FV CL4-fruit</item>
+      <item id="r4" line="160" tag="T">  `A woman buys fruits.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="157" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="158" tag="L">  mu-kadzi a-no-teng-a mi-chero</item>
+      <item id="c3" alignment="r3" line="159" tag="G">  CL1-woman SBJ.CL1-PRS-buy-FV CL4-fruit</item>
+      <item id="c4" alignment="r4" line="160" tag="T">  `A woman buys fruits.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="157" tag="M">t</item>
+      <item id="n2" alignment="c2" line="158" tag="L">mu-kadzi a-no-teng-a mi-chero</item>
+      <item id="n3" alignment="c3" line="159" tag="G">CL1-woman SBJ.CL1-PRS-buy-FV CL4-fruit</item>
+      <item id="n4" alignment="c4" line="160" tag="T">A woman buys fruits.</item>
+    </tier>
+  </igt>
+  <igt id="igt34" doc-id="lgcol:sna" line-range="161-163" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="161" tag="M">  author vetted: t</item>
+      <item id="r2" line="162" tag="L">  va-kadzi va-no-famb-a</item>
+      <item id="r3" line="163" tag="G">  CL2-woman SBJ.CL2-PRS-walk-FV</item>
+      <item id="r4" line="164" tag="T">  `Women walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="161" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="162" tag="L">  va-kadzi va-no-famb-a</item>
+      <item id="c3" alignment="r3" line="163" tag="G">  CL2-woman SBJ.CL2-PRS-walk-FV</item>
+      <item id="c4" alignment="r4" line="164" tag="T">  `Women walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="161" tag="M">t</item>
+      <item id="n2" alignment="c2" line="162" tag="L">va-kadzi va-no-famb-a</item>
+      <item id="n3" alignment="c3" line="163" tag="G">CL2-woman SBJ.CL2-PRS-walk-FV</item>
+      <item id="n4" alignment="c4" line="164" tag="T">Women walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt35" doc-id="lgcol:sna" line-range="169-171" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="169" tag="M">  author vetted: t</item>
+      <item id="r2" line="170" tag="L">  va-nhu va-no-famb-a</item>
+      <item id="r3" line="171" tag="G">  CL2-person SBJ.CL2-PRS-walk-FV</item>
+      <item id="r4" line="172" tag="T">  `People walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="169" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="170" tag="L">  va-nhu va-no-famb-a</item>
+      <item id="c3" alignment="r3" line="171" tag="G">  CL2-person SBJ.CL2-PRS-walk-FV</item>
+      <item id="c4" alignment="r4" line="172" tag="T">  `People walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="169" tag="M">t</item>
+      <item id="n2" alignment="c2" line="170" tag="L">va-nhu va-no-famb-a</item>
+      <item id="n3" alignment="c3" line="171" tag="G">CL2-person SBJ.CL2-PRS-walk-FV</item>
+      <item id="n4" alignment="c4" line="172" tag="T">People walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt36" doc-id="lgcol:sna" line-range="173-175" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="173" tag="M">  author vetted: t</item>
+      <item id="r2" line="174" tag="L">  va-nhu va-no-teng-a mi-chero</item>
+      <item id="r3" line="175" tag="G">  CL2-person SBJ.CL2-PRS-buy-FV CL4-fruit</item>
+      <item id="r4" line="176" tag="T">  `People buy fruits.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="173" tag="M">  author vetted: t</item>
+      <item id="c2" alignment="r2" line="174" tag="L">  va-nhu va-no-teng-a mi-chero</item>
+      <item id="c3" alignment="r3" line="175" tag="G">  CL2-person SBJ.CL2-PRS-buy-FV CL4-fruit</item>
+      <item id="c4" alignment="r4" line="176" tag="T">  `People buy fruits.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="173" tag="M">t</item>
+      <item id="n2" alignment="c2" line="174" tag="L">va-nhu va-no-teng-a mi-chero</item>
+      <item id="n3" alignment="c3" line="175" tag="G">CL2-person SBJ.CL2-PRS-buy-FV CL4-fruit</item>
+      <item id="n4" alignment="c4" line="176" tag="T">People buy fruits.</item>
+    </tier>
+  </igt>
+  <igt id="igt37" doc-id="lgcol:sna" line-range="181-183" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="181" tag="M">  e 32 vetted: t</item>
+      <item id="r2" line="182" tag="L">  u-aka-famb-a</item>
+      <item id="r3" line="183" tag="G">  SBJ.2sg-RP-walk-FV</item>
+      <item id="r4" line="184" tag="T">  `You walked (some time ago).'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="181" tag="M">  e 32 vetted: t</item>
+      <item id="c2" alignment="r2" line="182" tag="L">  u-aka-famb-a</item>
+      <item id="c3" alignment="r3" line="183" tag="G">  SBJ.2sg-RP-walk-FV</item>
+      <item id="c4" alignment="r4" line="184" tag="T">  `You walked (some time ago).'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="181" tag="M">e 32 vetted: t</item>
+      <item id="n2" alignment="c2" line="182" tag="L">u-aka-famb-a</item>
+      <item id="n3" alignment="c3" line="183" tag="G">SBJ.2sg-RP-walk-FV</item>
+      <item id="n4" alignment="c4" line="184" tag="T">You walked (some time ago).</item>
+    </tier>
+  </igt>
+  <igt id="igt38" doc-id="lgcol:sna" line-range="185-187" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="185" tag="M">  e 32 vetted: t</item>
+      <item id="r2" line="186" tag="L">  u-a-teng-a mu-chero</item>
+      <item id="r3" line="187" tag="G">  SBJ.2sg-REC.PAST-buy-FV CL3-fruit</item>
+      <item id="r4" line="188" tag="T">  `You just recently bought fruit.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="185" tag="M">  e 32 vetted: t</item>
+      <item id="c2" alignment="r2" line="186" tag="L">  u-a-teng-a mu-chero</item>
+      <item id="c3" alignment="r3" line="187" tag="G">  SBJ.2sg-REC.PAST-buy-FV CL3-fruit</item>
+      <item id="c4" alignment="r4" line="188" tag="T">  `You just recently bought fruit.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="185" tag="M">e 32 vetted: t</item>
+      <item id="n2" alignment="c2" line="186" tag="L">u-a-teng-a mu-chero</item>
+      <item id="n3" alignment="c3" line="187" tag="G">SBJ.2sg-REC.PAST-buy-FV CL3-fruit</item>
+      <item id="n4" alignment="c4" line="188" tag="T">You just recently bought fruit.</item>
+    </tier>
+  </igt>
+  <igt id="igt39" doc-id="lgcol:sna" line-range="193-195" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="193" tag="M">  e 32 vetted: t</item>
+      <item id="r2" line="194" tag="L">  u-cha-famb-a</item>
+      <item id="r3" line="195" tag="G">  SBJ.2sg-FUT-walk-FV</item>
+      <item id="r4" line="196" tag="T">  `You will walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="193" tag="M">  e 32 vetted: t</item>
+      <item id="c2" alignment="r2" line="194" tag="L">  u-cha-famb-a</item>
+      <item id="c3" alignment="r3" line="195" tag="G">  SBJ.2sg-FUT-walk-FV</item>
+      <item id="c4" alignment="r4" line="196" tag="T">  `You will walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="193" tag="M">e 32 vetted: t</item>
+      <item id="n2" alignment="c2" line="194" tag="L">u-cha-famb-a</item>
+      <item id="n3" alignment="c3" line="195" tag="G">SBJ.2sg-FUT-walk-FV</item>
+      <item id="n4" alignment="c4" line="196" tag="T">You will walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt40" doc-id="lgcol:sna" line-range="197-199" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="197" tag="M">  e 34 vetted: t</item>
+      <item id="r2" line="198" tag="L">  ndi-aka-nga ndi-aka-teng-a mu-chero</item>
+      <item id="r3" line="199" tag="G">  SBJ.1sg-RP-AUX SBJ.1sg-RP-buy-FV CL3-fruit</item>
+      <item id="r4" line="200" tag="T">  `I had bought fruit.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="197" tag="M">  e 34 vetted: t</item>
+      <item id="c2" alignment="r2" line="198" tag="L">  ndi-aka-nga ndi-aka-teng-a mu-chero</item>
+      <item id="c3" alignment="r3" line="199" tag="G">  SBJ.1sg-RP-AUX SBJ.1sg-RP-buy-FV CL3-fruit</item>
+      <item id="c4" alignment="r4" line="200" tag="T">  `I had bought fruit.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="197" tag="M">e 34 vetted: t</item>
+      <item id="n2" alignment="c2" line="198" tag="L">ndi-aka-nga ndi-aka-teng-a mu-chero</item>
+      <item id="n3" alignment="c3" line="199" tag="G">SBJ.1sg-RP-AUX SBJ.1sg-RP-buy-FV CL3-fruit</item>
+      <item id="n4" alignment="c4" line="200" tag="T">I had bought fruit.</item>
+    </tier>
+  </igt>
+  <igt id="igt41" doc-id="lgcol:sna" line-range="205-207" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="205" tag="M">  e 36 vetted: t</item>
+      <item id="r2" line="206" tag="L">  a-aka-nga a-a-teng-a mu-chero</item>
+      <item id="r3" line="207" tag="G">  SBJ.CL1-RP(TNS)-AUX SBJ.CL1-RECP(ASP)-buy-FV CL3-fruit</item>
+      <item id="r4" line="208" tag="T">  `(Sometime ago) He had bought fruit (just a bit earlier).'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="205" tag="M">  e 36 vetted: t</item>
+      <item id="c2" alignment="r2" line="206" tag="L">  a-aka-nga a-a-teng-a mu-chero</item>
+      <item id="c3" alignment="r3" line="207" tag="G">  SBJ.CL1-RP(TNS)-AUX SBJ.CL1-RECP(ASP)-buy-FV CL3-fruit</item>
+      <item id="c4" alignment="r4" line="208" tag="T">  `(Sometime ago) He had bought fruit (just a bit earlier).'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="205" tag="M">e 36 vetted: t</item>
+      <item id="n2" alignment="c2" line="206" tag="L">a-aka-nga a-a-teng-a mu-chero</item>
+      <item id="n3" alignment="c3" line="207" tag="G">SBJ.CL1-RP(TNS)-AUX SBJ.CL1-RECP(ASP)-buy-FV CL3-fruit</item>
+      <item id="n4" alignment="c4" line="208" tag="T">(Sometime ago) He had bought fruit (just a bit earlier).</item>
+    </tier>
+  </igt>
+  <igt id="igt42" doc-id="lgcol:sna" line-range="209-211" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="209" tag="M">  e 36 vetted: t</item>
+      <item id="r2" line="210" tag="L">  ndi-a-nga ndi-a-teng-a mu-chero</item>
+      <item id="r3" line="211" tag="G">  SBJ.1sg-RECP(TNS)-AUX SBJ.1sg-RECP-buy-FV CL3-fruit</item>
+      <item id="r4" line="212" tag="T">  `(Recently) I had bought fruit (just a bit earlier).'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="209" tag="M">  e 36 vetted: t</item>
+      <item id="c2" alignment="r2" line="210" tag="L">  ndi-a-nga ndi-a-teng-a mu-chero</item>
+      <item id="c3" alignment="r3" line="211" tag="G">  SBJ.1sg-RECP(TNS)-AUX SBJ.1sg-RECP-buy-FV CL3-fruit</item>
+      <item id="c4" alignment="r4" line="212" tag="T">  `(Recently) I had bought fruit (just a bit earlier).'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="209" tag="M">e 36 vetted: t</item>
+      <item id="n2" alignment="c2" line="210" tag="L">ndi-a-nga ndi-a-teng-a mu-chero</item>
+      <item id="n3" alignment="c3" line="211" tag="G">SBJ.1sg-RECP(TNS)-AUX SBJ.1sg-RECP-buy-FV CL3-fruit</item>
+      <item id="n4" alignment="c4" line="212" tag="T">(Recently) I had bought fruit (just a bit earlier).</item>
+    </tier>
+  </igt>
+  <igt id="igt43" doc-id="lgcol:sna" line-range="213-215" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="213" tag="M">  author vetted: f</item>
+      <item id="r2" line="214" tag="L">  mu-nhu u-yu a-a-famb-a</item>
+      <item id="r3" line="215" tag="G">  CL1-person CL1-this SBJ.3sg-RP-walk-FV</item>
+      <item id="r4" line="216" tag="T">  `This person (just) walked.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="213" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="214" tag="L">  mu-nhu u-yu a-a-famb-a</item>
+      <item id="c3" alignment="r3" line="215" tag="G">  CL1-person CL1-this SBJ.3sg-RP-walk-FV</item>
+      <item id="c4" alignment="r4" line="216" tag="T">  `This person (just) walked.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="213" tag="M">f</item>
+      <item id="n2" alignment="c2" line="214" tag="L">mu-nhu u-yu a-a-famb-a</item>
+      <item id="n3" alignment="c3" line="215" tag="G">CL1-person CL1-this SBJ.3sg-RP-walk-FV</item>
+      <item id="n4" alignment="c4" line="216" tag="T">This person (just) walked.</item>
+    </tier>
+  </igt>
+  <igt id="igt44" doc-id="lgcol:sna" line-range="217-219" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="217" tag="M">  author vetted: f</item>
+      <item id="r2" line="218" tag="L">  mu-nhu u-yo a-a-famb-a</item>
+      <item id="r3" line="219" tag="G">  CL1-person CL1-that SBJ.3sg-RP-walk-FV</item>
+      <item id="r4" line="220" tag="T">  `That person (just) walked.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="217" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="218" tag="L">  mu-nhu u-yo a-a-famb-a</item>
+      <item id="c3" alignment="r3" line="219" tag="G">  CL1-person CL1-that SBJ.3sg-RP-walk-FV</item>
+      <item id="c4" alignment="r4" line="220" tag="T">  `That person (just) walked.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="217" tag="M">f</item>
+      <item id="n2" alignment="c2" line="218" tag="L">mu-nhu u-yo a-a-famb-a</item>
+      <item id="n3" alignment="c3" line="219" tag="G">CL1-person CL1-that SBJ.3sg-RP-walk-FV</item>
+      <item id="n4" alignment="c4" line="220" tag="T">That person (just) walked.</item>
+    </tier>
+  </igt>
+  <igt id="igt45" doc-id="lgcol:sna" line-range="225-227" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="225" tag="M">  d vetted: s</item>
+      <item id="r2" line="226" tag="L">  ndi-no-end-a ku-chi-koro</item>
+      <item id="r3" line="227" tag="G">  SBJ.1sg-PRES.HAB-go-FV to-CL7-school</item>
+      <item id="r4" line="228" tag="T">  `I go to school'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="225" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="226" tag="L">  ndi-no-end-a ku-chi-koro</item>
+      <item id="c3" alignment="r3" line="227" tag="G">  SBJ.1sg-PRES.HAB-go-FV to-CL7-school</item>
+      <item id="c4" alignment="r4" line="228" tag="T">  `I go to school'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="225" tag="M">s</item>
+      <item id="n2" alignment="c2" line="226" tag="L">ndi-no-end-a ku-chi-koro</item>
+      <item id="n3" alignment="c3" line="227" tag="G">SBJ.1sg-PRES.HAB-go-FV to-CL7-school</item>
+      <item id="n4" alignment="c4" line="228" tag="T">I go to school</item>
+    </tier>
+  </igt>
+  <igt id="igt46" doc-id="lgcol:sna" line-range="229-231" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="229" tag="M">  d vetted: s</item>
+      <item id="r2" line="230" tag="L">  ndi-ai-end-a ku-chi-koro</item>
+      <item id="r3" line="231" tag="G">  SBJ.1sg-PAST.HAB-go-FV to-CL7-school</item>
+      <item id="r4" line="232" tag="T">  `I used to go to school'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="229" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="230" tag="L">  ndi-ai-end-a ku-chi-koro</item>
+      <item id="c3" alignment="r3" line="231" tag="G">  SBJ.1sg-PAST.HAB-go-FV to-CL7-school</item>
+      <item id="c4" alignment="r4" line="232" tag="T">  `I used to go to school'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="229" tag="M">s</item>
+      <item id="n2" alignment="c2" line="230" tag="L">ndi-ai-end-a ku-chi-koro</item>
+      <item id="n3" alignment="c3" line="231" tag="G">SBJ.1sg-PAST.HAB-go-FV to-CL7-school</item>
+      <item id="n4" alignment="c4" line="232" tag="T">I used to go to school</item>
+    </tier>
+  </igt>
+  <igt id="igt47" doc-id="lgcol:sna" line-range="233-235" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="233" tag="M">  d vetted: s</item>
+      <item id="r2" line="234" tag="L">  a-chi-ri ku-dy-a</item>
+      <item id="r3" line="235" tag="G">  SBJ.3sg-still-AUX.CONT INF-eat-FV</item>
+      <item id="r4" line="236" tag="T">  `He/she is still eating'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="233" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="234" tag="L">  a-chi-ri ku-dy-a</item>
+      <item id="c3" alignment="r3" line="235" tag="G">  SBJ.3sg-still-AUX.CONT INF-eat-FV</item>
+      <item id="c4" alignment="r4" line="236" tag="T">  `He/she is still eating'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="233" tag="M">s</item>
+      <item id="n2" alignment="c2" line="234" tag="L">a-chi-ri ku-dy-a</item>
+      <item id="n3" alignment="c3" line="235" tag="G">SBJ.3sg-still-AUX.CONT INF-eat-FV</item>
+      <item id="n4" alignment="c4" line="236" tag="T">He/she is still eating</item>
+    </tier>
+  </igt>
+  <igt id="igt48" doc-id="lgcol:sna" line-range="237-239" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="237" tag="M">  d vetted: s</item>
+      <item id="r2" line="238" tag="L">  nga-ti-chi-end-a</item>
+      <item id="r3" line="239" tag="G">  HORT-SBJ.1pl-INCEPTIVE-go-FV</item>
+      <item id="r4" line="240" tag="T">  `Let us (start) to go now'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="237" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="238" tag="L">  nga-ti-chi-end-a</item>
+      <item id="c3" alignment="r3" line="239" tag="G">  HORT-SBJ.1pl-INCEPTIVE-go-FV</item>
+      <item id="c4" alignment="r4" line="240" tag="T">  `Let us (start) to go now'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="237" tag="M">s</item>
+      <item id="n2" alignment="c2" line="238" tag="L">nga-ti-chi-end-a</item>
+      <item id="n3" alignment="c3" line="239" tag="G">HORT-SBJ.1pl-INCEPTIVE-go-FV</item>
+      <item id="n4" alignment="c4" line="240" tag="T">Let us (start) to go now</item>
+    </tier>
+  </igt>
+  <igt id="igt49" doc-id="lgcol:sna" line-range="241-243" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="241" tag="M">  d vetted: s</item>
+      <item id="r2" line="242" tag="L">  ndi-no-chi-end-a</item>
+      <item id="r3" line="243" tag="G">  SBJ.1sg-PRES.HAB-FREQ-go-FV</item>
+      <item id="r4" line="244" tag="T">  `I often go'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="241" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="242" tag="L">  ndi-no-chi-end-a</item>
+      <item id="c3" alignment="r3" line="243" tag="G">  SBJ.1sg-PRES.HAB-FREQ-go-FV</item>
+      <item id="c4" alignment="r4" line="244" tag="T">  `I often go'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="241" tag="M">s</item>
+      <item id="n2" alignment="c2" line="242" tag="L">ndi-no-chi-end-a</item>
+      <item id="n3" alignment="c3" line="243" tag="G">SBJ.1sg-PRES.HAB-FREQ-go-FV</item>
+      <item id="n4" alignment="c4" line="244" tag="T">I often go</item>
+    </tier>
+  </igt>
+  <igt id="igt50" doc-id="lgcol:sna" line-range="245-247" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="245" tag="M">  d vetted: s</item>
+      <item id="r2" line="246" tag="L">  ndi-a-mbo-end-a ku-mba</item>
+      <item id="r3" line="247" tag="G">  SBJ.1sg-REC.PAST-at.first-go-FV CL17.Loc-home</item>
+      <item id="r4" line="248" tag="T">  `I first went home'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="245" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="246" tag="L">  ndi-a-mbo-end-a ku-mba</item>
+      <item id="c3" alignment="r3" line="247" tag="G">  SBJ.1sg-REC.PAST-at.first-go-FV CL17.Loc-home</item>
+      <item id="c4" alignment="r4" line="248" tag="T">  `I first went home'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="245" tag="M">s</item>
+      <item id="n2" alignment="c2" line="246" tag="L">ndi-a-mbo-end-a ku-mba</item>
+      <item id="n3" alignment="c3" line="247" tag="G">SBJ.1sg-REC.PAST-at.first-go-FV CL17.Loc-home</item>
+      <item id="n4" alignment="c4" line="248" tag="T">I first went home</item>
+    </tier>
+  </igt>
+  <igt id="igt51" doc-id="lgcol:sna" line-range="249-251" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="249" tag="M">  d vetted: s</item>
+      <item id="r2" line="250" tag="L">  a-cha-chimbidz-o-famb-a</item>
+      <item id="r3" line="251" tag="G">  SBJ.3sg-FUT-do.quickly-o-walk-FV</item>
+      <item id="r4" line="252" tag="T">  `He/she will quickly walk.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="249" tag="M">  d vetted: s</item>
+      <item id="c2" alignment="r2" line="250" tag="L">  a-cha-chimbidz-o-famb-a</item>
+      <item id="c3" alignment="r3" line="251" tag="G">  SBJ.3sg-FUT-do.quickly-o-walk-FV</item>
+      <item id="c4" alignment="r4" line="252" tag="T">  `He/she will quickly walk.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="249" tag="M">s</item>
+      <item id="n2" alignment="c2" line="250" tag="L">a-cha-chimbidz-o-famb-a</item>
+      <item id="n3" alignment="c3" line="251" tag="G">SBJ.3sg-FUT-do.quickly-o-walk-FV</item>
+      <item id="n4" alignment="c4" line="252" tag="T">He/she will quickly walk.</item>
+    </tier>
+  </igt>
+  <igt id="igt52" doc-id="lgcol:sna" line-range="253-255" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="253" tag="M">  f vetted: s</item>
+      <item id="r2" line="254" tag="L">  ndi-no-taur-a</item>
+      <item id="r3" line="255" tag="G">  SBJ.1sg-HAB-speak-FV</item>
+      <item id="r4" line="256" tag="T">  `I speak.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="253" tag="M">  f vetted: s</item>
+      <item id="c2" alignment="r2" line="254" tag="L">  ndi-no-taur-a</item>
+      <item id="c3" alignment="r3" line="255" tag="G">  SBJ.1sg-HAB-speak-FV</item>
+      <item id="c4" alignment="r4" line="256" tag="T">  `I speak.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="253" tag="M">s</item>
+      <item id="n2" alignment="c2" line="254" tag="L">ndi-no-taur-a</item>
+      <item id="n3" alignment="c3" line="255" tag="G">SBJ.1sg-HAB-speak-FV</item>
+      <item id="n4" alignment="c4" line="256" tag="T">I speak.</item>
+    </tier>
+  </igt>
+  <igt id="igt53" doc-id="lgcol:sna" line-range="257-259" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="257" tag="M">  f vetted: s</item>
+      <item id="r2" line="258" tag="L">  ndi-no-taur-a here</item>
+      <item id="r3" line="259" tag="G">  SBJ.1sg-HAB-speak-FV Q </item>
+      <item id="r4" line="260" tag="T">  `Do I speak?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="257" tag="M">  f vetted: s</item>
+      <item id="c2" alignment="r2" line="258" tag="L">  ndi-no-taur-a here</item>
+      <item id="c3" alignment="r3" line="259" tag="G">  SBJ.1sg-HAB-speak-FV Q </item>
+      <item id="c4" alignment="r4" line="260" tag="T">  `Do I speak?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="257" tag="M">s</item>
+      <item id="n2" alignment="c2" line="258" tag="L">ndi-no-taur-a here</item>
+      <item id="n3" alignment="c3" line="259" tag="G">SBJ.1sg-HAB-speak-FV Q</item>
+      <item id="n4" alignment="c4" line="260" tag="T">Do I speak?</item>
+    </tier>
+  </igt>
+  <igt id="igt54" doc-id="lgcol:sna" line-range="261-263" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="261" tag="M">  p vetted: t</item>
+      <item id="r2" line="262" tag="L">  Ndi-a-bvunz-a here kuti u-a-famb-a ku-mba kwa-ko</item>
+      <item id="r3" line="263" tag="G">  SBJ.1sg-REC.PAST-ask-FV Q that SBJ.2sg-REC.PAST-walk-FV to-house cl16.POSSD-2sg.POSSR</item>
+      <item id="r4" line="264" tag="T">  `Did I ask you if you walked to your house?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="261" tag="M">  p vetted: t</item>
+      <item id="c2" alignment="r2" line="262" tag="L">  Ndi-a-bvunz-a here kuti u-a-famb-a ku-mba kwa-ko</item>
+      <item id="c3" alignment="r3" line="263" tag="G">  SBJ.1sg-REC.PAST-ask-FV Q that SBJ.2sg-REC.PAST-walk-FV to-house cl16.POSSD-2sg.POSSR</item>
+      <item id="c4" alignment="r4" line="264" tag="T">  `Did I ask you if you walked to your house?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="261" tag="M">t</item>
+      <item id="n2" alignment="c2" line="262" tag="L">Ndi-a-bvunz-a here kuti u-a-famb-a ku-mba kwa-ko</item>
+      <item id="n3" alignment="c3" line="263" tag="G">SBJ.1sg-REC.PAST-ask-FV Q that SBJ.2sg-REC.PAST-walk-FV to-house cl16.POSSD-2sg.POSSR</item>
+      <item id="n4" alignment="c4" line="264" tag="T">Did I ask you if you walked to your house?</item>
+    </tier>
+  </igt>
+  <igt id="igt55" doc-id="lgcol:sna" line-range="265-267" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="265" tag="M">  p vetted: t</item>
+      <item id="r2" line="266" tag="L">  Ndi-a-bvunz-a kuti u-a-famb-a ku-mba kwa-ko here.</item>
+      <item id="r3" line="267" tag="G">  SBJ.1sg-REC.PAST-ask-FV that SBJ.2sg-REC.PAST-walk-FV to-house cl16.POSSD-2sg.POSSR Q </item>
+      <item id="r4" line="268" tag="T">  `I asked if you walked to your house.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="265" tag="M">  p vetted: t</item>
+      <item id="c2" alignment="r2" line="266" tag="L">  Ndi-a-bvunz-a kuti u-a-famb-a ku-mba kwa-ko here.</item>
+      <item id="c3" alignment="r3" line="267" tag="G">  SBJ.1sg-REC.PAST-ask-FV that SBJ.2sg-REC.PAST-walk-FV to-house cl16.POSSD-2sg.POSSR Q </item>
+      <item id="c4" alignment="r4" line="268" tag="T">  `I asked if you walked to your house.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="265" tag="M">t</item>
+      <item id="n2" alignment="c2" line="266" tag="L">Ndi-a-bvunz-a kuti u-a-famb-a ku-mba kwa-ko here.</item>
+      <item id="n3" alignment="c3" line="267" tag="G">SBJ.1sg-REC.PAST-ask-FV that SBJ.2sg-REC.PAST-walk-FV to-house cl16.POSSD-2sg.POSSR Q</item>
+      <item id="n4" alignment="c4" line="268" tag="T">I asked if you walked to your house.</item>
+    </tier>
+  </igt>
+  <igt id="igt56" doc-id="lgcol:sna" line-range="269-271" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="269" tag="M">  p vetted: t</item>
+      <item id="r2" line="270" tag="L">  va-no-gar-a mu-Seattle.</item>
+      <item id="r3" line="271" tag="G">  SBJ.cl3-PRES.HAB-stay-FV cl1-Seattle.</item>
+      <item id="r4" line="272" tag="T">  `They live in Seattle.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="269" tag="M">  p vetted: t</item>
+      <item id="c2" alignment="r2" line="270" tag="L">  va-no-gar-a mu-Seattle.</item>
+      <item id="c3" alignment="r3" line="271" tag="G">  SBJ.cl3-PRES.HAB-stay-FV cl1-Seattle.</item>
+      <item id="c4" alignment="r4" line="272" tag="T">  `They live in Seattle.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="269" tag="M">t</item>
+      <item id="n2" alignment="c2" line="270" tag="L">va-no-gar-a mu-Seattle.</item>
+      <item id="n3" alignment="c3" line="271" tag="G">SBJ.cl3-PRES.HAB-stay-FV cl1-Seattle.</item>
+      <item id="n4" alignment="c4" line="272" tag="T">They live in Seattle.</item>
+    </tier>
+  </igt>
+  <igt id="igt57" doc-id="lgcol:sna" line-range="273-275" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="273" tag="M">  p vetted: t</item>
+      <item id="r2" line="274" tag="L">  va-no-gar-a mu-Seattle here</item>
+      <item id="r3" line="275" tag="G">  SBJ.cl3-PRES.HAB-stay-a cl1-Seattle Q</item>
+      <item id="r4" line="276" tag="T">  `Do they live in Seattle?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="273" tag="M">  p vetted: t</item>
+      <item id="c2" alignment="r2" line="274" tag="L">  va-no-gar-a mu-Seattle here</item>
+      <item id="c3" alignment="r3" line="275" tag="G">  SBJ.cl3-PRES.HAB-stay-a cl1-Seattle Q</item>
+      <item id="c4" alignment="r4" line="276" tag="T">  `Do they live in Seattle?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="273" tag="M">t</item>
+      <item id="n2" alignment="c2" line="274" tag="L">va-no-gar-a mu-Seattle here</item>
+      <item id="n3" alignment="c3" line="275" tag="G">SBJ.cl3-PRES.HAB-stay-a cl1-Seattle Q</item>
+      <item id="n4" alignment="c4" line="276" tag="T">Do they live in Seattle?</item>
+    </tier>
+  </igt>
+  <igt id="igt58" doc-id="lgcol:sna" line-range="277-279" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="277" tag="M">  p vetted: t</item>
+      <item id="r2" line="278" tag="L">  i-mbwa i-ai-fung-a kuti katsi i-ai-far-a</item>
+      <item id="r3" line="279" tag="G">  cl9-dog SBJ.cl9-PAST.HAB-think-FV that cat SBJ.cl9-PAST.HAB-be.happy-FV</item>
+      <item id="r4" line="280" tag="T">  `The dog used to think that the cat was happy.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="277" tag="M">  p vetted: t</item>
+      <item id="c2" alignment="r2" line="278" tag="L">  i-mbwa i-ai-fung-a kuti katsi i-ai-far-a</item>
+      <item id="c3" alignment="r3" line="279" tag="G">  cl9-dog SBJ.cl9-PAST.HAB-think-FV that cat SBJ.cl9-PAST.HAB-be.happy-FV</item>
+      <item id="c4" alignment="r4" line="280" tag="T">  `The dog used to think that the cat was happy.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="277" tag="M">t</item>
+      <item id="n2" alignment="c2" line="278" tag="L">i-mbwa i-ai-fung-a kuti katsi i-ai-far-a</item>
+      <item id="n3" alignment="c3" line="279" tag="G">cl9-dog SBJ.cl9-PAST.HAB-think-FV that cat SBJ.cl9-PAST.HAB-be.happy-FV</item>
+      <item id="n4" alignment="c4" line="280" tag="T">The dog used to think that the cat was happy.</item>
+    </tier>
+  </igt>
+  <igt id="igt59" doc-id="lgcol:sna" line-range="281-283" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="281" tag="M">  a vetted: s</item>
+      <item id="r2" line="282" tag="L">  ha-ndi-sa-tor-a</item>
+      <item id="r3" line="283" tag="G">  NEG-SBJ.1sg-NEG-take-FV</item>
+      <item id="r4" line="284" tag="T">  `I did not take.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="281" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="282" tag="L">  ha-ndi-sa-tor-a</item>
+      <item id="c3" alignment="r3" line="283" tag="G">  NEG-SBJ.1sg-NEG-take-FV</item>
+      <item id="c4" alignment="r4" line="284" tag="T">  `I did not take.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="281" tag="M">s</item>
+      <item id="n2" alignment="c2" line="282" tag="L">ha-ndi-sa-tor-a</item>
+      <item id="n3" alignment="c3" line="283" tag="G">NEG-SBJ.1sg-NEG-take-FV</item>
+      <item id="n4" alignment="c4" line="284" tag="T">I did not take.</item>
+    </tier>
+  </igt>
+  <igt id="igt60" doc-id="lgcol:sna" line-range="285-287" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="285" tag="M">  b vetted: s</item>
+      <item id="r2" line="286" tag="L">  Sadza na-Gutu va-a-uy-a</item>
+      <item id="r3" line="287" tag="G">  Sadza with-Gutu CL2-REC.PAST-come-FV</item>
+      <item id="r4" line="288" tag="T">  `Sazda and-Gutu have come.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="285" tag="M">  b vetted: s</item>
+      <item id="c2" alignment="r2" line="286" tag="L">  Sadza na-Gutu va-a-uy-a</item>
+      <item id="c3" alignment="r3" line="287" tag="G">  Sadza with-Gutu CL2-REC.PAST-come-FV</item>
+      <item id="c4" alignment="r4" line="288" tag="T">  `Sazda and-Gutu have come.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="285" tag="M">s</item>
+      <item id="n2" alignment="c2" line="286" tag="L">Sadza na-Gutu va-a-uy-a</item>
+      <item id="n3" alignment="c3" line="287" tag="G">Sadza with-Gutu CL2-REC.PAST-come-FV</item>
+      <item id="n4" alignment="c4" line="288" tag="T">Sazda and-Gutu have come.</item>
+    </tier>
+  </igt>
+  <igt id="igt61" doc-id="lgcol:sna" line-range="293-295" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="293" tag="M">  b vetted: s</item>
+      <item id="r2" line="294" tag="L">  Ndi-aka-va-on-a va-se asi Sadza chete.</item>
+      <item id="r3" line="295" tag="G">  SBJ.1sg-REM.PAST-OBJ.3pl-see-FV cl4-all but Sadza chete.</item>
+      <item id="r4" line="296" tag="T">  `I saw them all except only Sadza'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="293" tag="M">  b vetted: s</item>
+      <item id="c2" alignment="r2" line="294" tag="L">  Ndi-aka-va-on-a va-se asi Sadza chete.</item>
+      <item id="c3" alignment="r3" line="295" tag="G">  SBJ.1sg-REM.PAST-OBJ.3pl-see-FV cl4-all but Sadza chete.</item>
+      <item id="c4" alignment="r4" line="296" tag="T">  `I saw them all except only Sadza'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="293" tag="M">s</item>
+      <item id="n2" alignment="c2" line="294" tag="L">Ndi-aka-va-on-a va-se asi Sadza chete.</item>
+      <item id="n3" alignment="c3" line="295" tag="G">SBJ.1sg-REM.PAST-OBJ.3pl-see-FV cl4-all but Sadza chete.</item>
+      <item id="n4" alignment="c4" line="296" tag="T">I saw them all except only Sadza</item>
+    </tier>
+  </igt>
+  <igt id="igt62" doc-id="lgcol:sna" line-range="297-299" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="297" tag="M">  b vetted: s</item>
+      <item id="r2" line="298" tag="L">  Ini no-mu-kadzi wa-ngu ti-ri ku-rwar-a</item>
+      <item id="r3" line="299" tag="G">  1sg AND-CL1-woman/wife CL1.POSSD-1sg.POSSR SBJ.2PL-AUX INF-ill-FV</item>
+      <item id="r4" line="300" tag="T">  `My wife and I, we are ill.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="297" tag="M">  b vetted: s</item>
+      <item id="c2" alignment="r2" line="298" tag="L">  Ini no-mu-kadzi wa-ngu ti-ri ku-rwar-a</item>
+      <item id="c3" alignment="r3" line="299" tag="G">  1sg AND-CL1-woman/wife CL1.POSSD-1sg.POSSR SBJ.2PL-AUX INF-ill-FV</item>
+      <item id="c4" alignment="r4" line="300" tag="T">  `My wife and I, we are ill.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="297" tag="M">s</item>
+      <item id="n2" alignment="c2" line="298" tag="L">Ini no-mu-kadzi wa-ngu ti-ri ku-rwar-a</item>
+      <item id="n3" alignment="c3" line="299" tag="G">1sg AND-CL1-woman/wife CL1.POSSD-1sg.POSSR SBJ.2PL-AUX INF-ill-FV</item>
+      <item id="n4" alignment="c4" line="300" tag="T">My wife and I, we are ill.</item>
+    </tier>
+  </igt>
+  <igt id="igt63" doc-id="lgcol:sna" line-range="301-303" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="301" tag="M">  a vetted: s</item>
+      <item id="r2" line="302" tag="L">  ha-u-yo mw-ana wen-yu</item>
+      <item id="r3" line="303" tag="G">  there-CL1-UNKNOWN CL1-child POSS-CL1.that</item>
+      <item id="r4" line="304" tag="T">  'There is your child'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="301" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="302" tag="L">  ha-u-yo mw-ana wen-yu</item>
+      <item id="c3" alignment="r3" line="303" tag="G">  there-CL1-UNKNOWN CL1-child POSS-CL1.that</item>
+      <item id="c4" alignment="r4" line="304" tag="T">  'There is your child'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="301" tag="M">s</item>
+      <item id="n2" alignment="c2" line="302" tag="L">ha-u-yo mw-ana wen-yu</item>
+      <item id="n3" alignment="c3" line="303" tag="G">there-CL1-UNKNOWN CL1-child POSS-CL1.that</item>
+      <item id="n4" alignment="c4" line="304" tag="T">There is your child</item>
+    </tier>
+  </igt>
+  <igt id="igt64" doc-id="lgcol:sna" line-range="305-307" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="305" tag="M">  a vetted: s</item>
+      <item id="r2" line="306" tag="L">  mu-rume u-yu mi-Zezuru se-su</item>
+      <item id="r3" line="307" tag="G">  CL1-man CL1-this CL4-Zezuru like-1pl</item>
+      <item id="r4" line="308" tag="T">  'This man is a Zezuru like us'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="305" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="306" tag="L">  mu-rume u-yu mi-Zezuru se-su</item>
+      <item id="c3" alignment="r3" line="307" tag="G">  CL1-man CL1-this CL4-Zezuru like-1pl</item>
+      <item id="c4" alignment="r4" line="308" tag="T">  'This man is a Zezuru like us'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="305" tag="M">s</item>
+      <item id="n2" alignment="c2" line="306" tag="L">mu-rume u-yu mi-Zezuru se-su</item>
+      <item id="n3" alignment="c3" line="307" tag="G">CL1-man CL1-this CL4-Zezuru like-1pl</item>
+      <item id="n4" alignment="c4" line="308" tag="T">This man is a Zezuru like us</item>
+    </tier>
+  </igt>
+  <igt id="igt65" doc-id="lgcol:sna" line-range="309-311" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="309" tag="M">  a vetted: s</item>
+      <item id="r2" line="310" tag="L">  u-yu mu-nhu pa-mwe ne-ni</item>
+      <item id="r3" line="311" tag="G">  CL1-this CL1-person CL16-same with-1sg</item>
+      <item id="r4" line="312" tag="T">  'This is a person like me'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="309" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="310" tag="L">  u-yu mu-nhu pa-mwe ne-ni</item>
+      <item id="c3" alignment="r3" line="311" tag="G">  CL1-this CL1-person CL16-same with-1sg</item>
+      <item id="c4" alignment="r4" line="312" tag="T">  'This is a person like me'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="309" tag="M">s</item>
+      <item id="n2" alignment="c2" line="310" tag="L">u-yu mu-nhu pa-mwe ne-ni</item>
+      <item id="n3" alignment="c3" line="311" tag="G">CL1-this CL1-person CL16-same with-1sg</item>
+      <item id="n4" alignment="c4" line="312" tag="T">This is a person like me</item>
+    </tier>
+  </igt>
+  <igt id="igt66" doc-id="lgcol:sna" line-range="313-315" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="313" tag="M">  a vetted: s</item>
+      <item id="r2" line="314" tag="L">  mw-ana u-yu ida-ngwe ra-ma-mbo</item>
+      <item id="r3" line="315" tag="G">  CL1-child CL1-this POSSD.CL1-POSSR.CL5 CL5-UNKNOWN-chief</item>
+      <item id="r4" line="316" tag="T">  'This child is the chief's first born'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="313" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="314" tag="L">  mw-ana u-yu ida-ngwe ra-ma-mbo</item>
+      <item id="c3" alignment="r3" line="315" tag="G">  CL1-child CL1-this POSSD.CL1-POSSR.CL5 CL5-UNKNOWN-chief</item>
+      <item id="c4" alignment="r4" line="316" tag="T">  'This child is the chief's first born'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="313" tag="M">s</item>
+      <item id="n2" alignment="c2" line="314" tag="L">mw-ana u-yu ida-ngwe ra-ma-mbo</item>
+      <item id="n3" alignment="c3" line="315" tag="G">CL1-child CL1-this POSSD.CL1-POSSR.CL5 CL5-UNKNOWN-chief</item>
+      <item id="n4" alignment="c4" line="316" tag="T">This child is the chief's first born</item>
+    </tier>
+  </igt>
+  <igt id="igt67" doc-id="lgcol:sna" line-range="317-319" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="317" tag="M">  a vetted: s</item>
+      <item id="r2" line="318" tag="L">  zita re-ko ndi-iwe ani </item>
+      <item id="r3" line="319" tag="G">  UNKNOWN CL9-name CL9.POSSD-2sgPOSSR who</item>
+      <item id="r4" line="320" tag="T">  'What is your name?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="317" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="318" tag="L">  zita re-ko ndi-iwe ani </item>
+      <item id="c3" alignment="r3" line="319" tag="G">  UNKNOWN CL9-name CL9.POSSD-2sgPOSSR who</item>
+      <item id="c4" alignment="r4" line="320" tag="T">  'What is your name?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="317" tag="M">s</item>
+      <item id="n2" alignment="c2" line="318" tag="L">zita re-ko ndi-iwe ani</item>
+      <item id="n3" alignment="c3" line="319" tag="G">UNKNOWN CL9-name CL9.POSSD-2sgPOSSR who</item>
+      <item id="n4" alignment="c4" line="320" tag="T">What is your name?</item>
+    </tier>
+  </igt>
+  <igt id="igt68" doc-id="lgcol:sna" line-range="321-323" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="321" tag="M">  a vetted: s</item>
+      <item id="r2" line="322" tag="L">  ha-zvi zvi-ko</item>
+      <item id="r3" line="323" tag="G">  COP.CL8-here.CL8 POSSD.CL8-POSSR.2sg</item>
+      <item id="r4" line="324" tag="T">  'Here are your things.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="321" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="322" tag="L">  ha-zvi zvi-ko</item>
+      <item id="c3" alignment="r3" line="323" tag="G">  COP.CL8-here.CL8 POSSD.CL8-POSSR.2sg</item>
+      <item id="c4" alignment="r4" line="324" tag="T">  'Here are your things.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="321" tag="M">s</item>
+      <item id="n2" alignment="c2" line="322" tag="L">ha-zvi zvi-ko</item>
+      <item id="n3" alignment="c3" line="323" tag="G">COP.CL8-here.CL8 POSSD.CL8-POSSR.2sg</item>
+      <item id="n4" alignment="c4" line="324" tag="T">Here are your things.</item>
+    </tier>
+  </igt>
+  <igt id="igt69" doc-id="lgcol:sna" line-range="325-327" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="325" tag="M">  a vetted: s</item>
+      <item id="r2" line="326" tag="L">  kuru mombe ndi-no-i-teng-a</item>
+      <item id="r3" line="327" tag="G">  CL9.big CL9.ox SBJ.1sg-PRES.CONT-HAB-buy-FV</item>
+      <item id="r4" line="328" tag="T">  'I'll buy the big ox'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="325" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="326" tag="L">  kuru mombe ndi-no-i-teng-a</item>
+      <item id="c3" alignment="r3" line="327" tag="G">  CL9.big CL9.ox SBJ.1sg-PRES.CONT-HAB-buy-FV</item>
+      <item id="c4" alignment="r4" line="328" tag="T">  'I'll buy the big ox'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="325" tag="M">s</item>
+      <item id="n2" alignment="c2" line="326" tag="L">kuru mombe ndi-no-i-teng-a</item>
+      <item id="n3" alignment="c3" line="327" tag="G">CL9.big CL9.ox SBJ.1sg-PRES.CONT-HAB-buy-FV</item>
+      <item id="n4" alignment="c4" line="328" tag="T">I'll buy the big ox</item>
+    </tier>
+  </igt>
+  <igt id="igt70" doc-id="lgcol:sna" line-range="329-331" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="329" tag="M">  a vetted: s</item>
+      <item id="r2" line="330" tag="L">  kuru mombe ndi-Charuveki</item>
+      <item id="r3" line="331" tag="G">  CL9.big CL9.ox cl9.COP-Charuveki</item>
+      <item id="r4" line="332" tag="T">  'The big ox is Charuveki'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="329" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="330" tag="L">  kuru mombe ndi-Charuveki</item>
+      <item id="c3" alignment="r3" line="331" tag="G">  CL9.big CL9.ox cl9.COP-Charuveki</item>
+      <item id="c4" alignment="r4" line="332" tag="T">  'The big ox is Charuveki'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="329" tag="M">s</item>
+      <item id="n2" alignment="c2" line="330" tag="L">kuru mombe ndi-Charuveki</item>
+      <item id="n3" alignment="c3" line="331" tag="G">CL9.big CL9.ox cl9.COP-Charuveki</item>
+      <item id="n4" alignment="c4" line="332" tag="T">The big ox is Charuveki</item>
+    </tier>
+  </igt>
+  <igt id="igt71" doc-id="lgcol:sna" line-range="337-339" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="337" tag="M">  a vetted: s</item>
+      <item id="r2" line="338" tag="L">  Iri banga ndi-no-ri-teng-a</item>
+      <item id="r3" line="339" tag="G">  CL5.this CL5.knife SBJ.1sg-PRES.CONT-OBJ.PRE-buy-FV</item>
+      <item id="r4" line="340" tag="T">  'I'll buy this knife'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="337" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="338" tag="L">  Iri banga ndi-no-ri-teng-a</item>
+      <item id="c3" alignment="r3" line="339" tag="G">  CL5.this CL5.knife SBJ.1sg-PRES.CONT-OBJ.PRE-buy-FV</item>
+      <item id="c4" alignment="r4" line="340" tag="T">  'I'll buy this knife'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="337" tag="M">s</item>
+      <item id="n2" alignment="c2" line="338" tag="L">Iri banga ndi-no-ri-teng-a</item>
+      <item id="n3" alignment="c3" line="339" tag="G">CL5.this CL5.knife SBJ.1sg-PRES.CONT-OBJ.PRE-buy-FV</item>
+      <item id="n4" alignment="c4" line="340" tag="T">I'll buy this knife</item>
+    </tier>
+  </igt>
+  <igt id="igt72" doc-id="lgcol:sna" line-range="341-343" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="341" tag="M">  a vetted: s</item>
+      <item id="r2" line="342" tag="L">  u-yu mu-ana wa-ngu</item>
+      <item id="r3" line="343" tag="G">  CL1-this CL1-child POSSESSED.CL1-POSSESSOR.1sg</item>
+      <item id="r4" line="344" tag="T">  'This is my child'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="341" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="342" tag="L">  u-yu mu-ana wa-ngu</item>
+      <item id="c3" alignment="r3" line="343" tag="G">  CL1-this CL1-child POSSESSED.CL1-POSSESSOR.1sg</item>
+      <item id="c4" alignment="r4" line="344" tag="T">  'This is my child'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="341" tag="M">s</item>
+      <item id="n2" alignment="c2" line="342" tag="L">u-yu mu-ana wa-ngu</item>
+      <item id="n3" alignment="c3" line="343" tag="G">CL1-this CL1-child POSSESSED.CL1-POSSESSOR.1sg</item>
+      <item id="n4" alignment="c4" line="344" tag="T">This is my child</item>
+    </tier>
+  </igt>
+  <igt id="igt73" doc-id="lgcol:sna" line-range="349-351" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="349" tag="M">  author vetted: s</item>
+      <item id="r2" line="350" tag="L">  va-ai-famb-a zvi-shoma </item>
+      <item id="r3" line="351" tag="G">  SBJ.2pl-PAST.HAB-walk-FV CL8-slowly</item>
+      <item id="r4" line="352" tag="T">  'They walked slowly.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="349" tag="M">  author vetted: s</item>
+      <item id="c2" alignment="r2" line="350" tag="L">  va-ai-famb-a zvi-shoma </item>
+      <item id="c3" alignment="r3" line="351" tag="G">  SBJ.2pl-PAST.HAB-walk-FV CL8-slowly</item>
+      <item id="c4" alignment="r4" line="352" tag="T">  'They walked slowly.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="349" tag="M">s</item>
+      <item id="n2" alignment="c2" line="350" tag="L">va-ai-famb-a zvi-shoma</item>
+      <item id="n3" alignment="c3" line="351" tag="G">SBJ.2pl-PAST.HAB-walk-FV CL8-slowly</item>
+      <item id="n4" alignment="c4" line="352" tag="T">They walked slowly.</item>
+    </tier>
+  </igt>
+  <igt id="igt74" doc-id="lgcol:sna" line-range="353-355" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="353" tag="M">  a vetted: s</item>
+      <item id="r2" line="354" tag="L">  ndi-no-d-a ma-bhiza ma-mwe a-kare-wo</item>
+      <item id="r3" line="355" tag="G">  SBJ.1sg-PRES.CONT-want-FV CL6-horses CL6-some/same {..}-same-also</item>
+      <item id="r4" line="356" tag="T">  'I want the very same horses.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="353" tag="M">  a vetted: s</item>
+      <item id="c2" alignment="r2" line="354" tag="L">  ndi-no-d-a ma-bhiza ma-mwe a-kare-wo</item>
+      <item id="c3" alignment="r3" line="355" tag="G">  SBJ.1sg-PRES.CONT-want-FV CL6-horses CL6-some/same {..}-same-also</item>
+      <item id="c4" alignment="r4" line="356" tag="T">  'I want the very same horses.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="353" tag="M">s</item>
+      <item id="n2" alignment="c2" line="354" tag="L">ndi-no-d-a ma-bhiza ma-mwe a-kare-wo</item>
+      <item id="n3" alignment="c3" line="355" tag="G">SBJ.1sg-PRES.CONT-want-FV CL6-horses CL6-some/same {..}-same-also</item>
+      <item id="n4" alignment="c4" line="356" tag="T">I want the very same horses.</item>
+    </tier>
+  </igt>
+  <igt id="igt75" doc-id="lgcol:sna" line-range="357-359" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="357" tag="M">  b vetted: t</item>
+      <item id="r2" line="358" tag="L">  i-dombo here</item>
+      <item id="r3" line="359" tag="G">  COP-stone Q</item>
+      <item id="r4" line="360" tag="T">  'Is it a stone?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="357" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="358" tag="L">  i-dombo here</item>
+      <item id="c3" alignment="r3" line="359" tag="G">  COP-stone Q</item>
+      <item id="c4" alignment="r4" line="360" tag="T">  'Is it a stone?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="357" tag="M">t</item>
+      <item id="n2" alignment="c2" line="358" tag="L">i-dombo here</item>
+      <item id="n3" alignment="c3" line="359" tag="G">COP-stone Q</item>
+      <item id="n4" alignment="c4" line="360" tag="T">Is it a stone?</item>
+    </tier>
+  </igt>
+  <igt id="igt76" doc-id="lgcol:sna" line-range="369-371" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="369" tag="M">  b vetted: t</item>
+      <item id="r2" line="370" tag="L">  Ha-va-n-a chi-do ku-va-kadzi va-vo</item>
+      <item id="r3" line="371" tag="G">  NEG-SBJ.CL2-have-FV [love-?] to-CL2-wives CL2-CL2.PRO</item>
+      <item id="r4" line="372" tag="T">  'They have no love towards their wives'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="369" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="370" tag="L">  Ha-va-n-a chi-do ku-va-kadzi va-vo</item>
+      <item id="c3" alignment="r3" line="371" tag="G">  NEG-SBJ.CL2-have-FV [love-?] to-CL2-wives CL2-CL2.PRO</item>
+      <item id="c4" alignment="r4" line="372" tag="T">  'They have no love towards their wives'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="369" tag="M">t</item>
+      <item id="n2" alignment="c2" line="370" tag="L">Ha-va-n-a chi-do ku-va-kadzi va-vo</item>
+      <item id="n3" alignment="c3" line="371" tag="G">NEG-SBJ.CL2-have-FV [love-?] to-CL2-wives CL2-CL2.PRO</item>
+      <item id="n4" alignment="c4" line="372" tag="T">They have no love towards their wives</item>
+    </tier>
+  </igt>
+  <igt id="igt77" doc-id="lgcol:sna" line-range="373-375" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="373" tag="M">  b vetted: t</item>
+      <item id="r2" line="374" tag="L">  ndi-a-udz-w-a ndi-baba</item>
+      <item id="r3" line="375" tag="G">  SBJ.1sg-REC.PAST-tell-PASS-FV COP-father</item>
+      <item id="r4" line="376" tag="T">  'I was told by father'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="373" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="374" tag="L">  ndi-a-udz-w-a ndi-baba</item>
+      <item id="c3" alignment="r3" line="375" tag="G">  SBJ.1sg-REC.PAST-tell-PASS-FV COP-father</item>
+      <item id="c4" alignment="r4" line="376" tag="T">  'I was told by father'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="373" tag="M">t</item>
+      <item id="n2" alignment="c2" line="374" tag="L">ndi-a-udz-w-a ndi-baba</item>
+      <item id="n3" alignment="c3" line="375" tag="G">SBJ.1sg-REC.PAST-tell-PASS-FV COP-father</item>
+      <item id="n4" alignment="c4" line="376" tag="T">I was told by father</item>
+    </tier>
+  </igt>
+  <igt id="igt78" doc-id="lgcol:sna" line-range="377-379" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="377" tag="M">  b vetted: t</item>
+      <item id="r2" line="378" tag="L">  u-aka-udz-w-a ndi-ini</item>
+      <item id="r3" line="379" tag="G">  SUB.CL1-REM.PAST-tell-PASS-FV COP-father</item>
+      <item id="r4" line="380" tag="T">  'He was told by me'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="377" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="378" tag="L">  u-aka-udz-w-a ndi-ini</item>
+      <item id="c3" alignment="r3" line="379" tag="G">  SUB.CL1-REM.PAST-tell-PASS-FV COP-father</item>
+      <item id="c4" alignment="r4" line="380" tag="T">  'He was told by me'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="377" tag="M">t</item>
+      <item id="n2" alignment="c2" line="378" tag="L">u-aka-udz-w-a ndi-ini</item>
+      <item id="n3" alignment="c3" line="379" tag="G">SUB.CL1-REM.PAST-tell-PASS-FV COP-father</item>
+      <item id="n4" alignment="c4" line="380" tag="T">He was told by me</item>
+    </tier>
+  </igt>
+  <igt id="igt79" doc-id="lgcol:sna" line-range="381-383" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="381" tag="M">  b vetted: t</item>
+      <item id="r2" line="382" tag="L">  i-t-a se-ni</item>
+      <item id="r3" line="383" tag="G">  IMP-act-FV like-1sg.PRO</item>
+      <item id="r4" line="384" tag="T">  'Act like me!'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="381" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="382" tag="L">  i-t-a se-ni</item>
+      <item id="c3" alignment="r3" line="383" tag="G">  IMP-act-FV like-1sg.PRO</item>
+      <item id="c4" alignment="r4" line="384" tag="T">  'Act like me!'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="381" tag="M">t</item>
+      <item id="n2" alignment="c2" line="382" tag="L">i-t-a se-ni</item>
+      <item id="n3" alignment="c3" line="383" tag="G">IMP-act-FV like-1sg.PRO</item>
+      <item id="n4" alignment="c4" line="384" tag="T">Act like me!</item>
+    </tier>
+  </igt>
+  <igt id="igt80" doc-id="lgcol:sna" line-range="385-387" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="385" tag="M">  b vetted: t</item>
+      <item id="r2" line="386" tag="L">  i-t-a sa-ye</item>
+      <item id="r3" line="387" tag="G">  IMP-act-FV like-CL1.PRO</item>
+      <item id="r4" line="388" tag="T">  'Act like him!'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="385" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="386" tag="L">  i-t-a sa-ye</item>
+      <item id="c3" alignment="r3" line="387" tag="G">  IMP-act-FV like-CL1.PRO</item>
+      <item id="c4" alignment="r4" line="388" tag="T">  'Act like him!'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="385" tag="M">t</item>
+      <item id="n2" alignment="c2" line="386" tag="L">i-t-a sa-ye</item>
+      <item id="n3" alignment="c3" line="387" tag="G">IMP-act-FV like-CL1.PRO</item>
+      <item id="n4" alignment="c4" line="388" tag="T">Act like him!</item>
+    </tier>
+  </igt>
+  <igt id="igt81" doc-id="lgcol:sna" line-range="393-395" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="393" tag="M">  b vetted: t</item>
+      <item id="r2" line="394" tag="L">  u-no-vuy-a ku-uno ru-zhinji</item>
+      <item id="r3" line="395" tag="G">  SBJ.CL1-PRES.CONT-comes-FV to-here [ru]-often</item>
+      <item id="r4" line="396" tag="T">  'He comes here often.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="393" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="394" tag="L">  u-no-vuy-a ku-uno ru-zhinji</item>
+      <item id="c3" alignment="r3" line="395" tag="G">  SBJ.CL1-PRES.CONT-comes-FV to-here [ru]-often</item>
+      <item id="c4" alignment="r4" line="396" tag="T">  'He comes here often.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="393" tag="M">t</item>
+      <item id="n2" alignment="c2" line="394" tag="L">u-no-vuy-a ku-uno ru-zhinji</item>
+      <item id="n3" alignment="c3" line="395" tag="G">SBJ.CL1-PRES.CONT-comes-FV to-here [ru]-often</item>
+      <item id="n4" alignment="c4" line="396" tag="T">He comes here often.</item>
+    </tier>
+  </igt>
+  <igt id="igt82" doc-id="lgcol:sna" line-range="401-403" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="401" tag="M">  b vetted: t</item>
+      <item id="r2" line="402" tag="L">  u-aka-nyatso-pfav-a</item>
+      <item id="r3" line="403" tag="G">  SBJ.CL1-REM.PAST-well-be.tender-FV</item>
+      <item id="r4" line="404" tag="T">  'He is graciously kind'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="401" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="402" tag="L">  u-aka-nyatso-pfav-a</item>
+      <item id="c3" alignment="r3" line="403" tag="G">  SBJ.CL1-REM.PAST-well-be.tender-FV</item>
+      <item id="c4" alignment="r4" line="404" tag="T">  'He is graciously kind'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="401" tag="M">t</item>
+      <item id="n2" alignment="c2" line="402" tag="L">u-aka-nyatso-pfav-a</item>
+      <item id="n3" alignment="c3" line="403" tag="G">SBJ.CL1-REM.PAST-well-be.tender-FV</item>
+      <item id="n4" alignment="c4" line="404" tag="T">He is graciously kind</item>
+    </tier>
+  </igt>
+  <igt id="igt83" doc-id="lgcol:sna" line-range="409-411" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="409" tag="M">  b vetted: t</item>
+      <item id="r2" line="410" tag="L">  u-a-fuma-muk-a</item>
+      <item id="r3" line="411" tag="G">  SBJ.CL1-REC.PAST-early-wake.up-FV</item>
+      <item id="r4" line="412" tag="T">  'He got up early'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="409" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="410" tag="L">  u-a-fuma-muk-a</item>
+      <item id="c3" alignment="r3" line="411" tag="G">  SBJ.CL1-REC.PAST-early-wake.up-FV</item>
+      <item id="c4" alignment="r4" line="412" tag="T">  'He got up early'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="409" tag="M">t</item>
+      <item id="n2" alignment="c2" line="410" tag="L">u-a-fuma-muk-a</item>
+      <item id="n3" alignment="c3" line="411" tag="G">SBJ.CL1-REC.PAST-early-wake.up-FV</item>
+      <item id="n4" alignment="c4" line="412" tag="T">He got up early</item>
+    </tier>
+  </igt>
+  <igt id="igt84" doc-id="lgcol:sna" line-range="413-415" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="413" tag="M">  b vetted: t</item>
+      <item id="r2" line="414" tag="L">  nhumbi d-zesu hu-upfu chete</item>
+      <item id="r3" line="415" tag="G">  CL9.possesion POSS-1pl CL14-flour only</item>
+      <item id="r4" line="416" tag="T">  'Our possessions are flour only.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="413" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="414" tag="L">  nhumbi d-zesu hu-upfu chete</item>
+      <item id="c3" alignment="r3" line="415" tag="G">  CL9.possesion POSS-1pl CL14-flour only</item>
+      <item id="c4" alignment="r4" line="416" tag="T">  'Our possessions are flour only.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="413" tag="M">t</item>
+      <item id="n2" alignment="c2" line="414" tag="L">nhumbi d-zesu hu-upfu chete</item>
+      <item id="n3" alignment="c3" line="415" tag="G">CL9.possesion POSS-1pl CL14-flour only</item>
+      <item id="n4" alignment="c4" line="416" tag="T">Our possessions are flour only.</item>
+    </tier>
+  </igt>
+  <igt id="igt85" doc-id="lgcol:sna" line-range="425-427" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="425" tag="M">  b vetted: t</item>
+      <item id="r2" line="426" tag="L">  mu-kadzi u-yu mu-kuru</item>
+      <item id="r3" line="427" tag="G">  CL1-woman CL1-this CL1-big</item>
+      <item id="r4" line="428" tag="T">  'This woman is big.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="425" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="426" tag="L">  mu-kadzi u-yu mu-kuru</item>
+      <item id="c3" alignment="r3" line="427" tag="G">  CL1-woman CL1-this CL1-big</item>
+      <item id="c4" alignment="r4" line="428" tag="T">  'This woman is big.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="425" tag="M">t</item>
+      <item id="n2" alignment="c2" line="426" tag="L">mu-kadzi u-yu mu-kuru</item>
+      <item id="n3" alignment="c3" line="427" tag="G">CL1-woman CL1-this CL1-big</item>
+      <item id="n4" alignment="c4" line="428" tag="T">This woman is big.</item>
+    </tier>
+  </igt>
+  <igt id="igt86" doc-id="lgcol:sna" line-range="433-435" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="433" tag="M">  b vetted: t</item>
+      <item id="r2" line="434" tag="L">  mu-chero u-yu ndi-uno-digo-tisa</item>
+      <item id="r3" line="435" tag="G">  CL1-fruit CL1-this [?-?-?-?]</item>
+      <item id="r4" line="436" tag="T">  'This fruit is one which makes me full.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="433" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="434" tag="L">  mu-chero u-yu ndi-uno-digo-tisa</item>
+      <item id="c3" alignment="r3" line="435" tag="G">  CL1-fruit CL1-this [?-?-?-?]</item>
+      <item id="c4" alignment="r4" line="436" tag="T">  'This fruit is one which makes me full.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="433" tag="M">t</item>
+      <item id="n2" alignment="c2" line="434" tag="L">mu-chero u-yu ndi-uno-digo-tisa</item>
+      <item id="n3" alignment="c3" line="435" tag="G">CL1-fruit CL1-this [?-?-?-?]</item>
+      <item id="n4" alignment="c4" line="436" tag="T">This fruit is one which makes me full.</item>
+    </tier>
+  </igt>
+  <igt id="igt87" doc-id="lgcol:sna" line-range="437-439" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="437" tag="M">  b vetted: t</item>
+      <item id="r2" line="438" tag="L">  ha-ndi-na-baba</item>
+      <item id="r3" line="439" tag="G">  NEG-SBJ.1sg-have-father</item>
+      <item id="r4" line="440" tag="T">  'I have no father'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="437" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="438" tag="L">  ha-ndi-na-baba</item>
+      <item id="c3" alignment="r3" line="439" tag="G">  NEG-SBJ.1sg-have-father</item>
+      <item id="c4" alignment="r4" line="440" tag="T">  'I have no father'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="437" tag="M">t</item>
+      <item id="n2" alignment="c2" line="438" tag="L">ha-ndi-na-baba</item>
+      <item id="n3" alignment="c3" line="439" tag="G">NEG-SBJ.1sg-have-father</item>
+      <item id="n4" alignment="c4" line="440" tag="T">I have no father</item>
+    </tier>
+  </igt>
+  <igt id="igt88" doc-id="lgcol:sna" line-range="441-443" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="441" tag="M">  b vetted: t</item>
+      <item id="r2" line="442" tag="L">  ndi-na-baba</item>
+      <item id="r3" line="443" tag="G">  SBJ.1sg-CONJ-father</item>
+      <item id="r4" line="444" tag="T">  'I am with a father'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="441" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="442" tag="L">  ndi-na-baba</item>
+      <item id="c3" alignment="r3" line="443" tag="G">  SBJ.1sg-CONJ-father</item>
+      <item id="c4" alignment="r4" line="444" tag="T">  'I am with a father'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="441" tag="M">t</item>
+      <item id="n2" alignment="c2" line="442" tag="L">ndi-na-baba</item>
+      <item id="n3" alignment="c3" line="443" tag="G">SBJ.1sg-CONJ-father</item>
+      <item id="n4" alignment="c4" line="444" tag="T">I am with a father</item>
+    </tier>
+  </igt>
+  <igt id="igt89" doc-id="lgcol:sna" line-range="449-451" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="449" tag="M">  b vetted: t</item>
+      <item id="r2" line="450" tag="L">  wa-aka-teng-a banga here</item>
+      <item id="r3" line="451" tag="G">  SBJ.2sg-REM.PAST-buy-FV knife Q</item>
+      <item id="r4" line="452" tag="T">  'Did you buy a knife?'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="449" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="450" tag="L">  wa-aka-teng-a banga here</item>
+      <item id="c3" alignment="r3" line="451" tag="G">  SBJ.2sg-REM.PAST-buy-FV knife Q</item>
+      <item id="c4" alignment="r4" line="452" tag="T">  'Did you buy a knife?'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="449" tag="M">t</item>
+      <item id="n2" alignment="c2" line="450" tag="L">wa-aka-teng-a banga here</item>
+      <item id="n3" alignment="c3" line="451" tag="G">SBJ.2sg-REM.PAST-buy-FV knife Q</item>
+      <item id="n4" alignment="c4" line="452" tag="T">Did you buy a knife?</item>
+    </tier>
+  </igt>
+  <igt id="igt90" doc-id="lgcol:sna" line-range="457-459" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="457" tag="M">  author vetted: f</item>
+      <item id="r2" line="458" tag="L">  ndi-aka-teng-a zi-banga kuru</item>
+      <item id="r3" line="459" tag="G">  SBJ.1sg-REM.PAST-buy-FV CL9-knife CL9.big</item>
+      <item id="r4" line="460" tag="T">  'I bought a huge knife.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="457" tag="M">  author vetted: f</item>
+      <item id="c2" alignment="r2" line="458" tag="L">  ndi-aka-teng-a zi-banga kuru</item>
+      <item id="c3" alignment="r3" line="459" tag="G">  SBJ.1sg-REM.PAST-buy-FV CL9-knife CL9.big</item>
+      <item id="c4" alignment="r4" line="460" tag="T">  'I bought a huge knife.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="457" tag="M">f</item>
+      <item id="n2" alignment="c2" line="458" tag="L">ndi-aka-teng-a zi-banga kuru</item>
+      <item id="n3" alignment="c3" line="459" tag="G">SBJ.1sg-REM.PAST-buy-FV CL9-knife CL9.big</item>
+      <item id="n4" alignment="c4" line="460" tag="T">I bought a huge knife.</item>
+    </tier>
+  </igt>
+  <igt id="igt91" doc-id="lgcol:sna" line-range="461-463" tag-types="M L G T">
+    <metadata>
+      <meta id="meta1">
+        <dc:subject olac:code="und" xsi:type="olac:language" />
+        <dc:language olac:code="en" xsi:type="olac:language">English</dc:language>
+      </meta>
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" line="461" tag="M">  b vetted: t</item>
+      <item id="r2" line="462" tag="L">  va-mwe va-sikana va-refu va-mwe va-pfupi</item>
+      <item id="r3" line="463" tag="G">  CL2-some CL2-girls CL2-tall CL2-some CL2-short</item>
+      <item id="r4" line="464" tag="T">  'Some girls are tall, some are short.'</item>
+    </tier>
+    <tier id="c" type="odin" alignment="r" state="cleaned">
+      <item id="c1" alignment="r1" line="461" tag="M">  b vetted: t</item>
+      <item id="c2" alignment="r2" line="462" tag="L">  va-mwe va-sikana va-refu va-mwe va-pfupi</item>
+      <item id="c3" alignment="r3" line="463" tag="G">  CL2-some CL2-girls CL2-tall CL2-some CL2-short</item>
+      <item id="c4" alignment="r4" line="464" tag="T">  'Some girls are tall, some are short.'</item>
+    </tier>
+    <tier id="n" type="odin" alignment="c" state="normalized">
+      <item id="n1" alignment="c1" line="461" tag="M">t</item>
+      <item id="n2" alignment="c2" line="462" tag="L">va-mwe va-sikana va-refu va-mwe va-pfupi</item>
+      <item id="n3" alignment="c3" line="463" tag="G">CL2-some CL2-girls CL2-tall CL2-some CL2-short</item>
+      <item id="n4" alignment="c4" line="464" tag="T">Some girls are tall, some are short.</item>
+    </tier>
+  </igt>
+</xigt-corpus>

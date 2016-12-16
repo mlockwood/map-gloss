@@ -1,0 +1,94 @@
+==============
+Lab 9 Write-Up
+==============
+
+===========
+1. sna.txt 
+===========
+See sna.txt file in the tarball for our 22 sentences.
+
+=================================================
+2. Describe any clean up you did to your grammar.
+=================================================
+Demonstrative determiners: 
+The semantics were incorrect, as the LBL for the demonstrative determiner was not linked to LBL for its specifier. The rule now identifies the LBL of the arg1-event-relation with the specifier's LTOP:
+
+dem-determiner-lex := determiner-lex-supertype &
+  [ SYNSEM [ LOCAL [ CAT.VAL.SPEC < [ LOCAL.CONT.HOOK [ INDEX #arg1 &
+                                                              [ COG-ST activ+fam ],
+                                                        LTOP #lbl ]] >,
+                     CONT.RELS <! [ PRED "exist_q_rel" ], #altkeyrel !> ],
+             LKEYS.ALTKEYREL #altkeyrel & arg1-ev-relation &
+                             [ LBL #lbl,
+                               ARG1 #arg1 ]]].
+
+Object optionality: 
+We originally had complementary distribution for the overt object and the object concord because of the data we received from our informant. However, we learned that it was possible for a transitive verb to have neither item, such as "N-mbwa dzi-no-dy-a" (The dogs eat). To implement this, we made the following changes to our object concord rule:
+
+
+const-OC-lex-rule := OC-lex-rule & const-ltol-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST [ OPT +,
+                                       OPT-CS type-id ] ].
+
+infl-OC-lex-rule := OC-lex-rule & infl-ltol-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST unexpressed & [ OPT +,
+                                                     OPT-CS in-foc ] ].
+
+Changing the rule to OPT + enabled us to have no overt object or object concord. We needed to add [OPT-CS type-id] to the const. rule and [OPT-CS in-foc] to the infl rule for the semantics for the object optionality to work properly and translate to the other languages as well.
+
+Negation: 
+The rule was changed so that if there is no potential mood or tense present, it was specified as indicative. Without this rule, we were able to get outputs of *"Ha-ndi-famb-e" and "ha-ndi-famb-i". We made this change in the const-TMA-lex-rule (the infl-TMA-lex-rule was left underspecified with regards to tense and mood for our other TMA rules):
+
+const-TMA-lex-rule := const-add-only-no-ccont-ltol-rule & TMA-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.NEGATED +,
+                   CONT.HOOK.INDEX.E [ TENSE present,
+                                       MOOD indicative ] ] ].
+
+=========================================================
+3. Describe the transfer rules you instantiated, and why.
+=========================================================
+We did not use any transfer rules as our grammar was able to translate from English and Italian without the need for them. 
+
+We did try to use the pro-drop rule in the English grammar however. In doing so, we had spurious realizations. In the case of the sentence "It does not hurt me," it created outputs for each subject concord, as well as with and without the present habitual marker, the pronoun that we had for "it" and the 1sg object "ini". On other occasions, we did had multiple realizations for subjects or objects that we did not want. In the end, we left it commented and did not implement this rule.
+
+======================================================================
+4. Describe any further transfer rules you needed to develop, and why.
+======================================================================
+Not applicable.
+
+===============================================================================================================
+5. Document your current coverage on translating the MMT sentences from English and Italian into your language.
+===============================================================================================================
+For English, we were able to cover 16 out of 22 sentences (72.72% coverage). However, there were some cases where it resulted in more than one output, which will be discussed below. 
+
+For Italian, we were able to cover 11 out of 16 sentences (68.75% coverage). We only had one example that resulted in more than one output for one input.
+
+===============================================================================================
+6. If you are generating more than one output for each input, explain the sources of variation.
+===============================================================================================
+We were getting two outputs for the sentence "I can eat glass." Because glass is underspecified for number, our grammar produced realizations with the singular and plural forms of glass upon translation.
+
+ - Ndi-nga-dy-e ri-girazi (sg)
+ - Ndi-nga-dy-e mi-girazi (pl)
+
+In the sentence, "It doesnt hurt me", we had two realizations. One with the present habitual marker and one without. In Shona, the TMA prefix is optional with the presence of negation (namely NEGATED +), thus it produced two outputs.
+
+For the sentence "Do cats chase dogs?", we had two outputs. One with the question particle "here" and one without. This analysis was inherited from the matrix and we did not have any reason to remove it.
+
+For both English and Italian, the examples "I ask whether you know that dogs chase cars" and "Domand-o se sai che cani insegu-ono macchine", we had two outputs on each. Like the Shona realizations for "Do dogs chase dogs?", we had an example with the question particle (on the lower scope) and one without it, which again represents intonation.
+
+For the sentences with focus prosody, we had two realizations: one with the FP-affix and one without it. However, they both were marked as [INFO-STR focus]. This is expected behavior.
+
+=====================================================
+6. If you don't have full coverage, describe why not.
+=====================================================
+Our grammar was not able to produce realizations for any of the examples involving coordination. One of the problem was in the class prefix. Coordination was not working properly with the nouns that had class prefixes. It mainly was from lack of data on coordination in the sources we had. The ones that we did find them in used proper names that did not take class prefixes. We also did not have enough data on how verb phrases and sentences coordinated, thus we were not able to build it into the grammar.
+
+There is no adjective equivalent of "hungry" in Shona. Instead, it is "N-mbwa ine nzara" (Dogs with hunger). While we did have adpositions in our grammar, we were unable to get around to developing a transfer rule to map the predicates "_with_p_rel" + "_hunger_a_rel".
+
+The sentence "The dogs are in the park" did not work because we did not have the correct semantics nor the lexicon for it. Even if we did have the lexicon for it, our adposition rule does not use the predicate "_be_v_rel". We did not have enough time to address this however, but could possibly get it to work through the transfer rules.
+
+The Italian sentence "Non mi-f-a male" also did not work due to the semantics, namely invalid predicates. This too could work through the transfer rules. Also, something to note are the invalid predicates: "_exist_q_rel", "_harm_n_rel", "_make_v_rel", "_neg_v_rel". Our analysis of the sentence took fewer predicates. The reason is our grammar took on a simpler version of the stem and incorporated the applicative suffix. If we made it a separate suffix, we could have included the predicate "_make_v_rel" and would have a semantic isomorphism with the Italian grammar. 
+
+
+Thanks again and any feedback is appreciated!

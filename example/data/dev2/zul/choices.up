@@ -1,0 +1,74 @@
+
+version=28
+
+section=general
+language=Zulu
+
+section=word-order
+word-order=svo
+has-dets=yes
+noun-det-order=det-noun
+has-aux=no
+
+section=number
+
+section=person
+person=none
+
+section=gender
+
+section=case
+case-marking=none
+
+section=direct-inverse
+
+section=tense-aspect-mood
+
+section=other-features
+
+section=sentential-negation
+neg-exp=1
+vpc-0-neg=create
+infl-neg=on
+
+section=coordination
+  cs1_n=on
+  cs1_pat=poly
+  cs1_mark=affix
+  cs1_orth=na
+  cs1_order=before
+
+section=matrix-yes-no
+q-part=on
+q-part-order=after
+q-part-orth=na
+
+section=info-str
+
+section=arg-opt
+
+section=lexicon
+  noun1_det=opt
+    noun1_stem1_orth=umntwana
+    noun1_stem1_pred=_child_n_rel
+  noun2_det=opt
+    noun2_stem1_orth=inyoka
+    noun2_stem1_pred=_snake_n_rel
+  verb1_valence=intrans
+    verb1_stem1_orth=uzodlala
+    verb1_stem1_pred=_play_v_rel
+  verb2_valence=trans
+    verb2_stem1_orth=uzobona
+    verb2_stem1_pred=_see_v_rel
+
+section=morphology
+
+section=toolbox-import
+
+section=test-sentences
+  sentence1_orth=umntwana uzodlala
+  sentence2_orth=umntwana uzobona inyoka
+
+section=gen-options
+
+section=ToolboxLexicon

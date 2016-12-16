@@ -1,0 +1,1059 @@
+Language: Taiwanese
+Language code: nan
+Author: Michael Wayne Goodman
+Date: April 7, 2006
+Source a: "A Basic Vocabulary for a Beginner in Taiwanese", by Ko Chek Hoan and Tan Pang Tin
+Source b: "Taiwanese Survival Course", by Chiong Kiok-ju, et al
+Source i: Myself
+
+#
+# MT-SENTENCES (grammatical followed (mostly) by ungrammatical)
+#
+
+# 1
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {wo}
+kau1 khun3.
+kau2 khun3
+dog  sleep
+'Dogs sleep.'
+
+# 2
+# jiok4 was pronounced more like liok4
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {wo}
+kau1 jiok2 khi2-chhia1.
+kau2 jiok4 khi3-chhia1
+dog  chase car
+'Dogs chase cars.'
+
+# 3
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {pn}
+goa1 jiok2 li2.
+goa2 jiok4 li2
+I    chase you
+'I chase you.'
+
+# 3b
+Source: i
+Vetted: f
+Judgment: u
+Phenomena: {pn}
+goa1 jiok2 chit2 li2.
+goa2 jiok4 chit4 li2
+I    chase this  you
+'I chase you.'
+
+# 4a
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {det}
+chiah2 chiah2 kau1 khun3.
+chiah4 chiah4 kau2 khun3
+these  ANIMAL dog  sleep
+'These dogs sleep.'
+
+# 4b
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {det}
+chit2 chiah2 kau1 khun3.
+chit4 chiah4 kau2 khun3
+this  ANIMAL dog  sleep
+'This dog sleeps.'
+
+# 4c
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {det}
+chiah2 kun7  kau1 khun3.
+chiah4 kun5  kau2 khun3
+these  GROUP dog  sleep
+'These dogs sleep.'
+
+# 5
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {pro-d}
+kau1 chiah8.
+kau2 chiah8
+dog  eat
+'Dogs eat.'
+
+# 6
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {m}
+goa1 e3-tang2 chiah3 po7-le5.
+goa2 e7-tang3 chiah8 po7-le5
+I    ABLE     eat    glass
+'I can eat glass.'
+
+# 7
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {neg}
+m3  siong7-hai7 goa2.
+m7  siong1-hai7 goa2
+NEG injure      I
+'It doesn't hurt me.'
+
+# 7b
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {neg}
+goa1 bo7 siu7-siong1
+goa2 bo5 siu7-siong1
+I    not get-hurt
+'It doesn't hurt me.'
+# or more precisely, 'I receive no injury'
+
+# 8
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {det}
+hiah2 chiah2 kau1 jiok2 khi2-chhia1.
+hiah4 chiah4 kau2 jiok4 khi3-chhia1
+those ANIMAL dog  chase car
+'The dogs chase cars.'
+
+# 8b
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {det}
+hiah2 kun7  kau1 jiok2 khi2-chhia1.
+hiah4 kun5  kau2 jiok4 khi3-chhia1
+those GROUP dog  chase car
+'The dogs chase cars.'
+
+# 9
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {emb-d}
+goa1 siu*3 li1 chai7-ia*2 kau1 jiok2 khi2-chhia1.
+goa2 siu*7 li2 chai1-ia*2 kau2 jiok4 khi3-chhia1
+I    think you know       dog  chase car
+'I think that you know that dogs chase cars.'
+
+# 10
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {emb-q}
+goa1 mng3 li1 chai7-ia*2 kau1 jiok2 khi2-chhia1 m3  chai7-ia*2.
+goa2 mng7 li2 chai1-ia*2 kau2 jiok4 khi3-chhia1 m7  chai1-ia*2
+I    ask  you know       dog  chase car         NEG know
+'I ask whether you know that dogs chase cars.'
+
+# 10b
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {emb-q}
+goa1 mng3 li1 chai7-ia*2 m3  chai7-ia*2 kau1 jiok2 khi2-chhia1.
+goa2 mng7 li2 chai1-ia*2 m7  chai7-ia*2 kau2 jiok4 khi3-chhia1
+I    ask  you know       NEG know       dog  chase car
+'I ask whether you know that dogs chase cars.'
+# (also chai1 m7 chai7-ia*2)
+
+# 11
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {crd}
+niau7 kap8 kau1 jiok2 khi2-chhia1.
+niau1 kap4 kau2 jiok4 khi3-chhia1
+cat   and  dog  chase car
+'Cats and dogs chase cars.'
+
+# 12
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {crd}
+kau1 jiok2 khi2-chhia1, niau7 jiok2 kau2.
+kau2 jiok4 khi3-chhia1, niau1 jiok4 kau2
+dog  chase car,         cat   chase dog
+'Dogs chase cars and cats chase dogs.'
+
+# 13
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+niau7 jiok2 kau1 koh1 khun3.
+niau1 jiok4 kau2 koh2 khun3
+cat   chase dog  and  sleep
+'Cats chase dogs and sleep.'
+
+# 13b
+# (without comma it feels like both verbs happen at same time)
+# (also, might use e7-tang3 before verbs)
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {crd}
+niau7 jiok2 kau1, koh1 khun3.
+niau1 jiok4 kau2, koh2 khun3
+cat   chase dog  and  sleep
+'Cats chase dogs and sleep.'
+
+# 14
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {q}
+niau7 jiok2 kau1 bo5.
+niau1 jiok4 kau2 bo5
+cat   chase dog not 
+'Do cats chase dogs?'
+
+# 14b
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {q}
+niau7 e3-hiau1 jiok2 kau1 bo5.
+niau1 e7-hiau2 jiok4 kau2 bo5
+cat   know-how chase dog not 
+'Do cats chase dogs?'
+
+# 15
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+jiok2 chit2 chiah2 kau2.
+jiok4 chit4 chiah4 kau2
+chase this  ANIMAL dog
+'Chase the dog!'
+
+# 15b
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {wo}
+khi2 jiok2 chit2 chiah2 kau2.
+khi3 jiok4 chit4 chiah4 kau2
+go   chase this  ANIMAL dog
+'Chase the dog!'
+
+# 16
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {adj}
+iau7   e7   kau1 chiah3.
+iau1   e5   kau2 chiah8
+hungry LNK dog  eat
+'Hungry dogs eat.'
+
+# 17
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {adj}
+iau7   e7   kau1 chin7 kin1 chiah3.
+iau1   e5   kau2 chin1 kin2 chiah8
+hungry LNK dog  very  fast eat
+'Hungry dogs eat quickly.'
+
+# 17
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {adj}
+iau7   e7   kau1 chiah3 chin7 kin2.
+iau1   e5   kau2 chiah8 chin1 kin2
+hungry LNK dog  eat    very fast
+'Hungry dogs eat quickly.'
+
+# 18
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+khun3 kau2.
+khun3 kau2
+sleep dog
+'Dogs sleep.'
+
+# 19
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+kau1 khi2-chhia1 jiok4.
+kau2 khi3-chhia1 jiok4
+dog  car         chase
+'Dogs chase cars.'
+
+# 20
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {pn, wo}
+li1 goa1 jiok2.
+li2 goa2 jiok4
+you I    chase
+'I chase you.'
+
+# 21
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {det}
+chiah2 kau1 khun3.
+chiah4 kau2 khun3
+these  dog  sleep
+'These dogs sleep.'
+
+# 22
+# could not think of good ungrammatical version of this sentence, since
+# any permutation seems to result in a (different) grammatical sentence
+#Source: i
+#Vetted: t
+#Judgment: g
+#Phenomena: {pro-d}
+#kau1 chiah8.
+#kau2 chiah8
+#dog  eat
+#'Dogs eat.'
+
+# 23
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {m, wo}
+goa1 chiah3 e3-tang2 po7-le5.
+goa2 chiah8 e7-tang3 po7-le5
+I    eat    able     glass
+'I can eat glass.'
+
+# 24
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {neg}
+m3  siong7-hai7 goa2.
+m7  siong1-hai7 goa2
+NEG injure      I
+'It doesn't hurt me.'
+
+# * bo5 siu-siong1 goa2
+# * bo5 goa2 siu-siong1
+
+# 25
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {det}
+hiah2 kau1 jiok2 khi2-chhia1.
+hiah4 kau2 jiok4 khi3-chhia1
+those dog  chase car
+'The dogs chase cars.'
+
+# 26
+#Source: i
+#Vetted: t
+#Judgment: grammatical-ish
+#Phenomena: {emb-d, wo}
+#li1 chai7-ia*2 kau1 jiok2 khi2-chhia1 goa1  siu*7.
+#li2 chai1-ia*2 kau2 jiok4 khi3-chhia1 goa2  siu*7
+#you know       dog  chase car         I     think
+#'I think that you know that dogs chase cars.'
+
+# 26
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {emb-d, wo}
+li1 goa1 siu*7 chai7-ia*2 kau1 jiok2 khi2-chhia1.
+li2 goa2 siu*7 chai1-ia*2 kau2 jiok4 khi3-chhia1
+you I    think know       dog  chase car
+'I think that you know that dogs chase cars.'
+
+# 27
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {emb-q}
+goa1 mng3 li1 chai7-ia*2 kau1  jiok2 khi2-chhia1.
+goa2 mng7 li2 chai1-ia*2 kau2  jiok4 khi3-chhia1
+I    ask  you know       dog   chase car
+'I ask whether you know that dogs chase cars.'
+
+# 28
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+niau7 kau1 jiok2 khi2-chhia1.
+niau1 kau2 jiok4 khi3-chhia1
+cat   dog  chase car
+'Cats and dogs chase cars.'
+
+# 28b
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+niau7 koh1 kau1 jiok2 khi2-chhia1.
+niau1 koh2 kau2 jiok4 khi3-chhia1
+cat   and  dog  chase car
+'Cats and dogs chase cars.'
+
+# 29
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+kau1 jiok2 khi2-chhia1, kap1 niau7 jiok2 kau2.
+kau2 jiok4 khi3-chhia1, kap2 niau1 jiok4 kau2
+dog  chase car,         and  cat   chase dog
+'Dogs chase cars and cats chase dogs.'
+
+# 30
+# says that kap2 can be used to coordinate these two verbs
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {crd}
+niau7 jiok2 kau1 kap1 khun3.
+niau1 jiok4 kau2 kap2 khun3
+cat   chase dog  and  sleep
+'Cats chase dogs and sleep.'
+
+# 30b
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {crd}
+niau7 jiok2 kau1 kap1 khun3.
+niau1 jiok4 kau2, khun3
+cat   chase dog,  sleep
+'Cats chase dogs and sleep.'
+
+# 31
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {q, wo}
+bo3 niau7 jiok2 kau1.
+bo5 niau1 jiok4 kau2
+not cat   chase dog
+'Do cats chase dogs?'
+
+# 31b
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {q, wo}
+niau7 jiok2 kau1 m3
+niau1 jiok4 kau2 m7
+cat   chase dog  NEG
+'Do cats chase dogs?'
+
+# 31c
+Source: i
+Vetted: t
+Judgment: g
+Phenomena: {q, wo}
+niau7 jiok2 kau1 boe3
+niau1 jiok4 kau2 boe7
+cat   chase dog  not-yet
+'Did the cat chase the dog yet?'
+
+# 32
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {wo}
+khi2 jiok2 chit2 kau1 chiah4.
+khi3 jiok4 chit4 kau2 chiah4
+chase this  dog  ANIMAL
+'Chase the dog!'
+
+# 33
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {adj}
+iau7   kau1 chiah3.
+iau1   kau2 chiah8
+hungry dog  eat
+'Hungry dogs eat.'
+
+# 34
+Source: i
+Vetted: t
+Judgment: u
+Phenomena: {adj}
+iau7   e7   kau1 chin7 kin1 chiah3
+iau1   e5   kau2 chin1 kin2 chiah8
+hungry LNK dog  very  fast eat
+'Hungry dogs eat quickly.'
+
+#
+# BEGIN NON-MT SENTENCES
+#
+
+# 35
+Source: a:371
+Vetted: f
+Judgment: g
+Phenomena: {emb-q}
+goa1 iau1-boe3 khoat2-teng3 tang7-si5 boeh2 tng2-khi3.
+goa2 iau2-boe7 khoat4-teng7 tang1-si5 boeh4 tng2-khi3
+I    not-yet   decide       when      want  return
+'I have not yet decided when I shall return.'
+
+# 36
+Source: a:365
+Vetted: f
+Judgment: g
+Phenomena: {emb-q}
+li1 khi2 mng3 khoa*2  i7  boeh2 lai7 bo3.
+li2 khi3 mng7 khoa*3  i1  boeh4 lai5 bo5
+you go   ask  whether 3SG want  come not
+'Go and ask whether he is coming or not.'
+
+# 37
+Source: a:204
+Vetted: f
+Judgment: g
+Phenomena: {pn, ta}
+goa1 boeh2 ham7 li1 khi3.
+goa2 boeh4 ham5 li2 khi3
+I    want  with you go
+'I want to go with you."
+
+# 38
+Source: a:204
+Vetted: f
+Judgment: u
+Phenomena: {pn, ta}
+goa1 boeh2 ham7 khi3.
+goa2 boeh4 ham5 khi3
+I    want  with go
+'I want to go with you."
+
+# 39
+Source: a:220
+Vetted: f
+Judgment: g
+Phenomena: {wo, adj}
+tai7-oan5 e7  ong7-lai5 chin7 ho1-chiah8.
+tai5-oan5 e5  ong5-lai5 chin1 ho2-chiah8
+Taiwan    LNK pineapple very  delicious
+'Taiwanese pineapples are very delicious.'
+
+# 40
+Source: a:220
+Vetted: f
+Judgment: g
+Phenomena: {adj}
+tai7-oan5 e7  ong7-lai5 ho1-chiah8.
+tai5-oan5 e5  ong5-lai5 ho2-chiah8
+Taiwan    LNK pineapple delicious
+'Taiwanese pineapples are delicious.'
+
+# 41
+Source: a:221
+Vetted: f
+Judgment: g
+Phenomena: {word order, det, adj}
+chiah2 e7  chiu2 chin7 ho1-lim1.
+chiah4 e5  chiu2 chin1 ho2-lim1
+this   LNK wine  very  tasty
+'This wine is very tasty.'
+
+# 42
+Source: a:221
+Vetted: f
+Judgment: u
+Phenomena: {word order, det, adj}
+chiah2 chiu2 chin7 ho1-lim1.
+chiah4 chiu2 chin1 ho2-lim1
+this   wine  very  tasty
+'This wine is very tasty.'
+
+# 43
+Source: a:16
+Vetted: f
+Judgment: g
+Phenomena: {emb-d}
+lut3-su1 kong1 chit2 e7  an2-kia*7 chin7 hui2-khi3.
+lut8-su1 kong2 chit4 e5  an3-kia*7 chin1 hui3-khi3
+lawyer   say   this  LNK case      very  troublesome
+'The lawyer said this case is very troublesome.'
+
+# 44
+Source: a:389 
+Vetted: f
+Judgment: g
+Phenomena: {q}
+li1 u3   kiat2-hun1 boe3?
+li2 u7   kiat4-hun1 boe7
+you have marriage   not-yet
+'Are you married yet?'
+
+# 45
+Source: a:389 
+Vetted: f
+Judgment: u
+Phenomena: {q}
+li1 u3   boe3    kiat2-hun1?
+li2 u7   boe7    kiat4-hun1
+you have not-yet marriage
+'Are you married yet?'
+
+# 46
+Source: a:319
+Vetted: f
+Judgment: g
+Phenomena: {q}
+u3   kau3   bo3?
+u7   kau3   bo5
+have enough not
+'Is that enough?'
+
+# 47
+Source: a:319
+Vetted: t
+Judgment: u
+Phenomena: {q}
+bo3 u3   kau3?
+bo5 u7   kau3
+not have enough
+'Is that enough?'
+
+# 47b
+Source: a:319
+Vetted: t
+Judgment: u
+Phenomena: {q}
+bo3 kau3   u3?
+bo5 kau3   u7
+not enough have
+'Is that enough?'
+
+# 47c
+Source: a:319
+Vetted: t
+Judgment: g
+Phenomena: {q}
+u3   bo3 kau3?
+u7   bo5 kau3
+have not enough
+'It's not enough?'
+
+# 48
+Source: a:242
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+hit2 keng7    chhu3 sio1-khi3.
+hit4 keng1    chhu3 sio1-khi3
+that BUILDING house burned-up
+'That house burned up.'
+
+# 48b
+Source: a:242
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+hit2 chiah2 chhu3 sio1-khi3.
+hit4 chiah4 chhu3 sio1-khi3
+that ANIMAL house burned-up
+'That house burned up.'
+
+# 49
+Source: a:242
+Vetted: f
+Judgment: g
+Phenomena: {pro-d}
+hit2 keng7    sio1-khi3.
+hit4 keng1    sio1-khi3
+that BUILDING burned-up
+'That building burned up.'
+
+# 50
+Source: a:242
+Vetted: f
+Judgment: u
+Phenomena: {pro-d}
+hit2 chhu3 sio1-khi3.
+hit4 chhu3 sio1-khi3
+that house burned-up
+'That house burned up.'
+
+# 51
+Source: a:242
+Vetted: f
+Judgment: u
+Phenomena: {pro-d}
+hit2 sio1-khi3.
+hit4 sio1-khi3
+that burned-up
+'That burned up.'
+
+# 52
+Source: a:640
+Vetted: f
+Judgment: g
+Phenomena: {ta}
+goa1 teh2 siu*7.
+goa2 teh4 siu*7
+I    PROG think
+'I am thinking.'
+
+# 53
+Source: a:640
+Vetted: f
+Judgment: u
+Phenomena: {ta}
+goa1 siu*7 teh4.
+goa2 siu*7 teh4
+I    think PROG
+'I am thinking.'
+
+# 54
+Source: a:640
+Vetted: f
+Judgment: g
+Phenomena: {ta}
+sin7-hu7 chim1-ma2 teh2 khun3.
+sin5-hu7 chim2-ma2 teh4 khun3
+father   now       PROG sleep
+'Father is now sleeping.'
+
+# 55
+# note: this sentences can range in meaning from "He/She goes to the station",
+# "He/She went to the station", "He/She is going to the station", "He/She will
+# go to the station", etc. depending on the situation.
+Source: a:141, b:309
+Vetted: f
+Judgment: g
+Phenomena: {ta}
+i7  khi2 hoe1-chhia7-thau5.
+i1  khi3 hoe2-chhia1-thau5
+3SG go   station
+'He/She goes to the station.'
+
+# 56
+Source: a:141, b:309
+Vetted: f
+Judgment: g
+Phenomena: {ta}
+i7  cha7-hng1 u3   khi2 hoe1-chhia7-thau5.
+i1  cha1-hng1 u7   khi3 hoe2-chhia1-thau5
+3SG yesterday have go   station
+'He/She went to the station yesterday.'
+
+# 57
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {m, wo}
+kau1 e3-tang2 khoa*3-ki*3 niau1.
+kau2 e7-tang3 khoa*3-ki*3 niau1
+dog  can      see         cat
+'Dogs can see cats.'
+
+# 58
+Source: i
+Vetted: f
+Judgment: u
+Phenomena: {m, wo}
+kau1 khoa*3-ki*3 niau7 e7-tang3.
+kau2 khoa*3-ki*3 niau1 e7-tang3
+dog  see         cat   can
+'Dogs can see cats.'
+
+# 59
+Source: b:15
+Vetted: f
+Judgment: g
+Phenomena: {pn}
+i7  si3 lau3-su1.
+i1  si7 lau7-su1
+3SG be  teacher
+'He/She is a teacher.'
+
+# 60
+Source: b:15
+Vetted: f
+Judgment: g
+Phenomena: {pn}
+in7  si3 i7-seng1.
+in1  si7 i1-seng1
+they be  doctor
+'They are doctors.'
+
+# 61
+Source: b:93
+Vetted: f
+Judgment: g
+Phenomena: {adj}
+koe1-chi1 long1 chin7 siok8.
+koe2-chi2 long2 chin1 siok8
+fruit     all   very  cheap
+'Fruit is all very cheap'
+
+# 62
+Source: b:93
+Vetted: f
+Judgment: g
+Phenomena: {wo, pro-d}
+i7  e3  chheh2 long1 si3 eng1-bun5       e5.
+i1  e5  chheh4 long2 si7 eng1-bun5       e5
+3SG LNK book   all   be  English-writing LNK
+'His/Her books are all English ones.'
+
+# 62
+Source: b:93
+Vetted: f
+Judgment: g
+Phenomena: {wo, pro-d}
+i7  e3  chheh2 long1 si3 eng1-bun5       e3  chheh4.
+i1  e5  chheh4 long2 si7 eng1-bun5       e5  chheh4
+3SG LNK book   all   be  English-writing LNK book
+'His/Her books are all English books.'
+
+# 62
+Source: b:93
+Vetted: f
+Judgment: u
+Phenomena: {wo, pro-d}
+long1 i7  e3  chheh2 si3 eng1-bun5       e5.
+long2 i1  e5  chheh4 si7 eng1-bun5       e5
+all   3SG LNK book   be  English-writing LNK
+'His/Her books are all English ones.'
+
+# 63
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {pn}
+goan1 jiok2 li2.
+goan2 jiok4 li2
+we    chase you
+'We chase you.'
+
+# 63b
+Source: i
+Vetted: f
+Judgment: u
+Phenomena: {pn, det}
+chiah2 goan1 jiok2 li2.
+chiah4 goan2 jiok4 li2
+these  we    chase you
+'We chase you.'
+
+# 64
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {pn}
+lan1 khun3.
+lan2 khun3
+we   sleep
+'We sleep.'
+
+# 65
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {pn}
+lin2   jiok2 in1.
+lin2   jiok4 in1
+you-pl chase them
+'You all chase them.'
+
+# 66
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {adj}
+chit2 chiah2 kau1 chin7 iau7.
+chit4 chiah4 kau2 chin1 iau1
+this  ANIMAL dog  very  hungry
+'This dog is very hungry.'
+
+# 66b
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {adj}
+chit2 chiah2 kau1 iau7.
+chit4 chiah4 kau2 iau1
+this  ANIMAL dog  hungry
+'This dog is hungry.'
+
+# 67
+Source: b:15
+Vetted: f
+Judgment: g
+Phenomena: {q}
+li1 si3 bi2-kok4-lang5, si3 bo5?
+li2 si7 bi2-kok4-lang5, si7 bo5
+you be  american,       be  not
+'You are American, aren't you?'
+
+# 67b
+Source: b:15
+Vetted: f
+Judgment: g
+Phenomena: {q}
+li1 si3 m3  si3 bi2-kok4-lang5?
+li2 si7 m7  si7 bi2-kok4-lang5
+you be  NEG be  american
+'Are you an American?'
+
+# 68
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {wo}
+li1 sang2 goa1 kau2.
+li2 sang3 goa2 kau2
+you give  I    dog
+'You give me a dog.'
+
+# 69
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {wo, det}
+kau1 sang2 niau7 chit2 keng7    chhu3.
+kau2 sang3 niau1 chit4 keng1    chhu3
+dog  give  cat   this  BUILDING house
+'A dog gives a cat this house.'
+
+# 70
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {det}
+chit2 chiah4 kau1 khun3.
+chit4 chiah4 kau2 khun3
+this  ANIMAL dog  sleep
+'This dog sleeps.'
+
+# 70b
+Source: i
+Vetted: f
+Judgment: u
+Phenomena: {det}
+chit2 kau1 khun3.
+chit4 kau2 khun3
+this  dog  sleep
+'This dog sleeps.'
+
+# 70c
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {det}
+chit2 e5 kau1 khun3.
+chit4 e5 kau2 khun3
+this  LK dog  sleep
+'This dog sleeps.'
+
+# 71
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {adj, det}
+chit2 chiah2 iau1   e5 kau1 khun3.
+chit4 chiah4 iau1   e5 kau2 khun3
+this  ANIMAL hungry LK dog  sleep
+'This hungry dog sleeps.'
+
+# 71b
+Source: i
+Vetted: f
+Judgment: u
+Phenomena: {adj, det}
+chit2 iau1   e5 chiah2 kau1 khun3.
+chit4 iau1   e5 chiah4 kau2 khun3
+this  hungry LK ANIMAL dog  sleep
+'This hungry dog sleeps.'
+
+# 71c
+Source: i
+Vetted: f
+Judgment: u
+Phenomena: {adj, det}
+iau1   e5 chit2 chiah2 kau1 khun3.
+iau1   e5 chit4 chiah4 kau2 khun3
+hungry LK this  ANIMAL dog  sleep
+'This hungry dog sleeps.'
+
+# 72
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {ta}
+chit2 chiah2 kau1 chiah3 niau7 a7.
+chit4 chiah4 kau2 chiah8 niau1 a7
+this  ANIMAL dog  eat    cat   COMP
+'This dog ate (the) cat.'
+
+# 73
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {ta}
+chit2 chiah2 kau1 teh2 chiah3 niau7.
+chit4 chiah4 kau2 teh4 chiah8 niau1
+this  ANIMAL dog  PRG  eat    cat
+'This dog is eating (the) cat.'
+
+# 74
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {ta}
+kau1 cha7-hng1 chiah3 niau1.
+kau2 cha1-hng1 chiah8 niau1
+dog  yesterday eat    cat
+'(The) dog ate (the) cat yesterday'
+
+# 75
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {ta}
+kau1 bin5-a2-chai3 e7  chiah3 niau1.
+kau2 bin5-a2-chai3 e7  chiah8 niau1
+dog  tomorrow      ANT eat    cat
+'(The) dog will eat (the) cat tomorrow'
+
+# 76
+Source: i
+Vetted: f
+Judgment: g
+Phenomena: {ta}
+chit4-ma2 kau1 teh2 chiah3 niau1.
+chit4-ma2 kau2 teh4 chiah8 niau1
+now       dog  PRG  eat    cat
+'The dog is now eating the cat.'

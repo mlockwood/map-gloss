@@ -1,0 +1,122 @@
+-------------------------------------------------------
+Comments
+
+Your write ups would be easier to read if you used more
+white space, esp. blank lines between items.
+
+ 3) For word-order, I chose SVO. It is the most frequently occurring
+ word order, although all of my sources did have a more than a few
+ examples of VSO.  I even found more than one sentence with VOS where
+ was an inanimate subject
+
+As we discussed in class, or somewhere, I think it's good to make
+SVO basic, and then add a lexical inversion rule to get VSO (and 
+something else possibly for VOS...).
+
+ 4) I said no to determiners.  I want to go with a definiteness marker
+ that becomes a semantic agreement marker.  It makes more sense.  Even
+ though we are not doing the copular sentences, the break in the
+ definiteness agreement feels right for how these sentence work with a
+ definite NP followed by an indefinite NP.
+
+I think this is right, too.  
+
+ 5) I chose both adverb and inflectional.  The adverb is "ma" and
+ precedes the verb.  The affix is "$" and attaches as a suxxix to the
+ verb after all other affixes.  I gave the web form an s.  I making a
+ note to change it later.  It is required for both the affix and the
+ adverb to be present.
+
+Cf the discussion on GoPost, and please follow up if you have more
+questions.
+
+   a) faTima is a proper name.  I chose a proper name because it
+ doesnot take determiner, in the hopes that I would be able to end up with
+ at least one grammatical sentence before I introduce Ddarija's
+ agreement rules.
+
+If they're not determiners, don't call them determiners.  Also,
+nothing is stopping you from putting in full-form nouns for now
+that have the definite article on them.  (And don't you have any
+indefinites in your test suite?)
+
+   e) My aux verb is "kan" which puts nominal sentences into the past
+ or the future.  It can also be used to create compound or relative
+ tense.  As an aside compound tenses can be created without using this
+ verb or any auxiliary verb.\
+
+How?
+
+   a) I was expecting the grammar to let me separate the l from the
+ noun by using a hyphen.  I had to separate it with a space.
+
+If you add the hyphen to the list of *punctuation-characters* in
+lkb/globals.lsp it will strip it for you.  But, you want to build
+from the grammar start that is closer to the "truth" rather than
+the one that has better coverage.
+
+   c) The grammar hated me using '$' so much that when my grammar
+ contained '$' as a transliteration character, no sentences would
+ parse.  I looked for it *punctuation-characters* in the file
+ lkb/globals.lsp, and I did not see it.  I changed it back to an s.  I
+ need to find something, because 's' and 'h' appear together in a lot
+ of prominent words and they do not become the dental-alveolar
+ fricative 'sh'.
+
+I need more info than this to debug.  You should be able to use
+$ inside the value of STEM, but probably not as part of the instance
+identifier for a lexical entry (the bit before :=).
+
+      ii) I don't have prepositions, so I could not add any verbs that
+ have a preposition as a verb particle.
+
+What do you mean by "verb particle"?  It might be that you
+have a series of homophonous forms, where one guise is a preposition
+and the other is a particle...
+
+   c) I'm not sure that changing the test suite is part of the current
+ exercise, but I will add those sentences to the test suite as soon as
+ possible
+
+Don't add ungrammatical sentences to the test suite as grammatical
+examples.
+
+   e) The number of sentences is also equal to the number under the
+ 'Parses' column which I don't understand, since nothing is parsing
+ from the test suite.
+
+Answered on GoPost.  Let me know if you still have questions about this.
+
+   I am glancing over the schedule for the rest of the quarter and I
+ notice that we are not going to be covering adjectives or noun
+ modification this quarter.  Most of the sentences that are testing
+ agreement features in my test suite involve the use of adjectives.  I
+ think I can remove all of those sentences. The only other agreement
+ features in my grammar of Ddarija are on the verb.  As soon as I can
+ get that agreement to work most of my sentences containing
+ imperfective verbs should work.
+
+Um, lab 5?
+
+ I'm pretty certain that regardless of where I end up with this
+ gramamr when this class is over, I will continue fleshing out this
+ grammar for some time to come.
+
+Cool :)
+
+faTima := no-spr-noun-lex &
+  [ STEM < "faTima" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fatima_NP_rel" ].
+
+_NP_rel is not one of the possible relation suffixes.
+(And proper names are going to be handled differently, anyway.)
+
+ka := subj-raise-aux-with-pred &
+  [ STEM < "ka" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_indicative_v_rel" ].
+
+That's a weird relation.  Perhaps this one shouldn't introduce
+a relation at all?
+
+One of the profiles you submitted is missing some of the parses ...
+it has only 58.

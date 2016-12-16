@@ -1,0 +1,98 @@
+
+Notes
+-------------------------------------------------------
+
+Subject-verb inversion would have also been a good choice, but it requires the 'li' particle after the verb, and so was not a complete match. This is one more area we will need to  further customize  manually.
+
+EB> This seems like a cognate of the Russian question clitic
+(also "li", I believe).  In Russian, "li" goes in second position,
+but it doesn't have to be the verb that is first.  Is that true
+in hbs too?
+
+A coordinated noun phrase acting as a subject requires the verb to agree with PL. Gender agreement rules are interesting: if the coordinated group is all Fem, the verb takes on Fem ending; if the group is all Neut, the verb is Neut; otherwise the verb is Masc by default.
+
+EB> This is fairly typical of coordination in IE languages, and
+quite modelable, but somewhat painful to do ... you have to make
+different subtypes of the coordination rules for:
+
+all conjuncts feminine
+all conjuncts neuter
+first conjunct masculine
+second conjunct masculine
+
+... you can get into this if you like, or just choose to leave
+the gender on the mother underspecified and let the grammar overgenerate
+in this respect.
+
+NPs, adjectives, and PPs can be predicates in hbs. A copular is required for NP predicate, but not the others.
+The copular varies in person and number, agreeing with the subject.  
+
+EB> "Copular" is an adjective, as in "copular construction".  The noun
+you are looking for is "copula".
+
+NP and adjective predicates can either be nom or gen case.
+
+EB> Is there a difference in intepretation between the two?
+
+Of the covered sentences, many tree structures are incorrect where the subject and object are in the wrong positions. That is,
+the subject is the complement of V while the object is in the specifer of S. In order to fix this we need to revise our head-comp to require
+a non-nominative case for its object and our head-subj to require nominative case for its subject.
+
+EB> You don't want to have the rules doing this --- it should be
+in the lexical entries.  When you report problems like this, please
+include specific examples so that I can test them out and provide
+specific feedback. Looking quickly at your choices file, the verb
+class definitions look okay.  Please send me an example and we can
+debug in class on Wednesday.
+
+There were two cases of ungrammatical examples having parses. One for negation and two for pro drop. For negation, example 50, NEG ne
+is sentence-intial where it should be adjacent to vidi.
+Source: a
+Vetted: s
+Judgment: u
+Phenomena: {neg}
+ne Slavko vidi  Olgu
+ne Slavk-o vid-i  Olg-u
+NEG Slavko-M.SG.NOM see-3.SG Olga.F-SG.ACC
+'Slavko does see not Olga.'
+
+EB> This is a bug in the negation library --- I'll pass the
+info on to Joshua.  Meanwhile, I think you can fix it by
+requiring [SUBJ cons] on the MOD of the negative adverb.
+
+There is a missing object that is required by the verb. This can fixed with a rule that requires a verb to have a certain number 
+of arguments in its ARG-ST.
+
+EB> This is because you haven't specified that the argument
+is required.  You need to add [OPT -] on the object to the
+verb class containing vid.
+
+EB> I tried parsing your "da li" question examples, and "da li" wasn't
+getting an analysis.  I need to look into why, and will try to post
+to Go Post soon.
+
+EB> Your coordination analysis ran into a bug in the customization system.
+You should replace entries in the lexicon like this:
+
+i := conj-lex &
+  [ STEM < "i" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "1" & "2" & "3" ].
+
+With sets of entries like this:
+
+i-1 := conj-lex &
+  [ STEM < "i" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "1" ].
+
+i-2 := conj-lex &
+  [ STEM < "i" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "2" ].
+
+i-3 := conj-lex &
+  [ STEM < "i" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "3" ].
+

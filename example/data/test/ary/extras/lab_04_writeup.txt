@@ -1,0 +1,76 @@
+I. My grammar choices and why
+I guess my grammar choices were not so educated.  I tried to use many sentences as possible from my various sources, rather than making sentences up.  I also wanted to have grammatical sentences from the start.
+1) I named my gramamr ddarija. This is the name the people who live in Morocco, Algeria and Tunis use when referring to their their vernacular.
+2) Ddarija has very vestigial case in its pronoun system, so I chose none for this choice.
+3) For word-order, I chose SVO. It is the most frequently occurring word order, although all of my sources did have a more than a few examples of VSO.  I even found more than one sentence with VOS where was an inanimate subject
+4) I said no to determiners.  I want to go with a definiteness marker that becomes a semantic agreement marker.  It makes more sense.  Even though we are not doing the copular sentences, the break in the definiteness agreement feels right for how these sentence work with a definite NP followed by an indefinite NP.
+5) I chose both adverb and inflectional.  The adverb is "ma" and precedes the verb.  The affix is "$" and attaches as a suxxix to the verb after all other affixes.  I gave the web form an s.  I making a note to change it later.  It is required for both the affix and the adverb to be present.
+6) Coordination: It is a separate word that can join any phrase or word.  It is both polysyndeton and N-polysyndeton. 
+7) My lexicon: 
+   a) faTima is a proper name.  I chose a proper name because it does not take determiner, in the hopes that I would be able to end up with at least one grammatical sentence before I introduce Ddarija's agreement rules.
+   b) ktAb is a regular common noun meaning book.
+   c) The intransitive verb I chose was nEas which means "sleep."
+   d) The transitive verb ios kteb which means "write."
+   e) My aux verb is "kan" which puts nominal sentences into the past or the future.  It can also be used to create compound or relative tense.  As an aside compound tenses can be created without using this verb or any auxiliary verb.\
+   f) All of the verb forms are given in the 3rd person perfective form, which has no inflections.
+
+II.  My 1st parse
+1) Neither of the two sentences that I gave to my starter grammar parsed.
+   a) The tense marker of "ka" is not in the lexicon.
+   c) The feminine subject agreement marker on the verb, "t" is not there because there no agreement rules yet.
+2) The following sentences did parse correctly.
+   faTima kteb ktAb
+   faTima nEas
+   kan faTima kteb ktAb
+   kan faTima nEas
+ 3) None of those 4 sentences is in fact grammatical, because all of the verbs are missing feminine subject agreement markers.
+
+III. Test suite coverage
+1) In the first round none of my sentences parsed.
+2) I could not stand it and I went back to the matrix and created another starter that had determiners and an imperfective conjugation tense marker as the auxiliary.  I thought I could cut and paste those rules and the neew lexicon into my first grammar.  The differences between the 1st grammar and this new grammar are shown below.
+   a) It has determiners and the determiner order is det-noun
+   b) Somehow I messed up and left out coordination.
+   c) The 2nd lexicon contains the following:
+      i)    kelb _dog_n_rel
+      ii)   mess _cat_n_rel
+      iii)  iverb jra _run_v_rel
+      iv)   tverb saf _see_v_rel
+      v)    aux-verb ka _does_v_rel
+      vi)   det1 l
+      test sentences : l-kelb saf l-mess
+      	   	       l-mess saf l-kel
+
+3) Other problems:
+   a) I was expecting the grammar to let me separate the l from the noun by using a hyphen.  I had to separate it with a space.
+   b) I was using '$' as my transliteration for the dental-vealor fricative in the English word ship.  The grammar parser hated it.
+   c) The grammar hated me using '$' so much that when my grammar contained '$' as a transliteration character, no sentences would parse.  I looked for it *punctuation-characters* in the file lkb/globals.lsp, and I did not see it.  I changed it back to an s.  I need to find something, because 's' and 'h' appear together in a lot of prominent words and they do not become the dental-alveolar fricative 'sh'.
+
+4) Adding to the lexicon 
+   a) At first I tried moving the present-indicative marker and the definite article to the original with no success.
+   b) So I moved the lexical items, the conjunction and the auxiliary from the original grammar to the newer one. 
+   c) Then I discovered what I needed to edit in the rules.tdl file and the ddarija .tdl files to get the spec-head rule to get inluded and the coordination rule to be included.
+   d) From that point I added as many lexical items as I could to my lexicon.tdl file.
+      i)  Most of the verbal modals need an imperfective verb.  Because of the lack of agreement, there is no point in adding them.
+      ii) I don't have prepositions, so I could not add any verbs that have a preposition as a verb particle. 
+      iii) I could not add my ditransitive verbs.
+
+5) Rerunning the test suite
+   a)  Nothing in my test suite parsed the second time
+   b)  The only way to get *any* sentences to parse with the current test suite, would be to add my sentences that do parse to the test suite.
+   c)  I'm not sure that changing the test suite is part of the current exercise, but I will add those sentences to the test suite as soon as possible
+   d)  When I load my test suite into [incr tsdb()] the number of sentences is the same as the number under the 'Items' which I understand.  
+   e)  The number of sentences is also equal to the number under the 'Parses' column which I don't understand, since nothing is parsing from the test suite.
+
+6) Getting better coverage
+   Without a doubt, the one thing that will improve the parse rate of my test suite is to get agreemenr features, especially with the imperfect verb.  The perfective verb has agreement, but the 3rd person singular agreement for the perfective verb by not having any agreement markers.  Another thing that will improve the pass rate will be to add more sentences with verbs in the past instead of the present. This will give me some sentences in the test suite that parse without changing my grammar at all.  
+
+   I am glancing over the schedule for the rest of the quarter and I notice that we are not going to be covering adjectives or noun modification this quarter.  Most of the sentences that are testing agreement features in my test suite involve the use of adjectives.  I think I can remove all of those sentences. The only other agreement features in my grammar of Ddarija are on the verb.  As soon as I can get that agreement to work most of my sentences containing imperfective verbs should work.
+
+   The next obstacle to getting sentneces in my test suite to parse is implementing in the grammar modal markers and other verbs that select for VPs and sentences.
+
+ Finally I seriously need to pull out all of the copular sentences. I was surprised to find more than 30 copular sentences.  They are mostly there to show the NP agreement features of gender, number and definiteness between the noun and its modifying adjectives.  I also think that if we are not doing adjectives, I don't need to implement the definite article as a definiteness agreement affix.  
+
+ I'm pretty certain that regardless of where I end up with this gramamr when this class is over, I will continue fleshing out this grammar for some time to come.
+
+
+

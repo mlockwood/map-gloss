@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from eval.constants import CLASSIFICATION_TYPES, LABELS, LABEL_TEXT
+from eval.constants import *
 from gloss.standard import Gram, Value
-from utils.classes import DataModelTemplate
-from utils import functions
-from utils.IOutils import find_path, set_directory
+from utils.data_model import DataModel
+from utils.dict_calculations import *
+from utils.IOutils import set_directory
 
 
 __project_parent__ = 'AGGREGATION'
@@ -21,9 +21,9 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-class GoldStandard(DataModelTemplate):
+class GoldStandard(DataModel):
 
-    json_path = ['{}/eval/data/gold_standard.json'.format(find_path('map_gloss'))]
+    json_path = [GOLD_STANDARD_FILE]
     objects = {}  # (dataset, iso, gloss)
     stats = {}
     temp = {}
@@ -31,13 +31,9 @@ class GoldStandard(DataModelTemplate):
     def set_objects(self):
         GoldStandard.objects[(self.dataset, self.iso, self.gloss)] = self
 
-    def add_count(self):
-        """Add an entry to the observation set for the dataset,
-        iso_code, and gloss.
-        """
-        # Increment occurrence count for the gloss
-        self.count += 1
-        return True
+    def set_object_attrs(self):
+        if hasattr(self, "count"):
+            delattr(self, "count")
 
     @classmethod
     def annotate(cls, glosses):
@@ -57,10 +53,7 @@ class GoldStandard(DataModelTemplate):
                 cls.set_standard(gloss, 'lexical entry', 'lexical entry')
             # If a known value
             elif gloss[2] in Value.objects:
-                if Value.objects[gloss[2]]["category"] == "part-of-speech":
-                    cls.set_standard(gloss, 'part-of-speech', 'part-of-speech')
-                else:
-                    cls.set_standard(gloss, 'incomplete', Value.objects[gloss[2]]["grams"])
+                cls.set_standard(gloss, Value.objects[gloss[2]].classification, Value.objects[gloss[2]].gram)
             # Otherwise seek standard
             else:
                 annotate.append(gloss)
@@ -91,7 +84,7 @@ class GoldStandard(DataModelTemplate):
                 else:
                     L = LABELS[label][1]
                     repeat = True if L == 2 else False
-                    gram = gloss[2] if L == 0 else (LABELS[label][0] if L == 3 else cls.seek_standard(gloss[2]), repeat)
+                    gram = gloss[2] if L == 0 else (LABELS[label][0] if L == 3 else cls.seek_standard(gloss[2], repeat))
                     cls.set_standard(gloss, LABELS[label][0], gram)
 
                     # Add lexical entries to the Lexicon
@@ -100,7 +93,6 @@ class GoldStandard(DataModelTemplate):
                     break
 
         cls.export()
-        return True
 
     @classmethod
     def set_standard(cls, gloss, classification_type, gram):
@@ -110,7 +102,6 @@ class GoldStandard(DataModelTemplate):
             cls.objects[gloss].final_grams = gram
         else:
             cls.objects[gloss].gram = gram
-        return True
 
     @staticmethod
     def seek_standard(gloss, repeat=False):
@@ -129,38 +120,39 @@ class GoldStandard(DataModelTemplate):
     def report(cls, out_path):
         """Report all of the GS statistics to file.
         """
-        set_directory('{}/reports/gold_standard'.format(out_path))
-        cls.run_statistics()
-        for dataset in cls.stats:
-            if dataset != 'complete':
-                writer = open('{}/reports/gold_standard/{}_report.txt'.format(out_path, str(dataset)), 'w')
-                iso_map = {}
-                for iso in cls.stats[dataset]:
-                    iso_map[iso] = True
-                del iso_map['aggregate']
-                iso_list = ['aggregate'] + sorted(iso_map.keys())
-            else:
-                writer = open('{}/reports/gold_standard/complete_report.txt'.format(out_path), 'w')
-                iso_list = ['complete']
+        if out_path:
+            set_directory('{}/reports/gold_standard'.format(out_path))
+            cls.run_statistics()
+            for dataset in cls.stats:
+                if dataset != 'complete':
+                    writer = open('{}/reports/gold_standard/{}_report.txt'.format(out_path, str(dataset)), 'w')
+                    iso_map = {}
+                    for iso in cls.stats[dataset]:
+                        iso_map[iso] = True
+                    del iso_map['aggregate']
+                    iso_list = ['aggregate'] + sorted(iso_map.keys())
+                else:
+                    writer = open('{}/reports/gold_standard/complete_report.txt'.format(out_path), 'w')
+                    iso_list = ['complete']
 
-            writer.write('Gold Standard Statistics for: ' + str(dataset) + '\n\n')
+                writer.write('Gold Standard Statistics for: {}\n\n'.format(dataset))
 
-            for iso in iso_list:
-                writer.write(str(iso) + ' statistics:\n')
-                total = 0.0
-                for error in cls.stats[dataset][iso]:
-                    total += cls.stats[dataset][iso][error]
-                err = {}
-                for error in cls.stats[dataset][iso]:
-                    err[error] = cls.stats[dataset][iso][error] / total
+                for iso in iso_list:
+                    writer.write('{} statistics:\n'.format(iso))
+                    total = 0.0
+                    for error in cls.stats[dataset][iso]:
+                        total += cls.stats[dataset][iso][error]
+                    err = {}
+                    for error in cls.stats[dataset][iso]:
+                        err[error] = cls.stats[dataset][iso][error] / total
 
-                for clsf in CLASSIFICATION_TYPES:
-                    if clsf in cls.stats[dataset][iso]:
-                        writer.write('\t{0:16s}: {1:4d} & {2:.4f}\n'.format(clsf.title(), cls.stats[dataset][iso][clsf],
-                                                                            err[clsf]))
-                writer.write('\n')
-            writer.close()
-        return True
+                    for clsf in CLASSIFICATION_TYPES:
+                        if clsf in cls.stats[dataset][iso]:
+                            writer.write('\t{0:16s}: {1:4d} & {2:.4f}\n'.format(clsf.title(),
+                                                                                cls.stats[dataset][iso][clsf],
+                                                                                err[clsf]))
+                    writer.write('\n')
+                writer.close()
 
     @classmethod
     def run_statistics(cls):
@@ -182,7 +174,6 @@ class GoldStandard(DataModelTemplate):
             cls.stats[dataset][iso][clsf] = cls.stats[dataset][iso].get(clsf, 0) + 1
             cls.stats[dataset]['aggregate'][clsf] = cls.stats[dataset]['aggregate'].get(clsf, 0) + 1
             cls.stats['complete']['complete'][clsf] = cls.stats['complete']['complete'].get(clsf, 0) + 1
-        return True
 
     @classmethod
     def unigram_baseline(cls, train, test):
@@ -194,13 +185,13 @@ class GoldStandard(DataModelTemplate):
                 if cls.objects[obj].gloss not in model:
                     model[cls.objects[obj].gloss] = {}
                 model[cls.objects[obj].gloss][cls.objects[obj].gram] = (
-                    model[cls.objects[obj].gloss].get(cls.objects[obj].gram, 0) + cls.objects[obj].count)
+                    model[cls.objects[obj].gloss].get(cls.objects[obj].gram, 0) + 1)
             elif obj[0] in test:
                 test_obj.append(cls.objects[obj])
         for obj in test_obj:
             # Known glosses
             if obj.gloss in model:
-                key = 'pos' if functions.max_value(model[obj.gloss])[0] == obj.gram else 'neg'
+                key = 'pos' if max_value(model[obj.gloss])[0] == obj.gram else 'neg'
             # Gloss unknown but in standard set
             elif obj.gloss in Gram.objects:
                 key = 'pos' if obj.gloss == obj.label else 'neg'
@@ -208,13 +199,13 @@ class GoldStandard(DataModelTemplate):
             else:
                 key = 'pos' if obj.gram == 'lexical entry' else 'neg'
             test_acc[key] = test_acc.get(key, 0) + 1
-        acc = functions.prob_conversion(test_acc)
+        acc = prob_conversion(test_acc)
         return acc
 
 
-class Lexicon(DataModelTemplate):
+class Lexicon(DataModel):
 
-    json_file = ['{}/eval/data/lexicon.json'.format(find_path('map_gloss'))]
+    json_path = [LEXICON_FILE]
     objects = {}
 
     def set_objects(self):
