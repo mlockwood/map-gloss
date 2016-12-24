@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from utils.IOutils import find_path
+from map_gloss.utils.IOutils import find_path
 
 
 __project_parent__ = 'AGGREGATION'

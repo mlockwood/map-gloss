@@ -9,8 +9,8 @@ import re
 from src.gloss import errors as GlossErrors
 
 # Import classes, functions, and variables
-from src.gloss.constants import GRAMS
-from src.infer.constants import RADIO
+from map_gloss.gloss.standard import Gram
+from map_gloss.infer.constants import RADIO
 
 
 __project_parent__ = 'AGGREGATION'
@@ -26,10 +26,11 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-def load_choices(data_path, var_paths= {}):
-    # {dataset: {iso: choices_path}}
-    datasets = {}
-    cur_dataset = ''
+def load_choices():
+    """
+    DEPRECATE THIS FUNCTION. IT IS REDUNDANT WITH THE DATASET LOADING
+    REFRAME PROCESS SO THAT INFER IS AN OPTION DURING MODEL RUN
+    """
     reader = open(data_path + '/choices', 'r')
     for row in reader:
         row = row.rstrip()

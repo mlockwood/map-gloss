@@ -4,11 +4,11 @@
 import re
 import uuid
 
-from eval.gold_standard import GoldStandard, Lexicon
-from gloss.constants import PUNCTEX
-from gloss.standard import Gram
-from utils.distance import levenshtein
-from xigt.codecs import xigtxml
+from map_gloss.eval.gold_standard import GoldStandard, Lexicon
+from map_gloss.gloss.constants import PUNCTEX
+from map_gloss.gloss.standard import Gram
+from map_gloss.utils.distance import levenshtein
+from map_gloss.xigt.codecs import xigtxml
 
 __project_parent__ = 'AGGREGATION'
 __project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'

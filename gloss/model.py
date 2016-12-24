@@ -3,16 +3,16 @@
 
 import json
 
-from gloss.constants import *
-from gloss.dataset import *
-from gloss.errors import *
-from gloss.tbl import TBL
-from gloss.vector import *
-from utils.confusion_matrix import CM, Compare
-from utils.data_model import DataModel
-from utils.dict_calculations import *
-from utils.IOutils import set_directory
-from utils.stat_reports import accuracy, out_evaluation
+from map_gloss.gloss.constants import *
+from map_gloss.gloss.dataset import *
+from map_gloss.gloss.errors import *
+from map_gloss.gloss.tbl import TBL
+from map_gloss.gloss.vector import *
+from map_gloss.utils.confusion_matrix import CM, Compare
+from map_gloss.utils.data_model import DataModel
+from map_gloss.utils.dict_calculations import *
+from map_gloss.utils.IOutils import set_directory
+from map_gloss.utils.stat_reports import accuracy, out_evaluation
 
 __project_parent__ = 'AGGREGATION'
 __project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'

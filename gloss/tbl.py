@@ -1,6 +1,6 @@
-from gloss.standard import Gram
-from utils.stat_reports import accuracy
-from utils.IOutils import set_directory
+from map_gloss.gloss.standard import Gram
+from map_gloss.utils.stat_reports import accuracy
+from map_gloss.utils.IOutils import set_directory
 
 
 class TBL(object):

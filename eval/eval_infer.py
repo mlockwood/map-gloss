@@ -1,19 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
-# Import packages and libraries
 import os
 
-# Import scripts
-from src.eval import confusion_matrix
-from src.utils import choices_reader
+from map_gloss.utils import confusion_matrix
+from map_gloss.eval import choices_reader
 
 # Import errors
-from src.eval.constants import INFER_BASELINE
-from src.gloss.constants import PATH
-from src.infer.constants import CTYPES, FTYPES
-import src.infer.errors as InferErrors
+from map_gloss.eval.constants import INFER_BASELINE
+from map_gloss.infer.constants import CTYPES, FTYPES
+from map_gloss.infer.errors import *
 
 
 __project_parent__ = 'AGGREGATION'
@@ -44,7 +40,7 @@ class Choices(object):
         if ftype in FTYPES:
             self.ftype = ftype
         else:
-            raise InferErrors.InvalidFileTypeError(ftype)
+            raise InvalidFileTypeError(ftype)
 
         self.load_choices()
 
@@ -97,7 +93,7 @@ class Container(object):
         if ctype in CTYPES:
             self.ctype = ctype
         else:
-            raise InferErrors.InvalidContainerTypeError(ctype)
+            raise InvalidContainerTypeError(ctype)
 
         # Attribute data structures
         self.gold = {}
