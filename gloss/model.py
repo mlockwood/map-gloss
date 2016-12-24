@@ -194,5 +194,4 @@ def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold
     return Reference.get_all_results()
 
 
-refs = process_models(DATASET_FILE, MODEL_FILE, True, OUT_PATH)
-print(refs)
+# refs = process_models(DATASET_FILE, MODEL_FILE, True, OUT_PATH)

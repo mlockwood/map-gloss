@@ -1,4 +1,4 @@
-Accuracy: 0.8780487804878049
+Accuracy: 0.8902439024390244
 
 1
 	1                   	       1
@@ -80,9 +80,9 @@ nom
 	nom                 	       1
 
 part-of-speech
-	m                   	       1
-	incomplete          	       1
+	part-of-speech      	       1
 	user-identified     	       1
+	incomplete          	       1
 
 pl
 	pl                  	       1

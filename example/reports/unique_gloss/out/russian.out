@@ -1,88 +1,88 @@
-Accuracy: 0.8780487804878049
-Correct: 72; Total: 82
+Accuracy: 0.8902439024390244
+Correct: 73; Total: 82
 
 Incorrect pairs
-dev1, rus, po                                            Gold: unrecovered          System: lexical entry       
-dev1, rus, neut                                          Gold: n                    System: user-identified     
+dev1, rus, interrogative                                 Gold: part-of-speech       System: user-identified     
 dev1, rus, inst                                          Gold: ins                  System: user-identified     
 dev1, rus, fm                                            Gold: f                    System: user-identified     
-dev1, rus, perf1sg                                       Gold: combined             System: user-identified     
-dev1, rus, prep                                          Gold: part-of-speech       System: m                   
 dev1, rus, imp                                           Gold: ipfv                 System: imp                 
 dev1, rus, pro                                           Gold: part-of-speech       System: incomplete          
 dev1, rus, perf3sg                                       Gold: combined             System: user-identified     
-dev1, rus, interrogative                                 Gold: part-of-speech       System: user-identified     
+dev1, rus, perf1sg                                       Gold: combined             System: user-identified     
+dev1, rus, po                                            Gold: unrecovered          System: lexical entry       
+dev1, rus, neut                                          Gold: n                    System: user-identified     
 
 Correct pairs
-dev1, rus, dog                                           Gold: lexical entry        System: lexical entry       
-dev1, rus, girl                                          Gold: lexical entry        System: lexical entry       
-dev1, rus, big                                           Gold: lexical entry        System: lexical entry       
-dev1, rus, acc                                           Gold: acc                  System: acc                 
-dev1, rus, she                                           Gold: incomplete           System: incomplete          
-dev1, rus, always                                        Gold: lexical entry        System: lexical entry       
-dev1, rus, sleep                                         Gold: lexical entry        System: lexical entry       
-dev1, rus, on                                            Gold: lexical entry        System: lexical entry       
-dev1, rus, speak                                         Gold: lexical entry        System: lexical entry       
-dev1, rus, 1pl                                           Gold: 1pl                  System: 1pl                 
-dev1, rus, me                                            Gold: incomplete           System: incomplete          
-dev1, rus, perf                                          Gold: prf                  System: prf                 
-dev1, rus, can                                           Gold: lexical entry        System: lexical entry       
-dev1, rus, pl                                            Gold: pl                   System: pl                  
-dev1, rus, inf                                           Gold: inf                  System: inf                 
-dev1, rus, prs                                           Gold: prs                  System: prs                 
-dev1, rus, large                                         Gold: lexical entry        System: lexical entry       
-dev1, rus, love                                          Gold: lexical entry        System: lexical entry       
-dev1, rus, sg                                            Gold: sg                   System: sg                  
-dev1, rus, these                                         Gold: incomplete           System: incomplete          
-dev1, rus, lighten                                       Gold: lexical entry        System: lexical entry       
-dev1, rus, buy                                           Gold: lexical entry        System: lexical entry       
+dev1, rus, go                                            Gold: lexical entry        System: lexical entry       
+dev1, rus, eat                                           Gold: lexical entry        System: lexical entry       
 dev1, rus, table                                         Gold: lexical entry        System: lexical entry       
-dev1, rus, animate                                       Gold: animate              System: animate             
-dev1, rus, dat                                           Gold: dat                  System: dat                 
-dev1, rus, plane                                         Gold: lexical entry        System: lexical entry       
-dev1, rus, you                                           Gold: incomplete           System: incomplete          
-dev1, rus, 2                                             Gold: 2                    System: 2                   
-dev1, rus, this                                          Gold: incomplete           System: incomplete          
-dev1, rus, that                                          Gold: incomplete           System: incomplete          
-dev1, rus, ask                                           Gold: lexical entry        System: lexical entry       
-dev1, rus, quickly                                       Gold: lexical entry        System: lexical entry       
-dev1, rus, book                                          Gold: lexical entry        System: lexical entry       
-dev1, rus, by                                            Gold: lexical entry        System: lexical entry       
-dev1, rus, fut                                           Gold: fut                  System: fut                 
+dev1, rus, fly                                           Gold: lexical entry        System: lexical entry       
+dev1, rus, she                                           Gold: incomplete           System: incomplete          
+dev1, rus, glass                                         Gold: lexical entry        System: lexical entry       
 dev1, rus, masc                                          Gold: m                    System: m                   
+dev1, rus, red                                           Gold: lexical entry        System: lexical entry       
+dev1, rus, that                                          Gold: incomplete           System: incomplete          
+dev1, rus, pst                                           Gold: pst                  System: pst                 
+dev1, rus, ivan                                          Gold: lexical entry        System: lexical entry       
+dev1, rus, think                                         Gold: lexical entry        System: lexical entry       
+dev1, rus, animate                                       Gold: animate              System: animate             
+dev1, rus, you                                           Gold: incomplete           System: incomplete          
+dev1, rus, lighten                                       Gold: lexical entry        System: lexical entry       
+dev1, rus, by                                            Gold: lexical entry        System: lexical entry       
+dev1, rus, perf                                          Gold: prf                  System: prf                 
+dev1, rus, ask                                           Gold: lexical entry        System: lexical entry       
+dev1, rus, 2sg                                           Gold: 2sg                  System: 2sg                 
+dev1, rus, girl                                          Gold: lexical entry        System: lexical entry       
+dev1, rus, no                                            Gold: lexical entry        System: lexical entry       
+dev1, rus, dat                                           Gold: dat                  System: dat                 
+dev1, rus, these                                         Gold: incomplete           System: incomplete          
+dev1, rus, 2                                             Gold: 2                    System: 2                   
+dev1, rus, with                                          Gold: lexical entry        System: lexical entry       
 dev1, rus, in                                            Gold: lexical entry        System: lexical entry       
 dev1, rus, and                                           Gold: lexical entry        System: lexical entry       
-dev1, rus, boy                                           Gold: lexical entry        System: lexical entry       
-dev1, rus, 3sg                                           Gold: 3sg                  System: 3sg                 
-dev1, rus, ivan                                          Gold: lexical entry        System: lexical entry       
-dev1, rus, q                                             Gold: q                    System: q                   
-dev1, rus, nom                                           Gold: nom                  System: nom                 
-dev1, rus, 2sg                                           Gold: 2sg                  System: 2sg                 
-dev1, rus, binding                                       Gold: lexical entry        System: lexical entry       
-dev1, rus, eat                                           Gold: lexical entry        System: lexical entry       
-dev1, rus, means                                         Gold: lexical entry        System: lexical entry       
-dev1, rus, 3pl                                           Gold: 3pl                  System: 3pl                 
-dev1, rus, i                                             Gold: incomplete           System: incomplete          
-dev1, rus, be                                            Gold: lexical entry        System: lexical entry       
-dev1, rus, 2pl                                           Gold: 2pl                  System: 2pl                 
-dev1, rus, go                                            Gold: lexical entry        System: lexical entry       
-dev1, rus, think                                         Gold: lexical entry        System: lexical entry       
-dev1, rus, fem                                           Gold: f                    System: f                   
-dev1, rus, no                                            Gold: lexical entry        System: lexical entry       
-dev1, rus, school                                        Gold: lexical entry        System: lexical entry       
-dev1, rus, 1sg                                           Gold: 1sg                  System: 1sg                 
-dev1, rus, glass                                         Gold: lexical entry        System: lexical entry       
-dev1, rus, gen                                           Gold: gen                  System: gen                 
-dev1, rus, inanimate                                     Gold: inanimate            System: inanimate           
-dev1, rus, never                                         Gold: lexical entry        System: lexical entry       
-dev1, rus, pst                                           Gold: pst                  System: pst                 
-dev1, rus, red                                           Gold: lexical entry        System: lexical entry       
-dev1, rus, not                                           Gold: incomplete           System: incomplete          
+dev1, rus, acc                                           Gold: acc                  System: acc                 
+dev1, rus, quickly                                       Gold: lexical entry        System: lexical entry       
 dev1, rus, doctor                                        Gold: lexical entry        System: lexical entry       
-dev1, rus, fp                                            Gold: fp                   System: fp                  
+dev1, rus, pl                                            Gold: pl                   System: pl                  
+dev1, rus, binding                                       Gold: lexical entry        System: lexical entry       
+dev1, rus, 1sg                                           Gold: 1sg                  System: 1sg                 
+dev1, rus, inf                                           Gold: inf                  System: inf                 
+dev1, rus, big                                           Gold: lexical entry        System: lexical entry       
+dev1, rus, plane                                         Gold: lexical entry        System: lexical entry       
+dev1, rus, nom                                           Gold: nom                  System: nom                 
+dev1, rus, prep                                          Gold: part-of-speech       System: part-of-speech      
+dev1, rus, never                                         Gold: lexical entry        System: lexical entry       
+dev1, rus, me                                            Gold: incomplete           System: incomplete          
+dev1, rus, this                                          Gold: incomplete           System: incomplete          
+dev1, rus, be                                            Gold: lexical entry        System: lexical entry       
+dev1, rus, large                                         Gold: lexical entry        System: lexical entry       
+dev1, rus, 2pl                                           Gold: 2pl                  System: 2pl                 
+dev1, rus, school                                        Gold: lexical entry        System: lexical entry       
+dev1, rus, boy                                           Gold: lexical entry        System: lexical entry       
+dev1, rus, gen                                           Gold: gen                  System: gen                 
+dev1, rus, prs                                           Gold: prs                  System: prs                 
 dev1, rus, cut                                           Gold: lexical entry        System: lexical entry       
-dev1, rus, with                                          Gold: lexical entry        System: lexical entry       
-dev1, rus, fly                                           Gold: lexical entry        System: lexical entry       
+dev1, rus, sleep                                         Gold: lexical entry        System: lexical entry       
+dev1, rus, fem                                           Gold: f                    System: f                   
+dev1, rus, book                                          Gold: lexical entry        System: lexical entry       
+dev1, rus, love                                          Gold: lexical entry        System: lexical entry       
+dev1, rus, on                                            Gold: lexical entry        System: lexical entry       
+dev1, rus, speak                                         Gold: lexical entry        System: lexical entry       
 dev1, rus, read                                          Gold: lexical entry        System: lexical entry       
-dev1, rus, 3                                             Gold: 3                    System: 3                   
+dev1, rus, buy                                           Gold: lexical entry        System: lexical entry       
+dev1, rus, inanimate                                     Gold: inanimate            System: inanimate           
+dev1, rus, means                                         Gold: lexical entry        System: lexical entry       
 dev1, rus, 1                                             Gold: 1                    System: 1                   
+dev1, rus, always                                        Gold: lexical entry        System: lexical entry       
+dev1, rus, not                                           Gold: incomplete           System: incomplete          
+dev1, rus, fut                                           Gold: fut                  System: fut                 
+dev1, rus, 3                                             Gold: 3                    System: 3                   
+dev1, rus, sg                                            Gold: sg                   System: sg                  
+dev1, rus, 3pl                                           Gold: 3pl                  System: 3pl                 
+dev1, rus, 3sg                                           Gold: 3sg                  System: 3sg                 
+dev1, rus, can                                           Gold: lexical entry        System: lexical entry       
+dev1, rus, i                                             Gold: incomplete           System: incomplete          
+dev1, rus, q                                             Gold: q                    System: q                   
+dev1, rus, dog                                           Gold: lexical entry        System: lexical entry       
+dev1, rus, fp                                            Gold: fp                   System: fp                  
+dev1, rus, 1pl                                           Gold: 1pl                  System: 1pl                 

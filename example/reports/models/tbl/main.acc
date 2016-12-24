@@ -1,4 +1,4 @@
-Accuracy: 0.9410099103350638
+Accuracy: 0.9471448796602171
 
 1
 	1                   	      70
@@ -28,8 +28,7 @@ Accuracy: 0.9410099103350638
 	3                   	     212
 
 3pl
-	3pl                 	      84
-	lexical entry       	       5
+	3pl                 	      89
 
 3sg
 	3sg                 	      82
@@ -122,6 +121,8 @@ fut
 gen
 	gen                 	      16
 
+hearsay
+
 imp
 	ipfv                	       1
 
@@ -133,8 +134,9 @@ incl
 	incl                	       3
 
 incomplete
-	incomplete          	     267
-	lexical entry       	       5
+	incomplete          	     268
+	lexical entry       	       3
+	part-of-speech      	       1
 
 ind
 	ind                 	      56
@@ -152,15 +154,17 @@ inv
 	inv                 	       1
 
 ipfv
-	user-identified     	       9
-	ipfv                	       1
+	user-identified     	       5
+	hearsay             	       4
 	sbj                 	       1
+	ipfv                	       1
 
 lexical entry
-	lexical entry       	    2907
-	user-identified     	      62
-	incomplete          	      13
-	3pl                 	       2
+	lexical entry       	    2915
+	user-identified     	      58
+	incomplete          	       8
+	hearsay             	       2
+	part-of-speech      	       1
 
 loc
 	loc                 	       1
@@ -206,9 +210,9 @@ p
 	p                   	       1
 
 part-of-speech
-	user-identified     	      81
-	lexical entry       	      15
-	part-of-speech      	       1
+	user-identified     	      69
+	part-of-speech      	      26
+	lexical entry       	       2
 
 participle
 	lexical entry       	       2
@@ -245,9 +249,9 @@ prox
 	prox                	      21
 
 prs
-	prs                 	     261
+	prs                 	     267
 	user-identified     	      51
-	incomplete          	      15
+	incomplete          	       9
 
 pst
 	pst                 	      25
@@ -270,8 +274,7 @@ remote
 	remote              	       2
 
 sbj
-	sbj                 	      48
-	prs                 	      28
+	sbj                 	      76
 
 sg
 	sg                  	     425
@@ -286,7 +289,8 @@ unrecovered
 	lexical entry       	       1
 
 user-identified
-	user-identified     	     241
+	user-identified     	     220
 	lexical entry       	      58
+	hearsay             	      21
 	sbj                 	       5
 
