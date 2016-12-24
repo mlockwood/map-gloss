@@ -5,10 +5,6 @@
 # Import packages and libraries
 import re
 
-# Import scripts
-from src.gloss import errors as GlossErrors
-
-# Import classes, functions, and variables
 from map_gloss.gloss.standard import Gram
 from map_gloss.infer.constants import RADIO
 
@@ -26,69 +22,18 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-def load_choices():
-    """
-    DEPRECATE THIS FUNCTION. IT IS REDUNDANT WITH THE DATASET LOADING
-    REFRAME PROCESS SO THAT INFER IS AN OPTION DURING MODEL RUN
-    """
-    reader = open(data_path + '/choices', 'r')
-    for row in reader:
-        row = row.rstrip()
-
-        # Handle special row types
-        if not re.sub(' ', '', row):
-            continue
-        if row[0] == '#':
-            continue
-        elif row[0] == '@':
-            cur_dataset = row[1:].lower()
-
-        # Handle languages
-        else:
-            line = re.sub(' ', '', row.rstrip().lower()).split(',') # if this works replace load standards 4 lines
-
-            # If no dataset is found raise MissingDatasetError
-            if not cur_dataset:
-                raise GlossErrors.MissingDatasetError('Language with ISO {} at path {} '.format(line[0], line[1]) +
-                                                      'does not have an identified dataset.')
-
-            # If dataset contains a variable path parse here
-            match = re.search('\{\{\w*\}\}', line[1])
-            if match:
-                # If variable path identifier in var_paths
-                var_path = re.sub('\{|\}', '', match.group())
-                if var_path in var_paths:
-                    line[1] = re.sub(match.group(), var_paths[var_path], line[1])
-
-                # Else raise VariablePathError
-                else:
-                    raise GlossErrors.VariablePathError('{} was identified as a variable path '.format(var_path) +
-                                                        'but no path was provided in gloss/constants.py.')
-
-            # Add the language to the datasets DS
-            if cur_dataset not in datasets:
-                datasets[cur_dataset] = {}
-            datasets[cur_dataset][line[0]] = line[1]
-
-    return datasets
-
-
 def make_choices(glosses, file):
     choices_text = ''
     categories = {}
 
     # Assign glosses to categories (MOM correction here)
     for gloss in glosses:
-        try:
-            if GRAMS[gloss][2] not in categories:
-                categories[GRAMS[gloss][2]] = {}
-            categories[GRAMS[gloss][2]][gloss] = True
+        if gloss in Gram.objects:
+            if Gram.objects[gloss].category not in categories:
+                categories[Gram.objects[gloss].category] = {}
+            categories[Gram.objects[gloss].category] = True
 
-        # There are some glosses that are not grams and should not be handled
-        except:
-            pass
-
-    # Build section of the choices file
+    # Build section(s) of the choices file
     choices_text += set_tense_aspect_mood(categories)
 
     # Export choices

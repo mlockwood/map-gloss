@@ -16,5 +16,4 @@ __collaborators__ = None
 
 
 RADIO = {'fut': 'future', 'future': 'future', 'past': 'past', 'pst': 'past', 'prs': 'present', 'present': 'present'}
-CTYPES = {'language': True, 'dataset': True, 'model': True}
 FTYPES = {'gold': True, 'baseline5': True, 'final': True}
