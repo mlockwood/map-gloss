@@ -97,5 +97,5 @@ def find_files(path):
     for root, dirs, files in os.walk(path):
         for file in files:
             if re.search('.xml$', file):
-                iso_list[file[:-4]] = os.path.join(root, file)
+                iso_list[file[:-4]] = {"xigt": os.path.join(root, file)}
     return iso_list

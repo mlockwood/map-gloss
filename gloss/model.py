@@ -8,6 +8,7 @@ from map_gloss.gloss.dataset import *
 from map_gloss.gloss.errors import *
 from map_gloss.gloss.tbl import TBL
 from map_gloss.gloss.vector import *
+from map_gloss.infer.make_choices import *
 from map_gloss.utils.confusion_matrix import CM, Compare
 from map_gloss.utils.data_model import DataModel
 from map_gloss.utils.dict_calculations import *
@@ -29,7 +30,10 @@ __collaborators__ = None
 
 class Model(DataModel):
 
-    evaluate = False
+    datasets = None
+    eval_gloss = False
+    eval_infer = False
+    infer = False
     json_path = None
     loaded_defaults = False
     objects = {}
@@ -39,7 +43,7 @@ class Model(DataModel):
 
     def set_object_attrs(self):
         self.train = set_collection(self.train, True) if self.train else Model.set_default_vectors()
-        self.test = set_collection(self.test, Model.evaluate)
+        self.test = set_collection(self.test, Model.eval_gloss)
         self.classifiers = self.validate_classifiers(self.classifiers)
 
     @classmethod
@@ -76,7 +80,9 @@ class Model(DataModel):
         results = {}
         for vector in self.test:
             results[vector["unique"]] = {
-                "gold": None if not Model.evaluate else vector["gram"],
+                "category": None,
+                "choice": None,
+                "gold": None if not Model.eval_gloss else vector["gram"],
                 "input": vector["gloss"],
                 "final": {}
             }
@@ -97,11 +103,6 @@ class Model(DataModel):
                 tbl_classifier.train_model()
                 tbl_classifier.decode(self.test)
                 self.reference.set_classifier_results(tbl_classifier, 'tbl')
-
-        if out_path:
-            set_directory('{}/reports/cprf/'.format(out_path))
-            set_directory('{}/reports/unique_gloss/acc'.format(out_path))
-            set_directory('{}/reports/unique_gloss/out'.format(out_path))
 
         self.reference.set_final_results(out_path)
 
@@ -130,10 +131,37 @@ class Reference(DataModel):
         for gloss in self.results:
             self.results[gloss]["final"] = str(max_value(combine_weight(self.results[gloss]["final"], self.classifiers),
                                                          tie='lexical entry')[0])
+            if self.results[gloss]["final"] in Gram.objects:
+                # IF BASELINE5 DUPLICATE IF CONDITION FOR "gloss"
+                self.results[gloss]["category"] = Gram.objects[self.results[gloss]["final"]].category[0]
+
         # Create reports
-        if Model.evaluate:
+        if Model.eval_gloss:
+            set_directory('{}/reports/cprf'.format(out_path))
+            set_directory('{}/reports/unique_gloss/acc'.format(out_path))
+            set_directory('{}/reports/unique_gloss/out'.format(out_path))
             self.output_cprf_reports(out_path, self.get_ref_dict('gold'), self.get_ref_dict('final'))
             self.output_unique_gloss_reports(out_path)
+
+        # Process inference
+        if Model.infer:
+            set_directory('{}/choices/{}'.format(out_path, self.model))
+            # Make dataset, iso level collections of grams with their categories
+            languages = {}
+            for gloss in self.results:
+                if (gloss[0], gloss[1]) not in languages:
+                    languages[(gloss[0], gloss[1])] = {
+                        "outfile": '{}/choices/{}/{}_{}.choices'.format(out_path, self.model, gloss[0], gloss[1]),
+                        # SHOULD BASELINE5 BE ADDED HERE USING GLOSS INPUT????????????????
+                        "categories": {}
+                    }
+                if self.results[gloss]["category"] not in languages[(gloss[0], gloss[1])]["categories"]:
+                    languages[(gloss[0], gloss[1])]["categories"][self.results[gloss]["category"]] = {}
+                languages[(gloss[0], gloss[1])]["categories"][self.results[gloss]["category"]][
+                    self.results[gloss]["final"]] = True
+            # Send each language to be made into a choices file
+            for language in languages:
+                make_choices(**language)
 
     def get_ref_dict(self, key, value='final'):
         return dict(((gloss[0], gloss[1], self.results[gloss][key]), self.results[gloss][value]
@@ -174,12 +202,16 @@ class Reference(DataModel):
                        '{}/reports/unique_gloss/out/{}'.format(out_path, self.model))
 
 
-def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold_standard_file=None, lexicon_file=None):
+def process_models(dataset_file, model_file, out_path=None, eval_gloss=False, gold_standard_file=None,
+                   lexicon_file=None, infer=False, eval_infer=False):
     # Set up datasets and vectors
-    set_vectors(infer_datasets(json.load(open(dataset_file, 'r'))))
+    Model.datasets = infer_datasets(json.load(open(dataset_file, 'r')))
+    set_vectors(Model.datasets)
 
     # Process models
-    Model.evaluate = evaluate
+    Model.eval_gloss = eval_gloss
+    Model.eval_infer = eval_infer if infer else False
+    Model.infer = infer
     Model.json_path = model_file
     Model.load()
     set_gold_standard(gold_standard_file, lexicon_file)
@@ -194,4 +226,4 @@ def process_models(dataset_file, model_file, evaluate=False, out_path=None, gold
     return Reference.get_all_results()
 
 
-# refs = process_models(DATASET_FILE, MODEL_FILE, True, OUT_PATH)
+# refs = process_models(DATASET_FILE, MODEL_FILE, OUT_PATH, eval_gloss=True, infer=True, eval_infer=True)

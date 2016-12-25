@@ -29,14 +29,13 @@ class Choices(object):
 
     objects = {}
 
-    def __init__(self, file, model, dataset, iso, ftype='gold'):
+    def __init__(self, file, model, dataset, iso):
         self.file = file
-        self.choices_file = ChoicesFile(file)
         self.model = model
         self.dataset = dataset
         self.iso = iso
-        self.ftype = ftype if ftype in FTYPES else InvalidFileTypeError(ftype)
-        self.load_choices()
+        self.choices_file = ChoicesFile(file)
+        self.choices = self.load_choices()
         Choices.objects[file] = self
 
     def load_choices(self):
@@ -46,25 +45,15 @@ class Choices(object):
             for choice in eval('self.choices_file.{}()'.format(category)):
                 if isinstance(choice, list):
                     choice = choice[0]
-                choices[tuple([s.lower() for s in [self.model, self.dataset, self.iso, category, choice]])] = True
-
-        for container in self.containers:
-            for choice in choices:
-                exec('container.{}[choice]=True'.format(self.ftype))
-
-        return True
+                choices[tuple([s.lower() for s in [self.dataset, self.iso, category, choice]])] = True
+        return choices
 
     @staticmethod
-    def load_baseline4(dataset, language, containers):
+    def load_baseline4(dataset, language):
         choices = {}
         for (category, choice) in INFER_BASELINE:
             choices[(dataset, language, category, choice)] = True
-
-        for container in containers:
-            for choice in choices:
-                container.baseline4[choice] = True
-
-        return True
+        return choices
 
 
 class Container(object):

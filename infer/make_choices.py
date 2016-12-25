@@ -1,18 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
-# Import packages and libraries
-import re
-
-from map_gloss.gloss.standard import Gram
 from map_gloss.infer.constants import RADIO
 
 
 __project_parent__ = 'AGGREGATION'
 __project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
 __project_name__ = 'Map Gloss'
-__script__ = 'infer/choices.py'
+__script__ = 'infer/make_choices.py'
 __date__ = 'March 2015'
 
 __author__ = 'MichaelLockwood'
@@ -22,16 +17,8 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
-def make_choices(glosses, file):
+def make_choices(categories, file):
     choices_text = ''
-    categories = {}
-
-    # Assign glosses to categories (MOM correction here)
-    for gloss in glosses:
-        if gloss in Gram.objects:
-            if Gram.objects[gloss].category not in categories:
-                categories[Gram.objects[gloss].category] = {}
-            categories[Gram.objects[gloss].category] = True
 
     # Build section(s) of the choices file
     choices_text += set_tense_aspect_mood(categories)
