@@ -80,6 +80,7 @@ class Model(DataModel):
         results = {}
         for vector in self.test:
             results[vector["unique"]] = {
+                "baseline5": None,
                 "category": None,
                 "choice": None,
                 "gold": None if not Model.eval_gloss else vector["gram"],
@@ -131,49 +132,38 @@ class Reference(DataModel):
         for gloss in self.results:
             self.results[gloss]["final"] = str(max_value(combine_weight(self.results[gloss]["final"], self.classifiers),
                                                          tie='lexical entry')[0])
+            if self.results[gloss]["input"] in Gram.objects:
+                self.results[gloss]["baseline5"] = Gram.objects[self.results[gloss]["input"]].category[0]
             if self.results[gloss]["final"] in Gram.objects:
-                # IF BASELINE5 DUPLICATE IF CONDITION FOR "gloss"
                 self.results[gloss]["category"] = Gram.objects[self.results[gloss]["final"]].category[0]
 
-        # Create reports
+        # Evaluate gloss mapping
         if Model.eval_gloss:
-            set_directory('{}/reports/cprf'.format(out_path))
-            set_directory('{}/reports/unique_gloss/acc'.format(out_path))
-            set_directory('{}/reports/unique_gloss/out'.format(out_path))
             self.output_cprf_reports(out_path, self.get_ref_dict('gold'), self.get_ref_dict('final'))
             self.output_unique_gloss_reports(out_path)
 
         # Process inference
         if Model.infer:
-            set_directory('{}/choices/{}'.format(out_path, self.model))
-            # Make dataset, iso level collections of grams with their categories
-            languages = {}
-            for gloss in self.results:
-                if (gloss[0], gloss[1]) not in languages:
-                    languages[(gloss[0], gloss[1])] = {
-                        "outfile": '{}/choices/{}/{}_{}.choices'.format(out_path, self.model, gloss[0], gloss[1]),
-                        # SHOULD BASELINE5 BE ADDED HERE USING GLOSS INPUT????????????????
-                        "categories": {}
-                    }
-                if self.results[gloss]["category"] not in languages[(gloss[0], gloss[1])]["categories"]:
-                    languages[(gloss[0], gloss[1])]["categories"][self.results[gloss]["category"]] = {}
-                languages[(gloss[0], gloss[1])]["categories"][self.results[gloss]["category"]][
-                    self.results[gloss]["final"]] = True
-            # Send each language to be made into a choices file
-            for language in languages:
-                make_choices(**language)
+            self.run_inference(out_path)
+            
+        # Evaluate inference
+        if Model.eval_infer:
+            self.eval_inference(out_path)
 
     def get_ref_dict(self, key, value='final'):
         return dict(((gloss[0], gloss[1], self.results[gloss][key]), self.results[gloss][value]
                      ) for gloss in self.results)
 
     def output_cprf_reports(self, out_path, gold, final):
-        # Create a comparative confusion matrix of the two initial confusion matrices
+        set_directory('{}/reports/cprf'.format(out_path))
         cprf = Compare(CM(gold, final, '{}_final'.format(self.model)),
                        CM(gold, self.results, '{}_baseline'.format(self.model)))
         cprf.write_cprf_file('{}/reports/cprf/{}'.format(out_path, self.model))
 
     def output_unique_gloss_reports(self, out_path):
+        set_directory('{}/reports/unique_gloss/acc'.format(out_path))
+        set_directory('{}/reports/unique_gloss/out'.format(out_path))
+
         # Set up data structures
         correct_total = 0
         incorrect_list = []
@@ -200,6 +190,40 @@ class Reference(DataModel):
         accuracy(acc, '{}/reports/unique_gloss/acc/{}'.format(out_path, self.model))
         out_evaluation(correct_total, len(self.results), incorrect_list, correct_list,
                        '{}/reports/unique_gloss/out/{}'.format(out_path, self.model))
+
+    def run_inference(self, out_path):
+        set_directory('{}/choices/{}'.format(out_path, self.model))
+
+        # Make dataset, iso level collections of grams with their categories
+        languages = {}
+        for gloss in self.results:
+            key = (gloss[0], gloss[1])
+            G = self.results[gloss]
+
+            # Set up language outfiles and empty category dictionaries
+            if key not in languages:
+                languages[key] = {
+                    "b5_categories": {},
+                    "b5_outfile": '{}/choices/{}/{}_{}_baseline5.choices'.format(out_path, self.model, *key),
+                    "categories": {},
+                    "outfile": '{}/choices/{}/{}_{}.choices'.format(out_path, self.model, *key)
+                }
+
+            # Assign matched grams to categories
+            if G["baseline5"] not in languages[key]["b5_categories"]:
+                languages[key]["b5_categories"][G["baseline5"]] = {}
+            languages[key]["b5_categories"][G["category"]][G["input"]] = True
+            if G["category"] not in languages[key]["categories"]:
+                languages[key]["categories"][G["category"]] = {}
+            languages[key]["categories"][G["category"]][G["final"]] = True
+
+        # Send each language to be made into choices files
+        for language in languages:
+            make_choices(languages[language]["b5_categories"], languages[language]["b5_outfile"])
+            make_choices(**language)
+
+    def eval_inference(self, out_path):
+        pass
 
 
 def process_models(dataset_file, model_file, out_path=None, eval_gloss=False, gold_standard_file=None,
