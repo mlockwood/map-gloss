@@ -1,4 +1,4 @@
-Accuracy: 0.9471448796602171
+Accuracy: 0.9459650778669183
 
 1
 	1                   	      70
@@ -28,7 +28,8 @@ Accuracy: 0.9471448796602171
 	3                   	     212
 
 3pl
-	3pl                 	      89
+	3pl                 	      84
+	lexical entry       	       5
 
 3sg
 	3sg                 	      82
@@ -121,8 +122,6 @@ fut
 gen
 	gen                 	      16
 
-hearsay
-
 imp
 	ipfv                	       1
 
@@ -154,17 +153,14 @@ inv
 	inv                 	       1
 
 ipfv
-	user-identified     	       5
-	hearsay             	       4
-	sbj                 	       1
+	user-identified     	      10
 	ipfv                	       1
 
 lexical entry
-	lexical entry       	    2915
-	user-identified     	      58
-	incomplete          	       8
-	hearsay             	       2
-	part-of-speech      	       1
+	lexical entry       	    2911
+	user-identified     	      62
+	incomplete          	       9
+	3pl                 	       2
 
 loc
 	loc                 	       1
@@ -210,9 +206,9 @@ p
 	p                   	       1
 
 part-of-speech
-	user-identified     	      69
-	part-of-speech      	      26
+	user-identified     	      94
 	lexical entry       	       2
+	part-of-speech      	       1
 
 participle
 	lexical entry       	       2
@@ -231,7 +227,7 @@ pl
 	user-identified     	      15
 
 pluperfect
-	sbj                 	       1
+	user-identified     	       1
 
 pluralperson
 	lexical entry       	       2
@@ -249,9 +245,9 @@ prox
 	prox                	      21
 
 prs
-	prs                 	     267
+	prs                 	     265
 	user-identified     	      51
-	incomplete          	       9
+	incomplete          	      11
 
 pst
 	pst                 	      25
@@ -289,8 +285,6 @@ unrecovered
 	lexical entry       	       1
 
 user-identified
-	user-identified     	     220
+	user-identified     	     246
 	lexical entry       	      58
-	hearsay             	      21
-	sbj                 	       5
 

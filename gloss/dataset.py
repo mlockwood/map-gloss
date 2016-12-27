@@ -33,6 +33,7 @@ def infer_datasets(datasets):
         If choices files are not present then a None value will be
         displayed.
     """
+    new_datasets = {}
     for dataset in datasets:
         if "find_path_key" in dataset:
             dataset["path"] = '{}/{}'.format(find_path(dataset["find_path_key"]), dataset["path"])
@@ -41,7 +42,9 @@ def infer_datasets(datasets):
                 dataset["iso_list"] = find_iso_directories(dataset["path"])
             elif dataset["method"] == 'odin':
                 dataset["iso_list"] = find_files(dataset["path"])
-    return datasets
+        new_datasets[dataset["name"]] = dataset
+
+    return new_datasets
 
 
 def find_iso_directories(path):

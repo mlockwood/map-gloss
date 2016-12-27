@@ -25,7 +25,7 @@ def load_choices(dataset, iso, file):
 def load_model_choices(datasets, languages):
     gold = {}
     for language in languages:
-        gold.update(load_choices(language[0], language[1], datasets[language[0]][language[1]]["choices"]))
+        gold.update(load_choices(language[0], language[1], datasets[language[0]]["iso_list"][language[1]]["choices"]))
     return gold
 
 

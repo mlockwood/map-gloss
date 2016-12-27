@@ -218,7 +218,7 @@ class Reference(DataModel):
             # Assign matched grams to categories
             if gls["baseline5"] not in languages[key]["b5_categories"]:
                 languages[key]["b5_categories"][gls["baseline5"]] = {}
-            languages[key]["b5_categories"][gls["category"]][gls["input"]] = True
+            languages[key]["b5_categories"][gls["baseline5"]][gls["input"]] = True
             if gls["category"] not in languages[key]["categories"]:
                 languages[key]["categories"][gls["category"]] = {}
             languages[key]["categories"][gls["category"]][gls["final"]] = True
@@ -226,7 +226,7 @@ class Reference(DataModel):
         # Send each language to be made into choices files
         for language in languages:
             make_choices(languages[language]["b5_categories"], languages[language]["b5_outfile"])
-            make_choices(**language)
+            make_choices(languages[language]["categories"], languages[language]["outfile"])
             languages[language] = True
         return languages
 

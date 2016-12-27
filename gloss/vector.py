@@ -31,9 +31,9 @@ vector_structured = {}  # {dataset: {iso: {vector_id: True}}
 def set_vectors(datasets):
     # Process and convert data
     for dataset in datasets:
-        for iso in dataset["iso_list"]:
+        for iso in datasets[dataset]["iso_list"]:
             # Open the current xigt file
-            xc = xigtxml.load(open(dataset["iso_list"][iso]["xigt"]))
+            xc = xigtxml.load(open(datasets[dataset]["iso_list"][iso]["xigt"]))
             for igt in xc:
                 # Capture the translated words
                 words = dict((w, True) for w in ' '.join([str(line.value()).lower() for line in igt.get('t')]).split())
@@ -51,7 +51,7 @@ def set_vectors(datasets):
                     if re.sub(PUNCTEX, '', gloss.value()):
                         word_match = True if re.sub(PUNCTEX, '', gloss.value()).lower() in words else False
                         shared = morphemes[gloss.alignment] if gloss.alignment else ''
-                        set_vector(dataset["name"], iso, re.sub(PUNCTEX, '', gloss.value()), shared, word_match)
+                        set_vector(dataset, iso, re.sub(PUNCTEX, '', gloss.value()), shared, word_match)
 
 
 def set_vector(dataset, iso, raw_gloss, morphemes, word_match):

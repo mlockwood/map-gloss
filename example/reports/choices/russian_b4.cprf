@@ -1,0 +1,104 @@
+Absolute Change
+Precision: -1.0
+Recall: -1.0
+F-Score: -1.0
+
+Relative Change
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+True Positives to False Negatives
+	('dev1', 'rus', 'tenses', 'future')
+	('dev1', 'rus', 'tenses', 'past')
+	('dev1', 'rus', 'aspects', 'imperfective')
+	('dev1', 'rus', 'tenses', 'present')
+	('dev1', 'rus', 'aspects', 'perfective')
+
+False Positives Added
+	('dev1', 'rus', 'tense', 'prs')
+	('dev1', 'rus', 'per', '2')
+	('dev1', 'rus', 'case', 'dat')
+	('dev1', 'rus', 'gender', 'm')
+	('dev1', 'rus', None, 'lexical entry')
+	('dev1', 'rus', 'per', 'sg')
+	('dev1', 'rus', 'q', 'q')
+	('dev1', 'rus', 'verb', 'imp')
+	('dev1', 'rus', 'pernum', '2sg')
+	('dev1', 'rus', 'tense', 'fut')
+	('dev1', 'rus', 'case', 'acc')
+	('dev1', 'rus', 'pernum', '2pl')
+	('dev1', 'rus', 'gender', 'f')
+	('dev1', 'rus', 'info', 'fp')
+	('dev1', 'rus', 'per', '3')
+	('dev1', 'rus', 'per', '1')
+	('dev1', 'rus', 'gender', 'animate')
+	('dev1', 'rus', 'case', 'nom')
+	('dev1', 'rus', 'pernum', '1pl')
+	('dev1', 'rus', 'pernum', '3pl')
+	('dev1', 'rus', None, 'user-identified')
+	('dev1', 'rus', 'gender', 'inanimate')
+	('dev1', 'rus', 'pernum', '1sg')
+	('dev1', 'rus', 'tense', 'prf')
+	('dev1', 'rus', 'verb', 'inf')
+	('dev1', 'rus', None, 'incomplete')
+	('dev1', 'rus', 'case', 'gen')
+	('dev1', 'rus', 'pernum', '3sg')
+	('dev1', 'rus', 'per', 'pl')
+	('dev1', 'rus', 'tense', 'pst')
+
+
+
+--- russian_infer ---
+
+Precision: 0.0
+Recall: 0.0
+F-Score: 0.0
+
+False Negatives
+	('dev1', 'rus', 'tenses', 'future')
+	('dev1', 'rus', 'tenses', 'past')
+	('dev1', 'rus', 'aspects', 'imperfective')
+	('dev1', 'rus', 'tenses', 'present')
+	('dev1', 'rus', 'aspects', 'perfective')
+
+False Positives
+	('dev1', 'rus', 'tense', 'prs')
+	('dev1', 'rus', 'per', '2')
+	('dev1', 'rus', 'case', 'dat')
+	('dev1', 'rus', 'gender', 'm')
+	('dev1', 'rus', None, 'lexical entry')
+	('dev1', 'rus', 'info', 'fp')
+	('dev1', 'rus', 'q', 'q')
+	('dev1', 'rus', 'verb', 'imp')
+	('dev1', 'rus', 'pernum', '2sg')
+	('dev1', 'rus', 'tense', 'fut')
+	('dev1', 'rus', 'gender', 'inanimate')
+	('dev1', 'rus', None, 'incomplete')
+	('dev1', 'rus', 'gender', 'f')
+	('dev1', 'rus', 'per', 'sg')
+	('dev1', 'rus', 'per', '3')
+	('dev1', 'rus', 'per', '1')
+	('dev1', 'rus', 'gender', 'animate')
+	('dev1', 'rus', 'case', 'nom')
+	('dev1', 'rus', 'pernum', '1pl')
+	('dev1', 'rus', 'pernum', '3pl')
+	('dev1', 'rus', None, 'user-identified')
+	('dev1', 'rus', 'verb', 'inf')
+	('dev1', 'rus', 'pernum', '1sg')
+	('dev1', 'rus', 'tense', 'prf')
+	('dev1', 'rus', 'case', 'acc')
+	('dev1', 'rus', 'pernum', '2pl')
+	('dev1', 'rus', 'case', 'gen')
+	('dev1', 'rus', 'pernum', '3sg')
+	('dev1', 'rus', 'per', 'pl')
+	('dev1', 'rus', 'tense', 'pst')
+
+
+
+--- russian_b4 ---
+
+Precision: 1.0
+Recall: 1.0
+F-Score: 1.0
+
