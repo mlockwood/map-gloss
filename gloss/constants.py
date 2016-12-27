@@ -7,6 +7,11 @@ import string
 from utils.IOutils import find_path
 
 
+__author__ = 'MichaelLockwood'
+__email__ = 'lockwm@uw.edu'
+__github__ = 'mlockwood'
+
+
 CLASSIFIERS = {'knn': True, 'maxent': True, 'nb': True, 'tbl': True}
 DATASET_FILE = '{}/example/data/dataset.json'.format(find_path('map_gloss'))
 DEFAULT_TRAINING = ['dev1', 'dev2', 'test']

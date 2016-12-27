@@ -8,23 +8,15 @@ from utils.dict_calculations import *
 from utils.IOutils import set_directory
 
 
-__project_parent__ = 'AGGREGATION'
-__project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
-__project_name__ = 'Map Gloss'
-__script__ = 'model.py'
-__date__ = 'March 2015'
-
 __author__ = 'MichaelLockwood'
 __email__ = 'lockwm@uw.edu'
 __github__ = 'mlockwood'
-__credits__ = 'Emily M. Bender for her guidance'
-__collaborators__ = None
 
 
 class GoldStandard(DataModel):
 
     json_path = [GOLD_STANDARD_FILE]
-    objects = {}  # (dataset, iso, gloss)
+    objects = {}
     stats = {}
     temp = {}
 
@@ -38,9 +30,14 @@ class GoldStandard(DataModel):
     @classmethod
     def annotate(cls, glosses):
         """
-        Allow the user to annotate glosses.
-        :param glosses: (dataset, iso, gloss); these are unique glosses
-        :return: True once all glosses have been annotated
+        Controls the flow of allowing a user to annotate glosses by
+        command line input.
+
+        Args:
+            glosses: unique glosses of (dataset, iso, gloss)
+
+        Returns: None
+
         """
         # Check for default annotations
         annotate = []
@@ -96,6 +93,18 @@ class GoldStandard(DataModel):
 
     @classmethod
     def set_standard(cls, gloss, classification_type, gram):
+        """
+        Set a GoldStandard object's gram and possibly final_grams
+        depending on the input argument values.
+
+        Args:
+            gloss: the input gloss being annotated
+            classification_type: user identified classification
+            gram: standard gram value or values
+
+        Returns: None
+
+        """
         cls.objects[gloss].classification_type = classification_type
         if classification_type == 'incomplete' or classification_type == 'combined':
             cls.objects[gloss].gram = classification_type
@@ -105,6 +114,16 @@ class GoldStandard(DataModel):
 
     @staticmethod
     def seek_standard(gloss, repeat=False):
+        """
+        Guide the user through annotating a gloss.
+
+        Args:
+            gloss: the input gloss being annotated
+            repeat: option for user to identify multiple grams
+
+        Returns: standard gram(s)
+
+        """
         if repeat:
             standard = []
             value = ''
@@ -118,7 +137,15 @@ class GoldStandard(DataModel):
 
     @classmethod
     def report(cls, out_path):
-        """Report all of the GS statistics to file.
+        """
+        Report all GoldStandard statistics to file by dataset and
+        total.
+
+        Args:
+            out_path: directory of outputs and reports
+
+        Returns: None
+
         """
         if out_path:
             set_directory('{}/reports/gold_standard'.format(out_path))
@@ -156,6 +183,13 @@ class GoldStandard(DataModel):
 
     @classmethod
     def run_statistics(cls):
+        """
+        Processes statistics on classification types by dataset and
+        total for use in running reports.
+
+        Returns: None
+
+        """
         cls.stats = {'complete': {'complete': {}}}
         for gloss in cls.objects:
 
@@ -177,6 +211,17 @@ class GoldStandard(DataModel):
 
     @classmethod
     def unigram_baseline(cls, train, test):
+        """
+        Report the accuracy of a unigram baseline for a training and
+        test set of GoldStandrd/input values.
+
+        Args:
+            train: GoldStandard objects for training unigram model
+            test: GoldStandard objects for testing unigram model
+
+        Returns: accuracy
+
+        """
         model = {}
         test_obj = []
         test_acc = {'pos': 0, 'neg': 0}

@@ -16,17 +16,10 @@ from utils.dict_calculations import *
 from utils.IOutils import set_directory
 from utils.stat_reports import accuracy, out_evaluation
 
-__project_parent__ = 'AGGREGATION'
-__project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
-__project_name__ = 'Map Gloss'
-__script__ = 'model.py'
-__date__ = 'March 2015'
 
 __author__ = 'MichaelLockwood'
 __email__ = 'lockwm@uw.edu'
 __github__ = 'mlockwood'
-__credits__ = 'Emily M. Bender for her guidance'
-__collaborators__ = None
 
 
 class Model(DataModel):
@@ -49,6 +42,13 @@ class Model(DataModel):
 
     @classmethod
     def set_default_vectors(cls):
+        """
+        Loads a default model for training if the user does not provide
+        training vectors.
+
+        Returns: default training vector configuration
+
+        """
         if not cls.loaded_defaults:
             cls.loaded_defaults = True
             set_vectors(infer_datasets(json.load(open(DATASET_FILE, 'r'))))
@@ -56,6 +56,16 @@ class Model(DataModel):
         return DEFAULT_TRAINING if isinstance(DEFAULT_TRAINING, str) else ' '.join(DEFAULT_TRAINING)
 
     def validate_classifiers(self, classifiers):
+        """
+        Examines a user's classifiers to determine if they input valid
+        options and a weight equal to 1.0.
+
+        Args:
+            classifiers: "classifiers": {"tbl": 1.0}
+
+        Returns: classifiers as a confirmation of acceptance
+
+        """
         weight = 0.0
         for classifier in classifiers:
 
@@ -78,6 +88,13 @@ class Model(DataModel):
         return classifiers
 
     def init_results(self):
+        """
+        Set up basic gloss result objects for each unique gloss in the
+        test set.
+
+        Returns: results to be passed to a Reference object
+
+        """
         results = {}
         for vector in self.test:
             results[vector["unique"]] = {
@@ -91,10 +108,23 @@ class Model(DataModel):
         return results
 
     def run_classifiers(self, out_path):
+        """
+        Run the model by running each classifier. Pass all results to
+        the Reference object for the model. Then set the final results.
+
+        Args:
+            out_path: directory for outputs and reports
+
+        Returns: None
+
+        """
+        # Get actual vectors for each train and test, set up reference
         self.train = get_collection(self.train)
         self.test = get_collection(self.test)
         self.reference = Reference(**{"model": self.name, "classifiers": self.classifiers,
                                       "results": self.init_results()})
+
+        # Call classifiers
         for classifier in self.classifiers:
 
             # If TBL
@@ -119,16 +149,45 @@ class Reference(DataModel):
 
     @classmethod
     def get_all_results(cls):
+        """
+        Collect all Reference objects and turn them into a dictionary
+        for a user.
+
+        Returns: {model: model's results}
+
+        """
         results = {}
         for model in cls.objects:
             results[model] = cls.objects[model].results
         return results
 
     def set_classifier_results(self, classifier, classifier_name):
+        """
+        Take all instance results from a unique gloss and convert them
+        to probabilities.
+
+        Args:
+            classifier: the classifier object
+            classifier_name: name of the classifier
+
+        Returns: None
+
+        """
         for gloss in classifier.results:
             self.results[gloss]["final"][classifier_name] = prob_conversion(classifier.results.get(gloss, 0))
 
     def set_final_results(self, out_path):
+        """
+        Use the results from all classifiers to make a final
+        determination for the unique gloss. Should evaluation and/or
+        inference occur, they are then called for process.
+
+        Args:
+            out_path: directory for outputs and reports
+
+        Returns: None
+
+        """
         # Aggregate results from all models
         for gloss in self.results:
             self.results[gloss]["final"] = str(max_value(combine_weight(self.results[gloss]["final"], self.classifiers),
@@ -158,6 +217,18 @@ class Reference(DataModel):
                 )
 
     def get_ref_dict(self, *args, value='final'):
+        """
+        Build a dictionary where the key is equivalent to
+        (dataset, iso, ... ) where ... represents values of a gloss
+        for each arg representing a key on the gloss results such as
+        'category', 'final', or 'input'.
+        Args:
+            *args: names of keys
+            value: the key that the value should be
+
+        Returns: {(dataset, iso, ... ): results[gloss][value]}
+
+        """
         ref_dict = {}
         for gloss in self.results:
             values = [gloss[0], gloss[1]]
@@ -172,11 +243,34 @@ class Reference(DataModel):
         return ref_dict
 
     def output_cprf_reports(self, out_path, gold, final):
+        """
+        Compare the gold standard for the glosses against the model
+        determination. Output CPRF files.
+
+        Args:
+            out_path: directory for outputs and reports
+            gold: ref_dict of gold standard
+            final: ref_dict of final results
+
+        Returns: None
+
+        """
         cprf = Compare(CM(gold, final, '{}_final'.format(self.model)),
                        CM(gold, self.results, '{}_baseline'.format(self.model)))
         cprf.write_cprf_file('{}/reports/glosses/cprf/{}'.format(out_path, self.model))
 
     def output_unique_gloss_reports(self, out_path):
+        """
+        Compare how the model assessed unique glosses. Outputs accuracy
+        confusion matrix file and an out file comparing gold, input,
+        and final for each unique gloss.
+
+        Args:
+            out_path: directory for outputs and reports
+
+        Returns: None
+
+        """
         # Set up data structures
         correct_total = 0
         incorrect_list = []
@@ -205,6 +299,20 @@ class Reference(DataModel):
                        '{}/reports/glosses/out/{}'.format(out_path, self.model))
 
     def run_inference(self, out_path):
+        """
+        Infers choices from the final results. These are then output to
+        choices files. For more information about choices files see the
+        main AGGREGATION project. Note there are two choices files for
+        each (dataset, language). One is from the final results and the
+        other is baseline5 which builds choices from matched input
+        glosses to determine the impact of gloss mapping.
+
+        Args:
+            out_path: directory for outputs and reports
+
+        Returns: None
+
+        """
         set_directory('{}/out/choices/{}'.format(out_path, self.model))
 
         # Make dataset, iso level collections of grams with their categories
@@ -240,6 +348,22 @@ class Reference(DataModel):
         return languages
 
     def eval_inference(self, out_path, gold, b4, b5, infer):
+        """
+        Evaluate the inference results. Compare the inference results,
+        baseline4, and baseline5 against the gold standard and then do
+        final comparisons of inference over each baseline. Output CPRF
+        files.
+
+        Args:
+            out_path: directory for outputs and reports
+            gold: choices from gold standard choices files
+            b4: baseline4 choices
+            b5: baseline 5 choices
+            infer: map gloss results choices
+
+        Returns:
+
+        """
         infer_cm = CM(gold, infer, '{}_infer'.format(self.model))
         cprf4 = Compare(infer_cm, CM(gold, b4, '{}_b4'.format(self.model)))
         cprf5 = Compare(infer_cm, CM(gold, b5, '{}_b5'.format(self.model)))
@@ -249,6 +373,22 @@ class Reference(DataModel):
 
 def process_models(dataset_file, model_file, out_path=None, eval_gloss=False, gold_standard_file=None,
                    lexicon_file=None, infer=False, eval_infer=False):
+    """
+    Function to organize the entire Map Gloss pipeline.
+
+    Args:
+        dataset_file: user defined datasets
+        model_file: user defined models
+        out_path: directory for outputs and reports
+        eval_gloss: toggle to evaluate gloss results (based on test)
+        gold_standard_file: load preexisting user gold_standard
+        lexicon_file: load preexisting user lexicon
+        infer: toggle to run inference
+        eval_infer: toggle to evaluate inference
+
+    Returns: Results by model and then unique gloss
+
+    """
     # Set up datasets and vectors
     Model.datasets = infer_datasets(json.load(open(dataset_file, 'r')))
     set_vectors(Model.datasets)

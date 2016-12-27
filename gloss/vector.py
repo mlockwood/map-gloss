@@ -10,17 +10,10 @@ from gloss.standard import Gram
 from utils.distance import levenshtein
 from xigt.codecs import xigtxml
 
-__project_parent__ = 'AGGREGATION'
-__project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
-__project_name__ = 'Map Gloss'
-__script__ = 'gram/vector.py'
-__date__ = 'March 2015'
 
 __author__ = 'MichaelLockwood'
 __email__ = 'lockwm@uw.edu'
 __github__ = 'mlockwood'
-__credits__ = 'Emily M. Bender for her guidance'
-__collaborators__ = None
 
 
 vectors = {}  # {id: vector_object}}
@@ -29,6 +22,16 @@ vector_structured = {}  # {dataset: {iso: {vector_id: True}}
 
 
 def set_vectors(datasets):
+    """
+    Take loaded datasets pointing to XIGT files, load the IGT from the
+    files and then send the glosses to vectors.
+
+    Args:
+        datasets: loaded dataset objects
+
+    Returns: None
+
+    """
     # Process and convert data
     for dataset in datasets:
         for iso in datasets[dataset]["iso_list"]:
@@ -55,6 +58,20 @@ def set_vectors(datasets):
 
 
 def set_vector(dataset, iso, raw_gloss, morphemes, word_match):
+    """
+    Build a vector from attributes extracted from the XIGT file. Send
+    the vector to the vectors DS.
+
+    Args:
+        dataset: gloss' dataset
+        iso: gloss' iso
+        raw_gloss: raw_gloss before any string processing
+        morphemes: glosses sharing the same morpheme
+        word_match: boolean for whether the gram matched a word
+
+    Returns: None
+
+    """
     vector = {"id": str(uuid.uuid4()),
               "dataset": dataset.lower(),
               "iso": iso.lower(),
@@ -85,9 +102,16 @@ def set_vector(dataset, iso, raw_gloss, morphemes, word_match):
 
 
 def set_segmentation(gloss):
-    """Locate all segments within the gloss.
     """
-    # Explore all glosses
+    Locate all gram and non-gram segments within the gloss.
+
+    Args:
+        gloss: the input gloss
+
+    Returns: dictionary of segments matched to the gloss
+
+    """
+    # Explore all grams
     segments = {}
     for gram in Gram.objects:
         # If there is a match
@@ -102,9 +126,15 @@ def set_segmentation(gloss):
 
 
 def set_segmentation_helper(gloss_part):
-    """Locate all segments within the gloss, if the gloss is Leipzig
-    or Gold it will match itvector[" This is for inner recursion of the
-    remainder.
+    """
+    This is for inner recursion of the string pieces before and after
+    a gram that is discovered in a gloss.
+
+    Args:
+        gloss_part: str before or after a gram from a gloss
+
+    Returns: dictionary of segments matched to the gloss
+
     """
     segments = {}
     if not gloss_part:
@@ -128,6 +158,16 @@ def set_segmentation_helper(gloss_part):
 
 
 def set_distances(gloss):
+    """
+    Find the Levenshtein distance between the gloss and every standard
+    gram.
+
+    Args:
+        gloss: the input gloss
+
+    Returns: dictionary of distances
+
+    """
     distances = {}
     for gram in Gram.objects:
         distances[gram] = levenshtein(gloss, gram)
@@ -135,6 +175,15 @@ def set_distances(gloss):
 
 
 def set_features(vector):
+    """
+    Set all the features for the vector.
+
+    Args:
+        vector: vector representing the input gloss instance
+
+    Returns: dictionary of features
+
+    """
     features = {}
 
     # Gloss
@@ -184,8 +233,19 @@ collections = {}  # {collection_tuple: vectors}
 
 
 def set_collection(collection, require=False):
+    """
+    Set up a collection of vectors and requirements for whether a gold
+    standard is needed for its containing vectors.
+
+    Args:
+        collection: train or test collection representation from model
+        require: whether these vectors require a gold standard or not
+
+    Returns: collection_str for later collection of vectors
+
+    """
     collection_str = collection if isinstance(collection, str) else ' '.join(collection)
-    # If the collection has not
+    # If the collection has not been previously structured
     if collection_str not in collections:
         collections[collection_str] = collect_vectors(parse_collection(collection))
     if require:
@@ -194,16 +254,41 @@ def set_collection(collection, require=False):
 
 
 def get_collection(collection_str):
+    """
+    Collect the vectors from a collection.
+
+    Args:
+        collection_str: name for collection
+
+    Returns: dictionary of all vectors for the collection
+
+    """
     return collections[collection_str]
 
 
 def update_collections():
+    """
+    Update a collection once gold standard has been processed.
+
+    Returns: None
+
+    """
     for collection in collections:
         for vector in collections[collection]:
             vector["gram"] = vectors[vector["id"]]["gram"]
 
 
 def parse_collection(collection):
+    """
+    Parse a collection to determine which datasets and languages it
+    includes and excludes.
+
+    Args:
+        collection: train or test collection representation from model
+
+    Returns: structured version of the collection
+
+    """
     structure = {}
 
     # For each dataset after the split
@@ -234,14 +319,26 @@ def parse_collection(collection):
 
 
 def collect_vectors(structure):
+    """
+    Take a structured collection and collect all of the vectors that
+    fit its description.
+
+    Args:
+        structure: structured version of the collection
+
+    Returns: dictionary of selected vectors
+
+    """
     # Select the vectors that match the Collection object's structure
     select_vectors = []
     for dataset in structure:
         if dataset in vector_structured:
+
             # Process datasets equal to '<all>'
             if structure[dataset] == '<all>':
                 for iso in vector_structured[dataset]:
                     select_vectors += get_structured_vectors(dataset, iso)
+
             # Process exception datasets
             elif '<except>' in structure[dataset]:
                 for iso in vector_structured[dataset]:
@@ -253,14 +350,37 @@ def collect_vectors(structure):
                 for iso in structure[dataset]:
                     if iso in vector_structured[dataset]:
                         select_vectors += get_structured_vectors(dataset, iso)
+
     return select_vectors
 
 
 def get_structured_vectors(dataset, iso):
+    """
+    Helper function to pull exactly the vectors who have matching ids
+    within the vector_structured lookup.
+
+    Args:
+        dataset: specified dataset within the structured collection
+        iso: specified language within the structured collection
+
+    Returns: dictionary of selected vectors
+
+    """
     return [vectors[vector_id] for vector_id in vector_structured[dataset][iso]]
 
 
-def set_gold_standard(gold_standard_file, lexicon_file):
+def set_gold_standard(gold_standard_file=None, lexicon_file=None):
+    """
+    Manages the process for setting a gold standard for the vectors and
+    then assigning the gold standard to the vectors.
+
+    Args:
+        gold_standard_file: optional user provided gold standard
+        lexicon_file: optional user provided lexicon
+
+    Returns: None
+
+    """
     # Load all evaluation files (both map_gloss native and user provided)
     if gold_standard_file:
         GoldStandard.json_path.append(gold_standard_file)
@@ -272,6 +392,7 @@ def set_gold_standard(gold_standard_file, lexicon_file):
     annotate = []
     # Process vectors who have gold_requirement set to True
     for vector_id in [v for v in vectors if vectors[v]["gold_requirement"]]:
+
         # If GoldStandard object does not exist, create GoldStandard object
         vector = vectors[vector_id]
         if vector["unique"] not in GoldStandard.objects:
@@ -280,6 +401,7 @@ def set_gold_standard(gold_standard_file, lexicon_file):
 
     # If there were values that needed a GoldStandard gram
     if annotate:
+
         # Seek user input on GoldStandard
         GoldStandard.annotate(annotate)
         GoldStandard.export(index=-1)
@@ -289,4 +411,3 @@ def set_gold_standard(gold_standard_file, lexicon_file):
     for vector_id in [v for v in vectors if vectors[v]["gold_requirement"]]:
         vectors[vector_id]["gram"] = GoldStandard.objects[vectors[vector_id]["unique"]].gram
     update_collections()
-    return True

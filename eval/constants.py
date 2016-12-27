@@ -4,17 +4,9 @@
 from utils.IOutils import find_path
 
 
-__project_parent__ = 'AGGREGATION'
-__project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
-__project_name__ = 'Map Gloss'
-__script__ = 'eval/constants.py'
-__date__ = 'March 2015'
-
 __author__ = 'MichaelLockwood'
 __email__ = 'lockwm@uw.edu'
 __github__ = 'mlockwood'
-__credits__ = 'Emily M. Bender for her guidance'
-__collaborators__ = None
 
 
 CLASSIFICATION_TYPES = ['standard', 'misspelled', 'confused', 'incomplete', 'combined', 'user-identified',

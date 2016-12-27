@@ -1,11 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 from gloss.standard import Gram
 from utils.stat_reports import accuracy
 from utils.IOutils import set_directory
 
 
+__author__ = 'MichaelLockwood'
+__email__ = 'lockwm@uw.edu'
+__github__ = 'mlockwood'
+
+
 class TBL(object):
 
-    objects = {}  # model_name
+    objects = {}
     default = None
     path = None
 
@@ -21,32 +29,62 @@ class TBL(object):
 
     @classmethod
     def set_cls_path(cls, out_path):
+        """
+        Set the out_path for TBL model, system, and accuracy reports.
+
+        Args:
+            out_path: directory for outputs and reports
+
+        Returns: None
+
+        """
         cls.path = '{}/reports/classifiers/tbl'.format(out_path) if out_path else None
         set_directory(cls.path)
 
-    # Model function
     def report_model(self):
+        """
+        Output the TBL model report.
+
+        Returns: None
+
+        """
         writer = open('{}/{}.mod'.format(TBL.path, self.model), 'w')
         writer.write(TBL.default+'\n')
         for rule in self.tbl_rules:
             writer.write('{0:36s} {1:36s} {2:36s} {3:10s}\n'.format(*[str(s) for s in rule]))
         writer.close()
 
-    # System function
     def report_system(self, syst):
+        """
+        Output the TBL system report.
+
+        Returns: None
+
+        """
         writer = open('{}/{}.sys'.format(TBL.path, self.model), 'w')
         writer.write('%%%%% ' + self.model + ' data:\n')
         for line in syst:
             writer.write('array: {}\n'.format(' '.join(str(s) for s in line)))
         writer.close()
 
-    # Accuracy function
     def report_accuracy(self, acc):
+        """
+        Output the TBL accuracy confusion matrix report.
+
+        Returns: None
+
+        """
         file = '{}/{}'.format(TBL.path, self.model)
         accuracy(acc, file)
 
-    # Function to set the initial TBL map that matches indices, labels, and feats
     def initialize(self):
+        """
+        Set the initial TBL map that matches indices, labels, and
+        features.
+
+        Returns: None
+
+        """
         tbl = {}
         # Read each vector object in the training DS
         i = 0
@@ -68,8 +106,13 @@ class TBL(object):
             i += 1
         self.tbl = tbl
 
-    # Function to train TBL
     def train_model(self):
+        """
+        Train TBL model with training vectors.
+
+        Returns: None
+
+        """
         self.initialize()
         gain = self.min_gain
         # Stop rule creation when gain falls below the minimum gain threshold
@@ -122,8 +165,18 @@ class TBL(object):
         if TBL.path:
             self.report_model()
 
-    # Function to decode test vectors
     def decode(self, vectors):
+        """
+        Test/decode TBL model with any vectors provided by the user.
+        As of current design the results are stored internal to the
+        model.
+
+        Args:
+            vectors: object based vectors with id attribute
+
+        Returns: None
+
+        """
         n = 0
         syst = []
         acc = {}

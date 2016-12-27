@@ -1,5 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 from utils.data_model import DataModel
 from utils.IOutils import find_path
+
+
+__author__ = 'MichaelLockwood'
+__email__ = 'lockwm@uw.edu'
+__github__ = 'mlockwood'
 
 
 class Gram(DataModel):
