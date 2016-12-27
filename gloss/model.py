@@ -418,4 +418,4 @@ def process_models(dataset_file, model_file, out_path=None, eval_gloss=False, go
     return Reference.get_all_results()
 
 
-refs = process_models(DATASET_FILE, MODEL_FILE, OUT_PATH, eval_gloss=True, infer=True, eval_infer=True)
+# refs = process_models(DATASET_FILE, MODEL_FILE, OUT_PATH, eval_gloss=True, infer=True, eval_infer=True)

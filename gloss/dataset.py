@@ -17,7 +17,7 @@ def infer_datasets(datasets):
     a DS representation with all paths for XIGT and choices files.
 
     Args:
-        datasets: [{"name": dataset name, "path": abs path}]
+        datasets: [{"name": dataset name, "path": abs path, ...}]
 
     Returns:
         JSON representation for internal map_gloss usage that extracted
