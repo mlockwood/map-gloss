@@ -8,6 +8,7 @@ from map_gloss.gloss.dataset import *
 from map_gloss.gloss.errors import *
 from map_gloss.gloss.tbl import TBL
 from map_gloss.gloss.vector import *
+from map_gloss.infer.load_choices import *
 from map_gloss.infer.make_choices import *
 from map_gloss.utils.confusion_matrix import CM, Compare
 from map_gloss.utils.data_model import DataModel
@@ -144,26 +145,31 @@ class Reference(DataModel):
 
         # Process inference
         if Model.infer:
-            self.run_inference(out_path)
-            
-        # Evaluate inference
-        if Model.eval_infer:
-            self.eval_inference(out_path)
+            languages = self.run_inference(out_path)
 
-    def get_ref_dict(self, key, value='final'):
-        return dict(((gloss[0], gloss[1], self.results[gloss][key]), self.results[gloss][value]
+            # Evaluate inference
+            if Model.eval_infer:
+                self.eval_inference(
+                    out_path,
+                    load_model_choices(Model.datasets, languages),
+                    load_model_baseline4(languages),
+                    self.get_two_key_ref_dict("baseline5", "input"),
+                    self.get_two_key_ref_dict("category", "final")
+                )
+
+    def get_ref_dict(self, key):
+        return dict(((gloss[0], gloss[1], self.results[gloss][key]), True) for gloss in self.results)
+
+    def get_two_key_ref_dict(self, key, second):
+        return dict(((gloss[0], gloss[1], self.results[gloss][key], self.results[gloss][second]), True
                      ) for gloss in self.results)
 
     def output_cprf_reports(self, out_path, gold, final):
-        set_directory('{}/reports/cprf'.format(out_path))
         cprf = Compare(CM(gold, final, '{}_final'.format(self.model)),
                        CM(gold, self.results, '{}_baseline'.format(self.model)))
-        cprf.write_cprf_file('{}/reports/cprf/{}'.format(out_path, self.model))
+        cprf.write_cprf_file('{}/reports/glosses/cprf/{}'.format(out_path, self.model))
 
     def output_unique_gloss_reports(self, out_path):
-        set_directory('{}/reports/unique_gloss/acc'.format(out_path))
-        set_directory('{}/reports/unique_gloss/out'.format(out_path))
-
         # Set up data structures
         correct_total = 0
         incorrect_list = []
@@ -187,43 +193,49 @@ class Reference(DataModel):
                 incorrect_list += [entry]
 
         # Write accuracy and out_evaluation
-        accuracy(acc, '{}/reports/unique_gloss/acc/{}'.format(out_path, self.model))
+        accuracy(acc, '{}/reports/glosses/acc/{}'.format(out_path, self.model))
         out_evaluation(correct_total, len(self.results), incorrect_list, correct_list,
-                       '{}/reports/unique_gloss/out/{}'.format(out_path, self.model))
+                       '{}/reports/glosses/out/{}'.format(out_path, self.model))
 
     def run_inference(self, out_path):
-        set_directory('{}/choices/{}'.format(out_path, self.model))
+        set_directory('{}/out/choices/{}'.format(out_path, self.model))
 
         # Make dataset, iso level collections of grams with their categories
         languages = {}
         for gloss in self.results:
             key = (gloss[0], gloss[1])
-            G = self.results[gloss]
+            gls = self.results[gloss]
 
             # Set up language outfiles and empty category dictionaries
             if key not in languages:
                 languages[key] = {
                     "b5_categories": {},
-                    "b5_outfile": '{}/choices/{}/{}_{}_baseline5.choices'.format(out_path, self.model, *key),
+                    "b5_outfile": '{}/out/choices/{}/{}_{}_baseline5.choices'.format(out_path, self.model, *key),
                     "categories": {},
-                    "outfile": '{}/choices/{}/{}_{}.choices'.format(out_path, self.model, *key)
+                    "outfile": '{}/out/choices/{}/{}_{}.choices'.format(out_path, self.model, *key)
                 }
 
             # Assign matched grams to categories
-            if G["baseline5"] not in languages[key]["b5_categories"]:
-                languages[key]["b5_categories"][G["baseline5"]] = {}
-            languages[key]["b5_categories"][G["category"]][G["input"]] = True
-            if G["category"] not in languages[key]["categories"]:
-                languages[key]["categories"][G["category"]] = {}
-            languages[key]["categories"][G["category"]][G["final"]] = True
+            if gls["baseline5"] not in languages[key]["b5_categories"]:
+                languages[key]["b5_categories"][gls["baseline5"]] = {}
+            languages[key]["b5_categories"][gls["category"]][gls["input"]] = True
+            if gls["category"] not in languages[key]["categories"]:
+                languages[key]["categories"][gls["category"]] = {}
+            languages[key]["categories"][gls["category"]][gls["final"]] = True
 
         # Send each language to be made into choices files
         for language in languages:
             make_choices(languages[language]["b5_categories"], languages[language]["b5_outfile"])
             make_choices(**language)
+            languages[language] = True
+        return languages
 
-    def eval_inference(self, out_path):
-        pass
+    def eval_inference(self, out_path, gold, b4, b5, infer):
+        infer_cm = CM(gold, infer, '{}_infer'.format(self.model))
+        cprf4 = Compare(infer_cm, CM(gold, b4, '{}_b4'.format(self.model)))
+        cprf5 = Compare(infer_cm, CM(gold, b5, '{}_b5'.format(self.model)))
+        cprf4.write_cprf_file('{}/reports/choices/{}_b4'.format(out_path, self.model))
+        cprf5.write_cprf_file('{}/reports/choices/{}_b5'.format(out_path, self.model))
 
 
 def process_models(dataset_file, model_file, out_path=None, eval_gloss=False, gold_standard_file=None,
@@ -232,10 +244,17 @@ def process_models(dataset_file, model_file, out_path=None, eval_gloss=False, go
     Model.datasets = infer_datasets(json.load(open(dataset_file, 'r')))
     set_vectors(Model.datasets)
 
+    # If there is an out_path set up all model output directories even if they will not all be used
+    if out_path:
+        set_directory('{}/reports/choices'.format(out_path))
+        set_directory('{}/reports/glosses/cprf'.format(out_path))
+        set_directory('{}/reports/glosses/acc'.format(out_path))
+        set_directory('{}/reports/glosses/out'.format(out_path))
+
     # Process models
-    Model.eval_gloss = eval_gloss
-    Model.eval_infer = eval_infer if infer else False
-    Model.infer = infer
+    Model.eval_gloss = eval_gloss if out_path else False
+    Model.eval_infer = eval_infer if infer and out_path else False
+    Model.infer = infer if out_path else False
     Model.json_path = model_file
     Model.load()
     set_gold_standard(gold_standard_file, lexicon_file)
@@ -250,4 +269,4 @@ def process_models(dataset_file, model_file, out_path=None, eval_gloss=False, go
     return Reference.get_all_results()
 
 
-# refs = process_models(DATASET_FILE, MODEL_FILE, OUT_PATH, eval_gloss=True, infer=True, eval_infer=True)
+refs = process_models(DATASET_FILE, MODEL_FILE, OUT_PATH, eval_gloss=True, infer=True, eval_infer=True)

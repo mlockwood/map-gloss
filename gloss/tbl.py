@@ -21,7 +21,7 @@ class TBL(object):
 
     @classmethod
     def set_cls_path(cls, out_path):
-        cls.path = '{}/reports/models/tbl'.format(out_path) if out_path else None
+        cls.path = '{}/reports/classifiers/tbl'.format(out_path) if out_path else None
         set_directory(cls.path)
 
     # Model function

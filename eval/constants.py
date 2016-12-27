@@ -20,12 +20,6 @@ __collaborators__ = None
 CLASSIFICATION_TYPES = ['standard', 'misspelled', 'confused', 'incomplete', 'combined', 'user-identified',
                         'unrecovered', 'part-of-speech', 'lexical entry']
 GOLD_STANDARD_FILE = '{}/eval/data/gold_standard.json'.format(find_path('map_gloss'))
-INFER_BASELINE = {('tenses', 'past'): True,
-                  ('tenses', 'future'): True,
-                  ('tenses', 'present'): True,
-                  ('aspects', 'perfective'): True,
-                  ('aspects', 'imperfective'): True
-                  }
 LABELS = {'0': ('standard', 0),
           '1': ('misspelled', 1),
           '2': ('confused', 1),

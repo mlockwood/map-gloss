@@ -15,5 +15,10 @@ __credits__ = 'Emily M. Bender for her guidance'
 __collaborators__ = None
 
 
+INFER_BASELINE = {('tenses', 'past'): True,
+                  ('tenses', 'future'): True,
+                  ('tenses', 'present'): True,
+                  ('aspects', 'perfective'): True,
+                  ('aspects', 'imperfective'): True
+                  }
 RADIO = {'fut': 'future', 'future': 'future', 'past': 'past', 'pst': 'past', 'prs': 'present', 'present': 'present'}
-FTYPES = {'gold': True, 'baseline5': True, 'final': True}
