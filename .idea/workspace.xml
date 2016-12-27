@@ -2,9 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16910774-536f-4b7f-b67f-106bd2470b9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/map_gloss.iml" afterPath="$PROJECT_DIR$/.idea/map_gloss.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eval/constants.py" afterPath="$PROJECT_DIR$/eval/constants.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eval/gold_standard.py" afterPath="$PROJECT_DIR$/eval/gold_standard.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_ain.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_ain.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_ain_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_ain_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_ary.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_ary.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_ary_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_ary_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_ces.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_ces.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_ces_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_ces_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_hbs.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_hbs.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_hbs_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_hbs_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_hix.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_hix.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_hix_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_hix_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_inh.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_inh.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_inh_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_inh_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_jaa.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_jaa.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_jaa_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_jaa_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_kat.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_kat.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_kat_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_kat_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_tgl.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_tgl.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_tgl_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_tgl_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_vie.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_vie.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_vie_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_vie_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/russian/dev1_rus.choices" afterPath="$PROJECT_DIR$/example/out/choices/russian/dev1_rus.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/russian/dev1_rus_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/russian/dev1_rus_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/choices/main_b4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/main_b4.cprf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/choices/main_b5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/main_b5.cprf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/choices/russian_b4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/russian_b4.cprf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/choices/russian_b5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/russian_b5.cprf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/classifiers/tbl/main.acc" afterPath="$PROJECT_DIR$/example/reports/classifiers/tbl/main.acc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/classifiers/tbl/main.mod" afterPath="$PROJECT_DIR$/example/reports/classifiers/tbl/main.mod" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/classifiers/tbl/main.sys" afterPath="$PROJECT_DIR$/example/reports/classifiers/tbl/main.sys" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/classifiers/tbl/russian.acc" afterPath="$PROJECT_DIR$/example/reports/classifiers/tbl/russian.acc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/classifiers/tbl/russian.mod" afterPath="$PROJECT_DIR$/example/reports/classifiers/tbl/russian.mod" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/classifiers/tbl/russian.sys" afterPath="$PROJECT_DIR$/example/reports/classifiers/tbl/russian.sys" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/glosses/acc/main.acc" afterPath="$PROJECT_DIR$/example/reports/glosses/acc/main.acc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/glosses/cprf/main.cprf" afterPath="$PROJECT_DIR$/example/reports/glosses/cprf/main.cprf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/glosses/cprf/russian.cprf" afterPath="$PROJECT_DIR$/example/reports/glosses/cprf/russian.cprf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/glosses/out/main.out" afterPath="$PROJECT_DIR$/example/reports/glosses/out/main.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/glosses/out/russian.out" afterPath="$PROJECT_DIR$/example/reports/glosses/out/russian.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/constants.py" afterPath="$PROJECT_DIR$/gloss/constants.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/dataset.py" afterPath="$PROJECT_DIR$/gloss/dataset.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/model.py" afterPath="$PROJECT_DIR$/gloss/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/standard.py" afterPath="$PROJECT_DIR$/gloss/standard.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/tbl.py" afterPath="$PROJECT_DIR$/gloss/tbl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/vector.py" afterPath="$PROJECT_DIR$/gloss/vector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infer/load_choices.py" afterPath="$PROJECT_DIR$/infer/load_choices.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infer/make_choices.py" afterPath="$PROJECT_DIR$/infer/make_choices.py" />
     </list>
     <ignored path="map_gloss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +72,8 @@
         <entry file="file://$PROJECT_DIR$/gloss/model.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-              <folding>
-                <element signature="e#48#59#0" expanded="true" />
-              </folding>
+              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,7 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -212,10 +253,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -489,41 +531,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/reports/models/tbl/0x1.mod" />
-    <entry file="file://$PROJECT_DIR$/example/reports/models/tbl/main.sys">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/models/tbl/russian.acc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/acc/main.acc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1575">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/acc/russian.acc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/out/main.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/models/tbl/main.sys" />
+    <entry file="file://$PROJECT_DIR$/example/reports/models/tbl/russian.acc" />
+    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/acc/main.acc" />
+    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/acc/russian.acc" />
+    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/out/main.out" />
     <entry file="file://$PROJECT_DIR$/xigt/exporters/itsdb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
@@ -616,13 +628,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eval/choices_reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1980">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/choices_reader.py" />
     <entry file="file://$PROJECT_DIR$/utils/IOutils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -698,34 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/cprf/main.cprf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/cprf/russian.cprf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/models/tbl/main.acc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/reports/models/tbl/main.mod">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2549">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/cprf/main.cprf" />
+    <entry file="file://$PROJECT_DIR$/example/reports/cprf/russian.cprf" />
+    <entry file="file://$PROJECT_DIR$/example/reports/models/tbl/main.acc" />
+    <entry file="file://$PROJECT_DIR$/example/reports/models/tbl/main.mod" />
     <entry file="file://$PROJECT_DIR$/eval/gold_standard.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2955">
@@ -764,29 +746,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/a.py" />
+    <entry file="file://$PROJECT_DIR$/b.py" />
     <entry file="file://$PROJECT_DIR$/gloss/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding>
-            <element signature="e#48#59#0" expanded="true" />
-          </folding>
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

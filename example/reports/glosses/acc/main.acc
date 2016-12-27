@@ -1,4 +1,4 @@
-Accuracy: 0.9307400379506642
+Accuracy: 0.9259962049335864
 
 1
 	1                   	       4
@@ -133,8 +133,8 @@ incl
 
 incomplete
 	incomplete          	      42
-	part-of-speech      	       1
 	lexical entry       	       1
+	part-of-speech      	       1
 
 ind
 	ind                 	       1
@@ -156,9 +156,9 @@ ipfv
 	ipfv                	       1
 
 lexical entry
-	lexical entry       	     704
-	user-identified     	      13
-	incomplete          	       4
+	lexical entry       	     700
+	user-identified     	      14
+	incomplete          	       7
 
 loc
 	loc                 	       1
@@ -191,8 +191,8 @@ nprs
 	nprs                	       1
 
 npst
-	npst                	       1
 	user-identified     	       1
+	npst                	       1
 
 obj
 	obj                 	       2
@@ -204,9 +204,9 @@ p
 	p                   	       1
 
 part-of-speech
-	user-identified     	       3
-	part-of-speech      	       2
+	user-identified     	       4
 	lexical entry       	       1
+	part-of-speech      	       1
 
 participle
 	lexical entry       	       1
@@ -225,7 +225,7 @@ pl
 	user-identified     	       2
 
 pluperfect
-	user-identified     	       1
+	sbj                 	       1
 
 pluralperson
 	lexical entry       	       1
@@ -260,8 +260,8 @@ rec
 	rec                 	       1
 
 refl
+	user-identified     	       1
 	refl                	       1
-	1sg                 	       1
 
 remote
 	remote              	       1

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from map_gloss.eval.constants import *
-from map_gloss.gloss.standard import Gram, Value
-from map_gloss.utils.data_model import DataModel
-from map_gloss.utils.dict_calculations import *
-from map_gloss.utils.IOutils import set_directory
+from eval.constants import *
+from gloss.standard import Gram, Value
+from utils.data_model import DataModel
+from utils.dict_calculations import *
+from utils.IOutils import set_directory
 
 
 __project_parent__ = 'AGGREGATION'

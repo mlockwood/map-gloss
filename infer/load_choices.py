@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from map_gloss.infer.choices_reader import ChoicesFile
-from map_gloss.infer.constants import INFER_BASELINE
+from infer.choices_reader import ChoicesFile
+from infer.constants import INFER_BASELINE
 
 
 __author__ = 'Michael Lockwood'

@@ -4,7 +4,7 @@
 import os
 import re
 
-from map_gloss.utils.IOutils import find_path
+from utils.IOutils import find_path
 
 
 __project_parent__ = 'AGGREGATION'

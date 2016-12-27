@@ -1,5 +1,5 @@
-from map_gloss.utils.data_model import DataModel
-from map_gloss.utils.IOutils import find_path
+from utils.data_model import DataModel
+from utils.IOutils import find_path
 
 
 class Gram(DataModel):

@@ -4,7 +4,7 @@
 import re
 import string
 
-from map_gloss.utils.IOutils import find_path
+from utils.IOutils import find_path
 
 
 CLASSIFIERS = {'knn': True, 'maxent': True, 'nb': True, 'tbl': True}

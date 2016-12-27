@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from map_gloss.infer.constants import RADIO
+from infer.constants import RADIO
 
 
 __project_parent__ = 'AGGREGATION'
@@ -31,7 +31,7 @@ def set_tense_aspect_mood(categories):
     tam_choices = 'section=tense-aspect-mood\ntense-definition=choose\n'
 
     # Build tense, aspect, and mood from categories
-    tam = ['tense', 'aspect', 'mood']
+    tam = ['tenses', 'aspects', 'moods']
     for category in tam:
         if category not in categories:
             continue
@@ -42,7 +42,7 @@ def set_tense_aspect_mood(categories):
             if gloss in RADIO:
                 tam_choices += add_radio_choice(RADIO[gloss])
             else:
-                tam_choices += add_choice(category, rule, gloss, category)
+                tam_choices += add_choice(category[:-1], rule, gloss, category[:-1])
                 rule += 1
     return tam_choices
 

@@ -1,2 +1,5 @@
 section=tense-aspect-mood
 tense-definition=choose
+future=on
+ mood1_name=ind
+  mood1_supertype1_name=mood

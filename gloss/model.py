@@ -3,18 +3,18 @@
 
 import json
 
-from map_gloss.gloss.constants import *
-from map_gloss.gloss.dataset import *
-from map_gloss.gloss.errors import *
-from map_gloss.gloss.tbl import TBL
-from map_gloss.gloss.vector import *
-from map_gloss.infer.load_choices import *
-from map_gloss.infer.make_choices import *
-from map_gloss.utils.confusion_matrix import CM, Compare
-from map_gloss.utils.data_model import DataModel
-from map_gloss.utils.dict_calculations import *
-from map_gloss.utils.IOutils import set_directory
-from map_gloss.utils.stat_reports import accuracy, out_evaluation
+from gloss.constants import *
+from gloss.dataset import *
+from gloss.errors import *
+from gloss.tbl import TBL
+from gloss.vector import *
+from infer.load_choices import *
+from infer.make_choices import *
+from utils.confusion_matrix import CM, Compare
+from utils.data_model import DataModel
+from utils.dict_calculations import *
+from utils.IOutils import set_directory
+from utils.stat_reports import accuracy, out_evaluation
 
 __project_parent__ = 'AGGREGATION'
 __project_title__ = 'Automated Gloss Mapping for Inferring Grammatical Properties'
@@ -157,7 +157,7 @@ class Reference(DataModel):
                     self.get_ref_dict("category", "final")
                 )
 
-    def get_ref_dict(self, *args):
+    def get_ref_dict(self, *args, value='final'):
         ref_dict = {}
         for gloss in self.results:
             values = [gloss[0], gloss[1]]
@@ -168,7 +168,7 @@ class Reference(DataModel):
                     values = None
                     break
             if values:
-                ref_dict[tuple(values)] = True
+                ref_dict[tuple(values)] = self.results[gloss][value]
         return ref_dict
 
     def output_cprf_reports(self, out_path, gold, final):
@@ -223,12 +223,14 @@ class Reference(DataModel):
                 }
 
             # Assign matched grams to categories
-            if gls["baseline5"] not in languages[key]["b5_categories"]:
-                languages[key]["b5_categories"][gls["baseline5"]] = {}
-            languages[key]["b5_categories"][gls["baseline5"]][gls["input"]] = True
-            if gls["category"] not in languages[key]["categories"]:
-                languages[key]["categories"][gls["category"]] = {}
-            languages[key]["categories"][gls["category"]][gls["final"]] = True
+            if gls["baseline5"]:
+                if gls["baseline5"] not in languages[key]["b5_categories"]:
+                    languages[key]["b5_categories"][gls["baseline5"]] = {}
+                languages[key]["b5_categories"][gls["baseline5"]][gls["input"]] = True
+            if gls["category"]:
+                if gls["category"] not in languages[key]["categories"]:
+                    languages[key]["categories"][gls["category"]] = {}
+                languages[key]["categories"][gls["category"]][gls["final"]] = True
 
         # Send each language to be made into choices files
         for language in languages:

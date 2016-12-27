@@ -52,6 +52,8 @@ fut
 gen
 	gen                 	       1
 
+hab
+
 imp
 
 inanimate
@@ -64,9 +66,8 @@ inf
 	inf                 	       5
 
 ins
-	user-identified     	      24
+	user-identified     	      28
 	lexical entry       	       4
-	f                   	       4
 
 ipfv
 	imp                 	      25
@@ -93,7 +94,7 @@ pl
 
 prf
 	prf                 	       8
-	part-of-speech      	       1
+	hab                 	       1
 
 prs
 	prs                 	     105
