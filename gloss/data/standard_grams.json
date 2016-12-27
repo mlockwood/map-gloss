@@ -197,7 +197,7 @@
     },
     {
         "gold_ontology": "Completive",
-        "category": ["aspect", "mood"],
+        "category": ["aspects", "moods"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "COMPL"
@@ -218,7 +218,7 @@
     },
     {
         "gold_ontology": "Continuous",
-        "category": ["aspect", "tense"],
+        "category": ["aspects", "tenses"],
         "g_native": "true",
         "l_native": "false",
         "leipzig": "CONT"
@@ -239,7 +239,7 @@
     },
     {
         "gold_ontology": "Declarative",
-        "category": ["mood"],
+        "category": ["moods"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DECL"
@@ -267,28 +267,28 @@
     },
     {
         "gold_ontology": "Distal",
-        "category": ["tense", "aspect"],
+        "category": ["tenses", "aspects"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DIST"
     },
     {
         "gold_ontology": "Distributive",
-        "category": ["aspect", "pernum"],
+        "category": ["aspects", "pernum"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DISTR"
     },
     {
         "gold_ontology": "Dubitive",
-        "category": ["mood"],
+        "category": ["moods"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DUB"
     },
     {
         "gold_ontology": "Durative",
-        "category": ["aspect"],
+        "category": ["aspects"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "DUR"
@@ -358,7 +358,7 @@
     },
     {
         "gold_ontology": "Future",
-        "category": ["tense"],
+        "category": ["tenses"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "FUT"
@@ -372,7 +372,7 @@
     },
     {
         "gold_ontology": "Habitual",
-        "category": ["aspect", "tense"],
+        "category": ["aspects", "tenses"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "HAB"
@@ -400,7 +400,7 @@
     },
     {
         "gold_ontology": "Indicative",
-        "category": ["mood"],
+        "category": ["moods"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "IND"
@@ -442,14 +442,14 @@
     },
     {
         "gold_ontology": "Imperfective",
-        "category": ["aspect"],
+        "category": ["aspects"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "IPFV"
     },
     {
         "gold_ontology": "Irrealis",
-        "category": ["mood"],
+        "category": ["moods"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "IRR"
@@ -491,7 +491,7 @@
     },
     {
         "gold_ontology": "NonFuture",
-        "category": ["tense"],
+        "category": ["tenses"],
         "g_native": "true",
         "l_native": "false",
         "leipzig": "NFUT"
@@ -512,35 +512,35 @@
     },
     {
         "gold_ontology": "NonPresent",
-        "category": ["tense"],
+        "category": ["tenses"],
         "g_native": "true",
         "l_native": "false",
         "leipzig": "NPRS"
     },
     {
         "gold_ontology": "NonPast",
-        "category": ["tense"],
+        "category": ["tenses"],
         "g_native": "true",
         "l_native": "false",
         "leipzig": "NPST"
     },
     {
         "gold_ontology": "NearFuture",
-        "category": ["tense"],
+        "category": ["tenses"],
         "g_native": "true",
         "l_native": "false",
         "leipzig": "NRFUT"
     },
     {
         "gold_ontology": "NearPresent",
-        "category": ["tense"],
+        "category": ["tenses"],
         "g_native": "true",
         "l_native": "false",
         "leipzig": "NRPRS"
     },
     {
         "gold_ontology": "NearPast",
-        "category": ["tense"],
+        "category": ["tenses"],
         "g_native": "true",
         "l_native": "false",
         "leipzig": "NRPST"
@@ -575,14 +575,14 @@
     },
     {
         "gold_ontology": "Personal",
-        "category": ["aspect", "mood"],
+        "category": ["aspects", "moods"],
         "g_native": "true",
         "l_native": "false",
         "leipzig": "PERS"
     },
     {
         "gold_ontology": "Perfective",
-        "category": ["aspect"],
+        "category": ["aspects"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PFV"
@@ -610,49 +610,49 @@
     },
     {
         "gold_ontology": "Preterite",
-        "category": ["tense", "aspect"],
+        "category": ["tenses", "aspects"],
         "g_native": "false",
         "l_native": "false",
         "leipzig": "PRET"
     },
     {
         "gold_ontology": "Perfect",
-        "category": ["tense", "aspect"],
+        "category": ["tenses", "aspects"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PRF"
     },
     {
         "gold_ontology": "Progressive",
-        "category": ["aspect", "tense"],
+        "category": ["aspects", "tenses"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PROG"
     },
     {
         "gold_ontology": "Prohibitive",
-        "category": ["mood"],
+        "category": ["moods"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PROH"
     },
     {
         "gold_ontology": "Proximal",
-        "category": ["tense", "aspect"],
+        "category": ["tenses", "aspects"],
         "g_native": "false",
         "l_native": "true",
         "leipzig": "PROX"
     },
     {
         "gold_ontology": "Present",
-        "category": ["tense"],
+        "category": ["tenses"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PRS"
     },
     {
         "gold_ontology": "Past",
-        "category": ["tense"],
+        "category": ["tenses"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "PST"
@@ -666,7 +666,7 @@
     },
     {
         "gold_ontology": "Purposive",
-        "category": ["mood"],
+        "category": ["moods"],
         "g_native": "false",
         "l_native": "true",
         "leipzig": "PURP"
@@ -680,14 +680,14 @@
     },
     {
         "gold_ontology": "Quotative",
-        "category": ["mood"],
+        "category": ["moods"],
         "g_native": "false",
         "l_native": "true",
         "leipzig": "QUOT"
     },
     {
         "gold_ontology": "Recent",
-        "category": ["tense", "aspect"],
+        "category": ["tenses", "aspects"],
         "g_native": "true",
         "l_native": "false",
         "leipzig": "REC"
@@ -715,7 +715,7 @@
     },
     {
         "gold_ontology": "Remote",
-        "category": ["tense", "aspect"],
+        "category": ["tenses", "aspects"],
         "g_native": "true",
         "l_native": "false",
         "leipzig": "REM"
@@ -729,7 +729,7 @@
     },
     {
         "gold_ontology": "Resultative",
-        "category": ["aspect"],
+        "category": ["aspects"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "RES"
@@ -750,7 +750,7 @@
     },
     {
         "gold_ontology": "Subjunctive",
-        "category": ["mood"],
+        "category": ["moods"],
         "g_native": "true",
         "l_native": "true",
         "leipzig": "SBJV"

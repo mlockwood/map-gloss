@@ -28,8 +28,7 @@ Accuracy: 0.9459650778669183
 	3                   	     212
 
 3pl
-	3pl                 	      84
-	lexical entry       	       5
+	3pl                 	      89
 
 3sg
 	3sg                 	      82
@@ -157,10 +156,9 @@ ipfv
 	ipfv                	       1
 
 lexical entry
-	lexical entry       	    2911
-	user-identified     	      62
-	incomplete          	       9
-	3pl                 	       2
+	lexical entry       	    2914
+	user-identified     	      60
+	incomplete          	      10
 
 loc
 	loc                 	       1
@@ -206,9 +204,9 @@ p
 	p                   	       1
 
 part-of-speech
-	user-identified     	      94
+	user-identified     	      69
+	part-of-speech      	      26
 	lexical entry       	       2
-	part-of-speech      	       1
 
 participle
 	lexical entry       	       2
@@ -245,9 +243,9 @@ prox
 	prox                	      21
 
 prs
-	prs                 	     265
+	prs                 	     261
 	user-identified     	      51
-	incomplete          	      11
+	incomplete          	      15
 
 pst
 	pst                 	      25
@@ -270,7 +268,8 @@ remote
 	remote              	       2
 
 sbj
-	sbj                 	      76
+	sbj                 	      48
+	prs                 	      28
 
 sg
 	sg                  	     425
@@ -285,6 +284,7 @@ unrecovered
 	lexical entry       	       1
 
 user-identified
-	user-identified     	     246
+	user-identified     	     245
 	lexical entry       	      58
+	part-of-speech      	       1
 

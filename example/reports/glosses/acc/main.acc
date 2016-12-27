@@ -1,4 +1,4 @@
-Accuracy: 0.9278937381404174
+Accuracy: 0.9307400379506642
 
 1
 	1                   	       4
@@ -28,8 +28,7 @@ Accuracy: 0.9278937381404174
 	3                   	       3
 
 3pl
-	3pl                 	       5
-	lexical entry       	       1
+	3pl                 	       6
 
 3sg
 	3sg                 	       6
@@ -54,8 +53,8 @@ aux
 
 combined
 	lexical entry       	      10
-	combined            	       1
 	user-identified     	       1
+	combined            	       1
 
 comp
 	comp                	       4
@@ -134,8 +133,8 @@ incl
 
 incomplete
 	incomplete          	      42
-	lexical entry       	       1
 	part-of-speech      	       1
+	lexical entry       	       1
 
 ind
 	ind                 	       1
@@ -157,8 +156,8 @@ ipfv
 	ipfv                	       1
 
 lexical entry
-	lexical entry       	     702
-	user-identified     	      15
+	lexical entry       	     704
+	user-identified     	      13
 	incomplete          	       4
 
 loc
@@ -188,8 +187,8 @@ nonpast
 	nonpast             	       1
 
 nprs
-	nprs                	       1
 	user-identified     	       1
+	nprs                	       1
 
 npst
 	npst                	       1
@@ -205,9 +204,9 @@ p
 	p                   	       1
 
 part-of-speech
-	user-identified     	       4
+	user-identified     	       3
+	part-of-speech      	       2
 	lexical entry       	       1
-	part-of-speech      	       1
 
 participle
 	lexical entry       	       1
@@ -283,6 +282,7 @@ unrecovered
 	lexical entry       	       1
 
 user-identified
-	user-identified     	      32
+	user-identified     	      31
 	lexical entry       	       8
+	part-of-speech      	       1
 

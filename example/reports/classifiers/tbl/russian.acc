@@ -1,4 +1,4 @@
-Accuracy: 0.9526378896882494
+Accuracy: 0.9532374100719424
 
 1
 	1                   	       4
@@ -65,8 +65,8 @@ inf
 
 ins
 	user-identified     	      24
+	lexical entry       	       4
 	f                   	       4
-	m                   	       4
 
 ipfv
 	imp                 	      25
@@ -86,8 +86,7 @@ nom
 part-of-speech
 	user-identified     	       6
 	incomplete          	       3
-	m                   	       1
-	part-of-speech      	       1
+	part-of-speech      	       2
 
 pl
 	pl                  	       5

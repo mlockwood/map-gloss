@@ -153,16 +153,23 @@ class Reference(DataModel):
                     out_path,
                     load_model_choices(Model.datasets, languages),
                     load_model_baseline4(languages),
-                    self.get_two_key_ref_dict("baseline5", "input"),
-                    self.get_two_key_ref_dict("category", "final")
+                    self.get_ref_dict("baseline5", "input"),
+                    self.get_ref_dict("category", "final")
                 )
 
-    def get_ref_dict(self, key):
-        return dict(((gloss[0], gloss[1], self.results[gloss][key]), True) for gloss in self.results)
-
-    def get_two_key_ref_dict(self, key, second):
-        return dict(((gloss[0], gloss[1], self.results[gloss][key], self.results[gloss][second]), True
-                     ) for gloss in self.results)
+    def get_ref_dict(self, *args):
+        ref_dict = {}
+        for gloss in self.results:
+            values = [gloss[0], gloss[1]]
+            for arg in args:
+                if self.results[gloss][arg]:
+                    values.append(self.results[gloss][arg])
+                else:
+                    values = None
+                    break
+            if values:
+                ref_dict[tuple(values)] = True
+        return ref_dict
 
     def output_cprf_reports(self, out_path, gold, final):
         cprf = Compare(CM(gold, final, '{}_final'.format(self.model)),

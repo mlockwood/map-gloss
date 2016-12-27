@@ -1,8 +1,2 @@
 section=tense-aspect-mood
 tense-definition=choose
- tense1_name=npst
-  tense1_supertype1_name=tense
- aspect1_name=cont
-  aspect1_supertype1_name=aspect
- mood1_name=decl
-  mood1_supertype1_name=mood
