@@ -1,13 +1,13 @@
 section=tense-aspect-mood
 tense-definition=choose
- tense1_name=remote
+ tense1_name=dist
   tense1_supertype1_name=tense
- tense2_name=nonpast
+ tense2_name=remote
   tense2_supertype1_name=tense
 past=on
  tense3_name=rec
   tense3_supertype1_name=tense
- tense4_name=dist
+ tense4_name=nonpast
   tense4_supertype1_name=tense
  aspect1_name=cont
   aspect1_supertype1_name=aspect

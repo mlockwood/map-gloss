@@ -1,7 +1,7 @@
 section=tense-aspect-mood
 tense-definition=choose
+past=on
 future=on
 present=on
-past=on
  aspect1_name=prog
   aspect1_supertype1_name=aspect

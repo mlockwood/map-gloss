@@ -3,8 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="16910774-536f-4b7f-b67f-106bd2470b9e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/dataset.py" afterPath="$PROJECT_DIR$/gloss/dataset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_ces.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_ces.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_ces_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_ces_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_hbs.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_hbs.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_hbs_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_hbs_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_hix.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_hix.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_hix_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_hix_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_inh.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_inh.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_inh_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_inh_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_kat.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_kat.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_kat_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_kat_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_tgl.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_tgl.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_tgl_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_tgl_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_vie.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_vie.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/main/test_vie_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/main/test_vie_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/russian/dev1_rus.choices" afterPath="$PROJECT_DIR$/example/out/choices/russian/dev1_rus.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/out/choices/russian/dev1_rus_baseline5.choices" afterPath="$PROJECT_DIR$/example/out/choices/russian/dev1_rus_baseline5.choices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/choices/main_b4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/main_b4.cprf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/choices/main_b5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/main_b5.cprf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/choices/russian_b4.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/russian_b4.cprf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/choices/russian_b5.cprf" afterPath="$PROJECT_DIR$/example/reports/choices/russian_b5.cprf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/classifiers/tbl/main.acc" afterPath="$PROJECT_DIR$/example/reports/classifiers/tbl/main.acc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/classifiers/tbl/main.mod" afterPath="$PROJECT_DIR$/example/reports/classifiers/tbl/main.mod" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/classifiers/tbl/main.sys" afterPath="$PROJECT_DIR$/example/reports/classifiers/tbl/main.sys" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/classifiers/tbl/russian.acc" afterPath="$PROJECT_DIR$/example/reports/classifiers/tbl/russian.acc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/classifiers/tbl/russian.mod" afterPath="$PROJECT_DIR$/example/reports/classifiers/tbl/russian.mod" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/classifiers/tbl/russian.sys" afterPath="$PROJECT_DIR$/example/reports/classifiers/tbl/russian.sys" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/glosses/acc/main.acc" afterPath="$PROJECT_DIR$/example/reports/glosses/acc/main.acc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/glosses/acc/russian.acc" afterPath="$PROJECT_DIR$/example/reports/glosses/acc/russian.acc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/glosses/cprf/main.cprf" afterPath="$PROJECT_DIR$/example/reports/glosses/cprf/main.cprf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/glosses/cprf/russian.cprf" afterPath="$PROJECT_DIR$/example/reports/glosses/cprf/russian.cprf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/glosses/out/main.out" afterPath="$PROJECT_DIR$/example/reports/glosses/out/main.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/reports/glosses/out/russian.out" afterPath="$PROJECT_DIR$/example/reports/glosses/out/russian.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/model.py" afterPath="$PROJECT_DIR$/gloss/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gloss/vector.py" afterPath="$PROJECT_DIR$/gloss/vector.py" />
     </list>
     <ignored path="map_gloss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +59,7 @@
       <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gloss/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
+            <state relative-caret-position="541">
               <caret line="420" column="2" lean-forward="false" selection-start-line="420" selection-start-column="2" selection-end-line="420" selection-end-column="2" />
               <folding>
                 <element signature="e#48#59#0" expanded="true" />
@@ -36,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataset.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gloss/dataset.py">
+      <file leaf-file-name="vector.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gloss/vector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="82" column="45" lean-forward="true" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
+            <state relative-caret-position="330">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="e#48#57#0" expanded="true" />
               </folding>
@@ -71,6 +103,7 @@
       <find>iter</find>
       <find>pluperf</find>
       <find>sub</find>
+      <find>case</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;classification&quot;: &quot;part</replace>
@@ -129,12 +162,12 @@
         <option value="$PROJECT_DIR$/gloss/errors.py" />
         <option value="$PROJECT_DIR$/gloss/standard.py" />
         <option value="$PROJECT_DIR$/gloss/tbl.py" />
-        <option value="$PROJECT_DIR$/gloss/vector.py" />
         <option value="$PROJECT_DIR$/infer/constants.py" />
         <option value="$PROJECT_DIR$/infer/load_choices.py" />
         <option value="$PROJECT_DIR$/infer/make_choices.py" />
         <option value="$PROJECT_DIR$/example/data/dataset.json" />
         <option value="$PROJECT_DIR$/gloss/dataset.py" />
+        <option value="$PROJECT_DIR$/gloss/vector.py" />
         <option value="$PROJECT_DIR$/gloss/model.py" />
       </list>
     </option>
@@ -160,7 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,6 +202,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xigt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xigt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codecs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,6 +275,90 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="glosses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="glosses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map_gloss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -233,23 +381,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="map_gloss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="map_gloss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -451,18 +586,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24004085" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890704" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -483,9 +618,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example/reports/models/tbl/russian.acc" />
-    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/acc/main.acc" />
-    <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/acc/russian.acc" />
     <entry file="file://$PROJECT_DIR$/example/reports/unique_gloss/out/main.out" />
     <entry file="file://$PROJECT_DIR$/xigt/exporters/itsdb.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -536,24 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xigt/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xigt/metadata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xigt/mixins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -601,26 +719,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xigt/codecs/xigtxml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xigt/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-885">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/out/reference.json" />
     <entry file="file://$PROJECT_DIR$/utils/confusion_matrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
           <caret line="140" column="89" lean-forward="false" selection-start-line="140" selection-start-column="89" selection-end-line="140" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,19 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2025">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#48#76#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#57#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,19 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1335">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#92#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gloss/vector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1637">
-          <caret line="380" column="17" lean-forward="false" selection-start-line="380" selection-start-column="17" selection-end-line="380" selection-end-column="17" />
-          <folding>
-            <element signature="e#48#57#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,9 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#48#86#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,9 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="171" column="14" lean-forward="false" selection-start-line="171" selection-start-column="14" selection-end-line="171" selection-end-column="14" />
-          <folding>
-            <element signature="e#48#79#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,14 +835,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gloss/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="45" lean-forward="true" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
+        <state relative-caret-position="1185">
+          <caret line="82" column="45" lean-forward="false" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/data/standard_grams.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="777" column="6" lean-forward="true" selection-start-line="777" selection-start-column="6" selection-end-line="777" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xigt/codecs/xigtxml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xigt/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xigt/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xigt/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4168">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/glosses/acc/main.acc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/reports/glosses/acc/russian.acc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloss/vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="e#48#57#0" expanded="true" />
           </folding>
@@ -786,7 +919,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gloss/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
+        <state relative-caret-position="541">
           <caret line="420" column="2" lean-forward="false" selection-start-line="420" selection-start-column="2" selection-end-line="420" selection-end-column="2" />
           <folding>
             <element signature="e#48#59#0" expanded="true" />

@@ -38,8 +38,16 @@ def set_vectors(datasets):
             # Open the current xigt file
             xc = xigtxml.load(open(datasets[dataset]["iso_list"][iso]["xigt"]))
             for igt in xc:
-                # Capture the translated words
-                words = dict((w, True) for w in ' '.join([str(line.value()).lower() for line in igt.get('t')]).split())
+                # Ignore lines without glosses
+                if not igt.get('g'):
+                    continue
+
+                # Capture the translated words if a translation line exists
+                try:
+                    words = dict((w, True) for w in ' '.join([str(line.value()).lower() for line in igt.get('t')]
+                                                             ).split())
+                except:
+                    words = {}
 
                 # Determine which glosses share a morpheme
                 morphemes = {}

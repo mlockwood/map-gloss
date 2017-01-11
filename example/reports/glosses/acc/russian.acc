@@ -40,8 +40,8 @@ dat
 	dat                 	       1
 
 f
-	user-identified     	       1
 	f                   	       1
+	user-identified     	       1
 
 fp
 	fp                  	       1
@@ -80,8 +80,8 @@ nom
 	nom                 	       1
 
 part-of-speech
-	user-identified     	       1
 	incomplete          	       1
+	user-identified     	       1
 	part-of-speech      	       1
 
 pl

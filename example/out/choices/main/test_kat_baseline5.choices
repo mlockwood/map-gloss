@@ -1,6 +1,6 @@
 section=tense-aspect-mood
 tense-definition=choose
-future=on
-past=on
  tense1_name=distal
   tense1_supertype1_name=tense
+past=on
+future=on
